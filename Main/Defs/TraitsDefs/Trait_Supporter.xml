@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- 辅助干员特性文件 --> <!-- 已排序 -->
+
+	<!-- 深海色 -->
+
+	<TraitDef>
+		<defName>AK_Trait_Deepcolor</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>江河的尽头</label>
+				<description>
+				深海色描述的海洋究竟是什么？她使用的蓝色为何会让人感到不安？她在绘画时那令人不适的杂音又从何而来？
+				管它呢，探听别人的机密可不好。
+				</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.35</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<!-- 初雪 -->
+
+	<TraitDef>
+		<defName>AK_Trait_Pramanix</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>圣女</label>
+				<description>
+				圣女是整个谢拉格地方宗教至高无上的权首，身为经历残酷选拔而上位的圣女，初雪对信仰的虔诚与体能都是无可挑剔的，但是她似乎不喜欢这一圣洁的职位，貌似是因为职务太多了。
+				</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.3</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<!-- 真理 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Istina</defName>
+		<degreeDatas>
+			<li>
+				<label>真理</label>
+				<description>
+				与同龄的学生不一样，真理喜欢安静读书，并在书籍中学到了如何重新理解一切
+				</description>
+				<statOffsets>
+					<WorkSpeedGlobal>0.2</WorkSpeedGlobal>
+					<GlobalLearningFactor>0.2</GlobalLearningFactor>
+					<MentalBreakThreshold>-0.15</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<!-- 空 -->
+	
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Sora</defName>
+		<degreeDatas>
+			<li>
+				<label>阳光偶像</label>
+				<description>
+				空的表演以其可爱活泼，充满朝气的风格著名，可以说她就是“阳光少女”的代名词
+				</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.2</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<!-- 安洁莉娜 -->
+
+    <TraitDef>
+        <defName>AK_Trait_Angelina</defName>
+        <ignoreConfigErrors>true</ignoreConfigErrors>
+        <commonality>0.0</commonality>
+        <degreeDatas>
+            <li>
+                <label>年轻的信使</label>
+                <description>
+				即便已经知晓了感染者的结局，安洁莉娜却并不甘心。
+				作为信使，作为感染者，也作为一个普通的高中生，安洁莉娜正在努力地生活下去，无论未来会变成什么模样。
+				</description>
+	            <statOffsets>
+		            <MentalBreakThreshold>-0.15</MentalBreakThreshold>
+                </statOffsets>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+	<!-- 铃兰 -->
+
+	<TraitDef>
+		<defName>AK_Trait_Suzuran</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>好孩子</label>
+				<description>
+				铃兰给所有人的印象都是“听话的好孩子”事实也的确如此。
+				</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.3</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<!-- 稀音 -->
+  
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_SceneSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>缓慢但坚定</label>
+				<description>
+				也许是天生的不敏感——又或许有其他原因——稀音没有被他人的言语所击败
+				她相信自己的伙伴，她也相信自己的父母。
+				她相信，通过自己的双眼与镜头，她能帮助更多像自己一样比起语言对图像更敏感的人，而她自己也能看到更多，更多。
+				虽然稀音不说，但也许她现在也很幸福。
+				</description>
+				<statOffsets>
+					<MentalBreakThreshold>0.3</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+	
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Scene</defName>
+		<degreeDatas>
+			<li>
+				<label>慢</label>
+				<description>
+				或许是因为种族特性的缘故，稀音不论是思考还是做任何事情都极度缓慢，真——的——很——慢——哦——
+				</description>
+				<statOffsets>
+					<WorkSpeedGlobal>-0.8</WorkSpeedGlobal>
+					<GlobalLearningFactor >-0.8</GlobalLearningFactor>
+					<ImmunityGainSpeed>-0.8</ImmunityGainSpeed>
+				</statOffsets>
+				<statFactors>
+					<MoveSpeed>0.8</MoveSpeed>
+					<PsychicSensitivity>0.0</PsychicSensitivity>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<!-- 令 -->
+
+	<TraitDef>
+		<defName>AK_Trait_Ling</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>纵情快意</label>
+				<description>
+				悲长梦，醉挑灯。他年长风今犹在，旧时铁甲踏新声。
+				</description>
+				<statOffsets>
+					<MentalBreakThreshold>0.85</MentalBreakThreshold>
+				</statOffsets>
+				<statFactors>
+					<PsychicSensitivity>0.0</PsychicSensitivity>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>AK_Trait_LingSecond</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>乐逍遥</label>
+				<description>
+				长河远上，埋骸其下，吾自逍遥。
+				</description>
+				<statFactors>
+					<MoveSpeed>1.15</MoveSpeed>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<!-- 灵知 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_GnosisSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>深度思考</label>
+				<description>
+				灵知对于研究的热衷正是来自家学渊源。作为研究者来说，灵知可以说是十分理想的类型。
+				他几乎没有物欲，对于研究之外的事物几乎不抱有兴趣。他具备将自己的想法转化为现实的行动力与能力。而一旦他将精神集中到研究之上时，他就会化身成一台精密的仪器——在他参与过的诸多实验中，他从没有犯过一点错误。
+				</description>
+				<statOffsets>
+				    <WorkSpeedGlobal>0.25</WorkSpeedGlobal>
+					<ResearchSpeed>1.5</ResearchSpeed>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Gnosis</defName>
+		<degreeDatas>
+			<li>
+				<label>冷漠学者</label>
+				<description>
+				他的本名，诺希斯，意为知识、洞察。而他本人也如同这个名字的含义一般，极具洞察力，并且对于知识有着无穷的渴望。不近人情，言语刻薄。
+				</description>
+				<statOffsets>
+					<GlobalLearningFactor>1.5</GlobalLearningFactor>
+					<MentalBreakThreshold>-0.15</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<!-- 海蒂 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Heidi</defName>
+		<degreeDatas>
+			<li>
+				<label>才华横溢</label>
+				<description>
+				不论是社交，战术规划还是文学，海蒂展露出的才华远非常人能及。
+				不过对海蒂来说这些只不过是伪装的幕布
+				</description>
+				<statOffsets>
+					<WorkSpeedGlobal>0.2</WorkSpeedGlobal>
+					<GlobalLearningFactor>1</GlobalLearningFactor>
+					<MentalBreakThreshold>-0.15</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<!-- 夏栎 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_QuercusSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>风声</label>
+				<description>......她是不是有点太喜欢热闹了？就好像冷清的环境会让她感到恐惧似的。 
+				</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.30</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Quercus</defName>
+		<degreeDatas>
+			<li>
+				<label>高多汀的德鲁伊</label>
+				<description>她虽然不是感染者，但有对感染者一视同仁的医者仁心，而且有着相当娴熟、专业的战斗技巧。
+				</description>
+				<statOffsets>
+					<MedicalTendQuality>1.00</MedicalTendQuality>
+					<SocialImpact>0.30</SocialImpact>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<!-- 罗比菈塔 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_RobertaSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>化妆师</label>
+				<description>“上届学院奖颁奖典礼我是从头到尾看下来的，拿到最佳化妆与发型设计的那部电影，领头的化妆师不正是叫这个名字、长着这张脸吗？！我没记错的话，近五年来，大大小小的电影奖，她拿到的提名次数一只手根本数不过来吧？”
+				</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.05</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Roberta</defName>
+		<degreeDatas>
+			<li>
+				<label>话多</label>
+				<description>“表面肌电追踪自填充粉底遮瑕！”
+“高能源石虫酸液萃取定型喷雾！”
+“颅颌面全结构自成像修容高光！”
+“干湿用环境色自适应唇彩腮红！”
+				</description>
+				<statOffsets>
+					<SocialImpact>-0.20</SocialImpact>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+</Defs>

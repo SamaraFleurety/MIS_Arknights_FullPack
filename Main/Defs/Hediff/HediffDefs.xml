@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<HediffDef ParentName="ChronicDiseaseBase">
+		<defName>AK_Operator</defName>
+		<hediffClass>AK_DLL.Hediff_Operator</hediffClass>
+		<label>干员</label>
+		<labelNoun>干员</labelNoun>
+		<isBad>false</isBad>
+		<description>fixme</description>
+	</HediffDef>
+
+
+
+<!-- 矿石病 -->
+  <HediffDef Name="AK_Disease_ORG_Base" Abstract="True">
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.9, 1.0, 0.35)</defaultLabelColor>
+	<description>感染了源石病。</description>
+    <initialSeverity>0.001</initialSeverity>
+    <minSeverity>0.001</minSeverity>
+    <tendable>true</tendable>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>0.004</severityPerDay>
+      </li>
+      <li Class="HediffCompProperties_TendDuration">
+        <severityPerDayTended>-0.01</severityPerDayTended>
+        <baseTendDurationHours>24</baseTendDurationHours>
+      </li>
+ <!-- <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>1800000~2400000</disappearsAfterTicks> 30 ! 45 days 
+      </li>   -->
+    </comps>
+    <lethalSeverity>1</lethalSeverity>
+    <makesSickThought>true</makesSickThought>
+    <stages>
+      <li>
+        <label>早期</label>
+        <partEfficiencyOffset>-0.25</partEfficiencyOffset>
+      </li>
+      <li>
+        <minSeverity>0.5</minSeverity>
+        <label>加重</label>
+        <partEfficiencyOffset>-0.5</partEfficiencyOffset>
+      </li>
+      <li>
+        <minSeverity>0.75</minSeverity>
+        <label>严重</label>
+        <partEfficiencyOffset>-0.75</partEfficiencyOffset>
+      </li>
+	  <li>
+        <minSeverity>0.9</minSeverity>
+        <label>极重</label>
+        <partEfficiencyOffset>-1.0</partEfficiencyOffset>
+      </li>
+    </stages>  
+  </HediffDef>
+  
+  <HediffDef ParentName="AK_Disease_ORG_Base">
+    <defName>AK_Disease_ORG_Leg</defName>
+    <label>矿石病感染(腿部)</label>
+    <maxSeverity>1800000</maxSeverity>
+    <tendable>false</tendable>
+    <lethalSeverity>2800000</lethalSeverity>
+	<comps Inherit="False">
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-900000</severityPerDay>
+      </li>
+    </comps>
+    <stages Inherit="False">
+      <li>
+        <label>早期</label>
+        <partEfficiencyOffset>-0.25</partEfficiencyOffset>
+      </li>
+      <li>
+        <minSeverity>600000</minSeverity>
+        <label>加重</label>
+        <partEfficiencyOffset>-0.5</partEfficiencyOffset>
+      </li>
+      <li>
+        <minSeverity>800000</minSeverity>
+        <label>严重</label>
+        <partEfficiencyOffset>-0.75</partEfficiencyOffset>
+      </li>
+	  <li>
+        <minSeverity>890000</minSeverity>
+        <label>极重</label>
+        <partEfficiencyOffset>-0.8</partEfficiencyOffset>
+      </li>
+    </stages> 
+  </HediffDef>
+  
+  <HediffDef ParentName="DiseaseBase">
+    <defName>AK_Disease_ORG_Artificial</defName>
+    <label>人工矿石病</label>
+	<description>感染了人工矿石病。</description>
+	<defaultLabelColor>(0.9, 1.0, 0.35)</defaultLabelColor>
+	<makesSickThought>true</makesSickThought>
+	<comps>
+      <li Class="AK_LoveCat.HediffCompProperties_SpawnThing">
+        <spawnInterval>200</spawnInterval>
+		<spawnNum>20</spawnNum>
+		<thingDef>Steel</thingDef>
+      </li>
+    </comps>				
+	<stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.7</setMax>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.2</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.2</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  
+<!-- 专属 -->
+
+	<HediffDef ParentName="ChronicDiseaseBase">
+		<defName>AK_Disease_Personal_Frostnova</defName>
+		<label>永冻症</label>
+		<labelNoun>永冻症</labelNoun>
+		<description>一种永远不能被治愈的疾病....</description>
+		<stages>
+			<li>
+				<statOffsets>
+					<PainShockThreshold>-0.25</PainShockThreshold>
+					<MoveSpeed>-1.0</MoveSpeed>
+					<ComfyTemperatureMax>-10</ComfyTemperatureMax>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef ParentName="ChronicDiseaseBase">
+		<defName>AK_Disease_Personal_Patriot</defName>
+		<label>种族性感染</label>
+		<labelNoun>种族性感染</labelNoun>
+		<description>温迪戈的身体本就拥有极强的新陈代谢和修复能力，令人望而生畏变异。</description>
+		<stages>
+			<li>
+				<statOffsets>
+					<PainShockThreshold>2.0</PainShockThreshold>
+					<MoveSpeed>-0.10</MoveSpeed>
+					<ArmorRating_Sharp>0.20</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.20</ArmorRating_Blunt>
+					<ArmorRating_Heat>0.20</ArmorRating_Heat>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+<!-- FIXME:名字；降低意识 -->	
+	<HediffDef ParentName="ChronicDiseaseBase">
+		<defName>AK_Disease_Personal_PossessedSoldier</defName>
+		<label>源石增生</label>
+		<labelNoun>源石增生</labelNoun>
+		<description>不会感知到疼痛，能够慢速自愈，增强肉体强度，但是大幅度降低意识。</description>
+		<stages>
+			<li>
+				<painFactor>0.0</painFactor>
+				<statOffsets>
+					<MoveSpeed>0.50</MoveSpeed>
+					<ArmorRating_Sharp>0.30</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.30</ArmorRating_Blunt>
+					<ArmorRating_Heat>0.30</ArmorRating_Heat>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef ParentName="ChronicDiseaseBase">
+		<defName>AK_Disease_Personal_EnragedPossessedSoldier</defName>
+		<label>源石侵蚀</label>
+		<labelNoun>源石侵蚀</labelNoun>
+		<description>不会感知到疼痛，大幅度增加肉体强度和移动速度</description>
+		<stages>
+			<li>
+				<painFactor>0.0</painFactor>
+				<statOffsets>
+					<MoveSpeed>0.70</MoveSpeed>
+					<ArmorRating_Sharp>0.50</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.50</ArmorRating_Blunt>
+					<ArmorRating_Heat>0.50</ArmorRating_Heat>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+ </Defs>

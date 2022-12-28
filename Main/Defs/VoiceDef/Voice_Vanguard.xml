@@ -1,0 +1,2842 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<!-- Saga 嵯峨 -->
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Recruit_Saga</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Saga/char_362_saga/Recruit_Saga</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+    
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Die_Saga</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Saga/char_362_saga/Die_Saga</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Draft_SagaI</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Saga/char_362_saga/Draft_SagaI</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Draft_SagaII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Saga/char_362_saga/Draft_SagaII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Select_SagaI</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Saga/char_362_saga/Select_SagaI</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Select_SagaII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Saga/char_362_saga/Select_SagaII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Select_SagaIII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Saga/char_362_saga/Select_SagaIII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Select_SagaIV</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Saga/char_362_saga/Select_SagaIV</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Ability_SagaI</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Saga/char_362_saga/Ability_SagaI</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Ability_SagaII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Saga/char_362_saga/Ability_SagaII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Ability_SagaIII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Saga/char_362_saga/Ability_SagaIII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Ability_SagaIV</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Saga/char_362_saga/Ability_SagaIV</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+<!-- Texas 德克萨斯 -->
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Recruit_Texas</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Texas/char_102_texas/Recruit_Texas</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+    
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Die_Texas</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Texas/char_102_texas/Die_Texas</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Draft_TexasI</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Texas/char_102_texas/Draft_TexasI</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Draft_TexasII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Texas/char_102_texas/Draft_TexasII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Select_TexasI</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Texas/char_102_texas/Select_TexasI</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Select_TexasII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Texas/char_102_texas/Select_TexasII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Select_TexasIII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Texas/char_102_texas/Select_TexasIII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Select_TexasIV</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Texas/char_102_texas/Select_TexasIV</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Ability_TexasI</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Texas/char_102_texas/Ability_TexasI</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Ability_TexasII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Texas/char_102_texas/Ability_TexasII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Ability_TexasIII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Texas/char_102_texas/Ability_TexasIII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Ability_TexasIV</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Texas/char_102_texas/Ability_TexasIV</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+<!-- Bagpipe 风笛 -->
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Recruit_Bagpipe</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Bagpipe/char_222_bpipe/Recruit_Bagpipe</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+    
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Die_Bagpipe</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Bagpipe/char_222_bpipe/Die_Bagpipe</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Draft_BagpipeI</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Bagpipe/char_222_bpipe/Draft_BagpipeI</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Draft_BagpipeII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Bagpipe/char_222_bpipe/Draft_BagpipeII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Select_BagpipeI</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Bagpipe/char_222_bpipe/Select_BagpipeI</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Select_BagpipeII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Bagpipe/char_222_bpipe/Select_BagpipeII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Select_BagpipeIII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Bagpipe/char_222_bpipe/Select_BagpipeIII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Select_BagpipeIV</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Bagpipe/char_222_bpipe/Select_BagpipeIV</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Ability_BagpipeI</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Bagpipe/char_222_bpipe/Ability_BagpipeI</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Ability_BagpipeII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Bagpipe/char_222_bpipe/Ability_BagpipeII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Ability_BagpipeIII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Bagpipe/char_222_bpipe/Ability_BagpipeIII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Ability_BagpipeIV</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Bagpipe/char_222_bpipe/Ability_BagpipeIV</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+<!-- Siege 王维娜 -->
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Recruit_Siege</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Siege/char_112_siege/Recruit_Siege</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+    
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Die_Siege</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Siege/char_112_siege/Die_Siege</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Draft_SiegeI</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Siege/char_112_siege/Draft_SiegeI</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Draft_SiegeII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Siege/char_112_siege/Draft_SiegeII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Select_SiegeI</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Siege/char_112_siege/Select_SiegeI</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Select_SiegeII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Siege/char_112_siege/Select_SiegeII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Select_SiegeIII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Siege/char_112_siege/Select_SiegeIII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Select_SiegeIV</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Siege/char_112_siege/Select_SiegeIV</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Ability_SiegeI</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Siege/char_112_siege/Ability_SiegeI</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Ability_SiegeII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Siege/char_112_siege/Ability_SiegeII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Ability_SiegeIII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Siege/char_112_siege/Ability_SiegeIII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Ability_SiegeIV</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Siege/char_112_siege/Ability_SiegeIV</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+<!-- Reed 苇草 -->
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Recruit_Reed</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Reed/char_261_sddrag/Recruit_Reed</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+    
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Die_Reed</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Reed/char_261_sddrag/Die_Reed</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Draft_ReedI</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Reed/char_261_sddrag/Draft_ReedI</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Draft_ReedII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Reed/char_261_sddrag/Draft_ReedII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Select_ReedI</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Reed/char_261_sddrag/Select_ReedI</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Select_ReedII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Reed/char_261_sddrag/Select_ReedII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Select_ReedIII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Reed/char_261_sddrag/Select_ReedIII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Select_ReedIV</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Reed/char_261_sddrag/Select_ReedIV</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Ability_ReedI</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Reed/char_261_sddrag/Ability_ReedI</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Ability_ReedII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Reed/char_261_sddrag/Ability_ReedII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Ability_ReedIII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Reed/char_261_sddrag/Ability_ReedIII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Ability_ReedIV</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Reed/char_261_sddrag/Ability_ReedIV</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+<!-- Vanilla 香草 -->
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Recruit_Vanilla</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Vanilla/char_240_wyvern/Recruit_Vanilla</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+    
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Die_Vanilla</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Vanilla/char_240_wyvern/Die_Vanilla</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Draft_VanillaI</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Vanilla/char_240_wyvern/Draft_VanillaI</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Draft_VanillaII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Vanilla/char_240_wyvern/Draft_VanillaII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Select_VanillaI</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Vanilla/char_240_wyvern/Select_VanillaI</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Select_VanillaII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Vanilla/char_240_wyvern/Select_VanillaII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Select_VanillaIII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Vanilla/char_240_wyvern/Select_VanillaIII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Select_VanillaIV</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Vanilla/char_240_wyvern/Select_VanillaIV</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Ability_VanillaI</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Vanilla/char_240_wyvern/Ability_VanillaI</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Ability_VanillaII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Vanilla/char_240_wyvern/Ability_VanillaII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Ability_VanillaIII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Vanilla/char_240_wyvern/Ability_VanillaIII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Ability_VanillaIV</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Vanilla/char_240_wyvern/Ability_VanillaIV</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+<!-- Flametail 焰尾 -->
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Recruit_Flametail</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Flametail/char_420_flamtl/Recruit_Flametail</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+    
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Die_Flametail</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Flametail/char_420_flamtl/Die_Flametail</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Draft_FlametailI</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Flametail/char_420_flamtl/Draft_FlametailI</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Draft_FlametailII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Flametail/char_420_flamtl/Draft_FlametailII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Select_FlametailI</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Flametail/char_420_flamtl/Select_FlametailI</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Select_FlametailII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Flametail/char_420_flamtl/Select_FlametailII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Select_FlametailIII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Flametail/char_420_flamtl/Select_FlametailIII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Select_FlametailIV</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Flametail/char_420_flamtl/Select_FlametailIV</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Ability_FlametailI</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Flametail/char_420_flamtl/Ability_FlametailI</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Ability_FlametailII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Flametail/char_420_flamtl/Ability_FlametailII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Ability_FlametailIII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Flametail/char_420_flamtl/Ability_FlametailIII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Ability_FlametailIV</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Flametail/char_420_flamtl/Ability_FlametailIV</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+<!-- Saileach 琴柳 -->
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Recruit_Saileach</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Saileach/char_479_sleach/Recruit_Saileach</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+    
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Die_Saileach</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Saileach/char_479_sleach/Die_Saileach</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Draft_SaileachI</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Saileach/char_479_sleach/Draft_SaileachI</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Draft_SaileachII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Saileach/char_479_sleach/Draft_SaileachII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Select_SaileachI</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Saileach/char_479_sleach/Select_SaileachI</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Select_SaileachII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Saileach/char_479_sleach/Select_SaileachII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Select_SaileachIII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Saileach/char_479_sleach/Select_SaileachIII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Select_SaileachIV</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Saileach/char_479_sleach/Select_SaileachIV</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Ability_SaileachI</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Saileach/char_479_sleach/Ability_SaileachI</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Ability_SaileachII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Saileach/char_479_sleach/Ability_SaileachII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Ability_SaileachIII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Saileach/char_479_sleach/Ability_SaileachIII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Ability_SaileachIV</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Saileach/char_479_sleach/Ability_SaileachIV</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+<!-- Beanstalk 豆苗 -->
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Recruit_Beanstalk</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Beanstalk/char_452_bstalk/Recruit_Beanstalk</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+    
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Die_Beanstalk</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Beanstalk/char_452_bstalk/Die_Beanstalk</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Draft_BeanstalkI</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Beanstalk/char_452_bstalk/Draft_BeanstalkI</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Draft_BeanstalkII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Beanstalk/char_452_bstalk/Draft_BeanstalkII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Select_BeanstalkI</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Beanstalk/char_452_bstalk/Select_BeanstalkI</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Select_BeanstalkII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Beanstalk/char_452_bstalk/Select_BeanstalkII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Select_BeanstalkIII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Beanstalk/char_452_bstalk/Select_BeanstalkIII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Select_BeanstalkIV</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Beanstalk/char_452_bstalk/Select_BeanstalkIV</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Ability_BeanstalkI</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Beanstalk/char_452_bstalk/Ability_BeanstalkI</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Ability_BeanstalkII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Beanstalk/char_452_bstalk/Ability_BeanstalkII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Ability_BeanstalkIII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Beanstalk/char_452_bstalk/Ability_BeanstalkIII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Ability_BeanstalkIV</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Beanstalk/char_452_bstalk/Ability_BeanstalkIV</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+<!-- Myrtle 桃金娘 -->
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Recruit_Myrtle</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Myrtle/char_151_myrtle/Recruit_Myrtle</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+    
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Die_Myrtle</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Myrtle/char_151_myrtle/Die_Myrtle</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Draft_MyrtleI</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Myrtle/char_151_myrtle/Draft_MyrtleI</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Draft_MyrtleII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Myrtle/char_151_myrtle/Draft_MyrtleII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Select_MyrtleI</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Myrtle/char_151_myrtle/Select_MyrtleI</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Select_MyrtleII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Myrtle/char_151_myrtle/Select_MyrtleII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Select_MyrtleIII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Myrtle/char_151_myrtle/Select_MyrtleIII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Select_MyrtleIV</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Myrtle/char_151_myrtle/Select_MyrtleIV</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Ability_MyrtleI</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Myrtle/char_151_myrtle/Ability_MyrtleI</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Ability_MyrtleII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Myrtle/char_151_myrtle/Ability_MyrtleII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Ability_MyrtleIII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Myrtle/char_151_myrtle/Ability_MyrtleIII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+<!-- Grani 格拉尼 -->
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Recruit_Grani</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Grani/char_220_grani/Recruit_Grani</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+    
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Die_Grani</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Grani/char_220_grani/Die_Grani</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Draft_GraniI</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Grani/char_220_grani/Draft_GraniI</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Draft_GraniII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Grani/char_220_grani/Draft_GraniII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Select_GraniI</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Grani/char_220_grani/Select_GraniI</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Select_GraniII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Grani/char_220_grani/Select_GraniII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Select_GraniIII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Grani/char_220_grani/Select_GraniIII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Select_GraniIV</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Grani/char_220_grani/Select_GraniIV</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Ability_GraniI</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Grani/char_220_grani/Ability_GraniI</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Ability_GraniII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Grani/char_220_grani/Ability_GraniII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Ability_GraniIII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Grani/char_220_grani/Ability_GraniIII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Ability_GraniIV</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Grani/char_220_grani/Ability_GraniIV</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+<!-- Zima 凛冬 -->
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Recruit_Zima</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Zima/char_115_headbr/Recruit_Zima</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+    
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Die_Zima</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Zima/char_115_headbr/Die_Zima</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Draft_ZimaI</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Zima/char_115_headbr/Draft_ZimaI</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Draft_ZimaII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Zima/char_115_headbr/Draft_ZimaII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Select_ZimaI</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Zima/char_115_headbr/Select_ZimaI</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Select_ZimaII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Zima/char_115_headbr/Select_ZimaII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Select_ZimaIII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Zima/char_115_headbr/Select_ZimaIII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Select_ZimaIV</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Zima/char_115_headbr/Select_ZimaIV</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Ability_ZimaI</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Zima/char_115_headbr/Ability_ZimaI</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Ability_ZimaII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Zima/char_115_headbr/Ability_ZimaII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Ability_ZimaIII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Zima/char_115_headbr/Ability_ZimaIII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Ability_ZimaIV</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Zima/char_115_headbr/Ability_ZimaIV</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+<!-- Courier 讯使 -->
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Recruit_Courier</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Courier/char_198_blackd/Recruit_Courier</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+    
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Die_Courier</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Courier/char_198_blackd/Die_Courier</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Draft_CourierI</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Courier/char_198_blackd/Draft_CourierI</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Draft_CourierII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Courier/char_198_blackd/Draft_CourierII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Select_CourierI</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Courier/char_198_blackd/Select_CourierI</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Select_CourierII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Courier/char_198_blackd/Select_CourierII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Select_CourierIII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Courier/char_198_blackd/Select_CourierIII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Select_CourierIV</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Courier/char_198_blackd/Select_CourierIV</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Ability_CourierI</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Courier/char_198_blackd/Ability_CourierI</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Ability_CourierII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Courier/char_198_blackd/Ability_CourierII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Ability_CourierIII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Courier/char_198_blackd/Ability_CourierIII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Ability_CourierIV</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Courier/char_198_blackd/Ability_CourierIV</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <!-- 野鬃 -->
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Recruit_Wild</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/WildMane/char_496_wildmn/Recruit_WildMane</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+    
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Die_Wild</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/WildMane/char_496_wildmn/Die_WildMane</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Draft_WildI</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/WildMane/char_496_wildmn/Draft_WildManeI</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Draft_WildII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/WildMane/char_496_wildmn/Draft_WildManeII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Select_WildI</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/WildMane/char_496_wildmn/Select_WildManeI</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Select_WildII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/WildMane/char_496_wildmn/Select_WildManeII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Select_WildIII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/WildMane/char_496_wildmn/Select_WildManeIII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Select_WildIV</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/WildMane/char_496_wildmn/Select_WildManeIV</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Ability_WildI</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/WildMane/char_496_wildmn/Ability_WildManeI</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Ability_WildII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/WildMane/char_496_wildmn/Ability_WildManeII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Ability_WildIII</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/WildMane/char_496_wildmn/Ability_WildManeIII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+</Defs>

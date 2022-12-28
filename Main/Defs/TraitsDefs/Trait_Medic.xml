@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- 医疗干员特性文件 --> <!-- 已排序 -->
+
+	<!-- 白面鸮 -->
+
+	<TraitDef>
+		<defName>AK_Trait_Ptilopsis</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>另一个声音</label>
+				<description>白面鸮脑中出现了另一个声音，一个不属于已知语言范畴的声音，这东西会给她的精神造成极大负担。
+				只有使用机械性语言逻辑才能减轻这种痛苦。
+				</description>
+				<statOffsets>
+					<PsychicSensitivity>1.2</PsychicSensitivity>
+					<MentalBreakThreshold>0.2</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>AK_Trait_PtilopsisSecond</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>人形知识库</label>
+				<description>
+				作为数据维护员的白面鸮，脑子里装载着数量难以想象的知识，这会对她的工作和学习起到巨大的帮助。
+				</description>
+				<statOffsets>
+					<WorkSpeedGlobal>0.3</WorkSpeedGlobal>
+					<GlobalLearningFactor>1.0</GlobalLearningFactor>
+					<MedicalSurgerySuccessChance>0.8</MedicalSurgerySuccessChance>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<!-- 赫默 -->
+
+	<TraitDef>
+		<defName>AK_Trait_Silence</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>真正的学者</label>
+				<description>
+				赫默拥有敏锐的洞察力以及极强的执行力。她就像一台精密的机器，不会出现一丝一毫的错误。她手下的科研小组也耳濡目染，整个组的氛围都显得有些忙碌和紧凑。
+				</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.1</MentalBreakThreshold>
+					<WorkSpeedGlobal>0.15</WorkSpeedGlobal>
+					<GlobalLearningFactor>0.25</GlobalLearningFactor>
+					<MedicalSurgerySuccessChance>0.45</MedicalSurgerySuccessChance>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<!-- 嘉维尔 -->
+
+	<TraitDef>
+		<defName>AK_Trait_Gavial</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>奇特却坚定的医师</label>
+				<description>
+				嘉维尔经常会被怀疑手中的魔杖是用来敲人而非使用治疗法术的。
+				但在她口中，成为医生而被族人排挤也好，感染矿石病后遭受的冷眼也好，似乎都是不值一提的小事。
+				她现在在这里，她为每个人疗伤，对她来说，这样就足够了。
+				这样的嘉维尔小姐，是值得每个人去尊敬和学习的。
+				</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.25</MentalBreakThreshold>
+					<MedicalSurgerySuccessChance>-0.15</MedicalSurgerySuccessChance>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<!-- 调香师 -->
+
+	<TraitDef>
+		<defName>AK_Trait_Perfumer</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>手有余香</label>
+				<description>
+				就职于疗养庭园期间，莱娜展现出的温柔，耐心和十足的修养，以及足以令人沉醉其中的调制香薰，使她在干员之间颇受欢迎。</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.15</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<!-- 闪灵 -->
+
+	<TraitDef>
+		<defName>AK_Trait_Follower</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>使徒</label>
+				<description>
+				“那美好的仗我已经打过了，当跑的路我已经跑尽了，所信的道我已经守住了”
+				“从此以后，有公义的冠冕为我存留”
+				“就是按着公义审判的主到了那日要赐给我的”
+				“不但赐给我，也赐给凡爱慕他显现的人” 
+				</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.35</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>AK_Trait_Shining</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>慈悲</label>
+				<description>闪灵的眼神中仿佛永久带着慈悲，虽然她拥有着她人无可比拟的剑术，但是她在绝大多数时候拒绝使用暴力。
+				</description>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<!-- 夜莺 -->
+
+	<TraitDef>
+		<defName>AK_Trait_Nightingale</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>提灯女神</label>
+				<description>
+				AND THEY WERE DANCING, ***
+				THE BOARD FLOOR SLAMMING UNDER THE HOOVES AND THE SWORDS SHINING HIDEOUSLY OVER THEIR BLOODSTAINED CLOAKS. ***
+				HE SAYS HE WILL WIPE ALL THEM OUT FROM SARKAZ. HE NEVER RESTS, HE SAYS. HE SAYS THAT HE WILL NEVER DIE.
+				</description>
+				<statOffsets>
+					<MedicalSurgerySuccessChance>1</MedicalSurgerySuccessChance>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>AK_Trait_NightingaleSecond</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>封闭的希望</label>
+				<description>“笼中的晶光，即使笼门开着，即使光芒能洒在别人身上，晶石本身还是固定在笼中。
+因为它没有移动的能力，被固定在了那里。”
+				</description>
+				<statOffsets>
+					<PsychicSensitivity>-0.5</PsychicSensitivity>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<!-- 凯尔希 -->
+
+	<TraitDef>
+		<defName>AK_Trait_Kaltsit</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>旧日之影</label>
+				<description>
+				魔王死了
+				巴别塔倒塌了。
+				</description>
+				<statOffsets>
+					<MentalBreakThreshold>-1.0</MentalBreakThreshold>
+				</statOffsets>
+				<statFactors>
+					<PsychicSensitivity>0.0</PsychicSensitivity>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>AK_Trait_KaltsitSecond</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>无所不知</label>
+				<description>
+				凯尔希在在冶金工业、社会学、源石技艺、考古学、历史系谱学、经济学、植物学、地质学等领域皆拥有渊博学识。就像是无所不知一般。
+				</description>
+				<statOffsets>
+					<WorkSpeedGlobal>0.4</WorkSpeedGlobal>
+					<GlobalLearningFactor>1.2</GlobalLearningFactor>
+					<ResearchSpeed>1.8</ResearchSpeed>
+					<MedicalSurgerySuccessChance>1.4</MedicalSurgerySuccessChance>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<!-- 华法林 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_WarfarinSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>血先生</label>
+				<description>
+				尽管华法林有着各种天马行空的想法和淡泊的道德，但是她还是维持了一个医生与淑女基础的素养。
+				而且她的医术真的很高超，并也在尽力克服她的种群本能。
+				</description>
+				<statOffsets>
+					<GlobalLearningFactor>0.4</GlobalLearningFactor>
+					<ResearchSpeed>0.15</ResearchSpeed>
+					<MedicalSurgerySuccessChance>1.35</MedicalSurgerySuccessChance>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Warfarin</defName>
+		<degreeDatas>
+			<li>
+				<label>道德淡泊</label>
+				<description>
+				华法林的道德感相当的淡泊，她只要想到了什么点子，就会立刻去实践，而且完全不会顾及天理伦常。
+				即使是被多次说教也毫无用处，说到底，她大概也根本没在反省就是了。
+				</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.15</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+</Defs>

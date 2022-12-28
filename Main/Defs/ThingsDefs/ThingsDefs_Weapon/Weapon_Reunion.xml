@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!-- 首领 -->
+  <ThingDef ParentName="AK_WeaponBase_Reunion">
+    <defName>AK_Weapon_Chaser</defName>
+    <label>利刃佩刀</label>
+    <graphicData>
+      <texPath>Things/AK_Reunion/Weapon/ChaserW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<weaponTags>
+      <li></li>
+    </weaponTags>
+  </ThingDef>
+  
+  <ThingDef ParentName="AK_WeaponBase_Reunion">
+    <defName>AK_Weapon_Frostnova</defName>
+    <label>霜星的短刀</label>
+    <graphicData>
+      <texPath>Things/AK_Reunion/Weapon/FrostnovaW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<weaponTags>
+      <li></li>
+    </weaponTags>
+  </ThingDef>
+  
+  <ThingDef ParentName="AK_WeaponBase_Reunion">
+    <defName>AK_Weapon_PatriotTypeA</defName>
+    <label>爱国者武器</label>
+    <graphicData>
+      <texPath>Things/AK_Reunion/Weapon/PatriotW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<weaponTags>
+      <li></li>
+    </weaponTags>
+  </ThingDef>
+  
+  <ThingDef ParentName="AK_WeaponBase_Reunion">
+    <defName>AK_Weapon_PatriotTypeB</defName>
+    <label>爱国者武器B</label>
+    <graphicData>
+      <texPath>Things/AK_Reunion/Weapon/PatriotWB</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<weaponTags>
+      <li></li>
+    </weaponTags>
+  </ThingDef>
+<!-- 士兵 -->
+  <ThingDef ParentName="AK_WeaponBase_Reunion">
+    <defName>AK_Weapon_Militant</defName>
+    <label>武装人员大斧</label>
+    <graphicData>
+      <texPath>Things/AK_Reunion/Soldier/ArmedMilitant/MilitantW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<weaponTags>
+      <li>AK_WeaponTag_Militant</li>
+    </weaponTags>
+  </ThingDef>
+  
+  <ThingDef ParentName="AK_WeaponBase_Reunion">
+    <defName>AK_Weapon_Avenger</defName>
+    <label>复仇者的武士刀</label>
+    <graphicData>
+      <texPath>Things/AK_Reunion/Soldier/Avenger/AvengerW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<weaponTags>
+      <li>AK_WeaponTag_Avenger</li>
+    </weaponTags>
+  </ThingDef>
+  
+  <ThingDef ParentName="AK_WeaponBase_Reunion">
+    <defName>AK_Weapon_GuerrillaSniper</defName>
+    <label>游击队狙击步枪</label>
+    <graphicData>
+      <texPath>Things/AK_Reunion/Soldier/GuerrillaSniper/GuerrillaSniperW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<weaponTags>
+      <li>AK_WeaponTag_GuerrillaSniper</li>
+    </weaponTags>
+  </ThingDef>
+  
+  <ThingDef ParentName="AK_WeaponBase_Reunion">
+    <defName>AK_Weapon_GuerrillaSoldier</defName>
+    <label>游击队斧</label>
+    <graphicData>
+      <texPath>Things/AK_Reunion/Soldier/GuerrillaSoldier/GuerrillaSoldierW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<weaponTags>
+      <li>AK_WeaponTag_GuerrillaSoldier</li>
+    </weaponTags>
+  </ThingDef>
+  
+  <ThingDef ParentName="AK_WeaponBase_Reunion">
+    <defName>AK_Weapon_ImperialStriker</defName>
+    <label>前锋投枪</label>
+    <graphicData>
+      <texPath>Things/AK_Reunion/Soldier/ImperialStriker/ImperialStrikerW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<weaponTags>
+      <li>AK_WeaponTag_ImperialStriker</li>
+    </weaponTags>
+  </ThingDef>
+  
+  <ThingDef ParentName="AK_WeaponBase_Reunion">
+    <defName>AK_Weapon_InfectedPatrol</defName>
+    <label>纠察官佩刀</label>
+    <graphicData>
+      <texPath>Things/AK_Reunion/Soldier/InfectedPatrol/InfectedPatrol</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<weaponTags>
+      <li>AK_WeaponTag_InfectedPatrol</li>
+    </weaponTags>
+  </ThingDef>
+  
+  <ThingDef ParentName="AK_WeaponBase_Reunion">
+    <defName>AK_Weapon_ShieldGuard</defName>
+    <label>巨盾</label>
+    <graphicData>
+      <texPath>Things/AK_Reunion/Soldier/ShieldGuard/ShieldGuardW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<weaponTags>
+      <li>AK_WeaponTag_ShieldGuard</li>
+    </weaponTags>
+  </ThingDef>
+  
+  <ThingDef ParentName="AK_WeaponBase_Reunion">
+    <defName>AK_Weapon_UrsusRaider</defName>
+    <label>突击手长枪</label>
+    <graphicData>
+      <texPath>Things/AK_Reunion/Soldier/UrsusRaider/UrsusRaiderW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<weaponTags>
+      <li>AK_WeaponTag_UrsusRaider</li>
+    </weaponTags>
+  </ThingDef>
+  
+</Defs>

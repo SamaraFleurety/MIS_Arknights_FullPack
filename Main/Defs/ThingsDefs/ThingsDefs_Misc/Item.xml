@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef>
+		<thingClass>ThingWithComps</thingClass>
+		<defName>AK_Item_RecruitTicket</defName>
+		<label>Recruit Ticket</label>
+		<description>A Single-Use ticket to recruit one operator from Rhodes Island.</description>
+		<category>Item</category>
+		<drawerType>MapMeshOnly</drawerType>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<useHitPoints>true</useHitPoints>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<selectable>true</selectable>
+		<altitudeLayer>Item</altitudeLayer>
+		<stackLimit>20</stackLimit>
+		<graphicData>
+			<texPath>Things/Item/RecruitTicket</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>6480</MarketValue>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<Beauty>1</Beauty>
+			<Mass>0.5</Mass>
+			<DeteriorationRate>10</DeteriorationRate>
+			<WorkToMake>648</WorkToMake>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+		</comps>
+		<alwaysHaulable>true</alwaysHaulable>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<rotatable>false</rotatable>
+		<pathCost>14</pathCost>
+		<allowedArchonexusCount>-1</allowedArchonexusCount>    
+		<thingCategories>
+			<li>AK_Item</li>
+        </thingCategories>
+	</ThingDef>
+
+</Defs>

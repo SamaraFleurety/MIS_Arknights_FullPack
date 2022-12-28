@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="AK_ArmorBase">
+    <defName>AK_Apparel_Doctor</defName>
+    <label>博士的服装</label>
+    <graphicData>
+      <texPath>Things/AK_Agents/GApparel</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Things/AK_Agents/Specialist/Doctor</wornGraphicPath>
+    </apparel>
+  </ThingDef>
+  
+  <ThingDef ParentName="AK_ArmorBase_Specialist">
+    <defName>AK_Apparel_Red</defName>
+    <label>红的服装</label>
+    <graphicData>
+      <texPath>Things/AK_Agents/GApparel</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Things/AK_Agents/Specialist/ProjektRed</wornGraphicPath>
+    </apparel>
+  </ThingDef>
+    
+  <ThingDef ParentName="AK_ArmorBase_Specialist">
+    <defName>AK_Apparel_Robin</defName>
+    <label>罗宾的服装</label>
+    <graphicData>
+      <texPath>Things/AK_Agents/GApparel</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Things/AK_Agents/Specialist/Robin</wornGraphicPath>
+    </apparel>
+  </ThingDef>
+  
+ 	<ThingDef ParentName="AK_ArmorBase_Specialist">
+		<defName>AK_Apparel_Gladiia</defName>
+		<label>歌蕾蒂娅服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Specialist/Gladiia</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Specialist">
+		<defName>AK_Apparel_Weedy</defName>
+		<label>温蒂服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Specialist/Weedy</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Specialist">
+		<defName>AK_Apparel_Mizuki</defName>
+		<label>水月服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Specialist/Mizuki</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Specialist">
+		<defName>AK_Apparel_Gravel</defName>
+		<label>砾服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Specialist/Gravel</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Specialist">
+		<defName>AK_Apparel_Kafka</defName>
+		<label>卡夫卡服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Specialist/Kafka</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Specialist">
+		<defName>AK_Apparel_Cliffheart</defName>
+		<label>崖心服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Specialist/Cliffheart</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Specialist">
+		<defName>AK_Apparel_Dorothy</defName>
+		<label>多萝西服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Specialist/Dorothy</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+</Defs>

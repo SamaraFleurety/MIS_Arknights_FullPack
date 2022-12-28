@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- 基本上都是技能相关的hediff，不要单独修改。-->
+	<HediffDef>
+		<defName>AK_Hediff_Regrow</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>Regrow</label>
+		<description>This pawn was tented by medic's ability. Wounds will regrow quickly over time.</description>
+		<isBad>false</isBad>
+		<defaultLabelColor>(1,1,0.5)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>9.6</maxSeverity>
+		<comps>
+			<li Class="AK_DLL.HediffCompProperties_Regrow">
+				<healInterval>120</healInterval>
+				<healAmount>1</healAmount>
+			</li>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-2.4</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+		    <li>
+				<painFactor>0.8</painFactor>
+		    </li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>AK_Hediff_SelfExplosion</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>selfExp</label>
+		<description>will do explosion on self</description>
+		<isBad>false</isBad>
+		<defaultLabelColor>(1,1,0.5)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1</maxSeverity>
+		<comps>
+			<li Class="AK_DLL.HCP_SelfExplosion">
+				<afterTicks>120</afterTicks>
+				<radius>1</radius>
+				<damage>10</damage>
+			</li>
+		</comps>
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>AK_Hediff_EnhancerMelee</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>MeleeEnhancer</label>
+		<description>enhances melee damage</description>
+		<isBad>false</isBad>
+		<defaultLabelColor>(1,1,0.5)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1</maxSeverity>
+		<comps>
+			<li Class="AK_DLL.HCP_DpsEnhance_Melee">
+				<interval>1</interval>
+				<procedureCount>1</procedureCount>
+				<enhanceEndTime>10</enhanceEndTime>
+				<enhances>
+				</enhances>
+			</li>
+		</comps>
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>AK_Hediff_EnhancerRanged</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>RangedEnhancer</label>
+		<description>enhances ranged damage</description>
+		<isBad>false</isBad>
+		<defaultLabelColor>(1,1,0.5)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1</maxSeverity>
+		<comps>
+			<li Class="AK_DLL.HCP_DpsEnhance_Ranged">
+				<statOffset>
+					<damage>0</damage>
+					<stats>
+						<Mass>4.6</Mass>
+					</stats>
+				</statOffset>
+				<duration>30</duration>
+			</li>
+		</comps>
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>AK_Hediff_BloodLoss</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>Blood Loss</label>
+		<description>Gradually loss blood</description>
+		<isBad>true</isBad>
+		<defaultLabelColor>(1,0.2,0.0)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1</maxSeverity>
+		<comps>
+			<li Class="AK_DLL.HCP_BloodLoss">
+				<duration>10</duration>
+				<delay>1</delay>
+				<lossAmount>0.02</lossAmount>
+			</li>
+		</comps>
+	</HediffDef>
+</Defs>

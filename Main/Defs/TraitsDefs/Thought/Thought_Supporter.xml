@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- Supporter --> <!-- 已排序 -->
+
+	<!-- 空 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Sora</defName>
+		<requiredTraits>
+			<li>AK_Trait_Sora</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>阳光偶像</label>
+				<description>闪闪发亮！</description>
+				<baseMoodEffect>20</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 安洁莉娜 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Angelina</defName>
+		<requiredTraits><li>AK_Trait_Angelina</li></requiredTraits>
+		<stages>
+			<li>
+				<label>年轻的信使</label>
+				<description>跑得不够快的信使，是会被风吹落的</description>
+				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 铃兰 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Suzuran</defName>
+		<requiredTraits>
+			<li>AK_Trait_Suzuran</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>好孩子</label>
+				<description>烦恼？我其实没有什么烦恼...大家对我都很好，我不能太任性。</description>
+				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 稀音 -->
+	
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_SceneSecond</defName>
+		<requiredTraits>
+			<li>AK_Trait_SceneSecond</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>缓慢但坚定</label>
+				<description>看到喜欢的，就要拍下，存起来。</description>
+				<baseMoodEffect>12</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 令 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_LingSecond</defName>
+		<requiredTraits>
+			<li>AK_Trait_LingSecond</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>乐逍遥</label>
+				<description>云峦波涛，千里枯路，江山故人我，晚秋行舟。</description>
+				<baseMoodEffect>20</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 灵知 -->
+	
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Gnosis</defName>
+		<requiredTraits><li>AK_Trait_Gnosis</li></requiredTraits>
+		<stages>
+			<li>
+				<label>深度思考</label>
+				<description>你打断了我的思路</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+<!-- 夏栎 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Quercus</defName>
+		<requiredTraits><li>AK_Trait_Quercus</li></requiredTraits>
+		<stages>
+			<li>
+				<label>风声</label>
+				<description>一直坐在这么矮的天花板底下，大脑也会变迟钝的，还是多去外面吹吹风吧。 </description>
+				<baseMoodEffect>18</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+<!-- 罗比菈塔 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Roberta</defName>
+		<requiredTraits><li>AK_Trait_Roberta</li></requiredTraits>
+		<stages>
+			<li>
+				<label>化妆师</label>
+				<description>“上届学院奖颁奖典礼我是从头到尾看下来的，拿到最佳化妆与发型设计的那部电影，领头的化妆师不正是叫这个名字、长着这张脸吗？！我没记错的话，近五年来，大大小小的电影奖，她拿到的提名次数一只手根本数不过来吧？”</description>
+				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+</Defs>

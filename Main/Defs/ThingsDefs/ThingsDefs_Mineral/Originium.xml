@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+<!--  <ThingDef Name="AK_ResourceBase" ParentName="ResourceBase" Abstract="True">
+  </ThingDef>
+
+  <ThingDef ParentName="AK_ResourceBase">
+    <defName>AK_ORG_Raw</defName>
+    <label>源石粗矿</label>
+    <description>源石粗矿。</description>
+    <graphicData>
+      <texPath>Things/ORG/ORG_Raw</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <statBases>
+      <MarketValue>5</MarketValue>
+      <Mass>1.5</Mass>
+    </statBases>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <thingCategories Inherit="False">
+      <li>AK_ORG</li>
+    </thingCategories> 
+    <deepCommonality>4</deepCommonality>
+    <deepCountPerPortion>45</deepCountPerPortion>
+    <deepLumpSizeRange>20~30</deepLumpSizeRange>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>false</smeltable>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+  </ThingDef>
+	
+  <ThingDef ParentName="RockBase">
+    <defName>AK_ORG_Mineable</defName>
+    <label>源石矿脉</label>
+    <description>源石矿脉</description>
+    <tickerType>Rare</tickerType>
+    <graphicData>
+      <texPath>Things/ORG/ORG_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(255,255,255)</color>
+      <colorTwo>(155,133,107)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1500</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>AK_ORG_Raw</mineableThing>
+      <mineableYield>40</mineableYield>
+      <mineableScatterCommonality>1</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>30~40</mineableScatterLumpSizeRange>
+    </building>
+	<comps>
+      <li Class="AK_DLL.TCP_GasEmitter">
+		<gasType>ToxicGas</gasType>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  <ThingDef Name="BaseGas" Abstract="True">
+    <thingClass>Gas</thingClass>
+    <label>gas</label>
+    <category>Gas</category>
+    <altitudeLayer>Gas</altitudeLayer>
+    <useHitPoints>false</useHitPoints>
+    <tickerType>Normal</tickerType>
+    <graphicData>
+      <graphicClass>Graphic_Gas</graphicClass>
+      <shaderType>Transparent</shaderType>
+    </graphicData>
+  </ThingDef>
+  <ThingDef Class="AK_DLL.GasDef" ParentName="BaseGas">
+    <defName>ToxicGas</defName>
+    <label>源石尘</label>
+    <graphicData>
+      <texPath>Things/Gas/Puff</texPath>
+      <drawSize>2.5</drawSize>
+      <color>(1,0.92,0.016,0.2)</color>
+    </graphicData>
+	<thingClass>AK_DLL.Gas</thingClass>
+	<addHediff>AK_Disease_ORG_Artificial</addHediff>
+	<hediffAddChance>1.0</hediffAddChance>
+    <hediffSeverity>0.11</hediffSeverity>    
+	<gas>
+      <expireSeconds>
+        <min>300</min>
+        <max>300</max>
+      </expireSeconds>
+      <rotationSpeed>10</rotationSpeed>
+    </gas>
+  </ThingDef>
+  
+   <ThingDef ParentName="ResourceBase">
+    <defName>AK_ORG_Pure</defName>
+    <label>至纯源石</label>
+    <description>提纯后的源石。</description>
+    <graphicData>
+      <texPath>Things/ORG/ORG_Pure</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <statBases>
+      <MaxHitPoints>70</MaxHitPoints>
+      <MarketValue>32</MarketValue>
+      <Mass>0.6</Mass>
+      <Flammability>0.0</Flammability>
+      <DeteriorationRate>2.0</DeteriorationRate>
+    </statBases>
+    <intricate>true</intricate>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+  </ThingDef>
+-->
+</Defs>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AK_DLL.OperatorAbilityDef>
+		<defName>AK_Ability_ExusiaiIII</defName>
+		<grouped>true</grouped>
+		<label>过载模式</label>
+		<description>过载模式desc</description>
+		<icon>UI/Abilities/Medic/HealEnhance</icon>
+		<CD>100</CD>
+		<abilityType>Hediff</abilityType>
+		<targetMode>Self</targetMode>
+		<needCD>true</needCD> 
+		<verb>
+			<verbClass>AK_DLL.Verb_Ability</verbClass>
+			<defaultProjectile>Bullet_MiniTurret</defaultProjectile>
+			<warmupTime>0</warmupTime>
+			<range>10</range>
+			<ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+			<burstShotCount>1</burstShotCount>
+			<soundCast>GunShotA</soundCast>
+			<soundCastTail>GunTail_Light</soundCastTail>
+			<muzzleFlashScale>9</muzzleFlashScale>
+			<consumeFuelPerShot>1</consumeFuelPerShot>
+			<targetParams>
+				<canTargetPawns>true</canTargetPawns>
+				<canTargetLocations>false</canTargetLocations>
+			</targetParams>
+		</verb>
+		<compEffectList>
+			<li Class="AK_DLL.AE_DpsEnhance_Ranged">
+				<duration>50</duration>
+				<statOffset>
+					<stats>
+						<Mass>-3</Mass>
+						<AccuracyTouch>0.9</AccuracyTouch>
+						<AccuracyShort>0.9</AccuracyShort>
+						<AccuracyMedium>0.9</AccuracyMedium>
+						<AccuracyLong>0.9</AccuracyLong>
+						<RangedWeapon_Cooldown>-1.8</RangedWeapon_Cooldown>
+					</stats>
+					<preCD>-0.3</preCD>
+					<range>20</range>
+					<armorPenetrate>1.3</armorPenetrate>
+					<bulletSpeed>15</bulletSpeed>
+					<damage>50</damage>
+					<burstCount>2</burstCount>
+					<burstInterval>-3</burstInterval>
+				</statOffset>
+			</li>
+		</compEffectList>
+		<typeSFX>atk</typeSFX>
+	</AK_DLL.OperatorAbilityDef>
+	
+</Defs>

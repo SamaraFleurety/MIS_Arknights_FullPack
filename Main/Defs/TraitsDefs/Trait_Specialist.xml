@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- 特种干员特性文件 -->	<!-- 已排序 -->
+
+	<!-- 红 -->
+
+	<TraitDef>
+		<defName>AK_Trait_Red</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>猎狼人</label>
+				<description>目前而言，红切实地展现出了无法被解释的辨别能力，尽管目前而言这种认知差已经被大多数人接受，但是尽量还是要避免红与其他鲁珀族干员的接触。</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.15</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<!-- 温蒂 -->
+
+	<TraitDef>
+		<defName>AK_Trait_Weedy</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>极端洁癖</label>
+				<description>就连与她对话的人的衣服褶皱，温蒂都会耿耿于怀。
+这种对于洁净难以理解的追求对温蒂的生活与工作造成巨大影响。</description>
+				<statOffsets>
+					<MentalBreakThreshold>0.15</MentalBreakThreshold>
+					<WorkSpeedGlobal>-0.3</WorkSpeedGlobal>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<!-- 水月 -->
+
+	<TraitDef>
+		<defName>AK_Trait_Mizuki</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>创伤性癔症</label>
+				<description>“为何人们会四处向自己的同胞散播痛苦？是出于族类生命形式的软弱？还是在族类个体之间缺乏真正的桥接与沟通？又或是植于族类基底中的劣根性？
+我们究竟又该怎么做，才能让自己变得更善更美，来脱离这一切？”</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.65</MentalBreakThreshold>
+					<PsychicSensitivity>-0.3</PsychicSensitivity>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>AK_Trait_MizukiSecond</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>镜花水月</label>
+				<description>“不过这些都是无关的闲谈啦。谁会真的反对收留这样一个懂礼貌、不添乱的好孩子呢？
+呃，我并不是在嫌弃我们救助的一部分爱吵闹捣蛋的孩子啊，没有的事！”</description>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<!-- 崖心 -->
+
+	<TraitDef>
+		<defName>AK_Trait_Cliffheart</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>登山家的热情</label>
+				<description>崖心是天生的探险家和攀登者，她的反射神经与耐力远超大多数人的想象，借助简单的道具，崖心能够跨越令常人止步的天堑。</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.4</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<!-- 卡夫卡 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Kafka</defName>
+		<degreeDatas>
+			<li>
+				<label>装乖</label>
+				<description>卡夫卡事实上完全不在乎有人因为这副面具而讨厌她，不如说她乐得如此，她不想被很多人喜欢，也不想去喜欢很多人，这种刻意的装乖就是她认为的，和其他人保持距离感的最佳工具。
+				</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.1</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<!-- 多萝西 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Dorothy</defName>
+		<degreeDatas>
+			<li>
+				<label>让所有人都幸福</label>
+				<description>借助科技与理想的力量，她希望人与人之间的差距可以被消除，弱小之人，能得到来自她的庇护。
+				</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.25</MentalBreakThreshold>
+					<SocialImpact>0.3</SocialImpact>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+</Defs>

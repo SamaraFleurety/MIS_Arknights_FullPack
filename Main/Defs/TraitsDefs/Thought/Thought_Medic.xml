@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Medic --> <!-- 已排序 -->
+
+	<!-- 白面鸮 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Ptilopsis</defName>
+		<requiredTraits>
+			<li>AK_Trait_Ptilopsis</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>另一个声音</label>
+				<description>
+				实际上，采用这样的说话方式需要承受相当大的负担。但这是为了防止系统中枢被那个声音吞噬的必要措施。
+				</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 嘉维尔 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Gavial</defName>
+		<requiredTraits>
+			<li>AK_Trait_Gavial</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>奇特却坚定的医师</label>
+				<description>
+				哈？温柔可爱？那不是护士吗？我可是专业的治疗者，对治疗之外的事情没有兴趣。
+				</description>
+				<baseMoodEffect>12</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<!-- 调香师 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Perfumer</defName>
+		<requiredTraits>
+			<li>AK_Trait_Perfumer</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>手有余香</label>
+				<description>
+				蚂蚁们的社会关系，是依靠气味来维持的吧？我觉得调香师和顾客的关系也是如此。
+				</description>
+				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 闪灵 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Shining</defName>
+		<requiredTraits>
+			<li>AK_Trait_Shining</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>慈悲</label>
+				<description>
+				......这份寂静， 让我想起了身在故乡时的岁月。
+				</description>
+				<baseMoodEffect>15</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 夜莺 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_NightingaleSecond</defName>
+		<requiredTraits>
+			<li>AK_Trait_NightingaleSecond</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>封闭的希望</label>
+				<description>
+				为什么我会是如今这副身姿呢？为什么我要去承受这迷乱的一切呢？
+				</description>
+				<baseMoodEffect>-20</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 凯尔希 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Kaltsit</defName>
+		<requiredTraits>
+			<li>AK_Trait_Kaltsit</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>旧日之影</label>
+				<description>
+				越是强大越是脆弱，这就是万物的道理。
+				</description>
+				<baseMoodEffect>-10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 华法林 -->
+	
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_WarfarinSecond</defName>
+		<requiredTraits><li>AK_Trait_WarfarinSecond</li></requiredTraits>
+		<stages>
+			<li>
+				<label>血先生</label>
+				<description>
+				我能不能控制吸血冲动？是不是小看我了呀！作为经受过训练的专业医生，我还是能分得清食物和病人的！
+				</description>
+				<baseMoodEffect>12</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+</Defs>

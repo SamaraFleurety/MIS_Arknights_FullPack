@@ -1,0 +1,1361 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="AK_WeaponBase_Caster">
+		<defName>AK_Weapon_Absinthe</defName>
+		<label>铳形法杖</label>
+		<description>尽管言语中充斥茫然，曾经所相信的都摇摇欲坠，但继承自父亲的装备，她却从未真正松开过手。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Caster/AbsintheW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.75</AccuracyTouch>
+			<AccuracyShort>0.95</AccuracyShort>
+			<AccuracyMedium>0.8</AccuracyMedium>
+			<AccuracyLong>0.6</AccuracyLong>
+			<RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>			<!--后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_Absinthe</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>0.9</warmupTime>				<!--前摇-->
+				<range>10</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_Absinthe</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<tools Inherit = "false">
+			<li>
+				<label>法杖猛击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>1.8</cooldownTime>
+			</li>
+			<li>
+				<label>踢击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>0.8</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_Absinthe</defName>
+		<label>法术射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/MagicOrb</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Bullet</damageDef>			<!--伤害类型-->
+			<damageAmountBase>16</damageAmountBase>
+			<stoppingPower>3</stoppingPower>
+			<speed>50</speed>
+			<extraDamages>
+				<li>
+					<def>Flame</def>					<!--伤害类型-->
+					<amount>8</amount>					<!--伤害数值-->
+					<armorPenetration>0.8</armorPenetration>					<!--穿甲-->
+				</li>
+			</extraDamages>
+			<soundExplode>ThumpCannon_Impact</soundExplode>			<!--爆炸音效-->
+		</projectile>
+	</ThingDef>
+
+	<SoundDef ParentName="AK_SoundBase">
+		<defName>AK_Sound_Weapon_Absinthe</defName>
+		<subSounds Inherit="False">
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Absinthe/p_atk_handgun_n</clipPath>
+					</li>
+				</grains>
+				<volumeRange>35~35</volumeRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Caster">
+		<defName>AK_Weapon_Ifrit</defName>
+		<label>W-0502</label>
+		<description>莱茵生命的杰作</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Caster/IfritW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<verbs Inherit="False">
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Arrow_Base</defaultProjectile>
+				<warmupTime>1.0</warmupTime>
+				<range>30</range>
+				<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+				<burstShotCount>3</burstShotCount>
+				<soundCast>AK_Sound_Weapon_Ifrit</soundCast>
+			</li>
+		</verbs>
+	</ThingDef>
+
+	<SoundDef ParentName="AK_SoundBase">
+		<defName>AK_Sound_Weapon_Ifrit</defName>
+		<subSounds Inherit="False">
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Ifrit/p_atk_flamethrower_n</clipPath>
+					</li>
+				</grains>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Caster">
+		<defName>AK_Weapon_Amiya</defName>
+		<label>蓝色的戒指</label>
+		<description>一串蓝色的戒指，内部有黑色的能量在涌动</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Caster/AmiyaW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.75</AccuracyTouch>
+			<AccuracyShort>0.95</AccuracyShort>
+			<AccuracyMedium>0.8</AccuracyMedium>
+			<AccuracyLong>0.6</AccuracyLong>
+			<RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>			<!--后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_Amiya</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>1.2</warmupTime>				<!--前摇-->
+				<range>12</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_Amiya</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<tools Inherit = "false">
+			<li>
+				<label>法术切割</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>0</power>
+				<extraMeleeDamages>
+					<li>
+						<def>Flame</def>
+						<amount>18</amount>
+					</li>
+				</extraMeleeDamages>
+				<cooldownTime>1.8</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_Amiya</defName>
+		<label>法术射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/MagicOrb</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Bullet</damageDef>			<!--伤害类型-->
+			<damageAmountBase>0</damageAmountBase>
+			<stoppingPower>3</stoppingPower>
+			<speed>50</speed>
+			<extraDamages>
+				<li>
+					<def>Flame</def>					<!--伤害类型-->
+					<amount>30</amount>					<!--伤害数值-->
+				</li>
+			</extraDamages>
+			<soundExplode>ThumpCannon_Impact</soundExplode>			<!--爆炸音效-->
+		</projectile>
+	</ThingDef>
+
+	<SoundDef ParentName="AK_SoundBase">
+		<defName>AK_Sound_Weapon_Amiya</defName>
+		<subSounds Inherit="False">
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Amiya/p_atk_amiyamag_n</clipPath>
+					</li>
+				</grains>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Caster">
+		<defName>AK_Weapon_CeobeTypeA</defName>
+		<label>刻俄柏的法杖</label>
+		<description>能敲一个两个三个，又快又准。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Caster/CeobeW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.75</AccuracyTouch>
+			<AccuracyShort>0.95</AccuracyShort>
+			<AccuracyMedium>0.8</AccuracyMedium>
+			<AccuracyLong>0.6</AccuracyLong>
+			<RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>			<!--后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_Ceobe</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>1.2</warmupTime>				<!--前摇-->
+				<range>12</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_CeobeA</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<tools Inherit = "false">
+			<li>
+				<label>法杖猛击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>22</power>
+				<cooldownTime>1.3</cooldownTime>
+			</li>
+			<li>
+				<label>扑打</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>1.2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_Ceobe</defName>
+		<label>法术射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/MagicOrb</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Bullet</damageDef>			<!--伤害类型-->
+			<damageAmountBase>0</damageAmountBase>
+			<stoppingPower>3</stoppingPower>
+			<speed>50</speed>
+			<extraDamages>
+				<li>
+					<def>Flame</def>					<!--伤害类型-->
+					<amount>20</amount>					<!--伤害数值-->
+				</li>
+			</extraDamages>
+			<soundExplode>ThumpCannon_Impact</soundExplode>			<!--爆炸音效-->
+		</projectile>
+	</ThingDef>
+
+	<SoundDef ParentName="AK_SoundBase">
+		<defName>AK_Sound_Weapon_CeobeA</defName>
+		<subSounds Inherit="False">
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Ceobe/p_atk_phydark_n</clipPath>
+					</li>
+				</grains>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Caster">
+		<defName>AK_Weapon_CeobeTypeB</defName>
+		<label>“很重的枪”</label>
+		<description>很重的枪</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Caster/CeobeW2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.75</AccuracyTouch>
+			<AccuracyShort>0.95</AccuracyShort>
+			<AccuracyMedium>0.8</AccuracyMedium>
+			<AccuracyLong>0.6</AccuracyLong>
+			<RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>			<!--后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_Ceobe</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>1.2</warmupTime>				<!--前摇-->
+				<range>12</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_CeobeB</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+	</ThingDef>
+
+	<SoundDef ParentName="AK_SoundBase">
+		<defName>AK_Sound_Weapon_CeobeB</defName>
+		<subSounds Inherit="False">
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Ceobe/p_atk_javelinthrow_s</clipPath>
+					</li>
+				</grains>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Caster">
+		<defName>AK_Weapon_CeobeTypeC</defName>
+		<label>“很热的刀”</label>
+		<description>很热的刀</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Caster/CeobeW3</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.75</AccuracyTouch>
+			<AccuracyShort>0.95</AccuracyShort>
+			<AccuracyMedium>0.8</AccuracyMedium>
+			<AccuracyLong>0.6</AccuracyLong>
+			<RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>			<!--后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_Ceobe</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>1.2</warmupTime>				<!--前摇-->
+				<range>12</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_CeobeC</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+	</ThingDef>
+
+	<SoundDef ParentName="AK_SoundBase">
+		<defName>AK_Sound_Weapon_CeobeC</defName>
+		<subSounds Inherit="False">
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Ceobe/p_atk_firedagger_s</clipPath>
+					</li>
+				</grains>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Caster">
+		<defName>AK_Weapon_CeobeTypeD</defName>
+		<label>“很冰的斧”</label>
+		<description>很冰的斧</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Caster/CeobeW4</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.75</AccuracyTouch>
+			<AccuracyShort>0.95</AccuracyShort>
+			<AccuracyMedium>0.8</AccuracyMedium>
+			<AccuracyLong>0.6</AccuracyLong>
+			<RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>			<!--后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_Ceobe</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>1.2</warmupTime>				<!--前摇-->
+				<range>12</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_CeobeD</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+	</ThingDef>
+
+	<SoundDef ParentName="AK_SoundBase">
+		<defName>AK_Sound_Weapon_CeobeD</defName>
+		<subSounds Inherit="False">
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Ceobe/p_atk_axethrow_s</clipPath>
+					</li>
+				</grains>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Caster">
+		<defName>AK_Weapon_Dusk</defName>
+		<label>无题长卷</label>
+		<description>以有形摹无垠，以无形应天下。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Caster/DuskW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.85</AccuracyTouch>
+			<AccuracyShort>0.9</AccuracyShort>
+			<AccuracyMedium>0.75</AccuracyMedium>
+			<AccuracyLong>0.55</AccuracyLong>
+			<RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>			<!--后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_Dusk</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>2.2</warmupTime>				<!--前摇-->
+				<range>8</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_Dusk</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<tools Inherit = "false">
+			<li>
+				<label>法杖猛击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>1.8</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_Dusk</defName>
+		<label>法术射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/MagicOrb</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Bullet</damageDef>			<!--伤害类型-->
+			<damageAmountBase>0</damageAmountBase>
+			<stoppingPower>3</stoppingPower>
+			<speed>50</speed>
+			<extraDamages>
+				<li>
+					<def>Flame</def>					<!--伤害类型-->
+					<amount>14</amount>					<!--伤害数值-->
+				</li>
+			</extraDamages>
+			<soundExplode>ThumpCannon_Impact</soundExplode>			<!--爆炸音效-->
+		</projectile>
+	</ThingDef>
+
+	<SoundDef ParentName="AK_SoundBase">
+		<defName>AK_Sound_Weapon_Dusk</defName>
+		<subSounds Inherit="False">
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Dusk/p_atk_ancientsword_n</clipPath>
+					</li>
+				</grains>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Caster">
+		<defName>AK_Weapon_Mint</defName>
+		<label>薄绿的法杖</label>
+		<description>有点老旧的法杖，据说是从学校附近的旧货市场随便淘过来的。
+		不过没有点识物的本事是没法从那边买到东西的。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Caster/MintW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tools Inherit = "false">
+			<li>
+				<label>法杖敲击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1.2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Caster">
+		<defName>AK_Weapon_MintTypeB</defName>
+		<label>咬人的书</label>
+		<description>一本陈旧的硬皮书，敲人和咬人都很疼。
+		在真正被咬之前，没人知道这本书会不会咬人。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Caster/MintW2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tools Inherit = "false">
+			<li>
+				<label>书咬</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>18</power>
+				<cooldownTime>1.0</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<SoundDef ParentName="AK_SoundBase">
+		<defName>AK_Sound_Weapon_Mint</defName>
+		<subSounds Inherit="False">
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Mint/p_imp_smallmaghit_n</clipPath>
+					</li>
+				</grains>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Caster">
+		<defName>AK_Weapon_MostimaTypeA</defName>
+		<label>荒时之锁</label>
+		<description>他有锁，可是钥匙在哪里？</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Caster/MostimaW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.85</AccuracyTouch>
+			<AccuracyShort>0.9</AccuracyShort>
+			<AccuracyMedium>0.75</AccuracyMedium>
+			<AccuracyLong>0.55</AccuracyLong>
+			<RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>			<!--后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_Mostima</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>2.2</warmupTime>				<!--前摇-->
+				<range>8</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_MostimaC</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<tools Inherit = "false">
+			<li>
+				<label>法杖猛击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>1.8</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<SoundDef ParentName="AK_SoundBase">
+		<defName>AK_Sound_Weapon_MostimaC</defName>
+		<subSounds Inherit="False">
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Mostima/p_skill_blacktimewand_shot</clipPath>
+					</li>
+				</grains>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Caster">
+		<defName>AK_Weapon_MostimaTypeB</defName>
+		<label>序时之钥</label>
+		<description>他有钥匙，可是锁在哪里？</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Caster/MostimaW2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.85</AccuracyTouch>
+			<AccuracyShort>0.9</AccuracyShort>
+			<AccuracyMedium>0.75</AccuracyMedium>
+			<AccuracyLong>0.55</AccuracyLong>
+			<RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>			<!--后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_Mostima</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>2.2</warmupTime>				<!--前摇-->
+				<range>8</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_MostimaB</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+	</ThingDef>
+
+	<SoundDef ParentName="AK_SoundBase">
+		<defName>AK_Sound_Weapon_MostimaB</defName>
+		<subSounds Inherit="False">
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Mostima/p_skill_whitetimewand</clipPath>
+					</li>
+				</grains>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Caster">
+		<defName>AK_Weapon_MostimaTypeC</defName>
+		<label>莫斯提马的法杖</label>
+		<description>只是一把拉特兰术士常用的法杖。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Caster/MostimaW3</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.85</AccuracyTouch>
+			<AccuracyShort>0.9</AccuracyShort>
+			<AccuracyMedium>0.75</AccuracyMedium>
+			<AccuracyLong>0.55</AccuracyLong>
+			<RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>			<!--后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_Mostima</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>2.2</warmupTime>				<!--前摇-->
+				<range>8</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_MostimaA</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<tools Inherit = "false">
+			<li>
+				<label>法杖猛击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>1.8</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_Mostima</defName>
+		<label>法术射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/MagicOrb</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Bullet</damageDef>			<!--伤害类型-->
+			<damageAmountBase>0</damageAmountBase>
+			<stoppingPower>3</stoppingPower>
+			<speed>50</speed>
+			<extraDamages>
+				<li>
+					<def>Flame</def>					<!--伤害类型-->
+					<amount>16</amount>					<!--伤害数值-->
+				</li>
+			</extraDamages>
+			<soundExplode>ThumpCannon_Impact</soundExplode>			<!--爆炸音效-->
+		</projectile>
+	</ThingDef>
+
+	<SoundDef ParentName="AK_SoundBase">
+		<defName>AK_Sound_Weapon_MostimaA</defName>
+		<subSounds Inherit="False">
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Mostima/p_atk_timewand_n</clipPath>
+					</li>
+				</grains>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Caster">
+		<defName>AK_Weapon_Skyfire</defName>
+		<label>天火的法杖</label>
+		<description>天火的法杖，散发着一股逼人的热气。
+		对于天火来说法杖不是用来增强法术的，而是保证法术不会失控的烧掉自己的裙子。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Caster/SkyfireW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.85</AccuracyTouch>
+			<AccuracyShort>0.9</AccuracyShort>
+			<AccuracyMedium>0.75</AccuracyMedium>
+			<AccuracyLong>0.55</AccuracyLong>
+			<RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>			<!--后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_Skyfire</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>2.2</warmupTime>				<!--前摇-->
+				<range>8</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_SkyfireA</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<tools Inherit = "false">
+			<li>
+				<label>法杖猛击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>1.8</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_Skyfire</defName>
+		<label>法术射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/MagicFire</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Bullet</damageDef>			<!--伤害类型-->
+			<damageAmountBase>0</damageAmountBase>
+			<stoppingPower>3</stoppingPower>
+			<speed>50</speed>
+			<extraDamages>
+				<li>
+					<def>Flame</def>					<!--伤害类型-->
+					<amount>12</amount>					<!--伤害数值-->
+				</li>
+				<li>
+					<def>Burn</def>					<!--伤害类型-->
+					<amount>8</amount>					<!--伤害数值-->
+				</li>
+			</extraDamages>
+			<soundExplode>ThumpCannon_Impact</soundExplode>			<!--爆炸音效-->
+		</projectile>
+	</ThingDef>
+
+	<SoundDef ParentName="AK_SoundBase">
+		<defName>AK_Sound_Weapon_Skyfire</defName>
+		<subSounds Inherit="False">
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Skyfire/p_aoe_firemag_n</clipPath>
+					</li>
+				</grains>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Caster">
+		<defName>AK_Weapon_Eyjafjalla</defName>
+		<label>火山之杖</label>
+		<description>艾雅法拉的源石法杖，内部蕴含的能量宛如一座火山。
+		中间被打磨的很光滑，很适合少女的双手。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Caster/EyjafjallaW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.75</AccuracyTouch>
+			<AccuracyShort>0.95</AccuracyShort>
+			<AccuracyMedium>0.8</AccuracyMedium>
+			<AccuracyLong>0.6</AccuracyLong>
+			<RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>			<!--后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_Eyjafjalla</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>1.2</warmupTime>				<!--前摇-->
+				<range>13</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_Eyjafjalla</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<tools Inherit = "false">
+			<li>
+				<label>法杖猛击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1.8</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_Eyjafjalla</defName>
+		<label>法术射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/MagicFire</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Bullet</damageDef>			<!--伤害类型-->
+			<damageAmountBase>0</damageAmountBase>
+			<stoppingPower>3</stoppingPower>
+			<speed>50</speed>
+			<extraDamages>
+				<li>
+					<def>Flame</def>					<!--伤害类型-->
+					<amount>16</amount>					<!--伤害数值-->
+				</li>
+				<li>
+					<def>Burn</def>					<!--伤害类型-->
+					<amount>12</amount>					<!--伤害数值-->
+				</li>
+			</extraDamages>
+			<soundExplode>ThumpCannon_Impact</soundExplode>			<!--爆炸音效-->
+		</projectile>
+	</ThingDef>
+
+	<SoundDef ParentName="AK_SoundBase">
+		<defName>AK_Sound_Weapon_Eyjafjalla</defName>
+		<subSounds Inherit="False">
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Eyjafjalla/p_atk_firemag_n</clipPath>
+					</li>
+				</grains>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Caster">
+		<defName>AK_Weapon_Carnelian</defName>
+		<label>红玉髓</label>
+		<description>卡涅利安的长剑，做工有着莱塔尼亚的细致，却散发着萨尔贡的狂野。
+		这把剑在卡涅利安的手中就犹如巨兽的利齿一样能够轻而易举的撕碎任何敌人。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Caster/CarnelianW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tools Inherit = "false">
+			<li>
+				<label>剑砍</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>22</power>
+				<cooldownTime>1.6</cooldownTime>
+			</li>
+			<li>
+				<label>剑柄猛击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>1.8</cooldownTime>
+			</li>
+			<li>
+				<label>剑捅</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>24</power>
+				<cooldownTime>2.2</cooldownTime>
+			</li>
+			<li>
+				<label>剑刺</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>19</power>
+				<cooldownTime>1.7</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Caster">
+		<defName>AK_Weapon_Beeswax</defName>
+		<label>沙原的祝福</label>
+		<description>请记住，不论我们各自去往何方，她给出的那份祝福，都将随你一路前行。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Caster/BeeswaxW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tools Inherit = "false">
+			<li>
+				<label>法杖敲击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1.2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Caster">
+		<defName>AK_Weapon_Indigo</defName>
+		<label>深靛的法杖</label>
+		<description>深靛的法杖，能够使光从无形变为有形。
+		深靛的心志就如她法杖发出来的光一样，或许最初微小，但始终稳定，并且在一点一点、毫无争议地变强。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Caster/IndigoW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.75</AccuracyTouch>
+			<AccuracyShort>0.95</AccuracyShort>
+			<AccuracyMedium>1</AccuracyMedium>
+			<AccuracyLong>0.85</AccuracyLong>
+			<RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>			<!--后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_Indigo</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>2.2</warmupTime>				<!--前摇-->
+				<range>10</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_Indigo</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<tools Inherit = "false">
+			<li>
+				<label>法杖猛击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>1.8</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_Indigo</defName>
+		<label>法术射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/MagicOrb</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Bullet</damageDef>			<!--伤害类型-->
+			<damageAmountBase>0</damageAmountBase>
+			<stoppingPower>3</stoppingPower>
+			<speed>50</speed>
+			<extraDamages>
+				<li>
+					<def>Flame</def>					<!--伤害类型-->
+					<amount>30</amount>					<!--伤害数值-->
+				</li>
+			</extraDamages>
+			<soundExplode>ThumpCannon_Impact</soundExplode>			<!--爆炸音效-->
+		</projectile>
+	</ThingDef>
+
+	<SoundDef ParentName="AK_SoundBase">
+		<defName>AK_Sound_Weapon_Indigo</defName>
+		<subSounds Inherit="False">
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Indigo/p_atk_purplemag_n</clipPath>
+					</li>
+				</grains>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Caster">
+		<defName>AK_Weapon_Goldenglow</defName>
+		<label>澄闪的法杖</label>
+		<description>澄闪的法杖，内置了一个静电球，保证了澄闪的静电不会散的到处都是。
+		不过听说有个不知名的近卫干员喜欢被她电。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Caster/GoldenglowW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.75</AccuracyTouch>
+			<AccuracyShort>0.95</AccuracyShort>
+			<AccuracyMedium>1</AccuracyMedium>
+			<AccuracyLong>0.85</AccuracyLong>
+			<RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>			<!--后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_Goldenglow</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>1.2</warmupTime>				<!--前摇-->
+				<range>10</range>
+				<burstShotCount>2</burstShotCount>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_Goldenglow</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<tools Inherit = "false">
+			<li>
+				<label>法杖猛击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1.2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_Goldenglow</defName>
+		<label>法术射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/MagicOrb</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Bullet</damageDef>			<!--伤害类型-->
+			<damageAmountBase>0</damageAmountBase>
+			<stoppingPower>3</stoppingPower>
+			<speed>50</speed>
+			<extraDamages>
+				<li>
+					<def>Flame</def>					<!--伤害类型-->
+					<amount>14</amount>					<!--伤害数值-->
+					<armorPenetration>0.6</armorPenetration>					<!--穿甲-->
+				</li>
+			</extraDamages>
+			<soundExplode>ThumpCannon_Impact</soundExplode>			<!--爆炸音效-->
+		</projectile>
+	</ThingDef>
+
+	<SoundDef ParentName="AK_SoundBase">
+		<defName>AK_Sound_Weapon_Goldenglow</defName>
+		<subSounds Inherit="False">
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/GeneralSFX/p_imp_spear_n</clipPath>
+					</li>
+				</grains>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Caster">
+		<defName>AK_Weapon_Tomimi</defName>
+		<label>特米米的法杖</label>
+		<description>特米米的法杖，外形根据他们故乡的捕梦网做成。
+		特米米对源石技艺的运用毫无章法且粗糙，而她的肉搏欲望也完全和对术师干员的需求背道而驰。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Caster/TomimiW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tools Inherit = "false">
+			<li>
+				<label>法杖敲击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>24</power>
+				<cooldownTime>1.4</cooldownTime>
+			</li>
+			<li>
+				<label>拳击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>0.8</cooldownTime>
+			</li>
+			<li>
+				<label>猛砸</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>30</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Caster">
+		<defName>AK_Weapon_Kjera</defName>
+		<label>耶拉冈德的浮游单元</label>
+		<description>心随意动</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Caster/KjeraW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.75</AccuracyTouch>
+			<AccuracyShort>0.95</AccuracyShort>
+			<AccuracyMedium>1</AccuracyMedium>
+			<AccuracyLong>0.85</AccuracyLong>
+			<RangedWeapon_Cooldown>0.3</RangedWeapon_Cooldown>			<!--后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_Kjera</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>1</warmupTime>				<!--前摇-->
+				<range>10</range>
+				<burstShotCount>2</burstShotCount>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_Kjera</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<tools Inherit = "false">
+			<li>
+				<label>法杖猛击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1.2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_Kjera</defName>
+		<label>法术射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/MagicOrb</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Bullet</damageDef>			<!--伤害类型-->
+			<damageAmountBase>0</damageAmountBase>
+			<stoppingPower>3</stoppingPower>
+			<speed>50</speed>
+			<extraDamages>
+				<li>
+					<def>Flame</def>					<!--伤害类型-->
+					<amount>12</amount>					<!--伤害数值-->
+					<armorPenetration>0.6</armorPenetration>					<!--穿甲-->
+				</li>
+			</extraDamages>
+			<soundExplode>ThumpCannon_Impact</soundExplode>			<!--爆炸音效-->
+		</projectile>
+	</ThingDef>
+
+	<SoundDef ParentName="AK_SoundBase">
+		<defName>AK_Sound_Weapon_Kjera</defName>
+		<subSounds Inherit="False">
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/GeneralSFX/p_imp_spear_n</clipPath>
+					</li>
+				</grains>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Caster">
+		<defName>AK_Weapon_Astgenne</defName>
+		<label>法术串联单元</label>
+		<description>以我电光，闪耀星空吧！</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Caster/AstgenneW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.85</AccuracyTouch>
+			<AccuracyShort>0.95</AccuracyShort>
+			<AccuracyMedium>0.8</AccuracyMedium>
+			<AccuracyLong>0.65</AccuracyLong>
+			<RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>			<!--后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_Astgenne</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>1.7</warmupTime>				<!--前摇-->
+				<range>11</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_Astgenne</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<tools Inherit = "false">
+			<li>
+				<label>法杖猛击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>1.8</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_Astgenne</defName>
+		<label>法术射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/MagicOrb</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Bullet</damageDef>			<!--伤害类型-->
+			<damageAmountBase>0</damageAmountBase>
+			<stoppingPower>3</stoppingPower>
+			<speed>50</speed>
+			<extraDamages>
+				<li>
+					<def>Flame</def>					<!--伤害类型-->
+					<amount>18</amount>					<!--伤害数值-->
+				</li>
+			</extraDamages>
+			<soundExplode>ThumpCannon_Impact</soundExplode>			<!--爆炸音效-->
+		</projectile>
+	</ThingDef>
+
+	<SoundDef ParentName="AK_SoundBase">
+		<defName>AK_Sound_Weapon_Astgenne</defName>
+		<subSounds Inherit="False">
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/GeneralSFX/p_imp_spear_n</clipPath>
+					</li>
+				</grains>
+			</li>
+		</subSounds>
+	</SoundDef>
+</Defs>

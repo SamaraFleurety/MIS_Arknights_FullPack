@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <DamageArmorCategoryDef>
+    <defName>AK_DamageType_Magic</defName>
+    <multStat>AK_MagicDamageMultiplier</multStat>
+    <armorRatingStat>AK_ArmorRating_Magic</armorRatingStat>
+  </DamageArmorCategoryDef>
+
+  <DamageArmorCategoryDef>
+    <defName>AK_DamageType_Absolute</defName>
+    <multStat>AK_AbsoluteDamageMultiplier</multStat>
+    <armorRatingStat>AK_ArmorRating_Absolute</armorRatingStat>
+  </DamageArmorCategoryDef>
+  
+    <StatDef ParentName="ArmorRatingBase">
+    <defName>AK_ArmorRating_Magic</defName>
+    <label>护甲 - 法术</label>
+    <labelForFullStatList>护甲 - 法术(装甲属性)</labelForFullStatList>
+    <description>对于法术类型伤害的抗性,法术伤害通常来自于术士和辅助干员.
+计算方式和原版一致.</description>
+    <displayPriorityInCategory>97</displayPriorityInCategory>
+    <parts>
+      <li Class="StatPart_Stuff">
+        <priority>99</priority>
+        <stuffPowerStat>AK_StuffPower_Armor_Magic</stuffPowerStat>
+        <multiplierStat>StuffEffectMultiplierArmor</multiplierStat>
+      </li>
+    </parts>
+  </StatDef>
+
+  <StatDef ParentName="ArmorRatingBase">
+    <defName>AK_ArmorRating_Absolute</defName>
+    <label>护甲 - 真实</label>
+    <labelForFullStatList>护甲 - 真实(装甲属性)</labelForFullStatList>
+    <description>真实伤害极为罕见,仅极少干员的技能可以造成.
+没有任何护甲可以抵御此类型伤害.</description>
+    <displayPriorityInCategory>96</displayPriorityInCategory>
+    <parts>
+      <li Class="StatPart_Stuff">
+        <priority>99</priority>
+        <stuffPowerStat>AK_StuffPower_Armor_Absolute</stuffPowerStat>
+        <multiplierStat>StuffEffectMultiplierArmor</multiplierStat>
+      </li>
+    </parts>
+  </StatDef>
+  
+  <StatDef>
+    <defName>AK_MagicDamageMultiplier</defName>
+    <label>法术伤害</label>
+    <description>A multiplier on damage from Magic-type attacks for weapons made of this material.</description>
+    <category>StuffStatFactors</category>
+    <defaultBaseValue>1</defaultBaseValue>
+    <minValue>0.05</minValue>
+    <toStringStyle>PercentZero</toStringStyle>
+    <showIfUndefined>false</showIfUndefined>
+    <displayPriorityInCategory>4508</displayPriorityInCategory>
+  </StatDef>
+
+  <StatDef>
+    <defName>AK_AbsoluteDamageMultiplier</defName>
+    <label>真实伤害</label>
+    <description>A multiplier on damage from Absolute-type attacks for weapons made of this material.</description>
+    <category>StuffStatFactors</category>
+    <defaultBaseValue>1</defaultBaseValue>
+    <minValue>0.05</minValue>
+    <toStringStyle>PercentZero</toStringStyle>
+    <showIfUndefined>false</showIfUndefined>
+    <displayPriorityInCategory>4508</displayPriorityInCategory>
+  </StatDef>
+
+  <StatDef>
+    <defName>AK_StuffPower_Armor_Magic</defName>
+    <label>护甲 - 法术</label>
+    <labelForFullStatList>护甲 - 法术(材料倍率)</labelForFullStatList>
+    <description>Armor against sharp damage like bullets, knife stabs, and animal bites.</description>
+    <category>StuffStatFactors</category>
+    <defaultBaseValue>0</defaultBaseValue>
+    <minValue>0</minValue>
+    <toStringStyle>PercentZero</toStringStyle>
+    <showIfUndefined>false</showIfUndefined>
+    <displayPriorityInCategory>4508</displayPriorityInCategory>
+  </StatDef>
+
+  <StatDef>
+    <defName>AK_StuffPower_Armor_Absolute</defName>
+    <label>护甲 - 真实</label>
+    <labelForFullStatList>护甲 - 真实(材料倍率)</labelForFullStatList>
+    <description>Armor against sharp damage like bullets, knife stabs, and animal bites.</description>
+    <category>StuffStatFactors</category>
+    <defaultBaseValue>0</defaultBaseValue>
+    <minValue>0</minValue>
+    <toStringStyle>PercentZero</toStringStyle>
+    <showIfUndefined>false</showIfUndefined>
+    <displayPriorityInCategory>4508</displayPriorityInCategory>
+  </StatDef>
+
+</Defs>

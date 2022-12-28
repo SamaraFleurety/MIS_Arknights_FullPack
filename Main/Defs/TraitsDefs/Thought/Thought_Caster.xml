@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- 已排序 -->
+
+	<ThoughtDef Name = "AK_Thought_Permanent" Abstract = "True">
+		<workerClass>ThoughtWorker_AlwaysActive</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Chernobog</defName>
+		<requiredTraits>
+			<li>AK_Trait_Chernobog</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>切尔诺伯格</label>
+				<description>我们无从得知从切尔诺伯格逃出来的人经历了什么。但无论如何这对他们来说都是地狱般的经历，并且毫无疑问需要很多时间去试图遗忘并适应新生活。</description>
+				<baseMoodEffect>-20</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<!-- Caster -->
+
+	<!-- 杜林 -->
+	
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Durin</defName>
+		<requiredTraits>
+			<li>AK_Trait_Durin</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>极度嗜睡</label>
+				<description>健康的秘诀，是好好睡觉。</description>
+				<baseMoodEffect>-6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<!-- 阿米娅 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Amiya</defName>
+		<requiredTraits>
+			<li>AK_Trait_Amiya</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>救世的魔王</label>
+				<description>那一天所看到的光景，想要呐喊却无法发出声音的绝望......希望能把这些，永远藏在记忆的最深处......</description>
+				<baseMoodEffect>15</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 夕 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Dusk</defName>
+		<requiredTraits>
+			<li>AK_Trait_Dusk</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>尽波澜</label>
+				<description>山川风月，花羽林渊，贩夫走卒，老少男女，画不尽，也看不完，越不过，也走不出。</description>
+				<baseMoodEffect>-6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 刻俄伯 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Ceobe</defName>
+		<requiredTraits>
+			<li>AK_Trait_CeobeSecond</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>傻狗子</label>
+				<description>咬你哦！
+				</description>
+				<baseMoodEffect>20</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 艾雅法拉 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Eyjafjalla</defName>
+		<requiredTraits>
+			<li>AK_Trait_Eyjafjalla</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>学者之心</label>
+				<description>
+					黑暗追着她，她追着光。
+					经火烧过的是真理，亦是永恒。
+				</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 苦艾 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Absinthe</defName>
+		<requiredTraits>
+			<li>AK_Trait_Absinthe</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>执法者</label>
+				<description>磨难可能毁灭一个人，也可能带来新生。</description>
+				<baseMoodEffect>-10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 莫斯提马 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Mostima</defName>
+		<requiredTraits>
+			<li>AK_Trait_Mostima</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>堕天使</label>
+				<description>法令的效力是绝对的。当她将枪口对准同类时，她的命运就已经被决定了。</description>
+				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 伊芙利特 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Ifrit</defName>
+		<requiredTraits>
+			<li>AK_Trait_Ifrit</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>炎魔</label>
+				<description>
+					{0}时常会出现幻觉，她会看到烧焦的尸体与动物，或者亲密的人烈火焚身。
+					每当此时，她就会变得意识恍惚，因此烧掉一条走廊的事也不是没有。
+				</description>
+				<baseMoodEffect>-12</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<!-- 卡涅利安 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Carnelian</defName>
+		<requiredTraits>
+			<li>AK_Trait_Carnelian</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>真正的萨尔贡人</label>
+				<description>在那些贵族眼里，我应该是相当刺眼的异类吧？不过无所谓，我不在乎。</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 蜜蜡 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Beeswax</defName>
+		<requiredTraits>
+			<li>AK_Trait_Beeswax</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>沙原的祝福</label>
+				<description>烈阳、风暴、还有泛起波浪的金色沙原，神灵寄宿在孕养我们的这片地上，给予族人们庇佑和祝福。</description>
+				<baseMoodEffect>8</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 耶拉 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Kjera</defName>
+		<requiredTraits><li>AK_Trait_Kjera</li></requiredTraits>
+		<stages>
+			<li>
+				<label>耶拉冈德</label>
+				<description>祈祷便能有回报，诚心便能得所求......要是真的存在这么方便的东西，我也想见一见呢。</description>
+				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<!-- 特米米 -->
+	
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Tomimi</defName>
+		<requiredTraits><li>AK_Trait_Tomimi</li></requiredTraits>
+		<stages>
+			<li>
+				<label>粗尾巴</label>
+				<description>尾巴，又长了啊，再这样长下去，真的会被人嫌弃的啊，呜呜......好烦恼。</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+<!-- 澄闪 -->
+	
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_GoldenglowSecond</defName>
+		<requiredTraits>
+			<li>AK_Trait_GoldenglowSecond</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>随和</label>
+				<description>今天也要开开心心的哦</description>
+				<baseMoodEffect>12</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+<!-- 星源 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Astgenne</defName>
+		<requiredTraits><li>AK_Trait_Astgenne</li></requiredTraits>
+		<stages>
+			<li>
+				<label>星束交汇</label>
+				<description>哥伦比亚的科技日新月异，作为科研人员，我几乎看得到那个值得期待的未来。</description>
+				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_AstgenneSecond</defName>
+		<requiredTraits><li>AK_Trait_AstgenneSecond</li></requiredTraits>
+		<stages>
+			<li>
+				<label>独立</label>
+				<description>某些人帮助他人是衷心希望别人能过上更好的生活，而另一些人，只是为了让受助者成为更有用的工具，他们从不在意你的想法，只是享受掌控你的滋味，头疼的很。</description>
+				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+</Defs>

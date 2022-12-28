@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="AK_WeaponBase_Specialist">
+    <defName>AK_Weapon_Red</defName>
+    <label>红的小刀</label>
+    <description>红有一把小刀，她有一把小刀。</description>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Specialist/RedW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <tools Inherit = "false">
+      <li>
+        <label>刀柄敲击</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>1.4</cooldownTime>
+      </li>
+      <li>
+        <label>刀捅</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>24</power>
+        <armorPenetration>1.1</armorPenetration>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>刀劈</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>22</power>
+        <armorPenetration>1.1</armorPenetration>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>刀刺</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>23</power>
+        <armorPenetration>1.1</armorPenetration>
+        <cooldownTime>1.0</cooldownTime>
+      </li>
+      <li>
+        <label>撕咬</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+      <li>
+        <label>脚踢</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <ThingDef ParentName="AK_WeaponBase_Specialist">
+    <defName>AK_Weapon_Robin</defName>
+    <label>罗宾的道具箱</label>
+    <description>一把没有开封的匕首，设计很精致，柄上还有刻字。
+      似乎是某部电影的限量版周边，不过这款是仿制的。</description>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Specialist/RobinW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <AccuracyTouch>0.9</AccuracyTouch>
+      <AccuracyShort>1</AccuracyShort>
+      <AccuracyMedium>0.65</AccuracyMedium>
+      <AccuracyLong>0.55</AccuracyLong>
+      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>      <!--后摇-->
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>AK_Bullet_Robin</defaultProjectile>
+        <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+        <warmupTime>1.2</warmupTime>        <!--前摇-->
+        <range>12</range>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <soundCast>AK_Sound_Weapon_Robin</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <noiseRadius>3</noiseRadius>
+      </li>
+    </verbs>
+    <tools Inherit = "false">
+      <li>
+        <label>道具箱猛砸</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+      <li>
+        <label>捅</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>劈砍</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>22</power>
+        <cooldownTime>1.7</cooldownTime>
+      </li>
+      <li>
+        <label>刺</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>21</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>拳击</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>1.0</cooldownTime>
+      </li>
+      <li>
+        <label>踢击</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <ThingDef ParentName="AK_BulletBase_Bow">
+    <defName>AK_Bullet_Robin</defName>
+    <label>投掷飞刀</label>
+    <graphicData>
+      <texPath>Things/Projectile/Robin_Knife</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingClass>Bullet</thingClass>
+    <projectile>
+      <damageDef>Bullet</damageDef>      <!--伤害类型-->
+      <damageAmountBase>18</damageAmountBase>
+      <stoppingPower>3</stoppingPower>
+      <speed>50</speed>
+    </projectile>
+  </ThingDef>
+
+  <SoundDef ParentName="AK_SoundBase">
+    <defName>AK_Sound_Weapon_Robin</defName>
+    <subSounds Inherit="False">
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Operator/Specialist/Robin/p_atk_smallknife_n</clipPath>
+          </li>
+        </grains>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <ThingDef ParentName="AK_WeaponBase_Specialist">
+    <defName>AK_Weapon_Gladiia</defName>
+    <label>歌雷蒂娅的长槊</label>
+    <description>陆地的泥土是如此缺水，陆地的空气是如此干燥。离开了大海的歌蕾蒂娅如同一条搁浅的鲸鱼一样。
+    或许每一个被迫离开大海的阿戈尔人都不得不忍受这种痛苦。</description>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Specialist/GladiiaW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <tools Inherit = "false">
+      <li>
+        <label>槊柄猛砸</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>22</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+      <li>
+        <label>槊捅</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>36</power>
+        <armorPenetration>1.26</armorPenetration>        <!--穿甲-->
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+      <li>
+        <label>槊劈砍</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>38</power>
+        <cooldownTime>2.2</cooldownTime>
+      </li>
+      <li>
+        <label>槊刺</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>32</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>槊重击</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>44</power>
+        <armorPenetration>1.26</armorPenetration>        <!--穿甲-->
+        <cooldownTime>3.2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <ThingDef ParentName="AK_WeaponBase_Specialist">
+    <defName>AK_Weapon_Weedy</defName>
+    <label>工程蓄水炮</label>
+    <description>没有煌快，但是比煌大姐远，而且很能喷水！！！</description>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Specialist/WeedyW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <tools Inherit = "false">
+      <li>
+        <label>炮管敲击</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>23</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+      <li>
+        <label>炮管猛砸</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>30</power>
+        <cooldownTime>2.8</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <ThingDef ParentName="AK_WeaponBase_Specialist">
+    <defName>AK_Weapon_Mizuki</defName>
+    <label>“使者之约”</label>
+    <description>我本以为这个孩子早晚会泯然众人。
+    但当他的舌尖触碰到使者的馈赠，当他将这一切纳为己有，而不是被大群的声音淹没，成为一只卑微的恐鱼，事情就似乎变得有些不同了。</description>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Specialist/MizukiW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <tools Inherit = "false">
+      <li>
+        <label>触须捅</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>30</power>
+        <armorPenetration>0.6</armorPenetration>        <!--穿甲-->
+        <cooldownTime>2.8</cooldownTime>
+      </li>
+      <li>
+        <label>触须抽打</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>26</power>
+        <armorPenetration>0.7</armorPenetration>        <!--穿甲-->
+        <cooldownTime>2.8</cooldownTime>
+      </li>
+      <li>
+        <label>触须劈砍</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>32</power>
+        <armorPenetration>0.6</armorPenetration>        <!--穿甲-->
+        <cooldownTime>3.4</cooldownTime>
+      </li>
+      <li>
+        <label>触须突刺</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>24</power>
+        <armorPenetration>0.8</armorPenetration>        <!--穿甲-->
+        <cooldownTime>2.0</cooldownTime>
+      </li>
+      <li>
+        <label>触须撕咬</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <ThingDef ParentName="AK_WeaponBase_Specialist">
+    <defName>AK_Weapon_Gravel</defName>
+    <label>隐秘行动工具</label>
+    <description>用来执行特殊任务的短刀，被磨得很锋利。
+    传统的骑士精神厌弃阴暗的手段，不过总是有例外。</description>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Specialist/GravelW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <tools Inherit = "false">
+      <li>
+        <label>刀捅</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>刀柄猛砸</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+      <li>
+        <label>小刀劈砍</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2.0</cooldownTime>
+      </li>
+      <li>
+        <label>刀刺</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>21</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>踢击</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <ThingDef ParentName="AK_WeaponBase_Specialist">
+    <defName>AK_Weapon_Kafka</defName>
+    <label>卡夫卡的小刀</label>
+    <description>割草还是捅人都很好用。</description>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Specialist/KafkaW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <tools Inherit = "false">
+      <li>
+        <label>刀捅</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>22</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>刀柄猛砸</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+      <li>
+        <label>小刀劈砍</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>22</power>
+        <cooldownTime>2.0</cooldownTime>
+      </li>
+      <li>
+        <label>刀刺</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <ThingDef ParentName="AK_WeaponBase_Specialist">
+    <defName>AK_Weapon_Cliffheart</defName>
+    <label>凌绝顶</label>
+    <description>你征服了这个高度，你触摸了天空，你就证明了自己的价值。</description>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Specialist/CliffheartW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <tools Inherit = "false">
+      <li>
+        <label>链钩捅</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>20</power>
+        <armorPenetration>0.8</armorPenetration>        <!--穿甲-->
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>链柄猛砸</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>14</power>
+        <armorPenetration>1.26</armorPenetration>        <!--穿甲-->
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+      <li>
+        <label>链钩劈砍</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>22</power>
+        <armorPenetration>0.8</armorPenetration>        <!--穿甲-->
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>链钩刺</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>20</power>
+        <armorPenetration>0.8</armorPenetration>        <!--穿甲-->
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <ThingDef ParentName="AK_WeaponBase_Specialist">
+    <defName>AK_Weapon_Dorothy</defName>
+    <label>多萝西的手提箱</label>
+    <description>一个手提箱，侧面有数个插口。
+        别担心，里面没有什么奇怪的东西，这只是单纯用来操控共振装置的。</description>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Specialist/DorothyW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <tools Inherit = "false">
+      <li>
+        <label>箱子扑打</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <ThingDef ParentName="AK_WeaponBase_Specialist">
+    <defName>AK_Weapon_DorothyTypeB</defName>
+    <label>多萝西的实验报告</label>
+    <description>一本记载着密密麻麻实验报告的笔记。
+        一些内容令人不寒而栗。</description>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Specialist/DorothyW2</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+
+  <ThingDef ParentName="AK_WeaponBase_Specialist">
+    <defName>AK_Weapon_DorothyTypeC</defName>
+    <label>多萝西的机械臂</label>
+    <description>一条电子驱动的机械臂，顶部原本抓取部分被改成了射弹功能。
+        莱茵生命的科研工作总是繁重的，主任级的更是两只手都忙不过来，因此很多莱茵生命科学家都会有这样一条机械臂辅助工作。</description>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Specialist/DorothyW3</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <AccuracyTouch>0.9</AccuracyTouch>
+      <AccuracyShort>1</AccuracyShort>
+      <AccuracyMedium>0.65</AccuracyMedium>
+      <AccuracyLong>0.55</AccuracyLong>
+      <RangedWeapon_Cooldown>0.3</RangedWeapon_Cooldown>      <!--后摇-->
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>AK_Bullet_Dorothy</defaultProjectile>
+        <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+        <warmupTime>0.9</warmupTime>        <!--前摇-->
+        <range>12</range>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <soundCast>AK_Sound_Weapon_Dorothy</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <noiseRadius>3</noiseRadius>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <ThingDef ParentName="AK_BulletBase_Bow">
+    <defName>AK_Bullet_Dorothy</defName>
+    <label>子弹射击</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingClass>Bullet</thingClass>
+    <projectile>
+      <damageDef>Bullet</damageDef>      <!--伤害类型-->
+      <damageAmountBase>20</damageAmountBase>
+      <stoppingPower>3</stoppingPower>
+      <speed>50</speed>
+    </projectile>
+  </ThingDef>
+
+  <SoundDef ParentName="AK_SoundBase">
+    <defName>AK_Sound_Weapon_Dorothy</defName>
+    <subSounds Inherit="False">
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Operator/GeneralSFX/p_atk_pistol_h</clipPath>
+          </li>
+        </grains>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+
+</Defs>

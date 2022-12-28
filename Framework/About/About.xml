@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>M.I.S. - Framework</name>
+	<author>M.I.S. Group</author>	
+  <supportedVersions>
+  	<li>1.4</li>	
+  </supportedVersions> 
+    <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+	  <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
+  </modDependencies>
+	<loadAfter>
+		<li>brrainz.harmony</li>
+		<li>Ludeon.RimWorld</li>
+	</loadAfter>	  
+	<description>
+蘑菇墨鱼串串香制作组的功能性Mod
+主要功能:
+	招募系统 - 直接招募一名指定属性,装备,故事,人际关系等的殖民者(干员)
+	文档系统 - 会记录干员的技能成长,死亡后再次招募会是成长后的属性
+	立绘显示 - 在点击干员后会显示干员的立绘(二次元浓度上升了)
+	语音播放 - 在招募,选择,征召干员和干员死亡时可以播放语音
+	技能系统 - 当前主要为明日方舟干员定制
+
+几乎所有功能都有xml接口.
+若你希望定制自己的角色并于游戏中招募,可使用本mod轻松实现.不需要任何C#知识.
+	
+Functional framework by Mushroom and Inkfish Sticked Barbecue Group.
+Main Features:
+	Recruiting System(Directly recruit a operator with full set of fixed almost every stats: apparels, traits, stories, etc.)
+	Stats Documentation System for recruited operators
+	Display portrait of operators
+	Play a segment of voice when recruiting, selecting and drafting an operator
+	Skill System(Currently mainly for arknights operators)
+
+Most featrures provided xml API for other modders to design own characters.
+Creating a new full functional character without usage of C# is possible with this frame.
+	</description>	
+  <packageId>MIS.Framework</packageId>	
+</ModMetaData>

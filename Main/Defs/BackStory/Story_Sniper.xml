@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Pinecone_Child</defName>
+		<slot>Childhood</slot>
+		<title>拓荒者的孩子</title>
+		<titleShort>拓荒者</titleShort>
+		<baseDesc>松果出生在哥伦比亚一个普通的工人家庭。她的父母如同大部分哥伦比亚工人一样，投身于哥伦比亚浩瀚的拓荒浪潮。在某个春天，松果出生在一处偏僻却安宁的哥伦比亚城镇。在这座逐渐听不见拓荒队伍机械轰鸣的镇子里，松果度过了短暂却幸福的童年。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Pinecone_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>临时工</title>
+		<titleShort>临时工</titleShort>
+		<baseDesc>然而，数年前，松果的家庭遭遇了一场变故——松果的父亲在施工事故中，几乎失去双臂，却因为公司的黑心合同迟迟得不到治疗费。多亏山无意之间的搭救才得到妥善的治疗。
+后来，在卡夫卡的口中，松果得知了自己的恩人正身陷囹圄，为了帮助恩人，她决定协助山越狱，并在成功后随其加入罗德岛。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Exusiai_Child</defName>
+		<slot>Childhood</slot>
+		<title>“传说中三年内炸毁母校十七次的传奇”</title>
+		<titleShort>传奇</titleShort>
+		<baseDesc>能天使曾经在教堂外搞摇滚乐演出，出了岔子被公证所的人追了三条街，还失手炸掉过自己的母校。
+有时候能天使制造爆炸事故甚至只是因为想要恶作剧。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Exusiai_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>企鹅物流职员</title>
+		<titleShort>职员</titleShort>
+		<baseDesc>在毕业后，能天使前往龙门，并且在企鹅物流供职。
+从事秘密联络，武装押运等非公开活动，推测身份：信使。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Archetto_Child</defName>
+		<slot>Childhood</slot>
+		<title>拉特兰混血儿</title>
+		<titleShort>混血儿</titleShort>
+		<baseDesc>空弦小姐有着一半的维多利亚血统，一半的拉特兰血统。她从小在拉特兰长大，深爱着这片自由又开朗的故乡。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Archetto_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>兰登修道院修女</title>
+		<titleShort>修女</titleShort>
+		<baseDesc>空弦本可以作为学者留在母校，或是继承她母亲的家具店铺，但当时年仅十岁的席德佳选择了加入兰登修道院，成为光荣的兰登卫队的一员，为捍卫拉特兰奉献出自己应有的力量。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Schwarz_Child</defName>
+		<slot>Childhood</slot>
+		<title>孩童杀手</title>
+		<titleShort>杀手</titleShort>
+		<baseDesc>黑原本是一个商人家庭的孩子，但是在她6岁那年，因为家人被蒙骗而死。造成自己贩卖为奴，一个佣兵团体最后买下了黑。并将她培养成了一个孩童杀手。
+她最擅长替人处理上不得台面的脏活。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Schwarz_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>精锐保镖</title>
+		<titleShort>保镖</titleShort>
+		<baseDesc>黑在她12岁那年收到了当时赫尔曼市长的帮助，全灭了自己所属的佣兵团并成为了赫尔曼市长的保镖，随后成为了锡兰的保姆兼保镖直到现在</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Provence_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>乐观的天灾信使</title>
+		<titleShort>天灾信使</titleShort>
+		<baseDesc>无数次与天灾擦肩而过并不是一件轻松的事情，有许多天灾信使因为精神层面的原因而选择了放弃。
+但普罗旺斯义不容辞地背负着这些沉重的责任，她对天灾为人们带来的破坏与灾难有着清醒的认知，对生命的珍视是驱使她一次次投身于这份工作的根本动力。
+她带来的并非灾难将至的绝望，而是灯塔般的希望。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_W_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>狡猾的佣兵</title>
+		<titleShort>佣兵</titleShort>
+		<baseDesc>在卡兹戴尔战乱时期，W曾隶属于卡兹戴尔某支独立雇佣兵小队。该队伍曾频繁袭击拉特兰商旅队伍并因此闻名。
+更多的...了解对你没有任何好处。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Platinum_Child</defName>
+		<slot>Childhood</slot>
+		<title>被玩弄的少女</title>
+		<titleShort>被玩弄的少女</titleShort>
+		<baseDesc>白金原本是个憧憬骑士身份的普通少女，却被商业联合会玩弄于鼓掌之中，始终得不到骑士称号。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Platinum_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>无胄盟白金</title>
+		<titleShort>白金</titleShort>
+		<baseDesc>白金在一次被要求输掉的比赛中因为对方无视她的投降、继续攻击而心生愤懑，在无胄盟的诱导下暗杀了那位对手，成为了前任白金的学徒，最后被迫成为了新一任白金。为了任务去暗杀博士，却因为博士对商业联合会的深刻了解，成功威慑了白金导致其无法下手甚至记仇，后来叛离无胄盟，在逃亡路上遇到了博士、砾和芙蓉，于是成功地被拐上罗德岛。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Greythroat_Child</defName>
+		<slot>Childhood</slot>
+		<title>医者的孩子</title>
+		<titleShort>医者的孩子</titleShort>
+		<baseDesc>灰喉的双亲都是非常优秀的矿石病学者，曾与罗德岛的部分医疗干员有一些学术上的合作。但在某个时点后，她的父亲便彻底销声匿迹，再之后没多久，灰喉的母亲便带着年幼的她来到了罗德岛，然而其母却拒绝了罗德岛提出的邀请，留下女儿后便不知所踪。灰喉的母亲在离开罗德岛时的精神状态非常令人不安，即使后来派遣信使想要与她取得联系，也只是石沉大海。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Greythroat_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>弩手</title>
+		<titleShort>弩手</titleShort>
+		<baseDesc>在阿米娅的建议下，也为了回报罗德岛的收养之恩，灰喉尝试着参加干员考核，开始学习弓弩等武器的使用。
+现通过考核后，灰喉被允许成为罗德岛行动队成员。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Jessica_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>黑钢雇员（富婆）</title>
+		<titleShort>富婆雇员</titleShort>
+		<baseDesc>极度缺乏自信的黑钢国际正式员工、派遣干员。似乎非常非常有钱！
+或许是性格软弱的原因，在黑钢时就经常被各方抓去测试一些新型的协议和器械，来到罗德岛后，这一点也延续了下来。
+对新晋干员来说，她们在使用大部分器械前，都要先观看杰西卡的演示。
+某种意义上，这也是杰西卡值得信赖的表现。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Bluepoison_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>毒剂师</title>
+		<titleShort>毒剂师</titleShort>
+		<baseDesc>蓝毒现作为狙击干员于罗德岛干员组任职，并定期为医疗组提供毒理学相关研究的协助。
+目前蓝毒的毒物生成能力由凯尔希医生亲自进行研究并进行日常采样工作。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Rosmontis_Child</defName>
+		<slot>Childhood</slot>
+		<title>洛肯水箱试验品</title>
+		<titleShort>试验品</titleShort>
+		<baseDesc>她和她的兄弟因为拥有些许独特的源石技艺天赋，就被一名叫洛肯的科学家卷入一场实验，她们家庭的破灭与之后的收养生活，虚构的监护人、违规的抚养院，全都与此有关。
+在洛肯水箱实验室被摧毁后，梅兰德儿童权益保障基金会从废墟中救出了这个特殊个体，再将她秘密转移到了凯尔希手中。
+“他们说......她的兄弟还活在她的身体里。她的法术就是她的兄弟在......伸出手，拥抱土地，或者用力捶打。”</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Rosa_Child</defName>
+		<slot>Childhood</slot>
+		<title>没落的贵族</title>
+		<titleShort>没落的贵族</titleShort>
+		<baseDesc>早露所在的的罗斯托夫家族，是乌萨斯大叛乱后兴起的新贵族中的一员，原本只是某位伯爵的扈从的他们得到了原本属于伯爵的一切。
+切尔诺伯格市的市长鲍里斯伯爵也是新贵之一，两家一拍即合，在切尔诺伯格经营着或明或暗的生意，这让她的家族在切尔诺伯格有着很高地位。
+当然，这一切都随着切尔诺伯格的覆灭化为乌有。
+在切城事变后，早露随着乌萨斯学生自治团来到罗德岛寻求庇护。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Executor_Child</defName>
+		<slot>Childhood</slot>
+		<title>拉特兰公民</title>
+		<titleShort>拉特兰公民</titleShort>
+		<baseDesc>送葬人，拉特兰公民，适用于拉特兰一至十三项公民权益。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Executor_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>拉特兰公证所执行人</title>
+		<titleShort>执行人</titleShort>
+		<baseDesc>拉特兰公证所需要独特的工作人员。公证所将他们派遣向各个城邦，专门监督和推动种种事务的解决和落实。
+干员送葬人就是其中一员。他们这些工作人员被称作“执行者”，代表着拉特兰公证所的意志。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Meteorite_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>自由佣兵</title>
+		<titleShort>自由佣兵</titleShort>
+		<baseDesc>前“守林人”组织成员，现自由佣兵，此外履历不详。
+现作为狙击干员为罗德岛服务，使用手中的弩炮发挥出卓越的范围杀伤力。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Firewatch_Child</defName>
+		<slot>Childhood</slot>
+		<title>来自森林</title>
+		<titleShort>来自森林</titleShort>
+		<baseDesc>守林人小姐心中的声音，来自于森林。而且来自于森林的最深处。
+只有最深处，才能听到这些静寂却又震耳欲聋的幽声。
+守林人小姐曾说过，她的族人和朋友，全都葬身在那里。
+究竟……她经历过什么呢……？</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Firewatch_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>游击队员</title>
+		<titleShort>游击队员</titleShort>
+		<baseDesc>守林人，出身不详，于卡西米尔-乌萨斯边境地区作战多年，推测身份：游击队员。在伏击、远程狙击、散兵战术、流动战术等非对称作战中展现出深厚经验。
+现于罗德岛狙击小组任职，提供射击援护方面的保障服务。</baseDesc>
+	</BackstoryDef>
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Fiammetta_Child</defName>
+		<slot>Childhood</slot>
+		<title>拉特兰的黎博利</title>
+		<titleShort>拉特兰的黎博利</titleShort>
+		<baseDesc>菲亚梅塔出生于拉特兰，在家乡的学校毕业后成为了公证所的一员。
+据说菲亚梅塔在她当时的班级里成绩是最好的。
+</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Fiammetta_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>拉特兰公证所高级特派员</title>
+		<titleShort>高级特派员</titleShort>
+		<baseDesc>菲亚梅塔在加入公证所之后原本同安多恩和他手下的小队一起行动，但是在某些变故后她现在的任务变成了监视莫斯提马。
+</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_April_Child</defName>
+		<slot>Childhood</slot>
+		<title>被公司养大的孤儿</title>
+		<titleShort>孤儿</titleShort>
+		<baseDesc>四月的父母在她很小的时候就因为矿难去世了，而四月靠着公司的补助勉强长大了。
+</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_April_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>感染者猎手</title>
+		<titleShort>感染者猎手</titleShort>
+		<baseDesc>四月在长大后，她为了谋生也为了报答公司的救助，成为了一名在荒野中驱赶城市周围野兽或者护卫公司队伍的猎人，但因为感染矿石病失业并随后辗转加入罗德岛。
+</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Fartooth_Child</defName>
+		<slot>Childhood</slot>
+		<title>卡西米尔青年</title>
+		<titleShort>卡西米尔青年</titleShort>
+		<baseDesc>远牙的童年和其他同龄人一样是在对骑士憧憬中度过的，成年后因为渴望成为骑士，远牙只身前往大骑士岭，却在中途因为意外感染矿石病。
+</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Fartooth_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>远牙骑士</title>
+		<titleShort>远牙骑士</titleShort>
+		<baseDesc>在血骑士的大力推行下感染者骑士法案得以施行，远牙得以成为一名感染者骑士并参与比赛，并在后来加入红松骑士团。
+</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Vermeil_Child</defName>
+		<slot>Childhood</slot>
+		<title>猎人</title>
+		<titleShort>猎人</titleShort>
+		<baseDesc>红云曾经属于一个叙拉古偏远地区的聚落，归属的聚落因为与一个乌萨斯佣兵团的纠纷被灭后她通过训练消灭了佣兵团所有的成员。
+</baseDesc>
+	</BackstoryDef>
+
+</Defs>

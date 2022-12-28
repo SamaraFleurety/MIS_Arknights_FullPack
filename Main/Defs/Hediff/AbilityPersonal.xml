@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<HediffDef>
+		<defName>AK_Hediff_BlazeIII</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>BlazeIII</label>
+		<description>from blaze's ability</description>
+		<isBad>false</isBad>
+		<defaultLabelColor>(1,1,0.5)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>24</maxSeverity>
+		<lethalSeverity>24.1</lethalSeverity>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-24</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<statOffsets>
+					<PainShockThreshold>-0.15</PainShockThreshold>
+				</statOffsets>
+				<statFactors>
+					<MoveSpeed>0.7</MoveSpeed>
+					<IncomingDamageFactor>0.013</IncomingDamageFactor>
+				</statFactors>
+			</li>
+		    <li>
+				<minSeverity>20</minSeverity>
+				<statOffsets>
+					<PainShockThreshold>0.2</PainShockThreshold>
+				</statOffsets>
+				<statFactors>
+					<MoveSpeed>2</MoveSpeed>
+					<IncomingDamageFactor>0.8</IncomingDamageFactor>
+				</statFactors>
+		    </li>
+			<li>
+				<minSeverity>23.99</minSeverity>
+				<statFactors>
+					<IncomingDamageFactor>0.05</IncomingDamageFactor>
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
+
+</Defs>

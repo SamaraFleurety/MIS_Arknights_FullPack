@@ -1,0 +1,50 @@
+<根> 
+	<类别 CategoryDefs> </类别>
+	<发型 HairDefs> 
+		基底
+		发型
+			命名标准：AK_Hair_<干员英文名>
+	</发型>
+	<物品>
+		<衣着 ThingsDefs_Apparel>
+			基底
+			罗德岛干员服装(按职业分);贴图按职业分
+				命名标准:AK_Apparel_<干员英文名>
+			整合运动服装 贴图主文件夹为首领，子文件夹soilder内每种单位一个文件夹
+				命名标准：
+					首领:AK_Apparel_<英文名>
+					士兵:AK_Apparel_Soilder_<英文名>
+			<帽子和饰品>
+				命名标准:
+					AK_Apparel_<英文名>
+					AK_Apparel_Soilder_<英文名>
+		</衣着>
+		<武器 ThingsDefs_Weapon>
+			定义，贴图路径均同衣着
+				命名标准：
+					罗德岛：AK_Weapon_<英文名>W (W后缀是苏版贴图名遗毒，不能怪我)
+					整合：
+						FIXME:还没写
+		</武器>
+		<建筑 ThingsDefs_Building>
+			命名标准: AK_Building_<英文名>
+		</建筑>
+		<矿物 ThingsDefs_Mineral>
+			命名标准: AK_ORG_<英文> (Originium实在容易拼错)
+		</矿物>
+	</物品>
+	<特性 TraitsDefs>
+		职业特性
+		个人专属特性
+			统一命名标准：
+				干员：AK_Trait_<Agent>(罗德岛)||<Reunion>(一切敌人)_<职业名>||<人名>
+	</特性>
+</根>
+
+
+贴图名:
+	服装:<英文名>_<体型>_<方位>
+	发型:<英文名>_<方位>
+	武器:<英文名>W
+	帽子:<英文名>H_方位
+	

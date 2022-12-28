@@ -1,0 +1,1406 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<SoundDef ParentName="AK_SoundBase">
+		<defName>AK_Sound_Weapon_GeneralPistol</defName>
+		<subSounds Inherit="False">
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/GeneralSFX/p_atk_pistol_n</clipPath>
+					</li>
+				</grains>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName="AK_SoundBase">
+		<defName>AK_Sound_Weapon_GeneralArrow</defName>
+		<subSounds Inherit="False">
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/GeneralSFX/p_atk_arrow_n</clipPath>
+					</li>
+				</grains>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName="AK_SoundBase">
+		<defName>AK_Sound_Weapon_GeneralGrenade</defName>
+		<subSounds Inherit="False">
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/GeneralSFX/b_char_atkboost</clipPath>
+					</li>
+				</grains>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Sniper">
+		<defName>AK_Weapon_Executor</defName>
+		<label>送葬人的散射铳</label>
+		<description>一把拉特兰公证所常用的散射铳，在近战中有着难以比拟的火力。
+		第一时间拔出武器攻击送葬人的人远比敞开大门欢迎他的多，但送葬人总能完美完成所有的委托。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Sniper/ExecutorW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>1</AccuracyTouch>
+			<AccuracyShort>0.95</AccuracyShort>
+			<AccuracyMedium>0.65</AccuracyMedium>
+			<AccuracyLong>0.45</AccuracyLong>
+			<RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>			<!--后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_Executor</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>1.7</warmupTime>				<!--前摇-->
+				<range>11</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_Executor</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<tools Inherit = "false">
+			<li>
+				<label>枪托猛砸</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>1</cooldownTime>
+			</li>
+			<li>
+				<label>踢击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>18</power>
+				<cooldownTime>1.2</cooldownTime>
+			</li>
+			<li>
+				<label>拳击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>21</power>
+				<cooldownTime>0.8</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_Executor</defName>
+		<label>霰弹射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/MagicOrb</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Bullet</damageDef>			<!--伤害类型-->
+			<damageAmountBase>72</damageAmountBase>
+			<stoppingPower>3</stoppingPower>
+			<speed>50</speed>
+			<soundExplode>ThumpCannon_Impact</soundExplode>			<!--爆炸音效-->
+		</projectile>
+	</ThingDef>
+
+	<SoundDef ParentName="AK_SoundBase">
+		<defName>AK_Sound_Weapon_Executor</defName>
+		<subSounds Inherit="False">
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Sniper/Executor/p_atk_shotgun_n</clipPath>
+					</li>
+				</grains>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Sniper_Rifle">
+		<defName>AK_Weapon_Exusiai</defName>
+		<label>能天使的连发铳</label>
+		<description>一把连发铳，在萨科塔手中能够爆发出毁灭性的破坏力。
+		对于常人来说就是核铳都需要很长的时间去学会如何使用，萨科塔却能轻而易举的驾驭各种稀奇古怪的铳械，这到底是怎么做到的？！</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Sniper/ExusiaiW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.9</AccuracyTouch>
+			<AccuracyShort>1</AccuracyShort>
+			<AccuracyMedium>0.65</AccuracyMedium>
+			<AccuracyLong>0.55</AccuracyLong>
+			<RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>			<!--后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_ExusiaiI</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>1.5</warmupTime>				<!--前摇-->
+				<range>14</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_Exusiai</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_ExusiaiII</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>0.5</warmupTime>				<!--前摇-->
+				<range>14</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_Exusiai</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<tools Inherit = "false">
+			<li>
+				<label>枪托猛砸</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1</cooldownTime>
+			</li>
+			<li>
+				<label>踢击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>1.2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_ExusiaiI</defName>
+		<label>瞄准射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Bullet</damageDef>			<!--伤害类型-->
+			<damageAmountBase>22</damageAmountBase>
+			<armorPenetrationBase>0.4</armorPenetrationBase>			<!--穿甲-->
+			<stoppingPower>3</stoppingPower>
+			<speed>50</speed>
+			<soundExplode>ThumpCannon_Impact</soundExplode>			<!--爆炸音效-->
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_ExusiaiII</defName>
+		<label>短点射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Bullet</damageDef>			<!--伤害类型-->
+			<damageAmountBase>36</damageAmountBase>
+			<armorPenetrationBase>0.4</armorPenetrationBase>			<!--穿甲-->
+			<stoppingPower>3</stoppingPower>
+			<speed>50</speed>
+			<soundExplode>ThumpCannon_Impact</soundExplode>			<!--爆炸音效-->
+		</projectile>
+	</ThingDef>
+
+	<SoundDef ParentName="AK_SoundBase">
+		<defName>AK_Sound_Weapon_Exusiai</defName>
+		<subSounds Inherit="False">
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Sniper/Exusiai/p_atk_smg_n</clipPath>
+					</li>
+				</grains>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Sniper_Bow">
+		<defName>AK_Weapon_Greythroat</defName>
+		<label>灰喉的弩</label>
+		<description>罗德岛的制式弩，由高强度材料打造。
+		每一次扎实的射击，都将带来一份永远的宁静。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Sniper/GreythroatW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.9</AccuracyTouch>
+			<AccuracyShort>1</AccuracyShort>
+			<AccuracyMedium>0.65</AccuracyMedium>
+			<AccuracyLong>0.55</AccuracyLong>
+			<RangedWeapon_Cooldown>0.3</RangedWeapon_Cooldown>			<!--后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_Greythroat</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>0.7</warmupTime>				<!--前摇-->
+				<range>15</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_Greythroat</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<tools Inherit = "false">
+			<li>
+				<label>枪托猛砸</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>1.4</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_Greythroat</defName>
+		<label>射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/ArrowA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Bullet</damageDef>			<!--伤害类型-->
+			<damageAmountBase>14</damageAmountBase>
+			<stoppingPower>3</stoppingPower>
+			<armorPenetrationBase>0.35</armorPenetrationBase>			<!--穿甲-->
+			<speed>50</speed>
+			<soundExplode>ThumpCannon_Impact</soundExplode>			<!--爆炸音效-->
+		</projectile>
+	</ThingDef>
+
+	<SoundDef ParentName="AK_SoundBase">
+		<defName>AK_Sound_Weapon_Greythroat</defName>
+		<subSounds Inherit="False">
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Sniper/Greythroat/p_atk_revxbow_n</clipPath>
+					</li>
+				</grains>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Sniper">
+		<defName>AK_Weapon_Jessica</defName>
+		<label>黑钢制式铳</label>
+		<description>黑钢常见的核铳，很多黑钢干员都很喜欢用。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Sniper/JessicaW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.9</AccuracyTouch>
+			<AccuracyShort>1</AccuracyShort>
+			<AccuracyMedium>0.65</AccuracyMedium>
+			<AccuracyLong>0.55</AccuracyLong>
+			<RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>			<!--后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_Jessica</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>1.5</warmupTime>				<!--前摇-->
+				<range>12</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_GeneralPistol</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<tools Inherit = "false">
+			<li>
+				<label>枪托猛砸</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>1.0</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_Jessica</defName>
+		<label>射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Bullet</damageDef>			<!--伤害类型-->
+			<damageAmountBase>15</damageAmountBase>
+			<armorPenetrationBase>0.4</armorPenetrationBase>			<!--穿甲-->
+			<stoppingPower>3</stoppingPower>
+			<speed>50</speed>
+			<soundExplode>ThumpCannon_Impact</soundExplode>			<!--爆炸音效-->
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Sniper">
+		<defName>AK_Weapon_Pinecone</defName>
+		<label>松果的钉枪</label>
+		<description>在泰拉世界各处的工人手上都能看见的钉枪，由电池驱动，用来钉钉子很方便。
+		松果很容易忘记她的蓄电池落在哪了，每次出战前请务必提醒她一下。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Sniper/PineconeW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>1</AccuracyTouch>
+			<AccuracyShort>0.95</AccuracyShort>
+			<AccuracyMedium>0.65</AccuracyMedium>
+			<AccuracyLong>0.45</AccuracyLong>
+			<RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>			<!--后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_Pinecone</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>1.7</warmupTime>				<!--前摇-->
+				<range>10</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_Pinecone</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<tools Inherit = "false">
+			<li>
+				<label>枪托猛砸</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>17</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_Pinecone</defName>
+		<label>霰弹射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/MagicOrb</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Bullet</damageDef>			<!--伤害类型-->
+			<damageAmountBase>64</damageAmountBase>
+			<stoppingPower>3</stoppingPower>
+			<speed>50</speed>
+			<soundExplode>ThumpCannon_Impact</soundExplode>			<!--爆炸音效-->
+		</projectile>
+	</ThingDef>
+
+	<SoundDef ParentName="AK_SoundBase">
+		<defName>AK_Sound_Weapon_Pinecone</defName>
+		<subSounds Inherit="False">
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Sniper/Pinecone/p_atk_staplegun_n</clipPath>
+					</li>
+				</grains>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Sniper">
+		<defName>AK_Weapon_Provence</defName>
+		<label>普罗旺斯的弩</label>
+		<description>天灾信使常用的弩，用以应对平常常见的威胁与小麻烦
+		天灾信使的活动充满了危险，荒野行动更是九死一生，但普罗旺斯总能安然脱险。或许是因为她真的了解荒野的法则。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Sniper/ProvenceW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.8</AccuracyTouch>
+			<AccuracyShort>0.95</AccuracyShort>
+			<AccuracyMedium>1</AccuracyMedium>
+			<AccuracyLong>0.75</AccuracyLong>
+			<RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>			<!--后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_Provence</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>1.1</warmupTime>				<!--前摇-->
+				<range>20</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_GeneralArrow</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<tools Inherit = "false">
+			<li>
+				<label>弩托猛砸</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>1.8</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_Provence</defName>
+		<label>射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/ArrowB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Bullet</damageDef>			<!--伤害类型-->
+			<damageAmountBase>22</damageAmountBase>
+			<armorPenetrationBase>0.8</armorPenetrationBase>			<!--穿甲-->
+			<stoppingPower>3</stoppingPower>
+			<speed>50</speed>
+			<soundExplode>ThumpCannon_Impact</soundExplode>			<!--爆炸音效-->
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Sniper">
+		<defName>AK_Weapon_RosmontisTypeA</defName>
+		<label>迷迭香之拥</label>
+		<description>“谁来审判？”</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Sniper/RosmontisW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>1</AccuracyTouch>
+			<AccuracyShort>0.9</AccuracyShort>
+			<AccuracyMedium>0.75</AccuracyMedium>
+			<AccuracyLong>0.55</AccuracyLong>
+			<RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>			<!--后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_Rosmontis</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>1.6</warmupTime>				<!--前摇-->
+				<range>20</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_GeneralArrow</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<tools Inherit = "false">
+			<li>
+				<label>拳击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>11</power>
+				<cooldownTime>0.8</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_Rosmontis</defName>
+		<label>射击</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Sniper/RosmontisW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Bullet</damageDef>			<!--伤害类型-->
+			<damageAmountBase>38</damageAmountBase>
+			<stoppingPower>3</stoppingPower>
+			<speed>50</speed>
+			<extraDamages>
+				<li>
+					<def>Flame</def>					<!--伤害类型-->
+					<amount>4</amount>					<!--伤害数值-->
+				</li>
+			</extraDamages>
+			<soundExplode>ThumpCannon_Impact</soundExplode>			<!--爆炸音效-->
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Sniper">
+		<defName>AK_Weapon_RosmontisTypeB</defName>
+		<label>迷迭香的书</label>
+		<description>fixme</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Sniper/RosmontisW2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Sniper">
+		<defName>AK_Weapon_Schwarz</defName>
+		<label>黑的弩</label>
+		<description>一把弩。保养得很好，使用起来也十分便捷。但从上面的各种武器划痕和细小缺口中，可以窥见它曾经历过怎样的厮杀。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Sniper/SchwarzW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.8</AccuracyTouch>
+			<AccuracyShort>0.95</AccuracyShort>
+			<AccuracyMedium>1</AccuracyMedium>
+			<AccuracyLong>0.75</AccuracyLong>
+			<RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>			<!--后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_Schwarz</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>1.2</warmupTime>				<!--前摇-->
+				<range>11</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_Schwarz</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<tools Inherit = "false">
+			<li>
+				<label>弩托猛砸</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>1.6</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_Schwarz</defName>
+		<label>射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/ArrowD</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Bullet</damageDef>			<!--伤害类型-->
+			<damageAmountBase>26</damageAmountBase>
+			<armorPenetrationBase>1</armorPenetrationBase>			<!--穿甲-->
+			<stoppingPower>3</stoppingPower>
+			<speed>50</speed>
+			<soundExplode>ThumpCannon_Impact</soundExplode>			<!--爆炸音效-->
+		</projectile>
+	</ThingDef>
+
+	<SoundDef ParentName="AK_SoundBase">
+		<defName>AK_Sound_Weapon_Schwarz</defName>
+		<subSounds Inherit="False">
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Sniper/Schwarz/p_atk_militaryxbow_n</clipPath>
+					</li>
+				</grains>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Sniper">
+		<defName>AK_Weapon_AgentW</defName>
+		<label>W的榴弹发射器</label>
+		<description>一把涂满了鲜艳涂鸦的榴弹炮，即使是在武器多到泛滥的卡兹戴尔也是新鲜玩意。
+		拥有那么多把缴获的连发铳却坚持使用榴弹炮，由此可见连发铳有多难用了。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Sniper/WW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.7</AccuracyTouch>
+			<AccuracyShort>0.85</AccuracyShort>
+			<AccuracyMedium>0.95</AccuracyMedium>
+			<AccuracyLong>0.8</AccuracyLong>
+			<RangedWeapon_Cooldown>7</RangedWeapon_Cooldown>			<!--后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_AgentW</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>21</warmupTime>				<!--前摇-->
+				<range>20</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_AgentW</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<tools Inherit = "false">
+			<li>
+				<label>发射器猛砸</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>18</power>
+				<cooldownTime>1.0</cooldownTime>
+			</li>
+			<li>
+				<label>踢击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>15</power>
+				<cooldownTime>1.2</cooldownTime>
+			</li>
+			<li>
+				<label>拳击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>15</power>
+				<cooldownTime>0.8</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_AgentW</defName>
+		<label>射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/Grenade</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Bullet</damageDef>			<!--伤害类型-->
+			<damageAmountBase>25</damageAmountBase>
+			<stoppingPower>3</stoppingPower>
+			<speed>50</speed>
+			<soundExplode>ThumpCannon_Impact</soundExplode>			<!--爆炸音效-->
+		</projectile>
+	</ThingDef>
+
+	<SoundDef ParentName="AK_SoundBase">
+		<defName>AK_Sound_Weapon_AgentW</defName>
+		<subSounds Inherit="False">
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Sniper/W/p_atk_grenade3_n</clipPath>
+					</li>
+				</grains>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Sniper">
+		<defName>AK_Weapon_Rosa</defName>
+		<label>早露的攻城矛</label>
+		<description>经由罗德岛工程部改造的攻城器械，已经改装为了可以供单人使用的武器。
+		很难想象一台攻城用的器械经历了怎样的事情才会出现在市内。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Sniper/RosaW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.2</AccuracyTouch>
+			<AccuracyShort>0.35</AccuracyShort>
+			<AccuracyMedium>0.85</AccuracyMedium>
+			<AccuracyLong>0.95</AccuracyLong>
+			<RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>			<!--后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_Rosa</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>1.8</warmupTime>				<!--前摇-->
+				<range>26</range>
+				<minRange>10</minRange>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_Rosa</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<tools Inherit = "false">
+			<li>
+				<label>矛尖重击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>20</power>
+				<cooldownTime>2.8</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_Rosa</defName>
+		<label>射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/ArrowD</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Bullet</damageDef>			<!--伤害类型-->
+			<damageAmountBase>32</damageAmountBase>
+			<armorPenetrationBase>1.15</armorPenetrationBase>			<!--穿甲-->
+			<stoppingPower>3</stoppingPower>
+			<speed>50</speed>
+			<soundExplode>ThumpCannon_Impact</soundExplode>			<!--爆炸音效-->
+		</projectile>
+	</ThingDef>
+
+	<SoundDef ParentName="AK_SoundBase">
+		<defName>AK_Sound_Weapon_Rosa</defName>
+		<subSounds Inherit="False">
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Sniper/Rosa/p_atk_bound_n</clipPath>
+					</li>
+				</grains>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Sniper">
+		<defName>AK_Weapon_Platinum</defName>
+		<label>白金的弓</label>
+		<description>无胄盟成员常用的弓，能够无声干掉目标的暗杀利器。
+		这把弓曾经因为无胄盟的驱使夺走了许多条无辜的生命。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Sniper/PlatinumW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.9</AccuracyTouch>
+			<AccuracyShort>1</AccuracyShort>
+			<AccuracyMedium>0.65</AccuracyMedium>
+			<AccuracyLong>0.55</AccuracyLong>
+			<RangedWeapon_Cooldown>0.2</RangedWeapon_Cooldown>			<!--后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_Platinum</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>0.8</warmupTime>				<!--前摇-->
+				<range>14</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_GeneralArrow</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<tools Inherit = "false">
+			<li>
+				<label>弓托猛砸</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>1.6</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_Platinum</defName>
+		<label>射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/ArrowA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Bullet</damageDef>			<!--伤害类型-->
+			<damageAmountBase>16</damageAmountBase>
+			<armorPenetrationBase>0.5</armorPenetrationBase>			<!--穿甲-->
+			<stoppingPower>3</stoppingPower>
+			<speed>50</speed>
+			<soundExplode>ThumpCannon_Impact</soundExplode>			<!--爆炸音效-->
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Sniper">
+		<defName>AK_Weapon_Archetto</defName>
+		<label>空弦的长弓</label>
+		<description>兰登修道院常见的复合弓，修道院的非拉特兰族战士们就是用这种武器捍卫他们的信仰。
+		弦有三种选择，而敌人有三种苦难。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Sniper/ArchettoW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.9</AccuracyTouch>
+			<AccuracyShort>1</AccuracyShort>
+			<AccuracyMedium>0.65</AccuracyMedium>
+			<AccuracyLong>0.55</AccuracyLong>
+			<RangedWeapon_Cooldown>0.2</RangedWeapon_Cooldown>			<!--后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_Archetto</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>0.8</warmupTime>				<!--前摇-->
+				<range>14</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_Archetto</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<tools Inherit = "false">
+			<li>
+				<label>弓托猛砸</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>1.9</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_Archetto</defName>
+		<label>射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/ArrowA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Bullet</damageDef>			<!--伤害类型-->
+			<damageAmountBase>18</damageAmountBase>
+			<armorPenetrationBase>0.4</armorPenetrationBase>			<!--穿甲-->
+			<stoppingPower>3</stoppingPower>
+			<speed>50</speed>
+			<soundExplode>ThumpCannon_Impact</soundExplode>			<!--爆炸音效-->
+		</projectile>
+	</ThingDef>
+
+	<SoundDef ParentName="AK_SoundBase">
+		<defName>AK_Sound_Weapon_Archetto</defName>
+		<subSounds Inherit="False">
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Sniper/Archetto/p_atk_archet_n</clipPath>
+					</li>
+				</grains>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Sniper">
+		<defName>AK_Weapon_Meteorite</defName>
+		<label>陨星的弩炮</label>
+		<description>一把结构复杂的弩炮，在有丰富作战经验的战士手中能发挥出不下于铳枪的威力。
+		陨星希望萨卡兹人再无苦难，即使身份，代号与手中的武器不断变化，这份信念从未变过。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Sniper/MeteoriteW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.7</AccuracyTouch>
+			<AccuracyShort>0.85</AccuracyShort>
+			<AccuracyMedium>0.95</AccuracyMedium>
+			<AccuracyLong>0.8</AccuracyLong>
+			<RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>			<!--后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_Meteorite</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>1.2</warmupTime>				<!--前摇-->
+				<range>20</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_Meteorite</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<tools Inherit = "false">
+			<li>
+				<label>弩炮猛砸</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>18</power>
+				<cooldownTime>1.8</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_Meteorite</defName>
+		<label>射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/Grenade</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Bullet</damageDef>			<!--伤害类型-->
+			<damageAmountBase>22</damageAmountBase>
+			<stoppingPower>3</stoppingPower>
+			<speed>50</speed>
+			<soundExplode>ThumpCannon_Impact</soundExplode>			<!--爆炸音效-->
+		</projectile>
+	</ThingDef>
+
+	<SoundDef ParentName="AK_SoundBase">
+		<defName>AK_Sound_Weapon_Meteorite</defName>
+		<subSounds Inherit="False">
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Sniper/Meteorite/p_atk_grenade_n</clipPath>
+					</li>
+				</grains>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Sniper">
+		<defName>AK_Weapon_Bluepoison</defName>
+		<label>蓝毒的手弩</label>
+		<description>蓝毒特殊改装过的手弩，配合蓝毒的毒液能起到很大的作用。
+		虽然蓝毒说不用担心，不过这个毒性...最好还是离得远点。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Sniper/BluepoisonW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.9</AccuracyTouch>
+			<AccuracyShort>1</AccuracyShort>
+			<AccuracyMedium>0.65</AccuracyMedium>
+			<AccuracyLong>0.55</AccuracyLong>
+			<RangedWeapon_Cooldown>0.2</RangedWeapon_Cooldown>			<!--后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_Bluepoison</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>0.8</warmupTime>				<!--前摇-->
+				<range>14</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_GeneralArrow</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<tools Inherit = "false">
+			<li>
+				<label>弩机猛砸</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>1.2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_Bluepoison</defName>
+		<label>射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/XBow</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Bullet</damageDef>			<!--伤害类型-->
+			<damageAmountBase>14</damageAmountBase>
+			<extraDamages>
+				<li>
+					<def>ToxGas</def>					<!--伤害类型-->
+					<amount>6</amount>					<!--伤害数值-->
+				</li>
+			</extraDamages>
+			<stoppingPower>3</stoppingPower>
+			<speed>50</speed>
+			<soundExplode>ThumpCannon_Impact</soundExplode>			<!--爆炸音效-->
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Sniper">
+		<defName>AK_Weapon_Fiammetta</defName>
+		<label>菲亚梅塔的长炮</label>
+		<description>一把手持长炮，拉特兰公正所标配版本。
+		“你须偿还”</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Sniper/FiammettaW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.7</AccuracyTouch>
+			<AccuracyShort>0.85</AccuracyShort>
+			<AccuracyMedium>0.95</AccuracyMedium>
+			<AccuracyLong>0.8</AccuracyLong>
+			<RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>			<!--后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_Fiammetta</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>2.1</warmupTime>				<!--前摇-->
+				<range>18</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_GeneralGrenade</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<tools Inherit = "false">
+			<li>
+				<label>炮托猛砸</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>2.0</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_Fiammetta</defName>
+		<label>射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/Grenade</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Bullet</damageDef>			<!--伤害类型-->
+			<damageAmountBase>22</damageAmountBase>
+			<stoppingPower>3</stoppingPower>
+			<speed>50</speed>
+			<soundExplode>ThumpCannon_Impact</soundExplode>			<!--爆炸音效-->
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Sniper">
+		<defName>AK_Weapon_FiammettaTypeB</defName>
+		<label>菲亚梅塔的手炮</label>
+		<description>一把短手炮，拉特兰公正所标配版本。
+		“你须愧悔”</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Sniper/FiammettaW2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Sniper">
+		<defName>AK_Weapon_April</defName>
+		<label>四月的猎弓</label>
+		<description>一把结实的猎弓，四月在担任猎手时经常用它猎杀野兽
+		一边听音乐一边射击真的能够打得准吗？</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Sniper/AprilW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.9</AccuracyTouch>
+			<AccuracyShort>1</AccuracyShort>
+			<AccuracyMedium>0.65</AccuracyMedium>
+			<AccuracyLong>0.55</AccuracyLong>
+			<RangedWeapon_Cooldown>0.2</RangedWeapon_Cooldown>			<!--后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_April</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>0.8</warmupTime>				<!--前摇-->
+				<range>15</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_GeneralArrow</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<tools Inherit = "false">
+			<li>
+				<label>弓托猛砸</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>1.6</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_April</defName>
+		<label>射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/ArrowE</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Bullet</damageDef>			<!--伤害类型-->
+			<damageAmountBase>16</damageAmountBase>
+			<armorPenetrationBase>0.4</armorPenetrationBase>			<!--穿甲-->
+			<stoppingPower>3</stoppingPower>
+			<speed>50</speed>
+			<soundExplode>ThumpCannon_Impact</soundExplode>			<!--爆炸音效-->
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Sniper">
+		<defName>AK_Weapon_Fartooth</defName>
+		<label>远牙的重弩</label>
+		<description>由高强度材料打造的重型复合弩，和远牙较小的身材产生了巨大的反差。
+		弩箭发射，伴随着凌厉的风声。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Sniper/FartoothW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.8</AccuracyTouch>
+			<AccuracyShort>0.95</AccuracyShort>
+			<AccuracyMedium>1</AccuracyMedium>
+			<AccuracyLong>1</AccuracyLong>
+			<RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>			<!--后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_Fartooth</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>2.1</warmupTime>				<!--前摇-->
+				<range>28</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_GeneralArrow</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<tools Inherit = "false">
+			<li>
+				<label>弩柄猛砸</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>1.8</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_Fartooth</defName>
+		<label>射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/ArrowB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Bullet</damageDef>			<!--伤害类型-->
+			<damageAmountBase>28</damageAmountBase>
+			<armorPenetrationBase>0.8</armorPenetrationBase>			<!--穿甲-->
+			<stoppingPower>3</stoppingPower>
+			<speed>50</speed>
+			<soundExplode>ThumpCannon_Impact</soundExplode>			<!--爆炸音效-->
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Sniper">
+		<defName>AK_Weapon_Vermeil</defName>
+		<label>“不落”</label>
+		<description>荒野上新树立起一面旗帜，没人知道这是谁立起来的，又是属于哪个聚落的。它被一根粗糙的旗杆支起，扎在土地上，风席卷着沙砾，把它扯得紧绷。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Sniper/VermeilW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.9</AccuracyTouch>
+			<AccuracyShort>1</AccuracyShort>
+			<AccuracyMedium>0.65</AccuracyMedium>
+			<AccuracyLong>0.55</AccuracyLong>
+			<RangedWeapon_Cooldown>0.2</RangedWeapon_Cooldown>			<!--后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_Vermeil</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>0.8</warmupTime>				<!--前摇-->
+				<range>15</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_GeneralArrow</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<tools Inherit = "false">
+			<li>
+				<label>弓托猛砸</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>1.6</cooldownTime>
+			</li>
+			<li>
+				<label>踢击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>18</power>
+				<cooldownTime>1.2</cooldownTime>
+			</li>
+			<li>
+				<label>乱挠</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>18</power>
+				<cooldownTime>1</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_Vermeil</defName>
+		<label>射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/ArrowA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Bullet</damageDef>			<!--伤害类型-->
+			<damageAmountBase>16</damageAmountBase>
+			<armorPenetrationBase>0.4</armorPenetrationBase>			<!--穿甲-->
+			<stoppingPower>3</stoppingPower>
+			<speed>50</speed>
+			<soundExplode>ThumpCannon_Impact</soundExplode>			<!--爆炸音效-->
+		</projectile>
+	</ThingDef>
+
+</Defs>

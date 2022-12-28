@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AK_DLL.OperatorDef Name="AK_RecruitBase" Abstract="True">
+		<name>无名</name>
+		<surname>罗德岛</surname>
+		<nickname>虚无弄臣</nickname>
+		<description>在路的尽头，他看到她们成了他</description>
+		<bodyTypeDef>Thin</bodyTypeDef>
+		<skinColor>
+			<r>0.9804</r>
+			<g>0.902</g>
+			<b>0.8235</b>
+			<a>1.0</a>
+		</skinColor>
+		<hairColor>
+			<r>1</r>
+			<g>1</g>
+			<b>1</b>
+			<a>1</a>
+		</hairColor>
+		<childHood>AK_BackStory_Unknown_Child</childHood>
+		<age>16</age>
+	</AK_DLL.OperatorDef>
+
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase" Name="AK_RecruitBase_Guard" Abstract="True">
+		<traits>
+			<li>
+				<def>AK_Trait_Agent_Guard</def>
+				<degree>0</degree>
+			</li>
+		</traits>
+		<operatorType>AK_OperatorClass_Guard</operatorType>
+	</AK_DLL.OperatorDef>
+	
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase" Name="AK_RecruitBase_Supporter" Abstract="True">
+		<traits>
+			<li>
+				<def>AK_Trait_Agent_Supporter</def>
+			</li>
+		</traits>
+		<operatorType>AK_OperatorClass_Supporter</operatorType>
+	</AK_DLL.OperatorDef>
+	
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase" Name="AK_RecruitBase_Vanguard" Abstract="True">
+		<traits>
+			<li>
+				<def>AK_Trait_Agent_Vanguard</def>
+			</li>
+		</traits>
+		<operatorType>AK_OperatorClass_Vanguard</operatorType>
+	</AK_DLL.OperatorDef>
+	
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase" Name="AK_RecruitBase_Caster" Abstract="True">
+		<traits>
+			<li>
+				<def>AK_Trait_Agent_Caster</def>
+			</li>
+		</traits>
+		<operatorType>AK_OperatorClass_Caster</operatorType>
+	</AK_DLL.OperatorDef>
+	
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase" Name="AK_RecruitBase_Defender" Abstract="True">
+		<traits>
+			<li>
+				<def>AK_Trait_Agent_Defender</def>
+			</li>
+		</traits>
+		<operatorType>AK_OperatorClass_Defender</operatorType>
+	</AK_DLL.OperatorDef>
+	
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase" Name="AK_RecruitBase_Medic" Abstract="True">
+		<traits>
+			<li>
+				<def>AK_Trait_Agent_Medic</def>
+			</li>
+		</traits>
+		<abilities>
+			<li>
+				<def>AK_Ability_BaseHeal</def>
+			</li>
+		</abilities>
+		<operatorType>AK_OperatorClass_Medic</operatorType>
+	</AK_DLL.OperatorDef>
+	
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase" Name="AK_RecruitBase_Sniper" Abstract="True">
+		<traits>
+			<li>
+				<def>AK_Trait_Agent_Sniper</def>
+			</li>
+		</traits>
+		<operatorType>AK_OperatorClass_Sniper</operatorType>
+	</AK_DLL.OperatorDef>
+	
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase" Name="AK_RecruitBase_Specialist" Abstract="True">
+		<traits>
+			<li>
+				<def>AK_Trait_Agent_Specialist</def>
+			</li>
+		</traits>
+		<operatorType>AK_OperatorClass_Specialist</operatorType>
+	</AK_DLL.OperatorDef>
+	
+</Defs>

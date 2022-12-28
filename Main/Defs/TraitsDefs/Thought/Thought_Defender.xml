@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- 已排序 -->
+
+	<!-- Defender -->
+
+	<!-- 泥岩 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Mudrock</defName>
+		<requiredTraits>
+			<li>AK_Trait_Mudrock</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>沃土磐石之友</label>
+				<description>或许是特殊的源石技艺，泥岩对于泥土有着一种奇妙的情感。
+她和泥土之间的关系可能比她和大部分人都要亲密得多。
+				</description>
+				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 年 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_NianSecond</defName>
+		<requiredTraits>
+			<li>AK_Trait_NianSecond</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>肆无忌惮</label>
+				<description>"'没有干扰他人工作的习惯'？她劝诱别人上班打麻将，有没有人阻止一下？"</description>
+				<baseMoodEffect>20</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 星熊 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Hoshiguma</defName>
+		<requiredTraits>
+			<li>AK_Trait_Hoshiguma</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>冷静的鬼</label>
+				<description>从她的言行举止中，能感受到思考，在她的骁勇善战中，能感受到克制。
+				</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 可颂 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Croissant</defName>
+		<requiredTraits>
+			<li>AK_Trait_Croissant</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>都市少女</label>
+				<description>即使成为了干员，可颂小姐也完全不打算放弃她在日常生活中的兴趣爱好。
+				</description>
+				<baseMoodEffect>15</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 临光 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Nearl</defName>
+		<requiredTraits>
+			<li>AK_Trait_Nearl</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>耀骑士</label>
+				<description>所谓骑士，就是照亮整片大地的崇高者。</description>
+				<baseMoodEffect>12</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 瑕光 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Blemishine</defName>
+		<requiredTraits>
+			<li>AK_Trait_Blemishine</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>不畏苦暗</label>
+				<description>家训是：“不畏苦暗”</description>
+				<baseMoodEffect>12</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 蛇屠箱 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Cuora</defName>
+		<requiredTraits>
+			<li>AK_Trait_Cuora</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>无忧无虑</label>
+				<description>干员蛇屠箱拥有天真烂漫的性格，即使成为矿石病患者也丝毫未能减损她的阳光。</description>
+				<baseMoodEffect>20</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 号角 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_HornSecond</defName>
+		<requiredTraits>
+			<li>AK_Trait_HornSecond</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>鸣号</label>
+				<description>我尽力不被个人情绪左右，但是我没办法忘记。我答应过他们我不会忘记。</description>
+				<baseMoodEffect>-20</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 古米 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Gummy</defName>
+		<requiredTraits>
+			<li>AK_Trait_Gummy</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>习惯</label>
+				<description>古米看起来很开心吗？其实，看到那样的景象之后，没人能高高兴兴地生活下去......只是，为了让姐姐们能早点忘记那些乱七八糟的事情，古米必须要振作起来！</description>
+				<baseMoodEffect>20</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 火神 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Vulcan</defName>
+		<requiredTraits>
+			<li>AK_Trait_Vulcan</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>少言</label>
+				<description>我希望能……专心工作。</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 斥罪 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Penance</defName>
+		<requiredTraits><li>AK_Trait_Penance</li></requiredTraits>
+		<stages>
+			<li>
+				<label>荆棘环身</label>
+				<description>对我来说，这种痛苦也是一种对自己的鞭笞。</description>
+				<baseMoodEffect>-8</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+</Defs>

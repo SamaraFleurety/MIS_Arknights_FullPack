@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!--FIXME:DELETE
+  <RecipeDef>
+    <defName>AK_Recipe_ORGRefine</defName>
+    <label>源石精炼</label>
+    <description>将源石粗矿提纯为至纯源石.</description>
+    <jobString>提纯源石中.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>5000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AK_ORG_Raw</li>
+          </thingDefs>
+        </filter>
+        <count>40</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AK_ORG_Raw</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <AK_ORG_Pure>1</AK_ORG_Pure>
+    </products>
+    <skillRequirements>
+      <Crafting>8</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+  </RecipeDef>
+-->
+	<RecipeDef>
+		<defName>AK_Recipe_RecTicketFromSilver</defName>
+		<label>白银造招募券</label>
+		<description>用白银制造招募台用的一次性券。6480白银可以招募一位干员。</description>
+		<jobString>制作招募券中。</jobString>
+		<workSpeedStat>ResearchSpeed</workSpeedStat>
+		<effectWorking>Research</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>68</workAmount>
+		<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+		<ingredients>
+		  <li>
+			<filter>
+			  <thingDefs>
+				<li>Silver</li>
+			  </thingDefs>
+			</filter>
+			<count>648</count>
+		  </li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>Silver</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<products>
+		  <AK_Item_RecruitTicket>1</AK_Item_RecruitTicket>
+		</products>
+		<workSkill>Crafting</workSkill>
+		<recipeUsers>
+			<li>CraftingSpot</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+</Defs> 

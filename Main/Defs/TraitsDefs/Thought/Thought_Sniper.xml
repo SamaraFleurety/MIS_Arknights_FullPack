@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Sniper --> <!-- 已排序 -->
+
+	<!-- 早露 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Rosa</defName>
+		<requiredTraits>
+			<li>AK_Trait_Rosa</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>没落的贵族</label>
+				<description>曾经我天真地以为，如果我想要得到什么，就是可以得到的。现在我已经知道，即使大部分东西确实如此，但有些东西是不行的。那是只靠我自己，无论如何也无法获得的东西......</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- W -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_W</defName>
+		<requiredTraits>
+			<li>AK_Trait_W</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>索然无味</label>
+				<description>嗯，又是美好的一天。</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 陨星 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Meteorite</defName>
+		<requiredTraits>
+			<li>AK_Trait_Meteorite</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>独特的萨卡兹</label>
+				<description>愿萨卡兹再无苦难</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 松果 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Pinecone</defName>
+		<requiredTraits>
+			<li>AK_Trait_Pinecone</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>安于现状</label>
+				<description>想做的事情啊......有份稳定的工作，踏踏实实过日子就行了呗。</description>
+				<baseMoodEffect>6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 守林人 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Firewatch</defName>
+		<requiredTraits>
+			<li>AK_Trait_Firewatch</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>唯余复仇</label>
+				<description>即使牺牲我的生命，也一定要完成这次复仇。</description>
+				<baseMoodEffect>-25</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 远牙 -->
+	
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Fartooth</defName>
+		<requiredTraits>
+			<li>AK_Trait_Fartooth</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>翔隼</label>
+				<description>即使被金钱暂时埋没，卡西米尔的精神却从未远去，它们等待着再次现身，在天空中翱翔。</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_FartoothSecond</defName>
+		<requiredTraits>
+			<li>AK_Trait_FartoothSecond</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>风息</label>
+				<description>远牙的思维像风一样迅速又自由，或许她也会在风中闻到家乡的气息。</description>
+				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 菲亚梅塔 -->
+	
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Fiammetta</defName>
+		<requiredTraits>
+			<li>AK_Trait_Fiammetta</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>陈述苦难</label>
+				<description>我去过很多国家，不是没有比拉特兰更打动我的地方，但现在我很清楚自己要的是什么。这座拉特兰城，任何人都别想伤害它。</description>
+				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 能天使 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Exusiai</defName>
+		<requiredTraits>
+			<li>AK_Trait_Exusiai</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>天使的祝福</label>
+				<description>我喜欢这种感觉！</description>
+				<baseMoodEffect>20</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 空弦 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Archetto</defName>
+		<requiredTraits>
+			<li>AK_Trait_Archetto</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>虔诚</label>
+				<description>好像听见了钟声......嗯，错觉吧。</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<!-- 白金 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Platinum</defName>
+		<requiredTraits>
+			<li>AK_Trait_Platinum</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>悠闲自在</label>
+				<description>唉~想到自己几乎快要被罗德岛的生活俘虏，我居然会有些生气呢。</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 灰喉 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Greythroat</defName>
+		<requiredTraits>
+			<li>AK_Trait_Greythroat</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>飞羽的倒影</label>
+				<description>其实我知道，母亲把我送来的时候就已经疯了。我无法对她混沌的痛苦感同身受，但我能理解，因为我也靠着那股执念走到了今天。</description>
+				<baseMoodEffect>-15</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 杰西卡 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Jessica</defName>
+		<requiredTraits>
+			<li>AK_Trait_Jessica</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>性格软弱</label>
+				<description>我是不是看起来没有什么威严呢？其实我也有自觉的，也想要做出改变......呜......</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 蓝毒 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Bluepoison</defName>
+		<requiredTraits>
+			<li>AK_Trait_Bluepoison</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>毒物</label>
+				<description>因为我是“毒物”，所以谁都不想接近我......</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 迷迭香 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_RosmontisSecond</defName>
+		<requiredTraits>
+			<li>AK_Trait_RosmontisSecond</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>被封印的记忆</label>
+				<description>痛的事情，伤心的事情，可怕的事情，一不小心就会消失。</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 黑 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Schwarz</defName>
+		<requiredTraits>
+			<li>AK_Trait_Schwarz</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>阴影里生存的人</label>
+				<description>......一旦手上沾染鲜血，就再也不能回头了</description>
+				<baseMoodEffect>-8</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 普罗旺斯 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Provence</defName>
+		<requiredTraits>
+			<li>AK_Trait_Provence</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>踏入荒野之人</label>
+				<description>我的大尾巴毛绒绒~毛绒绒~♪</description>
+				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 四月 -->
+	
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_April</defName>
+		<requiredTraits>
+			<li>AK_Trait_April</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>阳光少女</label>
+				<description>得了矿石病后，我偶尔也会被人说，感染者穿得这么鲜艳干什么，感染者听什么音乐......对于这样的人，我的回答永远都是——因为我喜欢~</description>
+				<baseMoodEffect>20</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 红云 -->
+	
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Vermeil</defName>
+		<requiredTraits>
+			<li>AK_Trait_Vermeil</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>猎手</label>
+				<description>再强大的猎物，也只是猎物而已。</description>
+				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+</Defs>

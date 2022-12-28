@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- 术士干员特性文件 已排序 -->
+
+	<!-- 杜林 -->
+
+	<TraitDef><!-- 未装配 -->
+		<defName>AK_Trait_Durin</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>极度嗜睡</label>
+				<description>不知道是种族特性还是怎么，杜林总是非常嗜睡，如果你想找她，最好去她的宿舍。</description>
+				<statOffsets>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<!-- 阿米娅 -->
+
+	<TraitDef>
+		<defName>AK_Trait_Amiya</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>救世的魔王</label>
+				<description>衣服需要缝补，伤口需要愈合。</description>
+				<statOffsets>
+					<MentalBreakThreshold>-1.0</MentalBreakThreshold>
+					<PsychicSensitivity>1.0</PsychicSensitivity>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>AK_Trait_AmiyaSecond</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>奇美拉</label>
+				<description>
+					大量对此物种的描述仅存在于典籍中，一般可通过血亲物种异同来判断，根据遗传学表现度不同，个体之间也存在很大差距。
+在天灾频率骤升的矿石工业时代，政权之间的对立让这种种族混合的产物几乎不可能诞生。当然，除了延续生命的常识外，可能还有一些危险的方法可能会诞生奇美拉。
+如果她没有骗我的话。
+				</description>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<!-- 夕 -->
+
+	<TraitDef>
+		<defName>AK_Trait_Dusk</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>月隐晦明</label>
+				<description>不以物喜，不以己悲。不会受到心灵干扰影响</description>
+				<statFactors>
+					<PsychicSensitivity>0.0</PsychicSensitivity>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>AK_Trait_DuskSecond</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>尽波澜</label>
+				<description>山川风月，花羽林渊，贩夫走卒，老少男女，画不尽，也看不完，越不过，也走不出。</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.1</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<!-- 刻俄伯 -->
+
+	<TraitDef>
+		<defName>AK_Trait_Ceobe</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>独行长路</label>
+				<description>她来自荒野，她是荒野的孩子。
+荒野之子终究归于荒野</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.2</MentalBreakThreshold>
+					<WorkSpeedGlobal>0.1</WorkSpeedGlobal>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+		<TraitDef>
+		<defName>AK_Trait_CeobeSecond</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>傻狗子</label>
+				<description>可能是因为一直在流浪，远离社会的原因，刻俄伯的心智相当低幼，
+尽管在罗德岛待了一段时间后相比以前已经好了许多，
+但是她依旧有很多东西需要学。</description>
+				<statOffsets>
+					<GlobalLearningFactor>-0.6</GlobalLearningFactor>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<!-- 艾雅法拉 -->
+
+	<TraitDef>
+		<defName>AK_Trait_Eyjafjalla</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>学者之心</label>
+				<description>黑暗追着她，她追着光。
+经火烧过的是真理，亦是永恒。</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.3</MentalBreakThreshold>
+					<GlobalLearningFactor>0.2</GlobalLearningFactor>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<!-- 苦艾 -->
+
+	<TraitDef>
+		<defName>AK_Trait_Absinthe</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>执法者</label>
+				<description>磨难可能毁灭一个人，也可能带来新生。</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.25</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<!-- 莫斯提马 -->
+
+	<TraitDef>
+		<defName>AK_Trait_Mostima</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>堕天使</label>
+				<description>法令的效力是绝对的。当她将枪口对准同类时，她的命运就已经被决定了。</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.55</MentalBreakThreshold>
+					<PsychicSensitivity>-0.75</PsychicSensitivity>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<!-- 天火 -->
+
+	<TraitDef>
+		<defName>AK_Trait_Skyfire</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>王者之杖</label>
+				<description>天火并不是一个高傲且刻薄的人，只是很多人无法理解她的想法与行动
+其实她不是想训斥别人，只不过是找不到办法表达自己的心情罢了。
+这可能是这位优等生天才少数感到苦恼的事情。</description>
+				<statOffsets>
+					<MentalBreakThreshold>0.05</MentalBreakThreshold>
+					<GlobalLearningFactor>0.8</GlobalLearningFactor>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<!-- 伊芙利特 -->
+
+	<TraitDef>
+		<defName>AK_Trait_Ifrit</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>炎魔</label>
+				<description>伊芙利特时常会出现幻觉，她会看到烧焦的尸体与动物，或者亲密的人烈火焚身。
+每当此时，她就会变得意识恍惚，因此烧掉一条走廊的事也不是没有。
+但当她陷入恍惚时，身后那个巨大的实体是什么？</description>
+				<statOffsets>
+					<MentalBreakThreshold>0.4</MentalBreakThreshold>
+					<PsychicSensitivity>1.0</PsychicSensitivity>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<!-- 卡涅利安 -->
+
+	<TraitDef>
+		<defName>AK_Trait_Carnelian</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>真正的萨尔贡人</label>
+				<description>卡涅利安小姐并不过多掩饰自己的真实性情，不论面对怎样的情况，她都依照自己的准则行事，对待朋友时热情大方，而对待自己认定的敌人，她从不会手下留情。莱塔尼亚无法真正束缚这样的一个的萨尔贡人。</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.35</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<!-- 蜜蜡 -->
+
+	<TraitDef>
+		<defName>AK_Trait_Beeswax</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>沙原的祝福</label>
+				<description>请记住，不论我们各自去往何方，她给出的那份祝福，都将随你一路前行。</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.25</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+	
+	<!-- 薄绿 -->
+
+	<TraitDef>
+		<defName>AK_Trait_Mint</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>旺盛的好奇心</label>
+				<description>薄绿展现出了一种极度旺盛的好奇心，这对她的学习有帮助，然而却容易在工作的时候突然勾走她的注意力。
+				</description>
+				<statOffsets>
+					<GlobalLearningFactor>0.2</GlobalLearningFactor>
+					<WorkSpeedGlobal>-0.2</WorkSpeedGlobal>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<!-- 深靛 --> <!-- 没有特殊特性 -->
+
+	<!-- 耶拉 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Kjera</defName>
+		<degreeDatas>
+			<li>
+				<label>耶拉冈德</label>
+				<description>祂为什么会降生在这个世界上？如果守护谢拉格不是祂的使命，那祂的生命有何意义？
+祂想要找到这个答案。
+				</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.40</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<!-- 特米米 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Tomimi</defName>
+		<degreeDatas>
+			<li>
+				<label>粗尾巴</label>
+				<description>特米米的尾巴不知道为什么，它似乎正在越长越粗，已经到了妨碍日常生活的程度了，到底是保持原样，还是咬咬牙把尾巴瘦下去，特米米自己都拿不定主意。
+				</description>
+				<statOffsets>
+					<MoveSpeed>-0.15</MoveSpeed>
+					<WorkSpeedGlobal>-0.15</WorkSpeedGlobal>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+
+	<!-- 澄闪 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Goldenglow</defName>
+		<degreeDatas>
+			<li>
+				<label>静电</label>
+				<description>尽管澄闪在感染矿石病之初就体现出了不断释放静电的能力，但是在经历了卡拉顿的一系列事件后，澄闪的静电开始进入了不稳定的状态。澄闪的静电现在仿佛带有了情绪。
+				</description>
+				<statOffsets>
+					<MentalBreakThreshold>0.10</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+	
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_GoldenglowSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>随和</label>
+				<description>澄闪的性格相当受人欢迎，开朗，随和。勤恳做事，认真生活。
+尽管她有着良好的源石技艺适应性，但是她的目标却是成为一个出色的理发师。
+				</description>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<!-- 星源 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_AstgenneSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>星束交汇</label>
+				<description>过去的就让它过去吧，未来，在自己手中
+				</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.15</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Astgenne</defName>
+		<degreeDatas>
+			<li>
+				<label>独立</label>
+				<description>她才不想做那虚幻飘渺的星，她想要成为光芒。
+				</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.10</MentalBreakThreshold>
+					<SocialImpact>0.25</SocialImpact>	
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+</Defs>

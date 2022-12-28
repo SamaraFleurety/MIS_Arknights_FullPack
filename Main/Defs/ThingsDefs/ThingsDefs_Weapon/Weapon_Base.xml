@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<DamageDef>
+		<defName>AK_Projectile_Magic</defName>
+		<label>法术弹</label>
+		<workerClass>DamageWorker_AddInjury</workerClass>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} 被法术杀死了.</deathMessage>
+		<hediff>AK_Injury_MagicShot</hediff>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<impactSoundType>Bullet</impactSoundType>
+		<armorCategory>AK_DamageType_Magic</armorCategory>
+		<overkillPctToDestroyPart>1.0~2.0</overkillPctToDestroyPart>
+		<isRanged>true</isRanged>
+		<makesAnimalsFlee>true</makesAnimalsFlee>
+	</DamageDef>
+
+	<HediffDef ParentName="InjuryBase">
+		<defName>AK_Injury_MagicShot</defName>
+		<label>法术射弹</label>
+		<labelNoun>法术射击造成的伤口.</labelNoun>
+		<description>一个法术射击造成的伤口.</description>
+		<comps>
+			<li Class="HediffCompProperties_TendDuration">
+				<labelTendedWell>已包扎</labelTendedWell>
+				<labelTendedWellInner>已缝合</labelTendedWellInner>
+				<labelSolidTendedWell>已处理</labelSolidTendedWell>
+			</li>
+			<li Class="HediffCompProperties_Infecter">
+				<infectionChance>0.05</infectionChance>
+			</li>
+			<li Class="HediffCompProperties_GetsPermanent">
+				<permanentLabel>旧法术伤口</permanentLabel>
+				<instantlyPermanentLabel>永久法术旧伤</instantlyPermanentLabel>
+			</li>
+		</comps>
+		<injuryProps>
+			<painPerSeverity>0.015</painPerSeverity>
+			<averagePainPerSeverityPermanent>0.00625</averagePainPerSeverityPermanent>
+			<bleedRate>0.00</bleedRate>
+			<canMerge>true</canMerge>
+			<destroyedLabel>射掉</destroyedLabel>
+			<destroyedOutLabel>射掉</destroyedOutLabel>
+		</injuryProps>
+	</HediffDef>
+
+	<ThingDef Name="AK_WeaponBase" Abstract="True">
+		<description>此干员的惯用武器。</description>
+		<thingClass>AK_DLL.OperatorWeapon</thingClass>
+		<category>Item</category>
+		<drawerType>MapMeshOnly</drawerType>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<altitudeLayer>Item</altitudeLayer>
+		<alwaysHaulable>true</alwaysHaulable>
+		<tickerType>Normal</tickerType>
+		<equipmentType>Primary</equipmentType>
+		<useHitPoints>false</useHitPoints>
+		<pathCost>14</pathCost>
+		<selectable>true</selectable>
+		<smeltable>false</smeltable>
+		<burnableByRecipe>true</burnableByRecipe>
+		<relicChance>0</relicChance>
+		<tradeability>None</tradeability>
+		<statBases>
+			<Flammability>0</Flammability>
+			<Beauty>-3</Beauty>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li>
+				<compClass>CompEquippable</compClass>
+			</li>
+			<li Class="CompProperties_Styleable"/>
+			<li Class="CompProperties_Biocodable"/>
+		</comps>
+		<graphicData>
+			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+			<texPath>Things/AK_Agents/Weapon/Guard/LapplandW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Industrial</techLevel>
+	</ThingDef>
+
+	<ThingDef Name="AK_WeaponBase_Melee" ParentName="AK_WeaponBase" Abstract="True">
+		<weaponClasses>
+			<li>Melee</li>
+		</weaponClasses>
+		<uiIconScale>1.25</uiIconScale>
+		<statBases>
+			<Mass>1.1</Mass>
+		</statBases>
+		<equippedAngleOffset>-25</equippedAngleOffset>
+		<tools inherit = "false">
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>15</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef Name="AK_WeaponBase_Ranged" ParentName="AK_WeaponBase" Abstract="True">
+		<weaponClasses>
+			<li>Ranged</li>
+		</weaponClasses>
+		<inspectorTabs>
+			<li>ITab_Art</li>
+		</inspectorTabs>
+		<!--		<comps>
+			<li Class="CompProperties_Art">
+				<nameMaker>NamerArtWeaponGun</nameMaker>
+				<descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
+				<minQualityForArtistic>Excellent</minQualityForArtistic>
+			</li>			
+		</comps>	-->
+	</ThingDef>
+
+
+	<!-- 枪类     -->
+	<SoundDef Name="AK_SoundBase" Abstract="True">
+		<defName>AK_SoundBase</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>3</maxSimultaneous>
+		<sustain>False</sustain>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Weapon/ChargeRifle</clipPath>
+					</li>
+				</grains>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<ThingDef Name="AK_WeaponBase_Rifle" ParentName="AK_WeaponBase_Ranged" Abstract="True">
+		<soundInteract>Interact_ChargeRifle</soundInteract>
+		<statBases>
+			<Mass>4.6</Mass>
+			<AccuracyTouch>0.55</AccuracyTouch>
+			<AccuracyShort>0.64</AccuracyShort>
+			<AccuracyMedium>0.55</AccuracyMedium>
+			<AccuracyLong>0.45</AccuracyLong>
+			<RangedWeapon_Cooldown>2.00</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponClasses>
+			<li>RangedLight</li>
+		</weaponClasses>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_Base</defaultProjectile>
+				<warmupTime>1.0</warmupTime>
+				<range>33</range>
+				<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+				<burstShotCount>3</burstShotCount>
+				<soundCast>Shot_ChargeRifle</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+	<ThingDef ParentName="BaseBullet">
+		<defName>AK_Bullet_Base</defName>
+		<label>子弹射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/Charge_Small</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>15</damageAmountBase>
+			<armorPenetrationBase>0.35</armorPenetrationBase>
+			<speed>70</speed>
+		</projectile>
+	</ThingDef>
+
+	<!-- 弓类   -->
+	<ThingDef Name="AK_WeaponBase_Bow" ParentName="AK_WeaponBase_Ranged" Abstract="True">
+		<soundInteract>Bow_Large</soundInteract>
+		<statBases>
+			<Mass>3.0</Mass>
+			<AccuracyTouch>0.65</AccuracyTouch>
+			<AccuracyShort>0.85</AccuracyShort>
+			<AccuracyMedium>0.75</AccuracyMedium>
+			<AccuracyLong>0.50</AccuracyLong>
+			<RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponClasses>
+			<li>RangedLight</li>
+		</weaponClasses>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Arrow_Base</defaultProjectile>
+				<warmupTime>2.0</warmupTime>
+				<range>33</range>
+				<soundCast>Bow_Large</soundCast>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>limb</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+	<ThingDef Name="AK_BulletBase_Bow" Abstract="True">
+		<category>Projectile</category>
+		<tickerType>Normal</tickerType>
+		<altitudeLayer>Projectile</altitudeLayer>
+		<thingClass>Bullet</thingClass>
+		<label>arrow</label>
+		<useHitPoints>False</useHitPoints>
+		<neverMultiSelect>True</neverMultiSelect>
+		<graphicData>
+			<shaderType>Transparent</shaderType>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Arrow_Base</defName>
+		<label>Arrow</label>
+		<graphicData>
+			<texPath>Things/Projectile/Arrow_Small</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Arrow</damageDef>
+			<damageAmountBase>15</damageAmountBase>
+			<stoppingPower>1.5</stoppingPower>
+			<armorPenetrationBase>0.35</armorPenetrationBase>
+			<speed>70</speed>
+		</projectile>
+	</ThingDef>
+
+	<!-- 魔法 没做   -->
+	<ThingDef Name="AK_WeaponBase_Magic" ParentName="AK_WeaponBase_Ranged" Abstract="True">
+		<soundInteract>Interact_ChargeRifle</soundInteract>
+		<statBases>
+			<Mass>4.6</Mass>
+			<AccuracyTouch>0.55</AccuracyTouch>
+			<AccuracyShort>0.64</AccuracyShort>
+			<AccuracyMedium>0.55</AccuracyMedium>
+			<AccuracyLong>0.45</AccuracyLong>
+			<RangedWeapon_Cooldown>2.00</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponClasses>
+			<li>RangedLight</li>
+		</weaponClasses>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_MagicBullet_Base</defaultProjectile>
+				<warmupTime>1.0</warmupTime>
+				<range>33</range>
+				<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+				<burstShotCount>3</burstShotCount>
+				<soundCast>Shot_ChargeRifle</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+	<ThingDef ParentName="BaseBullet">
+		<defName>AK_MagicBullet_Base</defName>
+		<label>子弹射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/Charge_Small</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>AK_Projectile_Magic</damageDef>
+			<damageAmountBase>15</damageAmountBase>
+			<armorPenetrationBase>0.35</armorPenetrationBase>
+			<speed>70</speed>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef Name="AK_WeaponBase_Caster" ParentName="AK_WeaponBase_Magic" Abstract="True">
+		<thingCategories Inherit="False">
+			<li>AK_Weapon_Caster</li>
+		</thingCategories>
+	</ThingDef>
+
+	<ThingDef Name="AK_WeaponBase_Vanguard" ParentName="AK_WeaponBase_Melee" Abstract="True">
+		<thingCategories Inherit="False">
+			<li>AK_Weapon_Vanguard</li>
+		</thingCategories>
+	</ThingDef>
+
+	<ThingDef Name="AK_WeaponBase_Guard" ParentName="AK_WeaponBase_Melee" Abstract="True">
+		<thingCategories Inherit="False">
+			<li>AK_Weapon_Guard</li>
+		</thingCategories>
+	</ThingDef>
+
+	<ThingDef Name="AK_WeaponBase_Defender" ParentName="AK_WeaponBase_Melee" Abstract="True">
+		<thingCategories Inherit="False">
+			<li>AK_Weapon_Defender</li>
+		</thingCategories>
+	</ThingDef>
+
+	<ThingDef Name="AK_WeaponBase_Supporter" ParentName="AK_WeaponBase_Magic" Abstract="True">
+		<thingCategories Inherit="False">
+			<li>AK_Weapon_Supporter</li>
+		</thingCategories>
+	</ThingDef>
+
+	<ThingDef Name="AK_WeaponBase_Specialist" ParentName="AK_WeaponBase_Melee" Abstract="True">
+		<thingCategories Inherit="False">
+			<li>AK_Weapon_Specialist</li>
+		</thingCategories>
+	</ThingDef>
+	<!-- FIXME ↓仅为了不红字占位，完善后删除-->
+	<ThingDef Name="AK_WeaponBase_Sniper" ParentName="AK_WeaponBase_Rifle" Abstract="True">
+		<thingCategories Inherit="False">
+			<li>AK_Weapon_Sniper</li>
+		</thingCategories>
+	</ThingDef>
+
+	<ThingDef Name="AK_WeaponBase_Sniper_Rifle" ParentName="AK_WeaponBase_Rifle" Abstract="True">
+		<thingCategories Inherit="False">
+			<li>AK_Weapon_Sniper</li>
+		</thingCategories>
+	</ThingDef>
+
+	<ThingDef Name="AK_WeaponBase_Sniper_Bow" ParentName="AK_WeaponBase_Bow" Abstract="True">
+		<thingCategories Inherit="False">
+			<li>AK_Weapon_Sniper</li>
+		</thingCategories>
+	</ThingDef>
+
+	<ThingDef Name="AK_WeaponBase_Medic" ParentName="AK_WeaponBase_Magic" Abstract="True">
+		<thingCategories Inherit="False">
+			<li>AK_Weapon_Medic</li>
+		</thingCategories>
+	</ThingDef>
+
+	<ThingDef Name="AK_WeaponBase_Reunion" ParentName="AK_WeaponBase_Melee" Abstract="True">
+		<description>此战士的惯用武器。</description>
+		<thingCategories Inherit="False">
+			<li>AK_Weapon_Reunion</li>
+		</thingCategories>
+	</ThingDef>
+
+</Defs>

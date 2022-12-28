@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Guard -->
+
+	<!-- 霜叶 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Frostleaf</defName>
+		<requiredTraits>
+			<li>AK_Trait_Frostleaf</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>少年兵</label>
+				<description>
+					直到身边的人接连逝去，我才意识到作为人去活着的可贵。很讽刺吧？
+				</description>
+				<baseMoodEffect>-10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 棘刺 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Thorns</defName>
+		<requiredTraits>
+			<li>AK_Trait_Thorns</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>洒脱</label>
+				<description>其他人的评价？嗯，我不太在乎。
+				</description>
+				<baseMoodEffect>6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 芙兰卡 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Franka</defName>
+		<requiredTraits>
+			<li>AK_Trait_Franka</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>轻浮</label>
+				<description>比起黑钢，这里要有趣多了。</description>
+				<baseMoodEffect>6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 煌 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Blaze</defName>
+		<requiredTraits>
+			<li>AK_Trait_Blaze</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>热情似火</label>
+				<description>这里的温度还是太低了。</description>
+				<baseMoodEffect>15</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 史尔特尔 -->
+	
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Surtr</defName>
+		<requiredTraits>
+			<li>AK_Trait_Surtr</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>破碎的记忆</label>
+				<description>我有着各种各样的记忆，我也不知道它们是怎么来的，我也不知道哪些是真正属于我的。
+				</description>
+				<baseMoodEffect>-12</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 拉普兰德 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Lappland</defName>
+		<requiredTraits>
+			<li>AK_Trait_Lappland</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>优雅的侩子手</label>
+				<description>愉悦
+				</description>
+				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 棘刺 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Skadi</defName>
+		<requiredTraits>
+			<li>AK_Trait_Skadi</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>涌潮悲歌</label>
+				<description>当你历经漫长黑暗、终于浮出海面——睁开眼睛的刹那，灿烂星空滴落眼眶、无垠波浪拂过面颊，眼泪和家的味道，都是咸的。
+				</description>
+				<baseMoodEffect>20</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 深海猎人 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_DeepHunter</defName>
+		<requiredTraits>
+			<li>AK_Trait_DeepHunter</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>深海猎人</label>
+				<description>“战争。事关生命延续的战争是场没有胜利的死战，战争唯一的结果是星空下其它种群的彻底消亡。猎人为推迟那末日的到来而殊死战斗，不悯，不休，不悔。”
+				</description>
+				<baseMoodEffect>-15</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 幽灵鲨 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Specter</defName>
+		<requiredTraits>
+			<li>AK_Trait_Specter</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>疯狂的深海猎人</label>
+				<description>
+				如果你说我疯狂，我会认为这是对我的侮辱。但如果你说我的战斗方式疯狂......我会认为这是一种褒奖。
+				</description>
+				<baseMoodEffect>15</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 陈 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Chen</defName>
+		<requiredTraits>
+			<li>AK_Trait_Chen</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>斩龙之剑</label>
+				<description>
+					也许有一天我会得到那个人的认可，在那之前……
+				</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 艾斯黛尔 -->
+	
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Estelle</defName>
+		<requiredTraits><li>AK_Trait_Estelle</li></requiredTraits>
+		<stages>
+			<li>
+				<label>怪胎</label>
+				<description>
+				我这对变异的角很显眼吧，本来我以为，自己已经习惯被人观看了......果然......还是会觉得不好意思啊......
+				</description>
+				<baseMoodEffect>-12</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 燧石 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_FlintSecond</defName>
+		<requiredTraits><li>AK_Trait_FlintSecond</li></requiredTraits>
+		<stages>
+			<li>
+				<label>雨林的战士</label>
+				<description>罗德岛的人，是不是都想得太多了？</description>
+				<baseMoodEffect>12</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 羽毛笔 -->
+	
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_LaPluma</defName>
+		<requiredTraits>
+			<li>AK_Trait_LaPluma</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>放空</label>
+				<description>唔......好像走神了。
+				</description>
+				<baseMoodEffect>15</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 龙舌兰 -->
+	
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Tequila</defName>
+		<requiredTraits>
+			<li>AK_Trait_Tequila</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>伺机而动</label>
+				<description>
+				上次决定帮老爹，其实是我为理清自己的想法，而最后一次向自己提问......现在，我已经有答案了。
+				</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 艾莉妮 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Irene</defName>
+		<requiredTraits><li>AK_Trait_Irene</li></requiredTraits>
+		<stages>
+			<li>
+				<label>审判官</label>
+				<description>那一刻，真相像海潮一样没过我的头顶。动摇，崩溃，绝望？不，我什么都感觉不到。直到我又杀死了一只恐鱼......是啊，原来我战斗，是因为我想活下去。如今的伊比利亚，不也一样吗？</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- Maynar 玛恩纳 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Maynar</defName>
+		<requiredTraits><li>AK_Trait_Maynar</li></requiredTraits>
+		<stages>
+			<li>
+				<label>未照耀的荣光</label>
+				<description>...卡西米尔无权为我授勋</description>
+				<baseMoodEffect>-15</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 星极 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Astesia</defName>
+		<requiredTraits><li>AK_Trait_Astesia</li></requiredTraits>
+		<stages>
+			<li>
+				<label>占星师</label>
+				<description>从受到矿石病感染开始，星辰对我的回应已经越来越微弱了。</description>
+				<baseMoodEffect>-8</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+</Defs>

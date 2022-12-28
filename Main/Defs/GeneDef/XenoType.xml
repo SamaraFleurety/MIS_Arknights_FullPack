@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <XenotypeDef>
+    <defName>AK_BaseType</defName>
+    <label>泰拉人</label>
+    <description>暂时认为所有泰拉人基因的差距在环世界内显得渺小。</description>
+    <iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
+    <displayPriority>1</displayPriority>
+	<inheritable>true</inheritable>
+	<genes>
+		<li>Hair_SnowWhite</li>
+		<li>Skin_Melanin1</li>
+	</genes>
+  </XenotypeDef>
+  
+ </Defs>

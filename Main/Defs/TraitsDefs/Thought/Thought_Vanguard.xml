@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- Vanguard --> <!-- 已排序 -->
+
+	<!-- 焰尾 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Flametail</defName>
+		<requiredTraits>
+			<li>AK_Trait_Flametail</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>小小的领袖</label>
+				<description>不知道小灰她们在干嘛呢。</description>
+				<baseMoodEffect>18</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 嵯峨 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Saga</defName>
+		<requiredTraits>
+			<li>AK_Trait_Saga</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>大智若愚</label>
+				<description>腌萝卜......哈！小僧在！</description>
+				<baseMoodEffect>20</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_SagaSecond</defName>
+		<requiredTraits>
+			<li>AK_Trait_SagaSecond</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>入世</label>
+				<description>离开庙里时，小僧还以为入世无非是收拾几个蟊贼，除几个恶霸，不曾想世道竟如此变幻莫测，小僧有时甚至不知自己该为何而挥刀。</description>
+				<baseMoodEffect>-10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 推进之王 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Siege</defName>
+		<requiredTraits>
+			<li>AK_Trait_Siege</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>狮心王</label>
+				<description>我做了个梦......那是太阳升起的地方。视线无法触及之处，我的祖国就在那里......我或许，再也回不去了。</description>
+				<baseMoodEffect>-10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 德克萨斯 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Texas</defName>
+		<requiredTraits>
+			<li>AK_Trait_Texas</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>过去的影子</label>
+				<description>无论怎么逃，我的过去总有一天会追上我。</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_TexasSecond</defName>
+		<requiredTraits>
+			<li>AK_Trait_TexasSecond</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>吵闹的生活</label>
+				<description>自由的生活，吵闹的伙伴，虽然总给我带来麻烦，不过......我现在觉得这样也不坏。</description>
+				<baseMoodEffect>15</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 琴柳 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_SaileachSecond</defName>
+		<requiredTraits>
+			<li>AK_Trait_SaileachSecond</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>感染力</label>
+				<description>愿我的旗帜，能守护我所见的每一个无辜之人。</description>
+				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 风笛 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Bagpipe</defName>
+		<requiredTraits>
+			<li>AK_Trait_Bagpipe</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>农家女孩</label>
+				<description>阳光，麦田，成群的牧兽......我也想种点什么了，要么就土豆好了？种土豆，我可是很有经验的！</description>
+				<baseMoodEffect>20</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 苇草 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Reed</defName>
+		<requiredTraits>
+			<li>AK_Trait_Reed</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>生命之火</label>
+				<description>罪恶感？……我们的生命都一样廉价。所以我，没有罪恶感。</description>
+				<baseMoodEffect>-15</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 野鬃 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_WildSecond</defName>
+		<requiredTraits>
+			<li>AK_Trait_WildSecond</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>自信</label>
+				<description>敢不敢和我比划比划？</description>
+				<baseMoodEffect>18</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 桃金娘 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Myrtle</defName>
+		<requiredTraits>
+			<li>AK_Trait_Myrtle</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>大将军</label>
+				<description>"我一开始就说了嘛，我可是挺厉害的呢！嗯——哼！"</description>
+				<baseMoodEffect>12</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+</Defs>

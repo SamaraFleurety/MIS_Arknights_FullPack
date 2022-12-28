@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="AK_ArmorBase_Caster">
+    <defName>AK_Apparel_Absinthe</defName>
+    <label>苦艾服装</label>
+    <graphicData>
+      <texPath>Things/AK_Agents/GApparel</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<apparel>
+      <wornGraphicPath>Things/AK_Agents/Caster/Absinthe</wornGraphicPath>
+	</apparel>
+  </ThingDef>
+  
+  <ThingDef ParentName="AK_ArmorBase_Caster">
+    <defName>AK_Apparel_Ifrit</defName>
+    <label>伊芙利特服装</label>
+    <graphicData>
+      <texPath>Things/AK_Agents/GApparel</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<apparel>
+      <wornGraphicPath>Things/AK_Agents/Caster/Ifrit</wornGraphicPath>
+	</apparel>
+  </ThingDef>
+  
+  <ThingDef ParentName="AK_ArmorBase_Caster">
+    <defName>AK_Apparel_Amiya</defName>
+    <label>阿米娅服装</label>
+    <graphicData>
+      <texPath>Things/AK_Agents/GApparel</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+ 	<apparel>
+      <wornGraphicPath>Things/AK_Agents/Caster/Amiya</wornGraphicPath>
+ 	</apparel>
+  </ThingDef>
+  
+  <ThingDef ParentName="AK_ArmorBase_Caster">
+    <defName>AK_Apparel_Ceobe</defName>
+    <label>刻俄柏服装</label>
+    <graphicData>
+      <texPath>Things/AK_Agents/GApparel</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <apparel>	
+      <wornGraphicPath>Things/AK_Agents/Caster/Ceobe</wornGraphicPath>
+ 	</apparel>
+  </ThingDef>
+
+  <ThingDef ParentName="AK_ArmorBase_Caster">
+    <defName>AK_Apparel_Dusk</defName>
+    <label>夕服装</label>
+    <graphicData>
+      <texPath>Things/AK_Agents/GApparel</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Things/AK_Agents/Caster/Dusk</wornGraphicPath>
+ 	</apparel>
+  </ThingDef>
+
+  <ThingDef ParentName="AK_ArmorBase_Caster">
+    <defName>AK_Apparel_Mostima</defName>
+    <label>莫斯提马服装</label>
+    <graphicData>
+      <texPath>Things/AK_Agents/GApparel</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+      <apparel>
+      <wornGraphicPath>Things/AK_Agents/Caster/Mostima</wornGraphicPath>
+ 	</apparel>
+  </ThingDef>
+
+  <ThingDef ParentName="AK_ArmorBase_Caster">
+    <defName>AK_Apparel_Mint</defName>
+    <label>薄绿服装</label>
+    <graphicData>
+      <texPath>Things/AK_Agents/GApparel</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+ 	<apparel>
+      <wornGraphicPath>Things/AK_Agents/Caster/Mint</wornGraphicPath>
+ 	</apparel>
+  </ThingDef>
+  
+    <ThingDef ParentName="AK_ArmorBase_Caster">
+    <defName>AK_Apparel_Eyjafjalla</defName>
+    <label>艾雅法拉服装</label>
+    <graphicData>
+      <texPath>Things/AK_Agents/GApparel</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+ 	<apparel>
+      <wornGraphicPath>Things/AK_Agents/Caster/Eyjafjalla</wornGraphicPath>
+ 	</apparel>
+  </ThingDef>
+
+  <ThingDef ParentName="AK_ArmorBase_Caster">
+    <defName>AK_Apparel_Skyfire</defName>
+    <label>天火服装</label>
+    <graphicData>
+      <texPath>Things/AK_Agents/GApparel</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+ 	<apparel>
+      <wornGraphicPath>Things/AK_Agents/Caster/Skyfire</wornGraphicPath>
+ 	</apparel>
+  </ThingDef>
+  
+ 	<ThingDef ParentName="AK_ArmorBase_Caster">
+		<defName>AK_Apparel_Carnelian</defName>
+		<label>卡涅利安服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Caster/Carnelian</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Caster">
+		<defName>AK_Apparel_Beeswax</defName>
+		<label>蜜蜡服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Caster/Beeswax</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Caster">
+		<defName>AK_Apparel_Indigo</defName>
+		<label>深靛服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Caster/Indigo</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Caster">
+		<defName>AK_Apparel_Goldenglow</defName>
+		<label>澄闪服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Caster/Goldenglow</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Caster">
+		<defName>AK_Apparel_Tomimi</defName>
+		<label>特米米服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Caster/Tomimi</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Caster">
+		<defName>AK_Apparel_Kjera</defName>
+		<label>耶拉服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Caster/Kjera</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Caster">
+		<defName>AK_Apparel_Astgenne</defName>
+		<label>星源服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Caster/Astgenne</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+</Defs>
