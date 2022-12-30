@@ -6,8 +6,8 @@
 		<slot>Childhood</slot>
 		<title>哥伦比亚少年兵</title>
 		<titleShort>少年兵</titleShort>
-		<baseDesc>霜叶小姐作为哥伦比亚的少年兵，战斗经验在整个罗德岛里，都称得上是顶尖的，但这意味着，她没有享受过正常的童年。
-蠢蠢欲动的哥伦比亚近十年一直都和周边国家有摩擦，小规模战事不断，可以想见霜叶小姐在此之前，过的是什么样的生活。</baseDesc>
+		<baseDesc>{PAWN_nameDef}小姐作为哥伦比亚的少年兵，战斗经验在整个罗德岛里，都称得上是顶尖的，但这意味着，{PAWN_pronoun}没有享受过正常的童年。
+蠢蠢欲动的哥伦比亚近十年一直都和周边国家有摩擦，小规模战事不断，可以想见{PAWN_nameDef}小姐在此之前，过的是什么样的生活。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -15,8 +15,8 @@
 		<slot>Childhood</slot>
 		<title>富家子弟</title>
 		<titleShort>富家子弟</titleShort>
-		<baseDesc>出生在维多利亚王国伦蒂尼姆市一个富裕的大家庭中，干员慕斯与众多兄弟姐妹相比并不显眼。无论在源石技艺，还是家族传统的金融方面，慕斯都没有任何天赋。即使如此，她的父母也没忽视她的成长，对她无微不至。
-在罹患矿石病前，慕斯在一家蛋糕店中打工，当她收到感染，双手开始异化时，家人立刻将其隔离在家中，并在半年后将其送进罗德岛治疗。</baseDesc>
+		<baseDesc>出生在维多利亚王国伦蒂尼姆市一个富裕的大家庭中，干员{PAWN_nameDef}与众多兄弟姐妹相比并不显眼。无论在源石技艺，还是家族传统的金融方面，{PAWN_pronoun}都没有任何天赋。即使如此，{PAWN_possessive}父母也没忽视{PAWN_possessive}成长，对{PAWN_pronoun}无微不至。
+在罹患矿石病前，{PAWN_pronoun}在一家蛋糕店中打工，当{PAWN_pronoun}收到感染，双手开始异化时，家人立刻将其隔离在家中，并在半年后将其送进罗德岛治疗。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -24,8 +24,8 @@
 		<slot>Childhood</slot>
 		<title>哥伦比亚佣兵</title>
 		<titleShort>佣兵</titleShort>
-		<baseDesc>干员刻刀出身于哥伦比亚西南方某乡镇地区。她的父母在她年幼时因为被卷入一场街头械斗去世，一位巡游四方的刀客将她抚养长大，教导了她用刀的技巧。
-在这位老师的影响下，干员刻刀并未如她众多同乡一般陷入混乱争斗，而是成为了现在这样一名保有原则的雇佣兵。。</baseDesc>
+		<baseDesc>干员{PAWN_nameDef}出身于哥伦比亚西南方某乡镇地区。{PAWN_possessive}父母在{PAWN_pronoun}年幼时因为被卷入一场街头械斗去世，一位巡游四方的刀客将{PAWN_pronoun}抚养长大，教导了{PAWN_pronoun}用刀的技巧。
+在这位老师的影响下，干员{PAWN_pronoun}并未如{PAWN_pronoun}众多同乡一般陷入混乱争斗，而是成为了现在这样一名保有原则的雇佣兵。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -33,7 +33,7 @@
 		<slot>Childhood</slot>
 		<title>教士的学生</title>
 		<titleShort>学生</titleShort>
-		<baseDesc>棘刺的剑术和药剂炼制及萃取的技艺，都由一位当地教士传授，他同另外几个孩子一起跟随教士学习，度过了童年及青少年时光。</baseDesc>
+		<baseDesc>{PAWN_nameDef}的剑术和药剂炼制及萃取的技艺，都由一位当地教士传授，{PAWN_pronoun}同另外几个孩子一起跟随教士学习，度过了童年及青少年时光。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -41,7 +41,7 @@
 		<slot>Adulthood</slot>
 		<title>伊比利亚剑客</title>
 		<titleShort>剑客</titleShort>
-		<baseDesc>因教士被卷入宗教动荡，他的几名学生至此也走上不同的道路。棘刺本人也在后来的宗教动荡中离开伊比利亚，加入罗德岛。</baseDesc>
+		<baseDesc>因教士被卷入宗教动荡，{PAWN_nameDef}的几名学生至此也走上不同的道路。{PAWN_pronoun}本人也在后来的宗教动荡中离开伊比利亚，加入罗德岛。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -49,8 +49,8 @@
 		<slot>Adulthood</slot>
 		<title>BPRS生化部门职员</title>
 		<titleShort>职员</titleShort>
-		<baseDesc>干员芙兰卡，曾就职于黑钢国际，于一次为B·P·R·S生化部门提供的护卫中感染矿石病。黑钢通过其所掌握的情报联络到鲜为人知的罗德岛制药，安排芙兰卡进入罗德岛接受治疗。
-罹患矿石病，对于芙兰卡来说仿佛只是无足轻重的小事，只是，她心中那个想要走遍大地的梦想对于一个感染者来说已经成为了不可能。</baseDesc>
+		<baseDesc>干员{PAWN_nameDef}，曾就职于黑钢国际，于一次为B·P·R·S生化部门提供的护卫中感染矿石病。黑钢通过其所掌握的情报联络到鲜为人知的罗德岛制药，安排{PAWN_pronoun}进入罗德岛接受治疗。
+罹患矿石病，对于{PAWN_pronoun}来说仿佛只是无足轻重的小事，只是，{PAWN_pronoun}心中那个想要走遍大地的梦想对于一个感染者来说已经成为了不可能。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -58,8 +58,8 @@
 		<slot>Adulthood</slot>
 		<title>罗德岛精英干员</title>
 		<titleShort>精英</titleShort>
-		<baseDesc>在加入罗德岛之后的煌迅速成长为一名值得信赖的精英干员，作为罗德岛最热情的精英干员，煌将在任何地方散播她的热情。
-煌坚定地为感染者的正当权益而战，也站在所有为公正事业奋斗的人一边，全力付出，从无保留。</baseDesc>
+		<baseDesc>在加入罗德岛之后的{PAWN_nameDef}迅速成长为一名值得信赖的精英干员，作为罗德岛最热情的精英干员，{PAWN_pronoun}将在任何地方散播{PAWN_possessive}热情。
+{PAWN_pronoun}坚定地为感染者的正当权益而战，也站在所有为公正事业奋斗的人一边，全力付出，从无保留。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -67,8 +67,8 @@
 		<slot>Childhood</slot>
 		<title>被绑架的孩子</title>
 		<titleShort>被绑架的孩子</titleShort>
-		<baseDesc>干员诗怀雅，自幼年时期就生活在自己祖父的阴影下，父亲作为家族的第一顺位继承人，对诗怀雅的祖父卑躬屈膝，不准诗怀雅对其祖父有半点违逆。
-在一次震惊龙门的绑架案中，幼年的诗怀雅被龙门警员救出，诗怀雅与警察这一职业的缘分就此开始。</baseDesc>
+		<baseDesc>干员{PAWN_nameDef}，自幼年时期就生活在自己祖父的阴影下，父亲作为家族的第一顺位继承人，对{PAWN_possessive}祖父卑躬屈膝，不准{PAWN_pronoun}对其祖父有半点违逆。
+在一次震惊龙门的绑架案中，幼年的{PAWN_pronoun}被龙门警员救出，诗怀雅与警察这一职业的缘分就此开始。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -76,8 +76,8 @@
 		<slot>Adulthood</slot>
 		<title>龙门近卫局二把手</title>
 		<titleShort>龙门警察</titleShort>
-		<baseDesc>成年后的诗怀雅虽然没有选择投身于家族企业，她依然自豪于自己的家族，并且在加入近卫局后以家族姓氏直接作为代号，失败的处理了几次事件。但随着经验的积累，她终于成长为一名成熟的警官，并且上任了龙门近卫局的二把手，在陈离开后接手了近卫局的责任。
-此时的她，终于摆脱了祖父投在自己头顶的阴影。</baseDesc>
+		<baseDesc>成年后的{PAWN_nameDef}虽然没有选择投身于家族企业，{PAWN_pronoun}依然自豪于自己的家族，并且在加入近卫局后以家族姓氏直接作为代号，失败的处理了几次事件。但随着经验的积累，{PAWN_pronoun}终于成长为一名成熟的警官，并且上任了龙门近卫局的二把手，在陈离开后接手了近卫局的责任。
+此时的{PAWN_pronoun}，终于摆脱了祖父投在自己头顶的阴影。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -97,8 +97,8 @@ ok halda njarðlásar níu.</baseDesc>
 		<slot>Adulthood</slot>
 		<title>寻找记忆的流浪者</title>
 		<titleShort>流浪者</titleShort>
-		<baseDesc>史尔特尔的记忆充斥着大量的混乱与空白，因此她四处考察，想要找回自己的记忆。
-最后她在一个遭受天灾侵害的小镇中被干员发现并带回了罗德岛</baseDesc>
+		<baseDesc>{PAWN_nameDef}的记忆充斥着大量的混乱与空白，因此{PAWN_pronoun}四处考察，想要找回自己的记忆。
+最后{PAWN_pronoun}在一个遭受天灾侵害的小镇中被干员发现并带回了罗德岛</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -106,8 +106,8 @@ ok halda njarðlásar níu.</baseDesc>
 		<slot>Childhood</slot>
 		<title>陪侍</title>
 		<titleShort>陪侍</titleShort>
-		<baseDesc>鞭刃曾经作为陪侍的身份参与骑士竞技，正是因此，即使接受了骑士竞技，她也始终不愿向赞助商和企业低头。
-正是因此，由于装备上的差距让她在一场比赛后再也无法使用自己的左手进行战斗。</baseDesc>
+		<baseDesc>{PAWN_nameDef}曾经作为陪侍的身份参与骑士竞技，正是因此，即使接受了骑士竞技，{PAWN_pronoun}也始终不愿向赞助商和企业低头。
+正是因此，由于装备上的差距让{PAWN_pronoun}在一场比赛后再也无法使用自己的左手进行战斗。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -115,7 +115,7 @@ ok halda njarðlásar níu.</baseDesc>
 		<slot>Adulthood</slot>
 		<title>教官</title>
 		<titleShort>教官</titleShort>
-		<baseDesc>在鞭刃心中，身为临光家一员的荣誉感是极强的。在瑕光出乎意料的胜利后，她也伴随瑕光一同加入了罗德岛</baseDesc>
+		<baseDesc>在{PAWN_nameDef}心中，身为临光家一员的荣誉感是极强的。在瑕光出乎意料的胜利后，{PAWN_pronoun}也伴随瑕光一同加入了罗德岛</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -123,7 +123,7 @@ ok halda njarðlásar níu.</baseDesc>
 		<slot>Childhood</slot>
 		<title>危险的孩子</title>
 		<titleShort>危险的孩子</titleShort>
-		<baseDesc>拉普兰德极有可能出身于叙拉古最为危险的某个家族。但在勘查过所有叙拉古过去活动或正在活动的家族名单后，并未发现拉普兰德与这些家族间存在联系。基于对叙拉古统治家族的调查拥有极高的危险性，相关调查工作已终止。</baseDesc>
+		<baseDesc>{PAWN_nameDef}极有可能出身于叙拉古最为危险的某个家族。但在勘查过所有叙拉古过去活动或正在活动的家族名单后，并未发现{PAWN_pronoun}与这些家族间存在联系。基于对叙拉古统治家族的调查拥有极高的危险性，相关调查工作已终止。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -131,8 +131,8 @@ ok halda njarðlásar níu.</baseDesc>
 		<slot>Adulthood</slot>
 		<title>落单的狼</title>
 		<titleShort>孤狼</titleShort>
-		<baseDesc>她永远地失去了家族，也永远不会再投身于另一个家族。
-你不必知道究竟是什么支撑她活到现在的，你可以尝试治疗她的伤，但你也要记住，疯狂是永远无法被治愈的。
+		<baseDesc>{PAWN_pronoun}永远地失去了家族，也永远不会再投身于另一个家族。
+你不必知道究竟是什么支撑{PAWN_pronoun}活到现在的，你可以尝试治疗{PAWN_possessive}伤，但你也要记住，疯狂是永远无法被治愈的。
 一切过去都不能再被重现了。</baseDesc>
 	</BackstoryDef>
 
@@ -141,7 +141,7 @@ ok halda njarðlásar níu.</baseDesc>
 		<slot>Childhood</slot>
 		<title>谢拉格游子</title>
 		<titleShort>游子</titleShort>
-		<baseDesc>银灰在幼年时期就失去双亲，父母因为在保守的谢拉格倡导改革而被杀害，只留下银灰和他的两个妹妹，银灰继续抚养两位胞妹，直到她们能够自理为止。其为了更好的接下家族的担子，决定牺牲妹妹初雪，将其推到圣女的位置之上，自己则投身维多利亚深造。</baseDesc>
+		<baseDesc>{PAWN_nameDef}在幼年时期就失去双亲，父母因为在保守的谢拉格倡导改革而被杀害，只留下{PAWN_pronoun}和{PAWN_possessive}两个妹妹，银灰继续抚养两位胞妹，直到{PAWN_pronoun}们能够自理为止。其为了更好的接下家族的担子，决定牺牲妹妹初雪，将其推到圣女的位置之上，{PAWN_pronoun}自己则投身维多利亚深造。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -149,7 +149,7 @@ ok halda njarðlásar níu.</baseDesc>
 		<slot>Adulthood</slot>
 		<title>狡猾的改革家</title>
 		<titleShort>改革家</titleShort>
-		<baseDesc>银灰在维多利亚学成归来后，在家乡谢拉格进行了一系列激进的现代化改革，誓要让家乡跑步进入现代社会。然而，这种种举动令保守派感到受到了威胁，他们也许会以最激烈的举动进行反制......</baseDesc>
+		<baseDesc>{PAWN_nameDef}在维多利亚学成归来后，在家乡谢拉格进行了一系列激进的现代化改革，誓要让家乡跑步进入现代社会。然而，这种种举动令保守派感到受到了威胁，他们也许会以最激烈的举动进行反制......</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -165,7 +165,7 @@ ok halda njarðlásar níu.</baseDesc>
 		<slot>Adulthood</slot>
 		<title>赏金猎人</title>
 		<titleShort>赏金猎人</titleShort>
-		<baseDesc>斯卡蒂，赏金猎人。在过去完成的赏金任务中，于对抗大型生物，破坏硬目标，攻坚战、歼灭战等多类行动中展现出强劲实力，推测与其过往战斗经验相关。</baseDesc>
+		<baseDesc>{PAWN_nameDef}，赏金猎人。在过去完成的赏金任务中，于对抗大型生物，破坏硬目标，攻坚战、歼灭战等多类行动中展现出强劲实力，推测与其过往战斗经验相关。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -173,9 +173,9 @@ ok halda njarðlásar níu.</baseDesc>
 		<slot>Adulthood</slot>
 		<title>教会的试验品</title>
 		<titleShort>试验品</titleShort>
-		<baseDesc>某个时候深海猎人受到了不明势力的攻击，造成了包括第二大队在内的深海猎人死亡和失踪，而幽灵鲨被深海教会俘获。
-为了研究源石病，深海教会的人给幽灵鲨注入了大量的液态源石。这造成了幽灵鲨有了记忆障碍、情感障碍与认知障碍。
-可能偶尔会有清醒的时刻，但是幽灵鲨大多数情况下都处于精神恍惚的状态。</baseDesc>
+		<baseDesc>某个时候深海猎人受到了不明势力的攻击，造成了包括第二大队在内的深海猎人死亡和失踪，而{PAWN_nameDef}被深海教会俘获。
+为了研究源石病，深海教会的人给{PAWN_objective}注入了大量的液态源石。这造成了{PAWN_pronoun}有了记忆障碍、情感障碍与认知障碍。
+可能偶尔会有清醒的时刻，但是{PAWN_pronoun}大多数情况下都处于精神恍惚的状态。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -183,8 +183,8 @@ ok halda njarðlásar níu.</baseDesc>
 		<slot>Childhood</slot>
 		<title>怯弱的孩子</title>
 		<titleShort>怯弱的孩子</titleShort>
-		<baseDesc>陈原本与塔露拉是同母异父的姐妹，二十年前某日，科西切回到龙门，以炸毁半个龙门为筹码要挟魏彦吾，带走了年幼的塔露拉。
-此前陈本要和塔露拉一同前去，但却因为害怕而松手了。</baseDesc>
+		<baseDesc>{PAWN_nameDef}原本与塔露拉是同母异父的姐妹，二十年前某日，科西切回到龙门，以炸毁半个龙门为筹码要挟魏彦吾，带走了年幼的塔露拉。
+此前{PAWN_pronoun}本要和塔露拉一同前去，但却因为害怕而松手了。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -192,77 +192,84 @@ ok halda njarðlásar níu.</baseDesc>
 		<slot>Adulthood</slot>
 		<title>龙门近卫局局长</title>
 		<titleShort>局长</titleShort>
-		<baseDesc>陈是龙门警史中升职最快的警官，同时也是最年轻的近卫局特别督察组组长。
-原本嘲笑或是背地里阴损她的人，无不为她的气魄和坚毅折服。
-她为何那么卖力？为何投入自己的生命至如斯地步？没人懂，也没人能懂。
-陈的废纸篓里，常有撕得粉碎或揉成一团的残页，写满了莫名的怒意。</baseDesc>
+		<baseDesc>{PAWN_nameDef}是龙门警史中升职最快的警官，同时也是最年轻的近卫局特别督察组组长。
+原本嘲笑或是背地里阴损{PAWN_possessive}人，无不为{PAWN_possessive}气魄和坚毅折服。
+{PAWN_pronoun}为何那么卖力？为何投入自己的生命至如斯地步？没人懂，也没人能懂。
+{PAWN_possessive}废纸篓里，常有撕得粉碎或揉成一团的残页，写满了莫名的怒意。</baseDesc>
 	</BackstoryDef>
-	
+
 	<BackstoryDef ParentName = "AK_StoryBase">
 		<defName>AK_BackStory_Pallas_Child</defName>
 		<slot>Childhood</slot>
 		<title>显赫的米诺斯祭司</title>
 		<titleShort>米诺斯祭司</titleShort>
-		<baseDesc>帕拉斯出生于米诺斯的显赫家庭，在经历了充实又无忧无虑的童年后，成为了一名祭司。
-但在一次意外中她感染了矿石病，因此她离开了英雄神殿，成为了边远地区的一名普通祭司。
-</baseDesc>
-		<bodyTypeGlobal>Thin</bodyTypeGlobal>	</BackstoryDef>
+		<baseDesc>{PAWN_nameDef}出生于米诺斯的显赫家庭，在经历了充实又无忧无虑的童年后，成为了一名祭司。
+但在一次意外中{PAWN_pronoun}感染了矿石病，因此{PAWN_pronoun}离开了英雄神殿，成为了边远地区的一名普通祭司。
+		</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
 		<defName>AK_BackStory_Pallas_Adult</defName>
 		<slot>Adulthood</slot>
 		<title>边缘村庄的小祭司</title>
 		<titleShort>小祭司</titleShort>
-		<baseDesc>帕拉斯在离开英雄神殿后成为了一个米诺斯边缘村庄的普通祭司，在抵御了袭扰该村的萨尔贡部落后，因为矿石病恶化前往罗德岛治疗。
-</baseDesc>
-		<bodyTypeGlobal>Thin</bodyTypeGlobal>	</BackstoryDef>
+		<baseDesc>{PAWN_nameDef}在离开英雄神殿后成为了一个米诺斯边缘村庄的普通祭司，在抵御了袭扰该村的萨尔贡部落后，因为矿石病恶化前往罗德岛治疗。
+		</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
 		<defName>AK_BackStory_Irene_Child</defName>
 		<slot>Childhood</slot>
 		<title>灾难遗孤</title>
 		<titleShort>灾难遗孤</titleShort>
-		<baseDesc>艾丽妮的童年被一个颇具宗教牺牲意味的残酷玩笑摧毁了，她的家人与原本平静的神话都被摧毁了。但她被达西奥救了下来。
-</baseDesc>
-		<bodyTypeGlobal>Thin</bodyTypeGlobal>	</BackstoryDef>
+		<baseDesc>{PAWN_nameDef}的童年被一个颇具宗教牺牲意味的残酷玩笑摧毁了，{PAWN_possessive}家人与原本平静的神话都被摧毁了。但{PAWN_pronoun}被达西奥救了下来。
+		</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
 		<defName>AK_BackStory_Irene_Adult</defName>
 		<slot>Adulthood</slot>
 		<title>小审判官</title>
 		<titleShort>小审判官</titleShort>
-		<baseDesc>艾丽妮后来成为了伊比利亚审判庭的一位审判官，为保护伊比利亚的海岸线而战斗，直到愚人号事件后加入了罗德岛。
-</baseDesc>
-		<bodyTypeGlobal>Thin</bodyTypeGlobal>	</BackstoryDef>
+		<baseDesc>{PAWN_nameDef}后来成为了伊比利亚审判庭的一位审判官，为保护伊比利亚的海岸线而战斗，直到愚人号事件后加入了罗德岛。
+		</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
 		<defName>AK_BackStory_Tequila_Child</defName>
 		<slot>Childhood</slot>
 		<title>玻利瓦尔军人之子</title>
 		<titleShort>军人之子</titleShort>
-		<baseDesc>龙舌兰是当时还身为玻利瓦尔军人的潘乔的孩子，八年前因为父亲在战场上的势力，在经历了三年的动荡后他伴随父亲来到了多索雷斯。
-在多索雷斯的五年毫无疑问让龙舌兰完全融入了这座城市。
-</baseDesc>
-		<bodyTypeGlobal>Thin</bodyTypeGlobal>	</BackstoryDef>
+		<baseDesc>{PAWN_nameDef}是当时还身为玻利瓦尔军人的潘乔的孩子，八年前因为父亲在战场上的势力，在经历了三年的动荡后{PAWN_pronoun}伴随父亲来到了多索雷斯。
+在多索雷斯的五年毫无疑问让{PAWN_pronoun}完全融入了这座城市。
+		</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
 		<defName>AK_BackStory_Tequila_Adult</defName>
 		<slot>Adulthood</slot>
 		<title>多索雷斯国际贸易管理部副主任</title>
 		<titleShort>副主任</titleShort>
-		<baseDesc>龙舌兰在成年后成为了多索雷斯国际贸易管理部副主任，但因为多索雷斯事件被革职，后经干员陈的引荐来到罗德岛。
-</baseDesc>
-		<bodyTypeGlobal>Thin</bodyTypeGlobal>	</BackstoryDef>
+		<baseDesc>{PAWN_nameDef}在成年后成为了多索雷斯国际贸易管理部副主任，但因为多索雷斯事件被革职，后经干员陈的引荐来到罗德岛。
+		</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
 		<defName>AK_BackStory_LaPluma_Child</defName>
 		<slot>Childhood</slot>
 		<title>潘乔的养女</title>
 		<titleShort>潘乔的养女</titleShort>
-		<baseDesc>羽毛笔曾经是玻利瓦尔一个中尉的女儿，在她的父亲死后被交给父亲的老友潘乔抚养。
-在多索雷斯事件后，羽毛笔加入罗德岛。
-</baseDesc>
-		<bodyTypeGlobal>Thin</bodyTypeGlobal>	</BackstoryDef>
+		<baseDesc>{PAWN_nameDef}曾经是玻利瓦尔一个中尉的女儿，在{PAWN_possessive}父亲死后被交给父亲的老友潘乔抚养。
+在多索雷斯事件后，{PAWN_pronoun}加入罗德岛。
+		</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
 		<defName>AK_BackStory_Estelle_Child</defName>
@@ -270,7 +277,7 @@ ok halda njarðlásar níu.</baseDesc>
 		<title>巨角战神</title>
 		<titleShort>巨角战神</titleShort>
 		<baseDesc>萨尔贡境内的一支“锈锤”团伙——“阿达克利斯恶魔”一直在寻找“头上长着巨角的阿达克利斯战神”。
-</baseDesc>
+		</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -278,7 +285,7 @@ ok halda njarðlásar níu.</baseDesc>
 		<slot>Adulthood</slot>
 		<title>“怪胎”</title>
 		<titleShort>“怪胎”</titleShort>
-		<baseDesc>艾丝黛尔，中度感染者，因矿石病引发的显性突变而受到一定关注，后为寻求庇护联络罗德岛制药，在接受数项治疗方案后转至罗德岛进行治疗。
+		<baseDesc>{PAWN_nameDef}，中度感染者，因矿石病引发的显性突变而受到一定关注，后为寻求庇护联络罗德岛制药，在接受数项治疗方案后转至罗德岛进行治疗。
 经本人意愿，接受若干心理辅导并通过多项测试后，获准正式加入罗德岛。现作为近卫人员于罗德岛小队任职。</baseDesc>
 	</BackstoryDef>
 
@@ -287,8 +294,8 @@ ok halda njarðlásar níu.</baseDesc>
 		<slot>Childhood</slot>
 		<title>雨林中的黎博利</title>
 		<titleShort>雨林中的黎博利</titleShort>
-		<baseDesc>干员燧石是生活在雨林中的黎博利人，这一族的黎博利天生身材娇小，身体素质较其他黎博利人也稍显不足，更不用说和周围那些孔武健壮的种族相提并论。这样的现状也就导致燧石的部族一直以来都在雨林中生活得较为艰难。
-</baseDesc>
+		<baseDesc>干员{PAWN_nameDef}是生活在雨林中的黎博利人，这一族的黎博利天生身材娇小，身体素质较其他黎博利人也稍显不足，更不用说和周围那些孔武健壮的种族相提并论。这样的现状也就导致{PAWN_possessive}部族一直以来都在雨林中生活得较为艰难。
+		</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -296,7 +303,7 @@ ok halda njarðlásar níu.</baseDesc>
 		<slot>Adulthood</slot>
 		<title>部族战士</title>
 		<titleShort>部族战士</titleShort>
-		<baseDesc>萨尔贡部族战士燧石，她的战斗经验从有力气挥动双拳时起就开始累积，擅长精准而快速的拳击格斗术。 
+		<baseDesc>萨尔贡部族战士{PAWN_nameDef}，{PAWN_possessive}战斗经验从有力气挥动双拳时起就开始累积，擅长精准而快速的拳击格斗术。 
 现经由某位隐去姓名的精英干员推荐，通过测试作为近卫干员加入罗德岛。</baseDesc>
 	</BackstoryDef>
 
@@ -305,9 +312,9 @@ ok halda njarðlásar níu.</baseDesc>
 		<slot>Adulthood</slot>
 		<title>近卫爆破手</title>
 		<titleShort>近卫爆破手</titleShort>
-		<baseDesc>暴行，原雷姆必拓矿业公司安保人员。任职期间表现优秀，于破坏硬目标，要员保护等任务中皆有优异表现。
+		<baseDesc>{PAWN_nameDef}，原雷姆必拓矿业公司安保人员。任职期间表现优秀，于破坏硬目标，要员保护等任务中皆有优异表现。
 加入罗德岛后，作为近卫干员于罗德岛某作战小队任职。
-</baseDesc>
+		</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -315,9 +322,9 @@ ok halda njarðlásar níu.</baseDesc>
 		<slot>Childhood</slot>
 		<title>科林尼亚的孩子</title>
 		<titleShort>科林尼亚的孩子</titleShort>
-		<baseDesc>铸铁出生于米诺斯的科林尼亚城邦，该邦以贸易闻名，商业活动兴盛，但同时也遭受着各种道德败坏的非议。由于自小饱尝财富至上主义带来的苦涩后果。
-</baseDesc>
-		
+		<baseDesc>{PAWN_nameDef}出生于米诺斯的科林尼亚城邦，该邦以贸易闻名，商业活动兴盛，但同时也遭受着各种道德败坏的非议。由于自小饱尝财富至上主义带来的苦涩后果。
+		</baseDesc>
+
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -326,8 +333,8 @@ ok halda njarðlásar níu.</baseDesc>
 		<title>米诺斯佣兵</title>
 		<titleShort>米诺斯佣兵</titleShort>
 		<baseDesc>经验丰富的米诺斯佣兵，擅长保护目标与押运货物。已与罗德岛签订长期雇佣合同，经过内部训练后拥有参加各项任务的经验与实力。
-</baseDesc>
-		
+		</baseDesc>
+
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -335,9 +342,9 @@ ok halda njarðlásar níu.</baseDesc>
 		<slot>Childhood</slot>
 		<title>观星师家族的孩子</title>
 		<titleShort>观星师家族的孩子</titleShort>
-		<baseDesc>星极出生在一个传统的观星师家族，与妹妹星源不同，她致力于家族传统的观星学。
-后来，星极不负家人所望，成为了一个知名的文献学顾问。
-</baseDesc>
+		<baseDesc>{PAWN_nameDef}出生在一个传统的观星师家族，与妹妹星源不同，{PAWN_pronoun}致力于家族传统的观星学。
+后来，{PAWN_pronoun}不负家人所望，成为了一个知名的文献学顾问。
+		</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -345,8 +352,8 @@ ok halda njarðlásar níu.</baseDesc>
 		<slot>Adulthood</slot>
 		<title>文献学顾问</title>
 		<titleShort>文献学顾问</titleShort>
-		<baseDesc>干员星极，哥伦比亚某神秘学组织的会员，经由合作协议被派驻至莱茵生命，职位为文献学顾问。由于共发性矿石病与妹妹一起来到罗德岛，在进行矿石病治疗期间通过测试成为干员 。可使用独特的剑技，对近战目标造成类似法术的攻击效果。
-</baseDesc>
+		<baseDesc>干员{PAWN_nameDef}，哥伦比亚某神秘学组织的会员，经由合作协议被派驻至莱茵生命，职位为文献学顾问。由于共发性矿石病与妹妹一起来到罗德岛，在进行矿石病治疗期间通过测试成为干员 。可使用独特的剑技，对近战目标造成类似法术的攻击效果。
+		</baseDesc>
 	</BackstoryDef>
 
 </Defs>
