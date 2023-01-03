@@ -94,13 +94,6 @@ Coming on a whim, the great painter, Dusk, puts only the finishing touches on al
 		<age>20</age>
 		<childHood>AK_BackStory_Dusk_Child</childHood>
 		<adultHood>AK_BackStory_Dusk_Adult</adultHood>
-		<abilities>
-			<li>AK_Test_Trap</li>
-			<li>AK_Test_TrapT</li>
-			<li>AK_Test_ignit</li>
-		</abilities>
-		<standOffset>(-100,200)</standOffset>
-		<standRatio>1.5</standRatio>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Caster">
@@ -200,8 +193,6 @@ Eyjafjalla, Caster Operator of Rhodes Island, has wanted to devote herself to do
 		<age>20</age>
 		<childHood>AK_BackStory_Eyjafjalla_Child</childHood>
 		<adultHood>AK_BackStory_Eyjafjalla_Adult</adultHood>
-		<standOffset>(-100,200)</standOffset>
-		<standRatio>1.5</standRatio>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Caster">

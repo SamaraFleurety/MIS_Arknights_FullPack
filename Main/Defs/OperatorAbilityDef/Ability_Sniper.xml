@@ -5,9 +5,10 @@
 		<defName>AK_Ability_ExusiaiIII</defName>
 		<grouped>true</grouped>
 		<label>过载模式</label>
-		<description>过载模式desc</description>
+		<description>测试版过载模式，增加伤害，冷却2天</description>
 		<icon>UI/Abilities/Medic/HealEnhance</icon>
-		<CD>100</CD>
+		<CD>2</CD>
+		<CDUnit>day<CDUnit>
 		<abilityType>Hediff</abilityType>
 		<targetMode>Self</targetMode>
 		<needCD>true</needCD> 
@@ -29,7 +30,7 @@
 		</verb>
 		<compEffectList>
 			<li Class="AK_DLL.AE_DpsEnhance_Ranged">
-				<duration>50</duration>
+				<duration>100</duration>
 				<statOffset>
 					<stats>
 						<Mass>-3</Mass>
@@ -43,7 +44,7 @@
 					<range>20</range>
 					<armorPenetrate>1.3</armorPenetrate>
 					<bulletSpeed>15</bulletSpeed>
-					<damage>50</damage>
+					<damage>2</damage>
 					<burstCount>2</burstCount>
 					<burstInterval>-3</burstInterval>
 				</statOffset>
