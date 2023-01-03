@@ -7,7 +7,8 @@
 		<label>治疗</label>
 		<description>每位医疗干员都掌握的，非常基础的伤口处理。</description>
 		<icon>UI/Abilities/Medic/HealEnhance</icon>
-		<CD>100</CD>
+		<CD>12</CD>
+		<CDUnit>hour</CDUnit>
 		<abilityType>Heal</abilityType>
 		<targetMode>Single</targetMode>
 		<verb>
@@ -44,7 +45,8 @@
 		<label>再生</label>
 		<description>每位医疗干员都掌握的，非常基础的伤口处理。</description>
 		<icon>UI/Abilities/Medic/HealEnhance</icon>
-		<CD>100</CD>
+		<CD>12</CD>
+		<CDUnit>hour</CDUnit>
 		<abilityType>Heal</abilityType>
 		<targetMode>Single</targetMode>
 		<verb>
@@ -80,7 +82,8 @@
 		<label>强力再生</label>
 		<description>每位医疗干员都掌握的，非常基础的伤口处理。</description>
 		<icon>UI/Abilities/Medic/HealEnhance</icon>
-		<CD>100</CD>
+		<CD>12</CD>
+		<CDUnit>hour</CDUnit>
 		<maxCharge>3</maxCharge>
 		<abilityType>Heal</abilityType>
 		<targetMode>Single</targetMode>
