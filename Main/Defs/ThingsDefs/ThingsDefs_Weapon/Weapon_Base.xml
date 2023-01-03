@@ -80,6 +80,10 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<techLevel>Industrial</techLevel>
+		<verbs Inherit = "false">
+		</verbs>
+		<tools Inherit = "false">
+		</tools>
 	</ThingDef>
 
 	<ThingDef Name="AK_WeaponBase_Melee" ParentName="AK_WeaponBase" Abstract="True">
@@ -91,33 +95,6 @@
 			<Mass>1.1</Mass>
 		</statBases>
 		<equippedAngleOffset>-25</equippedAngleOffset>
-		<tools inherit = "false">
-			<li>
-				<label>handle</label>
-				<capacities>
-					<li>Blunt</li>
-					<li>Poke</li>
-				</capacities>
-				<power>9</power>
-				<cooldownTime>2</cooldownTime>
-			</li>
-			<li>
-				<label>head</label>
-				<capacities>
-					<li>Stab</li>
-				</capacities>
-				<power>15</power>
-				<cooldownTime>2</cooldownTime>
-			</li>
-			<li>
-				<label>edge</label>
-				<capacities>
-					<li>Cut</li>
-				</capacities>
-				<power>16</power>
-				<cooldownTime>2</cooldownTime>
-			</li>
-		</tools>
 	</ThingDef>
 
 	<ThingDef Name="AK_WeaponBase_Ranged" ParentName="AK_WeaponBase" Abstract="True">
@@ -167,39 +144,6 @@
 		<weaponClasses>
 			<li>RangedLight</li>
 		</weaponClasses>
-		<verbs>
-			<li>
-				<verbClass>Verb_Shoot</verbClass>
-				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>AK_Bullet_Base</defaultProjectile>
-				<warmupTime>1.0</warmupTime>
-				<range>33</range>
-				<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
-				<burstShotCount>3</burstShotCount>
-				<soundCast>Shot_ChargeRifle</soundCast>
-				<soundCastTail>GunTail_Medium</soundCastTail>
-				<muzzleFlashScale>9</muzzleFlashScale>
-			</li>
-		</verbs>
-		<tools>
-			<li>
-				<label>stock</label>
-				<capacities>
-					<li>Blunt</li>
-				</capacities>
-				<power>9</power>
-				<cooldownTime>2</cooldownTime>
-			</li>
-			<li>
-				<label>barrel</label>
-				<capacities>
-					<li>Blunt</li>
-					<li>Poke</li>
-				</capacities>
-				<power>9</power>
-				<cooldownTime>2</cooldownTime>
-			</li>
-		</tools>
 	</ThingDef>
 	<ThingDef ParentName="BaseBullet">
 		<defName>AK_Bullet_Base</defName>
@@ -230,27 +174,6 @@
 		<weaponClasses>
 			<li>RangedLight</li>
 		</weaponClasses>
-		<verbs>
-			<li>
-				<verbClass>Verb_Shoot</verbClass>
-				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>AK_Arrow_Base</defaultProjectile>
-				<warmupTime>2.0</warmupTime>
-				<range>33</range>
-				<soundCast>Bow_Large</soundCast>
-			</li>
-		</verbs>
-		<tools>
-			<li>
-				<label>limb</label>
-				<capacities>
-					<li>Blunt</li>
-					<li>Poke</li>
-				</capacities>
-				<power>9</power>
-				<cooldownTime>2</cooldownTime>
-			</li>
-		</tools>
 	</ThingDef>
 	<ThingDef Name="AK_BulletBase_Bow" Abstract="True">
 		<category>Projectile</category>
@@ -294,39 +217,6 @@
 		<weaponClasses>
 			<li>RangedLight</li>
 		</weaponClasses>
-		<verbs>
-			<li>
-				<verbClass>Verb_Shoot</verbClass>
-				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>AK_MagicBullet_Base</defaultProjectile>
-				<warmupTime>1.0</warmupTime>
-				<range>33</range>
-				<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
-				<burstShotCount>3</burstShotCount>
-				<soundCast>Shot_ChargeRifle</soundCast>
-				<soundCastTail>GunTail_Medium</soundCastTail>
-				<muzzleFlashScale>9</muzzleFlashScale>
-			</li>
-		</verbs>
-		<tools>
-			<li>
-				<label>stock</label>
-				<capacities>
-					<li>Blunt</li>
-				</capacities>
-				<power>9</power>
-				<cooldownTime>2</cooldownTime>
-			</li>
-			<li>
-				<label>barrel</label>
-				<capacities>
-					<li>Blunt</li>
-					<li>Poke</li>
-				</capacities>
-				<power>9</power>
-				<cooldownTime>2</cooldownTime>
-			</li>
-		</tools>
 	</ThingDef>
 	<ThingDef ParentName="BaseBullet">
 		<defName>AK_MagicBullet_Base</defName>

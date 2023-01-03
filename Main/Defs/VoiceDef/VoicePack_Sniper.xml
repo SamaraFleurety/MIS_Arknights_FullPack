@@ -84,6 +84,47 @@
 	<AK_DLL.VoicePackDef>
 		<defName>AK_VoicePack_W</defName>
 		<undraftSound>AK_Voice_Select_WI</undraftSound>
+		<recruitSound>AK_Voice_Recruit_W</recruitSound>
+		<diedSound>AK_Voice_Die_W</diedSound>
+		<draftSounds>
+			<li>
+				<def>AK_Voice_Draft_W</def>
+			</li>
+			<li>
+				<def>AK_Voice_Draft_WII</def>
+			</li>
+			<li>
+				<def>AK_Voice_Draft_WIII</def>
+			</li>
+		</draftSounds>
+		<selectSounds>
+			<li>
+				<def>AK_Voice_Select_WI</def>
+			</li>
+			<li>
+				<def>AK_Voice_Select_WII</def>
+			</li>
+			<li>
+				<def>AK_Voice_Select_WIII</def>
+			</li>
+			<li>
+				<def>AK_Voice_Select_WIV</def>
+			</li>
+		</selectSounds>
+		<abilitySounds>
+			<li>
+				<def>AK_Voice_Ability_WI</def>
+			</li>
+			<li>
+				<def>AK_Voice_Ability_WII</def>
+			</li>
+			<li>
+				<def>AK_Voice_Ability_WIII</def>
+			</li>
+			<li>
+				<def>AK_Voice_Ability_WIV</def>
+			</li>
+		</abilitySounds>
 	</AK_DLL.VoicePackDef>
 
 </Defs>
