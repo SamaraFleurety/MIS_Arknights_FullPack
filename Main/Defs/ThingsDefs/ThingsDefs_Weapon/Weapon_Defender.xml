@@ -1,825 +1,820 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="AK_WeaponBase_Defender">
-    <defName>AK_Weapon_Cuora</defName>
-    <label>满是签名的棒球棍</label>
-    <description>普通的棒球棍，棍身歪歪扭扭地写着数位知名球手的签名。
-    虽然，也许，大概，即使签名是模仿的，想要分享的心情却是真实的。</description>
-    <graphicData>
-      <texPath>Things/AK_Agents/Weapon/Defender/CuoraW</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <tools Inherit = "false">
-      <li>
-        <label>球棒猛敲</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>14</power>
-        <cooldownTime>1.2</cooldownTime>
-      </li>
-    </tools>
-  </ThingDef>
+	<ThingDef ParentName="AK_WeaponBase_Defender">
+		<defName>AK_Weapon_Cuora</defName>
+		<label>满是签名的棒球棍</label>
+		<description>普通的棒球棍，棍身歪歪扭扭地写着数位知名球手的签名。\n虽然，也许，大概，即使签名是模仿的，想要分享的心情却是真实的。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Defender/CuoraW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tools Inherit = "false">
+			<li>
+				<label>球棒猛敲</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>1.2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
 
-  <ThingDef ParentName="AK_WeaponBase_Defender">
-    <defName>AK_Weapon_CuoraTypeB</defName>
-    <label>蛇屠箱的背包</label>
-    <description>蛇屠箱的背包，由高强度金属材料缝合而成。
-    很硬，超级硬。</description>
-    <graphicData>
-      <texPath>Things/AK_Agents/Weapon/Defender/CuoraW2</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-  </ThingDef>
+	<ThingDef ParentName="AK_WeaponBase_Defender">
+		<defName>AK_Weapon_CuoraTypeB</defName>
+		<label>蛇屠箱的背包</label>
+		<description>蛇屠箱的背包，由高强度金属材料缝合而成。\n很硬，超级硬。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Defender/CuoraW2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
 
-  <ThingDef ParentName="AK_WeaponBase_Defender">
-    <defName>AK_Weapon_EunectesTypeA</defName>
-    <label>轻型挂斧</label>
-    <description>森蚺的挂斧，看上去像建筑垃圾拼起来的。
-    森蚺虽然力气不如嘉伟尔大，但是打人也挺疼的。</description>
-    <graphicData>
-      <texPath>Things/AK_Agents/Weapon/Defender/EunectesW</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <tools Inherit = "false">
-      <li>
-        <label>斧砍</label>
-        <capacities>
-          <li>Cut</li>
-        </capacities>
-        <power>24</power>
-        <armorPenetration>0.4</armorPenetration>        <!--穿甲-->
-        <cooldownTime>1.6</cooldownTime>
-      </li>
-      <li>
-        <label>斧柄猛砸</label>
-        <capacities>
-          <li>Poke</li>
-        </capacities>
-        <power>28</power>
-        <armorPenetration>0.6</armorPenetration>        <!--穿甲-->
-        <cooldownTime>1.6</cooldownTime>
-      </li>
-    </tools>
-  </ThingDef>
+	<ThingDef ParentName="AK_WeaponBase_Defender">
+		<defName>AK_Weapon_EunectesTypeA</defName>
+		<label>轻型挂斧</label>
+		<description>森蚺的挂斧，看上去像建筑垃圾拼起来的。\n森蚺虽然力气不如嘉伟尔大，但是打人也挺疼的。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Defender/EunectesW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tools Inherit = "false">
+			<li>
+				<label>斧砍</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>24</power>
+				<armorPenetration>0.4</armorPenetration>
+				<!--穿甲-->
+				<cooldownTime>1.6</cooldownTime>
+			</li>
+			<li>
+				<label>斧柄猛砸</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>28</power>
+				<armorPenetration>0.6</armorPenetration>
+				<!--穿甲-->
+				<cooldownTime>1.6</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
 
-  <ThingDef ParentName="AK_WeaponBase_Defender">
-    <defName>AK_Weapon_EunectesTypeB</defName>
-    <label>森蚺的盾</label>
-    <description>森蚺的盾，看上去像是从哪拆下来的铁门
-    森蚺的身体素质虽然不如嘉伟尔好，但是也是挺扛揍的。</description>
-    <graphicData>
-      <texPath>Things/AK_Agents/Weapon/Defender/EunectesW2</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <tools Inherit = "false">
-      <li>
-        <label>盾击</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>20</power>
-        <cooldownTime>2.0</cooldownTime>
-      </li>
-    </tools>
-  </ThingDef>
+	<ThingDef ParentName="AK_WeaponBase_Defender">
+		<defName>AK_Weapon_EunectesTypeB</defName>
+		<label>森蚺的盾</label>
+		<description>森蚺的盾，看上去像是从哪拆下来的铁门\n森蚺的身体素质虽然不如嘉伟尔好，但是也是挺扛揍的。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Defender/EunectesW2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tools Inherit = "false">
+			<li>
+				<label>盾击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>20</power>
+				<cooldownTime>2.0</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
 
-  <ThingDef ParentName="AK_WeaponBase_Defender">
-    <defName>AK_Weapon_Hoshiguma</defName>
-    <label>般若</label>
-    <description>那面盾——般若，等到有一天你能让她亲自告诉你那面盾的来历......
-    你才算真正了解了她。</description>
-    <graphicData>
-      <texPath>Things/AK_Agents/Weapon/Defender/HoshigumaW</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <tools Inherit = "false">
-      <li>
-        <label>般若切割</label>
-        <capacities>
-          <li>Cut</li>
-        </capacities>
-        <power>21</power>
-        <cooldownTime>1.2</cooldownTime>
-      </li>
-	  <li>
-		  <label>盾击</label>
-		  <capacities>
-			<li>Blunt</li>
-		  </capacities>
-		  <power>18</power>
-		  <cooldownTime>2.0</cooldownTime>
-	  </li>
-    </tools>
-  </ThingDef>
+	<ThingDef ParentName="AK_WeaponBase_Defender">
+		<defName>AK_Weapon_Hoshiguma</defName>
+		<label>般若</label>
+		<description>那面盾——般若，等到有一天你能让她亲自告诉你那面盾的来历......\n你才算真正了解了她。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Defender/HoshigumaW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tools Inherit = "false">
+			<li>
+				<label>般若切割</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>21</power>
+				<cooldownTime>1.2</cooldownTime>
+			</li>
+			<li>
+				<label>盾击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>18</power>
+				<cooldownTime>2.0</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
 
-  <ThingDef ParentName="AK_WeaponBase_Defender">
-    <defName>AK_Weapon_Liskarm</defName>
-    <label>黑钢制式铳</label>
-    <description>黑钢常见的核铳，很多黑钢干员都很喜欢用。</description>
-    <graphicData>
-      <texPath>Things/AK_Agents/Weapon/Defender/LiskarmW</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <statBases>
-      <AccuracyTouch>0.25</AccuracyTouch>
-      <AccuracyShort>0.65</AccuracyShort>
-      <AccuracyMedium>0.85</AccuracyMedium>
-      <AccuracyLong>0.95</AccuracyLong>
-      <RangedWeapon_Cooldown>0.3</RangedWeapon_Cooldown>      <!--后摇-->
-    </statBases>
-    <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>AK_Bullet_Liskarm</defaultProjectile>
-        <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
-        <warmupTime>0.9</warmupTime>        <!--前摇-->
-        <range>14</range>
-        <targetParams>
-          <canTargetLocations>true</canTargetLocations>
-        </targetParams>
-        <soundCast>AK_Sound_Weapon_Liskarm</soundCast>
-        <soundCastTail>GunTail_Heavy</soundCastTail>
-        <muzzleFlashScale>9</muzzleFlashScale>
-        <noiseRadius>3</noiseRadius>
-      </li>
-    </verbs>
-  </ThingDef>
+	<ThingDef ParentName="AK_WeaponBase_Defender">
+		<defName>AK_Weapon_Liskarm</defName>
+		<label>黑钢制式铳</label>
+		<description>黑钢常见的核铳，很多黑钢干员都很喜欢用。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Defender/LiskarmW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.25</AccuracyTouch>
+			<AccuracyShort>0.65</AccuracyShort>
+			<AccuracyMedium>0.85</AccuracyMedium>
+			<AccuracyLong>0.95</AccuracyLong>
+			<RangedWeapon_Cooldown>0.3</RangedWeapon_Cooldown>
+			<!--后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_Liskarm</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>0.9</warmupTime>
+				<!--前摇-->
+				<range>14</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_Liskarm</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+	</ThingDef>
 
-  <ThingDef ParentName="AK_BulletBase_Bow">
-    <defName>AK_Bullet_Liskarm</defName>
-    <label>射击</label>
-    <graphicData>
-      <texPath>Things/Projectile/Bullet</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <thingClass>Bullet</thingClass>
-    <projectile>
-      <damageDef>Bullet</damageDef>      <!--伤害类型-->
-      <damageAmountBase>26</damageAmountBase>
-      <stoppingPower>3</stoppingPower>
-      <speed>45</speed>
-    </projectile>
-  </ThingDef>
+	<ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_Liskarm</defName>
+		<label>射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<!--伤害类型-->
+			<damageAmountBase>26</damageAmountBase>
+			<stoppingPower>3</stoppingPower>
+			<speed>45</speed>
+		</projectile>
+	</ThingDef>
 
-  <SoundDef ParentName="AK_SoundBase">
-    <defName>AK_Sound_Weapon_Liskarm</defName>
-    <subSounds Inherit="False">
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Operator/Defender/Liskarm/p_atk_pistol_n</clipPath>
-          </li>
-        </grains>
-      </li>
-    </subSounds>
-  </SoundDef>
+	<SoundDef ParentName="AK_SoundBase">
+		<defName>AK_Sound_Weapon_Liskarm</defName>
+		<subSounds Inherit="False">
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Defender/Liskarm/p_atk_pistol_n</clipPath>
+					</li>
+				</grains>
+			</li>
+		</subSounds>
+	</SoundDef>
 
-  <ThingDef ParentName="AK_WeaponBase_Defender">
-    <defName>AK_Weapon_LiskarmTypeB</defName>
-    <label>雷蛇的盾牌</label>
-    <description>盾牌外形的大型施术设备，只有雷蛇的源石技艺能驾驭。
-    雷蛇使用过后会极度疲乏，这是芙兰卡恶作剧的绝佳时机。</description>
-    <graphicData>
-      <texPath>Things/AK_Agents/Weapon/Defender/LiskarmW2</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <tools Inherit = "false">
-      <li>
-        <label>盾击</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>20</power>
-        <cooldownTime>1.2</cooldownTime>
-      </li>
-    </tools>
-  </ThingDef>
+	<ThingDef ParentName="AK_WeaponBase_Defender">
+		<defName>AK_Weapon_LiskarmTypeB</defName>
+		<label>雷蛇的盾牌</label>
+		<description>盾牌外形的大型施术设备，只有雷蛇的源石技艺能驾驭。\n雷蛇使用过后会极度疲乏，这是芙兰卡恶作剧的绝佳时机。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Defender/LiskarmW2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tools Inherit = "false">
+			<li>
+				<label>盾击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>20</power>
+				<cooldownTime>1.2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
 
-  <ThingDef ParentName="AK_WeaponBase_Defender">
-    <defName>AK_Weapon_Mudrock</defName>
-    <label>岩崩锤</label>
-    <description>泥岩所使用的锤子，沾染了泥土的气息。
-    当她挥动这柄锤子时，大地都为之颤动。</description>
-    <graphicData>
-      <texPath>Things/AK_Agents/Weapon/Defender/MudrockW</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <tools Inherit = "false">
-      <li>
-        <label>锤击</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>20</power>
-        <cooldownTime>1.6</cooldownTime>
-      </li>
-      <li>
-        <label>轰击</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>38</power>
-        <cooldownTime>3.5</cooldownTime>
-      </li>
-    </tools>
-  </ThingDef>
+	<ThingDef ParentName="AK_WeaponBase_Defender">
+		<defName>AK_Weapon_Mudrock</defName>
+		<label>岩崩锤</label>
+		<description>泥岩所使用的锤子，沾染了泥土的气息。\n当她挥动这柄锤子时，大地都为之颤动。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Defender/MudrockW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tools Inherit = "false">
+			<li>
+				<label>锤击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>20</power>
+				<cooldownTime>1.6</cooldownTime>
+			</li>
+			<li>
+				<label>轰击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>38</power>
+				<cooldownTime>3.5</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
 
-  <ThingDef ParentName="AK_WeaponBase_Defender">
-    <defName>AK_Weapon_NianTypeA</defName>
-    <label>干明可鉴</label>
-    <description>“生杀之机，焉能拱手相让？”</description>
-    <graphicData>
-      <texPath>Things/AK_Agents/Weapon/Defender/NianW</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <tools Inherit = "false">
-      <li>
-        <label>刀劈</label>
-        <capacities>
-          <li>Cut</li>
-        </capacities>
-        <power>21</power>
-        <cooldownTime>1.2</cooldownTime>
-      </li>
-    </tools>
-  </ThingDef>
+	<ThingDef ParentName="AK_WeaponBase_Defender">
+		<defName>AK_Weapon_NianTypeA</defName>
+		<label>干明可鉴</label>
+		<description>“生杀之机，焉能拱手相让？”</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Defender/NianW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tools Inherit = "false">
+			<li>
+				<label>刀劈</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>21</power>
+				<cooldownTime>1.2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
 
-  <ThingDef ParentName="AK_WeaponBase_Defender">
-    <defName>AK_Weapon_NianTypeB</defName>
-    <label>积甲成山</label>
-    <description>“明王圣帝，谁能去兵哉？”</description>
-    <graphicData>
-      <texPath>Things/AK_Agents/Weapon/Defender/NianW2</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <tools Inherit = "false">
-      <li>
-        <label>盾击</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>17</power>
-        <cooldownTime>2.0</cooldownTime>
-      </li>
-    </tools>
-  </ThingDef>
+	<ThingDef ParentName="AK_WeaponBase_Defender">
+		<defName>AK_Weapon_NianTypeB</defName>
+		<label>积甲成山</label>
+		<description>“明王圣帝，谁能去兵哉？”</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Defender/NianW2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tools Inherit = "false">
+			<li>
+				<label>盾击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>17</power>
+				<cooldownTime>2.0</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
 
-  <ThingDef ParentName="AK_WeaponBase_Defender">
-    <defName>AK_Weapon_Saria</defName>
-    <label>塞雷娅的盾</label>
-    <description>塞雷娅的盾形法杖，覆盖上珐琅质后坚硬无比。
-    明明能用拳击却偏偏要用盾，没有人知道为何。</description>
-    <graphicData>
-      <texPath>Things/AK_Agents/Weapon/Defender/SariaW</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <tools Inherit = "false">
-      <li>
-        <label>盾击</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>16</power>
-        <cooldownTime>1.2</cooldownTime>
-      </li>
-    </tools>
-  </ThingDef>
+	<ThingDef ParentName="AK_WeaponBase_Defender">
+		<defName>AK_Weapon_Saria</defName>
+		<label>塞雷娅的盾</label>
+		<description>塞雷娅的盾形法杖，覆盖上珐琅质后坚硬无比。\n明明能用拳击却偏偏要用盾，没有人知道为何。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Defender/SariaW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tools Inherit = "false">
+			<li>
+				<label>盾击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>1.2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
 
-  <ThingDef ParentName="AK_WeaponBase_Defender">
-    <defName>AK_Weapon_SariaTypeB</defName>
-    <label>塞雷娅的医疗铳</label>
-    <description>莱茵生命通用的医疗铳，配合治疗法术能发挥更大的效果。
-    “…提高个体细胞全能性，治愈一切伤痛不适…”——塞雷娅桌上的说明手册</description>
-    <graphicData>
-      <texPath>Things/AK_Agents/Weapon/Defender/SariaW2</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-  </ThingDef>
+	<ThingDef ParentName="AK_WeaponBase_Defender">
+		<defName>AK_Weapon_SariaTypeB</defName>
+		<label>塞雷娅的医疗铳</label>
+		<description>莱茵生命通用的医疗铳，配合治疗法术能发挥更大的效果。\n“…提高个体细胞全能性，治愈一切伤痛不适…”——塞雷娅桌上的说明手册</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Defender/SariaW2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
 
-  <ThingDef ParentName="AK_WeaponBase_Defender">
-    <defName>AK_Weapon_Blemishine</defName>
-    <label>瑕光的剑</label>
-    <description>耀骑士曾经使用的剑，如今传到了小耀骑士手里。
-    剑中闪耀的不只是源石技艺产生的光芒，还有闪光的骑士精神。</description>
-    <graphicData>
-      <texPath>Things/AK_Agents/Weapon/Defender/BlemishineW</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <tools Inherit = "false">
-      <li>
-        <label>剑捅</label>
-        <capacities>
-          <li>Stab</li>
-        </capacities>
-        <power>20</power>
-        <cooldownTime>1.2</cooldownTime>
-      </li>
-      <li>
-        <label>剑捅</label>
-        <capacities>
-          <li>Cut</li>
-        </capacities>
-        <power>18</power>
-        <cooldownTime>1.8</cooldownTime>
-      </li>
-      <li>
-        <label>剑捅</label>
-        <capacities>
-          <li>Poke</li>
-        </capacities>
-        <power>18</power>
-        <cooldownTime>1.2</cooldownTime>
-      </li>
-    </tools>
-  </ThingDef>
+	<ThingDef ParentName="AK_WeaponBase_Defender">
+		<defName>AK_Weapon_Blemishine</defName>
+		<label>瑕光的剑</label>
+		<description>耀骑士曾经使用的剑，如今传到了小耀骑士手里。\n剑中闪耀的不只是源石技艺产生的光芒，还有闪光的骑士精神。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Defender/BlemishineW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tools Inherit = "false">
+			<li>
+				<label>剑捅</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>20</power>
+				<cooldownTime>1.2</cooldownTime>
+			</li>
+			<li>
+				<label>剑捅</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>18</power>
+				<cooldownTime>1.8</cooldownTime>
+			</li>
+			<li>
+				<label>剑捅</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>18</power>
+				<cooldownTime>1.2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
 
-  <ThingDef ParentName="AK_WeaponBase_Defender">
-    <defName>AK_Weapon_BlemishineTypeB</defName>
-    <label>瑕光的盾</label>
-    <description>耀骑士曾经使用的盾，如今传到了小耀骑士手里。
-    盾所守卫的不止是家族荣誉，还有那被人遗忘的荣耀与光辉。</description>
-    <graphicData>
-      <texPath>Things/AK_Agents/Weapon/Defender/BlemishineW2</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <tools Inherit = "false">
-      <li>
-        <label>盾击</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>14</power>
-        <cooldownTime>2.2</cooldownTime>
-      </li>
-    </tools>
-  </ThingDef>
+	<ThingDef ParentName="AK_WeaponBase_Defender">
+		<defName>AK_Weapon_BlemishineTypeB</defName>
+		<label>瑕光的盾</label>
+		<description>耀骑士曾经使用的盾，如今传到了小耀骑士手里。\n盾所守卫的不止是家族荣誉，还有那被人遗忘的荣耀与光辉。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Defender/BlemishineW2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tools Inherit = "false">
+			<li>
+				<label>盾击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>2.2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
 
-  <ThingDef ParentName="AK_WeaponBase_Defender">
-    <defName>AK_Weapon_Croissant</defName>
-    <label>可颂的磁暴锤</label>
-    <description>可颂用的大锤，和她少女的身姿很不匹配
-    可颂很喜欢花钱买新装备，无论是看到什么都想买下来。于是她陷入了无止境的购物漩涡。</description>
-    <graphicData>
-      <texPath>Things/AK_Agents/Weapon/Defender/CroissantW</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <tools Inherit = "false">
-      <li>
-        <label>锤击</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>18</power>
-        <cooldownTime>1.2</cooldownTime>
-      </li>
-      <li>
-        <label>轰击</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>28</power>
-        <cooldownTime>3.0</cooldownTime>
-      </li>
-    </tools>
-  </ThingDef>
+	<ThingDef ParentName="AK_WeaponBase_Defender">
+		<defName>AK_Weapon_Croissant</defName>
+		<label>可颂的磁暴锤</label>
+		<description>可颂用的大锤，和她少女的身姿很不匹配\n可颂很喜欢花钱买新装备，无论是看到什么都想买下来。于是她陷入了无止境的购物漩涡。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Defender/CroissantW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tools Inherit = "false">
+			<li>
+				<label>锤击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>18</power>
+				<cooldownTime>1.2</cooldownTime>
+			</li>
+			<li>
+				<label>轰击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>28</power>
+				<cooldownTime>3.0</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
 
-  <ThingDef ParentName="AK_WeaponBase_Defender">
-    <defName>AK_Weapon_CroissantTypeB</defName>
-    <label>可颂的盾牌</label>
-    <description>可颂用的盾牌，和她少女的身姿很不匹配
-    可颂很喜欢花钱买新装备，无论是看到什么都想买下来。于是她陷入了无止境的购物漩涡。</description>
-    <graphicData>
-      <texPath>Things/AK_Agents/Weapon/Defender/CroissantW2</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-  </ThingDef>
+	<ThingDef ParentName="AK_WeaponBase_Defender">
+		<defName>AK_Weapon_CroissantTypeB</defName>
+		<label>可颂的盾牌</label>
+		<description>可颂用的盾牌，和她少女的身姿很不匹配\n可颂很喜欢花钱买新装备，无论是看到什么都想买下来。于是她陷入了无止境的购物漩涡。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Defender/CroissantW2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
 
-  <ThingDef ParentName="AK_WeaponBase_Defender">
-    <defName>AK_Weapon_Aurora</defName>
-    <label>极光的武器</label>
-    <description>极光亲手打造的武器，将施法装置与盾牌巧妙的结合在了一起。
-    守卫与杀伤都很杰出的利器。</description>
-    <graphicData>
-      <texPath>Things/AK_Agents/Weapon/Defender/AuroraW</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <tools Inherit = "false">
-      <li>
-        <label>盾击</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>22</power>
-        <cooldownTime>1.6</cooldownTime>
-      </li>
-      <li>
-        <label>盾尖猛击</label>
-        <capacities>
-          <li>Stab</li>
-        </capacities>
-        <power>26</power>
-        <armorPenetration>0.8</armorPenetration>        <!--穿甲-->
-        <cooldownTime>2.6</cooldownTime>
-      </li>
-      <li>
-        <label>拳击</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>37</power>
-        <cooldownTime>1.0</cooldownTime>
-      </li>
-    </tools>
-  </ThingDef>
+	<ThingDef ParentName="AK_WeaponBase_Defender">
+		<defName>AK_Weapon_Aurora</defName>
+		<label>极光的武器</label>
+		<description>极光亲手打造的武器，将施法装置与盾牌巧妙的结合在了一起。\n守卫与杀伤都很杰出的利器。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Defender/AuroraW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tools Inherit = "false">
+			<li>
+				<label>盾击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>22</power>
+				<cooldownTime>1.6</cooldownTime>
+			</li>
+			<li>
+				<label>盾尖猛击</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>26</power>
+				<armorPenetration>0.8</armorPenetration>
+				<!--穿甲-->
+				<cooldownTime>2.6</cooldownTime>
+			</li>
+			<li>
+				<label>拳击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>37</power>
+				<cooldownTime>1.0</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
 
-  <ThingDef ParentName="AK_WeaponBase_Defender">
-    <defName>AK_Weapon_Ashlock</defName>
-    <label>灰豪的火炮</label>
-    <description>灰豪所使用的火炮，能够对敌人造成巨大的杀伤
-    格蕾纳蒂的祖辈们依靠这种武器为家族挣得了未来，但现在的卡利斯卡子弟已经鲜少有人熟悉这项技术了。</description>
-    <graphicData>
-      <texPath>Things/AK_Agents/Weapon/Defender/AshlockW</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <statBases>
-      <AccuracyTouch>0.25</AccuracyTouch>
-      <AccuracyShort>0.65</AccuracyShort>
-      <AccuracyMedium>0.85</AccuracyMedium>
-      <AccuracyLong>0.95</AccuracyLong>
-      <RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>      <!--后摇-->
-    </statBases>
-    <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>AK_Bullet_Ashlock</defaultProjectile>
-        <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
-        <warmupTime>2.1</warmupTime>        <!--前摇-->
-        <minRange>10</minRange>
-        <range>18</range>
-        <targetParams>
-          <canTargetLocations>true</canTargetLocations>
-        </targetParams>
-        <soundCast>AK_Sound_Weapon_Ashlock</soundCast>
-        <soundCastTail>GunTail_Heavy</soundCastTail>
-        <muzzleFlashScale>9</muzzleFlashScale>
-        <noiseRadius>3</noiseRadius>
-      </li>
-    </verbs>
-  </ThingDef>
+	<ThingDef ParentName="AK_WeaponBase_Defender">
+		<defName>AK_Weapon_Ashlock</defName>
+		<label>灰豪的火炮</label>
+		<equippedAngleOffset>45</equippedAngleOffset>
+		<description>灰豪所使用的火炮，能够对敌人造成巨大的杀伤\n格蕾纳蒂的祖辈们依靠这种武器为家族挣得了未来，但现在的卡利斯卡子弟已经鲜少有人熟悉这项技术了。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Defender/AshlockW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.25</AccuracyTouch>
+			<AccuracyShort>0.65</AccuracyShort>
+			<AccuracyMedium>0.85</AccuracyMedium>
+			<AccuracyLong>0.95</AccuracyLong>
+			<RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
+			<!--后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_Ashlock</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>2.1</warmupTime>
+				<!--前摇-->
+				<minRange>10</minRange>
+				<range>18</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_Ashlock</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+	</ThingDef>
 
-  <ThingDef ParentName="AK_BulletBase_Bow">
-    <defName>AK_Bullet_Ashlock</defName>
-    <label>火炮射击</label>
-    <graphicData>
-      <texPath>Things/Projectile/Grenade</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <thingClass>Bullet</thingClass>
-    <projectile>
-      <damageDef>Bullet</damageDef>      <!--伤害类型-->
-      <damageAmountBase>26</damageAmountBase>
-      <stoppingPower>5</stoppingPower>
-      <speed>60</speed>
-      <soundExplode>ThumpCannon_Impact</soundExplode>      <!--爆炸音效-->
-    </projectile>
-  </ThingDef>
+	<ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_Ashlock</defName>
+		<label>火炮射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/Grenade</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<!--伤害类型-->
+			<damageAmountBase>26</damageAmountBase>
+			<stoppingPower>5</stoppingPower>
+			<speed>60</speed>
+			<soundExplode>ThumpCannon_Impact</soundExplode>
+			<!--爆炸音效-->
+		</projectile>
+	</ThingDef>
 
-  <SoundDef ParentName="AK_SoundBase">
-    <defName>AK_Sound_Weapon_Ashlock</defName>
-    <subSounds Inherit="False">
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Operator/GeneralSFX/b_char_atkboost</clipPath>
-          </li>
-        </grains>
-      </li>
-    </subSounds>
-  </SoundDef>
+	<SoundDef ParentName="AK_SoundBase">
+		<defName>AK_Sound_Weapon_Ashlock</defName>
+		<subSounds Inherit="False">
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/GeneralSFX/b_char_atkboost</clipPath>
+					</li>
+				</grains>
+			</li>
+		</subSounds>
+	</SoundDef>
 
-  <ThingDef ParentName="AK_WeaponBase_Defender">
-    <defName>AK_Weapon_AshlockTypeB</defName>
-    <label>灰豪的重盾</label>
-    <description>灰豪使用的盾牌，能够阻挡住所有的敌人。
-    她的意志在经受磨难后比手中的盾更加坚不可摧。</description>
-    <graphicData>
-      <texPath>Things/AK_Agents/Weapon/Defender/AshlockW2</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <tools Inherit = "false">
-      <li>
-        <label>盾击</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>20</power>
-        <cooldownTime>2.8</cooldownTime>
-      </li>
-    </tools>
-  </ThingDef>
+	<ThingDef ParentName="AK_WeaponBase_Defender">
+		<defName>AK_Weapon_AshlockTypeB</defName>
+		<label>灰豪的重盾</label>
+		<description>灰豪使用的盾牌，能够阻挡住所有的敌人。\n她的意志在经受磨难后比手中的盾更加坚不可摧。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Defender/AshlockW2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tools Inherit = "false">
+			<li>
+				<label>盾击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>20</power>
+				<cooldownTime>2.8</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
 
-  <ThingDef ParentName="AK_WeaponBase_Defender">
-    <defName>AK_Weapon_Horn</defName>
-    <label>号角的火炮</label>
-    <description>炮弹迅疾如风暴</description>
-    <graphicData>
-      <texPath>Things/AK_Agents/Weapon/Defender/HornW</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <statBases>
-      <AccuracyTouch>0.25</AccuracyTouch>
-      <AccuracyShort>0.65</AccuracyShort>
-      <AccuracyMedium>0.85</AccuracyMedium>
-      <AccuracyLong>0.95</AccuracyLong>
-      <RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>      <!--后摇-->
-    </statBases>
-    <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>AK_Bullet_Horn</defaultProjectile>
-        <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
-        <warmupTime>2.1</warmupTime>        <!--前摇-->
-        <minRange>12</minRange>
-        <range>20</range>
-        <targetParams>
-          <canTargetLocations>true</canTargetLocations>
-        </targetParams>
-        <soundCast>AK_Sound_Weapon_Horn</soundCast>
-        <soundCastTail>GunTail_Heavy</soundCastTail>
-        <muzzleFlashScale>9</muzzleFlashScale>
-        <noiseRadius>3</noiseRadius>
-      </li>
-    </verbs>
-    <tools Inherit = "false">
-      <li>
-        <label>轰击</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>40</power>
-        <cooldownTime>3.5</cooldownTime>
-      </li>
-    </tools>
-  </ThingDef>
+	<ThingDef ParentName="AK_WeaponBase_Defender">
+		<defName>AK_Weapon_Horn</defName>
+		<label>号角的火炮</label>
+		<description>炮弹迅疾如风暴</description>
+		<equippedAngleOffset>-45</equippedAngleOffset>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Defender/HornW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.25</AccuracyTouch>
+			<AccuracyShort>0.65</AccuracyShort>
+			<AccuracyMedium>0.85</AccuracyMedium>
+			<AccuracyLong>0.95</AccuracyLong>
+			<RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
+			<!--后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_Horn</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>2.1</warmupTime>
+				<!--前摇-->
+				<minRange>12</minRange>
+				<range>20</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_Horn</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<tools Inherit = "false">
+			<li>
+				<label>轰击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>40</power>
+				<cooldownTime>3.5</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
 
-  <ThingDef ParentName="AK_BulletBase_Bow">
-    <defName>AK_Bullet_Horn</defName>
-    <label>火炮射击</label>
-    <graphicData>
-      <texPath>Things/Projectile/Grenade</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <thingClass>Bullet</thingClass>
-    <projectile>
-      <damageDef>Bullet</damageDef>      <!--伤害类型-->
-      <damageAmountBase>26</damageAmountBase>
-      <stoppingPower>5</stoppingPower>
-      <speed>60</speed>
-      <soundExplode>ThumpCannon_Impact</soundExplode>      <!--爆炸音效-->
-    </projectile>
-  </ThingDef>
+	<ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_Horn</defName>
+		<label>火炮射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/Grenade</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<!--伤害类型-->
+			<damageAmountBase>26</damageAmountBase>
+			<stoppingPower>5</stoppingPower>
+			<speed>60</speed>
+			<soundExplode>ThumpCannon_Impact</soundExplode>
+			<!--爆炸音效-->
+		</projectile>
+	</ThingDef>
 
-  <SoundDef ParentName="AK_SoundBase">
-    <defName>AK_Sound_Weapon_Horn</defName>
-    <subSounds Inherit="False">
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Operator/GeneralSFX/b_char_atkboost</clipPath>
-          </li>
-        </grains>
-      </li>
-    </subSounds>
-  </SoundDef>
+	<SoundDef ParentName="AK_SoundBase">
+		<defName>AK_Sound_Weapon_Horn</defName>
+		<subSounds Inherit="False">
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/GeneralSFX/b_char_atkboost</clipPath>
+					</li>
+				</grains>
+			</li>
+		</subSounds>
+	</SoundDef>
 
-  <ThingDef ParentName="AK_WeaponBase_Defender">
-    <defName>AK_Weapon_HornTypeB</defName>
-    <label>号角的盾牌</label>
-    <description>盾牌坚硬似铁壁</description>
-    <graphicData>
-      <texPath>Things/AK_Agents/Weapon/Defender/HornW2</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <tools Inherit = "false">
-      <li>
-        <label>重击</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>24</power>
-        <cooldownTime>2.8</cooldownTime>
-      </li>
-    </tools>
-  </ThingDef>
+	<ThingDef ParentName="AK_WeaponBase_Defender">
+		<defName>AK_Weapon_HornTypeB</defName>
+		<label>号角的盾牌</label>
+		<description>盾牌坚硬似铁壁</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Defender/HornW2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tools Inherit = "false">
+			<li>
+				<label>重击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>24</power>
+				<cooldownTime>2.8</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
 
-  <ThingDef ParentName="AK_WeaponBase_Defender">
-    <defName>AK_Weapon_Gummy</defName>
-    <label>平底锅</label>
-    <description>家用的烹调工具</description>
-    <graphicData>
-      <texPath>Things/AK_Agents/Weapon/Defender/GummyW</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <tools Inherit = "false">
-      <li>
-        <label>拍击</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>14</power>
-        <cooldownTime>1.6</cooldownTime>
-      </li>
-    </tools>
-  </ThingDef>
+	<ThingDef ParentName="AK_WeaponBase_Defender">
+		<defName>AK_Weapon_Gummy</defName>
+		<label>平底锅</label>
+		<description>家用的烹调工具</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Defender/GummyW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tools Inherit = "false">
+			<li>
+				<label>拍击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>1.6</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
 
-  <ThingDef ParentName="AK_WeaponBase_Defender">
-    <defName>AK_Weapon_GummyTypeB</defName>
-    <label>金库大门</label>
-    <description>很坚固厚重的大门，可能是从某处的金库上拆下来的。</description>
-    <graphicData>
-      <texPath>Things/AK_Agents/Weapon/Defender/GummyW2</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-  </ThingDef>
+	<ThingDef ParentName="AK_WeaponBase_Defender">
+		<defName>AK_Weapon_GummyTypeB</defName>
+		<label>金库大门</label>
+		<description>很坚固厚重的大门，可能是从某处的金库上拆下来的。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Defender/GummyW2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
 
-  <ThingDef ParentName="AK_WeaponBase_Defender">
-    <defName>AK_Weapon_Matterhorn</defName>
-    <label>谢拉格弯刀</label>
-    <description>一把谢拉格样式的弯刀，在哥伦比亚经常播出的野外求生节目很常见。
-    不论是做饭，求生还是用来战斗都很合适。</description>
-    <graphicData>
-      <texPath>Things/AK_Agents/Weapon/Defender/MatterhornW</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <tools Inherit = "false">
-      <li>
-        <label>刀捅</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>20</power>
-        <cooldownTime>1.2</cooldownTime>
-      </li>
-      <li>
-        <label>刀劈砍</label>
-        <capacities>
-          <li>Cut</li>
-        </capacities>
-        <power>22</power>
-        <cooldownTime>1.8</cooldownTime>
-      </li>
-      <li>
-        <label>刀刺</label>
-        <capacities>
-          <li>Poke</li>
-        </capacities>
-        <power>18</power>
-        <cooldownTime>1.0</cooldownTime>
-      </li>
-    </tools>
-  </ThingDef>
+	<ThingDef ParentName="AK_WeaponBase_Defender">
+		<defName>AK_Weapon_Matterhorn</defName>
+		<label>谢拉格弯刀</label>
+		<description>一把谢拉格样式的弯刀，在哥伦比亚经常播出的野外求生节目很常见。\n不论是做饭，求生还是用来战斗都很合适。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Defender/MatterhornW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tools Inherit = "false">
+			<li>
+				<label>刀捅</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>20</power>
+				<cooldownTime>1.2</cooldownTime>
+			</li>
+			<li>
+				<label>刀劈砍</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>22</power>
+				<cooldownTime>1.8</cooldownTime>
+			</li>
+			<li>
+				<label>刀刺</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>18</power>
+				<cooldownTime>1.0</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
 
-  <ThingDef ParentName="AK_WeaponBase_Defender">
-    <defName>AK_Weapon_MatterhornTypeB</defName>
-    <label>谢拉格重盾</label>
-    <description>很沉重的盾，一般人举都很难举起来。
-    伴随着角峰愈加频繁的踏入战场，他的盾需要维修的次数的也愈加频繁，他就是这么与火神认识的。</description>
-    <graphicData>
-      <texPath>Things/AK_Agents/Weapon/Defender/MatterhornW2</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <tools Inherit = "false">
-      <li>
-        <label>盾击</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>14</power>
-        <cooldownTime>2.2</cooldownTime>
-      </li>
-    </tools>
-  </ThingDef>
+	<ThingDef ParentName="AK_WeaponBase_Defender">
+		<defName>AK_Weapon_MatterhornTypeB</defName>
+		<label>谢拉格重盾</label>
+		<description>很沉重的盾，一般人举都很难举起来。\n伴随着角峰愈加频繁的踏入战场，他的盾需要维修的次数的也愈加频繁，他就是这么与火神认识的。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Defender/MatterhornW2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tools Inherit = "false">
+			<li>
+				<label>盾击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>2.2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
 
-  <ThingDef ParentName="AK_WeaponBase_Defender">
-    <defName>AK_Weapon_Vulcan</defName>
-    <label>火神的锤子</label>
-    <description>火神的锤头，顶端被改成了适合战斗的样子</description>
-    <graphicData>
-      <texPath>Things/AK_Agents/Weapon/Defender/VulcanW</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <tools Inherit = "false">
-      <li>
-        <label>盾击</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>20</power>
-        <cooldownTime>1.6</cooldownTime>
-      </li>
-      <li>
-        <label>轰击</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>30</power>
-        <cooldownTime>3.5</cooldownTime>
-      </li>
-      <li>
-        <label>踢击</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>18</power>
-        <cooldownTime>1.6</cooldownTime>
-      </li>
-    </tools>
-  </ThingDef>
+	<ThingDef ParentName="AK_WeaponBase_Defender">
+		<defName>AK_Weapon_Vulcan</defName>
+		<label>火神的锤子</label>
+		<description>火神的锤头，顶端被改成了适合战斗的样子</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Defender/VulcanW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tools Inherit = "false">
+			<li>
+				<label>盾击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>20</power>
+				<cooldownTime>1.6</cooldownTime>
+			</li>
+			<li>
+				<label>轰击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>30</power>
+				<cooldownTime>3.5</cooldownTime>
+			</li>
+			<li>
+				<label>踢击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>18</power>
+				<cooldownTime>1.6</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
 
-  <ThingDef ParentName="AK_WeaponBase_Defender">
-    <defName>AK_Weapon_VulcanTypeB</defName>
-    <label>火神的盾</label>
-    <description>火神的盾，在千锤百炼后坚不可摧。</description>
-    <graphicData>
-      <texPath>Things/AK_Agents/Weapon/Defender/VulcanW2</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-  </ThingDef>
+	<ThingDef ParentName="AK_WeaponBase_Defender">
+		<defName>AK_Weapon_VulcanTypeB</defName>
+		<label>火神的盾</label>
+		<description>火神的盾，在千锤百炼后坚不可摧。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Defender/VulcanW2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
 
-  <ThingDef ParentName="AK_WeaponBase_Defender">
-    <defName>AK_Weapon_Nearl</defName>
-    <label>临光的战锤</label>
-    <description>临光的战锤，布满了磨损的痕迹。
-      从未有人见过临光双手持锤的样子。</description>
-    <graphicData>
-      <texPath>Things/AK_Agents/Weapon/Defender/NearlW</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <tools Inherit = "false">
-      <li>
-        <label>锤击</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>24</power>
-        <cooldownTime>1.8</cooldownTime>
-      </li>
-    </tools>
-  </ThingDef>
+	<ThingDef ParentName="AK_WeaponBase_Defender">
+		<defName>AK_Weapon_Nearl</defName>
+		<label>临光的战锤</label>
+		<description>临光的战锤，布满了磨损的痕迹。\n从未有人见过临光双手持锤的样子。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Defender/NearlW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tools Inherit = "false">
+			<li>
+				<label>锤击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>24</power>
+				<cooldownTime>1.8</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
 
-  <ThingDef ParentName="AK_WeaponBase_Defender">
-    <defName>AK_Weapon_NearlTypeB</defName>
-    <label>临光的盾牌</label>
-    <description>临光的盾牌，布满了磨损的痕迹。
-      从未有人见过临光放下盾牌的样子。</description>
-    <graphicData>
-      <texPath>Things/AK_Agents/Weapon/Defender/NearlW2</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <tools Inherit = "false">
-      <li>
-        <label>盾击</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>16</power>
-        <cooldownTime>1.6</cooldownTime>
-      </li>
-    </tools>
-  </ThingDef>
+	<ThingDef ParentName="AK_WeaponBase_Defender">
+		<defName>AK_Weapon_NearlTypeB</defName>
+		<label>临光的盾牌</label>
+		<description>临光的盾牌，布满了磨损的痕迹。\n从未有人见过临光放下盾牌的样子。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Defender/NearlW2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tools Inherit = "false">
+			<li>
+				<label>盾击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>1.6</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
 
-  <ThingDef ParentName="AK_WeaponBase_Defender">
-    <defName>AK_Weapon_Penance</defName>
-    <label>斥罪的刺锤</label>
-    <description>布满了荆棘的锤子，锐气逼人。
-    越能感受到拿起它时之轻，越能感受到敲下它时之重。</description>
-    <graphicData>
-      <texPath>Things/AK_Agents/Weapon/Defender/PenanceW</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <tools Inherit = "false">
-      <li>
-        <label>刺锤猛砸</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>28</power>
-        <cooldownTime>1.6</cooldownTime>
-      </li>
-      <li>
-        <label>刺锤重击</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>35</power>
-        <cooldownTime>2.8</cooldownTime>
-      </li>
-    </tools>
-  </ThingDef>
+	<ThingDef ParentName="AK_WeaponBase_Defender">
+		<defName>AK_Weapon_Penance</defName>
+		<label>斥罪的刺锤</label>
+		<description>布满了荆棘的锤子，锐气逼人。\n越能感受到拿起它时之轻，越能感受到敲下它时之重。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Defender/PenanceW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tools Inherit = "false">
+			<li>
+				<label>刺锤猛砸</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>28</power>
+				<cooldownTime>1.6</cooldownTime>
+			</li>
+			<li>
+				<label>刺锤重击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>35</power>
+				<cooldownTime>2.8</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
 
 </Defs>
