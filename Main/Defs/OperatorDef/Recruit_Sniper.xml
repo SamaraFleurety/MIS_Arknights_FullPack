@@ -384,6 +384,8 @@ Exusiai, employee of Penguin Logistics, will clear out everything in the way usi
 		<age>20</age>
 		<childHood>AK_BackStory_Exusiai_Child</childHood>
 		<adultHood>AK_BackStory_Exusiai_Adult</adultHood>
+		<standOffset>(-100,150)</standOffset>
+		<standRatio>3</standRatio>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Sniper">
@@ -575,6 +577,8 @@ Jessica, Sniper Operator of Blacksteel, will provide effective attack power for 
 		</traits>
 		<age>20</age>
 		<adultHood>AK_BackStory_Jessica_Adult</adultHood>
+		<standOffset>(-50,150)</standOffset>
+		<standRatio>3</standRatio>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Sniper">
@@ -1223,6 +1227,8 @@ Rosmontis, Rhodes Island Elite Operator, pushes open your office door by hand.</
 		</traits>
 		<age>20</age>
 		<adultHood>AK_BackStory_Meteorite_Adult</adultHood>
+		<standOffset>(300,-100)</standOffset>
+		<standRatio>4</standRatio>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Sniper">
@@ -1318,6 +1324,8 @@ Rosmontis, Rhodes Island Elite Operator, pushes open your office door by hand.</
 		</traits>
 		<age>20</age>
 		<adultHood>AK_BackStory_Bluepoison_Adult</adultHood>
+		<standOffset>(-100,150)</standOffset>
+		<standRatio>3</standRatio>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Sniper">
