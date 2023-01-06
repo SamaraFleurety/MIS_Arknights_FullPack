@@ -198,7 +198,7 @@
     <degreeDatas>
       <li>
         <label>特种干员</label>
-        <description>空降，支援，斩首，暗杀是{PAWN_pronoun}的职责.</description>
+        <description>空降，支援，斩首，暗杀是{PAWN_possessive}职责.</description>
 		<statOffsets>
           <MoveSpeed>0.75</MoveSpeed>
 		  <MeleeDodgeChance>5.0</MeleeDodgeChance>
@@ -238,7 +238,7 @@
     <degreeDatas>
       <li>
         <label>重装干员</label>
-        <description>{PAWN_nameDef}有着最好的身体素质，保护是{PAWN_pronoun}的座右铭.</description>
+        <description>{PAWN_nameDef}有着最好的身体素质，保护是{PAWN_possessive}座右铭.</description>
 		<statOffsets>
 		  <MeleeDodgeChance>2.0</MeleeDodgeChance>
 		  <PainShockThreshold>0.75</PainShockThreshold>

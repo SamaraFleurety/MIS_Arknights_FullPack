@@ -12,7 +12,7 @@
 		<degreeDatas>
 			<li>
 				<label>钢铁意志</label>
-				<description>塞雷娅的意志宛如钢铁一般坚韧而又不可撼动，没有任何东西能够动摇她的思想。
+				<description>{PAWN_nameDef}的意志宛如钢铁一般坚韧而又不可撼动，没有任何东西能够动摇{PAWN_possessive}思想。
 风暴中，唯保守者屹立不倒。</description>
 				<statOffsets>
 					<PsychicSensitivity>-0.8</PsychicSensitivity>
@@ -31,8 +31,8 @@
 		<degreeDatas>
 			<li>
 				<label>沃土磐石之友</label>
-				<description>或许是特殊的源石技艺，泥岩对于泥土有着一种奇妙的情感。
-她和泥土之间的关系可能比她和大部分人都要亲密得多。</description>
+				<description>或许是特殊的源石技艺，{PAWN_nameDef}对于泥土有着一种奇妙的情感。
+{PAWN_pronoun}和泥土之间的关系可能比{PAWN_pronoun}和大部分人都要亲密得多。</description>
 				<statOffsets>
 					<PsychicSensitivity>-0.35</PsychicSensitivity>
 					<MentalBreakThreshold>-0.35</MentalBreakThreshold>
@@ -72,7 +72,7 @@
 		<degreeDatas>
 			<li>
 				<label>肆无忌惮</label>
-				<description>"'没有干扰他人工作的习惯'？她劝诱别人上班打麻将，有没有人阻止一下？"</description>
+				<description>"'没有干扰他人工作的习惯'？{PAWN_pronoun}劝诱别人上班打麻将，有没有人阻止一下？"</description>
 			</li>
 		</degreeDatas>
 	</TraitDef>
@@ -87,9 +87,9 @@
 			<li>
 				<label>冷静的鬼</label>
 				<description>
-					在好战方面，星熊和其他鬼没有区别，在战场上的她比任何人都要骁勇善战。
-但星熊有着大部分鬼族欠缺的一项特质——冷静。
-从她的言行举止中，能感受到思考，在她的骁勇善战中，能感受到克制。
+					在好战方面，{PAWN_nameDef}和其他鬼没有区别，在战场上的{PAWN_pronoun}比任何人都要骁勇善战。
+但{PAWN_pronoun}有着大部分鬼族欠缺的一项特质——冷静。
+从{PAWN_possessive}言行举止中，能感受到思考，在{PAWN_possessive}骁勇善战中，能感受到克制。
 				</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.4</MentalBreakThreshold>
@@ -107,8 +107,8 @@
 		<degreeDatas>
 			<li>
 				<label>都市少女</label>
-				<description>即使成为了干员，可颂小姐也完全不打算放弃她在日常生活中的兴趣爱好。
-她知道成为干员后要面临许多前所未有的危险，她也知道成为干员后会遇到很多笑不出来的事，她没有忽视这些，而是在此之上，她依然会是那个精打细算的都市少女。</description>
+				<description>即使成为了干员，{PAWN_nameDef}小姐也完全不打算放弃她在日常生活中的兴趣爱好。
+{PAWN_pronoun}知道成为干员后要面临许多前所未有的危险，{PAWN_pronoun}也知道成为干员后会遇到很多笑不出来的事，{PAWN_pronoun}没有忽视这些，而是在此之上，{PAWN_pronoun}依然会是那个精打细算的都市少女。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.25</MentalBreakThreshold>
 					<PsychicSensitivity>0.4</PsychicSensitivity>
@@ -143,7 +143,7 @@
 		<degreeDatas>
 			<li>
 				<label>我寻思能行</label>
-				<description>森蚺在大部分事情的观念上远比已经离开家乡数年的嘉维尔正常，但唯独涉及机械方面时有一些奇怪的偏执和想法。</description>
+				<description>{PAWN_nameDef}在大部分事情的观念上远比已经离开家乡数年的嘉维尔正常，但唯独涉及机械方面时有一些奇怪的偏执和想法。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.25</MentalBreakThreshold>
 					<PsychicSensitivity>-0.15</PsychicSensitivity>
@@ -199,7 +199,7 @@
 		<degreeDatas>
 			<li>
 				<label>无忧无虑</label>
-				<description>干员蛇屠箱拥有天真烂漫的性格，即使成为矿石病患者也丝毫未能减损她的阳光。</description>
+				<description>干员{PAWN_nameDef}拥有天真烂漫的性格，即使成为矿石病患者也丝毫未能减损{PAWN_possessive}阳光。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.15</MentalBreakThreshold>
 				</statOffsets>
@@ -216,7 +216,7 @@
 		<degreeDatas>
 			<li>
 				<label>坚垒</label>
-				<description>在经历了童年的那些事之后，无论是内心还是外表，灰毫都表现的坚如堡垒。
+				<description>在经历了童年的那些事之后，无论是内心还是外表，{PAWN_nameDef}都表现的坚如堡垒。
 				</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.35</MentalBreakThreshold>
@@ -233,7 +233,7 @@
 		<degreeDatas>
 			<li>
 				<label>寡言</label>
-				<description>虽然性格与肉体已经坚如堡垒，而且在战斗方面已经炉火纯青，但是灰毫显然对社交很不对付，她表现的很沉默甚至是...腼腆。
+				<description>虽然性格与肉体已经坚如堡垒，而且在战斗方面已经炉火纯青，但是{PAWN_nameDef}显然对社交很不对付，{PAWN_pronoun}表现的很沉默甚至是...腼腆。
 				</description>
 				<statOffsets>
 					<GlobalLearningFactor>0.2</GlobalLearningFactor>
@@ -251,7 +251,7 @@
 		<degreeDatas>
 			<li>
 				<label>暴风</label>
-				<description>号角可以说是暴风突击队的最佳象征，勇敢，坚韧，顽强，忠诚。
+				<description>{PAWN_nameDef}可以说是暴风突击队的最佳象征，勇敢，坚韧，顽强，忠诚。
 				</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.45</MentalBreakThreshold>
@@ -268,7 +268,7 @@
 		<degreeDatas>
 			<li>
 				<label>鸣号</label>
-				<description>号角的精神在小丘郡后已经宛若钢铁，她也将会背负着死者的信念继续前行，但小丘郡所见证的那些惨剧不是一时半会就能平复的。
+				<description>{PAWN_nameDef}的精神在小丘郡后已经宛若钢铁，{PAWN_pronoun}也将会背负着死者的信念继续前行，但小丘郡所见证的那些惨剧不是一时半会就能平复的。
 				</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.15</MentalBreakThreshold>
@@ -286,7 +286,7 @@
 		<degreeDatas>
 			<li>
 				<label>死士</label>
-				<description>角峰的祖上出身于谢拉格北部，那里环境恶劣，人们终日与自然抗争。为了让他人更好地生存，所有北谢拉格人一旦出战即视自己为死者。正是这份信念，将他们，还有像角峰这样的后代，塑造成了战场上最为勇猛的战士。
+				<description>{PAWN_nameDef}的祖上出身于谢拉格北部，那里环境恶劣，人们终日与自然抗争。为了让他人更好地生存，所有北谢拉格人一旦出战即视自己为死者。正是这份信念，将他们，还有像{PAWN_pronoun}这样的后代，塑造成了战场上最为勇猛的战士。
 				</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.05</MentalBreakThreshold>
@@ -305,7 +305,7 @@
 		<degreeDatas>
 			<li>
 				<label>习惯</label>
-				<description>相比于其他学生，切尔诺伯格的灾难对古米造成的伤害显然更大，这造成了古米虽然看上去依旧乐观，但是却有了一些奇怪的“小习惯”.
+				<description>相比于其他学生，切尔诺伯格的灾难对{PAWN_nameDef}造成的伤害显然更大，这造成了{PAWN_pronoun}虽然看上去依旧乐观，但是却有了一些奇怪的“小习惯”.
 				</description>
 				<statOffsets>
 					<MentalBreakThreshold>0.05</MentalBreakThreshold>
@@ -324,9 +324,9 @@
 		<degreeDatas>
 			<li>
 				<label>铁匠</label>
-				<description>虽然铁匠这个行业事实上也早已摆脱了在火炉边挥汗如雨的印象，而且火神也认为跟不上时代的人理应被淘汰。
-但她火神小姐每天都会在锻造台上升起火，找来一块铁锭，敲打一段时间，一如那些古老的铁匠们所做的那样。
-或许，对她来说，跟不上时代的人固然应该被淘汰，但那些完全抛弃传统的人，也不配再被称为铁匠吧。
+				<description>虽然铁匠这个行业事实上也早已摆脱了在火炉边挥汗如雨的印象，而且{PAWN_nameDef}也认为跟不上时代的人理应被淘汰。
+但{PAWN_pronoun}每天都会在锻造台上升起火，找来一块铁锭，敲打一段时间，一如那些古老的铁匠们所做的那样。
+或许，对{PAWN_pronoun}来说，跟不上时代的人固然应该被淘汰，但那些完全抛弃传统的人，也不配再被称为铁匠吧。
 				</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.12</MentalBreakThreshold>
@@ -343,7 +343,7 @@
 		<degreeDatas>
 			<li>
 				<label>少言</label>
-				<description>不知道是因为无人有共同话题或是因为天生如此，火神甚少与人交流，即使是开口说话也通常不超过三句。
+				<description>不知道是因为无人有共同话题或是因为天生如此，{PAWN_nameDef}甚少与人交流，即使是开口说话也通常不超过三句。
 				</description>
 				<statOffsets>
 					<SocialImpact>-0.30</SocialImpact>
@@ -359,7 +359,7 @@
 		<degreeDatas>
 			<li>
 				<label>法为正典</label>
-				<description>斥罪曾明确展示出法律正义不可侵犯的态度。
+				<description>{PAWN_nameDef}曾明确展示出法律正义不可侵犯的态度。
 				但或许对于这些从事法律工作的人来说，不论就职后曾不得已地做过什么，现在使用着什么样的手段，他们一开始的理想总是相同的：捍卫法律应存的正义。
 				</description>
 				<statOffsets>

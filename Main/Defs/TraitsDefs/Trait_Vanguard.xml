@@ -12,7 +12,7 @@
 		<degreeDatas>
 			<li>
 				<label>小小的领袖</label>
-				<description>索娜有两点领袖的魅力，思想与笑容。</description>
+				<description>{PAWN_nameDef}有两点领袖的魅力，思想与笑容。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.35</MentalBreakThreshold>
 				</statOffsets>
@@ -29,8 +29,8 @@
 		<degreeDatas>
 			<li>
 				<label>大智若愚</label>
-				<description>其实放眼全罗德岛，也没有几个人能比嵯峨更加想得通，看得开。她的人生智慧是大多数人都没有的。
-只是她有时候看上去脑子确实不是很好使。
+				<description>其实放眼全罗德岛，也没有几个人能比{PAWN_nameDef}更加想得通，看得开。{PAWN_possessive}人生智慧是大多数人都没有的。
+只是{PAWN_pronoun}有时候看上去脑子确实不是很好使。
 				</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.45</MentalBreakThreshold>
@@ -47,8 +47,8 @@
 		<degreeDatas>
 			<li>
 				<label>入世</label>
-				<description>嵯峨在画卷中看到的人和事太多太多了，多到不像她这个年纪该有的阅历。
-即使是这样，嵯峨也有她的迷茫，她的迷茫非常质朴，但是唯有她自己能给出答案</description>
+				<description>{PAWN_nameDef}在画卷中看到的人和事太多太多了，多到不像{PAWN_pronoun}这个年纪该有的阅历。
+即使是这样，{PAWN_pronoun}也有{PAWN_possessive}迷茫，{PAWN_possessive}迷茫非常质朴，但是唯有{PAWN_pronoun}自己能给出答案</description>
 			</li>
 		</degreeDatas>
 	</TraitDef>
@@ -79,8 +79,8 @@
 		<degreeDatas>
 			<li>
 				<label>过去的影子</label>
-				<description>即使过去找上门来，现在的德克萨斯小姐依然会从容以对，
-但若是她的过去扰乱了她的现在，那，或许我们能够见到，她真正愤怒的样子。</description>
+				<description>即使过去找上门来，现在的{PAWN_nameDef}小姐依然会从容以对，
+但若是{PAWN_possessive}过去扰乱了{PAWN_possessive}现在，那，或许我们能够见到，{PAWN_pronoun}真正愤怒的样子。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.25</MentalBreakThreshold>
 				</statOffsets>
@@ -95,7 +95,7 @@
 		<degreeDatas>
 			<li>
 				<label>杀人术</label>
-				<description>可以看得出德克萨斯确实十分适应如今的生活，而不是想要在其中逃避什么，平淡的工作，吵闹的同伴，龙门，罗德岛，这就是现在的她的一切。
+				<description>可以看得出{PAWN_nameDef}确实十分适应如今的生活，而不是想要在其中逃避什么，平淡的工作，吵闹的同伴，龙门，罗德岛，这就是现在的{PAWN_possessive}一切。
 				</description>
 			</li>
 		</degreeDatas>
@@ -142,7 +142,7 @@
 		<degreeDatas>
 			<li>
 				<label>农家女孩</label>
-				<description>虽然大家很喜欢作为优秀军人的风笛小姐，但在农地挥洒汗水，端着三个炖锅走上桌子，穿着长裙边唱边旋转，说起故乡会发呆的风笛小姐......
+				<description>虽然大家很喜欢作为优秀军人的{PAWN_nameDef}小姐，但在农地挥洒汗水，端着三个炖锅走上桌子，穿着长裙边唱边旋转，说起故乡会发呆的{PAWN_pronoun}......
 大家也一样喜欢。</description>
 				<statOffsets>
 					<PlantWorkSpeed>0.3</PlantWorkSpeed>
@@ -159,8 +159,8 @@
 		<degreeDatas>
 			<li>
 				<label>真正的士兵</label>
-				<description>作为维多利亚的士兵，风笛拥有大多数干员都无法比拟的超强作战素质。
-不过这也造成她做事，尤其是摆弄精密电子器具时有点毛手毛脚的。</description>
+				<description>作为维多利亚的士兵，{PAWN_nameDef}拥有大多数干员都无法比拟的超强作战素质。
+不过这也造成{PAWN_pronoun}做事，尤其是摆弄精密电子器具时有点毛手毛脚的。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.55</MentalBreakThreshold>
 					<PainShockThreshold>-0.2</PainShockThreshold>
@@ -197,7 +197,7 @@
 			<li>
 				<label>自信</label>
 				<description>
-				或许是对自己的力量与速度有信心，野鬃总是表现的极度自信，而且似乎很喜欢用打架来解决问题。
+				或许是对自己的力量与速度有信心，{PAWN_nameDef}总是表现的极度自信，而且似乎很喜欢用打架来解决问题。
 				</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.15</MentalBreakThreshold>
@@ -213,7 +213,7 @@
 		<degreeDatas>
 			<li>
 				<label>狂野</label>
-				<description>野鬃似乎有着超乎寻常的野性与力量，这让她在骑士竞技场和干体力活时游刃有余，但是对思考却极度欠缺或者说压根不愿意思考。
+				<description>{PAWN_nameDef}似乎有着超乎寻常的野性与力量，这让{PAWN_pronoun}在骑士竞技场和干体力活时游刃有余，但是对思考却极度欠缺或者说压根不愿意思考。
 				</description>
 				<statOffsets>
 					<GlobalLearningFactor>-0.40</GlobalLearningFactor>
@@ -234,7 +234,7 @@
 			<li>
 				<label>冬将军</label>
 				<description>
-				冬将军这个称号是凛冬在彼得海姆学校就读时就获得的，这也在她的战斗与脾性方面有所体现。
+				冬将军这个称号是{PAWN_nameDef}在彼得海姆学校就读时就获得的，这也在{PAWN_possessive}战斗与脾性方面有所体现。
 				</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.15</MentalBreakThreshold>
@@ -254,7 +254,7 @@
 			<li>
 				<label>大将军</label>
 				<description>
-				尽管桃金娘外表与性格有孩子气的成分，但在战场上表现出颇强的感染力和相当的指挥水准，十分可靠。
+				尽管{PAWN_nameDef}外表与性格有孩子气的成分，但在战场上表现出颇强的感染力和相当的指挥水准，十分可靠。
 				</description>
 				<statOffsets>
 				    <MentalBreakThreshold>-0.2</MentalBreakThreshold>				
