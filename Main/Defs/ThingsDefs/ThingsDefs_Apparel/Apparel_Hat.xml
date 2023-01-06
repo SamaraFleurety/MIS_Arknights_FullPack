@@ -148,6 +148,7 @@
 		<defName>AK_Hat_Doctor</defName>
 		<label>博士兜帽</label>
 		<description>博士的兜帽。</description>
+		<useHitPoints>true</useHitPoints>
 		<graphicData>
 			<texPath>Things/AK_Agents/HatAccessory/DoctorH</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -167,7 +168,7 @@
 		</apparel>
 		<techLevel>Spacer</techLevel>
 		<recipeMaker>
-			<unfinishedThingDef>AK_Unfinished_DoctorHat</unfinishedThingDef>
+			<unfinishedThingDef>AK_Unfinished_DoctorCloth</unfinishedThingDef>
 			<skillRequirements>
 				<Crafting>8</Crafting>
 			</skillRequirements>
@@ -175,11 +176,6 @@
 				<li>FabricationBench</li>
 			</recipeUsers>
 		</recipeMaker>
-		<graphicData>
-			<texPath>Things/AK_Agents/HatAccessoryDoctorH</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(0.9, 0.9)</drawSize>
-		</graphicData>
 		<tradeTags>
 			<li>HiTechArmor</li>
 			<li>Armor</li>
@@ -215,24 +211,6 @@
 		<thingSetMakerTags>
 			<li>RewardStandardHighFreq</li>
 		</thingSetMakerTags>
-	</ThingDef>
-
-	<ThingDef>
-		<defName>AK_Unfinished_DoctorHat</defName>
-		<label>博士兜帽（未完成）</label>
-		<description>未完成的博士的兜帽。</description>
-		<statBases>
-			<Flammability>0.4</Flammability>
-		</statBases>
-		<graphicData>
-			<texPath>Things/AK_Agents/HatAccessory/DoctorH</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<stuffCategories>
-			<li>Metallic</li>
-			<li>Woody</li>
-			<li>Stony</li>
-		</stuffCategories>
 	</ThingDef>
 
 	<ThingDef ParentName="AK_HatBase">
