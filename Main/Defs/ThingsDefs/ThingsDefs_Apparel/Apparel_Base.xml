@@ -221,11 +221,8 @@
 
   <ThingDef ParentName="AK_ArmorBase">
     <defName>AK_Cloth_Doctor</defName>
-		<label>博士衣服</label>
+    <label>博士衣服</label>
     <description>博士的衣服。</description>
-    <statBases>
-      <WorkToMake>150000</WorkToMake>
-    </statBases>
     <equippedStatOffsets>
       <PsychicSensitivity>0.05</PsychicSensitivity>
       <PsychicEntropyRecoveryRate>0.033</PsychicEntropyRecoveryRate>
@@ -261,12 +258,10 @@
     <tradeTags>
       <li>Armor</li>
     </tradeTags>
-    <recipeMaker>
-      <displayPriority>165</displayPriority>
-    </recipeMaker>
     <techLevel>Spacer</techLevel>
     <recipeMaker>
       <unfinishedThingDef>AK_Unfinished_DoctorCloth</unfinishedThingDef>
+      <displayPriority>165</displayPriority>
       <skillRequirements>
         <Crafting>8</Crafting>
       </skillRequirements>
@@ -286,6 +281,7 @@
       <Insulation_Cold>36</Insulation_Cold>
       <Insulation_Heat>12</Insulation_Heat>
       <EquipDelay>17</EquipDelay>
+      <WorkToMake>150000</WorkToMake>
     </statBases>
     <tradeTags>
       <li>HiTechArmor</li>
