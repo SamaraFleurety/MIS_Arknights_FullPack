@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-<!-- 虽然感觉帽子和配饰数量很少没有分类必要，但还是分了 -->
-<!-- 整合 -->
+	<!-- 虽然感觉帽子和配饰数量很少没有分类必要，但还是分了 -->
+	<!-- 整合 -->
 
 	<ThingDef ParentName="AK_HatBase_Reunion">
 		<defName>AK_Hat_Frostnova</defName>
@@ -26,9 +26,9 @@
 			<wornGraphicPath>Things/AK_Reunion/PatriotH</wornGraphicPath>
 		</apparel>
 	</ThingDef>
-	
-<!-- 整合小兵 -->	
-	
+
+	<!-- 整合小兵 -->
+
 	<ThingDef ParentName="AK_HatBase_Reunion">
 		<defName>AK_Hat_ArmedMilitant</defName>
 		<label>武装人员服装头盔</label>
@@ -40,7 +40,7 @@
 			<wornGraphicPath>Things/AK_Reunion/Soldier/ArmedMilitant/MilitantH</wornGraphicPath>
 		</apparel>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="AK_HatBase_Reunion">
 		<defName>AK_Hat_Avenger</defName>
 		<label>复仇者兜帽</label>
@@ -52,7 +52,9 @@
 			<wornGraphicPath>Things/AK_Reunion/Soldier/Avenger/AvengerH</wornGraphicPath>
 		</apparel>
 	</ThingDef>
-<!-- 不知道这是啥 -->
+
+	<!-- 不知道这是啥 -->
+
 	<ThingDef ParentName="AK_HatBase_Reunion">
 		<defName>AK_Hat_bb</defName>
 		<label>bb帽子</label>
@@ -64,7 +66,7 @@
 			<wornGraphicPath>Things/AK_Reunion/Soldier/bb/bbH</wornGraphicPath>
 		</apparel>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="AK_HatBase_Reunion">
 		<defName>AK_Hat_GuerrillaSniper</defName>
 		<label>游击队狙击手帽子</label>
@@ -76,7 +78,7 @@
 			<wornGraphicPath>Things/AK_Reunion/Soldier/GuerrillaSniper/GuerrillaSniperH</wornGraphicPath>
 		</apparel>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="AK_HatBase_Reunion">
 		<defName>AK_Hat_GuerrillaSoldier</defName>
 		<label>游击队士兵帽子</label>
@@ -88,7 +90,8 @@
 			<wornGraphicPath>Things/AK_Reunion/Soldier/GuerrillaSoldier/GuerrillaSoldierH</wornGraphicPath>
 		</apparel>
 	</ThingDef>
-<!--	没贴图
+
+	<!--	没贴图
 	<ThingDef ParentName="AK_HatBase_Reunion">
 		<defName>AK_Hat_ImperialStriker</defName>
 		<label>帝国前锋精锐帽子</label>
@@ -99,8 +102,8 @@
 		<apparel>
 			<wornGraphicPath>Things/AK_Reunion/Soldier/ImperialStriker/ImperialStrikerH</wornGraphicPath>
 		</apparel>
-	</ThingDef>
--->	
+	</ThingDef>-->
+
 	<ThingDef ParentName="AK_HatBase_Reunion">
 		<defName>AK_Hat_InfectedPatrol</defName>
 		<label>帝国感染者纠察官头盔</label>
@@ -113,7 +116,7 @@
 			<wornGraphicPath>Things/AK_Reunion/Soldier/InfectedPatrol/InfectedPatrolH</wornGraphicPath>
 		</apparel>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="AK_HatBase_Reunion">
 		<defName>AK_Hat_ShieldGuard</defName>
 		<label>游击队盾卫头盔</label>
@@ -126,7 +129,7 @@
 			<wornGraphicPath>Things/AK_Reunion/Soldier/ShieldGuard/ShieldGuardH</wornGraphicPath>
 		</apparel>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="AK_HatBase_Reunion">
 		<defName>AK_Hat_UrsusRaider</defName>
 		<label>乌萨斯突击手帽子</label>
@@ -138,8 +141,20 @@
 			<wornGraphicPath>Things/AK_Reunion/Soldier/UrsusRaider/UrsusRaiderH</wornGraphicPath>
 		</apparel>
 	</ThingDef>
-	
-<!-- 干员 -->
+
+	<!-- 干员 -->
+
+	<ThingDef ParentName="AK_HatBase">
+		<defName>AK_Hat_Doctor</defName>
+		<label>博士兜帽</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GHat</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/HatAccessoryDoctorH</wornGraphicPath>
+		</apparel>
+	</ThingDef>
 
 	<ThingDef ParentName="AK_HatBase">
 		<defName>AK_Hat_Skadi</defName>
@@ -152,7 +167,7 @@
 			<wornGraphicPath>Things/AK_Agents/HatAccessory/SkadiH</wornGraphicPath>
 		</apparel>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="AK_HatBase">
 		<defName>AK_Hat_Mousse</defName>
 		<label>慕斯帽子</label>
@@ -164,7 +179,7 @@
 			<wornGraphicPath>Things/AK_Agents/HatAccessory/MousseH</wornGraphicPath>
 		</apparel>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="AK_HatBase">
 		<defName>AK_Hat_Frostleaf</defName>
 		<label>霜叶帽子</label>
@@ -176,7 +191,7 @@
 			<wornGraphicPath>Things/AK_Agents/HatAccessory/FrostleafH</wornGraphicPath>
 		</apparel>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="AK_HatBase">
 		<defName>AK_Hat_Red</defName>
 		<label>红的帽子</label>
@@ -188,7 +203,7 @@
 			<wornGraphicPath>Things/AK_Agents/HatAccessory/RedH</wornGraphicPath>
 		</apparel>
 	</ThingDef>
-		
+
 	<ThingDef ParentName="AK_HatBase">
 		<defName>AK_Hat_Gladiia</defName>
 		<label>歌蕾蒂娅的帽子</label>
@@ -200,7 +215,7 @@
 			<wornGraphicPath>Things/AK_Agents/HatAccessory/GladiiaH</wornGraphicPath>
 		</apparel>
 	</ThingDef>
-		
+
 	<ThingDef ParentName="AK_HatBase">
 		<defName>AK_Hat_Weedy</defName>
 		<label>温蒂帽子</label>
@@ -212,7 +227,7 @@
 			<wornGraphicPath>Things/AK_Agents/HatAccessory/WeedyH</wornGraphicPath>
 		</apparel>
 	</ThingDef>
-		
+
 	<ThingDef ParentName="AK_HatBase">
 		<defName>AK_Hat_Mizuki</defName>
 		<label>水月帽子</label>
@@ -224,7 +239,7 @@
 			<wornGraphicPath>Things/AK_Agents/HatAccessory/MizukiH</wornGraphicPath>
 		</apparel>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="AK_HatBase">
 		<defName>AK_Hat_Flametail</defName>
 		<label>焰尾帽子</label>
@@ -321,7 +336,7 @@
 			<wornGraphicPath>Things/AK_Agents/HatAccessory/WildH</wornGraphicPath>
 		</apparel>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="AK_HatBase">
 		<defName>AK_Hat_Bluepoison</defName>
 		<label>蓝毒帽子</label>
