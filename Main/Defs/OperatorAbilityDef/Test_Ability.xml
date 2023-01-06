@@ -122,6 +122,7 @@
     <description>添加buff的技能</description>
     <icon>UI/Abilities/A</icon>
     <CD>100</CD>
+	<CDUnit>tick</CDUnit>
     <abilityType>Trap</abilityType>
 	<targetMode>Self</targetMode>
     <verb>
@@ -155,6 +156,7 @@
     <description>添加buff的技能</description>
     <icon>UI/Abilities/A</icon>
     <CD>100</CD>
+	<CDUnit>tick</CDUnit>
     <abilityType>Trap</abilityType>
 	<targetMode>Single</targetMode>
     <verb>

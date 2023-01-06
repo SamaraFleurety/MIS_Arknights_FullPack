@@ -57,6 +57,9 @@
     <generateAllowChance>-1</generateAllowChance>
     <randomizeRotationOnSpawn>false</randomizeRotationOnSpawn>
     <canLoadIntoCaravan>false</canLoadIntoCaravan>
+	<comps>
+		<li Class="CompProperties_Biocodable"/>
+	</comps>
   </ThingDef>
 
   <ThingDef Name="AK_ArmorBase_Caster" ParentName="AK_ArmorBase" Abstract="True">
@@ -220,12 +223,9 @@
   </ThingDef>
 
   <ThingDef ParentName="AK_ArmorBase">
-    <defName>AK_Cloth_Doctor</defName>
-		<label>博士衣服</label>
+    <defName>AK_Apparel_Doctor</defName>
+	<label>博士衣服</label>
     <description>博士的衣服。</description>
-    <statBases>
-      <WorkToMake>150000</WorkToMake>
-    </statBases>
     <equippedStatOffsets>
       <PsychicSensitivity>0.05</PsychicSensitivity>
       <PsychicEntropyRecoveryRate>0.033</PsychicEntropyRecoveryRate>
@@ -260,12 +260,11 @@
     </apparel>
     <tradeTags>
       <li>Armor</li>
+      <li>HiTechArmor</li>
     </tradeTags>
-    <recipeMaker>
-      <displayPriority>165</displayPriority>
-    </recipeMaker>
     <techLevel>Spacer</techLevel>
     <recipeMaker>
+      <displayPriority>165</displayPriority>
       <unfinishedThingDef>AK_Unfinished_DoctorCloth</unfinishedThingDef>
       <skillRequirements>
         <Crafting>8</Crafting>
@@ -277,6 +276,7 @@
     <uiIconScale>1.25</uiIconScale>
     <generateCommonality>2</generateCommonality>
     <statBases>
+      <WorkToMake>150000</WorkToMake>
       <MaxHitPoints>400</MaxHitPoints>
       <Mass>15</Mass>
       <Flammability>0.4</Flammability>
@@ -287,9 +287,6 @@
       <Insulation_Heat>12</Insulation_Heat>
       <EquipDelay>17</EquipDelay>
     </statBases>
-    <tradeTags>
-      <li>HiTechArmor</li>
-    </tradeTags>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
         <li>
@@ -298,9 +295,6 @@
         </li>
       </options>
     </colorGenerator>
-    <comps>
-      <li Class="CompProperties_Biocodable"/>
-    </comps>
     <thingSetMakerTags>
       <li>RewardStandardHighFreq</li>
     </thingSetMakerTags>
