@@ -30,7 +30,7 @@
       <Insulation_Cold>1</Insulation_Cold>
       <EquipDelay>5</EquipDelay>
     </statBases>
-    <thingCategories Inherit="False">
+    <thingCategories Inherit="false">
       <li>AK_Apparel</li>
     </thingCategories>
     <apparel>
@@ -42,7 +42,7 @@
         <li>AK_ApparelLayer</li>
       </layers>
     </apparel>
-    <colorGenerator Class="ColorGenerator_Options" Inherit="False">
+    <colorGenerator Class="ColorGenerator_Options" Inherit="false">
       <options>
         <li>
           <only>(255,255,255)</only>
@@ -60,7 +60,7 @@
   </ThingDef>
 
   <ThingDef Name="AK_ArmorBase_Caster" ParentName="AK_ArmorBase" Abstract="True">
-    <thingCategories Inherit="False">
+    <thingCategories Inherit="false">
       <li>AK_Apparel_Caster</li>
     </thingCategories>
     <statBases>
@@ -94,7 +94,7 @@
       <MoveSpeed>0.1</MoveSpeed>
       <WorkSpeedGlobal>0.04</WorkSpeedGlobal>
     </equippedStatOffsets>
-    <thingCategories Inherit="False">
+    <thingCategories Inherit="false">
       <li>AK_Apparel_Vanguard</li>
     </thingCategories>
   </ThingDef>
@@ -114,7 +114,7 @@
       <MoveSpeed>-0.2</MoveSpeed>
       <WorkSpeedGlobal>-0.08</WorkSpeedGlobal>
     </equippedStatOffsets>
-    <thingCategories Inherit="False">
+    <thingCategories Inherit="false">
       <li>AK_Apparel_Guard</li>
     </thingCategories>
   </ThingDef>
@@ -134,13 +134,13 @@
       <MoveSpeed>-0.5</MoveSpeed>
       <WorkSpeedGlobal>-0.08</WorkSpeedGlobal>
     </equippedStatOffsets>
-    <thingCategories Inherit="False">
+    <thingCategories Inherit="false">
       <li>AK_Apparel_Defender</li>
     </thingCategories>
   </ThingDef>
 
   <ThingDef Name="AK_ArmorBase_Supporter" ParentName="AK_ArmorBase" Abstract="True">
-    <thingCategories Inherit="False">
+    <thingCategories Inherit="false">
       <li>AK_Apparel_Supporter</li>
     </thingCategories>
     <statBases>
@@ -174,13 +174,13 @@
       <MoveSpeed>0.5</MoveSpeed>
       <WorkSpeedGlobal>0.04</WorkSpeedGlobal>
     </equippedStatOffsets>
-    <thingCategories Inherit="False">
+    <thingCategories Inherit="false">
       <li>AK_Apparel_Specialist</li>
     </thingCategories>
   </ThingDef>
 
   <ThingDef Name="AK_ArmorBase_Sniper" ParentName="AK_ArmorBase" Abstract="True">
-    <thingCategories Inherit="False">
+    <thingCategories Inherit="false">
       <li>AK_Apparel_Sniper</li>
     </thingCategories>
     <statBases>
@@ -200,7 +200,7 @@
   </ThingDef>
 
   <ThingDef Name="AK_ArmorBase_Medic" ParentName="AK_ArmorBase" Abstract="True">
-    <thingCategories Inherit="False">
+    <thingCategories Inherit="false">
       <li>AK_Apparel_Medic</li>
     </thingCategories>
     <statBases>
@@ -220,34 +220,112 @@
   </ThingDef>
 
   <ThingDef ParentName="AK_ArmorBase">
-    <thingCategories Inherit="False">
-      <li>AK_Apparel_Doctor</li>
-    </thingCategories>
+    <defName>AK_Cloth_Doctor</defName>
+		<label>博士衣服</label>
+    <description>博士的衣服。</description>
     <statBases>
-      <ArmorRating_Sharp>0.20</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.30</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.20</ArmorRating_Heat>
-      <Insulation_Cold>10</Insulation_Cold>
-      <Insulation_Heat>65</Insulation_Heat>
-      <EquipDelay>4</EquipDelay>
+      <WorkToMake>150000</WorkToMake>
     </statBases>
     <equippedStatOffsets>
-      <ShootingAccuracyPawn>0.2</ShootingAccuracyPawn>
-      <AimingDelayFactor>-0.15</AimingDelayFactor>
-      <MoveSpeed>0.5</MoveSpeed>
-      <WorkSpeedGlobal>0.15</WorkSpeedGlobal>
+      <PsychicSensitivity>0.05</PsychicSensitivity>
+      <PsychicEntropyRecoveryRate>0.033</PsychicEntropyRecoveryRate>
+      <ResearchSpeed>2</ResearchSpeed>
     </equippedStatOffsets>
+    <costList>
+      <Gold>18</Gold>
+      <Plasteel>190</Plasteel>
+    </costList>
     <graphicData>
-      <texPath>Things/AK_Agents/GApparel</texPath>
+      <texPath>Things/AK_Agents/Misc/Doctor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
       <wornGraphicPath>Things/AK_Agents/Misc/Doctor</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <layers>
+        <li>Middle</li>
+        <li>Shell</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <useDeflectMetalEffect>true</useDeflectMetalEffect>
     </apparel>
+    <tradeTags>
+      <li>Armor</li>
+    </tradeTags>
+    <recipeMaker>
+      <displayPriority>165</displayPriority>
+    </recipeMaker>
+    <techLevel>Spacer</techLevel>
+    <recipeMaker>
+      <unfinishedThingDef>AK_Unfinished_DoctorCloth</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="false">
+        <li>FabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <uiIconScale>1.25</uiIconScale>
+    <generateCommonality>2</generateCommonality>
+    <statBases>
+      <MaxHitPoints>400</MaxHitPoints>
+      <Mass>15</Mass>
+      <Flammability>0.4</Flammability>
+      <ArmorRating_Sharp>1.2</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.6</ArmorRating_Heat>
+      <Insulation_Cold>36</Insulation_Cold>
+      <Insulation_Heat>12</Insulation_Heat>
+      <EquipDelay>17</EquipDelay>
+    </statBases>
+    <tradeTags>
+      <li>HiTechArmor</li>
+    </tradeTags>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(1.0,1.0,1.0)</only>
+        </li>
+      </options>
+    </colorGenerator>
+    <comps>
+      <li Class="CompProperties_Biocodable"/>
+    </comps>
+    <thingSetMakerTags>
+      <li>RewardStandardHighFreq</li>
+    </thingSetMakerTags>
+  </ThingDef>
+
+  <ThingDef>
+    <defName>AK_Unfinished_DoctorCloth</defName>
+    <label>博士衣服（未完成）</label>
+    <description>未完成的博士的衣服。</description>
+    <statBases>
+      <Flammability>0.4</Flammability>
+    </statBases>
+    <graphicData>
+      <texPath>Things/AK_Agents/Misc/Doctor</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
   </ThingDef>
 
   <ThingDef Name="AK_ArmorBase_Reunion" ParentName="AK_ArmorBase" Abstract="True">
-    <thingCategories Inherit="False">
+    <thingCategories Inherit="false">
       <li>AK_Apparel_Reunion</li>
     </thingCategories>
   </ThingDef>
@@ -255,7 +333,7 @@
   <!-- FIXME -->
 
   <ThingDef Name="AK_HatBase" ParentName="ApparelBase" Abstract="True">
-    <thingCategories Inherit="False">
+    <thingCategories Inherit="false">
       <li>AK_Apparel_Hat</li>
     </thingCategories>
     <smeltable>false</smeltable>
@@ -283,7 +361,7 @@
         <li>Overhead</li>
       </layers>
     </apparel>
-    <colorGenerator Class="ColorGenerator_Options" Inherit="False">
+    <colorGenerator Class="ColorGenerator_Options" Inherit="false">
       <options>
         <li>
           <only>(255,255,255)</only>

@@ -147,13 +147,92 @@
 	<ThingDef ParentName="AK_HatBase">
 		<defName>AK_Hat_Doctor</defName>
 		<label>博士兜帽</label>
+		<description>博士的兜帽。</description>
 		<graphicData>
-			<texPath>Things/AK_Agents/GHat</texPath>
+			<texPath>Things/AK_Agents/HatAccessory/DoctorH</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Things/AK_Agents/HatAccessoryDoctorH</wornGraphicPath>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<useDeflectMetalEffect>true</useDeflectMetalEffect>
+			<wornGraphicPath>Things/AK_Agents/HatAccessory/DoctorH</wornGraphicPath>
 		</apparel>
+		<techLevel>Spacer</techLevel>
+		<recipeMaker>
+			<unfinishedThingDef>AK_Unfinished_DoctorHat</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="false">
+				<li>FabricationBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Things/AK_Agents/HatAccessoryDoctorH</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(0.9, 0.9)</drawSize>
+		</graphicData>
+		<tradeTags>
+			<li>HiTechArmor</li>
+			<li>Armor</li>
+		</tradeTags>
+		<generateCommonality>2</generateCommonality>
+		<statBases>
+			<WorkToMake>26250</WorkToMake>
+			<MaxHitPoints>180</MaxHitPoints>
+			<Mass>2</Mass>
+			<Flammability>0.4</Flammability>
+			<ArmorRating_Sharp>1.2</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.6</ArmorRating_Heat>
+			<Insulation_Cold>4</Insulation_Cold>
+			<Insulation_Heat>2</Insulation_Heat>
+			<EquipDelay>6</EquipDelay>
+		</statBases>
+		<costList>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Plasteel>50</Plasteel>
+		</costList>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(1.0,1.0,1.0)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<comps>
+			<li Class="CompProperties_Biocodable"/>
+		</comps>
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+		</thingSetMakerTags>
+	</ThingDef>
+
+	<ThingDef>
+		<defName>AK_Unfinished_DoctorHat</defName>
+		<label>博士兜帽（未完成）</label>
+		<description>未完成的博士的兜帽。</description>
+		<statBases>
+			<Flammability>0.4</Flammability>
+		</statBases>
+		<graphicData>
+			<texPath>Things/AK_Agents/HatAccessory/DoctorH</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
 	</ThingDef>
 
 	<ThingDef ParentName="AK_HatBase">
