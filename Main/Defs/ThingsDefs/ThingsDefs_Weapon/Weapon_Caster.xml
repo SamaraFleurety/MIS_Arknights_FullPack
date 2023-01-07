@@ -25,7 +25,7 @@
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
 				<warmupTime>0.9</warmupTime>
 				<!--前摇-->
-				<range>10</range>
+				<range>25</range>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
@@ -107,18 +107,75 @@
 			<texPath>Things/AK_Agents/Weapon/Caster/IfritW</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<verbs Inherit="False">
+		<statBases>
+			<AccuracyTouch>0.85</AccuracyTouch>
+			<AccuracyShort>0.9</AccuracyShort>
+			<AccuracyMedium>0.75</AccuracyMedium>
+			<AccuracyLong>0.55</AccuracyLong>
+			<RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
+			<!--后摇-->
+		</statBases>
+		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>AK_Arrow_Base</defaultProjectile>
-				<warmupTime>1.0</warmupTime>
-				<range>30</range>
-				<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
-				<burstShotCount>3</burstShotCount>
+				<defaultProjectile>AK_Bullet_Ifrit</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>2.2</warmupTime>
+				<!--前摇-->
+				<range>45</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
 				<soundCast>AK_Sound_Weapon_Ifrit</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
 			</li>
 		</verbs>
+		<tools Inherit = "false">
+			<li>
+				<label>法杖猛击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>21</power>
+				<cooldownTime>1.8</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_Ifrit</defName>
+		<label>法术射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/MagicFire</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<!--伤害类型-->
+			<damageAmountBase>0</damageAmountBase>
+			<stoppingPower>3</stoppingPower>
+			<speed>50</speed>
+			<extraDamages>
+				<li>
+					<def>Flame</def>
+					<!--伤害类型-->
+					<amount>18</amount>
+					<!--伤害数值-->
+				</li>
+				<li>
+					<def>Burn</def>
+					<!--伤害类型-->
+					<amount>12</amount>
+					<!--伤害数值-->
+				</li>
+			</extraDamages>
+			<soundExplode>ThumpCannon_Impact</soundExplode>
+			<!--爆炸音效-->
+		</projectile>
 	</ThingDef>
 
 	<SoundDef ParentName="AK_SoundBase">
@@ -156,7 +213,7 @@
 				<defaultProjectile>AK_Bullet_Amiya</defaultProjectile>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
 				<warmupTime>1.2</warmupTime>				<!--前摇-->
-				<range>12</range>
+				<range>25</range>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
@@ -244,7 +301,7 @@
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
 				<warmupTime>1.2</warmupTime>
 				<!--前摇-->
-				<range>12</range>
+				<range>25</range>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
@@ -338,7 +395,7 @@
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
 				<warmupTime>1.2</warmupTime>
 				<!--前摇-->
-				<range>12</range>
+				<range>25</range>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
@@ -387,7 +444,7 @@
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
 				<warmupTime>1.2</warmupTime>
 				<!--前摇-->
-				<range>12</range>
+				<range>25</range>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
@@ -436,7 +493,7 @@
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
 				<warmupTime>1.2</warmupTime>
 				<!--前摇-->
-				<range>12</range>
+				<range>25</range>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
@@ -485,7 +542,7 @@
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
 				<warmupTime>2.2</warmupTime>
 				<!--前摇-->
-				<range>8</range>
+				<range>20</range>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
@@ -624,7 +681,7 @@
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
 				<warmupTime>2.2</warmupTime>
 				<!--前摇-->
-				<range>8</range>
+				<range>20</range>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
@@ -683,7 +740,7 @@
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
 				<warmupTime>2.2</warmupTime>
 				<!--前摇-->
-				<range>8</range>
+				<range>20</range>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
@@ -732,7 +789,7 @@
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
 				<warmupTime>2.2</warmupTime>
 				<!--前摇-->
-				<range>8</range>
+				<range>20</range>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
@@ -818,7 +875,7 @@
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
 				<warmupTime>2.2</warmupTime>
 				<!--前摇-->
-				<range>8</range>
+				<range>20</range>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
@@ -910,7 +967,7 @@
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
 				<warmupTime>1.2</warmupTime>
 				<!--前摇-->
-				<range>13</range>
+				<range>25</range>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
@@ -1066,7 +1123,7 @@
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
 				<warmupTime>2.2</warmupTime>
 				<!--前摇-->
-				<range>10</range>
+				<range>30</range>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
@@ -1152,7 +1209,7 @@
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
 				<warmupTime>1.2</warmupTime>
 				<!--前摇-->
-				<range>10</range>
+				<range>25</range>
 				<burstShotCount>2</burstShotCount>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
@@ -1278,7 +1335,7 @@
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
 				<warmupTime>1</warmupTime>
 				<!--前摇-->
-				<range>10</range>
+				<range>25</range>
 				<burstShotCount>2</burstShotCount>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
@@ -1367,7 +1424,7 @@
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
 				<warmupTime>1.7</warmupTime>
 				<!--前摇-->
-				<range>11</range>
+				<range>25</range>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>

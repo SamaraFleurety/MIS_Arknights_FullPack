@@ -135,7 +135,7 @@
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
 				<warmupTime>0.9</warmupTime>
 				<!--前摇-->
-				<range>14</range>
+				<range>15</range>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
@@ -452,8 +452,8 @@
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
 				<warmupTime>2.1</warmupTime>
 				<!--前摇-->
-				<minRange>10</minRange>
-				<range>18</range>
+				<minRange>40</minRange>
+				<range>60</range>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
@@ -542,8 +542,8 @@
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
 				<warmupTime>2.1</warmupTime>
 				<!--前摇-->
-				<minRange>12</minRange>
-				<range>20</range>
+				<minRange>40</minRange>
+				<range>60</range>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
