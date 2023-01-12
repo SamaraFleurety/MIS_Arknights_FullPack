@@ -4,11 +4,11 @@
   <AK_DLL.OperatorAbilityDef>
     <defName>AK_Test_ignit</defName>
     <label>测试点燃</label>
-    <description>艾雅法拉的点燃</description>
+    <description>艾雅法拉和夕的同款的点燃</description>
     <icon>UI/Abilities/A</icon>
-    <CD>300</CD>
+    <CD>30</CD>
 	<maxCharge>10</maxCharge>
-	<CDUnit>tick</CDUnit>
+	<CDUnit>rSecond</CDUnit>
 	<targetMode>AutoEnemy</targetMode>
 	<grouped>true</grouped>
     <verb>
@@ -119,9 +119,9 @@
   <AK_DLL.OperatorAbilityDef>
     <defName>AK_Test_Trap</defName>
     <label>测试技能A</label>
-    <description>添加buff的技能</description>
+    <description>往脚下放置一颗地雷，cd1天</description>
     <icon>UI/Abilities/A</icon>
-    <CD>100</CD>
+    <CD>1</CD>
 	<CDUnit>tick</CDUnit>
     <abilityType>Trap</abilityType>
 	<targetMode>Self</targetMode>
@@ -153,9 +153,9 @@
   <AK_DLL.OperatorAbilityDef>
     <defName>AK_Test_TrapT</defName>
     <label>测试技能T</label>
-    <description>添加buff的技能</description>
+    <description>往指定位置放置一颗地雷，cd1天</description>
     <icon>UI/Abilities/A</icon>
-    <CD>100</CD>
+    <CD>1</CD>
 	<CDUnit>tick</CDUnit>
     <abilityType>Trap</abilityType>
 	<targetMode>Single</targetMode>

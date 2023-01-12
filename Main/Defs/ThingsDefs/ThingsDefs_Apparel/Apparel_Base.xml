@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ApparelLayerDef>
-    <defName>AK_ApparelLayer</defName>
-    <label>outfit</label>
-    <drawOrder>999</drawOrder>
-  </ApparelLayerDef>
-
   <ThingDef Name="AK_ArmorBase" ParentName="ApparelBase" Abstract="True">
     <defName>AK_ArmorBase</defName>
     <label>AK_ArmorBase</label>
@@ -39,7 +33,7 @@
       </bodyPartGroups>
       <wornGraphicPath>Things/Pawn/Humanlike/Apparel/FlakVest/FlakVest</wornGraphicPath>
       <layers>
-        <li>AK_ApparelLayer</li>
+        <li>Shell</li>
       </layers>
     </apparel>
     <colorGenerator Class="ColorGenerator_Options" Inherit="false">

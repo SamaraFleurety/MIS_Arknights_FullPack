@@ -47,7 +47,7 @@
 
 	<ThingDef Name="AK_WeaponBase" Abstract="True">
 		<description>此干员的惯用武器。</description>
-		<thingClass>AK_DLL.OperatorWeapon</thingClass>
+		<thingClass>ThingWithComps</thingClass>
 		<category>Item</category>
 		<drawerType>MapMeshOnly</drawerType>
 		<drawGUIOverlay>true</drawGUIOverlay>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
     <InteractionDef>
-        <defName>AK_Basic_Interaction</defName>
+        <defName>AK_Interaction_Basic</defName>
         <label>AK_Basic_Interaction</label>
-        <workerClass>AK_DLL.Traits.Interaction.BasicInteraction</workerClass>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
         <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
         <logRulesInitiator>
             <rulesStrings>

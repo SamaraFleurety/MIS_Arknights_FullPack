@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-    <AK_DLL.SpecialInteractionDef>
-        <defName>AK_Special_Interaction_Lfrit</defName>
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_Lfrit</defName>
         <label>TALKING_ABOUT_LFRIT</label>
         <involvedPawns>
-            <li>AK_Interaction_Saria</li>
-            <li>AK_Interaction_Silence</li>
+            <li>Saria</li>
+            <li>Silence</li>
         </involvedPawns>
-        <workerClass>AK_DLL.Traits.Interaction.SpecialInteraction</workerClass>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
         <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
-
         <logRulesInitiator>
             <rulesStrings>
                 <li>r_logentry->就伊芙利特的未来， [INITIATOR_nameDef] 和 [RECIPIENT_nameDef] [AK_TALK_LFRIT_ACTION]</li>
@@ -19,19 +18,18 @@
                 <li>AK_TALK_LFRIT_ACTION->大声争吵</li>
             </rulesStrings>
         </logRulesInitiator>
-    </AK_DLL.SpecialInteractionDef>
+    </AK_DLL.OperatorInteractionDef>
 
-    <AK_DLL.SpecialInteractionDef>
-        <defName>AK_Special_Interaction_Doctor</defName>
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_Doctor</defName>
         <label>TALKING_ABOUT_DOCTOR</label>
         <involvedPawns>
-            <li>AK_Interaction_Saria</li>
-            <li>AK_Interaction_Silence</li>
-            <li>AK_Interaction_Kaltsit</li>
+            <li>Saria</li>
+            <li>Silence</li>
+            <li>Kaltsit</li>
         </involvedPawns>
-        <workerClass>AK_DLL.Traits.Interaction.SpecialInteraction</workerClass>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
         <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
-
         <logRulesInitiator>
             <rulesStrings>
                 <li>r_logentry-> [INITIATOR_nameDef] [AK_TALK_DOCTOR_STYLE] 和 [RECIPIENT_nameDef] 说了说博士的 [AK_TALK_DOCTOR_TOPIC]</li>
@@ -45,5 +43,5 @@
                 <li>AK_TALK_DOCTOR_TOPIC->癖好</li>
             </rulesStrings>
         </logRulesInitiator>
-    </AK_DLL.SpecialInteractionDef>
+    </AK_DLL.OperatorInteractionDef>
 </Defs>
