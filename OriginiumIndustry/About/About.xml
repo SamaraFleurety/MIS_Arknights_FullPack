@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>M.I.S. - Industry</name>
+	<author>M.I.S. Group</author>	
+  <supportedVersions>
+  	<li>1.4</li>	
+  </supportedVersions> 
+  <modDependencies>
+	<li>
+		<packageId>MIS.Framework</packageId>
+		<displayName>M.I.S - Framework</displayName>
+		<downloadUrl>https://github.com/SamaraFleurety/Rimworld_Arknights</downloadUrl>
+	</li>
+	<li>
+		<packageId>MIS.Arknights</packageId>
+		<displayName>M.I.S - Arknights</displayName>
+		<downloadUrl>https://github.com/SamaraFleurety/Rimworld_Arknights</downloadUrl>
+	</li>
+  </modDependencies>
+	<loadAfter>
+		<li>MIS.Framework</li>
+		<li>MIS.Arknights</li>
+	</loadAfter>	  
+	<description>
+源石工业
+	</description>	
+  <packageId>MIS.Industry</packageId>	
+</ModMetaData>
