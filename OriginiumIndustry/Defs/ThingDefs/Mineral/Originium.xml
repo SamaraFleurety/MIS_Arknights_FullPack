@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
 <Defs>
-<!--  <ThingDef Name="AK_ResourceBase" ParentName="ResourceBase" Abstract="True">
+  <ThingDef Name="AK_ResourceBase" ParentName="ResourceBase" Abstract="True">
   </ThingDef>
 
   <ThingDef ParentName="AK_ResourceBase">
@@ -54,7 +54,7 @@
       <mineableScatterLumpSizeRange>30~40</mineableScatterLumpSizeRange>
     </building>
 	<comps>
-      <li Class="AK_DLL.TCP_GasEmitter">
+      <li Class="AK_Industry.TCP_GasEmitter">
 		<gasType>ToxicGas</gasType>
       </li>
     </comps>
@@ -72,7 +72,7 @@
       <shaderType>Transparent</shaderType>
     </graphicData>
   </ThingDef>
-  <ThingDef Class="AK_DLL.GasDef" ParentName="BaseGas">
+  <ThingDef Class="AK_Industry.GasDef" ParentName="BaseGas">
     <defName>ToxicGas</defName>
     <label>源石尘</label>
     <graphicData>
@@ -80,7 +80,7 @@
       <drawSize>2.5</drawSize>
       <color>(1,0.92,0.016,0.2)</color>
     </graphicData>
-	<thingClass>AK_DLL.Gas</thingClass>
+	<thingClass>AK_Industry.Gas</thingClass>
 	<addHediff>AK_Disease_ORG_Artificial</addHediff>
 	<hediffAddChance>1.0</hediffAddChance>
     <hediffSeverity>0.11</hediffSeverity>    
@@ -116,5 +116,5 @@
       <li>Manufactured</li>
     </thingCategories>
   </ThingDef>
--->
+  
 </Defs>
