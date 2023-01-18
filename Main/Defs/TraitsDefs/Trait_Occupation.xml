@@ -2,13 +2,63 @@
 <Defs>
 
   <TraitDef>
+    <defName>AK_Trait_Agent_Doc</defName>
+	<ignoreConfigErrors>true</ignoreConfigErrors>
+    <commonality>0.0</commonality>
+    <degreeDatas>
+      <li>
+        <label>“博士”</label>
+        <description> 他现是博士，是执棋之人，他曾是恶灵，是无情的指挥，他学识渊博，却又与人和善，而现在，他是谁？取决于你
+		</description>
+		<statOffsets>
+          <MoveSpeed>0.9</MoveSpeed>
+		  <CarryingCapacity>5</CarryingCapacity>
+        </statOffsets>
+		<skillGains>
+          <li>
+            <key>Social</key>
+            <value>10</value>
+          </li>
+			<li>
+				<key>Medicine</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>20</value>
+			</li>
+        </skillGains>
+      </li>
+    </degreeDatas>
+	<conflictingTraits>
+      <li>AK_Trait_Agent_Defender</li>
+      <li>AK_Trait_Agent_Medic</li>
+	  <li>AK_Trait_Agent_Sniper</li>
+	  <li>AK_Trait_Agent_Vanguard</li>
+	  <li>AK_Trait_Agent_Guard</li>
+	  <li>AK_Trait_Agent_Caster</li>
+	  <li>AK_Trait_Agent_Specialist</li>
+	  <li>AK_Reunion_Member</li>
+	  <li>AK_Reunion_Leader</li>
+	  <li>AK_Reunion_TLL</li>
+	  <li>AK_Reunion_Caster</li>
+	  <li>AK_Reunion_Sniper</li>
+	  <li>AK_Reunion_Shield</li>
+	  <li>AK_Reunion_Yeti</li>
+	  <li>AK_Reunion_Yeti_Leader</li>
+    </conflictingTraits>  
+  </TraitDef>
+	
+  <TraitDef>
     <defName>AK_Trait_Agent_Supporter</defName>
 	<ignoreConfigErrors>true</ignoreConfigErrors>
     <commonality>0.0</commonality>
     <degreeDatas>
       <li>
         <label>辅助干员</label>
-        <description>{PAWN_nameDef}喜欢并肩作战，{PAWN_pronoun}会义无反顾地支援你.</description>
+        <description>{PAWN_nameDef}喜欢并肩作战，{PAWN_pronoun}会义无反顾地支援你.
+		“你所缺少的那一点，辅助会帮助您”
+		</description>
 		<statOffsets>
           <MoveSpeed>2.0</MoveSpeed>
 		  <CarryingCapacity>10</CarryingCapacity>
@@ -47,7 +97,9 @@
     <degreeDatas>
       <li>
         <label>狙击干员</label>
-        <description>{PAWN_nameDef}是后方的特殊干员，漏掉的敌人就放心交给{PAWN_objective}吧.</description>
+        <description>{PAWN_nameDef}是后方的特殊干员，漏掉的敌人就放心交给{PAWN_objective}吧.
+		“背后支援，火力掩护，轰击重要目标，狙击样样都行”
+		</description>
 		<statOffsets>
           <MoveSpeed>1.0</MoveSpeed>
 		  <HuntingStealth>0.5</HuntingStealth>
@@ -86,7 +138,9 @@
     <degreeDatas>
       <li>
         <label>先锋干员</label>
-        <description>{PAWN_nameDef}是敌人来临时首当其冲的干员之一.</description>
+        <description>{PAWN_nameDef}是敌人来临时首当其冲的干员之一.
+		“最先进入战场，最快歼灭敌人”
+	</description>
 		<statOffsets>
           <MoveSpeed>0.75</MoveSpeed>
 		  <PainShockThreshold>0.35</PainShockThreshold>
@@ -120,7 +174,9 @@
     <degreeDatas>
       <li>
         <label>近卫干员</label>
-        <description>{PAWN_nameDef}是您的利刃。{PAWN_pronoun}将所向披靡.</description>
+        <description>{PAWN_nameDef}是您的利刃。{PAWN_pronoun}将所向披靡.
+		“利刃出鞘，狭路相逢”
+		</description>
 		<statOffsets>
           <MeleeDodgeChance>2</MeleeDodgeChance>
 		  <PainShockThreshold>0.5</PainShockThreshold>
@@ -159,7 +215,9 @@
     <degreeDatas>
       <li>
         <label>术士干员</label>
-        <description>{PAWN_nameDef}是掌握源石技艺的特殊干员，拥有完全不输狙击干员的能力.</description>
+        <description>{PAWN_nameDef}是掌握源石技艺的特殊干员，拥有完全不输狙击干员的能力.
+		“术士大部分都是研究方面的专家，但是不要因此小瞧一个术士的破坏力”
+	</description>
 		<statOffsets>
           <MoveSpeed>0.10</MoveSpeed>
 		  <MeleeDodgeChance>0.5</MeleeDodgeChance>
@@ -198,7 +256,9 @@
     <degreeDatas>
       <li>
         <label>特种干员</label>
-        <description>空降，支援，斩首，暗杀是{PAWN_possessive}职责.</description>
+        <description>空降，支援，斩首，暗杀是{PAWN_pronoun}的职责.
+		“特种，就是特别有种的干员”
+		</description>
 		<statOffsets>
           <MoveSpeed>0.75</MoveSpeed>
 		  <MeleeDodgeChance>5.0</MeleeDodgeChance>
@@ -238,7 +298,9 @@
     <degreeDatas>
       <li>
         <label>重装干员</label>
-        <description>{PAWN_nameDef}有着最好的身体素质，保护是{PAWN_possessive}座右铭.</description>
+        <description>{PAWN_nameDef}有着最好的身体素质，保护是{PAWN_pronoun}的座右铭.
+		“群山迭起，重装永不后退”
+		</description>
 		<statOffsets>
 		  <MeleeDodgeChance>2.0</MeleeDodgeChance>
 		  <PainShockThreshold>0.75</PainShockThreshold>
@@ -277,7 +339,9 @@
     <degreeDatas>
       <li>
         <label>医疗干员</label>
-        <description>{PAWN_nameDef}是罗德岛的核心，就任于凯尔希所领导的部门.</description>
+        <description>{PAWN_nameDef}是罗德岛的核心，就任于凯尔希所领导的部门.
+		“仁慈，勇敢，智慧，还有一些运气，这些就是挽救生命的法宝”
+		</description>
 		<statOffsets>
           <MoveSpeed>0.35</MoveSpeed>
         </statOffsets>
@@ -307,6 +371,136 @@
 	  <li>AK_Reunion_Yeti_Leader</li>
     </conflictingTraits>  
   </TraitDef>
+	<TraitDef>
+		<defName>AK_Trait_Agent_Medic</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>医疗干员</label>
+				<description>
+					{PAWN_nameDef}是罗德岛的核心，就任于凯尔希所领导的部门.
+					“仁慈，勇敢，智慧，还有一些运气，这些就是挽救生命的法宝”
+				</description>
+				<statOffsets>
+					<MoveSpeed>0.35</MoveSpeed>
+				</statOffsets>
+				<skillGains>
+					<li>
+						<key>Medicine</key>
+						<value>4</value>
+					</li>
+				</skillGains>
+			</li>
+		</degreeDatas>
+		<conflictingTraits>
+			<li>AK_Trait_Agent_Defender</li>
+			<li>AK_Trait_Agent_Sniper</li>
+			<li>AK_Trait_Agent_Vanguard</li>
+			<li>AK_Trait_Agent_Guard</li>
+			<li>AK_Trait_Agent_Caster</li>
+			<li>AK_Trait_Agent_Specialist</li>
+			<li>AK_Trait_Agent_Supporter</li>
+			<li>AK_Reunion_Member</li>
+			<li>AK_Reunion_Leader</li>
+			<li>AK_Reunion_TLL</li>
+			<li>AK_Reunion_Caster</li>
+			<li>AK_Reunion_Sniper</li>
+			<li>AK_Reunion_Shield</li>
+			<li>AK_Reunion_Yeti</li>
+			<li>AK_Reunion_Yeti_Leader</li>
+		</conflictingTraits>
+	</TraitDef>
+	
+	<TraitDef>
+		<defName>
+			AK_Trait_Agent_Elite_Caster
+		</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>精英狙击干员</label>
+				<description>
+					{PAWN_nameDef}是一名罗德岛的资深精英狙击干员
+					“他强大的火力会为你指明前行的道路”
+				</description>
+				<statOffsets>
+					<MoveSpeed>-0.1</MoveSpeed>
+					<PainShockThreshold>1.0</PainShockThreshold>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+		<conflictingTraits>
+			<li>AK_Trait_Agent_Defender</li>
+			<li>AK_Trait_Agent_Medic</li>
+			<li>AK_Trait_Agent_Sniper</li>
+			<li>AK_Trait_Agent_Vanguard</li>
+			<li>AK_Trait_Agent_Guard</li>
+			<li>AK_Trait_Agent_Caster</li>
+			<li>AK_Trait_Agent_Specialist</li>
+			<li>AK_Trait_Agent_Supporter</li>
+			<li>AK_Reunion_Member</li>
+			<li>AK_Reunion_Leader</li>
+			<li>AK_Reunion_TLL</li>
+			<li>AK_Reunion_Caster</li>
+			<li>AK_Reunion_Sniper</li>
+			<li>AK_Reunion_Yeti</li>
+			<li>AK_Reunion_Yeti_Leader</li>
+		</conflictingTraits>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>AK_Trait_Agent_Reserve_Caster</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>预备术士干员</label>
+				<description>
+					{PAWN_nameDef}是一名预备的术士干员
+					技艺尚未成熟，理论尚未掌握，但也可
+				</description>
+				<statOffsets>
+					<MoveSpeed>-0.1</MoveSpeed>
+					<PainShockThreshold>1.0</PainShockThreshold>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+		<conflictingTraits>
+			<li>AK_Trait_Agent_Defender</li>
+			<li>AK_Trait_Agent_Medic</li>
+			<li>AK_Trait_Agent_Sniper</li>
+			<li>AK_Trait_Agent_Vanguard</li>
+			<li>AK_Trait_Agent_Guard</li>
+			<li>AK_Trait_Agent_Caster</li>
+			<li>AK_Trait_Agent_Specialist</li>
+			<li>AK_Trait_Agent_Supporter</li>
+			<li>AK_Reunion_Member</li>
+			<li>AK_Reunion_Leader</li>
+			<li>AK_Reunion_TLL</li>
+			<li>AK_Reunion_Caster</li>
+			<li>AK_Reunion_Sniper</li>
+			<li>AK_Reunion_Yeti</li>
+			<li>AK_Reunion_Yeti_Leader</li>
+		</conflictingTraits>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_</defName>
+		<degreeDatas>
+			<li>
+				<label></label>
+				<description>
+				</description>
+				<statOffsets>
+
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef> 
 
 <!-- 整活运动 -->
 
@@ -317,7 +511,8 @@
     <degreeDatas>
       <li>
         <label>整合运动成员</label>
-        <description>{PAWN_nameDef}是一个组织的成员，一腔热血却跟错了人.</description>
+        <description>{PAWN_nameDef}是一个组织的成员，一腔热血却跟错了人.
+		</description>
 		<statOffsets>
           <MoveSpeed>0.75</MoveSpeed>
 		  <GlobalLearningFactor>-0.25</GlobalLearningFactor>
@@ -628,5 +823,6 @@
 	  <li>AK_Reunion_Yeti_Leader</li>
     </conflictingTraits>  
   </TraitDef>
+
 
 </Defs>
