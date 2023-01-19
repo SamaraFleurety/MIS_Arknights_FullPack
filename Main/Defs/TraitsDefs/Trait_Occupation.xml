@@ -371,46 +371,6 @@
 	  <li>AK_Reunion_Yeti_Leader</li>
     </conflictingTraits>  
   </TraitDef>
-	<TraitDef>
-		<defName>AK_Trait_Agent_Medic</defName>
-		<ignoreConfigErrors>true</ignoreConfigErrors>
-		<commonality>0.0</commonality>
-		<degreeDatas>
-			<li>
-				<label>医疗干员</label>
-				<description>
-					{PAWN_nameDef}是罗德岛的核心，就任于凯尔希所领导的部门.
-					“仁慈，勇敢，智慧，还有一些运气，这些就是挽救生命的法宝”
-				</description>
-				<statOffsets>
-					<MoveSpeed>0.35</MoveSpeed>
-				</statOffsets>
-				<skillGains>
-					<li>
-						<key>Medicine</key>
-						<value>4</value>
-					</li>
-				</skillGains>
-			</li>
-		</degreeDatas>
-		<conflictingTraits>
-			<li>AK_Trait_Agent_Defender</li>
-			<li>AK_Trait_Agent_Sniper</li>
-			<li>AK_Trait_Agent_Vanguard</li>
-			<li>AK_Trait_Agent_Guard</li>
-			<li>AK_Trait_Agent_Caster</li>
-			<li>AK_Trait_Agent_Specialist</li>
-			<li>AK_Trait_Agent_Supporter</li>
-			<li>AK_Reunion_Member</li>
-			<li>AK_Reunion_Leader</li>
-			<li>AK_Reunion_TLL</li>
-			<li>AK_Reunion_Caster</li>
-			<li>AK_Reunion_Sniper</li>
-			<li>AK_Reunion_Shield</li>
-			<li>AK_Reunion_Yeti</li>
-			<li>AK_Reunion_Yeti_Leader</li>
-		</conflictingTraits>
-	</TraitDef>
 	
 	<TraitDef>
 		<defName>
