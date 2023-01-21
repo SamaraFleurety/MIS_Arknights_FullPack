@@ -12,7 +12,7 @@
 		<degreeDatas>
 			<li>
 				<label>没落的贵族</label>
-				<description>她在努力让自己变得不像一个贵族。你可以看得出她还不适应如何放低自己的姿态，但她确实在努力去适应这样的生活。</description>
+				<description>{PAWN_nameDef}在努力让自己变得不像一个贵族。你可以看得出{PAWN_pronoun}还不适应如何放低自己的姿态，但{PAWN_pronoun}确实在努力去适应这样的生活。</description>
 			</li>
 		</degreeDatas>
 	</TraitDef>
@@ -24,7 +24,7 @@
 		<degreeDatas>
 			<li>
 				<label>前路迷茫</label>
-				<description>在失去了过去的一切之后，早露苦苦地寻觅着自己新的前进的方向，请给她一点时间。</description>
+				<description>在失去了过去的一切之后，{PAWN_nameDef}苦苦地寻觅着自己新的前进的方向，请给{PAWN_pronoun}一点时间。</description>
 				<statOffsets>
 					<MentalBreakThreshold>0.15</MentalBreakThreshold>
 					<PsychicSensitivity>0.3</PsychicSensitivity>
@@ -42,7 +42,7 @@
 		<degreeDatas>
 			<li>
 				<label>索然无味</label>
-				<description>没人能搞明白，W的脑瓜里到底在想什么。她对于大多数人的生命都毫不在乎，但是唯独对阿米娅是个例外。她会想什么呢？只有这个时候，她不会笑。
+				<description>没人能搞明白，{PAWN_nameDef}的脑瓜里到底在想什么。{PAWN_pronoun}对于大多数人的生命都毫不在乎，但是唯独对阿米娅是个例外。{PAWN_pronoun}会想什么呢？只有这个时候，{PAWN_pronoun}不会笑。
 萨卡兹应该是自由的。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.35</MentalBreakThreshold>
@@ -60,7 +60,7 @@
 		<degreeDatas>
 			<li>
 				<label>独特的萨卡兹</label>
-				<description>陨星小姐是萨卡兹中人的异类，她虽然也因为主流社会的排挤而戴上了冰冷的面具，但面具下那颗尚未冷却的心，是罗德岛中的每个干员都有目共睹的。</description>
+				<description>{PAWN_nameDef}小姐是萨卡兹中人的异类，{PAWN_pronoun}虽然也因为主流社会的排挤而戴上了冰冷的面具，但面具下那颗尚未冷却的心，是罗德岛中的每个干员都有目共睹的。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.25</MentalBreakThreshold>
 				</statOffsets>
@@ -77,7 +77,7 @@
 		<degreeDatas>
 			<li>
 				<label>安于现状</label>
-				<description>松果没有什么远大的理想，她只希望能够有一个稳定的工作，踏踏实实过日子。对于目前的生活状态，松果本人还算感到满意。</description>
+				<description>{PAWN_nameDef}没有什么远大的理想，{PAWN_pronoun}只希望能够有一个稳定的工作，踏踏实实过日子。对于目前的生活状态，{PAWN_pronoun}本人还算感到满意。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.05</MentalBreakThreshold>
 				</statOffsets>
@@ -94,8 +94,8 @@
 		<degreeDatas>
 			<li>
 				<label>“我感到迷惑”</label>
-				<description>送葬人作为拉特兰公证所的执行人，有着他人难以比拟的心理素质和战斗能力
-但是他的情商也是无法理解的低</description>
+				<description>{PAWN_nameDef}作为拉特兰公证所的执行人，有着他人难以比拟的心理素质和战斗能力
+但是{PAWN_possessive}情商也是无法理解的低</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.8</MentalBreakThreshold>
 				</statOffsets>
@@ -115,8 +115,8 @@
 		<degreeDatas>
 			<li>
 				<label>唯余复仇</label>
-				<description>请引导她，解开她身上的枷锁，带领她离开那座曾经幽暗的森林。
-让她沉重的复仇，连同枯叶掩埋在一起。</description>
+				<description>请引导{PAWN_pronoun}，解开{PAWN_pronoun}身上的枷锁，带领{PAWN_pronoun}离开那座曾经幽暗的森林。
+让{PAWN_pronoun}沉重的复仇，连同枯叶掩埋在一起。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.45</MentalBreakThreshold>
 				</statOffsets>
@@ -149,7 +149,7 @@
 		<degreeDatas>
 			<li>
 				<label>风息</label>
-				<description>远牙的思维像风一样迅速又自由，或许她也会在风中闻到家乡的气息。
+				<description>{PAWN_nameDef}的思维像风一样迅速又自由，或许{PAWN_pronoun}也会在风中闻到家乡的气息。
 				</description>
 				<statOffsets>
 					<GlobalLearningFactor>0.10</GlobalLearningFactor>
@@ -167,7 +167,7 @@
 		<degreeDatas>
 			<li>
 				<label>陈述苦难</label>
-				<description>菲亚梅塔作为拉特兰公证所外派干员经历了许多，现在她对于守护拉特兰的执念已经十分坚定
+				<description>{PAWN_nameDef}作为拉特兰公证所外派干员经历了许多，现在{PAWN_pronoun}对于守护拉特兰的执念已经十分坚定
 				</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.25</MentalBreakThreshold>
@@ -185,7 +185,7 @@
 		<degreeDatas>
 			<li>
 				<label>天使的祝福</label>
-				<description>能天使与大多数拉特兰人给人的印象不同，是个彻头彻尾的乐天派。
+				<description>{PAWN_nameDef}与大多数拉特兰人给人的印象不同，是个彻头彻尾的乐天派。
 精通各种娱乐方式，无论什么时候都能找到让自己高兴的办法，在团队中总是充当活跃气氛的那个人。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.4</MentalBreakThreshold>
@@ -203,7 +203,7 @@
 		<degreeDatas>
 			<li>
 				<label>虔诚</label>
-				<description>虽说空弦比起祷告更愿意拿起武器去捍卫拉特兰，但是对她来说，生活和信仰早已融为一体，现在她的所作所为，只是不想失去信仰罢了。</description>
+				<description>虽说{PAWN_nameDef}比起祷告更愿意拿起武器去捍卫拉特兰，但是对{PAWN_pronoun}来说，生活和信仰早已融为一体，现在{PAWN_possessive}所作所为，只是不想失去信仰罢了。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.25</MentalBreakThreshold>
 				</statOffsets>
@@ -220,7 +220,7 @@
 		<degreeDatas>
 			<li>
 				<label>悠闲自在</label>
-				<description>干员白金似乎很喜欢在合理的范围内偷懒，她喜欢那种自由自在的工作方式。</description>
+				<description>干员{PAWN_nameDef}似乎很喜欢在合理的范围内偷懒，{PAWN_pronoun}喜欢那种自由自在的工作方式。</description>
 				<statOffsets>
 					<WorkSpeedGlobal>-0.25</WorkSpeedGlobal>
 				</statOffsets>
@@ -237,7 +237,7 @@
 		<degreeDatas>
 			<li>
 				<label>飞羽的倒影</label>
-				<description>尽管灰喉对于感染者的态度已经不那么偏激了，但是她童年的遭遇让她对感染者有着潜意识的回避，她显然还没能逃脱出童年的阴影。</description>
+				<description>尽管{PAWN_nameDef}对于感染者的态度已经不那么偏激了，但是{PAWN_pronoun}童年的遭遇让她对感染者有着潜意识的回避，{PAWN_pronoun}显然还没能逃脱出童年的阴影。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.2</MentalBreakThreshold>
 				</statOffsets>
@@ -254,7 +254,7 @@
 		<degreeDatas>
 			<li>
 				<label>性格软弱</label>
-				<description>杰西卡的性格软弱，给大家的印象就是爱哭哭的形象。但是其实，她比你想象的要坚强。</description>
+				<description>{PAWN_nameDef}的性格软弱，给大家的印象就是爱哭哭的形象。但是其实，{PAWN_pronoun}比你想象的要坚强。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.15</MentalBreakThreshold>
 				</statOffsets>
@@ -272,8 +272,8 @@
 			<li>
 				<label>毒物</label>
 				<description>
-					针对自己作为毒物的这一事实，蓝毒表现出较为抗拒的态度。
-					但如果保证毒物能力能被其他干员所接受，并不再影响他人对蓝毒的态度的话，蓝毒是否能接受自己的毒物能力？
+					针对自己作为毒物的这一事实，{PAWN_nameDef}表现出较为抗拒的态度。
+					但如果保证毒物能力能被其他干员所接受，并不再影响他人对蓝毒的态度的话，{PAWN_pronoun}是否能接受自己的毒物能力？
 				</description>
 			</li>
 		</degreeDatas>
@@ -303,7 +303,7 @@
 		<degreeDatas>
 			<li>
 				<label>被封印的记忆</label>
-				<description>她不是真的忘了，只是会把记忆封存起来。她会懊恼自己为什么又忘了，很焦虑，很迷茫。她还是会自责。</description>
+				<description>{PAWN_nameDef}不是真的忘了，只是会把记忆封存起来。{PAWN_pronoun}会懊恼自己为什么又忘了，很焦虑，很迷茫。{PAWN_pronoun}还是会自责。</description>
 				<statOffsets>
 					<GlobalLearningFactor>-0.55</GlobalLearningFactor>
 				</statOffsets>
@@ -320,9 +320,9 @@
 		<degreeDatas>
 			<li>
 				<label>阴影里生存的人</label>
-				<description>黑只有在锡兰小姐身边时，才会收敛自己的本性。
-她的冷酷无情与漠视生命，才更接近她本性的一部分。那是刻在她灵魂中的东西。
-她灵魂中的邪恶仍然需要被驯服。</description>
+				<description>{PAWN_nameDef}只有在锡兰小姐身边时，才会收敛自己的本性。
+{PAWN_possessive}冷酷无情与漠视生命，才更接近{PAWN_pronoun}本性的一部分。那是刻在{PAWN_pronoun}灵魂中的东西。
+{PAWN_pronoun}灵魂中的邪恶仍然需要被驯服。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.4</MentalBreakThreshold>
 				</statOffsets>
@@ -339,7 +339,7 @@
 		<degreeDatas>
 			<li>
 				<label>踏入荒野之人</label>
-				<description>作为天灾信使能够保持乐观并不容易，但是普罗旺斯显然是其中的特例，她不但在天灾信使的工作上游刃有余，也很注重自己和大家的生活质量。</description>
+				<description>作为天灾信使能够保持乐观并不容易，但是{PAWN_nameDef}显然是其中的特例，{PAWN_pronoun}不但在天灾信使的工作上游刃有余，也很注重自己和大家的生活质量。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.3</MentalBreakThreshold>
 				</statOffsets>
@@ -356,7 +356,7 @@
 		<degreeDatas>
 			<li>
 				<label>阳光少女</label>
-				<description>尽管因为对感染者的天热歧视，四月一时难以接受自己成为感染者的事实，但是她还是依靠着阳光外向的性格扛了下来。并且慢慢适应罗德岛的生活。
+				<description>尽管因为对感染者的天热歧视，{PAWN_nameDef}一时难以接受自己成为感染者的事实，但是{PAWN_pronoun}还是依靠着阳光外向的性格扛了下来。并且慢慢适应罗德岛的生活。
 				</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.2</MentalBreakThreshold>

@@ -94,6 +94,8 @@ Cuora, Defender Operator of Rhodes Island, will provide reliable defense for the
 		</traits>
 		<age>20</age>
 		<childHood>AK_BackStory_Cuora_Child</childHood>
+		<standOffset>(-100,125)</standOffset>
+		<standRatio>3</standRatio>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Defender">
@@ -865,6 +867,8 @@ Saria, former researcher of Rhine Lab, will serve as a core part of the squad's 
 		</traits>
 		<age>20</age>
 		<adultHood>AK_BackStory_Croissant_Adult</adultHood>
+		<standOffset>(-100,200)</standOffset>
+		<standRatio>2.75</standRatio>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Defender">

@@ -391,6 +391,8 @@ Thorns, Guard Operator of Rhodes Island, wastes not an ounce of energy, calculat
 		<age>20</age>
 		<childHood>AK_BackStory_Thorns_Child</childHood>
 		<adultHood>AK_BackStory_Thorns_Adult</adultHood>
+		<standOffset>(-100,125)</standOffset>
+		<standRatio>3</standRatio>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Guard">
@@ -1067,6 +1069,8 @@ Operator Lappland can't wait to slash apart the enemies in front of her.</descri
 		<age>20</age>
 		<childHood>AK_BackStory_Lappland_Child</childHood>
 		<adultHood>AK_BackStory_Lappland_Adult</adultHood>
+		<standOffset>(-100,125)</standOffset>
+		<standRatio>3</standRatio>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Guard">
@@ -1161,6 +1165,8 @@ Mousse, Guard Operator of Rhodes Island, thinks of her enemies as oversized scra
 			</li>
 		</traits>
 		<childHood>AK_BackStory_Mousse_Child</childHood>
+		<standOffset>(-100,150)</standOffset>
+		<standRatio>3</standRatio>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Guard">
@@ -2296,6 +2302,8 @@ Mousse, Guard Operator of Rhodes Island, thinks of her enemies as oversized scra
 				<fireLevel>0</fireLevel>
 			</li>
 		</skills>
+		<standOffset>(-100,125)</standOffset>
+		<standRatio>3</standRatio>
 	</AK_DLL.OperatorDef>
 
 </Defs>

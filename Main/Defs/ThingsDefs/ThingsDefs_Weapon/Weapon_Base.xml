@@ -47,7 +47,7 @@
 
 	<ThingDef Name="AK_WeaponBase" Abstract="True">
 		<description>此干员的惯用武器。</description>
-		<thingClass>AK_DLL.OperatorWeapon</thingClass>
+		<thingClass>ThingWithComps</thingClass>
 		<category>Item</category>
 		<drawerType>MapMeshOnly</drawerType>
 		<drawGUIOverlay>true</drawGUIOverlay>
@@ -88,7 +88,7 @@
 				<capacities>
 				  <li>Blunt</li>
 				</capacities>
-				<power>14</power>
+				<power>21</power>
 				<cooldownTime>1.4</cooldownTime>
 				<chanceFactor>0.0001</chanceFactor>
 			</li>

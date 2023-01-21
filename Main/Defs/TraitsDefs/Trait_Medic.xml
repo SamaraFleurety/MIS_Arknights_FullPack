@@ -12,7 +12,7 @@
 		<degreeDatas>
 			<li>
 				<label>另一个声音</label>
-				<description>白面鸮脑中出现了另一个声音，一个不属于已知语言范畴的声音，这东西会给她的精神造成极大负担。
+				<description>{PAWN_nameDef}脑中出现了另一个声音，一个不属于已知语言范畴的声音，这东西会给{PAWN_possessive}精神造成极大负担。
 				只有使用机械性语言逻辑才能减轻这种痛苦。
 				</description>
 				<statOffsets>
@@ -31,7 +31,7 @@
 			<li>
 				<label>人形知识库</label>
 				<description>
-				作为数据维护员的白面鸮，脑子里装载着数量难以想象的知识，这会对她的工作和学习起到巨大的帮助。
+				作为数据维护员的{PAWN_nameDef}，脑子里装载着数量难以想象的知识，这会对{PAWN_possessive}工作和学习起到巨大的帮助。
 				</description>
 				<statOffsets>
 					<WorkSpeedGlobal>0.3</WorkSpeedGlobal>
@@ -52,7 +52,7 @@
 			<li>
 				<label>真正的学者</label>
 				<description>
-				赫默拥有敏锐的洞察力以及极强的执行力。她就像一台精密的机器，不会出现一丝一毫的错误。她手下的科研小组也耳濡目染，整个组的氛围都显得有些忙碌和紧凑。
+				{PAWN_nameDef}拥有敏锐的洞察力以及极强的执行力。{PAWN_pronoun}就像一台精密的机器，不会出现一丝一毫的错误。{PAWN_pronoun}手下的科研小组也耳濡目染，整个组的氛围都显得有些忙碌和紧凑。
 				</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.1</MentalBreakThreshold>
@@ -74,10 +74,10 @@
 			<li>
 				<label>奇特却坚定的医师</label>
 				<description>
-				嘉维尔经常会被怀疑手中的魔杖是用来敲人而非使用治疗法术的。
-				但在她口中，成为医生而被族人排挤也好，感染矿石病后遭受的冷眼也好，似乎都是不值一提的小事。
-				她现在在这里，她为每个人疗伤，对她来说，这样就足够了。
-				这样的嘉维尔小姐，是值得每个人去尊敬和学习的。
+				{PAWN_nameDef}经常会被怀疑手中的魔杖是用来敲人而非使用治疗法术的。
+				但在{PAWN_pronoun}口中，成为医生而被族人排挤也好，感染矿石病后遭受的冷眼也好，似乎都是不值一提的小事。
+				{PAWN_pronoun}现在在这里，她为每个人疗伤，对{PAWN_pronoun}来说，这样就足够了。
+				这样的{PAWN_pronoun}，是值得每个人去尊敬和学习的。
 				</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.25</MentalBreakThreshold>
@@ -97,7 +97,7 @@
 			<li>
 				<label>手有余香</label>
 				<description>
-				就职于疗养庭园期间，莱娜展现出的温柔，耐心和十足的修养，以及足以令人沉醉其中的调制香薰，使她在干员之间颇受欢迎。</description>
+				就职于疗养庭园期间，{PAWN_nameDef}展现出的温柔，耐心和十足的修养，以及足以令人沉醉其中的调制香薰，使{PAWN_pronoun}在干员之间颇受欢迎。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.15</MentalBreakThreshold>
 				</statOffsets>
@@ -134,7 +134,7 @@
 		<degreeDatas>
 			<li>
 				<label>慈悲</label>
-				<description>闪灵的眼神中仿佛永久带着慈悲，虽然她拥有着她人无可比拟的剑术，但是她在绝大多数时候拒绝使用暴力。
+				<description>{PAWN_nameDef}的眼神中仿佛永久带着慈悲，虽然{PAWN_pronoun}拥有着她人无可比拟的剑术，但是{PAWN_pronoun}在绝大多数时候拒绝使用暴力。
 				</description>
 			</li>
 		</degreeDatas>
@@ -209,7 +209,7 @@
 			<li>
 				<label>无所不知</label>
 				<description>
-				凯尔希在在冶金工业、社会学、源石技艺、考古学、历史系谱学、经济学、植物学、地质学等领域皆拥有渊博学识。就像是无所不知一般。
+				{PAWN_nameDef}在在冶金工业、社会学、源石技艺、考古学、历史系谱学、经济学、植物学、地质学等领域皆拥有渊博学识。就像是无所不知一般。
 				</description>
 				<statOffsets>
 					<WorkSpeedGlobal>0.4</WorkSpeedGlobal>
@@ -231,8 +231,8 @@
 			<li>
 				<label>血先生</label>
 				<description>
-				尽管华法林有着各种天马行空的想法和淡泊的道德，但是她还是维持了一个医生与淑女基础的素养。
-				而且她的医术真的很高超，并也在尽力克服她的种群本能。
+				尽管{PAWN_nameDef}有着各种天马行空的想法和淡泊的道德，但是{PAWN_pronoun}还是维持了一个医生与淑女基础的素养。
+				而且{PAWN_possessive}医术真的很高超，并也在尽力克服{PAWN_possessive}种群本能。
 				</description>
 				<statOffsets>
 					<GlobalLearningFactor>0.4</GlobalLearningFactor>
@@ -251,8 +251,8 @@
 			<li>
 				<label>道德淡泊</label>
 				<description>
-				华法林的道德感相当的淡泊，她只要想到了什么点子，就会立刻去实践，而且完全不会顾及天理伦常。
-				即使是被多次说教也毫无用处，说到底，她大概也根本没在反省就是了。
+				{PAWN_nameDef}的道德感相当的淡泊，{PAWN_pronoun}只要想到了什么点子，就会立刻去实践，而且完全不会顾及天理伦常。
+				即使是被多次说教也毫无用处，说到底，{PAWN_pronoun}大概也根本没在反省就是了。
 				</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.15</MentalBreakThreshold>

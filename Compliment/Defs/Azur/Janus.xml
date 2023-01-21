@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase">
+		<defName>FS_Recruit_Janus</defName>
+		<nickname>Janus</nickname>
+		<surname>Class J</surname>
+		<description>ロイヤル所属、Jクラスの駆逐艦。
+善良で素直、自分のことよりあくまで他人を優先する思いやりの天使。
+…が、時々気を使いすぎてオドオドしてしまい、親友のジャーヴィスに心配されることも。</description>
+		<operatorType>FS_OperatorClass_Azur</operatorType>
+		<bodyTypeDef>Thin</bodyTypeDef>		
+		<stand>Azur/Janus/JanusStand</stand>
+		<headPortrait>Azur/Janus/JanusPortrait</headPortrait>
+		<skills>
+			<li>
+				<skill>Animals</skill>
+				<level>3</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Artistic</skill>
+				<level>12</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Construction</skill>
+				<level>0</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Cooking</skill>
+				<level>7</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Crafting</skill>
+				<level>0</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Intellectual</skill>
+				<level>5</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<level>0</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<level>0</level>
+				<fireLevel></fireLevel>
+			</li>
+			<li>
+				<skill>Mining</skill>
+				<level>0</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Plants</skill>
+				<level>0</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<level>10</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<level>1</level>
+				<fireLevel>1</fireLevel>
+			</li>
+		</skills>
+		<traits>
+			<li>
+				<def>Beauty</def>
+				<degree>2</degree>
+			</li>
+			<li>
+				<def>Kind</def>
+			</li>
+			<li>
+				<def>Wimp</def>
+			</li>
+		</traits>
+		<age>14</age>
+		<abilities>
+			<li>AK_Test_Trap</li>
+			<li>AK_Test_TrapT</li>
+			<li>AK_Test_ignit</li>
+		</abilities>
+		<standRatio>2.5</standRatio>
+		<standOffset>(0, 0)</standOffset>
+	</AK_DLL.OperatorDef>
+	
+	<HairDef ParentName="AK_HairBaseF">
+		<defName>FS_Hair_Janus</defName>
+		<label>雅努斯发型</label>
+		<texPath>Azur/Janus/JanusHair</texPath>
+	</HairDef>  
+	
+	<ThingDef ParentName="AK_ArmorBase">
+		<defName>FS_Apparel_Janus</defName>
+		<label>万圣喵喵惊悚夜</label>
+		<description>雅努斯在万圣节穿的衣服。
+"写进日记里的话，感觉将来回头看时会害怕…总，总之写些不可怕的内容——'不小心撞到了指挥官，接着一起度过了万圣节…'——这样就好了吧…"</description>
+		<graphicData>
+		  <texPath>Things/AK_Agents/GApparel</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+		  <wornGraphicPath>Azur/Janus/Janus</wornGraphicPath>
+		</apparel>
+    </ThingDef>
+	
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>FS_BackStory_Janus_Child</defName>
+		<slot>Childhood</slot>
+		<title>J级驱逐舰</title>
+		<titleShort>驱逐舰</titleShort>
+		<baseDesc>雅努斯号（HMS Janus，F53/G53）是英国皇家海军的J级驱逐舰之一，该舰的命名来自罗马神话中的“两面神雅努斯”。
+　　雅努斯于1937年9月29日开工，1938年11月10日下水，1939年8月5日服役。</baseDesc>
+	</BackstoryDef>
+</Defs>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<!-- 近卫干员特性文件 --> <!-- 已排序 -->
+	<!-- 近卫干员特性文件 -->	<!-- 已排序 -->
 
-<!-- Frostleaf 霜叶 -->
+	<!-- Frostleaf 霜叶 -->
 	<TraitDef>
 		<defName>AK_Trait_Frostleaf</defName>
 		<ignoreConfigErrors>true</ignoreConfigErrors>
@@ -11,7 +11,7 @@
 		<degreeDatas>
 			<li>
 				<label>少年兵</label>
-				<description>霜叶的童年是在哥伦比亚与周边国家一场又一场的小型战争中度过的，即使是加入了罗德岛她也无法淡忘她的过去。</description>
+				<description>{PAWN_nameDef}的童年是在哥伦比亚与周边国家一场又一场的小型战争中度过的，即使是加入了罗德岛{PAWN_pronoun}也无法淡忘{PAWN_possessive}过去。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.15</MentalBreakThreshold>
 				</statOffsets>
@@ -19,7 +19,7 @@
 		</degreeDatas>
 	</TraitDef>
 
-<!-- Mousse 慕斯 -->
+	<!-- Mousse 慕斯 -->
 	<TraitDef>
 		<defName>AK_Trait_Mousse</defName>
 		<ignoreConfigErrors>true</ignoreConfigErrors>
@@ -27,7 +27,7 @@
 		<degreeDatas>
 			<li>
 				<label>敏感的孩子</label>
-				<description>慕斯的天性非常敏感，她并不适应贵族的生活，也不适应与他人相处。她比起人更亲近她的“猫猫”。</description>
+				<description>{PAWN_nameDef}的天性非常敏感，{PAWN_pronoun}并不适应贵族的生活，也不适应与他人相处。{PAWN_pronoun}比起人更亲近她的“猫猫”。</description>
 				<statOffsets>
 					<MentalBreakThreshold>0.05</MentalBreakThreshold>
 					<PsychicSensitivity>0.3</PsychicSensitivity>
@@ -36,7 +36,7 @@
 		</degreeDatas>
 	</TraitDef>
 
-<!-- Cutter 刻刀 -->
+	<!-- Cutter 刻刀 -->
 	<TraitDef>
 		<defName>AK_Trait_Cutter</defName>
 		<ignoreConfigErrors>true</ignoreConfigErrors>
@@ -44,16 +44,16 @@
 		<degreeDatas>
 			<li>
 				<label>灾难般的烹饪</label>
-				<description>干员刻刀对烹饪有一种莫名的喜爱，但她的动手成果往往不尽......人意。</description>
+				<description>干员{PAWN_nameDef}对烹饪有一种莫名的喜爱，但{PAWN_possessive}动手成果往往不尽......人意。</description>
 				<statOffsets>
-				    <CookSpeed>-0.95</CookSpeed>
+					<CookSpeed>-0.95</CookSpeed>
 					<FoodPoisonChance>3.0</FoodPoisonChance>
 				</statOffsets>
 			</li>
 		</degreeDatas>
 	</TraitDef>
 
-<!-- Thorns 棘刺 -->
+	<!-- Thorns 棘刺 -->
 	<TraitDef>
 		<defName>AK_Trait_Thorns</defName>
 		<ignoreConfigErrors>true</ignoreConfigErrors>
@@ -61,8 +61,8 @@
 		<degreeDatas>
 			<li>
 				<label>洒脱</label>
-				<description>干员棘刺表面看起来态度冷淡，说话也不好听，但他的脾性实际上却十分率直且洒脱。
-				至于自己直率的言行所招来的误解，干员棘刺并不在乎</description>
+				<description>干员{PAWN_nameDef}表面看起来态度冷淡，说话也不好听，但{PAWN_possessive}脾性实际上却十分率直且洒脱。
+				至于自己直率的言行所招来的误解，{PAWN_pronoun}并不在乎</description>
 				<statOffsets>
 					<PsychicSensitivity>-0.15</PsychicSensitivity>
 					<MentalBreakThreshold>-0.4</MentalBreakThreshold>
@@ -71,7 +71,7 @@
 		</degreeDatas>
 	</TraitDef>
 
-<!-- Franka 芙兰卡 -->
+	<!-- Franka 芙兰卡 -->
 	<TraitDef>
 		<defName>AK_Trait_Franka</defName>
 		<ignoreConfigErrors>true</ignoreConfigErrors>
@@ -79,8 +79,8 @@
 		<degreeDatas>
 			<li>
 				<label>轻浮</label>
-				<description>芙兰卡性格略显轻浮，作风较为激进，以戏耍他人为乐——无论面对的是敌人还是自己的同伴。
-				不过其实抛开这些，芙兰卡是一个很温柔的人。</description>
+				<description>{PAWN_nameDef}性格略显轻浮，作风较为激进，以戏耍他人为乐——无论面对的是敌人还是自己的同伴。
+				不过其实抛开这些，{PAWN_pronoun}是一个很温柔的人。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.2</MentalBreakThreshold>
 				</statOffsets>
@@ -88,7 +88,7 @@
 		</degreeDatas>
 	</TraitDef>
 
-<!-- Blaze 煌 -->
+	<!-- Blaze 煌 -->
 	<TraitDef>
 		<defName>AK_Trait_Blaze</defName>
 		<ignoreConfigErrors>true</ignoreConfigErrors>
@@ -96,7 +96,7 @@
 		<degreeDatas>
 			<li>
 				<label>热情似火</label>
-				<description>易燃，易爆，易炸！煌的热情如同她的战斗方式一般热情似火！</description>
+				<description>易燃，易爆，易炸！{PAWN_nameDef}的热情如同{PAWN_possessive}战斗方式一般热情似火！</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.35</MentalBreakThreshold>
 					<PainShockThreshold>-0.3</PainShockThreshold>
@@ -109,7 +109,7 @@
 		</degreeDatas>
 	</TraitDef>
 
-<!-- Swier 诗怀雅 -->
+	<!-- Swier 诗怀雅 -->
 	<TraitDef>
 		<defName>AK_Trait_Swire</defName>
 		<ignoreConfigErrors>true</ignoreConfigErrors>
@@ -117,7 +117,7 @@
 		<degreeDatas>
 			<li>
 				<label>挑剔的大小姐</label>
-				<description>只是为了教官训练室的地毯造型，诗怀雅也能耿耿于怀很久，她对于周边的东西似乎有一种强迫症一样的挑剔。</description>
+				<description>只是为了教官训练室的地毯造型，{PAWN_nameDef}也能耿耿于怀很久，{PAWN_pronoun}对于周边的东西似乎有一种强迫症一样的挑剔。</description>
 				<statOffsets>
 					<MentalBreakThreshold>0.05</MentalBreakThreshold>
 					<WorkSpeedGlobal>-0.15</WorkSpeedGlobal>
@@ -126,7 +126,7 @@
 		</degreeDatas>
 	</TraitDef>
 
-<!-- Surtr 史尔特尔 -->
+	<!-- Surtr 史尔特尔 -->
 	<TraitDef>
 		<defName>AK_Trait_Surtr</defName>
 		<ignoreConfigErrors>true</ignoreConfigErrors>
@@ -134,8 +134,8 @@
 		<degreeDatas>
 			<li>
 				<label>破碎的记忆</label>
-				<description>史尔特尔的脑内充斥着各种各样混乱的，重叠的记忆，而且有着大量的断层。
-				不知道这些真的是史尔特尔亲身的体验，还是她把一些见闻当成是了自己的经历</description>
+				<description>{PAWN_nameDef}的脑内充斥着各种各样混乱的，重叠的记忆，而且有着大量的断层。
+				不知道这些真的是{PAWN_pronoun}亲身的体验，还是{PAWN_pronoun}把一些见闻当成是了自己的经历</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.35</MentalBreakThreshold>
 				</statOffsets>
@@ -143,7 +143,7 @@
 		</degreeDatas>
 	</TraitDef>
 
-<!-- Surtr 鞭刃 -->
+	<!-- Surtr 鞭刃 -->
 	<TraitDef>
 		<defName>AK_Trait_Whislash</defName>
 		<ignoreConfigErrors>true</ignoreConfigErrors>
@@ -151,12 +151,12 @@
 		<degreeDatas>
 			<li>
 				<label>先入为主</label>
-				<description>虽然鞭刃本人并没有什么恶意，不过在与她交谈时总是会感到她有些颐指气使，而且因为她的强硬性格，造成与她相处有些困难，不过在克服这种先入为主的印象后会发现并不难相处。</description>
+				<description>虽然{PAWN_nameDef}本人并没有什么恶意，不过在与{PAWN_pronoun}交谈时总是会感到她有些颐指气使，而且因为{PAWN_possessive}强硬性格，造成与{PAWN_pronoun}相处有些困难，不过在克服这种先入为主的印象后会发现并不难相处。</description>
 			</li>
 		</degreeDatas>
 	</TraitDef>
 
-<!-- Lappland 拉普兰德 -->
+	<!-- Lappland 拉普兰德 -->
 	<TraitDef>
 		<defName>AK_Trait_Lappland</defName>
 		<ignoreConfigErrors>true</ignoreConfigErrors>
@@ -164,8 +164,8 @@
 		<degreeDatas>
 			<li>
 				<label>优雅的刽子手</label>
-				<description>有人认为拉普兰德是一个十足的战斗狂人，实际阿上，她在日常中表现得颇为有礼，她会主动与人攀谈，讲一些有点残酷的黑色笑话，同时观察听者的反应。
-				但即使在她最放松的时候，她依旧会令人畏惧。</description>
+				<description>有人认为{PAWN_nameDef}是一个十足的战斗狂人，实际阿上，{PAWN_pronoun}在日常中表现得颇为有礼，{PAWN_pronoun}会主动与人攀谈，讲一些有点残酷的黑色笑话，同时观察听者的反应。
+				但即使在{PAWN_pronoun}最放松的时候，{PAWN_pronoun}依旧会令人畏惧。</description>
 				<statOffsets>
 					<MentalBreakThreshold>0.25</MentalBreakThreshold>
 				</statOffsets>
@@ -173,7 +173,7 @@
 		</degreeDatas>
 	</TraitDef>
 
-<!-- Silverash 银灰 -->
+	<!-- Silverash 银灰 -->
 	<TraitDef>
 		<defName>AK_Trait_Silverash</defName>
 		<ignoreConfigErrors>true</ignoreConfigErrors>
@@ -181,7 +181,7 @@
 		<degreeDatas>
 			<li>
 				<label>领袖</label>
-				<description>作为喀兰之主的银灰，只是站在战场上就让人有一种可靠感，无论是战略策划还是战术指挥，多数干员都会为银灰的实力所折服。</description>
+				<description>作为喀兰之主的{PAWN_nameDef}，只是站在战场上就让人有一种可靠感，无论是战略策划还是战术指挥，多数干员都会为{PAWN_possessive}实力所折服。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.3</MentalBreakThreshold>
 					<GlobalLearningFactor>0.5</GlobalLearningFactor>
@@ -190,7 +190,7 @@
 		</degreeDatas>
 	</TraitDef>
 
-<!-- DeepHunter 深海猎人 -->
+	<!-- DeepHunter 深海猎人 -->
 	<TraitDef>
 		<defName>AK_Trait_DeepHunter</defName>
 		<ignoreConfigErrors>true</ignoreConfigErrors>
@@ -207,7 +207,7 @@
 		</degreeDatas>
 	</TraitDef>
 
-<!-- Skadi 斯卡蒂 -->
+	<!-- Skadi 斯卡蒂 -->
 	<TraitDef>
 		<defName>AK_Trait_Skadi</defName>
 		<ignoreConfigErrors>true</ignoreConfigErrors>
@@ -215,12 +215,12 @@
 		<degreeDatas>
 			<li>
 				<label>涌潮悲歌</label>
-				<description>“用家乡语言写下的歌谱。虽然完全没法理解这种文字，但她确实是打算教你这首歌的。”</description>
+				<description>“用家乡语言写下的歌谱。虽然完全没法理解这种文字，但{PAWN_pronoun}确实是打算教你这首歌的。”</description>
 			</li>
 		</degreeDatas>
 	</TraitDef>
 
-<!-- Specter 幽灵鲨 -->
+	<!-- Specter 幽灵鲨 -->
 	<TraitDef>
 		<defName>AK_Trait_SpecterSecond</defName>
 		<ignoreConfigErrors>true</ignoreConfigErrors>
@@ -243,7 +243,7 @@
 		<degreeDatas>
 			<li>
 				<label>疯狂的深海猎人</label>
-				<description>尽管幽灵鲨现在的神志已经清醒，而且她表现的即洒脱而不失优雅，不过既然文明遇上了害兽，她依旧不介意成为一个屠夫。</description>
+				<description>尽管{PAWN_nameDef}现在的神志已经清醒，而且{PAWN_pronoun}表现的即洒脱而不失优雅，不过既然文明遇上了害兽，{PAWN_pronoun}依旧不介意成为一个屠夫。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.1</MentalBreakThreshold>
 				</statOffsets>
@@ -251,7 +251,7 @@
 		</degreeDatas>
 	</TraitDef>
 
-<!-- Chen 陈 -->
+	<!-- Chen 陈 -->
 	<TraitDef>
 		<defName>AK_Trait_Chen</defName>
 		<ignoreConfigErrors>true</ignoreConfigErrors>
@@ -285,7 +285,7 @@
 		</degreeDatas>
 	</TraitDef>
 
-<!--  Estelle 艾丝黛尔 -->
+	<!--  Estelle 艾丝黛尔 -->
 	<TraitDef>
 		<ignoreConfigErrors>true</ignoreConfigErrors>
 		<commonality>0.0</commonality>
@@ -293,7 +293,7 @@
 		<degreeDatas>
 			<li>
 				<label>怪胎</label>
-				<description>艾斯黛尔的双角因为矿石病引发异变而变得极度巨大，这不光给她惹来了不必要的注意，也使她遭受了诸多非议
+				<description>{PAWN_nameDef}的双角因为矿石病引发异变而变得极度巨大，这不光给{PAWN_pronoun}惹来了不必要的注意，也使{PAWN_pronoun}遭受了诸多非议
 				</description>
 				<statOffsets>
 					<MentalBreakThreshold>0.1</MentalBreakThreshold>
@@ -302,7 +302,7 @@
 		</degreeDatas>
 	</TraitDef>
 
-<!--  Flint 燧石 -->
+	<!--  Flint 燧石 -->
 	<TraitDef>
 		<ignoreConfigErrors>true</ignoreConfigErrors>
 		<commonality>0.0</commonality>
@@ -310,7 +310,7 @@
 		<degreeDatas>
 			<li>
 				<label>雨林的战士</label>
-				<description>对于燧石来说很多很多事情都被人们看的太过复杂，虽然她做好了挡下一切的准备，但是她还需要时间去了解有多少事能够用她的拳头解决，又有多少事总是无能为力
+				<description>对于{PAWN_nameDef}来说很多很多事情都被人们看的太过复杂，虽然{PAWN_pronoun}做好了挡下一切的准备，但是{PAWN_pronoun}还需要时间去了解有多少事能够用{PAWN_possessive}拳头解决，又有多少事总是无能为力
 				</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.12</MentalBreakThreshold>
@@ -326,13 +326,13 @@
 		<degreeDatas>
 			<li>
 				<label>好斗</label>
-				<description>燧石经常和人打架，不是因为她喜欢招惹别人，而是因为她单纯喜欢通过与人打斗的方式来提升自己的实力
+				<description>{PAWN_nameDef}经常和人打架，不是因为她喜欢招惹别人，而是因为{PAWN_pronoun}单纯喜欢通过与人打斗的方式来提升自己的实力
 				</description>
 			</li>
 		</degreeDatas>
 	</TraitDef>
 
-<!--  LaPluma 羽毛笔 -->
+	<!--  LaPluma 羽毛笔 -->
 	<TraitDef>
 		<ignoreConfigErrors>true</ignoreConfigErrors>
 		<commonality>0.0</commonality>
@@ -340,7 +340,7 @@
 		<degreeDatas>
 			<li>
 				<label>适应力</label>
-				<description>不同于平常，羽毛笔总能适应战场上的各种情况，并且能够准确的完成所有任务
+				<description>不同于平常，{PAWN_nameDef}总能适应战场上的各种情况，并且能够准确的完成所有任务
 				</description>
 				<statOffsets>
 					<MentalBreakThreshold>0.2</MentalBreakThreshold>
@@ -357,7 +357,7 @@
 		<degreeDatas>
 			<li>
 				<label>放空</label>
-				<description>羽毛笔平日里看上去总是很迷糊，性格也有点轻飘飘的感觉
+				<description>{PAWN_nameDef}平日里看上去总是很迷糊，性格也有点轻飘飘的感觉
 				</description>
 				<statOffsets>
 					<GlobalLearningFactor>-0.15</GlobalLearningFactor>
@@ -366,7 +366,7 @@
 		</degreeDatas>
 	</TraitDef>
 
-<!--  Teqiila 龙舌兰 -->
+	<!--  Teqiila 龙舌兰 -->
 	<TraitDef>
 		<ignoreConfigErrors>true</ignoreConfigErrors>
 		<commonality>0.0</commonality>
@@ -374,7 +374,7 @@
 		<degreeDatas>
 			<li>
 				<label>伺机而动</label>
-				<description>尽管相比堪称天真的羽毛笔来说龙舌兰有着更丰富的处事经验，但是龙舌兰毕竟还是年轻人，他依旧会对自己的未来感到迷茫，不过他总会有办法与时间处理这些问题的。
+				<description>尽管相比堪称天真的羽毛笔来说{PAWN_nameDef}有着更丰富的处事经验，但是{PAWN_pronoun}毕竟还是年轻人，{PAWN_pronoun}依旧会对自己的未来感到迷茫，不过{PAWN_pronoun}总会有办法与时间处理这些问题的。
 				</description>
 				<statOffsets>
 					<MentalBreakThreshold>0.2</MentalBreakThreshold>
@@ -383,7 +383,7 @@
 		</degreeDatas>
 	</TraitDef>
 
-<!-- Irene 艾丽妮 -->
+	<!-- Irene 艾丽妮 -->
 	<TraitDef>
 		<ignoreConfigErrors>true</ignoreConfigErrors>
 		<commonality>0.0</commonality>
@@ -391,7 +391,7 @@
 		<degreeDatas>
 			<li>
 				<label>审判官</label>
-				<description>作为一名伊比利亚的审判官，艾丽妮的敌人是来自于深海的海嗣，这种特殊的敌人铸就了艾丽妮坚韧的精神
+				<description>作为一名伊比利亚的审判官，{PAWN_nameDef}的敌人是来自于深海的海嗣，这种特殊的敌人铸就了{PAWN_pronoun}坚韧的精神
 				</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.45</MentalBreakThreshold>
@@ -400,7 +400,7 @@
 		</degreeDatas>
 	</TraitDef>
 
-		<TraitDef>
+	<TraitDef>
 		<ignoreConfigErrors>true</ignoreConfigErrors>
 		<commonality>0.0</commonality>
 		<defName>AK_Trait_IreneSecond</defName>
@@ -413,7 +413,7 @@
 		</degreeDatas>
 	</TraitDef>
 
-<!-- Pallas 帕拉斯 -->
+	<!-- Pallas 帕拉斯 -->
 	<TraitDef>
 		<ignoreConfigErrors>true</ignoreConfigErrors>
 		<commonality>0.0</commonality>
@@ -421,7 +421,7 @@
 		<degreeDatas>
 			<li>
 				<label>胜利女神</label>
-				<description>即使是离开了胜利神殿，成为了一个偏远村庄的小祭司，帕拉斯的热情却从未平息过，即使是在小村庄，她也能通过自己的努力赢得所有人的尊敬
+				<description>即使是离开了胜利神殿，成为了一个偏远村庄的小祭司，{PAWN_nameDef}的热情却从未平息过，即使是在小村庄，{PAWN_pronoun}也能通过自己的努力赢得所有人的尊敬
 				</description>
 			</li>
 		</degreeDatas>
@@ -434,7 +434,7 @@
 		<degreeDatas>
 			<li>
 				<label>神性</label>
-				<description>或许是因为过去在胜利神殿的经历，帕拉斯的身上带有一股神秘的气质，虽然她十分乐意与人交谈……但显然她说的话不是很好懂。
+				<description>或许是因为过去在胜利神殿的经历，{PAWN_nameDef}的身上带有一股神秘的气质，虽然{PAWN_pronoun}十分乐意与人交谈……但显然{PAWN_pronoun}说的话不是很好懂。
 				</description>
 			</li>
 		</degreeDatas>
@@ -478,7 +478,7 @@
 		</degreeDatas>
 	</TraitDef>
 
-<!-- 铸铁 -->
+	<!-- 铸铁 -->
 
 	<TraitDef>
 		<ignoreConfigErrors>true</ignoreConfigErrors>
@@ -487,18 +487,18 @@
 		<degreeDatas>
 			<li>
 				<label>尽心尽力</label>
-				<description>铸铁表现出的冷淡完全遮挡不住发自内心的操劳与关怀，如果在合适的雇主手下做事，往往会达成事半功倍的效果。
+				<description>{PAWN_nameDef}表现出的冷淡完全遮挡不住发自内心的操劳与关怀，如果在合适的雇主手下做事，往往会达成事半功倍的效果。
 				</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.20</MentalBreakThreshold>
 					<SocialImpact>0.20</SocialImpact>
 					<WorkSpeedGlobal>0.25</WorkSpeedGlobal>
-				</statOffsets>				
+				</statOffsets>
 			</li>
 		</degreeDatas>
 	</TraitDef>
 
-<!-- 星极 -->
+	<!-- 星极 -->
 
 	<TraitDef>
 		<ignoreConfigErrors>true</ignoreConfigErrors>
@@ -523,12 +523,12 @@
 		<degreeDatas>
 			<li>
 				<label>神秘主义</label>
-				<description>因为家庭环境的影响与神秘学的传承，加上教育的缘故，星极比起科学解释更喜欢用星象学的推论，这造成星极的很多思想总是或多或少的受到了神秘主义的影响。这造成她的某些思维相当保守，而且对一些科技也有着明显的是排斥。
+				<description>因为家庭环境的影响与神秘学的传承，加上教育的缘故，{PAWN_nameDef}比起科学解释更喜欢用星象学的推论，这造成{PAWN_possessive}很多思想总是或多或少的受到了神秘主义的影响。这造成{PAWN_possessive}某些思维相当保守，而且对一些科技也有着明显的是排斥。
 				</description>
 				<statOffsets>
 					<PsychicSensitivity>0.30</PsychicSensitivity>
 					<ResearchSpeed>-0.30</ResearchSpeed>
-				</statOffsets>				
+				</statOffsets>
 			</li>
 		</degreeDatas>
 	</TraitDef>

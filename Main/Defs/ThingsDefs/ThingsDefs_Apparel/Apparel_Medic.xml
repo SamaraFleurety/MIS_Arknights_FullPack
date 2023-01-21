@@ -11,14 +11,6 @@
     <apparel>
       <wornGraphicPath>Things/AK_Agents/Medic/Gavial</wornGraphicPath>
     </apparel>
-	<comps>
-	    <li Class="AK_DLL.CompProperties_Ability">
-			<abilityDef>AK_Ability_BaseHeal</abilityDef>
-			<maxCharges>1</maxCharges>
-			<destroyOnEmpty>false</destroyOnEmpty>
-			<displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
-		</li>
-	</comps>
   </ThingDef>
   
   <ThingDef ParentName="AK_ArmorBase_Medic">

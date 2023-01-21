@@ -12,7 +12,7 @@
 		<degreeDatas>
 			<li>
 				<label>猎狼人</label>
-				<description>目前而言，红切实地展现出了无法被解释的辨别能力，尽管目前而言这种认知差已经被大多数人接受，但是尽量还是要避免红与其他鲁珀族干员的接触。</description>
+				<description>目前而言，{PAWN_nameDef}切实地展现出了无法被解释的辨别能力，尽管目前而言这种认知差已经被大多数人接受，但是尽量还是要避免{PAWN_pronoun}与其他鲁珀族干员的接触。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.15</MentalBreakThreshold>
 				</statOffsets>
@@ -29,8 +29,8 @@
 		<degreeDatas>
 			<li>
 				<label>极端洁癖</label>
-				<description>就连与她对话的人的衣服褶皱，温蒂都会耿耿于怀。
-这种对于洁净难以理解的追求对温蒂的生活与工作造成巨大影响。</description>
+				<description>就连与她对话的人的衣服褶皱，{PAWN_nameDef}都会耿耿于怀。
+这种对于洁净难以理解的追求对{PAWN_possessive}生活与工作造成巨大影响。</description>
 				<statOffsets>
 					<MentalBreakThreshold>0.15</MentalBreakThreshold>
 					<WorkSpeedGlobal>-0.3</WorkSpeedGlobal>
@@ -80,7 +80,7 @@
 		<degreeDatas>
 			<li>
 				<label>登山家的热情</label>
-				<description>崖心是天生的探险家和攀登者，她的反射神经与耐力远超大多数人的想象，借助简单的道具，崖心能够跨越令常人止步的天堑。</description>
+				<description>{PAWN_nameDef}是天生的探险家和攀登者，{PAWN_possessive}反射神经与耐力远超大多数人的想象，借助简单的道具，{PAWN_pronoun}能够跨越令常人止步的天堑。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.4</MentalBreakThreshold>
 				</statOffsets>
@@ -97,7 +97,7 @@
 		<degreeDatas>
 			<li>
 				<label>装乖</label>
-				<description>卡夫卡事实上完全不在乎有人因为这副面具而讨厌她，不如说她乐得如此，她不想被很多人喜欢，也不想去喜欢很多人，这种刻意的装乖就是她认为的，和其他人保持距离感的最佳工具。
+				<description>{PAWN_nameDef}事实上完全不在乎有人因为这副面具而讨厌{PAWN_pronoun}，不如说{PAWN_pronoun}乐得如此，{PAWN_pronoun}不想被很多人喜欢，也不想去喜欢很多人，这种刻意的装乖就是她认为的，和其他人保持距离感的最佳工具。
 				</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.1</MentalBreakThreshold>
@@ -115,7 +115,7 @@
 		<degreeDatas>
 			<li>
 				<label>让所有人都幸福</label>
-				<description>借助科技与理想的力量，她希望人与人之间的差距可以被消除，弱小之人，能得到来自她的庇护。
+				<description>借助科技与理想的力量，{PAWN_pronoun}希望人与人之间的差距可以被消除，弱小之人，能得到来自{PAWN_possessive}庇护。
 				</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.25</MentalBreakThreshold>

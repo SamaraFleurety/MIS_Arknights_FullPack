@@ -15,7 +15,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>18</power>
+        <power>27</power>
         <cooldownTime>1.4</cooldownTime>
       </li>
       <li>
@@ -23,7 +23,7 @@
         <capacities>
           <li>Stab</li>
         </capacities>
-        <power>24</power>
+        <power>36</power>
         <armorPenetration>1.1</armorPenetration>
         <cooldownTime>1.2</cooldownTime>
       </li>
@@ -32,7 +32,7 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>22</power>
+        <power>33</power>
         <armorPenetration>1.1</armorPenetration>
         <cooldownTime>1.8</cooldownTime>
       </li>
@@ -41,7 +41,7 @@
         <capacities>
           <li>Poke</li>
         </capacities>
-        <power>23</power>
+        <power>34</power>
         <armorPenetration>1.1</armorPenetration>
         <cooldownTime>1.0</cooldownTime>
       </li>
@@ -50,7 +50,7 @@
         <capacities>
           <li>Poke</li>
         </capacities>
-        <power>18</power>
+        <power>27</power>
         <cooldownTime>1.6</cooldownTime>
       </li>
       <li>
@@ -58,7 +58,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>14</power>
+        <power>21</power>
         <cooldownTime>1.2</cooldownTime>
       </li>
     </tools>
@@ -87,7 +87,7 @@
         <defaultProjectile>AK_Bullet_Robin</defaultProjectile>
         <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
         <warmupTime>1.2</warmupTime>        <!--前摇-->
-        <range>12</range>
+        <range>30</range>
         <targetParams>
           <canTargetLocations>true</canTargetLocations>
         </targetParams>
@@ -103,7 +103,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>18</power>
+        <power>27</power>
         <cooldownTime>1.5</cooldownTime>
       </li>
       <li>
@@ -111,7 +111,7 @@
         <capacities>
           <li>Stab</li>
         </capacities>
-        <power>20</power>
+        <power>30</power>
         <cooldownTime>1.2</cooldownTime>
       </li>
       <li>
@@ -119,7 +119,7 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>22</power>
+        <power>33</power>
         <cooldownTime>1.7</cooldownTime>
       </li>
       <li>
@@ -127,7 +127,7 @@
         <capacities>
           <li>Poke</li>
         </capacities>
-        <power>21</power>
+        <power>31</power>
         <cooldownTime>1.2</cooldownTime>
       </li>
       <li>
@@ -135,7 +135,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>16</power>
+        <power>24</power>
         <cooldownTime>1.0</cooldownTime>
       </li>
       <li>
@@ -143,7 +143,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>18</power>
+        <power>27</power>
         <cooldownTime>1.6</cooldownTime>
       </li>
     </tools>
@@ -159,7 +159,7 @@
     <thingClass>Bullet</thingClass>
     <projectile>
       <damageDef>Bullet</damageDef>      <!--伤害类型-->
-      <damageAmountBase>18</damageAmountBase>
+      <damageAmountBase>27</damageAmountBase>
       <stoppingPower>3</stoppingPower>
       <speed>50</speed>
     </projectile>
@@ -193,7 +193,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>22</power>
+        <power>33</power>
         <cooldownTime>1.6</cooldownTime>
       </li>
       <li>
@@ -201,7 +201,7 @@
         <capacities>
           <li>Stab</li>
         </capacities>
-        <power>36</power>
+        <power>54</power>
         <armorPenetration>1.26</armorPenetration>        <!--穿甲-->
         <cooldownTime>1.6</cooldownTime>
       </li>
@@ -210,7 +210,7 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>38</power>
+        <power>57</power>
         <cooldownTime>2.2</cooldownTime>
       </li>
       <li>
@@ -218,7 +218,7 @@
         <capacities>
           <li>Poke</li>
         </capacities>
-        <power>32</power>
+        <power>48</power>
         <cooldownTime>1.2</cooldownTime>
       </li>
       <li>
@@ -226,7 +226,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>44</power>
+        <power>66</power>
         <armorPenetration>1.26</armorPenetration>        <!--穿甲-->
         <cooldownTime>3.2</cooldownTime>
       </li>
@@ -247,7 +247,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>23</power>
+        <power>34</power>
         <cooldownTime>1.6</cooldownTime>
       </li>
       <li>
@@ -255,7 +255,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>30</power>
+        <power>45</power>
         <cooldownTime>2.8</cooldownTime>
       </li>
     </tools>
@@ -276,7 +276,7 @@
         <capacities>
           <li>Stab</li>
         </capacities>
-        <power>30</power>
+        <power>45</power>
         <armorPenetration>0.6</armorPenetration>        <!--穿甲-->
         <cooldownTime>2.8</cooldownTime>
       </li>
@@ -285,7 +285,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>26</power>
+        <power>39</power>
         <armorPenetration>0.7</armorPenetration>        <!--穿甲-->
         <cooldownTime>2.8</cooldownTime>
       </li>
@@ -294,7 +294,7 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>32</power>
+        <power>48</power>
         <armorPenetration>0.6</armorPenetration>        <!--穿甲-->
         <cooldownTime>3.4</cooldownTime>
       </li>
@@ -303,7 +303,7 @@
         <capacities>
           <li>Poke</li>
         </capacities>
-        <power>24</power>
+        <power>36</power>
         <armorPenetration>0.8</armorPenetration>        <!--穿甲-->
         <cooldownTime>2.0</cooldownTime>
       </li>
@@ -312,7 +312,7 @@
         <capacities>
           <li>Poke</li>
         </capacities>
-        <power>14</power>
+        <power>21</power>
         <cooldownTime>1.2</cooldownTime>
       </li>
     </tools>
@@ -333,7 +333,7 @@
         <capacities>
           <li>Stab</li>
         </capacities>
-        <power>20</power>
+        <power>30</power>
         <cooldownTime>1.2</cooldownTime>
       </li>
       <li>
@@ -341,7 +341,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>13</power>
+        <power>19</power>
         <cooldownTime>1.6</cooldownTime>
       </li>
       <li>
@@ -349,7 +349,7 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>20</power>
+        <power>30</power>
         <cooldownTime>2.0</cooldownTime>
       </li>
       <li>
@@ -357,7 +357,7 @@
         <capacities>
           <li>Poke</li>
         </capacities>
-        <power>21</power>
+        <power>31</power>
         <cooldownTime>1.2</cooldownTime>
       </li>
       <li>
@@ -365,7 +365,7 @@
         <capacities>
           <li>Poke</li>
         </capacities>
-        <power>14</power>
+        <power>21</power>
         <cooldownTime>1.2</cooldownTime>
       </li>
     </tools>
@@ -385,7 +385,7 @@
         <capacities>
           <li>Stab</li>
         </capacities>
-        <power>22</power>
+        <power>33</power>
         <cooldownTime>1.2</cooldownTime>
       </li>
       <li>
@@ -393,7 +393,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>14</power>
+        <power>21</power>
         <cooldownTime>1.6</cooldownTime>
       </li>
       <li>
@@ -401,7 +401,7 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>22</power>
+        <power>33</power>
         <cooldownTime>2.0</cooldownTime>
       </li>
       <li>
@@ -409,7 +409,7 @@
         <capacities>
           <li>Poke</li>
         </capacities>
-        <power>20</power>
+        <power>30</power>
         <cooldownTime>1.2</cooldownTime>
       </li>
     </tools>
@@ -429,7 +429,7 @@
         <capacities>
           <li>Stab</li>
         </capacities>
-        <power>20</power>
+        <power>30</power>
         <armorPenetration>0.8</armorPenetration>        <!--穿甲-->
         <cooldownTime>1.2</cooldownTime>
       </li>
@@ -438,7 +438,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>14</power>
+        <power>21</power>
         <armorPenetration>1.26</armorPenetration>        <!--穿甲-->
         <cooldownTime>1.6</cooldownTime>
       </li>
@@ -447,7 +447,7 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>22</power>
+        <power>33</power>
         <armorPenetration>0.8</armorPenetration>        <!--穿甲-->
         <cooldownTime>1.8</cooldownTime>
       </li>
@@ -456,7 +456,7 @@
         <capacities>
           <li>Poke</li>
         </capacities>
-        <power>20</power>
+        <power>30</power>
         <armorPenetration>0.8</armorPenetration>        <!--穿甲-->
         <cooldownTime>1.2</cooldownTime>
       </li>
@@ -478,7 +478,7 @@
         <capacities>
           <li>Stab</li>
         </capacities>
-        <power>12</power>
+        <power>18</power>
         <cooldownTime>1.2</cooldownTime>
       </li>
     </tools>
@@ -519,7 +519,7 @@
         <defaultProjectile>AK_Bullet_Dorothy</defaultProjectile>
         <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
         <warmupTime>0.9</warmupTime>        <!--前摇-->
-        <range>12</range>
+        <range>30</range>
         <targetParams>
           <canTargetLocations>true</canTargetLocations>
         </targetParams>
@@ -541,7 +541,7 @@
     <thingClass>Bullet</thingClass>
     <projectile>
       <damageDef>Bullet</damageDef>      <!--伤害类型-->
-      <damageAmountBase>20</damageAmountBase>
+      <damageAmountBase>30</damageAmountBase>
       <stoppingPower>3</stoppingPower>
       <speed>50</speed>
     </projectile>

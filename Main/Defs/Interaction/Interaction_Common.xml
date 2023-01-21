@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <InteractionDef>
+        <defName>AK_Interaction_Basic</defName>
+        <label>AK_Basic_Interaction</label>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Style]和[RECIPIENT_nameDef]聊了聊[AK_Basic_Topic]的[AK_Basic_Topic_Detail]。</li>
+
+                <li>AK_Basic_Chat_Style->简单地</li>
+                <li>AK_Basic_Chat_Style->小声地</li>
+                <li>AK_Basic_Chat_Style->滔滔不绝地</li>
+
+                <li>AK_Basic_Topic->罗德岛</li>
+                <li>AK_Basic_Topic->罗德岛食堂</li>
+                <li>AK_Basic_Topic->卡西米尔</li>
+                <li>AK_Basic_Topic->莱茵生命</li>
+                <li>AK_Basic_Topic->维多利亚</li>
+                <li>AK_Basic_Topic->乌萨斯</li>
+                <li>AK_Basic_Topic->炎</li>
+                <li>AK_Basic_Topic->卡西米尔</li>
+                <li>AK_Basic_Topic->拉特兰</li>
+                <li>AK_Basic_Topic->哥伦比亚</li>
+                <li>AK_Basic_Topic->玻利瓦尔</li>
+                <li>AK_Basic_Topic->莱塔尼亚</li>
+                <li>AK_Basic_Topic->谢拉格</li>
+                <li>AK_Basic_Topic->卡兹戴尔</li>
+                <li>AK_Basic_Topic->东国</li>
+                <li>AK_Basic_Topic->伊比利亚</li>
+                <li>AK_Basic_Topic->叙拉古</li>
+
+                <li>AK_Basic_Topic_Detail->见闻</li>
+                <li>AK_Basic_Topic_Detail->过往</li>
+                <li>AK_Basic_Topic_Detail->奇闻异事</li>
+                <li>AK_Basic_Topic_Detail->秘辛</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </InteractionDef>
+</Defs>

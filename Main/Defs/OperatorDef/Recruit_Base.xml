@@ -2,9 +2,7 @@
 <Defs>
 
 	<AK_DLL.OperatorDef Name="AK_RecruitBase" Abstract="True">
-		<name>无名</name>
 		<surname>罗德岛</surname>
-		<nickname>虚无弄臣</nickname>
 		<description>在路的尽头，他看到她们成了他</description>
 		<bodyTypeDef>Thin</bodyTypeDef>
 		<skinColor>
@@ -27,7 +25,6 @@
 		<traits>
 			<li>
 				<def>AK_Trait_Agent_Guard</def>
-				<degree>0</degree>
 			</li>
 		</traits>
 		<operatorType>AK_OperatorClass_Guard</operatorType>

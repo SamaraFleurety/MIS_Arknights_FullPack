@@ -198,6 +198,8 @@ Projekt Red the Wolf Hunter, Specialist Operator of Rhodes Island, will join the
 		<age>20</age>
 		<childHood>AK_BackStory_Red_Child</childHood>
 		<adultHood>AK_BackStory_Red_Adult</adultHood>
+		<standOffset>(-100,150)</standOffset>
+		<standRatio>3</standRatio>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Specialist">
@@ -806,9 +808,6 @@ Projekt Red the Wolf Hunter, Specialist Operator of Rhodes Island, will join the
 			<li>
 				<def>Beauty</def>
 				<degree>1</degree>
-			</li>
-			<li>
-				<def>BodyPurist</def>
 			</li>
 			<li>
 				<def>Tough</def>

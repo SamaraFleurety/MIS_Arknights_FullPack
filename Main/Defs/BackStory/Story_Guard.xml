@@ -356,4 +356,22 @@ ok halda njarðlásar níu.</baseDesc>
 		</baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Maynar_Child</defName>
+		<slot>Childhood</slot>
+		<title>未声张的怒火</title>
+		<titleShort>未声张的怒火</titleShort>
+		<baseDesc>......我不在乎，父亲。骑士难道需要胜利来证明自己吗？站在竞技场上的那些人，他们战胜再多对手也不会显得更光荣。 
+		</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Maynar_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>未宽解的悲哀</title>
+		<titleShort>未宽解的悲哀</titleShort>
+		<baseDesc>骑士应该站在陷于困厄的人、两手空空的人身边，这是我唯一确定无疑的事情。而如果总是选择在弱势的一方，那么失败才是常事。比起享受胜利，我宁可相信骑士精神中应该含有对失败的忍受。
+		</baseDesc>
+	</BackstoryDef>
+
 </Defs>
