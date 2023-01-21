@@ -3,25 +3,10 @@
 
 	<ScenarioDef>
 		<defName>AK_Scenario_Solo</defName>
-		<label>罗德岛环世界模拟系统</label>
-		<description>您好，博士，欢迎使用这套由罗德岛工程部以及人工智能部所创立的“罗德岛环世界沉浸式模拟系统” 
-			这套系统是使用了罗德岛服务器中经过发现的一套模拟系统所建立，根据遗留下来的资料，这套模拟系统被称为“环世界”也可称为边缘世界，而这套系统转接至工程部所制造的沉浸仓并不困难，
-			就像是有人已经给我们这些技术相对低下的文明备好了一样，而根据我们的发现，这套系统实际上是用来模拟一个巨大的星球，而我们成功的修改了一定量的参数，创造出来了一个类似与泰拉的星球,我们掌握了内部部分时间的流逝，
-			一场耗费10年的模拟也只需要消耗现实当中的一个小时，但是现在我们对于这个的理解实际上还没有足够，目前其中就只有其自身所模拟的派系，而其生态系统也无法与泰拉完美融合，而经过测试，部分干员的原石技艺也
-			无法正常发挥，工程部已经正在努力去破解其原系统，但是其依旧具备极大的研究价值，可以推演泰拉大陆进下来可能的走向。
-			如果您准备好了，就请躺进面前的浸入仓，部分干员已经同意了这场实验，自愿进入了这个模拟世界，其中包括我，他或她们以及我，将以您为中心，收到您的调遣。
-			另外，不用担心我们在模拟当中的死亡或者失败，一切都可以重新开始。——凯尔希留
-			（这里有很多干员的签名和祝福）
-
-			模拟难度：轻松
-			您的干员已经整装待发，随时能够听候您的命令
-			开局物资：开局携带三张招募券，两份预备招募券
-			食物：充足
-			材料：充足
-			科技等级：微电子工业</description>
+		<label>来自罗德岛的一次外派任务</label>
+		<description>身为罗德岛的一名先锋干员，你接受了探索边缘世界的任务，不幸的是，登陆时出了点问题，你不得不单独迫降在这片大地。幸运的是，通讯设备并没有在迫降时受到影响，你任可以通过现有的设备与本部罗德岛取得联系，花费招募卷取得其他干员的帮助，最终完成这次外派任务。</description>
 		<scenario>
-			<summary>模拟过程中，没有任何干员受到伤害（非常认真）
-			</summary>
+			<summary>一位先锋干员的外派任务</summary>
 			<playerFaction>
 				<def>PlayerFaction</def>
 				<factionDef>PlayerColony</factionDef>
@@ -48,7 +33,7 @@
 					<def>ForcedTrait</def>
 					<chance>1</chance>
 					<context>PlayerStarter</context>
-					<trait>AK_Trait_Agent_Doc</trait>
+					<trait>AK_Trait_Agent_Vanguard</trait>
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
@@ -107,7 +92,7 @@
 				</li>
 				<li Class="ScenPart_GameStartDialog">
 					<def>GameStartDialog</def>
-					<text>祝您好运，博士</text>
+					<text>迫降到这颗星球，先试试和失散的干员取得联系吧</text>
 					<textKey>GameStartDialog</textKey>
 					<closeSound>GameStartSting</closeSound>
 				</li>
@@ -119,7 +104,6 @@
 				<li Class="ScenPart_ScatterThingsNearPlayerStart">
 					<def>ScatterThingsNearPlayerStart</def>
 					<thingDef>AK_Item_RecruitTicket</thingDef>
-					<count>3</count>
 					<allowRoofed>True</allowRoofed>
 				</li>
 			</parts>
