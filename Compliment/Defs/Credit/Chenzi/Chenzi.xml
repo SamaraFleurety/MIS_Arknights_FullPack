@@ -101,6 +101,12 @@
 				<description>{PAWN_nameDef}留着来着远古神兽的血脉，拥有倾国倾城的美貌。</description>
 				<statOffsets>
 					<PawnBeauty>4</PawnBeauty>
+					<ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+					<ArmorRating_Heat>0.3</ArmorRating_Heat>
+					<PainShockThreshold>0.5</PainShockThreshold>
+					<MentalBreakThreshold>-0.1</MentalBreakThreshold>
+					<MeleeHitChance>0.05</MeleeHitChance>
 				</statOffsets>
 				<skillGains>
 				  <li>
@@ -110,6 +116,7 @@
 				</skillGains>
 				<statFactors>
 				  <MoveSpeed>2.0</MoveSpeed>
+				  <IncomingDamageFactor>0.8</IncomingDamageFactor>
 				</statFactors>
 			</li>
 		</degreeDatas>
