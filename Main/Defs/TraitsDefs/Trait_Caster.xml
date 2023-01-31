@@ -376,4 +376,84 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_HarmonieThird</defName>
+		<degreeDatas>
+			<li>
+				<label>和弦</label>
+				<description>在通过档案审核和入职测试后，{PAWN_nameDef}就不再提起自己的身份，既不以维多利亚公爵的使臣自居，也不表现出与深池或是维多利亚军方的任何关联。对于绝大多数干员来说，{PAWN_pronoun}只是罗德岛新来的一名活泼且颇有教养的维多利亚人。
+				</description>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_HarmonieSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>双面间谍</label>
+				<description>一名公爵使者驻舰可能给罗德岛带来多大的危险，我已经不愿意预测了。维多利亚的势力错综复杂，我们不断在调查中发现各位干员身份背景里的潜在风险......似乎大家都逐渐适应这种事情了。
+				</description>
+				<statOffsets>
+					<SocialImpact>0.3</SocialImpact>
+					<TradePriceImprovement>0.3</TradePriceImprovement>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Harmonie</defName>
+		<degreeDatas>
+			<li>
+				<label>散漫？</label>
+				<description>{PAWN_nameDef}参加的数次外勤任务里，{PAWN_possessive}队友时常会在报告中形容{PAWN_pronoun}“严苛”“雷厉风行”，而被{PAWN_pronoun}帮助过的队友则说，总觉得自己好像做错了什么事，但对方也没有明说，只是继续按部就班地执行命令，完成任务。
+当然，{PAWN_pronoun}本人的报告还是和{PAWN_pronoun}平时的态度一样散漫。
+				</description>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_LinSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>灰色的林</label>
+				<description>“林”无疑是一个分量极重的名字。“鼠王”或者是“灰色的林”，鲜少有人见过{PAWN_possessive}真容，但这个名字本身就象征着一种秩序。
+				</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.28</MentalBreakThreshold>
+					<TradePriceImprovement>0.3</TradePriceImprovement>
+					<NegotiationAbility>3</NegotiationAbility>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Lin</defName>
+		<degreeDatas>
+			<li>
+				<label>计出万全</label>
+				<description>如果你足够幸运，碰巧在{PAWN_pronoun}空闲时获得了与{PAWN_pronoun}交谈的机会，你会惊叹于{PAWN_pronoun}在艺术，文化，商业与社交方面深厚的知识储备。
+				</description>
+				<statOffsets>
+					<SmoothingSpeed>0.24</SmoothingSpeed>
+					<ConstructionSpeed>0.2</ConstructionSpeed>
+					<SocialImpact>0.5</SocialImpact>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>
