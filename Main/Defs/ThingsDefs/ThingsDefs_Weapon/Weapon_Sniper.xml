@@ -1486,4 +1486,40 @@
 		</projectile>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_WeaponBase_Sniper">
+		<defName>AK_Weapon_Toddifons</defName>
+		<label>便携攻城弩</label>
+		<description>一把便携攻城弩，熔泉工程爱好的杰作。搬运的时候记得注意门框</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Sniper/ToddifonsW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tools Inherit = "false">
+			<li>
+				<label>抓</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>24</power>
+				<cooldownTime>1.6</cooldownTime>
+			</li>
+			<li>
+				<label>拳击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>18</power>
+				<cooldownTime>1.1</cooldownTime>
+			</li>
+			<li>
+				<label>踢击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>19</power>
+				<cooldownTime>1.1</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
 </Defs>

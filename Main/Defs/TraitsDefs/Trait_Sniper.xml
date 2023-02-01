@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<!-- 狙击干员特性文件 --> <!-- 已排序 -->
-	
+	<!-- 狙击干员特性文件 -->	<!-- 已排序 -->
+
 	<!-- 早露 -->
 
 	<TraitDef>
@@ -157,7 +157,7 @@
 			</li>
 		</degreeDatas>
 	</TraitDef>
-	
+
 	<!-- 菲亚梅塔 -->
 
 	<TraitDef>
@@ -348,7 +348,7 @@
 	</TraitDef>
 
 	<!-- 四月 -->
-	
+
 	<TraitDef>
 		<ignoreConfigErrors>true</ignoreConfigErrors>
 		<commonality>0.0</commonality>
@@ -377,6 +377,25 @@
 				<description>“若是有实在难以决断的事就凭直觉去选择，身体是不会骗人的，这可是资深猎手的经验。”
 				</description>
 			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<!-- 熔泉 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Toddifons</defName>
+		<degreeDatas>
+			<li>
+				<label>执拗</label>
+				<description>111111111
+				</description>
+			</li>
+			<statOffsets>
+				<SocialImpact>-0.2</SocialImpact>
+				<MentalBreakThreshold>-0.3</MentalBreakThreshold>
+			</statOffsets>
 		</degreeDatas>
 	</TraitDef>
 
