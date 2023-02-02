@@ -193,4 +193,28 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Caster">
+		<defName>AK_Apparel_Harmonie</defName>
+		<label>和弦服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Caster/Harmonie</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Caster">
+		<defName>AK_Apparel_Lin</defName>
+		<label>林服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Caster/Lin</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 </Defs>

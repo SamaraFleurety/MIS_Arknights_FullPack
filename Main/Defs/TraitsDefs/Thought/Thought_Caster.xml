@@ -261,4 +261,28 @@
 		</stages>
 	</ThoughtDef>
 
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Harmonie</defName>
+		<requiredTraits><li>AK_Trait_Harmonie</li></requiredTraits>
+		<stages>
+			<li>
+				<label>和弦</label>
+				<description>我喜欢做的事，只是把人推到他们该去的地方，让那些互不相容的东西能演奏出一个协调的和弦罢了。</description>
+				<baseMoodEffect>8</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Lin</defName>
+		<requiredTraits><li>AK_Trait_Lin</li></requiredTraits>
+		<stages>
+			<li>
+				<label>灰色的林</label>
+				<description>“龙门发展日新月异，也依然有霓虹灯无法照亮的角落......”</description>
+				<baseMoodEffect>12</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
 </Defs>

@@ -1485,4 +1485,137 @@
 			</li>
 		</subSounds>
 	</SoundDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Caster">
+		<defName>AK_Weapon_Harmonie</defName>
+		<label>和弦的法杖</label>
+		<description>一把结构简单的法杖，能够发挥出略低于使用者潜能的源石技艺，很难想象作为深池高层的和弦用的武器只有这个</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Caster/HarmonieW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.75</AccuracyTouch>
+			<AccuracyShort>0.95</AccuracyShort>
+			<AccuracyMedium>1</AccuracyMedium>
+			<AccuracyLong>0.85</AccuracyLong>
+			<RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+			<!--后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_Harmonie</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>2.2</warmupTime>
+				<!--前摇-->
+				<range>30</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_SFX_Atkboost</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<tools Inherit = "false">
+			<li>
+				<label>法杖猛击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>1.8</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_Harmonie</defName>
+		<label>法术射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/MagicOrb</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<!--伤害类型-->
+			<damageAmountBase>0</damageAmountBase>
+			<stoppingPower>3</stoppingPower>
+			<speed>50</speed>
+			<extraDamages>
+				<li>
+					<def>Flame</def>
+					<!--伤害类型-->
+					<amount>32</amount>
+					<!--伤害数值-->
+				</li>
+			</extraDamages>
+			<soundExplode>ThumpCannon_Impact</soundExplode>
+			<!--爆炸音效-->
+		</projectile>
+	</ThingDef>
+
+	<SoundDef ParentName="AK_SoundBase">
+		<defName>AK_Sound_Weapon_Harmonie</defName>
+		<subSounds Inherit="False">
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/GeneralSFX/p_imp_spear_n</clipPath>
+					</li>
+				</grains>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Caster">
+		<defName>AK_Weapon_Lin</defName>
+		<label>琉璃剑</label>
+		<description>一把做工精致，外表华丽的琉璃剑，虽然外表看上去像是随时都可能会碎裂的艺术品，但是作为林雨霞的佩剑，它拥有着能够逼退赤霄的锋芒</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Caster/LinW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tools Inherit = "false">
+			<li>
+				<label>法杖敲击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>1.8</cooldownTime>
+			</li>
+			<li>
+				<label>法杖砍</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>28</power>
+				<cooldownTime>1.6</cooldownTime>
+			</li>
+			<li>
+				<label>法杖捅</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>29</power>
+				<armorPenetration>1.12</armorPenetration>  
+				<cooldownTime>2.2</cooldownTime>
+			</li>
+			<li>
+				<label>法杖刺</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>24</power>
+				<armorPenetration>0.92</armorPenetration>  
+				<cooldownTime>1.7</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
 </Defs>

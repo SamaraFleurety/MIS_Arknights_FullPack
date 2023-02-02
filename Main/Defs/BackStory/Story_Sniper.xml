@@ -276,4 +276,23 @@
 		</baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Toddifons_Child</defName>
+		<slot>Childhood</slot>
+		<title>维多利亚的瓦伊凡</title>
+		<titleShort>维多利亚的瓦伊凡</titleShort>
+		<baseDesc>她还清楚记得，某种只有在那个小社区才被要求跳的健身操、若干摸不着头脑的礼仪习俗、还有专门给孩子们办“运动会”准备的“运动场”，里面每个项目都和正规的运动会搭不上一点关系。耳濡目染间，除了多过几个节日，多走几场仪式，多参加几次聚会，顺带打倒一大堆与她年龄相仿的瓦伊凡之外，她并不觉得自己学到了什么。
+</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Toddifons_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>罗德岛工匠</title>
+		<titleShort>罗德岛工匠</titleShort>
+		<baseDesc>维多利亚西尔军事学院肄业生，虽非正式服役的职业军人，但接受过系统训练，在各个方面都出类拔萃，尤以攻城战术与相关武器制造为最。
+现已加入罗德岛，担任狙击干员与初级工匠，主要负责远距离摧毁敌方工事与炮火压制。
+</baseDesc>
+	</BackstoryDef>
+
 </Defs>
