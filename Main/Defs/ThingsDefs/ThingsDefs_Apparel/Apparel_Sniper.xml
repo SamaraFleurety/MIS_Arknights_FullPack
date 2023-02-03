@@ -229,4 +229,16 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Sniper">
+		<defName>AK_Apparel_Lunacub</defName>
+		<label>子月服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Sniper/Lunacub</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 </Defs>

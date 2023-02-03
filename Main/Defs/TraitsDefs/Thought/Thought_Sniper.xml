@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<!-- Sniper --> <!-- 已排序 -->
+	<!-- Sniper -->	<!-- 已排序 -->
 
 	<!-- 早露 -->
 
@@ -84,7 +84,7 @@
 	</ThoughtDef>
 
 	<!-- 远牙 -->
-	
+
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_Fartooth</defName>
 		<requiredTraits>
@@ -98,7 +98,7 @@
 			</li>
 		</stages>
 	</ThoughtDef>
-	
+
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_FartoothSecond</defName>
 		<requiredTraits>
@@ -114,7 +114,7 @@
 	</ThoughtDef>
 
 	<!-- 菲亚梅塔 -->
-	
+
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_Fiammetta</defName>
 		<requiredTraits>
@@ -160,7 +160,7 @@
 			</li>
 		</stages>
 	</ThoughtDef>
-	
+
 	<!-- 白金 -->
 
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
@@ -274,7 +274,7 @@
 	</ThoughtDef>
 
 	<!-- 四月 -->
-	
+
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_April</defName>
 		<requiredTraits>
@@ -290,7 +290,7 @@
 	</ThoughtDef>
 
 	<!-- 红云 -->
-	
+
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_Vermeil</defName>
 		<requiredTraits>
@@ -301,6 +301,22 @@
 				<label>猎手</label>
 				<description>再强大的猎物，也只是猎物而已。</description>
 				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 子月 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Lunacub</defName>
+		<requiredTraits>
+			<li>AK_Trait_Lunacub</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>阿涅赛</label>
+				<description> 我还是更喜欢和兽群一起狩猎，它们比人类坦诚得多。</description>
+				<baseMoodEffect>12</baseMoodEffect>
 			</li>
 		</stages>
 	</ThoughtDef>

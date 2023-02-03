@@ -399,4 +399,38 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_LunacubSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>狼孩</label>
+				<description>她在荒野上长大，荒野养育了她。
+				</description>
+				<statOffsets>
+					<SocialImpact>-0.2</SocialImpact>
+					<GeneralLaborSpeed>0.2</GeneralLaborSpeed>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Lunacub</defName>
+		<degreeDatas>
+			<li>
+				<label>阿涅赛</label>
+				<description>子月一直声称阿涅塞就在她的身边，也确有种种迹象表明，某种存在时常陪伴在子月的周围，但无论借助何种手段，我们暂时都还没有弄清楚，这位“阿涅塞”究竟是什么人，或者，是什么。
+				</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.15</MentalBreakThreshold>
+					<TameAnimalChance>2</TameAnimalChance>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>

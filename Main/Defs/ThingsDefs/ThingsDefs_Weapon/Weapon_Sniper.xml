@@ -1522,4 +1522,96 @@
 		</tools>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_WeaponBase_Sniper">
+		<defName>AK_Weapon_Lunacub</defName>
+		<label>子月的弓</label>
+		<description>子月用的大弓，看上去和部落老哥用的差不多，但是在子月手里甚至可以用来单挑狂暴的裂兽</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Sniper/LunacubW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.8</AccuracyTouch>
+			<AccuracyShort>0.95</AccuracyShort>
+			<AccuracyMedium>1</AccuracyMedium>
+			<AccuracyLong>1</AccuracyLong>
+			<RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
+			<!--后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_Lunacub</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>2.1</warmupTime>
+				<!--前摇-->
+				<range>23</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_GeneralArrow</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<tools Inherit = "false">
+			<li>
+				<label>弩柄猛砸</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>1.8</cooldownTime>
+			</li>
+			<li>
+				<label>猛抓</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>15</power>
+				<cooldownTime>1.6</cooldownTime>
+			</li>
+			<li>
+				<label>拳击</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1.1</cooldownTime>
+			</li>
+			<li>
+				<label>踢击</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>15</power>
+				<cooldownTime>1.0</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_Lunacub</defName>
+		<label>射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/ArrowB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<!--伤害类型-->
+			<damageAmountBase>26</damageAmountBase>
+			<armorPenetrationBase>0.7</armorPenetrationBase>
+			<!--穿甲-->
+			<stoppingPower>3</stoppingPower>
+			<speed>50</speed>
+			<soundExplode>ThumpCannon_Impact</soundExplode>
+			<!--爆炸音效-->
+		</projectile>
+	</ThingDef>
+	</ThingDef>
+
 </Defs>

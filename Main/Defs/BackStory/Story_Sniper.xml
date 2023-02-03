@@ -295,4 +295,23 @@
 </baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Lunacub_Child</defName>
+		<slot>Childhood</slot>
+		<title>狼孩</title>
+		<titleShort>狼孩</titleShort>
+		<baseDesc>根据子月本人的叙述，她自从记事起就和狼群生活在一起，据称她有一个朋友叫“阿涅赛”
+她在荒野上长大，荒野养育了她。
+</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Lunacub_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>猎人</title>
+		<titleShort>猎人</titleShort>
+		<baseDesc>子月，游荡在叙拉古荒野上的猎人，经由企鹅物流的介绍加入罗德岛，担任罗德岛在叙拉古野外行动的向导，兼职狙击干员。
+</baseDesc>
+	</BackstoryDef>
+
 </Defs>
