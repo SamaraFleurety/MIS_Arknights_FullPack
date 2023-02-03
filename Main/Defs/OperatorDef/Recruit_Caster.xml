@@ -13,7 +13,7 @@ Coming on a whim, the great painter, Dusk, puts only the finishing touches on al
 		</apparels>
 		<stand>UI/Image/Caster/DuskStand</stand>
 		<headPortrait>UI/Image/Caster/DuskPortrait</headPortrait>
-		<bodyTypeDef>Female</bodyTypeDef>		
+		<bodyTypeDef>Female</bodyTypeDef>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -77,8 +77,12 @@ Coming on a whim, the great painter, Dusk, puts only the finishing touches on al
 			</li>
 		</skills>
 		<traits>
-			<li><def>AK_Trait_Dusk</def></li>
-			<li><def>AK_Trait_DuskSecond</def></li>
+			<li>
+				<def>AK_Trait_Dusk</def>
+			</li>
+			<li>
+				<def>AK_Trait_DuskSecond</def>
+			</li>
 			<li>
 				<def>Beauty</def>
 				<degree>2</degree>
@@ -183,7 +187,9 @@ Eyjafjalla, Caster Operator of Rhodes Island, has wanted to devote herself to do
 			</li>
 		</skills>
 		<traits>
-			<li><def>AK_Trait_Eyjafjalla</def></li>
+			<li>
+				<def>AK_Trait_Eyjafjalla</def>
+			</li>
 			<li>
 				<def>Kind</def>
 			</li>
@@ -275,7 +281,9 @@ Ifrit, former test subject of Rhine Lab, will incinerate all of Silence's enemie
 			</li>
 		</skills>
 		<traits>
-			<li><def>AK_Trait_Ifrit</def></li>
+			<li>
+				<def>AK_Trait_Ifrit</def>
+			</li>
 			<li>
 				<def>Beauty</def>
 				<degree>1</degree>
@@ -367,7 +375,9 @@ Mint, the Victorian Caster, seeks recognition as a scholar far more than as a Ca
 			</li>
 		</skills>
 		<traits>
-			<li><def>AK_Trait_Mint</def></li>
+			<li>
+				<def>AK_Trait_Mint</def>
+			</li>
 			<li>
 				<def>Kind</def>
 			</li>
@@ -464,7 +474,9 @@ Mostima, Senior Messenger, will lay low all obstacles in your path with her Arts
 			</li>
 		</skills>
 		<traits>
-			<li><def>AK_Trait_Mostima</def></li>
+			<li>
+				<def>AK_Trait_Mostima</def>
+			</li>
 			<li>
 				<def>Beauty</def>
 				<degree>1</degree>
@@ -562,7 +574,9 @@ Skyfire, Operator from King's Wand, is ready to burn anyone foolish enough to st
 			</li>
 		</skills>
 		<traits>
-			<li><def>AK_Trait_Skyfire</def></li>
+			<li>
+				<def>AK_Trait_Skyfire</def>
+			</li>
 			<li>
 				<def>Beauty</def>
 				<degree>2</degree>
@@ -652,7 +666,9 @@ Absinthe, Caster Operator, is always ready to eliminate any threats.</descriptio
 			</li>
 		</skills>
 		<traits>
-			<li><def>AK_Trait_Absinthe</def></li>
+			<li>
+				<def>AK_Trait_Absinthe</def>
+			</li>
 			<li>
 				<def>Industriousness</def>
 				<degree>1</degree>
@@ -749,8 +765,12 @@ Amiya, leader of Rhodes Island, will fight alongside you.</description>
 			</li>
 		</skills>
 		<traits>
-			<li><def>AK_Trait_Amiya</def></li>
-			<li><def>AK_Trait_AmiyaSecond</def></li>
+			<li>
+				<def>AK_Trait_Amiya</def>
+			</li>
+			<li>
+				<def>AK_Trait_AmiyaSecond</def>
+			</li>
 			<li>
 				<def>Beauty</def>
 				<degree>1</degree>
@@ -844,8 +864,12 @@ Ceobe is always ready to go after the bad guys.</description>
 			</li>
 		</skills>
 		<traits>
-			<li><def>AK_Trait_Ceobe</def></li>
-			<li><def>AK_Trait_CeobeSecond</def></li>
+			<li>
+				<def>AK_Trait_Ceobe</def>
+			</li>
+			<li>
+				<def>AK_Trait_CeobeSecond</def>
+			</li>
 			<li>
 				<def>Kind</def>
 			</li>
@@ -943,7 +967,9 @@ Ceobe is always ready to go after the bad guys.</description>
 			</li>
 		</skills>
 		<traits>
-			<li><def>AK_Trait_Carnelian</def></li>
+			<li>
+				<def>AK_Trait_Carnelian</def>
+			</li>
 			<li>
 				<def>Bloodlust</def>
 			</li>
@@ -1038,7 +1064,9 @@ Ceobe is always ready to go after the bad guys.</description>
 			</li>
 		</skills>
 		<traits>
-			<li><def>AK_Trait_Beeswax</def></li>
+			<li>
+				<def>AK_Trait_Beeswax</def>
+			</li>
 			<li>
 				<def>Kind</def>
 			</li>
@@ -1142,13 +1170,13 @@ Ceobe is always ready to go after the bad guys.</description>
 			<li>
 				<def>Nerves</def>
 				<degree>1</degree>
-			</li>	
+			</li>
 		</traits>
 		<age>20</age>
 		<childHood>AK_BackStory_Indigo_Child</childHood>
 		<adultHood>AK_BackStory_Indigo_Adult</adultHood>
 	</AK_DLL.OperatorDef>
-	
+
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Caster">
 		<defName>AK_Recruit_Goldenglow</defName>
@@ -1163,8 +1191,12 @@ Ceobe is always ready to go after the bad guys.</description>
 		<stand>UI/Image/Caster/GoldenglowStand</stand>
 		<headPortrait>UI/Image/Caster/GoldenglowPortrait</headPortrait>
 		<traits>
-			<li><def>AK_Trait_GoldenglowSecond</def></li>
-			<li><def>AK_Trait_Goldenglow</def></li>
+			<li>
+				<def>AK_Trait_GoldenglowSecond</def>
+			</li>
+			<li>
+				<def>AK_Trait_Goldenglow</def>
+			</li>
 			<li>
 				<def>Industriousness</def>
 				<degree>1</degree>
@@ -1268,7 +1300,9 @@ Ceobe is always ready to go after the bad guys.</description>
 			<li>
 				<def>Brawler</def>
 			</li>
-			<li><def>AK_Trait_Tomimi</def></li>
+			<li>
+				<def>AK_Trait_Tomimi</def>
+			</li>
 			<li>
 				<def>NaturalMood</def>
 				<degree>1</degree>
@@ -1355,7 +1389,9 @@ Ceobe is always ready to go after the bad guys.</description>
 		<headPortrait>UI/Image/Caster/KjeraPortrait</headPortrait>
 		<bodyTypeDef>Female</bodyTypeDef>
 		<traits>
-			<li><def>AK_Trait_Kjera</def></li>
+			<li>
+				<def>AK_Trait_Kjera</def>
+			</li>
 			<li>
 				<def>Beauty</def>
 				<degree>2</degree>
@@ -1444,8 +1480,12 @@ Ceobe is always ready to go after the bad guys.</description>
 		<stand>UI/Image/Caster/AstgenneStand</stand>
 		<headPortrait>UI/Image/Caster/AstgennePortrait</headPortrait>
 		<traits>
-			<li><def>AK_Trait_AstgenneSecond</def></li>
-			<li><def>AK_Trait_Astgenne</def></li>
+			<li>
+				<def>AK_Trait_AstgenneSecond</def>
+			</li>
+			<li>
+				<def>AK_Trait_Astgenne</def>
+			</li>
 		</traits>
 		<age>22</age>
 		<childHood>AK_BackStory_Astgenne_Child</childHood>
@@ -1518,9 +1558,7 @@ Ceobe is always ready to go after the bad guys.</description>
 		<defName>AK_Recruit_Harmonie</defName>
 		<name>Harmonie</name>
 		<nickname>Harmonie</nickname>
-		<description>
-FIXMEDESC
-</description>
+		<description>FIXMEDESC</description>
 		<weapon>AK_Weapon_Harmonie</weapon>
 		<hair>AK_Hair_Harmonie</hair>
 		<apparels>
@@ -1529,9 +1567,15 @@ FIXMEDESC
 		<stand>UI/Image/Caster/HarmonieStand</stand>
 		<headPortrait>UI/Image/Caster/HarmoniePortrait</headPortrait>
 		<traits>
-			<li><def>AK_Trait_HarmonieThird</def></li>
-			<li><def>AK_Trait_HarmonieSecond</def></li>
-			<li><def>AK_Trait_Harmonie</def></li>
+			<li>
+				<def>AK_Trait_HarmonieThird</def>
+			</li>
+			<li>
+				<def>AK_Trait_HarmonieSecond</def>
+			</li>
+			<li>
+				<def>AK_Trait_Harmonie</def>
+			</li>
 			<li>
 				<def>TooSmart</def>
 			</li>
@@ -1607,9 +1651,7 @@ FIXMEDESC
 		<defName>AK_Recruit_Lin</defName>
 		<name>Lin</name>
 		<nickname>Lin</nickname>
-		<description>
-FIXMEDESC
-</description>
+		<description>FIXMEDESC</description>
 		<weapon>AK_Weapon_Lin</weapon>
 		<hair>AK_Hair_Lin</hair>
 		<apparels>
@@ -1626,8 +1668,12 @@ FIXMEDESC
 				<def>Beauty</def>
 				<degree>2</degree>
 			</li>
-			<li><def>AK_Trait_LinSecond</def></li>
-			<li><def>AK_Trait_Lin</def></li>
+			<li>
+				<def>AK_Trait_LinSecond</def>
+			</li>
+			<li>
+				<def>AK_Trait_Lin</def>
+			</li>
 			<li>
 				<def>TooSmart</def>
 			</li>
