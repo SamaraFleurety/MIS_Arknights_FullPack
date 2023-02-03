@@ -1847,9 +1847,7 @@ Rosmontis, Rhodes Island Elite Operator, pushes open your office door by hand.</
 		<defName>AK_Recruit_Lunacub</defName>
 		<name>Lunacub</name>
 		<nickname>Lunacub</nickname>
-		<description>
-FIXMEDESC
-</description>
+		<description>FIXMEDESC</description>
 		<weapon>AK_Weapon_Lunacub</weapon>
 		<hair>AK_Hair_Lunacub</hair>
 		<apparels>
@@ -1868,8 +1866,12 @@ FIXMEDESC
 			<li>
 				<def>Abrasive</def>
 			</li>
-			<li><def>AK_Trait_LunacubSecond</def></li>
-			<li><def>AK_Trait_Lunacub</def></li>
+			<li>
+				<def>AK_Trait_LunacubSecond</def>
+			</li>
+			<li>
+				<def>AK_Trait_Lunacub</def>
+			</li>
 		</traits>
 		<age>20</age>
 		<childHood>AK_BackStory_Lunacub_Child</childHood>
