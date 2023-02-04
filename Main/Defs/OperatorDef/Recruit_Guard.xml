@@ -15,7 +15,7 @@ SilverAsh, President of Karlan Trade CO., LTD, has signed the contract with Rhod
 		</apparels>
 		<stand>UI/Image/Guard/SilverashStand</stand>
 		<headPortrait>UI/Image/Guard/SilverashPortrait</headPortrait>
-	<!--	<abilities>
+		<!--	<abilities>
 			<li>AK_Test_Hediff</li>
 	    </abilities> -->
 		<bodyTypeDef>Male</bodyTypeDef>
@@ -82,7 +82,9 @@ SilverAsh, President of Karlan Trade CO., LTD, has signed the contract with Rhod
 			</li>
 		</skills>
 		<traits>
-			<li><def>AK_Trait_Silverash</def></li>
+			<li>
+				<def>AK_Trait_Silverash</def>
+			</li>
 			<li>
 				<def>Tough</def>
 			</li>
@@ -181,8 +183,12 @@ Skadi, bounty hunter, has come with the tide to drown your enemies.</description
 			</li>
 		</skills>
 		<traits>
-			<li><def>AK_Trait_Skadi</def></li>
-			<li><def>AK_Trait_DeepHunter</def></li>
+			<li>
+				<def>AK_Trait_Skadi</def>
+			</li>
+			<li>
+				<def>AK_Trait_DeepHunter</def>
+			</li>
 			<li>
 				<def>Beauty</def>
 				<degree>2</degree>
@@ -275,8 +281,12 @@ Specter from the Abyssal Hunters is already done with her prayer and is now prow
 			</li>
 		</skills>
 		<traits>
-			<li><def>AK_Trait_Specter</def></li>
-			<li><def>AK_Trait_DeepHunter</def></li>
+			<li>
+				<def>AK_Trait_Specter</def>
+			</li>
+			<li>
+				<def>AK_Trait_DeepHunter</def>
+			</li>
 			<li>
 				<def>Beauty</def>
 				<degree>2</degree>
@@ -373,7 +383,9 @@ Thorns, Guard Operator of Rhodes Island, wastes not an ounce of energy, calculat
 			</li>
 		</skills>
 		<traits>
-			<li><def>AK_Trait_Thorns</def></li>
+			<li>
+				<def>AK_Trait_Thorns</def>
+			</li>
 			<li>
 				<def>Nimble</def>
 			</li>
@@ -472,7 +484,9 @@ Rhodes Island Guard Operator Surtr, a person difficult to approach.</description
 			</li>
 		</skills>
 		<traits>
-			<li><def>AK_Trait_Surtr</def></li>
+			<li>
+				<def>AK_Trait_Surtr</def>
+			</li>
 			<li>
 				<def>Immunity</def>
 				<degree>1</degree>
@@ -499,7 +513,7 @@ Rhodes Island Guard Operator Surtr, a person difficult to approach.</description
 		<nickname>Blaze</nickname>
 		<abilities>
 			<li>AK_Ability_BlazeIII</li>
-	    </abilities>
+		</abilities>
 		<description>Please, it's okay to dial it down a bit…
 Blaze, Rhodes Island's most fired-up Operator, will spread her enthusiasm like a wildfire.</description>
 		<weapon>AK_Weapon_Blaze</weapon>
@@ -573,7 +587,9 @@ Blaze, Rhodes Island's most fired-up Operator, will spread her enthusiasm like a
 			</li>
 		</skills>
 		<traits>
-			<li><def>AK_Trait_Blaze</def></li>
+			<li>
+				<def>AK_Trait_Blaze</def>
+			</li>
 			<li>
 				<def>Beauty</def>
 				<degree>1</degree>
@@ -670,8 +686,12 @@ Ch'en, Special Inspection Unit Chief, L.G.D., is cooperating with Rhodes Island 
 			</li>
 		</skills>
 		<traits>
-			<li><def>AK_Trait_Chen</def></li>
-			<li><def>AK_Trait_ChenSecond</def></li>
+			<li>
+				<def>AK_Trait_Chen</def>
+			</li>
+			<li>
+				<def>AK_Trait_ChenSecond</def>
+			</li>
 			<li>
 				<def>Beauty</def>
 				<degree>2</degree>
@@ -765,7 +785,9 @@ Cutter, mercenary, will complete all tasks on the battlefield in a calm and disc
 			</li>
 		</skills>
 		<traits>
-			<li><def>AK_Trait_Cutter</def></li>
+			<li>
+				<def>AK_Trait_Cutter</def>
+			</li>
 			<li>
 				<def>Beauty</def>
 				<degree>1</degree>
@@ -859,7 +881,9 @@ Franka, Guard Operator of B.P.R.S. of Blacksteel, is waiting for your orders.</d
 			</li>
 		</skills>
 		<traits>
-			<li><def>AK_Trait_Franka</def></li>
+			<li>
+				<def>AK_Trait_Franka</def>
+			</li>
 			<li>
 				<def>Nimble</def>
 			</li>
@@ -957,7 +981,9 @@ Frostleaf, Guard Operator of Rhodes Island, will obey all your orders.</descript
 			</li>
 		</skills>
 		<traits>
-			<li><def>AK_Trait_Frostleaf</def></li>
+			<li>
+				<def>AK_Trait_Frostleaf</def>
+			</li>
 			<li>
 				<def>Tough</def>
 			</li>
@@ -1050,7 +1076,9 @@ Operator Lappland can't wait to slash apart the enemies in front of her.</descri
 			</li>
 		</skills>
 		<traits>
-			<li><def>AK_Trait_Lappland</def></li>
+			<li>
+				<def>AK_Trait_Lappland</def>
+			</li>
 			<li>
 				<def>Nimble</def>
 			</li>
@@ -1150,12 +1178,14 @@ Mousse, Guard Operator of Rhodes Island, thinks of her enemies as oversized scra
 			</li>
 		</skills>
 		<traits>
-			<li><def>AK_Trait_Mousse</def></li>
+			<li>
+				<def>AK_Trait_Mousse</def>
+			</li>
 			<li>
 				<def>Kind</def>
 			</li>
 			<li>
-				<def>Wimp</def>	
+				<def>Wimp</def>
 			</li>
 			<li>
 				<def>Nimble</def>
@@ -1246,8 +1276,12 @@ Mousse, Guard Operator of Rhodes Island, thinks of her enemies as oversized scra
 			</li>
 		</skills>
 		<traits>
-			<li><def>Kind</def></li>
-			<li><def>Tough</def></li>
+			<li>
+				<def>Kind</def>
+			</li>
+			<li>
+				<def>Tough</def>
+			</li>
 			<li>
 				<def>Industriousness</def>
 				<degree>1</degree>
@@ -1342,21 +1376,23 @@ Mousse, Guard Operator of Rhodes Island, thinks of her enemies as oversized scra
 			</li>
 		</skills>
 		<traits>
-			<li><def>AK_Trait_Swire</def></li>
-				<li>
-					<def>TooSmart</def>
-				</li>
-				<li>
-					<def>Beauty</def>
-					<degree>1</degree>
-				</li>
-				<li>
-					<def>Kind</def>
-				</li>
-				<li>
-					<def>Industriousness</def>
-					<degree>1</degree>
-				</li>
+			<li>
+				<def>AK_Trait_Swire</def>
+			</li>
+			<li>
+				<def>TooSmart</def>
+			</li>
+			<li>
+				<def>Beauty</def>
+				<degree>1</degree>
+			</li>
+			<li>
+				<def>Kind</def>
+			</li>
+			<li>
+				<def>Industriousness</def>
+				<degree>1</degree>
+			</li>
 		</traits>
 		<age>20</age>
 		<childHood>AK_BackStory_Swire_Child</childHood>
@@ -1387,8 +1423,12 @@ Mousse, Guard Operator of Rhodes Island, thinks of her enemies as oversized scra
 				<def>Beauty</def>
 				<degree>2</degree>
 			</li>
-			<li><def>AK_Trait_PallasSecond</def></li>
-			<li><def>AK_Trait_Pallas</def></li>
+			<li>
+				<def>AK_Trait_PallasSecond</def>
+			</li>
+			<li>
+				<def>AK_Trait_Pallas</def>
+			</li>
 		</traits>
 		<age>20</age>
 		<childHood>AK_BackStory_Pallas_Child</childHood>
@@ -1477,8 +1517,12 @@ Mousse, Guard Operator of Rhodes Island, thinks of her enemies as oversized scra
 				<def>Beauty</def>
 				<degree>1</degree>
 			</li>
-			<li><def>AK_Trait_IreneSecond</def></li>
-			<li><def>AK_Trait_Irene</def></li>
+			<li>
+				<def>AK_Trait_IreneSecond</def>
+			</li>
+			<li>
+				<def>AK_Trait_Irene</def>
+			</li>
 			<li>
 				<def>Tough</def>
 			</li>
@@ -1563,7 +1607,9 @@ Mousse, Guard Operator of Rhodes Island, thinks of her enemies as oversized scra
 		<stand>UI/Image/Guard/TequilaStand</stand>
 		<headPortrait>UI/Image/Guard/TequilaPortrait</headPortrait>
 		<traits>
-			<li><def>AK_Trait_Tequila</def></li>
+			<li>
+				<def>AK_Trait_Tequila</def>
+			</li>
 			<li>
 				<def>Kind</def>
 			</li>
@@ -1668,8 +1714,12 @@ Mousse, Guard Operator of Rhodes Island, thinks of her enemies as oversized scra
 				<def>Beauty</def>
 				<degree>1</degree>
 			</li>
-			<li><def>AK_Trait_LaPlumaSecond</def></li>
-			<li><def>AK_Trait_LaPluma</def></li>
+			<li>
+				<def>AK_Trait_LaPlumaSecond</def>
+			</li>
+			<li>
+				<def>AK_Trait_LaPluma</def>
+			</li>
 		</traits>
 		<childHood>AK_BackStory_LaPluma_Child</childHood>
 		<skills>
@@ -1750,7 +1800,9 @@ Mousse, Guard Operator of Rhodes Island, thinks of her enemies as oversized scra
 		<headPortrait>UI/Image/Guard/EstellePortrait</headPortrait>
 		<bodyTypeDef>Female</bodyTypeDef>
 		<traits>
-			<li><def>AK_Trait_Estelle</def></li>
+			<li>
+				<def>AK_Trait_Estelle</def>
+			</li>
 			<li>
 				<def>Brawler</def>
 			</li>
@@ -1856,8 +1908,12 @@ Mousse, Guard Operator of Rhodes Island, thinks of her enemies as oversized scra
 			<li>
 				<def>Brawler</def>
 			</li>
-			<li><def>AK_Trait_FlintSecond</def></li>
-			<li><def>AK_Trait_Flint</def></li>
+			<li>
+				<def>AK_Trait_FlintSecond</def>
+			</li>
+			<li>
+				<def>AK_Trait_Flint</def>
+			</li>
 		</traits>
 		<age>20</age>
 		<childHood>AK_BackStory_Flint_Child</childHood>
@@ -2037,8 +2093,12 @@ Mousse, Guard Operator of Rhodes Island, thinks of her enemies as oversized scra
 		<stand>UI/Image/Guard/MaynarStand</stand>
 		<headPortrait>UI/Image/Guard/MaynarPortrait</headPortrait>
 		<traits>
-			<li><def>AK_Trait_MaynarSecond</def></li>
-			<li><def>AK_Trait_Maynar</def></li>
+			<li>
+				<def>AK_Trait_MaynarSecond</def>
+			</li>
+			<li>
+				<def>AK_Trait_Maynar</def>
+			</li>
 			<li>
 				<def>Beauty</def>
 				<degree>1</degree>
@@ -2048,6 +2108,7 @@ Mousse, Guard Operator of Rhodes Island, thinks of her enemies as oversized scra
 			</li>
 		</traits>
 		<age>45</age>
+		<isMale>true</isMale>
 		<childHood>AK_BackStory_Maynar_Child</childHood>
 		<adultHood>AK_BackStory_Maynar_Adult</adultHood>
 		<skills>
@@ -2138,7 +2199,9 @@ Mousse, Guard Operator of Rhodes Island, thinks of her enemies as oversized scra
 			<li>
 				<def>FastLearner</def>
 			</li>
-			<li><def>AK_Trait_Sideroca</def></li>
+			<li>
+				<def>AK_Trait_Sideroca</def>
+			</li>
 			<li>
 				<def>Tough</def>
 			</li>
@@ -2234,8 +2297,12 @@ Mousse, Guard Operator of Rhodes Island, thinks of her enemies as oversized scra
 				<def>Industriousness</def>
 				<degree>1</degree>
 			</li>
-			<li><def>AK_Trait_AstesiaSecond</def></li>
-			<li><def>AK_Trait_Astesia</def></li>
+			<li>
+				<def>AK_Trait_AstesiaSecond</def>
+			</li>
+			<li>
+				<def>AK_Trait_Astesia</def>
+			</li>
 		</traits>
 		<age>24</age>
 		<childHood>AK_BackStory_Astesia_Child</childHood>
