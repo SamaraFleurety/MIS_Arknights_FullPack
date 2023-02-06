@@ -10,6 +10,19 @@
 			<texPath>Things/AK_Agents/GApparel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
+		<recipeMaker>
+		  <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+		  <researchPrerequisite>CataphractArmor</researchPrerequisite>
+		  <recipeUsers Inherit="False">
+			<li>FabricationBench</li>
+		  </recipeUsers>
+		</recipeMaker>
+		<costList>
+		  <ComponentSpacer>2</ComponentSpacer>
+		  <ComponentIndustrial>10</ComponentIndustrial>
+		  <Plasteel>30</Plasteel>
+		  <Steel>50</Steel>
+		</costList>
 		<apparel>
 			<bodyPartGroups>
 				<li>FullHead</li>
@@ -26,6 +39,7 @@
 		<techLevel>Spacer</techLevel>
 		<generateCommonality>0</generateCommonality>
 		<statBases>
+			<WorkToMake>200</WorkToMake>
 			<Mass>2</Mass>
 			<Flammability>0</Flammability>
 		    <DeteriorationRate>0</DeteriorationRate>  
@@ -58,7 +72,20 @@
 		<equippedAngleOffset>-65</equippedAngleOffset>
 		<smeltable>false</smeltable>
 		<useHitPoints>false</useHitPoints>
+		<recipeMaker>
+		  <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+		  <researchPrerequisite>CataphractArmor</researchPrerequisite>
+		  <recipeUsers Inherit="False">
+			<li>FabricationBench</li>
+		  </recipeUsers>
+		</recipeMaker>
+		<costList>
+		  <ComponentIndustrial>5</ComponentIndustrial>
+		  <Plasteel>50</Plasteel>
+		  <Steel>20</Steel>
+		</costList>
 		<statBases>
+		  <WorkToMake>250</WorkToMake>
 		  <Flammability>0.0</Flammability>
 		  <DeteriorationRate>0</DeteriorationRate>
 		</statBases>
@@ -66,7 +93,7 @@
 		  <li>MeleePiercer</li>
 		</weaponClasses>
 		<graphicData>
-		  <texPath>Credit/Chenzi/Weapon</texPath>
+		  <texPath>Credit/Chenzi/BattalionSpear</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<tools>
@@ -107,7 +134,21 @@
 		<defName>CZ_Apparel_BattalionWing</defName>
 		<label>战争之翼</label>
 		<description>奈亚重工的先锋官铠甲，拥有重型火力与跳跃技能，用于给干员陈梓进行斩首和爆破行动，通常你看见穿着这身盔甲的龙女，说明你离死亡也不远了。</description>
+		<recipeMaker>
+		  <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+		  <researchPrerequisite>CataphractArmor</researchPrerequisite>
+		  <recipeUsers Inherit="False">
+			<li>FabricationBench</li>
+		  </recipeUsers>
+		</recipeMaker>
+		<costList>
+		  <Chemfuel>50</Chemfuel>
+		  <ComponentIndustrial>5</ComponentIndustrial>
+		  <Plasteel>20</Plasteel>
+		  <Steel>40</Steel>
+		</costList>
 		<statBases>
+		    <WorkToMake>200</WorkToMake>
 			<Flammability>0</Flammability>
 			<DeteriorationRate>0</DeteriorationRate>
 			<ArmorRating_Sharp>2.0</ArmorRating_Sharp>
