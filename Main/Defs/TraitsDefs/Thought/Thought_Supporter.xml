@@ -122,4 +122,18 @@
 		</stages>
 	</ThoughtDef>
 
+<!-- 但书 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Proviso</defName>
+		<requiredTraits><li>AK_Trait_Proviso</li></requiredTraits>
+		<stages>
+			<li>
+				<label>看了一次星星</label>
+				<description>我到现在才逐渐明白，期待存在一种可以公正判决一切矛盾的法律，与其说是天真，不如说是一种偷懒的想法吧。法律永远不会是万全的，其中永远存在的漏洞，则需要“人心”来填补。</description>
+				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
 </Defs>

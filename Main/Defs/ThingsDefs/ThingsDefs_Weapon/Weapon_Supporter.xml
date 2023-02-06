@@ -953,4 +953,14 @@
 		</tools>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_WeaponBase_Supporter">
+		<defName>AK_Weapon_Proviso</defName>
+		<label>卡西米尔制式法杖</label>
+		<description>卡西米尔新款法杖，坚固，造型独特，而且非常酷</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Supporter/ProvisoW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
+
 </Defs>

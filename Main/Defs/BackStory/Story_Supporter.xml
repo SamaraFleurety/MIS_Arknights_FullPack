@@ -240,4 +240,22 @@
 		</baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Proviso_Child</defName>
+		<slot>Childhood</slot>
+		<title>法学生</title>
+		<titleShort>法学生</titleShort>
+		<baseDesc>但书还是学生时，充满憧憬地去旁观前辈的庭审现场。那时前辈明明是被告董事的辩护律师，却处处为原告职员说话，在最后他深深地向旁观席鞠躬，“护卫公正”，前辈那时说。
+</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Proviso_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>律师</title>
+		<titleShort>律师</titleShort>
+		<baseDesc>但书，本名黛丝特。原卡西米尔长缰律所律师。现于后勤部工作，担任罗德岛法律顾问一职。
+</baseDesc>
+	</BackstoryDef>
+
 </Defs>
