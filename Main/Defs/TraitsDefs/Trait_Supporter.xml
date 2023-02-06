@@ -338,4 +338,55 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<!-- 但书 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_ProvisoThird</defName>
+		<degreeDatas>
+			<li>
+				<label>利己者</label>
+				<description>但书干员对待交到她手上的案件，往往不会在意结果正义与否，完全只是为了辩护人能获得最终胜利而行动，具体的办案手段也多有暧昧不明之处。
+				</description>
+				<statOffsets>
+					<MentalBreakThreshold>0.10</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_ProvisoSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>职业律师</label>
+				<description>但书干员此前就职于卡西米尔顶尖的精英律所——长缰律所，有过非诉讼律师和诉讼律师的工作经验，在工作这几年内经手案子数量相当可观，拥有辩护不败的惊人战绩。
+				</description>
+				<statOffsets>
+					<SocialImpact>0.80</SocialImpact>
+					<TradePriceImprovement>0.20</TradePriceImprovement>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Proviso</defName>
+		<degreeDatas>
+			<li>
+				<label>看了一次星星</label>
+				<description>黛丝特太过聪明，也太过于绝对，这是她与多数学生最大的不同。她对于用法律寻找真理的执着支撑着她取得如斯优秀的成绩，但她还没有做好“找不到答案”的准备。
+				</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.1</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>
