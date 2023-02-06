@@ -11,6 +11,17 @@
 		<bodyTypeDef>Thin</bodyTypeDef>		
 		<stand>Credit/Chenzi/ChenziStand</stand>
 		<headPortrait>Credit/Chenzi/ChenziPortrait</headPortrait>
+		<apparels>
+			<li>CZ_Apparel_Chenzi</li>
+			<li>CZ_Apparel_BattalionWing</li>
+			<li>CZ_Hat_BattalionHelmet</li>
+		</apparels>
+		<items>
+			<li>
+				<item>CZ_Weapon_BattalionSpear</item>
+				<amount>1</amount>
+			</li>
+		</items>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -222,8 +233,7 @@
 		  <wornGraphicPath>Credit/Chenzi/Chenzi</wornGraphicPath>
 		  <useWornGraphicMask>true</useWornGraphicMask>
 		  <layers>
-			<li>Middle</li>
-			<li>Shell</li>
+			<li>OnSkin</li>
 		  </layers>
 		  <defaultOutfitTags>
 			<li>Soldier</li>
