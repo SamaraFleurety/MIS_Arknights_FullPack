@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase">
+		<defName>FS_Recruit_Perseus</defName>
+		<nickname>Perseus</nickname>
+		<surname>Class Colossus</surname>
+		<description>被赋予了帕尔修斯之名的，巨像级航空母舰。
+性格略显卑微且经常会说一些讽刺的话。
+不太擅于直白地表达自己的情感反而经常用比喻（？）来表达，但因为本性还是正直纯真的，所以就普通地和她相处就好啦。</description>
+		<operatorType>FS_OperatorClass_Azur</operatorType>
+		<bodyTypeDef>Thin</bodyTypeDef>		
+		<stand>Azur/Perseus/PerseusStand</stand>
+		<headPortrait>Azur/Perseus/PerseusPortrait</headPortrait>
+		<skills>
+			<li>
+				<skill>Animals</skill>
+				<level>13</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Artistic</skill>
+				<level>15</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Construction</skill>
+				<level>0</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Cooking</skill>
+				<level>2</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Crafting</skill>
+				<level>5</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Intellectual</skill>
+				<level>12</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<level>12</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<level>0</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Mining</skill>
+				<level>0</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Plants</skill>
+				<level>3</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<level>17</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<level>7</level>
+				<fireLevel>1</fireLevel>
+			</li>
+		</skills>
+		<traits>
+			<li>
+				<def>Beauty</def>
+				<degree>2</degree>
+			</li>
+			<li>
+				<def>ShootingAccuracy</def>
+				<degree>-1</degree>
+			</li>
+			<li>
+				<def>SpeedOffset</def>
+				<degree>2</degree>
+			</li>
+		</traits>
+		<age>20</age>
+		<abilities>
+			<li>AK_Test_ignit</li>
+		</abilities>
+		<standRatio>3</standRatio>
+		<standOffset>(0, 0)</standOffset>
+	</AK_DLL.OperatorDef>
+	
+	<HairDef ParentName="AK_HairBaseF">
+		<defName>FS_Hair_Perseus</defName>
+		<label>英仙座发型</label>
+		<texPath>Azur/Perseus/PerseusHair</texPath>
+	</HairDef>  
+	
+	<ThingDef ParentName="AK_ArmorBase">
+		<defName>FS_Apparel_Perseus</defName>
+		<label>英仙座常服</label>
+		<description>英仙座最常穿着的服装。花纹和色彩容易让人联想到皇家海军的女仆队。</description>
+		<graphicData>
+		  <texPath>Things/AK_Agents/GApparel</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+		  <wornGraphicPath>Azur/Perseus/Perseus</wornGraphicPath>
+		</apparel>
+    </ThingDef>
+	
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>FS_BackStory_Perseus_Child</defName>
+		<slot>Childhood</slot>
+		<title>巨像级航空母舰</title>
+		<titleShort>航母</titleShort>
+		<baseDesc>巨像级的设计在1942年初完成，实际上是按比例缩小的光辉级。与光辉级相比，她们的主尺度缩水约1/10，取消了机库的装甲防护以增加内部空间，主机采用普通舰用蒸汽轮机，只安装4台锅炉，总功率比光辉级减少2/3，最大航速只有25节。标准排水量13,190吨，满载排水量18,040吨，飞行甲板长度为210米，总长度为212米；宽24米；标准吃水位为5.64米，满载吃水深度为7.16米。</baseDesc>
+	</BackstoryDef>
+	
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>FS_BackStory_Perseus_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>皇家海军预备役</title>
+		<titleShort>预备役</titleShort>
+		<baseDesc>巨像级英仙座号于1944年下水，45年10月19日完成舾装并服役。适逢二战结束而诞生的她，生涯中多次参与训练，装备实验，运输等行动，于1958年拆解。</baseDesc>
+	</BackstoryDef>
+	
+</Defs>
