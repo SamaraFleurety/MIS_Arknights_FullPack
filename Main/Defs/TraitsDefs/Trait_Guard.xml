@@ -533,4 +533,43 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<!-- 重岳 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_ChongyueSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>知我为我</label>
+				<description>匹夫之技 所至何境
+遂兵斗成庐 ■■■躯 ■■同力
+■■■■ 反正相合 天地如逆
+悲极 蜩螗若斯 干戈止易
+但为求索 云晞烟荡 万象伶仃
+				</description>
+				<statOffsets>
+					<GlobalLearningFactor>0.32</GlobalLearningFactor>
+					<MeleeDPS>2</MeleeDPS>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Chongyue</defName>
+		<degreeDatas>
+			<li>
+				<label>孤光共照</label>
+				<description>来去春景，怅然秋心。
+				</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.6</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>

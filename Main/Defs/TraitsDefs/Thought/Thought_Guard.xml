@@ -71,7 +71,7 @@
 	</ThoughtDef>
 
 	<!-- 史尔特尔 -->
-	
+
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_Surtr</defName>
 		<requiredTraits>
@@ -175,10 +175,12 @@
 	</ThoughtDef>
 
 	<!-- 艾斯黛尔 -->
-	
+
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_Estelle</defName>
-		<requiredTraits><li>AK_Trait_Estelle</li></requiredTraits>
+		<requiredTraits>
+			<li>AK_Trait_Estelle</li>
+		</requiredTraits>
 		<stages>
 			<li>
 				<label>怪胎</label>
@@ -194,7 +196,9 @@
 
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_FlintSecond</defName>
-		<requiredTraits><li>AK_Trait_FlintSecond</li></requiredTraits>
+		<requiredTraits>
+			<li>AK_Trait_FlintSecond</li>
+		</requiredTraits>
 		<stages>
 			<li>
 				<label>雨林的战士</label>
@@ -205,7 +209,7 @@
 	</ThoughtDef>
 
 	<!-- 羽毛笔 -->
-	
+
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_LaPluma</defName>
 		<requiredTraits>
@@ -222,7 +226,7 @@
 	</ThoughtDef>
 
 	<!-- 龙舌兰 -->
-	
+
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_Tequila</defName>
 		<requiredTraits>
@@ -243,7 +247,9 @@
 
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_Irene</defName>
-		<requiredTraits><li>AK_Trait_Irene</li></requiredTraits>
+		<requiredTraits>
+			<li>AK_Trait_Irene</li>
+		</requiredTraits>
 		<stages>
 			<li>
 				<label>审判官</label>
@@ -257,7 +263,9 @@
 
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_Maynar</defName>
-		<requiredTraits><li>AK_Trait_Maynar</li></requiredTraits>
+		<requiredTraits>
+			<li>AK_Trait_Maynar</li>
+		</requiredTraits>
 		<stages>
 			<li>
 				<label>未照耀的荣光</label>
@@ -271,12 +279,30 @@
 
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_Astesia</defName>
-		<requiredTraits><li>AK_Trait_Astesia</li></requiredTraits>
+		<requiredTraits>
+			<li>AK_Trait_Astesia</li>
+		</requiredTraits>
 		<stages>
 			<li>
 				<label>占星师</label>
 				<description>从受到矿石病感染开始，星辰对我的回应已经越来越微弱了。</description>
 				<baseMoodEffect>-8</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 重岳 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Chongyue</defName>
+		<requiredTraits>
+			<li>AK_Trait_Chongyue</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>知我为我</label>
+				<description>“我是谁”......临水自照，人也好，兽也罢，山峦林烟，天边双月的倒影，看见了什么，答案便是什么。至于人间换尽，我们兄弟姐妹会不会重归混沌，寻找新的答案，那又是另一个问题了。</description>
+				<baseMoodEffect>12</baseMoodEffect>
 			</li>
 		</stages>
 	</ThoughtDef>

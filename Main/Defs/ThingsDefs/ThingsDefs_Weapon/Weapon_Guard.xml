@@ -1214,4 +1214,14 @@
     </tools>
   </ThingDef>
 
+	<ThingDef ParentName="AK_WeaponBase_Guard">
+		<defName>AK_Weapon_Chongyue</defName>
+		<label>重岳的拳套</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Guard/ChongyueW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<description>重岳的拳套</description>
+	</ThingDef>
+
 </Defs>

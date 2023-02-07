@@ -2092,6 +2092,7 @@ Mousse, Guard Operator of Rhodes Island, thinks of her enemies as oversized scra
 		</apparels>
 		<stand>UI/Image/Guard/MaynarStand</stand>
 		<headPortrait>UI/Image/Guard/MaynarPortrait</headPortrait>
+		<bodyTypeDef>Male</bodyTypeDef>
 		<traits>
 			<li>
 				<def>AK_Trait_MaynarSecond</def>
@@ -2371,6 +2372,107 @@ Mousse, Guard Operator of Rhodes Island, thinks of her enemies as oversized scra
 		</skills>
 		<standOffset>(-100,125)</standOffset>
 		<standRatio>3</standRatio>
+	</AK_DLL.OperatorDef>
+
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Guard">
+		<defName>AK_Recruit_Chongyue</defName>
+		<name>Chongyue</name>
+		<nickname>Chongyue</nickname>
+		<description>
+FIXMEDESC</description>
+		<weapon>AK_Weapon_Chongyue</weapon>
+		<hair>AK_Hair_Chongyue</hair>
+		<apparels>
+			<li>AK_Apparel_Chongyue</li>
+		</apparels>
+		<stand>UI/Image/Guard/ChongyueStand</stand>
+		<headPortrait>UI/Image/Guard/ChongyuePortrait</headPortrait>
+		<bodyTypeDef>Male</bodyTypeDef>
+		<traits>
+			<li>
+				<def>Kind</def>
+			</li>
+			<li>
+				<def>Beauty</def>
+				<degree>1</degree>
+			</li>
+			<li>
+				<def>Industriousness</def>
+				<degree>2</degree>
+			</li>
+			<li>
+				<def>AK_Trait_ChongyueSecond</def>
+			</li>
+			<li>
+				<def>AK_Trait_Chongyue</def>
+			</li>
+		</traits>
+		<age>20</age>
+		<isMale>true</isMale>
+		<childHood>AK_BackStory_Chongyue_Child</childHood>
+		<adultHood>AK_BackStory_Chongyue_Adult</adultHood>
+		<skills>
+			<li>
+				<skill>Animals</skill>
+				<level>5</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Artistic</skill>
+				<level>8</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Construction</skill>
+				<level>6</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Cooking</skill>
+				<level>10</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Crafting</skill>
+				<level>14</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Intellectual</skill>
+				<level>20</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<level>6</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<level>20</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Mining</skill>
+				<level>6</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Plants</skill>
+				<level>12</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<level>2</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<level>12</level>
+				<fireLevel>0</fireLevel>
+			</li>
+		</skills>
 	</AK_DLL.OperatorDef>
 
 </Defs>
