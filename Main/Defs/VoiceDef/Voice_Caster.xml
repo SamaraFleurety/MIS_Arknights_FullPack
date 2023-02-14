@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<!-- 阿米娅语音 -->
+ <!-- 阿米娅语音 -->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Amiya</defName>
@@ -207,7 +207,24 @@
 		</subSounds>
 	</SoundDef>
 
-	<!-- 澄闪语音 -->
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Undraft_Amiya</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Amiya/char_002_amiya/Undraft_Amiya</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+ <!-- 澄闪语音 -->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Goldenglow</defName>
@@ -413,7 +430,25 @@
 		</subSounds>
 	</SoundDef>
 
-	<!-- 艾尔法拉语音 -->
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Undraft_Goldenglow</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Goldenglow/char_377_gdglow/Undraft_Goldenglow</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+
+ <!-- 艾尔法拉语音 -->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Eyjafjalla</defName>
@@ -619,7 +654,24 @@
 		</subSounds>
 	</SoundDef>
 
-	<!-- 夕语音 -->
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Undraft_Eyjafjalla</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Eyjafjalla/char_180_amgoat/Undraft_Eyjafjalla</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+ <!-- 夕语音 -->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Dusk</defName>
@@ -825,7 +877,24 @@
 		</subSounds>
 	</SoundDef>
 
-	<!-- 苦艾语音 -->
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Undraft_Dusk</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Dusk/char_2015_dusk/Undraft_Dusk</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+ <!-- 苦艾语音 -->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Absinthe</defName>
@@ -1031,8 +1100,24 @@
 		</subSounds>
 	</SoundDef>
 
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Undraft_Absinthe</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Absinthe/char_405_absin/Undraft_Absinthe</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
 
-	<!-- 小刻语音 -->
+ <!-- 小刻语音 -->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Ceobe</defName>
@@ -1238,7 +1323,24 @@
 		</subSounds>
 	</SoundDef>
 
-	<!-- 伊芙利特语音 -->
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Undraft_Ceobe</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Ceobe/char_2013_cerber/Undraft_Ceobe</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+ <!-- 伊芙利特语音 -->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Ifrit</defName>
@@ -1444,7 +1546,24 @@
 		</subSounds>
 	</SoundDef>
 
-	<!-- 深靛语音 -->
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Undraft_Ifrit</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Ifrit/char_134_ifrit/Undraft_Ifrit</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+ <!-- 深靛语音 -->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Indigo</defName>
@@ -1650,7 +1769,24 @@
 		</subSounds>
 	</SoundDef>
 
-	<!-- 薄绿语音 -->
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Undraft_Indigo</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Indigo/char_469_Indigo/Undraft_Indigo</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+ <!-- 薄绿语音 -->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Mint</defName>
@@ -1856,7 +1992,24 @@
 		</subSounds>
 	</SoundDef>
 
-	<!-- 特米米语音 -->
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Undraft_Mint</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Mint/char_388_mint/Undraft_Mint</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+ <!-- 特米米语音 -->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Tomimi</defName>
@@ -2062,7 +2215,24 @@
 		</subSounds>
 	</SoundDef>
 
-	<!-- 莫斯提马语音 -->
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Undraft_Tomimi</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Tomimi/char_tomimi/Undraft_Tomimi</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+ <!-- 莫斯提马语音 -->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Mostima</defName>
@@ -2268,7 +2438,24 @@
 		</subSounds>
 	</SoundDef>
 
-	<!-- 天火语音 -->
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Undraft_Mostima</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Mostima/char_213_mostma/Undraft_Mostima</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+ <!-- 天火语音 -->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Skyfire</defName>
@@ -2474,7 +2661,24 @@
 		</subSounds>
 	</SoundDef>
 
-	<!-- 蜜蜡语音 -->
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Undraft_Skyfire</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Skyfire/char_166_skfire/Undraft_Skyfire</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+ <!-- 蜜蜡语音 -->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Beeswax</defName>
@@ -2680,7 +2884,24 @@
 		</subSounds>
 	</SoundDef>
 
-	<!-- 卡涅利安语音 -->
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Undraft_Beeswax</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Beeswax/char_344_Beewax/Undraft_Beeswax</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+ <!-- 卡涅利安语音 -->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Carnelian</defName>
@@ -2886,7 +3107,24 @@
 		</subSounds>
 	</SoundDef>
 
-	<!-- 耶拉语音 -->
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Undraft_Carnelian</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Carnelian/char_426_billro/Undraft_Carnelian</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+ <!-- 耶拉语音 -->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Kjera</defName>
@@ -3092,7 +3330,25 @@
 		</subSounds>
 	</SoundDef>
 
-	<!-- Astgenne 星源 -->
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Undraft_Kjera</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Kjera/char_4013_kjera/Undraft_Kjera</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+ <!-- Astgenne 星源 -->
+
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Astgenne</defName>
 		<subSounds>
@@ -3297,414 +3553,467 @@
 		</subSounds>
 	</SoundDef>
 
-	<!-- Harmonie 和弦 -->
-    <SoundDef ParentName = "AK_VoiceBase">
-        <defName>AK_Voice_Recruit_Harmonie</defName>
-        <subSounds>
-            <li>
-                <onCamera>True</onCamera>
-                <grains>
-                    <li Class="AudioGrain_Clip">
-                        <clipPath>Operator/Caster/Harmonie/char_297_hamoni/Recruit_Harmonie</clipPath>
-                    </li>
-                </grains>
-                <volumeRange>40~40</volumeRange>
-                <distRange>10~100</distRange>
-                <sustainLoop>False</sustainLoop>
-            </li>
-        </subSounds>
-    </SoundDef>
-    
-    <SoundDef ParentName = "AK_VoiceBase">
-        <defName>AK_Voice_Die_Harmonie</defName>
-        <subSounds>
-            <li>
-                <onCamera>True</onCamera>
-                <grains>
-                    <li Class="AudioGrain_Clip">
-                        <clipPath>Operator/Caster/Harmonie/char_297_hamoni/Die_Harmonie</clipPath>
-                    </li>
-                </grains>
-                <volumeRange>40~40</volumeRange>
-                <distRange>10~100</distRange>
-                <sustainLoop>False</sustainLoop>
-            </li>
-        </subSounds>
-    </SoundDef>
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Undraft_Astgenne</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Astgenne/char_135_halo/Undraft_Astgenne</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
 
-    <SoundDef ParentName = "AK_VoiceBase">
-        <defName>AK_Voice_Draft_HarmonieI</defName>
-        <subSounds>
-            <li>
-                <onCamera>True</onCamera>
-                <grains>
-                    <li Class="AudioGrain_Clip">
-                        <clipPath>Operator/Caster/Harmonie/char_297_hamoni/Draft_HarmonieI</clipPath>
-                    </li>
-                </grains>
-                <volumeRange>40~40</volumeRange>
-                <distRange>10~100</distRange>
-                <sustainLoop>False</sustainLoop>
-            </li>
-        </subSounds>
-    </SoundDef>
+ <!-- Harmonie 和弦 -->
 
-    <SoundDef ParentName = "AK_VoiceBase">
-        <defName>AK_Voice_Draft_HarmonieII</defName>
-        <subSounds>
-            <li>
-                <onCamera>True</onCamera>
-                <grains>
-                    <li Class="AudioGrain_Clip">
-                        <clipPath>Operator/Caster/Harmonie/char_297_hamoni/Draft_HarmonieII</clipPath>
-                    </li>
-                </grains>
-                <volumeRange>40~40</volumeRange>
-                <distRange>10~100</distRange>
-                <sustainLoop>False</sustainLoop>
-            </li>
-        </subSounds>
-    </SoundDef>
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Recruit_Harmonie</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Harmonie/char_297_hamoni/Recruit_Harmonie</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
 
-    <SoundDef ParentName = "AK_VoiceBase">
-        <defName>AK_Voice_Select_HarmonieI</defName>
-        <subSounds>
-            <li>
-                <onCamera>True</onCamera>
-                <grains>
-                    <li Class="AudioGrain_Clip">
-                        <clipPath>Operator/Caster/Harmonie/char_297_hamoni/Select_HarmonieI</clipPath>
-                    </li>
-                </grains>
-                <volumeRange>40~40</volumeRange>
-                <distRange>10~100</distRange>
-                <sustainLoop>False</sustainLoop>
-            </li>
-        </subSounds>
-    </SoundDef>
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Die_Harmonie</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Harmonie/char_297_hamoni/Die_Harmonie</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
 
-    <SoundDef ParentName = "AK_VoiceBase">
-        <defName>AK_Voice_Select_HarmonieII</defName>
-        <subSounds>
-            <li>
-                <onCamera>True</onCamera>
-                <grains>
-                    <li Class="AudioGrain_Clip">
-                        <clipPath>Operator/Caster/Harmonie/char_297_hamoni/Select_HarmonieII</clipPath>
-                    </li>
-                </grains>
-                <volumeRange>40~40</volumeRange>
-                <distRange>10~100</distRange>
-                <sustainLoop>False</sustainLoop>
-            </li>
-        </subSounds>
-    </SoundDef>
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Draft_HarmonieI</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Harmonie/char_297_hamoni/Draft_HarmonieI</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
 
-    <SoundDef ParentName = "AK_VoiceBase">
-        <defName>AK_Voice_Select_HarmonieIII</defName>
-        <subSounds>
-            <li>
-                <onCamera>True</onCamera>
-                <grains>
-                    <li Class="AudioGrain_Clip">
-                        <clipPath>Operator/Caster/Harmonie/char_297_hamoni/Select_HarmonieIII</clipPath>
-                    </li>
-                </grains>
-                <volumeRange>40~40</volumeRange>
-                <distRange>10~100</distRange>
-                <sustainLoop>False</sustainLoop>
-            </li>
-        </subSounds>
-    </SoundDef>
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Draft_HarmonieII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Harmonie/char_297_hamoni/Draft_HarmonieII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
 
-    <SoundDef ParentName = "AK_VoiceBase">
-        <defName>AK_Voice_Select_HarmonieIV</defName>
-        <subSounds>
-            <li>
-                <onCamera>True</onCamera>
-                <grains>
-                    <li Class="AudioGrain_Clip">
-                        <clipPath>Operator/Caster/Harmonie/char_297_hamoni/Select_HarmonieIV</clipPath>
-                    </li>
-                </grains>
-                <volumeRange>40~40</volumeRange>
-                <distRange>10~100</distRange>
-                <sustainLoop>False</sustainLoop>
-            </li>
-        </subSounds>
-    </SoundDef>
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_HarmonieI</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Harmonie/char_297_hamoni/Select_HarmonieI</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
 
-    <SoundDef ParentName = "AK_VoiceBase">
-        <defName>AK_Voice_Ability_HarmonieI</defName>
-        <subSounds>
-            <li>
-                <onCamera>True</onCamera>
-                <grains>
-                    <li Class="AudioGrain_Clip">
-                        <clipPath>Operator/Caster/Harmonie/char_297_hamoni/Ability_HarmonieI</clipPath>
-                    </li>
-                </grains>
-                <volumeRange>40~40</volumeRange>
-                <distRange>10~100</distRange>
-                <sustainLoop>False</sustainLoop>
-            </li>
-        </subSounds>
-    </SoundDef>
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_HarmonieII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Harmonie/char_297_hamoni/Select_HarmonieII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
 
-    <SoundDef ParentName = "AK_VoiceBase">
-        <defName>AK_Voice_Ability_HarmonieII</defName>
-        <subSounds>
-            <li>
-                <onCamera>True</onCamera>
-                <grains>
-                    <li Class="AudioGrain_Clip">
-                        <clipPath>Operator/Caster/Harmonie/char_297_hamoni/Ability_HarmonieII</clipPath>
-                    </li>
-                </grains>
-                <volumeRange>40~40</volumeRange>
-                <distRange>10~100</distRange>
-                <sustainLoop>False</sustainLoop>
-            </li>
-        </subSounds>
-    </SoundDef>
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_HarmonieIII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Harmonie/char_297_hamoni/Select_HarmonieIII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
 
-    <SoundDef ParentName = "AK_VoiceBase">
-        <defName>AK_Voice_Ability_HarmonieIII</defName>
-        <subSounds>
-            <li>
-                <onCamera>True</onCamera>
-                <grains>
-                    <li Class="AudioGrain_Clip">
-                        <clipPath>Operator/Caster/Harmonie/char_297_hamoni/Ability_HarmonieIII</clipPath>
-                    </li>
-                </grains>
-                <volumeRange>40~40</volumeRange>
-                <distRange>10~100</distRange>
-                <sustainLoop>False</sustainLoop>
-            </li>
-        </subSounds>
-    </SoundDef>
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_HarmonieIV</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Harmonie/char_297_hamoni/Select_HarmonieIV</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
 
-    <SoundDef ParentName = "AK_VoiceBase">
-        <defName>AK_Voice_Ability_HarmonieIV</defName>
-        <subSounds>
-            <li>
-                <onCamera>True</onCamera>
-                <grains>
-                    <li Class="AudioGrain_Clip">
-                        <clipPath>Operator/Caster/Harmonie/char_297_hamoni/Ability_HarmonieIV</clipPath>
-                    </li>
-                </grains>
-                <volumeRange>40~40</volumeRange>
-                <distRange>10~100</distRange>
-                <sustainLoop>False</sustainLoop>
-            </li>
-        </subSounds>
-    </SoundDef>
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_HarmonieI</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Harmonie/char_297_hamoni/Ability_HarmonieI</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
 
-	<!-- Lin 林 -->
-    <SoundDef ParentName = "AK_VoiceBase">
-        <defName>AK_Voice_Recruit_Lin</defName>
-        <subSounds>
-            <li>
-                <onCamera>True</onCamera>
-                <grains>
-                    <li Class="AudioGrain_Clip">
-                        <clipPath>Operator/Caster/Lin/char_4080_lin/Recruit_Lin</clipPath>
-                    </li>
-                </grains>
-                <volumeRange>40~40</volumeRange>
-                <distRange>10~100</distRange>
-                <sustainLoop>False</sustainLoop>
-            </li>
-        </subSounds>
-    </SoundDef>
-    
-    <SoundDef ParentName = "AK_VoiceBase">
-        <defName>AK_Voice_Die_Lin</defName>
-        <subSounds>
-            <li>
-                <onCamera>True</onCamera>
-                <grains>
-                    <li Class="AudioGrain_Clip">
-                        <clipPath>Operator/Caster/Lin/char_4080_lin/Die_Lin</clipPath>
-                    </li>
-                </grains>
-                <volumeRange>40~40</volumeRange>
-                <distRange>10~100</distRange>
-                <sustainLoop>False</sustainLoop>
-            </li>
-        </subSounds>
-    </SoundDef>
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_HarmonieII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Harmonie/char_297_hamoni/Ability_HarmonieII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
 
-    <SoundDef ParentName = "AK_VoiceBase">
-        <defName>AK_Voice_Draft_LinI</defName>
-        <subSounds>
-            <li>
-                <onCamera>True</onCamera>
-                <grains>
-                    <li Class="AudioGrain_Clip">
-                        <clipPath>Operator/Caster/Lin/char_4080_lin/Draft_LinI</clipPath>
-                    </li>
-                </grains>
-                <volumeRange>40~40</volumeRange>
-                <distRange>10~100</distRange>
-                <sustainLoop>False</sustainLoop>
-            </li>
-        </subSounds>
-    </SoundDef>
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_HarmonieIII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Harmonie/char_297_hamoni/Ability_HarmonieIII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
 
-    <SoundDef ParentName = "AK_VoiceBase">
-        <defName>AK_Voice_Draft_LinII</defName>
-        <subSounds>
-            <li>
-                <onCamera>True</onCamera>
-                <grains>
-                    <li Class="AudioGrain_Clip">
-                        <clipPath>Operator/Caster/Lin/char_4080_lin/Draft_LinII</clipPath>
-                    </li>
-                </grains>
-                <volumeRange>40~40</volumeRange>
-                <distRange>10~100</distRange>
-                <sustainLoop>False</sustainLoop>
-            </li>
-        </subSounds>
-    </SoundDef>
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_HarmonieIV</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Harmonie/char_297_hamoni/Ability_HarmonieIV</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
 
-    <SoundDef ParentName = "AK_VoiceBase">
-        <defName>AK_Voice_Select_LinI</defName>
-        <subSounds>
-            <li>
-                <onCamera>True</onCamera>
-                <grains>
-                    <li Class="AudioGrain_Clip">
-                        <clipPath>Operator/Caster/Lin/char_4080_lin/Select_LinI</clipPath>
-                    </li>
-                </grains>
-                <volumeRange>40~40</volumeRange>
-                <distRange>10~100</distRange>
-                <sustainLoop>False</sustainLoop>
-            </li>
-        </subSounds>
-    </SoundDef>
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Undraft_Harmonie</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Harmonie/char_297_hamoni/Undraft_Harmonie</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
 
-    <SoundDef ParentName = "AK_VoiceBase">
-        <defName>AK_Voice_Select_LinII</defName>
-        <subSounds>
-            <li>
-                <onCamera>True</onCamera>
-                <grains>
-                    <li Class="AudioGrain_Clip">
-                        <clipPath>Operator/Caster/Lin/char_4080_lin/Select_LinII</clipPath>
-                    </li>
-                </grains>
-                <volumeRange>40~40</volumeRange>
-                <distRange>10~100</distRange>
-                <sustainLoop>False</sustainLoop>
-            </li>
-        </subSounds>
-    </SoundDef>
+ <!-- Lin 林 -->
 
-    <SoundDef ParentName = "AK_VoiceBase">
-        <defName>AK_Voice_Select_LinIII</defName>
-        <subSounds>
-            <li>
-                <onCamera>True</onCamera>
-                <grains>
-                    <li Class="AudioGrain_Clip">
-                        <clipPath>Operator/Caster/Lin/char_4080_lin/Select_LinIII</clipPath>
-                    </li>
-                </grains>
-                <volumeRange>40~40</volumeRange>
-                <distRange>10~100</distRange>
-                <sustainLoop>False</sustainLoop>
-            </li>
-        </subSounds>
-    </SoundDef>
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Recruit_Lin</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Lin/char_4080_lin/Recruit_Lin</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
 
-    <SoundDef ParentName = "AK_VoiceBase">
-        <defName>AK_Voice_Select_LinIV</defName>
-        <subSounds>
-            <li>
-                <onCamera>True</onCamera>
-                <grains>
-                    <li Class="AudioGrain_Clip">
-                        <clipPath>Operator/Caster/Lin/char_4080_lin/Select_LinIV</clipPath>
-                    </li>
-                </grains>
-                <volumeRange>40~40</volumeRange>
-                <distRange>10~100</distRange>
-                <sustainLoop>False</sustainLoop>
-            </li>
-        </subSounds>
-    </SoundDef>
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Die_Lin</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Lin/char_4080_lin/Die_Lin</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
 
-    <SoundDef ParentName = "AK_VoiceBase">
-        <defName>AK_Voice_Ability_LinI</defName>
-        <subSounds>
-            <li>
-                <onCamera>True</onCamera>
-                <grains>
-                    <li Class="AudioGrain_Clip">
-                        <clipPath>Operator/Caster/Lin/char_4080_lin/Ability_LinI</clipPath>
-                    </li>
-                </grains>
-                <volumeRange>40~40</volumeRange>
-                <distRange>10~100</distRange>
-                <sustainLoop>False</sustainLoop>
-            </li>
-        </subSounds>
-    </SoundDef>
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Draft_LinI</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Lin/char_4080_lin/Draft_LinI</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
 
-    <SoundDef ParentName = "AK_VoiceBase">
-        <defName>AK_Voice_Ability_LinII</defName>
-        <subSounds>
-            <li>
-                <onCamera>True</onCamera>
-                <grains>
-                    <li Class="AudioGrain_Clip">
-                        <clipPath>Operator/Caster/Lin/char_4080_lin/Ability_LinII</clipPath>
-                    </li>
-                </grains>
-                <volumeRange>40~40</volumeRange>
-                <distRange>10~100</distRange>
-                <sustainLoop>False</sustainLoop>
-            </li>
-        </subSounds>
-    </SoundDef>
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Draft_LinII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Lin/char_4080_lin/Draft_LinII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
 
-    <SoundDef ParentName = "AK_VoiceBase">
-        <defName>AK_Voice_Ability_LinIII</defName>
-        <subSounds>
-            <li>
-                <onCamera>True</onCamera>
-                <grains>
-                    <li Class="AudioGrain_Clip">
-                        <clipPath>Operator/Caster/Lin/char_4080_lin/Ability_LinIII</clipPath>
-                    </li>
-                </grains>
-                <volumeRange>40~40</volumeRange>
-                <distRange>10~100</distRange>
-                <sustainLoop>False</sustainLoop>
-            </li>
-        </subSounds>
-    </SoundDef>
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_LinI</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Lin/char_4080_lin/Select_LinI</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
 
-    <SoundDef ParentName = "AK_VoiceBase">
-        <defName>AK_Voice_Ability_LinIV</defName>
-        <subSounds>
-            <li>
-                <onCamera>True</onCamera>
-                <grains>
-                    <li Class="AudioGrain_Clip">
-                        <clipPath>Operator/Caster/Lin/char_4080_lin/Ability_LinIV</clipPath>
-                    </li>
-                </grains>
-                <volumeRange>40~40</volumeRange>
-                <distRange>10~100</distRange>
-                <sustainLoop>False</sustainLoop>
-            </li>
-        </subSounds>
-    </SoundDef>
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_LinII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Lin/char_4080_lin/Select_LinII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_LinIII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Lin/char_4080_lin/Select_LinIII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_LinIV</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Lin/char_4080_lin/Select_LinIV</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_LinI</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Lin/char_4080_lin/Ability_LinI</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_LinII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Lin/char_4080_lin/Ability_LinII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_LinIII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Lin/char_4080_lin/Ability_LinIII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_LinIV</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Lin/char_4080_lin/Ability_LinIV</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Undraft_Lin</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Lin/char_4080_lin/Undraft_Lin</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
 
 </Defs>

@@ -2,6 +2,7 @@
 <Defs>
 
 <!-- Saga 嵯峨 -->
+
     <SoundDef ParentName = "AK_VoiceBase">
         <defName>AK_Voice_Recruit_Saga</defName>
         <subSounds>
@@ -206,7 +207,25 @@
         </subSounds>
     </SoundDef>
 
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Undraft_Saga</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Saga/char_362_saga/Undraft_Saga</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
 <!-- Texas 德克萨斯 -->
+
     <SoundDef ParentName = "AK_VoiceBase">
         <defName>AK_Voice_Recruit_Texas</defName>
         <subSounds>
@@ -411,7 +430,25 @@
         </subSounds>
     </SoundDef>
 
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Undraft_Texas</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Texas/char_102_texas/Undraft_Texas</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
 <!-- Bagpipe 风笛 -->
+
     <SoundDef ParentName = "AK_VoiceBase">
         <defName>AK_Voice_Recruit_Bagpipe</defName>
         <subSounds>
@@ -616,7 +653,25 @@
         </subSounds>
     </SoundDef>
 
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Undraft_Bagpipe</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Bagpipe/char_222_bpipe/Undraft_Bagpipe</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
 <!-- Siege 王维娜 -->
+
     <SoundDef ParentName = "AK_VoiceBase">
         <defName>AK_Voice_Recruit_Siege</defName>
         <subSounds>
@@ -821,7 +876,25 @@
         </subSounds>
     </SoundDef>
 
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Undraft_Siege</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Siege/char_112_siege/Undraft_Siege</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
 <!-- Reed 苇草 -->
+
     <SoundDef ParentName = "AK_VoiceBase">
         <defName>AK_Voice_Recruit_Reed</defName>
         <subSounds>
@@ -1026,7 +1099,25 @@
         </subSounds>
     </SoundDef>
 
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Undraft_Reed</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Reed/char_261_sddrag/Undraft_Reed</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
 <!-- Vanilla 香草 -->
+
     <SoundDef ParentName = "AK_VoiceBase">
         <defName>AK_Voice_Recruit_Vanilla</defName>
         <subSounds>
@@ -1231,7 +1322,25 @@
         </subSounds>
     </SoundDef>
 
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Undraft_Vanilla</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Vanilla/char_240_wyvern/Undraft_Vanilla</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
 <!-- Flametail 焰尾 -->
+
     <SoundDef ParentName = "AK_VoiceBase">
         <defName>AK_Voice_Recruit_Flametail</defName>
         <subSounds>
@@ -1436,7 +1545,25 @@
         </subSounds>
     </SoundDef>
 
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Undraft_Flametail</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Flametail/char_420_flamtl/Undraft_Flametail</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
 <!-- Saileach 琴柳 -->
+
     <SoundDef ParentName = "AK_VoiceBase">
         <defName>AK_Voice_Recruit_Saileach</defName>
         <subSounds>
@@ -1641,7 +1768,25 @@
         </subSounds>
     </SoundDef>
 
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Undraft_Saileach</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Saileach/char_479_sleach/Undraft_Saileach</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
 <!-- Beanstalk 豆苗 -->
+
     <SoundDef ParentName = "AK_VoiceBase">
         <defName>AK_Voice_Recruit_Beanstalk</defName>
         <subSounds>
@@ -1846,7 +1991,25 @@
         </subSounds>
     </SoundDef>
 
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Undraft_Beanstalk</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Beanstalk/char_452_bstalk/Undraft_Beanstalk</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
 <!-- Myrtle 桃金娘 -->
+
     <SoundDef ParentName = "AK_VoiceBase">
         <defName>AK_Voice_Recruit_Myrtle</defName>
         <subSounds>
@@ -2034,7 +2197,42 @@
         </subSounds>
     </SoundDef>
 
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Ability_MyrtleIV</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Myrtle/char_151_myrtle/Ability_MyrtleIV</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Undraft_Myrtle</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Myrtle/char_151_myrtle/Undraft_Myrtle</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
 <!-- Grani 格拉尼 -->
+
     <SoundDef ParentName = "AK_VoiceBase">
         <defName>AK_Voice_Recruit_Grani</defName>
         <subSounds>
@@ -2239,7 +2437,25 @@
         </subSounds>
     </SoundDef>
 
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Undraft_Grani</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Grani/char_220_grani/Undraft_Grani</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
 <!-- Zima 凛冬 -->
+
     <SoundDef ParentName = "AK_VoiceBase">
         <defName>AK_Voice_Recruit_Zima</defName>
         <subSounds>
@@ -2435,6 +2651,23 @@
                 <grains>
                     <li Class="AudioGrain_Clip">
                         <clipPath>Operator/Vanguard/Zima/char_115_headbr/Ability_ZimaIV</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Undraft_Zima</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Zima/char_115_headbr/Undraft_Zima</clipPath>
                     </li>
                 </grains>
                 <volumeRange>40~40</volumeRange>
@@ -2650,7 +2883,24 @@
         </subSounds>
     </SoundDef>
 
-    <!-- 野鬃 -->
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Undraft_Courier</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/Courier/char_198_blackd/Undraft_Courier</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <!-- WildMane 野鬃 -->
 
     <SoundDef ParentName = "AK_VoiceBase">
         <defName>AK_Voice_Recruit_Wild</defName>
@@ -2830,6 +3080,40 @@
                 <grains>
                     <li Class="AudioGrain_Clip">
                         <clipPath>Operator/Vanguard/WildMane/char_496_wildmn/Ability_WildManeIII</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Ability_WildIV</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/WildMane/char_496_wildmn/Ability_WildManeIV</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Undraft_Wild</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Vanguard/WildMane/char_496_wildmn/Undraft_WildMane</clipPath>
                     </li>
                 </grains>
                 <volumeRange>40~40</volumeRange>

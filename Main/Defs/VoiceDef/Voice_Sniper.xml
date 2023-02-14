@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<!-- 白金语音 -->
+ <!-- Platinum 白金 -->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Platinum</defName>
@@ -62,23 +62,6 @@
 				<grains>
 					<li Class="AudioGrain_Clip">
 						<clipPath>Operator/Sniper/Platinum/char_204_platnm/Draft_PlatinumII</clipPath>
-					</li>
-				</grains>
-				<volumeRange>40~40</volumeRange>
-				<distRange>10~100</distRange>
-				<sustainLoop>False</sustainLoop>
-			</li>
-		</subSounds>
-	</SoundDef>
-
-	<SoundDef ParentName = "AK_VoiceBase">
-		<defName>AK_Voice_Draft_PlatinumIII</defName>
-		<subSounds>
-			<li>
-				<onCamera>True</onCamera>
-				<grains>
-					<li Class="AudioGrain_Clip">
-						<clipPath>Operator/Sniper/Platinum/char_204_platnm/Draft_PlatinumIII</clipPath>
 					</li>
 				</grains>
 				<volumeRange>40~40</volumeRange>
@@ -223,7 +206,25 @@
 			</li>
 		</subSounds>
 	</SoundDef>
-	<!-- 杰西卡语音 -->
+
+	<SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Undraft_Platinum</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Sniper/Platinum/char_204_platnm/Undraft_Platinum</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+ <!-- Jessica 杰西卡 -->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Jessica</defName>
@@ -345,6 +346,23 @@
 	</SoundDef>
 
 	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_JessicaIV</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Sniper/Jessica/char_235_jesica/Select_JessicaIV</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_JessicaI</defName>
 		<subSounds>
 			<li>
@@ -411,7 +429,25 @@
 			</li>
 		</subSounds>
 	</SoundDef>
-	<!-- 空弦语音 -->
+
+	<SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Undraft_Jessica</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Sniper/Jessica/char_235_jesica/Undraft_Jessica</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+ <!-- Archetto 空弦 -->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Archetto</defName>
@@ -489,6 +525,23 @@
 				<grains>
 					<li Class="AudioGrain_Clip">
 						<clipPath>Operator/Sniper/Archetto/shar_332_archet/Draft_ArchettoIII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Draft_ArchettoIV</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Sniper/Archetto/shar_332_archet/Draft_ArchettoIV</clipPath>
 					</li>
 				</grains>
 				<volumeRange>40~40</volumeRange>
@@ -599,7 +652,25 @@
 			</li>
 		</subSounds>
 	</SoundDef>
-	<!-- 送葬者语音 -->
+
+	<SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Undraft_Archetto</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Sniper/Archetto/shar_332_archet/Undraft_Archetto</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+ <!-- Executor 送葬者 -->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Executor</defName>
@@ -721,6 +792,23 @@
 	</SoundDef>
 
 	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_ExecutorIV</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Sniper/Executor/char_279_excu/Select_ExecutorIV</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_ExecutorI</defName>
 		<subSounds>
 			<li>
@@ -787,7 +875,25 @@
 			</li>
 		</subSounds>
 	</SoundDef>
-	<!-- 能天使语音 -->
+
+	<SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Undraft_Executor</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Sniper/Executor/char_279_excu/Undraft_Executor</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+ <!-- Exusiai 能天使 -->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Exusiai</defName>
@@ -909,6 +1015,23 @@
 	</SoundDef>
 
 	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_ExusiaiIV</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Sniper/Exusiai/char_103_angel/Select_ExusiaiIV</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_ExusiaiI</defName>
 		<subSounds>
 			<li>
@@ -975,7 +1098,25 @@
 			</li>
 		</subSounds>
 	</SoundDef>
-	<!-- 灰喉语音 -->
+
+	<SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Undraft_Exusiai</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Sniper/Exusiai/char_103_angel/Undraft_Exusiai</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+ <!-- Greythroat 灰喉 -->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Greythroat</defName>
@@ -1097,6 +1238,23 @@
 	</SoundDef>
 
 	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_GreythroatIV</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Sniper/Greythroat/char_367_swllow/Select_GreythroatIV</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_GreythroatI</defName>
 		<subSounds>
 			<li>
@@ -1163,7 +1321,25 @@
 			</li>
 		</subSounds>
 	</SoundDef>
-	<!-- 陨星语音 -->
+
+	<SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Undraft_Greythroat</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Sniper/Greythroat/char_367_swllow/Undraft_Greythroat</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+ <!-- Meteorite 陨星 -->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Meteorite</defName>
@@ -1172,7 +1348,7 @@
 				<onCamera>True</onCamera>
 				<grains>
 					<li Class="AudioGrain_Clip">
-						<clipPath>Operator/Sniper/Meteorite/char_ 219_meteo/Recruit_Meteorite</clipPath>
+						<clipPath>Operator/Sniper/Meteorite/char_219_meteo/Recruit_Meteorite</clipPath>
 					</li>
 				</grains>
 				<volumeRange>40~40</volumeRange>
@@ -1189,7 +1365,7 @@
 				<onCamera>True</onCamera>
 				<grains>
 					<li Class="AudioGrain_Clip">
-						<clipPath>Operator/Sniper/Meteorite/char_ 219_meteo/Die_Meteorite</clipPath>
+						<clipPath>Operator/Sniper/Meteorite/char_219_meteo/Die_Meteorite</clipPath>
 					</li>
 				</grains>
 				<volumeRange>40~40</volumeRange>
@@ -1206,7 +1382,7 @@
 				<onCamera>True</onCamera>
 				<grains>
 					<li Class="AudioGrain_Clip">
-						<clipPath>Operator/Sniper/Meteorite/char_ 219_meteo/Draft_MeteoriteI</clipPath>
+						<clipPath>Operator/Sniper/Meteorite/char_219_meteo/Draft_MeteoriteI</clipPath>
 					</li>
 				</grains>
 				<volumeRange>40~40</volumeRange>
@@ -1223,7 +1399,7 @@
 				<onCamera>True</onCamera>
 				<grains>
 					<li Class="AudioGrain_Clip">
-						<clipPath>Operator/Sniper/Meteorite/char_ 219_meteo/Draft_MeteoriteII</clipPath>
+						<clipPath>Operator/Sniper/Meteorite/char_219_meteo/Draft_MeteoriteII</clipPath>
 					</li>
 				</grains>
 				<volumeRange>40~40</volumeRange>
@@ -1240,7 +1416,7 @@
 				<onCamera>True</onCamera>
 				<grains>
 					<li Class="AudioGrain_Clip">
-						<clipPath>Operator/Sniper/Meteorite/char_ 219_meteo/Select_MeteoriteI</clipPath>
+						<clipPath>Operator/Sniper/Meteorite/char_219_meteo/Select_MeteoriteI</clipPath>
 					</li>
 				</grains>
 				<volumeRange>40~40</volumeRange>
@@ -1257,7 +1433,7 @@
 				<onCamera>True</onCamera>
 				<grains>
 					<li Class="AudioGrain_Clip">
-						<clipPath>Operator/Sniper/Meteorite/char_ 219_meteo/Select_MeteoriteII</clipPath>
+						<clipPath>Operator/Sniper/Meteorite/char_219_meteo/Select_MeteoriteII</clipPath>
 					</li>
 				</grains>
 				<volumeRange>40~40</volumeRange>
@@ -1274,7 +1450,24 @@
 				<onCamera>True</onCamera>
 				<grains>
 					<li Class="AudioGrain_Clip">
-						<clipPath>Operator/Sniper/Meteorite/char_ 219_meteo/Select_MeteoriteIII</clipPath>
+						<clipPath>Operator/Sniper/Meteorite/char_219_meteo/Select_MeteoriteIII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_MeteoriteIV</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Sniper/Meteorite/char_219_meteo/Select_MeteoriteIV</clipPath>
 					</li>
 				</grains>
 				<volumeRange>40~40</volumeRange>
@@ -1291,7 +1484,7 @@
 				<onCamera>True</onCamera>
 				<grains>
 					<li Class="AudioGrain_Clip">
-						<clipPath>Operator/Sniper/Meteorite/char_ 219_meteo/Ability_MeteoriteI</clipPath>
+						<clipPath>Operator/Sniper/Meteorite/char_219_meteo/Ability_MeteoriteI</clipPath>
 					</li>
 				</grains>
 				<volumeRange>40~40</volumeRange>
@@ -1308,7 +1501,7 @@
 				<onCamera>True</onCamera>
 				<grains>
 					<li Class="AudioGrain_Clip">
-						<clipPath>Operator/Sniper/Meteorite/char_ 219_meteo/Ability_MeteoriteII</clipPath>
+						<clipPath>Operator/Sniper/Meteorite/char_219_meteo/Ability_MeteoriteII</clipPath>
 					</li>
 				</grains>
 				<volumeRange>40~40</volumeRange>
@@ -1325,7 +1518,7 @@
 				<onCamera>True</onCamera>
 				<grains>
 					<li Class="AudioGrain_Clip">
-						<clipPath>Operator/Sniper/Meteorite/char_ 219_meteo/Ability_MeteoriteIII</clipPath>
+						<clipPath>Operator/Sniper/Meteorite/char_219_meteo/Ability_MeteoriteIII</clipPath>
 					</li>
 				</grains>
 				<volumeRange>40~40</volumeRange>
@@ -1342,7 +1535,7 @@
 				<onCamera>True</onCamera>
 				<grains>
 					<li Class="AudioGrain_Clip">
-						<clipPath>Operator/Sniper/Meteorite/char_ 219_meteo/Ability_MeteoriteIV</clipPath>
+						<clipPath>Operator/Sniper/Meteorite/char_219_meteo/Ability_MeteoriteIV</clipPath>
 					</li>
 				</grains>
 				<volumeRange>40~40</volumeRange>
@@ -1351,7 +1544,25 @@
 			</li>
 		</subSounds>
 	</SoundDef>
-	<!-- 松果语音 -->
+
+	<SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Undraft_Meteorite</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Sniper/Meteorite/char_219_meteo/Undraft_Meteorite</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+ <!-- Pinecone 松果 -->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Pinecone</defName>
@@ -1473,6 +1684,23 @@
 	</SoundDef>
 
 	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_PineconeIV</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Sniper/Pinecone/char_440_pinecn/Select_PineconeIV</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_PineconeI</defName>
 		<subSounds>
 			<li>
@@ -1539,7 +1767,25 @@
 			</li>
 		</subSounds>
 	</SoundDef>
-	<!-- 普罗旺斯语音 -->
+
+	<SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Undraft_Pinecone</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Sniper/Pinecone/char_440_pinecn/Undraft_Pinecone</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+ <!-- Provence 普罗旺斯 -->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Provence</defName>
@@ -1661,6 +1907,23 @@
 	</SoundDef>
 
 	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_ProvenceIV</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Sniper/Provence/char_145_prove/Select_ProvenceIV</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_ProvenceI</defName>
 		<subSounds>
 			<li>
@@ -1727,7 +1990,25 @@
 			</li>
 		</subSounds>
 	</SoundDef>
-	<!-- 早露语音 -->
+
+	<SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Undraft_Provence</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Sniper/Provence/char_145_prove/Undraft_Provence</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+ <!-- Rosa 早露 -->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Rosa</defName>
@@ -1849,6 +2130,23 @@
 	</SoundDef>
 
 	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_RosaIV</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Sniper/Rosa/char_197_poca/Select_RosaIV</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_RosaI</defName>
 		<subSounds>
 			<li>
@@ -1915,7 +2213,25 @@
 			</li>
 		</subSounds>
 	</SoundDef>
-	<!-- 迷迭香语音 -->
+
+	<SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Undraft_Rosa</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Sniper/Rosa/char_197_poca/Undraft_Rosa</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+ <!-- Rosmontis 迷迭香 -->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Rosmontis</defName>
@@ -2037,6 +2353,23 @@
 	</SoundDef>
 
 	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_RosmontisIV</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Sniper/Rosmontis/char_391_rosmon/Select_RosmontisIV</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_RosmontisI</defName>
 		<subSounds>
 			<li>
@@ -2103,7 +2436,25 @@
 			</li>
 		</subSounds>
 	</SoundDef>
-	<!-- 蓝毒语音 -->
+
+	<SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Undraft_Rosmontis</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Sniper/Rosmontis/char_391_rosmon/Undraft_Rosmontis</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+ <!-- Bluepoison 蓝毒 -->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Bluepoison</defName>
@@ -2308,7 +2659,25 @@
 			</li>
 		</subSounds>
 	</SoundDef>
-	<!-- 黑语音 -->
+
+	<SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Undraft_Bluepoison</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Sniper/Bluepoison/char_129_bluep/Undraft_Bluepoison</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+ <!-- Schwarz 黑 -->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Schwarz</defName>
@@ -2514,7 +2883,24 @@
 		</subSounds>
 	</SoundDef>
 
-	<!-- W语音 -->
+	<SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Undraft_Schwarz</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Sniper/Schwarz/char_340_shwaz/Undraft_Schwarz</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+ <!-- W -->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_W</defName>
@@ -2585,13 +2971,13 @@
 	</SoundDef>
 
 	<SoundDef ParentName = "AK_VoiceBase">
-		<defName>AK_Voice_Draft_WIII</defName>
+		<defName>AK_Voice_Undraft_W</defName>
 		<subSounds>
 			<li>
 				<onCamera>True</onCamera>
 				<grains>
 					<li Class="AudioGrain_Clip">
-						<clipPath>Operator/Sniper/W/char_113_cqbw/Draft_WIII</clipPath>
+						<clipPath>Operator/Sniper/W/char_113_cqbw/Undraft_W</clipPath>
 					</li>
 				</grains>
 				<volumeRange>40~40</volumeRange>
@@ -2737,7 +3123,7 @@
 		</subSounds>
 	</SoundDef>
 
-	<!-- 菲亚梅塔语音 -->
+ <!-- Fiammetta 菲亚梅塔 -->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Fiammetta</defName>
@@ -2942,7 +3328,25 @@
 			</li>
 		</subSounds>
 	</SoundDef>
-	<!-- 四月语音 -->
+
+	<SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Undraft_Fiammetta</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Sniper/Fiammetta/char_300_phenxi/Undraft_Fiammetta</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+ <!-- April 四月 -->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_April</defName>
@@ -3147,7 +3551,25 @@
 			</li>
 		</subSounds>
 	</SoundDef>
-	<!-- 远牙语音 -->
+
+	<SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Undraft_April</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Sniper/April/char_365_aprl/Undraft_April</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+ <!-- Fartooth 远牙 -->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Fartooth</defName>
@@ -3156,7 +3578,7 @@
 				<onCamera>True</onCamera>
 				<grains>
 					<li Class="AudioGrain_Clip">
-						<clipPath>Operator/Sniper/Fartooth/char_ 430_fartth/Recruit_Fartooth</clipPath>
+						<clipPath>Operator/Sniper/Fartooth/char_430_fartth/Recruit_Fartooth</clipPath>
 					</li>
 				</grains>
 				<volumeRange>40~40</volumeRange>
@@ -3173,7 +3595,7 @@
 				<onCamera>True</onCamera>
 				<grains>
 					<li Class="AudioGrain_Clip">
-						<clipPath>Operator/Sniper/Fartooth/char_ 430_fartth/Die_Fartooth</clipPath>
+						<clipPath>Operator/Sniper/Fartooth/char_430_fartth/Die_Fartooth</clipPath>
 					</li>
 				</grains>
 				<volumeRange>40~40</volumeRange>
@@ -3190,7 +3612,7 @@
 				<onCamera>True</onCamera>
 				<grains>
 					<li Class="AudioGrain_Clip">
-						<clipPath>Operator/Sniper/Fartooth/char_ 430_fartth/Draft_FartoothI</clipPath>
+						<clipPath>Operator/Sniper/Fartooth/char_430_fartth/Draft_FartoothI</clipPath>
 					</li>
 				</grains>
 				<volumeRange>40~40</volumeRange>
@@ -3207,7 +3629,7 @@
 				<onCamera>True</onCamera>
 				<grains>
 					<li Class="AudioGrain_Clip">
-						<clipPath>Operator/Sniper/Fartooth/char_ 430_fartth/Draft_FartoothII</clipPath>
+						<clipPath>Operator/Sniper/Fartooth/char_430_fartth/Draft_FartoothII</clipPath>
 					</li>
 				</grains>
 				<volumeRange>40~40</volumeRange>
@@ -3224,7 +3646,7 @@
 				<onCamera>True</onCamera>
 				<grains>
 					<li Class="AudioGrain_Clip">
-						<clipPath>Operator/Sniper/Fartooth/char_ 430_fartth/Select_FartoothI</clipPath>
+						<clipPath>Operator/Sniper/Fartooth/char_430_fartth/Select_FartoothI</clipPath>
 					</li>
 				</grains>
 				<volumeRange>40~40</volumeRange>
@@ -3241,7 +3663,41 @@
 				<onCamera>True</onCamera>
 				<grains>
 					<li Class="AudioGrain_Clip">
-						<clipPath>Operator/Sniper/Fartooth/char_ 430_fartth/Select_FartoothII</clipPath>
+						<clipPath>Operator/Sniper/Fartooth/char_430_fartth/Select_FartoothII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_FartoothIII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Sniper/Fartooth/char_430_fartth/Select_FartoothIII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_FartoothIV</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Sniper/Fartooth/char_430_fartth/Select_FartoothIV</clipPath>
 					</li>
 				</grains>
 				<volumeRange>40~40</volumeRange>
@@ -3258,7 +3714,7 @@
 				<onCamera>True</onCamera>
 				<grains>
 					<li Class="AudioGrain_Clip">
-						<clipPath>Operator/Sniper/Fartooth/char_ 430_fartth/Ability_FartoothI</clipPath>
+						<clipPath>Operator/Sniper/Fartooth/char_430_fartth/Ability_FartoothI</clipPath>
 					</li>
 				</grains>
 				<volumeRange>40~40</volumeRange>
@@ -3275,7 +3731,7 @@
 				<onCamera>True</onCamera>
 				<grains>
 					<li Class="AudioGrain_Clip">
-						<clipPath>Operator/Sniper/Fartooth/char_ 430_fartth/Ability_FartoothII</clipPath>
+						<clipPath>Operator/Sniper/Fartooth/char_430_fartth/Ability_FartoothII</clipPath>
 					</li>
 				</grains>
 				<volumeRange>40~40</volumeRange>
@@ -3292,7 +3748,7 @@
 				<onCamera>True</onCamera>
 				<grains>
 					<li Class="AudioGrain_Clip">
-						<clipPath>Operator/Sniper/Fartooth/char_ 430_fartth/Ability_FartoothIII</clipPath>
+						<clipPath>Operator/Sniper/Fartooth/char_430_fartth/Ability_FartoothIII</clipPath>
 					</li>
 				</grains>
 				<volumeRange>40~40</volumeRange>
@@ -3309,7 +3765,7 @@
 				<onCamera>True</onCamera>
 				<grains>
 					<li Class="AudioGrain_Clip">
-						<clipPath>Operator/Sniper/Fartooth/char_ 430_fartth/Ability_FartoothIV</clipPath>
+						<clipPath>Operator/Sniper/Fartooth/char_430_fartth/Ability_FartoothIV</clipPath>
 					</li>
 				</grains>
 				<volumeRange>40~40</volumeRange>
@@ -3319,7 +3775,25 @@
 		</subSounds>
 	</SoundDef>
 
-	<!-- Toddifons + -->
+	<SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Undraft_Fartooth</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Sniper/Fartooth/char_430_fartth/Undraft_Fartooth</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+ <!-- Toddifons 熔泉 -->
+
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Toddifons</defName>
 		<subSounds>
@@ -3524,7 +3998,7 @@
 		</subSounds>
 	</SoundDef>
 
-	<!-- Lunacub + -->
+ <!-- Lunacub + -->
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Lunacub</defName>
 		<subSounds>
@@ -3728,5 +4202,22 @@
 			</li>
 		</subSounds>
 	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Undraft_Toddifons</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Sniper/Toddifons/char_4014_lunacu/Undraft_Toddifons</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
 
 </Defs>
