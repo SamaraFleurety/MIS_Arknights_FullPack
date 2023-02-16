@@ -1,89 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-	<AK_DLL.VoicePackDef>
-		<defName>AK_VoicePack_April</defName>
-		<undraftSound>AK_Voice_Select_AprilI</undraftSound>
-	</AK_DLL.VoicePackDef>
-
-	<AK_DLL.VoicePackDef>
-		<defName>AK_VoicePack_Archetto</defName>
-		<undraftSound>AK_Voice_Select_ArchettoI</undraftSound>
-	</AK_DLL.VoicePackDef>
-
-	<AK_DLL.VoicePackDef>
-		<defName>AK_VoicePack_Bluepoison</defName>
-		<undraftSound>AK_Voice_Select_BluepoisonI</undraftSound>
-	</AK_DLL.VoicePackDef>
-
-	<AK_DLL.VoicePackDef>
-		<defName>AK_VoicePack_Executor</defName>
-		<undraftSound>AK_Voice_Select_ExecutorI</undraftSound>
-	</AK_DLL.VoicePackDef>
-
-	<AK_DLL.VoicePackDef>
-		<defName>AK_VoicePack_Exusiai</defName>
-		<undraftSound>AK_Voice_Select_ExusiaiI</undraftSound>
-	</AK_DLL.VoicePackDef>
-
-	<AK_DLL.VoicePackDef>
-		<defName>AK_VoicePack_Fartooth</defName>
-		<undraftSound>AK_Voice_Select_FartoothI</undraftSound>
-	</AK_DLL.VoicePackDef>
-
-	<AK_DLL.VoicePackDef>
-		<defName>AK_VoicePack_Fiammetta</defName>
-		<undraftSound>AK_Voice_Select_FiammettaI</undraftSound>
-	</AK_DLL.VoicePackDef>
-
-	<AK_DLL.VoicePackDef>
-		<defName>AK_VoicePack_Greythroat</defName>
-		<undraftSound>AK_Voice_Select_GreythroatI</undraftSound>
-	</AK_DLL.VoicePackDef>
-
-	<AK_DLL.VoicePackDef>
-		<defName>AK_VoicePack_Jessica</defName>
-		<undraftSound>AK_Voice_Select_JessicaI</undraftSound>
-	</AK_DLL.VoicePackDef>
-
-	<AK_DLL.VoicePackDef>
-		<defName>AK_VoicePack_Meteorite</defName>
-		<undraftSound>AK_Voice_Select_MeteoriteI</undraftSound>
-	</AK_DLL.VoicePackDef>
-
-	<AK_DLL.VoicePackDef>
-		<defName>AK_VoicePack_Pinecone</defName>
-		<undraftSound>AK_Voice_Select_PineconeI</undraftSound>
-	</AK_DLL.VoicePackDef>
-
-	<AK_DLL.VoicePackDef>
-		<defName>AK_VoicePack_Platinum</defName>
-		<undraftSound>AK_Voice_Select_PlatinumI</undraftSound>
-	</AK_DLL.VoicePackDef>
-
-	<AK_DLL.VoicePackDef>
-		<defName>AK_VoicePack_Provence</defName>
-		<undraftSound>AK_Voice_Select_ProvenceI</undraftSound>
-	</AK_DLL.VoicePackDef>
-
-	<AK_DLL.VoicePackDef>
-		<defName>AK_VoicePack_Rosa</defName>
-		<undraftSound>AK_Voice_Select_RosaI</undraftSound>
-	</AK_DLL.VoicePackDef>
-
-	<AK_DLL.VoicePackDef>
-		<defName>AK_VoicePack_Rosmontis</defName>
-		<undraftSound>AK_Voice_Select_RosmontisI</undraftSound>
-	</AK_DLL.VoicePackDef>
-
-	<AK_DLL.VoicePackDef>
-		<defName>AK_VoicePack_Schwarz</defName>
-		<undraftSound>AK_Voice_Select_SchwarzI</undraftSound>
-	</AK_DLL.VoicePackDef>
-
 	<AK_DLL.VoicePackDef>
 		<defName>AK_VoicePack_W</defName>
-		<undraftSound>AK_Voice_Select_WI</undraftSound>
+		<undraftSound>AK_Voice_Undraft_W</undraftSound>
 		<recruitSound>AK_Voice_Recruit_W</recruitSound>
 		<diedSound>AK_Voice_Die_W</diedSound>
 		<draftSounds>
@@ -92,9 +11,6 @@
 			</li>
 			<li>
 				<def>AK_Voice_Draft_WII</def>
-			</li>
-			<li>
-				<def>AK_Voice_Draft_WIII</def>
 			</li>
 		</draftSounds>
 		<selectSounds>
