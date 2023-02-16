@@ -518,13 +518,13 @@
 	</SoundDef>
 
 	<SoundDef ParentName = "AK_VoiceBase">
-		<defName>AK_Voice_Draft_ArchettoIII</defName>
+		<defName>AK_Voice_Select_ArchettoIII</defName>
 		<subSounds>
 			<li>
 				<onCamera>True</onCamera>
 				<grains>
 					<li Class="AudioGrain_Clip">
-						<clipPath>Operator/Sniper/Archetto/char_332_archet/Draft_ArchettoIII</clipPath>
+						<clipPath>Operator/Sniper/Archetto/char_332_archet/Select_ArchettoIII</clipPath>
 					</li>
 				</grains>
 				<volumeRange>40~40</volumeRange>
@@ -535,13 +535,13 @@
 	</SoundDef>
 
 	<SoundDef ParentName = "AK_VoiceBase">
-		<defName>AK_Voice_Draft_ArchettoIV</defName>
+		<defName>AK_Voice_Select_ArchettoIV</defName>
 		<subSounds>
 			<li>
 				<onCamera>True</onCamera>
 				<grains>
 					<li Class="AudioGrain_Clip">
-						<clipPath>Operator/Sniper/Archetto/char_332_archet/Draft_ArchettoIV</clipPath>
+						<clipPath>Operator/Sniper/Archetto/char_332_archet/Select_ArchettoIV</clipPath>
 					</li>
 				</grains>
 				<volumeRange>40~40</volumeRange>
@@ -3998,7 +3998,25 @@
 		</subSounds>
 	</SoundDef>
 
- <!-- Lunacub + -->
+	<SoundDef ParentName = "AK_VoiceBase">
+        <defName>AK_Voice_Undraft_Toddifons</defName>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Operator/Sniper/Toddifons/char_363_toddi/Undraft_Toddifons</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>40~40</volumeRange>
+                <distRange>10~100</distRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+ <!-- Lunacub 子月 -->
+ 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Lunacub</defName>
 		<subSounds>
@@ -4204,13 +4222,13 @@
 	</SoundDef>
 
 	<SoundDef ParentName = "AK_VoiceBase">
-        <defName>AK_Voice_Undraft_Toddifons</defName>
+        <defName>AK_Voice_Undraft_Lunacub</defName>
         <subSounds>
             <li>
                 <onCamera>True</onCamera>
                 <grains>
                     <li Class="AudioGrain_Clip">
-                        <clipPath>Operator/Sniper/Toddifons/char_4014_lunacu/Undraft_Toddifons</clipPath>
+                        <clipPath>Operator/Sniper/Lunacub/char_4014_lunacu/Undraft_Lunacub</clipPath>
                     </li>
                 </grains>
                 <volumeRange>40~40</volumeRange>
