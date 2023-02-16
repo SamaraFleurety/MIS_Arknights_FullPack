@@ -5,14 +5,11 @@
 
 	<ThoughtDef Name = "AK_Thought_Permanent" Abstract = "True">
 		<workerClass>ThoughtWorker_AlwaysActive</workerClass>
-		<validWhileDespawned>true</validWhileDespawned>
+		<validWhileDespawned>false</validWhileDespawned>
 	</ThoughtDef>
-
-	<ThoughtDef ParentName = "AK_Thought_Permanent">
-		<defName>AK_Thought_Trait_Chernobog</defName>
-		<requiredTraits>
-			<li>AK_Trait_Chernobog</li>
-		</requiredTraits>
+	
+	<ThoughtDef>
+		<defName>AK_Thought_Trait_OperatorReceived</defName>
 		<stages>
 			<li>
 				<label>切尔诺伯格</label>

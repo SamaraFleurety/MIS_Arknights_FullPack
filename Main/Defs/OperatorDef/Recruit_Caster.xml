@@ -789,7 +789,6 @@ Amiya, leader of Rhodes Island, will fight alongside you.</description>
 			</li>
 		</traits>
 		<childHood>AK_BackStory_Amiya_Child</childHood>
-		<voicePackDef>AK_VoicePack_Amiya</voicePackDef>
 		<bodyTypeDef>Female</bodyTypeDef>
 	</AK_DLL.OperatorDef>
 
@@ -893,7 +892,6 @@ Ceobe is always ready to go after the bad guys.</description>
 		<age>20</age>
 		<childHood>AK_BackStory_Ceobe_Child</childHood>
 		<adultHood>AK_BackStory_Ceobe_Adult</adultHood>
-		<voicePackDef>AK_VoicePack_Ceobe</voicePackDef>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Caster">
@@ -1589,6 +1587,8 @@ Ceobe is always ready to go after the bad guys.</description>
 		<age>20</age>
 		<childHood>AK_BackStory_Harmonie_Child</childHood>
 		<adultHood>AK_BackStory_Harmonie_Adult</adultHood>
+		<thoughtReceived>AK_ThoughtCollection</thoughtReceived>
+		<TRStage>0</TRStage>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -1660,9 +1660,6 @@ Ceobe is always ready to go after the bad guys.</description>
 		<description>FIXMEDESC</description>
 		<weapon>AK_Weapon_Lin</weapon>
 		<hair>AK_Hair_Lin</hair>
-		<apparels>
-			<li>AK_Apparel_Harmonie</li>
-		</apparels>
 		<stand>UI/Image/Caster/LinStand</stand>
 		<headPortrait>UI/Image/Caster/LinPortrait</headPortrait>
 		<bodyTypeDef>Female</bodyTypeDef>

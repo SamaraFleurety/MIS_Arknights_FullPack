@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThoughtDef>
+		<defName>AK_ThoughtCollection</defName>
+		<thoughtClass>Thought_SituationalSocial</thoughtClass>
+		<workerClass>AK_DLL.ThoughtWorker_OpinionToOperator</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+			<li>
+				<label>Harmonie</label>
+				<baseOpinionOffset>-25</baseOpinionOffset>
+			</li>
+		</stages>
+	</ThoughtDef>
+  
+</Defs>
