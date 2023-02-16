@@ -2198,23 +2198,6 @@
     </SoundDef>
 
     <SoundDef ParentName = "AK_VoiceBase">
-        <defName>AK_Voice_Ability_MyrtleIV</defName>
-        <subSounds>
-            <li>
-                <onCamera>True</onCamera>
-                <grains>
-                    <li Class="AudioGrain_Clip">
-                        <clipPath>Operator/Vanguard/Myrtle/char_151_myrtle/Ability_MyrtleIV</clipPath>
-                    </li>
-                </grains>
-                <volumeRange>40~40</volumeRange>
-                <distRange>10~100</distRange>
-                <sustainLoop>False</sustainLoop>
-            </li>
-        </subSounds>
-    </SoundDef>
-
-    <SoundDef ParentName = "AK_VoiceBase">
         <defName>AK_Voice_Undraft_Myrtle</defName>
         <subSounds>
             <li>
