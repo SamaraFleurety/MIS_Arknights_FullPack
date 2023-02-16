@@ -12,3 +12,5 @@ eg: Find: <graphicData>\r\n( +||\t+)<texPath>Things/AK_Agents/[a-zA-Z]+/[a-zA-z]
 	Rep:<graphicData>\r\n\1<texPath>Things/AK_Agents/GApparel</texPath>
 		<graphicData>
 			<texPath>Things/AK_Agents/GApparel</texPath>
+
+\1-9 第几个被正则的字符串
