@@ -35,6 +35,7 @@
       <layers>
         <li>Shell</li>
       </layers>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
     </apparel>
     <colorGenerator Class="ColorGenerator_Options" Inherit="false">
       <options>
@@ -46,13 +47,14 @@
     <burnableByRecipe>false</burnableByRecipe>
     <relicChance>0</relicChance>
     <tradeability>None</tradeability>
-    <tickerType>Normal</tickerType>
+    <tickerType>Never</tickerType>
     <generateCommonality>0</generateCommonality>
     <generateAllowChance>0</generateAllowChance>
     <randomizeRotationOnSpawn>false</randomizeRotationOnSpawn>
     <canLoadIntoCaravan>false</canLoadIntoCaravan>
 	<comps>
 		<li Class="CompProperties_Biocodable"/>
+		<li Class="AK_DLL.TCP_RemoveMe"/>
 	</comps>
   </ThingDef>
 
