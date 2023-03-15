@@ -17,23 +17,23 @@ Vanilla, Vanguard Operator of Blacksteel, will make way for the squad on the bat
 		<skills>
 			<li>
 				<skill>Animals</skill>
-				<level>3</level>
-				<fireLevel>0</fireLevel>
+				<level>12</level>
+				<fireLevel>2</fireLevel>
 			</li>
 			<li>
 				<skill>Artistic</skill>
-				<level>1</level>
-				<fireLevel>0</fireLevel>
-			</li>
-			<li>
-				<skill>Construction</skill>
 				<level>2</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
+				<skill>Construction</skill>
+				<level>3</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
 				<skill>Cooking</skill>
-				<level>10</level>
-				<fireLevel>1</fireLevel>
+				<level>4</level>
+				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Crafting</skill>
@@ -47,37 +47,39 @@ Vanilla, Vanguard Operator of Blacksteel, will make way for the squad on the bat
 			</li>
 			<li>
 				<skill>Medicine</skill>
-				<level>3</level>
+				<level>2</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Melee</skill>
-				<level>14</level>
+				<level>7</level>
 				<fireLevel>1</fireLevel>
 			</li>
 			<li>
 				<skill>Mining</skill>
-				<level>0</level>
+				<level>1</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Plants</skill>
-				<level>10</level>
-				<fireLevel>2</fireLevel>
+				<level>2</level>
+				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Shooting</skill>
-				<level>12</level>
-				<fireLevel>1</fireLevel>
+				<level>0</level>
+				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Social</skill>
-				<level>14</level>
-				<fireLevel>2</fireLevel>
+				<level>8</level>
+				<fireLevel>0</fireLevel>
 			</li>
 		</skills>
 		<traits>
-			<li><def>Kind</def></li>
+			<li>
+				<def>Kind</def>
+			</li>
 			<li>
 				<def>Tough</def>
 			</li>
@@ -138,13 +140,13 @@ Bagpipe, former Victorian soldier, has come in search of the truth.</description
 			</li>
 			<li>
 				<skill>Crafting</skill>
-				<level>3</level>
+				<level>7</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Intellectual</skill>
 				<level>8</level>
-				<fireLevel>0</fireLevel>
+				<fireLevel>1</fireLevel>
 			</li>
 			<li>
 				<skill>Medicine</skill>
@@ -163,8 +165,8 @@ Bagpipe, former Victorian soldier, has come in search of the truth.</description
 			</li>
 			<li>
 				<skill>Plants</skill>
-				<level>10</level>
-				<fireLevel>1</fireLevel>
+				<level>12</level>
+				<fireLevel>2</fireLevel>
 			</li>
 			<li>
 				<skill>Shooting</skill>
@@ -173,13 +175,17 @@ Bagpipe, former Victorian soldier, has come in search of the truth.</description
 			</li>
 			<li>
 				<skill>Social</skill>
-				<level>14</level>
+				<level>12</level>
 				<fireLevel>1</fireLevel>
 			</li>
 		</skills>
 		<traits>
-			<li><def>AK_Trait_Bagpipe</def></li>
-			<li><def>AK_Trait_BagpipeSecond</def></li>
+			<li>
+				<def>AK_Trait_Bagpipe</def>
+			</li>
+			<li>
+				<def>AK_Trait_BagpipeSecond</def>
+			</li>
 			<li>
 				<def>Tough</def>
 			</li>
@@ -218,8 +224,8 @@ Reed, Rhodes Island inpatient, will provide personal assistance to those who are
 			</li>
 			<li>
 				<skill>Artistic</skill>
-				<level>6</level>
-				<fireLevel>0</fireLevel>
+				<level>11</level>
+				<fireLevel>2</fireLevel>
 			</li>
 			<li>
 				<skill>Construction</skill>
@@ -238,8 +244,8 @@ Reed, Rhodes Island inpatient, will provide personal assistance to those who are
 			</li>
 			<li>
 				<skill>Intellectual</skill>
-				<level>9</level>
-				<fireLevel>0</fireLevel>
+				<level>10</level>
+				<fireLevel>1</fireLevel>
 			</li>
 			<li>
 				<skill>Medicine</skill>
@@ -248,8 +254,8 @@ Reed, Rhodes Island inpatient, will provide personal assistance to those who are
 			</li>
 			<li>
 				<skill>Melee</skill>
-				<level>13</level>
-				<fireLevel>0</fireLevel>
+				<level>14</level>
+				<fireLevel>1</fireLevel>
 			</li>
 			<li>
 				<skill>Mining</skill>
@@ -268,12 +274,14 @@ Reed, Rhodes Island inpatient, will provide personal assistance to those who are
 			</li>
 			<li>
 				<skill>Social</skill>
-				<level>4</level>
+				<level>6</level>
 				<fireLevel>0</fireLevel>
 			</li>
 		</skills>
 		<traits>
-			<li><def>AK_Trait_Reed</def></li>
+			<li>
+				<def>AK_Trait_Reed</def>
+			</li>
 			<li>
 				<def>Tough</def>
 			</li>
@@ -312,7 +320,7 @@ The wandering monk, Saga, joins in on the action wherever she goes.</description
 			<li>
 				<skill>Artistic</skill>
 				<level>3</level>
-				<fireLevel>1</fireLevel>
+				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Construction</skill>
@@ -327,7 +335,7 @@ The wandering monk, Saga, joins in on the action wherever she goes.</description
 			<li>
 				<skill>Crafting</skill>
 				<level>4</level>
-				<fireLevel>0</fireLevel>
+				<fireLevel>1</fireLevel>
 			</li>
 			<li>
 				<skill>Intellectual</skill>
@@ -341,12 +349,12 @@ The wandering monk, Saga, joins in on the action wherever she goes.</description
 			</li>
 			<li>
 				<skill>Melee</skill>
-				<level>10</level>
+				<level>11</level>
 				<fireLevel>1</fireLevel>
 			</li>
 			<li>
 				<skill>Mining</skill>
-				<level>2</level>
+				<level>5</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
@@ -362,12 +370,16 @@ The wandering monk, Saga, joins in on the action wherever she goes.</description
 			<li>
 				<skill>Social</skill>
 				<level>12</level>
-				<fireLevel>1</fireLevel>
+				<fireLevel>2</fireLevel>
 			</li>
 		</skills>
 		<traits>
-			<li><def>AK_Trait_Saga</def></li>
-			<li><def>AK_Trait_SagaSecond</def></li>
+			<li>
+				<def>AK_Trait_Saga</def>
+			</li>
+			<li>
+				<def>AK_Trait_SagaSecond</def>
+			</li>
 			<li>
 				<def>Tough</def>
 			</li>
@@ -421,12 +433,12 @@ Texas, employee of Penguin Logistics, will give the squad a tactical advantage w
 			<li>
 				<skill>Crafting</skill>
 				<level>3</level>
-				<fireLevel>0</fireLevel>
+				<fireLevel>1</fireLevel>
 			</li>
 			<li>
 				<skill>Intellectual</skill>
 				<level>9</level>
-				<fireLevel>0</fireLevel>
+				<fireLevel>1</fireLevel>
 			</li>
 			<li>
 				<skill>Medicine</skill>
@@ -435,7 +447,7 @@ Texas, employee of Penguin Logistics, will give the squad a tactical advantage w
 			</li>
 			<li>
 				<skill>Melee</skill>
-				<level>13</level>
+				<level>14</level>
 				<fireLevel>1</fireLevel>
 			</li>
 			<li>
@@ -455,13 +467,17 @@ Texas, employee of Penguin Logistics, will give the squad a tactical advantage w
 			</li>
 			<li>
 				<skill>Social</skill>
-				<level>8</level>
+				<level>6</level>
 				<fireLevel>0</fireLevel>
 			</li>
 		</skills>
 		<traits>
-			<li><def>AK_Trait_Texas</def></li>
-			<li><def>AK_Trait_TexasSecond</def></li>
+			<li>
+				<def>AK_Trait_Texas</def>
+			</li>
+			<li>
+				<def>AK_Trait_TexasSecond</def>
+			</li>
 			<li>
 				<def>Kind</def>
 			</li>
@@ -511,8 +527,8 @@ Texas, employee of Penguin Logistics, will give the squad a tactical advantage w
 			</li>
 			<li>
 				<skill>Cooking</skill>
-				<level>8</level>
-				<fireLevel>0</fireLevel>
+				<level>10</level>
+				<fireLevel>1</fireLevel>
 			</li>
 			<li>
 				<skill>Crafting</skill>
@@ -522,11 +538,11 @@ Texas, employee of Penguin Logistics, will give the squad a tactical advantage w
 			<li>
 				<skill>Intellectual</skill>
 				<level>10</level>
-				<fireLevel>2</fireLevel>
+				<fireLevel>1</fireLevel>
 			</li>
 			<li>
 				<skill>Medicine</skill>
-				<level>3</level>
+				<level>4</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
@@ -552,12 +568,16 @@ Texas, employee of Penguin Logistics, will give the squad a tactical advantage w
 			<li>
 				<skill>Social</skill>
 				<level>12</level>
-				<fireLevel>2</fireLevel>
+				<fireLevel>1</fireLevel>
 			</li>
 		</skills>
 		<traits>
-			<li><def>AK_Trait_Saileach</def></li>
-			<li><def>AK_Trait_SaileachSecond</def></li>
+			<li>
+				<def>AK_Trait_Saileach</def>
+			</li>
+			<li>
+				<def>AK_Trait_SaileachSecond</def>
+			</li>
 			<li>
 				<def>Tough</def>
 			</li>
@@ -589,7 +609,7 @@ Texas, employee of Penguin Logistics, will give the squad a tactical advantage w
 		<skills>
 			<li>
 				<skill>Animals</skill>
-				<level>3</level>
+				<level>4</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
@@ -610,12 +630,12 @@ Texas, employee of Penguin Logistics, will give the squad a tactical advantage w
 			<li>
 				<skill>Crafting</skill>
 				<level>6</level>
-				<fireLevel>0</fireLevel>
+				<fireLevel>1</fireLevel>
 			</li>
 			<li>
 				<skill>Intellectual</skill>
-				<level>12</level>
-				<fireLevel>1</fireLevel>
+				<level>10</level>
+				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Medicine</skill>
@@ -649,7 +669,9 @@ Texas, employee of Penguin Logistics, will give the squad a tactical advantage w
 			</li>
 		</skills>
 		<traits>
-			<li><def>AK_Trait_Flametail</def></li>
+			<li>
+				<def>AK_Trait_Flametail</def>
+			</li>
 			<li>
 				<def>Tough</def>
 			</li>
@@ -691,8 +713,12 @@ Texas, employee of Penguin Logistics, will give the squad a tactical advantage w
 				<def>Beauty</def>
 				<degree>1</degree>
 			</li>
-			<li><def>AK_Trait_WildSecond</def></li>
-			<li><def>AK_Trait_Wild</def></li>
+			<li>
+				<def>AK_Trait_WildSecond</def>
+			</li>
+			<li>
+				<def>AK_Trait_Wild</def>
+			</li>
 		</traits>
 		<age>20</age>
 		<childHood>AK_BackStory_Wild_Child</childHood>
@@ -735,12 +761,12 @@ Texas, employee of Penguin Logistics, will give the squad a tactical advantage w
 			</li>
 			<li>
 				<skill>Melee</skill>
-				<level>14</level>
-				<fireLevel>1</fireLevel>
+				<level>12</level>
+				<fireLevel>2</fireLevel>
 			</li>
 			<li>
 				<skill>Mining</skill>
-				<level>8</level>
+				<level>1</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
@@ -755,7 +781,7 @@ Texas, employee of Penguin Logistics, will give the squad a tactical advantage w
 			</li>
 			<li>
 				<skill>Social</skill>
-				<level>5</level>
+				<level>6</level>
 				<fireLevel>0</fireLevel>
 			</li>
 		</skills>
@@ -982,7 +1008,9 @@ Texas, employee of Penguin Logistics, will give the squad a tactical advantage w
 				<def>Beauty</def>
 				<degree>1</degree>
 			</li>
-			<li><def>AK_Trait_Myrtle</def></li>
+			<li>
+				<def>AK_Trait_Myrtle</def>
+			</li>
 			<li>
 				<def>Nimble</def>
 			</li>

@@ -39,17 +39,17 @@ Shining, Sarkaz healer, will do everything she can to provide medical care for t
 			<li>
 				<skill>Crafting</skill>
 				<level>5</level>
-				<fireLevel>0</fireLevel>
+				<fireLevel>1</fireLevel>
 			</li>
 			<li>
 				<skill>Intellectual</skill>
 				<level>12</level>
-				<fireLevel>1</fireLevel>
+				<fireLevel>2</fireLevel>
 			</li>
 			<li>
 				<skill>Medicine</skill>
 				<level>13</level>
-				<fireLevel>1</fireLevel>
+				<fireLevel>2</fireLevel>
 			</li>
 			<li>
 				<skill>Melee</skill>
@@ -63,18 +63,18 @@ Shining, Sarkaz healer, will do everything she can to provide medical care for t
 			</li>
 			<li>
 				<skill>Plants</skill>
-				<level>4</level>
+				<level>2</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Shooting</skill>
-				<level>1</level>
+				<level>4</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Social</skill>
 				<level>12</level>
-				<fireLevel>0</fireLevel>
+				<fireLevel>1</fireLevel>
 			</li>
 		</skills>
 		<traits>
@@ -117,22 +117,22 @@ Silence, medical specialist of Rhine Lab, will make use of the latest scientific
 		<skills>
 			<li>
 				<skill>Animals</skill>
-				<level>3</level>
-				<fireLevel>0</fireLevel>
-			</li>
-			<li>
-				<skill>Artistic</skill>
-				<level>2</level>
-				<fireLevel>0</fireLevel>
-			</li>
-			<li>
-				<skill>Construction</skill>
 				<level>1</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
+				<skill>Artistic</skill>
+				<level>4</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Construction</skill>
+				<level>2</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
 				<skill>Cooking</skill>
-				<level>6</level>
+				<level>4</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
@@ -147,7 +147,7 @@ Silence, medical specialist of Rhine Lab, will make use of the latest scientific
 			</li>
 			<li>
 				<skill>Medicine</skill>
-				<level>10</level>
+				<level>12</level>
 				<fireLevel>1</fireLevel>
 			</li>
 			<li>
@@ -167,12 +167,12 @@ Silence, medical specialist of Rhine Lab, will make use of the latest scientific
 			</li>
 			<li>
 				<skill>Shooting</skill>
-				<level>1</level>
+				<level>2</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Social</skill>
-				<level>10</level>
+				<level>8</level>
 				<fireLevel>0</fireLevel>
 			</li>
 		</skills>
@@ -251,27 +251,27 @@ Gavial, Medic Operator of Rhodes Island, will protect the lives of her squad mem
 			</li>
 			<li>
 				<skill>Intellectual</skill>
-				<level>6</level>
+				<level>8</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Medicine</skill>
 				<level>10</level>
-				<fireLevel>1</fireLevel>
+				<fireLevel>2</fireLevel>
 			</li>
 			<li>
 				<skill>Melee</skill>
-				<level>13</level>
-				<fireLevel>1</fireLevel>
+				<level>15</level>
+				<fireLevel>2</fireLevel>
 			</li>
 			<li>
 				<skill>Mining</skill>
-				<level>2</level>
+				<level>1</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Plants</skill>
-				<level>1</level>
+				<level>2</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
@@ -281,7 +281,7 @@ Gavial, Medic Operator of Rhodes Island, will protect the lives of her squad mem
 			</li>
 			<li>
 				<skill>Social</skill>
-				<level>7</level>
+				<level>8</level>
 				<fireLevel>0</fireLevel>
 			</li>
 		</skills>
@@ -313,26 +313,26 @@ Gavial, Medic Operator of Rhodes Island, will protect the lives of her squad mem
 		<description>FIXME</description>
 		<weapon>AK_Weapon_Kaltsit</weapon>
 		<hair>AK_Hair_Kaltsit</hair>
-		<!-- <apparels>
+		<apparels>
 			<li>AK_Apparel_Kaltsit</li>
-		</apparels> -->
+		</apparels>
 		<stand>UI/Image/Medic/KaltsitStand</stand>
 		<headPortrait>UI/Image/Medic/KaltsitPortrait</headPortrait>
 		<bodyTypeDef>Thin</bodyTypeDef>
 		<skills>
 			<li>
 				<skill>Animals</skill>
-				<level>15</level>
+				<level>8</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Artistic</skill>
-				<level>15</level>
+				<level>20</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Construction</skill>
-				<level>13</level>
+				<level>12</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
@@ -343,7 +343,7 @@ Gavial, Medic Operator of Rhodes Island, will protect the lives of her squad mem
 			<li>
 				<skill>Crafting</skill>
 				<level>12</level>
-				<fireLevel>0</fireLevel>
+				<fireLevel>1</fireLevel>
 			</li>
 			<li>
 				<skill>Intellectual</skill>
@@ -352,8 +352,8 @@ Gavial, Medic Operator of Rhodes Island, will protect the lives of her squad mem
 			</li>
 			<li>
 				<skill>Medicine</skill>
-				<level>14</level>
-				<fireLevel>0</fireLevel>
+				<level>20</level>
+				<fireLevel>2</fireLevel>
 			</li>
 			<li>
 				<skill>Melee</skill>
@@ -362,12 +362,12 @@ Gavial, Medic Operator of Rhodes Island, will protect the lives of her squad mem
 			</li>
 			<li>
 				<skill>Mining</skill>
-				<level>15</level>
+				<level>20</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Plants</skill>
-				<level>18</level>
+				<level>20</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
@@ -377,7 +377,7 @@ Gavial, Medic Operator of Rhodes Island, will protect the lives of her squad mem
 			</li>
 			<li>
 				<skill>Social</skill>
-				<level>12</level>
+				<level>18</level>
 				<fireLevel>0</fireLevel>
 			</li>
 		</skills>
@@ -416,7 +416,7 @@ Nightingale, Sarkaz healer, will do everything she can to provide medical care f
 		<skills>
 			<li>
 				<skill>Animals</skill>
-				<level>1</level>
+				<level>2</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
@@ -437,17 +437,17 @@ Nightingale, Sarkaz healer, will do everything she can to provide medical care f
 			<li>
 				<skill>Crafting</skill>
 				<level>6</level>
-				<fireLevel>0</fireLevel>
+				<fireLevel>1</fireLevel>
 			</li>
 			<li>
 				<skill>Intellectual</skill>
 				<level>11</level>
-				<fireLevel>1</fireLevel>
+				<fireLevel>2</fireLevel>
 			</li>
 			<li>
 				<skill>Medicine</skill>
-				<level>16</level>
-				<fireLevel>0</fireLevel>
+				<level>17</level>
+				<fireLevel>1</fireLevel>
 			</li>
 			<li>
 				<skill>Melee</skill>
@@ -472,7 +472,7 @@ Nightingale, Sarkaz healer, will do everything she can to provide medical care f
 			<li>
 				<skill>Social</skill>
 				<level>11</level>
-				<fireLevel>0</fireLevel>
+				<fireLevel>1</fireLevel>
 			</li>
 		</skills>
 		<traits>
@@ -515,7 +515,7 @@ Perfumer, manager of 'Health Garden,' will use her fragrant aromatherapy to heal
 		<skills>
 			<li>
 				<skill>Animals</skill>
-				<level>2</level>
+				<level>3</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
@@ -525,27 +525,27 @@ Perfumer, manager of 'Health Garden,' will use her fragrant aromatherapy to heal
 			</li>
 			<li>
 				<skill>Construction</skill>
-				<level>1</level>
+				<level>2</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Cooking</skill>
-				<level>5</level>
+				<level>6</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Crafting</skill>
-				<level>5</level>
-				<fireLevel>0</fireLevel>
+				<level>10</level>
+				<fireLevel>1</fireLevel>
 			</li>
 			<li>
 				<skill>Intellectual</skill>
-				<level>7</level>
+				<level>8</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Medicine</skill>
-				<level>9</level>
+				<level>11</level>
 				<fireLevel>1</fireLevel>
 			</li>
 			<li>
@@ -565,13 +565,13 @@ Perfumer, manager of 'Health Garden,' will use her fragrant aromatherapy to heal
 			</li>
 			<li>
 				<skill>Shooting</skill>
-				<level>1</level>
+				<level>2</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Social</skill>
-				<level>8</level>
-				<fireLevel>0</fireLevel>
+				<level>10</level>
+				<fireLevel>1</fireLevel>
 			</li>
 		</skills>
 		<traits>
@@ -617,11 +617,11 @@ Ptilopsis, database maintainer of Rhine Lab, activated. Please enter commands to
 			<li>
 				<skill>Artistic</skill>
 				<level>10</level>
-				<fireLevel>0</fireLevel>
+				<fireLevel>1</fireLevel>
 			</li>
 			<li>
 				<skill>Construction</skill>
-				<level>10</level>
+				<level>7</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
@@ -641,7 +641,7 @@ Ptilopsis, database maintainer of Rhine Lab, activated. Please enter commands to
 			</li>
 			<li>
 				<skill>Medicine</skill>
-				<level>11</level>
+				<level>14</level>
 				<fireLevel>1</fireLevel>
 			</li>
 			<li>
@@ -651,7 +651,7 @@ Ptilopsis, database maintainer of Rhine Lab, activated. Please enter commands to
 			</li>
 			<li>
 				<skill>Mining</skill>
-				<level>1</level>
+				<level>2</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
@@ -666,7 +666,7 @@ Ptilopsis, database maintainer of Rhine Lab, activated. Please enter commands to
 			</li>
 			<li>
 				<skill>Social</skill>
-				<level>10</level>
+				<level>8</level>
 				<fireLevel>0</fireLevel>
 			</li>
 		</skills>
@@ -725,13 +725,13 @@ Ptilopsis, database maintainer of Rhine Lab, activated. Please enter commands to
 			</li>
 			<li>
 				<skill>Intellectual</skill>
-				<level>5</level>
+				<level>8</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Medicine</skill>
 				<level>10</level>
-				<fireLevel>1</fireLevel>
+				<fireLevel>2</fireLevel>
 			</li>
 			<li>
 				<skill>Melee</skill>
@@ -746,7 +746,7 @@ Ptilopsis, database maintainer of Rhine Lab, activated. Please enter commands to
 			<li>
 				<skill>Plants</skill>
 				<level>10</level>
-				<fireLevel>1</fireLevel>
+				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Shooting</skill>
@@ -826,7 +826,7 @@ Ptilopsis, database maintainer of Rhine Lab, activated. Please enter commands to
 			</li>
 			<li>
 				<skill>Intellectual</skill>
-				<level>4</level>
+				<level>8</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
@@ -856,8 +856,8 @@ Ptilopsis, database maintainer of Rhine Lab, activated. Please enter commands to
 			</li>
 			<li>
 				<skill>Social</skill>
-				<level>7</level>
-				<fireLevel>0</fireLevel>
+				<level>9</level>
+				<fireLevel>1</fireLevel>
 			</li>
 		</skills>
 		<traits>
@@ -1009,37 +1009,37 @@ Ptilopsis, database maintainer of Rhine Lab, activated. Please enter commands to
 		<skills>
 			<li>
 				<skill>Animals</skill>
-				<level>8</level>
+				<level>1</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Artistic</skill>
-				<level>6</level>
-				<fireLevel>0</fireLevel>
-			</li>
-			<li>
-				<skill>Construction</skill>
 				<level>4</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
-				<skill>Cooking</skill>
+				<skill>Construction</skill>
 				<level>3</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
+				<skill>Cooking</skill>
+				<level>2</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
 				<skill>Crafting</skill>
-				<level>10</level>
-				<fireLevel>1</fireLevel>
+				<level>5</level>
+				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Intellectual</skill>
-				<level>12</level>
-				<fireLevel>2</fireLevel>
+				<level>8</level>
+				<fireLevel>1</fireLevel>
 			</li>
 			<li>
 				<skill>Medicine</skill>
-				<level>16</level>
+				<level>12</level>
 				<fireLevel>2</fireLevel>
 			</li>
 			<li>
@@ -1049,7 +1049,7 @@ Ptilopsis, database maintainer of Rhine Lab, activated. Please enter commands to
 			</li>
 			<li>
 				<skill>Mining</skill>
-				<level>4</level>
+				<level>3</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
@@ -1059,7 +1059,7 @@ Ptilopsis, database maintainer of Rhine Lab, activated. Please enter commands to
 			</li>
 			<li>
 				<skill>Shooting</skill>
-				<level>4</level>
+				<level>3</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
