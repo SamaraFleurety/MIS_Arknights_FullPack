@@ -1,0 +1,15 @@
+括号：
+	小括号:匹配括号内字符串
+	中括号:匹配括号内单个字符
+	大括号:匹配该字符出现次数
+		eg:[0]{n,(m)}0最少出现n次，最多m次，m可不填
+		
+		
+		
+eg: Find: <graphicData>\r\n( +||\t+)<texPath>Things/AK_Agents/[a-zA-Z]+/[a-zA-z]+</texPath>
+		<graphicData>
+			<texPath>Things/AK_Agents/Medic/Ptilopsis</texPath>
+	Rep:<graphicData>\r\n\1<texPath>Things/AK_Agents/GApparel</texPath>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+\1-9 第几个被正则的字符串

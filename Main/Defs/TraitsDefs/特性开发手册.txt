@@ -1,0 +1,134 @@
+{PAWN_nameDef} 名
+{PAWN_pronoun} he
+{PAWN_objective} him
+{PAWN_possessive} his
+<></>
+<statOffsets>
+	社交
+		NegotiationAbility 谈判能力
+		TradePriceImprovement 交易价格改善
+		SocialImpact 社交效果
+		PawnBeauty 魅力
+	
+	战斗
+		ArmorRating_Sharp 利器防御
+		ArmorRating_Blunt 钝器防御
+		ArmorRating_Heat  热能防御
+		Flammability 可燃性
+		ShootingAccuracyPawn
+		AimingDelayFactor
+		HuntingStealth
+		MeleeHitChance 近战命中率
+		MeleeDodgeChance 近战闪避率
+		MeleeDPS
+		PainShockThreshold 昏迷阈值
+		IncomingDamageFactor 承伤系数
+		PsychicSensitivity
+
+	健康
+		MedicalTendSpeed
+		MedicalTendQuality
+		MedicalOperationSpeed
+		MedicalSurgerySuccessChance 手术成功
+		MentalBreakThreshold 精神崩溃阈值
+		ComfyTemperatureMax
+		ComfyTemperatureMin
+		CookSpeed
+		MeatAmount
+		Mass
+		LeatherAmount
+		FoodPoisonChance 食物中毒率
+		ToxicSensitivity
+		HungerRateMultiplier 饥饿系数
+		ImmunityGainSpeed 免疫获得
+		RestRateMultiplier
+	
+	PlantWorkSpeed
+	PlantHarvestYield 植物收获
+	AnimalGatherYield 动物产出
+	TameAnimalChance 驯服成功
+	TrainAnimalChance 训练成功
+
+	GlobalLearningFactor 全局学习速度
+	WorkSpeedGlobal 全局工作速度
+	ResearchSpeed 研究速度
+	CarryingCapacity 携带能力
+	MoveSpeed 移动速度
+	Mass
+	LeatherAmount
+
+	ConstructionSpeed
+	ConstructSuccessChance 建造成功率
+	
+	GlobalLearningFactor
+	GeneralLaborSpeed
+	SmoothingSpeed
+	MiningYield 采矿产出
+	DrugSynthesisSpeed
+	CookSpeed
+
+skillGains
+	Intellectual
+	Social
+	Medicine
+	Artistic
+	Crafting
+	Animals
+	Plants
+	Cooking
+	Mining
+	Construction
+	Shooting
+	Melee
+	
+	
+
+
+def翻译速查
+--单个
+Abrasive 直来直去
+AnnoyingVoice 烦人的声音
+Ascetic 苦行者
+Asexual 无性恋
+Aisexual 双性恋
+Gay 同性恋
+Bloodlust 嗜血
+BodyPurist 纯粹主义
+Brawler 格斗者
+Cannibal 食人者
+CreepyBreathing 恶心的呼吸声
+Misandrist 厌恶男性
+Misogynist 厌恶女性
+FastLearner 速学者
+SlowLearner 脑子慢
+TooSmart 聪明过人
+GreatMemory 过目不忘
+Gourmand 贪食者
+Greedy 贪心
+Jealous 妒忌
+Kind  善良
+Masochist 受虐狂
+NightOwl 夜猫子
+Nimble 敏捷
+Nudist 裸体主义
+Psychopath 心理变态
+Pyromaniac 纵火狂
+QuickSleeper 高效睡眠
+TorturedArtist 崩溃艺术家
+Tough 坚韧
+Transhumanist 超人主义
+Undergrounder 穴居者
+Wimp 懦弱
+
+
+--光谱，程度
+Beauty 2~-2 沉鱼落雁，俊俏，丑陋，丑绝人寰
+DrugDesire 2,1,-1 成瘾品痴迷,成瘾品爱好,成瘾品厌恶
+Immunity 1,-1 超免疫者,体弱多病
+Industriousness 2~-2 工作狂,工作勤奋,工作懒惰,工作怠惰
+NaturalMood 2~-2 乐天派,乐观,悲观,抑郁症
+Nerves 2~-2 意志如钢,意志坚定,意志紧张,意志动荡
+Neurotic 1,2 神经质,严重神经质
+PsychicSensitivity 2~-2 心灵过敏,心灵敏感,心灵迟钝,心灵失聪
+ShootingAccuracy 1,-1 冷枪手,乱开枪
+SpeedOffset 2,1,-1 疾步如飞,疾行者,慢性子
