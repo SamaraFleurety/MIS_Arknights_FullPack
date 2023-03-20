@@ -241,4 +241,16 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Sniper">
+		<defName>AK_Apparel_Pozyomka</defName>
+		<label>鸿雪服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Sniper/Pozyomka</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Sniper/Pozyomka</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 </Defs>

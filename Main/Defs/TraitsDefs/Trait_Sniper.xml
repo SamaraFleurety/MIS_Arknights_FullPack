@@ -416,6 +416,8 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<!-- 子月 -->
+
 	<TraitDef>
 		<ignoreConfigErrors>true</ignoreConfigErrors>
 		<commonality>0.0</commonality>
@@ -428,6 +430,41 @@
 				<statOffsets>
 					<MentalBreakThreshold>-0.15</MentalBreakThreshold>
 					<TameAnimalChance>2</TameAnimalChance>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<!-- 鸿雪 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_PozyomkaSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>锐笔</label>
+				<description>作为“文学代表”，鸿雪在际崖城承担了大量广告标语和文案包装之类的工作。与际崖城杜林人散漫的语言组织方式不同，她的广告词总能别出心裁，在商业写作之余，鸿雪也在进行文学创作——诗歌、小说、剧作。
+				</description>
+				<statOffsets>
+					<GlobalLearningFactor>0.2</GlobalLearningFactor>
+					<!-- <TameAnimalChance>2</TameAnimalChance> -->
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Pozyomka</defName>
+		<degreeDatas>
+			<li>
+				<label>鸿雪</label>
+				<description>鸿雪对绝大多数非杜林族干员保持着强烈的警惕性，在过分礼貌之余拒绝透露任何非必要的信息。从际崖城回来的干员们似乎听鸿雪讲过内情，但大家默契地三缄其口。
+				</description>
+				<statOffsets>
+					<SocialImpact>0.15</SocialImpact>
 				</statOffsets>
 			</li>
 		</degreeDatas>

@@ -314,4 +314,22 @@
 </baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Pozyomka_Child</defName>
+		<slot>Childhood</slot>
+		<title>旧贵族</title>
+		<titleShort>旧贵族</titleShort>
+		<baseDesc>{PAWN_nameDef}曾经是乌萨斯的贵族，在一场乏善可陈的政治阴谋中，{PAWN_pronoun}家人相继死去，最终只剩她一个人侥幸逃脱，误打误撞地进了际崖城。具体过程在风险研判后，人事部决定不进行进一步的询问。
+</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Pozyomka_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>文学代表</title>
+		<titleShort>文学代表</titleShort>
+		<baseDesc>阿芙朵嘉·锐笔，际崖城的文学代表，在说服杜林人前往阿卡胡拉避难的过程中发挥了重要作用，经际崖城商业代表克罗绮·砖石介绍来罗德岛考察，现作为狙击干员参与外勤任务。
+</baseDesc>
+	</BackstoryDef>
+
 </Defs>
