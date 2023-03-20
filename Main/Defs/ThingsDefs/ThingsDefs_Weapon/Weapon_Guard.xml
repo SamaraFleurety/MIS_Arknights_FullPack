@@ -21,7 +21,7 @@
           <li>Stab</li>
         </capacities>
         <power>24</power>
-		<armorPenetration>10</armorPenetration>
+        <armorPenetration>10</armorPenetration>
         <extraMeleeDamages>
           <li>
             <def>Burn</def>
@@ -36,7 +36,7 @@
           <li>Poke</li>
         </capacities>
         <power>27</power>
-		<armorPenetration>10</armorPenetration>
+        <armorPenetration>10</armorPenetration>
         <extraMeleeDamages>
           <li>
             <def>Burn</def>
@@ -51,7 +51,7 @@
           <li>Cut</li>
         </capacities>
         <power>21</power>
-		<armorPenetration>10</armorPenetration>
+        <armorPenetration>10</armorPenetration>
         <extraMeleeDamages>
           <li>
             <def>Burn</def>
@@ -1214,14 +1214,133 @@
     </tools>
   </ThingDef>
 
-	<ThingDef ParentName="AK_WeaponBase_Guard">
-		<defName>AK_Weapon_Chongyue</defName>
-		<label>重岳的拳套</label>
-		<graphicData>
-			<texPath>Things/AK_Agents/Weapon/Guard/ChongyueW</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<description>重岳的拳套</description>
-	</ThingDef>
+  <ThingDef ParentName="AK_WeaponBase_Guard">
+    <defName>AK_Weapon_Chongyue</defName>
+    <label>重岳的拳套</label>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Guard/ChongyueW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <description>重岳的拳套</description>
+    <tools Inherit = "false">
+      <li>
+        <label>拳击</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>38</power>
+        <cooldownTime>1.0</cooldownTime>
+      </li>
+      <li>
+        <label>飞踢</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>24</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>手刀</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>26</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>掌击</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>26</power>
+        <cooldownTime>1.4</cooldownTime>
+        <armorPenetration>0.78</armorPenetration>        <!--穿甲-->
+      </li>
+    </tools>
+  </ThingDef>
+
+  <ThingDef ParentName="AK_WeaponBase_Guard">
+    <defName>AK_Weapon_Qiubai</defName>
+    <label>仇白之剑</label>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Guard/QiubaiW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <description>仇白出剑从不按照所谓剑法，她只在最合适的时机出剑</description>
+    <statBases>
+      <AccuracyTouch>1</AccuracyTouch>
+      <AccuracyShort>0.8</AccuracyShort>
+      <AccuracyMedium>0.65</AccuracyMedium>
+      <AccuracyLong>0.45</AccuracyLong>
+      <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>      <!--后摇-->
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>AK_Bullet_Qiubai</defaultProjectile>
+        <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+        <warmupTime>0.9</warmupTime>        <!--前摇-->
+        <range>30</range>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <noiseRadius>3</noiseRadius>
+      </li>
+    </verbs>
+    <tools Inherit = "false">
+      <li>
+        <label>拳击</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>1.4</cooldownTime>
+      </li>
+      <li>
+        <label>剑捅</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>28</power>
+        <cooldownTime>1.8</cooldownTime>
+        <armorPenetration>1</armorPenetration>        <!--穿甲-->
+      </li>
+      <li>
+        <label>剑砍</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>24</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+      <li>
+        <label>飞踢</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>2.0</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <ThingDef ParentName="AK_BulletBase_Bow">
+    <defName>AK_Bullet_Qiubai</defName>
+    <label>剑气穿刺</label>
+    <graphicData>
+      <texPath>Things/Projectile/MagicOrb</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingClass>Bullet</thingClass>
+    <projectile>
+      <damageDef>Bullet</damageDef>      <!--伤害类型-->
+      <damageAmountBase>22</damageAmountBase>
+      <stoppingPower>3</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
 
 </Defs>

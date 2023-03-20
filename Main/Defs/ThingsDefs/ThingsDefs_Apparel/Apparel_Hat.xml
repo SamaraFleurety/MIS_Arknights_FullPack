@@ -324,4 +324,16 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_HatBase">
+		<defName>AK_Hat_Qiubai</defName>
+		<label>仇白帽子</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/HatAccessory/QiubaiH</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/HatAccessory/QiubaiH</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 </Defs>

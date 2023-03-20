@@ -786,14 +786,25 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<thingClass>Bullet</thingClass>
-		<projectile>
-			<damageDef>Bullet</damageDef>
+		<!-- <projectile> -->
+			<!-- <damageDef>Bullet</damageDef> -->
 			<!--伤害类型-->
-			<damageAmountBase>37</damageAmountBase>
-			<stoppingPower>3</stoppingPower>
-			<speed>50</speed>
-			<soundExplode>ThumpCannon_Impact</soundExplode>
+			<!-- <damageAmountBase>37</damageAmountBase> -->
+			<!-- <stoppingPower>3</stoppingPower> -->
+			<!-- <speed>50</speed> -->
+			<!-- <soundExplode>ThumpCannon_Impact</soundExplode> -->
 			<!--爆炸音效-->
+		<!-- </projectile> -->
+		<thingClass>Projectile_Explosive</thingClass>
+		<projectile>
+			<speed>40</speed>
+			<damageDef>Smoke</damageDef>
+			<!-- Use default damage from explosion def -->
+			<explosionRadius>2.4</explosionRadius>
+			<ai_IsIncendiary>true</ai_IsIncendiary>
+			<arcHeightFactor>0.2</arcHeightFactor>
+			<shadowSize>0.6</shadowSize>
+			<screenShakeFactor>0.5</screenShakeFactor>
 		</projectile>
 	</ThingDef>
 

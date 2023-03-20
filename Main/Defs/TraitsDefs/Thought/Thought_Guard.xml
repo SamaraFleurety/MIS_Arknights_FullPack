@@ -97,14 +97,14 @@
 		<stages>
 			<li>
 				<label>优雅的侩子手</label>
-				<description>愉悦
+				<description>你觉得我是杀手？好啊，你当然可以随意解读我。我可以成为任何人，也能做任何工作，在任何时间都能干掉我想干掉的人，只要我想！
 				</description>
 				<baseMoodEffect>10</baseMoodEffect>
 			</li>
 		</stages>
 	</ThoughtDef>
 
-	<!-- 棘刺 -->
+	<!-- 斯卡蒂 -->
 
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_Skadi</defName>
@@ -259,7 +259,23 @@
 		</stages>
 	</ThoughtDef>
 
-	<!-- Maynar 玛恩纳 -->
+	<!-- 帕拉斯 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Pallas</defName>
+		<requiredTraits>
+			<li>AK_Trait_PallasSecond</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>胜利女神</label>
+				<description>保佑胜利的英雄，我将领受你们的祝福。</description>
+				<baseMoodEffect>15</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 玛恩纳 -->
 
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_Maynar</defName>
@@ -303,6 +319,22 @@
 				<label>知我为我</label>
 				<description>“我是谁”......临水自照，人也好，兽也罢，山峦林烟，天边双月的倒影，看见了什么，答案便是什么。至于人间换尽，我们兄弟姐妹会不会重归混沌，寻找新的答案，那又是另一个问题了。</description>
 				<baseMoodEffect>12</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 仇白 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Qiubai</defName>
+		<requiredTraits>
+			<li>AK_Trait_Qiubai</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>侠客</label>
+				<description>仗剑何为？不平则鸣。</description>
+				<baseMoodEffect>-8</baseMoodEffect>
 			</li>
 		</stages>
 	</ThoughtDef>

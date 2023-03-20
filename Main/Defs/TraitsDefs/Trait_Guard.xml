@@ -400,19 +400,6 @@
 		</degreeDatas>
 	</TraitDef>
 
-	<TraitDef>
-		<ignoreConfigErrors>true</ignoreConfigErrors>
-		<commonality>0.0</commonality>
-		<defName>AK_Trait_IreneSecond</defName>
-		<degreeDatas>
-			<li>
-				<label></label>
-				<description>
-				</description>
-			</li>
-		</degreeDatas>
-	</TraitDef>
-
 	<!-- Pallas 帕拉斯 -->
 	<TraitDef>
 		<ignoreConfigErrors>true</ignoreConfigErrors>
@@ -523,7 +510,7 @@
 		<degreeDatas>
 			<li>
 				<label>神秘主义</label>
-				<description>因为家庭环境的影响与神秘学的传承，加上教育的缘故，{PAWN_nameDef}比起科学解释更喜欢用星象学的推论，这造成{PAWN_possessive}很多思想总是或多或少的受到了神秘主义的影响。这造成{PAWN_possessive}某些思维相当保守，而且对一些科技也有着明显的是排斥。
+				<description>因为家庭环境的影响与神秘学的传承，加上教育的缘故，{PAWN_nameDef}比起科学解释更喜欢用星象学的推论，这造成{PAWN_possessive}很多思想总是或多或少的受到了神秘主义的影响。这导致{PAWN_possessive}某些思维相当保守，而且对一些科技也有着明显的是排斥。
 				</description>
 				<statOffsets>
 					<PsychicSensitivity>0.30</PsychicSensitivity>
@@ -568,6 +555,42 @@
 				<statOffsets>
 					<MentalBreakThreshold>-0.6</MentalBreakThreshold>
 				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<!-- 仇白 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_QiubaiSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>侠客</label>
+				<description>三月三，艳阳天。
+秋叶落，雪满山。
+磨刀石小斗笠圆。
+路见不平一把剑，大江分两边。
+				</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.22</MentalBreakThreshold>
+					<MeleeDodgeChance>0.2</MeleeDodgeChance>
+					<MoveSpeed>1.5</MoveSpeed>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Qiubai</defName>
+		<degreeDatas>
+			<li>
+				<label>落英</label>
+				<description>“善恶之争生出恩怨，这样的循环，到何处终，自何处始？‘善恶难断’只是一句无用的感喟，这是我现在执剑的理由。”
+				</description>
 			</li>
 		</degreeDatas>
 	</TraitDef>

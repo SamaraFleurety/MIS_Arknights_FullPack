@@ -393,7 +393,26 @@ ok halda njarðlásar níu.</baseDesc>
 		<slot>Adulthood</slot>
 		<title>武人</title>
 		<titleShort>武人</titleShort>
-		<baseDesc>重岳，留舰人员年、夕、令的兄长，与炎国兵部、司岁台等政府部门往来密切，此前担任移动城市玉门的武术教官，已卸任。因探视亲属来到罗德岛，经过审核，暂时凭访客身份驻留本舰。重岳具有丰富的战场经验，为罗德岛提供过独特的作战建议，但应凯尔希医生要求，重岳本人较少直接参加任务。
+		<baseDesc>{PAWN_nameDef}，留舰人员年、夕、令的兄长，与炎国兵部、司岁台等政府部门往来密切，此前担任移动城市玉门的武术教官，已卸任。因探视亲属来到罗德岛，经过审核，暂时凭访客身份驻留本舰。{PAWN_pronoun}具有丰富的战场经验，为罗德岛提供过独特的作战建议，但应凯尔希医生要求，{PAWN_pronoun}本人较少直接参加任务。
+</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Qiubai_Child</defName>
+		<slot>Childhood</slot>
+		<title>匪首的女儿</title>
+		<titleShort>匪首的女儿</titleShort>
+		<baseDesc>{PAWN_nameDef}原本是盘踞在寨头上匪首的女儿，在寨头被清剿后{PAWN_pronoun}侥幸出逃，一路流浪到了玉门并且修炼了极其出色的剑术。
+</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Qiubai_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>剑客</title>
+		<titleShort>剑客</titleShort>
+		<baseDesc>{PAWN_nameDef}，剑客，出生于炎国姜齐城附近的水寨，后因家庭变故离开故乡，常年行走于炎国各地，并无固定居所与工作。
+经调查，{PAWN_pronoun}曾在不同事件中与多位干员有过接触，后接受罗德岛的合作邀请，为罗德岛在炎国境内的各项事务提供支持。
 </baseDesc>
 	</BackstoryDef>
 
