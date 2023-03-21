@@ -37,7 +37,7 @@
       </li>
     </tools>
   </ThingDef>
-  
+
   <ThingDef ParentName="AK_WeaponBase_Vanguard">
     <defName>AK_Weapon_Reed</defName>
     <label>烈火长枪</label>
@@ -56,7 +56,7 @@
         <power>34</power>
         <cooldownTime>1</cooldownTime>
       </li>
-        <li>
+      <li>
         <label>枪柄猛砸</label>
         <capacities>
           <li>Blunt</li>
@@ -64,7 +64,7 @@
         <power>21</power>
         <cooldownTime>1.4</cooldownTime>
       </li>
-        <li>
+      <li>
         <label>枪尖突刺</label>
         <capacities>
           <li>Poke</li>
@@ -74,7 +74,7 @@
       </li>
     </tools>
   </ThingDef>
-  
+
   <ThingDef ParentName="AK_WeaponBase_Vanguard">
     <defName>AK_Weapon_Saga</defName>
     <label>薙刀</label>
@@ -103,7 +103,7 @@
       </li>
     </tools>
   </ThingDef>
-  
+
   <ThingDef ParentName="AK_WeaponBase_Vanguard">
     <defName>AK_Weapon_Texas</defName>
     <label>源石剑</label>
@@ -148,7 +148,7 @@
       </li>
     </tools>
   </ThingDef>
-  
+
   <ThingDef ParentName="AK_WeaponBase_Vanguard">
     <defName>AK_Weapon_Vanilla</defName>
     <label>黑钢国际制式斧枪</label>
@@ -176,14 +176,14 @@
       </li>
     </tools>
   </ThingDef>
-  
+
   <ThingDef ParentName="AK_WeaponBase_Vanguard">
     <defName>AK_Weapon_Saileach</defName>
     <label>仪仗队刺剑</label>
     <description>维多利亚仪仗队常用的刺剑，雕琢精美，剑刃锋利。
     过去用来检阅，现在用来战斗。</description>
     <graphicData>
-			<texPath>Things/AK_Agents/Weapon/Vanguard/SaileachW</texPath>
+      <texPath>Things/AK_Agents/Weapon/Vanguard/SaileachW</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <tools Inherit = "false">
@@ -227,17 +227,17 @@
     <label>维多利亚仪仗队军旗</label>
     <description>维多利亚仪仗队中常见的军旗，象征着维多利亚军人的荣耀。</description>
     <graphicData>
-			<texPath>Things/AK_Agents/Weapon/Vanguard/SaileachW2</texPath>
+      <texPath>Things/AK_Agents/Weapon/Vanguard/SaileachW2</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
   </ThingDef>
-  
+
   <ThingDef ParentName="AK_WeaponBase_Vanguard">
     <defName>AK_Weapon_Flametail</defName>
     <label>焰尾的长剑</label>
     <description>一把卡西米尔骑士常用的长剑，焰尾骑士用它打败了很多个敌人，获得了许多场胜利。</description>
     <graphicData>
-			<texPath>Things/AK_Agents/Weapon/Vanguard/FlametailW</texPath>
+      <texPath>Things/AK_Agents/Weapon/Vanguard/FlametailW</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <tools Inherit = "false">
@@ -281,7 +281,7 @@
     <label>野鬃骑枪</label>
     <description>一把沉重的骑枪，一般人很难挥动，但是凭借着野鬃的力气和速度用起来有着意想不到的作用。</description>
     <graphicData>
-			<texPath>Things/AK_Agents/Weapon/Vanguard/WildW</texPath>
+      <texPath>Things/AK_Agents/Weapon/Vanguard/WildW</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <tools Inherit = "false">
@@ -317,7 +317,7 @@
     <label>谢拉格弯刀</label>
     <description>一把长弯刀，谢拉格随处可见的防身武器，轻捷便携。</description>
     <graphicData>
-			<texPath>Things/AK_Agents/Weapon/Vanguard/CourierW</texPath>
+      <texPath>Things/AK_Agents/Weapon/Vanguard/CourierW</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <tools Inherit = "false">
@@ -345,7 +345,7 @@
     <label>维多利亚骑枪</label>
     <description>维多利亚骑警卫常用的骑枪，可以折叠适应使用者的身材</description>
     <graphicData>
-			<texPath>Things/AK_Agents/Weapon/Vanguard/GraniW</texPath>
+      <texPath>Things/AK_Agents/Weapon/Vanguard/GraniW</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <tools Inherit = "false">
@@ -390,7 +390,7 @@
     <description>桃金娘的旗帜，据她说是从家里带出来的桌布。
     不过这块桌布不论怎样都不会脏，可以说是个很神奇的东西</description>
     <graphicData>
-			<texPath>Things/AK_Agents/Weapon/Vanguard/MyrtleW</texPath>
+      <texPath>Things/AK_Agents/Weapon/Vanguard/MyrtleW</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <tools Inherit = "false">
@@ -419,18 +419,18 @@
     <description>桃金娘的苹果，内部有着及其精密的机械结构。
     据说握在手里能让人感到一种信仰。</description>
     <graphicData>
-			<texPath>Things/AK_Agents/Weapon/Vanguard/MyrtleW2</texPath>
+      <texPath>Things/AK_Agents/Weapon/Vanguard/MyrtleW2</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
   </ThingDef>
- 
+
   <ThingDef ParentName="AK_WeaponBase_Vanguard">
     <defName>AK_Weapon_Siege</defName>
     <label>王大锤</label>
     <description>推荐之王的铁锤，有着碾碎前方所有困境的力量。
     这把锤子从伦蒂尼姆而来，最终也会回到它的故乡。</description>
     <graphicData>
-			<texPath>Things/AK_Agents/Weapon/Vanguard/SiegeW</texPath>
+      <texPath>Things/AK_Agents/Weapon/Vanguard/SiegeW</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <tools Inherit = "false">
@@ -459,7 +459,7 @@
     <description>一把接上了一截铁管的短斧，磨损的很严重。
     斧刃处有已经难以清洗掉的血迹。</description>
     <graphicData>
-	  <texPath>Things/AK_Agents/Weapon/Vanguard/ZimaW</texPath>
+      <texPath>Things/AK_Agents/Weapon/Vanguard/ZimaW</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <tools Inherit = "false">
@@ -542,16 +542,87 @@
   </ThingDef>
 
   <SoundDef ParentName="AK_SoundBase">
-			<defName>AK_Sound_Weapon_Beanstalk</defName>
-			<subSounds Inherit="False">
-			  <li>
-				<grains>
-				  <li Class="AudioGrain_Clip">
-					<clipPath>Operator/GeneralSFX/p_atk_crossbow_n</clipPath>
-				  </li>
-				</grains>
-			  </li>
-			</subSounds>
-	</SoundDef>
+    <defName>AK_Sound_Weapon_Beanstalk</defName>
+    <subSounds Inherit="False">
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Operator/GeneralSFX/p_atk_crossbow_n</clipPath>
+          </li>
+        </grains>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <ThingDef ParentName="AK_WeaponBase_Vanguard">
+    <defName>AK_Weapon_Blacknight</defName>
+    <label>夜半的弩</label>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Vanguard/BlacknightW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <description>荒地猎人常用来狩猎的手弩，做功粗糙，但是手感舒适，结构也很结实。</description>
+    <statBases>
+      <AccuracyTouch>0.80</AccuracyTouch>
+      <AccuracyShort>0.75</AccuracyShort>
+      <AccuracyMedium>0.65</AccuracyMedium>
+      <AccuracyLong>0.45</AccuracyLong>
+      <RangedWeapon_Cooldown>0.25</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>AK_Bullet_Blacknight</defaultProjectile>
+        <warmupTime>0.75</warmupTime>
+        <range>33</range>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <soundCast>AK_Sound_Weapon_Blacknight</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <noiseRadius>3</noiseRadius>
+      </li>
+    </verbs>
+    <tools Inherit = "false">
+      <li>
+        <label>用弩砸</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <ThingDef ParentName="AK_BulletBase_Bow">
+    <defName>AK_Bullet_Blacknight</defName>
+    <label>弩箭</label>
+    <graphicData>
+      <texPath>Things/Projectile/ShortXBow</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingClass>Bullet</thingClass>
+    <projectile>
+      <damageDef>Arrow</damageDef>
+      <damageAmountBase>20</damageAmountBase>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <SoundDef ParentName="AK_SoundBase">
+    <defName>AK_Sound_Weapon_Beanstalk</defName>
+    <subSounds Inherit="False">
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Operator/GeneralSFX/p_atk_crossbow_n</clipPath>
+          </li>
+        </grains>
+      </li>
+    </subSounds>
+  </SoundDef>
 
 </Defs>

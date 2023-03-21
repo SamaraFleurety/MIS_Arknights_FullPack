@@ -227,4 +227,22 @@
 </baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Blacknight_Child</defName>
+		<slot>Childhood</slot>
+		<title>猎人的养子</title>
+		<titleShort>猎人的养子</titleShort>
+		<baseDesc>据{PAWN_nameDef}自己说，{PAWN_pronoun}在十岁左右流落到一个荒地聚落，被一对猎人夫妇收养，远离移动城市的荫庇。
+</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Blacknight_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>猎人</title>
+		<titleShort>猎人</titleShort>
+		<baseDesc>{PAWN_nameDef}，赏金猎人，擅长驯兽。曾因某项委托进入大炎境内，并在尚蜀城与罗德岛干员克洛丝相识，后经当地官员介绍，与罗德岛达成合作，活跃在大炎周边的各项委派任务中。
+</baseDesc>
+	</BackstoryDef>
+
 </Defs>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<!-- 先锋干员特性文件 --> <!-- 已排序 -->
+	<!-- 先锋干员特性文件 -->	<!-- 已排序 -->
 
 	<!-- 焰尾 -->
 
@@ -206,7 +206,7 @@
 		</degreeDatas>
 	</TraitDef>
 
-		<TraitDef>
+	<TraitDef>
 		<ignoreConfigErrors>true</ignoreConfigErrors>
 		<commonality>0.0</commonality>
 		<defName>AK_Trait_WildSecond</defName>
@@ -257,10 +257,45 @@
 				尽管{PAWN_nameDef}外表与性格有孩子气的成分，但在战场上表现出颇强的感染力和相当的指挥水准，十分可靠。
 				</description>
 				<statOffsets>
-				    <MentalBreakThreshold>-0.2</MentalBreakThreshold>				
+					<MentalBreakThreshold>-0.2</MentalBreakThreshold>
 				</statOffsets>
 			</li>
 		</degreeDatas>
 	</TraitDef>
-	
+
+	<!-- 夜半 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_BlacknightSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>流浪者</label>
+				<description>在荒野上，最珍贵的不是水，不是粮食，不是能遮风挡雨的屋舍，而是同伴。
+				</description>
+				<statOffsets>
+					<SocialImpact>-0.15</SocialImpact>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Blacknight</defName>
+		<degreeDatas>
+			<li>
+				<label>荒野驯兽师</label>
+				<description>“靠近的时候小心一点，交流的时候耐心一点，夸奖的时候用心一点，不就行了吗？”在提到自己训练动物的经验时，夜半的语气，就像在描述早上起床是如何刷牙一般轻松自然。
+				</description>
+				<statOffsets>
+					<TameAnimalChance>3</TameAnimalChance>
+					<TameAnimalSpeed>0.3</TameAnimalSpeed>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>

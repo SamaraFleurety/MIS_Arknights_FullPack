@@ -146,4 +146,16 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Vanguard">
+		<defName>AK_Apparel_Blacknight</defName>
+		<label>夜半服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Vanguard/Blacknight</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Vanguard/Blacknight</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 </Defs>
