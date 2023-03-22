@@ -261,4 +261,40 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<!-- 锡兰 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_CeylonSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>大小姐</label>
+				<description>之所以用“大小姐”而不是“研究者”去概括，是因为她“大小姐”的印象过于强烈。因为由无数成功培养出来的自信感无时无刻不体现在她的言行之中，在大部分时候，她总是对的。而如果她错了，她从不会吝啬“对不起”。
+				</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.15</MentalBreakThreshold>
+					<SocialImpact>0.3</SocialImpact>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Ceylon</defName>
+		<degreeDatas>
+			<li>
+				<label>学者</label>
+				<description>锡兰小姐虽然才从大学毕业，但是她本身的知识储备以及对于源石研究的热情是令人赞叹的，完全可以想见她在学校中付出了怎样的努力。这样优秀人才的加入，对于罗德岛来说，不得不说是一个意外之喜。
+				</description>
+				<statOffsets>
+					<GlobalLearningFactor>0.2</GlobalLearningFactor>
+					<ResearchSpeed>0.3</ResearchSpeed>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>

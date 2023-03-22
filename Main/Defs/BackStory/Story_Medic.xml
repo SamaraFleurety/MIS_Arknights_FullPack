@@ -168,4 +168,24 @@
 		</baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Ceylon_Child</defName>
+		<slot>Childhood</slot>
+		<title>汐斯塔大小姐</title>
+		<titleShort>汐斯塔大小姐</titleShort>
+		<baseDesc>作为汐斯塔城主赫尔曼·道尔科斯的独女，{PAWN_nameDef}毫无疑问是含着金汤匙出生的。
+但因为{PAWN_pronoun}从小就被送往维多利亚留学，长期的独自留学生活让{PAWN_pronoun}养成了相当独立的性格，因此与大家印象中的“富家子女”形象有些偏差。
+		</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Ceylon_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>学者</title>
+		<titleShort>学者</titleShort>
+		<baseDesc>维多利亚国立大学源石研究专业毕业生，现作为辅助研究员在凯尔希医生的研究室内工作。
+在水系法术上颇有造诣，能够在战场上为队友提供可靠的医疗支援。
+		</baseDesc>
+	</BackstoryDef>
+
 </Defs>

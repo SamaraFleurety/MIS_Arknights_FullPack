@@ -336,4 +336,16 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_HatBase">
+		<defName>AK_Hat_Ceylon</defName>
+		<label>锡兰帽子</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/HatAccessory/CeylonH</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/HatAccessory/CeylonH</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 </Defs>

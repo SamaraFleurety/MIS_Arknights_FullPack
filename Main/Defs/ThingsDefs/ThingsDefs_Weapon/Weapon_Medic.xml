@@ -259,4 +259,24 @@
     </tools>
   </ThingDef>
 
+	<ThingDef ParentName="AK_WeaponBase_Medic">
+		<defName>AK_Weapon_Ceylon</defName>
+		<label>湖畔漫步者</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Medic/CeylonW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<description>锡兰的伞，握在手中感觉十分潮湿，但是脱手又感觉没有任何水，难道这也是源石技艺？</description>
+    <tools Inherit = "false">
+      <li>
+        <label>法杖猛砸</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+    </tools>
+	</ThingDef>
+
 </Defs>

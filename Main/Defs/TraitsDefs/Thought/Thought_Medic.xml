@@ -127,4 +127,20 @@
 		</stages>
 	</ThoughtDef>
 
+	<!-- 锡兰 -->
+	
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_CeylonSecond</defName>
+		<requiredTraits><li>AK_Trait_CeylonSecond</li></requiredTraits>
+		<stages>
+			<li>
+				<label>大小姐</label>
+				<description>
+				努力就会有回报，我一直这么认为，也一直是这么做的。
+				</description>
+				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
 </Defs>
