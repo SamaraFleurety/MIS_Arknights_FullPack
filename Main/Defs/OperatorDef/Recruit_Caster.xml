@@ -98,6 +98,20 @@ Coming on a whim, the great painter, Dusk, puts only the finishing touches on al
 		<age>20</age>
 		<childHood>AK_BackStory_Dusk_Child</childHood>
 		<adultHood>AK_BackStory_Dusk_Adult</adultHood>
+		<relations>
+			<li>
+				<key>Chongyue</key>
+				<value>Brother</value>
+			</li>
+			<li>
+				<key>Ling</key>
+				<value>Sister</value>
+			</li>
+			<li>
+				<key>Nian</key>
+				<value>Sister</value>
+			</li>
+		</relations>
 		<abilities>
 			<li>AK_Test_ignit</li>
 		</abilities>
@@ -298,6 +312,16 @@ Ifrit, former test subject of Rhine Lab, will incinerate all of Silence's enemie
 			</li>
 		</traits>
 		<childHood>AK_BackStory_Ifrit_Child</childHood>
+		<relations>
+			<li>
+				<key>Silence</key>
+				<value>Mother</value>
+			</li>
+			<li>
+				<key>Saria</key>
+				<value>Father</value>
+			</li>
+		</relations>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Caster">
@@ -782,6 +806,12 @@ Amiya, leader of Rhodes Island, will fight alongside you.</description>
 			</li>
 		</traits>
 		<childHood>AK_BackStory_Amiya_Child</childHood>
+		<relations>
+			<li>
+				<key>Kaltsit</key>
+				<value>Mother</value>
+			</li>
+		</relations>
 		<bodyTypeDef>Female</bodyTypeDef>
 	</AK_DLL.OperatorDef>
 
@@ -981,9 +1011,15 @@ Ceobe is always ready to go after the bad guys.</description>
 				<degree>1</degree>
 			</li>
 		</traits>
-		<age>20</age>
+		<age>23</age>
 		<childHood>AK_BackStory_Carnelian_Child</childHood>
 		<adultHood>AK_BackStory_Carnelian_Adult</adultHood>
+		<relations>
+			<li>
+				<key>Beeswax</key>
+				<value>Sister</value>
+			</li>
+		</relations>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Caster">
@@ -1072,6 +1108,12 @@ Ceobe is always ready to go after the bad guys.</description>
 			</li>
 		</traits>
 		<childHood>AK_BackStory_Beeswax_Child</childHood>
+		<relations>
+			<li>
+				<key>Carnelian</key>
+				<value>Sister</value>
+			</li>
+		</relations>
 		<skinColor>(210,180,170)</skinColor>
 	</AK_DLL.OperatorDef>
 
@@ -1487,6 +1529,12 @@ Ceobe is always ready to go after the bad guys.</description>
 		<age>22</age>
 		<childHood>AK_BackStory_Astgenne_Child</childHood>
 		<adultHood>AK_BackStory_Astgenne_Adult</adultHood>
+		<relations>
+			<li>
+				<key>Astesia</key>
+				<value>Sister</value>
+			</li>
+		</relations>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -1677,6 +1725,16 @@ Ceobe is always ready to go after the bad guys.</description>
 		<age>20</age>
 		<childHood>AK_BackStory_Lin_Child</childHood>
 		<adultHood>AK_BackStory_Lin_Adult</adultHood>
+		<relations>
+			<li>
+				<key>Chen</key>
+				<value>Rival</value>
+			</li>
+			<li>
+				<key>Chen</key>
+				<value>Friend</value>
+			</li>
+		</relations>
 		<skills>
 			<li>
 				<skill>Animals</skill>

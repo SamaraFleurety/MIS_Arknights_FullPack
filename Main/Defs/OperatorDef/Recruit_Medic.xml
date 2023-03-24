@@ -199,6 +199,16 @@ Silence, medical specialist of Rhine Lab, will make use of the latest scientific
 		<age>20</age>
 		<childHood>AK_BackStory_Silence_Child</childHood>
 		<adultHood>AK_BackStory_Silence_Adult</adultHood>
+		<relations>
+			<li>
+				<key>Saria</key>
+				<value>Spouse</value>
+			</li>
+			<li>
+				<key>Ifrit</key>
+				<value>Daughter</value>
+			</li>
+		</relations>
 		<abilities>
 			<li>
 				<def>AK_Ability_Regrow</def>
@@ -398,6 +408,22 @@ Gavial, Medic Operator of Rhodes Island, will protect the lives of her squad mem
 		<age>20</age>
 		<childHood>AK_BackStory_Kaltsit_Child</childHood>
 		<adultHood>AK_BackStory_Kaltsit_Adult</adultHood>
+		<relations>
+			<li>
+				<key>Warfarin</key>
+				<value>Friend</value>
+			</li>
+			<li>
+				<key>Amiya</key>
+				<value>Daughter</value>
+			</li>
+		</relations>
+		<relations>
+			<li>
+				<key>Amiya</key>
+				<value>Daughter</value>
+			</li>
+		</relations>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Medic">
@@ -910,6 +936,12 @@ Ptilopsis, database maintainer of Rhine Lab, activated. Please enter commands to
 		<age>20</age>
 		<childHood>AK_BackStory_Warfarin_Child</childHood>
 		<adultHood>AK_BackStory_Warfarin_Adult</adultHood>
+		<relations>
+			<li>
+				<key>Kaltsit</key>
+				<value>Friend</value>
+			</li>
+		</relations>
 		<skills>
 			<li>
 				<skill>Animals</skill>

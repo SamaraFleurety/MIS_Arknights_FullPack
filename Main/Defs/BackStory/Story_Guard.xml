@@ -45,6 +45,14 @@
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Franka_Child</defName>
+		<slot>Childhood</slot>
+		<title>流浪者</title>
+		<titleShort>流浪者</titleShort>
+		<baseDesc>{PAWN_nameDef}出身于哥伦比亚吉沃吉亚的某上流社会家庭，十三岁时由于天灾家乡被毁并失去了父亲，随后{PAWN_pronoun}远走他乡，并在毕业后成为了自由佣兵。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
 		<defName>AK_BackStory_Franka_Adult</defName>
 		<slot>Adulthood</slot>
 		<title>BPRS生化部门职员</title>

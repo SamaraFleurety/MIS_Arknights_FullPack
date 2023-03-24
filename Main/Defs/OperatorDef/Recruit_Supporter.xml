@@ -194,7 +194,14 @@ Angelina, Supporter Operator and Messenger of Rhodes Island, would like to provi
 				<def>Tough</def>
 			</li>
 		</traits>
+		<age>15</age>
 		<childHood>AK_BackStory_Angelina_Child</childHood>
+		<relations>
+			<li>
+				<key>Croissant</key>
+				<value>Friend</value>
+			</li>
+		</relations>
 		<standOffset>(-100,150)</standOffset>
 		<standRatio>3</standRatio>
 	</AK_DLL.OperatorDef>
@@ -491,6 +498,24 @@ Magallan, the Commissioner of Rhine Labs, is glad to welcome new adventures.</de
 		<age>20</age>
 		<childHood>AK_BackStory_Pramanix_Child</childHood>
 		<adultHood>AK_BackStory_Pramanix_Adult</adultHood>
+		<relations>
+			<li>
+				<key>Silverash</key>
+				<value>Brother</value>
+			</li>
+			<li>
+				<key>Cliffheart</key>
+				<value>Sister</value>
+			</li>
+			<li>
+				<key>Courier</key>
+				<value>Friend</value>
+			</li>
+			<li>
+				<key>Matterhorn</key>
+				<value>Friend</value>
+			</li>
+		</relations>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Supporter">
@@ -588,6 +613,12 @@ Magallan, the Commissioner of Rhine Labs, is glad to welcome new adventures.</de
 		<age>20</age>
 		<childHood>AK_BackStory_Glaucus_Child</childHood>
 		<adultHood>AK_BackStory_Glaucus_Adult</adultHood>
+		<relations>
+			<li>
+				<key>Bluepoison</key>
+				<value>Friend</value>
+			</li>
+		</relations>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Supporter">
@@ -721,6 +752,20 @@ Magallan, the Commissioner of Rhine Labs, is glad to welcome new adventures.</de
 		<age>20</age>
 		<childHood>AK_BackStory_Sora_Child</childHood>
 		<adultHood>AK_BackStory_Sora_Adult</adultHood>
+		<relations>
+			<li>
+				<key>Exusiai</key>
+				<value>Friend</value>
+			</li>
+			<li>
+				<key>Croissant</key>
+				<value>Friend</value>
+			</li>
+			<li>
+				<key>Texas</key>
+				<value>Friend</value>
+			</li>
+		</relations>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -815,9 +860,23 @@ Magallan, the Commissioner of Rhine Labs, is glad to welcome new adventures.</de
 				<def>AK_Trait_Ling</def>
 			</li>
 		</traits>
-		<age>20</age>
+		<age>25</age>
 		<childHood>AK_BackStory_Ling_Child</childHood>
 		<adultHood>AK_BackStory_Ling_Adult</adultHood>
+		<relations>
+			<li>
+				<key>Chongyue</key>
+				<value>Brother</value>
+			</li>
+			<li>
+				<key>Nian</key>
+				<value>Sister</value>
+			</li>
+			<li>
+				<key>Dusk</key>
+				<value>Sister</value>
+			</li>
+		</relations>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -913,6 +972,16 @@ Magallan, the Commissioner of Rhine Labs, is glad to welcome new adventures.</de
 			</li>
 		</traits>
 		<childHood>AK_BackStory_UrsusStudent</childHood>
+		<relations>
+			<li>
+				<key>Gummy</key>
+				<value>Friend</value>
+			</li>
+			<li>
+				<key>Rosa</key>
+				<value>Friend</value>
+			</li>
+		</relations>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -1102,6 +1171,12 @@ Magallan, the Commissioner of Rhine Labs, is glad to welcome new adventures.</de
 		<age>20</age>
 		<childHood>AK_BackStory_Gnosis_Child</childHood>
 		<adultHood>AK_BackStory_Gnosis_Adult</adultHood>
+		<relations>
+			<li>
+				<key>Silverash</key>
+				<value>Friend</value>
+			</li>
+		</relations>
 		<skills>
 			<li>
 				<skill>Animals</skill>

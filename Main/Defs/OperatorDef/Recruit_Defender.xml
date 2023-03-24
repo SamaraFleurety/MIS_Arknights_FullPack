@@ -296,6 +296,16 @@ Hoshiguma, member of the Special Service of Lungmen Guard Department, is awaitin
 		<age>20</age>
 		<childHood>AK_BackStory_Hoshiguma_Child</childHood>
 		<adultHood>AK_BackStory_Hoshiguma_Adult</adultHood>
+		<relations>
+			<li>
+				<key>Swire</key>
+				<value>Friend</value>
+			</li>
+			<li>
+				<key>Chen</key>
+				<value>Friend</value>
+			</li>
+		</relations>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Defender">
@@ -397,6 +407,12 @@ Liskarm, Defender Operator of B.P.R.S. of Blacksteel, possesses both a solid shi
 		<age>20</age>
 		<childHood>AK_BackStory_Liskarm_Child</childHood>
 		<adultHood>AK_BackStory_Liskarm_Adult</adultHood>
+		<relations>
+			<li>
+				<key>Franka</key>
+				<value>Friend</value>
+			</li>
+		</relations>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Defender">
@@ -588,9 +604,23 @@ Nian, a mysterious visitor from the faraway land of Yen, is willing to provide a
 				<degree>2</degree>
 			</li>
 		</traits>
-		<age>20</age>
+		<age>23</age>
 		<childHood>AK_BackStory_Nian_Child</childHood>
 		<adultHood>AK_BackStory_Nian_Adult</adultHood>
+		<relations>
+			<li>
+				<key>Chongyue</key>
+				<value>Brother</value>
+			</li>
+			<li>
+				<key>Ling</key>
+				<value>Sister</value>
+			</li>
+			<li>
+				<key>Dusk</key>
+				<value>Sister</value>
+			</li>
+		</relations>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Defender">
@@ -688,7 +718,18 @@ Saria, former researcher of Rhine Lab, will serve as a core part of the squad's 
 			</li>
 		</traits>
 		<age>20</age>
+		<childHood>AK_BackStory_Saria_Child</childHood>
 		<adultHood>AK_BackStory_Saria_Adult</adultHood>
+		<relations>
+			<li>
+				<key>Silence</key>
+				<value>Spouse</value>
+			</li>
+			<li>
+				<key>Ifrit</key>
+				<value>Daughter</value>
+			</li>
+		</relations>
 		<bodyTypeDef>Female</bodyTypeDef>
 	</AK_DLL.OperatorDef>
 
@@ -789,6 +830,20 @@ Saria, former researcher of Rhine Lab, will serve as a core part of the squad's 
 		<age>20</age>
 		<childHood>AK_BackStory_Blemishine_Child</childHood>
 		<adultHood>AK_BackStory_Blemishine_Adult</adultHood>
+		<relations>
+			<li>
+				<key>Whislash</key>
+				<value>Aunt</value>
+			</li>
+			<li>
+				<key>Maynar</key>
+				<value>Uncle</value>
+			</li>
+			<li>
+				<key>Nearl</key>
+				<value>Sister</value>
+			</li>
+		</relations>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Defender">
@@ -884,7 +939,26 @@ Saria, former researcher of Rhine Lab, will serve as a core part of the squad's 
 			</li>
 		</traits>
 		<age>20</age>
+		<childHood>AK_BackStory_Croissant_Child</childHood>
 		<adultHood>AK_BackStory_Croissant_Adult</adultHood>
+		<relations>
+			<li>
+				<key>Exusiai</key>
+				<value>Friend</value>
+			</li>
+			<li>
+				<key>Sora</key>
+				<value>Friend</value>
+			</li>
+			<li>
+				<key>Angelina</key>
+				<value>Friend</value>
+			</li>
+			<li>
+				<key>Texas</key>
+				<value>Friend</value>
+			</li>
+		</relations>
 		<standOffset>(-100,200)</standOffset>
 		<standRatio>2.75</standRatio>
 	</AK_DLL.OperatorDef>
@@ -1215,6 +1289,16 @@ Saria, former researcher of Rhine Lab, will serve as a core part of the squad's 
 			</li>
 		</traits>
 		<childHood>AK_BackStory_UrsusStudent</childHood>
+		<relations>
+			<li>
+				<key>Istina</key>
+				<value>Friend</value>
+			</li>
+			<li>
+				<key>Rosa</key>
+				<value>Friend</value>
+			</li>
+		</relations>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -1308,9 +1392,31 @@ Saria, former researcher of Rhine Lab, will serve as a core part of the squad's 
 				<def>Tough</def>
 			</li>
 		</traits>
-		<age>20</age>
+		<age>25</age>
 		<childHood>AK_BackStory_Matterhorn_Child</childHood>
 		<adultHood>AK_BackStory_Matterhorn_Adult</adultHood>
+		<relations>
+			<li>
+				<key>Silverash</key>
+				<value>Friend</value>
+			</li>
+			<li>
+				<key>Cliffheart</key>
+				<value>Friend</value>
+			</li>
+			<li>
+				<key>Courier</key>
+				<value>Friend</value>
+			</li>
+			<li>
+				<key>Pramanix</key>
+				<value>Friend</value>
+			</li>
+			<li>
+				<key>Vulcan</key>
+				<value>Friend</value>
+			</li>
+		</relations>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -1406,6 +1512,12 @@ Saria, former researcher of Rhine Lab, will serve as a core part of the squad's 
 		<age>25</age>
 		<childHood>AK_BackStory_Vulcan_Child</childHood>
 		<adultHood>AK_BackStory_Vulcan_Adult</adultHood>
+		<relations>
+			<li>
+				<key>Matterhorn</key>
+				<value>Friend</value>
+			</li>
+		</relations>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -1500,9 +1612,31 @@ Saria, former researcher of Rhine Lab, will serve as a core part of the squad's 
 				<def>Tough</def>
 			</li>
 		</traits>
-		<age>20</age>
+		<age>21</age>
 		<childHood>AK_BackStory_Nearl_Child</childHood>
 		<adultHood>AK_BackStory_Nearl_Adult</adultHood>
+		<relations>
+			<li>
+				<key>Whislash</key>
+				<value>Aunt</value>
+			</li>
+			<li>
+				<key>Blemishine</key>
+				<value>Sister</value>
+			</li>
+			<li>
+				<key>Maynar</key>
+				<value>Uncle</value>
+			</li>
+			<li>
+				<key>Platinum</key>
+				<value>Friend</value>
+			</li>
+			<li>
+				<key>Platinum</key>
+				<value>Rival</value>
+			</li>
+		</relations>
 		<skills>
 			<li>
 				<skill>Animals</skill>

@@ -100,9 +100,31 @@ SilverAsh, President of Karlan Trade CO., LTD, has signed the contract with Rhod
 				<degree>1</degree>
 			</li>
 		</traits>
-		<age>20</age>
+		<age>25</age>
 		<childHood>AK_BackStory_Silverash_Child</childHood>
 		<adultHood>AK_BackStory_Silverash_Adult</adultHood>
+		<relations>
+			<li>
+				<key>Cliffheart</key>
+				<value>Sister</value>
+			</li>
+			<li>
+				<key>Pramanix</key>
+				<value>Sister</value>
+			</li>
+			<li>
+				<key>Courier</key>
+				<value>Friend</value>
+			</li>
+			<li>
+				<key>Matterhorn</key>
+				<value>Friend</value>
+			</li>
+			<li>
+				<key>Gnosis</key>
+				<value>Friend</value>
+			</li>
+		</relations>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Guard">
@@ -203,6 +225,20 @@ Skadi, bounty hunter, has come with the tide to drown your enemies.</description
 		<age>20</age>
 		<childHood>AK_BackStory_Skadi_Child</childHood>
 		<adultHood>AK_BackStory_Skadi_Adult</adultHood>
+		<relations>
+			<li>
+				<key>Specter</key>
+				<value>Wife</value>
+			</li>
+			<li>
+				<key>Gladiia</key>
+				<value>Friend</value>
+			</li>
+			<li>
+				<key>Grani</key>
+				<value>Friend</value>
+			</li>
+		</relations>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Guard">
@@ -304,6 +340,16 @@ Specter from the Abyssal Hunters is already done with her prayer and is now prow
 		<age>20</age>
 		<childHood>AK_BackStory_Skadi_Child</childHood>
 		<adultHood>AK_BackStory_Specter_Adult</adultHood>
+		<relations>
+			<li>
+				<key>Skadi</key>
+				<value>Wife</value>
+			</li>
+			<li>
+				<key>Gladiia</key>
+				<value>Friend</value>
+			</li>
+		</relations>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Guard">
@@ -708,6 +754,24 @@ Ch'en, Special Inspection Unit Chief, L.G.D., is cooperating with Rhodes Island 
 		<age>20</age>
 		<childHood>AK_BackStory_Chen_Child</childHood>
 		<adultHood>AK_BackStory_Chen_Adult</adultHood>
+		<relations>
+			<li>
+				<key>Hoshiguma</key>
+				<value>Friend</value>
+			</li>
+			<li>
+				<key>Swire</key>
+				<value>Friend</value>
+			</li>
+			<li>
+				<key>Lin</key>
+				<value>Friend</value>
+			</li>
+			<li>
+				<key>Lin</key>
+				<value>Rival</value>
+			</li>
+		</relations>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Guard">
@@ -901,7 +965,14 @@ Franka, Guard Operator of B.P.R.S. of Blacksteel, is waiting for your orders.</d
 			</li>
 		</traits>
 		<age>20</age>
+		<childHood>AK_BackStory_Franka_Child</childHood>
 		<adultHood>AK_BackStory_Franka_Adult</adultHood>
+		<relations>
+			<li>
+				<key>Liskarm</key>
+				<value>Friend</value>
+			</li>
+		</relations>
 		<bodyTypeDef>Female</bodyTypeDef>
 	</AK_DLL.OperatorDef>
 
@@ -1098,6 +1169,16 @@ Operator Lappland can't wait to slash apart the enemies in front of her.</descri
 		<age>20</age>
 		<childHood>AK_BackStory_Lappland_Child</childHood>
 		<adultHood>AK_BackStory_Lappland_Adult</adultHood>
+		<relations>
+			<li>
+				<key>Texas</key>
+				<value>Lover</value>
+			</li>
+			<li>
+				<key>Texas</key>
+				<value>Rival</value>
+			</li>
+		</relations>
 		<standOffset>(-100,125)</standOffset>
 		<standRatio>3</standRatio>
 	</AK_DLL.OperatorDef>
@@ -1296,9 +1377,23 @@ Mousse, Guard Operator of Rhodes Island, thinks of her enemies as oversized scra
 				<degree>1</degree>
 			</li>
 		</traits>
-		<age>20</age>
+		<age>30</age>
 		<childHood>AK_BackStory_Whislash_Child</childHood>
 		<adultHood>AK_BackStory_Whislash_Adult</adultHood>
+		<relations>
+			<li>
+				<key>Maynar</key>
+				<value>Brother</value>
+			</li>
+			<li>
+				<key>Blemishine</key>
+				<value>Niece</value>
+			</li>
+			<li>
+				<key>Nearl</key>
+				<value>Niece</value>
+			</li>
+		</relations>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Guard">
@@ -1398,6 +1493,16 @@ Mousse, Guard Operator of Rhodes Island, thinks of her enemies as oversized scra
 		<age>20</age>
 		<childHood>AK_BackStory_Swire_Child</childHood>
 		<adultHood>AK_BackStory_Swire_Adult</adultHood>
+		<relations>
+			<li>
+				<key>Hoshiguma</key>
+				<value>Friend</value>
+			</li>
+			<li>
+				<key>Chen</key>
+				<value>Friend</value>
+			</li>
+		</relations>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Guard">
@@ -2110,6 +2215,20 @@ Mousse, Guard Operator of Rhodes Island, thinks of her enemies as oversized scra
 		<isMale>true</isMale>
 		<childHood>AK_BackStory_Maynar_Child</childHood>
 		<adultHood>AK_BackStory_Maynar_Adult</adultHood>
+		<relations>
+			<li>
+				<key>Whislash</key>
+				<value>Sister</value>
+			</li>
+			<li>
+				<key>Blemishine</key>
+				<value>Niece</value>
+			</li>
+			<li>
+				<key>Nearl</key>
+				<value>Niece</value>
+			</li>
+		</relations>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -2306,6 +2425,12 @@ Mousse, Guard Operator of Rhodes Island, thinks of her enemies as oversized scra
 		<age>24</age>
 		<childHood>AK_BackStory_Astesia_Child</childHood>
 		<adultHood>AK_BackStory_Astesia_Adult</adultHood>
+		<relations>
+			<li>
+				<key>Astgenne</key>
+				<value>Sister</value>
+			</li>
+		</relations>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -2405,10 +2530,24 @@ FIXMEDESC</description>
 				<def>AK_Trait_Chongyue</def>
 			</li>
 		</traits>
-		<age>20</age>
+		<age>27</age>
 		<isMale>true</isMale>
 		<childHood>AK_BackStory_Chongyue_Child</childHood>
 		<adultHood>AK_BackStory_Chongyue_Adult</adultHood>
+		<relations>
+			<li>
+				<key>Nian</key>
+				<value>Sister</value>
+			</li>
+			<li>
+				<key>Ling</key>
+				<value>Sister</value>
+			</li>
+			<li>
+				<key>Dusk</key>
+				<value>Sister</value>
+			</li>
+		</relations>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -2509,6 +2648,12 @@ FIXMEDESC</description>
 		<age>20</age>
 		<childHood>AK_BackStory_Qiubai_Child</childHood>
 		<adultHood>AK_BackStory_Qiubai_Adult</adultHood>
+		<relations>
+			<li>
+				<key>Chongyue</key>
+				<value>Friend</value>
+			</li>
+		</relations>
 		<skills>
 			<li>
 				<skill>Animals</skill>

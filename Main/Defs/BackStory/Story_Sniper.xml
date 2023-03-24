@@ -122,6 +122,14 @@
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Jessica_Child</defName>
+		<slot>Childhood</slot>
+		<title>雷神工业的大小姐</title>
+		<titleShort>大小姐</titleShort>
+		<baseDesc>{PAWN_nameDef}是布林雷家的小女儿，作为雷神工业的千金小姐性格却异常怯弱胆小，也许去黑钢国际也是父母对她的锻炼吧。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
 		<defName>AK_BackStory_Jessica_Adult</defName>
 		<slot>Adulthood</slot>
 		<title>黑钢雇员（富婆）</title>
@@ -130,6 +138,14 @@
 或许是性格软弱的原因，在黑钢时就经常被各方抓去测试一些新型的协议和器械，来到罗德岛后，这一点也延续了下来。
 对新晋干员来说，{PAWN_pronoun}们在使用大部分器械前，都要先观看{PAWN_nameDef}的演示。
 某种意义上，这也是{PAWN_pronoun}值得信赖的表现。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Bluepoison_Child</defName>
+		<slot>Childhood</slot>
+		<title>实验品</title>
+		<titleShort>实验品</titleShort>
+		<baseDesc>{PAWN_nameDef}的祖辈都生活在萨尔贡的陆地上，但被阿戈尔人抓到伊比利亚，以研究其毒物的性质能不能用于抗击敌人。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">

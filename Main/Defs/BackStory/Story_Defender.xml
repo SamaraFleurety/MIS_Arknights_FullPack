@@ -2,6 +2,14 @@
 <Defs>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Saria_Child</defName>
+		<slot>Childhood</slot>
+		<title>被欺凌者</title>
+		<titleShort>被欺凌者</titleShort>
+		<baseDesc>{PAWN_nameDef}在小时候经常被其他孩子欺负，但是{PAWN_possessive}父亲最后把{PAWN_pronoun}培养成了一个坚毅而又理性的人，并且传授给{PAWN_pronoun}了强大的搏击术。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
 		<defName>AK_BackStory_Saria_Adult</defName>
 		<slot>Adulthood</slot>
 		<title>前莱茵生命防卫科主任</title>
@@ -71,6 +79,15 @@
 		<titleShort>BSW雇员</titleShort>
 		<baseDesc>{PAWN_nameDef}的想法是：创办一家属于自己的安全承包公司。最初{PAWN_pronoun}之所以选择加入黑钢国际，正是这一想法中最为关键的一步。
 不是为了赚钱，也不是为了寻求战斗的快感，{PAWN_pronoun}只是希望，用手中的武器尽可能地为人们带来安稳，而不是动乱。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Croissant_Child</defName>
+		<slot>Childhood</slot>
+		<title>穷孩子</title>
+		<titleShort>穷孩子</titleShort>
+		<baseDesc>{PAWN_nameDef}的家境并不富裕，加入企鹅物流也是为了改善生活条件
+至少{PAWN_pronoun}买买买的习惯不是在儿时养成的。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
