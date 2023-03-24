@@ -12,6 +12,18 @@
       <wornGraphicPath>Things/AK_Agents/Vanguard/Bagpipe</wornGraphicPath>
 	  </apparel>
   </ThingDef>
+
+  <ThingDef ParentName="AK_ArmorBase_Vanguard">
+    <defName>AK_Apparel_Siege</defName>
+    <label>推进之王的服装</label>
+    <graphicData>
+      <texPath>Things/AK_Agents/GApparel</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Things/AK_Agents/Vanguard/Siege</wornGraphicPath>
+	  </apparel>
+  </ThingDef>
   
   <ThingDef ParentName="AK_ArmorBase_Vanguard">
     <defName>AK_Apparel_Reed</defName>
