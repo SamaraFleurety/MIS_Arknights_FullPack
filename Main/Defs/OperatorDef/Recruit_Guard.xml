@@ -317,6 +317,7 @@ Thorns, Guard Operator of Rhodes Island, wastes not an ounce of energy, calculat
 		<apparels>
 			<li>AK_Apparel_Thorns</li>
 		</apparels>
+		<isMale>true</isMale>
 		<stand>UI/Image/Guard/ThornsStand</stand>
 		<headPortrait>UI/Image/Guard/ThornsPortrait</headPortrait>
 		<skinColor>(210,180,170)</skinColor>
@@ -1518,9 +1519,6 @@ Mousse, Guard Operator of Rhodes Island, thinks of her enemies as oversized scra
 				<degree>1</degree>
 			</li>
 			<li>
-				<def>AK_Trait_IreneSecond</def>
-			</li>
-			<li>
 				<def>AK_Trait_Irene</def>
 			</li>
 			<li>
@@ -2491,8 +2489,12 @@ FIXMEDESC</description>
 		<headPortrait>UI/Image/Guard/QiubaiPortrait</headPortrait>
 		<bodyTypeDef>Female</bodyTypeDef>
 		<traits>
-			<li><def>AK_Trait_QiubaiSecond</def></li>
-			<li><def>AK_Trait_Qiubai</def></li>
+			<li>
+				<def>AK_Trait_QiubaiSecond</def>
+			</li>
+			<li>
+				<def>AK_Trait_Qiubai</def>
+			</li>
 			<li>
 				<def>Beauty</def>
 				<degree>2</degree>

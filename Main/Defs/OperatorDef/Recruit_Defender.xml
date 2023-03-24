@@ -77,7 +77,9 @@ Cuora, Defender Operator of Rhodes Island, will provide reliable defense for the
 			</li>
 		</skills>
 		<traits>
-			<li><def>AK_Trait_Cuora</def></li>
+			<li>
+				<def>AK_Trait_Cuora</def>
+			</li>
 			<li>
 				<def>Kind</def>
 			</li>
@@ -175,7 +177,9 @@ Eunectes, Gavial's rival, steps onto the battlefield along with 'Irritable Ironh
 			</li>
 		</skills>
 		<traits>
-			<li><def>AK_Trait_Eunectes</def></li>
+			<li>
+				<def>AK_Trait_Eunectes</def>
+			</li>
 			<li>
 				<def>Tough</def>
 			</li>
@@ -272,7 +276,9 @@ Hoshiguma, member of the Special Service of Lungmen Guard Department, is awaitin
 			</li>
 		</skills>
 		<traits>
-			<li><def>AK_Trait_Hoshiguma</def></li>
+			<li>
+				<def>AK_Trait_Hoshiguma</def>
+			</li>
 			<li>
 				<def>Kind</def>
 			</li>
@@ -470,7 +476,9 @@ Mudrock, Sarkaz mercenary, old friend of the fertile soil and stone.</descriptio
 			</li>
 		</skills>
 		<traits>
-			<li><def>AK_Trait_Mudrock</def></li>
+			<li>
+				<def>AK_Trait_Mudrock</def>
+			</li>
 			<li>
 				<def>Kind</def>
 			</li>
@@ -563,8 +571,12 @@ Nian, a mysterious visitor from the faraway land of Yen, is willing to provide a
 			</li>
 		</skills>
 		<traits>
-			<li><def>AK_Trait_Nian</def></li>
-			<li><def>AK_Trait_NianSecond</def></li>
+			<li>
+				<def>AK_Trait_Nian</def>
+			</li>
+			<li>
+				<def>AK_Trait_NianSecond</def>
+			</li>
 			<li>
 				<def>Kind</def>
 			</li>
@@ -657,7 +669,9 @@ Saria, former researcher of Rhine Lab, will serve as a core part of the squad's 
 			</li>
 		</skills>
 		<traits>
-			<li><def>AK_Trait_Saria</def></li>
+			<li>
+				<def>AK_Trait_Saria</def>
+			</li>
 			<li>
 				<def>Tough</def>
 			</li>
@@ -754,7 +768,9 @@ Saria, former researcher of Rhine Lab, will serve as a core part of the squad's 
 			</li>
 		</skills>
 		<traits>
-			<li><def>AK_Trait_Blemishine</def></li>
+			<li>
+				<def>AK_Trait_Blemishine</def>
+			</li>
 			<li>
 				<def>Kind</def>
 			</li>
@@ -850,7 +866,9 @@ Saria, former researcher of Rhine Lab, will serve as a core part of the squad's 
 			</li>
 		</skills>
 		<traits>
-			<li><def>AK_Trait_Croissant</def></li>
+			<li>
+				<def>AK_Trait_Croissant</def>
+			</li>
 			<li>
 				<def>Kind</def>
 			</li>
@@ -947,7 +965,9 @@ Saria, former researcher of Rhine Lab, will serve as a core part of the squad's 
 			</li>
 		</skills>
 		<traits>
-			<li><def>AK_Trait_Aurora</def></li>
+			<li>
+				<def>AK_Trait_Aurora</def>
+			</li>
 			<li>
 				<def>Kind</def>
 			</li>
@@ -990,8 +1010,12 @@ Saria, former researcher of Rhine Lab, will serve as a core part of the squad's 
 				<def>Beauty</def>
 				<degree>2</degree>
 			</li>
-			<li><def>AK_Trait_AshlockSecond</def></li>
-			<li><def>AK_Trait_Ashlock</def></li>
+			<li>
+				<def>AK_Trait_AshlockSecond</def>
+			</li>
+			<li>
+				<def>AK_Trait_Ashlock</def>
+			</li>
 		</traits>
 		<age>20</age>
 		<childHood>AK_BackStory_Ashlock_Child</childHood>
@@ -1082,8 +1106,12 @@ Saria, former researcher of Rhine Lab, will serve as a core part of the squad's 
 				<def>Beauty</def>
 				<degree>1</degree>
 			</li>
-			<li><def>AK_Trait_HornSecond</def></li>
-			<li><def>AK_Trait_Horn</def></li>
+			<li>
+				<def>AK_Trait_HornSecond</def>
+			</li>
+			<li>
+				<def>AK_Trait_Horn</def>
+			</li>
 			<li>
 				<def>Tough</def>
 			</li>
@@ -1169,8 +1197,12 @@ Saria, former researcher of Rhine Lab, will serve as a core part of the squad's 
 		<stand>UI/Image/Defender/GummyStand</stand>
 		<headPortrait>UI/Image/Defender/GummyPortrait</headPortrait>
 		<traits>
-			<li><def>AK_Trait_Chernobog</def></li>
-			<li><def>AK_Trait_Gummy</def></li>
+			<li>
+				<def>AK_Trait_Chernobog</def>
+			</li>
+			<li>
+				<def>AK_Trait_Gummy</def>
+			</li>
 			<li>
 				<def>Beauty</def>
 				<degree>1</degree>
@@ -1259,9 +1291,12 @@ Saria, former researcher of Rhine Lab, will serve as a core part of the squad's 
 		</apparels>
 		<stand>UI/Image/Defender/MatterhornStand</stand>
 		<headPortrait>UI/Image/Defender/MatterhornPortrait</headPortrait>
+		<isMale>true</isMale>
 		<bodyTypeDef>Male</bodyTypeDef>
 		<traits>
-			<li><def>AK_Trait_Matterhorn</def></li>
+			<li>
+				<def>AK_Trait_Matterhorn</def>
+			</li>
 			<li>
 				<def>Beauty</def>
 				<degree>1</degree>
@@ -1361,8 +1396,12 @@ Saria, former researcher of Rhine Lab, will serve as a core part of the squad's 
 				<def>Beauty</def>
 				<degree>1</degree>
 			</li>
-			<li><def>AK_Trait_VulcanSecond</def></li>
-			<li><def>AK_Trait_Vulcan</def></li>
+			<li>
+				<def>AK_Trait_VulcanSecond</def>
+			</li>
+			<li>
+				<def>AK_Trait_Vulcan</def>
+			</li>
 		</traits>
 		<age>25</age>
 		<childHood>AK_BackStory_Vulcan_Child</childHood>
@@ -1444,8 +1483,12 @@ Saria, former researcher of Rhine Lab, will serve as a core part of the squad's 
 		<stand>UI/Image/Defender/NearlStand</stand>
 		<headPortrait>UI/Image/Defender/NearlPortrait</headPortrait>
 		<traits>
-			<li><def>AK_Trait_Follower</def></li>
-			<li><def>AK_Trait_Nearl</def></li>
+			<li>
+				<def>AK_Trait_Follower</def>
+			</li>
+			<li>
+				<def>AK_Trait_Nearl</def>
+			</li>
 			<li>
 				<def>Kind</def>
 			</li>
@@ -1548,8 +1591,12 @@ Saria, former researcher of Rhine Lab, will serve as a core part of the squad's 
 			<li>
 				<def>FastLearner</def>
 			</li>
-			<li><def>AK_Trait_PenanceSecond</def></li>
-			<li><def>AK_Trait_Penance</def></li>
+			<li>
+				<def>AK_Trait_PenanceSecond</def>
+			</li>
+			<li>
+				<def>AK_Trait_Penance</def>
+			</li>
 		</traits>
 		<age>20</age>
 		<adultHood>AK_BackStory_Penance_Adult</adultHood>

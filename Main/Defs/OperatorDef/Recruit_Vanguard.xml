@@ -800,6 +800,7 @@ Texas, employee of Penguin Logistics, will give the squad a tactical advantage w
 		</apparels>
 		<stand>UI/Image/Vanguard/CourierStand</stand>
 		<headPortrait>UI/Image/Vanguard/CourierPortrait</headPortrait>
+		<isMale>true</isMale>
 		<traits>
 			<li>
 				<def>Kind</def>
@@ -1196,8 +1197,12 @@ FIXMEDESC</description>
 		<headPortrait>UI/Image/Vanguard/BlacknightPortrait</headPortrait>
 		<bodyTypeDef>Female</bodyTypeDef>
 		<traits>
-			<li><def>AK_Trait_BlacknightSecond</def></li>
-			<li><def>AK_Trait_Blacknight</def></li>
+			<li>
+				<def>AK_Trait_BlacknightSecond</def>
+			</li>
+			<li>
+				<def>AK_Trait_Blacknight</def>
+			</li>
 			<li>
 				<def>Beauty</def>
 				<degree>2</degree>

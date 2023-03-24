@@ -78,7 +78,9 @@ Suzuran, Rhodes Island Operator, has nine times the strength, and the fluffiness
 			</li>
 		</skills>
 		<traits>
-			<li><def>AK_Trait_Suzuran</def></li>
+			<li>
+				<def>AK_Trait_Suzuran</def>
+			</li>
 			<li>
 				<def>Kind</def>
 			</li>
@@ -175,7 +177,9 @@ Angelina, Supporter Operator and Messenger of Rhodes Island, would like to provi
 			</li>
 		</skills>
 		<traits>
-			<li><def>AK_Trait_Angelina</def></li>
+			<li>
+				<def>AK_Trait_Angelina</def>
+			</li>
 			<li>
 				<def>Kind</def>
 			</li>
@@ -271,7 +275,9 @@ Magallan, the Commissioner of Rhine Labs, is glad to welcome new adventures.</de
 			</li>
 		</skills>
 		<traits>
-			<li><def>Kind</def></li>
+			<li>
+				<def>Kind</def>
+			</li>
 			<li>
 				<def>TooSmart</def>
 			</li>
@@ -368,7 +374,9 @@ Magallan, the Commissioner of Rhine Labs, is glad to welcome new adventures.</de
 			</li>
 		</skills>
 		<traits>
-			<li><def>AK_Trait_Deepcolor</def></li>
+			<li>
+				<def>AK_Trait_Deepcolor</def>
+			</li>
 			<li>
 				<def>Asexual</def>
 			</li>
@@ -465,7 +473,9 @@ Magallan, the Commissioner of Rhine Labs, is glad to welcome new adventures.</de
 			</li>
 		</skills>
 		<traits>
-			<li><def>AK_Trait_Pramanix</def></li>
+			<li>
+				<def>AK_Trait_Pramanix</def>
+			</li>
 			<li>
 				<def>Nimble</def>
 			</li>
@@ -495,6 +505,7 @@ Magallan, the Commissioner of Rhine Labs, is glad to welcome new adventures.</de
 		</apparels>
 		<stand>UI/Image/Supporter/GlaucusStand</stand>
 		<headPortrait>UI/Image/Supporter/GlaucusPortrait</headPortrait>
+		<isMale>true</isMale>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -603,8 +614,12 @@ Magallan, the Commissioner of Rhine Labs, is glad to welcome new adventures.</de
 				<def>Beauty</def>
 				<degree>1</degree>
 			</li>
-			<li><def>AK_Trait_SceneSecond</def></li>
-			<li><def>AK_Trait_Scene</def></li>
+			<li>
+				<def>AK_Trait_SceneSecond</def>
+			</li>
+			<li>
+				<def>AK_Trait_Scene</def>
+			</li>
 		</traits>
 		<age>20</age>
 		<childHood>AK_BackStory_Scene_Child</childHood>
@@ -696,7 +711,9 @@ Magallan, the Commissioner of Rhine Labs, is glad to welcome new adventures.</de
 				<def>Beauty</def>
 				<degree>1</degree>
 			</li>
-			<li><def>AK_Trait_Sora</def></li>
+			<li>
+				<def>AK_Trait_Sora</def>
+			</li>
 			<li>
 				<def>QuickSleeper</def>
 			</li>
@@ -791,8 +808,12 @@ Magallan, the Commissioner of Rhine Labs, is glad to welcome new adventures.</de
 				<def>Beauty</def>
 				<degree>2</degree>
 			</li>
-			<li><def>AK_Trait_LingSecond</def></li>
-			<li><def>AK_Trait_Ling</def></li>
+			<li>
+				<def>AK_Trait_LingSecond</def>
+			</li>
+			<li>
+				<def>AK_Trait_Ling</def>
+			</li>
 		</traits>
 		<age>20</age>
 		<childHood>AK_BackStory_Ling_Child</childHood>
@@ -874,8 +895,12 @@ Magallan, the Commissioner of Rhine Labs, is glad to welcome new adventures.</de
 		<stand>UI/Image/Supporter/IstinaStand</stand>
 		<headPortrait>UI/Image/Supporter/IstinaPortrait</headPortrait>
 		<traits>
-			<li><def>AK_Trait_Chernobog</def></li>
-			<li><def>AK_Trait_Istina</def></li>
+			<li>
+				<def>AK_Trait_Chernobog</def>
+			</li>
+			<li>
+				<def>AK_Trait_Istina</def>
+			</li>
 			<li>
 				<def>Abrasive</def>
 			</li>
@@ -973,7 +998,9 @@ Magallan, the Commissioner of Rhine Labs, is glad to welcome new adventures.</de
 				<def>Beauty</def>
 				<degree>2</degree>
 			</li>
-			<li><def>AK_Trait_Heidi</def></li>
+			<li>
+				<def>AK_Trait_Heidi</def>
+			</li>
 			<li>
 				<def>TooSmart</def>
 			</li>
@@ -1058,8 +1085,12 @@ Magallan, the Commissioner of Rhine Labs, is glad to welcome new adventures.</de
 		<stand>UI/Image/Supporter/GnosisStand</stand>
 		<headPortrait>UI/Image/Supporter/GnosisPortrait</headPortrait>
 		<traits>
-			<li><def>AK_Trait_GnosisSecond</def></li>
-			<li><def>AK_Trait_Gnosis</def></li>
+			<li>
+				<def>AK_Trait_GnosisSecond</def>
+			</li>
+			<li>
+				<def>AK_Trait_Gnosis</def>
+			</li>
 			<li>
 				<def>Beauty</def>
 				<degree>2</degree>
@@ -1156,8 +1187,12 @@ Magallan, the Commissioner of Rhine Labs, is glad to welcome new adventures.</de
 				<def>Beauty</def>
 				<degree>1</degree>
 			</li>
-			<li><def>AK_Trait_QuercusSecond</def></li>
-			<li><def>AK_Trait_Quercus</def></li>
+			<li>
+				<def>AK_Trait_QuercusSecond</def>
+			</li>
+			<li>
+				<def>AK_Trait_Quercus</def>
+			</li>
 			<li>
 				<def>SpeedOffset</def>
 				<degree>2</degree>
@@ -1251,8 +1286,12 @@ Magallan, the Commissioner of Rhine Labs, is glad to welcome new adventures.</de
 				<def>Beauty</def>
 				<degree>1</degree>
 			</li>
-			<li><def>AK_Trait_RobertaSecond</def></li>
-			<li><def>AK_Trait_Roberta</def></li>
+			<li>
+				<def>AK_Trait_RobertaSecond</def>
+			</li>
+			<li>
+				<def>AK_Trait_Roberta</def>
+			</li>
 		</traits>
 		<age>23</age>
 		<childHood>AK_BackStory_Roberta_Child</childHood>
@@ -1336,9 +1375,15 @@ FIXMEDESC</description>
 		<headPortrait>UI/Image/Supporter/ProvisoPortrait</headPortrait>
 		<bodyTypeDef>Female</bodyTypeDef>
 		<traits>
-			<li><def>AK_Trait_ProvisoThird</def></li>
-			<li><def>AK_Trait_ProvisoSecond</def></li>
-			<li><def>AK_Trait_Proviso</def></li>
+			<li>
+				<def>AK_Trait_ProvisoThird</def>
+			</li>
+			<li>
+				<def>AK_Trait_ProvisoSecond</def>
+			</li>
+			<li>
+				<def>AK_Trait_Proviso</def>
+			</li>
 			<li>
 				<def>Beauty</def>
 				<degree>1</degree>

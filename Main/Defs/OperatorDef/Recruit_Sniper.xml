@@ -213,6 +213,7 @@ Executor, a professional undertaker sent from the Laterano Embassy, is glad to f
 		<stand>UI/Image/Sniper/ExecutorStand</stand>
 		<headPortrait>UI/Image/Sniper/ExecutorPortrait</headPortrait>
 		<bodyTypeDef>Male</bodyTypeDef>
+		<isMale>true</isMale>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -1955,8 +1956,12 @@ FIXMEDESC</description>
 		<headPortrait>UI/Image/Sniper/PozyomkaPortrait</headPortrait>
 		<bodyTypeDef>Female</bodyTypeDef>
 		<traits>
-			<li><def>AK_Trait_PozyomkaSecond</def></li>
-			<li><def>AK_Trait_Pozyomka</def></li>
+			<li>
+				<def>AK_Trait_PozyomkaSecond</def>
+			</li>
+			<li>
+				<def>AK_Trait_Pozyomka</def>
+			</li>
 			<li>
 				<def>Beauty</def>
 				<degree>2</degree>
