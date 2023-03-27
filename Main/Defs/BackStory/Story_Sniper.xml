@@ -348,4 +348,25 @@
 </baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Firewatch_Child</defName>
+		<slot>Childhood</slot>
+		<title>来自森林</title>
+		<titleShort>来自森林</titleShort>
+		<baseDesc>{PAWN_nameDef}小姐心中的声音，来自于森林。而且来自于森林的最深处。
+只有最深处，才能听到这些静寂却又震耳欲聋的幽声。
+{PAWN_nameDef}小姐曾说过，{PAWN_possessive}族人和朋友，全都葬身在那里。
+</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Firewatch_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>游击队员</title>
+		<titleShort>游击队员</titleShort>
+		<baseDesc>{PAWN_nameDef}，出身不详，于卡西米尔-乌萨斯边境地区作战多年，推测身份：游击队员。在伏击、远程狙击、散兵战术、流动战术等非对称作战中展现出深厚经验。
+现于罗德岛狙击小组任职，提供射击援护方面的保障服务。
+</baseDesc>
+	</BackstoryDef>
+
 </Defs>

@@ -253,4 +253,16 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Sniper">
+		<defName>AK_Apparel_Firewatch</defName>
+		<label>守林人服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Sniper/Firewatch</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Sniper/Firewatch</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 </Defs>
