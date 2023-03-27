@@ -54,4 +54,16 @@
 		</stages>
 	</ThoughtDef>
 
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Manticore</defName>
+		<requiredTraits><li>AK_Trait_ManticoreSecond</li></requiredTraits>
+		<stages>
+			<li>
+				<label>腼腆</label>
+				<description>我……一直交不到朋友。一个没法被注意到的朋友，谁会想要呢……</description>
+				<baseMoodEffect>-8</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
 </Defs>

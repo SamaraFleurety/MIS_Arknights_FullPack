@@ -125,4 +125,38 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<!-- 狮蝎 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_ManticoreSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>腼腆</label>
+				<description>狮蝎温柔、腼腆，甚至有时给人的感觉有些怯懦。断断续续的，采用试探性口气的说话方式是她语言中的最大特征。
+				</description>
+				<statOffsets>
+					<SocialImpact>0.3</SocialImpact>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Manticore</defName>
+		<degreeDatas>
+			<li>
+				<label>隐匿的杀手</label>
+				<description>干员狮蝎出身于萨尔贡，因其提供的绝大部分履历均未能具备一定的有效性，因此狮蝎的活动活动经历仍处于不明朗的状态。目前已知的是，狮蝎已经接受过一套较为完善的特别行动训练，并已经具备至少一年左右的行动经验。
+				</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.28</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>

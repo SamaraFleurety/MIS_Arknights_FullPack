@@ -109,4 +109,16 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Specialist">
+		<defName>AK_Apparel_Manticore</defName>
+		<label>狮蝎服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Specialist/Manticore</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Specialist/Manticore</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 </Defs>

@@ -561,4 +561,101 @@
   </SoundDef>
 
 
+  <ThingDef ParentName="AK_WeaponBase_Specialist">
+    <defName>AK_Weapon_Manticore</defName>
+    <label>狮蝎的毒刺</label>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Specialist/ManticoreW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <description>尾端像蝎子一样致命的毒刺，这些毒刺可以向任何方向发射出去。</description>
+    <statBases>
+      <AccuracyTouch>1</AccuracyTouch>
+      <AccuracyShort>0.95</AccuracyShort>
+      <AccuracyMedium>0.65</AccuracyMedium>
+      <AccuracyLong>0.45</AccuracyLong>
+      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+      <!--后摇-->
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>AK_Bullet_Manticore</defaultProjectile>
+        <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+        <warmupTime>2</warmupTime>
+        <!--前摇-->
+        <range>14</range>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <noiseRadius>3</noiseRadius>
+      </li>
+    </verbs>
+    <tools Inherit = "false">
+      <li>
+        <label>毒蛰</label>
+        <capacities>
+          <li>stab</li>
+        </capacities>
+        <extraMeleeDamages>
+          <li>
+            <def>ToxGas</def>
+            <amount>22</amount>
+          </li>
+        </extraMeleeDamages>
+        <cooldownTime>3.5</cooldownTime>
+      </li>
+      <li>
+        <label>扑打</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>毒刺</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <extraMeleeDamages>
+          <li>
+            <def>ToxGas</def>
+            <amount>24</amount>
+          </li>
+        </extraMeleeDamages>
+        <armorPenetration>1.1</armorPenetration>
+        <cooldownTime>3</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <ThingDef ParentName="AK_BulletBase_Bow">
+    <defName>AK_Bullet_Manticore</defName>
+    <label>毒液喷射</label>
+    <graphicData>
+      <texPath>Things/Projectile/MagicOrb</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingClass>Bullet</thingClass>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <!--伤害类型-->
+      <damageAmountBase>0</damageAmountBase>
+      <extraMeleeDamages>
+        <li>
+          <def>ToxGas</def>
+          <amount>20</amount>
+        </li>
+      </extraMeleeDamages>
+      <stoppingPower>3</stoppingPower>
+      <speed>50</speed>
+      <soundExplode>ThumpCannon_Impact</soundExplode>
+      <!--爆炸音效-->
+    </projectile>
+  </ThingDef>
+
 </Defs>
