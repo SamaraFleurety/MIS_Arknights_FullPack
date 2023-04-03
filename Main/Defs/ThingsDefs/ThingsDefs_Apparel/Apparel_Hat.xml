@@ -348,4 +348,16 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_HatBase">
+		<defName>AK_Hat_Nightingale</defName>
+		<label>夜莺帽子</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/HatAccessory/NightingaleH</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/HatAccessory/NightingaleH</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 </Defs>

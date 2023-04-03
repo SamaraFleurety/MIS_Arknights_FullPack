@@ -78,8 +78,12 @@ Shining, Sarkaz healer, will do everything she can to provide medical care for t
 			</li>
 		</skills>
 		<traits>
-			<li><def>AK_Trait_Shining</def></li>
-			<li><def>AK_Trait_Follower</def></li>
+			<li>
+				<def>AK_Trait_Shining</def>
+			</li>
+			<li>
+				<def>AK_Trait_Follower</def>
+			</li>
 			<li>
 				<def>Tough</def>
 			</li>
@@ -177,7 +181,9 @@ Silence, medical specialist of Rhine Lab, will make use of the latest scientific
 			</li>
 		</skills>
 		<traits>
-			<li><def>AK_Trait_Silence</def></li>
+			<li>
+				<def>AK_Trait_Silence</def>
+			</li>
 			<li>
 				<def>Kind</def>
 			</li>
@@ -296,7 +302,9 @@ Gavial, Medic Operator of Rhodes Island, will protect the lives of her squad mem
 			</li>
 		</skills>
 		<traits>
-			<li><def>AK_Trait_Gavial</def></li>
+			<li>
+				<def>AK_Trait_Gavial</def>
+			</li>
 			<li>
 				<def>Abrasive</def>
 			</li>
@@ -392,8 +400,12 @@ Gavial, Medic Operator of Rhodes Island, will protect the lives of her squad mem
 			</li>
 		</skills>
 		<traits>
-			<li><def>AK_Trait_Kaltsit</def></li>
-			<li><def>AK_Trait_KaltsitSecond</def></li>
+			<li>
+				<def>AK_Trait_Kaltsit</def>
+			</li>
+			<li>
+				<def>AK_Trait_KaltsitSecond</def>
+			</li>
 			<li>
 				<def>Nimble</def>
 			</li>
@@ -436,6 +448,7 @@ Nightingale, Sarkaz healer, will do everything she can to provide medical care f
 		<hair>AK_Hair_Nightingale</hair>
 		<apparels>
 			<li>AK_Apparel_Nightingale</li>
+			<li>AK_Hat_Nightingale</li>
 		</apparels>
 		<stand>UI/Image/Medic/NightingaleStand</stand>
 		<headPortrait>UI/Image/Medic/NightingalePortrait</headPortrait>
@@ -502,9 +515,15 @@ Nightingale, Sarkaz healer, will do everything she can to provide medical care f
 			</li>
 		</skills>
 		<traits>
-			<li><def>AK_Trait_Nightingale</def></li>
-			<li><def>AK_Trait_NightingaleSecond</def></li>
-			<li><def>AK_Trait_Follower</def></li>
+			<li>
+				<def>AK_Trait_Nightingale</def>
+			</li>
+			<li>
+				<def>AK_Trait_NightingaleSecond</def>
+			</li>
+			<li>
+				<def>AK_Trait_Follower</def>
+			</li>
 			<li>
 				<def>Wimp</def>
 			</li>
@@ -601,7 +620,9 @@ Perfumer, manager of 'Health Garden,' will use her fragrant aromatherapy to heal
 			</li>
 		</skills>
 		<traits>
-			<li><def>AK_Trait_Perfumer</def></li>
+			<li>
+				<def>AK_Trait_Perfumer</def>
+			</li>
 			<li>
 				<def>Kind</def>
 			</li>
@@ -697,8 +718,12 @@ Ptilopsis, database maintainer of Rhine Lab, activated. Please enter commands to
 			</li>
 		</skills>
 		<traits>
-			<li><def>AK_Trait_Ptilopsis</def></li>
-			<li><def>AK_Trait_PtilopsisSecond</def></li>
+			<li>
+				<def>AK_Trait_Ptilopsis</def>
+			</li>
+			<li>
+				<def>AK_Trait_PtilopsisSecond</def>
+			</li>
 			<li>
 				<def>Kind</def>
 			</li>
@@ -887,7 +912,9 @@ Ptilopsis, database maintainer of Rhine Lab, activated. Please enter commands to
 			</li>
 		</skills>
 		<traits>
-			<li><def>Kind</def></li>
+			<li>
+				<def>Kind</def>
+			</li>
 			<li>
 				<def>Nimble</def>
 			</li>
@@ -920,8 +947,12 @@ Ptilopsis, database maintainer of Rhine Lab, activated. Please enter commands to
 		<stand>UI/Image/Medic/WarfarinStand</stand>
 		<headPortrait>UI/Image/Medic/WarfarinPortrait</headPortrait>
 		<traits>
-			<li><def>AK_Trait_WarfarinSecond</def></li>
-			<li><def>AK_Trait_Warfarin</def></li>
+			<li>
+				<def>AK_Trait_WarfarinSecond</def>
+			</li>
+			<li>
+				<def>AK_Trait_Warfarin</def>
+			</li>
 			<li>
 				<def>Beauty</def>
 				<degree>2</degree>
@@ -1120,8 +1151,12 @@ FIXMEDESC</description>
 		<headPortrait>UI/Image/Medic/CeylonPortrait</headPortrait>
 		<bodyTypeDef>Female</bodyTypeDef>
 		<traits>
-			<li><def>AK_Trait_CeylonSecond</def></li>
-			<li><def>AK_Trait_Ceylon</def></li>
+			<li>
+				<def>AK_Trait_CeylonSecond</def>
+			</li>
+			<li>
+				<def>AK_Trait_Ceylon</def>
+			</li>
 			<li>
 				<def>Beauty</def>
 				<degree>1</degree>
