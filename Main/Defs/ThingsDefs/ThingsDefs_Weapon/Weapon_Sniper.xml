@@ -729,8 +729,7 @@
 			<AccuracyShort>0.85</AccuracyShort>
 			<AccuracyMedium>0.95</AccuracyMedium>
 			<AccuracyLong>0.8</AccuracyLong>
-			<RangedWeapon_Cooldown>7</RangedWeapon_Cooldown>
-			<!--后摇-->
+			<RangedWeapon_Cooldown>7</RangedWeapon_Cooldown>			<!--后摇-->
 		</statBases>
 		<verbs>
 			<li>
@@ -738,9 +737,9 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>AK_Bullet_AgentW</defaultProjectile>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
-				<warmupTime>21</warmupTime>
-				<!--前摇-->
+				<warmupTime>21</warmupTime>				<!--前摇-->
 				<range>40</range>
+				<forcedMissRadius>2</forcedMissRadius>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
@@ -787,13 +786,13 @@
 		</graphicData>
 		<!-- <thingClass>Bullet</thingClass> -->
 		<!-- <projectile> -->
-			<!-- <damageDef>Bullet</damageDef> -->
-			<!--伤害类型-->
-			<!-- <damageAmountBase>37</damageAmountBase> -->
-			<!-- <stoppingPower>3</stoppingPower> -->
-			<!-- <speed>50</speed> -->
-			<!-- <soundExplode>ThumpCannon_Impact</soundExplode> -->
-			<!--爆炸音效-->
+		<!-- <damageDef>Bullet</damageDef> -->
+		<!--伤害类型-->
+		<!-- <damageAmountBase>37</damageAmountBase> -->
+		<!-- <stoppingPower>3</stoppingPower> -->
+		<!-- <speed>50</speed> -->
+		<!-- <soundExplode>ThumpCannon_Impact</soundExplode> -->
+		<!--爆炸音效-->
 		<!-- </projectile> -->
 		<thingClass>Projectile_Explosive</thingClass>
 		<projectile>
@@ -1698,7 +1697,8 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<description>守林人的弩，自乌萨斯的荒原而来，带有森林的气息。
-守林人的弩只会被用来复仇，但是仇恨难以阻挡时间。</description><statBases>
+守林人的弩只会被用来复仇，但是仇恨难以阻挡时间。</description>
+		<statBases>
 			<AccuracyTouch>0.8</AccuracyTouch>
 			<AccuracyShort>0.95</AccuracyShort>
 			<AccuracyMedium>1</AccuracyMedium>
