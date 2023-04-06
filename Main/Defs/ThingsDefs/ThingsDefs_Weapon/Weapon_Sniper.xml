@@ -729,7 +729,7 @@
 			<AccuracyShort>0.85</AccuracyShort>
 			<AccuracyMedium>0.95</AccuracyMedium>
 			<AccuracyLong>0.8</AccuracyLong>
-			<RangedWeapon_Cooldown>7</RangedWeapon_Cooldown>			<!--后摇-->
+			<RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>			<!--后摇-->
 		</statBases>
 		<verbs>
 			<li>
@@ -737,7 +737,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>AK_Bullet_AgentW</defaultProjectile>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
-				<warmupTime>21</warmupTime>				<!--前摇-->
+				<warmupTime>2.1</warmupTime>				<!--前摇-->
 				<range>40</range>
 				<forcedMissRadius>2</forcedMissRadius>
 				<targetParams>
