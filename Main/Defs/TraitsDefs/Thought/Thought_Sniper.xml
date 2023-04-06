@@ -321,20 +321,4 @@
 		</stages>
 	</ThoughtDef>
 
-	<!-- 守林人 -->
-
-	<ThoughtDef ParentName = "AK_Thought_Permanent">
-		<defName>AK_Thought_Trait_Firewatch</defName>
-		<requiredTraits>
-			<li>AK_Trait_Firewatch</li>
-		</requiredTraits>
-		<stages>
-			<li>
-				<label>唯余复仇</label>
-				<description>即使牺牲我的生命，也一定要完成这次复仇。</description>
-				<baseMoodEffect>-25</baseMoodEffect>
-			</li>
-		</stages>
-	</ThoughtDef>
-
 </Defs>

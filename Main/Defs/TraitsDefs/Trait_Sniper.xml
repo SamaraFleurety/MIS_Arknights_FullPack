@@ -470,22 +470,4 @@
 		</degreeDatas>
 	</TraitDef>
 
-	<!-- 守林人 -->
-
-	<TraitDef>
-		<ignoreConfigErrors>true</ignoreConfigErrors>
-		<commonality>0.0</commonality>
-		<defName>AK_Trait_Firewatch</defName>
-		<degreeDatas>
-			<li>
-				<label>唯余复仇</label>
-				<description>你很难在守林人的脸上看到笑容，在眼中也很难看到除了复仇以外的其他情感。
-				</description>
-				<statOffsets>
-					<MentalBreakThreshold>-0.45</MentalBreakThreshold>
-				</statOffsets>
-			</li>
-		</degreeDatas>
-	</TraitDef>
-
 </Defs>
