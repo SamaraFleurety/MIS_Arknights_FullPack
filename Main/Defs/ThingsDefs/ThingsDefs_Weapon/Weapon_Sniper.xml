@@ -797,8 +797,9 @@
 		<thingClass>Projectile_Explosive</thingClass>
 		<projectile>
 			<speed>40</speed>
-			<damageDef>Smoke</damageDef>
+			<damageDef>Bullet</damageDef>
 			<explosionRadius>2.4</explosionRadius>
+			<damageAmountBase>37</damageAmountBase>
 			<ai_IsIncendiary>true</ai_IsIncendiary>
 			<arcHeightFactor>0.2</arcHeightFactor>
 			<shadowSize>0.6</shadowSize>
