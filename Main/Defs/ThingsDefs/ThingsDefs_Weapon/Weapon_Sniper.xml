@@ -791,13 +791,13 @@
 		<!-- <damageAmountBase>37</damageAmountBase> -->
 		<!-- <stoppingPower>3</stoppingPower> -->
 		<!-- <speed>50</speed> -->
-		<!-- <soundExplode>ThumpCannon_Impact</soundExplode> -->
+		<soundExplode>ThumpCannon_Impact</soundExplode>
 		<!--爆炸音效-->
 		<!-- </projectile> -->
 		<thingClass>Projectile_Explosive</thingClass>
 		<projectile>
 			<speed>40</speed>
-			<damageDef>Bullet</damageDef>
+			<damageDef>Bomb</damageDef>
 			<explosionRadius>2.4</explosionRadius>
 			<damageAmountBase>37</damageAmountBase>
 			<ai_IsIncendiary>true</ai_IsIncendiary>
