@@ -131,7 +131,7 @@
 		<baseDesc>黑钢的受训生，作为双方交流项目的一环驻扎学习。
 利用种族带来的抗打击能力，出色地履行着先锋干员的职责。</baseDesc>
 	</BackstoryDef>
-	
+
 	<BackstoryDef ParentName = "AK_StoryBase">
 		<defName>AK_BackStory_Wild_Child</defName>
 		<slot>Childhood</slot>
@@ -139,8 +139,8 @@
 		<titleShort>遗弃贵族</titleShort>
 		<baseDesc>{PAWN_nameDef}曾经是一个骑士家族的一员，但是在一次外出训练后意外感染矿石病，随后被家族所抛弃。
 在那之后，{PAWN_pronoun}便成为了一名感染者骑士,想要靠胜利证明自己。
-</baseDesc>
-		<bodyTypeGlobal>Thin</bodyTypeGlobal>	
+		</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -149,8 +149,8 @@
 		<title>野鬃骑士</title>
 		<titleShort>野鬃骑士</titleShort>
 		<baseDesc>{PAWN_nameDef}后来加入了红松骑士团，并很快伴随着红松骑士团的其他人一起加入了罗德岛。
-</baseDesc>
-		<bodyTypeGlobal>Thin</bodyTypeGlobal>	
+		</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -159,7 +159,7 @@
 		<title>迷路的孩子</title>
 		<titleShort>迷路的孩子</titleShort>
 		<baseDesc>小时候的{PAWN_nameDef}不仅不怎么识路，甚至还会迷路。据{PAWN_pronoun}所说，在一次外出游玩时曾经被风雪困住，差点就没法活着回家了。幸好在那附近狩猎野味的银灰发现了{PAWN_pronoun}。
-</baseDesc>
+		</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -176,7 +176,7 @@
 		<title>卡西米尔移民</title>
 		<titleShort>卡西米尔移民</titleShort>
 		<baseDesc>骑警{PAWN_nameDef}，维多利亚公民。{PAWN_possessive}祖辈很早就移民维多利亚，其家庭保持了一种骑士竞技风潮席卷卡西米尔之前的淳朴民风。即使身在维多利亚，也对卡西米尔的骑士精神有着丰富的好奇心。
-</baseDesc>
+		</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -186,7 +186,7 @@
 		<titleShort>维多利亚骑警</titleShort>
 		<baseDesc>{PAWN_nameDef}，维多利亚骑警，在突袭战，机动作战，纵深作战等高速运动战领域表现出了较高的天赋。
 现以合约干员身份为罗德岛各行动组提供支援，并主动承担罗德岛及周边地区的义务巡逻与防卫协助等工作。
-</baseDesc>
+		</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -204,7 +204,7 @@
 		<titleShort>大将军</titleShort>
 		<baseDesc>杜林族出身的少女，根据本人强烈要求，记录此前履历为：大将军。
 外表与性格有孩子气的成分，但在战场上表现出颇强的感染力和相当的指挥水准，能够在提振其{PAWN_pronoun}干员士气的同时，为{PAWN_pronoun}们提供一定的治疗，十分可靠
-</baseDesc>
+		</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -214,7 +214,7 @@
 		<titleShort>农场主的孩子</titleShort>
 		<baseDesc>出生于哥伦比亚农场主家庭，因为出身的缘故选择了磐蟹饲养作为自己的职业。
 作为瑞柏巴族，{PAWN_nameDef}在萨尔贡的同族女性魁梧且彪悍，{PAWN_pronoun}生得如此纤细娇小真可谓是奇迹。
-</baseDesc>
+		</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -224,7 +224,7 @@
 		<titleShort>磐蟹饲养员</titleShort>
 		<baseDesc>专业磐蟹饲养员{PAWN_nameDef}，出生于哥伦比亚农场主家庭，向各大公司及平台投递创业企划书未果，最终经介绍前往罗德岛就职。
 现已通过专项测试，作为正式干员为罗德岛提供后勤与特殊侦查作战服务。
-</baseDesc>
+		</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -233,7 +233,7 @@
 		<title>猎人的养子</title>
 		<titleShort>猎人的养子</titleShort>
 		<baseDesc>据{PAWN_nameDef}自己说，{PAWN_pronoun}在十岁左右流落到一个荒地聚落，被一对猎人夫妇收养，远离移动城市的荫庇。
-</baseDesc>
+		</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -242,7 +242,7 @@
 		<title>猎人</title>
 		<titleShort>猎人</titleShort>
 		<baseDesc>{PAWN_nameDef}，赏金猎人，擅长驯兽。曾因某项委托进入大炎境内，并在尚蜀城与罗德岛干员克洛丝相识，后经当地官员介绍，与罗德岛达成合作，活跃在大炎周边的各项委派任务中。
-</baseDesc>
+		</baseDesc>
 	</BackstoryDef>
 
 </Defs>

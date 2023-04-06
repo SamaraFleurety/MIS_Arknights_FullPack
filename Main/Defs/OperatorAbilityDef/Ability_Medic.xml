@@ -23,8 +23,8 @@
 			<muzzleFlashScale>9</muzzleFlashScale>
 			<consumeFuelPerShot>1</consumeFuelPerShot>
 			<targetParams>
-			<canTargetPawns>true</canTargetPawns>
-			<canTargetLocations>false</canTargetLocations>
+				<canTargetPawns>true</canTargetPawns>
+				<canTargetLocations>false</canTargetLocations>
 			</targetParams>
 		</verb>
 		<needCD>true</needCD>
@@ -38,7 +38,7 @@
 		</compEffectList>
 		<typeSFX>atk</typeSFX>
 	</AK_DLL.OperatorAbilityDef>
-	
+
 	<AK_DLL.OperatorAbilityDef>
 		<defName>AK_Ability_Regrow</defName>
 		<grouped>true</grouped>
@@ -61,8 +61,8 @@
 			<muzzleFlashScale>9</muzzleFlashScale>
 			<consumeFuelPerShot>1</consumeFuelPerShot>
 			<targetParams>
-			<canTargetPawns>true</canTargetPawns>
-			<canTargetLocations>false</canTargetLocations>
+				<canTargetPawns>true</canTargetPawns>
+				<canTargetLocations>false</canTargetLocations>
 			</targetParams>
 		</verb>
 		<needCD>true</needCD>
@@ -76,7 +76,7 @@
 		</compEffectList>
 		<typeSFX>heal</typeSFX>
 	</AK_DLL.OperatorAbilityDef>
-	
+
 	<AK_DLL.OperatorAbilityDef>
 		<defName>AK_Ability_EnhanceRegrow</defName>
 		<label>强力再生</label>
@@ -100,8 +100,8 @@
 			<muzzleFlashScale>9</muzzleFlashScale>
 			<consumeFuelPerShot>1</consumeFuelPerShot>
 			<targetParams>
-			<canTargetPawns>true</canTargetPawns>
-			<canTargetLocations>false</canTargetLocations>
+				<canTargetPawns>true</canTargetPawns>
+				<canTargetLocations>false</canTargetLocations>
 			</targetParams>
 		</verb>
 		<needCD>true</needCD>

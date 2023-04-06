@@ -1,90 +1,90 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="AK_ArmorBase_Defender">
-    <defName>AK_Apparel_Eunectes</defName>
-    <label>森蚺服装</label>
-    <graphicData>
-      <texPath>Things/AK_Agents/GApparel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <apparel>
-      <wornGraphicPath>Things/AK_Agents/Defender/Eunectes</wornGraphicPath>
-    </apparel>
-  </ThingDef>
-  
-  <ThingDef ParentName="AK_ArmorBase_Defender">
-    <defName>AK_Apparel_Hoshiguma</defName>
-    <label>星熊服装</label>
-    <graphicData>
-      <texPath>Things/AK_Agents/GApparel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <apparel>
-      <wornGraphicPath>Things/AK_Agents/Defender/Hoshiguma</wornGraphicPath>
-    </apparel>
-  </ThingDef>
+	<ThingDef ParentName="AK_ArmorBase_Defender">
+		<defName>AK_Apparel_Eunectes</defName>
+		<label>森蚺服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Defender/Eunectes</wornGraphicPath>
+		</apparel>
+	</ThingDef>
 
-  <ThingDef ParentName="AK_ArmorBase_Defender">
-  
-    <defName>AK_Apparel_Liskarm</defName>
-    <label>雷蛇服装</label>
-    <description>黑钢为防护人员的标准制服，采用了高强度纤维打造，轻便灵活又能提供可靠的防护，适用于包括要人保全、据点攻坚、人质解救、威胁肃清在内的各种特种行动。</description>
-    <graphicData>
-      <texPath>Things/AK_Agents/GApparel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-	<statBases>
-	  <Mass>7</Mass>
-	  <ArmorRating_Sharp>1.00</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.40</ArmorRating_Heat>
-      <Insulation_Cold>16</Insulation_Cold>
-	  <Insulation_Heat>8</Insulation_Heat>
-      <EquipDelay>13</EquipDelay>
-	</statBases>
-    <apparel>
-      <wornGraphicPath>Things/AK_Agents/Defender/Liskarm</wornGraphicPath>
-    </apparel>
-  </ThingDef>
+	<ThingDef ParentName="AK_ArmorBase_Defender">
+		<defName>AK_Apparel_Hoshiguma</defName>
+		<label>星熊服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Defender/Hoshiguma</wornGraphicPath>
+		</apparel>
+	</ThingDef>
 
-  <ThingDef ParentName="AK_ArmorBase_Defender">
-    <defName>AK_Apparel_Mudrock</defName>
-    <label>泥岩服装</label>
-    <graphicData>
-      <texPath>Things/AK_Agents/GApparel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <apparel>
-      <wornGraphicPath>Things/AK_Agents/Defender/Mudrock</wornGraphicPath>
-    </apparel>
-  </ThingDef>
+	<ThingDef ParentName="AK_ArmorBase_Defender">
 
-  <ThingDef ParentName="AK_ArmorBase_Defender">
-    <defName>AK_Apparel_Nian</defName>
-    <label>年服装</label>
-    <graphicData>
-      <texPath>Things/AK_Agents/GApparel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <apparel>
-      <wornGraphicPath>Things/AK_Agents/Defender/Nian</wornGraphicPath>
-    </apparel>
-  </ThingDef>
- 
-  <ThingDef ParentName="AK_ArmorBase_Defender">
-    <defName>AK_Apparel_Saria</defName>
-    <label>塞雷娅服装</label>
-    <graphicData>
-      <texPath>Things/AK_Agents/GApparel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <apparel>
-      <wornGraphicPath>Things/AK_Agents/Defender/Saria</wornGraphicPath>
-    </apparel>
-  </ThingDef>
-   
- 	<ThingDef ParentName="AK_ArmorBase_Defender">
+		<defName>AK_Apparel_Liskarm</defName>
+		<label>雷蛇服装</label>
+		<description>黑钢为防护人员的标准制服，采用了高强度纤维打造，轻便灵活又能提供可靠的防护，适用于包括要人保全、据点攻坚、人质解救、威胁肃清在内的各种特种行动。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<Mass>7</Mass>
+			<ArmorRating_Sharp>1.00</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.40</ArmorRating_Heat>
+			<Insulation_Cold>16</Insulation_Cold>
+			<Insulation_Heat>8</Insulation_Heat>
+			<EquipDelay>13</EquipDelay>
+		</statBases>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Defender/Liskarm</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Defender">
+		<defName>AK_Apparel_Mudrock</defName>
+		<label>泥岩服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Defender/Mudrock</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Defender">
+		<defName>AK_Apparel_Nian</defName>
+		<label>年服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Defender/Nian</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Defender">
+		<defName>AK_Apparel_Saria</defName>
+		<label>塞雷娅服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Defender/Saria</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Defender">
 		<defName>AK_Apparel_Blemishine</defName>
 		<label>暇光服装</label>
 		<graphicData>
@@ -95,18 +95,18 @@
 			<wornGraphicPath>Things/AK_Agents/Defender/Blemishine</wornGraphicPath>
 		</apparel>
 	</ThingDef>
-    
-  <ThingDef ParentName="AK_ArmorBase_Defender">
-    <defName>AK_Apparel_Cuora</defName>
-    <label>蛇屠箱服装</label>
-    <graphicData>
-      <texPath>Things/AK_Agents/GApparel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <apparel>
-      <wornGraphicPath>Things/AK_Agents/Defender/Cuora</wornGraphicPath>
-    </apparel>
-  </ThingDef>  
+
+	<ThingDef ParentName="AK_ArmorBase_Defender">
+		<defName>AK_Apparel_Cuora</defName>
+		<label>蛇屠箱服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Defender/Cuora</wornGraphicPath>
+		</apparel>
+	</ThingDef>
 
 	<ThingDef ParentName="AK_ArmorBase_Defender">
 		<defName>AK_Apparel_Croissant</defName>

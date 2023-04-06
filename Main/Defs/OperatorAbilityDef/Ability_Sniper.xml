@@ -11,7 +11,7 @@
 		<CDUnit>day</CDUnit>
 		<abilityType>Hediff</abilityType>
 		<targetMode>Self</targetMode>
-		<needCD>true</needCD> 
+		<needCD>true</needCD>
 		<verb>
 			<verbClass>AK_DLL.Verb_Ability</verbClass>
 			<defaultProjectile>Bullet_MiniTurret</defaultProjectile>
@@ -52,5 +52,5 @@
 		</compEffectList>
 		<typeSFX>atk</typeSFX>
 	</AK_DLL.OperatorAbilityDef>
-	
+
 </Defs>

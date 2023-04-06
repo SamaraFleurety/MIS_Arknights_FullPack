@@ -5,10 +5,10 @@
   <ThingDef ParentName="BuildingBase">
     <defName>AK_Building_IfritGrill</defName>
     <label>伊芙利特的烧烤架</label>
-    <description>哥伦比亚生产的烧烤架，可以用来烹饪食物，也能产生少量热量。可以补充燃料。</description>    
+    <description>哥伦比亚生产的烧烤架，可以用来烹饪食物，也能产生少量热量。可以补充燃料。</description>
     <thingClass>Building_WorkTable</thingClass>
     <category>Building</category>
-	<minifiedDef>MinifiedThing</minifiedDef> <!-- 可拆卸 -->
+    <minifiedDef>MinifiedThing</minifiedDef>    <!-- 可拆卸 -->
     <graphicData>
       <texPath>Things/Building/Misc/IfritGrill</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -25,21 +25,21 @@
     <constructEffect>ConstructDirt</constructEffect>
     <tickerType>Normal</tickerType>
     <drawerType>RealtimeOnly</drawerType>
-    <fillPercent>0.40</fillPercent> <!-- 掩体效率 -->
-	<thingCategories> <!-- 拆下来的物品的分类 -->
+    <fillPercent>0.40</fillPercent>    <!-- 掩体效率 -->
+    <thingCategories>      <!-- 拆下来的物品的分类 -->
       <li>AK_Building</li>
     </thingCategories>
     <statBases>
-	  <Mass>4</Mass> <!-- 质量 -->
+      <Mass>4</Mass>      <!-- 质量 -->
       <MaxHitPoints>100</MaxHitPoints>
       <WorkToBuild>3</WorkToBuild>
-      <Flammability>0.4</Flammability> <!-- 可燃性 -->
+      <Flammability>0.4</Flammability>      <!-- 可燃性 -->
       <WorkTableWorkSpeedFactor>1.2</WorkTableWorkSpeedFactor>
       <MeditationFocusStrength>0.0</MeditationFocusStrength>
     </statBases>
     <selectable>true</selectable>
-    <costList> <!-- 造价 -->
-      <Steel>30</Steel> 
+    <costList>      <!-- 造价 -->
+      <Steel>30</Steel>
     </costList>
     <soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
@@ -51,11 +51,11 @@
     </placeWorkers>
     <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
     <comps>
-	  <li Class="FS_LifeImprove.TCP_RangedFixMinBuilding">
-		<radius>10</radius>
-		<interval>1</interval>
-		<repairAmount>200</repairAmount>
-	  </li>
+      <li Class="FS_LifeImprove.TCP_RangedFixMinBuilding">
+        <radius>10</radius>
+        <interval>1</interval>
+        <repairAmount>200</repairAmount>
+      </li>
       <li Class="CompProperties_Refuelable">
         <fuelConsumptionRate>10.0</fuelConsumptionRate>
         <fuelCapacity>50.0</fuelCapacity>
@@ -82,7 +82,9 @@
       </li>
       <li Class="CompProperties_MeditationFocus">
         <statDef>MeditationFocusStrength</statDef>
-        <focusTypes><li>Flame</li></focusTypes>
+        <focusTypes>
+          <li>Flame</li>
+        </focusTypes>
         <offsets>
           <li Class="FocusStrengthOffset_Lit">
             <offset>0.12</offset>
@@ -105,7 +107,7 @@
     <designationCategory>Temperature</designationCategory>
     <hasInteractionCell>True</hasInteractionCell>
     <interactionCellOffset>(0,0,-1)</interactionCellOffset>
-    <recipes> <!-- 可造配方 -->
+    <recipes>      <!-- 可造配方 -->
       <li>CookMealSimple</li>
       <li>CookMealSimpleBulk</li>
       <li>Make_Pemmican</li>
@@ -124,5 +126,5 @@
       <destroySound>BuildingDestroyed_Wood_Small</destroySound>
     </building>
   </ThingDef>
-  
- </Defs>
+
+</Defs>

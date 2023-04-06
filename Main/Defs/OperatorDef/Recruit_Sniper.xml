@@ -294,7 +294,7 @@ Executor, a professional undertaker sent from the Laterano Embassy, is glad to f
 		<relations>
 			<li>
 				<key>Vermeil</key>
-				<value>Daughter</value>
+				<value>Child</value>
 			</li>
 		</relations>
 	</AK_DLL.OperatorDef>
@@ -403,18 +403,6 @@ Exusiai, employee of Penguin Logistics, will clear out everything in the way usi
 			<li>
 				<key>Mostima</key>
 				<value>Lover</value>
-			</li>
-			<li>
-				<key>Croissant</key>
-				<value>Friend</value>
-			</li>
-			<li>
-				<key>Sora</key>
-				<value>Friend</value>
-			</li>
-			<li>
-				<key>Texas</key>
-				<value>Friend</value>
 			</li>
 		</relations>
 		<standOffset>(-100,150)</standOffset>
@@ -893,16 +881,6 @@ Rosa, a member of the Ursus Student Self-Government Group, is ready to welcome a
 			</li>
 		</traits>
 		<childHood>AK_BackStory_Rosa_Child</childHood>
-		<relations>
-			<li>
-				<key>Istina</key>
-				<value>Friend</value>
-			</li>
-			<li>
-				<key>Gummy</key>
-				<value>Friend</value>
-			</li>
-		</relations>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Sniper">
@@ -1097,16 +1075,6 @@ Rosmontis, Rhodes Island Elite Operator, pushes open your office door by hand.</
 		<age>20</age>
 		<childHood>AK_BackStory_Platinum_Child</childHood>
 		<adultHood>AK_BackStory_Platinum_Adult</adultHood>
-		<relations>
-			<li>
-				<key>Nearl</key>
-				<value>Friend</value>
-			</li>
-			<li>
-				<key>Nearl</key>
-				<value>Rival</value>
-			</li>
-		</relations>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Sniper">
@@ -1401,12 +1369,6 @@ Rosmontis, Rhodes Island Elite Operator, pushes open your office door by hand.</
 		<age>20</age>
 		<childHood>AK_BackStory_Bluepoison_Child</childHood>
 		<adultHood>AK_BackStory_Bluepoison_Adult</adultHood>
-		<relations>
-			<li>
-				<key>Glaucus</key>
-				<value>Friend</value>
-			</li>
-		</relations>
 		<standOffset>(-100,150)</standOffset>
 		<standRatio>3</standRatio>
 	</AK_DLL.OperatorDef>
@@ -1736,7 +1698,7 @@ Rosmontis, Rhodes Island Elite Operator, pushes open your office door by hand.</
 		<relations>
 			<li>
 				<key>Executor</key>
-				<value>Father</value>
+				<value>Parent</value>
 			</li>
 		</relations>
 		<skills>
@@ -2110,7 +2072,9 @@ FIXMEDESC</description>
 		<headPortrait>UI/Image/Sniper/FirewatchPortrait</headPortrait>
 		<bodyTypeDef>Female</bodyTypeDef>
 		<traits>
-			<li><def>AK_Trait_Firewatch</def></li>
+			<li>
+				<def>AK_Trait_Firewatch</def>
+			</li>
 			<li>
 				<def>Beauty</def>
 				<degree>1</degree>

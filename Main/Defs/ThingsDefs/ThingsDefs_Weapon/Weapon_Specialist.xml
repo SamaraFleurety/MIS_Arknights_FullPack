@@ -598,7 +598,7 @@
       <li>
         <label>毒蛰</label>
         <capacities>
-          <li>stab</li>
+          <li>Stab</li>
         </capacities>
         <extraMeleeDamages>
           <li>
@@ -642,19 +642,16 @@
     </graphicData>
     <thingClass>Bullet</thingClass>
     <projectile>
-      <damageDef>Bullet</damageDef>
-      <!--伤害类型-->
+      <damageDef>Bullet</damageDef>      <!--伤害类型-->
       <damageAmountBase>0</damageAmountBase>
-      <extraMeleeDamages>
+      <extraDamages>
         <li>
           <def>ToxGas</def>
           <amount>20</amount>
         </li>
-      </extraMeleeDamages>
+      </extraDamages>
       <stoppingPower>3</stoppingPower>
       <speed>50</speed>
-      <soundExplode>ThumpCannon_Impact</soundExplode>
-      <!--爆炸音效-->
     </projectile>
   </ThingDef>
 

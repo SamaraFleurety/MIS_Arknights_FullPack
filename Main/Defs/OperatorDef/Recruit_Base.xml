@@ -29,7 +29,7 @@
 		</traits>
 		<operatorType>AK_OperatorClass_Guard</operatorType>
 	</AK_DLL.OperatorDef>
-	
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase" Name="AK_RecruitBase_Supporter" Abstract="True">
 		<traits>
 			<li>
@@ -38,7 +38,7 @@
 		</traits>
 		<operatorType>AK_OperatorClass_Supporter</operatorType>
 	</AK_DLL.OperatorDef>
-	
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase" Name="AK_RecruitBase_Vanguard" Abstract="True">
 		<traits>
 			<li>
@@ -47,7 +47,7 @@
 		</traits>
 		<operatorType>AK_OperatorClass_Vanguard</operatorType>
 	</AK_DLL.OperatorDef>
-	
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase" Name="AK_RecruitBase_Caster" Abstract="True">
 		<traits>
 			<li>
@@ -56,7 +56,7 @@
 		</traits>
 		<operatorType>AK_OperatorClass_Caster</operatorType>
 	</AK_DLL.OperatorDef>
-	
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase" Name="AK_RecruitBase_Defender" Abstract="True">
 		<traits>
 			<li>
@@ -65,7 +65,7 @@
 		</traits>
 		<operatorType>AK_OperatorClass_Defender</operatorType>
 	</AK_DLL.OperatorDef>
-	
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase" Name="AK_RecruitBase_Medic" Abstract="True">
 		<traits>
 			<li>
@@ -79,7 +79,7 @@
 		</abilities>
 		<operatorType>AK_OperatorClass_Medic</operatorType>
 	</AK_DLL.OperatorDef>
-	
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase" Name="AK_RecruitBase_Sniper" Abstract="True">
 		<traits>
 			<li>
@@ -88,7 +88,7 @@
 		</traits>
 		<operatorType>AK_OperatorClass_Sniper</operatorType>
 	</AK_DLL.OperatorDef>
-	
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase" Name="AK_RecruitBase_Specialist" Abstract="True">
 		<traits>
 			<li>
@@ -97,5 +97,5 @@
 		</traits>
 		<operatorType>AK_OperatorClass_Specialist</operatorType>
 	</AK_DLL.OperatorDef>
-	
+
 </Defs>

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="AK_ArmorBase_Guard">
-    <defName>AK_Apparel_Surtr</defName>
-    <label>史尔特尔服装</label>
-    <graphicData>
-      <texPath>Things/AK_Agents/GApparel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <apparel>
-      <wornGraphicPath>Things/AK_Agents/Guard/Surtr</wornGraphicPath>
-    </apparel>
-  </ThingDef>
-  
+	<ThingDef ParentName="AK_ArmorBase_Guard">
+		<defName>AK_Apparel_Surtr</defName>
+		<label>史尔特尔服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Guard/Surtr</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 	<ThingDef ParentName="AK_ArmorBase_Supporter">
 		<defName>AK_Apparel_Maynar</defName>
 		<label>玛恩纳服装</label>
@@ -25,137 +25,137 @@
 		</apparel>
 	</ThingDef>
 
-  <ThingDef ParentName="AK_ArmorBase_Guard">
-    <defName>AK_Apparel_Blaze</defName>
-    <label>煌服装</label>
-    <graphicData>
-      <texPath>Things/AK_Agents/GApparel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <apparel>
-      <wornGraphicPath>Things/AK_Agents/Guard/Blaze</wornGraphicPath>
-    </apparel>
-  </ThingDef>
-  
-  <ThingDef ParentName="AK_ArmorBase_Guard">
-    <defName>AK_Apparel_Chen</defName>
-    <label>陈服装</label>
-    <graphicData>
-      <texPath>Things/AK_Agents/GApparel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <apparel>
-      <wornGraphicPath>Things/AK_Agents/Guard/Chen</wornGraphicPath>
-    </apparel>
-  </ThingDef>
-  
-  <ThingDef ParentName="AK_ArmorBase_Guard">
-    <defName>AK_Apparel_Cutter</defName>
-    <label>刻刀服装</label>
-    <graphicData>
-      <texPath>Things/AK_Agents/GApparel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <apparel>
-      <wornGraphicPath>Things/AK_Agents/Guard/Cutter</wornGraphicPath>
-    </apparel>
-  </ThingDef>
-  
-  <ThingDef ParentName="AK_ArmorBase_Guard">
-    <defName>AK_Apparel_Franka</defName>
-    <label>芙兰卡服装</label>
-    <graphicData>
-      <texPath>Things/AK_Agents/GApparel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <apparel>
-      <wornGraphicPath>Things/AK_Agents/Guard/Franka</wornGraphicPath>
-    </apparel>
-  </ThingDef>
-  
-  <ThingDef ParentName="AK_ArmorBase_Guard">
-    <defName>AK_Apparel_Frostleaf</defName>
-    <label>霜叶服装</label>
-    <graphicData>
-      <texPath>Things/AK_Agents/GApparel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <apparel>
-      <wornGraphicPath>Things/AK_Agents/Guard/Frostleaf</wornGraphicPath>
-    </apparel>
-  </ThingDef>
-  
-  <ThingDef ParentName="AK_ArmorBase_Guard">
-    <defName>AK_Apparel_Lappland</defName>
-    <label>拉普兰德服装</label>
-    <graphicData>
-      <texPath>Things/AK_Agents/GApparel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <apparel>
-      <wornGraphicPath>Things/AK_Agents/Guard/Lappland</wornGraphicPath>
-    </apparel>
-  </ThingDef>
-  
-  <ThingDef ParentName="AK_ArmorBase_Guard">
-    <defName>AK_Apparel_Mousse</defName>
-    <label>慕斯服装</label>
-    <graphicData>
-      <texPath>Things/AK_Agents/GApparel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <apparel>
-      <wornGraphicPath>Things/AK_Agents/Guard/Mousse</wornGraphicPath>
-    </apparel>
-  </ThingDef>
-  
-  <ThingDef ParentName="AK_ArmorBase_Guard">
-    <defName>AK_Apparel_Silverash</defName>
-    <label>银灰服装</label>
-    <graphicData>
-      <texPath>Things/AK_Agents/GApparel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <apparel>
-      <wornGraphicPath>Things/AK_Agents/Guard/Silverash</wornGraphicPath>
-    </apparel>
-  </ThingDef>
-  
-  <ThingDef ParentName="AK_ArmorBase_Guard">
-    <defName>AK_Apparel_Skadi</defName>
-    <label>斯卡蒂服装</label>
-    <graphicData>
-      <texPath>Things/AK_Agents/GApparel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <apparel>
-      <wornGraphicPath>Things/AK_Agents/Guard/Skadi</wornGraphicPath>
-    </apparel>
-  </ThingDef>
-  
-  <ThingDef ParentName="AK_ArmorBase_Guard">
-    <defName>AK_Apparel_Thorns</defName>
-    <label>棘刺服装</label>
-    <graphicData>
-      <texPath>Things/AK_Agents/GApparel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <apparel>
-      <wornGraphicPath>Things/AK_Agents/Guard/Thorns</wornGraphicPath>
-    </apparel>
-  </ThingDef>
+	<ThingDef ParentName="AK_ArmorBase_Guard">
+		<defName>AK_Apparel_Blaze</defName>
+		<label>煌服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Guard/Blaze</wornGraphicPath>
+		</apparel>
+	</ThingDef>
 
-  <ThingDef ParentName="AK_ArmorBase_Guard">
-    <defName>AK_Apparel_Specter</defName>
-    <label>幽灵鲨服装</label>
-    <graphicData>
-      <texPath>Things/AK_Agents/GApparel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <apparel>
-      <wornGraphicPath>Things/AK_Agents/Guard/Specter</wornGraphicPath>
-    </apparel>
-  </ThingDef>
+	<ThingDef ParentName="AK_ArmorBase_Guard">
+		<defName>AK_Apparel_Chen</defName>
+		<label>陈服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Guard/Chen</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Guard">
+		<defName>AK_Apparel_Cutter</defName>
+		<label>刻刀服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Guard/Cutter</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Guard">
+		<defName>AK_Apparel_Franka</defName>
+		<label>芙兰卡服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Guard/Franka</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Guard">
+		<defName>AK_Apparel_Frostleaf</defName>
+		<label>霜叶服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Guard/Frostleaf</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Guard">
+		<defName>AK_Apparel_Lappland</defName>
+		<label>拉普兰德服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Guard/Lappland</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Guard">
+		<defName>AK_Apparel_Mousse</defName>
+		<label>慕斯服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Guard/Mousse</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Guard">
+		<defName>AK_Apparel_Silverash</defName>
+		<label>银灰服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Guard/Silverash</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Guard">
+		<defName>AK_Apparel_Skadi</defName>
+		<label>斯卡蒂服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Guard/Skadi</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Guard">
+		<defName>AK_Apparel_Thorns</defName>
+		<label>棘刺服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Guard/Thorns</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Guard">
+		<defName>AK_Apparel_Specter</defName>
+		<label>幽灵鲨服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Guard/Specter</wornGraphicPath>
+		</apparel>
+	</ThingDef>
 
 	<ThingDef ParentName="AK_ArmorBase_Guard">
 		<defName>AK_Apparel_Whislash</defName>

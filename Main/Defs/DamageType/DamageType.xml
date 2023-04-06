@@ -12,8 +12,8 @@
     <multStat>AK_AbsoluteDamageMultiplier</multStat>
     <armorRatingStat>AK_ArmorRating_Absolute</armorRatingStat>
   </DamageArmorCategoryDef>
-  
-    <StatDef ParentName="ArmorRatingBase">
+
+  <StatDef ParentName="ArmorRatingBase">
     <defName>AK_ArmorRating_Magic</defName>
     <label>护甲 - 法术</label>
     <labelForFullStatList>护甲 - 法术(装甲属性)</labelForFullStatList>
@@ -44,7 +44,7 @@
       </li>
     </parts>
   </StatDef>
-  
+
   <StatDef>
     <defName>AK_MagicDamageMultiplier</defName>
     <label>法术伤害</label>

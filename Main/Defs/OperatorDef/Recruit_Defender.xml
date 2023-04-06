@@ -298,12 +298,8 @@ Hoshiguma, member of the Special Service of Lungmen Guard Department, is awaitin
 		<adultHood>AK_BackStory_Hoshiguma_Adult</adultHood>
 		<relations>
 			<li>
-				<key>Swire</key>
-				<value>Friend</value>
-			</li>
-			<li>
 				<key>Chen</key>
-				<value>Friend</value>
+				<value>Lover</value>
 			</li>
 		</relations>
 	</AK_DLL.OperatorDef>
@@ -410,7 +406,7 @@ Liskarm, Defender Operator of B.P.R.S. of Blacksteel, possesses both a solid shi
 		<relations>
 			<li>
 				<key>Franka</key>
-				<value>Friend</value>
+				<value>Lover</value>
 			</li>
 		</relations>
 	</AK_DLL.OperatorDef>
@@ -610,15 +606,15 @@ Nian, a mysterious visitor from the faraway land of Yen, is willing to provide a
 		<relations>
 			<li>
 				<key>Chongyue</key>
-				<value>Brother</value>
+				<value>Sibling</value>
 			</li>
 			<li>
 				<key>Ling</key>
-				<value>Sister</value>
+				<value>Sibling</value>
 			</li>
 			<li>
 				<key>Dusk</key>
-				<value>Sister</value>
+				<value>Sibling</value>
 			</li>
 		</relations>
 	</AK_DLL.OperatorDef>
@@ -727,7 +723,7 @@ Saria, former researcher of Rhine Lab, will serve as a core part of the squad's 
 			</li>
 			<li>
 				<key>Ifrit</key>
-				<value>Daughter</value>
+				<value>Child</value>
 			</li>
 		</relations>
 		<bodyTypeDef>Female</bodyTypeDef>
@@ -833,15 +829,15 @@ Saria, former researcher of Rhine Lab, will serve as a core part of the squad's 
 		<relations>
 			<li>
 				<key>Whislash</key>
-				<value>Aunt</value>
+				<value>UncleOrAunt</value>
 			</li>
 			<li>
 				<key>Maynar</key>
-				<value>Uncle</value>
+				<value>UncleOrAunt</value>
 			</li>
 			<li>
 				<key>Nearl</key>
-				<value>Sister</value>
+				<value>Sibling</value>
 			</li>
 		</relations>
 	</AK_DLL.OperatorDef>
@@ -941,24 +937,6 @@ Saria, former researcher of Rhine Lab, will serve as a core part of the squad's 
 		<age>20</age>
 		<childHood>AK_BackStory_Croissant_Child</childHood>
 		<adultHood>AK_BackStory_Croissant_Adult</adultHood>
-		<relations>
-			<li>
-				<key>Exusiai</key>
-				<value>Friend</value>
-			</li>
-			<li>
-				<key>Sora</key>
-				<value>Friend</value>
-			</li>
-			<li>
-				<key>Angelina</key>
-				<value>Friend</value>
-			</li>
-			<li>
-				<key>Texas</key>
-				<value>Friend</value>
-			</li>
-		</relations>
 		<standOffset>(-100,200)</standOffset>
 		<standRatio>2.75</standRatio>
 	</AK_DLL.OperatorDef>
@@ -1289,16 +1267,6 @@ Saria, former researcher of Rhine Lab, will serve as a core part of the squad's 
 			</li>
 		</traits>
 		<childHood>AK_BackStory_UrsusStudent</childHood>
-		<relations>
-			<li>
-				<key>Istina</key>
-				<value>Friend</value>
-			</li>
-			<li>
-				<key>Rosa</key>
-				<value>Friend</value>
-			</li>
-		</relations>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -1395,28 +1363,6 @@ Saria, former researcher of Rhine Lab, will serve as a core part of the squad's 
 		<age>25</age>
 		<childHood>AK_BackStory_Matterhorn_Child</childHood>
 		<adultHood>AK_BackStory_Matterhorn_Adult</adultHood>
-		<relations>
-			<li>
-				<key>Silverash</key>
-				<value>Friend</value>
-			</li>
-			<li>
-				<key>Cliffheart</key>
-				<value>Friend</value>
-			</li>
-			<li>
-				<key>Courier</key>
-				<value>Friend</value>
-			</li>
-			<li>
-				<key>Pramanix</key>
-				<value>Friend</value>
-			</li>
-			<li>
-				<key>Vulcan</key>
-				<value>Friend</value>
-			</li>
-		</relations>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -1512,12 +1458,6 @@ Saria, former researcher of Rhine Lab, will serve as a core part of the squad's 
 		<age>25</age>
 		<childHood>AK_BackStory_Vulcan_Child</childHood>
 		<adultHood>AK_BackStory_Vulcan_Adult</adultHood>
-		<relations>
-			<li>
-				<key>Matterhorn</key>
-				<value>Friend</value>
-			</li>
-		</relations>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -1618,23 +1558,15 @@ Saria, former researcher of Rhine Lab, will serve as a core part of the squad's 
 		<relations>
 			<li>
 				<key>Whislash</key>
-				<value>Aunt</value>
+				<value>UncleOrAunt</value>
 			</li>
 			<li>
 				<key>Blemishine</key>
-				<value>Sister</value>
+				<value>Sibling</value>
 			</li>
 			<li>
 				<key>Maynar</key>
-				<value>Uncle</value>
-			</li>
-			<li>
-				<key>Platinum</key>
-				<value>Friend</value>
-			</li>
-			<li>
-				<key>Platinum</key>
-				<value>Rival</value>
+				<value>UncleOrAunt</value>
 			</li>
 		</relations>
 		<skills>

@@ -1,127 +1,127 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="AK_ArmorBase_Sniper">
-    <defName>AK_Apparel_Executor</defName>
-    <label>送葬人服装</label>
-    <graphicData>
-      <texPath>Things/AK_Agents/GApparel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <apparel>
-      <wornGraphicPath>Things/AK_Agents/Sniper/Executor</wornGraphicPath>
-    </apparel>
-  </ThingDef>
-  
-  <ThingDef ParentName="AK_ArmorBase_Sniper">
-    <defName>AK_Apparel_Exusiai</defName>
-    <label>能天使服装</label>
-    <graphicData>
-      <texPath>Things/AK_Agents/GApparel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <apparel>
-      <wornGraphicPath>Things/AK_Agents/Sniper/Exusiai</wornGraphicPath>
-    </apparel>
-  </ThingDef>
-  
-  <ThingDef ParentName="AK_ArmorBase_Sniper">
-    <defName>AK_Apparel_Greythroat</defName>
-    <label>灰喉服装</label>
-    <graphicData>
-      <texPath>Things/AK_Agents/GApparel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <apparel>
-      <wornGraphicPath>Things/AK_Agents/Sniper/Greythroat</wornGraphicPath>
-    </apparel>
-  </ThingDef>
-  
-  <ThingDef ParentName="AK_ArmorBase_Sniper">
-    <defName>AK_Apparel_Jessica</defName>
-    <label>杰西卡服装</label>
-    <graphicData>
-      <texPath>Things/AK_Agents/GApparel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <apparel>
-      <wornGraphicPath>Things/AK_Agents/Sniper/Jessica</wornGraphicPath>
-    </apparel>
-  </ThingDef>
-  
-  <ThingDef ParentName="AK_ArmorBase_Sniper">
-    <defName>AK_Apparel_Pinecone</defName>
-    <label>松果服装</label>
-    <graphicData>
-      <texPath>Things/AK_Agents/GApparel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <apparel>
-      <wornGraphicPath>Things/AK_Agents/Sniper/Pinecone</wornGraphicPath>
-    </apparel>
-  </ThingDef>
-  
-  <ThingDef ParentName="AK_ArmorBase_Sniper">
-    <defName>AK_Apparel_Provence</defName>
-    <label>普罗旺斯服装</label>
-    <graphicData>
-      <texPath>Things/AK_Agents/GApparel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <apparel>
-      <wornGraphicPath>Things/AK_Agents/Sniper/Provence</wornGraphicPath>
-    </apparel>
-  </ThingDef>
-  
-  <ThingDef ParentName="AK_ArmorBase_Sniper">
-    <defName>AK_Apparel_Rosmontis</defName>
-    <label>迷迭香服装</label>
-    <graphicData>
-      <texPath>Things/AK_Agents/GApparel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <apparel>
-      <wornGraphicPath>Things/AK_Agents/Sniper/Rosmontis</wornGraphicPath>
-    </apparel>
-  </ThingDef>
-  
-  <ThingDef ParentName="AK_ArmorBase_Sniper">
-    <defName>AK_Apparel_Schwarz</defName>
-    <label>黑服装</label>
-    <graphicData>
-      <texPath>Things/AK_Agents/GApparel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <apparel>
-      <wornGraphicPath>Things/AK_Agents/Sniper/Schwarz</wornGraphicPath>
-    </apparel>
-  </ThingDef>
-  
-  <ThingDef ParentName="AK_ArmorBase_Sniper">
-    <defName>AK_Apparel_AgentW</defName>
-    <label>W服装</label>
-    <graphicData>
-      <texPath>Things/AK_Agents/GApparel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <apparel>
-      <wornGraphicPath>Things/AK_Agents/Sniper/W</wornGraphicPath>
-    </apparel>
-  </ThingDef>
-   
-  <ThingDef ParentName="AK_ArmorBase_Sniper">
-    <defName>AK_Apparel_Rosa</defName>
-    <label>早露服装</label>
-    <graphicData>
-      <texPath>Things/AK_Agents/GApparel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <apparel>
-      <wornGraphicPath>Things/AK_Agents/Sniper/Rosa</wornGraphicPath>
-    </apparel>
-  </ThingDef>
-  
- 	<ThingDef ParentName="AK_ArmorBase_Sniper">
+	<ThingDef ParentName="AK_ArmorBase_Sniper">
+		<defName>AK_Apparel_Executor</defName>
+		<label>送葬人服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Sniper/Executor</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Sniper">
+		<defName>AK_Apparel_Exusiai</defName>
+		<label>能天使服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Sniper/Exusiai</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Sniper">
+		<defName>AK_Apparel_Greythroat</defName>
+		<label>灰喉服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Sniper/Greythroat</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Sniper">
+		<defName>AK_Apparel_Jessica</defName>
+		<label>杰西卡服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Sniper/Jessica</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Sniper">
+		<defName>AK_Apparel_Pinecone</defName>
+		<label>松果服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Sniper/Pinecone</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Sniper">
+		<defName>AK_Apparel_Provence</defName>
+		<label>普罗旺斯服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Sniper/Provence</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Sniper">
+		<defName>AK_Apparel_Rosmontis</defName>
+		<label>迷迭香服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Sniper/Rosmontis</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Sniper">
+		<defName>AK_Apparel_Schwarz</defName>
+		<label>黑服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Sniper/Schwarz</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Sniper">
+		<defName>AK_Apparel_AgentW</defName>
+		<label>W服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Sniper/W</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Sniper">
+		<defName>AK_Apparel_Rosa</defName>
+		<label>早露服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Sniper/Rosa</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Sniper">
 		<defName>AK_Apparel_Platinum</defName>
 		<label>白金服装</label>
 		<graphicData>

@@ -52,10 +52,10 @@
     <generateAllowChance>0</generateAllowChance>
     <randomizeRotationOnSpawn>false</randomizeRotationOnSpawn>
     <canLoadIntoCaravan>false</canLoadIntoCaravan>
-	<comps>
-		<li Class="CompProperties_Biocodable"/>
-		<li Class="AK_DLL.TCP_RemoveMe"/>
-	</comps>
+    <comps>
+      <li Class="CompProperties_Biocodable"/>
+      <li Class="AK_DLL.TCP_RemoveMe"/>
+    </comps>
   </ThingDef>
 
   <ThingDef Name="AK_ArmorBase_Caster" ParentName="AK_ArmorBase" Abstract="True">

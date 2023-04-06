@@ -422,18 +422,8 @@ Gavial, Medic Operator of Rhodes Island, will protect the lives of her squad mem
 		<adultHood>AK_BackStory_Kaltsit_Adult</adultHood>
 		<relations>
 			<li>
-				<key>Warfarin</key>
-				<value>Friend</value>
-			</li>
-			<li>
 				<key>Amiya</key>
-				<value>Daughter</value>
-			</li>
-		</relations>
-		<relations>
-			<li>
-				<key>Amiya</key>
-				<value>Daughter</value>
+				<value>Child</value>
 			</li>
 		</relations>
 	</AK_DLL.OperatorDef>
@@ -967,12 +957,6 @@ Ptilopsis, database maintainer of Rhine Lab, activated. Please enter commands to
 		<age>20</age>
 		<childHood>AK_BackStory_Warfarin_Child</childHood>
 		<adultHood>AK_BackStory_Warfarin_Adult</adultHood>
-		<relations>
-			<li>
-				<key>Kaltsit</key>
-				<value>Friend</value>
-			</li>
-		</relations>
 		<skills>
 			<li>
 				<skill>Animals</skill>

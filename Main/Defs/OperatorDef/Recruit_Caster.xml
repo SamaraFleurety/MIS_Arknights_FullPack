@@ -101,15 +101,15 @@ Coming on a whim, the great painter, Dusk, puts only the finishing touches on al
 		<relations>
 			<li>
 				<key>Chongyue</key>
-				<value>Brother</value>
+				<value>Sibling</value>
 			</li>
 			<li>
 				<key>Ling</key>
-				<value>Sister</value>
+				<value>Sibling</value>
 			</li>
 			<li>
 				<key>Nian</key>
-				<value>Sister</value>
+				<value>Sibling</value>
 			</li>
 		</relations>
 		<abilities>
@@ -315,11 +315,11 @@ Ifrit, former test subject of Rhine Lab, will incinerate all of Silence's enemie
 		<relations>
 			<li>
 				<key>Silence</key>
-				<value>Mother</value>
+				<value>Parent</value>
 			</li>
 			<li>
 				<key>Saria</key>
-				<value>Father</value>
+				<value>Parent</value>
 			</li>
 		</relations>
 	</AK_DLL.OperatorDef>
@@ -518,6 +518,12 @@ Mostima, Senior Messenger, will lay low all obstacles in your path with her Arts
 		<age>20</age>
 		<childHood>AK_BackStory_Mostima_Child</childHood>
 		<adultHood>AK_BackStory_Mostima_Adult</adultHood>
+		<relations>
+			<li>
+				<key>Exusiai</key>
+				<value>Lover</value>
+			</li>
+		</relations>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Caster">
@@ -809,7 +815,7 @@ Amiya, leader of Rhodes Island, will fight alongside you.</description>
 		<relations>
 			<li>
 				<key>Kaltsit</key>
-				<value>Mother</value>
+				<value>Parent</value>
 			</li>
 		</relations>
 		<bodyTypeDef>Female</bodyTypeDef>
@@ -1017,7 +1023,7 @@ Ceobe is always ready to go after the bad guys.</description>
 		<relations>
 			<li>
 				<key>Beeswax</key>
-				<value>Sister</value>
+				<value>Sibling</value>
 			</li>
 		</relations>
 	</AK_DLL.OperatorDef>
@@ -1111,7 +1117,7 @@ Ceobe is always ready to go after the bad guys.</description>
 		<relations>
 			<li>
 				<key>Carnelian</key>
-				<value>Sister</value>
+				<value>Sibling</value>
 			</li>
 		</relations>
 		<skinColor>(210,180,170)</skinColor>
@@ -1532,7 +1538,7 @@ Ceobe is always ready to go after the bad guys.</description>
 		<relations>
 			<li>
 				<key>Astesia</key>
-				<value>Sister</value>
+				<value>Sibling</value>
 			</li>
 		</relations>
 		<skills>
@@ -1725,16 +1731,6 @@ Ceobe is always ready to go after the bad guys.</description>
 		<age>20</age>
 		<childHood>AK_BackStory_Lin_Child</childHood>
 		<adultHood>AK_BackStory_Lin_Adult</adultHood>
-		<relations>
-			<li>
-				<key>Chen</key>
-				<value>Rival</value>
-			</li>
-			<li>
-				<key>Chen</key>
-				<value>Friend</value>
-			</li>
-		</relations>
 		<skills>
 			<li>
 				<skill>Animals</skill>

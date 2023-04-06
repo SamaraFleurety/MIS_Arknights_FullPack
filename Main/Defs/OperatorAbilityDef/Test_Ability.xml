@@ -7,10 +7,10 @@
     <description>艾雅法拉和夕的同款的点燃</description>
     <icon>UI/Abilities/A</icon>
     <CD>30</CD>
-	<maxCharge>10</maxCharge>
-	<CDUnit>rSecond</CDUnit>
-	<targetMode>AutoEnemy</targetMode>
-	<grouped>true</grouped>
+    <maxCharge>10</maxCharge>
+    <CDUnit>rSecond</CDUnit>
+    <targetMode>AutoEnemy</targetMode>
+    <grouped>true</grouped>
     <verb>
       <verbClass>AK_DLL.Verb_Ability</verbClass>
       <defaultProjectile>Bullet_MiniTurret</defaultProjectile>
@@ -28,23 +28,23 @@
       </targetParams>
     </verb>
     <needCD>true</needCD>
-	<compEffectList>
-		<li Class = "AK_DLL.AE_ShootProjectile">	
-			<verb>
-				<verbClass>Verb_Shoot</verbClass>
-				<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
-				<hasStandardCommand>false</hasStandardCommand>
-				<defaultProjectile>AK_Bullet_Base</defaultProjectile>
-				<warmupTime>0</warmupTime>
-				<range>99</range>
-				<ticksBetweenBurstShots>1</ticksBetweenBurstShots>
-				<burstShotCount>1</burstShotCount>
-				<soundCast>AK_Sound_Weapon_Exusiai</soundCast>
-				<soundCastTail>GunTail_Medium</soundCastTail>
-				<muzzleFlashScale>9</muzzleFlashScale>
-			</verb>
-		</li>
-	</compEffectList>
+    <compEffectList>
+      <li Class = "AK_DLL.AE_ShootProjectile">
+        <verb>
+          <verbClass>Verb_Shoot</verbClass>
+          <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+          <hasStandardCommand>false</hasStandardCommand>
+          <defaultProjectile>AK_Bullet_Base</defaultProjectile>
+          <warmupTime>0</warmupTime>
+          <range>99</range>
+          <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+          <burstShotCount>1</burstShotCount>
+          <soundCast>AK_Sound_Weapon_Exusiai</soundCast>
+          <soundCastTail>GunTail_Medium</soundCastTail>
+          <muzzleFlashScale>9</muzzleFlashScale>
+        </verb>
+      </li>
+    </compEffectList>
   </AK_DLL.OperatorAbilityDef>
 
   <AK_DLL.OperatorAbilityDef>
@@ -54,7 +54,7 @@
     <icon>UI/Abilities/A</icon>
     <CD>2500</CD>
     <abilityType>Hediff</abilityType>
-	<targetMode>Single</targetMode>
+    <targetMode>Single</targetMode>
     <verb>
       <verbClass>AK_DLL.Verb_Ability</verbClass>
       <defaultProjectile>Bullet_MiniTurret</defaultProjectile>
@@ -88,7 +88,7 @@
     <icon>Things/Building/Security/IEDSmoke</icon>
     <CD>2500</CD>
     <abilityType>Heal</abilityType>
-	<targetMode>Single</targetMode>
+    <targetMode>Single</targetMode>
     <verb>
       <verbClass>AK_DLL.Verb_Ability</verbClass>
       <defaultProjectile>Bullet_MiniTurret</defaultProjectile>
@@ -122,9 +122,9 @@
     <description>往脚下放置一颗地雷，cd1天</description>
     <icon>UI/Abilities/A</icon>
     <CD>1</CD>
-	<CDUnit>tick</CDUnit>
+    <CDUnit>tick</CDUnit>
     <abilityType>Trap</abilityType>
-	<targetMode>Self</targetMode>
+    <targetMode>Self</targetMode>
     <verb>
       <verbClass>AK_DLL.Verb_Ability</verbClass>
       <defaultProjectile>Bullet_MiniTurret</defaultProjectile>
@@ -156,9 +156,9 @@
     <description>往指定位置放置一颗地雷，cd1天</description>
     <icon>UI/Abilities/A</icon>
     <CD>1</CD>
-	<CDUnit>tick</CDUnit>
+    <CDUnit>tick</CDUnit>
     <abilityType>Trap</abilityType>
-	<targetMode>Single</targetMode>
+    <targetMode>Single</targetMode>
     <verb>
       <verbClass>AK_DLL.Verb_Ability</verbClass>
       <defaultProjectile>Bullet_MiniTurret</defaultProjectile>
@@ -221,7 +221,7 @@
     <icon>UI/Abilities/A</icon>
     <CD>100</CD>
     <abilityType>Summon</abilityType>
-	<targetMode>Single</targetMode>
+    <targetMode>Single</targetMode>
     <verb>
       <verbClass>AK_DLL.Verb_Ability</verbClass>
       <defaultProjectile>Bullet_MiniTurret</defaultProjectile>

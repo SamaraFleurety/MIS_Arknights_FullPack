@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  
-  <ThingDef ParentName="AK_ArmorBase_Specialist">
-    <defName>AK_Apparel_Red</defName>
-    <label>红的服装</label>
-    <graphicData>
-      <texPath>Things/AK_Agents/GApparel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <apparel>
-      <wornGraphicPath>Things/AK_Agents/Specialist/ProjektRed</wornGraphicPath>
-    </apparel>
-  </ThingDef>
-    
-  <ThingDef ParentName="AK_ArmorBase_Specialist">
-    <defName>AK_Apparel_Robin</defName>
-    <label>罗宾的服装</label>
-    <graphicData>
-      <texPath>Things/AK_Agents/GApparel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <apparel>
-      <wornGraphicPath>Things/AK_Agents/Specialist/Robin</wornGraphicPath>
-    </apparel>
-  </ThingDef>
-  
- 	<ThingDef ParentName="AK_ArmorBase_Specialist">
+
+	<ThingDef ParentName="AK_ArmorBase_Specialist">
+		<defName>AK_Apparel_Red</defName>
+		<label>红的服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Specialist/ProjektRed</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Specialist">
+		<defName>AK_Apparel_Robin</defName>
+		<label>罗宾的服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Specialist/Robin</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Specialist">
 		<defName>AK_Apparel_Gladiia</defName>
 		<label>歌蕾蒂娅服装</label>
 		<graphicData>

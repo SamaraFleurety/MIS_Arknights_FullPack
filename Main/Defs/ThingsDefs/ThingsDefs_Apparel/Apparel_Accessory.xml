@@ -3,12 +3,12 @@
 <Defs>
 	<ThingDef Name="AK_AccessoryBase" ParentName="AK_ArmorBase">
 		<apparel>
-		  <bodyPartGroups Inherit="False">
-			<li>Neck</li>
-		  </bodyPartGroups>
-		  <layers Inherit="False">
-			<li>Overhead</li>
-		  </layers>
+			<bodyPartGroups Inherit="False">
+				<li>Neck</li>
+			</bodyPartGroups>
+			<layers Inherit="False">
+				<li>Overhead</li>
+			</layers>
 		</apparel>
 	</ThingDef>
 
@@ -17,11 +17,11 @@
 		<defName>AK_Accessory_Weedy</defName>
 		<label>小叶</label>
 		<graphicData>
-		  <texPath>Things/AK_Agents/HatAccessory/WeedyA</texPath>
-		  <graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/AK_Agents/HatAccessory/WeedyA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
-		  <wornGraphicPath>Things/AK_Agents/HatAccessory/WeedyA</wornGraphicPath>
+			<wornGraphicPath>Things/AK_Agents/HatAccessory/WeedyA</wornGraphicPath>
 		</apparel>
 	</ThingDef>
 

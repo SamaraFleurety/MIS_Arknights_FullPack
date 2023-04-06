@@ -1,31 +1,32 @@
-BondedAnimal
-Brother
-Daughter
-Father
-Fiance 未婚夫
-Fiancee 未婚妻
-Friend
+Child 儿女
+Cousin 堂兄弟姐妹
+CousinOnceRemoved 表亲
+Grandchild 孙辈
+GrandnephewOrGrandniece 侄孙
+Grandparent 祖辈
+GranduncleOrGrandaunt 叔祖父/姨祖母
+GreatGrandchild 曾孙
+GreatGrandparent 曾祖
+HalfSibling 兄弟姐妹
 Kin 亲戚
-Lover
-Mother
-Rival 对手
-Sister
-Son
-Spouse 配偶
-Uncle
-Aunt
-Cousin
-Grandchild
-Grandparent
-HalfSibling 同父异母
-Husband
-Wife
-Nephew 侄子
-Niece 侄女
+NephewOrNiece 侄子
+Parent 父母
+SecondCousin 远房表亲
+Sibling 兄弟姐妹
+UncleOrAunt 叔叔姨妈
+ChildInLaw 女婿/儿媳
+ExLover 旧情人
+ExSpouse 前夫/妻
+Fiance 未婚
+Lover 情人
+ParentInLaw 岳丈
+Spouse 夫妻
+Stepchild 继子
+Stepparent 继父母
 
 <relations>
-			<li>
-				<key>Exusiai</key>
-				<value>Spouse</value>
-			</li>
-		</relations>
+	<li>
+		<key>Exusiai</key>
+		<value>Spouse</value>
+	</li>
+</relations>

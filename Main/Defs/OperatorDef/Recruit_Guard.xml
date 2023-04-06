@@ -106,23 +106,11 @@ SilverAsh, President of Karlan Trade CO., LTD, has signed the contract with Rhod
 		<relations>
 			<li>
 				<key>Cliffheart</key>
-				<value>Sister</value>
+				<value>Sibling</value>
 			</li>
 			<li>
 				<key>Pramanix</key>
-				<value>Sister</value>
-			</li>
-			<li>
-				<key>Courier</key>
-				<value>Friend</value>
-			</li>
-			<li>
-				<key>Matterhorn</key>
-				<value>Friend</value>
-			</li>
-			<li>
-				<key>Gnosis</key>
-				<value>Friend</value>
+				<value>Sibling</value>
 			</li>
 		</relations>
 	</AK_DLL.OperatorDef>
@@ -228,15 +216,7 @@ Skadi, bounty hunter, has come with the tide to drown your enemies.</description
 		<relations>
 			<li>
 				<key>Specter</key>
-				<value>Wife</value>
-			</li>
-			<li>
-				<key>Gladiia</key>
-				<value>Friend</value>
-			</li>
-			<li>
-				<key>Grani</key>
-				<value>Friend</value>
+				<value>Spouse</value>
 			</li>
 		</relations>
 	</AK_DLL.OperatorDef>
@@ -343,11 +323,7 @@ Specter from the Abyssal Hunters is already done with her prayer and is now prow
 		<relations>
 			<li>
 				<key>Skadi</key>
-				<value>Wife</value>
-			</li>
-			<li>
-				<key>Gladiia</key>
-				<value>Friend</value>
+				<value>Spouse</value>
 			</li>
 		</relations>
 	</AK_DLL.OperatorDef>
@@ -757,19 +733,7 @@ Ch'en, Special Inspection Unit Chief, L.G.D., is cooperating with Rhodes Island 
 		<relations>
 			<li>
 				<key>Hoshiguma</key>
-				<value>Friend</value>
-			</li>
-			<li>
-				<key>Swire</key>
-				<value>Friend</value>
-			</li>
-			<li>
-				<key>Lin</key>
-				<value>Friend</value>
-			</li>
-			<li>
-				<key>Lin</key>
-				<value>Rival</value>
+				<value>Lover</value>
 			</li>
 		</relations>
 	</AK_DLL.OperatorDef>
@@ -970,7 +934,7 @@ Franka, Guard Operator of B.P.R.S. of Blacksteel, is waiting for your orders.</d
 		<relations>
 			<li>
 				<key>Liskarm</key>
-				<value>Friend</value>
+				<value>Lover</value>
 			</li>
 		</relations>
 		<bodyTypeDef>Female</bodyTypeDef>
@@ -1173,10 +1137,6 @@ Operator Lappland can't wait to slash apart the enemies in front of her.</descri
 			<li>
 				<key>Texas</key>
 				<value>Lover</value>
-			</li>
-			<li>
-				<key>Texas</key>
-				<value>Rival</value>
 			</li>
 		</relations>
 		<standOffset>(-100,125)</standOffset>
@@ -1383,15 +1343,15 @@ Mousse, Guard Operator of Rhodes Island, thinks of her enemies as oversized scra
 		<relations>
 			<li>
 				<key>Maynar</key>
-				<value>Brother</value>
+				<value>Sibling</value>
 			</li>
 			<li>
 				<key>Blemishine</key>
-				<value>Niece</value>
+				<value>NephewOrNiece</value>
 			</li>
 			<li>
 				<key>Nearl</key>
-				<value>Niece</value>
+				<value>NephewOrNiece</value>
 			</li>
 		</relations>
 	</AK_DLL.OperatorDef>
@@ -1493,16 +1453,6 @@ Mousse, Guard Operator of Rhodes Island, thinks of her enemies as oversized scra
 		<age>20</age>
 		<childHood>AK_BackStory_Swire_Child</childHood>
 		<adultHood>AK_BackStory_Swire_Adult</adultHood>
-		<relations>
-			<li>
-				<key>Hoshiguma</key>
-				<value>Friend</value>
-			</li>
-			<li>
-				<key>Chen</key>
-				<value>Friend</value>
-			</li>
-		</relations>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Guard">
@@ -2218,15 +2168,15 @@ Mousse, Guard Operator of Rhodes Island, thinks of her enemies as oversized scra
 		<relations>
 			<li>
 				<key>Whislash</key>
-				<value>Sister</value>
+				<value>Sibling</value>
 			</li>
 			<li>
 				<key>Blemishine</key>
-				<value>Niece</value>
+				<value>NephewOrNiece</value>
 			</li>
 			<li>
 				<key>Nearl</key>
-				<value>Niece</value>
+				<value>NephewOrNiece</value>
 			</li>
 		</relations>
 		<skills>
@@ -2428,7 +2378,7 @@ Mousse, Guard Operator of Rhodes Island, thinks of her enemies as oversized scra
 		<relations>
 			<li>
 				<key>Astgenne</key>
-				<value>Sister</value>
+				<value>Sibling</value>
 			</li>
 		</relations>
 		<skills>
@@ -2537,15 +2487,15 @@ FIXMEDESC</description>
 		<relations>
 			<li>
 				<key>Nian</key>
-				<value>Sister</value>
+				<value>Sibling</value>
 			</li>
 			<li>
 				<key>Ling</key>
-				<value>Sister</value>
+				<value>Sibling</value>
 			</li>
 			<li>
 				<key>Dusk</key>
-				<value>Sister</value>
+				<value>Sibling</value>
 			</li>
 		</relations>
 		<skills>
@@ -2648,12 +2598,6 @@ FIXMEDESC</description>
 		<age>20</age>
 		<childHood>AK_BackStory_Qiubai_Child</childHood>
 		<adultHood>AK_BackStory_Qiubai_Adult</adultHood>
-		<relations>
-			<li>
-				<key>Chongyue</key>
-				<value>Friend</value>
-			</li>
-		</relations>
 		<skills>
 			<li>
 				<skill>Animals</skill>

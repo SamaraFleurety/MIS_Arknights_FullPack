@@ -1,79 +1,79 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="AK_ArmorBase_Vanguard">
-    <defName>AK_Apparel_Bagpipe</defName>
-    <label>风笛的服装</label>
-    <graphicData>
-      <texPath>Things/AK_Agents/GApparel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <apparel>
-      <wornGraphicPath>Things/AK_Agents/Vanguard/Bagpipe</wornGraphicPath>
-	  </apparel>
-  </ThingDef>
+	<ThingDef ParentName="AK_ArmorBase_Vanguard">
+		<defName>AK_Apparel_Bagpipe</defName>
+		<label>风笛的服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Vanguard/Bagpipe</wornGraphicPath>
+		</apparel>
+	</ThingDef>
 
-  <ThingDef ParentName="AK_ArmorBase_Vanguard">
-    <defName>AK_Apparel_Siege</defName>
-    <label>推进之王的服装</label>
-    <graphicData>
-      <texPath>Things/AK_Agents/GApparel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <apparel>
-      <wornGraphicPath>Things/AK_Agents/Vanguard/Siege</wornGraphicPath>
-	  </apparel>
-  </ThingDef>
-  
-  <ThingDef ParentName="AK_ArmorBase_Vanguard">
-    <defName>AK_Apparel_Reed</defName>
-    <label>苇草的服装</label>
-    <graphicData>
-      <texPath>Things/AK_Agents/GApparel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-	  <shaderType>Cutout</shaderType>
-    </graphicData>
-    <apparel>
-      <wornGraphicPath>Things/AK_Agents/Vanguard/Reed</wornGraphicPath>
-	</apparel>
-  </ThingDef>
-  
-  <ThingDef ParentName="AK_ArmorBase_Vanguard">
-    <defName>AK_Apparel_Texas</defName>
-    <label>德克萨斯的服装</label>
-    <graphicData>
-      <texPath>Things/AK_Agents/GApparel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <apparel>
-      <wornGraphicPath>Things/AK_Agents/Vanguard/Texas</wornGraphicPath>
-	  </apparel>
-  </ThingDef>
-  
-  <ThingDef ParentName="AK_ArmorBase_Vanguard">
-    <defName>AK_Apparel_Vanilla</defName>
-    <label>香草的服装</label>
-    <graphicData>
-      <texPath>Things/AK_Agents/GApparel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <apparel>
-      <wornGraphicPath>Things/AK_Agents/Vanguard/Vanilla</wornGraphicPath>
-	  </apparel>
-  </ThingDef>
-  
-  <ThingDef ParentName="AK_ArmorBase_Vanguard">
-    <defName>AK_Apparel_Saga</defName>
-    <label>嵯峨的服装</label>
-    <graphicData>
-      <texPath>Things/AK_Agents/GApparel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <apparel>
-      <wornGraphicPath>Things/AK_Agents/Vanguard/Saga</wornGraphicPath>
-	  </apparel>
-  </ThingDef>
-  
+	<ThingDef ParentName="AK_ArmorBase_Vanguard">
+		<defName>AK_Apparel_Siege</defName>
+		<label>推进之王的服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Vanguard/Siege</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Vanguard">
+		<defName>AK_Apparel_Reed</defName>
+		<label>苇草的服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Cutout</shaderType>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Vanguard/Reed</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Vanguard">
+		<defName>AK_Apparel_Texas</defName>
+		<label>德克萨斯的服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Vanguard/Texas</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Vanguard">
+		<defName>AK_Apparel_Vanilla</defName>
+		<label>香草的服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Vanguard/Vanilla</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Vanguard">
+		<defName>AK_Apparel_Saga</defName>
+		<label>嵯峨的服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Vanguard/Saga</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 	<ThingDef ParentName="AK_ArmorBase_Vanguard">
 		<defName>AK_Apparel_Saileach</defName>
 		<label>琴柳服装</label>

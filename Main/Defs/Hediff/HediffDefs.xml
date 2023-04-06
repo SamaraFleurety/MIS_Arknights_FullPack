@@ -43,8 +43,8 @@
 			</li>
 		</comps>
 	</HediffDef>
-  
-<!-- 专属 -->
+
+	<!-- 专属 -->
 
 	<HediffDef ParentName="ChronicDiseaseBase">
 		<defName>AK_Disease_Personal_Frostnova</defName>
@@ -61,7 +61,7 @@
 			</li>
 		</stages>
 	</HediffDef>
-	
+
 	<HediffDef ParentName="ChronicDiseaseBase">
 		<defName>AK_Disease_Personal_Patriot</defName>
 		<label>种族性感染</label>
@@ -79,7 +79,7 @@
 			</li>
 		</stages>
 	</HediffDef>
-<!-- FIXME:名字；降低意识 -->	
+	<!-- FIXME:名字；降低意识 -->
 	<HediffDef ParentName="ChronicDiseaseBase">
 		<defName>AK_Disease_Personal_PossessedSoldier</defName>
 		<label>源石增生</label>
@@ -97,7 +97,7 @@
 			</li>
 		</stages>
 	</HediffDef>
-	
+
 	<HediffDef ParentName="ChronicDiseaseBase">
 		<defName>AK_Disease_Personal_EnragedPossessedSoldier</defName>
 		<label>源石侵蚀</label>
@@ -115,4 +115,4 @@
 			</li>
 		</stages>
 	</HediffDef>
- </Defs>
+</Defs>

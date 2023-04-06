@@ -298,7 +298,7 @@
 		<title>维多利亚的瓦伊凡</title>
 		<titleShort>维多利亚的瓦伊凡</titleShort>
 		<baseDesc>她还清楚记得，某种只有在那个小社区才被要求跳的健身操、若干摸不着头脑的礼仪习俗、还有专门给孩子们办“运动会”准备的“运动场”，里面每个项目都和正规的运动会搭不上一点关系。耳濡目染间，除了多过几个节日，多走几场仪式，多参加几次聚会，顺带打倒一大堆与她年龄相仿的瓦伊凡之外，她并不觉得自己学到了什么。
-</baseDesc>
+		</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -308,7 +308,7 @@
 		<titleShort>罗德岛工匠</titleShort>
 		<baseDesc>维多利亚西尔军事学院肄业生，虽非正式服役的职业军人，但接受过系统训练，在各个方面都出类拔萃，尤以攻城战术与相关武器制造为最。
 现已加入罗德岛，担任狙击干员与初级工匠，主要负责远距离摧毁敌方工事与炮火压制。
-</baseDesc>
+		</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -318,7 +318,7 @@
 		<titleShort>狼孩</titleShort>
 		<baseDesc>根据子月本人的叙述，她自从记事起就和狼群生活在一起，据称她有一个朋友叫“阿涅赛”
 她在荒野上长大，荒野养育了她。
-</baseDesc>
+		</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -327,7 +327,7 @@
 		<title>猎人</title>
 		<titleShort>猎人</titleShort>
 		<baseDesc>子月，游荡在叙拉古荒野上的猎人，经由企鹅物流的介绍加入罗德岛，担任罗德岛在叙拉古野外行动的向导，兼职狙击干员。
-</baseDesc>
+		</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -336,7 +336,7 @@
 		<title>旧贵族</title>
 		<titleShort>旧贵族</titleShort>
 		<baseDesc>{PAWN_nameDef}曾经是乌萨斯的贵族，在一场乏善可陈的政治阴谋中，{PAWN_pronoun}家人相继死去，最终只剩她一个人侥幸逃脱，误打误撞地进了际崖城。具体过程在风险研判后，人事部决定不进行进一步的询问。
-</baseDesc>
+		</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -345,28 +345,7 @@
 		<title>文学代表</title>
 		<titleShort>文学代表</titleShort>
 		<baseDesc>阿芙朵嘉·锐笔，际崖城的文学代表，在说服杜林人前往阿卡胡拉避难的过程中发挥了重要作用，经际崖城商业代表克罗绮·砖石介绍来罗德岛考察，现作为狙击干员参与外勤任务。
-</baseDesc>
-	</BackstoryDef>
-
-	<BackstoryDef ParentName = "AK_StoryBase">
-		<defName>AK_BackStory_Firewatch_Child</defName>
-		<slot>Childhood</slot>
-		<title>来自森林</title>
-		<titleShort>来自森林</titleShort>
-		<baseDesc>{PAWN_nameDef}小姐心中的声音，来自于森林。而且来自于森林的最深处。
-只有最深处，才能听到这些静寂却又震耳欲聋的幽声。
-{PAWN_nameDef}小姐曾说过，{PAWN_possessive}族人和朋友，全都葬身在那里。
-</baseDesc>
-	</BackstoryDef>
-
-	<BackstoryDef ParentName = "AK_StoryBase">
-		<defName>AK_BackStory_Firewatch_Adult</defName>
-		<slot>Adulthood</slot>
-		<title>游击队员</title>
-		<titleShort>游击队员</titleShort>
-		<baseDesc>{PAWN_nameDef}，出身不详，于卡西米尔-乌萨斯边境地区作战多年，推测身份：游击队员。在伏击、远程狙击、散兵战术、流动战术等非对称作战中展现出深厚经验。
-现于罗德岛狙击小组任职，提供射击援护方面的保障服务。
-</baseDesc>
+		</baseDesc>
 	</BackstoryDef>
 
 </Defs>

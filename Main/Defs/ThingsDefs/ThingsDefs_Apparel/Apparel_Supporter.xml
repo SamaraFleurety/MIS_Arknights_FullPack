@@ -1,67 +1,67 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="AK_ArmorBase_Supporter">
-    <defName>AK_Apparel_Angelina</defName>
-    <label>安洁莉娜的服装</label>
-    <graphicData>
-      <texPath>Things/AK_Agents/GApparel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <apparel>
-      <wornGraphicPath>Things/AK_Agents/Supporter/Angelina</wornGraphicPath>
-    </apparel>
-  </ThingDef>
-  
-  <ThingDef ParentName="AK_ArmorBase_Supporter">
-    <defName>AK_Apparel_Magallan</defName>
-    <label>麦哲伦的服装</label>
-    <graphicData>
-      <texPath>Things/AK_Agents/GApparel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <apparel>
-      <wornGraphicPath>Things/AK_Agents/Supporter/Magallan</wornGraphicPath>
-    </apparel>
-  </ThingDef>
-  
-  <ThingDef ParentName="AK_ArmorBase_Supporter">
-    <defName>AK_Apparel_Suzuran</defName>
-    <label>铃兰的服装</label>
-    <graphicData>
-      <texPath>Things/AK_Agents/GApparel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <apparel>
-      <wornGraphicPath>Things/AK_Agents/Supporter/Suzuran</wornGraphicPath>
-    </apparel>
-  </ThingDef>
-  
-  <ThingDef ParentName="AK_ArmorBase_Supporter">
-    <defName>AK_Apparel_Mayerb</defName>
-    <label>梅尔的服装（无线控装置）</label>
-    <graphicData>
-      <texPath>Things/AK_Agents/Supporter/Mayer2</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <apparel>
-      <wornGraphicPath>Things/AK_Agents/Supporter/Mayer2</wornGraphicPath>
-    </apparel>
-  </ThingDef>
-  
-  <ThingDef ParentName="AK_ArmorBase_Supporter">
-    <defName>AK_Apparel_Mayera</defName>
-    <label>梅尔的服装</label>
-    <graphicData>
-      <texPath>Things/AK_Agents/GApparel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <apparel>
-      <wornGraphicPath>Things/AK_Agents/Supporter/Mayer</wornGraphicPath>
-    </apparel>
-  </ThingDef>
-  
- 	<ThingDef ParentName="AK_ArmorBase_Supporter">
+	<ThingDef ParentName="AK_ArmorBase_Supporter">
+		<defName>AK_Apparel_Angelina</defName>
+		<label>安洁莉娜的服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Supporter/Angelina</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Supporter">
+		<defName>AK_Apparel_Magallan</defName>
+		<label>麦哲伦的服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Supporter/Magallan</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Supporter">
+		<defName>AK_Apparel_Suzuran</defName>
+		<label>铃兰的服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Supporter/Suzuran</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Supporter">
+		<defName>AK_Apparel_Mayerb</defName>
+		<label>梅尔的服装（无线控装置）</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Supporter/Mayer2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Supporter/Mayer2</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Supporter">
+		<defName>AK_Apparel_Mayera</defName>
+		<label>梅尔的服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Supporter/Mayer</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Supporter">
 		<defName>AK_Apparel_Deepcolor</defName>
 		<label>深海色服装</label>
 		<graphicData>
