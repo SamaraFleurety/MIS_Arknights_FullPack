@@ -219,7 +219,7 @@
 				<description>在经历了童年的那些事之后，无论是内心还是外表，{PAWN_nameDef}都表现的坚如堡垒。
 				</description>
 				<statOffsets>
-					<MentalBreakThreshold>-0.35</MentalBreakThreshold>
+					<MentalBreakThreshold>-0.26</MentalBreakThreshold>
 					<PainShockThreshold>0.15</PainShockThreshold>
 				</statOffsets>
 			</li>
@@ -352,6 +352,8 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<!-- 斥罪 -->
+
 	<TraitDef>
 		<ignoreConfigErrors>true</ignoreConfigErrors>
 		<commonality>0.0</commonality>
@@ -363,7 +365,7 @@
 				但或许对于这些从事法律工作的人来说，不论就职后曾不得已地做过什么，现在使用着什么样的手段，他们一开始的理想总是相同的：捍卫法律应存的正义。
 				</description>
 				<statOffsets>
-					<MentalBreakThreshold>0.35</MentalBreakThreshold>
+					<MentalBreakThreshold>-0.25</MentalBreakThreshold>
 					<SocialImpact>-0.2</SocialImpact>
 				</statOffsets>
 			</li>

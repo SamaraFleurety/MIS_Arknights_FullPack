@@ -66,4 +66,17 @@
 		</stages>
 	</ThoughtDef>
 
+		<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Cliffheart</defName>
+		<requiredTraits><li>AK_Trait_Cliffheart</li></requiredTraits>
+		<stages>
+			<li>
+				<label>登山家的热情</label>
+				<description>好，干劲涌上来了！一口气登上最高峰吧！</description>
+				<baseMoodEffect>18</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+
 </Defs>

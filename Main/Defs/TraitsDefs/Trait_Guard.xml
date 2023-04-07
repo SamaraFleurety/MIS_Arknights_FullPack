@@ -167,7 +167,7 @@
 				<description>有人认为{PAWN_nameDef}是一个十足的战斗狂人，实际阿上，{PAWN_pronoun}在日常中表现得颇为有礼，{PAWN_pronoun}会主动与人攀谈，讲一些有点残酷的黑色笑话，同时观察听者的反应。
 				但即使在{PAWN_pronoun}最放松的时候，{PAWN_pronoun}依旧会令人畏惧。</description>
 				<statOffsets>
-					<MentalBreakThreshold>0.25</MentalBreakThreshold>
+					<MentalBreakThreshold>-0.24</MentalBreakThreshold>
 				</statOffsets>
 			</li>
 		</degreeDatas>
@@ -377,7 +377,7 @@
 				<description>尽管相比堪称天真的羽毛笔来说{PAWN_nameDef}有着更丰富的处事经验，但是{PAWN_pronoun}毕竟还是年轻人，{PAWN_pronoun}依旧会对自己的未来感到迷茫，不过{PAWN_pronoun}总会有办法与时间处理这些问题的。
 				</description>
 				<statOffsets>
-					<MentalBreakThreshold>0.2</MentalBreakThreshold>
+					<MentalBreakThreshold>-0.12</MentalBreakThreshold>
 				</statOffsets>
 			</li>
 		</degreeDatas>
@@ -394,7 +394,7 @@
 				<description>作为一名伊比利亚的审判官，{PAWN_nameDef}的敌人是来自于深海的海嗣，这种特殊的敌人铸就了{PAWN_pronoun}坚韧的精神
 				</description>
 				<statOffsets>
-					<MentalBreakThreshold>-0.45</MentalBreakThreshold>
+					<MentalBreakThreshold>-0.4</MentalBreakThreshold>
 				</statOffsets>
 			</li>
 		</degreeDatas>
@@ -410,6 +410,9 @@
 				<label>胜利女神</label>
 				<description>即使是离开了胜利神殿，成为了一个偏远村庄的小祭司，{PAWN_nameDef}的热情却从未平息过，即使是在小村庄，{PAWN_pronoun}也能通过自己的努力赢得所有人的尊敬
 				</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.22</MentalBreakThreshold>
+				</statOffsets>
 			</li>
 		</degreeDatas>
 	</TraitDef>
