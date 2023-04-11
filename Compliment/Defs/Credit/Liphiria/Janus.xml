@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase">
+		<defName>FS_Recruit_Liphiria</defName>
+		<nickname>Liphiria</nickname>
+		<surname>Ioden</surname>
+		<description>羽烟军队所属，天空学派辉魔术师。会用轰击带来最棒的胜利。</description>
+		<operatorType>AK_OperatorClass_Caster</operatorType>
+		<bodyTypeDef>Thin</bodyTypeDef>		
+		<stand>Credit/Liphiria/LiphiriaStand</stand>
+		<headPortrait>Credit/Liphiria/LiphiriaPortrait</headPortrait>
+		<skills>
+			<li>
+				<skill>Animals</skill>
+				<level>5</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Artistic</skill>
+				<level>17</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Construction</skill>
+				<level>4</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Cooking</skill>
+				<level>4</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Crafting</skill>
+				<level>9</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Intellectual</skill>
+				<level>20</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<level>2</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<level>0</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Mining</skill>
+				<level>4</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Plants</skill>
+				<level>2</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<level>20</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<level>3</level>
+				<fireLevel>1</fireLevel>
+			</li>
+		</skills>
+		<traits>
+			<li>
+				<def>Beauty</def>
+				<degree>2</degree>
+			</li>
+			<li>
+				<def>Tough</def>
+			</li>
+			<li>
+				<def>Psychopath</def>
+			</li>
+			<li>
+				<def>Asexual</def>
+			</li>
+			<li>
+				<def>Transhumanist</def>
+			</li>
+		</traits>
+		<age>22</age>
+		<abilities>
+			<li>AK_Test_ignit</li>
+		</abilities>
+		<standRatio>2</standRatio>
+		<standOffset>(0, 550)</standOffset>
+	</AK_DLL.OperatorDef>
+	
+	<HairDef ParentName="AK_HairBaseF">
+		<defName>FS_Hair_Liphiria</defName>
+		<label>莉菲莉娅发型</label>
+		<texPath>Credit/Liphiria/LiphiHair</texPath>
+	</HairDef>  
+	
+	<ThingDef ParentName="AK_ArmorBase">
+		<defName>FS_Apparel_Liphiria</defName>
+		<label>莉菲莉娅的常服</label>
+		<description>莉菲莉娅经常穿着的华丽的洋装，即使上战场也常常穿着。和看起来一样毫无防御力。</description>
+		<graphicData>
+		  <texPath>Things/AK_Agents/GApparel</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+		  <wornGraphicPath>Credit/Liphiria/Liphiria</wornGraphicPath>
+		</apparel>
+    </ThingDef>
+	
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>FS_BackStory_Liphiria_Child</defName>
+		<slot>Childhood</slot>
+		<title>天空学派辉魔术学生</title>
+		<titleShort>辉术学生</titleShort>
+		<baseDesc>她在小时候时被发现拥有了天赋异禀的辉术能力。由于这种能力在羽烟社会中非常稀有，她被一位德高望重的术师看中，成为了他的亲传学生，开始学习天空学派辉术。</baseDesc>
+	</BackstoryDef>
+	
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>FS_BackStory_Liphiria_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>战场食死徒</title>
+		<titleShort>食死徒</titleShort>
+		<baseDesc>在成年后，她进入了羽烟军队，负责空对空战斗和对地轰击支援，并成为了一名有名的战斗英雄。然而，她有着不寻常的习惯：她会在清扫战场时吃掉敌人的尸体。这让她被称作“食死徒”，并为人所知。她不仅经常被同僚误解和排斥，甚至还因此受到了一些敌对势力的攻击。</baseDesc>
+	</BackstoryDef>
+</Defs>
