@@ -121,6 +121,16 @@ Coming on a whim, the great painter, Dusk, puts only the finishing touches on al
 				<amount>10</amount>
 			</li>
 		</items>
+		<standOffsets>
+			<li>
+				<key>0</key>
+				<value>(10,20,0.5)</value>
+			</li>
+			<li>
+				<key>1</key>
+				<value>(100,200,1.5)</value>
+			</li>
+		</standOffsets>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Caster">
