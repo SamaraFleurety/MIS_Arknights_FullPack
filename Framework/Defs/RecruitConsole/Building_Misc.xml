@@ -57,9 +57,10 @@
         <showAllowAutoRefuelToggle>false</showAllowAutoRefuelToggle>
       </li>
       <li Class="CompProperties_Power">
-        <compClass>CompPowerTrader</compClass>
-        <shortCircuitInRain>true</shortCircuitInRain>
-        <basePowerConsumption>200</basePowerConsumption>
+        <compClass>CompPowerPlant</compClass>
+        <shortCircuitInRain>false</shortCircuitInRain>
+        <basePowerConsumption>-100</basePowerConsumption>
+        <transmitsPower>true</transmitsPower>
       </li>
       <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_Breakdownable"/>
