@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- ==================== AmmoSet ========================== -->
+
+	<!-- Blowgun -->
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_BlowdartBP</defName>
+		<label>blowgun darts</label>
+		<ammoTypes>
+			<Ammo_Dart_Venom>Projectile_Dart_VenomBP</Ammo_Dart_Venom>
+		</ammoTypes>
+	</CombatExtended.AmmoSetDef>
+
+	<!-- ================== Projectiles ================== -->
+
+	<ThingDef ParentName="BaseArrowProjectile">
+		<defName>Projectile_Dart_VenomBP</defName>
+		<label>poison dart</label>
+		<graphicData>
+			<texPath>Things/Projectile/Dart/Dart</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<speed>28</speed>
+			<damageDef>ArrowVenom</damageDef>
+			<damageAmountBase>10</damageAmountBase>
+			<armorPenetrationSharp>5</armorPenetrationSharp>
+			<armorPenetrationBlunt>0.50</armorPenetrationBlunt>
+		</projectile>
+	</ThingDef>
+</Defs>

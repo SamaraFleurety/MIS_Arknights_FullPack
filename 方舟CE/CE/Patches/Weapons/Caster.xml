@@ -1,0 +1,1393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs</xpath>
+		<value>
+			<ThingDef ParentName="BaseBullet">
+				<defName>AK_MagicBullet_BaseCE</defName>
+				<label>法术</label>
+				<graphicData>
+					<texPath>Things/Projectile/MagicOrb</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+				</graphicData>
+				<projectile Class="CombatExtended.ProjectilePropertiesCE">
+					<damageDef>AK_Projectile_Magic</damageDef>
+					<damageAmountBase>15</damageAmountBase>
+					<speed>70</speed>
+				</projectile>
+			</ThingDef>
+
+			<ThingDef ParentName="BaseBullet">
+				<defName>AK_MagicBullet_BaseCEAOE</defName>
+				<label>法术</label>
+				<graphicData>
+					<texPath>Things/Projectile/MagicOrb</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+				</graphicData>
+				<projectile Class="CombatExtended.ProjectilePropertiesCE">
+					<damageDef>AK_Projectile_Magic</damageDef>
+					<damageAmountBase>15</damageAmountBase>
+					<speed>70</speed>
+					<explosionRadius>1.9</explosionRadius>
+					<soundExplode>ThumpCannon_Impact</soundExplode>
+				</projectile>
+			</ThingDef>
+		</value>
+	</Operation>
+
+	<!--========================苦艾==========================-->
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>AK_Weapon_Absinthe</defName>
+		<statBases>
+			<Mass>1.11</Mass>
+			<RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+			<SightsEfficiency>0.7</SightsEfficiency>
+			<ShotSpread>0.1</ShotSpread>
+			<SwayFactor>1</SwayFactor>
+			<Bulk>2.10</Bulk>
+		</statBases>
+		<Properties>
+			<recoilAmount>2.72</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>AK_Bullet_AbsintheCE</defaultProjectile>
+			<warmupTime>0.6</warmupTime>
+			<range>22</range>
+			<soundCast>AK_Sound_Weapon_Absinthe</soundCast>
+			<muzzleFlashScale>9</muzzleFlashScale>
+		</Properties>
+
+		<weaponTags>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+	</Operation>
+
+	<!--改近战tools-->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Absinthe"]/tools</xpath>
+		<value>
+			<tools Inherit = "false">
+				<li Class="CombatExtended.ToolCE">
+					<label>handle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>4</power>
+					<chanceFactor>0.33</chanceFactor>
+					<cooldownTime>1.78</cooldownTime>
+					<armorPenetrationBlunt>1</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>14</power>
+					<cooldownTime>2.55</cooldownTime>
+					<armorPenetrationBlunt>6</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<!--增加CE投射物-->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs</xpath>
+		<value>
+			<ThingDef ParentName="BaseBullet">
+				<defName>AK_Bullet_AbsintheCE</defName>
+				<label>法术</label>
+				<graphicData>
+					<texPath>Things/Projectile/MagicOrb</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+				</graphicData>
+				<projectile Class="CombatExtended.ProjectilePropertiesCE">
+					<damageDef>Bullet</damageDef>
+					<damageAmountBase>14</damageAmountBase>
+					<speed>50</speed>
+					<armorPenetrationBlunt>2.29</armorPenetrationBlunt>
+					<armorPenetrationSharp>5.1</armorPenetrationSharp>
+					<extraDamages>
+						<li>
+							<def>Flame</def>
+							<amount>8</amount>
+						</li>
+					</extraDamages>
+				</projectile>
+			</ThingDef>
+		</value>
+	</Operation>
+
+	<!--========================小火龙==========================-->
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>AK_Weapon_Ifrit</defName>
+		<statBases>
+			<Mass>1.11</Mass>
+			<RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+			<SightsEfficiency>0.7</SightsEfficiency>
+			<ShotSpread>0.1</ShotSpread>
+			<SwayFactor>1</SwayFactor>
+			<Bulk>2.10</Bulk>
+		</statBases>
+		<Properties>
+			<recoilAmount>2.72</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>AK_Bullet_IfritCE</defaultProjectile>
+			<warmupTime>0.6</warmupTime>
+			<range>22</range>
+			<soundCast>AK_Sound_Weapon_Ifrit</soundCast>
+			<muzzleFlashScale>9</muzzleFlashScale>
+			<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+			<burstShotCount>3</burstShotCount>
+		</Properties>
+
+		<weaponTags>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs</xpath>
+		<value>
+			<ThingDef ParentName="BaseBullet">
+				<defName>AK_Bullet_IfritCE</defName>
+				<label>法术</label>
+				<graphicData>
+					<texPath>Things/Projectile/Flame_CE</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+					<shaderType>TransparentPostLight</shaderType>
+				</graphicData>
+				<projectile Class="CombatExtended.ProjectilePropertiesCE">
+					<damageDef>AK_Projectile_Magic</damageDef>
+					<damageAmountBase>14</damageAmountBase>
+					<speed>50</speed>
+					<armorPenetrationBlunt>2.29</armorPenetrationBlunt>
+					<armorPenetrationSharp>5.1</armorPenetrationSharp>
+					<extraDamages>
+						<li>
+							<def>Flame</def>
+							<amount>8</amount>
+						</li>
+					</extraDamages>
+				</projectile>
+			</ThingDef>
+		</value>
+	</Operation>
+
+	<!--改近战tools-->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Ifrit"]/tools</xpath>
+		<value>
+			<tools Inherit = "false">
+				<li Class="CombatExtended.ToolCE">
+					<label>handle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>4</power>
+					<chanceFactor>0.33</chanceFactor>
+					<cooldownTime>1.78</cooldownTime>
+					<armorPenetrationBlunt>1</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>14</power>
+					<cooldownTime>2.55</cooldownTime>
+					<armorPenetrationBlunt>6</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<!--========================小驴子==========================-->
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>AK_Weapon_Amiya</defName>
+		<statBases>
+			<Mass>1.11</Mass>
+			<RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+			<SightsEfficiency>0.7</SightsEfficiency>
+			<ShotSpread>0.1</ShotSpread>
+			<SwayFactor>1</SwayFactor>
+			<Bulk>2.10</Bulk>
+		</statBases>
+		<Properties>
+			<recoilAmount>2.72</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>AK_MagicBullet_BaseCE</defaultProjectile>
+			<warmupTime>0.6</warmupTime>
+			<range>22</range>
+			<soundCast>AK_Sound_Weapon_Amiya</soundCast>
+			<muzzleFlashScale>9</muzzleFlashScale>
+		</Properties>
+
+		<weaponTags>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+	</Operation>
+
+	<!--改近战tools-->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Amiya"]/tools</xpath>
+		<value>
+			<tools Inherit = "false">
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>4</power>
+					<chanceFactor>0.33</chanceFactor>
+					<cooldownTime>1.78</cooldownTime>
+					<extraMeleeDamages>
+						<li>
+							<def>Flame</def>
+							<amount>8</amount>
+						</li>
+					</extraMeleeDamages>
+					<armorPenetrationBlunt>1</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<!--========================很傻的狗==========================-->
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>AK_Weapon_CeobeTypeA</defName>
+		<statBases>
+			<Mass>1.11</Mass>
+			<RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+			<SightsEfficiency>0.7</SightsEfficiency>
+			<ShotSpread>0.1</ShotSpread>
+			<SwayFactor>1</SwayFactor>
+			<Bulk>2.10</Bulk>
+		</statBases>
+		<Properties>
+			<recoilAmount>2.72</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>AK_MagicBullet_BaseCE</defaultProjectile>
+			<warmupTime>0.6</warmupTime>
+			<range>22</range>
+			<soundCast>AK_Sound_Weapon_CeobeA</soundCast>
+			<muzzleFlashScale>9</muzzleFlashScale>
+		</Properties>
+
+		<weaponTags>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+	</Operation>
+
+	<!--改近战tools-->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_CeobeTypeA"]/tools</xpath>
+		<value>
+			<tools Inherit = "false">
+				<li Class="CombatExtended.ToolCE">
+					<label>handle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>4</power>
+					<chanceFactor>0.33</chanceFactor>
+					<cooldownTime>1.78</cooldownTime>
+					<armorPenetrationBlunt>1</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>14</power>
+					<cooldownTime>2.55</cooldownTime>
+					<armorPenetrationBlunt>6</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>AK_Weapon_CeobeTypeB</defName>
+		<statBases>
+			<Mass>1.11</Mass>
+			<RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+			<SightsEfficiency>0.7</SightsEfficiency>
+			<ShotSpread>0.1</ShotSpread>
+			<SwayFactor>1</SwayFactor>
+			<Bulk>2.10</Bulk>
+		</statBases>
+		<Properties>
+			<recoilAmount>2.72</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>AK_MagicBullet_BaseCE</defaultProjectile>
+			<warmupTime>0.6</warmupTime>
+			<range>22</range>
+			<soundCast>AK_Sound_Weapon_CeobeB</soundCast>
+			<muzzleFlashScale>9</muzzleFlashScale>
+		</Properties>
+
+		<weaponTags>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+	</Operation>
+
+	<!--改近战tools-->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_CeobeTypeB"]</xpath>
+		<value>
+			<tools Inherit = "false">
+				<li Class="CombatExtended.ToolCE">
+					<label>handle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>4</power>
+					<chanceFactor>0.33</chanceFactor>
+					<cooldownTime>1.78</cooldownTime>
+					<armorPenetrationBlunt>1</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>14</power>
+					<cooldownTime>2.55</cooldownTime>
+					<armorPenetrationBlunt>6</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>AK_Weapon_CeobeTypeC</defName>
+		<statBases>
+			<Mass>1.11</Mass>
+			<RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+			<SightsEfficiency>0.7</SightsEfficiency>
+			<ShotSpread>0.1</ShotSpread>
+			<SwayFactor>1</SwayFactor>
+			<Bulk>2.10</Bulk>
+		</statBases>
+		<Properties>
+			<recoilAmount>2.72</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>AK_MagicBullet_BaseCE</defaultProjectile>
+			<warmupTime>0.6</warmupTime>
+			<range>22</range>
+			<soundCast>AK_Sound_Weapon_CeobeC</soundCast>
+			<muzzleFlashScale>9</muzzleFlashScale>
+		</Properties>
+
+		<weaponTags>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+	</Operation>
+
+	<!--改近战tools-->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_CeobeTypeC"]</xpath>
+		<value>
+			<tools Inherit = "false">
+				<li Class="CombatExtended.ToolCE">
+					<label>handle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>4</power>
+					<chanceFactor>0.33</chanceFactor>
+					<cooldownTime>1.78</cooldownTime>
+					<armorPenetrationBlunt>1</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>14</power>
+					<cooldownTime>2.55</cooldownTime>
+					<armorPenetrationBlunt>6</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>AK_Weapon_CeobeTypeD</defName>
+		<statBases>
+			<Mass>1.11</Mass>
+			<RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+			<SightsEfficiency>0.7</SightsEfficiency>
+			<ShotSpread>0.1</ShotSpread>
+			<SwayFactor>1</SwayFactor>
+			<Bulk>2.10</Bulk>
+		</statBases>
+		<Properties>
+			<recoilAmount>2.72</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>AK_MagicBullet_BaseCE</defaultProjectile>
+			<warmupTime>0.6</warmupTime>
+			<range>22</range>
+			<soundCast>AK_Sound_Weapon_CeobeD</soundCast>
+			<muzzleFlashScale>9</muzzleFlashScale>
+		</Properties>
+
+		<weaponTags>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+	</Operation>
+
+	<!--改近战tools-->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_CeobeTypeD"]</xpath>
+		<value>
+			<tools Inherit = "false">
+				<li Class="CombatExtended.ToolCE">
+					<label>handle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>4</power>
+					<chanceFactor>0.33</chanceFactor>
+					<cooldownTime>1.78</cooldownTime>
+					<armorPenetrationBlunt>1</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>14</power>
+					<cooldownTime>2.55</cooldownTime>
+					<armorPenetrationBlunt>6</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<!--========================夕==========================-->
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>AK_Weapon_Dusk</defName>
+		<statBases>
+			<Mass>1.11</Mass>
+			<RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+			<SightsEfficiency>0.7</SightsEfficiency>
+			<ShotSpread>0.1</ShotSpread>
+			<SwayFactor>1</SwayFactor>
+			<Bulk>2.10</Bulk>
+		</statBases>
+		<Properties>
+			<recoilAmount>2.72</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>AK_MagicBullet_BaseCEAOE</defaultProjectile>
+			<warmupTime>1.6</warmupTime>
+			<range>55</range>
+			<soundCast>AK_Sound_Weapon_Dusk</soundCast>
+			<muzzleFlashScale>9</muzzleFlashScale>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+		</Properties>
+
+		<weaponTags>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+	</Operation>
+
+	<!--改近战tools-->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Dusk"]/tools</xpath>
+		<value>
+			<tools Inherit = "false">
+				<li Class="CombatExtended.ToolCE">
+					<label>handle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>2</power>
+					<chanceFactor>0.33</chanceFactor>
+					<cooldownTime>1.44</cooldownTime>
+					<armorPenetrationBlunt>0.425</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>point</label>
+					<capacities>
+						<li>Stab</li>
+					</capacities>
+					<power>27</power>
+					<cooldownTime>1.44</cooldownTime>
+					<armorPenetrationBlunt>0.425</armorPenetrationBlunt>
+					<armorPenetrationSharp>10.48</armorPenetrationSharp>
+					<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>edge</label>
+					<capacities>
+						<li>Cut</li>
+					</capacities>
+					<power>20</power>
+					<cooldownTime>1.34</cooldownTime>
+					<armorPenetrationBlunt>0.956</armorPenetrationBlunt>
+					<armorPenetrationSharp>5.43</armorPenetrationSharp>
+					<linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<!--========================薄绿==========================-->
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>AK_Weapon_Mint</defName>
+		<statBases>
+			<Mass>1.11</Mass>
+			<RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+			<SightsEfficiency>0.7</SightsEfficiency>
+			<ShotSpread>0.1</ShotSpread>
+			<SwayFactor>1</SwayFactor>
+			<Bulk>2.10</Bulk>
+		</statBases>
+		<Properties>
+			<recoilAmount>2.72</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>AK_MagicBullet_BaseCE</defaultProjectile>
+			<warmupTime>0.6</warmupTime>
+			<range>22</range>
+			<soundCast>Shot_ChargeRifle</soundCast>
+			<muzzleFlashScale>9</muzzleFlashScale>
+		</Properties>
+
+		<weaponTags>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+	</Operation>
+
+	<!--改近战tools-->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Mint"]/tools</xpath>
+		<value>
+			<tools Inherit = "false">
+				<li Class="CombatExtended.ToolCE">
+					<label>handle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>4</power>
+					<chanceFactor>0.33</chanceFactor>
+					<cooldownTime>1.78</cooldownTime>
+					<armorPenetrationBlunt>1</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>14</power>
+					<cooldownTime>2.55</cooldownTime>
+					<armorPenetrationBlunt>6</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>AK_Weapon_MintTypeB</defName>
+		<statBases>
+			<Mass>1.11</Mass>
+			<RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+			<SightsEfficiency>0.7</SightsEfficiency>
+			<ShotSpread>0.1</ShotSpread>
+			<SwayFactor>1</SwayFactor>
+			<Bulk>2.10</Bulk>
+		</statBases>
+		<Properties>
+			<recoilAmount>2.72</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>AK_MagicBullet_BaseCE</defaultProjectile>
+			<warmupTime>0.6</warmupTime>
+			<range>22</range>
+			<soundCast>Shot_ChargeRifle</soundCast>
+			<muzzleFlashScale>9</muzzleFlashScale>
+		</Properties>
+
+		<weaponTags>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+	</Operation>
+
+	<!--改近战tools-->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_MintTypeB"]/tools</xpath>
+		<value>
+			<tools Inherit = "false">
+				<li Class="CombatExtended.ToolCE">
+					<label>handle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>4</power>
+					<chanceFactor>0.33</chanceFactor>
+					<cooldownTime>1.78</cooldownTime>
+					<armorPenetrationBlunt>1</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>14</power>
+					<cooldownTime>2.55</cooldownTime>
+					<armorPenetrationBlunt>6</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<!--========================莫斯提玛==========================-->
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>AK_Weapon_MostimaTypeA</defName>
+		<statBases>
+			<Mass>1.11</Mass>
+			<RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+			<SightsEfficiency>0.7</SightsEfficiency>
+			<ShotSpread>0.1</ShotSpread>
+			<SwayFactor>1</SwayFactor>
+			<Bulk>2.10</Bulk>
+		</statBases>
+		<Properties>
+			<recoilAmount>2.72</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>AK_MagicBullet_BaseCEAOE</defaultProjectile>
+			<warmupTime>1.6</warmupTime>
+			<range>55</range>
+			<soundCast>AK_Sound_Weapon_MostimaC</soundCast>
+			<muzzleFlashScale>9</muzzleFlashScale>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+		</Properties>
+
+		<weaponTags>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+	</Operation>
+
+	<!--改近战tools-->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_MostimaTypeA"]/tools</xpath>
+		<value>
+			<tools Inherit = "false">
+				<li Class="CombatExtended.ToolCE">
+					<label>handle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>4</power>
+					<chanceFactor>0.33</chanceFactor>
+					<cooldownTime>1.78</cooldownTime>
+					<armorPenetrationBlunt>1</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>14</power>
+					<cooldownTime>2.55</cooldownTime>
+					<armorPenetrationBlunt>6</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>AK_Weapon_MostimaTypeB</defName>
+		<statBases>
+			<Mass>1.11</Mass>
+			<RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+			<SightsEfficiency>0.7</SightsEfficiency>
+			<ShotSpread>0.1</ShotSpread>
+			<SwayFactor>1</SwayFactor>
+			<Bulk>2.10</Bulk>
+		</statBases>
+		<Properties>
+			<recoilAmount>2.72</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>AK_MagicBullet_BaseCEAOE</defaultProjectile>
+			<warmupTime>1.6</warmupTime>
+			<range>55</range>
+			<soundCast>AK_Sound_Weapon_MostimaC</soundCast>
+			<muzzleFlashScale>9</muzzleFlashScale>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+		</Properties>
+
+		<weaponTags>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+	</Operation>
+
+	<!--改近战tools-->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_MostimaTypeB"]</xpath>
+		<value>
+			<tools Inherit = "false">
+				<li Class="CombatExtended.ToolCE">
+					<label>handle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>4</power>
+					<chanceFactor>0.33</chanceFactor>
+					<cooldownTime>1.78</cooldownTime>
+					<armorPenetrationBlunt>1</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>14</power>
+					<cooldownTime>2.55</cooldownTime>
+					<armorPenetrationBlunt>6</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>AK_Weapon_MostimaTypeC</defName>
+		<statBases>
+			<Mass>1.11</Mass>
+			<RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+			<SightsEfficiency>0.7</SightsEfficiency>
+			<ShotSpread>0.1</ShotSpread>
+			<SwayFactor>1</SwayFactor>
+			<Bulk>2.10</Bulk>
+		</statBases>
+		<Properties>
+			<recoilAmount>2.72</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>AK_MagicBullet_BaseCEAOE</defaultProjectile>
+			<warmupTime>1.6</warmupTime>
+			<range>55</range>
+			<soundCast>AK_Sound_Weapon_MostimaC</soundCast>
+			<muzzleFlashScale>9</muzzleFlashScale>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+		</Properties>
+
+		<weaponTags>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+	</Operation>
+
+	<!--改近战tools-->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_MostimaTypeC"]/tools</xpath>
+		<value>
+			<tools Inherit = "false">
+				<li Class="CombatExtended.ToolCE">
+					<label>handle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>4</power>
+					<chanceFactor>0.33</chanceFactor>
+					<cooldownTime>1.78</cooldownTime>
+					<armorPenetrationBlunt>1</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>14</power>
+					<cooldownTime>2.55</cooldownTime>
+					<armorPenetrationBlunt>6</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<!--========================天火==========================-->
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>AK_Weapon_Skyfire</defName>
+		<statBases>
+			<Mass>1.11</Mass>
+			<RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+			<SightsEfficiency>0.7</SightsEfficiency>
+			<ShotSpread>0.1</ShotSpread>
+			<SwayFactor>1</SwayFactor>
+			<Bulk>2.10</Bulk>
+		</statBases>
+		<Properties>
+			<recoilAmount>2.72</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>AK_MagicBullet_BaseCEAOE</defaultProjectile>
+			<warmupTime>1.6</warmupTime>
+			<range>55</range>
+			<soundCast>AK_Sound_Weapon_Skyfire</soundCast>
+			<muzzleFlashScale>9</muzzleFlashScale>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+		</Properties>
+
+		<weaponTags>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+	</Operation>
+
+	<!--改近战tools-->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Skyfire"]/tools</xpath>
+		<value>
+			<tools Inherit = "false">
+				<li Class="CombatExtended.ToolCE">
+					<label>handle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>4</power>
+					<chanceFactor>0.33</chanceFactor>
+					<cooldownTime>1.78</cooldownTime>
+					<armorPenetrationBlunt>1</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>14</power>
+					<cooldownTime>2.55</cooldownTime>
+					<armorPenetrationBlunt>6</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<!--========================羊==========================-->
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>AK_Weapon_Eyjafjalla</defName>
+		<statBases>
+			<Mass>1.11</Mass>
+			<RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+			<SightsEfficiency>0.7</SightsEfficiency>
+			<ShotSpread>0.1</ShotSpread>
+			<SwayFactor>1</SwayFactor>
+			<Bulk>2.10</Bulk>
+		</statBases>
+		<Properties>
+			<recoilAmount>2.72</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>AK_MagicBullet_BaseCE</defaultProjectile>
+			<warmupTime>0.6</warmupTime>
+			<range>22</range>
+			<soundCast>AK_Sound_Weapon_Eyjafjalla</soundCast>
+			<muzzleFlashScale>9</muzzleFlashScale>
+		</Properties>
+
+		<weaponTags>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+	</Operation>
+
+	<!--改近战tools-->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Eyjafjalla"]/tools</xpath>
+		<value>
+			<tools Inherit = "false">
+				<li Class="CombatExtended.ToolCE">
+					<label>handle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>4</power>
+					<chanceFactor>0.33</chanceFactor>
+					<cooldownTime>1.78</cooldownTime>
+					<armorPenetrationBlunt>1</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>14</power>
+					<cooldownTime>2.55</cooldownTime>
+					<armorPenetrationBlunt>6</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<!--========================卡子姐==========================-->
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>AK_Weapon_Carnelian</defName>
+		<statBases>
+			<Mass>1.11</Mass>
+			<RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+			<SightsEfficiency>0.7</SightsEfficiency>
+			<ShotSpread>0.1</ShotSpread>
+			<SwayFactor>1</SwayFactor>
+			<Bulk>2.10</Bulk>
+		</statBases>
+		<Properties>
+			<recoilAmount>2.72</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>AK_MagicBullet_BaseCE</defaultProjectile>
+			<warmupTime>0.6</warmupTime>
+			<range>22</range>
+			<soundCast>AK_Sound_Weapon_Eyjafjalla</soundCast>
+			<muzzleFlashScale>9</muzzleFlashScale>
+		</Properties>
+
+		<weaponTags>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+	</Operation>
+
+	<!--改近战tools-->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Carnelian"]/tools</xpath>
+		<value>
+			<tools Inherit = "false">
+				<li Class="CombatExtended.ToolCE">
+					<label>handle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>2</power>
+					<chanceFactor>0.33</chanceFactor>
+					<cooldownTime>1.44</cooldownTime>
+					<armorPenetrationBlunt>0.425</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>point</label>
+					<capacities>
+						<li>Stab</li>
+					</capacities>
+					<power>27</power>
+					<cooldownTime>1.44</cooldownTime>
+					<armorPenetrationBlunt>0.425</armorPenetrationBlunt>
+					<armorPenetrationSharp>10.48</armorPenetrationSharp>
+					<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>edge</label>
+					<capacities>
+						<li>Cut</li>
+					</capacities>
+					<power>20</power>
+					<cooldownTime>1.34</cooldownTime>
+					<armorPenetrationBlunt>0.956</armorPenetrationBlunt>
+					<armorPenetrationSharp>5.43</armorPenetrationSharp>
+					<linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<!--========================蜜蜡==========================-->
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>AK_Weapon_Beeswax</defName>
+		<statBases>
+			<Mass>1.11</Mass>
+			<RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+			<SightsEfficiency>0.7</SightsEfficiency>
+			<ShotSpread>0.1</ShotSpread>
+			<SwayFactor>1</SwayFactor>
+			<Bulk>2.10</Bulk>
+		</statBases>
+		<Properties>
+			<recoilAmount>2.72</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>AK_MagicBullet_BaseCE</defaultProjectile>
+			<warmupTime>0.6</warmupTime>
+			<range>22</range>
+			<soundCast>Shot_ChargeRifle</soundCast>
+			<muzzleFlashScale>9</muzzleFlashScale>
+		</Properties>
+
+		<weaponTags>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+	</Operation>
+
+	<!--改近战tools-->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Beeswax"]/tools</xpath>
+		<value>
+			<tools Inherit = "false">
+				<li Class="CombatExtended.ToolCE">
+					<label>handle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>4</power>
+					<chanceFactor>0.33</chanceFactor>
+					<cooldownTime>1.78</cooldownTime>
+					<armorPenetrationBlunt>1</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>14</power>
+					<cooldownTime>2.55</cooldownTime>
+					<armorPenetrationBlunt>6</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<!--========================深靛==========================-->
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>AK_Weapon_Indigo</defName>
+		<statBases>
+			<Mass>1.11</Mass>
+			<RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+			<SightsEfficiency>0.7</SightsEfficiency>
+			<ShotSpread>0.1</ShotSpread>
+			<SwayFactor>1</SwayFactor>
+			<Bulk>2.10</Bulk>
+		</statBases>
+		<Properties>
+			<recoilAmount>2.72</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>AK_MagicBullet_BaseCE</defaultProjectile>
+			<warmupTime>0.6</warmupTime>
+			<range>22</range>
+			<soundCast>AK_Sound_Weapon_Indigo</soundCast>
+			<muzzleFlashScale>9</muzzleFlashScale>
+		</Properties>
+
+		<weaponTags>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+	</Operation>
+
+	<!--改近战tools-->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Indigo"]/tools</xpath>
+		<value>
+			<tools Inherit = "false">
+				<li Class="CombatExtended.ToolCE">
+					<label>handle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>4</power>
+					<chanceFactor>0.33</chanceFactor>
+					<cooldownTime>1.78</cooldownTime>
+					<armorPenetrationBlunt>1</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>14</power>
+					<cooldownTime>2.55</cooldownTime>
+					<armorPenetrationBlunt>6</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<!--========================澄闪==========================-->
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>AK_Weapon_Goldenglow</defName>
+		<statBases>
+			<Mass>1.11</Mass>
+			<RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+			<SightsEfficiency>0.7</SightsEfficiency>
+			<ShotSpread>0.1</ShotSpread>
+			<SwayFactor>1</SwayFactor>
+			<Bulk>2.10</Bulk>
+		</statBases>
+		<Properties>
+			<recoilAmount>2.72</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>AK_MagicBullet_BaseCE</defaultProjectile>
+			<warmupTime>0.6</warmupTime>
+			<range>22</range>
+			<soundCast>AK_Sound_Weapon_Goldenglow</soundCast>
+			<muzzleFlashScale>9</muzzleFlashScale>
+		</Properties>
+
+		<weaponTags>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+	</Operation>
+
+	<!--改近战tools-->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Goldenglow"]/tools</xpath>
+		<value>
+			<tools Inherit = "false">
+				<li Class="CombatExtended.ToolCE">
+					<label>handle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>4</power>
+					<chanceFactor>0.33</chanceFactor>
+					<cooldownTime>1.78</cooldownTime>
+					<armorPenetrationBlunt>1</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>14</power>
+					<cooldownTime>2.55</cooldownTime>
+					<armorPenetrationBlunt>6</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<!--========================特米米==========================-->
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>AK_Weapon_Tomimi</defName>
+		<statBases>
+			<Mass>1.11</Mass>
+			<RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+			<SightsEfficiency>0.7</SightsEfficiency>
+			<ShotSpread>0.1</ShotSpread>
+			<SwayFactor>1</SwayFactor>
+			<Bulk>2.10</Bulk>
+		</statBases>
+		<Properties>
+			<recoilAmount>2.72</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>AK_MagicBullet_BaseCE</defaultProjectile>
+			<warmupTime>0.6</warmupTime>
+			<range>22</range>
+			<soundCast>Shot_ChargeRifle</soundCast>
+			<muzzleFlashScale>9</muzzleFlashScale>
+		</Properties>
+
+		<weaponTags>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Tomimi"]/tools</xpath>
+		<value>
+			<tools Inherit = "false">
+				<li Class="CombatExtended.ToolCE">
+					<label>handle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>2</power>
+					<chanceFactor>0.33</chanceFactor>
+					<cooldownTime>1.44</cooldownTime>
+					<armorPenetrationBlunt>0.425</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>22</power>
+					<cooldownTime>2.36</cooldownTime>
+					<armorPenetrationBlunt>11.76</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<!--========================冈门==========================-->
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>AK_Weapon_Kjera</defName>
+		<statBases>
+			<Mass>1.11</Mass>
+			<RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+			<SightsEfficiency>0.7</SightsEfficiency>
+			<ShotSpread>0.1</ShotSpread>
+			<SwayFactor>1</SwayFactor>
+			<Bulk>2.10</Bulk>
+		</statBases>
+		<Properties>
+			<recoilAmount>2.72</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>AK_MagicBullet_BaseCE</defaultProjectile>
+			<warmupTime>0.6</warmupTime>
+			<range>22</range>
+			<soundCast>AK_Sound_Weapon_Kjera</soundCast>
+			<muzzleFlashScale>9</muzzleFlashScale>
+		</Properties>
+
+		<weaponTags>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+	</Operation>
+
+	<!--改近战tools-->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Kjera"]/tools</xpath>
+		<value>
+			<tools Inherit = "false">
+				<li Class="CombatExtended.ToolCE">
+					<label>handle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>4</power>
+					<chanceFactor>0.33</chanceFactor>
+					<cooldownTime>1.78</cooldownTime>
+					<armorPenetrationBlunt>1</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>14</power>
+					<cooldownTime>2.55</cooldownTime>
+					<armorPenetrationBlunt>6</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<!--========================星源==========================-->
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>AK_Weapon_Astgenne</defName>
+		<statBases>
+			<Mass>1.11</Mass>
+			<RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+			<SightsEfficiency>0.7</SightsEfficiency>
+			<ShotSpread>0.1</ShotSpread>
+			<SwayFactor>1</SwayFactor>
+			<Bulk>2.10</Bulk>
+		</statBases>
+		<Properties>
+			<recoilAmount>2.72</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>AK_MagicBullet_BaseCE</defaultProjectile>
+			<warmupTime>0.6</warmupTime>
+			<range>22</range>
+			<soundCast>AK_Sound_Weapon_Astgenne</soundCast>
+			<muzzleFlashScale>9</muzzleFlashScale>
+		</Properties>
+
+		<weaponTags>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+	</Operation>
+
+	<!--改近战tools-->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Astgenne"]/tools</xpath>
+		<value>
+			<tools Inherit = "false">
+				<li Class="CombatExtended.ToolCE">
+					<label>handle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>4</power>
+					<chanceFactor>0.33</chanceFactor>
+					<cooldownTime>1.78</cooldownTime>
+					<armorPenetrationBlunt>1</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>14</power>
+					<cooldownTime>2.55</cooldownTime>
+					<armorPenetrationBlunt>6</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+</Patch>

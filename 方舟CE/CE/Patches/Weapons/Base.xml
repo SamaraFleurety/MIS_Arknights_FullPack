@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[@Name="AK_WeaponBase_Ranged"]/verbs</xpath>
+		<match Class="PatchOperationRemove">
+			<xpath>Defs/ThingDef[@Name="AK_WeaponBase_Ranged"]/verbs</xpath>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[@Name="AK_WeaponBase_Rifle"]/verbs</xpath>
+		<match Class="PatchOperationRemove">
+			<xpath>Defs/ThingDef[@Name="AK_WeaponBase_Rifle"]/verbs</xpath>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[@Name="AK_WeaponBase_Bow"]/verbs</xpath>
+		<match Class="PatchOperationRemove">
+			<xpath>Defs/ThingDef[@Name="AK_WeaponBase_Bow"]/verbs</xpath>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[@Name="AK_WeaponBase_Magic"]/verbs</xpath>
+		<match Class="PatchOperationRemove">
+			<xpath>Defs/ThingDef[@Name="AK_WeaponBase_Magic"]/verbs</xpath>
+		</match>
+	</Operation>
+</Patch>

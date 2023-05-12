@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!--
+	反正咱没星极之分，同一小职业的干员数据差不多
+	这个的目的是为了还原游戏内定位，而非真实性
+	-->
+
+	<!-- ==================== AmmoSet ========================== -->
+
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_AKCrossbowBoltHeavy</defName>
+		<label>heavy sniper operator</label>
+		<ammoTypes>
+			<Ammo_CrossbowBolt_Stone>Projectile_AKCrossbowBoltHeavy_Stone</Ammo_CrossbowBolt_Stone>
+			<Ammo_CrossbowBolt_Steel>Projectile_AKCrossbowBoltHeavy_Steel</Ammo_CrossbowBolt_Steel>
+			<Ammo_CrossbowBolt_Plasteel>Projectile_AKCrossbowBoltHeavy_Plasteel</Ammo_CrossbowBolt_Plasteel>
+			<Ammo_CrossbowBolt_Venom>Projectile_AKCrossbowBoltHeavy_Venom</Ammo_CrossbowBolt_Venom>
+			<Ammo_CrossbowBolt_Flame>Projectile_CrossbowBolt_Flame</Ammo_CrossbowBolt_Flame>
+		</ammoTypes>
+	</CombatExtended.AmmoSetDef>
+
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_AKCrossbowBolt</defName>
+		<label>heavy operator</label>
+		<ammoTypes>
+			<Ammo_CrossbowBolt_Stone>Projectile_AKCrossbowBolt_Stone</Ammo_CrossbowBolt_Stone>
+			<Ammo_CrossbowBolt_Steel>Projectile_AKCrossbowBolt_Steel</Ammo_CrossbowBolt_Steel>
+			<Ammo_CrossbowBolt_Plasteel>Projectile_AKCrossbowBolt_Plasteel</Ammo_CrossbowBolt_Plasteel>
+			<Ammo_CrossbowBolt_Venom>Projectile_AKCrossbowBolt_Venom</Ammo_CrossbowBolt_Venom>
+			<Ammo_CrossbowBolt_Flame>Projectile_CrossbowBolt_Flame</Ammo_CrossbowBolt_Flame>
+		</ammoTypes>
+	</CombatExtended.AmmoSetDef>
+
+	<!-- ================== Projectiles ================== -->
+
+	<ThingDef ParentName="BaseCrossbowBoltProjectile">
+		<defName>Projectile_AKCrossbowBoltHeavy_Stone</defName>
+		<label>crossbow bolt (stone)</label>
+		<graphicData>
+			<texPath>Things/Projectile/Arrows/Arrow_Stone</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<speed>44</speed>
+			<damageAmountBase>16</damageAmountBase>
+			<armorPenetrationBlunt>1</armorPenetrationBlunt>
+			<armorPenetrationSharp>10</armorPenetrationSharp>
+			<!--能对海盗造成威胁-->
+			<preExplosionSpawnChance>0.1</preExplosionSpawnChance>
+			<preExplosionSpawnThingDef>Ammo_CrossbowBolt_Stone</preExplosionSpawnThingDef>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseCrossbowBoltProjectile">
+		<defName>Projectile_AKCrossbowBoltHeavy_Steel</defName>
+		<label>crossbow bolt (steel)</label>
+		<graphicData>
+			<texPath>Things/Projectile/Arrows/Arrow_Steel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<speed>44</speed>
+			<damageAmountBase>30</damageAmountBase>
+			<armorPenetrationBlunt>6.5</armorPenetrationBlunt>
+			<!--能对防弹背心造成大威胁-->
+			<armorPenetrationSharp>18</armorPenetrationSharp>
+			<preExplosionSpawnChance>0.333</preExplosionSpawnChance>
+			<preExplosionSpawnThingDef>Ammo_CrossbowBolt_Steel</preExplosionSpawnThingDef>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseCrossbowBoltProjectile">
+		<defName>Projectile_AKCrossbowBoltHeavy_Plasteel</defName>
+		<label>crossbow bolt (plasteel)</label>
+		<graphicData>
+			<texPath>Things/Projectile/Arrows/Arrow_Plasteel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<speed>60</speed>
+			<damageAmountBase>44</damageAmountBase>
+			<armorPenetrationBlunt>5.12</armorPenetrationBlunt>
+			<!--能对动力甲造成大威胁-->
+			<armorPenetrationSharp>33</armorPenetrationSharp>
+			<preExplosionSpawnChance>0.6</preExplosionSpawnChance>
+			<preExplosionSpawnThingDef>Ammo_CrossbowBolt_Plasteel</preExplosionSpawnThingDef>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseCrossbowBoltProjectile">
+		<defName>Projectile_AKCrossbowBoltHeavy_Venom</defName>
+		<label>crossbow bolt (venom)</label>
+		<graphicData>
+			<texPath>Things/Projectile/Arrows/Arrow_Venom</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<speed>44</speed>
+			<damageDef>ArrowVenom</damageDef>
+			<damageAmountBase>20</damageAmountBase>
+			<armorPenetrationBlunt>6.5</armorPenetrationBlunt>
+			<armorPenetrationSharp>6</armorPenetrationSharp>
+			<preExplosionSpawnChance>0.6</preExplosionSpawnChance>
+			<preExplosionSpawnThingDef>Ammo_CrossbowBolt_Steel</preExplosionSpawnThingDef>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseCrossbowBoltProjectile">
+		<defName>Projectile_AKCrossbowBolt_Stone</defName>
+		<label>crossbow bolt (stone)</label>
+		<graphicData>
+			<texPath>Things/Projectile/Arrows/Arrow_Stone</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<speed>44</speed>
+			<damageAmountBase>15</damageAmountBase>
+			<armorPenetrationBlunt>1</armorPenetrationBlunt>
+			<armorPenetrationSharp>6</armorPenetrationSharp>
+			<!--能对普通海盗造成威胁-->
+			<preExplosionSpawnChance>0.1</preExplosionSpawnChance>
+			<preExplosionSpawnThingDef>Ammo_CrossbowBolt_Stone</preExplosionSpawnThingDef>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseCrossbowBoltProjectile">
+		<defName>Projectile_AKCrossbowBolt_Steel</defName>
+		<label>crossbow bolt (steel)</label>
+		<graphicData>
+			<texPath>Things/Projectile/Arrows/Arrow_Steel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<speed>44</speed>
+			<damageAmountBase>24</damageAmountBase>
+			<armorPenetrationBlunt>6.5</armorPenetrationBlunt>
+			<!--能对防弹背心造成威胁-->
+			<armorPenetrationSharp>12</armorPenetrationSharp>
+			<preExplosionSpawnChance>0.333</preExplosionSpawnChance>
+			<preExplosionSpawnThingDef>Ammo_CrossbowBolt_Steel</preExplosionSpawnThingDef>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseCrossbowBoltProjectile">
+		<defName>Projectile_AKCrossbowBolt_Plasteel</defName>
+		<label>crossbow bolt (plasteel)</label>
+		<graphicData>
+			<texPath>Things/Projectile/Arrows/Arrow_Plasteel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<speed>60</speed>
+			<damageAmountBase>36</damageAmountBase>
+			<armorPenetrationBlunt>5.12</armorPenetrationBlunt>
+			<!--能对动力甲造成威胁-->
+			<armorPenetrationSharp>24</armorPenetrationSharp>
+			<preExplosionSpawnChance>0.6</preExplosionSpawnChance>
+			<preExplosionSpawnThingDef>Ammo_CrossbowBolt_Plasteel</preExplosionSpawnThingDef>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseCrossbowBoltProjectile">
+		<defName>Projectile_AKCrossbowBolt_Venom</defName>
+		<label>crossbow bolt (venom)</label>
+		<graphicData>
+			<texPath>Things/Projectile/Arrows/Arrow_Venom</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<speed>44</speed>
+			<damageDef>ArrowVenom</damageDef>
+			<damageAmountBase>16</damageAmountBase>
+			<armorPenetrationBlunt>6.5</armorPenetrationBlunt>
+			<armorPenetrationSharp>6</armorPenetrationSharp>
+			<preExplosionSpawnChance>0.6</preExplosionSpawnChance>
+			<preExplosionSpawnThingDef>Ammo_CrossbowBolt_Steel</preExplosionSpawnThingDef>
+		</projectile>
+	</ThingDef>
+</Defs>

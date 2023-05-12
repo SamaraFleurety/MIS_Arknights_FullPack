@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="ShieldBase" Name="AK_ShieldBase" Abstract="true">
+		<thingCategories Inherit="false">
+			<li>AK_Apparel</li>
+		</thingCategories>
+		<useHitPoints>false</useHitPoints>
+		<techLevel>Undefined</techLevel>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>0</DeteriorationRate>
+			<ArmorRating_Sharp>14</ArmorRating_Sharp>
+			<ArmorRating_Blunt>21</ArmorRating_Blunt>
+			<Mass>7</Mass>
+			<Bulk>8</Bulk>
+			<WornBulk>5</WornBulk>
+			<Flammability>0</Flammability>
+		</statBases>
+		<equippedStatOffsets>
+			<ReloadSpeed>-0.2</ReloadSpeed>
+			<MeleeHitChance>-1</MeleeHitChance>
+			<ShootingAccuracyPawn>-0.15</ShootingAccuracyPawn>
+			<AimingAccuracy>-0.08</AimingAccuracy>
+			<Suppressability>-0.25</Suppressability>
+			<MeleeCritChance>-0.05</MeleeCritChance>
+			<MeleeParryChance>1.0</MeleeParryChance>
+		</equippedStatOffsets>
+		<recipeMaker IsNull="true"/>
+		<tradeTags IsNull="true"/>
+		<smeltable>false</smeltable>
+		<generateCommonality>0</generateCommonality>
+		<generateAllowChance>0</generateAllowChance>
+		<randomizeRotationOnSpawn>false</randomizeRotationOnSpawn>
+		<canLoadIntoCaravan>false</canLoadIntoCaravan>
+		<burnableByRecipe>false</burnableByRecipe>
+		<relicChance>0</relicChance>
+		<tradeability>None</tradeability>
+		<comps>
+			<li Class="CompProperties_Biocodable"/>
+		</comps>
+		<apparel>
+			<developmentalStageFilter>Adult</developmentalStageFilter>
+			<tags Inherit="false">
+
+			</tags>
+		</apparel>
+		<modExtensions>
+			<li Class="CombatExtended.ShieldDefExtension">
+				<shieldCoverage>
+					<li>Hands</li>
+					<li>Arms</li>
+					<li>Shoulders</li>
+					<li>Torso</li>
+					<li>Neck</li>
+				</shieldCoverage>
+			</li>
+		</modExtensions>
+	</ThingDef>
+</Defs>

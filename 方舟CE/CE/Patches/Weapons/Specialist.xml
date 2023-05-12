@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs</xpath>
+		<value>
+			<ThingDef ParentName="BaseBullet">
+				<defName>AK_Bullet_RobinCE</defName>
+				<label>投掷飞刀</label>
+				<graphicData>
+					<texPath>Things/Projectile/Robin_Knife</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+				</graphicData>
+				<projectile Class="CombatExtended.ProjectilePropertiesCE">
+					<damageDef>Cut</damageDef>
+					<damageAmountBase>14</damageAmountBase>
+					<speed>50</speed>
+					<armorPenetrationBlunt>2.88</armorPenetrationBlunt>
+					<armorPenetrationSharp>8</armorPenetrationSharp>
+				</projectile>
+			</ThingDef>
+		</value>
+	</Operation>
+
+	<!-- ========== 红 ========== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Red"]/tools</xpath>
+		<value>
+			<tools Inherit = "false">
+				<li Class="CombatExtended.ToolCE">
+					<label>handle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>2</power>
+					<chanceFactor>0.1</chanceFactor>
+					<cooldownTime>1.5</cooldownTime>
+					<armorPenetrationBlunt>0.5</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>edge</label>
+					<capacities>
+						<li>Cut</li>
+					</capacities>
+					<power>15</power>
+					<cooldownTime>0.83</cooldownTime>
+					<armorPenetrationBlunt>2.88</armorPenetrationBlunt>
+					<armorPenetrationSharp>18</armorPenetrationSharp>
+					<linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>point</label>
+					<capacities>
+						<li>Stab</li>
+					</capacities>
+					<power>10</power>
+					<cooldownTime>0.94</cooldownTime>
+					<armorPenetrationBlunt>1.28</armorPenetrationBlunt>
+					<armorPenetrationSharp>25</armorPenetrationSharp>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Red"]</xpath>
+		<value>
+			<statBases>
+				<Bulk>1</Bulk>
+				<MeleeCounterParryBonus>0</MeleeCounterParryBonus>
+			</statBases>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Red"]</xpath>
+		<value>
+			<equippedStatOffsets>
+				<MeleeCritChance>1.00</MeleeCritChance>
+				<MeleeParryChance>0</MeleeParryChance>
+				<MeleeDodgeChance>0.9</MeleeDodgeChance>
+			</equippedStatOffsets>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Red"]</xpath>
+		<value>
+			<weaponTags>
+				<li>CE_OneHandedWeapon</li>
+			</weaponTags>
+		</value>
+	</Operation>
+
+	<!-- ========== 罗宾 ========== -->
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>AK_Weapon_Robin</defName>
+		<statBases>
+			<Bulk>1</Bulk>
+			<MeleeCounterParryBonus>0</MeleeCounterParryBonus>
+			<RangedWeapon_Cooldown>0.38</RangedWeapon_Cooldown>
+			<SightsEfficiency>0.7</SightsEfficiency>
+			<ShotSpread>0.17</ShotSpread>
+			<SwayFactor>1.07</SwayFactor>
+		</statBases>
+		<Properties>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>AK_Bullet_FrostleafCE</defaultProjectile>
+			<warmupTime>0.6</warmupTime>
+			<range>12</range>
+			<soundCast>AK_Sound_Weapon_Frostleaf</soundCast>
+		</Properties>
+		<FireModes/>
+		<weaponTags>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Robin"]/tools</xpath>
+		<value>
+			<tools Inherit = "false">
+				<li Class="CombatExtended.ToolCE">
+					<label>handle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>2</power>
+					<chanceFactor>0.1</chanceFactor>
+					<cooldownTime>1.5</cooldownTime>
+					<armorPenetrationBlunt>0.5</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>edge</label>
+					<capacities>
+						<li>Cut</li>
+					</capacities>
+					<power>15</power>
+					<cooldownTime>0.83</cooldownTime>
+					<armorPenetrationBlunt>2.88</armorPenetrationBlunt>
+					<armorPenetrationSharp>8</armorPenetrationSharp>
+					<linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>point</label>
+					<capacities>
+						<li>Stab</li>
+					</capacities>
+					<power>10</power>
+					<cooldownTime>0.94</cooldownTime>
+					<armorPenetrationBlunt>1.28</armorPenetrationBlunt>
+					<armorPenetrationSharp>12</armorPenetrationSharp>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Robin"]</xpath>
+		<value>
+			<equippedStatOffsets>
+				<MeleeCritChance>1.00</MeleeCritChance>
+				<MeleeParryChance>0</MeleeParryChance>
+				<MeleeDodgeChance>0.9</MeleeDodgeChance>
+			</equippedStatOffsets>
+		</value>
+	</Operation>
+
+	<!-- ========== 歌蕾蒂娅 ========== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Gladiia"]/tools</xpath>
+		<value>
+			<tools Inherit = "false">
+				<li Class="CombatExtended.ToolCE">
+					<label>handle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>3</power>
+					<cooldownTime>1.69</cooldownTime>
+					<chanceFactor>0.10</chanceFactor>
+					<armorPenetrationBlunt>0.80</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>edge</label>
+					<capacities>
+						<li>Cut</li>
+					</capacities>
+					<power>47</power>
+					<cooldownTime>1.17</cooldownTime>
+					<armorPenetrationBlunt>4.06</armorPenetrationBlunt>
+					<armorPenetrationSharp>24</armorPenetrationSharp>
+					<linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>point</label>
+					<capacities>
+						<li>Stab</li>
+					</capacities>
+					<power>25</power>
+					<cooldownTime>1.05</cooldownTime>
+					<armorPenetrationBlunt>2.048</armorPenetrationBlunt>
+					<armorPenetrationSharp>32</armorPenetrationSharp>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Gladiia"]</xpath>
+		<value>
+			<statBases>
+				<Bulk>8.5</Bulk>
+				<MeleeCounterParryBonus>0.80</MeleeCounterParryBonus>
+			</statBases>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Gladiia"]</xpath>
+		<value>
+			<equippedStatOffsets>
+				<MeleeCritChance>1.00</MeleeCritChance>
+				<MeleeParryChance>0.60</MeleeParryChance>
+				<MeleeDodgeChance>0.40</MeleeDodgeChance>
+			</equippedStatOffsets>
+		</value>
+	</Operation>
+
+	<!--=================温蒂================-->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Weedy"]/tools</xpath>
+		<value>
+			<tools Inherit = "false">
+				<li Class="CombatExtended.ToolCE">
+					<label>handle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>2</power>
+					<chanceFactor>0.33</chanceFactor>
+					<cooldownTime>1.44</cooldownTime>
+					<armorPenetrationBlunt>0.425</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>22</power>
+					<cooldownTime>2.36</cooldownTime>
+					<armorPenetrationBlunt>11.76</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Weedy"]</xpath>
+		<value>
+			<statBases>
+				<Bulk>3.5</Bulk>
+				<MeleeCounterParryBonus>0.35</MeleeCounterParryBonus>
+			</statBases>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Weedy"]</xpath>
+		<value>
+			<equippedStatOffsets>
+				<MeleeCritChance>0.2</MeleeCritChance>
+				<MeleeParryChance>0.35</MeleeParryChance>
+				<MeleeDodgeChance>0.2</MeleeDodgeChance>
+			</equippedStatOffsets>
+		</value>
+	</Operation>
+
+	<!--=================水月================-->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Mizuki"]/tools</xpath>
+		<value>
+			<tools Inherit = "false">
+				<li Class="CombatExtended.ToolCE">
+					<label>handle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>2</power>
+					<chanceFactor>0.33</chanceFactor>
+					<cooldownTime>1.44</cooldownTime>
+					<armorPenetrationBlunt>0.425</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>22</power>
+					<cooldownTime>2.36</cooldownTime>
+					<armorPenetrationBlunt>11.76</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Mizuki"]</xpath>
+		<value>
+			<statBases>
+				<Bulk>3.5</Bulk>
+				<MeleeCounterParryBonus>0.35</MeleeCounterParryBonus>
+			</statBases>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Mizuki"]</xpath>
+		<value>
+			<equippedStatOffsets>
+				<MeleeCritChance>0.2</MeleeCritChance>
+				<MeleeParryChance>0.35</MeleeParryChance>
+				<MeleeDodgeChance>0.2</MeleeDodgeChance>
+			</equippedStatOffsets>
+		</value>
+	</Operation>
+
+	<!-- ========== 砾 ========== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Gravel"]/tools</xpath>
+		<value>
+			<tools Inherit = "false">
+				<li Class="CombatExtended.ToolCE">
+					<label>handle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>2</power>
+					<chanceFactor>0.1</chanceFactor>
+					<cooldownTime>1.5</cooldownTime>
+					<armorPenetrationBlunt>0.5</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>edge</label>
+					<capacities>
+						<li>Cut</li>
+					</capacities>
+					<power>15</power>
+					<cooldownTime>0.83</cooldownTime>
+					<armorPenetrationBlunt>2.88</armorPenetrationBlunt>
+					<armorPenetrationSharp>18</armorPenetrationSharp>
+					<linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>point</label>
+					<capacities>
+						<li>Stab</li>
+					</capacities>
+					<power>10</power>
+					<cooldownTime>0.94</cooldownTime>
+					<armorPenetrationBlunt>1.28</armorPenetrationBlunt>
+					<armorPenetrationSharp>25</armorPenetrationSharp>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Gravel"]</xpath>
+		<value>
+			<statBases>
+				<Bulk>1</Bulk>
+				<MeleeCounterParryBonus>0</MeleeCounterParryBonus>
+			</statBases>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Gravel"]</xpath>
+		<value>
+			<equippedStatOffsets>
+				<MeleeCritChance>1.00</MeleeCritChance>
+				<MeleeParryChance>0</MeleeParryChance>
+				<MeleeDodgeChance>0.9</MeleeDodgeChance>
+			</equippedStatOffsets>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Gravel"]</xpath>
+		<value>
+			<weaponTags>
+				<li>CE_OneHandedWeapon</li>
+			</weaponTags>
+		</value>
+	</Operation>
+
+	<!-- ========== 卡夫卡 ========== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Kafka"]/tools</xpath>
+		<value>
+			<tools Inherit = "false">
+				<li Class="CombatExtended.ToolCE">
+					<label>handle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>2</power>
+					<chanceFactor>0.1</chanceFactor>
+					<cooldownTime>1.5</cooldownTime>
+					<armorPenetrationBlunt>0.5</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>edge</label>
+					<capacities>
+						<li>Cut</li>
+					</capacities>
+					<power>15</power>
+					<cooldownTime>0.83</cooldownTime>
+					<armorPenetrationBlunt>2.88</armorPenetrationBlunt>
+					<armorPenetrationSharp>18</armorPenetrationSharp>
+					<linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>point</label>
+					<capacities>
+						<li>Stab</li>
+					</capacities>
+					<power>10</power>
+					<cooldownTime>0.94</cooldownTime>
+					<armorPenetrationBlunt>1.28</armorPenetrationBlunt>
+					<armorPenetrationSharp>25</armorPenetrationSharp>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Kafka"]</xpath>
+		<value>
+			<statBases>
+				<Bulk>1</Bulk>
+				<MeleeCounterParryBonus>0</MeleeCounterParryBonus>
+			</statBases>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Kafka"]</xpath>
+		<value>
+			<equippedStatOffsets>
+				<MeleeCritChance>1.00</MeleeCritChance>
+				<MeleeParryChance>0</MeleeParryChance>
+				<MeleeDodgeChance>0.9</MeleeDodgeChance>
+			</equippedStatOffsets>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Kafka"]</xpath>
+		<value>
+			<weaponTags>
+				<li>CE_OneHandedWeapon</li>
+			</weaponTags>
+		</value>
+	</Operation>
+
+	<!-- ========== 崖心 ========== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Cliffheart"]/tools</xpath>
+		<value>
+			<tools Inherit = "false">
+				<li Class="CombatExtended.ToolCE">
+					<label>handle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>2</power>
+					<chanceFactor>0.1</chanceFactor>
+					<cooldownTime>1.5</cooldownTime>
+					<armorPenetrationBlunt>0.5</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>edge</label>
+					<capacities>
+						<li>Cut</li>
+					</capacities>
+					<power>15</power>
+					<cooldownTime>0.83</cooldownTime>
+					<armorPenetrationBlunt>2.88</armorPenetrationBlunt>
+					<armorPenetrationSharp>8</armorPenetrationSharp>
+					<linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>point</label>
+					<capacities>
+						<li>Stab</li>
+					</capacities>
+					<power>10</power>
+					<cooldownTime>0.94</cooldownTime>
+					<armorPenetrationBlunt>1.28</armorPenetrationBlunt>
+					<armorPenetrationSharp>12</armorPenetrationSharp>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Cliffheart"]</xpath>
+		<value>
+			<statBases>
+				<Bulk>1</Bulk>
+				<MeleeCounterParryBonus>0</MeleeCounterParryBonus>
+			</statBases>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Cliffheart"]</xpath>
+		<value>
+			<equippedStatOffsets>
+				<MeleeCritChance>1.00</MeleeCritChance>
+				<MeleeParryChance>0</MeleeParryChance>
+				<MeleeDodgeChance>0.9</MeleeDodgeChance>
+			</equippedStatOffsets>
+		</value>
+	</Operation>
+
+	<!--=================多萝西================-->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Dorothy"]/tools</xpath>
+		<value>
+			<tools Inherit = "false">
+				<li Class="CombatExtended.ToolCE">
+					<label>handle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>2</power>
+					<chanceFactor>0.33</chanceFactor>
+					<cooldownTime>1.44</cooldownTime>
+					<armorPenetrationBlunt>0.425</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>11</power>
+					<cooldownTime>2.36</cooldownTime>
+					<armorPenetrationBlunt>11.76</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Dorothy"]</xpath>
+		<value>
+			<statBases>
+				<Bulk>3.5</Bulk>
+				<MeleeCounterParryBonus>0.35</MeleeCounterParryBonus>
+			</statBases>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Dorothy"]</xpath>
+		<value>
+			<equippedStatOffsets>
+				<MeleeCritChance>0.2</MeleeCritChance>
+				<MeleeParryChance>0.35</MeleeParryChance>
+				<MeleeDodgeChance>0.2</MeleeDodgeChance>
+			</equippedStatOffsets>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_DorothyTypeB"]</xpath>
+		<value>
+			<tools Inherit = "false">
+				<li Class="CombatExtended.ToolCE">
+					<label>handle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>2</power>
+					<chanceFactor>0.33</chanceFactor>
+					<cooldownTime>1.44</cooldownTime>
+					<armorPenetrationBlunt>0.425</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>11</power>
+					<cooldownTime>2.36</cooldownTime>
+					<armorPenetrationBlunt>11.76</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_DorothyTypeB"]</xpath>
+		<value>
+			<statBases>
+				<Bulk>3.5</Bulk>
+				<MeleeCounterParryBonus>0.35</MeleeCounterParryBonus>
+			</statBases>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_DorothyTypeB"]</xpath>
+		<value>
+			<equippedStatOffsets>
+				<MeleeCritChance>0.2</MeleeCritChance>
+				<MeleeParryChance>0.35</MeleeParryChance>
+				<MeleeDodgeChance>0.2</MeleeDodgeChance>
+			</equippedStatOffsets>
+		</value>
+	</Operation>
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>AK_Weapon_DorothyTypeC</defName>
+		<statBases>
+			<Mass>1.11</Mass>
+			<RangedWeapon_Cooldown>0.38</RangedWeapon_Cooldown>
+			<SightsEfficiency>0.7</SightsEfficiency>
+			<ShotSpread>0.17</ShotSpread>
+			<SwayFactor>1.07</SwayFactor>
+			<Bulk>2.10</Bulk>
+		</statBases>
+		<Properties>
+			<recoilAmount>2.72</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Bullet_6x18mmCharged</defaultProjectile>
+			<warmupTime>0.6</warmupTime>
+			<range>12</range>
+			<soundCast>Shot_ChargeRifle</soundCast>
+			<soundCastTail>GunTail_Light</soundCastTail>
+			<muzzleFlashScale>9</muzzleFlashScale>
+		</Properties>
+
+		<AmmoUser>
+			<magazineSize>15</magazineSize>
+			<reloadTime>4</reloadTime>
+			<ammoSet>AmmoSet_6x18mmCharged</ammoSet>
+		</AmmoUser>
+
+		<FireModes>
+			<aiUseBurstMode>FALSE</aiUseBurstMode>
+			<aiAimMode>Snapshot</aiAimMode>
+		</FireModes>
+
+		<weaponTags>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+	</Operation>
+</Patch>

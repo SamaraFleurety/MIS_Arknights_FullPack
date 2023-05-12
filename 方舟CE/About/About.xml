@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>方舟CEpatch临时版</name>
+	<author>3HST Limited</author>
+	<packageId>3HSTltd.AK.Patch</packageId>
+	<supportedVersions>
+		<li>1.4</li>
+	</supportedVersions>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>ceteam.combatextended</li>
+		<li>MIS.Arknights</li>
+	</loadAfter>
+	<modDependencies>
+		<li>
+			<packageId>CETeam.CombatExtended</packageId>
+			<displayName>Combat Extended</displayName>
+			<downloadUrl>https://github.com/CombatExtended-Continued/CombatExtended</downloadUrl>
+		</li>
+		<li>
+			<packageId>MIS.Arknights</packageId>
+			<displayName>M.I.S. - Arknights</displayName>
+			<downloadUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2910546545</downloadUrl>
+		</li>
+	</modDependencies>
+	<description>方舟CEpatch临时版，数值平衡属于是做了但是只做了一点。有意见请反馈。以后会内置。</description>
+</ModMetaData>

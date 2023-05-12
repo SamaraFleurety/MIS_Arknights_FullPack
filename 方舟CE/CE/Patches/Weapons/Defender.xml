@@ -1,0 +1,1509 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<!--=================蛇屠箱==============-->
+	<!--带盾重重装模板-->
+	<!--改近战tools-->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Cuora"]/tools</xpath>
+		<value>
+			<tools Inherit = "false">
+				<li Class="CombatExtended.ToolCE">
+					<label>handle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>4</power>
+					<chanceFactor>0.33</chanceFactor>
+					<cooldownTime>1.78</cooldownTime>
+					<armorPenetrationBlunt>1</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>14</power>
+					<cooldownTime>2.55</cooldownTime>
+					<armorPenetrationBlunt>6</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Cuora"]/statBases</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="AK_Weapon_Cuora"]</xpath>
+			<value>
+				<statBases/>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<!--增加体积和格挡穿透参数-->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Cuora"]/statBases</xpath>
+		<value>
+			<Bulk>4</Bulk>
+			<MeleeCounterParryBonus>0.15</MeleeCounterParryBonus>
+		</value>
+	</Operation>
+
+	<!--增加暴击，格挡，闪避-->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Cuora"]</xpath>
+		<value>
+			<equippedStatOffsets>
+				<MeleeCritChance>0.07</MeleeCritChance>
+				<MeleeParryChance>0.95</MeleeParryChance>
+				<MeleeDodgeChance>0</MeleeDodgeChance>
+			</equippedStatOffsets>
+		</value>
+	</Operation>
+
+
+	<!--单手武器，不然没法拿着盾用-->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Cuora"]</xpath>
+		<value>
+			<weaponTags>
+				<li>CE_OneHandedWeapon</li>
+			</weaponTags>
+		</value>
+	</Operation>
+
+	<!--把盾改成CE盾-->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_CuoraTypeB"]</xpath>
+		<value>
+			<ThingDef ParentName="AK_ShieldBase">
+				<defName>AK_Weapon_CuoraTypeB</defName>
+				<label>蛇屠箱的背包</label>
+				<description>蛇屠箱的背包，由高强度金属材料缝合而成。\n很硬，超级硬。</description>
+				<graphicData>
+					<texPath>Things/AK_Agents/Weapon/Defender/CuoraW2</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+				</graphicData>
+			</ThingDef>
+		</value>
+	</Operation>
+
+	<!--把改了的盾塞到干员def里面-->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/AK_DLL.OperatorDef[defName="AK_Recruit_Cuora"]/apparels</xpath>
+		<value>
+			<li>AK_Weapon_CuoraTypeB</li>
+		</value>
+	</Operation>
+
+	<!--================森蚺=======================-->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_EunectesTypeA"]/tools</xpath>
+		<value>
+			<tools Inherit = "false">
+				<li Class="CombatExtended.ToolCE">
+					<label>handle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>3</power>
+					<cooldownTime>1.59</cooldownTime>
+					<chanceFactor>0.10</chanceFactor>
+					<armorPenetrationBlunt>0.625</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>edge</label>
+					<capacities>
+						<li>Cut</li>
+					</capacities>
+					<power>22</power>
+					<cooldownTime>2.18</cooldownTime>
+					<armorPenetrationBlunt>3.6</armorPenetrationBlunt>
+					<armorPenetrationSharp>0.72</armorPenetrationSharp>
+					<linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_EunectesTypeA"]/statBases</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="AK_Weapon_EunectesTypeA"]</xpath>
+			<value>
+				<statBases/>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_EunectesTypeA"]/statBases</xpath>
+		<value>
+			<Bulk>4</Bulk>
+			<MeleeCounterParryBonus>0.15</MeleeCounterParryBonus>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_EunectesTypeA"]</xpath>
+		<value>
+			<equippedStatOffsets>
+				<MeleeCritChance>0.10</MeleeCritChance>
+				<MeleeParryChance>0.15</MeleeParryChance>
+				<MeleeDodgeChance>0.20</MeleeDodgeChance>
+			</equippedStatOffsets>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_EunectesTypeA"]</xpath>
+		<value>
+			<weaponTags>
+				<li>CE_OneHandedWeapon</li>
+			</weaponTags>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_EunectesTypeB"]</xpath>
+		<value>
+			<ThingDef ParentName="AK_ShieldBase">
+				<defName>AK_Weapon_EunectesTypeB</defName>
+				<label>森蚺的盾</label>
+				<description>森蚺的盾，看上去像是从哪拆下来的铁门\n森蚺的身体素质虽然不如嘉伟尔好，但是也是挺扛揍的。</description>
+				<graphicData>
+					<texPath>Things/AK_Agents/Weapon/Defender/EunectesW2</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+				</graphicData>
+			</ThingDef>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/AK_DLL.OperatorDef[defName="AK_Recruit_Eunectes"]/apparels</xpath>
+		<value>
+			<li>AK_Weapon_EunectesTypeB</li>
+		</value>
+	</Operation>
+
+	<!--========================雷蛇==========================-->
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>AK_Weapon_Liskarm</defName>
+		<statBases>
+			<Mass>1.11</Mass>
+			<RangedWeapon_Cooldown>0.38</RangedWeapon_Cooldown>
+			<SightsEfficiency>0.7</SightsEfficiency>
+			<ShotSpread>0.17</ShotSpread>
+			<SwayFactor>1.07</SwayFactor>
+			<Bulk>2.10</Bulk>
+		</statBases>
+		<Properties>
+			<recoilAmount>2.72</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Bullet_45ACP_FMJ</defaultProjectile>
+			<warmupTime>0.6</warmupTime>
+			<range>12</range>
+			<soundCast>Shot_Autopistol</soundCast>
+			<soundCastTail>GunTail_Light</soundCastTail>
+			<muzzleFlashScale>9</muzzleFlashScale>
+		</Properties>
+
+		<AmmoUser>
+			<magazineSize>7</magazineSize>
+			<reloadTime>4</reloadTime>
+			<ammoSet>AmmoSet_45ACP</ammoSet>
+		</AmmoUser>
+
+		<FireModes>
+			<aiUseBurstMode>FALSE</aiUseBurstMode>
+			<aiAimMode>Snapshot</aiAimMode>
+		</FireModes>
+
+		<weaponTags>
+			<li>CE_AI_BROOM</li>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Liskarm"]</xpath>
+		<value>
+			<tools Inherit = "false">
+				<li Class="CombatExtended.ToolCE">
+					<label>stock</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>8</power>
+					<cooldownTime>1.55</cooldownTime>
+					<chanceFactor>1.5</chanceFactor>
+					<armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Stock</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>barrel</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>5</power>
+					<cooldownTime>2.02</cooldownTime>
+					<armorPenetrationBlunt>1.630</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>muzzle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>8</power>
+					<cooldownTime>1.55</cooldownTime>
+					<armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_LiskarmTypeB"]</xpath>
+		<value>
+			<ThingDef ParentName="AK_ShieldBase">
+				<defName>AK_Weapon_LiskarmTypeB</defName>
+				<label>雷蛇的盾牌</label>
+				<description>盾牌外形的大型施术设备，只有雷蛇的源石技艺能驾驭。\n雷蛇使用过后会极度疲乏，这是芙兰卡恶作剧的绝佳时机。</description>
+				<graphicData>
+					<texPath>Things/AK_Agents/Weapon/Defender/LiskarmW2</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+				</graphicData>
+				<tools Inherit = "false">
+					<li Class="CombatExtended.ToolCE">
+						<label>stock</label>
+						<capacities>
+							<li>Blunt</li>
+						</capacities>
+						<power>8</power>
+						<cooldownTime>1.55</cooldownTime>
+						<chanceFactor>1.5</chanceFactor>
+						<armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+						<linkedBodyPartsGroup>Stock</linkedBodyPartsGroup>
+					</li>
+					<li Class="CombatExtended.ToolCE">
+						<label>barrel</label>
+						<capacities>
+							<li>Blunt</li>
+						</capacities>
+						<power>5</power>
+						<cooldownTime>2.02</cooldownTime>
+						<armorPenetrationBlunt>1.630</armorPenetrationBlunt>
+						<linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+					</li>
+					<li Class="CombatExtended.ToolCE">
+						<label>muzzle</label>
+						<capacities>
+							<li>Poke</li>
+						</capacities>
+						<power>8</power>
+						<cooldownTime>1.55</cooldownTime>
+						<armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+						<linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+					</li>
+				</tools>
+			</ThingDef>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/AK_DLL.OperatorDef[defName="AK_Recruit_Liskarm"]/apparels</xpath>
+		<value>
+			<li>AK_Weapon_LiskarmTypeB</li>
+		</value>
+	</Operation>
+
+	<!--================星熊=======================-->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Hoshiguma"]/tools</xpath>
+		<value>
+			<tools Inherit = "false">
+				<li Class="CombatExtended.ToolCE">
+					<label>edge</label>
+					<capacities>
+						<li>Cut</li>
+					</capacities>
+					<power>12</power>
+					<cooldownTime>0.18</cooldownTime>
+					<armorPenetrationBlunt>3.6</armorPenetrationBlunt>
+					<armorPenetrationSharp>0.72</armorPenetrationSharp>
+					<linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Hoshiguma"]/statBases</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="AK_Weapon_Hoshiguma"]</xpath>
+			<value>
+				<statBases/>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Hoshiguma"]/statBases</xpath>
+		<value>
+			<Bulk>14</Bulk>
+			<MeleeCounterParryBonus>0.15</MeleeCounterParryBonus>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Hoshiguma"]</xpath>
+		<value>
+			<equippedStatOffsets>
+				<MeleeCritChance>0.10</MeleeCritChance>
+				<MeleeParryChance>0.15</MeleeParryChance>
+				<MeleeDodgeChance>0.20</MeleeDodgeChance>
+				<IncomingDamageFactor>0.75</IncomingDamageFactor>
+			</equippedStatOffsets>
+		</value>
+	</Operation>
+
+	<!--================泥岩=======================-->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Mudrock"]/tools</xpath>
+		<value>
+			<tools Inherit = "false">
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>25</power>
+					<cooldownTime>3.55</cooldownTime>
+					<armorPenetrationBlunt>16</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Mudrock"]/statBases</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="AK_Weapon_Mudrock"]</xpath>
+			<value>
+				<statBases/>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Mudrock"]/statBases</xpath>
+		<value>
+			<Bulk>14</Bulk>
+			<MeleeCounterParryBonus>0.15</MeleeCounterParryBonus>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Mudrock"]</xpath>
+		<value>
+			<equippedStatOffsets>
+				<MeleeCritChance>0.5</MeleeCritChance>
+				<MeleeParryChance>0.25</MeleeParryChance>
+				<MeleeDodgeChance>0.20</MeleeDodgeChance>
+			</equippedStatOffsets>
+		</value>
+	</Operation>
+
+	<!--=================年==============-->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_NianTypeA"]/tools</xpath>
+		<value>
+			<tools Inherit = "false">
+				<li Class="CombatExtended.ToolCE">
+					<label>handle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>2</power>
+					<chanceFactor>0.33</chanceFactor>
+					<cooldownTime>1.44</cooldownTime>
+					<armorPenetrationBlunt>0.425</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>point</label>
+					<capacities>
+						<li>Stab</li>
+					</capacities>
+					<power>27</power>
+					<cooldownTime>1.44</cooldownTime>
+					<armorPenetrationBlunt>0.425</armorPenetrationBlunt>
+					<armorPenetrationSharp>0.48</armorPenetrationSharp>
+					<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>edge</label>
+					<capacities>
+						<li>Cut</li>
+					</capacities>
+					<power>20</power>
+					<cooldownTime>1.34</cooldownTime>
+					<armorPenetrationBlunt>0.956</armorPenetrationBlunt>
+					<armorPenetrationSharp>0.43</armorPenetrationSharp>
+					<linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_NianTypeA"]/statBases</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="AK_Weapon_NianTypeA"]</xpath>
+			<value>
+				<statBases/>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_NianTypeA"]/statBases</xpath>
+		<value>
+			<Bulk>3.5</Bulk>
+			<MeleeCounterParryBonus>0.35</MeleeCounterParryBonus>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_NianTypeA"]</xpath>
+		<value>
+			<equippedStatOffsets>
+				<MeleeCritChance>0.2</MeleeCritChance>
+				<MeleeParryChance>0.35</MeleeParryChance>
+				<MeleeDodgeChance>0.2</MeleeDodgeChance>
+			</equippedStatOffsets>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_NianTypeA"]</xpath>
+		<value>
+			<weaponTags>
+				<li>CE_OneHandedWeapon</li>
+			</weaponTags>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_NianTypeB"]</xpath>
+		<value>
+			<ThingDef ParentName="AK_ShieldBase">
+				<defName>AK_Weapon_NianTypeB</defName>
+				<label>积甲成山</label>
+				<description>“明王圣帝，谁能去兵哉？”</description>
+				<graphicData>
+					<texPath>Things/AK_Agents/Weapon/Defender/NianW2</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+				</graphicData>
+			</ThingDef>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/AK_DLL.OperatorDef[defName="AK_Recruit_Nian"]/apparels</xpath>
+		<value>
+			<li>AK_Weapon_NianTypeB</li>
+		</value>
+	</Operation>
+
+	<!--=================塞雷娅==============-->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_SariaTypeB"]</xpath>
+		<value>
+			<tools Inherit = "false">
+				<li Class="CombatExtended.ToolCE">
+					<label>handle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>2</power>
+					<chanceFactor>0.33</chanceFactor>
+					<cooldownTime>1.44</cooldownTime>
+					<armorPenetrationBlunt>0.425</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>point</label>
+					<capacities>
+						<li>Stab</li>
+					</capacities>
+					<power>27</power>
+					<cooldownTime>1.44</cooldownTime>
+					<armorPenetrationBlunt>0.425</armorPenetrationBlunt>
+					<armorPenetrationSharp>0.48</armorPenetrationSharp>
+					<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_SariaTypeB"]/statBases</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="AK_Weapon_SariaTypeB"]</xpath>
+			<value>
+				<statBases/>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_SariaTypeB"]/statBases</xpath>
+		<value>
+			<Bulk>3.5</Bulk>
+			<MeleeCounterParryBonus>0.35</MeleeCounterParryBonus>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_SariaTypeB"]</xpath>
+		<value>
+			<equippedStatOffsets>
+				<MeleeCritChance>0.2</MeleeCritChance>
+				<MeleeParryChance>0.35</MeleeParryChance>
+				<MeleeDodgeChance>0.2</MeleeDodgeChance>
+			</equippedStatOffsets>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_SariaTypeB"]</xpath>
+		<value>
+			<weaponTags>
+				<li>CE_OneHandedWeapon</li>
+			</weaponTags>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Saria"]</xpath>
+		<value>
+			<ThingDef ParentName="AK_ShieldBase">
+				<defName>AK_Weapon_Saria</defName>
+				<label>塞雷娅的盾</label>
+				<description>塞雷娅的盾形法杖，覆盖上珐琅质后坚硬无比。\n明明能用拳击却偏偏要用盾，没有人知道为何。</description>
+				<graphicData>
+					<texPath>Things/AK_Agents/Weapon/Defender/SariaW</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+				</graphicData>
+			</ThingDef>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/AK_DLL.OperatorDef[defName="AK_Recruit_Saria"]/apparels</xpath>
+		<value>
+			<li>AK_Weapon_Saria</li>
+		</value>
+	</Operation>
+
+	<!--=================瑕光==============-->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Blemishine"]/tools</xpath>
+		<value>
+			<tools Inherit = "false">
+				<li Class="CombatExtended.ToolCE">
+					<label>handle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>2</power>
+					<chanceFactor>0.33</chanceFactor>
+					<cooldownTime>1.44</cooldownTime>
+					<armorPenetrationBlunt>0.425</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>point</label>
+					<capacities>
+						<li>Stab</li>
+					</capacities>
+					<power>27</power>
+					<cooldownTime>1.44</cooldownTime>
+					<armorPenetrationBlunt>0.425</armorPenetrationBlunt>
+					<armorPenetrationSharp>0.48</armorPenetrationSharp>
+					<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>edge</label>
+					<capacities>
+						<li>Cut</li>
+					</capacities>
+					<power>20</power>
+					<cooldownTime>1.34</cooldownTime>
+					<armorPenetrationBlunt>0.956</armorPenetrationBlunt>
+					<armorPenetrationSharp>0.43</armorPenetrationSharp>
+					<linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Blemishine"]/statBases</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="AK_Weapon_Blemishine"]</xpath>
+			<value>
+				<statBases/>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Blemishine"]/statBases</xpath>
+		<value>
+			<Bulk>3.5</Bulk>
+			<MeleeCounterParryBonus>0.35</MeleeCounterParryBonus>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Blemishine"]</xpath>
+		<value>
+			<equippedStatOffsets>
+				<MeleeCritChance>0.2</MeleeCritChance>
+				<MeleeParryChance>0.35</MeleeParryChance>
+				<MeleeDodgeChance>0.2</MeleeDodgeChance>
+			</equippedStatOffsets>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Blemishine"]</xpath>
+		<value>
+			<weaponTags>
+				<li>CE_OneHandedWeapon</li>
+			</weaponTags>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_BlemishineTypeB"]</xpath>
+		<value>
+			<ThingDef ParentName="AK_ShieldBase">
+				<defName>AK_Weapon_BlemishineTypeB</defName>
+				<label>瑕光的盾</label>
+				<description>耀骑士曾经使用的盾，如今传到了小耀骑士手里。\n盾所守卫的不止是家族荣誉，还有那被人遗忘的荣耀与光辉。</description>
+				<graphicData>
+					<texPath>Things/AK_Agents/Weapon/Defender/BlemishineW2</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+				</graphicData>
+			</ThingDef>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/AK_DLL.OperatorDef[defName="AK_Recruit_Blemishine"]/apparels</xpath>
+		<value>
+			<li>AK_Weapon_BlemishineTypeB</li>
+		</value>
+	</Operation>
+
+	<!--=================面包人==============-->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Croissant"]/tools</xpath>
+		<value>
+			<tools Inherit = "false">
+				<li Class="CombatExtended.ToolCE">
+					<label>handle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>3</power>
+					<cooldownTime>1.66</cooldownTime>
+					<chanceFactor>0.10</chanceFactor>
+					<armorPenetrationBlunt>2.75</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>22</power>
+					<cooldownTime>2.36</cooldownTime>
+					<armorPenetrationBlunt>11.76</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Croissant"]/statBases</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="AK_Weapon_Croissant"]</xpath>
+			<value>
+				<statBases/>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Croissant"]/statBases</xpath>
+		<value>
+			<Bulk>8</Bulk>
+			<MeleeCounterParryBonus>0.48</MeleeCounterParryBonus>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Croissant"]</xpath>
+		<value>
+			<equippedStatOffsets>
+				<MeleeCritChance>1.25</MeleeCritChance>
+				<MeleeParryChance>0.36</MeleeParryChance>
+				<MeleeDodgeChance>0.30</MeleeDodgeChance>
+			</equippedStatOffsets>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Croissant"]</xpath>
+		<value>
+			<weaponTags>
+				<li>CE_OneHandedWeapon</li>
+			</weaponTags>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_CroissantTypeB"]</xpath>
+		<value>
+			<ThingDef ParentName="AK_ShieldBase">
+				<defName>AK_Weapon_CroissantTypeB</defName>
+				<label>可颂的盾牌</label>
+				<description>可颂用的盾牌，和她少女的身姿很不匹配\n可颂很喜欢花钱买新装备，无论是看到什么都想买下来。于是她陷入了无止境的购物漩涡。</description>
+				<graphicData>
+					<texPath>Things/AK_Agents/Weapon/Defender/CroissantW2</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+				</graphicData>
+			</ThingDef>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/AK_DLL.OperatorDef[defName="AK_Recruit_Croissant"]/apparels</xpath>
+		<value>
+			<li>AK_Weapon_CroissantTypeB</li>
+		</value>
+	</Operation>
+
+	<!--================极光=======================-->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Aurora"]/tools</xpath>
+		<value>
+			<tools Inherit = "false">
+				<li Class="CombatExtended.ToolCE">
+					<label>edge</label>
+					<capacities>
+						<li>Stab</li>
+					</capacities>
+					<power>28</power>
+					<cooldownTime>0.18</cooldownTime>
+					<armorPenetrationBlunt>3.6</armorPenetrationBlunt>
+					<armorPenetrationSharp>12.72</armorPenetrationSharp>
+					<linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Aurora"]/statBases</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="AK_Weapon_Aurora"]</xpath>
+			<value>
+				<statBases/>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Aurora"]/statBases</xpath>
+		<value>
+			<Bulk>14</Bulk>
+			<MeleeCounterParryBonus>0.15</MeleeCounterParryBonus>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Aurora"]</xpath>
+		<value>
+			<equippedStatOffsets>
+				<MeleeCritChance>0.10</MeleeCritChance>
+				<MeleeParryChance>0.15</MeleeParryChance>
+				<MeleeDodgeChance>0.20</MeleeDodgeChance>
+			</equippedStatOffsets>
+		</value>
+	</Operation>
+
+	<!--========================灰毫==========================-->
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>AK_Weapon_Ashlock</defName>
+		<statBases>
+			<Mass>16</Mass>
+			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+			<SightsEfficiency>0.7</SightsEfficiency>
+			<ShotSpread>0.16</ShotSpread>
+			<SwayFactor>1.00</SwayFactor>
+			<Bulk>18</Bulk>
+		</statBases>
+		<Properties>
+			<recoilAmount>2.72</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Bullet_25x59mmGrenade_HEAT</defaultProjectile>
+			<warmupTime>2.6</warmupTime>
+			<range>44</range>
+			<minRange>12</minRange>
+			<soundCast>AK_Sound_Weapon_Ashlock</soundCast>
+			<soundCastTail>GunTail_Heavy</soundCastTail>
+			<muzzleFlashScale>9</muzzleFlashScale>
+		</Properties>
+
+		<AmmoUser>
+			<magazineSize>12</magazineSize>
+			<reloadTime>6</reloadTime>
+			<ammoSet>AmmoSet_25x59mmGrenade</ammoSet>
+		</AmmoUser>
+
+		<FireModes>
+			<aiAimMode>Snapshot</aiAimMode>
+		</FireModes>
+
+		<weaponTags>
+			<li>CE_AI_BROOM</li>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Ashlock"]</xpath>
+		<value>
+			<tools Inherit = "false">
+				<li Class="CombatExtended.ToolCE">
+					<label>stock</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>8</power>
+					<cooldownTime>1.55</cooldownTime>
+					<chanceFactor>1.5</chanceFactor>
+					<armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Stock</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>barrel</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>15</power>
+					<cooldownTime>2.02</cooldownTime>
+					<armorPenetrationBlunt>11.630</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>muzzle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>18</power>
+					<cooldownTime>1.55</cooldownTime>
+					<armorPenetrationBlunt>12.755</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_AshlockTypeB"]</xpath>
+		<value>
+			<ThingDef ParentName="AK_ShieldBase">
+				<defName>AK_Weapon_AshlockTypeB</defName>
+				<label>灰豪的重盾</label>
+				<description>灰豪使用的盾牌，能够阻挡住所有的敌人。\n她的意志在经受磨难后比手中的盾更加坚不可摧。</description>
+				<graphicData>
+					<texPath>Things/AK_Agents/Weapon/Defender/AshlockW2</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+				</graphicData>
+			</ThingDef>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/AK_DLL.OperatorDef[defName="AK_Recruit_Ashlock"]/apparels</xpath>
+		<value>
+			<li>AK_Weapon_AshlockTypeB</li>
+		</value>
+	</Operation>
+
+	<!--========================号角==========================-->
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>AK_Weapon_Horn</defName>
+		<statBases>
+			<Mass>16</Mass>
+			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+			<SightsEfficiency>0.7</SightsEfficiency>
+			<ShotSpread>0.16</ShotSpread>
+			<SwayFactor>1.00</SwayFactor>
+			<Bulk>18</Bulk>
+		</statBases>
+		<Properties>
+			<recoilAmount>2.72</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Bullet_25x59mmGrenade_HEAT</defaultProjectile>
+			<warmupTime>2.6</warmupTime>
+			<range>44</range>
+			<minRange>12</minRange>
+			<soundCast>AK_Sound_Weapon_Horn</soundCast>
+			<soundCastTail>GunTail_Heavy</soundCastTail>
+			<muzzleFlashScale>9</muzzleFlashScale>
+		</Properties>
+
+		<AmmoUser>
+			<magazineSize>12</magazineSize>
+			<reloadTime>6</reloadTime>
+			<ammoSet>AmmoSet_25x59mmGrenade</ammoSet>
+		</AmmoUser>
+
+		<FireModes>
+			<aiAimMode>Snapshot</aiAimMode>
+		</FireModes>
+
+		<weaponTags>
+			<li>CE_AI_BROOM</li>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Horn"]/tools</xpath>
+		<value>
+			<tools Inherit = "false">
+				<li Class="CombatExtended.ToolCE">
+					<label>stock</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>8</power>
+					<cooldownTime>1.55</cooldownTime>
+					<chanceFactor>1.5</chanceFactor>
+					<armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Stock</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>barrel</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>15</power>
+					<cooldownTime>2.02</cooldownTime>
+					<armorPenetrationBlunt>11.630</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>muzzle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>18</power>
+					<cooldownTime>1.55</cooldownTime>
+					<armorPenetrationBlunt>12.755</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_HornTypeB"]</xpath>
+		<value>
+			<ThingDef ParentName="AK_ShieldBase">
+				<defName>AK_Weapon_HornTypeB</defName>
+				<label>号角的盾牌</label>
+				<description>盾牌坚硬似铁壁</description>
+				<graphicData>
+					<texPath>Things/AK_Agents/Weapon/Defender/HornW2</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+				</graphicData>
+			</ThingDef>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/AK_DLL.OperatorDef[defName="AK_Recruit_Horn"]/apparels</xpath>
+		<value>
+			<li>AK_Weapon_HornTypeB</li>
+		</value>
+	</Operation>
+
+	<!--=================古米==============-->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Gummy"]/tools</xpath>
+		<value>
+			<tools Inherit = "false">
+				<li Class="CombatExtended.ToolCE">
+					<label>handle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>3</power>
+					<cooldownTime>1.66</cooldownTime>
+					<chanceFactor>0.10</chanceFactor>
+					<armorPenetrationBlunt>2.75</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>22</power>
+					<cooldownTime>2.36</cooldownTime>
+					<armorPenetrationBlunt>11.76</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Gummy"]/statBases</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="AK_Weapon_Gummy"]</xpath>
+			<value>
+				<statBases/>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Gummy"]/statBases</xpath>
+		<value>
+			<Bulk>8</Bulk>
+			<MeleeCounterParryBonus>0.48</MeleeCounterParryBonus>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Gummy"]</xpath>
+		<value>
+			<equippedStatOffsets>
+				<MeleeCritChance>1.25</MeleeCritChance>
+				<MeleeParryChance>0.36</MeleeParryChance>
+				<MeleeDodgeChance>0.30</MeleeDodgeChance>
+			</equippedStatOffsets>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Gummy"]</xpath>
+		<value>
+			<weaponTags>
+				<li>CE_OneHandedWeapon</li>
+			</weaponTags>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_GummyTypeB"]</xpath>
+		<value>
+			<ThingDef ParentName="AK_ShieldBase">
+				<defName>AK_Weapon_GummyTypeB</defName>
+				<label>金库大门</label>
+				<description>很坚固厚重的大门，可能是从某处的金库上拆下来的。</description>
+				<graphicData>
+					<texPath>Things/AK_Agents/Weapon/Defender/GummyW2</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+				</graphicData>
+			</ThingDef>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/AK_DLL.OperatorDef[defName="AK_Recruit_Gummy"]/apparels</xpath>
+		<value>
+			<li>AK_Weapon_GummyTypeB</li>
+		</value>
+	</Operation>
+
+	<!--=================角峰==============-->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Matterhorn"]/tools</xpath>
+		<value>
+			<tools Inherit = "false">
+				<li Class="CombatExtended.ToolCE">
+					<label>handle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>2</power>
+					<chanceFactor>0.33</chanceFactor>
+					<cooldownTime>1.44</cooldownTime>
+					<armorPenetrationBlunt>0.425</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>point</label>
+					<capacities>
+						<li>Stab</li>
+					</capacities>
+					<power>27</power>
+					<cooldownTime>1.44</cooldownTime>
+					<armorPenetrationBlunt>0.425</armorPenetrationBlunt>
+					<armorPenetrationSharp>0.48</armorPenetrationSharp>
+					<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>edge</label>
+					<capacities>
+						<li>Cut</li>
+					</capacities>
+					<power>20</power>
+					<cooldownTime>1.34</cooldownTime>
+					<armorPenetrationBlunt>0.956</armorPenetrationBlunt>
+					<armorPenetrationSharp>0.43</armorPenetrationSharp>
+					<linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Matterhorn"]/statBases</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="AK_Weapon_Matterhorn"]</xpath>
+			<value>
+				<statBases/>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Matterhorn"]/statBases</xpath>
+		<value>
+			<Bulk>3.5</Bulk>
+			<MeleeCounterParryBonus>0.35</MeleeCounterParryBonus>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Matterhorn"]</xpath>
+		<value>
+			<equippedStatOffsets>
+				<MeleeCritChance>0.2</MeleeCritChance>
+				<MeleeParryChance>0.35</MeleeParryChance>
+				<MeleeDodgeChance>0.2</MeleeDodgeChance>
+			</equippedStatOffsets>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Matterhorn"]</xpath>
+		<value>
+			<weaponTags>
+				<li>CE_OneHandedWeapon</li>
+			</weaponTags>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_MatterhornTypeB"]</xpath>
+		<value>
+			<ThingDef ParentName="AK_ShieldBase">
+				<defName>AK_Weapon_MatterhornTypeB</defName>
+				<label>谢拉格重盾</label>
+				<description>很沉重的盾，一般人举都很难举起来。\n伴随着角峰愈加频繁的踏入战场，他的盾需要维修的次数的也愈加频繁，他就是这么与火神认识的。</description>
+				<graphicData>
+					<texPath>Things/AK_Agents/Weapon/Defender/MatterhornW2</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+				</graphicData>
+			</ThingDef>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/AK_DLL.OperatorDef[defName="AK_Recruit_Matterhorn"]/apparels</xpath>
+		<value>
+			<li>AK_Weapon_MatterhornTypeB</li>
+		</value>
+	</Operation>
+
+	<!--=================火神==============-->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Vulcan"]/tools</xpath>
+		<value>
+			<tools Inherit = "false">
+				<li Class="CombatExtended.ToolCE">
+					<label>handle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>3</power>
+					<cooldownTime>1.66</cooldownTime>
+					<chanceFactor>0.10</chanceFactor>
+					<armorPenetrationBlunt>2.75</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>22</power>
+					<cooldownTime>2.36</cooldownTime>
+					<armorPenetrationBlunt>11.76</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Vulcan"]/statBases</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="AK_Weapon_Vulcan"]</xpath>
+			<value>
+				<statBases/>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Vulcan"]/statBases</xpath>
+		<value>
+			<Bulk>8</Bulk>
+			<MeleeCounterParryBonus>0.48</MeleeCounterParryBonus>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Vulcan"]</xpath>
+		<value>
+			<equippedStatOffsets>
+				<MeleeCritChance>1.25</MeleeCritChance>
+				<MeleeParryChance>0.36</MeleeParryChance>
+				<MeleeDodgeChance>0.30</MeleeDodgeChance>
+			</equippedStatOffsets>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Vulcan"]</xpath>
+		<value>
+			<weaponTags>
+				<li>CE_OneHandedWeapon</li>
+			</weaponTags>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_VulcanTypeB"]</xpath>
+		<value>
+			<ThingDef ParentName="AK_ShieldBase">
+				<defName>AK_Weapon_VulcanTypeB</defName>
+				<label>火神的盾</label>
+				<description>火神的盾，在千锤百炼后坚不可摧。</description>
+				<graphicData>
+					<texPath>Things/AK_Agents/Weapon/Defender/VulcanW2</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+				</graphicData>
+			</ThingDef>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/AK_DLL.OperatorDef[defName="AK_Recruit_Vulcan"]/apparels</xpath>
+		<value>
+			<li>AK_Weapon_VulcanTypeB</li>
+		</value>
+	</Operation>
+
+	<!--=================临光==============-->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Nearl"]/tools</xpath>
+		<value>
+			<tools Inherit = "false">
+				<li Class="CombatExtended.ToolCE">
+					<label>handle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>3</power>
+					<cooldownTime>1.66</cooldownTime>
+					<chanceFactor>0.10</chanceFactor>
+					<armorPenetrationBlunt>2.75</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>22</power>
+					<cooldownTime>2.36</cooldownTime>
+					<armorPenetrationBlunt>11.76</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Nearl"]/statBases</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="AK_Weapon_Nearl"]</xpath>
+			<value>
+				<statBases/>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Nearl"]/statBases</xpath>
+		<value>
+			<Bulk>8</Bulk>
+			<MeleeCounterParryBonus>0.48</MeleeCounterParryBonus>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Nearl"]</xpath>
+		<value>
+			<equippedStatOffsets>
+				<MeleeCritChance>1.25</MeleeCritChance>
+				<MeleeParryChance>0.36</MeleeParryChance>
+				<MeleeDodgeChance>0.30</MeleeDodgeChance>
+			</equippedStatOffsets>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Nearl"]</xpath>
+		<value>
+			<weaponTags>
+				<li>CE_OneHandedWeapon</li>
+			</weaponTags>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_NearlTypeB"]</xpath>
+		<value>
+			<ThingDef ParentName="AK_ShieldBase">
+				<defName>AK_Weapon_NearlTypeB</defName>
+				<label>临光的盾牌</label>
+				<description>临光的盾牌，布满了磨损的痕迹。\n从未有人见过临光放下盾牌的样子。</description>
+				<graphicData>
+					<texPath>Things/AK_Agents/Weapon/Defender/NearlW2</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+				</graphicData>
+			</ThingDef>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/AK_DLL.OperatorDef[defName="AK_Recruit_Nearl"]/apparels</xpath>
+		<value>
+			<li>AK_Weapon_NearlTypeB</li>
+		</value>
+	</Operation>
+
+	<!--=================斥罪==============-->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Penance"]/tools</xpath>
+		<value>
+			<tools Inherit = "false">
+				<li Class="CombatExtended.ToolCE">
+					<label>handle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>3</power>
+					<cooldownTime>1.66</cooldownTime>
+					<chanceFactor>0.10</chanceFactor>
+					<armorPenetrationBlunt>2.75</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>38</power>
+					<cooldownTime>2.36</cooldownTime>
+					<armorPenetrationBlunt>15.76</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Penance"]/statBases</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="AK_Weapon_Penance"]</xpath>
+			<value>
+				<statBases/>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Penance"]/statBases</xpath>
+		<value>
+			<Bulk>14</Bulk>
+			<MeleeCounterParryBonus>0.48</MeleeCounterParryBonus>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AK_Weapon_Penance"]</xpath>
+		<value>
+			<equippedStatOffsets>
+				<MeleeCritChance>1.25</MeleeCritChance>
+				<MeleeParryChance>0.36</MeleeParryChance>
+				<MeleeDodgeChance>0.30</MeleeDodgeChance>
+				<IncomingDamageFactor>0.75</IncomingDamageFactor>
+			</equippedStatOffsets>
+		</value>
+	</Operation>
+	<!--在想出办法之前先这样保证坦度吧-->
+</Patch>
