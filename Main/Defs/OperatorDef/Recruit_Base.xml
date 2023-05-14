@@ -19,6 +19,17 @@
 		</hairColor>
 		<childHood>AK_BackStory_Unknown_Child</childHood>
 		<age>16</age>
+		<headTypeDef>AK_Head_Small</headTypeDef>
+		<standOffsets>
+			<li>
+				<key>0</key>
+				<value>(10,20,0.5)</value>
+			</li>
+			<li>
+				<key>1</key>
+				<value>(10,10,0.5)</value>
+			</li>
+		</standOffsets>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase" Name="AK_RecruitBase_Guard" Abstract="True">

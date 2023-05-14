@@ -121,16 +121,6 @@ Coming on a whim, the great painter, Dusk, puts only the finishing touches on al
 				<amount>10</amount>
 			</li>
 		</items>
-		<standOffsets>
-			<li>
-				<key>0</key>
-				<value>(10,20,0.5)</value>
-			</li>
-			<li>
-				<key>1</key>
-				<value>(100,200,1.5)</value>
-			</li>
-		</standOffsets>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Caster">
@@ -232,8 +222,16 @@ Eyjafjalla, Caster Operator of Rhodes Island, has wanted to devote herself to do
 		<age>20</age>
 		<childHood>AK_BackStory_Eyjafjalla_Child</childHood>
 		<adultHood>AK_BackStory_Eyjafjalla_Adult</adultHood>
-		<standOffset>(-100,120)</standOffset>
-		<standRatio>3</standRatio>
+		<standOffsets Inherit="false">
+			<li>
+				<key>0</key>
+				<value>(10,20,0.4)</value>
+			</li>
+			<li>
+				<key>1</key>
+				<value>(10,10,0.5)</value>
+			</li>
+		</standOffsets>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Caster">
@@ -332,7 +330,7 @@ Ifrit, former test subject of Rhine Lab, will incinerate all of Silence's enemie
 				<value>Parent</value>
 			</li>
 		</relations>
-	</AK_DLL.OperatorDef>
+            </AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Caster">
 		<defName>AK_Recruit_Mint</defName>
@@ -429,6 +427,16 @@ Mint, the Victorian Caster, seeks recognition as a scholar far more than as a Ca
 		</traits>
 		<stand>UI/Image/Caster/MintStand</stand>
 		<headPortrait>UI/Image/Caster/MintPortrait</headPortrait>
+		<standOffsets Inherit="false">
+			<li>
+				<key>0</key>
+				<value>(10,20,0.4)</value>
+			</li>
+			<li>
+				<key>1</key>
+				<value>(10,10,0.5)</value>
+			</li>
+		</standOffsets>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Caster">
@@ -534,6 +542,16 @@ Mostima, Senior Messenger, will lay low all obstacles in your path with her Arts
 				<value>Lover</value>
 			</li>
 		</relations>
+		<standOffsets Inherit="false">
+			<li>
+				<key>0</key>
+				<value>(10,20,0.4)</value>
+			</li>
+			<li>
+				<key>1</key>
+				<value>(10,10,0.5)</value>
+			</li>
+		</standOffsets>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Caster">
@@ -627,6 +645,16 @@ Skyfire, Operator from King's Wand, is ready to burn anyone foolish enough to st
 		<age>20</age>
 		<childHood>AK_BackStory_Skyfire_Child</childHood>
 		<adultHood>AK_BackStory_Skyfire_Adult</adultHood>
+		<standOffsets Inherit="false">
+			<li>
+				<key>0</key>
+				<value>(10,20,0.4)</value>
+			</li>
+			<li>
+				<key>1</key>
+				<value>(10,10,0.5)</value>
+			</li>
+		</standOffsets>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Caster">
@@ -726,6 +754,16 @@ Absinthe, Caster Operator, is always ready to eliminate any threats.</descriptio
 		</traits>
 		<childHood>AK_BackStory_Absinthe_Child</childHood>
 		<bodyTypeDef>Female</bodyTypeDef>
+		<standOffsets Inherit="false">
+			<li>
+				<key>0</key>
+				<value>(10,20,0.4)</value>
+			</li>
+			<li>
+				<key>1</key>
+				<value>(10,10,0.5)</value>
+			</li>
+		</standOffsets>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Caster">
@@ -829,6 +867,16 @@ Amiya, leader of Rhodes Island, will fight alongside you.</description>
 			</li>
 		</relations>
 		<bodyTypeDef>Female</bodyTypeDef>
+		<standOffsets Inherit="false">
+			<li>
+				<key>0</key>
+				<value>(10,20,0.4)</value>
+			</li>
+			<li>
+				<key>1</key>
+				<value>(10,10,0.5)</value>
+			</li>
+		</standOffsets>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Caster">
@@ -931,6 +979,16 @@ Ceobe is always ready to go after the bad guys.</description>
 		<age>20</age>
 		<childHood>AK_BackStory_Ceobe_Child</childHood>
 		<adultHood>AK_BackStory_Ceobe_Adult</adultHood>
+		<standOffsets Inherit="false">
+			<li>
+				<key>0</key>
+				<value>(10,20,0.4)</value>
+			</li>
+			<li>
+				<key>1</key>
+				<value>(10,10,0.5)</value>
+			</li>
+		</standOffsets>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Caster">
@@ -1036,6 +1094,16 @@ Ceobe is always ready to go after the bad guys.</description>
 				<value>Sibling</value>
 			</li>
 		</relations>
+		<standOffsets Inherit="false">
+			<li>
+				<key>0</key>
+				<value>(10,20,0.4)</value>
+			</li>
+			<li>
+				<key>1</key>
+				<value>(10,10,0.5)</value>
+			</li>
+		</standOffsets>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Caster">
@@ -1131,6 +1199,16 @@ Ceobe is always ready to go after the bad guys.</description>
 			</li>
 		</relations>
 		<skinColor>(210,180,170)</skinColor>
+		<standOffsets Inherit="false">
+			<li>
+				<key>0</key>
+				<value>(10,20,0.4)</value>
+			</li>
+			<li>
+				<key>1</key>
+				<value>(10,10,0.5)</value>
+			</li>
+		</standOffsets>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Caster">
@@ -1230,6 +1308,16 @@ Ceobe is always ready to go after the bad guys.</description>
 		<age>20</age>
 		<childHood>AK_BackStory_Indigo_Child</childHood>
 		<adultHood>AK_BackStory_Indigo_Adult</adultHood>
+		<standOffsets Inherit="false">
+			<li>
+				<key>0</key>
+				<value>(10,20,0.4)</value>
+			</li>
+			<li>
+				<key>1</key>
+				<value>(10,10,0.5)</value>
+			</li>
+		</standOffsets>
 	</AK_DLL.OperatorDef>
 
 
@@ -1329,6 +1417,16 @@ Ceobe is always ready to go after the bad guys.</description>
 				<fireLevel>1</fireLevel>
 			</li>
 		</skills>
+		<standOffsets Inherit="false">
+			<li>
+				<key>0</key>
+				<value>(10,20,0.4)</value>
+			</li>
+			<li>
+				<key>1</key>
+				<value>(10,10,0.5)</value>
+			</li>
+		</standOffsets>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Caster">
@@ -1428,6 +1526,16 @@ Ceobe is always ready to go after the bad guys.</description>
 				<fireLevel>0</fireLevel>
 			</li>
 		</skills>
+		<standOffsets Inherit="false">
+			<li>
+				<key>0</key>
+				<value>(10,20,0.4)</value>
+			</li>
+			<li>
+				<key>1</key>
+				<value>(10,10,0.5)</value>
+			</li>
+		</standOffsets>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Caster">
@@ -1520,6 +1628,16 @@ Ceobe is always ready to go after the bad guys.</description>
 				<fireLevel>2</fireLevel>
 			</li>
 		</skills>
+		<standOffsets Inherit="false">
+			<li>
+				<key>0</key>
+				<value>(10,20,0.4)</value>
+			</li>
+			<li>
+				<key>1</key>
+				<value>(10,10,0.5)</value>
+			</li>
+		</standOffsets>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Caster">
@@ -1613,6 +1731,16 @@ Ceobe is always ready to go after the bad guys.</description>
 				<fireLevel>1</fireLevel>
 			</li>
 		</skills>
+		<standOffsets Inherit="false">
+			<li>
+				<key>0</key>
+				<value>(10,20,0.4)</value>
+			</li>
+			<li>
+				<key>1</key>
+				<value>(10,10,0.5)</value>
+			</li>
+		</standOffsets>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Caster">
@@ -1708,6 +1836,16 @@ Ceobe is always ready to go after the bad guys.</description>
 				<fireLevel>2</fireLevel>
 			</li>
 		</skills>
+		<standOffsets Inherit="false">
+			<li>
+				<key>0</key>
+				<value>(10,20,0.4)</value>
+			</li>
+			<li>
+				<key>1</key>
+				<value>(10,10,0.5)</value>
+			</li>
+		</standOffsets>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Caster">
@@ -1803,6 +1941,16 @@ Ceobe is always ready to go after the bad guys.</description>
 				<fireLevel>2</fireLevel>
 			</li>
 		</skills>
+		<standOffsets Inherit="false">
+			<li>
+				<key>0</key>
+				<value>(10,20,0.4)</value>
+			</li>
+			<li>
+				<key>1</key>
+				<value>(10,10,0.5)</value>
+			</li>
+		</standOffsets>
 	</AK_DLL.OperatorDef>
 
 </Defs>
