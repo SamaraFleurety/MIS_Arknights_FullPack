@@ -1019,4 +1019,79 @@
 		</projectile>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_WeaponBase_Supporter">
+		<defName>AK_Weapon_Mayer</defName>
+		<label>咪波控制终端XP</label>
+		<description>咪波控制装置，能够操控咪波完成从走动到自爆的所有操作。
+咪波不是数控的而是线控的。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Supporter/MayerW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>1</AccuracyTouch>
+			<AccuracyShort>0.9</AccuracyShort>
+			<AccuracyMedium>0.75</AccuracyMedium>
+			<AccuracyLong>0.6</AccuracyLong>
+			<RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>			<!--后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_Mayer</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>1.2</warmupTime>				<!--前摇-->
+				<range>25</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<!-- <soundCast>AK_Sound_Weapon_Mayer</soundCast> -->
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<tools Inherit = "false">
+			<li>
+				<label>扑打</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>1.6</cooldownTime>
+			</li>
+			<li>
+				<label>撕咬</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>2.2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_Mayer</defName>
+		<label>射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/MagicOrb</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>0</damageAmountBase>
+			<stoppingPower>3</stoppingPower>
+			<speed>60</speed>
+			<extraDamages>
+				<li>
+					<def>Flame</def>					<!--伤害类型-->
+					<amount>22</amount>					<!--伤害数值-->
+				</li>
+			</extraDamages>
+		</projectile>
+	</ThingDef>
+
 </Defs>
