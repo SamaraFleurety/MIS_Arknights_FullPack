@@ -298,4 +298,40 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<!-- 缪尔赛思 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_MuelsyseSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>植语者</label>
+				<description>缪尔赛思有一种特殊的能力，这使得她能够与植物对话并感知它们
+				</description>
+				<statOffsets>
+					<PlantWorkSpeed>0.5</PlantWorkSpeed>
+					<PlantHarvestYield>0.25</PlantHarvestYield>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Muelsyse</defName>
+		<degreeDatas>
+			<li>
+				<label>水精灵</label>
+				<description>作为水精灵，她与现代社会从社会学到生物学意义上都是不相容的，一方面她难以融入社会，另一方面在寻常人身上并无大碍的污染或创伤对她来说是致命的。
+				</description>
+				<statOffsets>
+					<IncomingDamageFactor>1.2</IncomingDamageFactor>
+					<MentalBreakThreshold>-0.17</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>

@@ -170,4 +170,16 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Vanguard">
+		<defName>AK_Apparel_Muelsyse</defName>
+		<label>缪尔赛思服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Vanguard/Muelsyse</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Vanguard/Muelsyse</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 </Defs>

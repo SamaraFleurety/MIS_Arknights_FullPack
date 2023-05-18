@@ -625,4 +625,86 @@
     </subSounds>
   </SoundDef>
 
+  <ThingDef ParentName="AK_WeaponBase_Vanguard">
+    <defName>AK_Weapon_MuelsyseI</defName>
+    <label>流形法杖</label>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Vanguard/MuelsyseW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <description>形若雨伞的法杖，能够释放出奇特的水源石技艺</description>
+    <statBases>
+      <AccuracyTouch>0.80</AccuracyTouch>
+      <AccuracyShort>0.75</AccuracyShort>
+      <AccuracyMedium>0.65</AccuracyMedium>
+      <AccuracyLong>0.45</AccuracyLong>
+      <RangedWeapon_Cooldown>0.25</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>AK_Bullet_Muelsyse</defaultProjectile>
+        <warmupTime>0.75</warmupTime>
+        <range>33</range>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <soundCast>AK_Sound_Weapon_Muelsyse</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <noiseRadius>3</noiseRadius>
+      </li>
+    </verbs>
+    <tools Inherit = "false">
+      <li>
+        <label>用柄砸</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <ThingDef ParentName="AK_BulletBase_Bow">
+    <defName>AK_Bullet_Muelsyse</defName>
+    <label>魔法弹</label>
+    <graphicData>
+      <texPath>Things/Projectile/MagicOrb</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingClass>Bullet</thingClass>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>0</damageAmountBase>
+      <stoppingPower>3</stoppingPower>
+      <speed>50</speed>
+    </projectile>
+  </ThingDef>
+
+  <SoundDef ParentName="AK_SoundBase">
+    <defName>AK_Sound_Weapon_Blacknight</defName>
+    <subSounds Inherit="False">
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Operator/GeneralSFX/p_imp_spear_n</clipPath>
+          </li>
+        </grains>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <ThingDef ParentName="AK_WeaponBase_Vanguard">
+    <defName>AK_Weapon_MuelsyseII</defName>
+    <label>缪缪的伞</label>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Vanguard/MuelsyseW2</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <description>缪缪的伞</description>
+  </ThingDef>
+
 </Defs>

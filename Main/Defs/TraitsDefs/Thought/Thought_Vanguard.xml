@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<!-- Vanguard --> <!-- 已排序 -->
+	<!-- Vanguard -->	<!-- 已排序 -->
 
 	<!-- 焰尾 -->
 
@@ -79,7 +79,7 @@
 			</li>
 		</stages>
 	</ThoughtDef>
-	
+
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_TexasSecond</defName>
 		<requiredTraits>
@@ -170,6 +170,22 @@
 				<label>大将军</label>
 				<description>"我一开始就说了嘛，我可是挺厉害的呢！嗯——哼！"</description>
 				<baseMoodEffect>12</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 缪尔赛思 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Muelsyse</defName>
+		<requiredTraits>
+			<li>AK_Trait_Muelsyse</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>水精灵</label>
+				<description>“露水滴在叶片上，可就只能被太阳烤干了。我们是多么想融进叶脉，回归大地啊……唔，我是说露水，是露水想要——啊，嗯……唉……”</description>
+				<baseMoodEffect>-5</baseMoodEffect>
 			</li>
 		</stages>
 	</ThoughtDef>
