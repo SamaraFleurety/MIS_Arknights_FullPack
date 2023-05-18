@@ -338,7 +338,7 @@ Ifrit, former test subject of Rhine Lab, will incinerate all of Silence's enemie
 		<nickname>Mint</nickname>
 		<description>Curiosity is her greatest weapon.
 Mint, the Victorian Caster, seeks recognition as a scholar far more than as a Caster.</description>
-		<weapon>AK_Weapon_Mint</weapon>
+		<weapon>AK_Weapon_MintA</weapon>
 		<hair>AK_Hair_Mint</hair>
 		<apparels>
 			<li>AK_Apparel_Mint</li>
@@ -437,6 +437,12 @@ Mint, the Victorian Caster, seeks recognition as a scholar far more than as a Ca
 				<value>(10,10,0.5)</value>
 			</li>
 		</standOffsets>
+		<items>
+			<li>
+				<item>AK_Weapon_MintB</item>
+				<amount>1</amount>
+			</li>
+		</items>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Caster">
@@ -445,7 +451,7 @@ Mint, the Victorian Caster, seeks recognition as a scholar far more than as a Ca
 		<nickname>Mostima</nickname>
 		<description>You'll have to find her first.
 Mostima, Senior Messenger, will lay low all obstacles in your path with her Arts.</description>
-		<weapon>AK_Weapon_MostimaTypeB</weapon>
+		<weapon>AK_Weapon_MostimaC</weapon>
 		<hair>AK_Hair_Mostima</hair>
 		<apparels>
 			<li>AK_Apparel_Mostima</li>
@@ -552,6 +558,16 @@ Mostima, Senior Messenger, will lay low all obstacles in your path with her Arts
 				<value>(10,10,0.5)</value>
 			</li>
 		</standOffsets>
+		<items>
+			<li>
+				<item>AK_Weapon_MostimaA</item>
+				<amount>1</amount>
+			</li>
+			<li>
+				<item>AK_Weapon_MostimaB</item>
+				<amount>1</amount>
+			</li>
+		</items>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Caster">
@@ -885,7 +901,7 @@ Amiya, leader of Rhodes Island, will fight alongside you.</description>
 		<nickname>Ceobe</nickname>
 		<description>Knocks 'em down one after another, fast and accurate.
 Ceobe is always ready to go after the bad guys.</description>
-		<weapon>AK_Weapon_CeobeTypeB</weapon>
+		<weapon>AK_Weapon_CeobeA</weapon>
 		<hair>AK_Hair_Ceobe</hair>
 		<apparels>
 			<li>AK_Apparel_Ceobe</li>
@@ -989,6 +1005,20 @@ Ceobe is always ready to go after the bad guys.</description>
 				<value>(10,10,0.5)</value>
 			</li>
 		</standOffsets>
+		<items>
+			<li>
+				<item>AK_Weapon_CeobeB</item>
+				<amount>1</amount>
+			</li>
+			<li>
+				<item>AK_Weapon_CeobeC</item>
+				<amount>1</amount>
+			</li>
+			<li>
+				<item>AK_Weapon_CeobeD</item>
+				<amount>1</amount>
+			</li>
+		</items>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Caster">

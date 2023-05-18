@@ -32,7 +32,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="AK_WeaponBase_Defender">
-		<defName>AK_Weapon_EunectesTypeA</defName>
+		<defName>AK_Weapon_EunectesA</defName>
 		<label>轻型挂斧</label>
 		<description>森蚺的挂斧，看上去像建筑垃圾拼起来的。\n森蚺虽然力气不如嘉伟尔大，但是打人也挺疼的。</description>
 		<graphicData>
@@ -64,7 +64,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="AK_WeaponBase_Defender">
-		<defName>AK_Weapon_EunectesTypeB</defName>
+		<defName>AK_Weapon_EunectesB</defName>
 		<label>森蚺的盾</label>
 		<description>森蚺的盾，看上去像是从哪拆下来的铁门\n森蚺的身体素质虽然不如嘉伟尔好，但是也是挺扛揍的。</description>
 		<graphicData>
@@ -112,7 +112,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="AK_WeaponBase_Defender">
-		<defName>AK_Weapon_Liskarm</defName>
+		<defName>AK_Weapon_LiskarmA</defName>
 		<label>黑钢制式铳</label>
 		<description>黑钢常见的核铳，很多黑钢干员都很喜欢用。</description>
 		<graphicData>
@@ -178,7 +178,7 @@
 	</SoundDef>
 
 	<ThingDef ParentName="AK_WeaponBase_Defender">
-		<defName>AK_Weapon_LiskarmTypeB</defName>
+		<defName>AK_Weapon_LiskarmB</defName>
 		<label>雷蛇的盾牌</label>
 		<description>盾牌外形的大型施术设备，只有雷蛇的源石技艺能驾驭。\n雷蛇使用过后会极度疲乏，这是芙兰卡恶作剧的绝佳时机。</description>
 		<graphicData>
@@ -226,7 +226,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="AK_WeaponBase_Defender">
-		<defName>AK_Weapon_NianTypeA</defName>
+		<defName>AK_Weapon_NianA</defName>
 		<label>干明可鉴</label>
 		<description>“生杀之机，焉能拱手相让？”</description>
 		<graphicData>
@@ -246,7 +246,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="AK_WeaponBase_Defender">
-		<defName>AK_Weapon_NianTypeB</defName>
+		<defName>AK_Weapon_NianB</defName>
 		<label>积甲成山</label>
 		<description>“明王圣帝，谁能去兵哉？”</description>
 		<graphicData>
@@ -266,7 +266,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="AK_WeaponBase_Defender">
-		<defName>AK_Weapon_Saria</defName>
+		<defName>AK_Weapon_SariaA</defName>
 		<label>塞雷娅的盾</label>
 		<description>塞雷娅的盾形法杖，覆盖上珐琅质后坚硬无比。\n明明能用拳击却偏偏要用盾，没有人知道为何。</description>
 		<graphicData>
@@ -286,7 +286,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="AK_WeaponBase_Defender">
-		<defName>AK_Weapon_SariaTypeB</defName>
+		<defName>AK_Weapon_SariaB</defName>
 		<label>塞雷娅的医疗铳</label>
 		<description>莱茵生命通用的医疗铳，配合治疗法术能发挥更大的效果。\n“…提高个体细胞全能性，治愈一切伤痛不适…”——塞雷娅桌上的说明手册</description>
 		<graphicData>
@@ -296,7 +296,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="AK_WeaponBase_Defender">
-		<defName>AK_Weapon_Blemishine</defName>
+		<defName>AK_Weapon_BlemishineA</defName>
 		<label>瑕光的剑</label>
 		<description>耀骑士曾经使用的剑，如今传到了小耀骑士手里。\n剑中闪耀的不只是源石技艺产生的光芒，还有闪光的骑士精神。</description>
 		<graphicData>
@@ -332,7 +332,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="AK_WeaponBase_Defender">
-		<defName>AK_Weapon_BlemishineTypeB</defName>
+		<defName>AK_Weapon_BlemishineB</defName>
 		<label>瑕光的盾</label>
 		<description>耀骑士曾经使用的盾，如今传到了小耀骑士手里。\n盾所守卫的不止是家族荣誉，还有那被人遗忘的荣耀与光辉。</description>
 		<graphicData>
@@ -352,7 +352,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="AK_WeaponBase_Defender">
-		<defName>AK_Weapon_Croissant</defName>
+		<defName>AK_Weapon_CroissantA</defName>
 		<label>可颂的磁暴锤</label>
 		<description>可颂用的大锤，和她少女的身姿很不匹配\n可颂很喜欢花钱买新装备，无论是看到什么都想买下来。于是她陷入了无止境的购物漩涡。</description>
 		<graphicData>
@@ -380,7 +380,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="AK_WeaponBase_Defender">
-		<defName>AK_Weapon_CroissantTypeB</defName>
+		<defName>AK_Weapon_CroissantB</defName>
 		<label>可颂的盾牌</label>
 		<description>可颂用的盾牌，和她少女的身姿很不匹配\n可颂很喜欢花钱买新装备，无论是看到什么都想买下来。于是她陷入了无止境的购物漩涡。</description>
 		<graphicData>
@@ -428,7 +428,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="AK_WeaponBase_Defender">
-		<defName>AK_Weapon_Ashlock</defName>
+		<defName>AK_Weapon_AshlockA</defName>
 		<label>灰豪的火炮</label>
 		<equippedAngleOffset>45</equippedAngleOffset>
 		<description>灰豪所使用的火炮，能够对敌人造成巨大的杀伤\n格蕾纳蒂的祖辈们依靠这种武器为家族挣得了未来，但现在的卡利斯卡子弟已经鲜少有人熟悉这项技术了。</description>
@@ -498,7 +498,7 @@
 	</SoundDef>
 
 	<ThingDef ParentName="AK_WeaponBase_Defender">
-		<defName>AK_Weapon_AshlockTypeB</defName>
+		<defName>AK_Weapon_AshlockB</defName>
 		<label>灰豪的重盾</label>
 		<description>灰豪使用的盾牌，能够阻挡住所有的敌人。\n她的意志在经受磨难后比手中的盾更加坚不可摧。</description>
 		<graphicData>
@@ -518,7 +518,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="AK_WeaponBase_Defender">
-		<defName>AK_Weapon_Horn</defName>
+		<defName>AK_Weapon_HornA</defName>
 		<label>号角的火炮</label>
 		<description>炮弹迅疾如风暴</description>
 		<equippedAngleOffset>-45</equippedAngleOffset>
@@ -598,7 +598,7 @@
 	</SoundDef>
 
 	<ThingDef ParentName="AK_WeaponBase_Defender">
-		<defName>AK_Weapon_HornTypeB</defName>
+		<defName>AK_Weapon_HornB</defName>
 		<label>号角的盾牌</label>
 		<description>盾牌坚硬似铁壁</description>
 		<graphicData>
@@ -618,7 +618,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="AK_WeaponBase_Defender">
-		<defName>AK_Weapon_Gummy</defName>
+		<defName>AK_Weapon_GummyA</defName>
 		<label>平底锅</label>
 		<description>家用的烹调工具</description>
 		<graphicData>
@@ -638,7 +638,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="AK_WeaponBase_Defender">
-		<defName>AK_Weapon_GummyTypeB</defName>
+		<defName>AK_Weapon_GummyB</defName>
 		<label>金库大门</label>
 		<description>很坚固厚重的大门，可能是从某处的金库上拆下来的。</description>
 		<graphicData>
@@ -648,7 +648,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="AK_WeaponBase_Defender">
-		<defName>AK_Weapon_Matterhorn</defName>
+		<defName>AK_Weapon_MatterhornA</defName>
 		<label>谢拉格弯刀</label>
 		<description>一把谢拉格样式的弯刀，在哥伦比亚经常播出的野外求生节目很常见。\n不论是做饭，求生还是用来战斗都很合适。</description>
 		<graphicData>
@@ -684,7 +684,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="AK_WeaponBase_Defender">
-		<defName>AK_Weapon_MatterhornTypeB</defName>
+		<defName>AK_Weapon_MatterhornB</defName>
 		<label>谢拉格重盾</label>
 		<description>很沉重的盾，一般人举都很难举起来。\n伴随着角峰愈加频繁的踏入战场，他的盾需要维修的次数的也愈加频繁，他就是这么与火神认识的。</description>
 		<graphicData>
@@ -704,7 +704,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="AK_WeaponBase_Defender">
-		<defName>AK_Weapon_Vulcan</defName>
+		<defName>AK_Weapon_VulcanA</defName>
 		<label>火神的锤子</label>
 		<description>火神的锤头，顶端被改成了适合战斗的样子</description>
 		<graphicData>
@@ -740,7 +740,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="AK_WeaponBase_Defender">
-		<defName>AK_Weapon_VulcanTypeB</defName>
+		<defName>AK_Weapon_VulcanB</defName>
 		<label>火神的盾</label>
 		<description>火神的盾，在千锤百炼后坚不可摧。</description>
 		<graphicData>
@@ -750,7 +750,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="AK_WeaponBase_Defender">
-		<defName>AK_Weapon_Nearl</defName>
+		<defName>AK_Weapon_NearlA</defName>
 		<label>临光的战锤</label>
 		<description>临光的战锤，布满了磨损的痕迹。\n从未有人见过临光双手持锤的样子。</description>
 		<graphicData>
@@ -770,7 +770,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="AK_WeaponBase_Defender">
-		<defName>AK_Weapon_NearlTypeB</defName>
+		<defName>AK_Weapon_NearlB</defName>
 		<label>临光的盾牌</label>
 		<description>临光的盾牌，布满了磨损的痕迹。\n从未有人见过临光放下盾牌的样子。</description>
 		<graphicData>

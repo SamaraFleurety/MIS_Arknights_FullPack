@@ -602,7 +602,7 @@ Texas, employee of Penguin Logistics, will give the squad a tactical advantage w
 		<name>Saileach</name>
 		<nickname>Saileach</nickname>
 		<description>FIXME</description>
-		<weapon>AK_Weapon_Saileach</weapon>
+		<weapon>AK_Weapon_SaileachA</weapon>
 		<hair>AK_Hair_Saileach</hair>
 		<apparels>
 			<li>AK_Apparel_Saileach</li>
@@ -692,6 +692,12 @@ Texas, employee of Penguin Logistics, will give the squad a tactical advantage w
 		</traits>
 		<age>20</age>
 		<adultHood>AK_BackStory_Saileach_Adult</adultHood>
+		<items>
+			<li>
+				<item>AK_Weapon_SaileachB</item>
+				<amount>1</amount>
+			</li>
+		</items>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Vanguard">
@@ -1093,7 +1099,7 @@ Texas, employee of Penguin Logistics, will give the squad a tactical advantage w
 		<name>Myrtle</name>
 		<nickname>Myrtle</nickname>
 		<description>FIXMEDESC</description>
-		<weapon>AK_Weapon_Myrtle</weapon>
+		<weapon>AK_Weapon_MyrtleA</weapon>
 		<hair>AK_Hair_Myrtle</hair>
 		<apparels>
 			<li>AK_Apparel_Myrtle</li>
@@ -1183,6 +1189,12 @@ Texas, employee of Penguin Logistics, will give the squad a tactical advantage w
 				<fireLevel>1</fireLevel>
 			</li>
 		</skills>
+		<items>
+			<li>
+				<item>AK_Weapon_MyrtleB</item>
+				<amount>1</amount>
+			</li>
+		</items>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Vanguard">
@@ -1478,6 +1490,12 @@ FIXMEDESC</description>
 				<fireLevel>2</fireLevel>
 			</li>
 		</skills>
+		<items>
+			<li>
+				<item>AK_Weapon_MuelsyseB</item>
+				<amount>1</amount>
+			</li>
+		</items>
 	</AK_DLL.OperatorDef>
 
 </Defs>

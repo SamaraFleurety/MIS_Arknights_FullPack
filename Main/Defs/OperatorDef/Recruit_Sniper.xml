@@ -887,7 +887,7 @@ Rosa, a member of the Ursus Student Self-Government Group, is ready to welcome a
 		<nickname>Rosmontis</nickname>
 		<description>Her equipment's not on her. No need to worry about her remembering you ate her snacks yesterday. Probably.
 Rosmontis, Rhodes Island Elite Operator, pushes open your office door by hand.</description>
-		<weapon>AK_Weapon_RosmontisTypeA</weapon>
+		<weapon>AK_Weapon_RosmontisA</weapon>
 		<hair>AK_Hair_Rosmontis</hair>
 		<apparels>
 			<li>AK_Apparel_Rosmontis</li>
@@ -975,6 +975,12 @@ Rosmontis, Rhodes Island Elite Operator, pushes open your office door by hand.</
 			</li>
 		</traits>
 		<childHood>AK_BackStory_Rosmontis_Child</childHood>
+		<items>
+			<li>
+				<item>AK_Weapon_RosmontisB</item>
+				<amount>1</amount>
+			</li>
+		</items>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Sniper">

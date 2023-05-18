@@ -104,7 +104,7 @@ Cuora, Defender Operator of Rhodes Island, will provide reliable defense for the
 		<nickname>Eunectes</nickname>
 		<description>She prefers to use machines to solve her problems instead of using her fists.
 Eunectes, Gavial's rival, steps onto the battlefield along with 'Irritable Ironhide.'</description>
-		<weapon>AK_Weapon_EunectesTypeA</weapon>
+		<weapon>AK_Weapon_EunectesA</weapon>
 		<hair>AK_Hair_Eunectes</hair>
 		<apparels>
 			<li>AK_Apparel_Eunectes</li>
@@ -195,6 +195,12 @@ Eunectes, Gavial's rival, steps onto the battlefield along with 'Irritable Ironh
 		<age>20</age>
 		<childHood>AK_BackStory_Eunectes_Child</childHood>
 		<adultHood>AK_BackStory_Eunectes_Adult</adultHood>
+		<items>
+			<li>
+				<item>AK_Weapon_EunectesB</item>
+				<amount>1</amount>
+			</li>
+		</items>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Defender">
@@ -308,7 +314,7 @@ Hoshiguma, member of the Special Service of Lungmen Guard Department, is awaitin
 		<nickname>Liskarm</nickname>
 		<description>Her spear-like lightning will pierce all enemies in front of her.
 Liskarm, Defender Operator of B.P.R.S. of Blacksteel, possesses both a solid shield and a sharp spear.</description>
-		<weapon>AK_Weapon_Liskarm</weapon>
+		<weapon>AK_Weapon_LiskarmA</weapon>
 		<hair>AK_Hair_Liskarm</hair>
 		<apparels>
 			<li>AK_Apparel_Liskarm</li>
@@ -407,6 +413,12 @@ Liskarm, Defender Operator of B.P.R.S. of Blacksteel, possesses both a solid shi
 				<value>Lover</value>
 			</li>
 		</relations>
+		<items>
+			<li>
+				<item>AK_Weapon_LiskarmB</item>
+				<amount>1</amount>
+			</li>
+		</items>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Defender">
@@ -510,7 +522,7 @@ Mudrock, Sarkaz mercenary, old friend of the fertile soil and stone.</descriptio
 		<nickname>Nian</nickname>
 		<description>Always in the middle of where the excitement is.
 Nian, a mysterious visitor from the faraway land of Yen, is willing to provide a little bit of assistance.</description>
-		<weapon>AK_Weapon_NianTypeA</weapon>
+		<weapon>AK_Weapon_NianA</weapon>
 		<hair>AK_Hair_Nian</hair>
 		<apparels>
 			<li>AK_Apparel_Nian</li>
@@ -615,6 +627,12 @@ Nian, a mysterious visitor from the faraway land of Yen, is willing to provide a
 				<value>Sibling</value>
 			</li>
 		</relations>
+		<items>
+			<li>
+				<item>AK_Weapon_NianB</item>
+				<amount>1</amount>
+			</li>
+		</items>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Defender">
@@ -623,7 +641,7 @@ Nian, a mysterious visitor from the faraway land of Yen, is willing to provide a
 		<nickname>Saria</nickname>
 		<description>Diamond is more flexible than she is.
 Saria, former researcher of Rhine Lab, will serve as a core part of the squad's defense and healing unit on the battlefield.</description>
-		<weapon>AK_Weapon_Saria</weapon>
+		<weapon>AK_Weapon_SariaA</weapon>
 		<hair>AK_Hair_Saria</hair>
 		<apparels>
 			<li>AK_Apparel_Saria</li>
@@ -725,6 +743,12 @@ Saria, former researcher of Rhine Lab, will serve as a core part of the squad's 
 			</li>
 		</relations>
 		<bodyTypeDef>Female</bodyTypeDef>
+		<items>
+			<li>
+				<item>AK_Weapon_SariaB</item>
+				<amount>1</amount>
+			</li>
+		</items>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Defender">
@@ -732,7 +756,7 @@ Saria, former researcher of Rhine Lab, will serve as a core part of the squad's 
 		<name>Blemishine</name>
 		<nickname>Blemishine</nickname>
 		<description>FIXME</description>
-		<weapon>AK_Weapon_Blemishine</weapon>
+		<weapon>AK_Weapon_BlemishineA</weapon>
 		<hair>AK_Hair_Blemishine</hair>
 		<apparels>
 			<li>AK_Apparel_Blemishine</li>
@@ -838,6 +862,12 @@ Saria, former researcher of Rhine Lab, will serve as a core part of the squad's 
 				<value>Sibling</value>
 			</li>
 		</relations>
+		<items>
+			<li>
+				<item>AK_Weapon_BlemishineB</item>
+				<amount>1</amount>
+			</li>
+		</items>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Defender">
@@ -845,7 +875,7 @@ Saria, former researcher of Rhine Lab, will serve as a core part of the squad's 
 		<name>Croissant</name>
 		<nickname>Croissant</nickname>
 		<description>FIXME</description>
-		<weapon>AK_Weapon_Croissant</weapon>
+		<weapon>AK_Weapon_CroissantA</weapon>
 		<hair>AK_Hair_Croissant</hair>
 		<apparels>
 			<li>AK_Apparel_Croissant</li>
@@ -935,6 +965,12 @@ Saria, former researcher of Rhine Lab, will serve as a core part of the squad's 
 		<age>20</age>
 		<childHood>AK_BackStory_Croissant_Child</childHood>
 		<adultHood>AK_BackStory_Croissant_Adult</adultHood>
+		<items>
+			<li>
+				<item>AK_Weapon_CroissantB</item>
+				<amount>1</amount>
+			</li>
+		</items>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Defender">
@@ -1041,7 +1077,7 @@ Saria, former researcher of Rhine Lab, will serve as a core part of the squad's 
 		<name>Ashlock</name>
 		<nickname>Ashlock</nickname>
 		<description>FIXME</description>
-		<weapon>AK_Weapon_Ashlock</weapon>
+		<weapon>AK_Weapon_AshlockA</weapon>
 		<hair>AK_Hair_Ashlock</hair>
 		<apparels>
 			<li>AK_Apparel_Ashlock</li>
@@ -1131,6 +1167,12 @@ Saria, former researcher of Rhine Lab, will serve as a core part of the squad's 
 			</li>
 		</skills>
 		<bodyTypeDef>Female</bodyTypeDef>
+		<items>
+			<li>
+				<item>AK_Weapon_AshlockB</item>
+				<amount>1</amount>
+			</li>
+		</items>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Defender">
@@ -1138,7 +1180,7 @@ Saria, former researcher of Rhine Lab, will serve as a core part of the squad's 
 		<name>Horn</name>
 		<nickname>Horn</nickname>
 		<description>FIXME</description>
-		<weapon>AK_Weapon_Horn</weapon>
+		<weapon>AK_Weapon_HornA</weapon>
 		<hair>AK_Hair_Horn</hair>
 		<apparels>
 			<li>AK_Apparel_Horn</li>
@@ -1230,6 +1272,12 @@ Saria, former researcher of Rhine Lab, will serve as a core part of the squad's 
 			</li>
 		</skills>
 		<bodyTypeDef>Female</bodyTypeDef>
+		<items>
+			<li>
+				<item>AK_Weapon_HornB</item>
+				<amount>1</amount>
+			</li>
+		</items>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Defender">
@@ -1237,7 +1285,7 @@ Saria, former researcher of Rhine Lab, will serve as a core part of the squad's 
 		<name>Gummy</name>
 		<nickname>Gummy</nickname>
 		<description>FIXME</description>
-		<weapon>AK_Weapon_Gummy</weapon>
+		<weapon>AK_Weapon_GummyA</weapon>
 		<hair>AK_Hair_Gummy</hair>
 		<apparels>
 			<li>AK_Apparel_Gummy</li>
@@ -1325,6 +1373,12 @@ Saria, former researcher of Rhine Lab, will serve as a core part of the squad's 
 				<fireLevel>1</fireLevel>
 			</li>
 		</skills>
+		<items>
+			<li>
+				<item>AK_Weapon_GummyB</item>
+				<amount>1</amount>
+			</li>
+		</items>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Defender">
@@ -1332,7 +1386,7 @@ Saria, former researcher of Rhine Lab, will serve as a core part of the squad's 
 		<name>Matterhorn</name>
 		<nickname>Matterhorn</nickname>
 		<description>FIXMEDESC</description>
-		<weapon>AK_Weapon_Matterhorn</weapon>
+		<weapon>AK_Weapon_MatterhornA</weapon>
 		<hair>AK_Hair_Matterhorn</hair>
 		<apparels>
 			<li>AK_Apparel_Matterhorn</li>
@@ -1421,6 +1475,12 @@ Saria, former researcher of Rhine Lab, will serve as a core part of the squad's 
 				<fireLevel>0</fireLevel>
 			</li>
 		</skills>
+		<items>
+			<li>
+				<item>AK_Weapon_MatterhornB</item>
+				<amount>1</amount>
+			</li>
+		</items>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Defender">
@@ -1428,7 +1488,7 @@ Saria, former researcher of Rhine Lab, will serve as a core part of the squad's 
 		<name>Vulcan</name>
 		<nickname>Vulcan</nickname>
 		<description>FIXMEDESC</description>
-		<weapon>AK_Weapon_Vulcan</weapon>
+		<weapon>AK_Weapon_VulcanA</weapon>
 		<hair>AK_Hair_Vulcan</hair>
 		<apparels>
 			<li>AK_Apparel_Vulcan</li>
@@ -1516,6 +1576,12 @@ Saria, former researcher of Rhine Lab, will serve as a core part of the squad's 
 				<fireLevel>0</fireLevel>
 			</li>
 		</skills>
+		<items>
+			<li>
+				<item>AK_Weapon_VulcanB</item>
+				<amount>1</amount>
+			</li>
+		</items>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Defender">
@@ -1523,7 +1589,7 @@ Saria, former researcher of Rhine Lab, will serve as a core part of the squad's 
 		<name>Nearl</name>
 		<nickname>Nearl</nickname>
 		<description>FIXMEDESC</description>
-		<weapon>AK_Weapon_Nearl</weapon>
+		<weapon>AK_Weapon_NearlA</weapon>
 		<hair>AK_Hair_Nearl</hair>
 		<apparels>
 			<li>AK_Apparel_Nearl</li>
@@ -1627,6 +1693,12 @@ Saria, former researcher of Rhine Lab, will serve as a core part of the squad's 
 				<fireLevel>0</fireLevel>
 			</li>
 		</skills>
+		<items>
+			<li>
+				<item>AK_Weapon_NearlB</item>
+				<amount>1</amount>
+			</li>
+		</items>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Defender">

@@ -636,7 +636,7 @@ Blaze, Rhodes Island's most fired-up Operator, will spread her enthusiasm like a
 		<nickname>Chen</nickname>
 		<description>She's terrifying when she's mad, but you don't want to mess with her even when she's not.
 Ch'en, Special Inspection Unit Chief, L.G.D., is cooperating with Rhodes Island to fulfill the obligations outlined in her contract.</description>
-		<weapon>AK_Weapon_ChenTypeA</weapon>
+		<weapon>AK_Weapon_ChenA</weapon>
 		<hair>AK_Hair_Chen</hair>
 		<apparels>
 			<li>AK_Apparel_Chen</li>
@@ -734,6 +734,12 @@ Ch'en, Special Inspection Unit Chief, L.G.D., is cooperating with Rhodes Island 
 				<value>Lover</value>
 			</li>
 		</relations>
+		<items>
+			<li>
+				<item>AK_Weapon_ChenB</item>
+				<amount>1</amount>
+			</li>
+		</items>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Guard">
