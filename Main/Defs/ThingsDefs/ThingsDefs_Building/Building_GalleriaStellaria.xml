@@ -44,7 +44,7 @@
             <li Class="CompProperties_Power">
                 <compClass>CompPowerPlantSteam</compClass>
                 <basePowerConsumption>-6152</basePowerConsumption>
-                <transmitsPower>false</transmitsPower>
+                <transmitsPower>true</transmitsPower>
             </li>
             <li Class="CompProperties_Breakdownable"/>
             <li Class="CompProperties_MeditationFocus">
@@ -72,7 +72,7 @@
         </comps>
         <rotatable>false</rotatable>
         <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
-        <designationCategory>Power</designationCategory>
+        <designationCategory>Misc</designationCategory>
         <uiOrder>2110</uiOrder>
         <building>
             <destroySound>BuildingDestroyed_Metal_Big</destroySound>
