@@ -47,14 +47,33 @@
                 <transmitsPower>false</transmitsPower>
             </li>
             <li Class="CompProperties_Breakdownable"/>
+            <li Class="CompProperties_MeditationFocus">
+                <statDef>MeditationFocusStrength</statDef>
+                <focusTypes>
+                    <li>Dignified</li>
+                </focusTypes>
+                <offsets>
+                    <li Class="FocusStrengthOffset_ThroneSatisfiesRequirements">
+                        <offset>0.08</offset>
+                    </li>
+                    <li Class="FocusStrengthOffset_RoomImpressiveness">
+                        <curve>
+                            <points>
+                                <li>(0,   -0.05)</li>
+                                <li>(30,   0.00)</li>
+                                <li>(60,   0.04)</li>
+                                <li>(100,  0.08)</li>
+                                <li>(170,  0.10)</li>
+                            </points>
+                        </curve>
+                    </li>
+                </offsets>
+            </li>
         </comps>
         <rotatable>false</rotatable>
         <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
         <designationCategory>Power</designationCategory>
         <uiOrder>2110</uiOrder>
-        <placeWorkers>
-            <li>PlaceWorker_OnSteamGeyser</li>
-        </placeWorkers>
         <building>
             <destroySound>BuildingDestroyed_Metal_Big</destroySound>
         </building>
