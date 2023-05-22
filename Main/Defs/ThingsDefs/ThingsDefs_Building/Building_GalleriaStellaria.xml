@@ -2,10 +2,10 @@
 
 <Defs>
 
-    <ThingDef ParentName="BuildingBase">
+    <ThingDef Name="GalleriaStellaria" ParentName="BuildingBase">
         <defName>AK_Building_GalleriaStellaria</defName>
         <label>万星园</label>
-        <description>description</description>
+        <description>我们向往星空已经千万年，现在，是时候向他们伸出手了。</description>
         <thingClass>Building</thingClass>
         <drawerType>MapMeshAndRealTime</drawerType>
         <graphicData>
@@ -20,29 +20,27 @@
                 <rect>(0.3,0,5.4,6)</rect>
             </damageData>
         </graphicData>
-        <altitudeLayer>Building</altitudeLayer>
-        <passability>PassThroughOnly</passability>
         <blockWind>true</blockWind>
         <scatterableOnMapGen>false</scatterableOnMapGen>
         <fillPercent>1</fillPercent>
-        <blockLight>true</blockLight>
+        <blockLight>false</blockLight>
         <canOverlapZones>false</canOverlapZones>
         <statBases>
             <MaxHitPoints>500</MaxHitPoints>
-            <WorkToBuild>800</WorkToBuild>
+            <WorkToBuild>1500</WorkToBuild>
             <Flammability>0.5</Flammability>
             <Beauty>15</Beauty>
             <MeditationFocusStrength>0.15</MeditationFocusStrength>
         </statBases>
         <tickerType>Normal</tickerType>
-        <size>(6,6)</size>
+        <size>(7,7)</size>
         <costList>
             <Steel>500</Steel>
             <ComponentIndustrial>8</ComponentIndustrial>
         </costList>
         <comps>
             <li Class="CompProperties_Power">
-                <compClass>CompPowerPlantSteam</compClass>
+                <compClass>CompPowerTrader</compClass>
                 <basePowerConsumption>-6152</basePowerConsumption>
                 <transmitsPower>true</transmitsPower>
             </li>
@@ -68,6 +66,12 @@
                         </curve>
                     </li>
                 </offsets>
+            </li>
+            <li Class="CompProperties_Glower">
+                <overlightRadius>7</overlightRadius>
+                <glowRadius>20</glowRadius>
+                <glowColor>(370,370,370,0)</glowColor>
+                <colorPickerEnabled>true</colorPickerEnabled>
             </li>
         </comps>
         <rotatable>false</rotatable>
