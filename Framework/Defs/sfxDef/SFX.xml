@@ -12,156 +12,169 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Default</defName>
 		<subSounds>
-		  <li>
-			<onCamera>True</onCamera>   
-			<grains>
-			  <li Class="AudioGrain_Clip">
-				<clipPath>Operator/Default/Recruit</clipPath>
-			  </li>
-			</grains>
-			<volumeRange>40~40</volumeRange>
-			<distRange>10~100</distRange>
-			<sustainLoop>False</sustainLoop>
-		  </li>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Default/Recruit</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
 		</subSounds>
 	</SoundDef>
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Die_Default</defName>
 		<subSounds>
-		  <li>
-			<onCamera>True</onCamera>   
-			<grains>
-			  <li Class="AudioGrain_Clip">
-				<clipPath>Operator/Default/Die</clipPath>
-			  </li>
-			</grains>
-			<volumeRange>40~40</volumeRange>
-			<distRange>10~100</distRange>
-			<sustainLoop>False</sustainLoop>
-		  </li>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Default/Die</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
 		</subSounds>
 	</SoundDef>
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Draft_Default</defName>
 		<subSounds>
-		  <li>
-			<onCamera>True</onCamera>   
-			<grains>
-			  <li Class="AudioGrain_Clip">
-				<clipPath>Operator/Default/Draft</clipPath>
-			  </li>
-			</grains>
-			<volumeRange>40~40</volumeRange>
-			<distRange>10~100</distRange>
-			<sustainLoop>False</sustainLoop>
-		  </li>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Default/Draft</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
 		</subSounds>
 	</SoundDef>
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_Default</defName>
 		<subSounds>
-		  <li>
-			<onCamera>True</onCamera>   
-			<grains>
-			  <li Class="AudioGrain_Clip">
-				<clipPath>Operator/Default/Select</clipPath>
-			  </li>
-			</grains>
-			<volumeRange>40~40</volumeRange>
-			<distRange>10~100</distRange>
-			<sustainLoop>False</sustainLoop>
-		  </li>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Default/Select</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
 		</subSounds>
-	</SoundDef>	
+	</SoundDef>
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_Default</defName>
 		<subSounds>
-		  <li>
-			<onCamera>True</onCamera>   
-			<grains>
-			  <li Class="AudioGrain_Clip">
-				<clipPath>Operator/Default/Ability</clipPath>
-			  </li>
-			</grains>
-			<volumeRange>40~40</volumeRange>
-			<distRange>10~100</distRange>
-			<sustainLoop>False</sustainLoop>
-		  </li>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Default/Ability</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
 		</subSounds>
-	</SoundDef>	
-	
+	</SoundDef>
+
 	<!-- 开技能音效 -->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_SFX_Atkboost</defName>
 		<subSounds>
-		  <li>
-			<onCamera>True</onCamera>   
-			<grains>
-			  <li Class="AudioGrain_Clip">
-				<clipPath>Operator/GeneralSFX/b_char_atkboost</clipPath>
-			  </li>
-			</grains>
-			<volumeRange>40~40</volumeRange>
-			<distRange>10~100</distRange>
-			<sustainLoop>False</sustainLoop>
-		  </li>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/GeneralSFX/b_char_atkboost</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
 		</subSounds>
-	</SoundDef>	
+	</SoundDef>
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_SFX_Defboost</defName>
 		<subSounds>
-		  <li>
-			<onCamera>True</onCamera>   
-			<grains>
-			  <li Class="AudioGrain_Clip">
-				<clipPath>Operator/GeneralSFX/b_char_defboost</clipPath>
-			  </li>
-			</grains>
-			<volumeRange>40~40</volumeRange>
-			<distRange>10~100</distRange>
-			<sustainLoop>False</sustainLoop>
-		  </li>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/GeneralSFX/b_char_defboost</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
 		</subSounds>
-	</SoundDef>	
+	</SoundDef>
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_SFX_Healboost</defName>
 		<subSounds>
-		  <li>
-			<onCamera>True</onCamera>   
-			<grains>
-			  <li Class="AudioGrain_Clip">
-				<clipPath>Operator/GeneralSFX/b_char_healboost</clipPath>
-			  </li>
-			</grains>
-			<volumeRange>40~40</volumeRange>
-			<distRange>10~100</distRange>
-			<sustainLoop>False</sustainLoop>
-		  </li>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/GeneralSFX/b_char_healboost</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
 		</subSounds>
-	</SoundDef>	
+	</SoundDef>
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_SFX_Tactboost</defName>
 		<subSounds>
-		  <li>
-			<onCamera>True</onCamera>   
-			<grains>
-			  <li Class="AudioGrain_Clip">
-				<clipPath>Operator/GeneralSFX/b_char_tactboost</clipPath>
-			  </li>
-			</grains>
-			<volumeRange>40~40</volumeRange>
-			<distRange>10~100</distRange>
-			<sustainLoop>False</sustainLoop>
-		  </li>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/GeneralSFX/b_char_tactboost</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
 		</subSounds>
-	</SoundDef>	
-	
+	</SoundDef>
+
+	<SoundDef ParentName="AK_SoundBase">
+		<defName>AK_Sound_Weapon_Magic</defName>
+		<subSounds Inherit="False">
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/GeneralSFX/p_imp_spear_n</clipPath>
+					</li>
+				</grains>
+			</li>
+		</subSounds>
+	</SoundDef>
+
 </Defs>

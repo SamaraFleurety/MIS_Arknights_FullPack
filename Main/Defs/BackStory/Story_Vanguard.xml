@@ -246,10 +246,19 @@
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Muelsyse_Child</defName>
+		<slot>Childhood</slot>
+		<title>孤独的水精灵</title>
+		<titleShort>水精灵</titleShort>
+		<baseDesc>{PAWN_nameDef}的童年在哥伦比亚的一家孤儿院度过，{PAWN_pronoun}在还年幼时就已认识到自己的特殊之处。作为水精灵，{PAWN_pronoun}本身就是与现代社会互斥的。
+		</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
 		<defName>AK_BackStory_Muelsyse_Adult</defName>
 		<slot>Adulthood</slot>
 		<title>莱茵生命生态科主任</title>
-		<titleShort>莱茵生命生态科主任</titleShort>
+		<titleShort>主任</titleShort>
 		<baseDesc>{PAWN_nameDef}是莱茵生命生态科主任，在莱茵生命草创初期便加入了莱茵生命，几乎是陪着莱茵从当年的那两间小办公室成长到哥伦比亚的科研巨头。{PAWN_pronoun}在数十年里一直是总辖的坚定支持者。
 但是，{PAWN_pronoun}没有陪总辖走到最后。
 		</baseDesc>

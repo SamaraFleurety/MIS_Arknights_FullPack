@@ -258,6 +258,8 @@
 		</stages>
 	</ThoughtDef>
 
+	<!-- 和弦 -->
+
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_Harmonie</defName>
 		<requiredTraits><li>AK_Trait_Harmonie</li></requiredTraits>
@@ -270,6 +272,8 @@
 		</stages>
 	</ThoughtDef>
 
+	<!-- 林 -->
+
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_Lin</defName>
 		<requiredTraits><li>AK_Trait_Lin</li></requiredTraits>
@@ -278,6 +282,20 @@
 				<label>灰色的林</label>
 				<description>“龙门发展日新月异，也依然有霓虹灯无法照亮的角落......”</description>
 				<baseMoodEffect>12</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 霍尔海雅 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Hoolheyak</defName>
+		<requiredTraits><li>AK_Trait_Hoolheyak</li></requiredTraits>
+		<stages>
+			<li>
+				<label>曾有羽翼</label>
+				<description>当我放下对“羽蛇”的追求以后，过去的答案已经失去了意义。克丽斯腾残忍地在推开了真理之门后抛弃了所有人，而我唯一的幸运， 是在门前发现了你们的存在。</description>
+				<baseMoodEffect>-10</baseMoodEffect>
 			</li>
 		</stages>
 	</ThoughtDef>

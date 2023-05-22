@@ -376,6 +376,8 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<!-- 和弦 -->
+
 	<TraitDef>
 		<ignoreConfigErrors>true</ignoreConfigErrors>
 		<commonality>0.0</commonality>
@@ -420,6 +422,8 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<!-- 林 -->
+
 	<TraitDef>
 		<ignoreConfigErrors>true</ignoreConfigErrors>
 		<commonality>0.0</commonality>
@@ -451,6 +455,60 @@
 					<SmoothingSpeed>0.24</SmoothingSpeed>
 					<ConstructionSpeed>0.2</ConstructionSpeed>
 					<SocialImpact>0.5</SocialImpact>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<!-- 霍尔海雅 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_HoolheyakThird</defName>
+		<degreeDatas>
+			<li>
+				<label>羽蛇</label>
+				<description>即使作为神民血脉稀释过的后裔，霍尔海雅依旧拥有强大的身体素质和战斗能力，这一点是毋庸置疑的。
+				</description>
+				<statOffsets>
+					<IncomingDamageFactor>0.6</IncomingDamageFactor>
+					<ShootingAccuracyPawn>0.25</ShootingAccuracyPawn>
+					<MeleeDPS>1.5</MeleeDPS>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_HoolheyakSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>人形图书馆</label>
+				<description>霍尔海雅有着四百五十余年的记忆和知识传承，这让她几乎拥有绝大多数问题的解决方案和强大的思维能力。
+				</description>
+				<statOffsets>
+					<ResearchSpeed>1</ResearchSpeed>
+					<GlobalLearningFactor>0.75</GlobalLearningFactor>
+					<NegotiationAbility>0.3</NegotiationAbility>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Hoolheyak</defName>
+		<degreeDatas>
+			<li>
+				<label>曾有羽翼</label>
+				<description>“对于我们来说，历史是必修课，我们总是在历史中寻找答案。当我们在重重迷雾中发现，现代的历史被高耸的墙壁所包围，我们只是在虚构的舞台上进行一场或许无人观赏的演出时，我们所处的当下就失去了所有的吸引力。”
+				</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.32</MentalBreakThreshold>
 				</statOffsets>
 			</li>
 		</degreeDatas>

@@ -276,7 +276,7 @@
 		<slot>Childhood</slot>
 		<title>履历缺失</title>
 		<titleShort>履历缺失</titleShort>
-		<baseDesc>看样子她对自身情报的保密做的很好
+		<baseDesc>看样子{PAWN_pronoun}对自身情报的保密做的很好
 		</baseDesc>
 	</BackstoryDef>
 
@@ -306,6 +306,24 @@
 		<baseDesc>{PAWN_nameDef}，本名林雨霞，龙门人。本职工作不明，本人提供的档案资料信息十分有限，同样存疑。
 于“玉门事件”后，主动提出与罗德岛正式建立合作。为罗德岛在龙门收治感染者的工作提供帮助。
 		</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Hoolheyak_Child</defName>
+		<slot>Childhood</slot>
+		<title>羽蛇之子</title>
+		<titleShort>羽蛇之子</titleShort>
+		<baseDesc>{PAWN_nameDef}出生在古老神民后裔——羽蛇的家庭中，{PAWN_pronoun}被迫地背负了羽蛇一族的历史使命并接受了记忆传承的脑部手术，这对{PAWN_possessive}成长影响深远，并使得{PAWN_possessive}寿命极大的缩短。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Hoolheyak_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>迷茫的羽蛇</title>
+		<titleShort>迷茫的羽蛇</titleShort>
+		<baseDesc>作为羽蛇一族的后代，{PAWN_nameDef}的使命是寻回羽蛇在过去的荣光。在某件事发生之前{PAWN_possessive}人生的确只有这一个简单的目标，不过{PAWN_pronoun}现在决定先把这件事放在一边。
+但{PAWN_pronoun}在面对族群使命之外的事情时感到迷茫。
+</baseDesc>
 	</BackstoryDef>
 
 </Defs>

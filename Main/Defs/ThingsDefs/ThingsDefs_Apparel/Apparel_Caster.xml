@@ -217,4 +217,16 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Caster">
+		<defName>AK_Apparel_Hoolheyak</defName>
+		<label>霍尔海雅服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Caster/Hoolheyak</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Caster/Hoolheyak</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 </Defs>
