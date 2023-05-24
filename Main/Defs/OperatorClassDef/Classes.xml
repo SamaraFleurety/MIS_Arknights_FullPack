@@ -3,7 +3,7 @@
 	<AK_DLL.OperatorSeriesDef>
 		<defName>AK_Series_Arknights</defName>
 		<label>Arknights</label>
-		<icon>UI/Element/Guard</icon>
+		<icon>UI/Element/RhodesIsland</icon>
 	</AK_DLL.OperatorSeriesDef>
 
 	<AK_DLL.OperatorClassDef Name="AK_OpClassBase" Abstract="True">
@@ -15,6 +15,7 @@
 		<label>Caster</label>
 		<sortingOrder>1</sortingOrder>
 		<textureFolder>Caster</textureFolder>
+		<iconPath>UI/Element/Caster</iconPath>
 	</AK_DLL.OperatorClassDef>
 
 	<AK_DLL.OperatorClassDef ParentName="AK_OpClassBase">
@@ -22,6 +23,7 @@
 		<label>Defender</label>
 		<sortingOrder>2</sortingOrder>
 		<textureFolder>Defender</textureFolder>
+		<iconPath>UI/Element/Defender</iconPath>
 	</AK_DLL.OperatorClassDef>
 
 	<AK_DLL.OperatorClassDef ParentName="AK_OpClassBase">
@@ -37,6 +39,7 @@
 		<label>Medic</label>
 		<sortingOrder>4</sortingOrder>
 		<textureFolder>Medic</textureFolder>
+		<iconPath>UI/Element/Medic</iconPath>
 	</AK_DLL.OperatorClassDef>
 
 	<AK_DLL.OperatorClassDef ParentName="AK_OpClassBase">
@@ -44,6 +47,7 @@
 		<label>Sniper</label>
 		<sortingOrder>5</sortingOrder>
 		<textureFolder>Sniper</textureFolder>
+		<iconPath>UI/Element/Sniper</iconPath>
 	</AK_DLL.OperatorClassDef>
 
 	<AK_DLL.OperatorClassDef ParentName="AK_OpClassBase">
@@ -51,6 +55,7 @@
 		<label>Specialist</label>
 		<sortingOrder>6</sortingOrder>
 		<textureFolder>Specialist</textureFolder>
+		<iconPath>UI/Element/Specialist</iconPath>
 	</AK_DLL.OperatorClassDef>
 
 	<AK_DLL.OperatorClassDef ParentName="AK_OpClassBase">
@@ -58,6 +63,7 @@
 		<label>Supporter</label>
 		<sortingOrder>7</sortingOrder>
 		<textureFolder>Supporter</textureFolder>
+		<iconPath>UI/Element/Supporter</iconPath>
 	</AK_DLL.OperatorClassDef>
 
 	<AK_DLL.OperatorClassDef ParentName="AK_OpClassBase">
@@ -65,6 +71,7 @@
 		<label>Vanguard</label>
 		<sortingOrder>8</sortingOrder>
 		<textureFolder>Vanguard</textureFolder>
+		<iconPath>UI/Element/Vanguard</iconPath>
 	</AK_DLL.OperatorClassDef>
 
 </Defs>
