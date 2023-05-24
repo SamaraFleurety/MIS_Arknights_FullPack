@@ -168,11 +168,15 @@
 		<defName>AK_Sound_Weapon_Magic</defName>
 		<subSounds Inherit="False">
 			<li>
+				<onCamera>True</onCamera>
 				<grains>
 					<li Class="AudioGrain_Clip">
 						<clipPath>Operator/GeneralSFX/p_imp_spear_n</clipPath>
 					</li>
 				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
 			</li>
 		</subSounds>
 	</SoundDef>
