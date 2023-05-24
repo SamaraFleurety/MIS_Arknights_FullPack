@@ -1,56 +1,66 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+	<AK_DLL.OperatorSeriesDef>
+		<defName>AK_Series_Arknights</defName>
+		<label>Arknights</label>
+		<icon>UI/Element/Guard</icon>
+	</AK_DLL.OperatorSeriesDef>
 
-	<AK_DLL.OperatorClassDef>
+	<AK_DLL.OperatorClassDef Name="AK_OpClassBase" Abstract="True">
+		<series>AK_Series_Arknights</series>
+	</AK_DLL.OperatorClassDef>
+
+	<AK_DLL.OperatorClassDef ParentName="AK_OpClassBase">
 		<defName>AK_OperatorClass_Caster</defName>
 		<label>Caster</label>
 		<sortingOrder>1</sortingOrder>
 		<textureFolder>Caster</textureFolder>
 	</AK_DLL.OperatorClassDef>
 
-	<AK_DLL.OperatorClassDef>
+	<AK_DLL.OperatorClassDef ParentName="AK_OpClassBase">
 		<defName>AK_OperatorClass_Defender</defName>
 		<label>Defender</label>
 		<sortingOrder>2</sortingOrder>
 		<textureFolder>Defender</textureFolder>
 	</AK_DLL.OperatorClassDef>
 
-	<AK_DLL.OperatorClassDef>
+	<AK_DLL.OperatorClassDef ParentName="AK_OpClassBase">
 		<defName>AK_OperatorClass_Guard</defName>
 		<label>Guard</label>
 		<sortingOrder>3</sortingOrder>
 		<textureFolder>Guard</textureFolder>
+		<iconPath>UI/Element/Guard</iconPath>
 	</AK_DLL.OperatorClassDef>
 
-	<AK_DLL.OperatorClassDef>
+	<AK_DLL.OperatorClassDef ParentName="AK_OpClassBase">
 		<defName>AK_OperatorClass_Medic</defName>
 		<label>Medic</label>
 		<sortingOrder>4</sortingOrder>
 		<textureFolder>Medic</textureFolder>
 	</AK_DLL.OperatorClassDef>
 
-	<AK_DLL.OperatorClassDef>
+	<AK_DLL.OperatorClassDef ParentName="AK_OpClassBase">
 		<defName>AK_OperatorClass_Sniper</defName>
 		<label>Sniper</label>
 		<sortingOrder>5</sortingOrder>
 		<textureFolder>Sniper</textureFolder>
 	</AK_DLL.OperatorClassDef>
 
-	<AK_DLL.OperatorClassDef>
+	<AK_DLL.OperatorClassDef ParentName="AK_OpClassBase">
 		<defName>AK_OperatorClass_Specialist</defName>
 		<label>Specialist</label>
 		<sortingOrder>6</sortingOrder>
 		<textureFolder>Specialist</textureFolder>
 	</AK_DLL.OperatorClassDef>
 
-	<AK_DLL.OperatorClassDef>
+	<AK_DLL.OperatorClassDef ParentName="AK_OpClassBase">
 		<defName>AK_OperatorClass_Supporter</defName>
 		<label>Supporter</label>
 		<sortingOrder>7</sortingOrder>
 		<textureFolder>Supporter</textureFolder>
 	</AK_DLL.OperatorClassDef>
 
-	<AK_DLL.OperatorClassDef>
+	<AK_DLL.OperatorClassDef ParentName="AK_OpClassBase">
 		<defName>AK_OperatorClass_Vanguard</defName>
 		<label>Vanguard</label>
 		<sortingOrder>8</sortingOrder>
