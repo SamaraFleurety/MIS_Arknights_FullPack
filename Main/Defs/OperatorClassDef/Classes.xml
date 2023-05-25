@@ -16,6 +16,18 @@
 		<series>AK_Series_Arknights</series>
 	</AK_DLL.OperatorClassDef>
 
+	<AK_DLL.OperatorClassDef Name="AK_OpClassOther" Abstract="True">
+		<series>AK_Series_Other</series>
+	</AK_DLL.OperatorClassDef>
+
+	<AK_DLL.OperatorClassDef ParentName="AK_OpClassOther">
+		<defName>AK_OperatorClass_Reunion</defName>
+		<label>Reunion</label>
+		<sortingOrder>9</sortingOrder>
+		<textureFolder>Reunion</textureFolder>
+		<iconPath>UI/Element/Reunion</iconPath>
+	</AK_DLL.OperatorClassDef>
+
 	<AK_DLL.OperatorClassDef ParentName="AK_OpClassBase">
 		<defName>AK_OperatorClass_Caster</defName>
 		<label>Caster</label>
