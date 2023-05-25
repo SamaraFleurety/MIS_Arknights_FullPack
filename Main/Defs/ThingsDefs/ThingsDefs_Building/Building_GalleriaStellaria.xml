@@ -2,7 +2,7 @@
 
 <Defs>
 
-    <ThingDef Name="GalleriaStellaria" ParentName="BuildingBase">
+    <ThingDef ParentName="BuildingBase">
         <defName>AK_Building_GalleriaStellaria</defName>
         <label>万星园</label>
         <description>我们向往星空已经千万年，现在，是时候向他们伸出手了。</description>
@@ -11,7 +11,7 @@
         <graphicData>
             <texPath>Things/Building/GalleriaStellaria</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>(6,6)</drawSize>
+            <drawSize>(7,7)</drawSize>
             <shadowData>
                 <volume>(6.03,1.0,5.25)</volume>
                 <offset>(0,0,-0.25)</offset>
@@ -72,6 +72,123 @@
             <li Class="CompProperties_Glower">
                 <overlightRadius>7</overlightRadius>
                 <glowRadius>20</glowRadius>
+                <glowColor>(370,370,370,0)</glowColor>
+                <colorPickerEnabled>true</colorPickerEnabled>
+            </li>
+        </comps>
+        <rotatable>false</rotatable>
+        <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+        <designationCategory>Misc</designationCategory>
+        <uiOrder>2110</uiOrder>
+        <building>
+            <destroySound>BuildingDestroyed_Metal_Big</destroySound>
+        </building>
+        <constructEffect>ConstructMetal</constructEffect>
+        <designationHotKey>Misc6</designationHotKey>
+        <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+    </ThingDef>
+
+    <ThingDef ParentName="BuildingBase">
+        <defName>AK_Building_GalleriaStellariaPartA</defName>
+        <label>万星园控制终端</label>
+        <description>万星园实验室的主脑，其上搭载的计算机足够完成一些较为复杂的计算。在坠毁之后它也仅剩此功能。</description>
+        <thingClass>Building</thingClass>
+        <drawerType>MapMeshAndRealTime</drawerType>
+        <graphicData>
+            <texPath>Things/Building/GalleriaStellariaPartA</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(5,5)</drawSize>
+            <shadowData>
+                <volume>(6.03,1.0,5.25)</volume>
+                <offset>(0,0,-0.25)</offset>
+            </shadowData>
+            <damageData>
+                <rect>(0.3,0,5.4,6)</rect>
+            </damageData>
+        </graphicData>
+        <altitudeLayer>Building</altitudeLayer>
+        <passability>PassThroughOnly</passability>
+        <blockWind>true</blockWind>
+        <scatterableOnMapGen>false</scatterableOnMapGen>
+        <fillPercent>1</fillPercent>
+        <blockLight>false</blockLight>
+        <canOverlapZones>false</canOverlapZones>
+        <statBases>
+            <MaxHitPoints>500</MaxHitPoints>
+            <WorkToBuild>600</WorkToBuild>
+            <Flammability>0.5</Flammability>
+            <MeditationFocusStrength>0.15</MeditationFocusStrength>
+        </statBases>
+        <tickerType>Normal</tickerType>
+        <size>(5,1)</size>
+        <costList>
+            <Steel>300</Steel>
+            <ComponentIndustrial>5</ComponentIndustrial>
+        </costList>
+        <comps>
+            <li Class="CompProperties_Breakdownable"/>
+            <li Class="CompProperties_Facility">
+                <statOffsets>
+                    <ResearchSpeedFactor>0.2</ResearchSpeedFactor>
+                </statOffsets>
+                <maxSimultaneous>1</maxSimultaneous>
+            </li>
+        </comps>
+        <rotatable>false</rotatable>
+        <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+        <designationCategory>Misc</designationCategory>
+        <uiOrder>2110</uiOrder>
+        <building>
+            <destroySound>BuildingDestroyed_Metal_Big</destroySound>
+        </building>
+        <constructEffect>ConstructMetal</constructEffect>
+        <designationHotKey>Misc6</designationHotKey>
+        <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+    </ThingDef>
+
+    <ThingDef ParentName="BuildingBase">
+        <defName>AK_Building_GalleriaStellariaPartB</defName>
+        <label>操控塔</label>
+        <description>用以与克丽斯腾的源石技艺相配合，操纵金属球来实时模拟群星所处的位置。
+        好吧，现在没什么用了，你可以拆解它，用它照明，或者干脆放着好看。</description>
+        <thingClass>Building</thingClass>
+        <drawerType>MapMeshAndRealTime</drawerType>
+        <graphicData>
+            <texPath>Things/Building/GalleriaStellariaPartB</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(3,3)</drawSize>
+            <shadowData>
+                <volume>(6.03,1.0,5.25)</volume>
+                <offset>(0,0,-0.25)</offset>
+            </shadowData>
+            <damageData>
+                <rect>(0.3,0,5.4,6)</rect>
+            </damageData>
+        </graphicData>
+        <altitudeLayer>Building</altitudeLayer>
+        <passability>PassThroughOnly</passability>
+        <blockWind>true</blockWind>
+        <scatterableOnMapGen>false</scatterableOnMapGen>
+        <fillPercent>1</fillPercent>
+        <blockLight>false</blockLight>
+        <canOverlapZones>false</canOverlapZones>
+        <statBases>
+            <MaxHitPoints>500</MaxHitPoints>
+            <WorkToBuild>400</WorkToBuild>
+            <Flammability>0.5</Flammability>
+            <MeditationFocusStrength>0.15</MeditationFocusStrength>
+        </statBases>
+        <tickerType>Normal</tickerType>
+        <size>(1,3)</size>
+        <costList>
+            <Steel>100</Steel>
+            <ComponentIndustrial>2</ComponentIndustrial>
+        </costList>
+        <comps>
+            <li Class="CompProperties_Breakdownable"/>
+            <li Class="CompProperties_Glower">
+                <overlightRadius>7</overlightRadius>
+                <glowRadius>10</glowRadius>
                 <glowColor>(370,370,370,0)</glowColor>
                 <colorPickerEnabled>true</colorPickerEnabled>
             </li>

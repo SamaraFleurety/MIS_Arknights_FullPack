@@ -33,7 +33,7 @@
 		<label>Caster</label>
 		<sortingOrder>1</sortingOrder>
 		<textureFolder>Caster</textureFolder>
-		<iconPath>UI/Element/Caster</iconPath>
+		<iconPath>UI/Element/CasterB</iconPath>
 	</AK_DLL.OperatorClassDef>
 
 	<AK_DLL.OperatorClassDef ParentName="AK_OpClassBase">
@@ -41,7 +41,7 @@
 		<label>Defender</label>
 		<sortingOrder>2</sortingOrder>
 		<textureFolder>Defender</textureFolder>
-		<iconPath>UI/Element/Defender</iconPath>
+		<iconPath>UI/Element/DefenderB</iconPath>
 	</AK_DLL.OperatorClassDef>
 
 	<AK_DLL.OperatorClassDef ParentName="AK_OpClassBase">
@@ -49,7 +49,7 @@
 		<label>Guard</label>
 		<sortingOrder>3</sortingOrder>
 		<textureFolder>Guard</textureFolder>
-		<iconPath>UI/Element/Guard</iconPath>
+		<iconPath>UI/Element/GuardB</iconPath>
 	</AK_DLL.OperatorClassDef>
 
 	<AK_DLL.OperatorClassDef ParentName="AK_OpClassBase">
@@ -57,7 +57,7 @@
 		<label>Medic</label>
 		<sortingOrder>4</sortingOrder>
 		<textureFolder>Medic</textureFolder>
-		<iconPath>UI/Element/Medic</iconPath>
+		<iconPath>UI/Element/MedicB</iconPath>
 	</AK_DLL.OperatorClassDef>
 
 	<AK_DLL.OperatorClassDef ParentName="AK_OpClassBase">
@@ -65,7 +65,7 @@
 		<label>Sniper</label>
 		<sortingOrder>5</sortingOrder>
 		<textureFolder>Sniper</textureFolder>
-		<iconPath>UI/Element/Sniper</iconPath>
+		<iconPath>UI/Element/SniperB</iconPath>
 	</AK_DLL.OperatorClassDef>
 
 	<AK_DLL.OperatorClassDef ParentName="AK_OpClassBase">
@@ -73,7 +73,7 @@
 		<label>Specialist</label>
 		<sortingOrder>6</sortingOrder>
 		<textureFolder>Specialist</textureFolder>
-		<iconPath>UI/Element/Specialist</iconPath>
+		<iconPath>UI/Element/SpecialistB</iconPath>
 	</AK_DLL.OperatorClassDef>
 
 	<AK_DLL.OperatorClassDef ParentName="AK_OpClassBase">
@@ -81,7 +81,7 @@
 		<label>Supporter</label>
 		<sortingOrder>7</sortingOrder>
 		<textureFolder>Supporter</textureFolder>
-		<iconPath>UI/Element/Supporter</iconPath>
+		<iconPath>UI/Element/SupporterB</iconPath>
 	</AK_DLL.OperatorClassDef>
 
 	<AK_DLL.OperatorClassDef ParentName="AK_OpClassBase">
@@ -89,7 +89,7 @@
 		<label>Vanguard</label>
 		<sortingOrder>8</sortingOrder>
 		<textureFolder>Vanguard</textureFolder>
-		<iconPath>UI/Element/Vanguard</iconPath>
+		<iconPath>UI/Element/VanguardB</iconPath>
 	</AK_DLL.OperatorClassDef>
 
 </Defs>
