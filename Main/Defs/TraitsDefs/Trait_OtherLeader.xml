@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_KristenThird</defName>
+		<degreeDatas>
+			<li>
+				<label>空前绝后的天才</label>
+				<description>克丽丝腾的天分足以让绝大多数人眼红——她在十三岁时便考入特里蒙理工大学，这在哥伦比亚历史上是绝无仅有的。
+				</description>
+                <statOffsets>
+					<GlobalLearningFactor>2.2</GlobalLearningFactor>
+					<ResearchSpeed>3.2</ResearchSpeed>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_KristenSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>总辖</label>
+				<description>克丽斯腾的人格魅力足够吸引几乎所有遇到她的人，她的口才，煽动力和说服力能让最优秀的谈判者和演说家黯然失色，可以莱茵生命能成为哥伦比亚头部科研公司之一，克里斯腾本人的魅力起了巨大的作用。
+				</description>
+                <statOffsets>
+					<PawnBeauty>1.0</PawnBeauty>
+					<SocialImpact>0.8</SocialImpact>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Kristen</defName>
+		<degreeDatas>
+			<li>
+				<label>“孤星”</label>
+				<description>不灭。
+				</description>
+                <statOffsets>
+					<MentalBreakThreshold>-0.8</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+</Defs>

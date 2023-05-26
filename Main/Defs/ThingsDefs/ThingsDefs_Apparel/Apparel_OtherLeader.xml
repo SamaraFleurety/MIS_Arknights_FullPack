@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="AK_ArmorBase">
+		<defName>AK_Apparel_Kristen</defName>
+		<label>克丽斯腾服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/OtherLeader/Kristen</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/OtherLeader/Kristen</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+</Defs>

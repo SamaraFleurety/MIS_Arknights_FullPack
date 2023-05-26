@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-<!-- 整合(和乌萨斯) -->
+  <!-- 整合(和乌萨斯) -->
   <TraitDef>
     <defName>AK_Trait_Reunion_Alina</defName>
-	<ignoreConfigErrors>true</ignoreConfigErrors>
+    <ignoreConfigErrors>true</ignoreConfigErrors>
     <commonality>0.0</commonality>
     <degreeDatas>
       <li>
         <label>alina</label>
         <description>“怀揣希望是一件残酷的事，但{PAWN_pronoun}依旧义无反顾。”</description>
-		<statOffsets>
-		  <PainShockThreshold>-0.25</PainShockThreshold>
+        <statOffsets>
+          <PainShockThreshold>-0.25</PainShockThreshold>
         </statOffsets>
-		<statFactors>
+        <statFactors>
           <IncomingDamageFactor>0.35</IncomingDamageFactor>
         </statFactors>
-		<skillGains>
+        <skillGains>
           <li>
             <key>Medicine</key>
             <value>4</value>
@@ -24,25 +24,25 @@
       </li>
     </degreeDatas>
   </TraitDef>
-  
+
   <TraitDef>
     <defName>AK_Trait_Reunion_Chaser</defName>
-	<ignoreConfigErrors>true</ignoreConfigErrors>
+    <ignoreConfigErrors>true</ignoreConfigErrors>
     <commonality>0.0</commonality>
     <degreeDatas>
       <li>
         <label>皇帝的利刃</label>
         <description>{PAWN_nameDef}脚下所伫立的，即是乌萨斯的伟大国土.</description>
-		<statFactors>
+        <statFactors>
           <MeleeDodgeChance>0.5</MeleeDodgeChance>
-		  <PainShockThreshold>2</PainShockThreshold>
+          <PainShockThreshold>2</PainShockThreshold>
         </statFactors>
-		<skillGains>
+        <skillGains>
           <li>
             <key>Melee</key>
             <value>10</value>
           </li>
-		  <li>
+          <li>
             <key>Shooting</key>
             <value>6</value>
           </li>
@@ -50,20 +50,20 @@
       </li>
     </degreeDatas>
   </TraitDef>
-<!-- 干员 -->
+  <!-- 干员 -->
   <TraitDef>
     <defName>AK_Trait_Agent_Kal</defName>
-	<ignoreConfigErrors>true</ignoreConfigErrors>
+    <ignoreConfigErrors>true</ignoreConfigErrors>
     <commonality>0.0</commonality>
     <degreeDatas>
       <li>
         <label>无所不知</label>
         <description>{PAWN_nameDef}的自称，目前看来是这样的</description>
-		<statFactors>
+        <statFactors>
           <ResearchSpeed>2</ResearchSpeed>
-		  <GlobalLearningFactor>1.25</GlobalLearningFactor>
+          <GlobalLearningFactor>1.25</GlobalLearningFactor>
         </statFactors>
-		<skillGains>
+        <skillGains>
           <li>
             <key>Intellectual</key>
             <value>5</value>
@@ -72,22 +72,22 @@
       </li>
     </degreeDatas>
   </TraitDef>
-  
+
   <TraitDef>
     <defName>AK_Trait_Agent_Amiya</defName>
-	<ignoreConfigErrors>true</ignoreConfigErrors>
+    <ignoreConfigErrors>true</ignoreConfigErrors>
     <commonality>0.0</commonality>
     <degreeDatas>
       <li>
         <label>魔王</label>
         <description>“青蓝色怒火，一切战争在此停歇。”</description>
-		<statOffsets>
-		  <PainShockThreshold>0.5</PainShockThreshold>
+        <statOffsets>
+          <PainShockThreshold>0.5</PainShockThreshold>
         </statOffsets>
-		<statFactors>
-		  <GlobalLearningFactor>1.5</GlobalLearningFactor>
+        <statFactors>
+          <GlobalLearningFactor>1.5</GlobalLearningFactor>
         </statFactors>
-		<skillGains>
+        <skillGains>
           <li>
             <key>Social</key>
             <value>5</value>
@@ -96,24 +96,24 @@
       </li>
     </degreeDatas>
   </TraitDef>
-  
+
   <TraitDef>
     <defName>AK_Trait_Agent_Rosmontis</defName>
-	<ignoreConfigErrors>true</ignoreConfigErrors>
+    <ignoreConfigErrors>true</ignoreConfigErrors>
     <commonality>0.0</commonality>
     <degreeDatas>
       <li>
         <label>人形兵器</label>
         <description>“罗德岛的一切，{PAWN_nameDef}真心希望你能帮{PAWN_pronoun}记住这些”</description>
-		<statFactors>
+        <statFactors>
           <GlobalLearningFactor>0.75</GlobalLearningFactor>
         </statFactors>
-		<skillGains>
+        <skillGains>
           <li>
             <key>Shooting</key>
             <value>5</value>
           </li>
-		  <li>
+          <li>
             <key>Intellectual</key>
             <value>-2</value>
           </li>
@@ -121,25 +121,25 @@
       </li>
     </degreeDatas>
   </TraitDef>
-  
+
   <TraitDef>
     <defName>AK_Trait_Agent_Blaze</defName>
-	<ignoreConfigErrors>true</ignoreConfigErrors>
+    <ignoreConfigErrors>true</ignoreConfigErrors>
     <commonality>0.0</commonality>
     <degreeDatas>
       <li>
         <label>热情澎湃</label>
         <description>“罗德岛最热情的精英干员，{PAWN_nameDef}，将在任何地方散播她的热情。”</description>
-		<statOffsets>
+        <statOffsets>
           <MoveSpeed>0.25</MoveSpeed>
-		  <MeleeDodgeChance>0.05</MeleeDodgeChance>
+          <MeleeDodgeChance>0.05</MeleeDodgeChance>
         </statOffsets>
-		<skillGains>
+        <skillGains>
           <li>
             <key>Melee</key>
             <value>4</value>
           </li>
-		  <li>
+          <li>
             <key>Social</key>
             <value>3</value>
           </li>
@@ -147,24 +147,24 @@
       </li>
     </degreeDatas>
   </TraitDef>
-  
+
   <TraitDef>
     <defName>AK_Trait_Agent_Surtr</defName>
-	<ignoreConfigErrors>true</ignoreConfigErrors>
+    <ignoreConfigErrors>true</ignoreConfigErrors>
     <commonality>0.0</commonality>
     <degreeDatas>
       <li>
         <label>黄昏</label>
         <description>“一位披荆斩棘的干员，看上去很难接近，希望对博士是例外。”</description>
-		<statOffsets>
-		  <PainShockThreshold>-0.20</PainShockThreshold>
+        <statOffsets>
+          <PainShockThreshold>-0.20</PainShockThreshold>
         </statOffsets>
-		<skillGains>
+        <skillGains>
           <li>
             <key>Melee</key>
             <value>5</value>
           </li>
-		  <li>
+          <li>
             <key>Social</key>
             <value>-2</value>
           </li>
@@ -172,25 +172,25 @@
       </li>
     </degreeDatas>
   </TraitDef>
-  
+
   <TraitDef>
     <defName>AK_Trait_Agent_Abyss_Hunter</defName>
-	<ignoreConfigErrors>true</ignoreConfigErrors>
+    <ignoreConfigErrors>true</ignoreConfigErrors>
     <commonality>0.0</commonality>
     <degreeDatas>
       <li>
         <label>深海猎人</label>
         <description>“深海猎人血脉相连！”</description>
-		<statOffsets>
+        <statOffsets>
           <MoveSpeed>0.2</MoveSpeed>
-		  <MeleeDodgeChance>0.25</MeleeDodgeChance>
+          <MeleeDodgeChance>0.25</MeleeDodgeChance>
         </statOffsets>
-		<skillGains>
+        <skillGains>
           <li>
             <key>Melee</key>
             <value>4</value>
           </li>
-		  <li>
+          <li>
             <key>Social</key>
             <value>-2</value>
           </li>
@@ -198,21 +198,21 @@
       </li>
     </degreeDatas>
   </TraitDef>
-  
-	<TraitDef>
-		<ignoreConfigErrors>true</ignoreConfigErrors>
-		<commonality>0.0</commonality>
-		<defName>AK_Trait_Chernobog</defName>
-		<degreeDatas>
-			<li>
-				<label>切尔诺伯格</label>
-				<description>我们无从得知从切尔诺伯格逃出来的人经历了什么。但无论如何这对他们来说都是地狱般的经历，并且毫无疑问需要很多时间去试图遗忘并适应新生活。
-				</description>
-				<statOffsets>
-					<MentalBreakThreshold>0.20</MentalBreakThreshold>
-				</statOffsets>
-			</li>
-		</degreeDatas>
-	</TraitDef>
-	
+
+  <TraitDef>
+    <ignoreConfigErrors>true</ignoreConfigErrors>
+    <commonality>0.0</commonality>
+    <defName>AK_Trait_Chernobog</defName>
+    <degreeDatas>
+      <li>
+        <label>切尔诺伯格</label>
+        <description>我们无从得知从切尔诺伯格逃出来的人经历了什么。但无论如何这对他们来说都是地狱般的经历，并且毫无疑问需要很多时间去试图遗忘并适应新生活。
+        </description>
+        <statOffsets>
+          <MentalBreakThreshold>0.20</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
 </Defs>

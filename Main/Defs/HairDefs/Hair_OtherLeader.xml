@@ -1,24 +1,28 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<!-- 整合 -->
-
 	<HairDef ParentName="AK_HairBaseF">
 		<defName>AK_Hair_Alina</defName>
 		<label>阿丽娜发型</label>
-		<texPath>Things/Hair/Reunion/Alina</texPath>
+		<texPath>Things/Hair/OtherLeader/Alina</texPath>
 	</HairDef>
 
 	<HairDef ParentName="AK_HairBaseF">
 		<defName>AK_Hair_Frostnova</defName>
 		<label>霜星发型</label>
-		<texPath>Things/Hair/Reunion/Frostnova</texPath>
+		<texPath>Things/Hair/OtherLeader/Frostnova</texPath>
 	</HairDef>
 
 	<HairDef ParentName="AK_HairBaseF">
 		<defName>AK_Hair_Ftalulah</defName>
 		<label>塔露拉发型</label>
-		<texPath>Things/Hair/Reunion/Ftalulah</texPath>
+		<texPath>Things/Hair/OtherLeader/Ftalulah</texPath>
+	</HairDef>
+
+	<HairDef ParentName="AK_HairBaseF">
+		<defName>AK_Hair_Kristen</defName>
+		<label>克丽斯腾发型</label>
+		<texPath>Things/Hair/OtherLeader/Kristen</texPath>
 	</HairDef>
 
 </Defs>

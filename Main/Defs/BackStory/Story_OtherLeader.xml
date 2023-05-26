@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <BackstoryDef ParentName = "AK_StoryBase">
+        <defName>AK_BackStory_Kristen_Child</defName>
+        <slot>Childhood</slot>
+        <title>飞行员的孩子</title>
+        <titleShort>飞行员的孩子</titleShort>
+        <baseDesc>{PAWN_nameDef}出生于哥伦比亚一对飞行器研究员夫妻的家庭中，{PAWN_pronoun}本应受到良好的教育并拥有一个至少没有苦难的童年，但这一切在那次事故后戛然而止。
+这给{PAWN_pronoun}留下了严重的心理创伤。</baseDesc>
+    </BackstoryDef>
+
+    <BackstoryDef ParentName = "AK_StoryBase">
+        <defName>AK_BackStory_Kristen_Adult</defName>
+        <slot>Adulthood</slot>
+        <title>莱茵生命总辖构建科主任</title>
+        <titleShort>莱茵生命总辖构建科主任</titleShort>
+        <baseDesc>后来，{PAWN_nameDef}与塞雷娅一同创立了莱茵生命并亲自担任总辖构建科主任。在所有人都认为{PAWN_pronoun}只是对哥伦比亚学术界及政府不满时，{PAWN_pronoun}却做出了一件超出所有人想象的事——成为泰拉第一名宇航员，并且有去无回。
+        </baseDesc>
+    </BackstoryDef>
+
+</Defs>
