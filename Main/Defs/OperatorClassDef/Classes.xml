@@ -20,14 +20,6 @@
 		<series>AK_Series_Other</series>
 	</AK_DLL.OperatorClassDef>
 
-	<AK_DLL.OperatorClassDef ParentName="AK_OpClassOther">
-		<defName>AK_OperatorClass_OtherLeader</defName>
-		<label>OtherLeader</label>
-		<sortingOrder>9</sortingOrder>
-		<textureFolder>OtherLeader</textureFolder>
-		<iconPath>UI/Element/OtherLeader</iconPath>
-	</AK_DLL.OperatorClassDef>
-
 	<AK_DLL.OperatorClassDef ParentName="AK_OpClassBase">
 		<defName>AK_OperatorClass_Caster</defName>
 		<label>Caster</label>
@@ -90,6 +82,14 @@
 		<sortingOrder>8</sortingOrder>
 		<textureFolder>Vanguard</textureFolder>
 		<iconPath>UI/Element/VanguardB</iconPath>
+	</AK_DLL.OperatorClassDef>
+
+	<AK_DLL.OperatorClassDef ParentName="AK_OpClassOther">
+		<defName>AK_OperatorClass_OtherLeader</defName>
+		<label>OtherLeader</label>
+		<sortingOrder>9</sortingOrder>
+		<textureFolder>OtherLeader</textureFolder>
+		<iconPath>UI/Element/OtherLeader</iconPath>
 	</AK_DLL.OperatorClassDef>
 
 </Defs>
