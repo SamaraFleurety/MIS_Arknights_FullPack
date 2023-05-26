@@ -61,6 +61,12 @@
 		<label>整合运动武器</label>
 		<parent>AK_Weapon</parent>
     </ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>AK_Weapon_OtherLeader</defName>
+		<label>领袖武器</label>
+		<parent>AK_Weapon</parent>
+    </ThingCategoryDef>
 	
 <!-- 衣着 -->
 
@@ -121,6 +127,12 @@
     <ThingCategoryDef>
 		<defName>AK_Apparel_Reunion</defName>
 		<label>整合运动衣着</label>
+		<parent>AK_Apparel</parent>
+    </ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>AK_Apparel_OtherLeader</defName>
+		<label>领袖衣着</label>
 		<parent>AK_Apparel</parent>
     </ThingCategoryDef>
 	

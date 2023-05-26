@@ -224,6 +224,12 @@
     </thingCategories>
   </ThingDef>
 
+  <ThingDef Name="AK_ArmorBase_OtherLeader" ParentName="AK_ArmorBase" Abstract="True">
+    <thingCategories Inherit="false">
+      <li>AK_Apparel_OtherLeader</li>
+    </thingCategories>
+  </ThingDef>
+
   <!-- FIXME -->
 
   <ThingDef Name="AK_HatBase" ParentName="ApparelBase" Abstract="True">
