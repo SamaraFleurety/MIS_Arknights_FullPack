@@ -468,16 +468,16 @@
 	<degreeDatas>
 		<li>
 			<label>领袖</label>
-			<description>{PAWN_nameDef}是一个组织的领袖。
+			<description>{PAWN_nameDef}是某个主要组织的领袖。
 			</description>
 			<statOffsets>
-				<MeleeDodgeChance>2.0</MeleeDodgeChance>
-				<PainShockThreshold>0.75</PainShockThreshold>
+				<SocialImpact>0.2</SocialImpact>
+				<NegotiationAbility>1</NegotiationAbility>
 			</statOffsets>
 			<skillGains>
 				<li>
-					<key>Melee</key>
-					<value>2</value>
+					<key>Social</key>
+					<value>4</value>
 				</li>
 			</skillGains>
 		</li>
