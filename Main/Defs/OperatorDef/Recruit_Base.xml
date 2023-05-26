@@ -109,4 +109,13 @@
 		<operatorType>AK_OperatorClass_Specialist</operatorType>
 	</AK_DLL.OperatorDef>
 
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase" Name="AK_RecruitBase_OtherLeader" Abstract="True">
+		<traits>
+			<li>
+				<def>AK_Trait_Agent_OtherLeader</def>
+			</li>
+		</traits>
+		<operatorType>AK_OperatorClass_OtherLeader</operatorType>
+	</AK_DLL.OperatorDef>
+
 </Defs>
