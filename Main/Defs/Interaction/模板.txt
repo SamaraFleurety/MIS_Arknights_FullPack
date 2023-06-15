@@ -1,0 +1,73 @@
+<InteractionDef>
+    <defName>AK_Interaction_@</defName>
+    <label>AK_@_Interaction</label>
+    <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+    <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+    <rulePack>
+        <include>
+            <li>AK_Basic_Chat_Adverb</li>
+        </include>
+    </rulePack>
+    <logRulesInitiator>
+        <rulesStrings>
+            <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb] 和 [RECIPIENT_nameDef] [AK_@_Chat_Type] [AK_@_Topic] 的 [AK_@_Topic_Detail]。</li>
+
+            <li>AK_Basic_Chat_Adverb->不满地</li>
+
+            <li>AK_@_Chat_Type->说了说</li>
+
+            <li>AK_@_Topic->博士</li>
+
+            <li>AK_@_Topic_Detail->坏话</li>
+            <li>AK_@_Topic_Detail->趣闻</li>
+            <li>AK_@_Topic_Detail->癖好</li>
+        </rulesStrings>
+    </logRulesInitiator>
+</InteractionDef>
+
+<InteractionDef>
+    <defName>AK_Interaction_@</defName>
+    <label>AK_@_Interaction</label>
+    <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+    <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+    <rulePack>
+        <include>
+            <li>AK_Basic_Chat_Adverb</li>
+        </include>
+    </rulePack>
+    <logRulesInitiator>
+        <rulesStrings>
+            <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb]和[RECIPIENT_nameDef][AK_@_Chat_Type][AK_@_Topic]。</li>
+
+            <li>AK_@_Chat_Type->讨论</li>
+
+            <li>AK_@_Topic->玩狂弹要塞</li>
+            <li>AK_@_Topic->空最近出专辑</li>
+            <li>AK_@_Topic->最近罗德岛半夜“提灯怪人”传说</li>
+        </rulesStrings>
+    </logRulesInitiator>
+</InteractionDef>
+
+<AK_DLL.OperatorInteractionDef>
+    <defName>AK_Interaction_@</defName>
+    <label>TALKING_ABOUT_@</label>
+    <involvedPawns>
+        <li>Skadi</li>
+    </involvedPawns>
+    <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+    <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+    <rulePack>
+        <include>
+            <li>AK_Basic_Chat_Adverb</li>
+        </include>
+    </rulePack>
+    <logRulesInitiator>
+        <rulesStrings>
+            <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb] 和 [RECIPIENT_nameDef] [AK_TALK_@_ACTION] [AK_TALK_@_TOPIC]。</li>
+
+            <li>AK_TALK_@_TOPIC->阿戈尔的现状</li>
+
+            <li>AK_TALK_@_ACTION->小声讨论</li>
+        </rulesStrings>
+    </logRulesInitiator>
+</AK_DLL.OperatorInteractionDef>

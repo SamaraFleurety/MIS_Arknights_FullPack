@@ -1,41 +1,162 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-    <InteractionDef>
+    <RulePackDef>
+        <defName>AK_Basic_Chat_Adverb</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>AK_Basic_Chat_Adverb->随意地</li>
+                <li>AK_Basic_Chat_Adverb->严肃地</li>
+                <li>AK_Basic_Chat_Adverb->谨慎地</li>
+                <li>AK_Basic_Chat_Adverb->大声地</li>
+                <li>AK_Basic_Chat_Adverb->小声地</li>
+                <li>AK_Basic_Chat_Adverb->简单地</li>
+                <li>AK_Basic_Chat_Adverb->漫不经心地</li>
+                <li>AK_Basic_Chat_Adverb->滔滔不绝地</li>
+                <li>AK_Basic_Chat_Adverb->长篇大论地</li>
+                <li>AK_Basic_Chat_Adverb->针锋相对地</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+    <AK_DLL.OperatorInteractionDef>
         <defName>AK_Interaction_Basic</defName>
         <label>AK_Basic_Interaction</label>
         <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
         <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
         <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
             <rulesStrings>
-                <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Style]和[RECIPIENT_nameDef]聊了聊[AK_Basic_Topic]的[AK_Basic_Topic_Detail]。</li>
+                <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb]和[RECIPIENT_nameDef][AK_Basic_Chat_Type][AK_Basic_Topic]的[AK_Basic_Topic_Detail]。</li>
 
-                <li>AK_Basic_Chat_Style->简单地</li>
-                <li>AK_Basic_Chat_Style->小声地</li>
-                <li>AK_Basic_Chat_Style->滔滔不绝地</li>
+                <li>AK_Basic_Chat_Type->聊了聊</li>
+                <li>AK_Basic_Chat_Type->讨论</li>
+                <li>AK_Basic_Chat_Type->宣布</li>
+                <li>AK_Basic_Chat_Type->争论</li>
+                <li>AK_Basic_Chat_Type->表示</li>
+                <li>AK_Basic_Chat_Type->探讨</li>
+                <li>AK_Basic_Chat_Type->交换了</li>
 
+                <li>AK_Basic_Topic->篮球</li>
+                <li>AK_Basic_Topic->足球</li>
+                <li>AK_Basic_Topic->有关热狗</li>
+                <li>AK_Basic_Topic->萨卡兹一族</li>
+                <li>AK_Basic_Topic->鲍勃农场</li>
+                <li>AK_Basic_Topic->明日方舟</li>
+                <li>AK_Basic_Topic->贸易站</li>
+                <li>AK_Basic_Topic->发电站</li>
                 <li>AK_Basic_Topic->罗德岛</li>
-                <li>AK_Basic_Topic->罗德岛食堂</li>
-                <li>AK_Basic_Topic->卡西米尔</li>
+                <li>AK_Basic_Topic->深海教会</li>
+                <li>AK_Basic_Topic->日落即逝乐队</li>
                 <li>AK_Basic_Topic->莱茵生命</li>
+                <li>AK_Basic_Topic->黑钢国际</li>
+                <li>AK_Basic_Topic->雷神工业</li>
+                <li>AK_Basic_Topic->红松骑士团</li>
+                <li>AK_Basic_Topic->监正会</li>
+                <li>AK_Basic_Topic->商业联合会</li>
+                <li>AK_Basic_Topic->无胄盟</li>
+                <li>AK_Basic_Topic->卡兹戴尔军事委员会</li>
+                <li>AK_Basic_Topic->中庭公证所</li>
+                <li>AK_Basic_Topic->寻路者</li>
+                <li>AK_Basic_Topic->格拉斯哥帮</li>
+                <li>AK_Basic_Topic->伦蒂尼姆市民自救军</li>
+                <li>AK_Basic_Topic->深池</li>
+                <li>AK_Basic_Topic->猩红剧团</li>
+                <li>AK_Basic_Topic->蒸汽骑士</li>
+                <li>AK_Basic_Topic->乌萨斯学生自治团</li>
+                <li>AK_Basic_Topic->喀兰贸易</li>
+                <li>AK_Basic_Topic->贾维团伙</li>
+                <li>AK_Basic_Topic->龙门近卫局</li>
+                <li>AK_Basic_Topic->鲤氏侦探事务所</li>
+                <li>AK_Basic_Topic->企鹅物流</li>
+                <li>AK_Basic_Topic->山海众</li>
+                <li>AK_Basic_Topic->岁</li>
+                <li>AK_Basic_Topic->审判庭</li>
+                <li>AK_Basic_Topic->辛嘉斯王朝</li>
+                <li>AK_Basic_Topic->玻利瓦尔联合政府</li>
+                <li>AK_Basic_Topic->阿戈尔</li>
+                <li>AK_Basic_Topic->玻利瓦尔</li>
+                <li>AK_Basic_Topic->东</li>
+                <li>AK_Basic_Topic->杜林</li>
+                <li>AK_Basic_Topic->高卢</li>
+                <li>AK_Basic_Topic->哥伦比亚</li>
+                <li>AK_Basic_Topic->卡西米尔</li>
+                <li>AK_Basic_Topic->卡兹戴尔</li>
+                <li>AK_Basic_Topic->拉特兰</li>
+                <li>AK_Basic_Topic->莱塔尼亚</li>
+                <li>AK_Basic_Topic->雷姆必拓</li>
+                <li>AK_Basic_Topic->米诺斯</li>
+                <li>AK_Basic_Topic->萨尔贡</li>
+                <li>AK_Basic_Topic->萨米</li>
                 <li>AK_Basic_Topic->维多利亚</li>
                 <li>AK_Basic_Topic->乌萨斯</li>
-                <li>AK_Basic_Topic->炎</li>
-                <li>AK_Basic_Topic->卡西米尔</li>
-                <li>AK_Basic_Topic->拉特兰</li>
-                <li>AK_Basic_Topic->哥伦比亚</li>
-                <li>AK_Basic_Topic->玻利瓦尔</li>
-                <li>AK_Basic_Topic->莱塔尼亚</li>
+                <li>AK_Basic_Topic->汐斯塔</li>
                 <li>AK_Basic_Topic->谢拉格</li>
-                <li>AK_Basic_Topic->卡兹戴尔</li>
-                <li>AK_Basic_Topic->东国</li>
-                <li>AK_Basic_Topic->伊比利亚</li>
                 <li>AK_Basic_Topic->叙拉古</li>
+                <li>AK_Basic_Topic->炎</li>
+                <li>AK_Basic_Topic->伊比利亚</li>
+                <li>AK_Basic_Topic->叙拉古家族</li>
+                <li>AK_Basic_Topic->绣锤</li>
+                <li>AK_Basic_Topic->整合运动</li>
+                <li>AK_Basic_Topic->直播网站</li>
+                <li>AK_Basic_Topic->繁衍后代</li>
+                <li>AK_Basic_Topic->危机合约</li>
+                <li>AK_Basic_Topic->保全派驻</li>
+                <li>AK_Basic_Topic->炎国烂片</li>
+                <li>AK_Basic_Topic->蓝卡坞电影</li>
+                <li>AK_Basic_Topic->切尔诺伯格事件</li>
+                <li>AK_Basic_Topic->焚风热土</li>
+                <li>AK_Basic_Topic->无尽冰原</li>
+                <li>AK_Basic_Topic->天灾</li>
+                <li>AK_Basic_Topic->矿石病</li>
+                <li>AK_Basic_Topic->天灾信使</li>
+                <li>AK_Basic_Topic->骑士竞技</li>
+                <li>AK_Basic_Topic->万国峰会</li>
+                <li>AK_Basic_Topic->极限铁人大奖赛</li>
+                <li>AK_Basic_Topic->黑曜石节</li>
+                <li>AK_Basic_Topic->大骑士领</li>
+                <li>AK_Basic_Topic->骑士竞技锦标赛</li>
+                <li>AK_Basic_Topic->乌萨斯国家杜马</li>
+                <li>AK_Basic_Topic->羽蛇一族</li>
+                <li>AK_Basic_Topic->维多利亚皇家近卫学院</li>
+                <li>AK_Basic_Topic->罗德岛食堂</li>
+                <li>AK_Basic_Topic->罗德岛精英干员</li>
+                <li>AK_Basic_Topic->高卢近卫军</li>
+                <li>AK_Basic_Topic->“皇帝利刃”</li>
+                <li>AK_Basic_Topic->龙门影卫</li>
+                <li>AK_Basic_Topic->大炎天师</li>
+                <li>AK_Basic_Topic->萨尔贡长生军</li>
+                <li>AK_Basic_Topic->东国电子游戏</li>
+                <li>AK_Basic_Topic->梦魇大可汗</li>
+                <li>AK_Basic_Topic->萨米雪祀</li>
+                <li>AK_Basic_Topic->征战骑士团</li>
+                <li>AK_Basic_Topic->伊比利亚无敌舰队</li>
+                <li>AK_Basic_Topic->莱塔尼亚金律法卫</li>
+                <li>AK_Basic_Topic->红酒报上刊登</li>
+                <li>AK_Basic_Topic->四城竞技报上刊登</li>
+                <li>AK_Basic_Topic->卡西米尔中央新闻报上刊登</li>
+                <li>AK_Basic_Topic->宗教铳械</li>
+                <li>AK_Basic_Topic->血峰战役</li>
+                <li>AK_Basic_Topic->四皇之战</li>
+                <li>AK_Basic_Topic->四国战争</li>
 
-                <li>AK_Basic_Topic_Detail->见闻</li>
-                <li>AK_Basic_Topic_Detail->过往</li>
+                <li>AK_Basic_Topic_Detail->谣言</li>
+                <li>AK_Basic_Topic_Detail->新闻</li>
+                <li>AK_Basic_Topic_Detail->目标</li>
+                <li>AK_Basic_Topic_Detail->事实</li>
                 <li>AK_Basic_Topic_Detail->奇闻异事</li>
-                <li>AK_Basic_Topic_Detail->秘辛</li>
+                <li>AK_Basic_Topic_Detail->见闻</li>
+                <li>AK_Basic_Topic_Detail->秘密</li>
+                <li>AK_Basic_Topic_Detail->问题</li>
+                <li>AK_Basic_Topic_Detail->传说</li>
+                <li>AK_Basic_Topic_Detail->历史</li>
+                <li>AK_Basic_Topic_Detail->个人构思</li>
+                <li>AK_Basic_Topic_Detail->个人想法</li>
+                <li>AK_Basic_Topic_Detail->意见</li>
+                <li>AK_Basic_Topic_Detail->看法</li>
+
             </rulesStrings>
         </logRulesInitiator>
-    </InteractionDef>
+    </AK_DLL.OperatorInteractionDef>
 </Defs>

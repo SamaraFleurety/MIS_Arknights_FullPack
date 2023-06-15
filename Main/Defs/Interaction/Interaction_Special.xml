@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_SpecialI</defName>
+        <label>AK_SpecialI_Interaction</label>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb] 和 [RECIPIENT_nameDef] [AK_SpecialI_Chat_Type] [AK_SpecialI_Topic]的[AK_SpecialI_Topic_Detail]。</li>
+
+                <li>AK_Basic_Chat_Adverb->认真地</li>
+
+                <li>AK_SpecialI_Chat_Type->探讨了</li>
+
+                <li>AK_SpecialI_Topic->伦蒂尼姆工人</li>
+
+                <li>AK_SpecialI_Topic_Detail->待遇</li>
+                <li>AK_SpecialI_Topic_Detail->现状</li>
+                <li>AK_SpecialI_Topic_Detail->未来</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_SpecialII</defName>
+        <label>AK_SpecialII_Interaction</label>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb] 和 [RECIPIENT_nameDef] [AK_SpecialII_Chat_Type] [AK_SpecialII_Topic]的[AK_SpecialII_Topic_Detail]。</li>
+
+                <li>AK_Basic_Chat_Adverb->悄悄地</li>
+                <li>AK_Basic_Chat_Adverb->偷偷地</li>
+
+                <li>AK_SpecialII_Chat_Type->说了说</li>
+
+                <li>AK_SpecialII_Topic->博士</li>
+
+                <li>AK_SpecialII_Topic_Detail->坏话</li>
+                <li>AK_SpecialII_Topic_Detail->趣闻</li>
+                <li>AK_SpecialII_Topic_Detail->癖好</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_SpecialIII</defName>
+        <label>AK_SpecialIII_Interaction</label>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb] 和 [RECIPIENT_nameDef] [AK_SpecialIII_Chat_Type] [AK_SpecialIII_Topic]。</li>
+
+                <li>AK_SpecialIII_Chat_Type->讨论</li>
+
+                <li>AK_SpecialIII_Topic->玩狂弹要塞</li>
+                <li>AK_SpecialIII_Topic->空最近出专辑</li>
+                <li>AK_SpecialIII_Topic->最近罗德岛半夜“提灯怪人”传说</li>
+                <li>AK_SpecialIII_Topic->怎么想办法要到空签名</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_SpecialIV</defName>
+        <label>AK_SpecialIV_Interaction</label>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb] 和 [RECIPIENT_nameDef] [AK_SpecialIV_Chat_Type] [AK_SpecialIV_Topic]的[AK_SpecialIV_Topic_Detail]。</li>
+
+                <li>AK_Basic_Chat_Adverb->兴奋地</li>
+
+                <li>AK_SpecialIV_Chat_Type->讨论</li>
+
+                <li>AK_SpecialIV_Topic->主播U</li>
+
+                <li>AK_SpecialIV_Topic_Detail->直播内容</li>
+                <li>AK_SpecialIV_Topic_Detail->粉丝团体</li>
+                <li>AK_SpecialIV_Topic_Detail->趣闻</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_SpecialV</defName>
+        <label>AK_SpecialV_Interaction</label>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb] 和 [RECIPIENT_nameDef] [AK_SpecialV_Chat_Type] [AK_SpecialV_Topic]的[AK_SpecialV_Topic_Detail]。</li>
+
+                <li>AK_Basic_Chat_Adverb->悄悄地</li>
+                <li>AK_Basic_Chat_Adverb->偷偷地</li>
+
+                <li>AK_SpecialV_Chat_Type->交换了</li>
+
+                <li>AK_SpecialV_Topic->哥伦比亚大总统</li>
+
+                <li>AK_SpecialV_Topic_Detail->趣闻</li>
+                <li>AK_SpecialV_Topic_Detail->秘密</li>
+                <li>AK_SpecialV_Topic_Detail->轶事</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_SpecialVI</defName>
+        <label>AK_SpecialVI_Interaction</label>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb] 和 [RECIPIENT_nameDef] [AK_SpecialVI_Chat_Type] [AK_SpecialVI_Topic]的[AK_SpecialVI_Topic_Detail]。</li>
+
+                <li>AK_Basic_Chat_Adverb->烦躁地</li>
+                <li>AK_Basic_Chat_Adverb->不满地</li>
+                <li>AK_Basic_Chat_Adverb->生气地</li>
+                <li>AK_Basic_Chat_Adverb->厌恶地</li>
+
+                <li>AK_SpecialVI_Chat_Type->抱怨着</li>
+
+                <li>AK_SpecialVI_Topic->红酒报</li>
+
+                <li>AK_SpecialVI_Topic_Detail->不实新闻</li>
+                <li>AK_SpecialVI_Topic_Detail->虚假报道</li>
+                <li>AK_SpecialVI_Topic_Detail->热度炒作</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_SpecialVII</defName>
+        <label>AK_SpecialVII_Interaction</label>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb] 和 [RECIPIENT_nameDef] [AK_SpecialVII_Chat_Type] [AK_SpecialVII_Topic]的[AK_SpecialVII_Topic_Detail]。</li>
+
+                <li>AK_Basic_Chat_Adverb->认真地</li>
+                <li>AK_Basic_Chat_Adverb->悄悄地</li>
+
+                <li>AK_SpecialVII_Chat_Type->探讨了</li>
+
+                <li>AK_SpecialVII_Topic->乌萨斯帝国</li>
+
+                <li>AK_SpecialVII_Topic_Detail->感染者政策</li>
+                <li>AK_SpecialVII_Topic_Detail->内部现状</li>
+                <li>AK_SpecialVII_Topic_Detail->对外扩展</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_SpecialVIII</defName>
+        <label>AK_SpecialVIII_Interaction</label>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb] 和 [RECIPIENT_nameDef] [AK_SpecialVIII_Chat_Type] [AK_SpecialVIII_Topic]的[AK_SpecialVIII_Topic_Detail]。</li>
+
+                <li>AK_Basic_Chat_Adverb->偷偷地</li>
+                <li>AK_Basic_Chat_Adverb->悄悄地</li>
+
+                <li>AK_SpecialVIII_Chat_Type->讨论着</li>
+
+                <li>AK_SpecialVIII_Topic->关于LOGOS</li>
+
+                <li>AK_SpecialVIII_Topic_Detail->故事</li>
+                <li>AK_SpecialVIII_Topic_Detail->传说</li>
+                <li>AK_SpecialVIII_Topic_Detail->奇闻轶事</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_SpecialSpecialIX</defName>
+        <label>AK_SpecialSpecialIX_Interaction</label>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb] 和 [RECIPIENT_nameDef] [AK_SpecialIII_Chat_Type] [AK_SpecialIII_Topic]。</li>
+
+                <li>AK_Basic_Chat_Adverb->高兴地</li>
+                <li>AK_Basic_Chat_Adverb->兴奋地</li>
+
+                <li>AK_SpecialIII_Chat_Type->商议</li>
+
+                <li>AK_SpecialIII_Topic->举办圆凳滑行比赛</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_SpecialX</defName>
+        <label>AK_SpecialX_Interaction</label>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb] 和 [RECIPIENT_nameDef] [AK_SpecialX_Chat_Type] [AK_SpecialX_Topic]的[AK_SpecialX_Topic_Detail]。</li>
+
+                <li>AK_Basic_Chat_Adverb->不满地</li>
+                <li>AK_Basic_Chat_Adverb->生气地</li>
+                <li>AK_Basic_Chat_Adverb->满肚子委屈地</li>
+
+                <li>AK_SpecialX_Chat_Type->抱怨</li>
+
+                <li>AK_SpecialX_Topic->歌雷蒂娅</li>
+
+                <li>AK_SpecialX_Topic_Detail->恶劣态度</li>
+                <li>AK_SpecialX_Topic_Detail->做事风格</li>
+                <li>AK_SpecialX_Topic_Detail->傲慢</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_SpecialXI</defName>
+        <label>AK_SpecialXI_Interaction</label>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb] 和 [RECIPIENT_nameDef] [AK_SpecialXI_Chat_Type] [AK_SpecialXI_Topic]的[AK_SpecialXI_Topic_Detail]。</li>
+
+                <li>AK_Basic_Chat_Adverb->不满地</li>
+                <li>AK_Basic_Chat_Adverb->生气地</li>
+                <li>AK_Basic_Chat_Adverb->愤怒地</li>
+                <li>AK_Basic_Chat_Adverb->愤懑地</li>
+                <li>AK_Basic_Chat_Adverb->咬牙切齿地</li>
+
+                <li>AK_SpecialXI_Chat_Type->抱怨</li>
+
+                <li>AK_SpecialXI_Topic->W</li>
+
+                <li>AK_SpecialXI_Topic_Detail->藐视生命</li>
+                <li>AK_SpecialXI_Topic_Detail->恶劣态度</li>
+                <li>AK_SpecialXI_Topic_Detail->毫无底线</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_SpecialXII</defName>
+        <label>AK_SpecialXII_Interaction</label>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb] 和 [RECIPIENT_nameDef] [AK_SpecialXII_Chat_Type] [AK_SpecialXII_Topic]。</li>
+
+                <li>AK_SpecialXII_Chat_Type->抱怨</li>
+
+                <li>AK_SpecialXII_Topic_Detail->温蒂洁癖</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_SpecialXIII</defName>
+        <label>AK_SpecialXIII_Interaction</label>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb] 和 [RECIPIENT_nameDef] [AK_SpecialXIII_Chat_Type] [AK_SpecialXIII_Topic]的[AK_SpecialXIII_Topic_Detail]。</li>
+
+                <li>AK_Basic_Chat_Adverb->兴致勃勃地</li>
+                <li>AK_Basic_Chat_Adverb->神秘兮兮地</li>
+                <li>AK_Basic_Chat_Adverb->悄悄地</li>
+                <li>AK_Basic_Chat_Adverb->偷偷地</li>
+
+                <li>AK_SpecialXIII_Chat_Type->讨论</li>
+
+                <li>AK_SpecialXIII_Topic->煌</li>
+
+                <li>AK_SpecialXIII_Topic_Detail->徒手攀爬四十层高的建筑</li>
+                <li>AK_SpecialXIII_Topic_Detail->从四百米高处跳下毫发无损</li>
+                <li>AK_SpecialXIII_Topic_Detail->用吼叫吓死源石虫</li>
+                <li>AK_SpecialXIII_Topic_Detail->喝下十升烈性酒精饮料</li>
+                <li>AK_SpecialXIII_Topic_Detail->三米身高</li>
+                <li>AK_SpecialXIII_Topic_Detail->在罗德岛舰桥顶端天线上跳舞</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_SpecialXIV</defName>
+        <label>AK_SpecialXIV_Interaction</label>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb] 和 [RECIPIENT_nameDef] [AK_SpecialXIV_Chat_Type] [AK_SpecialXIV_Topic_Detail]。</li>
+
+                <li>AK_Basic_Chat_Adverb->不安地</li>
+                <li>AK_Basic_Chat_Adverb->紧张地</li>
+                <li>AK_Basic_Chat_Adverb->满不在乎地</li>
+
+                <li>AK_SpecialXIV_Chat_Type->谈论</li>
+
+                <li>AK_SpecialXIV_Topic_Detail->伊比利亚海岸线的异动</li>
+                <li>AK_SpecialXIV_Topic_Detail->“发光的海”</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_SpecialXV</defName>
+        <label>AK_SpecialXV_Interaction</label>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb] 和 [RECIPIENT_nameDef] [AK_SpecialXV_Chat_Type] [AK_SpecialXV_Topic]。</li>
+
+                <li>AK_SpecialXV_Chat_Type->交流</li>
+
+                <li>AK_SpecialXV_Topic->如何碳烤源石虫</li>
+                <li>AK_SpecialXV_Topic->如何碳烤羽兽</li>
+                <li>AK_SpecialXV_Topic->如何碳烤鳞兽</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_SpecialXVI</defName>
+        <label>AK_SpecialXVI_Interaction</label>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb] 和 [RECIPIENT_nameDef] [AK_SpecialXVI_Chat_Type] [AK_SpecialXVI_Topic]的[AK_SpecialXVI_Topic_Detail]。</li>
+
+                <li>AK_Basic_Chat_Adverb->随意地</li>
+
+                <li>AK_SpecialXVI_Chat_Type->讨论</li>
+
+                <li>AK_SpecialXVI_Topic->罗德岛食堂今天</li>
+
+                <li>AK_SpecialXVI_Topic_Detail->招牌菜</li>
+                <li>AK_SpecialXVI_Topic_Detail->掌勺</li>
+                <li>AK_SpecialXVI_Topic_Detail->菜单</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_SpecialXVII</defName>
+        <label>AK_SpecialXVII_Interaction</label>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb] 和 [RECIPIENT_nameDef] [AK_SpecialXVII_Chat_Type] [AK_SpecialXVII_Topic]的[AK_SpecialXVII_Topic_Detail]。</li>
+
+                <li>AK_Basic_Chat_Adverb->认真地</li>
+                <li>AK_Basic_Chat_Adverb->严肃地</li>
+                <li>AK_Basic_Chat_Adverb->窃窃私语地</li>
+                <li>AK_Basic_Chat_Adverb->认真随意地</li>
+
+                <li>AK_SpecialXVII_Chat_Type->讨论</li>
+
+                <li>AK_SpecialXVII_Topic->东国</li>
+
+                <li>AK_SpecialXVII_Topic_Detail->南方的统治集团</li>
+                <li>AK_SpecialXVII_Topic_Detail->北方的统治集团</li>
+                <li>AK_SpecialXVII_Topic_Detail->幕府的内部斗争</li>
+                <li>AK_SpecialXVII_Topic_Detail->南北方的边境摩擦</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+</Defs>

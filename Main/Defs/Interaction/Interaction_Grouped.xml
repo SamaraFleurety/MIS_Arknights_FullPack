@@ -10,8 +10,11 @@
         <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
         <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
         <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
             <rulesStrings>
-                <li>r_logentry->就伊芙利特的未来， [INITIATOR_nameDef] 和 [RECIPIENT_nameDef] [AK_TALK_LFRIT_ACTION]</li>
+                <li>r_logentry->[INITIATOR_nameDef] 和 [RECIPIENT_nameDef] 就伊芙利特的未来 [AK_TALK_LFRIT_ACTION]。</li>
 
                 <li>AK_TALK_LFRIT_ACTION->各执己见</li>
                 <li>AK_TALK_LFRIT_ACTION->争论不休</li>
@@ -31,16 +34,1280 @@
         <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
         <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
         <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
             <rulesStrings>
-                <li>r_logentry-> [INITIATOR_nameDef] [AK_TALK_DOCTOR_STYLE] 和 [RECIPIENT_nameDef] 说了说博士的 [AK_TALK_DOCTOR_TOPIC]</li>
+                <li>r_logentry-> [INITIATOR_nameDef] [AK_Basic_Chat_Adverb] 和 [RECIPIENT_nameDef] 说了说博士的 [AK_TALK_DOCTOR_TOPIC]。</li>
 
-                <li>AK_TALK_DOCTOR_STYLE->悄悄地</li>
-                <li>AK_TALK_DOCTOR_STYLE->偷偷地</li>
-                <li>AK_TALK_DOCTOR_STYLE->小声地</li>
+                <li>AK_Basic_Chat_Adverb->悄悄地</li>
+                <li>AK_Basic_Chat_Adverb->偷偷地</li>
 
                 <li>AK_TALK_DOCTOR_TOPIC->坏话</li>
                 <li>AK_TALK_DOCTOR_TOPIC->趣闻</li>
                 <li>AK_TALK_DOCTOR_TOPIC->癖好</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_Penguin</defName>
+        <label>TALKING_ABOUT_PENGUIN</label>
+        <involvedPawns>
+            <li>Exusiai</li>
+            <li>Texas</li>
+            <li>Sora</li>
+            <li>Croissant</li>
+        </involvedPawns>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb] 和 [RECIPIENT_nameDef] [AK_TALK_PENGUIN_ACTION] [AK_TALK_PENGUIN_TOPIC]。</li>
+
+                <li>AK_TALK_PENGUIN_ACTION->讨论</li>
+
+                <li>AK_TALK_PENGUIN_TOPIC->白色相簿</li>
+                <li>AK_TALK_PENGUIN_TOPIC->开派对</li>
+                <li>AK_TALK_PENGUIN_TOPIC->货运任务</li>
+                <li>AK_TALK_PENGUIN_TOPIC->大帝</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_Sora</defName>
+        <label>TALKING_ABOUT_SORA</label>
+        <involvedPawns>
+            <li>Exusiai</li>
+            <li>Croissant</li>
+        </involvedPawns>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] 和 [RECIPIENT_nameDef] [AK_TALK_SORA_ACTION] [AK_TALK_SORA_TOPIC]。</li>
+
+                <li>AK_TALK_SORA_ACTION->窃窃私语</li>
+                <li>AK_TALK_SORA_ACTION->偷偷密谋</li>
+                <li>AK_TALK_SORA_ACTION->小声讨论</li>
+
+                <li>AK_TALK_SORA_TOPIC->开气球射击摊</li>
+                <li>AK_TALK_SORA_TOPIC->倒卖空的签名</li>
+                <li>AK_TALK_SORA_TOPIC->帮忙送外卖</li>
+                <li>AK_TALK_SORA_TOPIC->摆摊卖空的唱片</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_Law</defName>
+        <label>TALKING_ABOUT_LAW</label>
+        <involvedPawns>
+            <li>Proviso</li>
+            <li>Penance</li>
+        </involvedPawns>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] 和 [RECIPIENT_nameDef] [AK_TALK_LAW_TOPIC] [AK_TALK_LAW_ACTION]。</li>
+
+                <li>AK_TALK_LAW_TOPIC->就各国法典</li>
+                <li>AK_TALK_LAW_TOPIC->就法律的公正</li>
+
+                <li>AK_TALK_LAW_ACTION->认真讨论</li>
+                <li>AK_TALK_LAW_ACTION->据理力争</li>
+                <li>AK_TALK_LAW_ACTION->各执己见</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_Ursus</defName>
+        <label>TALKING_ABOUT_URSUS</label>
+        <involvedPawns>
+            <li>Zima</li>
+            <li>Gummy</li>
+            <li>Istina</li>
+            <li>Firewatch</li>
+        </involvedPawns>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] 和 [RECIPIENT_nameDef] [AK_TALK_URSUS_TOPIC] [AK_TALK_URSUS_ACTION]。</li>
+
+                <li>AK_TALK_URSUS_TOPIC->就乌萨斯人喜欢的音乐风格</li>
+                <li>AK_TALK_URSUS_TOPIC->就最近流行的HARDBASS</li>
+
+                <li>AK_TALK_URSUS_ACTION->认真讨论</li>
+                <li>AK_TALK_URSUS_ACTION->争论不休</li>
+                <li>AK_TALK_URSUS_ACTION->各执己见</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_AbyssalHunters</defName>
+        <label>TALKING_ABOUT_ABYSSALHUNTERS</label>
+        <involvedPawns>
+            <li>Skadi</li>
+            <li>Gladiia</li>
+            <li>Specter</li>
+        </involvedPawns>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] 和 [RECIPIENT_nameDef] [AK_TALK_ABYSSALHUNTERS_ACTION] [AK_TALK_ABYSSALHUNTERS_TOPIC]。</li>
+
+                <li>AK_TALK_ABYSSALHUNTERS_TOPIC->阿戈尔的现状</li>
+                <li>AK_TALK_ABYSSALHUNTERS_TOPIC->“灾厄”</li>
+                <li>AK_TALK_ABYSSALHUNTERS_TOPIC->去泡澡</li>
+                <li>AK_TALK_ABYSSALHUNTERS_TOPIC->阿戈尔风的舞蹈</li>
+                <li>AK_TALK_ABYSSALHUNTERS_TOPIC->最近举办的舞会</li>
+                <li>AK_TALK_ABYSSALHUNTERS_TOPIC->如何鉴赏雕刻和艺术</li>
+                <li>AK_TALK_ABYSSALHUNTERS_TOPIC->修海底电缆</li>
+                <li>AK_TALK_ABYSSALHUNTERS_TOPIC->深海女同</li>
+
+                <li>AK_TALK_ABYSSALHUNTERS_ACTION->小声讨论</li>
+                <li>AK_TALK_ABYSSALHUNTERS_ACTION->窃窃私语</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_LongMenCuKou</defName>
+        <label>TALKING_ABOUT_LONGMENCUKOU</label>
+        <involvedPawns>
+            <li>Chen</li>
+            <li>Swire</li>
+        </involvedPawns>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] 骂 [RECIPIENT_nameDef] 说 [AK_TALK_LONGMENCUKOU_TOPIC]。</li>
+                <li>r_logentry->[INITIATOR_nameDef] 和 [RECIPIENT_nameDef] 互骂对方是“粉肠龙”“叉烧包”。</li>
+
+                <li>AK_TALK_LONGMENCUKOU_TOPIC->生了[RECIPIENT_nameDef]还不如生块叉烧</li>
+                <li>AK_TALK_LONGMENCUKOU_TOPIC->[RECIPIENT_nameDef]就是个扑街</li>
+                <li>AK_TALK_LONGMENCUKOU_TOPIC->祝你冚家富贵</li>
+                <li>AK_TALK_LONGMENCUKOU_TOPIC->丢雷螺母</li>
+                <li>AK_TALK_LONGMENCUKOU_TOPIC->叼你啊死捞头</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_Bagpipe</defName>
+        <label>TALKING_ABOUT_BAGPIPE</label>
+        <involvedPawns>
+            <li>Horn</li>
+            <li>Chen</li>
+        </involvedPawns>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb] 和 [RECIPIENT_nameDef] 抱怨风笛有时候真的很烦人。</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_Sargon</defName>
+        <label>TALKING_ABOUT_SARGON</label>
+        <involvedPawns>
+            <li>Eunectes</li>
+            <li>Gavial</li>
+        </involvedPawns>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb] 和 [RECIPIENT_nameDef] [AK_TALK_SARGON_ACTION] [AK_TALK_SARGON_TOPIC]。</li>
+
+                <li>AK_TALK_SARGON_TOPIC->去约架</li>
+                <li>AK_TALK_SARGON_TOPIC->特米米</li>
+                <li>AK_TALK_SARGON_TOPIC->装备维护</li>
+
+                <li>AK_TALK_SARGON_ACTION->讨论</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_Practice</defName>
+        <label>TALKING_ABOUT_PRACTICE</label>
+        <involvedPawns>
+            <li>Chongyue</li>
+            <li>Qiubai</li>
+        </involvedPawns>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb] 和 [RECIPIENT_nameDef] [AK_TALK_PRACTICE_ACTION] [AK_TALK_PRACTICE_TOPIC]。</li>
+
+                <li>AK_TALK_PRACTICE_TOPIC->习武</li>
+                <li>AK_TALK_PRACTICE_TOPIC->剑术</li>
+                <li>AK_TALK_PRACTICE_TOPIC->武艺</li>
+                <li>AK_TALK_PRACTICE_TOPIC->除恶</li>
+
+                <li>AK_TALK_PRACTICE_ACTION->议论</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_TaleSis</defName>
+        <label>TALKING_ABOUT_TALESIS</label>
+        <involvedPawns>
+            <li>Nian</li>
+            <li>Dusk</li>
+            <li>Ling</li>
+        </involvedPawns>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] 和 [RECIPIENT_nameDef] [AK_TALK_TALESIS_ACTION] [AK_TALK_TALESIS_TOPIC]。</li>
+
+                <li>AK_TALK_TALESIS_TOPIC->年的烂片</li>
+                <li>AK_TALK_TALESIS_TOPIC->夕的画</li>
+                <li>AK_TALK_TALESIS_TOPIC->令的诗</li>
+                <li>AK_TALK_TALESIS_TOPIC->喝酒</li>
+                <li>AK_TALK_TALESIS_TOPIC->吃麻辣火锅</li>
+
+                <li>AK_TALK_TALESIS_ACTION->小声讨论</li>
+                <li>AK_TALK_TALESIS_ACTION->随意聊着</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_Knight</defName>
+        <label>TALKING_ABOUT_KNIGHT</label>
+        <involvedPawns>
+            <li>Nearl</li>
+            <li>Maynar</li>
+        </involvedPawns>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] 和 [RECIPIENT_nameDef] 就 [AK_TALK_KNIGHT_TOPIC] [AK_TALK_KNIGHT_ACTION]。</li>
+
+                <li>AK_TALK_KNIGHT_TOPIC->卡西米尔的现状</li>
+                <li>AK_TALK_KNIGHT_TOPIC->对骑士竞技的看法</li>
+                <li>AK_TALK_KNIGHT_TOPIC->骑士的未来</li>
+                <li>AK_TALK_KNIGHT_TOPIC->临光家族的情况</li>
+
+                <li>AK_TALK_KNIGHT_ACTION->各执己见</li>
+                <li>AK_TALK_KNIGHT_ACTION->争论不休</li>
+                <li>AK_TALK_KNIGHT_ACTION->据理力争</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_Drink</defName>
+        <label>TALKING_ABOUT_DRINK</label>
+        <involvedPawns>
+            <li>Blaze</li>
+            <li>Ling</li>
+            <li>Hoshiguma</li>
+            <li>Pallas</li>
+        </involvedPawns>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb] 和 [RECIPIENT_nameDef] 商议一会去喝酒。</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_Cook</defName>
+        <label>TALKING_ABOUT_COOK</label>
+        <involvedPawns>
+            <li>Matterhorn</li>
+            <li>Vulcan</li>
+        </involvedPawns>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb] 和 [RECIPIENT_nameDef] [AK_TALK_COOK_ACTION] [AK_TALK_COOK_TOPIC]。</li>
+
+                <li>AK_TALK_COOK_TOPIC->照顾刻俄伯</li>
+                <li>AK_TALK_COOK_TOPIC->研发食谱</li>
+                <li>AK_TALK_COOK_TOPIC->烹饪蜜饼</li>
+                <li>AK_TALK_COOK_TOPIC->装备护理</li>
+
+                <li>AK_TALK_COOK_ACTION->讨论</li>
+                <li>AK_TALK_COOK_ACTION->聊</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_RimBilliton</defName>
+        <label>TALKING_ABOUT_RIMBILLITON</label>
+        <involvedPawns>
+            <li>Savage</li>
+            <li>Amiya</li>
+        </involvedPawns>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb] 和 [RECIPIENT_nameDef] [AK_TALK_RIMBILLITON_ACTION] [AK_TALK_RIMBILLITON_TOPIC]。</li>
+
+                <li>AK_TALK_RIMBILLITON_TOPIC->做卷心菜蔬菜沙拉配蘑菇馅饼</li>
+                <li>AK_TALK_RIMBILLITON_TOPIC->保护阿米娅和博士</li>
+                <li>AK_TALK_RIMBILLITON_TOPIC->雷姆必拓的故事</li>
+
+                <li>AK_TALK_RIMBILLITON_ACTION->讨论</li>
+                <li>AK_TALK_RIMBILLITON_ACTION->聊</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_Fire</defName>
+        <label>TALKING_ABOUT_FIRE</label>
+        <involvedPawns>
+            <li>Skyfire</li>
+            <li>Mint</li>
+        </involvedPawns>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb] 和 [RECIPIENT_nameDef] [AK_TALK_FIRE_ACTION] [AK_TALK_FIRE_TOPIC]。</li>
+
+                <li>AK_TALK_FIRE_TOPIC->高阶源石技艺</li>
+                <li>AK_TALK_FIRE_TOPIC->地质学研究</li>
+                <li>AK_TALK_FIRE_TOPIC->天火糟糕的人际关系</li>
+
+                <li>AK_TALK_FIRE_ACTION->讨论</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_Demon</defName>
+        <label>TALKING_ABOUT_DEMON</label>
+        <involvedPawns>
+            <li>Shining</li>
+            <li>Nightingale</li>
+            <li>Nearl</li>
+        </involvedPawns>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb] 和 [RECIPIENT_nameDef] [AK_TALK_DEMON_ACTION] [AK_TALK_DEMON_TOPIC]。</li>
+
+                <li>AK_TALK_DEMON_TOPIC->跳舞</li>
+                <li>AK_TALK_DEMON_TOPIC->摧毁一切的战争</li>
+                <li>AK_TALK_DEMON_TOPIC->“魔族”的罪孽</li>
+                <li>AK_TALK_DEMON_TOPIC->医者的使命</li>
+                <li>AK_TALK_DEMON_TOPIC->救赎</li>
+
+                <li>AK_TALK_DEMON_ACTION->讨论</li>
+                <li>AK_TALK_DEMON_ACTION->谈到</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_Game</defName>
+        <label>TALKING_ABOUT_GAME</label>
+        <involvedPawns>
+            <li>Irene</li>
+            <li>Chen</li>
+            <li>Myrrh</li>
+            <li>Harmonie</li>
+            <li>Istina</li>
+        </involvedPawns>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb] 和 [RECIPIENT_nameDef] 商议玩“谁是凶手”游戏。</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_Namie</defName>
+        <label>TALKING_ABOUT_NAMIE</label>
+        <involvedPawns>
+            <li>Mizuki</li>
+            <li>Goldenglow</li>
+        </involvedPawns>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb] 和 [RECIPIENT_nameDef] 闲聊 [AK_TALK_NAMIE_TOPIC]。</li>
+
+                <li>AK_TALK_NAMIE_TOPIC->哥哥姐姐</li>
+                <li>AK_TALK_NAMIE_TOPIC->NAMIE</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_PinusSylvestris</defName>
+        <label>TALKING_ABOUT_PINUSSYLVESTRIS</label>
+        <involvedPawns>
+            <li>Fartooth</li>
+            <li>Flametail</li>
+            <li>WildMane</li>
+            <li>Ashlock</li>
+        </involvedPawns>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb] 和 [RECIPIENT_nameDef] 闲聊 [AK_TALK_PINUSSYLVESTRIS_TOPIC]。</li>
+
+                <li>AK_TALK_PINUSSYLVESTRIS_TOPIC->骑士的未来</li>
+                <li>AK_TALK_PINUSSYLVESTRIS_TOPIC->骑士竞技</li>
+                <li>AK_TALK_PINUSSYLVESTRIS_TOPIC->红松骑士团</li>
+                <li>AK_TALK_PINUSSYLVESTRIS_TOPIC->卡西米尔</li>
+                <li>AK_TALK_PINUSSYLVESTRIS_TOPIC->商业联合会</li>
+                <li>AK_TALK_PINUSSYLVESTRIS_TOPIC->无胄盟</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_Food</defName>
+        <label>TALKING_ABOUT_FOOD</label>
+        <involvedPawns>
+            <li>Lunacub</li>
+            <li>Ceobe</li>
+            <li>Saga</li>
+        </involvedPawns>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] 和 [RECIPIENT_nameDef] [AK_TALK_FOOD_ACTION] [AK_TALK_FOOD_TOPIC]。</li>
+
+                <li>AK_TALK_FOOD_TOPIC->今天的伙食</li>
+                <li>AK_TALK_FOOD_TOPIC->吃的</li>
+                <li>AK_TALK_FOOD_TOPIC->洗劫后厨</li>
+                <li>AK_TALK_FOOD_TOPIC->搞点吃的</li>
+                <li>AK_TALK_FOOD_TOPIC->搞点用的</li>
+
+                <li>AK_TALK_FOOD_ACTION->闲聊</li>
+                <li>AK_TALK_FOOD_ACTION->大声讨论</li>
+                <li>AK_TALK_FOOD_ACTION->窃窃私语</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_TexLap</defName>
+        <label>TALKING_ABOUT_TEXLAP</label>
+        <involvedPawns>
+            <li>Texas</li>
+            <li>Lappland</li>
+        </involvedPawns>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb] 和 [RECIPIENT_nameDef] [AK_TALK_TEXLAP_ACTION] [AK_TALK_TEXLAP_TOPIC]。</li>
+
+                <li>AK_TALK_TEXLAP_TOPIC->德克萨斯做得到吗？</li>
+                <li>AK_TALK_TEXLAP_TOPIC->拉普兰德做得到吗？</li>
+                <li>AK_TALK_TEXLAP_TOPIC->本质</li>
+                <li>AK_TALK_TEXLAP_TOPIC->未来的追求</li>
+                <li>AK_TALK_TEXLAP_TOPIC->叙拉古</li>
+
+                <li>AK_TALK_TEXLAP_ACTION->闲聊</li>
+                <li>AK_TALK_TEXLAP_ACTION->讨论</li>
+                <li>AK_TALK_TEXLAP_ACTION->互相嘲讽</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_Medic</defName>
+        <label>TALKING_ABOUT_MEDIC</label>
+        <involvedPawns>
+            <li>Warfarin</li>
+            <li>Kaltsit</li>
+        </involvedPawns>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] 和 [RECIPIENT_nameDef] 就 [AK_TALK_MEDIC_TOPIC] [AK_TALK_MEDIC_ACTION]。</li>
+
+                <li>AK_TALK_MEDIC_TOPIC->治疗方案的改进</li>
+                <li>AK_TALK_MEDIC_TOPIC->新的药物配方</li>
+                <li>AK_TALK_MEDIC_TOPIC->最近的研究方向</li>
+
+                <li>AK_TALK_MEDIC_ACTION->各执己见</li>
+                <li>AK_TALK_MEDIC_ACTION->针锋相对</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_CousinI</defName>
+        <label>TALKING_ABOUT_COUSINI</label>
+        <involvedPawns>
+            <li>Chongyue</li>
+            <li>Dusk</li>
+        </involvedPawns>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb] 和 [RECIPIENT_nameDef] 闲聊 [AK_TALK_COUSINI_TOPIC]。</li>
+
+                <li>AK_TALK_COUSINI_TOPIC->锻炼身体</li>
+                <li>AK_TALK_COUSINI_TOPIC->进出画卷</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_CousinII</defName>
+        <label>TALKING_ABOUT_COUSINII</label>
+        <involvedPawns>
+            <li>Chongyue</li>
+            <li>Nian</li>
+        </involvedPawns>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb] 和 [RECIPIENT_nameDef] 讨论 [AK_TALK_COUSINII_TOPIC]。</li>
+
+                <li>AK_TALK_COUSINII_TOPIC->派新片</li>
+                <li>AK_TALK_COUSINII_TOPIC->武术指导</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_LongMenI</defName>
+        <label>TALKING_ABOUT_LONGMENI</label>
+        <involvedPawns>
+            <li>Lin</li>
+            <li>Chen</li>
+        </involvedPawns>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb] 和 [RECIPIENT_nameDef] [AK_TALK_LONGMENI_ACTION] [AK_TALK_LONGMENI_TOPIC]。</li>
+
+                <li>AK_TALK_LONGMENI_TOPIC->多索雷斯铁人大奖赛</li>
+                <li>AK_TALK_LONGMENI_TOPIC->绳之以法</li>
+                <li>AK_TALK_LONGMENI_TOPIC->鼠胆龙威</li>
+
+                <li>AK_TALK_LONGMENI_ACTION->讨论</li>
+                <li>AK_TALK_LONGMENI_ACTION->闲聊</li>
+                <li>AK_TALK_LONGMENI_ACTION->谈到</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_LongMenII</defName>
+        <label>TALKING_ABOUT_LONGMENII</label>
+        <involvedPawns>
+            <li>Hoshiguma</li>
+            <li>Chen</li>
+        </involvedPawns>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb] 和 [RECIPIENT_nameDef] [AK_TALK_LONGMENII_ACTION] [AK_TALK_LONGMENII_TOPIC]。</li>
+
+                <li>AK_TALK_LONGMENII_TOPIC->近卫局的事务</li>
+                <li>AK_TALK_LONGMENII_TOPIC->喝酒</li>
+                <li>AK_TALK_LONGMENII_TOPIC->摩托车</li>
+                <li>AK_TALK_LONGMENII_TOPIC->收藏鞋子</li>
+                <li>AK_TALK_LONGMENII_TOPIC->诗怀雅</li>
+
+                <li>AK_TALK_LONGMENII_ACTION->讨论</li>
+                <li>AK_TALK_LONGMENII_ACTION->闲聊</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_LongMenIII</defName>
+        <label>TALKING_ABOUT_LONGMENIII</label>
+        <involvedPawns>
+            <li>Hoshiguma</li>
+            <li>Swire</li>
+        </involvedPawns>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb] 和 [RECIPIENT_nameDef] [AK_TALK_LONGMENIII_ACTION] [AK_TALK_LONGMENIII_TOPIC]。</li>
+
+                <li>AK_TALK_LONGMENIII_TOPIC->“MISSY”</li>
+                <li>AK_TALK_LONGMENIII_TOPIC->陈</li>
+                <li>AK_TALK_LONGMENIII_TOPIC->近卫局的日常</li>
+                <li>AK_TALK_LONGMENIII_TOPIC->近卫局的责任</li>
+
+                <li>AK_TALK_LONGMENII_ACTION->讨论</li>
+                <li>AK_TALK_LONGMENII_ACTION->闲聊</li>
+                <li>AK_TALK_LONGMENII_ACTION->谈到</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_Pet</defName>
+        <label>TALKING_ABOUT_PET</label>
+        <involvedPawns>
+            <li>Beanstalk</li>
+            <li>Blacknight</li>
+        </involvedPawns>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] 和 [RECIPIENT_nameDef] 就 [AK_TALK_PET_TOPIC] [AK_TALK_PET_ACTION]。</li>
+
+                <li>AK_TALK_PET_TOPIC->谁的宠物更优秀</li>
+                <li>AK_TALK_PET_TOPIC->如何饲养动物</li>
+
+                <li>AK_TALK_PET_ACTION->针锋相对</li>
+                <li>AK_TALK_PET_ACTION->争论不休</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_Kazimierz</defName>
+        <label>TALKING_ABOUT_KAZIMIERZ</label>
+        <involvedPawns>
+            <li>Grani</li>
+            <li>Skadi</li>
+        </involvedPawns>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb] 和 [RECIPIENT_nameDef] [AK_TALK_KAZIMIERZ_ACTION] [AK_TALK_KAZIMIERZ_TOPIC]。</li>
+
+                <li>AK_TALK_KAZIMIERZ_TOPIC->卡西米尔的宝藏</li>
+                <li>AK_TALK_KAZIMIERZ_TOPIC->水滴村</li>
+                <li>AK_TALK_KAZIMIERZ_TOPIC->大鲍勃</li>
+
+                <li>AK_TALK_KAZIMIERZ_ACTION->讨论</li>
+                <li>AK_TALK_KAZIMIERZ_ACTION->闲聊</li>
+                <li>AK_TALK_KAZIMIERZ_ACTION->谈到</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_Poison</defName>
+        <label>TALKING_ABOUT_POISON</label>
+        <involvedPawns>
+            <li>Bluepoison</li>
+            <li>Glaucus</li>
+            <li>Indigo</li>
+        </involvedPawns>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb] 和 [RECIPIENT_nameDef] [AK_TALK_POISON_ACTION] [AK_TALK_POISON_TOPIC]。</li>
+
+                <li>AK_TALK_POISON_TOPIC->毒物</li>
+                <li>AK_TALK_POISON_TOPIC->做蛋糕</li>
+                <li>AK_TALK_POISON_TOPIC->手套</li>
+                <li>AK_TALK_POISON_TOPIC->武器保养</li>
+
+                <li>AK_TALK_POISON_ACTION->讨论</li>
+                <li>AK_TALK_POISON_ACTION->闲聊</li>
+                <li>AK_TALK_POISON_ACTION->谈到</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_Enemy</defName>
+        <label>TALKING_ABOUT_ENEMY</label>
+        <involvedPawns>
+            <li>Greythroat</li>
+            <li>Blaze</li>
+        </involvedPawns>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb] 和 [RECIPIENT_nameDef] [AK_TALK_ENEMY_ACTION] [AK_TALK_ENEMY_TOPIC]。</li>
+
+                <li>AK_TALK_ENEMY_TOPIC->感染者</li>
+                <li>AK_TALK_ENEMY_TOPIC->战斗方式</li>
+                <li>AK_TALK_ENEMY_TOPIC->霜星</li>
+
+                <li>AK_TALK_ENEMY_ACTION->讨论</li>
+                <li>AK_TALK_ENEMY_ACTION->闲聊</li>
+                <li>AK_TALK_ENEMY_ACTION->谈到</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_RosmontisI</defName>
+        <label>TALKING_ABOUT_ROSMONTISI</label>
+        <involvedPawns>
+            <li>Rosmontis</li>
+            <li>Blaze</li>
+        </involvedPawns>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb] 和 [RECIPIENT_nameDef] 闲聊 [AK_TALK_ROSMONTISI_TOPIC]。</li>
+
+                <li>AK_TALK_ROSMONTISI_TOPIC->小猫咪</li>
+                <li>AK_TALK_ROSMONTISI_TOPIC->“KISS”</li>
+                <li>AK_TALK_ROSMONTISI_TOPIC->精英干员</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_RosmontisII</defName>
+        <label>TALKING_ABOUT_ROSMONTISII</label>
+        <involvedPawns>
+            <li>Rosmontis</li>
+            <li>Amiya</li>
+        </involvedPawns>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb] 和 [RECIPIENT_nameDef] [AK_TALK_ROSMONTISII_ACTION] [AK_TALK_ROSMONTISII_TOPIC]。</li>
+
+                <li>AK_TALK_ROSMONTISII_TOPIC->自我认知</li>
+                <li>AK_TALK_ROSMONTISII_TOPIC->法术</li>
+                <li>AK_TALK_ROSMONTISII_TOPIC->责任</li>
+                <li>AK_TALK_ROSMONTISII_TOPIC->儿童节</li>
+
+                <li>AK_TALK_ROSMONTISII_ACTION->闲谈</li>
+                <li>AK_TALK_ROSMONTISII_ACTION->讨论</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_RosmontisIII</defName>
+        <label>TALKING_ABOUT_ROSMONTISIII</label>
+        <involvedPawns>
+            <li>Rosmontis</li>
+            <li>Kaltsit</li>
+        </involvedPawns>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb] 和 [RECIPIENT_nameDef] 谈起 [AK_TALK_ROSMONTISIII_TOPIC]。</li>
+
+                <li>AK_TALK_ROSMONTISIII_TOPIC->博士偷吃自己的饼干</li>
+                <li>AK_TALK_ROSMONTISIII_TOPIC->博士偷吃自己的布丁</li>
+                <li>AK_TALK_ROSMONTISIII_TOPIC->身体状况</li>
+                <li>AK_TALK_ROSMONTISIII_TOPIC->法术运用</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_Ast</defName>
+        <label>TALKING_ABOUT_AST</label>
+        <involvedPawns>
+            <li>Astesia</li>
+            <li>Astgenne</li>
+        </involvedPawns>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb] 和 [RECIPIENT_nameDef] [AK_TALK_AST_ACTION] [AK_TALK_AST_TOPIC]。</li>
+
+                <li>AK_TALK_AST_TOPIC->父母</li>
+                <li>AK_TALK_AST_TOPIC->观星</li>
+                <li>AK_TALK_AST_TOPIC->星空</li>
+                <li>AK_TALK_AST_TOPIC->脑瓜崩</li>
+
+                <li>AK_TALK_AST_ACTION->闲谈</li>
+                <li>AK_TALK_AST_ACTION->讨论</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_Princess</defName>
+        <label>TALKING_ABOUT_PRINCESS</label>
+        <involvedPawns>
+            <li>Schwarz</li>
+            <li>Ceylon</li>
+        </involvedPawns>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb] 和 [RECIPIENT_nameDef] 谈到 [AK_TALK_PRINCESS_TOPIC]。</li>
+
+                <li>AK_TALK_PRINCESS_TOPIC->锡兰的父亲</li>
+                <li>AK_TALK_PRINCESS_TOPIC->职责</li>
+                <li>AK_TALK_PRINCESS_TOPIC->守护</li>
+                <li>AK_TALK_PRINCESS_TOPIC->沏茶</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_Story</defName>
+        <label>TALKING_ABOUT_STORY</label>
+        <involvedPawns>
+            <li>Fiammetta</li>
+            <li>Mostima</li>
+        </involvedPawns>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb] 和 [RECIPIENT_nameDef] [AK_TALK_STORY_ACTION] [AK_TALK_STORY_TOPIC]。</li>
+
+                <li>AK_TALK_STORY_TOPIC->代号</li>
+                <li>AK_TALK_STORY_TOPIC->神选监工</li>
+                <li>AK_TALK_STORY_TOPIC->坟墓骑士</li>
+                <li>AK_TALK_STORY_TOPIC->黏性超人</li>
+                <li>AK_TALK_STORY_TOPIC->秘藏守望者</li>
+                <li>AK_TALK_STORY_TOPIC->独臂电锯侠</li>
+                <li>AK_TALK_STORY_TOPIC->超能惩罚王</li>
+                <li>AK_TALK_STORY_TOPIC->苦难陈述者</li>
+                <li>AK_TALK_STORY_TOPIC->天启宣告者</li>
+                <li>AK_TALK_STORY_TOPIC->死神代行人</li>
+                <li>AK_TALK_STORY_TOPIC->神圣狩猎狂</li>
+                <li>AK_TALK_STORY_TOPIC->微光守夜人</li>
+                <li>AK_TALK_STORY_TOPIC->不叫微光守夜人的黎博利</li>
+                <li>AK_TALK_STORY_TOPIC->黎明破坏者</li>
+                <li>AK_TALK_STORY_TOPIC->苦难监工</li>
+                <li>AK_TALK_STORY_TOPIC->黏性微光</li>
+                <li>AK_TALK_STORY_TOPIC->宣告人</li>
+                <li>AK_TALK_STORY_TOPIC->亚托克斯</li>
+                <li>AK_TALK_STORY_TOPIC->毁灭凤凰人</li>
+                <li>AK_TALK_STORY_TOPIC->燃烧使者</li>
+                <li>AK_TALK_STORY_TOPIC->蕾缪安</li>
+                <li>AK_TALK_STORY_TOPIC->蕾缪乐</li>
+
+                <li>AK_TALK_STORY_ACTION->谈到</li>
+                <li>AK_TALK_STORY_ACTION->闲聊</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_DeepSeaLesbian</defName>
+        <label>TALKING_ABOUT_DEEPSEALESBIAN</label>
+        <involvedPawns>
+            <li>Irene</li>
+            <li>Specter</li>
+        </involvedPawns>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb] 和 [RECIPIENT_nameDef] 闲聊 [AK_TALK_DEEPSEALESBIAN_TOPIC]。</li>
+
+                <li>AK_TALK_DEEPSEALESBIAN_TOPIC->深海猎人</li>
+                <li>AK_TALK_DEEPSEALESBIAN_TOPIC->“可爱的小鸟”</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_BSW</defName>
+        <label>TALKING_ABOUT_BSW</label>
+        <involvedPawns>
+            <li>Liskarm</li>
+            <li>Franka</li>
+        </involvedPawns>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb] 和 [RECIPIENT_nameDef] [AK_TALK_BSW_ACTION] [AK_TALK_BSW_TOPIC]。</li>
+
+                <li>AK_TALK_BSW_TOPIC->B.S.W</li>
+                <li>AK_TALK_BSW_TOPIC->芙兰卡的恶作剧</li>
+                <li>AK_TALK_BSW_TOPIC->芙兰卡给雷蛇设奇怪闹钟的事</li>
+                <li>AK_TALK_BSW_TOPIC->芙兰卡吃了雷蛇预留的布丁</li>
+                <li>AK_TALK_BSW_TOPIC->芙兰卡在雷蛇脸上乱画画</li>
+                <li>AK_TALK_BSW_TOPIC->“优等生”</li>
+                <li>AK_TALK_BSW_TOPIC->说相声</li>
+
+                <li>AK_TALK_BSW_ACTION->谈到</li>
+                <li>AK_TALK_BSW_ACTION->闲聊</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_ColdBlood</defName>
+        <label>TALKING_ABOUT_COLDBLOOD</label>
+        <involvedPawns>
+            <li>Tomimi</li>
+            <li>Gavial</li>
+        </involvedPawns>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb] 和 [RECIPIENT_nameDef] [AK_TALK_COLDBLOOD_ACTION] [AK_TALK_COLDBLOOD_TOPIC]。</li>
+
+                <li>AK_TALK_COLDBLOOD_TOPIC->粗尾巴</li>
+                <li>AK_TALK_COLDBLOOD_TOPIC->嘉伟尔打架有多厉害</li>
+
+                <li>AK_TALK_COLDBLOOD_ACTION->谈到</li>
+                <li>AK_TALK_COLDBLOOD_ACTION->闲聊</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_BlackSkinSis</defName>
+        <label>TALKING_ABOUT_BLACKSKINSIS</label>
+        <involvedPawns>
+            <li>Carnelian</li>
+            <li>Beeswax</li>
+        </involvedPawns>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb] 和 [RECIPIENT_nameDef] 谈到  [AK_TALK_BLACKSKINSIS_TOPIC]。</li>
+
+                <li>AK_TALK_BLACKSKINSIS_TOPIC->成人礼</li>
+                <li>AK_TALK_BLACKSKINSIS_TOPIC->蜜蜡梦里说卡涅利安坏话的事</li>
+                <li>AK_TALK_BLACKSKINSIS_TOPIC->摔倒</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_KarlanGod</defName>
+        <label>TALKING_ABOUT_KARLANGOD</label>
+        <involvedPawns>
+            <li>Kjera</li>
+            <li>Pramanix</li>
+        </involvedPawns>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb] 和 [RECIPIENT_nameDef] 闲谈 [AK_TALK_KARLANGOD_TOPIC]。</li>
+
+                <li>AK_TALK_KARLANGOD_TOPIC->谢拉格</li>
+                <li>AK_TALK_KARLANGOD_TOPIC->“圣女”</li>
+                <li>AK_TALK_KARLANGOD_TOPIC->和银灰的关系</li>
+                <li>AK_TALK_KARLANGOD_TOPIC->奶酪火锅</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_God</defName>
+        <label>TALKING_ABOUT_GOD</label>
+        <involvedPawns>
+            <li>Kjera</li>
+            <li>Nian</li>
+        </involvedPawns>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb] 和 [RECIPIENT_nameDef] 讨论蹭饭。</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_KnightSis</defName>
+        <label>TALKING_ABOUT_KNIGHTSIS</label>
+        <involvedPawns>
+            <li>Blemishine</li>
+            <li>Whislash</li>
+            <li>Nearl</li>
+        </involvedPawns>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb] 和 [RECIPIENT_nameDef] 聊到 [AK_TALK_KNIGHTSIS_TOPIC]。</li>
+
+                <li>AK_TALK_KNIGHTSIS_TOPIC->耀骑士</li>
+                <li>AK_TALK_KNIGHTSIS_TOPIC->小耀骑士</li>
+                <li>AK_TALK_KNIGHTSIS_TOPIC->骑士的荣光</li>
+                <li>AK_TALK_KNIGHTSIS_TOPIC->临光家族</li>
+                <li>AK_TALK_KNIGHTSIS_TOPIC->用报纸召唤玛恩纳</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_Red</defName>
+        <label>TALKING_ABOUT_RED</label>
+        <involvedPawns>
+            <li>Red</li>
+            <li>Kaltsit</li>
+        </involvedPawns>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb] 和 [RECIPIENT_nameDef] 谈到 [AK_TALK_RED_TOPIC]。</li>
+
+                <li>AK_TALK_RED_TOPIC->“狼”</li>
+                <li>AK_TALK_RED_TOPIC->“外婆”</li>
+                <li>AK_TALK_RED_TOPIC->摸尾巴</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_RhineLabI</defName>
+        <label>TALKING_ABOUT_RHINELABI</label>
+        <involvedPawns>
+            <li>Dorothy</li>
+            <li>Saria</li>
+            <li>Muelsyse</li>
+            <li>Silence</li>
+        </involvedPawns>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb] 和 [RECIPIENT_nameDef] 聊到 [AK_TALK_RHINELABI_TOPIC]。</li>
+
+                <li>AK_TALK_RHINELABI_TOPIC->实验</li>
+                <li>AK_TALK_RHINELABI_TOPIC->科学</li>
+                <li>AK_TALK_RHINELABI_TOPIC->伦理</li>
+                <li>AK_TALK_RHINELABI_TOPIC->莱茵生命的未来</li>
+                <li>AK_TALK_RHINELABI_TOPIC->总辖</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_RhineLabII</defName>
+        <label>TALKING_ABOUT_RHINELABII</label>
+        <involvedPawns>
+            <li>Saria</li>
+            <li>Silence</li>
+            <li>Dorothy</li>
+        </involvedPawns>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] 和 [RECIPIENT_nameDef] 就 [AK_TALK_RHINELABII_TOPIC] [AK_TALK_RHINELABII_ACTION]。</li>
+
+                <li>AK_TALK_RHINELABII_TOPIC->科学和人文的重要性</li>
+                <li>AK_TALK_RHINELABII_TOPIC->莱茵生命的发展方向</li>
+                <li>AK_TALK_RHINELABII_TOPIC->实验的目的和代价</li>
+                <li>AK_TALK_RHINELABII_TOPIC->如何让人类得到幸福</li>
+
+                <li>AK_TALK_RHINELABII_ACTION->据理力争</li>
+                <li>AK_TALK_RHINELABII_ACTION->各执己见</li>
+                <li>AK_TALK_RHINELABII_ACTION->争吵不休</li>
+            </rulesStrings>
+        </logRulesInitiator>
+    </AK_DLL.OperatorInteractionDef>
+
+    <AK_DLL.OperatorInteractionDef>
+        <defName>AK_Interaction_RhineLabIII</defName>
+        <label>TALKING_ABOUT_RHINELABIII</label>
+        <involvedPawns>
+            <li>Muelsyse</li>
+            <li>Ifrit</li>
+            <li>Magallan</li>
+        </involvedPawns>
+        <workerClass>AK_DLL.InteractionWorker_Operator</workerClass>
+        <symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+        <logRulesInitiator>
+            <include>
+                <li>AK_Basic_Chat_Adverb</li>
+            </include>
+            <rulesStrings>
+                <li>r_logentry->[INITIATOR_nameDef] [AK_Basic_Chat_Adverb] 和 [RECIPIENT_nameDef] [AK_TALK_RHINELABIII_ACTION] [AK_TALK_RHINELABIII_TOPIC]。</li>
+
+                <li>AK_TALK_RHINELABIII_TOPIC->伊芙芙</li>
+                <li>AK_TALK_RHINELABIII_TOPIC->缪缪</li>
+                <li>AK_TALK_RHINELABIII_TOPIC->麦麦</li>
+                <li>AK_TALK_RHINELABIII_TOPIC->碳烤源石虫</li>
+                <li>AK_TALK_RHINELABIII_TOPIC->出去玩</li>
+                <li>AK_TALK_RHINELABIII_TOPIC->“弱小又无助只求生存的小可怜”</li>
+                <li>AK_TALK_RHINELABIII_TOPIC->麦哲伦的探险</li>
+                <li>AK_TALK_RHINELABIII_TOPIC->缪尔赛思的研究</li>
             </rulesStrings>
         </logRulesInitiator>
     </AK_DLL.OperatorInteractionDef>
