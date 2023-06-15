@@ -15,6 +15,7 @@
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-1</severityPerDay>
       </li>
+	  <li Class="AK_DLL.HCP_OripathyInfo" />
     </comps>
     <makesSickThought>false</makesSickThought>
     <stages>
@@ -27,6 +28,7 @@
         <minSeverity>10</minSeverity>
         <label>中度沾染</label>
         <painOffset>0.1</painOffset>
+        <becomeVisible>true</becomeVisible>
       </li>
       <li>
         <minSeverity>24</minSeverity>
