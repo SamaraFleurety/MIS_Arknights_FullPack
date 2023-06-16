@@ -182,4 +182,16 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Vanguard">
+		<defName>AK_Apparel_Ines</defName>
+		<label>伊内丝服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Vanguard/Ines</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Vanguard/Ines</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 </Defs>

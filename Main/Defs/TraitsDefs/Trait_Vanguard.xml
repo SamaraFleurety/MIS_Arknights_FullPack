@@ -334,4 +334,39 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_InesSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>影哨</label>
+				<description>伊内丝的源石技艺十分特殊，她能够操纵阴影并从影子中窥探他人的内心。
+				</description>
+				<statOffsets>
+					<SocialImpact>0.5</SocialImpact>
+					<TradePriceImprovement>0.1</TradePriceImprovement>
+					<NegotiationAbility>0.5</NegotiationAbility>
+					<PsychicSensitivity>0.4</PsychicSensitivity>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Ines</defName>
+		<degreeDatas>
+			<li>
+				<label>“独影归途”</label>
+				<description>“我和那个卡普里尼唯一的区别是，我曾经走出了那片桦树林，靠着那片森林教会我的东西活到了今天”
+				</description>
+				<statOffsets>
+					<MentalBreakThreshold>0.3</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>

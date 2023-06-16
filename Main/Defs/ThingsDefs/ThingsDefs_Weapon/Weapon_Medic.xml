@@ -259,14 +259,14 @@
     </tools>
   </ThingDef>
 
-	<ThingDef ParentName="AK_WeaponBase_Medic">
-		<defName>AK_Weapon_Ceylon</defName>
-		<label>湖畔漫步者</label>
-		<graphicData>
-			<texPath>Things/AK_Agents/Weapon/Medic/CeylonW</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<description>锡兰的伞，握在手中感觉十分潮湿，但是脱手又感觉没有任何水，难道这也是源石技艺？</description>
+  <ThingDef ParentName="AK_WeaponBase_Medic">
+    <defName>AK_Weapon_Ceylon</defName>
+    <label>湖畔漫步者</label>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Medic/CeylonW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <description>锡兰的伞，握在手中感觉十分潮湿，但是脱手又感觉没有任何水，难道这也是源石技艺？</description>
     <tools Inherit = "false">
       <li>
         <label>法杖猛砸</label>
@@ -277,16 +277,26 @@
         <cooldownTime>1.2</cooldownTime>
       </li>
     </tools>
-	</ThingDef>
+  </ThingDef>
 
-	<ThingDef ParentName="AK_WeaponBase_Medic">
-		<defName>AK_Weapon_Mulberry</defName>
-		<label>祈福法杖</label>
-		<graphicData>
-			<texPath>Things/AK_Agents/Weapon/Medic/MulberryW</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<description>桑葚的法杖，上面的令牌用炎国某地的方言写了大量的祈福语，香火的气息若有若无。</description>
-	</ThingDef>
+  <ThingDef ParentName="AK_WeaponBase_Medic">
+    <defName>AK_Weapon_Mulberry</defName>
+    <label>祈福法杖</label>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Medic/MulberryW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <description>桑葚的法杖，上面的令牌用炎国某地的方言写了大量的祈福语，香火的气息若有若无。</description>
+    <tools Inherit = "false">
+      <li>
+        <label>法杖猛砸</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
 
 </Defs>

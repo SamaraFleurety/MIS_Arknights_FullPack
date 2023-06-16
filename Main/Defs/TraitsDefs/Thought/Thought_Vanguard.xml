@@ -190,4 +190,18 @@
 		</stages>
 	</ThoughtDef>
 
+	<!-- 伊内丝 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Ines</defName>
+		<requiredTraits><li>AK_Trait_Ines</li></requiredTraits>
+		<stages>
+			<li>
+				<label>“独影归途”</label>
+				<description>“不是每一次，都会有人来救你的。”</description>
+				<baseMoodEffect>-10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
 </Defs>

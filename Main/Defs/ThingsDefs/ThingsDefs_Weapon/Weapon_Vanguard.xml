@@ -707,4 +707,106 @@
     <description>缪缪的伞</description>
   </ThingDef>
 
+  <ThingDef ParentName="AK_WeaponBase_Vanguard">
+    <defName>AK_Weapon_Ines</defName>
+    <label>影哨之刃</label>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Vanguard/InesW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <description>“在别人发现之前，我会让你的尸首沉入暗影。”</description>
+    <statBases>
+      <AccuracyTouch>1</AccuracyTouch>
+      <AccuracyShort>0.8</AccuracyShort>
+      <AccuracyMedium>0.65</AccuracyMedium>
+      <AccuracyLong>0.45</AccuracyLong>
+      <RangedWeapon_Cooldown>0.3</RangedWeapon_Cooldown>      <!--后摇-->
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>AK_Bullet_Ines</defaultProjectile>
+        <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+        <warmupTime>0.7</warmupTime>        <!--前摇-->
+        <range>12</range>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <soundCast>AK_Sound_Weapon_Magic</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <noiseRadius>3</noiseRadius>
+      </li>
+    </verbs>
+    <tools Inherit = "false">
+      <li>
+        <label>剑托猛砸</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>1.0</cooldownTime>
+      </li>
+      <li>
+        <label>踢击</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>拳击</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>0.8</cooldownTime>
+      </li>
+      <li>
+        <label>剑捅</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>1.0</cooldownTime>
+      </li>
+      <li>
+        <label>剑劈</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <ThingDef ParentName="AK_BulletBase_Bow">
+    <defName>AK_Bullet_Ines</defName>
+    <label>投掷影镖</label>
+    <graphicData>
+      <texPath>Things/Projectile/MagicOrb</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingClass>Bullet</thingClass>
+    <projectile>
+      <damageDef>Bullet</damageDef>      <!--伤害类型-->
+      <damageAmountBase>20</damageAmountBase>
+      <stoppingPower>3</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="AK_WeaponBase_Vanguard">
+    <defName>AK_Weapon_InesB</defName>
+    <label>伊内丝的匕首</label>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Vanguard/InesW2</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <description>伊内丝的匕首</description>
+  </ThingDef>
+
 </Defs>

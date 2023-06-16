@@ -264,4 +264,22 @@
 		</baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Ines_Child</defName>
+		<slot>Childhood</slot>
+		<title>幸存的卡普里尼</title>
+		<titleShort>幸存的卡普里尼</titleShort>
+		<baseDesc>{PAWN_nameDef}在幼时是随家族前往卡兹戴尔走私的行商之女，{PAWN_pronoun}所在的商队遭遇了雇佣兵的背叛。最后，只剩{PAWN_pronoun}一人存活并被放逐进卡兹戴尔北部的茂密森林中。但{PAWN_possessive}运气还不错，走出了那片满是枯骨和美景的桦树林
+</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Ines_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>萨卡兹雇佣兵头目</title>
+		<titleShort>萨卡兹雇佣兵头目</titleShort>
+		<baseDesc>在成年后{PAWN_nameDef}理所当然的成为了一名萨卡兹雇佣兵，尽管{PAWN_pronoun}不是萨卡兹。{PAWN_pronoun}在卡兹戴尔内战时便以雇佣兵身份出人头地，此后也作为萨卡兹雇佣兵参与了诸多事件与局部战争，这让{PAWN_pronoun}有着丰富的作战经验。
+</baseDesc>
+	</BackstoryDef>
+
 </Defs>
