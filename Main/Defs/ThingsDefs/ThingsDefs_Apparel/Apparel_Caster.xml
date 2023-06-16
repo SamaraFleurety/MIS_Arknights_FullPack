@@ -229,4 +229,16 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Caster">
+		<defName>AK_Apparel_Passenger</defName>
+		<label>异客服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Caster/Passenger</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Caster/Passenger</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 </Defs>

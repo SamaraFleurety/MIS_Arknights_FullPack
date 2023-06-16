@@ -514,4 +514,39 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<!-- 异客 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_PassengerSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>沙卒</label>
+				<description>异客有着非凡的手腕、胆识、毅力，这足以证明他沁礁黑市之主——沙卒的名号绝非名不副实。
+				</description>
+				<statOffsets>
+					<SocialImpact>1</SocialImpact>
+					<TradePriceImprovement>0.25</TradePriceImprovement>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Passenger</defName>
+		<degreeDatas>
+			<li>
+				<label>“今夕须臾之梦”</label>
+				<description>“一个迷茫的旅人，他的前二十几年的大好光阴都投入到了复仇这一事业之中。而当复仇成功之后，他陷入了迷茫，他回望一路上被他碾碎的时光和年少的自己，他并不什么都不在乎，而是因为——他所在乎的过去，那些大好时光，已经永远不会回来了。”
+				</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.45</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>

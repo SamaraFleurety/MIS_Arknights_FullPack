@@ -300,4 +300,18 @@
 		</stages>
 	</ThoughtDef>
 
+	<!-- 异客 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Passenger</defName>
+		<requiredTraits><li>AK_Trait_Passenger</li></requiredTraits>
+		<stages>
+			<li>
+				<label>“今夕须臾之梦”</label>
+				<description>现在，我该和过去做个了断。可我接下来要做什么?去哪里?</description>
+				<baseMoodEffect>-12</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
 </Defs>

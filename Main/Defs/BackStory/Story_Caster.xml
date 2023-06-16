@@ -326,4 +326,22 @@
 </baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Passenger_Child</defName>
+		<slot>Childhood</slot>
+		<title>高材生</title>
+		<titleShort>高材生</titleShort>
+		<baseDesc>{PAWN_nameDef}出生于哥伦比亚，{PAWN_pronoun}以极其优异的成绩跳级毕业后被一位源石专家——也是{PAWN_possessive}老师相中提拔为研究助手。并在之后随老师前往萨尔贡参与了一项哥伦比亚军方主持的绝密项目。
+项目成果最终凝结成了一件银色手提箱，但成果却引来各方觊觎，在冲突中研究小队仅剩他幸存。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Passenger_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>复仇的沙卒</title>
+		<titleShort>复仇的沙卒</titleShort>
+		<baseDesc>{PAWN_nameDef}在余下的时间中致力于向当初的幕后主使们复仇。为达成此目的，{PAWN_pronoun}在萨尔贡从学徒开始一步步成为黑市之主。并在途中用获得的权力和手腕将仇人尽数抹杀，这几乎花费了{PAWN_possessive}四分之一的人生。
+</baseDesc>
+	</BackstoryDef>
+
 </Defs>

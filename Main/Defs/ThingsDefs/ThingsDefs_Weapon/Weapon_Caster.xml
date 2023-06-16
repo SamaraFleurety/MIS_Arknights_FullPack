@@ -15,7 +15,6 @@
 			<AccuracyMedium>0.8</AccuracyMedium>
 			<AccuracyLong>0.6</AccuracyLong>
 			<RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
-			<!--后摇-->
 		</statBases>
 		<verbs>
 			<li>
@@ -23,8 +22,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>AK_Bullet_Absinthe</defaultProjectile>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
-				<warmupTime>0.9</warmupTime>
-				<!--前摇-->
+				<warmupTime>0.9</warmupTime>				<!--前摇-->
 				<range>25</range>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
@@ -64,23 +62,18 @@
 		</graphicData>
 		<thingClass>Bullet</thingClass>
 		<projectile>
-			<damageDef>Bullet</damageDef>
-			<!--伤害类型-->
+			<damageDef>Bullet</damageDef伤害类型-->
 			<damageAmountBase>16</damageAmountBase>
 			<stoppingPower>3</stoppingPower>
 			<speed>50</speed>
 			<extraDamages>
 				<li>
-					<def>Flame</def>
-					<!--伤害类型-->
-					<amount>12</amount>
-					<!--伤害数值-->
-					<armorPenetration>0.8</armorPenetration>
-					<!--穿甲-->
+					<def>Flame</def>					<!--伤害类型-->
+					<amount>12</amount>					<!--伤害数值-->
+					<armorPenetration>0.8</armorPenetration>					<!--穿甲-->
 				</li>
 			</extraDamages>
-			<soundExplode>ThumpCannon_Impact</soundExplode>
-			<!--爆炸音效-->
+			<soundExplode>ThumpCannon_Impact</soundExplode爆炸音效-->
 		</projectile>
 	</ThingDef>
 
@@ -112,8 +105,7 @@
 			<AccuracyShort>0.9</AccuracyShort>
 			<AccuracyMedium>0.75</AccuracyMedium>
 			<AccuracyLong>0.55</AccuracyLong>
-			<RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
-			<!--后摇-->
+			<RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown后摇-->
 		</statBases>
 		<verbs>
 			<li>
@@ -121,8 +113,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>AK_Bullet_Ifrit</defaultProjectile>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
-				<warmupTime>2.2</warmupTime>
-				<!--前摇-->
+				<warmupTime>2.2</warmupTime>				<!--前摇-->
 				<range>45</range>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
@@ -154,27 +145,21 @@
 		</graphicData>
 		<thingClass>Bullet</thingClass>
 		<projectile>
-			<damageDef>Bullet</damageDef>
-			<!--伤害类型-->
+			<damageDef>Bullet</damageDef伤害类型-->
 			<damageAmountBase>0</damageAmountBase>
 			<stoppingPower>3</stoppingPower>
 			<speed>50</speed>
 			<extraDamages>
 				<li>
-					<def>Flame</def>
-					<!--伤害类型-->
-					<amount>18</amount>
-					<!--伤害数值-->
+					<def>Flame</def>					<!--伤害类型-->
+					<amount>18</amount>					<!--伤害数值-->
 				</li>
 				<li>
-					<def>Burn</def>
-					<!--伤害类型-->
-					<amount>12</amount>
-					<!--伤害数值-->
+					<def>Burn</def>					<!--伤害类型-->
+					<amount>12</amount>					<!--伤害数值-->
 				</li>
 			</extraDamages>
-			<soundExplode>ThumpCannon_Impact</soundExplode>
-			<!--爆炸音效-->
+			<soundExplode>ThumpCannon_Impact</soundExplode爆炸音效-->
 		</projectile>
 	</ThingDef>
 
@@ -290,8 +275,7 @@
 			<AccuracyShort>0.95</AccuracyShort>
 			<AccuracyMedium>0.8</AccuracyMedium>
 			<AccuracyLong>0.6</AccuracyLong>
-			<RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
-			<!--后摇-->
+			<RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown后摇-->
 		</statBases>
 		<verbs>
 			<li>
@@ -299,8 +283,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>AK_Bullet_Ceobe</defaultProjectile>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
-				<warmupTime>1.2</warmupTime>
-				<!--前摇-->
+				<warmupTime>1.2</warmupTime>				<!--前摇-->
 				<range>25</range>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
@@ -340,21 +323,17 @@
 		</graphicData>
 		<thingClass>Bullet</thingClass>
 		<projectile>
-			<damageDef>Bullet</damageDef>
-			<!--伤害类型-->
+			<damageDef>Bullet</damageDef伤害类型-->
 			<damageAmountBase>0</damageAmountBase>
 			<stoppingPower>3</stoppingPower>
 			<speed>50</speed>
 			<extraDamages>
 				<li>
-					<def>Flame</def>
-					<!--伤害类型-->
-					<amount>30</amount>
-					<!--伤害数值-->
+					<def>Flame</def>					<!--伤害类型-->
+					<amount>30</amount>					<!--伤害数值-->
 				</li>
 			</extraDamages>
-			<soundExplode>ThumpCannon_Impact</soundExplode>
-			<!--爆炸音效-->
+			<soundExplode>ThumpCannon_Impact</soundExplode爆炸音效-->
 		</projectile>
 	</ThingDef>
 
@@ -384,8 +363,7 @@
 			<AccuracyShort>0.95</AccuracyShort>
 			<AccuracyMedium>0.8</AccuracyMedium>
 			<AccuracyLong>0.6</AccuracyLong>
-			<RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
-			<!--后摇-->
+			<RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown后摇-->
 		</statBases>
 		<verbs>
 			<li>
@@ -393,8 +371,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>AK_Bullet_Ceobe</defaultProjectile>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
-				<warmupTime>1.2</warmupTime>
-				<!--前摇-->
+				<warmupTime>1.2</warmupTime>				<!--前摇-->
 				<range>25</range>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
@@ -433,8 +410,7 @@
 			<AccuracyShort>0.95</AccuracyShort>
 			<AccuracyMedium>0.8</AccuracyMedium>
 			<AccuracyLong>0.6</AccuracyLong>
-			<RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
-			<!--后摇-->
+			<RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown后摇-->
 		</statBases>
 		<verbs>
 			<li>
@@ -442,8 +418,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>AK_Bullet_Ceobe</defaultProjectile>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
-				<warmupTime>1.2</warmupTime>
-				<!--前摇-->
+				<warmupTime>1.2</warmupTime>				<!--前摇-->
 				<range>25</range>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
@@ -482,8 +457,7 @@
 			<AccuracyShort>0.95</AccuracyShort>
 			<AccuracyMedium>0.8</AccuracyMedium>
 			<AccuracyLong>0.6</AccuracyLong>
-			<RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
-			<!--后摇-->
+			<RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown后摇-->
 		</statBases>
 		<verbs>
 			<li>
@@ -491,8 +465,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>AK_Bullet_Ceobe</defaultProjectile>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
-				<warmupTime>1.2</warmupTime>
-				<!--前摇-->
+				<warmupTime>1.2</warmupTime>				<!--前摇-->
 				<range>25</range>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
@@ -531,8 +504,7 @@
 			<AccuracyShort>0.9</AccuracyShort>
 			<AccuracyMedium>0.75</AccuracyMedium>
 			<AccuracyLong>0.55</AccuracyLong>
-			<RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
-			<!--后摇-->
+			<RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown后摇-->
 		</statBases>
 		<verbs>
 			<li>
@@ -540,8 +512,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>AK_Bullet_Dusk</defaultProjectile>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
-				<warmupTime>2.2</warmupTime>
-				<!--前摇-->
+				<warmupTime>2.2</warmupTime>				<!--前摇-->
 				<range>20</range>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
@@ -573,21 +544,17 @@
 		</graphicData>
 		<thingClass>Bullet</thingClass>
 		<projectile>
-			<damageDef>Bullet</damageDef>
-			<!--伤害类型-->
+			<damageDef>Bullet</damageDef伤害类型-->
 			<damageAmountBase>0</damageAmountBase>
 			<stoppingPower>3</stoppingPower>
 			<speed>50</speed>
 			<extraDamages>
 				<li>
-					<def>Flame</def>
-					<!--伤害类型-->
-					<amount>21</amount>
-					<!--伤害数值-->
+					<def>Flame</def>					<!--伤害类型-->
+					<amount>21</amount>					<!--伤害数值-->
 				</li>
 			</extraDamages>
-			<soundExplode>ThumpCannon_Impact</soundExplode>
-			<!--爆炸音效-->
+			<soundExplode>ThumpCannon_Impact</soundExplode爆炸音效-->
 		</projectile>
 	</ThingDef>
 
@@ -670,8 +637,7 @@
 			<AccuracyShort>0.9</AccuracyShort>
 			<AccuracyMedium>0.75</AccuracyMedium>
 			<AccuracyLong>0.55</AccuracyLong>
-			<RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
-			<!--后摇-->
+			<RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown后摇-->
 		</statBases>
 		<verbs>
 			<li>
@@ -679,8 +645,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>AK_Bullet_Mostima</defaultProjectile>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
-				<warmupTime>2.2</warmupTime>
-				<!--前摇-->
+				<warmupTime>2.2</warmupTime>				<!--前摇-->
 				<range>20</range>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
@@ -729,8 +694,7 @@
 			<AccuracyShort>0.9</AccuracyShort>
 			<AccuracyMedium>0.75</AccuracyMedium>
 			<AccuracyLong>0.55</AccuracyLong>
-			<RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
-			<!--后摇-->
+			<RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown后摇-->
 		</statBases>
 		<verbs>
 			<li>
@@ -738,8 +702,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>AK_Bullet_Mostima</defaultProjectile>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
-				<warmupTime>2.2</warmupTime>
-				<!--前摇-->
+				<warmupTime>2.2</warmupTime>				<!--前摇-->
 				<range>20</range>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
@@ -778,8 +741,7 @@
 			<AccuracyShort>0.9</AccuracyShort>
 			<AccuracyMedium>0.75</AccuracyMedium>
 			<AccuracyLong>0.55</AccuracyLong>
-			<RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
-			<!--后摇-->
+			<RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown后摇-->
 		</statBases>
 		<verbs>
 			<li>
@@ -787,8 +749,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>AK_Bullet_Mostima</defaultProjectile>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
-				<warmupTime>2.2</warmupTime>
-				<!--前摇-->
+				<warmupTime>2.2</warmupTime>				<!--前摇-->
 				<range>20</range>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
@@ -820,21 +781,17 @@
 		</graphicData>
 		<thingClass>Bullet</thingClass>
 		<projectile>
-			<damageDef>Bullet</damageDef>
-			<!--伤害类型-->
+			<damageDef>Bullet</damageDef伤害类型-->
 			<damageAmountBase>0</damageAmountBase>
 			<stoppingPower>3</stoppingPower>
 			<speed>50</speed>
 			<extraDamages>
 				<li>
-					<def>Flame</def>
-					<!--伤害类型-->
-					<amount>24</amount>
-					<!--伤害数值-->
+					<def>Flame</def>					<!--伤害类型-->
+					<amount>24</amount>					<!--伤害数值-->
 				</li>
 			</extraDamages>
-			<soundExplode>ThumpCannon_Impact</soundExplode>
-			<!--爆炸音效-->
+			<soundExplode>ThumpCannon_Impact</soundExplode爆炸音效-->
 		</projectile>
 	</ThingDef>
 
@@ -864,8 +821,7 @@
 			<AccuracyShort>0.9</AccuracyShort>
 			<AccuracyMedium>0.75</AccuracyMedium>
 			<AccuracyLong>0.55</AccuracyLong>
-			<RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
-			<!--后摇-->
+			<RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown后摇-->
 		</statBases>
 		<verbs>
 			<li>
@@ -873,8 +829,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>AK_Bullet_Skyfire</defaultProjectile>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
-				<warmupTime>2.2</warmupTime>
-				<!--前摇-->
+				<warmupTime>2.2</warmupTime>				<!--前摇-->
 				<range>20</range>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
@@ -906,27 +861,21 @@
 		</graphicData>
 		<thingClass>Bullet</thingClass>
 		<projectile>
-			<damageDef>Bullet</damageDef>
-			<!--伤害类型-->
+			<damageDef>Bullet</damageDef伤害类型-->
 			<damageAmountBase>0</damageAmountBase>
 			<stoppingPower>3</stoppingPower>
 			<speed>50</speed>
 			<extraDamages>
 				<li>
-					<def>Flame</def>
-					<!--伤害类型-->
-					<amount>18</amount>
-					<!--伤害数值-->
+					<def>Flame</def>					<!--伤害类型-->
+					<amount>18</amount>					<!--伤害数值-->
 				</li>
 				<li>
-					<def>Burn</def>
-					<!--伤害类型-->
-					<amount>12</amount>
-					<!--伤害数值-->
+					<def>Burn</def>					<!--伤害类型-->
+					<amount>12</amount>					<!--伤害数值-->
 				</li>
 			</extraDamages>
-			<soundExplode>ThumpCannon_Impact</soundExplode>
-			<!--爆炸音效-->
+			<soundExplode>ThumpCannon_Impact</soundExplode爆炸音效-->
 		</projectile>
 	</ThingDef>
 
@@ -956,8 +905,7 @@
 			<AccuracyShort>0.95</AccuracyShort>
 			<AccuracyMedium>0.8</AccuracyMedium>
 			<AccuracyLong>0.6</AccuracyLong>
-			<RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
-			<!--后摇-->
+			<RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown后摇-->
 		</statBases>
 		<verbs>
 			<li>
@@ -965,8 +913,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>AK_Bullet_Eyjafjalla</defaultProjectile>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
-				<warmupTime>1.2</warmupTime>
-				<!--前摇-->
+				<warmupTime>1.2</warmupTime>				<!--前摇-->
 				<range>25</range>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
@@ -998,27 +945,21 @@
 		</graphicData>
 		<thingClass>Bullet</thingClass>
 		<projectile>
-			<damageDef>Bullet</damageDef>
-			<!--伤害类型-->
+			<damageDef>Bullet</damageDef伤害类型-->
 			<damageAmountBase>0</damageAmountBase>
 			<stoppingPower>3</stoppingPower>
 			<speed>50</speed>
 			<extraDamages>
 				<li>
-					<def>Flame</def>
-					<!--伤害类型-->
-					<amount>24</amount>
-					<!--伤害数值-->
+					<def>Flame</def>					<!--伤害类型-->
+					<amount>24</amount>					<!--伤害数值-->
 				</li>
 				<li>
-					<def>Burn</def>
-					<!--伤害类型-->
-					<amount>18</amount>
-					<!--伤害数值-->
+					<def>Burn</def>					<!--伤害类型-->
+					<amount>18</amount>					<!--伤害数值-->
 				</li>
 			</extraDamages>
-			<soundExplode>ThumpCannon_Impact</soundExplode>
-			<!--爆炸音效-->
+			<soundExplode>ThumpCannon_Impact</soundExplode爆炸音效-->
 		</projectile>
 	</ThingDef>
 
@@ -1112,8 +1053,7 @@
 			<AccuracyShort>0.95</AccuracyShort>
 			<AccuracyMedium>1</AccuracyMedium>
 			<AccuracyLong>0.85</AccuracyLong>
-			<RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
-			<!--后摇-->
+			<RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown后摇-->
 		</statBases>
 		<verbs>
 			<li>
@@ -1121,8 +1061,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>AK_Bullet_Indigo</defaultProjectile>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
-				<warmupTime>2.2</warmupTime>
-				<!--前摇-->
+				<warmupTime>2.2</warmupTime>				<!--前摇-->
 				<range>30</range>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
@@ -1154,21 +1093,17 @@
 		</graphicData>
 		<thingClass>Bullet</thingClass>
 		<projectile>
-			<damageDef>Bullet</damageDef>
-			<!--伤害类型-->
+			<damageDef>Bullet</damageDef伤害类型-->
 			<damageAmountBase>0</damageAmountBase>
 			<stoppingPower>3</stoppingPower>
 			<speed>50</speed>
 			<extraDamages>
 				<li>
-					<def>Flame</def>
-					<!--伤害类型-->
-					<amount>45</amount>
-					<!--伤害数值-->
+					<def>Flame</def>					<!--伤害类型-->
+					<amount>45</amount>					<!--伤害数值-->
 				</li>
 			</extraDamages>
-			<soundExplode>ThumpCannon_Impact</soundExplode>
-			<!--爆炸音效-->
+			<soundExplode>ThumpCannon_Impact</soundExplode爆炸音效-->
 		</projectile>
 	</ThingDef>
 
@@ -1198,8 +1133,7 @@
 			<AccuracyShort>0.95</AccuracyShort>
 			<AccuracyMedium>1</AccuracyMedium>
 			<AccuracyLong>0.85</AccuracyLong>
-			<RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
-			<!--后摇-->
+			<RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown后摇-->
 		</statBases>
 		<verbs>
 			<li>
@@ -1207,8 +1141,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>AK_Bullet_Goldenglow</defaultProjectile>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
-				<warmupTime>1.2</warmupTime>
-				<!--前摇-->
+				<warmupTime>1.2</warmupTime>				<!--前摇-->
 				<range>25</range>
 				<burstShotCount>2</burstShotCount>
 				<targetParams>
@@ -1241,23 +1174,18 @@
 		</graphicData>
 		<thingClass>Bullet</thingClass>
 		<projectile>
-			<damageDef>Bullet</damageDef>
-			<!--伤害类型-->
+			<damageDef>Bullet</damageDef伤害类型-->
 			<damageAmountBase>0</damageAmountBase>
 			<stoppingPower>3</stoppingPower>
 			<speed>50</speed>
 			<extraDamages>
 				<li>
-					<def>Flame</def>
-					<!--伤害类型-->
-					<amount>21</amount>
-					<!--伤害数值-->
-					<armorPenetration>0.6</armorPenetration>
-					<!--穿甲-->
+					<def>Flame</def>					<!--伤害类型-->
+					<amount>21</amount>					<!--伤害数值-->
+					<armorPenetration>0.6</armorPenetration>					<!--穿甲-->
 				</li>
 			</extraDamages>
-			<soundExplode>ThumpCannon_Impact</soundExplode>
-			<!--爆炸音效-->
+			<soundExplode>ThumpCannon_Impact</soundExplode爆炸音效-->
 		</projectile>
 	</ThingDef>
 
@@ -1311,8 +1239,7 @@
 			<AccuracyShort>0.95</AccuracyShort>
 			<AccuracyMedium>1</AccuracyMedium>
 			<AccuracyLong>0.85</AccuracyLong>
-			<RangedWeapon_Cooldown>0.3</RangedWeapon_Cooldown>
-			<!--后摇-->
+			<RangedWeapon_Cooldown>0.3</RangedWeapon_Cooldown后摇-->
 		</statBases>
 		<verbs>
 			<li>
@@ -1320,8 +1247,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>AK_Bullet_Kjera</defaultProjectile>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
-				<warmupTime>1</warmupTime>
-				<!--前摇-->
+				<warmupTime>1</warmupTime>				<!--前摇-->
 				<range>25</range>
 				<burstShotCount>2</burstShotCount>
 				<targetParams>
@@ -1354,23 +1280,18 @@
 		</graphicData>
 		<thingClass>Bullet</thingClass>
 		<projectile>
-			<damageDef>Bullet</damageDef>
-			<!--伤害类型-->
+			<damageDef>Bullet</damageDef伤害类型-->
 			<damageAmountBase>0</damageAmountBase>
 			<stoppingPower>3</stoppingPower>
 			<speed>50</speed>
 			<extraDamages>
 				<li>
-					<def>Flame</def>
-					<!--伤害类型-->
-					<amount>18</amount>
-					<!--伤害数值-->
-					<armorPenetration>0.6</armorPenetration>
-					<!--穿甲-->
+					<def>Flame</def>					<!--伤害类型-->
+					<amount>18</amount>					<!--伤害数值-->
+					<armorPenetration>0.6</armorPenetration>					<!--穿甲-->
 				</li>
 			</extraDamages>
-			<soundExplode>ThumpCannon_Impact</soundExplode>
-			<!--爆炸音效-->
+			<soundExplode>ThumpCannon_Impact</soundExplode爆炸音效-->
 		</projectile>
 	</ThingDef>
 
@@ -1387,8 +1308,7 @@
 			<AccuracyShort>0.95</AccuracyShort>
 			<AccuracyMedium>0.8</AccuracyMedium>
 			<AccuracyLong>0.65</AccuracyLong>
-			<RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
-			<!--后摇-->
+			<RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown后摇-->
 		</statBases>
 		<verbs>
 			<li>
@@ -1396,8 +1316,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>AK_Bullet_Astgenne</defaultProjectile>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
-				<warmupTime>1.7</warmupTime>
-				<!--前摇-->
+				<warmupTime>1.7</warmupTime>				<!--前摇-->
 				<range>25</range>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
@@ -1429,21 +1348,17 @@
 		</graphicData>
 		<thingClass>Bullet</thingClass>
 		<projectile>
-			<damageDef>Bullet</damageDef>
-			<!--伤害类型-->
+			<damageDef>Bullet</damageDef伤害类型-->
 			<damageAmountBase>0</damageAmountBase>
 			<stoppingPower>3</stoppingPower>
 			<speed>50</speed>
 			<extraDamages>
 				<li>
-					<def>Flame</def>
-					<!--伤害类型-->
-					<amount>27</amount>
-					<!--伤害数值-->
+					<def>Flame</def>					<!--伤害类型-->
+					<amount>27</amount>					<!--伤害数值-->
 				</li>
 			</extraDamages>
-			<soundExplode>ThumpCannon_Impact</soundExplode>
-			<!--爆炸音效-->
+			<soundExplode>ThumpCannon_Impact</soundExplode爆炸音效-->
 		</projectile>
 	</ThingDef>
 
@@ -1460,8 +1375,7 @@
 			<AccuracyShort>0.95</AccuracyShort>
 			<AccuracyMedium>1</AccuracyMedium>
 			<AccuracyLong>0.85</AccuracyLong>
-			<RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
-			<!--后摇-->
+			<RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown后摇-->
 		</statBases>
 		<verbs>
 			<li>
@@ -1469,8 +1383,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>AK_Bullet_Harmonie</defaultProjectile>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
-				<warmupTime>2.2</warmupTime>
-				<!--前摇-->
+				<warmupTime>2.2</warmupTime>				<!--前摇-->
 				<range>30</range>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
@@ -1502,21 +1415,17 @@
 		</graphicData>
 		<thingClass>Bullet</thingClass>
 		<projectile>
-			<damageDef>Bullet</damageDef>
-			<!--伤害类型-->
+			<damageDef>Bullet</damageDef伤害类型-->
 			<damageAmountBase>0</damageAmountBase>
 			<stoppingPower>3</stoppingPower>
 			<speed>50</speed>
 			<extraDamages>
 				<li>
-					<def>Flame</def>
-					<!--伤害类型-->
-					<amount>32</amount>
-					<!--伤害数值-->
+					<def>Flame</def>					<!--伤害类型-->
+					<amount>32</amount>					<!--伤害数值-->
 				</li>
 			</extraDamages>
-			<soundExplode>ThumpCannon_Impact</soundExplode>
-			<!--爆炸音效-->
+			<soundExplode>ThumpCannon_Impact</soundExplode爆炸音效-->
 		</projectile>
 	</ThingDef>
 
@@ -1635,6 +1544,73 @@
 				<li>
 					<def>Flame</def>					<!--伤害类型-->
 					<amount>39</amount>					<!--伤害数值-->
+				</li>
+			</extraDamages>
+			<soundExplode>ThumpCannon_Impact</soundExplode>			<!--爆炸音效-->
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Caster">
+		<defName>AK_Weapon_Passenger</defName>
+		<label>雷霆之杖</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Caster/PassengerW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<description>雷电也只是刑罚的一种形式，据异客本人所说，他所降下的只不过是惩罚而已</description>
+		<statBases>
+			<AccuracyTouch>0.85</AccuracyTouch>
+			<AccuracyShort>0.95</AccuracyShort>
+			<AccuracyMedium>0.8</AccuracyMedium>
+			<AccuracyLong>0.65</AccuracyLong>
+			<RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_Passenger</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>1.7</warmupTime>				<!--前摇-->
+				<range>24</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_Magic</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<tools Inherit = "false">
+			<li>
+				<label>法杖猛击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>1.2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_Passenger</defName>
+		<label>法术射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/MagicOrb</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Bullet</damageDef>			<!--伤害类型-->
+			<damageAmountBase>0</damageAmountBase>
+			<stoppingPower>3</stoppingPower>
+			<speed>50</speed>
+			<extraDamages>
+				<li>
+					<def>Flame</def>					<!--伤害类型-->
+					<amount>30</amount>					<!--伤害数值-->
 				</li>
 			</extraDamages>
 			<soundExplode>ThumpCannon_Impact</soundExplode>			<!--爆炸音效-->
