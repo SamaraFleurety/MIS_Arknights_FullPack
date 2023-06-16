@@ -279,4 +279,14 @@
     </tools>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_WeaponBase_Medic">
+		<defName>AK_Weapon_Mulberry</defName>
+		<label>祈福法杖</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Medic/MulberryW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<description>桑葚的法杖，上面的令牌用炎国某地的方言写了大量的祈福语，香火的气息若有若无。</description>
+	</ThingDef>
+
 </Defs>

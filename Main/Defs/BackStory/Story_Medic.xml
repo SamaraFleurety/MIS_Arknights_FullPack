@@ -188,4 +188,23 @@
 		</baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Mulberry_Child</defName>
+		<slot>Childhood</slot>
+		<title>普通的学生</title>
+		<titleShort>普通的学生</titleShort>
+		<baseDesc>{PAWN_nameDef}在炎国的传统家庭里长大，作为年龄最小的那一个女孩，{PAWN_possessive}人生被父母一眼就能望到头地安排好了。
+</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Mulberry_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>救援队医生</title>
+		<titleShort>救援队医生</titleShort>
+		<baseDesc>但{PAWN_nameDef}决定反抗{PAWN_pronoun}父母的安排，为此{PAWN_pronoun}加入了直面天灾的一线救援组织。尽管陌生的环境，不保暖的睡袋，不合口味的饭菜，这都会让{PAWN_pronoun}在夜晚偷偷流泪想念家乡。
+但{PAWN_pronoun}也从未想过放弃这份工作
+</baseDesc>
+	</BackstoryDef>
+
 </Defs>

@@ -2661,4 +2661,225 @@
 		</subSounds>
 	</SoundDef>
 
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Recruit_Mulberry</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Medic/Mulberry/char_473_mberry/Recruit_Mulberry</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Die_Mulberry</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Medic/Mulberry/char_473_mberry/Die_Mulberry</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Undraft_Mulberry</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Medic/Mulberry/char_473_mberry/Undraft_Mulberry</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_MulberryI</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Medic/Mulberry/char_473_mberry/Select_MulberryI</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_MulberryII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Medic/Mulberry/char_473_mberry/Select_MulberryII</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_MulberryIII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Medic/Mulberry/char_473_mberry/Select_MulberryIII</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_MulberryIV</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Medic/Mulberry/char_473_mberry/Select_MulberryIV</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Draft_MulberryI</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Medic/Mulberry/char_473_mberry/Draft_MulberryI</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Draft_MulberryII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Medic/Mulberry/char_473_mberry/Draft_MulberryII</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_MulberryI</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Medic/Mulberry/char_473_mberry/Ability_MulberryI</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_MulberryII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Medic/Mulberry/char_473_mberry/Ability_MulberryII</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_MulberryIII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Medic/Mulberry/char_473_mberry/Ability_MulberryIII</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_MulberryIV</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Medic/Mulberry/char_473_mberry/Ability_MulberryIV</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
 </Defs>
