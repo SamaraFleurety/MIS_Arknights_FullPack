@@ -19,22 +19,21 @@
         </baseDesc>
     </BackstoryDef>
 
-	<BackstoryDef ParentName = "AK_StoryBase">
-		<defName>AK_BackStory_FrostNova_Child</defName>
-		<slot>Childhood</slot>
-		<title>矿场奴隶</title>
-		<titleShort>矿场奴隶</titleShort>
-		<baseDesc>父母因反对乌萨斯的战时策略而被送去某处矿场，祖母也受牵连迁至矿场，{PAWN_nameDef}则出生于此。五岁和十岁时，父母和祖母分别抽到黑签被矿场驻军杀害，十一岁时{PAWN_pronoun}抽到黑签险些被杀害时，被当时正在突袭矿场的“爱国者”救下。
-</baseDesc>
-	</BackstoryDef>
+    <BackstoryDef ParentName = "AK_StoryBase">
+        <defName>AK_BackStory_FrostNova_Child</defName>
+        <slot>Childhood</slot>
+        <title>矿场奴隶</title>
+        <titleShort>矿场奴隶</titleShort>
+        <baseDesc>父母因反对乌萨斯的战时策略而被送去某处矿场，祖母也受牵连迁至矿场，{PAWN_nameDef}则出生于此。五岁和十岁时，父母和祖母分别抽到黑签被矿场驻军杀害，十一岁时{PAWN_pronoun}抽到黑签险些被杀害时，被当时正在突袭矿场的“爱国者”救下。
+        </baseDesc>
+    </BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
 		<defName>AK_BackStory_FrostNova_Adult</defName>
 		<slot>Adulthood</slot>
 		<title>游击队术师，雪怪小队领袖和“大姐”</title>
 		<titleShort>“大姐”</titleShort>
-		<baseDesc>曾经指挥旗下的雪怪小队与游击队取得了许多胜利，被乌萨斯军誉为“冻原中的白色死神”
-</baseDesc>
+		<baseDesc>曾经指挥旗下的雪怪小队与游击队取得了许多胜利，被乌萨斯军誉为“冻原中的白色死神”</baseDesc>
 	</BackstoryDef>
 
 </Defs>
