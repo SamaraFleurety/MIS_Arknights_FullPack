@@ -13,4 +13,16 @@
 		</stages>
 	</ThoughtDef>
 
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_FrostNova</defName>
+		<requiredTraits><li>AK_Trait_FrostNova</li></requiredTraits>
+		<stages>
+			<li>
+				<label>白兔子</label>
+				<description>雪...静静的河水...摇曳的森林...碧绿的苔衣...这片大地，多么美好啊</description>
+				<baseMoodEffect>12</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
 </Defs>

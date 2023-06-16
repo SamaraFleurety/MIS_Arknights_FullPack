@@ -63,4 +63,15 @@
 		</projectile>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_WeaponBase_OtherLeader">
+		<defName>AK_Weapon_FrostNova</defName>
+		<label>寒冬之刃</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/OtherLeader/FrostNovaW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<description>霜星的匕首，实际上只是很常见的材质，只是更加抗寒。
+冰环的寒光如同匕首一般冷酷，但是即使是这样，她的灵魂却是沸腾的</description>
+	</ThingDef>
+
 </Defs>

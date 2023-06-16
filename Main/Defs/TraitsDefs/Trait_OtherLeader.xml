@@ -51,4 +51,38 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_FrostNovaSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>冬痕</label>
+				<description>无论怎样动人的话语在钢铁般的意志面前也显得那么苍白无力。大地的凛冽已经有所觉悟，没有任何意志能与之为敌
+				</description>
+				<statOffsets>
+					<SocialImpact>-0.15</SocialImpact>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_FrostNova</defName>
+		<degreeDatas>
+			<li>
+				<label>白兔子</label>
+				<description>但即使身体和法术都比严冬本身更加寒冷，她的心却永远炙热。
+正如乌萨斯广袤的雪原本身一样，深邃却又柔情
+				</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.4</MentalBreakThreshold>
+					<PainShockThreshold>-0.3</PainShockThreshold>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>

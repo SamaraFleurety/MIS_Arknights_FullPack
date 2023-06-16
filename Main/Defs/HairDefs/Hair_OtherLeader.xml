@@ -8,12 +8,6 @@
 	</HairDef>
 
 	<HairDef ParentName="AK_HairBaseF">
-		<defName>AK_Hair_Frostnova</defName>
-		<label>霜星发型</label>
-		<texPath>Things/Hair/OtherLeader/Frostnova</texPath>
-	</HairDef>
-
-	<HairDef ParentName="AK_HairBaseF">
 		<defName>AK_Hair_Ftalulah</defName>
 		<label>塔露拉发型</label>
 		<texPath>Things/Hair/OtherLeader/Ftalulah</texPath>
@@ -23,6 +17,12 @@
 		<defName>AK_Hair_Kristen</defName>
 		<label>克丽斯腾发型</label>
 		<texPath>Things/Hair/OtherLeader/Kristen</texPath>
+	</HairDef>
+
+	<HairDef ParentName="AK_HairBaseF">
+		<defName>AK_Hair_FrostNova</defName>
+		<label>霜星发型</label>
+		<texPath>Things/Hair/OtherLeader/FrostNova</texPath>
 	</HairDef>
 
 </Defs>

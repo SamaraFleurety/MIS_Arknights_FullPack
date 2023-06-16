@@ -13,4 +13,16 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_OtherLeader">
+		<defName>AK_Apparel_FrostNova</defName>
+		<label>霜星服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/OtherLeader/FrostNova</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/OtherLeader/FrostNova</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 </Defs>
