@@ -1617,4 +1617,34 @@
 		</projectile>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_WeaponBase_Caster">
+		<defName>AK_Weapon_PassengerB</defName>
+		<label>异客的武器</label>
+		<description>异客的武器</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Caster/PassengerW2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Caster">
+		<defName>AK_Weapon_PassengerC</defName>
+		<label>异客的武器炮台</label>
+		<description>异客的武器炮台</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Caster/PassengerW3</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Caster">
+		<defName>AK_Weapon_PassengerD</defName>
+		<label>异客的悬浮机器</label>
+		<description>异客的悬浮机器</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Caster/PassengerW4</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
+
 </Defs>
