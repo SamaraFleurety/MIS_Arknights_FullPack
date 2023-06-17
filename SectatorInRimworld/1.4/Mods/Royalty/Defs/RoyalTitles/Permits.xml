@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RoyalTitlePermitDef>
+    <defName>TradeAngel</defName>
+    <label>新拉特兰物资贸易中心欢迎你！</label>
+  </RoyalTitlePermitDef>
+  
+  <RoyalTitlePermitDef Name="Ark_DropResourcesBase" Abstract="True">
+    <workerClass>RoyalTitlePermitWorker_DropResources</workerClass>
+    <faction></faction>
+    <permitPointCost>1</permitPointCost>
+    <cooldownDays>45</cooldownDays>
+    <usableOnWorldMap>true</usableOnWorldMap>
+    <royalAid>
+      <targetingRange>39.9</targetingRange>
+    </royalAid>
+  </RoyalTitlePermitDef>
+	
+  <!-- Combat -->
+
+	<!--<RoyalTitlePermitDef>
+    <defName></defName>
+    <label></label>
+    <description></description>
+    <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+    <minTitle></minTitle>
+    <faction></faction>
+    <permitPointCost>1</permitPointCost>
+    <uiPosition></uiPosition>
+    <royalAid>
+      <favorCost>6</favorCost>
+      <pawnKindDef></pawnKindDef>
+      <pawnCount></pawnCount>
+      <targetingRange>39.9</targetingRange>
+    </royalAid>
+    <cooldownDays>40</cooldownDays>
+  </RoyalTitlePermitDef>-->
+</Defs>

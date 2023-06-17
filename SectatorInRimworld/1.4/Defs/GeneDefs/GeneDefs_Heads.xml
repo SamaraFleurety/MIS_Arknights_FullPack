@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <GeneDef ParentName="GeneHeadboneBase">
+    <defName>Ark_Halo</defName>
+    <label>光环</label>
+    <description>该基因的携带者会在头顶生成无实体的悬浮光环，光环能通过刺激神经组织来增强携带者的心灵敏感性与精神意识。\n\n虽然有些影响睡眠，但晚上再也不需要手电筒啦。</description>
+    <iconPath>UI/Icons/Genes/Ark_Halo</iconPath>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-3</biostatMet>
+    <displayCategory>Ark_Heads</displayCategory>
+    <ignoreDarkness>true</ignoreDarkness>
+    <missingGeneRomanceChanceFactor>0.5</missingGeneRomanceChanceFactor>
+    <graphicData>
+      <graphicPaths>
+		  <li>Things/Pawn/Humanlike/HeadAttachments/Ark_Halo/Ark_Halo</li>
+		  <li>Things/Pawn/Humanlike/HeadAttachments/Ark_Halo/Ark_Halo1</li>
+		  <li>Things/Pawn/Humanlike/HeadAttachments/Ark_Halo/Ark_Halo2</li>
+		  <li>Things/Pawn/Humanlike/HeadAttachments/Ark_Halo/Ark_Halo3</li>
+		  <li>Things/Pawn/Humanlike/HeadAttachments/Ark_Halo/Ark_Halo4</li>
+		  <li>Things/Pawn/Humanlike/HeadAttachments/Ark_Halo/Ark_Halo5</li>
+	  </graphicPaths>
+      <layer>PostHeadgear</layer>
+    </graphicData>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>神圣</symbol></li>
+        <li><symbol>明亮</symbol></li>
+        <li><symbol>刺眼</symbol></li>
+        <li><symbol>花里胡哨</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>光环</symbol></li>
+        <li><symbol>日光灯管</symbol></li>
+        <li><symbol>圈圈</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+    <modExtensions>
+         <li Class="VanillaGenesExpanded.GeneExtension">
+           <backgroundPathEndogenes>UI/Icons/Genes/Ark_Endogene</backgroundPathEndogenes>
+           <backgroundPathXenogenes>UI/Icons/Genes/Ark_Xenogene</backgroundPathXenogenes>
+           <hediffsToBodyParts>
+              <li>
+	<hediff>Ark_hediff_Halo</hediff>
+	<bodyparts>
+                   <li>Head</li>				
+	</bodyparts>
+              </li>
+            </hediffsToBodyParts>
+         </li>
+    </modExtensions>
+  </GeneDef>
+
+	<GeneDef ParentName="GeneHeadboneBase">
+		<defName>Ark_TraditionHalo</defName>
+		<label>传统光环</label>
+		<description>该基因的携带者会在头顶生成无实体的悬浮光环，光环能通过刺激神经组织来增强携带者的心灵敏感性与精神意识。\n\n经典的纯白款式，适合内心平静之人。</description>
+		<iconPath>UI/Icons/Genes/Ark_Halo</iconPath>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-3</biostatMet>
+		<displayCategory>Ark_Heads</displayCategory>
+		<ignoreDarkness>true</ignoreDarkness>
+		<missingGeneRomanceChanceFactor>0.5</missingGeneRomanceChanceFactor>
+		<graphicData>
+			<graphicPath>Things/Pawn/Humanlike/HeadAttachments/Ark_Halo/Ark_Halo</graphicPath>
+			<layer>PostHeadgear</layer>
+		</graphicData>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<backgroundPathEndogenes>UI/Icons/Genes/Ark_Endogene</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/Ark_Xenogene</backgroundPathXenogenes>
+				<hediffsToBodyParts>
+					<li>
+						<hediff>Ark_hediff_Halo</hediff>
+						<bodyparts>
+							<li>Head</li>
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	
+    <GeneDef>
+    <defName>HeadRestrain</defName>
+    <label>头部禁锢</label>
+    <description>该基因的携带者的大脑似乎拒绝被遮盖，穿戴帽子或普通的头盔会使他们感到强烈的不适。</description>
+    <iconPath>UI/Icons/Genes/HeadRestrain</iconPath>
+    <prerequisite>Ark_Halo</prerequisite>
+    <displayCategory>Miscellaneous</displayCategory>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>3</biostatMet>
+    <modExtensions>
+         <li Class="VanillaGenesExpanded.GeneExtension">
+           <backgroundPathEndogenes>UI/Icons/Genes/Ark_Endogene</backgroundPathEndogenes>
+           <backgroundPathXenogenes>UI/Icons/Genes/Ark_Xenogene</backgroundPathXenogenes>
+         </li>
+    </modExtensions>
+  </GeneDef>
+
+</Defs>

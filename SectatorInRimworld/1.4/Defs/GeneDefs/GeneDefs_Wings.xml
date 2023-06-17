@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <GeneDef Name="Ark_WingBase" Abstract="True">
+    <displayCategory>Miscellaneous</displayCategory>
+    <exclusionTags>
+    <li>Wing</li>
+    <li>Wings</li>
+    </exclusionTags>
+    <graphicData>
+    <drawLoc>Tailbone</drawLoc>
+    </graphicData>
+    <randomChosen>true</randomChosen>
+  </GeneDef>
+
+  <GeneDef ParentName="Ark_WingBase">
+    <defName>Ark_LightWings</defName>
+    <label>光翼</label>
+    <description>该基因的携带者背后会生成无实体的光翼，光翼不具备飞行的功能但能有效提升携带者的机动能力。\n\n羽毛翅膀已经过时了，来试试在背后插发光几何体做赛博天使吧！</description>
+    <iconPath>UI/Icons/Genes/Ark_LightWings</iconPath>
+    <prerequisite>Ark_Halo</prerequisite>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-1</biostatMet>
+    <displayCategory>Ark_Bodies</displayCategory>
+    <selectionWeight>0</selectionWeight>
+    <customEffectDescriptions>
+        <li>有翼者的移动速度将无视地形影响</li>
+    </customEffectDescriptions>
+    <graphicData>
+    <graphicPaths>
+        <li>Things/Pawn/Humanlike/BodyAttachments/Ark_LightWings/Ark_Wings1</li>
+        <li>Things/Pawn/Humanlike/BodyAttachments/Ark_LightWings/Ark_Wings2</li>
+        <li>Things/Pawn/Humanlike/BodyAttachments/Ark_LightWings/Ark_Wings3</li>
+        <li>Things/Pawn/Humanlike/BodyAttachments/Ark_LightWings/Ark_Wings4</li>
+		<li>Things/Pawn/Humanlike/BodyAttachments/Ark_LightWings/Ark_Wings5</li>
+    </graphicPaths>
+    <drawScale>1.8</drawScale>
+    <drawOffsetNorth>(0, 0.19, 0)</drawOffsetNorth>
+    <drawOffsetSouth>(0, 0, 0)</drawOffsetSouth>
+    <drawOffsetEast>(0, 0, 0)</drawOffsetEast>
+    </graphicData>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>神圣</symbol></li>
+        <li><symbol>明亮</symbol></li>
+        <li><symbol>刺眼</symbol></li>
+        <li><symbol>装饰性</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+    <modExtensions>
+         <li Class="VanillaGenesExpanded.GeneExtension">
+           <backgroundPathEndogenes>UI/Icons/Genes/Ark_Endogene</backgroundPathEndogenes>
+           <backgroundPathXenogenes>UI/Icons/Genes/Ark_Xenogene</backgroundPathXenogenes>
+           <hediffToWholeBody>Ark_hediff_Wing</hediffToWholeBody>
+         </li>
+    </modExtensions>
+  </GeneDef>
+
+  <GeneDef ParentName="Ark_WingBase">
+    <defName>Ark_BigLightWings</defName>
+    <label>圣者之翼</label>
+    <description>属于背负牺牲，直面未来之人的荣耀光翼。</description>
+    <iconPath>UI/Icons/Genes/Ark_BigLightWings</iconPath>
+    <prerequisite>Ark_Halo</prerequisite>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-1</biostatMet>
+    <displayCategory>Ark_Bodies</displayCategory>
+    <selectionWeight>0</selectionWeight>
+    <customEffectDescriptions>
+        <li>有翼者的移动速度将无视地形影响</li>
+    </customEffectDescriptions>
+    <graphicData>
+      <graphicPath>Things/Pawn/Humanlike/BodyAttachments/Ark_LightWings/Ark_BigWings</graphicPath>
+    <drawScale>1.8</drawScale>
+    <drawOffsetNorth>(0, 0.19, 0)</drawOffsetNorth>
+    <drawOffsetSouth>(0, 0, 0)</drawOffsetSouth>
+    <drawOffsetEast>(0, 0, 0)</drawOffsetEast>
+    </graphicData>
+    <modExtensions>
+         <li Class="VanillaGenesExpanded.GeneExtension">
+           <backgroundPathEndogenes>UI/Icons/Genes/Ark_Endogene</backgroundPathEndogenes>
+           <backgroundPathXenogenes>UI/Icons/Genes/Ark_Xenogene</backgroundPathXenogenes>
+           <hediffToWholeBody>Ark_hediff_Wing</hediffToWholeBody>
+         </li>
+    </modExtensions>
+  </GeneDef>
+</Defs>

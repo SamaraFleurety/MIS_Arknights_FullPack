@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ResearchTabDef>
+    <defName>Ark_ResearchTab</defName>
+    <label>科创泰拉</label>
+  </ResearchTabDef>
+
+  <ResearchProjectDef>
+    <defName>Ark_Sectator</defName>
+    <label>萨科塔小发明</label>
+    <description>在边缘世界生存的萨科塔们创造力的结晶。</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <tab>Ark_ResearchTab</tab>
+    <researchViewX>0</researchViewX>
+    <researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+</Defs>

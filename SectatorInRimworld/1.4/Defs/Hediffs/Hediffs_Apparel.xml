@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<HediffDef>
+	<defName>CloseYouEyes</defName>
+	<label>安睡时刻</label>
+	<description>闭上眼睛，做个好梦吧，我的小天使~</description>
+	<hediffClass>HediffWithComps</hediffClass>
+	<stages>
+		<li>
+			<statOffsets>
+				<BedRestEffectiveness>0.35</BedRestEffectiveness>
+			</statOffsets>
+			<capMods>
+				<li>
+					<capacity>Sight</capacity>
+					<setMax>0.2</setMax>
+				</li>
+			</capMods>
+		</li>
+	</stages>
+	<comps>
+		<li Class="HediffCompProperties_RemoveIfApparelDropped" />
+	</comps>
+	<isBad>false</isBad>
+</HediffDef>
+	
+<HediffDef>
+	<defName>OpenYouEyes</defName>
+	<label>清算时刻</label>
+	<description>火力全开！让那些扰人清梦的罪徒领受神恩！地狱是他们唯一的终点站！</description>
+	<hediffClass>HediffWithComps</hediffClass>
+	<stages>
+		<li>
+			<statOffsets>
+				<RestFallRateFactor>0.7</RestFallRateFactor>
+				<AimingDelayFactor>-0.25</AimingDelayFactor>
+			</statOffsets>
+			<capMods>
+				<li>
+					<capacity>Sight</capacity>
+					<offset>1.0</offset>
+				</li>
+			</capMods>
+		</li>
+	</stages>
+	<comps>
+		<li Class="HediffCompProperties_RemoveIfApparelDropped" />
+	</comps>
+	<isBad>false</isBad>
+</HediffDef>
+</Defs>

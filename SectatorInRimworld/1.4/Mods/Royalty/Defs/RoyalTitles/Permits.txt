@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RoyalTitlePermitDef>
+    <defName>TradeFox</defName>
+    <label>与狐狸交易吧</label>
+  </RoyalTitlePermitDef>
+  
+  <RoyalTitlePermitDef Name="Fox_DropResourcesBase" Abstract="True">
+    <workerClass>RoyalTitlePermitWorker_DropResources</workerClass>
+    <faction>GeneStalker</faction>
+    <permitPointCost>1</permitPointCost>
+    <cooldownDays>45</cooldownDays>
+    <usableOnWorldMap>true</usableOnWorldMap>
+    <royalAid>
+      <targetingRange>39.9</targetingRange>
+    </royalAid>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef ParentName="Fox_DropResourcesBase">
+    <defName>GrillDrop</defName>
+    <label>空投-烤肉盛宴</label>
+    <description>超大份烤肉套餐，由小狐妖厨娘亲手烤制，撑死一头敲击兽也不是问题，从出炉到送达全程不超过5分钟，保证最焦香多汁的风味！\n寒冷地区下单请谨慎考虑，食品因气候原因变质本公司概不负责。</description>
+    <minTitle>OneTail</minTitle>
+    <uiPosition>(0,0)</uiPosition>
+    <royalAid>
+      <itemsToDrop>
+        <VCE_LavishGrill>5</VCE_LavishGrill>
+      </itemsToDrop>
+      <favorCost>4</favorCost>
+    </royalAid>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef ParentName="Fox_DropResourcesBase">
+    <defName>DessertDrop</defName>
+    <label>空投-下午茶</label>
+    <description>双人份的茶与点心，纯手工古法制作，是一次简便优雅的下午茶的最佳选择，带给你一天的好心情。\n该套餐推荐享用人数为1~2位成年脊椎生物，不要再问一个人能不能点了，也不要问不是人能不能吃。</description>
+    <minTitle>OneTail</minTitle>
+    <uiPosition>(0,1)</uiPosition>
+    <royalAid>
+      <itemsToDrop>
+        <PsychiteTea>2</PsychiteTea>
+        <VCE_LavishDessert>2</VCE_LavishDessert>
+      </itemsToDrop>
+      <favorCost>4</favorCost>
+    </royalAid>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef ParentName="Fox_DropResourcesBase">
+    <defName>AntigrainDrop</defName>
+    <label>空投-反粒子</label>
+    <description>用空投舱运输反粒子弹头绝对是一个疯狂的主意，但你永远可以相信涂山生物的物流，我们有最温柔的分拣人员与最安全的保管设施，保证货物只会在你的敌人头上炸开花。\n客户用石头或者其他什么东西敲打货物不在公司负责的范围之内。</description>
+    <minTitle>SixTail</minTitle>
+    <uiPosition>(0,4)</uiPosition>
+    <royalAid>
+      <itemsToDrop>
+        <Shell_AntigrainWarhead>1</Shell_AntigrainWarhead>
+      </itemsToDrop>
+      <favorCost>8</favorCost>
+    </royalAid>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef ParentName="Fox_DropResourcesBase">
+    <defName>FoxMedDrop</defName>
+    <label>空投-回生灵药</label>
+    <description>医疗与急救终究是有极限的，我们越是想要保护尊贵的客户就越是容易因为各种意外失去客户，所以，我们放弃抢救了——复活机械液，解决你的一切后顾之忧！</description>
+    <minTitle>NineTail</minTitle>
+    <uiPosition>(0,5)</uiPosition>
+    <royalAid>
+      <itemsToDrop>
+        <MechSerumResurrector>1</MechSerumResurrector>
+      </itemsToDrop>
+      <favorCost>12</favorCost>
+    </royalAid>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef ParentName="Fox_DropResourcesBase">
+    <defName>PearlDrop</defName>
+    <label>空投-仙灵之种</label>
+    <description>一颗产自边缘世界珍稀物种仙灵龙的美丽珍珠，用它在你的后院种一棵仙气四溢的灵树吧，我们的目标是让每一位客户拥有属于自己的仙树。</description>
+    <minTitle>ThreeTail</minTitle>
+    <faction>GeneStalker</faction>
+    <permitPointCost>1</permitPointCost>
+    <uiPosition>(0,2)</uiPosition>
+    <royalAid>
+      <itemsToDrop>
+        <AA_HugeAnimaPearl>1</AA_HugeAnimaPearl>
+      </itemsToDrop>
+      <favorCost>6</favorCost>
+    </royalAid>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef ParentName="Fox_DropResourcesBase">
+    <defName>PsylinkDrop</defName>
+    <label>空投-天降启灵</label>
+    <description>一个精心包装的启灵装置，送给最特别的你，如果包装上有可疑的红色污渍绝对不是血迹，礼物生产过程中没有任何帝国人受到伤害。</description>
+    <minTitle>SixTail</minTitle>
+    <faction>GeneStalker</faction>
+    <permitPointCost>1</permitPointCost>
+    <prerequisite>PearlDrop</prerequisite>
+    <uiPosition>(1,2)</uiPosition>
+    <royalAid>
+      <itemsToDrop>
+        <PsychicAmplifier>1</PsychicAmplifier>
+      </itemsToDrop>
+      <favorCost>8</favorCost>
+    </royalAid>
+  </RoyalTitlePermitDef>
+
+  <!-- Combat -->
+
+  <RoyalTitlePermitDef>
+    <defName>SlasherTeam</defName>
+    <label>饮血小队</label>
+    <description>在边缘世界行走，人身安全是头等大事，随叫随到，干净利落，杀人如麻，饮血小队随时为你保驾护航。</description>
+    <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+    <minTitle>ThreeTail</minTitle>
+    <faction>GeneStalker</faction>
+    <permitPointCost>1</permitPointCost>
+    <uiPosition>(0,3)</uiPosition>
+    <royalAid>
+      <favorCost>6</favorCost>
+      <pawnKindDef>SlasherFoxSpirit</pawnKindDef>
+      <pawnCount>5</pawnCount>
+      <targetingRange>39.9</targetingRange>
+    </royalAid>
+    <cooldownDays>40</cooldownDays>
+  </RoyalTitlePermitDef>
+
+  <RoyalTitlePermitDef>
+    <defName>BossComing</defName>
+    <label>你的狐妖女仆</label>
+    <description>为了感谢你对本公司的支持，我们为你准备了一年一度的狐妖女仆服务，三位公司内有名的强者将上门为你清扫一切让人不愉快的事物，想必她们一定能给你带来无尽的快乐，噗，总之请妥善使用这次机会哦。</description>
+    <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+    <minTitle>NineTail</minTitle>
+    <faction>GeneStalker</faction>
+    <permitPointCost>1</permitPointCost>
+    <prerequisite>SlasherTeam</prerequisite>
+    <uiPosition>(1,3)</uiPosition>
+    <royalAid>
+      <favorCost>10</favorCost>
+      <pawnKindDef>ShadowFox</pawnKindDef>
+      <pawnCount>3</pawnCount>
+      <targetingRange>39.9</targetingRange>
+    </royalAid>
+    <cooldownDays>60</cooldownDays>
+  </RoyalTitlePermitDef>
+
+  
+</Defs>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <GeneDef>
+    <defName>FireAtWill</defName>
+    <label>随意开火</label>
+    <description>该基因的携带者对自己的枪法会有一种迷之自信，扣动扳机让他们感到快乐，至于能不能命中就让上帝来决定吧。</description>
+    <iconPath>UI/Icons/Genes/FireAtWill</iconPath>
+    <prerequisite>Ark_Halo</prerequisite>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-1</biostatMet>
+    <displayCategory>Ark_Fight</displayCategory>
+    <forcedTraits>
+      <li>
+        <def>ShootingAccuracy</def>
+        <degree>-1</degree>
+      </li>
+    </forcedTraits>
+    <modExtensions>
+         <li Class="VanillaGenesExpanded.GeneExtension">
+           <backgroundPathEndogenes>UI/Icons/Genes/Ark_Endogene</backgroundPathEndogenes>
+           <backgroundPathXenogenes>UI/Icons/Genes/Ark_Xenogene</backgroundPathXenogenes>
+         </li>
+    </modExtensions>
+  </GeneDef>
+</Defs>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  <ScenarioDef>
+    <defName>Ark_Pathfinder</defName>
+    <label>寻路者</label>
+    <description>你们三位是出生在新拉特兰的萨科塔，从小在乐园长大使你们对外面的世界充满好奇，今天是每代萨科塔必然经历的远游的启程日，教宗并未给予你们任何使命，只是祝你们找到自己的道途，在同胞的欢呼声中你们走向了陌生的世界。</description>
+    <scenario>
+      <summary>三个萨科塔走出乐园，踏上未知的旅途。</summary>
+      <playerFaction>
+        <def>PlayerFaction</def>
+        <factionDef>PlayerColony</factionDef>
+      </playerFaction>
+      <parts>
+		  <li Class="ScenPart_ConfigPage_ConfigureStartingPawns_Xenotypes">
+			  <def>ConfigurePawnsXenotypes</def>
+			  <pawnChoiceCount>8</pawnChoiceCount>
+			  <xenotypeCounts>
+				  <li>
+					  <count>3</count>
+					  <requiredAtStart>True</requiredAtStart>
+					  <xenotype>Ark_SKT</xenotype>
+					  <allowedDevelopmentalStages>Baby, Child, Adult</allowedDevelopmentalStages>
+				  </li>
+			  </xenotypeCounts>
+		  </li>
+		  <li Class="ScenPart_PlayerPawnsArriveMethod">
+			  <def>PlayerPawnsArriveMethod</def>
+		  </li>
+		  <li Class="ScenPart_GameStartDialog">
+			  <def>GameStartDialog</def>
+			  <text>你们三位是出生在新拉特兰的萨科塔，从小在乐园长大使你们对外面的世界充满好奇，今天是每代萨科塔必然经历的远游的启程日，教宗并未给予你们任何使命，只是祝你们找到自己的道途，在同胞的欢呼声中你们走向了陌生的世界。</text>
+			  <closeSound>GameStartSting</closeSound>
+		  </li>
+		  <li Class="ScenPart_StartingThing_Defined">
+			  <def>StartingThing_Defined</def>
+			  <thingDef>Silver</thingDef>
+			  <count>2000</count>
+		  </li>
+		  <li Class="ScenPart_StartingThing_Defined">
+			  <def>StartingThing_Defined</def>
+			  <thingDef>MealSurvivalPack</thingDef>
+			  <count>30</count>
+		  </li>
+		  <li Class="ScenPart_StartingThing_Defined">
+			  <def>StartingThing_Defined</def>
+			  <thingDef>MedicineIndustrial</thingDef>
+			  <count>20</count>
+		  </li>
+		  <li Class="ScenPart_StartingThing_Defined">
+			  <def>StartingThing_Defined</def>
+			  <thingDef>ComponentIndustrial</thingDef>
+			  <count>10</count>
+		  </li>
+		  <li Class="ScenPart_StartingThing_Defined">
+			  <def>StartingThing_Defined</def>
+			  <thingDef>WoodLog</thingDef>
+			  <count>200</count>
+		  </li>
+		  <li Class="ScenPart_StartingThing_Defined">
+			  <def>StartingThing_Defined</def>
+			  <thingDef>Steel</thingDef>
+			  <count>200</count>
+		  </li>
+		  <li Class="ScenPart_StartingResearch">
+			  <def>StartingResearch</def>
+			  <project>Machining</project>
+		  </li>
+		  <li Class="ScenPart_CreateIncident">
+			  <def>CreateIncident</def>
+			  <incident>GiveQuest_Random</incident>
+			  <intervalDays>3</intervalDays>
+			  <repeat>True</repeat>
+		  </li>
+		  <li Class="ScenPart_StartingThing_Defined">
+			  <def>StartingThing_Defined</def>
+			  <thingDef>Gun_BoltActionRifle</thingDef>
+		  </li>
+		  <li Class="ScenPart_StartingThing_Defined">
+			  <def>StartingThing_Defined</def>
+			  <thingDef>Gun_MachinePistol</thingDef>
+		  </li>
+		  <li Class="ScenPart_PawnFilter_Age">
+			  <def>PawnFilter_Age</def>
+			  <allowedAgeRange>17~21</allowedAgeRange>
+		  </li>
+      </parts>
+    </scenario>
+  </ScenarioDef>
+
+</Defs>
