@@ -13,10 +13,10 @@
 			<li>
 				<label>钢铁意志</label>
 				<description>{PAWN_nameDef}的意志宛如钢铁一般坚韧而又不可撼动，没有任何东西能够动摇{PAWN_possessive}思想。
-风暴中，唯保守者屹立不倒。</description>
+但是更多时候则表现的像是脑子转不过弯。</description>
 				<statOffsets>
-					<PsychicSensitivity>-0.8</PsychicSensitivity>
-					<MentalBreakThreshold>-0.55</MentalBreakThreshold>
+					<SocialImpact>-0.3</SocialImpact>
+					<MentalBreakThreshold>-0.6</MentalBreakThreshold>
 				</statOffsets>
 			</li>
 		</degreeDatas>
@@ -34,7 +34,7 @@
 				<description>或许是特殊的源石技艺，{PAWN_nameDef}对于泥土有着一种奇妙的情感。
 {PAWN_pronoun}和泥土之间的关系可能比{PAWN_pronoun}和大部分人都要亲密得多。</description>
 				<statOffsets>
-					<PsychicSensitivity>-0.35</PsychicSensitivity>
+					<SocialImpact>-0.15</SocialImpact>
 					<MentalBreakThreshold>-0.35</MentalBreakThreshold>
 				</statOffsets>
 			</li>
@@ -50,8 +50,7 @@
 		<degreeDatas>
 			<li>
 				<label>地生五金</label>
-				<description>
-					伐谋百世 一朝毁之
+				<description>伐谋百世 一朝毁之
 国蚀器锈 如梦似电 无踪泡影
 				</description>
 				<statOffsets>
@@ -59,7 +58,7 @@
 					<GlobalLearningFactor>0.55</GlobalLearningFactor>
 				</statOffsets>
 				<statFactors>
-					<PsychicSensitivity>0.0</PsychicSensitivity>
+					<SmithingSpeed>0.45</SmithingSpeed>
 				</statFactors>
 			</li>
 		</degreeDatas>
@@ -73,6 +72,9 @@
 			<li>
 				<label>肆无忌惮</label>
 				<description>"'没有干扰他人工作的习惯'？{PAWN_pronoun}劝诱别人上班打麻将，有没有人阻止一下？"</description>
+				<statOffsets>
+					<SocialImpact>-0.05</SocialImpact>
+				</statOffsets>
 			</li>
 		</degreeDatas>
 	</TraitDef>
@@ -110,8 +112,7 @@
 				<description>即使成为了干员，{PAWN_nameDef}小姐也完全不打算放弃她在日常生活中的兴趣爱好。
 {PAWN_pronoun}知道成为干员后要面临许多前所未有的危险，{PAWN_pronoun}也知道成为干员后会遇到很多笑不出来的事，{PAWN_pronoun}没有忽视这些，而是在此之上，{PAWN_pronoun}依然会是那个精打细算的都市少女。</description>
 				<statOffsets>
-					<MentalBreakThreshold>-0.25</MentalBreakThreshold>
-					<PsychicSensitivity>0.4</PsychicSensitivity>
+					<MentalBreakThreshold>-0.15</MentalBreakThreshold>
 				</statOffsets>
 			</li>
 		</degreeDatas>
@@ -128,7 +129,8 @@
 				<label>耀骑士</label>
 				<description>“所谓骑士，就是照亮整片大地的崇高者”</description>
 				<statOffsets>
-					<MentalBreakThreshold>0.35</MentalBreakThreshold>
+					<MentalBreakThreshold>-0.35</MentalBreakThreshold>
+					<SocialImpact>0.2</SocialImpact>
 				</statOffsets>
 			</li>
 		</degreeDatas>
@@ -146,7 +148,7 @@
 				<description>{PAWN_nameDef}在大部分事情的观念上远比已经离开家乡数年的嘉维尔正常，但唯独涉及机械方面时有一些奇怪的偏执和想法。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.25</MentalBreakThreshold>
-					<PsychicSensitivity>-0.15</PsychicSensitivity>
+					<WorkSpeedGlobal>-0.1</WorkSpeedGlobal>
 					<GlobalLearningFactor>0.45</GlobalLearningFactor>
 				</statOffsets>
 			</li>
@@ -162,10 +164,9 @@
 		<degreeDatas>
 			<li>
 				<label>雪山上的乌萨斯</label>
-				<description>“她看着是很文静没错，但她也是雪山上的乌萨斯。”</description>
+				<description>极光虽然举止得体，性格温柔。但是作为乌萨斯，种族好斗的天性依旧在她的血液里流淌</description>
 				<statOffsets>
-					<MentalBreakThreshold>-0.3</MentalBreakThreshold>
-					<PsychicSensitivity>-0.1</PsychicSensitivity>
+					<MentalBreakThreshold>-0.25</MentalBreakThreshold>
 				</statOffsets>
 			</li>
 		</degreeDatas>
@@ -184,7 +185,7 @@
 时常沐浴着温暖的朝晖，偶尔也踏过照不见影子的苦暗。
 				</description>
 				<statOffsets>
-					<MentalBreakThreshold>-0.4</MentalBreakThreshold>
+					<MentalBreakThreshold>-0.2</MentalBreakThreshold>
 				</statOffsets>
 			</li>
 		</degreeDatas>
@@ -220,7 +221,7 @@
 				</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.26</MentalBreakThreshold>
-					<PainShockThreshold>0.15</PainShockThreshold>
+					<PainShockThreshold>-0.15</PainShockThreshold>
 				</statOffsets>
 			</li>
 		</degreeDatas>
@@ -237,6 +238,7 @@
 				</description>
 				<statOffsets>
 					<GlobalLearningFactor>0.2</GlobalLearningFactor>
+					<SocialImpact>-0.3</SocialImpact>
 				</statOffsets>
 			</li>
 		</degreeDatas>
@@ -255,7 +257,7 @@
 				</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.45</MentalBreakThreshold>
-					<PainShockThreshold>0.20</PainShockThreshold>
+					<PainShockThreshold>-0.2</PainShockThreshold>
 				</statOffsets>
 			</li>
 		</degreeDatas>
@@ -290,7 +292,7 @@
 				</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.05</MentalBreakThreshold>
-					<PainShockThreshold>0.30</PainShockThreshold>
+					<PainShockThreshold>-0.3</PainShockThreshold>
 				</statOffsets>
 			</li>
 		</degreeDatas>
@@ -308,8 +310,8 @@
 				<description>相比于其他学生，切尔诺伯格的灾难对{PAWN_nameDef}造成的伤害显然更大，这造成了{PAWN_pronoun}虽然看上去依旧乐观，但是却有了一些奇怪的“小习惯”.
 				</description>
 				<statOffsets>
-					<MentalBreakThreshold>0.05</MentalBreakThreshold>
-					<WorkSpeedGlobal>-0.20</WorkSpeedGlobal>
+					<MentalBreakThreshold>-0.05</MentalBreakThreshold>
+					<WorkSpeedGlobal>-0.2</WorkSpeedGlobal>
 				</statOffsets>
 			</li>
 		</degreeDatas>
@@ -330,7 +332,8 @@
 				</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.12</MentalBreakThreshold>
-					<WorkSpeedGlobal>-0.20</WorkSpeedGlobal>
+					<SmithingSpeed>0.3</SmithingSpeed>
+					<SmithingSuccessChance>1.0</SmithingSuccessChance>
 				</statOffsets>
 			</li>
 		</degreeDatas>

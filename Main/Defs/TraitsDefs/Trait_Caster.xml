@@ -28,10 +28,9 @@
 		<degreeDatas>
 			<li>
 				<label>救世的魔王</label>
-				<description>衣服需要缝补，伤口需要愈合。</description>
+				<description>“总有一天你会理解我的选择......原谅我。”</description>
 				<statOffsets>
 					<MentalBreakThreshold>-1.0</MentalBreakThreshold>
-					<PsychicSensitivity>1.0</PsychicSensitivity>
 				</statOffsets>
 			</li>
 		</degreeDatas>
@@ -49,6 +48,7 @@
 在天灾频率骤升的矿石工业时代，政权之间的对立让这种种族混合的产物几乎不可能诞生。当然，除了延续生命的常识外，可能还有一些危险的方法可能会诞生奇美拉。
 如果她没有骗我的话。
 				</description>
+				<PsychicSensitivity>1.0</PsychicSensitivity>
 			</li>
 		</degreeDatas>
 	</TraitDef>
@@ -64,7 +64,7 @@
 				<label>月隐晦明</label>
 				<description>不以物喜，不以己悲。不会受到心灵干扰影响</description>
 				<statFactors>
-					<PsychicSensitivity>0.0</PsychicSensitivity>
+					<PsychicSensitivity>-0.4</PsychicSensitivity>
 				</statFactors>
 			</li>
 		</degreeDatas>
@@ -77,9 +77,9 @@
 		<degreeDatas>
 			<li>
 				<label>尽波澜</label>
-				<description>山川风月，花羽林渊，贩夫走卒，老少男女，画不尽，也看不完，越不过，也走不出。</description>
+				<description>另片天地可比这里迷人太多了。从古至今看得破、离得开、忘得掉的，又有几人呢？</description>
 				<statOffsets>
-					<MentalBreakThreshold>-0.1</MentalBreakThreshold>
+					<MentalBreakThreshold>0.1</MentalBreakThreshold>
 				</statOffsets>
 			</li>
 		</degreeDatas>
@@ -94,8 +94,7 @@
 		<degreeDatas>
 			<li>
 				<label>独行长路</label>
-				<description>{PAWN_pronoun}来自荒野，{PAWN_pronoun}是荒野的孩子。
-荒野之子终究归于荒野</description>
+				<description>荒野之子终究归于荒野</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.2</MentalBreakThreshold>
 					<WorkSpeedGlobal>0.1</WorkSpeedGlobal>
@@ -130,11 +129,11 @@
 		<degreeDatas>
 			<li>
 				<label>学者之心</label>
-				<description>黑暗追着{PAWN_pronoun}，{PAWN_pronoun}追着光。
-经火烧过的是真理，亦是永恒。</description>
+				<description>{PAWN_nameDef}继承了父母的遗志，而且{PAWN_pronoun}很希望有朝一日能够解开那些谜团，哪怕是有着生命危险也在所不惜。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.3</MentalBreakThreshold>
 					<GlobalLearningFactor>0.2</GlobalLearningFactor>
+					<ResearchSpeed>0.3</ResearchSpeed>
 				</statOffsets>
 			</li>
 		</degreeDatas>
@@ -149,9 +148,10 @@
 		<degreeDatas>
 			<li>
 				<label>执法者</label>
-				<description>磨难可能毁灭一个人，也可能带来新生。</description>
+				<description>切尔诺伯格的灾难永远的改变了{PAWN_nameDef}，{PAWN_pronoun}总是尝试保护别人，但是又不知道为什么，这些都需要{PAWN_pronoun}自己回答。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.25</MentalBreakThreshold>
+					<SocialImpact>-0.4</SocialImpact>
 				</statOffsets>
 			</li>
 		</degreeDatas>
@@ -184,12 +184,12 @@
 		<degreeDatas>
 			<li>
 				<label>王者之杖</label>
-				<description>{PAWN_nameDef}并不是一个高傲且刻薄的人，只是很多人无法理解{PAWN_possessive}想法与行动
-其实{PAWN_pronoun}不是想训斥别人，只不过是找不到办法表达自己的心情罢了。
-这可能是这位优等生天才少数感到苦恼的事情。</description>
+				<description>作为维多利亚最顶尖的源石技艺研究者和天生的天才与贵族，{PAWN_nameDef}毫无疑问的沾染了许多贵族的毛病，虽然{PAWN_possessive}性格并不高傲刻薄，但是{PAWN_possessive}行为方式显然对于{PAWN_possessive}社交与工作都有所不利。</description>
 				<statOffsets>
 					<MentalBreakThreshold>0.05</MentalBreakThreshold>
 					<GlobalLearningFactor>0.8</GlobalLearningFactor>
+					<SocialImpact>-0.15</SocialImpact>
+					<WorkSpeedGlobal>-0.1</WorkSpeedGlobal>
 				</statOffsets>
 			</li>
 		</degreeDatas>
@@ -206,7 +206,7 @@
 				<label>炎魔</label>
 				<description>{PAWN_nameDef}时常会出现幻觉，{PAWN_pronoun}会看到烧焦的尸体与动物，或者亲密的人烈火焚身。
 每当此时，{PAWN_pronoun}就会变得意识恍惚，因此烧掉一条走廊的事也不是没有。
-但当{PAWN_pronoun}陷入恍惚时，身后那个巨大的实体是什么？</description>
+但当{PAWN_pronoun}陷入恍惚时，身后那个巨大的幻影是什么？</description>
 				<statOffsets>
 					<MentalBreakThreshold>0.4</MentalBreakThreshold>
 					<PsychicSensitivity>1.0</PsychicSensitivity>
@@ -241,7 +241,7 @@
 		<degreeDatas>
 			<li>
 				<label>沙原的祝福</label>
-				<description>请记住，不论我们各自去往何方，{PAWN_pronoun}给出的那份祝福，都将随你一路前行。</description>
+				<description>{PAWN_nameDef}继承了黄沙深处部族的技艺与祝福，不论{PAWN_pronoun}未来去往何方，部族的技艺都会像额头的印记一样跟随着{PAWN_pronoun}。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.25</MentalBreakThreshold>
 				</statOffsets>
@@ -283,7 +283,7 @@
 {PAWN_pronoun}想要找到这个答案。
 				</description>
 				<statOffsets>
-					<MentalBreakThreshold>-0.40</MentalBreakThreshold>
+					<MentalBreakThreshold>-0.4</MentalBreakThreshold>
 				</statOffsets>
 			</li>
 		</degreeDatas>
@@ -322,6 +322,7 @@
 				</description>
 				<statOffsets>
 					<MentalBreakThreshold>0.10</MentalBreakThreshold>
+					<SocialImpact>-0.05</SocialImpact>
 				</statOffsets>
 			</li>
 		</degreeDatas>

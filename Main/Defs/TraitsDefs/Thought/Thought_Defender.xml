@@ -15,10 +15,9 @@
 		<stages>
 			<li>
 				<label>沃土磐石之友</label>
-				<description>或许是特殊的源石技艺，泥岩对于泥土有着一种奇妙的情感。
-她和泥土之间的关系可能比她和大部分人都要亲密得多。
+				<description>沃土磐石，它们会轻语，它们会舞蹈，它们是我的朋友。
 				</description>
-				<baseMoodEffect>10</baseMoodEffect>
+				<baseMoodEffect>5</baseMoodEffect>
 			</li>
 		</stages>
 	</ThoughtDef>
@@ -33,7 +32,7 @@
 		<stages>
 			<li>
 				<label>肆无忌惮</label>
-				<description>"'没有干扰他人工作的习惯'？她劝诱别人上班打麻将，有没有人阻止一下？"</description>
+				<description>哟，吃了没？</description>
 				<baseMoodEffect>20</baseMoodEffect>
 			</li>
 		</stages>
@@ -66,7 +65,7 @@
 		<stages>
 			<li>
 				<label>都市少女</label>
-				<description>即使成为了干员，可颂小姐也完全不打算放弃她在日常生活中的兴趣爱好。
+				<description>我最喜欢新装备了！无论是看到什么都好想买下来啊。就这样，我陷入了无止境的购物漩涡......
 				</description>
 				<baseMoodEffect>15</baseMoodEffect>
 			</li>
@@ -115,7 +114,7 @@
 		<stages>
 			<li>
 				<label>无忧无虑</label>
-				<description>干员蛇屠箱拥有天真烂漫的性格，即使成为矿石病患者也丝毫未能减损她的阳光。</description>
+				<description>哇，好玩！</description>
 				<baseMoodEffect>20</baseMoodEffect>
 			</li>
 		</stages>
@@ -173,7 +172,9 @@
 
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_Penance</defName>
-		<requiredTraits><li>AK_Trait_Penance</li></requiredTraits>
+		<requiredTraits>
+			<li>AK_Trait_Penance</li>
+		</requiredTraits>
 		<stages>
 			<li>
 				<label>荆棘环身</label>
