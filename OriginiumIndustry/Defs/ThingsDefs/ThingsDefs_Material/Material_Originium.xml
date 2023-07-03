@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="AK_Material_Base">
+    <defName>OriginiumCoarseOre</defName>
+    <label>源石粗矿</label>
+    <description>被开采下来的，外表看上去和石头基本上没区别的低浓度源石，也不具备任何工业或使用价值，只有经过提炼才能有一定的作用。</description>
+    <graphicData>
+      <texPath>Things/Material/OriginiumCoarseOre</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>First</resourceReadoutPriority>    <!-- 资源读取优先级 -->
+    <soundInteract>Silver_Drop</soundInteract>    <!-- 互动声音 -->
+    <soundDrop>Silver_Drop</soundDrop>    <!-- 放下声音 -->
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>    <!-- 健康影响价格 -->
+    <resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>    <!-- 资源读数总是显示 -->
+    <statBases>
+      <MarketValue>1</MarketValue>      <!-- 市场价值 -->
+      <Mass>0.008</Mass>      <!-- 物理质量 -->
+      <StuffPower_Armor_Sharp>0.72</StuffPower_Armor_Sharp>      <!-- 护甲 - 利器 -->
+      <StuffPower_Armor_Blunt>0.36</StuffPower_Armor_Blunt>      <!-- 护甲 - 钝器 -->
+      <StuffPower_Armor_Heat>0.36</StuffPower_Armor_Heat>      <!-- 护甲 - 热能 -->
+      <StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>      <!-- 隔温 - 寒冷 -->
+      <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>      <!-- 隔温 - 炎热 -->
+      <SharpDamageMultiplier>0.85</SharpDamageMultiplier>      <!-- 利器伤害 -->
+      <BluntDamageMultiplier>1.0</BluntDamageMultiplier>      <!-- 钝器伤害 -->
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <stackLimit>500</stackLimit>    <!-- 堆叠限制 -->
+    <smallVolume>true</smallVolume>    <!-- 小容量 -->
+    <deepCommonality>0.5</deepCommonality>    <!-- 深度通用性 -->
+    <deepCountPerPortion>70</deepCountPerPortion>    <!-- 每个部分的深度计数 -->
+    <deepLumpSizeRange>2~10</deepLumpSizeRange>    <!-- 深块尺寸范围 -->
+    <burnableByRecipe>false</burnableByRecipe>    <!-- 可燃性（按配方） -->
+    <smeltable>true</smeltable>    <!-- 可涂抹的 -->
+    <possessionCount>40</possessionCount>    <!-- 占有量计数 -->
+    <stuffProps>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <appearance>Metal</appearance>      <!-- 外观 -->
+      <color>(180,173,150)</color>      <!-- 颜色 -->
+      <commonality>0.05</commonality>      <!-- 通用性 -->
+      <constructEffect>ConstructMetal</constructEffect>      <!-- 建筑类型 ConstructMetal：建筑金属 ConstructDirt：建筑污垢 ConstructWood：建筑木材-->
+      <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>      <!-- 声音 -->
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>      <!-- 利器伤害声音 -->
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>      <!-- 钝器伤害声音 -->
+      <statOffsets>
+        <Beauty>6</Beauty>        <!-- 美观度 + - -->
+      </statOffsets>
+      <statFactors>
+        <MaxHitPoints>0.7</MaxHitPoints>        <!-- 耐久度上限 -->
+        <Flammability>0.4</Flammability>        <!-- 易燃性 -->
+        <Beauty>2</Beauty>        <!-- 美观度乘数 -->
+      </statFactors>
+    </stuffProps>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>    <!-- 需要地形可用性 -->
+    <allowedArchonexusCount>1000</allowedArchonexusCount>    <!-- 允许的Archonexus计数 -->
+  </ThingDef>
+
+</Defs>

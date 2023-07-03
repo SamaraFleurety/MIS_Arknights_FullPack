@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef Name="AK_BuildingNaturalBase" Abstract="True">
+    <category>Building</category>
+    <selectable>true</selectable>
+    <drawerType>MapMeshOnly</drawerType>
+    <filthLeaving>Filth_RubbleRock</filthLeaving>
+    <scatterableOnMapGen>false</scatterableOnMapGen>    <!-- 是否可分散生成 -->
+    <building>
+      <artificialForMeditationPurposes>false</artificialForMeditationPurposes>      <!-- 是否可用于冥想 -->
+    </building>
+  </ThingDef>
+
+
+  <ThingDef Name="AK_RockBase" ParentName="AK_BuildingNaturalBase" Abstract="True">
+    <thingClass>Mineable</thingClass>
+    <graphicData>
+      <texPath>Things/Building/ORG/ORG_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <linkType>CornerFiller</linkType>
+      <linkFlags>
+        <li>Rock</li>
+        <li>MapEdge</li>
+      </linkFlags>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>    <!-- 海拔层 -->
+    <passability>Impassable</passability>    <!-- 可通过性 -->
+    <blockWind>true</blockWind>    <!-- 挡风 -->
+    <castEdgeShadows>true</castEdgeShadows>    <!-- 边缘投射阴影 -->
+    <fillPercent>1</fillPercent>    <!-- 填充百分比 -->
+    <coversFloor>true</coversFloor>    <!-- 覆盖地板 -->
+    <neverMultiSelect>true</neverMultiSelect>    <!-- 无法多选 -->
+    <rotatable>false</rotatable>    <!-- 是否可旋转 -->
+    <saveCompressible>true</saveCompressible>    <!-- 存储可压缩 -->
+    <holdsRoof>true</holdsRoof>    <!-- 支撑屋顶 -->
+    <staticSunShadowHeight>1.0</staticSunShadowHeight>    <!-- 静态日照高度 -->
+    <blockLight>true</blockLight>    <!-- 阻挡光线 -->
+    <mineable>true</mineable>    <!-- 能否开采 -->
+    <fertility>0</fertility>    <!-- 肥沃度 -->
+    <canOverlapZones>false</canOverlapZones>    <!-- 是否可以重叠区域 -->
+    <statBases>
+      <Flammability>0</Flammability>      <!-- 可燃性 -->
+    </statBases>
+    <building>
+      <isInert>true</isInert>      <!-- 惰性 -->
+      <isNaturalRock>true</isNaturalRock>      <!-- 是否为自然岩石 -->
+      <canBuildNonEdificesUnder>false</canBuildNonEdificesUnder>      <!-- 能否在下方建造 -->
+      <deconstructible>false</deconstructible>      <!-- 可解构的 -->
+      <destroyShakeAmount>0</destroyShakeAmount>      <!-- 破坏震动量 -->
+    </building>
+    <damageMultipliers>
+      <li>
+        <damageDef>Thump</damageDef>
+        <multiplier>4</multiplier>
+      </li>
+    </damageMultipliers>
+  </ThingDef>
+
+  <ThingDef ParentName="AK_RockBase">
+    <defName>OriginiumOre</defName>
+    <label>源石矿</label>
+    <description>低浓度的源石矿石，在漫长的沉淀和地质活动中已经趋于稳定，但是在开采时依旧会释放出一些源石粉尘。</description>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1200</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>      <!-- 是否资源石块 -->
+      <mineableThing>OriginiumCoarseOre</mineableThing>      <!-- 产物 -->
+      <mineableYield>40</mineableYield>      <!-- 开采量 -->
+      <mineableScatterCommonality>1</mineableScatterCommonality>      <!-- 刷矿时的稀有度 -->
+      <mineableScatterLumpSizeRange>30~40</mineableScatterLumpSizeRange>      <!-- 可开采分散团块尺寸范围 -->
+    </building>
+  </ThingDef>
+
+</Defs>
