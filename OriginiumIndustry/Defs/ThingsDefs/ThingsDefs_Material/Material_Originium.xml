@@ -1,63 +1,182 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <ThingDef ParentName="AK_Material_Base">
+  <ThingDef ParentName="AK_MaterialResourceBase">
     <defName>OriginiumCoarseOre</defName>
     <label>源石粗矿</label>
     <description>被开采下来的，外表看上去和石头基本上没区别的低浓度源石，也不具备任何工业或使用价值，只有经过提炼才能有一定的作用。</description>
     <graphicData>
-      <texPath>Things/Material/OriginiumCoarseOre</texPath>
+      <texPath>Things/Material/Originium/OriginiumCoarseOre</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
-    <resourceReadoutPriority>First</resourceReadoutPriority>    <!-- 资源读取优先级 -->
-    <soundInteract>Silver_Drop</soundInteract>    <!-- 互动声音 -->
-    <soundDrop>Silver_Drop</soundDrop>    <!-- 放下声音 -->
-    <useHitPoints>false</useHitPoints>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>    <!-- 资源读取优先级 -->
+    <soundInteract>Stone_Drop</soundInteract>    <!-- 互动声音 -->
+    <soundDrop>Stone_Drop</soundDrop>    <!-- 放下声音 -->
+    <useHitPoints>true</useHitPoints>
     <healthAffectsPrice>false</healthAffectsPrice>    <!-- 健康影响价格 -->
     <resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>    <!-- 资源读数总是显示 -->
     <statBases>
       <MarketValue>1</MarketValue>      <!-- 市场价值 -->
-      <Mass>0.008</Mass>      <!-- 物理质量 -->
-      <StuffPower_Armor_Sharp>0.72</StuffPower_Armor_Sharp>      <!-- 护甲 - 利器 -->
-      <StuffPower_Armor_Blunt>0.36</StuffPower_Armor_Blunt>      <!-- 护甲 - 钝器 -->
-      <StuffPower_Armor_Heat>0.36</StuffPower_Armor_Heat>      <!-- 护甲 - 热能 -->
-      <StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>      <!-- 隔温 - 寒冷 -->
-      <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>      <!-- 隔温 - 炎热 -->
-      <SharpDamageMultiplier>0.85</SharpDamageMultiplier>      <!-- 利器伤害 -->
-      <BluntDamageMultiplier>1.0</BluntDamageMultiplier>      <!-- 钝器伤害 -->
+      <Mass>20</Mass>      <!-- 物理质量 -->
+      <Beauty>-20</Beauty>
+      <MaxHitPoints>120</MaxHitPoints>
     </statBases>
     <thingCategories>
       <li>ResourcesRaw</li>
     </thingCategories>
-    <stackLimit>500</stackLimit>    <!-- 堆叠限制 -->
+    <stackLimit>100</stackLimit>    <!-- 堆叠限制 -->
     <smallVolume>true</smallVolume>    <!-- 小容量 -->
-    <deepCommonality>0.5</deepCommonality>    <!-- 深度通用性 -->
+    <deepCommonality>2</deepCommonality>    <!-- 深钻井探测概率 -->
     <deepCountPerPortion>70</deepCountPerPortion>    <!-- 每个部分的深度计数 -->
     <deepLumpSizeRange>2~10</deepLumpSizeRange>    <!-- 深块尺寸范围 -->
     <burnableByRecipe>false</burnableByRecipe>    <!-- 可燃性（按配方） -->
-    <smeltable>true</smeltable>    <!-- 可涂抹的 -->
-    <possessionCount>40</possessionCount>    <!-- 占有量计数 -->
-    <stuffProps>
-      <categories>
-        <li>Metallic</li>
-      </categories>
-      <appearance>Metal</appearance>      <!-- 外观 -->
-      <color>(180,173,150)</color>      <!-- 颜色 -->
-      <commonality>0.05</commonality>      <!-- 通用性 -->
-      <constructEffect>ConstructMetal</constructEffect>      <!-- 建筑类型 ConstructMetal：建筑金属 ConstructDirt：建筑污垢 ConstructWood：建筑木材-->
-      <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>      <!-- 声音 -->
-      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>      <!-- 利器伤害声音 -->
-      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>      <!-- 钝器伤害声音 -->
-      <statOffsets>
-        <Beauty>6</Beauty>        <!-- 美观度 + - -->
-      </statOffsets>
-      <statFactors>
-        <MaxHitPoints>0.7</MaxHitPoints>        <!-- 耐久度上限 -->
-        <Flammability>0.4</Flammability>        <!-- 易燃性 -->
-        <Beauty>2</Beauty>        <!-- 美观度乘数 -->
-      </statFactors>
-    </stuffProps>
-    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>    <!-- 需要地形可用性 -->
-    <allowedArchonexusCount>1000</allowedArchonexusCount>    <!-- 允许的Archonexus计数 -->
+    <smeltable>true</smeltable>    <!-- 是否可熔炼 -->
+    <smeltProducts>
+      <RoughMachinedOriginium>1</RoughMachinedOriginium>
+    </smeltProducts>
+    <allowedArchonexusCount>-1</allowedArchonexusCount>    <!-- 任务相关 -->
+  </ThingDef>
+
+  <ThingDef ParentName="AK_MaterialResourceBase">
+    <defName>RoughMachinedOriginium</defName>
+    <label>初步加工的源石</label>
+    <description>经过初步加工的源石，已经具备了一定的用途，但是其纯度仍不适用于大规模生产和制造，只能用于一些小生产。</description>
+    <graphicData>
+      <texPath>Things/Material/Originium/RoughMachinedOriginium</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>    <!-- 资源读取优先级 -->
+    <soundInteract>Stone_Drop</soundInteract>    <!-- 互动声音 -->
+    <soundDrop>Stone_Drop</soundDrop>    <!-- 放下声音 -->
+    <useHitPoints>true</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>    <!-- 健康影响价格 -->
+    <resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>    <!-- 资源读数总是显示 -->
+    <statBases>
+      <MarketValue>860</MarketValue>      <!-- 市场价值 -->
+      <Mass>4</Mass>      <!-- 物理质量 -->
+      <Beauty>-10</Beauty>
+      <MaxHitPoints>35</MaxHitPoints>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <stackLimit>100</stackLimit>    <!-- 堆叠限制 -->
+    <smallVolume>true</smallVolume>    <!-- 小容量 -->
+    <deepCommonality>2</deepCommonality>    <!-- 深钻井探测概率 -->
+    <deepCountPerPortion>70</deepCountPerPortion>    <!-- 每个部分的深度计数 -->
+    <deepLumpSizeRange>2~10</deepLumpSizeRange>    <!-- 深块尺寸范围 -->
+    <burnableByRecipe>true</burnableByRecipe>    <!-- 可燃性（按配方） -->
+    <smeltable>true</smeltable>    <!-- 是否可熔炼 -->
+    <smeltProducts>
+      <RefinedOriginium>15</RefinedOriginium>
+    </smeltProducts>
+    <allowedArchonexusCount>-1</allowedArchonexusCount>    <!-- 任务相关 -->
+  </ThingDef>
+
+  <ThingDef ParentName="AK_MaterialResourceBase">
+    <defName>RefinedOriginium</defName>
+    <label>精加工源石</label>
+    <description>经过现代化工序提炼出的源石，泰拉世界大多数工业化设施都不可或缺的能量来源和设施部件，经常会有势力大量进口这种东西用于生产或者战争用途。因为源石可能造成的生物和环境污染，因此高浓度的源石必须装在高度密封的容器中。</description>
+    <graphicData>
+      <texPath>Things/Material/Originium/RefinedOriginium</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>    <!-- 资源读取优先级 -->
+    <soundInteract>Stone_Drop</soundInteract>    <!-- 互动声音 -->
+    <soundDrop>Stone_Drop</soundDrop>    <!-- 放下声音 -->
+    <useHitPoints>true</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>    <!-- 健康影响价格 -->
+    <resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>    <!-- 资源读数总是显示 -->
+    <statBases>
+      <MarketValue>3240</MarketValue>      <!-- 市场价值 -->
+      <Mass>1.3</Mass>      <!-- 物理质量 -->
+      <Beauty>0</Beauty>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Flammability>0.4</Flammability>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <stackLimit>100</stackLimit>    <!-- 堆叠限制 -->
+    <smallVolume>true</smallVolume>    <!-- 小容量 -->
+    <deepCommonality>2</deepCommonality>    <!-- 深钻井探测概率 -->
+    <deepCountPerPortion>70</deepCountPerPortion>    <!-- 每个部分的深度计数 -->
+    <deepLumpSizeRange>2~10</deepLumpSizeRange>    <!-- 深块尺寸范围 -->
+    <burnableByRecipe>true</burnableByRecipe>    <!-- 可燃性（按配方） -->
+    <smeltable>true</smeltable>    <!-- 是否可熔炼 -->
+    <smeltProducts>
+      <OriginitePrime>15</OriginitePrime>
+    </smeltProducts>
+    <allowedArchonexusCount>-1</allowedArchonexusCount>    <!-- 任务相关 -->
+  </ThingDef>
+
+  <ThingDef ParentName="AK_MaterialResourceBase">
+    <defName>OriginitePrime</defName>
+    <label>至纯源石</label>
+    <description>经历反复提炼才能得到很少的，闪耀的，脆弱的工业珍宝，通常被用作计算机最核心的配件或者用来打造最恐怖的神兵利器，这种纯度的源石及其蕴含的价值能让任何人为之疯狂。</description>
+    <graphicData>
+      <texPath>Things/Material/Originium/OriginitePrime</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>    <!-- 资源读取优先级 -->
+    <soundInteract>Stone_Drop</soundInteract>    <!-- 互动声音 -->
+    <soundDrop>Stone_Drop</soundDrop>    <!-- 放下声音 -->
+    <useHitPoints>true</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>    <!-- 健康影响价格 -->
+    <resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>    <!-- 资源读数总是显示 -->
+    <statBases>
+      <MarketValue>18000</MarketValue>      <!-- 市场价值 -->
+      <Mass>0.5</Mass>      <!-- 物理质量 -->
+      <Beauty>5</Beauty>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Flammability>0.5</Flammability>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <stackLimit>100</stackLimit>    <!-- 堆叠限制 -->
+    <smallVolume>true</smallVolume>    <!-- 小容量 -->
+    <deepCommonality>2</deepCommonality>    <!-- 深钻井探测概率 -->
+    <deepCountPerPortion>70</deepCountPerPortion>    <!-- 每个部分的深度计数 -->
+    <deepLumpSizeRange>2~10</deepLumpSizeRange>    <!-- 深块尺寸范围 -->
+    <burnableByRecipe>true</burnableByRecipe>    <!-- 可燃性（按配方） -->
+    <smeltable>false</smeltable>    <!-- 是否可熔炼 -->
+    <possessionCount>40</possessionCount>    <!-- 财产计数 -->
+    <allowedArchonexusCount>-1</allowedArchonexusCount>    <!-- 任务相关 -->
+  </ThingDef>
+
+  <ThingDef ParentName="AK_MaterialResourceBase">
+    <defName>OriginiumShard</defName>
+    <label>源石碎片</label>
+    <description>在源石加工和提炼时产生的工业废料，因为其高污染，不稳定性和回收的高成本被列为危险物，尽管如此仍旧有一些疯子在它身上榨出了仅剩的一些价值：制造恐怖的化学武器。</description>
+    <graphicData>
+      <texPath>Things/Material/Originium/OriginiumShard</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>    <!-- 资源读取优先级 -->
+    <soundInteract>Stone_Drop</soundInteract>    <!-- 互动声音 -->
+    <soundDrop>Stone_Drop</soundDrop>    <!-- 放下声音 -->
+    <useHitPoints>true</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>    <!-- 健康影响价格 -->
+    <resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>    <!-- 资源读数总是显示 -->
+    <statBases>
+      <MarketValue>46</MarketValue>      <!-- 市场价值 -->
+      <Mass>0.8</Mass>      <!-- 物理质量 -->
+      <Beauty>-5</Beauty>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Flammability>0.8</Flammability>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <stackLimit>100</stackLimit>    <!-- 堆叠限制 -->
+    <smallVolume>true</smallVolume>    <!-- 小容量 -->
+    <deepCommonality>2</deepCommonality>    <!-- 深钻井探测概率 -->
+    <deepCountPerPortion>70</deepCountPerPortion>    <!-- 每个部分的深度计数 -->
+    <deepLumpSizeRange>2~10</deepLumpSizeRange>    <!-- 深块尺寸范围 -->
+    <burnableByRecipe>true</burnableByRecipe>    <!-- 可燃性（按配方） -->
+    <smeltable>false</smeltable>    <!-- 是否可熔炼 -->
+    <allowedArchonexusCount>-1</allowedArchonexusCount>    <!-- 任务相关 -->
   </ThingDef>
 
 </Defs>

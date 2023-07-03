@@ -1,26 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <!-- 原版物品基底模板 也许不会用 -->
-  <ThingDef Name="AK_Material_Base" Abstract="True">
+  <ThingDef Name="AK_MaterialResourceBase" Abstract="True">
     <thingClass>ThingWithComps</thingClass>
     <category>Item</category>
     <drawerType>MapMeshOnly</drawerType>
-    <resourceReadoutPriority>Middle</resourceReadoutPriority>
-    <useHitPoints>true</useHitPoints>
-    <selectable>true</selectable>
-    <altitudeLayer>Item</altitudeLayer>
-    <stackLimit>75</stackLimit>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>    <!-- 资源读取优先级 First Middle Last -->
+    <useHitPoints>true</useHitPoints>    <!-- 有无生命值 -->
+    <selectable>true</selectable>    <!-- 可选择性 -->
+    <altitudeLayer>Item</altitudeLayer>    <!-- 图层 -->
+    <stackLimit>75</stackLimit>    <!-- 堆叠限制 -->
     <statBases>
-      <Beauty>-4</Beauty>
+      <Beauty>-4</Beauty>      <!-- 美观度 -->
     </statBases>
     <comps>
       <li Class="CompProperties_Forbiddable"/>
     </comps>
-    <alwaysHaulable>true</alwaysHaulable>
-    <drawGUIOverlay>true</drawGUIOverlay>
-    <rotatable>false</rotatable>
-    <pathCost>14</pathCost>
-    <allowedArchonexusCount>-1</allowedArchonexusCount>
+    <alwaysHaulable>true</alwaysHaulable>    <!-- 始终可运输 -->
+    <drawGUIOverlay>true</drawGUIOverlay>    <!-- 绘制GUI覆盖 -->
+    <rotatable>false</rotatable>    <!-- 可旋转的 -->
+    <pathCost>14</pathCost>    <!-- 路径成本 -->
+    <allowedArchonexusCount>-1</allowedArchonexusCount>    <!-- 任务相关 -->
   </ThingDef>
 
 </Defs>
