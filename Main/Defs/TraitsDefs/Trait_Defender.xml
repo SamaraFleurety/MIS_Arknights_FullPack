@@ -58,7 +58,7 @@
 					<GlobalLearningFactor>0.55</GlobalLearningFactor>
 				</statOffsets>
 				<statFactors>
-					<SmithingSpeed>0.45</SmithingSpeed>
+					<SmithingSpeed>1.45</SmithingSpeed>
 				</statFactors>
 			</li>
 		</degreeDatas>
@@ -332,9 +332,11 @@
 				</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.12</MentalBreakThreshold>
-					<SmithingSpeed>0.3</SmithingSpeed>
-					<SmithingSuccessChance>1.0</SmithingSuccessChance>
 				</statOffsets>
+				<statFactors>
+					<SmithingSpeed>1.3</SmithingSpeed>
+					<SmithingSuccessChance>2.0</SmithingSuccessChance>
+				</statFactors>
 			</li>
 		</degreeDatas>
 	</TraitDef>
