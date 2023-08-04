@@ -5,20 +5,10 @@
 	<supportedVersions>
 		<li>1.4</li>	
 	</supportedVersions> 
-	<modDependencies>
-		<li>
-			<packageId>MIS.NoFace</packageId>
-			<displayName>M.I.S - FacelessHair Patch</displayName>
-			<downloadUrl>https://github.com/SamaraFleurety/Rimworld_Arknights</downloadUrl>
-		</li>
-	</modDependencies>
-	<loadAfter>
-		<li>MIS.NoFace</li>
-	</loadAfter>
 	<incompatibleWith>
 		<li>MIS.Arknights</li>
 	</incompatibleWith>
-	<description>无脸发型包的独立补丁。供仅想使用本组发型，不想装本体的玩家使用。
+	<description>MIS组无脸发型包的独立版本。供仅想使用本组发型，不想装本体的玩家使用。
 和本体不兼容。（本体已经有发型def了）。
 	</description>	
   <packageId>MIS.NoFaceIndptPatch</packageId>	
