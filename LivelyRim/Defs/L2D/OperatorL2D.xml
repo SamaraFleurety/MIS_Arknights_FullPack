@@ -8,5 +8,15 @@
 		<modelName>rice_pro_t03Motion</modelName>
 		<rigJsonPath>rice_pro_t03.physics3.json</rigJsonPath>
 	</FS_LivelyRim.LiveModelDef>
+	
+	<FS_LivelyRim.LiveModelDef>
+		<defName>AZ_Live_Janus</defName>
+		<modID>FS.LivelyRim</modID>
+		<assetBundle>janustest</assetBundle>
+		<modelName>FileReferences_Moc_0</modelName>
+		<rigJsonPath>FileReferences_Physics_0.physics3.json</rigJsonPath>
+		<eyeFollowMouse>false</eyeFollowMouse>
+	</FS_LivelyRim.LiveModelDef>
+	
 
 </Defs>

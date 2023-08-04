@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Requested by 是一个创批舟批更是一个网络色批 -->
+
+<Defs>
+
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase">
+		<defName>FS_Recruit_Bitis</defName>
+		<nickname>咝蝰</nickname>
+		<description>罗德岛术士干员咝蝰，她的剧毒和她的‘朋友’会让敌人品尝到痛苦的滋味。</description>
+		<operatorType>AK_OperatorClass_Caster</operatorType>
+		<bodyTypeDef>Thin</bodyTypeDef>		
+		<stand>Sponsor/Bitis/BitisStand</stand>
+		<headPortrait>Sponsor/Bitis/BitisPortrait</headPortrait>
+		<apparels>
+			<li>FS_Apparel_Bitis</li>
+		</apparels>
+		<skills>
+			<li>
+				<skill>Animals</skill>
+				<level>1</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Artistic</skill>
+				<level>9</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Construction</skill>
+				<level>1</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Cooking</skill>
+				<level>3</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Crafting</skill>
+				<level>5</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Intellectual</skill>
+				<level>10</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<level>4</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<level>8</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Mining</skill>
+				<level>0</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Plants</skill>
+				<level>2</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<level>15</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<level>14</level>
+				<fireLevel>2</fireLevel>
+			</li>
+		</skills>
+		<traits>
+			<li>
+				<def>FS_Trait_BitisSecond</def>
+			</li>
+			<li>
+				<def>FS_Trait_Bitis</def>
+			</li>
+		</traits>
+		<age>14</age>
+		<standRatio>3</standRatio>
+		<standOffset>(0, 0)</standOffset>
+	</AK_DLL.OperatorDef>
+	
+	<TraitDef>
+		<defName>FS_Trait_Bitis</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>沟牙猛毒</label>
+				<description>{PAWN_nameDef}拥有泰拉世界最顶尖的生物毒素，攻击后会造成持续性伤害直至目标死亡。</description>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+	
+	<TraitDef>
+		<defName>FS_Trait_BitisSecond</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>贪食猎手</label>
+				<description>{PAWN_nameDef}是贪婪的猎人也是贪婪的吞食者，她饥饿的很快，脱战后可以快速回血。</description>
+				<statFactors>
+					<InjuryHealingFactor>1.5</InjuryHealingFactor>
+				</statFactors>
+				<hungerRateFactor>1.5</hungerRateFactor>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+	
+	<HairDef ParentName="AK_HairBaseF">
+		<defName>FS_Hair_Bitis</defName>
+		<label>咝蝰的短发</label>
+		<texPath>Sponsor/Bitis/BitisHair</texPath>
+	</HairDef>  
+	
+	<ThingDef ParentName="MeleeWeaponUltratech">
+		<defName>FS_Weapon_Bitis</defName>
+		<label>活体书籍</label>
+		<description>咝蝰最好的‘朋友’，在那诡异的独眼与锋利的锯齿之下，深藏着只有咝蝰才知道的禁忌知识。</description>
+		<soundInteract>Interact_MonoSword</soundInteract>
+		<meleeHitSound>MeleeHit_MonoSword</meleeHitSound>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<smeltable>false</smeltable>
+		<weaponClasses>
+		  <li>MeleePiercer</li>
+		</weaponClasses>
+		<graphicData>
+		  <texPath>Sponsor/Bitis/Weapon</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>FS_Bullet_BitisBook</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>1.2</warmupTime>				<!--前摇-->
+				<range>50</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_Deepcolor</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<tools>
+		  <li>
+			<label>书本敲打</label>
+			<capacities>
+			  <li>Blunt</li>
+			  <li>FS_Tool_BitisBiten</li>
+			</capacities>
+			<power>15</power>
+			<armorPenetration>1.0</armorPenetration>
+			<chanceFactor>20</chanceFactor>
+			<cooldownTime>1</cooldownTime>
+			<hediff>FS_Hediff_BitisBiten</hediff>
+		  </li>
+		</tools>
+	</ThingDef>
+	
+  <ThingDef ParentName="BaseBullet">
+    <defName>FS_Bullet_BitisBook</defName>
+    <label>魔法弹</label>
+    <graphicData>
+      <texPath>Things/Projectile/ToxicNeedleShot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>FS_Damage_BitisPoison</damageDef>
+      <damageAmountBase>25</damageAmountBase>
+      <armorPenetrationBase>1</armorPenetrationBase>
+      <stoppingPower>1.5</stoppingPower>
+      <speed>180</speed>
+    </projectile>
+  </ThingDef>
+	
+  <DamageDef ParentName="Bullet">
+    <defName>FS_Damage_BitisPoison</defName>
+    <label>toxic bullet</label>
+    <additionalHediffs>
+      <li>
+        <hediff>FS_Hediff_BitisBiten</hediff>
+        <severityPerDamageDealt>0.0001</severityPerDamageDealt>
+        <victimSeverityScaling>ToxicResistance</victimSeverityScaling>
+        <inverseStatScaling>true</inverseStatScaling>
+        <victimSeverityScalingByInvBodySize>false</victimSeverityScalingByInvBodySize>
+      </li>
+    </additionalHediffs>
+    <applyAdditionalHediffsIfHuntingForFood>false</applyAdditionalHediffsIfHuntingForFood>
+    <impactSoundType>Bullet</impactSoundType>
+  </DamageDef>
+	
+	<ThingDef ParentName="AK_ArmorBase">
+		<defName>FS_Apparel_Bitis</defName>
+		<label>咝蝰的常服</label>
+		<graphicData>
+		  <texPath>Things/AK_Agents/GApparel</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<equippedStatOffsets>
+		  <PsychicSensitivity>0.05</PsychicSensitivity>
+		  <PsychicEntropyRecoveryRate>0.033</PsychicEntropyRecoveryRate>
+		  <ResearchSpeed>2</ResearchSpeed>
+		</equippedStatOffsets>
+		<apparel>
+		  <bodyPartGroups>
+			<li>Torso</li>
+			<li>Neck</li>
+			<li>Shoulders</li>
+			<li>Arms</li>
+			<li>Legs</li>
+		  </bodyPartGroups>
+		  <wornGraphicPath>Sponsor/Bitis/Bitis</wornGraphicPath>
+		  <useWornGraphicMask>true</useWornGraphicMask>
+		  <layers>
+			<li>OnSkin</li>
+		  </layers>
+		  <defaultOutfitTags>
+			<li>Soldier</li>
+		  </defaultOutfitTags>
+		  <useDeflectMetalEffect>true</useDeflectMetalEffect>
+		</apparel>
+		<techLevel>Spacer</techLevel>
+		<uiIconScale>1.25</uiIconScale>
+		<statBases>
+		  <Mass>15</Mass>
+		  <Flammability>0.0</Flammability>
+		  <ArmorRating_Sharp>1.2</ArmorRating_Sharp>
+		  <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+		  <ArmorRating_Heat>0.6</ArmorRating_Heat>
+		  <Insulation_Cold>36</Insulation_Cold>
+		  <Insulation_Heat>12</Insulation_Heat>
+		  <EquipDelay>17</EquipDelay>
+		</statBases>
+		<colorGenerator Class="ColorGenerator_Options">
+		  <options>
+			<li>
+			  <weight>10</weight>
+			  <only>(1.0,1.0,1.0)</only>
+			</li>
+		  </options>
+		</colorGenerator>
+    </ThingDef>
+	
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>FS_BackStory_Bitis_Child</defName>
+		<slot>Childhood</slot>
+		<title>蛇之少女</title>
+		<titleShort>蛇之少女</titleShort>
+		<baseDesc>来自萨尔贡的谜之斐迪亚少女，手中总是拿着如同活物一样的书籍，据说是她最亲密的‘朋友’。</baseDesc>
+	</BackstoryDef>
+	
+	<ToolCapacityDef>
+		<defName>FS_Tool_BitisBiten</defName>
+	</ToolCapacityDef>
+
+	<ManeuverDef>
+		<defName>FS_Maneuver_BitisBiten</defName>
+		<requiredCapacity>FS_Tool_BitisBiten</requiredCapacity>
+		<verb>
+			<verbClass>Verb_MeleeApplyHediff</verbClass>
+			<bodypartTagTarget>BloodPumpingSource</bodypartTagTarget>
+		</verb>
+		<logEntryDef>MeleeAttack</logEntryDef>
+		<combatLogRulesHit>Maneuver_Stab_MeleeHit</combatLogRulesHit>
+		<combatLogRulesDeflect>Maneuver_Stab_MeleeDeflect</combatLogRulesDeflect>
+		<combatLogRulesMiss>Maneuver_Stab_MeleeMiss</combatLogRulesMiss>
+		<combatLogRulesDodge>Maneuver_Stab_MeleeDodge</combatLogRulesDodge>
+	</ManeuverDef>
+	
+   <HediffDef>
+    <defName>FS_Hediff_BitisBiten</defName>
+    <label>沟牙猛毒</label>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.9, 1.0, 0.35)</defaultLabelColor>
+    <description>中了猛毒。</description>
+    <maxSeverity>1</maxSeverity>
+	<lethalSeverity>1</lethalSeverity>
+    <initialSeverity>0.001</initialSeverity>
+    <tendable>false</tendable>
+    <isBad>true</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>6</severityPerDay>
+      </li>
+    </comps>
+    <makesSickThought>false</makesSickThought>
+    <stages>
+      <li>
+        <painOffset>0.2</painOffset>
+        <becomeVisible>true</becomeVisible>
+      </li>
+    </stages>
+  </HediffDef>
+	
+</Defs>
