@@ -9,41 +9,41 @@
 		<description>罗德岛术士干员咝蝰，她的剧毒和她的‘朋友’会让敌人品尝到痛苦的滋味。</description>
 		<operatorType>AK_OperatorClass_Caster</operatorType>
 		<bodyTypeDef>Thin</bodyTypeDef>		
-		<stand>Credit/Bitis/BitisStand</stand>
-		<headPortrait>Credit/Bitis/BitisPortrait</headPortrait>
+		<stand>Sponsor/Bitis/BitisStand</stand>
+		<headPortrait>Sponsor/Bitis/BitisPortrait</headPortrait>
 		<apparels>
 			<li>FS_Apparel_Bitis</li>
 		</apparels>
 		<skills>
 			<li>
 				<skill>Animals</skill>
-				<level>20</level>
+				<level>1</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Artistic</skill>
-				<level>7</level>
-				<fireLevel>0</fireLevel>
+				<level>9</level>
+				<fireLevel>1</fireLevel>
 			</li>
 			<li>
 				<skill>Construction</skill>
-				<level>4</level>
+				<level>1</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Cooking</skill>
-				<level>4</level>
+				<level>3</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Crafting</skill>
-				<level>4</level>
+				<level>5</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Intellectual</skill>
-				<level>6</level>
-				<fireLevel>0</fireLevel>
+				<level>10</level>
+				<fireLevel>1</fireLevel>
 			</li>
 			<li>
 				<skill>Medicine</skill>
@@ -52,28 +52,28 @@
 			</li>
 			<li>
 				<skill>Melee</skill>
-				<level>20</level>
-				<fireLevel></fireLevel>
+				<level>8</level>
+				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Mining</skill>
-				<level>4</level>
+				<level>0</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Plants</skill>
-				<level>4</level>
+				<level>2</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Shooting</skill>
-				<level>10</level>
-				<fireLevel>0</fireLevel>
+				<level>15</level>
+				<fireLevel>2</fireLevel>
 			</li>
 			<li>
 				<skill>Social</skill>
-				<level>10</level>
-				<fireLevel>0</fireLevel>
+				<level>14</level>
+				<fireLevel>2</fireLevel>
 			</li>
 		</skills>
 		<traits>
@@ -84,7 +84,7 @@
 				<def>FS_Trait_Bitis</def>
 			</li>
 		</traits>
-		<age>20</age>
+		<age>14</age>
 		<standRatio>3</standRatio>
 		<standOffset>(0, 0)</standOffset>
 	</AK_DLL.OperatorDef>
@@ -110,9 +110,9 @@
 				<label>贪食猎手</label>
 				<description>{PAWN_nameDef}是贪婪的猎人也是贪婪的吞食者，她饥饿的很快，脱战后可以快速回血。</description>
 				<statFactors>
-					<HungerRateMultiplier>1.5</HungerRateMultiplier>
 					<InjuryHealingFactor>1.5</InjuryHealingFactor>
 				</statFactors>
+				<hungerRateFactor>1.5</hungerRateFactor>
 			</li>
 		</degreeDatas>
 	</TraitDef>
@@ -120,7 +120,7 @@
 	<HairDef ParentName="AK_HairBaseF">
 		<defName>FS_Hair_Bitis</defName>
 		<label>咝蝰的短发</label>
-		<texPath>Credit/Bitis/BitisHair</texPath>
+		<texPath>Sponsor/Bitis/BitisHair</texPath>
 	</HairDef>  
 	
 	<ThingDef ParentName="MeleeWeaponUltratech">
@@ -135,63 +135,73 @@
 		  <li>MeleePiercer</li>
 		</weaponClasses>
 		<graphicData>
-		  <texPath>Credit/Bitis/Weapon</texPath>
+		  <texPath>Sponsor/Bitis/Weapon</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>FS_Bullet_BitisBook</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>1.2</warmupTime>				<!--前摇-->
+				<range>50</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_Deepcolor</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
 		<tools>
 		  <li>
-			<label>挥击</label>
+			<label>书本敲打</label>
 			<capacities>
 			  <li>Blunt</li>
+			  <li>FS_Tool_BitisBiten</li>
 			</capacities>
-			<power>1</power>
-			<armorPenetration>2.0</armorPenetration>
-			<extraMeleeDamages>
-			  <li>
-				<def>Blunt</def>
-				<amount>11</amount>
-				<armorPenetration>2</armorPenetration>
-			  </li>
-			</extraMeleeDamages>
+			<power>15</power>
+			<armorPenetration>1.0</armorPenetration>
 			<chanceFactor>20</chanceFactor>
-			<cooldownTime>1.6</cooldownTime>
-		  </li>
-		  <li>
-			<label>突刺</label>
-			<capacities>
-			  <li>Blunt</li>
-			</capacities>
-			<power>1</power>
-			<extraMeleeDamages>
-			  <li>
-				<def>Blunt</def>
-				<amount>24</amount>
-				<armorPenetration>2.0</armorPenetration>
-			  </li>
-			</extraMeleeDamages>
-			<cooldownTime>2</cooldownTime>
-			<chanceFactor>20</chanceFactor>
-			<armorPenetration>2.0</armorPenetration>
-		  </li>
-		  <li>
-			<label>重剃</label>
-			<capacities>
-			  <li>Blunt</li>
-			</capacities>
-			<power>1</power>
-			<extraMeleeDamages>
-			  <li>
-				<def>Blunt</def>
-				<amount>24</amount>
-				<armorPenetration>2.0</armorPenetration>
-			  </li>
-			</extraMeleeDamages>
-			<cooldownTime>2</cooldownTime>
-			<armorPenetration>2.0</armorPenetration>
-			<chanceFactor>20</chanceFactor>
+			<cooldownTime>1</cooldownTime>
+			<hediff>FS_Hediff_BitisBiten</hediff>
 		  </li>
 		</tools>
 	</ThingDef>
+	
+  <ThingDef ParentName="BaseBullet">
+    <defName>FS_Bullet_BitisBook</defName>
+    <label>魔法弹</label>
+    <graphicData>
+      <texPath>Things/Projectile/ToxicNeedleShot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>FS_Damage_BitisPoison</damageDef>
+      <damageAmountBase>25</damageAmountBase>
+      <armorPenetrationBase>1</armorPenetrationBase>
+      <stoppingPower>1.5</stoppingPower>
+      <speed>180</speed>
+    </projectile>
+  </ThingDef>
+	
+  <DamageDef ParentName="Bullet">
+    <defName>FS_Damage_BitisPoison</defName>
+    <label>toxic bullet</label>
+    <additionalHediffs>
+      <li>
+        <hediff>FS_Hediff_BitisBiten</hediff>
+        <severityPerDamageDealt>0.0001</severityPerDamageDealt>
+        <victimSeverityScaling>ToxicResistance</victimSeverityScaling>
+        <inverseStatScaling>true</inverseStatScaling>
+        <victimSeverityScalingByInvBodySize>false</victimSeverityScalingByInvBodySize>
+      </li>
+    </additionalHediffs>
+    <applyAdditionalHediffsIfHuntingForFood>false</applyAdditionalHediffsIfHuntingForFood>
+    <impactSoundType>Bullet</impactSoundType>
+  </DamageDef>
 	
 	<ThingDef ParentName="AK_ArmorBase">
 		<defName>FS_Apparel_Bitis</defName>
@@ -213,7 +223,7 @@
 			<li>Arms</li>
 			<li>Legs</li>
 		  </bodyPartGroups>
-		  <wornGraphicPath>Credit/Bitis/Bitis</wornGraphicPath>
+		  <wornGraphicPath>Sponsor/Bitis/Bitis</wornGraphicPath>
 		  <useWornGraphicMask>true</useWornGraphicMask>
 		  <layers>
 			<li>OnSkin</li>
@@ -252,5 +262,48 @@
 		<titleShort>蛇之少女</titleShort>
 		<baseDesc>来自萨尔贡的谜之斐迪亚少女，手中总是拿着如同活物一样的书籍，据说是她最亲密的‘朋友’。</baseDesc>
 	</BackstoryDef>
+	
+	<ToolCapacityDef>
+		<defName>FS_Tool_BitisBiten</defName>
+	</ToolCapacityDef>
+
+	<ManeuverDef>
+		<defName>FS_Maneuver_BitisBiten</defName>
+		<requiredCapacity>FS_Tool_BitisBiten</requiredCapacity>
+		<verb>
+			<verbClass>Verb_MeleeApplyHediff</verbClass>
+			<bodypartTagTarget>BloodPumpingSource</bodypartTagTarget>
+		</verb>
+		<logEntryDef>MeleeAttack</logEntryDef>
+		<combatLogRulesHit>Maneuver_Stab_MeleeHit</combatLogRulesHit>
+		<combatLogRulesDeflect>Maneuver_Stab_MeleeDeflect</combatLogRulesDeflect>
+		<combatLogRulesMiss>Maneuver_Stab_MeleeMiss</combatLogRulesMiss>
+		<combatLogRulesDodge>Maneuver_Stab_MeleeDodge</combatLogRulesDodge>
+	</ManeuverDef>
+	
+   <HediffDef>
+    <defName>FS_Hediff_BitisBiten</defName>
+    <label>沟牙猛毒</label>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.9, 1.0, 0.35)</defaultLabelColor>
+    <description>中了猛毒。</description>
+    <maxSeverity>1</maxSeverity>
+	<lethalSeverity>1</lethalSeverity>
+    <initialSeverity>0.001</initialSeverity>
+    <tendable>false</tendable>
+    <isBad>true</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>6</severityPerDay>
+      </li>
+    </comps>
+    <makesSickThought>false</makesSickThought>
+    <stages>
+      <li>
+        <painOffset>0.2</painOffset>
+        <becomeVisible>true</becomeVisible>
+      </li>
+    </stages>
+  </HediffDef>
 	
 </Defs>
