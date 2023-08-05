@@ -29,6 +29,7 @@
     <statBases>
       <MaxHitPoints>250</MaxHitPoints>
       <WorkToBuild>2200</WorkToBuild>
+      <Mass>3</Mass>
       <Flammability>0.6</Flammability>
     </statBases>
     <size>(3,2)</size>
@@ -45,8 +46,11 @@
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
     <designationCategory>Misc</designationCategory>
     <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsMisc</li>
+    </thingCategories>
     <comps>
-       <li Class="CompProperties_Refuelable">
+      <li Class="CompProperties_Refuelable">
         <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
         <fuelCapacity>10</fuelCapacity>
         <fuelFilter>
