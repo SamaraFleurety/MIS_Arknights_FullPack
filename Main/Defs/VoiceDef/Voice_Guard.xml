@@ -5573,4 +5573,225 @@
 		</subSounds>
 	</SoundDef>
 
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Recruit_Indra</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Guard/Indra/char_155_tiger/Recruit_Indra</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Die_Indra</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Guard/Indra/char_155_tiger/Die_Indra</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Undraft_Indra</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Guard/Indra/char_155_tiger/Undraft_Indra</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_IndraI</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Guard/Indra/char_155_tiger/Select_IndraI</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_IndraII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Guard/Indra/char_155_tiger/Select_IndraII</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_IndraIII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Guard/Indra/char_155_tiger/Select_IndraIII</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_IndraIV</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Guard/Indra/char_155_tiger/Select_IndraIV</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Draft_IndraI</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Guard/Indra/char_155_tiger/Draft_IndraI</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Draft_IndraII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Guard/Indra/char_155_tiger/Draft_IndraII</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_IndraI</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Guard/Indra/char_155_tiger/Ability_IndraI</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_IndraII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Guard/Indra/char_155_tiger/Ability_IndraII</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_IndraIII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Guard/Indra/char_155_tiger/Ability_IndraIII</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_IndraIV</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Guard/Indra/char_155_tiger/Ability_IndraIV</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
 </Defs>

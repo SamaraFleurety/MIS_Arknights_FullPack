@@ -313,4 +313,16 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Guard">
+		<defName>AK_Apparel_Indra</defName>
+		<label>因陀罗服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Guard/Indra</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Guard/Indra</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 </Defs>

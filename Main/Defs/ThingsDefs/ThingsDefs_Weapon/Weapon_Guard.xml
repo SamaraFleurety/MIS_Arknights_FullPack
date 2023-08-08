@@ -1344,4 +1344,14 @@
     </projectile>
   </ThingDef>
 
+	<ThingDef ParentName="AK_WeaponBase_Guard">
+		<defName>AK_Weapon_Indra</defName>
+		<label>因陀罗的指虎</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Guard/IndraW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<description>因陀罗的指虎，下置了一个尖刀，可以刺或捅。</description>
+	</ThingDef>
+
 </Defs>

@@ -475,10 +475,12 @@
 				<description>即使作为神民血脉稀释过的后裔，霍尔海雅依旧拥有强大的身体素质和战斗能力，这一点是毋庸置疑的。
 				</description>
 				<statOffsets>
-					<IncomingDamageFactor>0.6</IncomingDamageFactor>
 					<ShootingAccuracyPawn>0.25</ShootingAccuracyPawn>
 					<MeleeDPS>1.5</MeleeDPS>
 				</statOffsets>
+				<statFactors>
+					<IncomingDamageFactor>0.6</IncomingDamageFactor>
+				</statFactors>
 			</li>
 		</degreeDatas>
 	</TraitDef>

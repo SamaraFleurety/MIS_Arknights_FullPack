@@ -424,4 +424,20 @@ ok halda njarðlásar níu.</baseDesc>
 		</baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Indra_Child</defName>
+		<slot>Childhood</slot>
+		<title>伦蒂尼姆贫民区的孩子</title>
+		<titleShort>伦蒂尼姆贫民区的孩子</titleShort>
+		<baseDesc>{PAWN_nameDef}从小混迹于伦蒂尼姆肮脏混乱的贫民区，从小混迹于斗殴的街头给她带来了很强的战斗本领。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Indra_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>格拉斯哥帮小头目</title>
+		<titleShort>格拉斯哥帮小头目</titleShort>
+		<baseDesc>格拉斯哥帮混迹于维多利亚的贫民区，最开始本身是由摩根和因陀罗带领的街头组织。她们霸占了一方的地盘，为了生存过着混乱的生活，直到推进之王出现在了她们面前。</baseDesc>
+	</BackstoryDef>
+
 </Defs>
