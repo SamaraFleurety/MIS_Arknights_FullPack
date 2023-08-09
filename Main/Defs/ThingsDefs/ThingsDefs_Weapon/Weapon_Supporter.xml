@@ -54,16 +54,10 @@
 		</graphicData>
 		<thingClass>Bullet</thingClass>
 		<projectile>
-			<damageDef>Bullet</damageDef>			<!--伤害类型-->
-			<damageAmountBase>0</damageAmountBase>
+			<damageDef>Flame</damageDef>			<!--伤害类型-->
+			<damageAmountBase>28</damageAmountBase>
 			<stoppingPower>8</stoppingPower>
 			<speed>60</speed>
-			<extraDamages>
-				<li>
-					<def>Flame</def>					<!--伤害类型-->
-					<amount>28</amount>					<!--伤害数值-->
-				</li>
-			</extraDamages>
 		</projectile>
 	</ThingDef>
 
@@ -134,16 +128,10 @@
 		</graphicData>
 		<thingClass>Bullet</thingClass>
 		<projectile>
-			<damageDef>Bullet</damageDef>
-			<damageAmountBase>0</damageAmountBase>
+			<damageDef>Flame</damageDef>
+			<damageAmountBase>21</damageAmountBase>
 			<stoppingPower>3</stoppingPower>
 			<speed>60</speed>
-			<extraDamages>
-				<li>
-					<def>Flame</def>					<!--伤害类型-->
-					<amount>21</amount>					<!--伤害数值-->
-				</li>
-			</extraDamages>
 		</projectile>
 	</ThingDef>
 
@@ -214,16 +202,10 @@
 		</graphicData>
 		<thingClass>Bullet</thingClass>
 		<projectile>
-			<damageDef>Bullet</damageDef>			<!--伤害类型-->
-			<damageAmountBase>0</damageAmountBase>
+			<damageDef>Flame</damageDef>			<!--伤害类型-->
+			<damageAmountBase>27</damageAmountBase>
 			<stoppingPower>8</stoppingPower>
 			<speed>60</speed>
-			<extraDamages>
-				<li>
-					<def>Flame</def>					<!--伤害类型-->
-					<amount>27</amount>					<!--伤害数值-->
-				</li>
-			</extraDamages>
 		</projectile>
 	</ThingDef>
 
@@ -294,16 +276,10 @@
 		</graphicData>
 		<thingClass>Bullet</thingClass>
 		<projectile>
-			<damageDef>Bullet</damageDef>
-			<damageAmountBase>0</damageAmountBase>
+			<damageDef>Flame</damageDef>
+			<damageAmountBase>21</damageAmountBase>
 			<stoppingPower>3</stoppingPower>
 			<speed>60</speed>
-			<extraDamages>
-				<li>
-					<def>Flame</def>					<!--伤害类型-->
-					<amount>21</amount>					<!--伤害数值-->
-				</li>
-			</extraDamages>
 		</projectile>
 	</ThingDef>
 
@@ -374,16 +350,10 @@
 		</graphicData>
 		<thingClass>Bullet</thingClass>
 		<projectile>
-			<damageDef>Bullet</damageDef>
-			<damageAmountBase>0</damageAmountBase>
+			<damageDef>Flame</damageDef>
+			<damageAmountBase>39</damageAmountBase>
 			<stoppingPower>3</stoppingPower>
 			<speed>60</speed>
-			<extraDamages>
-				<li>
-					<def>Flame</def>					<!--伤害类型-->
-					<amount>39</amount>					<!--伤害数值-->
-				</li>
-			</extraDamages>
 		</projectile>
 	</ThingDef>
 
@@ -454,16 +424,10 @@
 		</graphicData>
 		<thingClass>Bullet</thingClass>
 		<projectile>
-			<damageDef>Bullet</damageDef>			<!--伤害类型-->
-			<damageAmountBase>0</damageAmountBase>
+			<damageDef>Flame</damageDef>			<!--伤害类型-->
+			<damageAmountBase>24</damageAmountBase>
 			<stoppingPower>8</stoppingPower>
 			<speed>60</speed>
-			<extraDamages>
-				<li>
-					<def>Flame</def>					<!--伤害类型-->
-					<amount>24</amount>					<!--伤害数值-->
-				</li>
-			</extraDamages>
 		</projectile>
 	</ThingDef>
 
@@ -534,16 +498,10 @@
 		</graphicData>
 		<thingClass>Bullet</thingClass>
 		<projectile>
-			<damageDef>Bullet</damageDef>
-			<damageAmountBase>0</damageAmountBase>
+			<damageDef>Flame</damageDef>
+			<damageAmountBase>21</damageAmountBase>
 			<stoppingPower>3</stoppingPower>
 			<speed>60</speed>
-			<extraDamages>
-				<li>
-					<def>Flame</def>					<!--伤害类型-->
-					<amount>21</amount>					<!--伤害数值-->
-				</li>
-			</extraDamages>
 		</projectile>
 	</ThingDef>
 
@@ -634,16 +592,10 @@
 		</graphicData>
 		<thingClass>Bullet</thingClass>
 		<projectile>
-			<damageDef>Bullet</damageDef>
-			<damageAmountBase>0</damageAmountBase>
+			<damageDef>Flame</damageDef>
+			<damageAmountBase>22</damageAmountBase>
 			<stoppingPower>3</stoppingPower>
 			<speed>60</speed>
-			<extraDamages>
-				<li>
-					<def>Flame</def>					<!--伤害类型-->
-					<amount>22</amount>					<!--伤害数值-->
-				</li>
-			</extraDamages>
 		</projectile>
 	</ThingDef>
 
@@ -713,16 +665,10 @@
 		</graphicData>
 		<thingClass>Bullet</thingClass>
 		<projectile>
-			<damageDef>Bullet</damageDef>			<!--伤害类型-->
-			<damageAmountBase>0</damageAmountBase>
+			<damageDef>Flame</damageDef>			<!--伤害类型-->
+			<damageAmountBase>24</damageAmountBase>
 			<stoppingPower>8</stoppingPower>
 			<speed>60</speed>
-			<extraDamages>
-				<li>
-					<def>Flame</def>					<!--伤害类型-->
-					<amount>24</amount>					<!--伤害数值-->
-				</li>
-			</extraDamages>
 		</projectile>
 	</ThingDef>
 
@@ -828,16 +774,10 @@
 		</graphicData>
 		<thingClass>Bullet</thingClass>
 		<projectile>
-			<damageDef>Bullet</damageDef>			<!--伤害类型-->
-			<damageAmountBase>0</damageAmountBase>
+			<damageDef>Flame</damageDef>			<!--伤害类型-->
+			<damageAmountBase>24</damageAmountBase>
 			<stoppingPower>3</stoppingPower>
 			<speed>60</speed>
-			<extraDamages>
-				<li>
-					<def>Flame</def>					<!--伤害类型-->
-					<amount>24</amount>					<!--伤害数值-->
-				</li>
-			</extraDamages>
 		</projectile>
 	</ThingDef>
 
@@ -907,16 +847,10 @@
 		</graphicData>
 		<thingClass>Bullet</thingClass>
 		<projectile>
-			<damageDef>Bullet</damageDef>
-			<damageAmountBase>0</damageAmountBase>
+			<damageDef>Flame</damageDef>
+			<damageAmountBase>24</damageAmountBase>
 			<stoppingPower>3</stoppingPower>
 			<speed>60</speed>
-			<extraDamages>
-				<li>
-					<def>Flame</def>					<!--伤害类型-->
-					<amount>24</amount>					<!--伤害数值-->
-				</li>
-			</extraDamages>
 		</projectile>
 	</ThingDef>
 
@@ -1006,16 +940,10 @@
 		</graphicData>
 		<thingClass>Bullet</thingClass>
 		<projectile>
-			<damageDef>Bullet</damageDef>			<!--伤害类型-->
-			<damageAmountBase>0</damageAmountBase>
+			<damageDef>Flame</damageDef>			<!--伤害类型-->
+			<damageAmountBase>27</damageAmountBase>
 			<stoppingPower>8</stoppingPower>
 			<speed>60</speed>
-			<extraDamages>
-				<li>
-					<def>Flame</def>					<!--伤害类型-->
-					<amount>27</amount>					<!--伤害数值-->
-				</li>
-			</extraDamages>
 		</projectile>
 	</ThingDef>
 
@@ -1081,16 +1009,10 @@
 		</graphicData>
 		<thingClass>Bullet</thingClass>
 		<projectile>
-			<damageDef>Bullet</damageDef>
-			<damageAmountBase>0</damageAmountBase>
+			<damageDef>Flame</damageDef>
+			<damageAmountBase>22</damageAmountBase>
 			<stoppingPower>3</stoppingPower>
 			<speed>60</speed>
-			<extraDamages>
-				<li>
-					<def>Flame</def>					<!--伤害类型-->
-					<amount>22</amount>					<!--伤害数值-->
-				</li>
-			</extraDamages>
 		</projectile>
 	</ThingDef>
 

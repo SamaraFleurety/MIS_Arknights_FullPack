@@ -145,15 +145,11 @@
 		</graphicData>
 		<thingClass>Bullet</thingClass>
 		<projectile>
-			<damageDef>Bullet</damageDef>
-			<damageAmountBase>0</damageAmountBase>
+			<damageDef>Flame</damageDef>
+			<damageAmountBase>18</damageAmountBase>
 			<stoppingPower>3</stoppingPower>
 			<speed>50</speed>
 			<extraDamages>
-				<li>
-					<def>Flame</def>
-					<amount>18</amount>					<!--伤害数值-->
-				</li>
 				<li>
 					<def>Burn</def>
 					<amount>12</amount>					<!--伤害数值-->
@@ -235,16 +231,10 @@
 		</graphicData>
 		<thingClass>Bullet</thingClass>
 		<projectile>
-			<damageDef>Bullet</damageDef>
-			<damageAmountBase>0</damageAmountBase>
+			<damageDef>Flame</damageDef>
+			<damageAmountBase>45</damageAmountBase>
 			<stoppingPower>3</stoppingPower>
 			<speed>50</speed>
-			<extraDamages>
-				<li>
-					<def>Flame</def>
-					<amount>45</amount>					<!--伤害数值-->
-				</li>
-			</extraDamages>
 			<soundExplode>ThumpCannon_Impact</soundExplode>
 		</projectile>
 	</ThingDef>
@@ -323,16 +313,10 @@
 		</graphicData>
 		<thingClass>Bullet</thingClass>
 		<projectile>
-			<damageDef>Bullet</damageDef>
-			<damageAmountBase>0</damageAmountBase>
+			<damageDef>Flame</damageDef>
+			<damageAmountBase>30</damageAmountBase>
 			<stoppingPower>3</stoppingPower>
 			<speed>50</speed>
-			<extraDamages>
-				<li>
-					<def>Flame</def>
-					<amount>30</amount>					<!--伤害数值-->
-				</li>
-			</extraDamages>
 			<soundExplode>ThumpCannon_Impact</soundExplode>
 		</projectile>
 	</ThingDef>
@@ -544,16 +528,10 @@
 		</graphicData>
 		<thingClass>Bullet</thingClass>
 		<projectile>
-			<damageDef>Bullet</damageDef>
-			<damageAmountBase>0</damageAmountBase>
+			<damageDef>Flame</damageDef>
+			<damageAmountBase>21</damageAmountBase>
 			<stoppingPower>3</stoppingPower>
 			<speed>50</speed>
-			<extraDamages>
-				<li>
-					<def>Flame</def>
-					<amount>21</amount>					<!--伤害数值-->
-				</li>
-			</extraDamages>
 			<soundExplode>ThumpCannon_Impact</soundExplode>
 		</projectile>
 	</ThingDef>
@@ -781,16 +759,10 @@
 		</graphicData>
 		<thingClass>Bullet</thingClass>
 		<projectile>
-			<damageDef>Bullet</damageDef>
-			<damageAmountBase>0</damageAmountBase>
+			<damageDef>Flame</damageDef>
+			<damageAmountBase>24</damageAmountBase>
 			<stoppingPower>3</stoppingPower>
 			<speed>50</speed>
-			<extraDamages>
-				<li>
-					<def>Flame</def>
-					<amount>24</amount>					<!--伤害数值-->
-				</li>
-			</extraDamages>
 			<soundExplode>ThumpCannon_Impact</soundExplode>
 		</projectile>
 	</ThingDef>
@@ -861,15 +833,11 @@
 		</graphicData>
 		<thingClass>Bullet</thingClass>
 		<projectile>
-			<damageDef>Bullet</damageDef>
-			<damageAmountBase>0</damageAmountBase>
+			<damageDef>Flame</damageDef>
+			<damageAmountBase>18</damageAmountBase>
 			<stoppingPower>3</stoppingPower>
 			<speed>50</speed>
 			<extraDamages>
-				<li>
-					<def>Flame</def>
-					<amount>18</amount>					<!--伤害数值-->
-				</li>
 				<li>
 					<def>Burn</def>
 					<amount>12</amount>					<!--伤害数值-->
@@ -945,15 +913,11 @@
 		</graphicData>
 		<thingClass>Bullet</thingClass>
 		<projectile>
-			<damageDef>Bullet</damageDef>
-			<damageAmountBase>0</damageAmountBase>
+			<damageDef>Flame</damageDef>
+			<damageAmountBase>24</damageAmountBase>
 			<stoppingPower>3</stoppingPower>
 			<speed>50</speed>
 			<extraDamages>
-				<li>
-					<def>Flame</def>
-					<amount>24</amount>					<!--伤害数值-->
-				</li>
 				<li>
 					<def>Burn</def>
 					<amount>18</amount>					<!--伤害数值-->
@@ -1093,16 +1057,10 @@
 		</graphicData>
 		<thingClass>Bullet</thingClass>
 		<projectile>
-			<damageDef>Bullet</damageDef>
-			<damageAmountBase>0</damageAmountBase>
+			<damageDef>Flame</damageDef>
+			<damageAmountBase>45</damageAmountBase>
 			<stoppingPower>3</stoppingPower>
 			<speed>50</speed>
-			<extraDamages>
-				<li>
-					<def>Flame</def>
-					<amount>45</amount>					<!--伤害数值-->
-				</li>
-			</extraDamages>
 			<soundExplode>ThumpCannon_Impact</soundExplode>
 		</projectile>
 	</ThingDef>
@@ -1174,17 +1132,11 @@
 		</graphicData>
 		<thingClass>Bullet</thingClass>
 		<projectile>
-			<damageDef>Bullet</damageDef>
-			<damageAmountBase>0</damageAmountBase>
+			<damageDef>Flame</damageDef>
+			<damageAmountBase>21</damageAmountBase>
 			<stoppingPower>3</stoppingPower>
+			<armorPenetrationBase>0.6</armorPenetrationBase>
 			<speed>50</speed>
-			<extraDamages>
-				<li>
-					<def>Flame</def>
-					<amount>21</amount>					<!--伤害数值-->
-					<armorPenetration>0.6</armorPenetration>					<!--穿甲-->
-				</li>
-			</extraDamages>
 			<soundExplode>ThumpCannon_Impact</soundExplode>
 		</projectile>
 	</ThingDef>
@@ -1280,17 +1232,11 @@
 		</graphicData>
 		<thingClass>Bullet</thingClass>
 		<projectile>
-			<damageDef>Bullet</damageDef>
-			<damageAmountBase>0</damageAmountBase>
+			<damageDef>Flame</damageDef>
+			<damageAmountBase>18</damageAmountBase>
 			<stoppingPower>3</stoppingPower>
+			<armorPenetrationBase>0.6</armorPenetrationBase>
 			<speed>50</speed>
-			<extraDamages>
-				<li>
-					<def>Flame</def>
-					<amount>18</amount>					<!--伤害数值-->
-					<armorPenetration>0.6</armorPenetration>					<!--穿甲-->
-				</li>
-			</extraDamages>
 			<soundExplode>ThumpCannon_Impact</soundExplode>
 		</projectile>
 	</ThingDef>
@@ -1348,16 +1294,10 @@
 		</graphicData>
 		<thingClass>Bullet</thingClass>
 		<projectile>
-			<damageDef>Bullet</damageDef>
-			<damageAmountBase>0</damageAmountBase>
+			<damageDef>Flame</damageDef>
+			<damageAmountBase>27</damageAmountBase>
 			<stoppingPower>3</stoppingPower>
 			<speed>50</speed>
-			<extraDamages>
-				<li>
-					<def>Flame</def>
-					<amount>27</amount>					<!--伤害数值-->
-				</li>
-			</extraDamages>
 			<soundExplode>ThumpCannon_Impact</soundExplode>
 		</projectile>
 	</ThingDef>
@@ -1415,16 +1355,10 @@
 		</graphicData>
 		<thingClass>Bullet</thingClass>
 		<projectile>
-			<damageDef>Bullet</damageDef>
-			<damageAmountBase>0</damageAmountBase>
+			<damageDef>Flame</damageDef>
+			<damageAmountBase>32</damageAmountBase>
 			<stoppingPower>3</stoppingPower>
 			<speed>50</speed>
-			<extraDamages>
-				<li>
-					<def>Flame</def>
-					<amount>32</amount>					<!--伤害数值-->
-				</li>
-			</extraDamages>
 			<soundExplode>ThumpCannon_Impact</soundExplode>
 		</projectile>
 	</ThingDef>
@@ -1536,16 +1470,10 @@
 		</graphicData>
 		<thingClass>Bullet</thingClass>
 		<projectile>
-			<damageDef>Bullet</damageDef>
-			<damageAmountBase>0</damageAmountBase>
+			<damageDef>Flame</damageDef>
+			<damageAmountBase>39</damageAmountBase>
 			<stoppingPower>3</stoppingPower>
 			<speed>50</speed>
-			<extraDamages>
-				<li>
-					<def>Flame</def>
-					<amount>39</amount>					<!--伤害数值-->
-				</li>
-			</extraDamages>
 			<soundExplode>ThumpCannon_Impact</soundExplode>
 		</projectile>
 	</ThingDef>
@@ -1603,16 +1531,10 @@
 		</graphicData>
 		<thingClass>Bullet</thingClass>
 		<projectile>
-			<damageDef>Bullet</damageDef>
-			<damageAmountBase>0</damageAmountBase>
+			<damageDef>Flame</damageDef>
+			<damageAmountBase>30</damageAmountBase>
 			<stoppingPower>3</stoppingPower>
 			<speed>50</speed>
-			<extraDamages>
-				<li>
-					<def>Flame</def>
-					<amount>30</amount>					<!--伤害数值-->
-				</li>
-			</extraDamages>
 			<soundExplode>ThumpCannon_Impact</soundExplode>
 		</projectile>
 	</ThingDef>

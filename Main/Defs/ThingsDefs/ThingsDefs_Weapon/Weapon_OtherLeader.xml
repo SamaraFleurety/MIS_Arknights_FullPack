@@ -143,16 +143,10 @@
 		</graphicData>
 		<thingClass>Bullet</thingClass>
 		<projectile>
-			<damageDef>Bullet</damageDef>			<!--伤害类型-->
-			<damageAmountBase>0</damageAmountBase>
+			<damageDef>Flame</damageDef>			<!--伤害类型-->
+			<damageAmountBase>32</damageAmountBase>
 			<stoppingPower>3</stoppingPower>
 			<speed>50</speed>
-			<extraDamages>
-				<li>
-					<def>Flame</def>					<!--伤害类型-->
-					<amount>32</amount>					<!--伤害数值-->
-				</li>
-			</extraDamages>
 			<soundExplode>ThumpCannon_Impact</soundExplode>			<!--爆炸音效-->
 		</projectile>
 	</ThingDef>

@@ -642,14 +642,8 @@
     </graphicData>
     <thingClass>Bullet</thingClass>
     <projectile>
-      <damageDef>Bullet</damageDef>      <!--伤害类型-->
-      <damageAmountBase>0</damageAmountBase>
-      <extraDamages>
-        <li>
-          <def>ToxGas</def>
-          <amount>20</amount>
-        </li>
-      </extraDamages>
+      <damageDef>ToxGas</damageDef>      <!--伤害类型-->
+      <damageAmountBase>20</damageAmountBase>
       <stoppingPower>3</stoppingPower>
       <speed>50</speed>
     </projectile>
