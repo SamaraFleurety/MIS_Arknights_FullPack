@@ -8,13 +8,13 @@
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_Rosa</defName>
 		<requiredTraits>
-			<li>AK_Trait_Rosa</li>
+			<li>AK_Trait_RosaSecond</li>
 		</requiredTraits>
 		<stages>
 			<li>
-				<label>没落的贵族</label>
-				<description>曾经我天真地以为，如果我想要得到什么，就是可以得到的。现在我已经知道，即使大部分东西确实如此，但有些东西是不行的。那是只靠我自己，无论如何也无法获得的东西......</description>
-				<baseMoodEffect>-5</baseMoodEffect>
+				<label>前路迷茫</label>
+				<description>“没事的，经历了那样的事情后，对我来说，所谓贵族的体面，已经最无所谓的东西了。我现在只是和凛冬她们一样，受到保护的普通学生而已。”</description>
+				<baseMoodEffect>-14</baseMoodEffect>
 			</li>
 		</stages>
 	</ThoughtDef>
@@ -202,7 +202,7 @@
 		</requiredTraits>
 		<stages>
 			<li>
-				<label>性格软弱</label>
+				<label>流泪猫猫头</label>
 				<description>我是不是看起来没有什么威严呢？其实我也有自觉的，也想要做出改变......呜......</description>
 				<baseMoodEffect>-5</baseMoodEffect>
 			</li>
@@ -315,8 +315,25 @@
 		<stages>
 			<li>
 				<label>阿涅赛</label>
-				<description> 我还是更喜欢和兽群一起狩猎，它们比人类坦诚得多。</description>
+				<description>我还是更喜欢和兽群一起狩猎，它们比人类坦诚得多。</description>
 				<baseMoodEffect>12</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+
+	<!-- 鸿雪 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Pozyomka</defName>
+		<requiredTraits>
+			<li>AK_Trait_Pozyomka</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>鸿雪</label>
+				<description>城内没有贪得无厌的贵族，也没有趁火打劫的平民，只有善良的杜林人......我还能奢求什么？</description>
+				<baseMoodEffect>0</baseMoodEffect>
 			</li>
 		</stages>
 	</ThoughtDef>
