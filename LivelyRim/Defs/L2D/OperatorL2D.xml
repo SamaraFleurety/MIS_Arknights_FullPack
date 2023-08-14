@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<FS_LivelyRim.LiveModelDef>
+		<defName>AK_Live_Rice</defName>
+		<label>rice</label>
+		<modID>FS.LivelyRim</modID>
+		<assetBundle>ricepro</assetBundle>
+		<modelName>rice_pro_t03Motion</modelName>
+		<rigJsonPath>rice_pro_t03.physics3.json</rigJsonPath>
+	</FS_LivelyRim.LiveModelDef>
+	
+	<FS_LivelyRim.LiveModelDef>
+		<defName>AZ_Live_Janus</defName>
+		<label>Janus</label>
+		<modID>FS.LivelyRim</modID>
+		<assetBundle>janustest</assetBundle>
+		<modelName>FileReferences_Moc_0</modelName>
+		<rigJsonPath>FileReferences_Physics_0.physics3.json</rigJsonPath>
+		<eyeFollowMouse>false</eyeFollowMouse>
+		<transform>
+			<li>
+				<key>2</key>
+				<value><location>(10010,-10,10000)</location></value>
+			</li>
+		</transform>
+	</FS_LivelyRim.LiveModelDef>
+	
+</Defs>

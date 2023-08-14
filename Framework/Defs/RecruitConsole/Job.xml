@@ -8,4 +8,10 @@
 		<!--使用招募台-->
 	</JobDef>
 	
+	<JobDef>
+		<defName>AK_OperatorChangeFashion</defName>
+		<driverClass>AK_DLL.JobDriver_OpenFashionTab</driverClass>
+		<reportString>Open Fashion Tab</reportString>
+	</JobDef>
+	
 </Defs>
