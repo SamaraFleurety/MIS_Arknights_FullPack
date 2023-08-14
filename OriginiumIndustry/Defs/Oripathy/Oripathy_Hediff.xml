@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- 矿石病 -->
+  <HediffDef>
+    <defName>AK_Disease_ORG_Dust</defName>
+    <label>源石尘沾染</label>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.9, 1.0, 0.35)</defaultLabelColor>
+    <description>身体表面沾染了源石尘。</description>
+    <maxSeverity>100</maxSeverity>
+    <initialSeverity>0.001</initialSeverity>
+    <tendable>false</tendable>
+    <isBad>true</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+		<severityPerDay>-1</severityPerDay>
+      </li>
+	  <li Class="AK_Industry.HCP_RandAddHediff">
+		<saveChanceByFunc>AK_Industry.Func_OrgDustToOrgBlood</saveChanceByFunc>
+		<hediffStatsSet>
+			<li>
+				<hediff>AK_Disease_ORG_OripathyBlood</hediff>
+				<part></part>
+				<serverity>1</serverity>
+				<randWeight>1</randWeight>
+			</li>
+		</hediffStatsSet>
+	  </li>
+    </comps>
+    <makesSickThought>false</makesSickThought>
+    <stages>
+      <li>
+        <label>初步沾染</label>
+        <painOffset>0.02</painOffset>
+        <becomeVisible>false</becomeVisible>
+      </li>
+      <li>
+        <minSeverity>20</minSeverity>
+        <label>中度沾染</label>
+        <painOffset>0.1</painOffset>
+        <becomeVisible>true</becomeVisible>
+		<capMods>
+			<li>
+				<capacity>Breathing</capacity>
+                <offset>-0.10</offset>
+			</li>
+		</capMods>
+      </li>
+      <li>
+        <minSeverity>50</minSeverity>
+        <label>严重沾染</label>
+        <painOffset>0.15</painOffset>
+		<capMods>
+			<li>
+				<capacity>Breathing</capacity>
+                <offset>-0.15</offset>
+			</li>
+		</capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>AK_Disease_ORG_OripathyBlood</defName>
+    <label>矿石病(血液)</label>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.9, 1.0, 0.35)</defaultLabelColor>
+    <description>感染了源石病。</description>
+    <initialSeverity>0.001</initialSeverity>
+    <tendable>false</tendable>
+    <isBad>true</isBad>
+    <lethalSeverity>1440</lethalSeverity>    <!-- 1 years -->
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>24</severityPerDay>
+      </li>
+	  <li Class="AK_Industry.HCP_OripathyInfo" />
+	  <li Class="AK_Industry.HCP_RandAddHediff">
+		<saveChanceByFunc>AK_Industry.Func_OrgBloodCauseCrystal</saveChanceByFunc>
+		<interval>15</interval>
+		<intervalUnit>day</intervalUnit>
+		<hediffStatsSet>
+		</hediffStatsSet>
+	  </li>
+    </comps>
+    <makesSickThought>true</makesSickThought>
+    <stages>
+      <li>
+        <label>早期</label>
+        <painOffset>0.02</painOffset>
+        <becomeVisible>false</becomeVisible>
+      </li>
+      <li>
+        <minSeverity>1000</minSeverity>
+        <label>加重</label>
+        <painOffset>0.1</painOffset>
+      </li>
+      <li>
+        <minSeverity>2500</minSeverity>
+        <label>严重</label>
+        <painOffset>0.2</painOffset>
+      </li>
+      <li>
+        <minSeverity>4000</minSeverity>
+        <label>极重</label>
+        <painOffset>0.7</painOffset>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>AK_Disease_ORG_OripathyCrystal</defName>
+    <label>源石结晶</label>
+    <description>恶化了源石结晶</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.9, 1.0, 0.35)</defaultLabelColor>
+    <maxSeverity>1440</maxSeverity>
+    <tendable>false</tendable>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>24</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <label>早期</label>
+        <partEfficiencyOffset>-0.25</partEfficiencyOffset>
+      </li>
+      <li>
+        <minSeverity>200</minSeverity>
+        <label>加重</label>
+        <partEfficiencyOffset>-0.5</partEfficiencyOffset>
+      </li>
+      <li>
+        <minSeverity>500</minSeverity>
+        <label>严重</label>
+        <partEfficiencyOffset>-0.75</partEfficiencyOffset>
+      </li>
+      <li>
+        <minSeverity>1200</minSeverity>
+        <label>极重</label>
+        <partEfficiencyOffset>-0.8</partEfficiencyOffset>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="DiseaseBase">
+    <defName>AK_Disease_ORG_Artificial</defName>
+    <label>人工矿石病</label>
+    <description>感染了人工矿石病。</description>
+    <defaultLabelColor>(0.9, 1.0, 0.35)</defaultLabelColor>
+    <makesSickThought>true</makesSickThought>
+    <comps>
+      <li Class="AK_LoveCat.HediffCompProperties_SpawnThing">
+        <spawnInterval>200</spawnInterval>
+        <spawnNum>20</spawnNum>
+        <thingDef>Steel</thingDef>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.7</setMax>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.2</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.2</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+</Defs>

@@ -13,9 +13,20 @@
     <isBad>true</isBad>
     <comps>
       <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>-1</severityPerDay>
+		<severityPerDay>-1</severityPerDay>
       </li>
-	  <li Class="AK_DLL.HCP_OripathyInfo" />
+	  <li Class="AK_Industry.HCP_OripathyInfo" />
+	  <li Class="AK_Industry.HCP_RandAddHediff">
+		<saveChanceByFunc>AK_Industry.Func_OrgDustToOrgBlood</saveChanceByFunc>
+		<hediffStatsSet>
+			<li>
+				<hediff>AK_Disease_ORG_OripathyBlood</hediff>
+				<part></part>
+				<serverity>1</serverity>
+				<randWeight>1</randWeight>
+			</li>
+		</hediffStatsSet>
+	  </li>
     </comps>
     <makesSickThought>false</makesSickThought>
     <stages>
@@ -25,20 +36,27 @@
         <becomeVisible>false</becomeVisible>
       </li>
       <li>
-        <minSeverity>10</minSeverity>
+        <minSeverity>20</minSeverity>
         <label>中度沾染</label>
         <painOffset>0.1</painOffset>
         <becomeVisible>true</becomeVisible>
-      </li>
-      <li>
-        <minSeverity>24</minSeverity>
-        <label>严重沾染</label>
-        <painOffset>0.2</painOffset>
+		<capMods>
+			<li>
+				<capacity>Breathing</capacity>
+                <offset>-0.10</offset>
+			</li>
+		</capMods>
       </li>
       <li>
         <minSeverity>50</minSeverity>
-        <label>完全污染</label>
-        <painOffset>0.7</painOffset>
+        <label>严重沾染</label>
+        <painOffset>0.15</painOffset>
+		<capMods>
+			<li>
+				<capacity>Breathing</capacity>
+                <offset>-0.15</offset>
+			</li>
+		</capMods>
       </li>
     </stages>
   </HediffDef>
