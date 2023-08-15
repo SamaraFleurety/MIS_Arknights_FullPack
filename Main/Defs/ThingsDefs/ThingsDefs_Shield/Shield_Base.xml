@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThingDef Name="AK_BeltBase" Abstract="True" ParentName="ApparelBase" MayRequire="Mlie.VanyaShield">
+        <thingClass>VanyaMod.Vanya_ShieldBelt</thingClass>
+        <techLevel>Spacer</techLevel>
+        <smeltable>false</smeltable>
+        <graphicData>
+            <texPath>Things/ShieldBelt/ShieldBelt</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <Mass>2.4</Mass>
+            <Flammability>0</Flammability>
+            <DeteriorationRate>1</DeteriorationRate>
+            <EquipDelay>2</EquipDelay>
+        </statBases>
+        <tickerType>Normal</tickerType>
+        <comps>
+            <li Class="CompProperties_Biocodable" />
+        </comps>
+        <thingCategories Inherit="false">
+            <li>AK_ShieldBelt</li>
+        </thingCategories>
+        <apparel>
+            <careIfWornByCorpse>false</careIfWornByCorpse>
+            <layers>
+                <li>Belt</li>
+            </layers>
+            <tags>
+                <li>BeltDefense</li>
+            </tags>
+            <bodyPartGroups>
+                <li>Waist</li>
+            </bodyPartGroups>
+        </apparel>
+        <generateCommonality>0.2</generateCommonality>
+    </ThingDef>
+
+    <ThingDef ParentName="AK_BeltBase">
+        <defName>AK_ShieldBelt_Caster</defName>
+        <label>术士护盾</label>
+        <description>术士干员专属护盾，在有了足够抵御敌人投射物攻击的同时能够在近战中留下足够的空间。</description>
+        <statBases>
+            <EnergyShieldRechargeRate>0.15</EnergyShieldRechargeRate>
+            <EnergyShieldEnergyMax>1.6</EnergyShieldEnergyMax>
+        </statBases>
+        <graphicData>
+            <color>(0,210,255)</color>
+        </graphicData>
+        <comps>
+            <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+                <startingTicksToReset>3600</startingTicksToReset>
+                <energyOnReset>0.2</energyOnReset>
+                <energyLossPerDamage>1</energyLossPerDamage>
+                <canAbsorbMeleeDamage>true</canAbsorbMeleeDamage>
+                <meleeAbsorbFactor>2</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1</rangedAbsorbFactor>
+                <canDodge>true</canDodge>
+                <dodgeChanceFactor>0.1</dodgeChanceFactor>
+                <breakWithSmoke>true</breakWithSmoke>
+                <canForceActive>true</canForceActive>
+                <fireFoamBurster>true</fireFoamBurster>
+                <versionInfo>Caster-Shield</versionInfo>
+                <alias>术士基础护盾</alias>
+                <bubbleTexPath>Things/ShieldBelt/ShieldBubble</bubbleTexPath>
+                <bubbleColor>(0, 210, 255)</bubbleColor>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="AK_BeltBase">
+        <defName>AK_ShieldBelt_Defender</defName>
+        <label>重装护盾</label>
+        <description>重装干员专属护盾，非常坚固，穿上它宛如被一座堡垒庇护，但是也对行动造成了不便。</description>
+        <statBases>
+            <EnergyShieldRechargeRate>0.15</EnergyShieldRechargeRate>
+            <EnergyShieldEnergyMax>3</EnergyShieldEnergyMax>
+        </statBases>
+        <graphicData>
+            <color>(255,210,125)</color>
+        </graphicData>
+        <comps>
+            <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+                <startingTicksToReset>6000</startingTicksToReset>
+                <energyOnReset>0.2</energyOnReset>
+                <energyLossPerDamage>1.5</energyLossPerDamage>
+                <canAbsorbMeleeDamage>true</canAbsorbMeleeDamage>
+                <meleeAbsorbFactor>1</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1</rangedAbsorbFactor>
+                <canDodge>true</canDodge>
+                <breakWithSmoke>false</breakWithSmoke>
+                <canForceActive>true</canForceActive>
+                <fireFoamBurster>true</fireFoamBurster>
+                <versionInfo>Defender-Shield</versionInfo>
+                <alias>重装基础护盾</alias>
+                <bubbleTexPath>Things/ShieldBelt/ShieldBubble</bubbleTexPath>
+                <bubbleColor>(255,210,125)</bubbleColor>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="AK_BeltBase">
+        <defName>AK_ShieldBelt_Guard</defName>
+        <label>近卫护盾</label>
+        <description>近卫干员专属护盾，有着较强的续航功能，适合近卫干员的持续作战。</description>
+        <statBases>
+            <EnergyShieldRechargeRate>0.2</EnergyShieldRechargeRate>
+            <EnergyShieldEnergyMax>2.4</EnergyShieldEnergyMax>
+        </statBases>
+        <graphicData>
+            <color>(255,235,125)</color>
+        </graphicData>
+        <comps>
+            <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+                <startingTicksToReset>4800</startingTicksToReset>
+                <energyOnReset>0.2</energyOnReset>
+                <energyLossPerDamage>1.5</energyLossPerDamage>
+                <canAbsorbMeleeDamage>true</canAbsorbMeleeDamage>
+                <meleeAbsorbFactor>1.5</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1.5</rangedAbsorbFactor>
+                <canDodge>true</canDodge>
+                <breakWithSmoke>false</breakWithSmoke>
+                <canForceActive>true</canForceActive>
+                <fireFoamBurster>true</fireFoamBurster>
+                <versionInfo>Guard-Shield</versionInfo>
+                <alias>近卫基础护盾</alias>
+                <bubbleTexPath>Things/ShieldBelt/ShieldBubble</bubbleTexPath>
+                <bubbleColor>(255,235,125)</bubbleColor>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="AK_BeltBase">
+        <defName>AK_ShieldBelt_Medic</defName>
+        <label>医疗护盾</label>
+        <description>医疗干员专属护盾，为医疗和后勤干员准备，足够坚固，但是被击破后医疗干员基本上没有多的应对手段。</description>
+        <statBases>
+            <EnergyShieldRechargeRate>0.3</EnergyShieldRechargeRate>
+            <EnergyShieldEnergyMax>2</EnergyShieldEnergyMax>
+        </statBases>
+        <graphicData>
+            <color>(255,65,0)</color>
+        </graphicData>
+        <comps>
+            <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+                <startingTicksToReset>4800</startingTicksToReset>
+                <energyOnReset>0.3</energyOnReset>
+                <energyLossPerDamage>1</energyLossPerDamage>
+                <canAbsorbMeleeDamage>true</canAbsorbMeleeDamage>
+                <meleeAbsorbFactor>2</meleeAbsorbFactor>
+                <rangedAbsorbFactor>0.8</rangedAbsorbFactor>
+                <canDodge>true</canDodge>
+                <dodgeChanceFactor>0.2</dodgeChanceFactor>
+                <breakWithSmoke>true</breakWithSmoke>
+                <canForceActive>false</canForceActive>
+                <fireFoamBurster>true</fireFoamBurster>
+                <versionInfo>Medic-Shield</versionInfo>
+                <alias>医疗基础护盾</alias>
+                <bubbleTexPath>Things/ShieldBelt/ShieldBubble</bubbleTexPath>
+                <bubbleColor>(255,65,0)</bubbleColor>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="AK_BeltBase">
+        <defName>AK_ShieldBelt_Sniper</defName>
+        <label>狙击护盾</label>
+        <description>狙击干员专属护盾，在有了足够抵御敌人投射物攻击的同时能够在近战中留下足够的空间。</description>
+        <statBases>
+            <EnergyShieldRechargeRate>0.15</EnergyShieldRechargeRate>
+            <EnergyShieldEnergyMax>1.6</EnergyShieldEnergyMax>
+        </statBases>
+        <graphicData>
+            <color>(255,160,125)</color>
+        </graphicData>
+        <comps>
+            <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+                <startingTicksToReset>3600</startingTicksToReset>
+                <energyOnReset>0.2</energyOnReset>
+                <energyLossPerDamage>1</energyLossPerDamage>
+                <canAbsorbMeleeDamage>true</canAbsorbMeleeDamage>
+                <meleeAbsorbFactor>2</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1</rangedAbsorbFactor>
+                <canDodge>true</canDodge>
+                <dodgeChanceFactor>0.1</dodgeChanceFactor>
+                <breakWithSmoke>true</breakWithSmoke>
+                <canForceActive>true</canForceActive>
+                <fireFoamBurster>true</fireFoamBurster>
+                <versionInfo>Sniper-Shield</versionInfo>
+                <alias>狙击基础护盾</alias>
+                <bubbleTexPath>Things/ShieldBelt/ShieldBubble</bubbleTexPath>
+                <bubbleColor>(255,160,125)</bubbleColor>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="AK_BeltBase">
+        <defName>AK_ShieldBelt_Specialist</defName>
+        <label>特种护盾</label>
+        <description>特种干员专属护盾，进行了特化改造，允许特种干员穿着它进行各种特种行动。</description>
+        <statBases>
+            <EnergyShieldRechargeRate>0.2</EnergyShieldRechargeRate>
+            <EnergyShieldEnergyMax>1.6</EnergyShieldEnergyMax>
+        </statBases>
+        <graphicData>
+            <color>(0,255,170)</color>
+        </graphicData>
+        <comps>
+            <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+                <startingTicksToReset>3600</startingTicksToReset>
+                <energyOnReset>0.3</energyOnReset>
+                <energyLossPerDamage>1</energyLossPerDamage>
+                <canAbsorbMeleeDamage>true</canAbsorbMeleeDamage>
+                <meleeAbsorbFactor>2</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1.5</rangedAbsorbFactor>
+                <canDodge>true</canDodge>
+                <dodgeChanceFactor>0.2</dodgeChanceFactor>
+                <breakWithSmoke>false</breakWithSmoke>
+                <canForceActive>true</canForceActive>
+                <fireFoamBurster>true</fireFoamBurster>
+                <versionInfo>Specialist-Shield</versionInfo>
+                <alias>特种基础护盾</alias>
+                <bubbleTexPath>Things/ShieldBelt/ShieldBubble</bubbleTexPath>
+                <bubbleColor>(0,255,170)</bubbleColor>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="AK_BeltBase">
+        <defName>AK_ShieldBelt_Supporter</defName>
+        <label>辅助护盾</label>
+        <description>辅助干员专属护盾，在有了足够抵御敌人投射物攻击的同时能够在近战中留下足够的空间。</description>
+        <statBases>
+            <EnergyShieldRechargeRate>0.15</EnergyShieldRechargeRate>
+            <EnergyShieldEnergyMax>1.6</EnergyShieldEnergyMax>
+        </statBases>
+        <graphicData>
+            <color>(115,175,255)</color>
+        </graphicData>
+        <comps>
+            <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+                <startingTicksToReset>3600</startingTicksToReset>
+                <energyOnReset>0.2</energyOnReset>
+                <energyLossPerDamage>1</energyLossPerDamage>
+                <canAbsorbMeleeDamage>true</canAbsorbMeleeDamage>
+                <meleeAbsorbFactor>2</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1</rangedAbsorbFactor>
+                <canDodge>true</canDodge>
+                <dodgeChanceFactor>0.1</dodgeChanceFactor>
+                <breakWithSmoke>true</breakWithSmoke>
+                <canForceActive>true</canForceActive>
+                <fireFoamBurster>true</fireFoamBurster>
+                <versionInfo>Supporter-Shield</versionInfo>
+                <alias>辅助基础护盾</alias>
+                <bubbleTexPath>Things/ShieldBelt/ShieldBubble</bubbleTexPath>
+                <bubbleColor>(115,175,255)</bubbleColor>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="AK_BeltBase">
+        <defName>AK_ShieldBelt_Vanguard</defName>
+        <label>先锋护盾</label>
+        <description>先锋干员专属护盾，在足够轻量的同时提供了足够的防御，为第一线的先锋干员保驾护航。</description>
+        <statBases>
+            <EnergyShieldRechargeRate>0.2</EnergyShieldRechargeRate>
+            <EnergyShieldEnergyMax>2</EnergyShieldEnergyMax>
+        </statBases>
+        <graphicData>
+            <color>(130,255,125)</color>
+        </graphicData>
+        <comps>
+            <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+                <startingTicksToReset>3600</startingTicksToReset>
+                <energyOnReset>0.2</energyOnReset>
+                <energyLossPerDamage>1.5</energyLossPerDamage>
+                <canAbsorbMeleeDamage>true</canAbsorbMeleeDamage>
+                <meleeAbsorbFactor>1.5</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1.5</rangedAbsorbFactor>
+                <canDodge>true</canDodge>
+                <dodgeChanceFactor>0.1</dodgeChanceFactor>
+                <breakWithSmoke>false</breakWithSmoke>
+                <canForceActive>true</canForceActive>
+                <fireFoamBurster>true</fireFoamBurster>
+                <versionInfo>Vanguard-Shield</versionInfo>
+                <alias>先锋基础护盾</alias>
+                <bubbleTexPath>Things/ShieldBelt/ShieldBubble</bubbleTexPath>
+                <bubbleColor>(255,160,125)</bubbleColor>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>

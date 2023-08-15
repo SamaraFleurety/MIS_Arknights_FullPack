@@ -1,190 +1,196 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-<!-- 武器 -->
+	<!-- 武器 -->
 
 	<ThingCategoryDef>
 		<defName>AK_Weapon</defName>
 		<label>明日方舟系列武器</label>
 		<parent>Weapons</parent>
-    </ThingCategoryDef>
+	</ThingCategoryDef>
 
 	<ThingCategoryDef>
 		<defName>AK_Weapon_Caster</defName>
 		<label>术士武器</label>
 		<parent>AK_Weapon</parent>
-    </ThingCategoryDef>
+	</ThingCategoryDef>
 
-    <ThingCategoryDef>
+	<ThingCategoryDef>
 		<defName>AK_Weapon_Defender</defName>
 		<label>重装武器</label>
 		<parent>AK_Weapon</parent>
-    </ThingCategoryDef>
+	</ThingCategoryDef>
 
 	<ThingCategoryDef>
 		<defName>AK_Weapon_Specialist</defName>
 		<label>特种武器</label>
 		<parent>AK_Weapon</parent>
-    </ThingCategoryDef>
+	</ThingCategoryDef>
 
-    <ThingCategoryDef>
+	<ThingCategoryDef>
 		<defName>AK_Weapon_Guard</defName>
 		<label>近卫武器</label>
 		<parent>AK_Weapon</parent>
-    </ThingCategoryDef>
-	
+	</ThingCategoryDef>
+
 	<ThingCategoryDef>
 		<defName>AK_Weapon_Vanguard</defName>
 		<label>先锋武器</label>
 		<parent>AK_Weapon</parent>
-    </ThingCategoryDef>
-	
-    <ThingCategoryDef>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
 		<defName>AK_Weapon_Medic</defName>
 		<label>医疗武器</label>
 		<parent>AK_Weapon</parent>
-    </ThingCategoryDef>
-	
-    <ThingCategoryDef>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
 		<defName>AK_Weapon_Sniper</defName>
 		<label>狙击武器</label>
 		<parent>AK_Weapon</parent>
-    </ThingCategoryDef>
-	
-    <ThingCategoryDef>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
 		<defName>AK_Weapon_Supporter</defName>
 		<label>辅助武器</label>
 		<parent>AK_Weapon</parent>
-    </ThingCategoryDef>
-	
-    <ThingCategoryDef>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
 		<defName>AK_Weapon_Reunion</defName>
 		<label>整合运动武器</label>
 		<parent>AK_Weapon</parent>
-    </ThingCategoryDef>
+	</ThingCategoryDef>
 
 	<ThingCategoryDef>
 		<defName>AK_Weapon_OtherLeader</defName>
 		<label>领袖武器</label>
 		<parent>AK_Weapon</parent>
-    </ThingCategoryDef>
-	
-<!-- 衣着 -->
+	</ThingCategoryDef>
+
+	<!-- 衣着 -->
 
 	<ThingCategoryDef>
 		<defName>AK_Apparel</defName>
 		<label>明日方舟系列衣着</label>
 		<parent>Apparel</parent>
-    </ThingCategoryDef>
+	</ThingCategoryDef>
 
 	<ThingCategoryDef>
 		<defName>AK_Apparel_Caster</defName>
 		<label>术士衣着</label>
 		<parent>AK_Apparel</parent>
-    </ThingCategoryDef>
+	</ThingCategoryDef>
 
-    <ThingCategoryDef>
+	<ThingCategoryDef>
 		<defName>AK_Apparel_Defender</defName>
 		<label>重装衣着</label>
 		<parent>AK_Apparel</parent>
-    </ThingCategoryDef>
+	</ThingCategoryDef>
 
 	<ThingCategoryDef>
 		<defName>AK_Apparel_Specialist</defName>
 		<label>特种衣着</label>
 		<parent>AK_Apparel</parent>
-    </ThingCategoryDef>
+	</ThingCategoryDef>
 
-    <ThingCategoryDef>
+	<ThingCategoryDef>
 		<defName>AK_Apparel_Guard</defName>
 		<label>近卫衣着</label>
 		<parent>AK_Apparel</parent>
-    </ThingCategoryDef>
-	
+	</ThingCategoryDef>
+
 	<ThingCategoryDef>
 		<defName>AK_Apparel_Vanguard</defName>
 		<label>先锋衣着</label>
 		<parent>AK_Apparel</parent>
-    </ThingCategoryDef>
-	
-    <ThingCategoryDef>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
 		<defName>AK_Apparel_Medic</defName>
 		<label>医疗衣着</label>
 		<parent>AK_Apparel</parent>
-    </ThingCategoryDef>
-	
-    <ThingCategoryDef>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
 		<defName>AK_Apparel_Sniper</defName>
 		<label>狙击衣着</label>
 		<parent>AK_Apparel</parent>
-    </ThingCategoryDef>
-	
-    <ThingCategoryDef>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
 		<defName>AK_Apparel_Supporter</defName>
 		<label>辅助衣着</label>
 		<parent>AK_Apparel</parent>
-    </ThingCategoryDef>
-	
-    <ThingCategoryDef>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
 		<defName>AK_Apparel_Reunion</defName>
 		<label>整合运动衣着</label>
 		<parent>AK_Apparel</parent>
-    </ThingCategoryDef>
+	</ThingCategoryDef>
 
 	<ThingCategoryDef>
 		<defName>AK_Apparel_OtherLeader</defName>
 		<label>领袖衣着</label>
 		<parent>AK_Apparel</parent>
-    </ThingCategoryDef>
-	
+	</ThingCategoryDef>
+
 	<ThingCategoryDef>
 		<defName>AK_Apparel_Hat</defName>
 		<label>帽子</label>
 		<parent>AK_Apparel</parent>
-    </ThingCategoryDef>
-	
+	</ThingCategoryDef>
+
 	<ThingCategoryDef>
 		<defName>AK_Apparel_Accessory</defName>
 		<label>饰品</label>
 		<parent>AK_Apparel</parent>
-    </ThingCategoryDef>
-	
-<!-- -->	
-	
+	</ThingCategoryDef>
+
+	<!-- -->
+
 	<ThingCategoryDef>
 		<defName>AK_Building</defName>
 		<label>明日方舟建筑</label>
 		<parent>Buildings</parent>
-    </ThingCategoryDef>
-	
-<!-- 通用 -->
-	
+	</ThingCategoryDef>
+
+	<!-- 通用 -->
+
 	<ThingCategoryDef>
 		<defName>AK_Eatable</defName>
 		<label>食品和药品</label>
 		<parent>AK_GeneralRoot</parent>
-    </ThingCategoryDef>
-	
+	</ThingCategoryDef>
+
 	<ThingCategoryDef>
 		<defName>AK_ORG</defName>
 		<label>源石</label>
 		<parent>AK_GeneralRoot</parent>
-    </ThingCategoryDef>
-	
+	</ThingCategoryDef>
+
 	<StuffCategoryDef>
 		<defName>AK_ORG_Raw</defName>
 		<label>源石粗矿</label>
 		<destroySoundSmall>BuildingDestroyed_Stone_Small</destroySoundSmall>
 		<destroySoundMedium>BuildingDestroyed_Stone_Medium</destroySoundMedium>
 		<destroySoundLarge>BuildingDestroyed_Stone_Big</destroySoundLarge>
-    </StuffCategoryDef> 
-	
-	
-  <!-- 个性化 -->
+	</StuffCategoryDef>
 
+	<!-- 个性化 -->
 
 	<StyleItemCategoryDef>
 		<defName>AK_Agents</defName>
 		<label>罗德岛</label>
-	</StyleItemCategoryDef> 
+	</StyleItemCategoryDef>
+
+	<!-- 护盾 -->
+
+	<ThingCategoryDef>
+		<defName>AK_ShieldBelt</defName>
+		<label>明日方舟系列护盾</label>
+		<parent>AK_Apparel</parent>
+	</ThingCategoryDef>
 
 </Defs>

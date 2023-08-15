@@ -12,6 +12,9 @@ Shining, Sarkaz healer, will do everything she can to provide medical care for t
 		<apparels>
 			<li>AK_Apparel_Shining</li>
 		</apparels>
+		<accessory>
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Shining</li>
+		</accessory>
 		<stand>UI/Image/Medic/ShiningStand</stand>
 		<headPortrait>UI/Image/Medic/ShiningPortrait</headPortrait>
 		<bodyTypeDef>Female</bodyTypeDef>
@@ -116,6 +119,9 @@ Silence, medical specialist of Rhine Lab, will make use of the latest scientific
 		<apparels>
 			<li>AK_Apparel_Silence</li>
 		</apparels>
+		<accessory>
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Medic</li>
+		</accessory>
 		<stand>UI/Image/Medic/SilenceStand</stand>
 		<headPortrait>UI/Image/Medic/SilencePortrait</headPortrait>
 		<skills>
@@ -236,6 +242,9 @@ Gavial, Medic Operator of Rhodes Island, will protect the lives of her squad mem
 		<apparels>
 			<li>AK_Apparel_Gavial</li>
 		</apparels>
+		<accessory>
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Medic</li>
+		</accessory>
 		<stand>UI/Image/Medic/GavialStand</stand>
 		<headPortrait>UI/Image/Medic/GavialPortrait</headPortrait>
 		<bodyTypeDef>Female</bodyTypeDef>
@@ -334,6 +343,9 @@ Gavial, Medic Operator of Rhodes Island, will protect the lives of her squad mem
 		<apparels>
 			<li>AK_Apparel_Kaltsit</li>
 		</apparels>
+		<accessory>
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Medic</li>
+		</accessory>
 		<stand>UI/Image/Medic/KaltsitStand</stand>
 		<headPortrait>UI/Image/Medic/KaltsitPortrait</headPortrait>
 		<bodyTypeDef>Thin</bodyTypeDef>
@@ -439,6 +451,9 @@ Nightingale, Sarkaz healer, will do everything she can to provide medical care f
 		<apparels>
 			<li>AK_Apparel_Nightingale</li>
 		</apparels>
+		<accessory>
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Nightingale</li>
+		</accessory>
 		<stand>UI/Image/Medic/NightingaleStand</stand>
 		<headPortrait>UI/Image/Medic/NightingalePortrait</headPortrait>
 		<skills>
@@ -543,6 +558,9 @@ Perfumer, manager of 'Health Garden,' will use her fragrant aromatherapy to heal
 		<apparels>
 			<li>AK_Apparel_Perfumer</li>
 		</apparels>
+		<accessory>
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Medic</li>
+		</accessory>
 		<stand>UI/Image/Medic/PerfumerStand</stand>
 		<headPortrait>UI/Image/Medic/PerfumerPortrait</headPortrait>
 		<bodyTypeDef>Female</bodyTypeDef>
@@ -640,6 +658,9 @@ Ptilopsis, database maintainer of Rhine Lab, activated. Please enter commands to
 		<apparels>
 			<li>AK_Apparel_Ptilopsis</li>
 		</apparels>
+		<accessory>
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Medic</li>
+		</accessory>
 		<stand>UI/Image/Medic/PtilopsisStand</stand>
 		<headPortrait>UI/Image/Medic/PtilopsisPortrait</headPortrait>
 		<skills>
@@ -733,6 +754,9 @@ Ptilopsis, database maintainer of Rhine Lab, activated. Please enter commands to
 		<apparels>
 			<li>AK_Apparel_Myrrh</li>
 		</apparels>
+		<accessory>
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Medic</li>
+		</accessory>
 		<stand>UI/Image/Medic/MyrrhStand</stand>
 		<headPortrait>UI/Image/Medic/MyrrhPortrait</headPortrait>
 		<skills>
@@ -832,6 +856,9 @@ Ptilopsis, database maintainer of Rhine Lab, activated. Please enter commands to
 		<apparels>
 			<li>AK_Apparel_Purestream</li>
 		</apparels>
+		<accessory>
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Medic</li>
+		</accessory>
 		<stand>UI/Image/Medic/PurestreamStand</stand>
 		<headPortrait>UI/Image/Medic/PurestreamPortrait</headPortrait>
 		<skills>
@@ -929,6 +956,9 @@ Ptilopsis, database maintainer of Rhine Lab, activated. Please enter commands to
 		<apparels>
 			<li>AK_Apparel_Warfarin</li>
 		</apparels>
+		<accessory>
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Medic</li>
+		</accessory>
 		<stand>UI/Image/Medic/WarfarinStand</stand>
 		<headPortrait>UI/Image/Medic/WarfarinPortrait</headPortrait>
 		<traits>
@@ -1026,6 +1056,9 @@ Ptilopsis, database maintainer of Rhine Lab, activated. Please enter commands to
 		<apparels>
 			<li>AK_Apparel_Sussurro</li>
 		</apparels>
+		<accessory>
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Medic</li>
+		</accessory>
 		<stand>UI/Image/Medic/SussurroStand</stand>
 		<headPortrait>UI/Image/Medic/SussurroPortrait</headPortrait>
 		<traits>
@@ -1125,6 +1158,9 @@ FIXMEDESC</description>
 		<apparels>
 			<li>AK_Apparel_Ceylon</li>
 		</apparels>
+		<accessory>
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Medic</li>
+		</accessory>
 		<stand>UI/Image/Medic/CeylonStand</stand>
 		<headPortrait>UI/Image/Medic/CeylonPortrait</headPortrait>
 		<bodyTypeDef>Female</bodyTypeDef>
@@ -1218,6 +1254,9 @@ FIXMEDESC</description>
 		<apparels>
 			<li>AK_Apparel_Mulberry</li>
 		</apparels>
+		<accessory>
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Medic</li>
+		</accessory>
 		<stand>UI/Image/Medic/MulberryStand</stand>
 		<headPortrait>UI/Image/Medic/MulberryPortrait</headPortrait>
 		<bodyTypeDef>Female</bodyTypeDef>

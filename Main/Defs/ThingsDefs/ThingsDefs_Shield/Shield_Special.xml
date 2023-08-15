@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThingDef ParentName="AK_BeltBase">
+        <defName>AK_ShieldBelt_Muelsyse</defName>
+        <label>水之形</label>
+        <description>你看着她惊讶，木讷，不知所措，然后握住了你的手。她在邀请你，她渴望与你分享大地。</description>
+        <statBases>
+            <EnergyShieldRechargeRate>0.4</EnergyShieldRechargeRate>
+            <EnergyShieldEnergyMax>1.6</EnergyShieldEnergyMax>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/ShieldBeltMuelsyse</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+                <startingTicksToReset>3600</startingTicksToReset>
+                <energyOnReset>0.2</energyOnReset>
+                <energyLossPerDamage>1</energyLossPerDamage>
+                <canAbsorbMeleeDamage>true</canAbsorbMeleeDamage>
+                <meleeAbsorbFactor>2</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1.5</rangedAbsorbFactor>
+                <canDodge>true</canDodge>
+                <dodgeChanceFactor>0.2</dodgeChanceFactor>
+                <breakWithSmoke>true</breakWithSmoke>
+                <canForceActive>false</canForceActive>
+                <fireFoamBurster>true</fireFoamBurster>
+                <versionInfo>Muelsyse-Shield</versionInfo>
+                <alias>缪尔赛思的护盾</alias>
+                <bubbleTexPath>Things/ShieldBelt/ShieldBeltMuelsyse</bubbleTexPath>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="AK_BeltBase">
+        <defName>AK_ShieldBelt_Nearl</defName>
+        <label>长夜临光</label>
+        <description>职位与头衔不过是虚名，临光家的骑士从不需要他人的认可来指引自己的道路......即使在如今的卡西米尔，每一条道路都没入黑暗。</description>
+        <statBases>
+            <EnergyShieldRechargeRate>0.2</EnergyShieldRechargeRate>
+            <EnergyShieldEnergyMax>2.4</EnergyShieldEnergyMax>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/ShieldBeltNearl</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+                <startingTicksToReset>3600</startingTicksToReset>
+                <energyOnReset>0.2</energyOnReset>
+                <energyLossPerDamage>1</energyLossPerDamage>
+                <canAbsorbMeleeDamage>true</canAbsorbMeleeDamage>
+                <meleeAbsorbFactor>1</meleeAbsorbFactor>
+                <rangedAbsorbFactor>2</rangedAbsorbFactor>
+                <canDodge>true</canDodge>
+                <breakWithSmoke>false</breakWithSmoke>
+                <canForceActive>false</canForceActive>
+                <fireFoamBurster>false</fireFoamBurster>
+                <versionInfo>Nearl-Shield</versionInfo>
+                <alias>临光家族的护盾</alias>
+                <bubbleTexPath>Things/ShieldBelt/ShieldBeltNearl</bubbleTexPath>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="AK_BeltBase">
+        <defName>AK_ShieldBelt_Penance</defName>
+        <label>荆棘环身</label>
+        <description>捍卫法律应存的正义。</description>
+        <statBases>
+            <EnergyShieldRechargeRate>0.15</EnergyShieldRechargeRate>
+            <EnergyShieldEnergyMax>3.2</EnergyShieldEnergyMax>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/ShieldBeltPenance</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+                <startingTicksToReset>6000</startingTicksToReset>
+                <energyOnReset>0.2</energyOnReset>
+                <energyLossPerDamage>1.5</energyLossPerDamage>
+                <canAbsorbMeleeDamage>true</canAbsorbMeleeDamage>
+                <meleeAbsorbFactor>1</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1</rangedAbsorbFactor>
+                <canDodge>false</canDodge>
+                <breakWithSmoke>false</breakWithSmoke>
+                <canForceActive>false</canForceActive>
+                <fireFoamBurster>false</fireFoamBurster>
+                <versionInfo>Penance-Shield</versionInfo>
+                <alias>斥罪的护盾</alias>
+                <bubbleTexPath>Things/ShieldBelt/ShieldBeltPenance</bubbleTexPath>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="AK_BeltBase">
+        <defName>AK_ShieldBelt_Mudrock</defName>
+        <label>沃土予身</label>
+        <description>自她身后，山岳拔地而起，她扬起手，岩石瓦解，又再度汇聚。</description>
+        <statBases>
+            <EnergyShieldRechargeRate>0.1</EnergyShieldRechargeRate>
+            <EnergyShieldEnergyMax>4</EnergyShieldEnergyMax>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/ShieldBeltMudrock</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+                <startingTicksToReset>6000</startingTicksToReset>
+                <energyOnReset>0.2</energyOnReset>
+                <energyLossPerDamage>1</energyLossPerDamage>
+                <canAbsorbMeleeDamage>true</canAbsorbMeleeDamage>
+                <meleeAbsorbFactor>1</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1</rangedAbsorbFactor>
+                <canDodge>false</canDodge>
+                <breakWithSmoke>true</breakWithSmoke>
+                <canForceActive>false</canForceActive>
+                <fireFoamBurster>false</fireFoamBurster>
+                <versionInfo>Mudrock-Shield</versionInfo>
+                <alias>泥岩的护盾</alias>
+                <bubbleTexPath>Things/ShieldBelt/ShieldBeltMudrock</bubbleTexPath>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="AK_BeltBase">
+        <defName>AK_ShieldBelt_Nian</defName>
+        <label>干明可鉴</label>
+        <description>“明王圣帝，谁能去兵哉？”</description>
+        <statBases>
+            <EnergyShieldRechargeRate>0.1</EnergyShieldRechargeRate>
+            <EnergyShieldEnergyMax>4</EnergyShieldEnergyMax>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/ShieldBeltNian</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+                <startingTicksToReset>6000</startingTicksToReset>
+                <energyOnReset>0.2</energyOnReset>
+                <energyLossPerDamage>1.5</energyLossPerDamage>
+                <canAbsorbMeleeDamage>true</canAbsorbMeleeDamage>
+                <meleeAbsorbFactor>1</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1</rangedAbsorbFactor>
+                <canDodge>false</canDodge>
+                <breakWithSmoke>true</breakWithSmoke>
+                <canForceActive>false</canForceActive>
+                <fireFoamBurster>false</fireFoamBurster>
+                <versionInfo>Nian-Shield</versionInfo>
+                <alias>年的护盾</alias>
+                <bubbleTexPath>Things/ShieldBelt/ShieldBeltNian</bubbleTexPath>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="AK_BeltBase">
+        <defName>AK_ShieldBelt_Reed</defName>
+        <label>映耀</label>
+        <description>活着的火焰会净化你们污浊的内在。</description>
+        <statBases>
+            <EnergyShieldRechargeRate>0.2</EnergyShieldRechargeRate>
+            <EnergyShieldEnergyMax>2</EnergyShieldEnergyMax>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/ShieldBeltReed</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+                <startingTicksToReset>3600</startingTicksToReset>
+                <energyOnReset>0.2</energyOnReset>
+                <energyLossPerDamage>1</energyLossPerDamage>
+                <canAbsorbMeleeDamage>true</canAbsorbMeleeDamage>
+                <meleeAbsorbFactor>1.5</meleeAbsorbFactor>
+                <rangedAbsorbFactor>2</rangedAbsorbFactor>
+                <canDodge>true</canDodge>
+                <dodgeChanceFactor>0.2</dodgeChanceFactor>
+                <breakWithSmoke>false</breakWithSmoke>
+                <canForceActive>false</canForceActive>
+                <fireFoamBurster>false</fireFoamBurster>
+                <versionInfo>Reed-Shield</versionInfo>
+                <alias>苇草的护盾</alias>
+                <bubbleTexPath>Things/ShieldBelt/ShieldBeltReed</bubbleTexPath>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="AK_BeltBase">
+        <defName>AK_ShieldBelt_Shining</defName>
+        <label>黑恶魔的庇护</label>
+        <description>无论繁荣，还是灭亡。</description>
+        <statBases>
+            <EnergyShieldRechargeRate>0.2</EnergyShieldRechargeRate>
+            <EnergyShieldEnergyMax>2</EnergyShieldEnergyMax>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/ShieldBeltShining</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+                <startingTicksToReset>4800</startingTicksToReset>
+                <energyOnReset>0.3</energyOnReset>
+                <energyLossPerDamage>1</energyLossPerDamage>
+                <canAbsorbMeleeDamage>true</canAbsorbMeleeDamage>
+                <meleeAbsorbFactor>0.5</meleeAbsorbFactor>
+                <rangedAbsorbFactor>2</rangedAbsorbFactor>
+                <canDodge>false</canDodge>
+                <breakWithSmoke>false</breakWithSmoke>
+                <canForceActive>false</canForceActive>
+                <fireFoamBurster>false</fireFoamBurster>
+                <versionInfo>Shining-Shield</versionInfo>
+                <alias>闪灵的护盾</alias>
+                <bubbleTexPath>Things/ShieldBelt/ShieldBeltShining</bubbleTexPath>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="AK_BeltBase">
+        <defName>AK_ShieldBelt_Nightingale</defName>
+        <label>白恶魔的庇护</label>
+        <description>于睡梦中，她是否也会成为一只自由的飞鸟呢？</description>
+        <statBases>
+            <EnergyShieldRechargeRate>0.2</EnergyShieldRechargeRate>
+            <EnergyShieldEnergyMax>2</EnergyShieldEnergyMax>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/ShieldBeltMudrock</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+                <startingTicksToReset>4800</startingTicksToReset>
+                <energyOnReset>0.3</energyOnReset>
+                <energyLossPerDamage>1.5</energyLossPerDamage>
+                <canAbsorbMeleeDamage>true</canAbsorbMeleeDamage>
+                <meleeAbsorbFactor>2</meleeAbsorbFactor>
+                <rangedAbsorbFactor>0.5</rangedAbsorbFactor>
+                <canDodge>true</canDodge>
+                <dodgeChanceFactor>0.3</dodgeChanceFactor>
+                <breakWithSmoke>false</breakWithSmoke>
+                <canForceActive>false</canForceActive>
+                <fireFoamBurster>false</fireFoamBurster>
+                <versionInfo>Nightingale-Shield</versionInfo>
+                <alias>夜莺的护盾</alias>
+                <bubbleTexPath>Things/ShieldBelt/ShieldBeltNightingale</bubbleTexPath>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="AK_BeltBase">
+        <defName>AK_ShieldBelt_Lin</defName>
+        <label>琉璃璧</label>
+        <description>绛景无别，惟似琉璃。</description>
+        <statBases>
+            <EnergyShieldRechargeRate>0.2</EnergyShieldRechargeRate>
+            <EnergyShieldEnergyMax>2</EnergyShieldEnergyMax>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/ShieldBeltLin</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+                <startingTicksToReset>3600</startingTicksToReset>
+                <energyOnReset>0.2</energyOnReset>
+                <energyLossPerDamage>1.5</energyLossPerDamage>
+                <canAbsorbMeleeDamage>true</canAbsorbMeleeDamage>
+                <meleeAbsorbFactor>1</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1</rangedAbsorbFactor>
+                <canDodge>true</canDodge>
+                <breakWithSmoke>false</breakWithSmoke>
+                <canForceActive>false</canForceActive>
+                <fireFoamBurster>false</fireFoamBurster>
+                <versionInfo>Lin-Shield</versionInfo>
+                <alias>林的护盾</alias>
+                <bubbleTexPath>Things/ShieldBelt/ShieldBeltLin</bubbleTexPath>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="AK_BeltBase">
+        <defName>AK_ShieldBelt_DesertBlessings</defName>
+        <label>沙原祝福</label>
+        <description>“愿神灵祝福你，祝福你从此远离奴役与饥饿，祝福你如同烈阳、风暴和金色的沙原一般，永远美丽而坚强。”</description>
+        <statBases>
+            <EnergyShieldRechargeRate>0.2</EnergyShieldRechargeRate>
+            <EnergyShieldEnergyMax>2.4</EnergyShieldEnergyMax>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/ShieldBeltDesertBlessings</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+                <startingTicksToReset>6000</startingTicksToReset>
+                <energyOnReset>0.2</energyOnReset>
+                <energyLossPerDamage>1</energyLossPerDamage>
+                <canAbsorbMeleeDamage>true</canAbsorbMeleeDamage>
+                <meleeAbsorbFactor>1</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1</rangedAbsorbFactor>
+                <canDodge>true</canDodge>
+                <dodgeChanceFactor>0.3</dodgeChanceFactor>
+                <breakWithSmoke>false</breakWithSmoke>
+                <canForceActive>true</canForceActive>
+                <fireFoamBurster>false</fireFoamBurster>
+                <versionInfo>DesertBlessings-Shield</versionInfo>
+                <alias>黑皮姐妹的护盾</alias>
+                <bubbleTexPath>Things/ShieldBelt/ShieldBeltDesertBlessings</bubbleTexPath>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="AK_BeltBase">
+        <defName>AK_ShieldBelt_Gravel</defName>
+        <label>鼠群</label>
+        <description>鼠群啊，聚集起来吧！</description>
+        <statBases>
+            <EnergyShieldRechargeRate>0.4</EnergyShieldRechargeRate>
+            <EnergyShieldEnergyMax>1.2</EnergyShieldEnergyMax>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/ShieldBeltGravel</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+                <startingTicksToReset>2400</startingTicksToReset>
+                <energyOnReset>0.2</energyOnReset>
+                <energyLossPerDamage>1.5</energyLossPerDamage>
+                <canAbsorbMeleeDamage>true</canAbsorbMeleeDamage>
+                <meleeAbsorbFactor>1.5</meleeAbsorbFactor>
+                <rangedAbsorbFactor>2</rangedAbsorbFactor>
+                <canDodge>true</canDodge>
+                <dodgeChanceFactor>0.3</dodgeChanceFactor>
+                <breakWithSmoke>false</breakWithSmoke>
+                <canForceActive>true</canForceActive>
+                <fireFoamBurster>false</fireFoamBurster>
+                <versionInfo>Gravel-Shield</versionInfo>
+                <alias>砾的护盾</alias>
+                <bubbleTexPath>Things/ShieldBelt/ShieldBeltGravel</bubbleTexPath>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="AK_BeltBase">
+        <defName>AK_ShieldBelt_FrostNova</defName>
+        <label>“冬痕”</label>
+        <description>你感受到衣角寒霜的余温，你感受到一片轻盈的雪花落在你的肩头，带着冬痕的寂静。</description>
+        <statBases>
+            <EnergyShieldRechargeRate>0</EnergyShieldRechargeRate>
+            <EnergyShieldEnergyMax>12</EnergyShieldEnergyMax>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/ShieldBeltFrostNova</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+                <startingTicksToReset>4800</startingTicksToReset>
+                <energyOnReset>0.3</energyOnReset>
+                <energyLossPerDamage>1</energyLossPerDamage>
+                <canAbsorbMeleeDamage>true</canAbsorbMeleeDamage>
+                <meleeAbsorbFactor>1</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1</rangedAbsorbFactor>
+                <canDodge>false</canDodge>
+                <breakWithSmoke>false</breakWithSmoke>
+                <canForceActive>false</canForceActive>
+                <fireFoamBurster>false</fireFoamBurster>
+                <versionInfo>FrostNova-Shield</versionInfo>
+                <alias>霜星的护盾</alias>
+                <bubbleTexPath>Things/ShieldBelt/ShieldBeltFrostNova</bubbleTexPath>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>
