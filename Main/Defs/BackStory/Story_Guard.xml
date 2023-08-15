@@ -440,4 +440,21 @@ ok halda njarðlásar níu.</baseDesc>
 		<baseDesc>格拉斯哥帮混迹于维多利亚的贫民区，最开始本身是由摩根和因陀罗带领的街头组织。她们霸占了一方的地盘，为了生存过着混乱的生活，直到推进之王出现在了她们面前。</baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Dagda_Child</defName>
+		<slot>Childhood</slot>
+		<title>曼彻斯特伯爵之女</title>
+		<titleShort>曼彻斯特伯爵之女</titleShort>
+		<baseDesc>伊莎贝尔·孟塔古，第三代曼彻斯特伯爵之女。
+十一岁时开始进行骑士训练，十六岁时完成宣誓，正式成为塔楼骑士。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Dagda_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>最后的塔楼骑士</title>
+		<titleShort>最后的塔楼骑士</titleShort>
+		<baseDesc>二十一岁时，萨卡兹占领议会广场，对王宫前的塔楼发起进攻。仅存的二十九名塔楼骑士在警戒长芬恩的率领下与萨卡兹殊死一战。其余塔楼骑士皆战死，只有她一人冲出重围，踏上寻找王位继承人的旅途。</baseDesc>
+	</BackstoryDef>
+
 </Defs>

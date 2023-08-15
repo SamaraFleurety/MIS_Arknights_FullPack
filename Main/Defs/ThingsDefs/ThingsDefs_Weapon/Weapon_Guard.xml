@@ -1344,14 +1344,14 @@
     </projectile>
   </ThingDef>
 
-	<ThingDef ParentName="AK_WeaponBase_Guard">
-		<defName>AK_Weapon_Indra</defName>
-		<label>因陀罗的指虎</label>
-		<graphicData>
-			<texPath>Things/AK_Agents/Weapon/Guard/IndraW</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<description>因陀罗的指虎，下置了一个尖刀，可以刺或捅。</description>
+  <ThingDef ParentName="AK_WeaponBase_Guard">
+    <defName>AK_Weapon_Indra</defName>
+    <label>因陀罗的指虎</label>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Guard/IndraW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <description>因陀罗的指虎，下置了一个尖刀，可以刺或捅。</description>
     <tools Inherit = "false">
       <li>
         <label>拳击</label>
@@ -1376,7 +1376,7 @@
         </capacities>
         <power>26</power>
         <cooldownTime>1.4</cooldownTime>
-        <armorPenetration>1</armorPenetration> 
+        <armorPenetration>1</armorPenetration>
       </li>
       <li>
         <label>掌劈</label>
@@ -1387,6 +1387,80 @@
         <cooldownTime>1.0</cooldownTime>
       </li>
     </tools>
-	</ThingDef>
+  </ThingDef>
+
+  <ThingDef ParentName="AK_WeaponBase_Guard">
+    <defName>AK_Weapon_Dagda</defName>
+    <label>达格达的右爪</label>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Guard/DagdaW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <description>达格达的钢爪，她认为很酷，但是问她本人她是不会承认的。</description>
+    <tools Inherit = "false">
+      <li>
+        <label>拳击</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>24</power>
+        <cooldownTime>1.0</cooldownTime>
+      </li>
+      <li>
+        <label>飞踢</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>拳刺</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>26</power>
+        <cooldownTime>1.4</cooldownTime>
+        <armorPenetration>1</armorPenetration>
+      </li>
+    </tools>
+  </ThingDef>
+
+    <ThingDef ParentName="AK_WeaponBase_Guard">
+    <defName>AK_Weapon_DagdaB</defName>
+    <label>达格达的左爪</label>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Guard/DagdaW2</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <description>达格达的钢爪，她认为很酷，但是问她本人她是不会承认的。</description>
+    <tools Inherit = "false">
+      <li>
+        <label>拳击</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>24</power>
+        <cooldownTime>1.0</cooldownTime>
+      </li>
+      <li>
+        <label>飞踢</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>拳刺</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>26</power>
+        <cooldownTime>1.4</cooldownTime>
+        <armorPenetration>1</armorPenetration>
+      </li>
+    </tools>
+  </ThingDef>
 
 </Defs>

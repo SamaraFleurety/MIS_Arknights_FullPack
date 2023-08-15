@@ -339,4 +339,16 @@
 		</stages>
 	</ThoughtDef>
 
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Dagda</defName>
+		<requiredTraits><li>AK_Trait_Dagda</li></requiredTraits>
+		<stages>
+			<li>
+				<label>朋克少女</label>
+				<description>“这件衣服是摩根选的。当然，能体现骑士风范的着装一定更适合我。虽然街头风有一点......也就那么一点点......帅气。”</description>
+				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
 </Defs>

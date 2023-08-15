@@ -325,4 +325,16 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Guard">
+		<defName>AK_Apparel_Dagda</defName>
+		<label>达格达服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Guard/Dagda</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Guard/Dagda</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 </Defs>

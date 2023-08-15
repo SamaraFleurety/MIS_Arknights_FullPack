@@ -598,4 +598,38 @@
 		</degreeDatas>
 	</TraitDef>
 
+<!-- 达格达 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_DagdaSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>塔楼骑士</label>
+				<description>作为一名塔楼骑士，她早已立誓要将一生奉献给维多利亚。她已经准备好了在接下来的任何一场战斗中为自己发誓要守护的王嗣牺牲。
+				</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.25</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Dagda</defName>
+		<degreeDatas>
+			<li>
+				<label>朋克少女</label>
+				<description>达格达藏在干员宿舍中的时尚期刊及邮购的流行饰品还是显露出了她的真实喜好。在干员酸糖举办的走廊滑板大赛和干员红豆的食堂午夜摇滚音乐会中，大家也常常能看到她的身影。很快，除了“塔楼骑士”达格达与“格拉斯哥帮成员”达格达之外，干员们也开始熟悉“朋克少女”达格达。
+				</description>
+				<statOffsets>
+					<SocialImpact>0.05</SocialImpact>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>
