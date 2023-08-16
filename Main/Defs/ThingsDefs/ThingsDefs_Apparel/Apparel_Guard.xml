@@ -337,4 +337,28 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Guard">
+		<defName>AK_Apparel_Morgan</defName>
+		<label>摩根服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Guard/Morgan</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Guard/Morgan</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Guard">
+		<defName>AK_Apparel_Utage</defName>
+		<label>宴服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Guard/Utage</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Guard/Utage</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 </Defs>

@@ -339,6 +339,8 @@
 		</stages>
 	</ThoughtDef>
 
+	<!-- 达格达 -->
+
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_Dagda</defName>
 		<requiredTraits><li>AK_Trait_Dagda</li></requiredTraits>
@@ -347,6 +349,34 @@
 				<label>朋克少女</label>
 				<description>“这件衣服是摩根选的。当然，能体现骑士风范的着装一定更适合我。虽然街头风有一点......也就那么一点点......帅气。”</description>
 				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 摩根 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Morgan</defName>
+		<requiredTraits><li>AK_Trait_Morgan</li></requiredTraits>
+		<stages>
+			<li>
+				<label>小聪明</label>
+				<description>“唔，这个罐头的味道不太对，是不是过期了......这样吧，带去给汉娜尝尝看。万一她一口气全吃了下去......那正好不浪费，是吧？”</description>
+				<baseMoodEffect>6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 宴 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Utage</defName>
+		<requiredTraits><li>AK_Trait_Utage</li></requiredTraits>
+		<stages>
+			<li>
+				<label>时尚女孩</label>
+				<description>“指甲可是女孩子的魅力点之一，不好好保养怎么行。”</description>
+				<baseMoodEffect>12</baseMoodEffect>
 			</li>
 		</stages>
 	</ThoughtDef>

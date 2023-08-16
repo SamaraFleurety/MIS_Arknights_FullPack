@@ -457,4 +457,37 @@ ok halda njarðlásar níu.</baseDesc>
 		<baseDesc>二十一岁时，萨卡兹占领议会广场，对王宫前的塔楼发起进攻。仅存的二十九名塔楼骑士在警戒长芬恩的率领下与萨卡兹殊死一战。其余塔楼骑士皆战死，只有她一人冲出重围，踏上寻找王位继承人的旅途。</baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Morgan_Child</defName>
+		<slot>Childhood</slot>
+		<title>伦蒂尼姆贫民区的孩子</title>
+		<titleShort>伦蒂尼姆贫民区的孩子</titleShort>
+		<baseDesc>{PAWN_nameDef}从小混迹于伦蒂尼姆肮脏混乱的贫民区，从小混迹于斗殴的街头给她带来了很强的战斗本领。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Morgan_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>格拉斯哥帮的“大脑”</title>
+		<titleShort>格拉斯哥帮的“大脑”</titleShort>
+		<baseDesc>格拉斯哥帮成员{PAWN_nameDef}，被推进之王戏称为帮派的大脑。
+在罗德岛协助推进之王处理所有与格拉斯哥帮相关的事务，现兼职为罗德岛处理维多利亚办事处的相关事务。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Utage_Child</defName>
+		<slot>Childhood</slot>
+		<title>东国大学生</title>
+		<titleShort>东国大学生</titleShort>
+		<baseDesc>{PAWN_nameDef}是从东国来到炎国留学的大学生，艺术系专业，兼职学校新闻社记者。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Utage_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>罗德岛干员</title>
+		<titleShort>罗德岛干员</titleShort>
+		<baseDesc>从东国前来龙门游学的普通学生，被卷入感染者事件后患上了矿石病，后听从医师的建议来到罗德岛，经过评审成为了干员。</baseDesc>
+	</BackstoryDef>
+
 </Defs>

@@ -632,4 +632,59 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<!-- 摩根 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Morgan</defName>
+		<degreeDatas>
+			<li>
+				<label>小聪明</label>
+				<description>相比于其他只会用拳头说话的格拉斯哥帮成员，摩根相对来说确实可以说是智囊一样的存在，不过很多时候她的智慧通常被用来耍小聪明。
+				</description>
+				<statOffsets>
+					<SocialImpact>0.15</SocialImpact>
+					<GlobalLearningFactor>0.15</GlobalLearningFactor>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<!-- 宴 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_UtageSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>心理学</label>
+				<description>宴不光善于揣摩人的心思，也十分擅长伪装和控制自己的心理状态，常规的心理监测手段在她身上起不到半点用处。
+				</description>
+				<statOffsets>
+					<SocialImpact>0.2</SocialImpact>
+					<MentalBreakThreshold>-0.15</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Utage</defName>
+		<degreeDatas>
+			<li>
+				<label>时尚女孩</label>
+				<description>宴喜欢，也敢于尝试新鲜事物，时尚圈潮流不断，也与她喜好相合，宴自然会关注的多些。时间一长，就成为了这方面的小灵通，什么品牌要出新品，业内评价如何，她都能以最快速度获得资讯然后分享给周边感兴趣的干员。多亏了她，部分干员的品味获得了极大提升，只是，作为代价，钱包都瘪了。
+				</description>
+				<statOffsets>
+					<SocialImpact>-0.15</SocialImpact>
+					<TradePriceImprovement>-0.05</TradePriceImprovement>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>

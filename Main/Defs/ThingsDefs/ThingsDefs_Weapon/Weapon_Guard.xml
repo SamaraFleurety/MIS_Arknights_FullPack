@@ -1426,7 +1426,7 @@
     </tools>
   </ThingDef>
 
-    <ThingDef ParentName="AK_WeaponBase_Guard">
+  <ThingDef ParentName="AK_WeaponBase_Guard">
     <defName>AK_Weapon_DagdaB</defName>
     <label>达格达的左爪</label>
     <graphicData>
@@ -1462,5 +1462,85 @@
       </li>
     </tools>
   </ThingDef>
+
+  <ThingDef ParentName="AK_WeaponBase_Guard">
+    <defName>AK_Weapon_Morgan</defName>
+    <label>摩根的大刀</label>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Guard/MorganW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <description>摩根的砍刀，她擅长挥舞着它冲入敌阵。但是打架也是有章法的。</description>
+    <tools Inherit = "false">
+      <li>
+        <label>重击</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>22</power>
+        <cooldownTime>1.4</cooldownTime>
+      </li>
+      <li>
+        <label>劈砍</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>24</power>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+      <li>
+        <label>猛砸</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>30</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Guard">
+		<defName>AK_Weapon_Utage</defName>
+		<label>狮子王</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Guard/UtageW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<description>传说中东国国王授予一位武士的武器，作为他驱逐恶兽的奖励。</description>
+    <tools Inherit = "false">
+      <li>
+        <label>刀捅</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>23</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>刀柄猛砸</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>刀砍</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>24</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>刀刺</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+    </tools>
+	</ThingDef>
 
 </Defs>
