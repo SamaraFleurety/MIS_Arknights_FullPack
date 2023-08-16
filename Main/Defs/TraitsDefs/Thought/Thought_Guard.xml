@@ -343,7 +343,9 @@
 
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_Dagda</defName>
-		<requiredTraits><li>AK_Trait_Dagda</li></requiredTraits>
+		<requiredTraits>
+			<li>AK_Trait_Dagda</li>
+		</requiredTraits>
 		<stages>
 			<li>
 				<label>朋克少女</label>
@@ -357,7 +359,9 @@
 
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_Morgan</defName>
-		<requiredTraits><li>AK_Trait_Morgan</li></requiredTraits>
+		<requiredTraits>
+			<li>AK_Trait_Morgan</li>
+		</requiredTraits>
 		<stages>
 			<li>
 				<label>小聪明</label>
@@ -371,7 +375,9 @@
 
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_Utage</defName>
-		<requiredTraits><li>AK_Trait_Utage</li></requiredTraits>
+		<requiredTraits>
+			<li>AK_Trait_Utage</li>
+		</requiredTraits>
 		<stages>
 			<li>
 				<label>时尚女孩</label>

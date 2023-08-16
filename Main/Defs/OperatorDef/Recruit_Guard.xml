@@ -2859,8 +2859,12 @@ FIXMEDESC</description>
 				<def>Beauty</def>
 				<degree>1</degree>
 			</li>
-			<li><def>AK_Trait_DagdaSecond</def></li>
-			<li><def>AK_Trait_Dagda</def></li>
+			<li>
+				<def>AK_Trait_DagdaSecond</def>
+			</li>
+			<li>
+				<def>AK_Trait_Dagda</def>
+			</li>
 		</traits>
 		<age>25</age>
 		<childHood>AK_BackStory_Dagda_Child</childHood>
@@ -2960,8 +2964,12 @@ FIXMEDESC</description>
 				<def>Beauty</def>
 				<degree>1</degree>
 			</li>
-			<li><def>AK_Trait_MorganSecond</def></li>
-			<li><def>AK_Trait_Morgan</def></li>
+			<li>
+				<def>AK_Trait_MorganSecond</def>
+			</li>
+			<li>
+				<def>AK_Trait_Morgan</def>
+			</li>
 			<li>
 				<def>Nerves</def>
 				<degree>1</degree>
@@ -3059,10 +3067,18 @@ FIXMEDESC</description>
 				<def>Beauty</def>
 				<degree>2</degree>
 			</li>
-			<li><def>AK_Trait_UtageSecond</def></li>
-			<li><def>AK_Trait_Utage</def></li>
+			<li>
+				<def>SpeedOffset</def>
+				<degree>1</degree>
+			</li>
 			<li>
 				<def>Nimble</def>
+			</li>
+			<li>
+				<def>AK_Trait_UtageSecond</def>
+			</li>
+			<li>
+				<def>AK_Trait_Utage</def>
 			</li>
 		</traits>
 		<age>25</age>
