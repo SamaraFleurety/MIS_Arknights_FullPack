@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-    <ThingDef Name="AK_BeltBase" Abstract="True" ParentName="ApparelBase" MayRequire="Mlie.VanyaShield">
+    <ThingDef Name="AK_BeltBase" Abstract="True" ParentName="ApparelBase">
         <thingClass>VanyaMod.Vanya_ShieldBelt</thingClass>
         <techLevel>Spacer</techLevel>
         <smeltable>false</smeltable>
