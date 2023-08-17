@@ -11,9 +11,6 @@ Coming on a whim, the great painter, Dusk, puts only the finishing touches on al
 		<apparels>
 			<li>AK_Apparel_Dusk</li>
 		</apparels>
-		<accessory>
-			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Caster</li>
-		</accessory>
 		<stand>UI/Image/Caster/DuskStand</stand>
 		<headPortrait>UI/Image/Caster/DuskPortrait</headPortrait>
 		<bodyTypeDef>Female</bodyTypeDef>
@@ -141,9 +138,6 @@ Eyjafjalla, Caster Operator of Rhodes Island, has wanted to devote herself to do
 		<apparels>
 			<li>AK_Apparel_Eyjafjalla</li>
 		</apparels>
-		<accessory>
-			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Caster</li>
-		</accessory>
 		<stand>UI/Image/Caster/EyjafjallaStand</stand>
 		<headPortrait>UI/Image/Caster/EyjafjallaPortrait</headPortrait>
 		<bodyTypeDef>Female</bodyTypeDef>
@@ -353,9 +347,6 @@ Mint, the Victorian Caster, seeks recognition as a scholar far more than as a Ca
 		<apparels>
 			<li>AK_Apparel_Mint</li>
 		</apparels>
-		<accessory>
-			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Caster</li>
-		</accessory>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -469,9 +460,6 @@ Mostima, Senior Messenger, will lay low all obstacles in your path with her Arts
 		<apparels>
 			<li>AK_Apparel_Mostima</li>
 		</apparels>
-		<accessory>
-			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Caster</li>
-		</accessory>
 		<stand>UI/Image/Caster/MostimaStand</stand>
 		<headPortrait>UI/Image/Caster/MostimaPortrait</headPortrait>
 		<skills>
@@ -597,9 +585,6 @@ Skyfire, Operator from King's Wand, is ready to burn anyone foolish enough to st
 		<apparels>
 			<li>AK_Apparel_Skyfire</li>
 		</apparels>
-		<accessory>
-			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Caster</li>
-		</accessory>
 		<stand>UI/Image/Caster/SkyfireStand</stand>
 		<headPortrait>UI/Image/Caster/SkyfirePortrait</headPortrait>
 		<bodyTypeDef>Female</bodyTypeDef>
@@ -703,9 +688,6 @@ Absinthe, Caster Operator, is always ready to eliminate any threats.</descriptio
 		<apparels>
 			<li>AK_Apparel_Absinthe</li>
 		</apparels>
-		<accessory>
-			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Caster</li>
-		</accessory>
 		<stand>UI/Image/Caster/AbsintheStand</stand>
 		<headPortrait>UI/Image/Caster/AbsinthePortrait</headPortrait>
 		<skills>
@@ -815,9 +797,6 @@ Amiya, leader of Rhodes Island, will fight alongside you.</description>
 		<apparels>
 			<li>AK_Apparel_Amiya</li>
 		</apparels>
-		<accessory>
-			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Caster</li>
-		</accessory>
 		<stand>UI/Image/Caster/AmiyaStand</stand>
 		<headPortrait>UI/Image/Caster/AmiyaPortrait</headPortrait>
 		<skills>
@@ -931,9 +910,6 @@ Ceobe is always ready to go after the bad guys.</description>
 		<apparels>
 			<li>AK_Apparel_Ceobe</li>
 		</apparels>
-		<accessory>
-			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Caster</li>
-		</accessory>
 		<stand>UI/Image/Caster/CeobeStand</stand>
 		<headPortrait>UI/Image/Caster/CeobePortrait</headPortrait>
 		<bodyTypeDef>Female</bodyTypeDef>
@@ -1059,7 +1035,7 @@ Ceobe is always ready to go after the bad guys.</description>
 		<apparels>
 			<li>AK_Apparel_Carnelian</li>
 		</apparels>
-		<accessory>
+		<accessory Inherit="false">
 			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_DesertBlessings</li>
 		</accessory>
 		<stand>UI/Image/Caster/CarnelianStand</stand>
@@ -1177,7 +1153,7 @@ Ceobe is always ready to go after the bad guys.</description>
 		<apparels>
 			<li>AK_Apparel_Beeswax</li>
 		</apparels>
-		<accessory>
+		<accessory Inherit="false">
 			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_DesertBlessings</li>
 		</accessory>
 		<stand>UI/Image/Caster/BeeswaxStand</stand>
@@ -1285,9 +1261,6 @@ Ceobe is always ready to go after the bad guys.</description>
 		<apparels>
 			<li>AK_Apparel_Indigo</li>
 		</apparels>
-		<accessory>
-			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Caster</li>
-		</accessory>
 		<stand>UI/Image/Caster/IndigoStand</stand>
 		<headPortrait>UI/Image/Caster/IndigoPortrait</headPortrait>
 		<skills>
@@ -1398,9 +1371,6 @@ Ceobe is always ready to go after the bad guys.</description>
 		<apparels>
 			<li>AK_Apparel_Goldenglow</li>
 		</apparels>
-		<accessory>
-			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Caster</li>
-		</accessory>
 		<stand>UI/Image/Caster/GoldenglowStand</stand>
 		<headPortrait>UI/Image/Caster/GoldenglowPortrait</headPortrait>
 		<traits>
@@ -1509,9 +1479,6 @@ Ceobe is always ready to go after the bad guys.</description>
 		<apparels>
 			<li>AK_Apparel_Tomimi</li>
 		</apparels>
-		<accessory>
-			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Caster</li>
-		</accessory>
 		<stand>UI/Image/Caster/TomimiStand</stand>
 		<headPortrait>UI/Image/Caster/TomimiPortrait</headPortrait>
 		<bodyTypeDef>Female</bodyTypeDef>
@@ -1621,9 +1588,6 @@ Ceobe is always ready to go after the bad guys.</description>
 		<apparels>
 			<li>AK_Apparel_Kjera</li>
 		</apparels>
-		<accessory>
-			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Caster</li>
-		</accessory>
 		<stand>UI/Image/Caster/KjeraStand</stand>
 		<headPortrait>UI/Image/Caster/KjeraPortrait</headPortrait>
 		<bodyTypeDef>Female</bodyTypeDef>
@@ -1726,9 +1690,6 @@ Ceobe is always ready to go after the bad guys.</description>
 		<apparels>
 			<li>AK_Apparel_Astgenne</li>
 		</apparels>
-		<accessory>
-			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Caster</li>
-		</accessory>
 		<stand>UI/Image/Caster/AstgenneStand</stand>
 		<headPortrait>UI/Image/Caster/AstgennePortrait</headPortrait>
 		<traits>
@@ -1832,9 +1793,6 @@ Ceobe is always ready to go after the bad guys.</description>
 		<apparels>
 			<li>AK_Apparel_Harmonie</li>
 		</apparels>
-		<accessory>
-			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Caster</li>
-		</accessory>
 		<stand>UI/Image/Caster/HarmonieStand</stand>
 		<headPortrait>UI/Image/Caster/HarmoniePortrait</headPortrait>
 		<traits>
@@ -1940,7 +1898,7 @@ Ceobe is always ready to go after the bad guys.</description>
 		<apparels>
 			<li>AK_Apparel_Lin</li>
 		</apparels>
-		<accessory>
+		<accessory Inherit="false">
 			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Lin</li>
 		</accessory>
 		<stand>UI/Image/Caster/LinStand</stand>
@@ -2052,9 +2010,6 @@ FIXMEDESC</description>
 		<apparels>
 			<li>AK_Apparel_Hoolheyak</li>
 		</apparels>
-		<accessory>
-			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Caster</li>
-		</accessory>
 		<stand>UI/Image/Caster/HoolheyakStand</stand>
 		<headPortrait>UI/Image/Caster/HoolheyakPortrait</headPortrait>
 		<bodyTypeDef>Female</bodyTypeDef>
@@ -2151,9 +2106,6 @@ FIXMEDESC</description>
 		<apparels>
 			<li>AK_Apparel_Passenger</li>
 		</apparels>
-		<accessory>
-			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Caster</li>
-		</accessory>
 		<stand>UI/Image/Caster/PassengerStand</stand>
 		<headPortrait>UI/Image/Caster/PassengerPortrait</headPortrait>
 		<bodyTypeDef>Male</bodyTypeDef>

@@ -112,7 +112,7 @@ FIXMEDESC</description>
 		<apparels>
 			<li>AK_Apparel_FrostNova</li>
 		</apparels>
-		<accessory>
+		<accessory Inherit="false">
 			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_FrostNova</li>
 		</accessory>
 		<stand>UI/Image/OtherLeader/FrostNovaStand</stand>

@@ -12,9 +12,6 @@ Specialist Operator Robin, a city girl.</description>
 		<apparels>
 			<li>AK_Apparel_Robin</li>
 		</apparels>
-		<accessory>
-			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Specialist</li>
-		</accessory>
 		<stand>UI/Image/Specialist/RobinStand</stand>
 		<headPortrait>UI/Image/Specialist/RobinPortrait</headPortrait>
 		<skills>
@@ -114,9 +111,6 @@ Projekt Red the Wolf Hunter, Specialist Operator of Rhodes Island, will join the
 		<apparels>
 			<li>AK_Apparel_Red</li>
 		</apparels>
-		<accessory>
-			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Specialist</li>
-		</accessory>
 		<stand>UI/Image/Specialist/RedStand</stand>
 		<headPortrait>UI/Image/Specialist/RedPortrait</headPortrait>
 		<skills>
@@ -215,9 +209,6 @@ Projekt Red the Wolf Hunter, Specialist Operator of Rhodes Island, will join the
 		<apparels>
 			<li>AK_Apparel_Gladiia</li>
 		</apparels>
-		<accessory>
-			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Specialist</li>
-		</accessory>
 		<stand>UI/Image/Specialist/GladiiaStand</stand>
 		<headPortrait>UI/Image/Specialist/GladiiaPortrait</headPortrait>
 		<bodyTypeDef>Female</bodyTypeDef>
@@ -317,9 +308,6 @@ Projekt Red the Wolf Hunter, Specialist Operator of Rhodes Island, will join the
 		<apparels>
 			<li>AK_Apparel_Weedy</li>
 		</apparels>
-		<accessory>
-			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Specialist</li>
-		</accessory>
 		<stand>UI/Image/Specialist/WeedyStand</stand>
 		<headPortrait>UI/Image/Specialist/WeedyPortrait</headPortrait>
 		<skills>
@@ -419,9 +407,6 @@ Projekt Red the Wolf Hunter, Specialist Operator of Rhodes Island, will join the
 		<apparels>
 			<li>AK_Apparel_Mizuki</li>
 		</apparels>
-		<accessory>
-			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Specialist</li>
-		</accessory>
 		<stand>UI/Image/Specialist/MizukiStand</stand>
 		<headPortrait>UI/Image/Specialist/MizukiPortrait</headPortrait>
 		<bodyTypeDef>Thin</bodyTypeDef>
@@ -518,7 +503,7 @@ Projekt Red the Wolf Hunter, Specialist Operator of Rhodes Island, will join the
 		<apparels>
 			<li>AK_Apparel_Gravel</li>
 		</apparels>
-		<accessory>
+		<accessory Inherit="false">
 			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Gravel</li>
 		</accessory>
 		<stand>UI/Image/Specialist/GravelStand</stand>
@@ -619,9 +604,6 @@ Projekt Red the Wolf Hunter, Specialist Operator of Rhodes Island, will join the
 		<apparels>
 			<li>AK_Apparel_Kafka</li>
 		</apparels>
-		<accessory>
-			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Specialist</li>
-		</accessory>
 		<stand>UI/Image/Specialist/KafkaStand</stand>
 		<headPortrait>UI/Image/Specialist/KafkaPortrait</headPortrait>
 		<traits>
@@ -716,9 +698,6 @@ Projekt Red the Wolf Hunter, Specialist Operator of Rhodes Island, will join the
 		<apparels>
 			<li>AK_Apparel_Cliffheart</li>
 		</apparels>
-		<accessory>
-			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Specialist</li>
-		</accessory>
 		<stand>UI/Image/Specialist/CliffheartStand</stand>
 		<headPortrait>UI/Image/Specialist/CliffheartPortrait</headPortrait>
 		<traits>
@@ -826,9 +805,6 @@ Projekt Red the Wolf Hunter, Specialist Operator of Rhodes Island, will join the
 		<apparels>
 			<li>AK_Apparel_Dorothy</li>
 		</apparels>
-		<accessory>
-			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Specialist</li>
-		</accessory>
 		<stand>UI/Image/Specialist/DorothyStand</stand>
 		<headPortrait>UI/Image/Specialist/DorothyPortrait</headPortrait>
 		<traits>
@@ -934,9 +910,6 @@ FIXMEDESC</description>
 		<apparels>
 			<li>AK_Apparel_Manticore</li>
 		</apparels>
-		<accessory>
-			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Specialist</li>
-		</accessory>
 		<stand>UI/Image/Specialist/ManticoreStand</stand>
 		<headPortrait>UI/Image/Specialist/ManticorePortrait</headPortrait>
 		<bodyTypeDef>Female</bodyTypeDef>
