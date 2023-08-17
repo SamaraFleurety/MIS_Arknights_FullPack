@@ -66,4 +66,18 @@
 		</stages>
 	</ThoughtDef>
 
+	<!-- 风丸 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Kazemaru</defName>
+		<requiredTraits><li>AK_Trait_Kazemaru</li></requiredTraits>
+		<stages>
+			<li>
+				<label>折纸生花</label>
+				<description>她很清楚如今自己要做的究竟是什么。</description>
+				<baseMoodEffect>12</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
 </Defs>

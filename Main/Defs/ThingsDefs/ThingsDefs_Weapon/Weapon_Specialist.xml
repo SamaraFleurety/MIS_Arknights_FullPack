@@ -649,4 +649,14 @@
     </projectile>
   </ThingDef>
 
+	<ThingDef ParentName="AK_WeaponBase_Specialist">
+		<defName>AK_Weapon_Kazemaru</defName>
+		<label>风丸的刀</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Specialist/KazemaruW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<description>风丸的忍者刀，很符合忍者敏捷的行动方式</description>
+	</ThingDef>
+
 </Defs>

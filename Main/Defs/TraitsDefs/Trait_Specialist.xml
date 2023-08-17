@@ -159,4 +159,43 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<!-- 风丸 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_KazemaruSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>专业训练</label>
+				<description>风丸系统地接受过作为东国忍者死士的作战训练，虽然方式奇特，但招招致命。
+				</description>
+				<statOffsets>
+					<MeleeHitChance>8</MeleeHitChance>
+					<MeleeDodgeChance>12</MeleeDodgeChance>
+					<MentalBreakThreshold>-0.2</MentalBreakThreshold>
+				</statOffsets>
+				<statFactors>
+					<IncomingDamageFactor>0.75</IncomingDamageFactor>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Kazemaru</defName>
+		<degreeDatas>
+			<li>
+				<label>折纸生花</label>
+				<description>“她们一直以为风丸没有比自己大上几岁，可爱又天真的孩子们呀……”
+				</description>
+				<statOffsets>
+					<SocialImpact>0.3</SocialImpact>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>

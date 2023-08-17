@@ -177,4 +177,21 @@
 		</baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Kazemaru_Child</defName>
+		<slot>Childhood</slot>
+		<title>家族忍者</title>
+		<titleShort>家族忍者</titleShort>
+		<baseDesc>{PAWN_nameDef}自幼时就是东国的某个大家族豢养的忍者学徒，{PAWN_pronoun}自五岁起开始接受一些残酷又奇特的训练。当然，这里面不包括做饭和恋爱。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Kazemaru_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>罗德岛情报员</title>
+		<titleShort>罗德岛情报员</titleShort>
+		<baseDesc>伴随着新任家主的改革，{PAWN_nameDef}最终决定脱离东国的家族——{PAWN_pronoun}无法忍受穿着制服在柜台前几个小时地重复向客户递出名片的动作。
+或许有些人生来就适合接近危险与阴影，在{PAWN_pronoun}忍无可忍地离开之后。由小家主牵线来到了罗德岛，并担任情报员一职。</baseDesc>
+	</BackstoryDef>
+
 </Defs>
