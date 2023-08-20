@@ -28,8 +28,12 @@
                 <fireFoamBurster>true</fireFoamBurster>
                 <versionInfo>Muelsyse-Shield</versionInfo>
                 <alias>缪尔赛思的护盾</alias>
-                <bubbleTexPath>Things/ShieldBelt/ShieldBeltMuelsyseD</bubbleTexPath>
             </li>
+			<li Class="AKE_VanyaShield.TCP_VanyaShieldExtension">
+				<hideVanillaBubble>true</hideVanillaBubble>
+				<bubbleStaticTexPath>Things/ShieldBelt/ShieldBeltMuelsyseS</bubbleStaticTexPath>
+				<bubbleRotateTexPath>Things/ShieldBelt/ShieldBeltMuelsyseD</bubbleRotateTexPath>
+			</li>
         </comps>
     </ThingDef>
 
