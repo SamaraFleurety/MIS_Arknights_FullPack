@@ -17,7 +17,7 @@
             <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
                 <startingTicksToReset>3600</startingTicksToReset>
                 <energyOnReset>0.2</energyOnReset>
-                <energyLossPerDamage>1</energyLossPerDamage>
+                <energyLossPerDamage>0.01</energyLossPerDamage>
                 <canAbsorbMeleeDamage>true</canAbsorbMeleeDamage>
                 <meleeAbsorbFactor>2</meleeAbsorbFactor>
                 <rangedAbsorbFactor>1.5</rangedAbsorbFactor>
@@ -33,6 +33,7 @@
 				<hideVanillaBubble>true</hideVanillaBubble>
 				<bubbleStaticTexPath>Things/ShieldBelt/ShieldBeltMuelsyseS</bubbleStaticTexPath>
 				<bubbleRotateTexPath>Things/ShieldBelt/ShieldBeltMuelsyseD</bubbleRotateTexPath>
+				<reflectionRatio>0.3</reflectionRatio>
 			</li>
         </comps>
     </ThingDef>
