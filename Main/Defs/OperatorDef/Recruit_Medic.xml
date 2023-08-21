@@ -442,6 +442,9 @@ Nightingale, Sarkaz healer, will do everything she can to provide medical care f
 		<apparels>
 			<li>AK_Apparel_Nightingale</li>
 		</apparels>
+		<accessory Inherit="false">
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Nightingale</li>
+		</accessory>
 		<stand>UI/Image/Medic/NightingaleStand</stand>
 		<headPortrait>UI/Image/Medic/NightingalePortrait</headPortrait>
 		<skills>
