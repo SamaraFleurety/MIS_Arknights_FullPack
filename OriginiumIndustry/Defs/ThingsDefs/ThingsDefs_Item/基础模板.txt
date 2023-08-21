@@ -23,3 +23,22 @@
   </ThingDef>
 
 </Defs>
+
+Chemical 这种药物的活性化学物质。
+Category 这种成瘾品归属的类别。
+HighGainPerDose 每剂这种药物能提供的浓度。
+HighFallPerDay 这种药物每天减少的浓度。
+HighDurationPerDose 这种药物服用后能维持有效浓度的时间。\n\n这是由每剂药物浓度和浓度降低速率计算出来的。
+ToleranceGainPerDose 使用者每剂这种药物会提升的抗药性。\n\n对于同一化学物质，不同的获得方式会有不同的抗药性。
+ToleranceFallPerDay 使用者对这种化学物质抗药性每天减少的量。
+MinToleranceForAddiction 初次成瘾所需的最低抗药性。\n\n如果服用者的抗药性低于这个数值，他们在未成瘾时服用这个药物就不会成瘾。
+SafeDoseInterval 安全服用间隔，成年的服用者如果从未超过此频率服用药物，就不会成瘾。
+RandomODChance 服用这种药物会随机地产生药物过量的可能性
+Addictiveness 该药物的成瘾性，每剂药物产生成瘾的几率。
+AddictionSeverityInitial 由这种药物产生成瘾性的初始严重程度。
+AddictionRecoveryTime 摆脱这种药物的初次成瘾所需的时间。
+AddictionSeverityPerDose 每剂这种药物对成瘾性增加的严重程度。\n\n成瘾度不能超过100%。
+AddictionNeedDoseInterval 药物成瘾者防止产生戒断而需要服用此药物的间隔。\n\n这是根据成瘾性需求的降低速率和每剂满足成瘾需求的量来计算出来的。
+AddictionNeedOffset 这种药物每剂能满足对应化学品需求的量。
+AddictionNeedFallRate 成瘾者对这种化学品需求的满足度降低速率。
+AddictionCost 在满足需求并不产生戒断的情况下每日必须消费成瘾品的市场价值。\n\n这个值时根据每剂化学品需求、需求下降速率和该药物的市场价值计算出来的。
