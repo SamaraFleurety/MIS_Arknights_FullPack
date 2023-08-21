@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <ThingDef ParentName="ResourceBase">
-    <defName>OriginiumCoarseOre</defName>
+    <defName>AKI_Item_OriginiumCoarseOre</defName>
     <label>源石粗矿</label>
     <description>被开采下来的，外表看上去和石头基本上没区别的低浓度源石，也不具备任何工业或使用价值，只有经过提炼才能有一定的作用。</description>
     <graphicData>
@@ -37,7 +37,7 @@
   </ThingDef>
 
   <ThingDef ParentName="ResourceBase">
-    <defName>RoughMachinedOriginium</defName>
+    <defName>AKI_Item_RoughMachinedOriginium</defName>
     <label>初步加工的源石</label>
     <description>经过初步加工的源石，已经具备了一定的用途，但是其纯度仍不适用于大规模生产和制造，只能用于一些小生产。</description>
     <graphicData>
@@ -74,7 +74,7 @@
   </ThingDef>
 
   <ThingDef ParentName="ResourceBase">
-    <defName>RefinedOriginium</defName>
+    <defName>AKI_Item_RefinedOriginium</defName>
     <label>精加工源石</label>
     <description>经过现代化工序提炼出的源石，泰拉世界大多数工业化设施都不可或缺的能量来源和设施部件，经常会有势力大量进口这种东西用于生产或者战争用途。因为源石可能造成的生物和环境污染，因此高浓度的源石必须装在高度密封的容器中。</description>
     <graphicData>
@@ -111,7 +111,7 @@
   </ThingDef>
 
   <ThingDef ParentName="ResourceBase">
-    <defName>OriginitePrime</defName>
+    <defName>AKI_Item_OriginitePrime</defName>
     <label>至纯源石</label>
     <description>经历反复提炼才能得到很少的，闪耀的，脆弱的工业珍宝，通常被用作计算机最核心的配件或者用来打造最恐怖的神兵利器，这种纯度的源石及其蕴含的价值能让任何人为之疯狂。</description>
     <graphicData>
@@ -146,7 +146,7 @@
   </ThingDef>
 
   <ThingDef ParentName="ResourceBase">
-    <defName>OriginiumShard</defName>
+    <defName>AKI_Item_OriginiumShard</defName>
     <label>源石碎片</label>
     <description>在源石加工和提炼时产生的工业废料，因为其高污染，不稳定性和回收的高成本被列为危险物，尽管如此仍旧有一些疯子在它身上榨出了仅剩的一些价值：制造恐怖的化学武器。</description>
     <graphicData>

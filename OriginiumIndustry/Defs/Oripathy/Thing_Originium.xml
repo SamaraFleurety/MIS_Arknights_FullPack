@@ -2,7 +2,7 @@
 <Defs>
 	
   <ThingDef ParentName="RockBase">
-    <defName>AK_ORG_Mineable</defName>
+    <defName>AKI_ORG_Mineable</defName>
     <label>源石矿脉</label>
     <description>低浓度的源石矿石，在漫长的沉淀和地质活动中已经趋于稳定，但是依旧会释放出一些源石粉尘。</description>
     <tickerType>Rare</tickerType>
@@ -25,13 +25,13 @@
     </building>
 	<comps>
       <li Class="AK_Industry.TCP_GasEmitter">
-		<gasType>AK_Gas_OrgDust</gasType>
+		<gasType>AKI_Gas_OrgDust</gasType>
       </li>
     </comps>
   </ThingDef>
   
   <ThingDef Name="BaseGas" Abstract="True">
-    <thingClass>AK_Industry.Gas</thingClass>
+    <thingClass>AKI_Industry.Gas</thingClass>
     <label>gas</label>
     <category>Gas</category>
     <altitudeLayer>Gas</altitudeLayer>
@@ -44,14 +44,14 @@
   </ThingDef>
   
   <ThingDef Class="AK_Industry.GasDef" ParentName="BaseGas">
-    <defName>AK_Gas_OrgDust</defName>
+    <defName>AKI_Gas_OrgDust</defName>
     <label>源石尘</label>
     <graphicData>
       <texPath>Things/Gas/Puff</texPath>
       <drawSize>2.5</drawSize>
       <color>(1,0.92,0.016,0.2)</color>
     </graphicData>
-	<addHediff>AK_Hediff_OrgDust</addHediff>
+	<addHediff>AKI_Hediff_OrgDust</addHediff>
 	<hediffAddChance>1.0</hediffAddChance>
     <hediffSeverity>100</hediffSeverity>    
 	<gas>
