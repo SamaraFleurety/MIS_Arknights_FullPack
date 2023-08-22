@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase">
+		<defName>FS_Recruit_Rofecoxib</defName>
+		<name></name>
+		<nickname>罗非昔布</nickname>
+		<surname></surname>
+		<description>来自边缘世界的雇佣兵，她的过去没人知道，你只需要知道她很厉害。</description>
+		<operatorType>AK_OperatorClass_Medic</operatorType>
+		<bodyTypeDef>Female</bodyTypeDef>
+		<stand>Sponsor/Rofecoxib/RofecoxibStand</stand>
+		<headPortrait>Sponsor/Rofecoxib/RofecoxibPortrait</headPortrait>
+		<weapon>FS_Weapon_Rofecoxib</weapon>
+		<apparels>
+			<li>FS_Apparel_Rofecoxib</li>
+		</apparels>
+		<skills>
+			<li>
+				<skill>Animals</skill>
+				<level>0</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Artistic</skill>
+				<level>1</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Construction</skill>
+				<level>0</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Cooking</skill>
+				<level>0</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Crafting</skill>
+				<level>20</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Intellectual</skill>
+				<level>16</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<level>14</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<level>2</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Mining</skill>
+				<level>2</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Plants</skill>
+				<level>10</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<level>20</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<level>0</level>
+				<fireLevel>0</fireLevel>
+			</li>
+		</skills>
+		<traits>
+			<li>
+				<def>ShootingAccuracy</def>
+				<degree>1</degree>
+			</li>
+			<li>
+				<def>Beauty</def>
+				<degree>2</degree>
+			</li>
+			<li>
+				<def>FastLearner</def>
+			</li>
+			<li>
+				<def>BodyPurist</def>
+			</li>
+		</traits>
+		<age>20</age>
+		<standRatio>3</standRatio>
+		<standOffset>(0, 0)</standOffset>
+	</AK_DLL.OperatorDef>
+
+	<HairDef ParentName="AK_HairBaseF">
+		<defName>FS_Hair_Rofecoxib</defName>
+		<label>罗非昔布的头发</label>
+		<texPath>Sponsor/Rofecoxib/RofecoxibHair</texPath>
+	</HairDef>
+
+	<ThingDef ParentName="MeleeWeaponUltratech">
+		<defName>FS_Weapon_Rofecoxib</defName>
+		<label>经过特殊改造的步枪</label>
+		<description>经过特殊改造的步枪。</description>
+		<smeltable>false</smeltable>
+		<graphicData>
+			<texPath>Sponsor/Rofecoxib/Weapon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_Rofecoxib</defaultProjectile>
+				<warmupTime>1.0</warmupTime>
+				<range>30.9</range>
+				<burstShotCount>3</burstShotCount>
+				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+				<soundCast>Shot_AssaultRifle</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>18</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>18</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_Rofecoxib</defName>
+		<label>经过特殊改造的步枪子弹</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_Small</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>22</damageAmountBase>
+			<speed>70</speed>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase">
+		<defName>FS_Apparel_Rofecoxib</defName>
+		<label>罗非昔布的常服</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Sponsor/Rofecoxib/Rofecoxib</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>FS_BackStory_Rofecoxib_Child</defName>
+		<slot>Childhood</slot>
+		<title>临床试验奴隶</title>
+		<titleShort>奴隶</titleShort>
+		<baseDesc>她从小就没有被人爱过陪伴她的只有针头和让喉咙燃烧般疼痛的药物，她恨那些医生但是她也学到了先吃那些药可以止痛，自幼她的医学知识远超同龄人。</baseDesc>
+		<skillGains>
+			<li>
+				<key>Medicine</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>FS_BackStory_Rofecoxib_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>过分用药的战地医生</title>
+		<titleShort>战地医生</titleShort>
+		<baseDesc>她用药很过分，几乎到了癫狂的地步，但也很有效，就是你能不能活过药物后劲就是你的问题了。</baseDesc>
+	</BackstoryDef>
+
+
+</Defs>

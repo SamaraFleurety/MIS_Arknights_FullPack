@@ -31,7 +31,7 @@
     <burnableByRecipe>false</burnableByRecipe>    <!-- 是否可燃 -->
     <smeltable>true</smeltable>    <!-- 是否可熔炼 -->
     <smeltProducts>
-      <RoughMachinedOriginium>1</RoughMachinedOriginium>
+      <AKI_Item_RoughMachinedOriginium>1</AKI_Item_RoughMachinedOriginium>
     </smeltProducts>
     <allowedArchonexusCount>-1</allowedArchonexusCount>    <!-- 任务相关 -->
   </ThingDef>
@@ -68,7 +68,7 @@
     <burnableByRecipe>true</burnableByRecipe>    <!-- 是否可燃 -->
     <smeltable>true</smeltable>    <!-- 是否可熔炼 -->
     <smeltProducts>
-      <RefinedOriginium>15</RefinedOriginium>
+      <AKI_Item_RefinedOriginium>15</AKI_Item_RefinedOriginium>
     </smeltProducts>
     <allowedArchonexusCount>-1</allowedArchonexusCount>    <!-- 任务相关 -->
   </ThingDef>
@@ -105,7 +105,7 @@
     <burnableByRecipe>true</burnableByRecipe>    <!-- 是否可燃 -->
     <smeltable>true</smeltable>    <!-- 是否可熔炼 -->
     <smeltProducts>
-      <OriginitePrime>15</OriginitePrime>
+      <AKI_Item_OriginitePrime>15</AKI_Item_OriginitePrime>
     </smeltProducts>
     <allowedArchonexusCount>-1</allowedArchonexusCount>    <!-- 任务相关 -->
   </ThingDef>

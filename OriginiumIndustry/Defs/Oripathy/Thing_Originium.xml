@@ -18,7 +18,7 @@
     </statBases>
     <building>
       <isResourceRock>true</isResourceRock>
-      <mineableThing>OriginiumCoarseOre</mineableThing>
+      <mineableThing>AKI_Item_OriginiumCoarseOre</mineableThing>
       <mineableYield>40</mineableYield>
       <mineableScatterCommonality>1</mineableScatterCommonality>
       <mineableScatterLumpSizeRange>30~40</mineableScatterLumpSizeRange>
@@ -31,7 +31,7 @@
   </ThingDef>
   
   <ThingDef Name="BaseGas" Abstract="True">
-    <thingClass>AKI_Industry.Gas</thingClass>
+    <thingClass>AK_Industry.Gas</thingClass>
     <label>gas</label>
     <category>Gas</category>
     <altitudeLayer>Gas</altitudeLayer>
