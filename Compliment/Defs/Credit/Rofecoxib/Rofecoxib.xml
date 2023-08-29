@@ -119,7 +119,7 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Bullet_Rofecoxib</defaultProjectile>
-				<warmupTime>1.0</warmupTime>
+				<warmupTime>0.5</warmupTime>
 				<range>30.9</range>
 				<burstShotCount>3</burstShotCount>
 				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
@@ -135,7 +135,7 @@
 					<li>Blunt</li>
 				</capacities>
 				<power>18</power>
-				<cooldownTime>2</cooldownTime>
+				<cooldownTime>1</cooldownTime>
 			</li>
 			<li>
 				<label>barrel</label>
@@ -144,7 +144,7 @@
 					<li>Poke</li>
 				</capacities>
 				<power>18</power>
-				<cooldownTime>2</cooldownTime>
+				<cooldownTime>1</cooldownTime>
 			</li>
 		</tools>
 	</ThingDef>
