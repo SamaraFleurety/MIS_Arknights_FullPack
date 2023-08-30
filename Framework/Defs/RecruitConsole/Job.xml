@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <JobDef>
-        <defName>AK_UseRecruitConsole</defName>
-        <driverClass>AK_DLL.JobDriver_UseRecruitConsole</driverClass>
-        <reportString>Use Recruit Console.</reportString>
+	<JobDef>
+		<defName>AK_UseRecruitConsole</defName>
+		<driverClass>AK_DLL.JobDriver_UseRecruitConsole</driverClass>
+		<reportString>Use Recruit Console.</reportString>
 		<!--使用招募台-->
 	</JobDef>
-	
+
 	<JobDef>
 		<defName>AK_OperatorChangeFashion</defName>
 		<driverClass>AK_DLL.JobDriver_OpenFashionTab</driverClass>
 		<reportString>Open Fashion Tab</reportString>
 	</JobDef>
-	
+
 </Defs>
