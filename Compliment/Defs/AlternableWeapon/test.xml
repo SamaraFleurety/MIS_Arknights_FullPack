@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<ThingDef>
+		<defName>FS_Weapon_Alter</defName>
+		<label>变形武器</label>
+		<description>此干员的惯用武器。</description>
+		<thingClass>FS_TransWeapon.AlternableWeapon</thingClass>
+		<category>Item</category>
+		<drawerType>MapMeshOnly</drawerType>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<altitudeLayer>Item</altitudeLayer>
+		<alwaysHaulable>true</alwaysHaulable>
+		<tickerType>Normal</tickerType>
+		<equipmentType>Primary</equipmentType>
+		<useHitPoints>false</useHitPoints>
+		<pathCost>14</pathCost>
+		<selectable>true</selectable>
+		<smeltable>false</smeltable>
+		<burnableByRecipe>true</burnableByRecipe>
+		<relicChance>0</relicChance>
+		<tradeability>None</tradeability>
+		<statBases>
+			<Mass>4.6</Mass>
+			<Flammability>0</Flammability>
+			<Beauty>-3</Beauty>
+			<AccuracyTouch>0.1</AccuracyTouch>
+			<AccuracyShort>0.1</AccuracyShort>
+			<AccuracyMedium>0.1</AccuracyMedium>
+			<AccuracyLong>0.1</AccuracyLong>
+			<RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_Ifrit</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>2.2</warmupTime>				<!--前摇-->
+				<range>45</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_Ifrit</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="FS_TransWeapon.TCP_AlwaysShowGizmo" />
+			<li Class="CompProperties_Forbiddable"/>
+			<li>
+				<compClass>CompEquippable</compClass>
+			</li>
+			<li Class="CompProperties_Styleable"/>
+			<li Class="CompProperties_Biocodable"/>
+		</comps>
+		<graphicData>
+			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+			<texPath>Things/AK_Agents/Weapon/Guard/LapplandW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Industrial</techLevel>
+		<tools Inherit = "false">
+			<li>
+				<label>基础打击(只有此种攻击方式意味着此武器暂未完成)</label>
+				<capacities>
+				  <li>Blunt</li>
+				</capacities>
+				<power>21</power>
+				<cooldownTime>1.4</cooldownTime>
+				<chanceFactor>0.0001</chanceFactor>
+			</li>
+		</tools>
+	</ThingDef>
+	
+</Defs>

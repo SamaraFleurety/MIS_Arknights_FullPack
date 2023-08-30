@@ -17,12 +17,14 @@
       </li>
       <li Class="AK_Industry.HCP_OripathyInfo" />
       <li Class="AK_Industry.HCP_RandAddHediff">
+		<interval>2</interval>
+		<intervalUnit>hour</intervalUnit>
         <saveChanceByFunc>AK_Industry.Func_OrgDustToOrgBlood</saveChanceByFunc>
         <hediffStatsSet>
           <li>
             <hediff>AKI_Disease_ORG_OripathyBlood</hediff>
             <part></part>
-            <serverity>1</serverity>
+            <serverity>0.1</serverity>
             <randWeight>1</randWeight>
           </li>
         </hediffStatsSet>
@@ -75,69 +77,179 @@
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>24</severityPerDay>
       </li>
+	  <li Class="AK_Industry.HCP_RandAddHediff">
+		<interval>15</interval>
+		<intervalUnit>day</intervalUnit>
+		<saveChanceByFunc>AK_Industry.Func_OrgBloodCauseCrystal</saveChanceByFunc>
+		<hediffStatsSet>
+			<li>
+				<hediff>AKI_Hediff_LatentCrystal</hediff>
+				<part>Head</part>
+				<serverity>1</serverity>
+				<randWeight>2</randWeight>
+			</li>
+			<li>
+				<hediff>AKI_Hediff_LatentCrystal</hediff>
+				<part>Brain</part>
+				<serverity>1</serverity>
+				<randWeight>2</randWeight>
+			</li>
+			<li>
+				<hediff>AKI_Hediff_LatentCrystal</hediff>
+				<part>Eye</part>
+				<serverity>1</serverity>
+				<randWeight>8</randWeight>
+			</li>
+			<li>
+				<hediff>AKI_Hediff_LatentCrystal</hediff>
+				<part>Ear</part>
+				<serverity>1</serverity>
+				<randWeight>8</randWeight>
+			</li>
+			<li>
+				<hediff>AKI_Hediff_LatentCrystal</hediff>
+				<part>Liver</part>
+				<serverity>1</serverity>
+				<randWeight>8</randWeight>
+			</li>
+			<li>
+				<hediff>AKI_Hediff_LatentCrystal</hediff>
+				<part>Stomach</part>
+				<serverity>1</serverity>
+				<randWeight>8</randWeight>
+			</li>
+			<li>
+				<hediff>AKI_Hediff_LatentCrystal</hediff>
+				<part>Kidney</part>
+				<serverity>1</serverity>
+				<randWeight>8</randWeight>
+			</li>
+			<li>
+				<hediff>AKI_Hediff_LatentCrystal</hediff>
+				<part>Lung</part>
+				<serverity>1</serverity>
+				<randWeight>16</randWeight>
+			</li>
+			<li>
+				<hediff>AKI_Hediff_LatentCrystal</hediff>
+				<part>Heart</part>
+				<serverity>1</serverity>
+				<randWeight>8</randWeight>
+			</li>
+			<li>
+				<hediff>AKI_Hediff_LatentCrystal</hediff>
+				<part>Leg</part>
+				<serverity>1</serverity>
+				<randWeight>20</randWeight>
+			</li>
+			<li>
+				<hediff>AKI_Hediff_LatentCrystal</hediff>
+				<part>Arm</part>
+				<serverity>1</serverity>
+				<randWeight>20</randWeight>
+			</li>
+		</hediffStatsSet>
+	  </li>
     </comps>
     <makesSickThought>true</makesSickThought>
     <stages>
       <li>
         <label>早期</label>
-        <painOffset>0.02</painOffset>
         <becomeVisible>false</becomeVisible>
       </li>
       <li>
-        <minSeverity>1000</minSeverity>
-        <label>加重</label>
-        <painOffset>0.1</painOffset>
-      </li>
-      <li>
         <minSeverity>2500</minSeverity>
-        <label>严重</label>
-        <painOffset>0.2</painOffset>
+        <label>中期</label>
+        <becomeVisible>false</becomeVisible>
       </li>
       <li>
         <minSeverity>4000</minSeverity>
         <label>极重</label>
-        <painOffset>0.7</painOffset>
+        <painOffset>0.1</painOffset>
       </li>
     </stages>
   </HediffDef>
 
-  <HediffDef>
-    <defName>AKI_Disease_ORG_OripathyCrystal</defName>
+	<HediffDef>
+		<defName>AKI_Hediff_LatentCrystal</defName>
+		<label>潜在源石结晶</label>
+		<description>潜在源石结晶</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<maxSeverity>1</maxSeverity>
+		<isBad>true</isBad>
+		<tendable>false</tendable>
+		<comps>
+			<li Class="AK_Industry.HCP_LatentCrystal" />
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-24</severityPerDay>
+			</li>
+		</comps>
+	</HediffDef>
+
+  <HediffDef Name="OripathyCrystal">
+    <defName>AKI_Hediff_OripathyCrystal</defName>
     <label>源石结晶</label>
     <description>恶化了源石结晶</description>
     <hediffClass>HediffWithComps</hediffClass>
     <defaultLabelColor>(0.9, 1.0, 0.35)</defaultLabelColor>
-    <maxSeverity>1440</maxSeverity>
+    <maxSeverity>4.5</maxSeverity>
+	<isBad>true</isBad>
     <tendable>false</tendable>
     <comps>
-      <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>24</severityPerDay>
-      </li>
     </comps>
     <stages>
       <li>
         <label>早期</label>
-        <partEfficiencyOffset>-0.25</partEfficiencyOffset>
+        <partEfficiencyOffset>-0.10</partEfficiencyOffset>
+        <painOffset>0.01</painOffset>
       </li>
       <li>
-        <minSeverity>200</minSeverity>
+        <minSeverity>2</minSeverity>
         <label>加重</label>
-        <partEfficiencyOffset>-0.5</partEfficiencyOffset>
+        <partEfficiencyOffset>-0.20</partEfficiencyOffset>
+        <painOffset>0.01</painOffset>
       </li>
       <li>
-        <minSeverity>500</minSeverity>
+        <minSeverity>3</minSeverity>
         <label>严重</label>
-        <partEfficiencyOffset>-0.75</partEfficiencyOffset>
+        <partEfficiencyOffset>-0.25</partEfficiencyOffset>
+        <painOffset>0.05</painOffset>
       </li>
       <li>
-        <minSeverity>1200</minSeverity>
+        <minSeverity>4</minSeverity>
         <label>极重</label>
-        <partEfficiencyOffset>-0.8</partEfficiencyOffset>
+        <partEfficiencyOffset>-0.5</partEfficiencyOffset>
       </li>
     </stages>
   </HediffDef>
 
-  <HediffDef ParentName="DiseaseBase">
+	<HediffDef ParentName="OripathyCrystal">
+		<defName>AKI_Hediff_OripathyCrystalLethal</defName>
+		<label>源石结晶</label>
+		<description>恶化了源石结晶</description>       
+		<lethalSeverity>4</lethalSeverity>
+	</HediffDef>
+
+	<HediffDef>
+		<defName>AKI_Hediff_OripathyCrystalTrans</defName>
+		<label>激发源石结晶</label>
+		<description>激发源石结晶</description>
+		<maxSeverity>1</maxSeverity>
+		<initialSeverity>1</initialSeverity>
+		<stages>
+			<li>
+				<label>激发源石结晶</label>
+				<statOffsets>
+					<li>
+						<stat>PsychicSensitivity</stat>
+						<value>0.25</value>
+					</li>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
+<!--  <HediffDef ParentName="DiseaseBase">
     <defName>AKI_Disease_ORG_Artificial</defName>
     <label>人工矿石病</label>
     <description>感染了人工矿石病。</description>
@@ -168,6 +280,6 @@
         </capMods>
       </li>
     </stages>
-  </HediffDef>
+  </HediffDef>  -->
 
 </Defs>
