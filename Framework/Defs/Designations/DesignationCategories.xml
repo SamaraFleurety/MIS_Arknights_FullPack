@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <DesignationCategoryDef>
+    <defName>MISBuildings</defName>
+    <label>明日方舟</label>
+    <description>MIS-明日方舟相关建筑</description>
+    <order>1</order> <!-- 菜单栏位置 从上到下从左到右数字由高到低-->
+    <specialDesignatorClasses>
+      <li>Designator_Cancel</li>
+      <li>Designator_Deconstruct</li>
+      <!-- <li>DubsBadHygiene.Designator_RemoveSewage</li>
+      <li>DubsBadHygiene.Designator_RemovePlumbing</li>
+      <li>DubsBadHygiene.Designator_PaintFixtures</li> -->
+    </specialDesignatorClasses>
+  </DesignationCategoryDef>
+
+</Defs>
