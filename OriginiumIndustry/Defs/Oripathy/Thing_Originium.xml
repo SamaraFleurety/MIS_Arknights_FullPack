@@ -53,7 +53,8 @@
     </graphicData>
 	<addHediff>AKI_Hediff_OrgDust</addHediff>
 	<hediffAddChance>1.0</hediffAddChance>
-    <hediffSeverity>100</hediffSeverity>    
+	<interval>1200</interval>
+    <hediffSeverity>1</hediffSeverity>    <!-- 1天涨200%  -->
 	<gas>
       <expireSeconds>
         <min>300</min>

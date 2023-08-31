@@ -240,16 +240,13 @@
 			<li>
 				<label>激发源石结晶</label>
 				<statOffsets>
-					<li>
-						<stat>PsychicSensitivity</stat>
-						<value>0.25</value>
-					</li>
+					<PsychicSensitivity>0.25</PsychicSensitivity>
 				</statOffsets>
 			</li>
 		</stages>
 	</HediffDef>
 
-<!--  <HediffDef ParentName="DiseaseBase">
+<!-- <HediffDef ParentName="DiseaseBase">
     <defName>AKI_Disease_ORG_Artificial</defName>
     <label>人工矿石病</label>
     <description>感染了人工矿石病。</description>
