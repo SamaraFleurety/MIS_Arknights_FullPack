@@ -1,0 +1,9 @@
+环世界的工作，最细分是Toil(一个行动)
+
+从顶层到Toil，有2种常见方式, think node tree和work type
+	其中,think node tree绑定种族，为此种族通用的决策树。例如，所有类人生物着火时都会想办法灭火。具体逻辑为，thinkRoot->ThinkNode_Conditional决定是否满足条件，若满足，则在子节点从上往下使用JobGiver给pawn一个job。
+	
+	work type则是仅殖民者会做的“工作”.其始于WorkTypeDef, 依照优先度判定, 然后有子节点WorkGiver. WorkGiver会判定条件, 判定工作的对象, 然后分配Job.
+	
+	而一个Job，分配后是由JobDriver来决定具体的行为。其行为被细分为Toil依次执行。一个pawn同时只能执行一个Toil。
+	

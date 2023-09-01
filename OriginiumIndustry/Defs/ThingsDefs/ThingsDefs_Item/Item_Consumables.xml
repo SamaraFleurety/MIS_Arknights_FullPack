@@ -1,5 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+	
+	<ThingDef Abstract="true">
+		<defName>AKI_Item_CleaningSuit</defName>
+		<label>清洁套装</label>
+	</ThingDef>
+
 
   <ThingDef ParentName="DrugBase">
     <defName>AKI_Item_BlendedBeer</defName>
