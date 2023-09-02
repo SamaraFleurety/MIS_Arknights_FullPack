@@ -1,9 +1,45 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	
-	<ThingDef Abstract="true">
-		<defName>AKI_Item_CleaningSuit</defName>
+	<ThingDef ParentName="ResourceBase">
+		<defName>AKI_Item_CleaningKit</defName>
 		<label>清洁套装</label>
+		<thingClass>ThingWithComps</thingClass>
+		<description>清洁套装描述</description>
+		<graphicData>
+			<texPath>Things/Consumables/BlendedBeer</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<category>Item</category>
+		<stackLimit>75</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<altitudeLayer>Item</altitudeLayer>
+		<alwaysHaulable>true</alwaysHaulable>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<drawerType>MapMeshOnly</drawerType>
+		<selectable>true</selectable>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<statBases>
+			<MarketValue>10</MarketValue>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>2.0</Mass>
+		</statBases>
+		<thingCategories>
+			<li>Items</li>
+		</thingCategories>  
+		<tradeability>All</tradeability>
+		<techLevel>Spacer</techLevel>
+		<comps>
+			<li Class="CompProperties_Forbiddable" />
+			<li Class="CompProperties_Usable">
+				<useJob>UseItem</useJob>
+				<useLabel>Cleaning self</useLabel>
+			</li>
+			<li Class="AK_Industry.TCP_UseEffect_CleanOrgDust" />
+			<li Class="CompProperties_UseEffectDestroySelf" />
+		</comps>
+		<rotatable>false</rotatable>
+		<pathCost>15</pathCost>
 	</ThingDef>
 
 
