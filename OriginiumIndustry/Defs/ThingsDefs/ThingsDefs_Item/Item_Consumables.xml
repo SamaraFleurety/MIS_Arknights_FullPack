@@ -7,7 +7,7 @@
 		<thingClass>ThingWithComps</thingClass>
 		<description>清洁套装描述</description>
 		<graphicData>
-			<texPath>Things/Consumables/BlendedBeer</texPath>
+			<texPath>Things/Consumables/CleaningKit</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<category>Item</category>
@@ -130,37 +130,5 @@
       </li>
     </tools>
   </ThingDef>
-
-  <RecipeDef>    <!--配方-->
-    <defName>Make_BlendedBeer</defName>
-    <label>制作化合啤酒</label>
-    <description>制作化合啤酒。</description>
-    <jobString>正在制作化合啤酒。</jobString>
-    <workSpeedStat>DrugCookingSpeed</workSpeedStat>    <!--工作速度统计-->
-    <workSkill>Cooking</workSkill>    <!--工作技能-->
-    <effectWorking>Cook</effectWorking>    <!--工作影响-->
-    <soundWorking>Recipe_Brewing</soundWorking>    <!--工作音效-->
-    <allowMixingIngredients>true</allowMixingIngredients>    <!--允许混合配料-->
-    <workAmount>1000</workAmount>    <!--工作量-->
-    <targetCountAdjustment>1</targetCountAdjustment>    <!--目标计数调整-->
-    <ingredients>      <!--配料表-->
-      <li>
-        <filter>
-          <thingDefs>
-            <li>RawHops</li>            <!--需求物-->
-          </thingDefs>
-        </filter>
-        <count>25</count>        <!--需求数量-->
-      </li>
-    </ingredients>
-    <fixedIngredientFilter>      <!--固定成分过滤器-->
-      <thingDefs>
-        <li>RawHops</li>
-      </thingDefs>
-    </fixedIngredientFilter>
-    <products>      <!--产品-->
-      <AKI_Item_BlendedBeer>5</AKI_Item_BlendedBeer>      <!--产品数量-->
-    </products>
-  </RecipeDef>
 
 </Defs>

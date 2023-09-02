@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <RecipeDef>        <!--配方-->
+        <defName>AKI_Make_RoughMachinedOriginium</defName>
+        <label>初步加工源石粗矿</label>
+        <description>初步加工源石粗矿。</description>
+        <jobString>正在初步加工源石粗矿。</jobString>
+        <workSpeedStat>SmeltingSpeed</workSpeedStat>        <!--工作速度统计-->
+        <workSkill>Crafting</workSkill>        <!--工作技能-->
+        <effectWorking>Smelt</effectWorking>        <!--工作影响-->
+        <soundWorking>Recipe_Smelt</soundWorking>        <!--工作音效-->
+        <allowMixingIngredients>true</allowMixingIngredients>        <!--允许混合配料-->
+        <workAmount>1000</workAmount>        <!--工作量-->
+        <targetCountAdjustment>1</targetCountAdjustment>        <!--目标计数调整-->
+        <ingredients>            <!--配料表-->
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>AKI_Item_OriginiumCoarseOre</li>                        <!--需求物-->
+                    </thingDefs>
+                </filter>
+                <count>1</count>                <!--需求数量-->
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>            <!--固定成分过滤器-->
+            <thingDefs>
+                <li>AKI_Item_OriginiumCoarseOre</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>            <!--产品-->
+            <AKI_Item_RoughMachinedOriginium>5</AKI_Item_RoughMachinedOriginium>            <!--产品数量-->
+        </products>
+    </RecipeDef>
+
+</Defs>

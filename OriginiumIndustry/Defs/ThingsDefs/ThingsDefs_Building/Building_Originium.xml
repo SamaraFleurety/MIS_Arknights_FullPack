@@ -85,52 +85,58 @@
   </ThingDef>
 
   <ThingDef ParentName="BuildingBase">
-    <defName>SmallStove</defName>
+    <defName>AKI_Building_SmallStove</defName>
     <label>小炉子</label>
     <description>很简陋的小炉子，基本上就是用石头把篝火围起来然后在上面架一口小锅，不过该有的都有。</description>
-    <thingClass>Building_WorkTable</thingClass>
-    <category>Building</category>
+    <thingClass>Building_WorkTable_HeatPush</thingClass>
     <graphicData>
       <texPath>Things/Building/SmallStove</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
       <drawSize>(2,2)</drawSize>
-      <drawRotated>false</drawRotated>
-      <allowFlip>false</allowFlip>
       <damageData>
-        <rect>(0.2,0,0.6,0.1)</rect>
+        <rect>(0.3,0.1,2.4,1.8)</rect>
       </damageData>
     </graphicData>
-    <uiIconPath>Things/Building/SmallStove</uiIconPath>
+    <stuffCategories>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>70</costStuffCount>
+    <costList>
+      <WoodLog>20</WoodLog>
+    </costList>
     <altitudeLayer>Building</altitudeLayer>
-    <passability>PassThroughOnly</passability>
-    <canOverlapZones>false</canOverlapZones>
-    <pathCost>65</pathCost>
-    <constructEffect>ConstructDirt</constructEffect>
-    <tickerType>Normal</tickerType>
-    <size>(2,2)</size>
-    <drawerType>RealtimeOnly</drawerType>
-    <fillPercent>0.20</fillPercent>
+    <useHitPoints>True</useHitPoints>
     <statBases>
-      <MaxHitPoints>120</MaxHitPoints>
       <WorkToBuild>7200</WorkToBuild>
+      <MaxHitPoints>120</MaxHitPoints>
       <Flammability>0</Flammability>
       <WorkTableWorkSpeedFactor>0.5</WorkTableWorkSpeedFactor>
       <MeditationFocusStrength>0.0</MeditationFocusStrength>
     </statBases>
+    <tickerType>Normal</tickerType>
+    <size>(2,2)</size>
+    <designationCategory>Production</designationCategory>
+    <fillPercent>0.5</fillPercent>
+    <passability>PassThroughOnly</passability>
+    <pathCost>65</pathCost>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <interactionCellIcon>DiningChair</interactionCellIcon>
+    <surfaceType>Item</surfaceType>
+    <canOverlapZones>false</canOverlapZones>
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
     <selectable>true</selectable>
-    <costList>
-      <WoodLog>20</WoodLog>
-    </costList>
     <soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
     <resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
-    <placeWorkers>
-      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
-      <li>PlaceWorker_Heater</li>
-      <li>PlaceWorker_MeditationOffsetBuildingsNear</li>
-    </placeWorkers>
-    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <constructionSkillPrerequisite>0</constructionSkillPrerequisite>
+    <recipes>
+      <li>AKI_Make_RoughMachinedOriginium</li>
+    </recipes>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
     <comps>
       <li Class="CompProperties_Refuelable">
         <fuelConsumptionRate>10.0</fuelConsumptionRate>
@@ -151,65 +157,27 @@
       <li Class="CompProperties_HeatPusher">
         <compClass>CompHeatPusherPowered</compClass>
         <heatPerSecond>6</heatPerSecond>
-        <heatPushMaxTemperature>28</heatPushMaxTemperature>
       </li>
       <li Class="CompProperties_FireOverlay">
         <fireSize>1</fireSize>
       </li>
-      <li>
-        <compClass>CompGatherSpot</compClass>
-      </li>
-      <li Class="CompProperties_MeditationFocus">
-        <statDef>MeditationFocusStrength</statDef>
-        <focusTypes>
-          <li>Flame</li>
-        </focusTypes>
-        <offsets>
-          <li Class="FocusStrengthOffset_Lit">
-            <offset>0.12</offset>
-          </li>
-          <li Class="FocusStrengthOffset_BuildingDefsLit">
-            <defs>
-              <li>Campfire</li>
-              <li>TorchLamp</li>
-              <li MayRequire="Ludeon.RimWorld.Royalty">Brazier</li>
-              <li MayRequire="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Ideology">DarklightBrazier</li>
-              <li MayRequire="Ludeon.RimWorld.Ideology">Darktorch</li>
-              <li MayRequire="Ludeon.RimWorld.Ideology">DarktorchFungus</li>
-            </defs>
-            <offsetPerBuilding>0.02</offsetPerBuilding>
-            <radius>9.9</radius>
-            <maxBuildings>8</maxBuildings>
-            <explanationKey>MeditationFocusPerFlame</explanationKey>
-            <explanationKeyAbstract>MeditationFocusPerFlameAbstract</explanationKeyAbstract>
-          </li>
-        </offsets>
-      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
     </comps>
-    <designationCategory>Temperature</designationCategory>
-    <designationHotKey>Misc1</designationHotKey>
-    <hasInteractionCell>True</hasInteractionCell>
-    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
-    <recipes>
-      <li>CookMealSimple</li>
-      <li>CookMealSimpleBulk</li>
-      <li>Make_Pemmican</li>
-      <li>Make_PemmicanBulk</li>
-      <li>BurnApparel</li>
-      <li>BurnWeapon</li>
-      <li>BurnDrugs</li>
-      <li MayRequire="Ludeon.RimWorld.Biotech">Make_BabyFood</li>
-      <li MayRequire="Ludeon.RimWorld.Biotech">Make_BabyFoodBulk</li>
-    </recipes>
-    <inspectorTabs>
-      <li>ITab_Bills</li>
-    </inspectorTabs>
     <building>
-      <isMealSource>true</isMealSource>
       <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
-      <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
-      <destroySound>BuildingDestroyed_Wood_Small</destroySound>
+      <heatPerTickWhileWorking>0.32</heatPerTickWhileWorking>
+      <destroySound>BuildingDestroyed_Stone_Small</destroySound>
+      <forceShowRoomStats>true</forceShowRoomStats>
+      <buildingTags>
+        <li>Production</li>
+      </buildingTags>
+      <paintable>true</paintable>
     </building>
+    <placeWorkers>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+    </placeWorkers>
+    <designationHotKey>Misc5</designationHotKey>
   </ThingDef>
 
 </Defs>
