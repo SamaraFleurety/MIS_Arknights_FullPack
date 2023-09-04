@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<ThingDef ParentName="FS_WeaponFormBase">
+		<defName>FS_Weapon_Freedom_SG</defName>		
+		<label>自由(霰弹模式)</label>
+		<description>description</description>
+		<graphicData>
+			<texPath>Weapon/FreedomSG</texPath>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.95</AccuracyTouch>
+			<AccuracyShort>0.93</AccuracyShort>
+			<AccuracyMedium>0.90</AccuracyMedium>
+			<AccuracyLong>0.88</AccuracyLong>
+			<RangedWeapon_Cooldown>0.05</RangedWeapon_Cooldown>
+			<!--后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>FS_Bullet_FreedomSG</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>0.3</warmupTime>
+				<!--前摇-->
+				<range>20</range>
+				<targetParams>
+					<canTargetLocations>false</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_Executor</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+	</ThingDef>
+		<ThingDef ParentName="AK_BulletBase_Bow">
+			<defName>FS_Bullet_FreedomSG</defName>
+			<label>霰弹射击</label>
+			<graphicData>
+				<texPath>Things/Projectile/MagicOrb</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+			</graphicData>
+			<thingClass>Bullet</thingClass>
+			<projectile>
+				<damageDef>Bullet</damageDef>
+				<!--伤害类型-->
+				<damageAmountBase>85</damageAmountBase>
+				<stoppingPower>8</stoppingPower>
+				<speed>50</speed>
+				<soundExplode>ThumpCannon_Impact</soundExplode>
+				<!--爆炸音效-->
+			</projectile>
+		</ThingDef>
+	
+	<ThingDef Class="FS_TransWeapon.AlternableWeaponDef" ParentName="FS_MultiformWeaponBase">
+		<defName>FS_Weapon_Alter</defName>
+		<label>变形武器</label>
+		<description>此干员的惯用武器。</description>
+		<thingClass>FS_TransWeapon.AlternableWeapon</thingClass>
+		<weaponMode>
+			<li>FS_Weapon_Freedom_SG</li>
+			<li>AK_Weapon_Pozyomka</li>
+		</weaponMode>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Guard/LapplandW</texPath>
+		</graphicData>
+	</ThingDef>
+	
+</Defs>
