@@ -57,10 +57,10 @@
     </thingCategories>
     <constructEffect>ConstructMetal</constructEffect>
     <comps>
-      <li Class="CompProperties_Power">
-        <compClass>CompPowerPlant</compClass>
+      <li Class="AK_Industry.TCP_ReactorOC">
         <basePowerConsumption>-500</basePowerConsumption>
         <transmitsPower>true</transmitsPower>
+		<powerOCOffset>20000</powerOCOffset>
       </li>
       <li Class="CompProperties_Breakdownable"/>
       <li Class="CompProperties_HeatPusher">
