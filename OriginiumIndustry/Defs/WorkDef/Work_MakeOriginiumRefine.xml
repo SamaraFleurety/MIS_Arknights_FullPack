@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<WorkGiverDef>
+		<defName>AKI_Work_MakeOriginiumRefine</defName>
+		<label>操作提炼源石设备</label>
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>Crafting</workType>
+		<priorityInType>80</priorityInType>
+		<fixedBillGiverDefs>
+			<li>AKI_Building_StoveI</li>
+			<li>AKI_Building_StoveII</li>
+			<li>AKI_Building_StoveIII</li>
+		</fixedBillGiverDefs>
+		<verb>提纯源石矿</verb>
+		<gerund>提纯源石矿于</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
+
+</Defs>

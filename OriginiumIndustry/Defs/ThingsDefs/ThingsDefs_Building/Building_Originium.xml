@@ -1,102 +1,61 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="BuildingBase">
-    <defName>AKI_Building_PortableOriginiumAlternator</defName>
-    <label>便携式源石发电机</label>
-    <thingClass>Building</thingClass>
+  <ThingDef ParentName="BenchBase" Name="AKI_Building_StoveBase">
+    <defName>AKI_Building_StoveBase</defName>
+    <label>炉子基础</label>
+    <thingClass>Building_WorkTable_HeatPush</thingClass>
     <drawerType>MapMeshAndRealTime</drawerType>
-    <description>一种拓荒队和天灾信使经常食用的小型发电机，虽然小但是动力强劲，而且便于运输。</description>
     <graphicData>
-      <texPath>Things/Building/PortableOriginiumAlternator</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(1,1)</drawSize>
-      <shadowData>
-        <volume>(1.93,1,1.69)</volume>
-        <offset>(-0.03,0,-0.1)</offset>
-      </shadowData>
+      <texPath>Things/Building/StoveI</texPath>
+      <shaderType>CutoutComplex</shaderType>
       <damageData>
-        <rect>(0,0,3,1.8)</rect>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
         <cornerBL>Damage/Corner</cornerBL>
         <cornerBR>Damage/Corner</cornerBR>
       </damageData>
     </graphicData>
-    <uiIconPath>Things/Building/PortableOriginiumAlternator</uiIconPath>
-    <altitudeLayer>Building</altitudeLayer>
-    <passability>PassThroughOnly</passability>    <!-- 可通过 -->
-    <pathCost>14</pathCost>
-    <canOverlapZones>false</canOverlapZones>    <!-- 可重叠 -->
-    <blockWind>false</blockWind>    <!-- 挡风 -->
-    <fillPercent>0.25</fillPercent>    <!-- 掩体效果 -->
     <statBases>
-      <MaxHitPoints>120</MaxHitPoints>
-      <WorkToBuild>72000</WorkToBuild>
-      <Flammability>1</Flammability>
-      <Mass>3</Mass>
+      <WorkTableWorkSpeedFactor>1.15</WorkTableWorkSpeedFactor>
     </statBases>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>1</fillPercent>
+    <minifiedDef />
+    <thingCategories Inherit="false" />
+    <rotatable>false</rotatable>
     <tickerType>Normal</tickerType>
-    <size>(1,1)</size>
-    <selectable>true</selectable>
-    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
-    <rotatable>false</rotatable>    <!-- 可旋转 -->
-    <designationCategory>Power</designationCategory>
-    <uiOrder>2100</uiOrder>
-    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-    <building>
-      <uninstallWork>3000</uninstallWork>
-      <allowAutoroof>false</allowAutoroof>
-      <destroySound>BuildingDestroyed_Metal_Small</destroySound>
-    </building>
-    <costList>
-      <Steel>30</Steel>
-      <ComponentIndustrial>2</ComponentIndustrial>
-    </costList>
-    <minifiedDef>MinifiedThing</minifiedDef>
-    <thingCategories>
-      <li>AK_Buildings</li>
-    </thingCategories>
-    <constructEffect>ConstructMetal</constructEffect>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <canOverlapZones>false</canOverlapZones>
+    <soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
     <comps>
-      <li Class="AK_Industry.TCP_ReactorOC">
-        <basePowerConsumption>-500</basePowerConsumption>
-        <transmitsPower>true</transmitsPower>
-		<powerOCOffset>20000</powerOCOffset>
-      </li>
+      <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_Breakdownable"/>
-      <li Class="CompProperties_HeatPusher">
-        <compClass>CompHeatPusherPowered</compClass>
-        <heatPerSecond>3</heatPerSecond>
-      </li>
-      <li Class="CompProperties_Refuelable">
-        <fuelConsumptionRate>2</fuelConsumptionRate>
-        <fuelCapacity>15</fuelCapacity>
-        <fuelFilter>
-          <thingDefs>
-            <li>AKI_Item_RoughMachinedOriginium</li>
-          </thingDefs>
-        </fuelFilter>
-        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
-      </li>
     </comps>
-    <researchPrerequisites>
-      <li>Electricity</li>
-    </researchPrerequisites>
-    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+      <paintable>true</paintable>
+    </building>
+    <placeWorkers>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+    </placeWorkers>
   </ThingDef>
 
-  <ThingDef ParentName="BuildingBase">
-    <defName>AKI_Building_SmallStove</defName>
+  <ThingDef ParentName="AKI_Building_StoveBase">
+    <defName>AKI_Building_StoveI</defName>
     <label>小炉子</label>
     <description>很简陋的小炉子，基本上就是用石头把篝火围起来然后在上面架一口小锅，不过该有的都有。</description>
-    <thingClass>Building_WorkTable_HeatPush</thingClass>
     <graphicData>
-      <texPath>Things/Building/SmallStove</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-      <drawSize>(2,2)</drawSize>
-      <damageData>
-        <rect>(0.3,0.1,2.4,1.8)</rect>
-      </damageData>
+      <texPath>Things/Building/StoveI</texPath>
+      <drawSize>(1.5,1.5)</drawSize>
     </graphicData>
     <stuffCategories>
       <li>Stony</li>
@@ -105,79 +64,167 @@
     <costList>
       <WoodLog>20</WoodLog>
     </costList>
-    <altitudeLayer>Building</altitudeLayer>
     <useHitPoints>True</useHitPoints>
     <statBases>
       <WorkToBuild>7200</WorkToBuild>
       <MaxHitPoints>120</MaxHitPoints>
-      <Flammability>0</Flammability>
-      <WorkTableWorkSpeedFactor>0.5</WorkTableWorkSpeedFactor>
-      <MeditationFocusStrength>0.0</MeditationFocusStrength>
     </statBases>
-    <tickerType>Normal</tickerType>
-    <size>(2,2)</size>
+    <size>(1,1)</size>
+    <constructionSkillPrerequisite>0</constructionSkillPrerequisite>
     <designationCategory>Production</designationCategory>
-    <fillPercent>0.5</fillPercent>
     <passability>PassThroughOnly</passability>
     <pathCost>65</pathCost>
-    <hasInteractionCell>True</hasInteractionCell>
-    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
-    <interactionCellIcon>DiningChair</interactionCellIcon>
-    <surfaceType>Item</surfaceType>
-    <canOverlapZones>false</canOverlapZones>
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-    <selectable>true</selectable>
-    <soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
-    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-    <resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
-    <constructionSkillPrerequisite>0</constructionSkillPrerequisite>
     <recipes>
-      <li>AKI_Make_RoughMachinedOriginium</li>
+      <li>AKI_Recipe_OriginiumRefineI</li>
     </recipes>
-    <inspectorTabs>
-      <li>ITab_Bills</li>
-    </inspectorTabs>
     <comps>
       <li Class="CompProperties_Refuelable">
-        <fuelConsumptionRate>10.0</fuelConsumptionRate>
-        <fuelCapacity>20.0</fuelCapacity>
-        <fuelConsumptionPerTickInRain>0.0006</fuelConsumptionPerTickInRain>
+        <fuelConsumptionRate>10</fuelConsumptionRate>
+        <fuelCapacity>20</fuelCapacity>
         <fuelFilter>
           <thingDefs>
             <li>WoodLog</li>
           </thingDefs>
         </fuelFilter>
-        <initialFuelPercent>1</initialFuelPercent>
         <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
       </li>
       <li Class="CompProperties_Glower">
         <glowRadius>3.5</glowRadius>
-        <glowColor>(252,187,113,0)</glowColor>
+        <glowColor>(217,112,33,0)</glowColor>
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>CompHeatPusherPowered</compClass>
         <heatPerSecond>6</heatPerSecond>
       </li>
       <li Class="CompProperties_FireOverlay">
-        <fireSize>1</fireSize>
+        <fireSize>0.3</fireSize>
       </li>
-      <li Class="CompProperties_Flickable"/>
-      <li Class="CompProperties_Breakdownable"/>
     </comps>
     <building>
-      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
-      <heatPerTickWhileWorking>0.32</heatPerTickWhileWorking>
       <destroySound>BuildingDestroyed_Stone_Small</destroySound>
-      <forceShowRoomStats>true</forceShowRoomStats>
-      <buildingTags>
-        <li>Production</li>
-      </buildingTags>
-      <paintable>true</paintable>
     </building>
-    <placeWorkers>
-      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
-    </placeWorkers>
-    <designationHotKey>Misc5</designationHotKey>
   </ThingDef>
+
+  <ThingDef ParentName="AKI_Building_StoveBase">
+    <defName>AKI_Building_StoveII</defName>
+    <label>简易高炉</label>
+    <description>一个具备基本功能的高炉，但是工业化技术的缺失导致其提炼的效率和效果都很差。</description>
+    <graphicData>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <texPath>Things/Building/StoveII</texPath>
+      <drawSize>(4.5,4.5)</drawSize>
+    </graphicData>
+    <stuffCategories>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>180</costStuffCount>
+    <costList>
+      <WoodLog>20</WoodLog>
+      <Steel>10</Steel>
+    </costList>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <WorkToBuild>24000</WorkToBuild>
+      <MaxHitPoints>280</MaxHitPoints>
+      <Beauty>-10</Beauty>
+    </statBases>
+    <size>(3,3)</size>
+    <designationCategory>Production</designationCategory>
+    <passability>PassThroughOnly</passability>
+    <pathCost>120</pathCost>
+    <interactionCellOffset>(0,0,-2)</interactionCellOffset>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+    <recipes>
+      <li>AKI_Recipe_OriginiumRefineI</li>
+      <li>AKI_Recipe_OriginiumRefineII</li>
+    </recipes>
+    <comps>
+      <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>25</fuelConsumptionRate>
+        <fuelCapacity>140</fuelCapacity>
+        <fuelFilter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </fuelFilter>
+        <initialFuelPercent>0</initialFuelPercent>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>4</glowRadius>
+        <glowColor>(217,112,33,0)</glowColor>
+      </li>
+      <li Class="CompProperties_HeatPusher">
+        <compClass>CompHeatPusherPowered</compClass>
+        <heatPerSecond>10</heatPerSecond>
+      </li>
+    </comps>
+    <building>
+      <destroySound>BuildingDestroyed_Stone_Medium</destroySound>
+    </building>
+  </ThingDef>
+
+  <ThingDef ParentName="AKI_Building_StoveBase">
+    <defName>AKI_Building_StoveIII</defName>
+    <label>源石高炉</label>
+    <description>作为当今工业化设施不可或缺的一部分，电气化的设备和大规模的设施维持了源石高炉能将高品质的源石能够源源不断的被提炼出来用于各种军用或者民用目的。</description>
+    <graphicData>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <texPath>Things/Building/StoveIII</texPath>
+      <drawSize>(6.5,6.5)</drawSize>
+    </graphicData>
+    <stuffCategories>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>80</costStuffCount>
+    <costList>
+      <Steel>280</Steel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+    </costList>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <WorkToBuild>180000</WorkToBuild>
+      <MaxHitPoints>600</MaxHitPoints>
+      <Beauty>-10</Beauty>
+    </statBases>
+    <size>(5,5)</size>
+    <designationCategory>Production</designationCategory>
+    <passability>Impassable</passability>
+    <interactionCellOffset>(0,0,-3)</interactionCellOffset>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+    <recipes>
+      <li>AKI_Recipe_OriginiumRefineI</li>
+      <li>AKI_Recipe_OriginiumRefineII</li>
+      <li>AKI_Recipe_OriginiumRefineIII</li>
+      <li>AKI_Recipe_OriginiumRefineIII_Ten</li>
+    </recipes>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>4000</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>12</glowRadius>
+        <glowColor>(217,112,33,0)</glowColor>
+      </li>
+      <li Class="CompProperties_HeatPusher">
+        <compClass>CompHeatPusherPowered</compClass>
+        <heatPerSecond>35</heatPerSecond>
+      </li>
+    </comps>
+    <building>
+      <destroySound>BuildingDestroyed_Stone_Big</destroySound>
+    </building>
+    <researchPrerequisites>
+      <li>MicroelectronicsBasics</li>
+      <li>Smithing</li>
+      <li>Stonecutting</li>
+      <li>Electricity</li>
+    </researchPrerequisites>
+  </ThingDef>
+
 
 </Defs>

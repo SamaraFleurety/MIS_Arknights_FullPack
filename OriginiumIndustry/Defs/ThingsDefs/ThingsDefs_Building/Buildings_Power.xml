@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="BuildingBase">
+        <defName>AKI_Building_PortableOriginiumAlternator</defName>
+        <label>便携式源石发电机</label>
+        <thingClass>Building</thingClass>
+        <drawerType>MapMeshAndRealTime</drawerType>
+        <description>一种拓荒队和天灾信使经常食用的小型发电机，虽然小但是动力强劲，而且便于运输。</description>
+        <graphicData>
+            <texPath>Things/Building/PortableOriginiumAlternator</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(1,1)</drawSize>
+            <shadowData>
+                <volume>(1.93,1,1.69)</volume>
+                <offset>(-0.03,0,-0.1)</offset>
+            </shadowData>
+            <damageData>
+                <rect>(0,0,3,1.8)</rect>
+                <cornerBL>Damage/Corner</cornerBL>
+                <cornerBR>Damage/Corner</cornerBR>
+            </damageData>
+        </graphicData>
+        <uiIconPath>Things/Building/PortableOriginiumAlternator</uiIconPath>
+        <altitudeLayer>Building</altitudeLayer>
+        <passability>PassThroughOnly</passability>        <!-- 可通过 -->
+        <pathCost>14</pathCost>
+        <canOverlapZones>false</canOverlapZones>        <!-- 可重叠 -->
+        <blockWind>false</blockWind>        <!-- 挡风 -->
+        <fillPercent>0.25</fillPercent>        <!-- 掩体效果 -->
+        <statBases>
+            <MaxHitPoints>120</MaxHitPoints>
+            <WorkToBuild>72000</WorkToBuild>
+            <Flammability>1</Flammability>
+            <Mass>3</Mass>
+        </statBases>
+        <tickerType>Normal</tickerType>
+        <size>(1,1)</size>
+        <selectable>true</selectable>
+        <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+        <rotatable>false</rotatable>        <!-- 可旋转 -->
+        <designationCategory>Power</designationCategory>
+        <uiOrder>2100</uiOrder>
+        <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+        <building>
+            <uninstallWork>3000</uninstallWork>
+            <allowAutoroof>false</allowAutoroof>
+            <destroySound>BuildingDestroyed_Metal_Small</destroySound>
+        </building>
+        <costList>
+            <Steel>30</Steel>
+            <ComponentIndustrial>2</ComponentIndustrial>
+        </costList>
+        <minifiedDef>MinifiedThing</minifiedDef>
+        <thingCategories>
+            <li>AK_Buildings</li>
+        </thingCategories>
+        <constructEffect>ConstructMetal</constructEffect>
+        <comps>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerPlant</compClass>
+                <basePowerConsumption>-500</basePowerConsumption>
+                <transmitsPower>true</transmitsPower>
+            </li>
+            <li Class="CompProperties_Breakdownable"/>
+            <li Class="CompProperties_HeatPusher">
+                <compClass>CompHeatPusherPowered</compClass>
+                <heatPerSecond>3</heatPerSecond>
+            </li>
+            <li Class="CompProperties_Refuelable">
+                <fuelConsumptionRate>2</fuelConsumptionRate>
+                <fuelCapacity>15</fuelCapacity>
+                <fuelFilter>
+                    <thingDefs>
+                        <li>AKI_Item_OriginiumRefineII</li>
+                    </thingDefs>
+                </fuelFilter>
+                <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+            </li>
+        </comps>
+        <researchPrerequisites>
+            <li>Electricity</li>
+        </researchPrerequisites>
+        <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+    </ThingDef>
+    
+</Defs>
