@@ -5,8 +5,8 @@
     <defName>AKI_Hediff_OrgDust</defName>
     <label>源石尘沾染</label>
     <hediffClass>HediffWithComps</hediffClass>
-    <defaultLabelColor>(0.9, 1.0, 0.35)</defaultLabelColor>
-    <description>身体表面沾染了源石尘。</description>
+    <defaultLabelColor>(255, 255, 210)</defaultLabelColor>
+    <description>组织上沾染了源石尘，如果不及时清理会演变为矿石病。</description>
     <maxSeverity>100</maxSeverity>
     <initialSeverity>0.001</initialSeverity>
     <tendable>false</tendable>
@@ -67,8 +67,8 @@
     <defName>AKI_Disease_ORG_OripathyBlood</defName>
     <label>矿石病(血液)</label>
     <hediffClass>HediffWithComps</hediffClass>
-    <defaultLabelColor>(0.9, 1.0, 0.35)</defaultLabelColor>
-    <description>感染了源石病。</description>
+    <defaultLabelColor>(180, 210, 180)</defaultLabelColor>
+    <description>矿石病是一种常规方法难以治愈的血液病，会伴随着时间逐渐恶化并同化感染者的组织导致感染者最终死亡。</description>
     <initialSeverity>0.001</initialSeverity>
     <tendable>false</tendable>
     <isBad>true</isBad>
@@ -173,8 +173,9 @@
 	<HediffDef>
 		<defName>AKI_Hediff_LatentCrystal</defName>
 		<label>潜在源石结晶</label>
-		<description>潜在源石结晶</description>
+		<description>黑色的结晶正在皮肤下蠕动，看上去很快就要破皮而出了......</description>
 		<hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(255, 255, 210)</defaultLabelColor>
 		<maxSeverity>1</maxSeverity>
 		<isBad>true</isBad>
 		<tendable>false</tendable>
@@ -188,10 +189,10 @@
 
   <HediffDef Name="OripathyCrystal">
     <defName>AKI_Hediff_OripathyCrystal</defName>
-    <label>源石结晶</label>
-    <description>恶化了源石结晶</description>
+    <label>源石结晶（非致命）</label>
+    <description>此患处长出了源石结晶，而且结晶正在同化整个部位。</description>
     <hediffClass>HediffWithComps</hediffClass>
-    <defaultLabelColor>(0.9, 1.0, 0.35)</defaultLabelColor>
+    <defaultLabelColor>(255, 255, 210)</defaultLabelColor>
     <maxSeverity>4.5</maxSeverity>
 	<isBad>true</isBad>
     <tendable>false</tendable>
@@ -225,17 +226,19 @@
 
 	<HediffDef ParentName="OripathyCrystal">
 		<defName>AKI_Hediff_OripathyCrystalLethal</defName>
-		<label>源石结晶</label>
-		<description>恶化了源石结晶</description>       
+		<label>源石结晶（致命）</label>
+		<description>此患处长出了源石结晶，而且正在危害到重要的器官，免疫系统正在拼命抵抗着黑色结晶朝着核心部位的推进。</description>       
 		<lethalSeverity>4</lethalSeverity>
+    <defaultLabelColor>(255, 255, 210)</defaultLabelColor>
 	</HediffDef>
 
 	<HediffDef>
 		<defName>AKI_Hediff_OripathyCrystalTrans</defName>
 		<label>激发源石结晶</label>
-		<description>激发源石结晶</description>
+		<description>此患处的源石结晶被激发了，让这个部件发挥出了前所未有的能力</description>
 		<maxSeverity>1</maxSeverity>
 		<initialSeverity>1</initialSeverity>
+    <defaultLabelColor>(120, 200, 255)</defaultLabelColor>
 		<stages>
 			<li>
 				<label>激发源石结晶</label>
