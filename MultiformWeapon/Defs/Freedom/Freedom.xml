@@ -6,7 +6,7 @@
 		<label>自由(霰弹模式)</label>
 		<description>description</description>
 		<graphicData>
-			<texPath>Weapon/FreedomSG</texPath>
+			<texPath>Weapon/Freedom/FreedomSG</texPath>
 		</graphicData>
 		<statBases>
 			<AccuracyTouch>0.95</AccuracyTouch>
@@ -28,6 +28,69 @@
 				<targetParams>
 					<canTargetLocations>false</canTargetLocations>
 				</targetParams>
+				<soundCast>FS_Sound_Weapon_FreedomSG</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+	</ThingDef>
+		<ThingDef ParentName="FS_MTWBulletBase">
+			<defName>FS_Bullet_FreedomSG</defName>
+			<label>霰弹射击</label>
+			<graphicData>
+				<texPath>Weapon/Freedom/Bullet</texPath>
+			</graphicData>
+			<projectile>
+				<damageDef>Bullet</damageDef>
+				<!--伤害类型-->
+				<damageAmountBase>85</damageAmountBase>
+				<stoppingPower>8</stoppingPower>
+				<speed>50</speed>
+				<soundExplode>ThumpCannon_Impact</soundExplode>
+				<!--爆炸音效-->
+			</projectile>
+		</ThingDef>
+		<SoundDef ParentName="FS_MTWGunSoundBase">
+		<defName>FS_Sound_Weapon_FreedomSG</defName>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Sniper/Executor/p_atk_shotgun_n</clipPath>
+					</li>
+				</grains>
+			</li>
+		</subSounds>
+		</SoundDef>
+	
+	<ThingDef ParentName="FS_WeaponFormBase">
+		<defName>FS_Weapon_Freedom_RF</defName>		
+		<label>自由(狙击模式)</label>
+		<description>description</description>
+		<graphicData>
+			<texPath>Weapon/Freedom/FreedomRF</texPath>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>1</AccuracyTouch>
+			<AccuracyShort>1</AccuracyShort>
+			<AccuracyMedium>1</AccuracyMedium>
+			<AccuracyLong>1</AccuracyLong>
+			<RangedWeapon_Cooldown>0.05</RangedWeapon_Cooldown>
+			<!--后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>FS_Bullet_FreedomRF</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>0.3</warmupTime>
+				<!--前摇-->
+				<range>55</range>
+				<targetParams>
+					<canTargetLocations>false</canTargetLocations>
+				</targetParams>
 				<soundCast>AK_Sound_Weapon_Executor</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
@@ -35,14 +98,12 @@
 			</li>
 		</verbs>
 	</ThingDef>
-		<ThingDef ParentName="AK_BulletBase_Bow">
-			<defName>FS_Bullet_FreedomSG</defName>
-			<label>霰弹射击</label>
+		<ThingDef ParentName="FS_MTWBulletBase">
+			<defName>FS_Bullet_FreedomRF</defName>
+			<label>步枪射击</label>
 			<graphicData>
-				<texPath>Things/Projectile/MagicOrb</texPath>
-				<graphicClass>Graphic_Single</graphicClass>
+				<texPath>Weapon/Freedom/Bullet</texPath>
 			</graphicData>
-			<thingClass>Bullet</thingClass>
 			<projectile>
 				<damageDef>Bullet</damageDef>
 				<!--伤害类型-->
@@ -54,17 +115,16 @@
 			</projectile>
 		</ThingDef>
 	
-	<ThingDef Class="FS_TransWeapon.AlternableWeaponDef" ParentName="FS_MultiformWeaponBase">
-		<defName>FS_Weapon_Alter</defName>
+	<ThingDef Class="FS_TransWeapon.MultiformWeaponDef" ParentName="FS_MultiformWeaponBase">
+		<defName>FS_Weapon_FreedomMF</defName>
 		<label>变形武器</label>
-		<description>此干员的惯用武器。</description>
-		<thingClass>FS_TransWeapon.AlternableWeapon</thingClass>
+		<description>变形武器</description>
 		<weaponMode>
 			<li>FS_Weapon_Freedom_SG</li>
-			<li>AK_Weapon_Pozyomka</li>
+			<li>FS_Weapon_Freedom_RF</li>
 		</weaponMode>
 		<graphicData>
-			<texPath>Things/AK_Agents/Weapon/Guard/LapplandW</texPath>
+			<texPath>Weapon/Freedom/FreedomSG</texPath>
 		</graphicData>
 	</ThingDef>
 	

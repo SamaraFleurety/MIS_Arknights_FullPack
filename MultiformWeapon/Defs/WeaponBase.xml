@@ -9,7 +9,7 @@
 		<drawGUIOverlay>true</drawGUIOverlay>
 		<altitudeLayer>Item</altitudeLayer>
 		<alwaysHaulable>true</alwaysHaulable>
-		<tickerType>None</tickerType>
+		<tickerType>Never</tickerType>
 		<equipmentType>Primary</equipmentType>
 		<useHitPoints>true</useHitPoints>
 		<pathCost>14</pathCost>
@@ -59,12 +59,12 @@
 	</ThingDef>
 
 	<ThingDef Name="FS_MultiformWeaponBase" ParentName="FS_WeaponFormBase" Abstract="true">
-		<thingClass>FS_TransWeapon.AlternableWeapon</thingClass>
+		<thingClass>FS_TransWeapon.MultiformWeapon</thingClass>
 		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>AK_Bullet_Ifrit</defaultProjectile>
+				<defaultProjectile>FS_Bullet_FreedomRF</defaultProjectile>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
 				<warmupTime>2.2</warmupTime>				<!--前摇-->
 				<range>45</range>
@@ -78,11 +78,28 @@
 			</li>
 		</verbs>
 		<comps>
-			<li Class="FS_TransWeapon.TCP_AlwaysShowGizmo" />
+			<li Class="FS_TransWeapon.TCP_MultiformSwitch" />
 		</comps>
 	</ThingDef>
 
 	<ThingDef Name="FS_MTWBulletBase" Abstract="true">
+		<category>Projectile</category>
+		<tickerType>Normal</tickerType>
+		<altitudeLayer>Projectile</altitudeLayer>
+		<thingClass>Bullet</thingClass>
+		<label>Bullet</label>
+		<useHitPoints>False</useHitPoints>
+		<neverMultiSelect>True</neverMultiSelect>
+		<graphicData>
+			<shaderType>Transparent</shaderType>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
 	</ThingDef>
+
+	<SoundDef Name="FS_MTWGunSoundBase" Abstract="True">
+		<context>MapOnly</context>
+		<maxSimultaneous>3</maxSimultaneous>
+		<sustain>False</sustain>
+	</SoundDef>
 
 </Defs>
