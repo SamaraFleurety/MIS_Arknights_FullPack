@@ -7,7 +7,7 @@
     <statBases>
       <Mass>20</Mass>      <!-- 物理质量 -->
       <MaxHitPoints>120</MaxHitPoints>      <!-- 生命值 -->
-      <Beauty>0</Beauty> 
+      <Beauty>0</Beauty>
     </statBases>
     <thingCategories>
       <li>ResourcesRaw</li>
@@ -38,15 +38,11 @@
     </graphicData>
     <statBases>
       <MarketValue>1</MarketValue>      <!-- 市场价值 -->
-      <Mass>20</Mass>      <!-- 物理质量 -->
+      <Mass>0.5</Mass>      <!-- 物理质量 -->
       <Beauty>-20</Beauty>      <!-- 美观度 -->
       <MaxHitPoints>120</MaxHitPoints>      <!-- 生命值 -->
     </statBases>
     <burnableByRecipe>false</burnableByRecipe>    <!-- 是否可燃 -->
-    <smeltable>true</smeltable>    <!-- 是否可熔炼 -->
-    <smeltProducts>
-      <AKI_Item_OriginiumRefineII>1</AKI_Item_OriginiumRefineII>
-    </smeltProducts>
     <smallVolume>false</smallVolume>    <!-- 小容量 -->
   </ThingDef>
 
@@ -60,15 +56,11 @@
     </graphicData>
     <statBases>
       <MarketValue>860</MarketValue>      <!-- 市场价值 -->
-      <Mass>4</Mass>      <!-- 物理质量 -->
+      <Mass>0.1</Mass>      <!-- 物理质量 -->
       <Beauty>-10</Beauty>      <!-- 美观度 -->
       <MaxHitPoints>35</MaxHitPoints>      <!-- 生命值 -->
       <Flammability>0.2</Flammability>      <!-- 可燃性 -->
     </statBases>
-    <smeltable>true</smeltable>    <!-- 是否可熔炼 -->
-    <smeltProducts>
-      <AKI_Item_OriginiumRefineIII>15</AKI_Item_OriginiumRefineIII>
-    </smeltProducts>
     <smallVolume>false</smallVolume>    <!-- 小容量 -->
   </ThingDef>
 
@@ -82,15 +74,11 @@
     </graphicData>
     <statBases>
       <MarketValue>3240</MarketValue>      <!-- 市场价值 -->
-      <Mass>1.3</Mass>      <!-- 物理质量 -->
+      <Mass>0.04</Mass>      <!-- 物理质量 -->
       <Beauty>0</Beauty>      <!-- 美观度 -->
       <MaxHitPoints>200</MaxHitPoints>      <!-- 生命值 -->
       <Flammability>0.4</Flammability>      <!-- 可燃性 -->
     </statBases>
-    <smeltable>true</smeltable>    <!-- 是否可熔炼 -->
-    <smeltProducts>
-      <AKI_Item_OriginiumRefineIV>15</AKI_Item_OriginiumRefineIV>
-    </smeltProducts>
   </ThingDef>
 
   <ThingDef ParentName="AKI_Item_OriginiumRefineBase">
@@ -103,28 +91,29 @@
     </graphicData>
     <statBases>
       <MarketValue>18000</MarketValue>      <!-- 市场价值 -->
-      <Mass>0.5</Mass>      <!-- 物理质量 -->
+      <Mass>0.01</Mass>      <!-- 物理质量 -->
       <Beauty>5</Beauty>      <!-- 美观度 -->
       <MaxHitPoints>200</MaxHitPoints>      <!-- 生命值 -->
       <Flammability>0.5</Flammability>      <!-- 可燃性 -->
     </statBases>
     <possessionCount>40</possessionCount>    <!-- 财产计数 -->
+    <stackLimit>10</stackLimit>
   </ThingDef>
 
   <ThingDef ParentName="AKI_Item_OriginiumRefineBase">
-    <defName>AKI_Item_OriginiumShard</defName>
-    <label>源石碎片</label>
-    <description>在源石加工和提炼时产生的工业废料，因为其高污染，不稳定性和回收的高成本被列为危险物，尽管如此仍旧有一些疯子在它身上榨出了仅剩的一些价值：制造恐怖的化学武器。</description>
+    <defName>AKI_Item_Oriron</defName>
+    <label>异铁</label>
+    <description>金属原料加工的产物，可塑性强、难以被氧化，常被用于材料金属熔炼或者合成金属。</description>
     <graphicData>
-      <texPath>Things/Material/Originium/OriginiumShard</texPath>
+      <texPath>Things/Material/Material/Oriron</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <statBases>
-      <MarketValue>46</MarketValue>      <!-- 市场价值 -->
-      <Mass>0.8</Mass>      <!-- 物理质量 -->
-      <Beauty>-5</Beauty>      <!-- 美观度 -->
-      <MaxHitPoints>200</MaxHitPoints>      <!-- 生命值 -->
-      <Flammability>0.8</Flammability>      <!-- 可燃性 -->
+      <MarketValue>5</MarketValue>      <!-- 市场价值 -->
+      <Mass>0.03</Mass>      <!-- 物理质量 -->
+      <Beauty>-15</Beauty>      <!-- 美观度 -->
+      <MaxHitPoints>70</MaxHitPoints>      <!-- 生命值 -->
+      <Flammability>0.15</Flammability>      <!-- 可燃性 -->
     </statBases>
   </ThingDef>
 

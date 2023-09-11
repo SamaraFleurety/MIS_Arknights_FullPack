@@ -104,6 +104,9 @@
     <building>
       <destroySound>BuildingDestroyed_Stone_Small</destroySound>
     </building>
+    <researchPrerequisites>
+      <li>AKI_Research_BaseSmelt</li>
+    </researchPrerequisites>
   </ThingDef>
 
   <ThingDef ParentName="AKI_Building_StoveBase">
@@ -138,7 +141,6 @@
     <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
     <recipes>
       <li>AKI_Recipe_OriginiumRefineI</li>
-      <li>AKI_Recipe_OriginiumRefineII</li>
     </recipes>
     <comps>
       <li Class="CompProperties_Refuelable">
@@ -164,6 +166,11 @@
     <building>
       <destroySound>BuildingDestroyed_Stone_Medium</destroySound>
     </building>
+    <researchPrerequisites>
+      <li>Smithing</li>
+      <li>Stonecutting</li>
+      <li>AKI_Research_BlastFurnaceSmelt</li>
+    </researchPrerequisites>
   </ThingDef>
 
   <ThingDef ParentName="AKI_Building_StoveBase">
@@ -182,6 +189,7 @@
     <costList>
       <Steel>280</Steel>
       <ComponentIndustrial>5</ComponentIndustrial>
+      <AKI_Item_Oriron>30</AKI_Item_Oriron>
     </costList>
     <useHitPoints>True</useHitPoints>
     <statBases>
@@ -199,15 +207,14 @@
       <li>AKI_Recipe_OriginiumRefineI</li>
       <li>AKI_Recipe_OriginiumRefineII</li>
       <li>AKI_Recipe_OriginiumRefineIII</li>
-      <li>AKI_Recipe_OriginiumRefineIII_Ten</li>
     </recipes>
     <comps>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
-        <basePowerConsumption>4000</basePowerConsumption>
+        <basePowerConsumption>2000</basePowerConsumption>
       </li>
       <li Class="CompProperties_Glower">
-        <glowRadius>12</glowRadius>
+        <glowRadius>8</glowRadius>
         <glowColor>(217,112,33,0)</glowColor>
       </li>
       <li Class="CompProperties_HeatPusher">
@@ -223,8 +230,62 @@
       <li>Smithing</li>
       <li>Stonecutting</li>
       <li>Electricity</li>
+      <li>AKI_Research_ChemicalAnalysis</li>
     </researchPrerequisites>
   </ThingDef>
 
+  <ThingDef ParentName="AKI_Building_StoveBase">
+    <defName>AKI_Building_StoveIV</defName>
+    <label>高压源石反应炉</label>
+    <description>作为新一代的提炼设备，采用了最新科技的反应炉已经拥有了比旧时代最强大的源石技艺使用者更强大的能力，通过分子级别的提炼和重构，高压源石反应炉基本上可以重构出任何的物质。</description>
+    <graphicData>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <texPath>Things/Building/StoveIV</texPath>
+      <drawSize>(8.5,8.5)</drawSize>
+    </graphicData>
+    <costList>
+      <Steel>28000</Steel>
+      <Plasteel>12000</Plasteel>
+      <AKI_Item_Oriron>1000</AKI_Item_Oriron>
+      <ComponentSpacer>180</ComponentSpacer>
+    </costList>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <WorkToBuild>840000</WorkToBuild>
+      <MaxHitPoints>8000</MaxHitPoints>
+      <Beauty>5</Beauty>
+    </statBases>
+    <size>(7,7)</size>
+    <designationCategory>Production</designationCategory>
+    <passability>Impassable</passability>
+    <interactionCellOffset>(0,0,-5)</interactionCellOffset>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+    <recipes>
+      <li>AKI_Recipe_OriginiumRefineI</li>
+      <li>AKI_Recipe_OriginiumRefineII</li>
+      <li>AKI_Recipe_OriginiumRefineIII</li>
+    </recipes>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>200000</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>10</glowRadius>
+        <glowColor>(217,112,33,0)</glowColor>
+      </li>
+    </comps>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Big</destroySound>
+    </building>
+    <researchPrerequisites>
+      <li>MicroelectronicsBasics</li>
+      <li>Smithing</li>
+      <li>Stonecutting</li>
+      <li>Electricity</li>
+      <li>AKI_Research_PrecisionRefine</li>
+    </researchPrerequisites>
+  </ThingDef>
 
 </Defs>
