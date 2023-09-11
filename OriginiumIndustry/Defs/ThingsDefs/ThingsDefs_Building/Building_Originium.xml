@@ -167,8 +167,6 @@
       <destroySound>BuildingDestroyed_Stone_Medium</destroySound>
     </building>
     <researchPrerequisites>
-      <li>Smithing</li>
-      <li>Stonecutting</li>
       <li>AKI_Research_BlastFurnaceSmelt</li>
     </researchPrerequisites>
   </ThingDef>
@@ -226,10 +224,6 @@
       <destroySound>BuildingDestroyed_Stone_Big</destroySound>
     </building>
     <researchPrerequisites>
-      <li>MicroelectronicsBasics</li>
-      <li>Smithing</li>
-      <li>Stonecutting</li>
-      <li>Electricity</li>
       <li>AKI_Research_ChemicalAnalysis</li>
     </researchPrerequisites>
   </ThingDef>
@@ -280,10 +274,6 @@
       <destroySound>BuildingDestroyed_Metal_Big</destroySound>
     </building>
     <researchPrerequisites>
-      <li>MicroelectronicsBasics</li>
-      <li>Smithing</li>
-      <li>Stonecutting</li>
-      <li>Electricity</li>
       <li>AKI_Research_PrecisionRefine</li>
     </researchPrerequisites>
   </ThingDef>
