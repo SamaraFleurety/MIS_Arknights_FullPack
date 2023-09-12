@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="BenchBase" Name="AKI_Building_StoveBase">
-    <defName>AKI_Building_StoveBase</defName>
-    <label>炉子基础</label>
+  <ThingDef ParentName="BenchBase" Name="AKI_Building_StoveBase" Abstract="True">
     <thingClass>Building_WorkTable_HeatPush</thingClass>
     <drawerType>MapMeshAndRealTime</drawerType>
     <graphicData>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <texPath>Things/Building/StoveI</texPath>
       <shaderType>CutoutComplex</shaderType>
       <damageData>
         <cornerTL>Damage/Corner</cornerTL>
@@ -252,7 +248,7 @@
     <size>(7,7)</size>
     <designationCategory>Production</designationCategory>
     <passability>Impassable</passability>
-    <interactionCellOffset>(0,0,-5)</interactionCellOffset>
+    <interactionCellOffset>(0,0,-4)</interactionCellOffset>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <constructionSkillPrerequisite>12</constructionSkillPrerequisite>
     <recipes>

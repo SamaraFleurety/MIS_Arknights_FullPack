@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="BuildingBase" Name="AKI_Building_MedicBase" Abstract="True">
+        <thingClass>Building_WorkTable</thingClass>
+        <drawerType>MapMeshAndRealTime</drawerType>
+        <graphicData>
+            <damageData>
+                <cornerTL>Damage/Corner</cornerTL>
+                <cornerTR>Damage/Corner</cornerTR>
+                <cornerBL>Damage/Corner</cornerBL>
+                <cornerBR>Damage/Corner</cornerBR>
+            </damageData>
+        </graphicData>
+        <building>
+            <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+            <paintable>true</paintable>
+        </building>
+        <altitudeLayer>Building</altitudeLayer>
+        <fillPercent>0.5</fillPercent>
+        <useHitPoints>True</useHitPoints>
+        <castEdgeShadows>false</castEdgeShadows>
+        <canOverlapZones>false</canOverlapZones>        <!-- 可重叠 -->
+        <blockWind>false</blockWind>        <!-- 挡风 -->
+        <rotatable>false</rotatable>
+        <constructEffect>ConstructMetal</constructEffect>
+        <selectable>true</selectable>
+        <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+        <designationCategory>Production</designationCategory>
+        <passability>PassThroughOnly</passability>
+        <hasInteractionCell>True</hasInteractionCell>
+        <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+        <tickerType>Normal</tickerType>
+        <minifiedDef />
+        <thingCategories Inherit="false" />
+        <comps>
+            <li Class="CompProperties_Flickable"/>
+            <li Class="CompProperties_Breakdownable"/>
+            <li Class="CompProperties_AffectedByFacilities">
+                <linkableFacilities>
+                    <li>ToolCabinet</li>
+                </linkableFacilities>
+            </li>
+        </comps>
+        <placeWorkers>
+            <li>PlaceWorker_ShowFacilitiesConnections</li>
+            <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+        </placeWorkers>
+    </ThingDef>
+
+    <ThingDef ParentName="AKI_Building_MedicBase">
+        <defName>AKI_Building_MedicI</defName>
+        <label>药物配装台</label>
+        <description>具有多种功能，可以制作现代能见到的所有药物的制作台，使用时请注意不要随意的把废液混合。</description>
+        <graphicData>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <texPath>Things/Building/MedicI</texPath>
+            <drawSize>(4,4)</drawSize>
+        </graphicData>
+        <pathCost>100</pathCost>
+        <statBases>
+            <MaxHitPoints>140</MaxHitPoints>
+            <WorkToBuild>24000</WorkToBuild>
+            <Flammability>1</Flammability>
+            <Mass>3</Mass>
+            <Beauty>-15</Beauty>
+        </statBases>
+        <size>(4,2)</size>
+        <building>
+            <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+        </building>
+        <costList>
+            <Steel>200</Steel>
+            <ComponentIndustrial>5</ComponentIndustrial>
+            <AKI_Item_Oriron>20</AKI_Item_Oriron>
+            <Plasteel>15</Plasteel>
+        </costList>
+        <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+        <hasInteractionCell>True</hasInteractionCell>
+        <interactionCellOffset>(0,0.5,-1)</interactionCellOffset>
+        <researchPrerequisites>
+            <li>AKI_Research_ChemicalExtract</li>
+        </researchPrerequisites>
+        <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+        <inspectorTabs>
+            <li>ITab_Bills</li>
+        </inspectorTabs>
+    </ThingDef>
+
+    <ThingDef ParentName="AKI_Building_MedicBase">
+        <defName>AKI_Building_MedicII</defName>
+        <label>消毒舱</label>
+        <description>全封闭式的消毒舱，清洁身上的粉尘和液体在源石环境工作结束后是重中之重。</description>
+        <graphicData>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <texPath>Things/Building/MedicII</texPath>
+            <drawSize>(1,1)</drawSize>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>180</MaxHitPoints>
+            <WorkToBuild>72000</WorkToBuild>
+            <Flammability>0.5</Flammability>
+            <Beauty>-5</Beauty>
+        </statBases>
+        <size>(1,1)</size>
+        <pathCost>60</pathCost>
+        <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+        <building>
+            <destroySound>BuildingDestroyed_Metal_Small</destroySound>
+        </building>
+        <costList>
+            <Steel>10</Steel>
+            <Plasteel>20</Plasteel>
+            <ComponentIndustrial>3</ComponentIndustrial>
+            <Cloth>40</Cloth>
+        </costList>
+        <hasInteractionCell>False</hasInteractionCell>
+        <researchPrerequisites>
+            <li>AKI_Research_DisasterProtection</li>
+        </researchPrerequisites>
+        <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+    </ThingDef>
+
+</Defs>

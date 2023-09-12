@@ -1,31 +1,50 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <ThingDef ParentName="BuildingBase">
-        <defName>AKI_Building_PortableOriginiumAlternator</defName>
-        <label>便携式源石发电机</label>
+    <ThingDef ParentName="BuildingBase" Name="AKI_Building_PowerBase" Abstract="True">
         <thingClass>Building</thingClass>
         <drawerType>MapMeshAndRealTime</drawerType>
-        <description>一种拓荒队和天灾信使经常食用的小型发电机，虽然小但是动力强劲，而且便于运输。</description>
         <graphicData>
-            <texPath>Things/Building/PortableOriginiumAlternator</texPath>
-            <graphicClass>Graphic_Multi</graphicClass>
-            <drawSize>(1,1)</drawSize>
             <shadowData>
-                <volume>(1.93,1,1.69)</volume>
-                <offset>(-0.03,0,-0.1)</offset>
+                <volume>(3.5,0.75,3.4)</volume>
+                <offset>(0,0,0)</offset>
             </shadowData>
             <damageData>
-                <rect>(0,0,3,1.8)</rect>
-                <cornerBL>Damage/Corner</cornerBL>
-                <cornerBR>Damage/Corner</cornerBR>
+                <rect>(0,0.6,4,2.8)</rect>
             </damageData>
         </graphicData>
-        <uiIconPath>Things/Building/PortableOriginiumAlternator</uiIconPath>
+        <building>
+            <allowAutoroof>false</allowAutoroof>
+        </building>
+        <castEdgeShadows>false</castEdgeShadows>
+        <canOverlapZones>false</canOverlapZones>        <!-- 可重叠 -->
+        <blockWind>false</blockWind>        <!-- 挡风 -->
         <altitudeLayer>Building</altitudeLayer>
+        <rotatable>false</rotatable>
+        <constructEffect>ConstructMetal</constructEffect>
+        <selectable>true</selectable>
+        <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+        <designationCategory>Power</designationCategory>
+        <tickerType>Normal</tickerType>
+        <minifiedDef />
+        <thingCategories Inherit="false" />
+        <comps>
+            <li Class="CompProperties_Flickable"/>
+            <li Class="CompProperties_Breakdownable"/>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="AKI_Building_PowerBase">
+        <defName>AKI_Building_AlternatorI</defName>
+        <label>便携式源石发电机</label>
+        <description>一种拓荒队和天灾信使经常食用的小型发电机，虽然小但是动力强劲，而且便于运输。</description>
+        <graphicData>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <texPath>Things/Building/AlternatorI</texPath>
+            <drawSize>(1,1)</drawSize>
+        </graphicData>
         <passability>PassThroughOnly</passability>        <!-- 可通过 -->
         <pathCost>14</pathCost>
-        <canOverlapZones>false</canOverlapZones>        <!-- 可重叠 -->
         <blockWind>false</blockWind>        <!-- 挡风 -->
         <fillPercent>0.25</fillPercent>        <!-- 掩体效果 -->
         <statBases>
@@ -33,39 +52,22 @@
             <WorkToBuild>72000</WorkToBuild>
             <Flammability>1</Flammability>
             <Mass>3</Mass>
+            <Beauty>-10</Beauty>
         </statBases>
-        <tickerType>Normal</tickerType>
         <size>(1,1)</size>
-        <selectable>true</selectable>
-        <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
-        <rotatable>false</rotatable>        <!-- 可旋转 -->
-        <designationCategory>Power</designationCategory>
-        <uiOrder>2100</uiOrder>
-        <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
         <building>
             <uninstallWork>3000</uninstallWork>
-            <allowAutoroof>false</allowAutoroof>
             <destroySound>BuildingDestroyed_Metal_Small</destroySound>
         </building>
         <costList>
             <Steel>30</Steel>
             <ComponentIndustrial>2</ComponentIndustrial>
         </costList>
-        <minifiedDef>MinifiedThing</minifiedDef>
-        <thingCategories>
-            <li>AK_Buildings</li>
-        </thingCategories>
-        <constructEffect>ConstructMetal</constructEffect>
         <comps>
             <li Class="CompProperties_Power">
                 <compClass>CompPowerPlant</compClass>
                 <basePowerConsumption>-500</basePowerConsumption>
                 <transmitsPower>true</transmitsPower>
-            </li>
-            <li Class="CompProperties_Breakdownable"/>
-            <li Class="CompProperties_HeatPusher">
-                <compClass>CompHeatPusherPowered</compClass>
-                <heatPerSecond>3</heatPerSecond>
             </li>
             <li Class="CompProperties_Refuelable">
                 <fuelConsumptionRate>2</fuelConsumptionRate>
@@ -77,11 +79,136 @@
                 </fuelFilter>
                 <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
             </li>
+            <li Class="CompProperties_HeatPusher">
+                <compClass>CompHeatPusherPowered</compClass>
+                <heatPerSecond>3</heatPerSecond>
+            </li>
         </comps>
+        <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
         <researchPrerequisites>
             <li>AKI_Research_Power</li>
         </researchPrerequisites>
         <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+    </ThingDef>
+
+    <ThingDef ParentName="AKI_Building_PowerBase">
+        <defName>AKI_Building_AlternatorII</defName>
+        <label>工业级源石引擎</label>
+        <description>作为当今工业化体系堪比心脏一般的存在，源石引擎可以模拟施术的过程并提取能量，虽然效率不如人直接施术，但是法术引擎的诞生依旧象征着结晶时代的到来。</description>
+        <graphicData>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <texPath>Things/Building/AlternatorII</texPath>
+            <drawSize>(6,6)</drawSize>
+        </graphicData>
+        <passability>Impassable</passability>
+        <blockWind>true</blockWind>        <!-- 挡风 -->
+        <statBases>
+            <MaxHitPoints>800</MaxHitPoints>
+            <WorkToBuild>228000</WorkToBuild>
+            <Flammability>0.8</Flammability>
+            <Beauty>-10</Beauty>
+        </statBases>
+        <size>(6,2)</size>
+        <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+        <building>
+            <allowAutoroof>false</allowAutoroof>
+            <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+        </building>
+        <costList>
+            <Steel>280</Steel>
+            <AKI_Item_Oriron>80</AKI_Item_Oriron>
+            <ComponentIndustrial>8</ComponentIndustrial>
+        </costList>
+        <comps>
+            <li Class="AK_Industry.TCP_ReactorOC">
+                <basePowerConsumption>-2600</basePowerConsumption>
+                <transmitsPower>true</transmitsPower>
+                <powerOCOffset>20000</powerOCOffset>
+            </li>
+            <li Class="CompProperties_HeatPusher">
+                <compClass>CompHeatPusherPowered</compClass>
+                <heatPerSecond>40</heatPerSecond>
+            </li>
+            <li Class="CompProperties_Glower">
+                <glowRadius>8</glowRadius>
+                <glowColor>(217,112,33,0)</glowColor>
+            </li>
+            <li Class="CompProperties_Refuelable">
+                <fuelConsumptionRate>5</fuelConsumptionRate>
+                <fuelCapacity>15</fuelCapacity>
+                <fuelFilter>
+                    <thingDefs>
+                        <li>AKI_Item_OriginiumRefineII</li>
+                    </thingDefs>
+                </fuelFilter>
+                <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+            </li>
+        </comps>
+        <researchPrerequisites>
+            <li>AKI_Research_PrecisionRefine</li>
+        </researchPrerequisites>
+        <constructionSkillPrerequisite>9</constructionSkillPrerequisite>
+    </ThingDef>
+
+    <ThingDef ParentName="AKI_Building_PowerBase">
+        <defName>AKI_Building_AlternatorIII</defName>
+        <label>先进源石反应堆</label>
+        <description>伴随着法术发生和传输效率的不断提升，新一代的法术驱动引擎已经足够安全且高效，能够产生无穷无尽的能源关于，它如何产生那么多的能源，科学界至今众说纷纭。</description>
+        <graphicData>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <texPath>Things/Building/AlternatorIII</texPath>
+            <drawSize>(7,7)</drawSize>
+        </graphicData>
+        <passability>Impassable</passability>
+        <blockWind>true</blockWind>        <!-- 挡风 -->
+        <statBases>
+            <Beauty>5</Beauty>
+            <MaxHitPoints>6000</MaxHitPoints>
+            <WorkToBuild>720000</WorkToBuild>
+            <Flammability>0</Flammability>
+        </statBases>
+        <size>(7,7)</size>
+        <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+        <building>
+            <allowAutoroof>false</allowAutoroof>
+            <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+        </building>
+        <costList>
+            <Steel>40000</Steel>
+            <AKI_Item_Oriron>1200</AKI_Item_Oriron>
+            <Plasteel>8000</Plasteel>
+            <AKI_Item_OriginiumRefineIV>20</AKI_Item_OriginiumRefineIV>
+            <ComponentSpacer>100</ComponentSpacer>
+        </costList>
+        <comps>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerPlant</compClass>
+                <basePowerConsumption>-500000</basePowerConsumption>
+                <transmitsPower>true</transmitsPower>
+            </li>
+            <li Class="CompProperties_HeatPusher">
+                <compClass>CompHeatPusherPowered</compClass>
+                <heatPerSecond>10</heatPerSecond>
+            </li>
+            <li Class="CompProperties_Glower">
+                <glowRadius>20</glowRadius>
+                <glowColor>(217,112,33,0)</glowColor>
+            </li>
+            <li Class="CompProperties_Refuelable">
+                <fuelConsumptionRate>0.1</fuelConsumptionRate>
+                <fuelCapacity>10</fuelCapacity>
+                <fuelFilter>
+                    <thingDefs>
+                        <li>AKI_Item_OriginiumRefineIV</li>
+                    </thingDefs>
+                </fuelFilter>
+                <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+            </li>
+        </comps>
+        <researchPrerequisites>
+            <li>AKI_Research_Engine</li>
+        </researchPrerequisites>
+        <constructionSkillPrerequisite>15</constructionSkillPrerequisite>
     </ThingDef>
 
 </Defs>
