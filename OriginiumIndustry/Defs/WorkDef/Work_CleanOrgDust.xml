@@ -23,4 +23,12 @@
 		<casualInterruptible>false</casualInterruptible>
 	</JobDef>
 
+	<JobDef>
+		<defName>AKI_Job_EnterPurifyPod</defName>
+		<driverClass>AK_Industry.JobDriver_EnterPurifyPod</driverClass>
+		<reportString>进入清洁舱</reportString>
+		<neverShowWeapon>true</neverShowWeapon>
+		<casualInterruptible>false</casualInterruptible>
+	</JobDef>
+		
 </Defs>

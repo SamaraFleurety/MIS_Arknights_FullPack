@@ -125,6 +125,10 @@
                 <transmitsPower>true</transmitsPower>
                 <powerOCOffset>20000</powerOCOffset>
             </li>
+			<li Class="AK_Industry.TCP_GasEmitter">
+				<gasDef>AKI_Gas_OrgDustActive</gasDef>
+				<interval>300</interval>
+			</li>
             <li Class="CompProperties_HeatPusher">
                 <compClass>CompHeatPusherPowered</compClass>
                 <heatPerSecond>40</heatPerSecond>

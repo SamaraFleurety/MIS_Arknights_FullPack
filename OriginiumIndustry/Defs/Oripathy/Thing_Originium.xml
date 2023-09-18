@@ -25,7 +25,7 @@
     </building>
 	<comps>
       <li Class="AK_Industry.TCP_GasEmitter">
-		<gasType>AKI_Gas_OrgDust</gasType>
+		<gasDef>AKI_Gas_OrgDust</gasDef>
       </li>
     </comps>
   </ThingDef>
@@ -47,14 +47,35 @@
     <defName>AKI_Gas_OrgDust</defName>
     <label>源石尘</label>
     <graphicData>
-      <texPath>Things/Gas/Puff</texPath>
+      <texPath>Things/Gas/RawGas</texPath>
       <drawSize>2.5</drawSize>
-      <color>(1,0.92,0.016,0.2)</color>
+      <color>(1,1,1,0.2)</color>
     </graphicData>
 	<addHediff>AKI_Hediff_OrgDust</addHediff>
 	<hediffAddChance>1.0</hediffAddChance>
 	<interval>1200</interval>
     <hediffSeverity>1</hediffSeverity>    <!-- 1天涨200%  -->
+	<gas>
+      <expireSeconds>
+        <min>300</min>
+        <max>300</max>
+      </expireSeconds>
+      <rotationSpeed>10</rotationSpeed>
+    </gas>
+  </ThingDef>
+  
+  <ThingDef Class="AK_Industry.GasDef" ParentName="BaseGas">
+    <defName>AKI_Gas_OrgDustActive</defName>
+    <label>活性源石尘</label>
+    <graphicData>
+      <texPath>Things/Gas/OrgGas</texPath>
+      <drawSize>2.5</drawSize>
+      <color>(1,1,1,0.35)</color>
+    </graphicData>
+	<addHediff>AKI_Hediff_OrgDustActive</addHediff>
+	<hediffAddChance>1.0</hediffAddChance>
+	<interval>600</interval>
+    <hediffSeverity>1</hediffSeverity>    <!-- 1天涨400%  -->
 	<gas>
       <expireSeconds>
         <min>300</min>
