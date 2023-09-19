@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <RecipeDef Name="AKI_Recipe_DrugsBase" Abstract="True">
+        <workSpeedStat>DrugCookingSpeed</workSpeedStat>        <!--工作速度统计-->
+        <workSkill>Cooking</workSkill>        <!--工作技能-->
+        <effectWorking>Cook</effectWorking>        <!--工作影响-->
+        <soundWorking>Recipe_Brewing</soundWorking>        <!--工作音效-->
+        <targetCountAdjustment>1</targetCountAdjustment>        <!--目标计数调整-->
+        <allowMixingIngredients>true</allowMixingIngredients>        <!--允许混合配料-->
+    </RecipeDef>
+    
+    <RecipeDef Name="AKI_Recipe_OriginiumRefineBase" Abstract="True">
+        <workSpeedStat>SmeltingSpeed</workSpeedStat>        <!--工作速度统计-->
+        <effectWorking>Smelt</effectWorking>        <!--工作影响-->
+        <soundWorking>Recipe_Smelt</soundWorking>        <!--工作音效-->
+        <targetCountAdjustment>1</targetCountAdjustment>        <!--目标计数调整-->
+    </RecipeDef>
+
+</Defs>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="BuildingBase" Name="AKI_Building_PowerBase" Abstract="True">
+        <thingClass>Building</thingClass>
+        <drawerType>MapMeshAndRealTime</drawerType>
+        <graphicData>
+            <shadowData>
+                <volume>(3.5,0.75,3.4)</volume>
+                <offset>(0,0,0)</offset>
+            </shadowData>
+            <damageData>
+                <rect>(0,0.6,4,2.8)</rect>
+            </damageData>
+        </graphicData>
+        <building>
+            <allowAutoroof>false</allowAutoroof>
+        </building>
+        <castEdgeShadows>false</castEdgeShadows>
+        <canOverlapZones>false</canOverlapZones>        <!-- 可重叠 -->
+        <blockWind>false</blockWind>        <!-- 挡风 -->
+        <altitudeLayer>Building</altitudeLayer>
+        <rotatable>false</rotatable>
+        <constructEffect>ConstructMetal</constructEffect>
+        <selectable>true</selectable>
+        <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+        <designationCategory>Power</designationCategory>
+        <tickerType>Normal</tickerType>
+        <minifiedDef />
+        <thingCategories Inherit="false" />
+        <comps>
+            <li Class="CompProperties_Flickable"/>
+            <li Class="CompProperties_Breakdownable"/>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="BuildingBase" Name="AKI_Building_MedicBase" Abstract="True">
+        <thingClass>Building_WorkTable</thingClass>
+        <drawerType>MapMeshAndRealTime</drawerType>
+        <graphicData>
+            <damageData>
+                <cornerTL>Damage/Corner</cornerTL>
+                <cornerTR>Damage/Corner</cornerTR>
+                <cornerBL>Damage/Corner</cornerBL>
+                <cornerBR>Damage/Corner</cornerBR>
+            </damageData>
+        </graphicData>
+        <building>
+            <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+            <paintable>true</paintable>
+        </building>
+        <altitudeLayer>Building</altitudeLayer>
+        <fillPercent>0.5</fillPercent>
+        <useHitPoints>True</useHitPoints>
+        <castEdgeShadows>false</castEdgeShadows>
+        <canOverlapZones>false</canOverlapZones>        <!-- 可重叠 -->
+        <blockWind>false</blockWind>        <!-- 挡风 -->
+        <rotatable>false</rotatable>
+        <constructEffect>ConstructMetal</constructEffect>
+        <selectable>true</selectable>
+        <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+        <designationCategory>Production</designationCategory>
+        <passability>PassThroughOnly</passability>
+        <hasInteractionCell>True</hasInteractionCell>
+        <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+        <tickerType>Normal</tickerType>
+        <minifiedDef />
+        <thingCategories Inherit="false" />
+        <comps>
+            <li Class="CompProperties_Flickable"/>
+            <li Class="CompProperties_Breakdownable"/>
+            <li Class="CompProperties_AffectedByFacilities">
+                <linkableFacilities>
+                    <li>ToolCabinet</li>
+                </linkableFacilities>
+            </li>
+        </comps>
+        <placeWorkers>
+            <li>PlaceWorker_ShowFacilitiesConnections</li>
+            <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+        </placeWorkers>
+    </ThingDef>
+
+    <ThingDef ParentName="BenchBase" Name="AKI_Building_StoveBase" Abstract="True">
+        <thingClass>Building_WorkTable_HeatPush</thingClass>
+        <drawerType>MapMeshAndRealTime</drawerType>
+        <graphicData>
+          <shaderType>CutoutComplex</shaderType>
+          <damageData>
+            <cornerTL>Damage/Corner</cornerTL>
+            <cornerTR>Damage/Corner</cornerTR>
+            <cornerBL>Damage/Corner</cornerBL>
+            <cornerBR>Damage/Corner</cornerBR>
+          </damageData>
+        </graphicData>
+        <statBases>
+          <WorkTableWorkSpeedFactor>1.15</WorkTableWorkSpeedFactor>
+        </statBases>
+        <altitudeLayer>Building</altitudeLayer>
+        <fillPercent>1</fillPercent>
+        <minifiedDef />
+        <thingCategories Inherit="false" />
+        <rotatable>false</rotatable>
+        <tickerType>Normal</tickerType>
+        <hasInteractionCell>True</hasInteractionCell>
+        <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+        <surfaceType>Item</surfaceType>
+        <canOverlapZones>false</canOverlapZones>
+        <soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+        <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+        <inspectorTabs>
+          <li>ITab_Bills</li>
+        </inspectorTabs>
+        <comps>
+          <li Class="CompProperties_Flickable"/>
+          <li Class="CompProperties_Breakdownable"/>
+        </comps>
+        <building>
+          <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+          <paintable>true</paintable>
+        </building>
+        <placeWorkers>
+          <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+        </placeWorkers>
+      </ThingDef>
+
+</Defs>

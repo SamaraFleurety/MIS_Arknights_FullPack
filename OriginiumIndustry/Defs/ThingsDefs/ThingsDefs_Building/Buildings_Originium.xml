@@ -1,49 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="BenchBase" Name="AKI_Building_StoveBase" Abstract="True">
-    <thingClass>Building_WorkTable_HeatPush</thingClass>
-    <drawerType>MapMeshAndRealTime</drawerType>
-    <graphicData>
-      <shaderType>CutoutComplex</shaderType>
-      <damageData>
-        <cornerTL>Damage/Corner</cornerTL>
-        <cornerTR>Damage/Corner</cornerTR>
-        <cornerBL>Damage/Corner</cornerBL>
-        <cornerBR>Damage/Corner</cornerBR>
-      </damageData>
-    </graphicData>
-    <statBases>
-      <WorkTableWorkSpeedFactor>1.15</WorkTableWorkSpeedFactor>
-    </statBases>
-    <altitudeLayer>Building</altitudeLayer>
-    <fillPercent>1</fillPercent>
-    <minifiedDef />
-    <thingCategories Inherit="false" />
-    <rotatable>false</rotatable>
-    <tickerType>Normal</tickerType>
-    <hasInteractionCell>True</hasInteractionCell>
-    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
-    <surfaceType>Item</surfaceType>
-    <canOverlapZones>false</canOverlapZones>
-    <soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
-    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-    <inspectorTabs>
-      <li>ITab_Bills</li>
-    </inspectorTabs>
-    <comps>
-      <li Class="CompProperties_Flickable"/>
-      <li Class="CompProperties_Breakdownable"/>
-    </comps>
-    <building>
-      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
-      <paintable>true</paintable>
-    </building>
-    <placeWorkers>
-      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
-    </placeWorkers>
-  </ThingDef>
-
   <ThingDef ParentName="AKI_Building_StoveBase">
     <defName>AKI_Building_StoveI</defName>
     <label>小炉子</label>
@@ -72,7 +29,7 @@
     <pathCost>65</pathCost>
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
     <recipes>
-      <li>AKI_Recipe_OriginiumRefineI</li>
+      <li>AKI_Recipe_OriginiumRefineII</li>
     </recipes>
     <comps>
       <li Class="CompProperties_Refuelable">
@@ -136,7 +93,7 @@
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
     <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
     <recipes>
-      <li>AKI_Recipe_OriginiumRefineI</li>
+      <li>AKI_Recipe_OriginiumRefineII</li>
     </recipes>
     <comps>
       <li Class="CompProperties_Refuelable">
@@ -198,7 +155,6 @@
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
     <recipes>
-      <li>AKI_Recipe_OriginiumRefineI</li>
       <li>AKI_Recipe_OriginiumRefineII</li>
       <li>AKI_Recipe_OriginiumRefineIII</li>
     </recipes>
@@ -252,9 +208,9 @@
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <constructionSkillPrerequisite>12</constructionSkillPrerequisite>
     <recipes>
-      <li>AKI_Recipe_OriginiumRefineI</li>
       <li>AKI_Recipe_OriginiumRefineII</li>
       <li>AKI_Recipe_OriginiumRefineIII</li>
+      <li>AKI_Recipe_OriginiumRefineIV</li>
     </recipes>
     <comps>
       <li Class="CompProperties_Power">

@@ -1,39 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <ThingDef ParentName="BuildingBase" Name="AKI_Building_PowerBase" Abstract="True">
-        <thingClass>Building</thingClass>
-        <drawerType>MapMeshAndRealTime</drawerType>
-        <graphicData>
-            <shadowData>
-                <volume>(3.5,0.75,3.4)</volume>
-                <offset>(0,0,0)</offset>
-            </shadowData>
-            <damageData>
-                <rect>(0,0.6,4,2.8)</rect>
-            </damageData>
-        </graphicData>
-        <building>
-            <allowAutoroof>false</allowAutoroof>
-        </building>
-        <castEdgeShadows>false</castEdgeShadows>
-        <canOverlapZones>false</canOverlapZones>        <!-- 可重叠 -->
-        <blockWind>false</blockWind>        <!-- 挡风 -->
-        <altitudeLayer>Building</altitudeLayer>
-        <rotatable>false</rotatable>
-        <constructEffect>ConstructMetal</constructEffect>
-        <selectable>true</selectable>
-        <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
-        <designationCategory>Power</designationCategory>
-        <tickerType>Normal</tickerType>
-        <minifiedDef />
-        <thingCategories Inherit="false" />
-        <comps>
-            <li Class="CompProperties_Flickable"/>
-            <li Class="CompProperties_Breakdownable"/>
-        </comps>
-    </ThingDef>
-
     <ThingDef ParentName="AKI_Building_PowerBase">
         <defName>AKI_Building_AlternatorI</defName>
         <label>便携式源石发电机</label>

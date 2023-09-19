@@ -1,17 +1,41 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <RecipeDef Name="AKI_Recipe_OriginiumRefineBase">
-        <defName>AKI_Recipe_OriginiumRefineBase</defName>
-        <label>源石配方基础</label>
-        <workSpeedStat>SmeltingSpeed</workSpeedStat>        <!--工作速度统计-->
-        <effectWorking>Smelt</effectWorking>        <!--工作影响-->
-        <soundWorking>Recipe_Smelt</soundWorking>        <!--工作音效-->
-        <targetCountAdjustment>1</targetCountAdjustment>        <!--目标计数调整-->
-    </RecipeDef>
+    <RecipeDef>
+		<defName>AKI_Recipe_OriginiumRefineI</defName>
+		<label>加工源石粗矿</label>
+		<description>加工源石粗矿。</description>
+		<jobString>正在加工源石粗矿。</jobString>
+		<workAmount>10</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>CutStone</effectWorking>
+		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AKI_Item_OriginiumRefineI</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<products>
+			<AKI_Item_OriginiumRefineII>10</AKI_Item_OriginiumRefineII>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AKI_Item_OriginiumRefineI</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<workSkill>Crafting</workSkill>
+		<recipeUsers>
+			<li>TableStonecutter</li>
+		</recipeUsers>
+	</RecipeDef>
 
     <RecipeDef ParentName="AKI_Recipe_OriginiumRefineBase">        <!--配方-->
-        <defName>AKI_Recipe_OriginiumRefineI</defName>
+        <defName>AKI_Recipe_OriginiumRefineII</defName>
         <label>初步提炼源石</label>
         <description>运用简单的方法提炼源石，只能提炼出一些纯度很低的产品。</description>
         <jobString>正在初步提炼源石。</jobString>
@@ -20,10 +44,10 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>AKI_Item_OriginiumRefineI</li>                        <!--需求物-->
+                        <li>AKI_Item_OriginiumRefineII</li>                        <!--需求物-->
                     </thingDefs>
                 </filter>
-                <count>15</count>                <!--需求数量-->
+                <count>10</count>                <!--需求数量-->
             </li>
             <li>
                 <filter>
@@ -36,12 +60,12 @@
         </ingredients>
         <fixedIngredientFilter>            <!--过滤器-->
             <thingDefs>
-                <li>AKI_Item_OriginiumRefineI</li>
+                <li>AKI_Item_OriginiumRefineII</li>
                 <li>WoodLog</li>
             </thingDefs>
         </fixedIngredientFilter>
         <products>            <!--产品-->
-            <AKI_Item_OriginiumRefineII>10</AKI_Item_OriginiumRefineII>            <!--产品数量-->
+            <AKI_Item_OriginiumRefineIII>1</AKI_Item_OriginiumRefineIII>            <!--产品数量-->
         </products>
         <skillRequirements>
             <Crafting>4</Crafting>
@@ -50,7 +74,7 @@
     </RecipeDef>
 
     <RecipeDef ParentName="AKI_Recipe_OriginiumRefineBase">        <!--配方-->
-        <defName>AKI_Recipe_OriginiumRefineII</defName>
+        <defName>AKI_Recipe_OriginiumRefineIII</defName>
         <label>精炼源石</label>
         <description>用工业化的标准流程提炼高纯度的源石，速度，效率和产出都有了大幅度提升</description>
         <jobString>正在精炼源石。</jobString>
@@ -59,7 +83,7 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>AKI_Item_OriginiumRefineII</li>                        <!--需求物-->
+                        <li>AKI_Item_OriginiumRefineIII</li>                        <!--需求物-->
                     </thingDefs>
                 </filter>
                 <count>10</count>                <!--需求数量-->
@@ -67,11 +91,11 @@
         </ingredients>
         <fixedIngredientFilter>            <!--过滤器-->
             <thingDefs>
-                <li>AKI_Item_OriginiumRefineII</li>
+                <li>AKI_Item_OriginiumRefineIII</li>
             </thingDefs>
         </fixedIngredientFilter>
         <products>            <!--产品-->
-            <AKI_Item_OriginiumRefineIII>2</AKI_Item_OriginiumRefineIII>            <!--产品数量-->
+            <AKI_Item_OriginiumRefineIV>1</AKI_Item_OriginiumRefineIV>            <!--产品数量-->
         </products>
         <skillRequirements>
             <Crafting>6</Crafting>
@@ -80,7 +104,7 @@
     </RecipeDef>
 
     <RecipeDef ParentName="AKI_Recipe_OriginiumRefineBase">        <!--配方-->
-        <defName>AKI_Recipe_OriginiumRefineIII</defName>
+        <defName>AKI_Recipe_OriginiumRefineIV</defName>
         <label>至纯源石提炼</label>
         <description>通过高能反应提炼出纯度无限接近于100%的源石，虽然有了最先进的提炼设备，提炼至纯源石的过程依旧是复杂的。</description>
         <jobString>正在提炼至纯源石。</jobString>
@@ -89,10 +113,10 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>AKI_Item_OriginiumRefineIII</li>                        <!--需求物-->
+                        <li>AKI_Item_OriginiumRefineIV</li>                        <!--需求物-->
                     </thingDefs>
                 </filter>
-                <count>40</count>                <!--需求数量-->
+                <count>10</count>                <!--需求数量-->
             </li>
             <li>
                 <filter>
@@ -113,13 +137,13 @@
         </ingredients>
         <fixedIngredientFilter>            <!--过滤器-->
             <thingDefs>
-                <li>AKI_Item_OriginiumRefineIII</li>
+                <li>AKI_Item_OriginiumRefineIV</li>
                 <li>Uranium</li>
                 <li>Plasteel</li>
             </thingDefs>
         </fixedIngredientFilter>
         <products>            <!--产品-->
-            <AKI_Item_OriginiumRefineIV>1</AKI_Item_OriginiumRefineIV>            <!--产品数量-->
+            <AKI_Item_OriginiumRefineV>1</AKI_Item_OriginiumRefineV>            <!--产品数量-->
         </products>
         <skillRequirements>
             <Crafting>12</Crafting>

@@ -1,14 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="ResourceBase" Name="AKI_Item_OriginiumRefineBase">
-    <defName>AKI_Item_OriginiumRefineBase</defName>
-    <label>源石基础</label>
-    <statBases>
-      <Mass>20</Mass>      <!-- 物理质量 -->
-      <MaxHitPoints>120</MaxHitPoints>      <!-- 生命值 -->
-      <Beauty>0</Beauty>
-    </statBases>
+  <ThingDef ParentName="ResourceBase" Name="AKI_Item_OriginiumRefineBase" Abstract="True">
     <thingCategories>
       <li>ResourcesRaw</li>
     </thingCategories>
@@ -28,13 +21,13 @@
     <allowedArchonexusCount>-1</allowedArchonexusCount>    <!-- 任务相关 -->
   </ThingDef>
 
-  <ThingDef ParentName="AKI_Item_OriginiumRefineBase">
+  <ThingDef ParentName="ChunkRockBase">
     <defName>AKI_Item_OriginiumRefineI</defName>
     <label>源石粗矿</label>
     <description>被开采下来的，外表看上去和石头基本上没区别的低浓度源石，也不具备任何工业或使用价值，只有经过提炼才能有一定的作用。</description>
     <graphicData>
       <texPath>Things/Material/Originium/OriginiumRefineI</texPath>
-      <graphicClass>Graphic_StackCount</graphicClass>
+      <graphicClass>Graphic_Random</graphicClass>
     </graphicData>
     <statBases>
       <MarketValue>1</MarketValue>      <!-- 市场价值 -->
@@ -42,21 +35,41 @@
       <Beauty>-20</Beauty>      <!-- 美观度 -->
       <MaxHitPoints>120</MaxHitPoints>      <!-- 生命值 -->
     </statBases>
-    <burnableByRecipe>false</burnableByRecipe>    <!-- 是否可燃 -->
-    <smallVolume>false</smallVolume>    <!-- 小容量 -->
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <butcherProducts>
+      <AKI_Item_OriginiumRefineII>10</AKI_Item_OriginiumRefineII>
+    </butcherProducts>
   </ThingDef>
 
   <ThingDef ParentName="AKI_Item_OriginiumRefineBase">
     <defName>AKI_Item_OriginiumRefineII</defName>
-    <label>初步加工的源石</label>
-    <description>经过初步加工的源石，已经具备了一定的用途，但是其纯度仍不适用于大规模生产和制造，只能用于一些小生产。</description>
+    <label>粗制源石</label>
+    <description>经过初步提炼的源石，浓度有所提升，但依旧只能用于一些最基础的手工业，对能量的承受能力也很差。</description>
     <graphicData>
       <texPath>Things/Material/Originium/OriginiumRefineII</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <statBases>
-      <MarketValue>860</MarketValue>      <!-- 市场价值 -->
+      <MarketValue>10</MarketValue>      <!-- 市场价值 -->
       <Mass>0.1</Mass>      <!-- 物理质量 -->
+      <Beauty>-10</Beauty>      <!-- 美观度 -->
+      <MaxHitPoints>40</MaxHitPoints>      <!-- 生命值 -->
+    </statBases>
+    <burnableByRecipe>false</burnableByRecipe>    <!-- 是否可燃 -->
+    <smallVolume>false</smallVolume>    <!-- 小容量 -->
+  </ThingDef>
+
+  <ThingDef ParentName="AKI_Item_OriginiumRefineBase">
+    <defName>AKI_Item_OriginiumRefineIII</defName>
+    <label>初步加工的源石</label>
+    <description>经过初步加工的源石，已经具备了一定的用途，但是其纯度仍不适用于大规模生产和制造，只能用于一些小生产。</description>
+    <graphicData>
+      <texPath>Things/Material/Originium/OriginiumRefineIII</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>200</MarketValue>      <!-- 市场价值 -->
+      <Mass>0.08</Mass>      <!-- 物理质量 -->
       <Beauty>-10</Beauty>      <!-- 美观度 -->
       <MaxHitPoints>35</MaxHitPoints>      <!-- 生命值 -->
       <Flammability>0.2</Flammability>      <!-- 可燃性 -->
@@ -65,11 +78,11 @@
   </ThingDef>
 
   <ThingDef ParentName="AKI_Item_OriginiumRefineBase">
-    <defName>AKI_Item_OriginiumRefineIII</defName>
+    <defName>AKI_Item_OriginiumRefineIV</defName>
     <label>精加工源石</label>
     <description>经过现代化工序提炼出的源石，泰拉世界大多数工业化设施都不可或缺的能量来源和设施部件，经常会有势力大量进口这种东西用于生产或者战争用途。因为源石可能造成的生物和环境污染，因此高浓度的源石必须装在高度密封的容器中。</description>
     <graphicData>
-      <texPath>Things/Material/Originium/OriginiumRefineIII</texPath>
+      <texPath>Things/Material/Originium/OriginiumRefineIV</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <statBases>
@@ -82,20 +95,20 @@
   </ThingDef>
 
   <ThingDef ParentName="AKI_Item_OriginiumRefineBase">
-    <defName>AKI_Item_OriginiumRefineIV</defName>
+    <defName>AKI_Item_OriginiumRefineV</defName>
     <label>至纯源石</label>
     <description>经历反复提炼才能得到很少的，闪耀的，脆弱的工业珍宝，通常被用作计算机最核心的配件或者用来打造最恐怖的神兵利器，这种纯度的源石及其蕴含的价值能让任何人为之疯狂。</description>
     <graphicData>
-      <texPath>Things/Material/Originium/OriginiumRefineIV</texPath>
+      <texPath>Things/Material/Originium/OriginiumRefineV</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <statBases>
-      <MarketValue>18000</MarketValue>      <!-- 市场价值 -->
+      <MarketValue>20000</MarketValue>      <!-- 市场价值 -->
       <Mass>0.01</Mass>      <!-- 物理质量 -->
       <Beauty>5</Beauty>      <!-- 美观度 -->
       <MaxHitPoints>200</MaxHitPoints>      <!-- 生命值 -->
-      <Flammability>0.5</Flammability>      <!-- 可燃性 -->
     </statBases>
+    <burnableByRecipe>false</burnableByRecipe>    <!-- 是否可燃 -->
     <possessionCount>40</possessionCount>    <!-- 财产计数 -->
     <stackLimit>10</stackLimit>
   </ThingDef>

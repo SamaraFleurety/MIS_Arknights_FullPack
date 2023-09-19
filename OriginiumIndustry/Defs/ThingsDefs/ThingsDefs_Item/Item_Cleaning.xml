@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>AKI_Item_CleaningKit</defName>
+		<label>清洁套装</label>
+		<description>有着全套清洁药剂的清洁套装，在源石环境中工作后进行消毒处理是必须的步骤，但是人们依旧对清洁套装避之不及，因为据称它有股“马尿和硫磺混合起来的味道”
+注：该产品中含有对皮肤刺激性的物质，如果使用后出现不良反应请及时通知医疗部。</description>
+		<graphicData>
+			<texPath>Things/Consumables/CleaningKit</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>30</MarketValue>
+			<MaxHitPoints>70</MaxHitPoints>
+			<Mass>0.5</Mass>
+			<Flammability>0.8</Flammability>
+			<Beauty>0</Beauty>
+		</statBases>
+		<thingCategories>
+			<li>Items</li>
+		</thingCategories>
+		<tradeability>All</tradeability>
+		<techLevel>Spacer</techLevel>
+		<comps>
+			<li Class="CompProperties_Usable">
+				<useJob>UseItem</useJob>
+				<useLabel>Cleaning self</useLabel>
+				<useDuration>1500</useDuration>
+			</li>
+			<li Class="AK_Industry.TCP_UseEffect_CleanOrgDust" />
+			<li Class="AK_Industry.TCP_UseEffect_AddMemory">
+				<thoughtDef>AKI_Thought_CleaningKit</thoughtDef>
+			</li>
+			<li Class="CompProperties_UseEffectDestroySelf" />
+		</comps>
+		<pathCost>15</pathCost>
+		<hasCustomRectForSelector>true</hasCustomRectForSelector>
+		<tickerType>Rare</tickerType>
+	</ThingDef>
+	<ThoughtDef>
+		<defName>AKI_Thought_CleaningKit</defName>
+		<durationDays>1</durationDays>
+		<stages>
+			<li>
+				<label>使用了清洁套装</label>
+				<description>呕...我感觉像是吃了一大块硫磺皂下去</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+		</stages>
+		<replaceThoughts>
+			<li>AKI_Thought_CleaningKitFloral</li>
+			<li>AKI_Thought_UsedPurifyPod</li>
+		</replaceThoughts>
+	</ThoughtDef>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>AKI_Item_CleaningKitFloral</defName>
+		<label>花香清洁套装</label>
+		<description>由调香师和几位医疗部干员对配方进行改进过的清洁套装，植物精油很有效的掩盖了刺鼻的气味，取而代之的是鲜花的芬芳，而且对配方的改良也让对皮肤的刺激效果消失无踪，唯一的缺点可能就是比一般的清洁套装更贵。</description>
+		<graphicData>
+			<texPath>Things/Consumables/CleaningKitFloral</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>55</MarketValue>
+			<MaxHitPoints>60</MaxHitPoints>
+			<Mass>0.7</Mass>
+			<Flammability>1</Flammability>
+			<Beauty>2</Beauty>
+		</statBases>
+		<thingCategories>
+			<li>Items</li>
+		</thingCategories>
+		<tradeability>All</tradeability>
+		<techLevel>Spacer</techLevel>
+		<comps>
+			<li Class="CompProperties_Usable">
+				<useJob>UseItem</useJob>
+				<useLabel>Cleaning self</useLabel>
+				<useDuration>1500</useDuration>
+			</li>
+			<li Class="AK_Industry.TCP_UseEffect_CleanOrgDust" />
+			<li Class="AK_Industry.TCP_UseEffect_AddMemory">
+				<thoughtDef>AKI_Thought_CleaningKitFloral</thoughtDef>
+			</li>
+			<li Class="CompProperties_UseEffectDestroySelf" />
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>180</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<pathCost>15</pathCost>
+		<hasCustomRectForSelector>true</hasCustomRectForSelector>
+		<tickerType>Rare</tickerType>
+	</ThingDef>
+
+	<ThoughtDef>
+		<defName>AKI_Thought_CleaningKitFloral</defName>
+		<durationDays>1</durationDays>
+		<stages>
+			<li>
+				<label>使用了花香清洁套装 </label>
+				<description>这味道是...薰衣草？</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+		</stages>
+		<replaceThoughts>
+			<li>AKI_Thought_CleaningKit</li>
+			<li>AKI_Thought_UsedPurifyPod</li>
+		</replaceThoughts>
+	</ThoughtDef>
+
+</Defs>

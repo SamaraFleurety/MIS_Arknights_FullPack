@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="DrugBase" Name="AKI_Item_DrugBase" Abstract="True">
+		<graphicData>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<Beauty>-5</Beauty>			<!--美观度-->
+			<Nutrition>0.08</Nutrition>			<!--营养-->
+		</statBases>
+		<rotatable>false</rotatable>		<!--可旋转的-->
+		<useHitPoints>True</useHitPoints>
+		<stackLimit>25</stackLimit>		<!--堆叠限制-->
+		<techLevel>Neolithic</techLevel>		<!--技术水平 石器、中世纪之类的-->
+		<ingestible>			<!--可摄入的-->
+			<foodType>Fluid, Processed, Liquor</foodType>			<!--食物类型-->
+			<joyKind>Chemical</joyKind>			<!--娱乐属性-->
+			<joy>0.2</joy>			<!--娱乐效果-->
+			<nurseable>true</nurseable>			<!--可护理的-->
+			<drugCategory>Social</drugCategory>			<!--药物类别-->
+			<ingestSound>Ingest_Beer</ingestSound>			<!--摄取声音-->
+			<ingestHoldOffsetStanding>				<!--摄入暂停站立-->
+				<northDefault>
+					<offset>(0.18,0,0)</offset>					<!--大概是方位？应该默认就行-->
+				</northDefault>
+			</ingestHoldOffsetStanding>
+			<ingestCommandString>喝 {0}</ingestCommandString>			<!--摄取命令字符串-->
+			<ingestReportString>正在喝 {0}。</ingestReportString>			<!--摄取报告字符串-->
+			<chairSearchRadius>25</chairSearchRadius>			<!--椅子搜索半径-->
+			<canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>			<!--可以自动选择作为远行队的食物-->
+			<tableDesired>false</tableDesired>			<!--需要桌子-->
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>AlcoholHigh</hediffDef>
+					<severity>0.15</severity>					<!--严重程度-->
+					<toleranceChemical>Alcohol</toleranceChemical>					<!--化学耐受性-->
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>AlcoholTolerance</hediffDef>
+					<severity>0.016</severity>
+					<divideByBodySize>true</divideByBodySize>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+	</ThingDef>
+
+	<ThingDef ParentName="AKI_Item_DrugBase">
+		<defName>AKI_Item_BlendedBeer</defName>
+		<label>化合啤酒</label>
+		<description>传统的酿造方法效率低下，在啤酒市场不断扩大的前提下，用化学物质合成啤酒的想法应运而生，虽然成分和传统的啤酒千差万别，但是这种饮料的味道和真正的啤酒相差无几。</description>
+		<graphicData>
+			<texPath>Things/Consumables/BlendedBeer</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>15</MarketValue>			<!--市场价值-->
+			<Mass>0.33</Mass>			<!--重量-->
+			<Flammability>0.5</Flammability>			<!--可燃性-->
+			<MaxHitPoints>50</MaxHitPoints>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<chemical>Alcohol</chemical>				<!---->
+				<addictiveness>0.014</addictiveness>				<!--成瘾概率-->
+				<minToleranceToAddict>0.015</minToleranceToAddict>				<!--对上瘾的最小耐受-->
+				<existingAddictionSeverityOffset>0.20</existingAddictionSeverityOffset>				<!--现有成瘾严重程度偏移-->
+				<needLevelOffset>0.9</needLevelOffset>				<!--需求等级-->
+				<listOrder>10</listOrder>				<!--列表顺序-->
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="AKI_Item_DrugBase">
+		<defName>AKI_Item_WaterforLife</defName>
+		<label>生命之水</label>
+		<description>度数奇高的乌萨斯烈酒，上头，据说一个健康的乌萨斯人能干掉好几瓶。</description>
+		<graphicData>
+			<texPath>Things/Consumables/WaterforLife</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>40</MarketValue>			<!--市场价值-->
+			<Mass>0.3</Mass>			<!--重量-->
+			<Flammability>1.2</Flammability>			<!--可燃性-->
+			<MaxHitPoints>50</MaxHitPoints>
+		</statBases>
+		<ingestible>			<!--可摄入的-->
+			<joy>0.3</joy>			<!--娱乐效果-->
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<chemical>Alcohol</chemical>				<!---->
+				<addictiveness>0.5</addictiveness>				<!--成瘾概率-->
+				<minToleranceToAddict>0.02</minToleranceToAddict>				<!--对上瘾的最小耐受-->
+				<existingAddictionSeverityOffset>0.20</existingAddictionSeverityOffset>				<!--现有成瘾严重程度偏移-->
+				<needLevelOffset>0.9</needLevelOffset>				<!--需求等级-->
+				<listOrder>10</listOrder>				<!--列表顺序-->
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="AKI_Item_DrugBase">
+		<defName>AKI_Item_Isobutanol</defName>
+		<label>异醇</label>
+		<description>用工业化技术提取出来的化合物，化学性质与酒精接近，你可以用它合成制作化学药品和用于消毒，或者直接喝了它，前提是你能承受各种不良反应。</description>
+		<graphicData>
+			<texPath>Things/Consumables/Isobutanol</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>55</MarketValue>			<!--市场价值-->
+			<Mass>0.5</Mass>			<!--重量-->
+			<Flammability>2</Flammability>			<!--可燃性-->
+			<MaxHitPoints>40</MaxHitPoints>
+		</statBases>
+		<ingestible>			<!--可摄入的-->
+			<joy>0.5</joy>			<!--娱乐效果-->
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<chemical>Alcohol</chemical>				<!---->
+				<addictiveness>0.5</addictiveness>				<!--成瘾概率-->
+				<minToleranceToAddict>0.04</minToleranceToAddict>				<!--对上瘾的最小耐受-->
+				<existingAddictionSeverityOffset>0.20</existingAddictionSeverityOffset>				<!--现有成瘾严重程度偏移-->
+				<needLevelOffset>0.9</needLevelOffset>				<!--需求等级-->
+				<listOrder>10</listOrder>				<!--列表顺序-->
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="AKI_Item_DrugBase">
+		<defName>AKI_Item_GaulFruitWine</defName>
+		<label>高卢果酒</label>
+		<description>一种原产自高卢的好酒，通过将果子发酵产生，口感醇厚温润。很多贵族家中都会留着几瓶甚至几桶做收藏或者招待宾客，品味这种酒时你会觉得自己像个国王。</description>
+		<graphicData>
+			<texPath>Things/Consumables/GaulFruitWine</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>60</MarketValue>			<!--市场价值-->
+			<Beauty>0</Beauty>
+			<Mass>0.5</Mass>			<!--重量-->
+			<Flammability>0.5</Flammability>			<!--可燃性-->
+			<MaxHitPoints>30</MaxHitPoints>
+		</statBases>
+		<ingestible>			<!--可摄入的-->
+			<joy>0.32</joy>			<!--娱乐效果-->
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<chemical>Alcohol</chemical>				<!---->
+				<addictiveness>0.6</addictiveness>				<!--成瘾概率-->
+				<minToleranceToAddict>0.008</minToleranceToAddict>				<!--对上瘾的最小耐受-->
+				<existingAddictionSeverityOffset>0.20</existingAddictionSeverityOffset>				<!--现有成瘾严重程度偏移-->
+				<needLevelOffset>0.9</needLevelOffset>				<!--需求等级-->
+				<listOrder>10</listOrder>				<!--列表顺序-->
+			</li>
+		</comps>
+	</ThingDef>
+
+</Defs>
