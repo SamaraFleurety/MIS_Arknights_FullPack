@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>AKI_Surgery_RemoveCrystalLimb</defName>
+		<label>remove crystalized body part</label>
+		<description>Remove a crystalized body part.</description>
+		<workerClass>AK_Industry.RecipeWorker_ExtractLimbOriginium</workerClass>
+		<jobString>Removing body part.</jobString>
+		<workAmount>2000</workAmount>
+		<surgerySuccessChanceFactor>1.2</surgerySuccessChanceFactor>
+		<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+			<count>1</count>
+		</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		<categories>
+			<li>Medicine</li>
+		</categories>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+	</RecipeDef>
+
+</Defs>

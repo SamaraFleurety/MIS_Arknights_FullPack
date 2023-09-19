@@ -15,6 +15,20 @@
 		<canBeDoneByMechs>false</canBeDoneByMechs>
 	</WorkGiverDef>
 
+	<WorkGiverDef>
+		<defName>AKI_Work_CleanDustByPod</defName>
+		<label>清洁源石尘</label>
+		<giverClass>AK_Industry.WorkGiver_UsePurifyPod</giverClass>
+		<workType>PatientBedRest</workType>
+		<emergency>false</emergency>
+		<verb>使用清洁舱</verb>
+		<gerund>使用清洁舱中</gerund>
+		<canBeDoneWhileDrafted>false</canBeDoneWhileDrafted>
+		<priorityInType>1500</priorityInType>
+		<prioritizeSustains>true</prioritizeSustains>
+		<canBeDoneByMechs>false</canBeDoneByMechs>
+	</WorkGiverDef>
+
 	<JobDef>
 		<defName>AKI_Job_CleanOrgDust</defName>
 		<driverClass>JobDriver_UseItem</driverClass>
