@@ -30,7 +30,7 @@
         </costList>
         <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
         <hasInteractionCell>True</hasInteractionCell>
-        <interactionCellOffset>(0,0.5,-1)</interactionCellOffset>
+        <interactionCellOffset>(0,1,-1)</interactionCellOffset>
         <researchPrerequisites>
             <li>AKI_Research_ChemicalExtract</li>
         </researchPrerequisites>
@@ -72,44 +72,46 @@
             <li>AKI_Research_DisasterProtection</li>
         </researchPrerequisites>
         <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
-		<comps>
-			<li Class="CompProperties_Power">
-				<compClass>CompPowerTrader</compClass>
-				<basePowerConsumption>200</basePowerConsumption>
-			</li>
-			<li Class="AK_Industry.TCP_PurifyPod">
-				<thoughtComplete>AKI_Thought_UsedPurifyPod</thoughtComplete>
-				<thoughtInterrupted>AKI_Thought_UsePurifyPodInterrupted</thoughtInterrupted>
-			</li>
-		</comps>
-		<interactionCellOffset>(0,0,1)</interactionCellOffset>
+        <comps>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerTrader</compClass>
+                <basePowerConsumption>200</basePowerConsumption>
+            </li>
+            <li Class="AK_Industry.TCP_PurifyPod">
+                <thoughtComplete>AKI_Thought_UsedPurifyPod</thoughtComplete>
+                <thoughtInterrupted>AKI_Thought_UsePurifyPodInterrupted</thoughtInterrupted>
+            </li>
+        </comps>
+        <interactionCellOffset>(0,0,1)</interactionCellOffset>
     </ThingDef>
-		<ThoughtDef>
-			<defName>AKI_Thought_UsedPurifyPod</defName>
-			<durationDays>0.083</durationDays>
-			<stages>
-				<li>
-					<label>一尘不染</label>
-					<description>洗完澡，一身轻松</description>
-					<baseMoodEffect>5</baseMoodEffect>
-				</li>
-			</stages>
-			<replaceThoughts>
-				<li>AKI_Thought_CleaningKit</li>
-				<li>AKI_Thought_CleaningKitFloral</li>
-				<li>AKI_Thought_UsePurifyPodInterrupted</li>
-			</replaceThoughts>
-		</ThoughtDef>
-		<ThoughtDef>
-			<defName>AKI_Thought_UsePurifyPodInterrupted</defName>
-			<durationDays>1</durationDays>
-			<stages>
-				<li>
-					<label>洗澡被打断</label>
-					<description>我头上的泡沫都没冲干净！</description>
-					<baseMoodEffect>-5</baseMoodEffect>
-				</li>
-			</stages>
-		</ThoughtDef>
+
+    <ThoughtDef>
+        <defName>AKI_Thought_UsedPurifyPod</defName>
+        <durationDays>0.083</durationDays>
+        <stages>
+            <li>
+                <label>一尘不染</label>
+                <description>洗完澡，一身轻松</description>
+                <baseMoodEffect>5</baseMoodEffect>
+            </li>
+        </stages>
+        <replaceThoughts>
+            <li>AKI_Thought_CleaningKit</li>
+            <li>AKI_Thought_CleaningKitFloral</li>
+            <li>AKI_Thought_UsePurifyPodInterrupted</li>
+        </replaceThoughts>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>AKI_Thought_UsePurifyPodInterrupted</defName>
+        <durationDays>1</durationDays>
+        <stages>
+            <li>
+                <label>洗澡被打断</label>
+                <description>我头上的泡沫都没冲干净！</description>
+                <baseMoodEffect>-5</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
 
 </Defs>

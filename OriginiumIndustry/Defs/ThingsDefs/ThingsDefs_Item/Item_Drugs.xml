@@ -85,6 +85,7 @@
 		</statBases>
 		<ingestible>			<!--可摄入的-->
 			<joy>0.3</joy>			<!--娱乐效果-->
+			<tasteThought>AKI_Thought_DrinkWaterforLife</tasteThought>
 		</ingestible>
 		<comps>
 			<li Class="CompProperties_Drug">
@@ -113,6 +114,7 @@
 		</statBases>
 		<ingestible>			<!--可摄入的-->
 			<joy>0.5</joy>			<!--娱乐效果-->
+			<tasteThought>AKI_Thought_Isobutanol</tasteThought>
 		</ingestible>
 		<comps>
 			<li Class="CompProperties_Drug">
@@ -142,6 +144,7 @@
 		</statBases>
 		<ingestible>			<!--可摄入的-->
 			<joy>0.32</joy>			<!--娱乐效果-->
+			<tasteThought>AKI_Thought_GaulFruitWine</tasteThought>
 		</ingestible>
 		<comps>
 			<li Class="CompProperties_Drug">
@@ -154,5 +157,41 @@
 			</li>
 		</comps>
 	</ThingDef>
+
+	<ThoughtDef>
+		<defName>AKI_Thought_DrinkWaterforLife</defName>
+		<durationDays>0.5</durationDays>
+		<stages>
+			<li>
+				<label>喝了生命之水</label>
+				<description>嘶...好辣，我感觉我的胃里像是有火在烧</description>
+				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>AKI_Thought_DrinkIsobutanol</defName>
+		<durationDays>0.5</durationDays>
+		<stages>
+			<li>
+				<label>喝了异醇</label>
+				<description>唔......哦？哦！嘿嘿嘿~🎵</description>
+				<baseMoodEffect>36</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>AKI_Thought_DrinkGaulFruitWine</defName>
+		<durationDays>0.5</durationDays>
+		<stages>
+			<li>
+				<label>品尝美酒</label>
+				<description>真是一瓶好酒，如果能有烛光和佳肴那就更好了！</description>
+				<baseMoodEffect>20</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
 
 </Defs>
