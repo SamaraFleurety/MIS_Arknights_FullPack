@@ -28,12 +28,28 @@
         </baseDesc>
     </BackstoryDef>
 
-	<BackstoryDef ParentName = "AK_StoryBase">
-		<defName>AK_BackStory_FrostNova_Adult</defName>
-		<slot>Adulthood</slot>
-		<title>游击队术师，雪怪小队领袖和“大姐”</title>
-		<titleShort>“大姐”</titleShort>
-		<baseDesc>曾经指挥旗下的雪怪小队与游击队取得了许多胜利，被乌萨斯军誉为“冻原中的白色死神”</baseDesc>
-	</BackstoryDef>
+    <BackstoryDef ParentName = "AK_StoryBase">
+        <defName>AK_BackStory_FrostNova_Adult</defName>
+        <slot>Adulthood</slot>
+        <title>游击队术师，雪怪小队领袖和“大姐”</title>
+        <titleShort>“大姐”</titleShort>
+        <baseDesc>曾经指挥旗下的雪怪小队与游击队取得了许多胜利，被乌萨斯军誉为“冻原中的白色死神”</baseDesc>
+    </BackstoryDef>
+
+    <BackstoryDef ParentName = "AK_StoryBase">
+        <defName>AK_BackStory_CandleKnight_Child</defName>
+        <slot>Childhood</slot>
+        <title>贵族私生子</title>
+        <titleShort>贵族私生子</titleShort>
+        <baseDesc>{PAWN_nameDef}出生于莱塔尼亚的某个贵族家庭，真实身份是莱塔尼亚某位贵族的私生女。为了不让家族蒙羞，{PAWN_nameDef}自出生起便常年被关在高塔之中，只能通过阅读诗集和小说来了解外面的世界，也正是在这个时候，{PAWN_nameDef}通过骑士小说对卡西米尔的骑士产生了憧憬。</baseDesc>
+    </BackstoryDef>
+
+    <BackstoryDef ParentName = "AK_StoryBase">
+        <defName>AK_BackStory_CandleKnight_Adult</defName>
+        <slot>Adulthood</slot>
+        <title>烛骑士</title>
+        <titleShort>烛骑士</titleShort>
+        <baseDesc>{PAWN_nameDef}被流放到卡西米尔，由某位征战骑士领养，自此实现了成为骑士的梦想，之后成为了大骑士，在大骑士领获得了极高的地位。但却也逐渐发现卡西米尔骑士文化的内在已经被资本腐蚀。</baseDesc>
+    </BackstoryDef>
 
 </Defs>

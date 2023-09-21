@@ -25,4 +25,16 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_OtherLeader">
+		<defName>AK_Apparel_CandleKnight</defName>
+		<label>烛骑士薇薇安服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/OtherLeader/CandleKnight</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/OtherLeader/CandleKnight</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 </Defs>

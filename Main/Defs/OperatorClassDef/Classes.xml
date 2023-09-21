@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+
 	<AK_DLL.OperatorSeriesDef>
 		<defName>AK_Series_Arknights</defName>
 		<label>明日方舟</label>
@@ -12,32 +13,12 @@
 		<icon>UI/Element/Other</icon>
 	</AK_DLL.OperatorSeriesDef>
 
-	<AK_DLL.OperatorSeriesDef>
-		<defName>AK_Series_AzurLane</defName>
-		<label>碧蓝航线</label>
-		<icon>UI/Element/AzurLane</icon>
-	</AK_DLL.OperatorSeriesDef>
-
-	<AK_DLL.OperatorSeriesDef>
-		<defName>AK_Series_GirlsFrontline</defName>
-		<label>少女前线</label>
-		<icon>UI/Element/GirlsFrontline</icon>
-	</AK_DLL.OperatorSeriesDef>
-
 	<AK_DLL.OperatorClassDef Name="AK_OpClassBase" Abstract="True">
 		<series>AK_Series_Arknights</series>
 	</AK_DLL.OperatorClassDef>
 
 	<AK_DLL.OperatorClassDef Name="AK_OpClassOther" Abstract="True">
 		<series>AK_Series_Other</series>
-	</AK_DLL.OperatorClassDef>
-
-	<AK_DLL.OperatorClassDef Name="AK_OpClassAzurLane" Abstract="True">
-		<series>AK_Series_AzurLane</series>
-	</AK_DLL.OperatorClassDef>
-
-	<AK_DLL.OperatorClassDef Name="AK_OpClassGirlsFrontline" Abstract="True">
-		<series>AK_Series_GirlsFrontline</series>
 	</AK_DLL.OperatorClassDef>
 
 	<AK_DLL.OperatorClassDef ParentName="AK_OpClassBase">
@@ -110,22 +91,6 @@
 		<sortingOrder>9</sortingOrder>
 		<textureFolder>OtherLeader</textureFolder>
 		<iconPath>UI/Element/OtherLeader</iconPath>
-	</AK_DLL.OperatorClassDef>
-
-	<AK_DLL.OperatorClassDef ParentName="AK_OpClassAzurLane">
-		<defName>AK_OperatorClass_AzurLane</defName>
-		<label>AzurLane</label>
-		<sortingOrder>10</sortingOrder>
-		<textureFolder>AzurLane</textureFolder>
-		<iconPath>UI/Element/AzurLane</iconPath>
-	</AK_DLL.OperatorClassDef>
-
-	<AK_DLL.OperatorClassDef ParentName="AK_OpClassGirlsFrontline">
-		<defName>AK_OperatorClass_GirlsFrontline</defName>
-		<label>GirlsFrontline</label>
-		<sortingOrder>11</sortingOrder>
-		<textureFolder>GirlsFrontline</textureFolder>
-		<iconPath>UI/Element/GirlsFrontline</iconPath>
 	</AK_DLL.OperatorClassDef>
 
 </Defs>
