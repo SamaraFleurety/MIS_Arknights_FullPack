@@ -92,6 +92,9 @@
 		</abilities>
 		<standRatio>2.5</standRatio>
 		<standOffset>(0, 0)</standOffset>
+		<live2dModel MayRequire="FS.LivelyRim">
+			<li>AZ_Live_Janus</li>
+		</live2dModel>
 	</AK_DLL.OperatorDef>
 	
 	<HairDef ParentName="AK_HairBaseF">

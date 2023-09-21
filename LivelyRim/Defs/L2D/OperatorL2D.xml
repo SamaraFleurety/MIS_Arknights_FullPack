@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	
-	<FS_LivelyRim.LiveModelDef>
+	<FS_LivelyRim.LiveModelDef Abstract="true">
 		<defName>AK_Live_Rice</defName>
 		<label>rice</label>
 		<modID>FS.LivelyRim</modID>
@@ -30,4 +30,23 @@
 		</transform>
 	</FS_LivelyRim.LiveModelDef>
 	
+	<FS_LivelyRim.LiveModelDef>
+		<defName>FS_Live_Farfarin</defName>
+		<label>Warfarin</label>
+		<modID>FS.LivelyRim</modID>
+		<assetBundle>farfarin</assetBundle>
+		<modelName>ff1</modelName>
+		<rigJsonPath>ff1.physics3.json</rigJsonPath>
+		<eyeFollowMouse>false</eyeFollowMouse>
+		<transform>
+			<li>
+				<key>1</key>
+				<value><location>(9992.5,-10,10000)</location></value> <!-- x轴:负左正右; z轴:不要随便动 y轴:我没测 -->
+			</li>
+			<li>
+				<key>2</key>
+				<value><location>(10010,-10,10000)</location></value>
+			</li>
+		</transform>
+	</FS_LivelyRim.LiveModelDef>
 </Defs>

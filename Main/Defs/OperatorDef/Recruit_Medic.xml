@@ -1020,6 +1020,9 @@ Ptilopsis, database maintainer of Rhine Lab, activated. Please enter commands to
 				<fireLevel>0</fireLevel>
 			</li>
 		</skills>
+		<live2dModel MayRequire="FS.LivelyRim">
+			<li>FS_Live_Farfarin</li>
+		</live2dModel>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Medic">
