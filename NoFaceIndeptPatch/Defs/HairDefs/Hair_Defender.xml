@@ -81,7 +81,7 @@
 		<texPath>Things/Hair/Defender/Gummy</texPath>
 	</HairDef>
 
-	<HairDef ParentName="AK_HairBaseF">
+	<HairDef ParentName="AK_HairBaseM">
 		<defName>AK_Hair_Matterhorn</defName>
 		<label>角峰发型</label>
 		<texPath>Things/Hair/Defender/Matterhorn</texPath>
@@ -103,6 +103,12 @@
 		<defName>AK_Hair_Penance</defName>
 		<label>斥罪发型</label>
 		<texPath>Things/Hair/Defender/Penance</texPath>
+	</HairDef>
+
+	<HairDef ParentName="AK_HairBaseF">
+		<defName>AK_Hair_JessicaL</defName>
+		<label>涤火杰西卡发型</label>
+		<texPath>Things/Hair/Defender/JessicaL</texPath>
 	</HairDef>
 
 </Defs>
