@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<WorkGiverDef>
+		<defName>AKI_Work_HarvestKohlBarrel</defName>
+		<label>take beer out of fermenting barrels</label>
+		<giverClass>AK_Industry.WorkGiver_HarvestKohlBarrel</giverClass>
+		<workType>Hauling</workType>
+		<verb>take beer</verb>
+		<gerund>taking beer from</gerund>
+		<priorityInType>20</priorityInType>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<canBeDoneByMechs>false</canBeDoneByMechs>
+	</WorkGiverDef>
+
+	<WorkGiverDef>
+		<defName>AKI_Work_FillKohlBarrel</defName>
+		<label>fill fermenting barrels</label>
+		<giverClass>AK_Industry.WorkGiver_FillKohlBarrel</giverClass>
+		<workType>Hauling</workType>
+		<verb>fill</verb>
+		<gerund>filling</gerund>
+		<priorityInType>19</priorityInType>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<canBeDoneByMechs>false</canBeDoneByMechs>
+	</WorkGiverDef>
+	
+	<JobDef>
+		<defName>AKI_Job_FillKohlBarrel</defName>
+		<driverClass>AK_Industry.JobDriver_FillKohlBarrel</driverClass>
+		<reportString>filling TargetA.</reportString>
+		<suspendable>false</suspendable>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
+
+	<JobDef>
+		<defName>AKI_Job_HarvestKohlBarrel</defName>
+		<driverClass>AK_Industry.JobDriver_HarvestKohlBarrel</driverClass>
+		<reportString>harvesting beer out of TargetA.</reportString>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
+
+</Defs>

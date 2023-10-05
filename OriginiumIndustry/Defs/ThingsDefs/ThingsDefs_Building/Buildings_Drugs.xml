@@ -1,4 +1,60 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<ThingDef ParentName="BuildingBase">
+		<defName>AKI_Building_KohlBarrel</defName>
+		<label>isobutanol fermenting barrel</label>
+		<description>A barrel for fermenting raw wort into beer.</description>
+		<thingClass>AK_Industry.Building_KohlBarrel</thingClass>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<graphicData>
+		<texPath>Things/Building/Production/FermentingBarrel</texPath>
+		<graphicClass>Graphic_Multi</graphicClass>
+		<damageData>
+			<rect>(0.05,0.1,0.9,0.9)</rect>
+		</damageData>
+		<shadowData>
+			<volume>(0.75, 0.35, 0.33)</volume>
+		</shadowData>
+		</graphicData>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.45</fillPercent>
+		<pathCost>42</pathCost>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
+		<statBases>
+			<WorkToBuild>600</WorkToBuild>
+			<Mass>10</Mass>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<costList>
+			<Steel>10</Steel>
+			<WoodLog>30</WoodLog>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Power">
+                <compClass>CompPowerTrader</compClass>
+                <basePowerConsumption>50</basePowerConsumption>
+            </li>
+		</comps>
+		<tickerType>Long</tickerType>
+		<rotatable>true</rotatable>
+		<designationCategory>Production</designationCategory>
+		<uiOrder>2710</uiOrder>
+		<constructEffect>ConstructWood</constructEffect>
+		<building>
+			<buildingTags>
+				<li>Production</li>
+			</buildingTags>
+			<destroySound>BuildingDestroyed_Wood_Small</destroySound>
+		</building>
+		<researchPrerequisites>
+			<li>Brewing</li>
+		</researchPrerequisites>
+	</ThingDef>
+
 </Defs>
