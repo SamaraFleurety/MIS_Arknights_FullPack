@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<PawnKindDef>
+		<defName>FS_PawnKind_ArchoDrone</defName>
+		<label>Archotech Eradicator</label>
+		<race>FS_Race_ArchoDrone</race>
+		<combatPower>35</combatPower>
+		<chemicalAddictionChance>0.0</chemicalAddictionChance>
+		<backstoryCategories>
+			<li>Civil</li>
+		</backstoryCategories>
+		<isFighter>true</isFighter>  
+		<wildGroupSize>0</wildGroupSize>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>UI/TempIcon</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>(1.7,1.7)</drawSize>
+					<shadowData>
+						<volume>(0.2, 0.1, 0.2)</volume>
+						<offset>(0,0.5,0)</offset>
+					</shadowData>
+				</bodyGraphicData>
+			</li>
+		</lifeStages>
+		<weaponMoney>
+			<min>0</min>
+			<max>0</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>Gun</li>
+		</weaponTags>
+		<apparelTags>
+			<li>Spacer</li>
+		</apparelTags>
+		<apparelMoney>
+			<min>0</min>
+			<max>0</max>
+		</apparelMoney>
+		<gearHealthRange>
+			<min>0.2</min>
+			<max>2.0</max>
+		</gearHealthRange>
+		<invNutrition>0</invNutrition>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<forceNormalGearQuality>false</forceNormalGearQuality>
+	</PawnKindDef>
+
+	<!-- race def -->
+	<ThingDef ParentName="LightMechanoid">
+		<defName>FS_Race_ArchoDrone</defName>
+		<label>Archotech Eradicator</label>
+		<description>desc</description>
+		<thingClass>FS_ArchoDrone.ArchoDrone</thingClass>
+		<statBases>
+			<MoveSpeed>3.8</MoveSpeed>
+			<IncomingDamageFactor>0</IncomingDamageFactor>
+		</statBases>
+		<race>
+			<lifeStageAges>
+				<li>
+					<def>MechanoidFullyFormed</def>
+					<minAge>0</minAge>
+					<soundWounded>Pawn_Mech_Militor_Wounded</soundWounded>
+					<soundDeath>Pawn_Mech_Militor_Death</soundDeath>
+					<soundCall>Pawn_Mech_Militor_Call</soundCall>
+				</li>
+			</lifeStageAges>
+			<thinkTreeMain>Mechanoid</thinkTreeMain>
+		</race>
+	</ThingDef>
+
+</Defs>
