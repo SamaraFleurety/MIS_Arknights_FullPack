@@ -12,4 +12,24 @@
 		</removeOnRedressChanceByDaysCurve>
 	</HediffDef>
 	
+	<AbilityDef>
+		<defName>AK_VAbility_Operator</defName>
+		<label>Operator</label>
+		<abilityClass>AK_DLL.VAbility_Operator</abilityClass>
+		<displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+		<disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+		<verbProperties>
+			<verbClass>Verb_CastPsycast</verbClass>
+			<range>24.9</range>
+			<requireLineOfSight>True</requireLineOfSight>
+			<warmupTime>1</warmupTime>
+			<targetParams>
+			<canTargetBuildings>False</canTargetBuildings>
+			<canTargetAnimals>False</canTargetAnimals>
+			<thingCategory>Item</thingCategory>
+			<mapObjectTargetsMustBeAutoAttackable>False</mapObjectTargetsMustBeAutoAttackable>
+			</targetParams>
+		</verbProperties>
+	</AbilityDef>
+	
 </Defs>

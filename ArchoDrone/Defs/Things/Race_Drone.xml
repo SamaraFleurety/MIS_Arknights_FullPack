@@ -51,16 +51,41 @@
 	</PawnKindDef>
 
 	<!-- race def -->
-	<ThingDef ParentName="LightMechanoid">
+	<ThingDef>
 		<defName>FS_Race_ArchoDrone</defName>
 		<label>Archotech Eradicator</label>
 		<description>desc</description>
 		<thingClass>FS_ArchoDrone.ArchoDrone</thingClass>
+		<category>Pawn</category>
+		<selectable>true</selectable>
+		<tickerType>Normal</tickerType>
+		<altitudeLayer>Pawn</altitudeLayer>
+		<useHitPoints>false</useHitPoints>
+		<hasTooltip>true</hasTooltip>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<inspectorTabs>
+			<li>ITab_Pawn_Health</li>
+			<li>ITab_Pawn_Needs</li>
+			<li>ITab_Pawn_Gear</li>
+		</inspectorTabs>
 		<statBases>
-			<MoveSpeed>3.8</MoveSpeed>
+			<MoveSpeed>7.0</MoveSpeed>
 			<IncomingDamageFactor>0</IncomingDamageFactor>
+			<Flammability>0</Flammability>
+			<LeatherAmount>0</LeatherAmount>
+			<MeatAmount>0</MeatAmount>
+			<FilthRate>0</FilthRate>
+			<PsychicSensitivity>0</PsychicSensitivity>
+			<ToxicResistance>1</ToxicResistance>
+			<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">1</ToxicEnvironmentResistance>
+			<Mass>15</Mass>
+			<ComfyTemperatureMin>-270</ComfyTemperatureMin>
+			<ComfyTemperatureMax>550</ComfyTemperatureMax>
 		</statBases>
+		<receivesSignals>false</receivesSignals>
 		<race>
+			<body>Mech_Light</body>
 			<lifeStageAges>
 				<li>
 					<def>MechanoidFullyFormed</def>
@@ -70,8 +95,38 @@
 					<soundCall>Pawn_Mech_Militor_Call</soundCall>
 				</li>
 			</lifeStageAges>
-			<thinkTreeMain>Mechanoid</thinkTreeMain>
+			<lifeExpectancy>9999</lifeExpectancy>
+			<thinkTreeMain>FS_ThinkTree_ArchoDroneMain</thinkTreeMain>
+			<soundMeleeHitPawn>Pawn_Melee_MechanoidBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_MechanoidBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_MechanoidBash_Miss</soundMeleeMiss>
+			<intelligence>ToolUser</intelligence>
+			<makesFootprints>false</makesFootprints>
+			<wildness>0</wildness>
+			<mateMtbHours>0</mateMtbHours>
+			<fleshType>Mechanoid</fleshType>
+			<foodType>None</foodType>
 		</race>
+		<tools>
+			<li>
+				<label>近战</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>20</power>
+				<cooldownTime>1.6</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<chanceFactor>1.0</chanceFactor>
+			</li>
+		</tools>
+		<butcherProducts>
+			<Steel>5</Steel>
+		</butcherProducts>
+		<comps>
+			<li>
+				<compClass>CompAttachBase</compClass>
+			</li>
+		</comps>
 	</ThingDef>
 
 </Defs>

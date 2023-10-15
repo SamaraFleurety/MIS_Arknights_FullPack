@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <HediffDef>
-    <defName>AKI_Hediff_OrgDustActive</defName>
-    <label>烈性源石尘沾染</label>
-    <hediffClass>HediffWithComps</hediffClass>
-    <defaultLabelColor>(255, 255, 210)</defaultLabelColor>
-    <description>组织上沾染了源石尘，如果不及时清理会演变为矿石病。</description>
-    <maxSeverity>200</maxSeverity>
-    <initialSeverity>0.001</initialSeverity>
-    <tendable>false</tendable>
-    <isBad>true</isBad>
-    <comps>
-      <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>-1</severityPerDay>
-      </li>
-      <li Class="AK_Industry.HCP_InflictDamageOvertime">
-		<damageDef>Burn</damageDef>
-	  </li>
-      <li Class="AK_Industry.HCP_RandAddHediff">
-		<interval>2</interval>
-		<intervalUnit>hour</intervalUnit>
-        <saveChanceByFunc>AK_Industry.Func_OrgDustToOrgBlood</saveChanceByFunc>
-        <hediffStatsSet>
-          <li>
-            <hediff>AKI_Disease_ORG_OripathyBlood</hediff>
-            <part></part>
-            <serverity>0.1</serverity>
-            <randWeight>1</randWeight>
-          </li>
-        </hediffStatsSet>
-      </li>
-    </comps>
-    <makesSickThought>false</makesSickThought>
-    <stages>
-      <li>
-        <minSeverity>50</minSeverity>
-        <label>严重沾染</label>
-        <painOffset>0.2</painOffset>
-        <capMods>
-          <li>
-            <capacity>Breathing</capacity>
-            <offset>-0.35</offset>
-          </li>
-        </capMods>
-      </li>
-    </stages>
-  </HediffDef>
+	<HediffDef>
+		<defName>AKI_Hediff_OrgDustActive</defName>
+		<label>烈性源石尘沾染</label>
+		<hediffClass>HediffWithComps</hediffClass>
+		<defaultLabelColor>(255, 255, 210)</defaultLabelColor>
+		<description>组织上沾染了源石尘，如果不及时清理会演变为矿石病。</description>
+		<maxSeverity>200</maxSeverity>
+		<initialSeverity>0.001</initialSeverity>
+		<tendable>false</tendable>
+		<isBad>true</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-1</severityPerDay>
+			</li>
+			<li Class="AK_Industry.HCP_InflictDamageOvertime">
+				<damageDef>Burn</damageDef>
+			</li>
+			<li Class="AK_Industry.HCP_RandAddHediff">
+				<interval>2</interval>
+				<intervalUnit>hour</intervalUnit>
+				<saveChanceByFunc>AK_Industry.Func_OrgDustToOrgBlood</saveChanceByFunc>
+				<hediffStatsSet>
+					<li>
+						<hediff>AKI_Disease_ORG_OripathyBlood</hediff>
+						<part></part>
+						<serverity>0.1</serverity>
+						<randWeight>1</randWeight>
+					</li>
+				</hediffStatsSet>
+			</li>
+		</comps>
+		<makesSickThought>false</makesSickThought>
+		<stages>
+			<li>
+				<minSeverity>50</minSeverity>
+				<label>严重沾染</label>
+				<painOffset>0.2</painOffset>
+				<capMods>
+					<li>
+					<capacity>Breathing</capacity>
+					<offset>-0.35</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
 
   <!-- 矿石病 -->
   <HediffDef>

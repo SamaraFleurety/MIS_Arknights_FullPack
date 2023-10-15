@@ -58,8 +58,76 @@
 				<useDuration>100</useDuration>
 			</li>
 			<li Class="FS_ArchoDrone.TCP_ArchoDronePledge" />
-			<li Class="FS_ArchoDrone.TCP_ArchoDroneCommands" />
+			<li Class="FS_ArchoDrone.TCP_ArchoDroneCommands">
+				<verb>
+					<verbClass>FS_ArchoDrone.Verb_GotoCell</verbClass>
+					<range>100</range>
+					<targetParams>
+						<canTargetPawns>false</canTargetPawns>
+						<canTargetLocations>true</canTargetLocations>
+					</targetParams>
+				</verb>
+			</li>
+			<li Class="FS_ArchoDrone.TCP_ArchoShield" /> 
 		</comps>
+	</ThingDef>
+
+<!-- 武器 -->
+	<ThingDef>
+		<defName>FS_Weapon_ArchoLaser</defName>
+		<destroyOnDrop>true</destroyOnDrop>	
+		<label>无人机激光</label>	
+		<description>无人机激光desc</description>
+		<thingClass>ThingWithComps</thingClass>
+		<category>Item</category>
+		<drawerType>MapMeshOnly</drawerType>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<altitudeLayer>Item</altitudeLayer>
+		<alwaysHaulable>true</alwaysHaulable>
+		<tickerType>Never</tickerType>
+		<equipmentType>Primary</equipmentType>
+		<useHitPoints>false</useHitPoints>
+		<pathCost>14</pathCost>
+		<selectable>true</selectable>
+		<smeltable>false</smeltable>
+		<burnableByRecipe>false</burnableByRecipe>
+		<relicChance>0</relicChance>
+		<tradeability>None</tradeability>
+		<techLevel>Spacer</techLevel>
+		<statBases>
+			<Flammability>0</Flammability>
+			<AccuracyTouch>1.75</AccuracyTouch>
+			<AccuracyShort>0.95</AccuracyShort>
+			<AccuracyMedium>0.8</AccuracyMedium>
+			<AccuracyLong>1.6</AccuracyLong>
+			<RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li>
+				<compClass>CompEquippable</compClass>
+			</li>
+		</comps>
+		<graphicData>
+			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+			<texPath>Things/Pawn/Humanlike/Apparel/FlakVest/FlakVest</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_InfernoCannon</defaultProjectile>
+				<forcedMissRadius>3.5</forcedMissRadius>
+				<ai_AvoidFriendlyFireRadius>3</ai_AvoidFriendlyFireRadius>
+				<warmupTime>1.25</warmupTime>
+				<range>200</range>
+				<burstShotCount>1</burstShotCount>
+				<soundCast>InfernoCannon_Fire</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>14</muzzleFlashScale>
+			</li>
+		</verbs>
 	</ThingDef>
 
 </Defs>

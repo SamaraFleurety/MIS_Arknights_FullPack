@@ -15,14 +15,21 @@
 					<treeDef>Downed</treeDef>
 				</li>
 
+				<!-- React to close melee threat -->
+				<li Class="JobGiver_ReactToCloseMeleeThreat" /> 
+
 				<!-- 检测到敌人会进入战斗模式 -->
 				<li Class="FS_ArchoDrone.ThinkNode_CombatMode">
 					<subNodes>
 						<li Class="FS_ArchoDrone.ThinkNode_CombatSupportMode">
 							<subNodes>
-								<li Class="JobGiver_MoveToStandable"/>
+								<!-- <li Class="JobGiver_MoveToStandable"/> -->
 								<li Class="FS_ArchoDrone.JobGiver_SupportPledgerInCombat" />
-								<li Class="FS_ArchoDrone.JobGiver_Support_AIGotoPledger" />
+								<li Class="FS_ArchoDrone.JobGiver_AIGotoPledger" />
+								<li Class="JobGiver_AIFightEnemies">
+									<targetAcquireRadius>50</targetAcquireRadius>
+									<targetKeepRadius>200</targetKeepRadius>
+								</li>
 							</subNodes>
 						</li>
 						<li Class="ThinkNode_Priority">
@@ -38,19 +45,26 @@
 					</subNodes>
 				</li>
 
-				<!-- React to close melee threat -->
-				<li Class="JobGiver_ReactToCloseMeleeThreat" />
 
 				<!-- Do a queued job -->
 				<li Class="ThinkNode_QueuedJob" />
 
-				<!-- Wait if drafted -->
+				<!-- 生活辅助 -->
+				<li Class="ThinkNode_Priority">
+					<subNodes>
+						<li Class="JobGiver_MoveToStandable"/>
+						<li Class="FS_ArchoDrone.JobGiver_SupportPledgerCasual" />
+						<li Class="FS_ArchoDrone.JobGiver_AIGotoPledger" />
+					</subNodes>
+				</li>
+
+				<!-- Wait if drafted 
 				<li Class="ThinkNode_Tagger">
 					<tagToGive>DraftedOrder</tagToGive>
 					<subNodes>
 						<li Class="JobGiver_Orders" />
 					</subNodes>
-				</li>
+				</li>-->
 
 
 				<!-- Seek allowed area 
@@ -76,19 +90,19 @@
 				<li Class="AIRobot.X2_JobGiver_Return2BaseRoom" />
 				<li Class="AIRobot.X2_JobGiver_RechargeEnergyIdle" />-->
 				
-				<li Class="ThinkNode_Tagger">
+				<!--<li Class="ThinkNode_Tagger">
 					<tagToGive>Idle</tagToGive>
 					<subNodes>
-						<!-- Wander -->
+						Wander
 						<li Class="JobGiver_WanderColony">
 							<maxDanger>None</maxDanger>
 						</li>
 					</subNodes>
-				</li>
+				</li> -->
 
 
 
-				<!-- If you're a neutral non-prisoner, if you're not bleeding exit the map, otherwise wander the room -->
+				<!-- If you're a neutral non-prisoner, if you're not bleeding exit the map, otherwise wander the room 
 				<li Class="ThinkNode_ConditionalPrisoner">
 					<invert>true</invert>
 					<subNodes>
@@ -100,10 +114,10 @@
 							</subNodes>
 						</li>
 					</subNodes>
-				</li>
+				</li> -->
 
-				<li Class="JobGiver_WanderAnywhere">
-					<maxDanger>Deadly</maxDanger>
+				<li Class="JobGiver_Idle">
+					<ticks>120</ticks>
 				</li>
 
 				<li Class="JobGiver_IdleError"/>

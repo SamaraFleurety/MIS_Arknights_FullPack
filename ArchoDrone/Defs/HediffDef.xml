@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<HediffDef>
+		<defName>FS_Hediff_SupportedCasual</defName>
+		<label>无人机协助</label>
+		<hediffClass>HediffWithComps</hediffClass>
+		<defaultLabelColor>(255, 255, 210)</defaultLabelColor>
+		<description>无人机协助desc</description>
+		<maxSeverity>1</maxSeverity>
+		<initialSeverity>1</initialSeverity>
+		<tendable>false</tendable>
+		<isBad>true</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-24</severityPerDay>
+			</li>
+		</comps>
+		<makesSickThought>false</makesSickThought>
+		<stages>
+			<li>
+				<statOffsets>
+					<WorkSpeedGlobal>1</WorkSpeedGlobal>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	
+</Defs>
