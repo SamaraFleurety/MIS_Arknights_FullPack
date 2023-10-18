@@ -71,9 +71,34 @@
 			<li Class="FS_ArchoDrone.TCP_ArchoShield" /> 
 		</comps>
 	</ThingDef>
+		<EffecterDef>
+			<defName>FS_Effecter_FlameDestroyed</defName>
+			<children>
+				<li>
+					<subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+					<moteDef>Mote_MechbandElectricity</moteDef>
+					<burstCount>8</burstCount>
+					<positionRadius>2.4</positionRadius>
+					<positionOffset>(-0.5, 0, -0.5)</positionOffset>
+					<useTargetAInitialRotation>true</useTargetAInitialRotation>
+					<scale>1~1.5</scale>
+					<spawnLocType>OnSource</spawnLocType>
+				</li>
+				<li>
+					<subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+					<fleckDef>BrightFlashLong</fleckDef>
+					<burstCount>4</burstCount>
+					<positionOffset>(-0.5, 0, -0.5)</positionOffset>
+					<useTargetAInitialRotation>true</useTargetAInitialRotation>
+					<scale>2.7</scale>
+					<spawnLocType>OnSource</spawnLocType>
+				</li>
+			</children>
+		</EffecterDef>
+
 
 <!-- 武器 -->
-	<ThingDef>
+	<ThingDef Name="FS_ArchoWeaponBase">
 		<defName>FS_Weapon_ArchoLaser</defName>
 		<destroyOnDrop>true</destroyOnDrop>	
 		<label>无人机激光</label>	
@@ -114,6 +139,26 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_BoltActionRifle</defaultProjectile>
+				<warmupTime>1.7</warmupTime>
+				<range>200</range>
+				<burstShotCount>4</burstShotCount>
+				<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+				<soundCast>Shot_BoltActionRifle</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+	</ThingDef>
+	
+	<ThingDef ParentName="FS_ArchoWeaponBase">
+		<defName>FS_Weapon_ArchoArtillery</defName>
+		<label>无人机火炮</label>	
+		<description>无人机火炮desc</description>
+		<verbs Inherit="false">
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>

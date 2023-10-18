@@ -99,11 +99,9 @@
 				<def>AK_Trait_Agent_Medic</def>
 			</li>
 		</traits>
-		<abilities>
-			<li>
-				<def>AK_Ability_BaseHeal</def>
-			</li>
-		</abilities>
+		<AKAbilities>
+			<li>AKA_Ability_BaseHeal</li>
+		</AKAbilities>
 		<operatorType>AK_OperatorClass_Medic</operatorType>
 		<accessory>
 			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Medic</li>

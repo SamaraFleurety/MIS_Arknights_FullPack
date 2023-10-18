@@ -53,4 +53,19 @@
 		<typeSFX>atk</typeSFX>
 	</AK_DLL.OperatorAbilityDef>
 
+	<AKA_Ability.AKAbilityDef>
+		<defName>AKA_Ability_ExusiaiIII</defName>
+		<grouped>true</grouped>
+		<label>过载模式</label>
+		<description>暂时没完成重做</description>
+		<icon>UI/Abilities/Medic/HealEnhance</icon>
+		<CD>2</CD>
+		<CDUnit>day</CDUnit>
+		<targetMode>Self</targetMode>
+		<needCD>true</needCD>
+		<compEffectList>
+		</compEffectList>
+		<typeSFX>atk</typeSFX>
+	</AKA_Ability.AKAbilityDef>
+
 </Defs>

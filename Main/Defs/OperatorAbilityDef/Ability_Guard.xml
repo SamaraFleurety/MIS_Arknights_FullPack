@@ -66,4 +66,60 @@
 		<typeSFX>atk</typeSFX>
 	</AK_DLL.OperatorAbilityDef>
 
+	<AKA_Ability.AKAbilityDef>
+		<defName>AKA_Ability_BlazeIII</defName>
+		<grouped>true</grouped>
+		<label>沸腾爆裂</label>
+		<description>暂时没完成重做</description>
+		<icon>UI/Abilities/Medic/HealEnhance</icon>
+		<CD>4</CD>
+		<CDUnit>day</CDUnit>
+		<targetMode>Self</targetMode>
+		<needCD>true</needCD>
+		<compEffectList>
+			<!--<li Class="AKA_Ability.AE_DelayedSelfExplosion">
+				<afterCount>2</afterCount>
+				<unit>tick</unit>
+				<radius>4</radius>
+				<damage>46</damage>
+			</li>
+			<li Class="AKA_Ability.AE_DpsEnhance_Melee">
+				<procedureCount>1</procedureCount>
+				<enhanceEndTime>30</enhanceEndTime>
+				<enhances>
+					<li>
+						<originalPower>9</originalPower>
+						<originalCD>2</originalCD>
+						<powerOffsetTotal>90</powerOffsetTotal>
+						<CDOffsetTotal>1</CDOffsetTotal>
+					</li>
+					<li>
+						<originalPower>15</originalPower>
+						<originalCD>2</originalCD>
+						<powerOffsetTotal>150</powerOffsetTotal>
+						<CDOffsetTotal>1.5</CDOffsetTotal>
+					</li>
+					<li>
+						<originalPower>16</originalPower>
+						<originalCD>2</originalCD>
+						<powerOffsetTotal>160</powerOffsetTotal>
+						<CDOffsetTotal>5</CDOffsetTotal>
+					</li>
+				</enhances>
+			</li> 
+			<li Class = "AKA_Ability.AE_DelayedBloodLoss">
+				<onSelf>true</onSelf>
+				<delay>4</delay>
+				<lossAmount>0.03</lossAmount>
+				<duration>8</duration>
+			</li>
+			<li Class = "AKA_Ability.AbilityEffect_AddHediff">
+				<hediffDef>AK_Hediff_BlazeIII</hediffDef>
+				<severity>24</severity>
+				<onSelf>true</onSelf>
+			</li> -->
+		</compEffectList>
+		<typeSFX>atk</typeSFX>
+	</AKA_Ability.AKAbilityDef>
+
 </Defs>

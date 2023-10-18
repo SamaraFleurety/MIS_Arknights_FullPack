@@ -218,14 +218,9 @@ Silence, medical specialist of Rhine Lab, will make use of the latest scientific
 				<value>Child</value>
 			</li>
 		</relations>
-		<abilities>
-			<li>
-				<def>AK_Ability_Regrow</def>
-			</li>
-			<li>
-				<def>AK_Ability_EnhanceRegrow</def>
-			</li>
-		</abilities>
+		<AKAbilities>
+			<li>AKA_Ability_Regrow</li>
+		</AKAbilities>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Medic">
