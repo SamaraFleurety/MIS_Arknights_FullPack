@@ -221,6 +221,25 @@ Silence, medical specialist of Rhine Lab, will make use of the latest scientific
 		<AKAbilities>
 			<li>AKA_Ability_Regrow</li>
 		</AKAbilities>
+		<hediffInate>
+			<li>
+				<part>Lung</part>
+				<partCustomLabel>left lung</partCustomLabel>
+				<hediff>AK_Hediff_Regrow</hediff>
+				<serverity>20</serverity>
+			</li>
+			<li>
+				<part>Leg</part>
+				<partCustomLabel>right leg</partCustomLabel>
+				<hediff>AK_Hediff_Regrow</hediff>
+				<serverity>20</serverity>
+			</li>
+			<li>
+				<part>Neck</part>
+				<hediff>AK_Hediff_Regrow</hediff>
+				<serverity>20</serverity>
+			</li>
+		</hediffInate>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Medic">
