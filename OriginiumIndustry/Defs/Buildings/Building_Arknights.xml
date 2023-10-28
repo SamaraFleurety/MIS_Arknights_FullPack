@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="BuildingBase">
+		<defName>AKI_Building_LotteryMachine</defName>
+		<label>抽奖机</label>
+		<description>AllAllAll.</description>
+		<graphicData>
+			<texPath>Things/Building/AllMachine</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>3.2</drawSize>
+		</graphicData>
+		<size>(2,2)</size>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<castEdgeShadows>true</castEdgeShadows>
+		<fillPercent>1</fillPercent>
+		<designationCategory>Misc</designationCategory>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<canOverlapZones>false</canOverlapZones>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<thingCategories>
+			<li>BuildingsMisc</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>1000</WorkToBuild>
+			<Mass>10</Mass>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<costList>
+			<Steel>10</Steel>
+		</costList>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+		<building>
+			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+		</building>
+		<comps>
+			<li Class="AK_Industry.TCP_Lottery">
+				<cost>100</cost>
+				<candidate>
+					<li>
+						<item>Silver</item>
+						<amount>13</amount>
+						<weight>10</weight>
+					</li>
+					<li>
+						<item>Silver</item>
+						<amount>2700</amount>
+						<weight>10</weight>
+					</li>
+					<li>
+						<item>AKI_Item_CleaningKit</item>
+						<amount>100</amount>
+						<weight>10</weight>
+					</li>
+				</candidate>
+			</li>
+		</comps>
+	</ThingDef>	
+		<JobDef>
+			<defName>AKI_Job_UseLotteryMachine</defName>
+			<driverClass>AK_Industry.JobDriver_UseLotteryMachine</driverClass>
+			<reportString>desc</reportString>
+			<neverShowWeapon>true</neverShowWeapon>
+			<casualInterruptible>false</casualInterruptible>
+		</JobDef>
+	
+</Defs>
