@@ -91,7 +91,12 @@
 		<defName>AK_Hair_Fiammetta</defName>
 		<label>菲亚梅塔发型</label>
 		<texPath>Things/Hair/Sniper/Fiammetta</texPath>
-	</HairDef>
+	</HairDef>	
+		<HairDef ParentName="AK_HairBaseF">
+			<defName>AK_Hair_FiammettaHolyOath</defName>
+			<label>菲亚梅塔-至圣誓言</label>
+			<texPath>Things/Hair/Sniper/Fiammetta_HolyOath</texPath>
+		</HairDef>
 
 	<HairDef ParentName="AK_HairBaseF">
 		<defName>AK_Hair_April</defName>

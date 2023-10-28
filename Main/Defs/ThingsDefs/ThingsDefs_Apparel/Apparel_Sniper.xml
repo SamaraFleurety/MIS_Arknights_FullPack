@@ -180,6 +180,19 @@
 			<wornGraphicPath>Things/AK_Agents/Sniper/Fiammetta</wornGraphicPath>
 		</apparel>
 	</ThingDef>
+		<ThingDef ParentName="AK_ArmorBase_Sniper">
+			<defName>AK_Apparel_FiammettaHolyOath</defName>
+			<label>至圣誓言</label>
+			<graphicData>
+				<texPath>Things/AK_Agents/GApparel</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+			</graphicData>
+			<apparel>
+				<wornGraphicPath>Things/AK_Agents/Sniper/Fiammetta_HolyOath</wornGraphicPath>
+			</apparel>
+		</ThingDef>
+
+
 
 	<ThingDef ParentName="AK_ArmorBase_Sniper">
 		<defName>AK_Apparel_April</defName>
