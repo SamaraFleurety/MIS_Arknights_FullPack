@@ -1772,7 +1772,7 @@
 			<AccuracyShort>1</AccuracyShort>
 			<AccuracyMedium>0.65</AccuracyMedium>
 			<AccuracyLong>0.55</AccuracyLong>
-			<RangedWeapon_Cooldown>0.2</RangedWeapon_Cooldown>
+			<RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
 			<!--后摇-->
 		</statBases>
 		<verbs>
@@ -1781,9 +1781,10 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>AK_Bullet_Typhon</defaultProjectile>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
-				<warmupTime>0.8</warmupTime>
+				<warmupTime>2.4</warmupTime>
 				<!--前摇-->
-				<range>30</range>
+				<range>50</range>
+				<minRange>10</minRange>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
@@ -1799,8 +1800,8 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>21</power>
-				<cooldownTime>1.6</cooldownTime>
+				<power>20</power>
+				<cooldownTime>2.8</cooldownTime>
 			</li>
 		</tools>
 	</ThingDef>
@@ -1816,8 +1817,8 @@
 		<projectile>
 			<damageDef>Bullet</damageDef>
 			<!--伤害类型-->
-			<damageAmountBase>24</damageAmountBase>
-			<armorPenetrationBase>0.4</armorPenetrationBase>
+			<damageAmountBase>38</damageAmountBase>
+			<armorPenetrationBase>1.15</armorPenetrationBase>
 			<!--穿甲-->
 			<stoppingPower>3</stoppingPower>
 			<speed>50</speed>
