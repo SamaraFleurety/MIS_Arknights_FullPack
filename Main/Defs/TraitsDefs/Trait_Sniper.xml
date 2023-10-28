@@ -482,4 +482,42 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<!-- 提丰 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_TyphonSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>永恒狩猎</label>
+				<description>日复一日，她与危机四伏的冻原搏斗，在摸爬滚打中积累生存知识与狩猎技巧，与哪些看不见的影子和仇敌进行着永恒的战斗和狩猎。
+				</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.4</MentalBreakThreshold>
+					<ShootingAccuracyPawn>10</ShootingAccuracyPawn>
+					<AimingDelayFactor>0.2</AimingDelayFactor>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Typhon</defName>
+		<degreeDatas>
+			<li>
+				<label>自然秩序</label>
+				<description>对于提丰来说，没有任何一栋房子能被称之为“家”，只有广阔的萨米大地才能被称为“家”，对于猎人来说，整个萨米的自然环境才是她真正的归属。她生于自然，自然会用自己的一切回馈自然。
+				</description>
+				<statOffsets>
+					<PlantWorkSpeed>0.15</PlantWorkSpeed>
+					<ImmunityGainSpeed>0.4</ImmunityGainSpeed>
+					<WorkSpeedGlobal>0.15</WorkSpeedGlobal>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>

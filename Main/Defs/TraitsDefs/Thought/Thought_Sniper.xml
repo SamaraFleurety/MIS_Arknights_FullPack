@@ -338,4 +338,22 @@
 		</stages>
 	</ThoughtDef>
 
+	<!-- 提丰-->
+	
+	</ThoughtDef>
+
+		<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Typhon</defName>
+		<requiredTraits>
+			<li>AK_Trait_TyphonSecond</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>永恒狩猎</label>
+				<description>我离开家是打算报仇，到真的看见被污染的雪时，却只想着如何拉弓瞄准，想向那个影子证明，我才是猎人。</description>
+				<baseMoodEffect>-8</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
 </Defs>

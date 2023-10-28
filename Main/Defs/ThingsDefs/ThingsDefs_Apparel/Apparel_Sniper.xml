@@ -265,4 +265,16 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Sniper">
+		<defName>AK_Apparel_Typhon</defName>
+		<label>提丰服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Sniper/Typhon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Sniper/Typhon</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 </Defs>
