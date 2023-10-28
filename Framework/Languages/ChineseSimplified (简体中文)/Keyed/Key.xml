@@ -11,12 +11,16 @@
 	<AK_PawnNull>小人不存在</AK_PawnNull>
 	<AK_CanReach>招募</AK_CanReach>
 	<AK_NoTicket>招募券不足</AK_NoTicket>
+	<AK_ChangeFashionTo>切换换装：</AK_ChangeFashionTo>
+	<AK_ChangeFashionDefault>切换为初始换装</AK_ChangeFashionDefault>
 
 	<AK_CanntUseAbility_ThereIsThingInTarget>无法施放技能，原因：目标处无法通行或有建筑物</AK_CanntUseAbility_ThereIsThingInTarget>
 	<AK_CanntUseAbility_PawnIsNull>无法施放技能，原因：目标不存在，或者施法者不存在????</AK_CanntUseAbility_PawnIsNull>
 	<AK_CanntReclaim>无法回收召唤物</AK_CanntReclaim>
 
-	<AK_ChargeIsZero>无法使用技能</AK_ChargeIsZero>
+	<AK_ChargeIsZero>技能充能中</AK_ChargeIsZero>
+	<AK_NoTarget>无有效目标</AK_NoTarget>
+	<AK_GroupedAbilityNotSelected>未激活此技能</AK_GroupedAbilityNotSelected>
 	<AK_SummonedReachedMax>召唤物已达到上限，召唤物上限:{0}</AK_SummonedReachedMax>
 	<AK_CanntReclaim>无法回收</AK_CanntReclaim>
 
@@ -28,6 +32,7 @@
 	<AK_Option_xOffset>立绘水平偏移：</AK_Option_xOffset>
 	<AK_Option_yOffset>立绘垂直偏移：</AK_Option_yOffset>
 	<AK_Option_ratio>立绘比例：</AK_Option_ratio>
+	<AK_Option_SecSensetive>招募UI立绘偏移调整敏感度：</AK_Option_SecSensetive>
 
 	<AK_SortDPS>理论DPS</AK_SortDPS>
 	<AK_SortAlphabet>首字母</AK_SortAlphabet>
