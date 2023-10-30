@@ -366,4 +366,16 @@
 		</stages>
 	</ThoughtDef>
 
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Erato</defName>
+		<requiredTraits><li>AK_Trait_Erato</li></requiredTraits>
+		<stages>
+			<li>
+				<label>诗歌的热诚</label>
+				<description>没什么好害羞的，爱和勇气一样，都是理应热烈灼目，毫不需要遮掩的东西。</description>
+				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
 </Defs>

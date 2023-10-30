@@ -556,4 +556,38 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<!-- 埃拉托 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_EratoSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>英雄的诞生</label>
+				<description>对于埃拉托而言，英雄需要他人的支持，需要自身的成长，最终实现理想，这样的英雄来自于人，又回归于人。她的行动也在努力朝着这个目标靠拢。
+				</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.18</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Erato</defName>
+		<degreeDatas>
+			<li>
+				<label>诗歌的热诚</label>
+				<description>以一种温柔的方式，鼓舞人们带着热情去生活。对于爱与美的追求可以成为人们生活的信念，埃拉托小姐对一切事物的兴趣和仿佛永远不会枯竭的热情，或许正来源于此。
+				</description>
+				<statOffsets>
+					<SocialImpact>0.15</SocialImpact>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>
