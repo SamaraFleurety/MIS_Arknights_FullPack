@@ -354,4 +354,16 @@
 		</stages>
 	</ThoughtDef>
 
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Kroos</defName>
+		<requiredTraits><li>AK_Trait_Kroos</li></requiredTraits>
+		<stages>
+			<li>
+				<label>怕麻烦</label>
+				<description>“呼~好辛苦啊......”</description>
+				<baseMoodEffect>6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
 </Defs>

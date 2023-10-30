@@ -364,4 +364,20 @@
 		<baseDesc>幼兽目睹了父母的死，成年后便会回头寻仇，哪怕是草食动物，也可能生生撞穿猎食者的肚子。</baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Kroos_Child</defName>
+		<slot>Childhood</slot>
+		<title>提卡伦多预备警员</title>
+		<titleShort>提卡伦多预备警员</titleShort>
+		<baseDesc>来自其他地区的克洛斯成为当地警备队成员后，因为遇上了突然降临的天灾，为了和芬保护感染者区块的人而感染矿石病并离开哥伦比亚，在线人的帮助下来到了罗德岛。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Kroos_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>预备行动组A1</title>
+		<titleShort>预备行动组A1</titleShort>
+		<baseDesc>在通过干员考核加入罗德岛后，{PAWN_nameDef}作为预备队员加入了预备行动组A1</baseDesc>
+	</BackstoryDef>
+
 </Defs>

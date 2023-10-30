@@ -1758,7 +1758,7 @@
 		</projectile>
 	</ThingDef>
 
-		<ThingDef ParentName="AK_WeaponBase_Sniper">
+	<ThingDef ParentName="AK_WeaponBase_Sniper">
 		<defName>AK_Weapon_Typhon</defName>
 		<label>提丰的黑色巨弓</label>
 		<description>沾染了灾厄与不详的弓，只有提丰能够驾驭它，千万不要尝试研究它</description>
@@ -1818,6 +1818,73 @@
 			<!--伤害类型-->
 			<damageAmountBase>38</damageAmountBase>
 			<armorPenetrationBase>1.15</armorPenetrationBase>
+			<!--穿甲-->
+			<stoppingPower>3</stoppingPower>
+			<speed>50</speed>
+			<soundExplode>ThumpCannon_Impact</soundExplode>
+			<!--爆炸音效-->
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Sniper">
+		<defName>AK_Weapon_Kroos</defName>
+		<label>简单的弩</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Sniper/KroosW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<description>简单的木弩，结实和好用是它最大的特点。</description>
+		<statBases>
+			<AccuracyTouch>0.9</AccuracyTouch>
+			<AccuracyShort>1</AccuracyShort>
+			<AccuracyMedium>0.65</AccuracyMedium>
+			<AccuracyLong>0.55</AccuracyLong>
+			<RangedWeapon_Cooldown>0.3</RangedWeapon_Cooldown>
+			<!--后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_Kroos</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>0.7</warmupTime>
+				<!--前摇-->
+				<range>30</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_GeneralArrow</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<tools Inherit = "false">
+			<li>
+				<label>弩托猛砸</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>1.6</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_Kroos</defName>
+		<label>射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<!--伤害类型-->
+			<damageAmountBase>16</damageAmountBase>
+			<armorPenetrationBase>0.4</armorPenetrationBase>
 			<!--穿甲-->
 			<stoppingPower>3</stoppingPower>
 			<speed>50</speed>

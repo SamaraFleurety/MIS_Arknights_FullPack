@@ -520,4 +520,38 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_KroosSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>慢性子</label>
+				<description>克洛丝做什么事都是慢慢吞吞的，就算被人催着做也只会笑眯眯的敷衍过去。不过慢悠悠的性子似乎让她在某些时候更能冷静的思考问题
+				</description>
+				<statOffsets>
+					<GlobalLearningFactor>-0.15</GlobalLearningFactor>
+					<MentalBreakThreshold>-0.2</MentalBreakThreshold>
+					<WorkSpeedGlobal>-0.25</WorkSpeedGlobal>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Kroos</defName>
+		<degreeDatas>
+			<li>
+				<label>怕麻烦</label>
+				<description>克洛丝平常总是笑眯眯的，也不喜欢打抱不平和强出头，即使和人争吵也只会笑着避开。不过她有时候确实挺腹黑的。
+				</description>
+				<statOffsets>
+					<SocialImpact>0.15</SocialImpact>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>
