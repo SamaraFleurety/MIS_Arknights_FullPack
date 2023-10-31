@@ -1577,6 +1577,85 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<description>烛骑士的长剑，装饰华丽，刻满了美丽的花纹，比起战斗用的武器更像是装饰用的艺术品，而烛骑士也确实是这么用的。</description>
+		<statBases>
+			<AccuracyTouch>0.85</AccuracyTouch>
+			<AccuracyShort>0.95</AccuracyShort>
+			<AccuracyMedium>0.8</AccuracyMedium>
+			<AccuracyLong>0.65</AccuracyLong>
+			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_CandleKnight</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>2</warmupTime>				<!--前摇-->
+				<range>10</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_Magic</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<tools Inherit = "false">
+			<li>
+				<label>剑柄猛击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>18</power>
+				<cooldownTime>1.8</cooldownTime>
+			</li>
+			<li>
+				<label>剑捅</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>0</power>
+				<extraMeleeDamages>
+					<li>
+						<def>Flame</def>
+						<amount>22</amount>
+					</li>
+				</extraMeleeDamages>
+				<cooldownTime>2.2</cooldownTime>
+			</li>
+			<li>
+				<label>剑刺</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>0</power>
+				<extraMeleeDamages>
+					<li>
+						<def>Flame</def>
+						<amount>24</amount>
+					</li>
+				</extraMeleeDamages>
+				<cooldownTime>1.7</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_CandleKnight</defName>
+		<label>法术射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/MagicOrb</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Flame</damageDef>
+			<damageAmountBase>28</damageAmountBase>
+			<stoppingPower>3</stoppingPower>
+			<speed>50</speed>
+			<soundExplode>ThumpCannon_Impact</soundExplode>
+		</projectile>
 	</ThingDef>
 
 	<ThingDef ParentName="AK_WeaponBase_Caster">

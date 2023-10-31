@@ -1771,7 +1771,7 @@
 			<AccuracyShort>0.35</AccuracyShort>
 			<AccuracyMedium>0.85</AccuracyMedium>
 			<AccuracyLong>0.95</AccuracyLong>
-			<RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+			<RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
 			<!--后摇-->
 		</statBases>
 		<verbs>
@@ -1780,9 +1780,9 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>AK_Bullet_Typhon</defaultProjectile>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
-				<warmupTime>2.4</warmupTime>
+				<warmupTime>2</warmupTime>
 				<!--前摇-->
-				<range>50</range>
+				<range>26</range>
 				<minRange>10</minRange>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
