@@ -422,7 +422,7 @@
     </ThingDef>
 
     <ThingDef ParentName="AK_BeltBase">
-        <defName>AK_ShieldBelt_Skadi_CorruptingHeart</defName>
+        <defName>AK_ShieldBelt_CorruptingHeart</defName>
         <label>同葬无光之愿</label>
         <description>她从不想伤害任何人，亦不想成为灾厄，她是如此深爱着你们，渴望着你们幡然悔悟，成为她的血亲，去往那永恒的故乡和摇篮。</description>
         <statBases>
@@ -430,7 +430,7 @@
             <EnergyShieldEnergyMax>6</EnergyShieldEnergyMax>
         </statBases>
         <graphicData>
-            <texPath>Things/ShieldBelt/ShieldBeltSkadi_CorruptingHeart</texPath>
+            <texPath>Things/ShieldBelt/ShieldBeltCorruptingHeart</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <comps>
@@ -446,13 +446,13 @@
                 <breakWithSmoke>false</breakWithSmoke>
                 <canForceActive>false</canForceActive>
                 <fireFoamBurster>true</fireFoamBurster>
-                <versionInfo>Skadi_CorruptingHeart-Shield</versionInfo>
+                <versionInfo>CorruptingHeart-Shield</versionInfo>
                 <alias>浊心斯卡蒂的护盾</alias>
             </li>
             <li Class="AKE_VanyaShield.TCP_VanyaShieldExtension">
 				<hideVanillaBubble>true</hideVanillaBubble>
-				<bubbleStaticTexPath>Things/ShieldBelt/ShieldBeltSkadi_CorruptingHeartS</bubbleStaticTexPath>
-                <bubbleRotateTexPath>Things/ShieldBelt/ShieldBeltSkadi_CorruptingHeartD</bubbleRotateTexPath>
+				<bubbleStaticTexPath>Things/ShieldBelt/ShieldBeltCorruptingHeartS</bubbleStaticTexPath>
+                <bubbleRotateTexPath>Things/ShieldBelt/ShieldBeltCorruptingHeartD</bubbleRotateTexPath>
 			</li>
         </comps>
     </ThingDef>

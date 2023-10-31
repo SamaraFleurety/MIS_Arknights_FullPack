@@ -6457,4 +6457,225 @@
 		</subSounds>
 	</SoundDef>
 
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Recruit_Jackie</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Guard/Jackie/char_347_jaksel/Recruit_Jackie</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Die_Jackie</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Guard/Jackie/char_347_jaksel/Die_Jackie</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Undraft_Jackie</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Guard/Jackie/char_347_jaksel/Undraft_Jackie</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_JackieI</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Guard/Jackie/char_347_jaksel/Select_JackieI</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_JackieII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Guard/Jackie/char_347_jaksel/Select_JackieII</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_JackieIII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Guard/Jackie/char_347_jaksel/Select_JackieIII</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_JackieIV</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Guard/Jackie/char_347_jaksel/Select_JackieIV</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Draft_JackieI</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Guard/Jackie/char_347_jaksel/Draft_JackieI</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Draft_JackieII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Guard/Jackie/char_347_jaksel/Draft_JackieII</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_JackieI</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Guard/Jackie/char_347_jaksel/Ability_JackieI</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_JackieII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Guard/Jackie/char_347_jaksel/Ability_JackieII</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_JackieIII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Guard/Jackie/char_347_jaksel/Ability_JackieIII</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_JackieIV</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Guard/Jackie/char_347_jaksel/Ability_JackieIV</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
 </Defs>

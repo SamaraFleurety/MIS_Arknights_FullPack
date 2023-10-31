@@ -1499,14 +1499,14 @@
     </tools>
   </ThingDef>
 
-	<ThingDef ParentName="AK_WeaponBase_Guard">
-		<defName>AK_Weapon_Utage</defName>
-		<label>狮子王</label>
-		<graphicData>
-			<texPath>Things/AK_Agents/Weapon/Guard/UtageW</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<description>传说中东国国王授予一位武士的武器，作为他驱逐恶兽的奖励。</description>
+  <ThingDef ParentName="AK_WeaponBase_Guard">
+    <defName>AK_Weapon_Utage</defName>
+    <label>狮子王</label>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Guard/UtageW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <description>传说中东国国王授予一位武士的武器，作为他驱逐恶兽的奖励。</description>
     <tools Inherit = "false">
       <li>
         <label>刀捅</label>
@@ -1541,6 +1541,34 @@
         <cooldownTime>1.6</cooldownTime>
       </li>
     </tools>
-	</ThingDef>
+  </ThingDef>
+
+  <ThingDef ParentName="AK_WeaponBase_Guard">
+    <defName>AK_Weapon_Jackie</defName>
+    <label>杰克的拳套</label>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Guard/JackieW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <description>给你一拳！</description>
+    <tools Inherit = "false">
+      <li>
+        <label>拳击</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>24</power>
+        <cooldownTime>1.</cooldownTime>
+      </li>
+      <li>
+        <label>飞踢</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>22</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
 
 </Defs>

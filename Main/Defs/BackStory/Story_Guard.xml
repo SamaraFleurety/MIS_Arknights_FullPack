@@ -490,4 +490,22 @@ ok halda njarðlásar níu.</baseDesc>
 		<baseDesc>从东国前来龙门游学的普通学生，被卷入感染者事件后患上了矿石病，后听从医师的建议来到罗德岛，经过评审成为了干员。</baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Jackie_Child</defName>
+		<slot>Childhood</slot>
+		<title>警察的孩子</title>
+		<titleShort>警察的孩子</titleShort>
+		<baseDesc>据杰克所说，她母亲在生她的时候难产而死，因此她是被父亲一手带大的。而且，她非常崇拜她的父亲。
+她总是不厌其烦地向其他人讲述她的父亲作为警察多有么能干，帮助了多少人，获得了怎样的荣誉等等，以至于有些和她同队的干员甚至都要能全文背诵了。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Jackie_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>哥伦比亚辅警</title>
+		<titleShort>哥伦比亚辅警</titleShort>
+		<baseDesc>前哥伦比亚辅警，因故感染矿石病后，来到罗德岛接受治疗。
+经其父同意，加入罗德岛成为干员，在近身格斗方面展现出较强天赋，活跃于各类任务中。</baseDesc>
+	</BackstoryDef>
+
 </Defs>
