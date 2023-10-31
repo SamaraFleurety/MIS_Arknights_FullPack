@@ -1578,4 +1578,96 @@ FIXMEDESC</description>
 		</skills>
 	</AK_DLL.OperatorDef>
 
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Supporter">
+		<defName>AK_Recruit_Skadi_CorruptingHeart</defName>
+		<name>Skadi_CorruptingHeart</name>
+		<nickname>Skadi_CorruptingHeart</nickname>
+		<description>
+FIXMEDESC</description>
+		<weapon>AK_Weapon_Skadi_CorruptingHeart</weapon>
+		<hair>AK_Hair_Skadi_CorruptingHeart</hair>
+		<apparels>
+			<li>AK_Apparel_Skadi_CorruptingHeart</li>
+		</apparels>
+		<accessory Inherit="false">
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Skadi_CorruptingHeart</li>
+		</accessory>
+		<stand>UI/Image/Supporter/Skadi_CorruptingHeartStand</stand>
+		<headPortrait>UI/Image/Supporter/Skadi_CorruptingHeartPortrait</headPortrait>
+		<bodyTypeDef>Female</bodyTypeDef>
+		<traits>
+			<li>
+				<def>AK_Trait_Skadi_CorruptingHeartSecond</def>
+			</li>
+			<li>
+				<def>AK_Trait_Skadi_CorruptingHeart</def>
+			</li>
+		</traits>
+		<age>20</age>
+		<childHood>AK_BackStory_Skadi_CorruptingHeart_Child</childHood>
+		<adultHood>AK_BackStory_Skadi_CorruptingHeart_Adult</adultHood>
+		<skills>
+			<li>
+				<skill>Animals</skill>
+				<level>0</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Artistic</skill>
+				<level>0</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Construction</skill>
+				<level>0</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Cooking</skill>
+				<level>0</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Crafting</skill>
+				<level>0</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Intellectual</skill>
+				<level>20</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<level>0</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<level>20</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Mining</skill>
+				<level>0</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Plants</skill>
+				<level>0</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<level>20</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<level>20</level>
+				<fireLevel>2</fireLevel>
+			</li>
+		</skills>
+	</AK_DLL.OperatorDef>
+
 </Defs>

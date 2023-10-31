@@ -136,4 +136,16 @@
 		</stages>
 	</ThoughtDef>
 
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Skadi_CorruptingHeart</defName>
+		<requiredTraits><li>AK_Trait_Skadi_CorruptingHeart</li></requiredTraits>
+		<stages>
+			<li>
+				<label>Ishar-mla</label>
+				<description>梦……你会有怎样一个梦呢？你现在身处何方？那里……会不会也是一个梦呢？</description>
+				<baseMoodEffect>20</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
 </Defs>

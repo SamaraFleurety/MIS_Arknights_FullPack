@@ -20,7 +20,7 @@
                 <energyLossPerDamage>0.01</energyLossPerDamage>
                 <canAbsorbMeleeDamage>true</canAbsorbMeleeDamage>
                 <meleeAbsorbFactor>2</meleeAbsorbFactor>
-                <rangedAbsorbFactor>1.5</rangedAbsorbFactor>
+                <rangedAbsorbFactor>1</rangedAbsorbFactor>
                 <canDodge>true</canDodge>
                 <dodgeChanceFactor>0.2</dodgeChanceFactor>
                 <breakWithSmoke>true</breakWithSmoke>
@@ -193,7 +193,7 @@
                 <energyOnReset>0.2</energyOnReset>
                 <energyLossPerDamage>0.01</energyLossPerDamage>
                 <canAbsorbMeleeDamage>true</canAbsorbMeleeDamage>
-                <meleeAbsorbFactor>1.5</meleeAbsorbFactor>
+                <meleeAbsorbFactor>1</meleeAbsorbFactor>
                 <rangedAbsorbFactor>2</rangedAbsorbFactor>
                 <canDodge>true</canDodge>
                 <dodgeChanceFactor>0.2</dodgeChanceFactor>
@@ -230,7 +230,7 @@
                 <energyOnReset>0.3</energyOnReset>
                 <energyLossPerDamage>0.01</energyLossPerDamage>
                 <canAbsorbMeleeDamage>true</canAbsorbMeleeDamage>
-                <meleeAbsorbFactor>0.5</meleeAbsorbFactor>
+                <meleeAbsorbFactor>1</meleeAbsorbFactor>
                 <rangedAbsorbFactor>2</rangedAbsorbFactor>
                 <canDodge>false</canDodge>
                 <breakWithSmoke>false</breakWithSmoke>
@@ -266,7 +266,7 @@
                 <energyLossPerDamage>0.015</energyLossPerDamage>
                 <canAbsorbMeleeDamage>true</canAbsorbMeleeDamage>
                 <meleeAbsorbFactor>2</meleeAbsorbFactor>
-                <rangedAbsorbFactor>0.5</rangedAbsorbFactor>
+                <rangedAbsorbFactor>1</rangedAbsorbFactor>
                 <canDodge>true</canDodge>
                 <dodgeChanceFactor>0.3</dodgeChanceFactor>
                 <breakWithSmoke>false</breakWithSmoke>
@@ -370,7 +370,7 @@
                 <energyOnReset>0.2</energyOnReset>
                 <energyLossPerDamage>0.015</energyLossPerDamage>
                 <canAbsorbMeleeDamage>true</canAbsorbMeleeDamage>
-                <meleeAbsorbFactor>1.5</meleeAbsorbFactor>
+                <meleeAbsorbFactor>1</meleeAbsorbFactor>
                 <rangedAbsorbFactor>2</rangedAbsorbFactor>
                 <canDodge>true</canDodge>
                 <dodgeChanceFactor>0.3</dodgeChanceFactor>
@@ -389,7 +389,7 @@
 
     <ThingDef ParentName="AK_BeltBase">
         <defName>AK_ShieldBelt_FrostNova</defName>
-        <label>“冬痕”</label>
+        <label>冬痕</label>
         <description>你感受到衣角寒霜的余温，你感受到一片轻盈的雪花落在你的肩头，带着冬痕的寂静。</description>
         <statBases>
             <EnergyShieldRechargeRate>0</EnergyShieldRechargeRate>
@@ -417,6 +417,42 @@
             <li Class="AKE_VanyaShield.TCP_VanyaShieldExtension">
 				<hideVanillaBubble>true</hideVanillaBubble>
 				<bubbleStaticTexPath>Things/ShieldBelt/ShieldBeltFrostNovaS</bubbleStaticTexPath>
+			</li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="AK_BeltBase">
+        <defName>AK_ShieldBelt_Skadi_CorruptingHeart</defName>
+        <label>同葬无光之愿</label>
+        <description>她从不想伤害任何人，亦不想成为灾厄，她是如此深爱着你们，渴望着你们幡然悔悟，成为她的血亲，去往那永恒的故乡和摇篮。</description>
+        <statBases>
+            <EnergyShieldRechargeRate>0.6</EnergyShieldRechargeRate>
+            <EnergyShieldEnergyMax>6</EnergyShieldEnergyMax>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/ShieldBeltSkadi_CorruptingHeart</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+                <startingTicksToReset>2700</startingTicksToReset>
+                <energyOnReset>1</energyOnReset>
+                <energyLossPerDamage>0.015</energyLossPerDamage>
+                <canAbsorbMeleeDamage>true</canAbsorbMeleeDamage>
+                <meleeAbsorbFactor>1</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1</rangedAbsorbFactor>
+                <canDodge>true</canDodge>
+                <dodgeChanceFactor>0.35</dodgeChanceFactor>
+                <breakWithSmoke>false</breakWithSmoke>
+                <canForceActive>false</canForceActive>
+                <fireFoamBurster>true</fireFoamBurster>
+                <versionInfo>Skadi_CorruptingHeart-Shield</versionInfo>
+                <alias>浊心斯卡蒂的护盾</alias>
+            </li>
+            <li Class="AKE_VanyaShield.TCP_VanyaShieldExtension">
+				<hideVanillaBubble>true</hideVanillaBubble>
+				<bubbleStaticTexPath>Things/ShieldBelt/ShieldBeltSkadi_CorruptingHeartS</bubbleStaticTexPath>
+                <bubbleRotateTexPath>Things/ShieldBelt/ShieldBeltSkadi_CorruptingHeartD</bubbleRotateTexPath>
 			</li>
         </comps>
     </ThingDef>

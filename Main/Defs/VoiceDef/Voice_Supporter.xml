@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-<!-- Angelina 洁哥 -->
+	<!-- Angelina 洁哥 -->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Angelina</defName>
@@ -208,23 +208,23 @@
 	</SoundDef>
 
 	<SoundDef ParentName = "AK_VoiceBase">
-        <defName>AK_Voice_Undraft_Angelina</defName>
-        <subSounds>
-            <li>
-                <onCamera>True</onCamera>
-                <grains>
-                    <li Class="AudioGrain_Clip">
-                        <clipPath>Operator/Supporter/Angelina/char_291_aglina/Undraft_Angelina</clipPath>
-                    </li>
-                </grains>
-                <volumeRange>40~40</volumeRange>
-                <distRange>10~100</distRange>
-                <sustainLoop>False</sustainLoop>
-            </li>
-        </subSounds>
-    </SoundDef>
+		<defName>AK_Voice_Undraft_Angelina</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Supporter/Angelina/char_291_aglina/Undraft_Angelina</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
 
-<!-- Pramanix 初雪-->
+	<!-- Pramanix 初雪-->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Pramanix</defName>
@@ -431,23 +431,23 @@
 	</SoundDef>
 
 	<SoundDef ParentName = "AK_VoiceBase">
-        <defName>AK_Voice_Undraft_Pramanix</defName>
-        <subSounds>
-            <li>
-                <onCamera>True</onCamera>
-                <grains>
-                    <li Class="AudioGrain_Clip">
-                        <clipPath>Operator/Supporter/Pramanix/char_174_slbell/Undraft_Pramanix</clipPath>
-                    </li>
-                </grains>
-                <volumeRange>40~40</volumeRange>
-                <distRange>10~100</distRange>
-                <sustainLoop>False</sustainLoop>
-            </li>
-        </subSounds>
-    </SoundDef>
+		<defName>AK_Voice_Undraft_Pramanix</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Supporter/Pramanix/char_174_slbell/Undraft_Pramanix</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
 
-<!-- Glaucus 克劳格斯-->
+	<!-- Glaucus 克劳格斯-->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Glaucus</defName>
@@ -654,23 +654,23 @@
 	</SoundDef>
 
 	<SoundDef ParentName = "AK_VoiceBase">
-        <defName>AK_Voice_Undraft_Glaucus</defName>
-        <subSounds>
-            <li>
-                <onCamera>True</onCamera>
-                <grains>
-                    <li Class="AudioGrain_Clip">
-                        <clipPath>Operator/Supporter/Glaucus/char_326_glacus/Undraft_Glaucus</clipPath>
-                    </li>
-                </grains>
-                <volumeRange>40~40</volumeRange>
-                <distRange>10~100</distRange>
-                <sustainLoop>False</sustainLoop>
-            </li>
-        </subSounds>
-    </SoundDef>
+		<defName>AK_Voice_Undraft_Glaucus</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Supporter/Glaucus/char_326_glacus/Undraft_Glaucus</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
 
-<!-- Suzuran 我们的光！-->
+	<!-- Suzuran 我们的光！-->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Suzuran</defName>
@@ -877,23 +877,23 @@
 	</SoundDef>
 
 	<SoundDef ParentName = "AK_VoiceBase">
-        <defName>AK_Voice_Undraft_Suzuran</defName>
-        <subSounds>
-            <li>
-                <onCamera>True</onCamera>
-                <grains>
-                    <li Class="AudioGrain_Clip">
-                        <clipPath>Operator/Supporter/Suzuran/char_358_lisa/Undraft_Suzuran</clipPath>
-                    </li>
-                </grains>
-                <volumeRange>40~40</volumeRange>
-                <distRange>10~100</distRange>
-                <sustainLoop>False</sustainLoop>
-            </li>
-        </subSounds>
-    </SoundDef>
+		<defName>AK_Voice_Undraft_Suzuran</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Supporter/Suzuran/char_358_lisa/Undraft_Suzuran</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
 
-<!-- Magallan 麦哲伦-->
+	<!-- Magallan 麦哲伦-->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Magallan</defName>
@@ -1100,23 +1100,23 @@
 	</SoundDef>
 
 	<SoundDef ParentName = "AK_VoiceBase">
-        <defName>AK_Voice_Undraft_Magallan</defName>
-        <subSounds>
-            <li>
-                <onCamera>True</onCamera>
-                <grains>
-                    <li Class="AudioGrain_Clip">
-                        <clipPath>Operator/Supporter/Magallan/char_248_mgllan/Undraft_Magallan</clipPath>
-                    </li>
-                </grains>
-                <volumeRange>40~40</volumeRange>
-                <distRange>10~100</distRange>
-                <sustainLoop>False</sustainLoop>
-            </li>
-        </subSounds>
-    </SoundDef>
+		<defName>AK_Voice_Undraft_Magallan</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Supporter/Magallan/char_248_mgllan/Undraft_Magallan</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
 
-<!-- Mayer 梅尔-->
+	<!-- Mayer 梅尔-->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Mayer</defName>
@@ -1323,23 +1323,23 @@
 	</SoundDef>
 
 	<SoundDef ParentName = "AK_VoiceBase">
-        <defName>AK_Voice_Undraft_Mayer</defName>
-        <subSounds>
-            <li>
-                <onCamera>True</onCamera>
-                <grains>
-                    <li Class="AudioGrain_Clip">
-                        <clipPath>Operator/Supporter/Mayer/char_242_otter/Undraft_Mayer</clipPath>
-                    </li>
-                </grains>
-                <volumeRange>40~40</volumeRange>
-                <distRange>10~100</distRange>
-                <sustainLoop>False</sustainLoop>
-            </li>
-        </subSounds>
-    </SoundDef>
+		<defName>AK_Voice_Undraft_Mayer</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Supporter/Mayer/char_242_otter/Undraft_Mayer</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
 
-<!-- Deepcolor 深海色-->
+	<!-- Deepcolor 深海色-->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Deepcolor</defName>
@@ -1546,23 +1546,23 @@
 	</SoundDef>
 
 	<SoundDef ParentName = "AK_VoiceBase">
-        <defName>AK_Voice_Undraft_Deepcolor</defName>
-        <subSounds>
-            <li>
-                <onCamera>True</onCamera>
-                <grains>
-                    <li Class="AudioGrain_Clip">
-                        <clipPath>Operator/Supporter/Deepcolor/char_110_deepcl/Undraft_Deepcolor</clipPath>
-                    </li>
-                </grains>
-                <volumeRange>40~40</volumeRange>
-                <distRange>10~100</distRange>
-                <sustainLoop>False</sustainLoop>
-            </li>
-        </subSounds>
-    </SoundDef>
+		<defName>AK_Voice_Undraft_Deepcolor</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Supporter/Deepcolor/char_110_deepcl/Undraft_Deepcolor</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
 
-<!-- Ling 令-->
+	<!-- Ling 令-->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Ling</defName>
@@ -1769,23 +1769,23 @@
 	</SoundDef>
 
 	<SoundDef ParentName = "AK_VoiceBase">
-        <defName>AK_Voice_Undraft_Ling</defName>
-        <subSounds>
-            <li>
-                <onCamera>True</onCamera>
-                <grains>
-                    <li Class="AudioGrain_Clip">
-                        <clipPath>Operator/Supporter/Ling/char_2023_ling/Undraft_Ling</clipPath>
-                    </li>
-                </grains>
-                <volumeRange>40~40</volumeRange>
-                <distRange>10~100</distRange>
-                <sustainLoop>False</sustainLoop>
-            </li>
-        </subSounds>
-    </SoundDef>
+		<defName>AK_Voice_Undraft_Ling</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Supporter/Ling/char_2023_ling/Undraft_Ling</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
 
-<!-- Gnosis 灵知-->
+	<!-- Gnosis 灵知-->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Gnosis</defName>
@@ -1992,23 +1992,23 @@
 	</SoundDef>
 
 	<SoundDef ParentName = "AK_VoiceBase">
-        <defName>AK_Voice_Undraft_Gnosis</defName>
-        <subSounds>
-            <li>
-                <onCamera>True</onCamera>
-                <grains>
-                    <li Class="AudioGrain_Clip">
-                        <clipPath>Operator/Supporter/Gnosis/char_206_gnosis/Undraft_Gnosis</clipPath>
-                    </li>
-                </grains>
-                <volumeRange>40~40</volumeRange>
-                <distRange>10~100</distRange>
-                <sustainLoop>False</sustainLoop>
-            </li>
-        </subSounds>
-    </SoundDef>
+		<defName>AK_Voice_Undraft_Gnosis</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Supporter/Gnosis/char_206_gnosis/Undraft_Gnosis</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
 
-<!-- Scene 稀音-->
+	<!-- Scene 稀音-->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Scene</defName>
@@ -2215,23 +2215,23 @@
 	</SoundDef>
 
 	<SoundDef ParentName = "AK_VoiceBase">
-        <defName>AK_Voice_Undraft_Scene</defName>
-        <subSounds>
-            <li>
-                <onCamera>True</onCamera>
-                <grains>
-                    <li Class="AudioGrain_Clip">
-                        <clipPath>Operator/Supporter/Scene/char_336_folivo/Undraft_Scene</clipPath>
-                    </li>
-                </grains>
-                <volumeRange>40~40</volumeRange>
-                <distRange>10~100</distRange>
-                <sustainLoop>False</sustainLoop>
-            </li>
-        </subSounds>
-    </SoundDef>
+		<defName>AK_Voice_Undraft_Scene</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Supporter/Scene/char_336_folivo/Undraft_Scene</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
 
-<!-- Sora 空 -->
+	<!-- Sora 空 -->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Sora</defName>
@@ -2438,23 +2438,23 @@
 	</SoundDef>
 
 	<SoundDef ParentName = "AK_VoiceBase">
-        <defName>AK_Voice_Undraft_Sora</defName>
-        <subSounds>
-            <li>
-                <onCamera>True</onCamera>
-                <grains>
-                    <li Class="AudioGrain_Clip">
-                        <clipPath>Operator/Supporter/Sora/char_101_sora/Undraft_Sora</clipPath>
-                    </li>
-                </grains>
-                <volumeRange>40~40</volumeRange>
-                <distRange>10~100</distRange>
-                <sustainLoop>False</sustainLoop>
-            </li>
-        </subSounds>
-    </SoundDef>
+		<defName>AK_Voice_Undraft_Sora</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Supporter/Sora/char_101_sora/Undraft_Sora</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
 
-<!-- Istina 真理-->
+	<!-- Istina 真理-->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Istina</defName>
@@ -2661,23 +2661,23 @@
 	</SoundDef>
 
 	<SoundDef ParentName = "AK_VoiceBase">
-        <defName>AK_Voice_Undraft_Istina</defName>
-        <subSounds>
-            <li>
-                <onCamera>True</onCamera>
-                <grains>
-                    <li Class="AudioGrain_Clip">
-                        <clipPath>Operator/Supporter/Istina/char_195_glassb/Undraft_Istina</clipPath>
-                    </li>
-                </grains>
-                <volumeRange>40~40</volumeRange>
-                <distRange>10~100</distRange>
-                <sustainLoop>False</sustainLoop>
-            </li>
-        </subSounds>
-    </SoundDef>
+		<defName>AK_Voice_Undraft_Istina</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Supporter/Istina/char_195_glassb/Undraft_Istina</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
 
-<!-- Roberta 罗比菈塔 -->
+	<!-- Roberta 罗比菈塔 -->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Roberta</defName>
@@ -2884,23 +2884,23 @@
 	</SoundDef>
 
 	<SoundDef ParentName = "AK_VoiceBase">
-        <defName>AK_Voice_Undraft_Roberta</defName>
-        <subSounds>
-            <li>
-                <onCamera>True</onCamera>
-                <grains>
-                    <li Class="AudioGrain_Clip">
-                        <clipPath>Operator/Supporter/Roberta/char_484_robrta/Undraft_Roberta</clipPath>
-                    </li>
-                </grains>
-                <volumeRange>40~40</volumeRange>
-                <distRange>10~100</distRange>
-                <sustainLoop>False</sustainLoop>
-            </li>
-        </subSounds>
-    </SoundDef>
+		<defName>AK_Voice_Undraft_Roberta</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Supporter/Roberta/char_484_robrta/Undraft_Roberta</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
 
-<!-- Proviso 但书 -->
+	<!-- Proviso 但书 -->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Proviso</defName>
@@ -3116,6 +3116,227 @@
 						<clipPath>Operator/Supporter/Proviso/char_4032_provs/Ability_ProvisoIV</clipPath>
 					</li>
 				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Recruit_Skadi_CorruptingHeart</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Supporter/Skadi_CorruptingHeart/char_1012_skadi2/Recruit_Skadi_CorruptingHeart</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Die_Skadi_CorruptingHeart</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Supporter/Skadi_CorruptingHeart/char_1012_skadi2/Die_Skadi_CorruptingHeart</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Undraft_Skadi_CorruptingHeart</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Supporter/Skadi_CorruptingHeart/char_1012_skadi2/Undraft_Skadi_CorruptingHeart</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_Skadi_CorruptingHeartI</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Supporter/Skadi_CorruptingHeart/char_1012_skadi2/Select_Skadi_CorruptingHeartI</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_Skadi_CorruptingHeartII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Supporter/Skadi_CorruptingHeart/char_1012_skadi2/Select_Skadi_CorruptingHeartII</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_Skadi_CorruptingHeartIII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Supporter/Skadi_CorruptingHeart/char_1012_skadi2/Select_Skadi_CorruptingHeartIII</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_Skadi_CorruptingHeartIV</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Supporter/Skadi_CorruptingHeart/char_1012_skadi2/Select_Skadi_CorruptingHeartIV</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Draft_Skadi_CorruptingHeartI</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Supporter/Skadi_CorruptingHeart/char_1012_skadi2/Draft_Skadi_CorruptingHeartI</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Draft_Skadi_CorruptingHeartII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Supporter/Skadi_CorruptingHeart/char_1012_skadi2/Draft_Skadi_CorruptingHeartII</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_Skadi_CorruptingHeartI</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Supporter/Skadi_CorruptingHeart/char_1012_skadi2/Ability_Skadi_CorruptingHeartI</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_Skadi_CorruptingHeartII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Supporter/Skadi_CorruptingHeart/char_1012_skadi2/Ability_Skadi_CorruptingHeartII</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_Skadi_CorruptingHeartIII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Supporter/Skadi_CorruptingHeart/char_1012_skadi2/Ability_Skadi_CorruptingHeartIII</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_Skadi_CorruptingHeartIV</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Supporter/Skadi_CorruptingHeart/char_1012_skadi2/Ability_Skadi_CorruptingHeartIV</clipPath>
+						</li>
+					</grains>
 				<volumeRange>40~40</volumeRange>
 				<distRange>10~100</distRange>
 				<sustainLoop>False</sustainLoop>

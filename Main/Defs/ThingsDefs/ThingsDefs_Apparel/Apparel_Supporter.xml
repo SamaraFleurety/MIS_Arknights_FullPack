@@ -205,4 +205,16 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Supporter">
+		<defName>AK_Apparel_Skadi_CorruptingHeart</defName>
+		<label>浊心斯卡蒂服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Supporter/Skadi_CorruptingHeart</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Supporter/Skadi_CorruptingHeart</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 </Defs>

@@ -389,4 +389,49 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Skadi_CorruptingHeartSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>塞壬海妖</label>
+				<description>她在歌唱，她是如此美丽。
+				</description>
+				<statOffsets>
+					<SocialImpact>0.2</SocialImpact>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Skadi_CorruptingHeart</defName>
+		<disabledWorkTags>
+			<li>Animals</li>
+			<li>Artistic</li>
+			<li>Hunting</li>
+		</disabledWorkTags>
+		<degreeDatas>
+			<li>
+				<label>Ishar-mla</label>
+				<description>/检索中
+					/错误！未查询到相关档案
+					/检索中（2）
+					/错误！未查询到相关档案
+					/检索中（3）
+					/错误！未查询到相关档案
+					
+					严重错误！三次查询目标档案失败，请联系PRTS管理员补充相关信息。
+				</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.99</MentalBreakThreshold>
+					<GlobalLearningFactor>20</GlobalLearningFactor>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>

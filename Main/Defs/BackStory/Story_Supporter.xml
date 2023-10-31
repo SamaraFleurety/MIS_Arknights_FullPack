@@ -258,4 +258,20 @@
 		</baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Skadi_CorruptingHeart_Child</defName>
+		<slot>Childhood</slot>
+		<title>错误</title>
+		<titleShort>错误</titleShort>
+		<baseDesc>错误错误错误错误错误错误错误错误错误错误错误错误错误错误错误错误错误错误错误错误错误错误错误错误错误错误错误错误</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Skadi_CorruptingHeart_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>Ishar-mla</title>
+		<titleShort>Ishar-mla</titleShort>
+		<baseDesc>她不再歌唱，她为大群发声。</baseDesc>
+	</BackstoryDef>
+
 </Defs>
