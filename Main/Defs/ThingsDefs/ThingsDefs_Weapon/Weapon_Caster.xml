@@ -1569,4 +1569,24 @@
 		</graphicData>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_WeaponBase_Caster">
+		<defName>AK_Weapon_CandleKnightA</defName>
+		<label>火烛银花</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Caster/CandleKnightW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<description>烛骑士的长剑，装饰华丽，刻满了美丽的花纹，比起战斗用的武器更像是装饰用的艺术品，而烛骑士也确实是这么用的。</description>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Caster">
+		<defName>AK_Weapon_CandleKnightB</defName>
+		<label>微光之触</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Caster/CandleKnightW2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<description>烛骑士手持的烛台，自小她就在昏暗的烛光下通过骑士小说了解整个世界，烛光是她的守护者和骑士。</description>
+	</ThingDef>
+
 </Defs>

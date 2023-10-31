@@ -241,4 +241,16 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Caster">
+		<defName>AK_Apparel_CandleKnight</defName>
+		<label>烛骑士薇薇安服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Caster/CandleKnight</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Caster/CandleKnight</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 </Defs>

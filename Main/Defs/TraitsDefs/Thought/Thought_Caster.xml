@@ -313,4 +313,16 @@
 		</stages>
 	</ThoughtDef>
 
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_CandleKnight</defName>
+		<requiredTraits><li>AK_Trait_CandleKnight</li></requiredTraits>
+		<stages>
+			<li>
+				<label>鸟笼中的金丝雀</label>
+				<description>当房间里点燃一支蜡烛时，最吸引你目光的是那点烛光，而真正将你包裹的，是周遭所有器物的影子。</description>
+				<baseMoodEffect>-10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
 </Defs>

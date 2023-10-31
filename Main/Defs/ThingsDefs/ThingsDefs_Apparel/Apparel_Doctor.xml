@@ -7,7 +7,7 @@
 		<description>博士的兜帽。</description>
 		<useHitPoints>true</useHitPoints>
 		<graphicData>
-			<texPath>Things/AK_Agents/HatAccessory/DoctorH</texPath>
+			<texPath>Things/AK_Agents/Doctor/DoctorH</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
@@ -21,7 +21,7 @@
 				<li>Soldier</li>
 			</defaultOutfitTags>
 			<useDeflectMetalEffect>true</useDeflectMetalEffect>
-			<wornGraphicPath>Things/AK_Agents/HatAccessory/DoctorH</wornGraphicPath>
+			<wornGraphicPath>Things/AK_Agents/Doctor/DoctorH</wornGraphicPath>
 		</apparel>
 		<techLevel>Spacer</techLevel>
 		<recipeMaker>
@@ -86,7 +86,7 @@
       <Plasteel>190</Plasteel>
     </costList>
     <graphicData>
-      <texPath>Things/AK_Agents/Misc/Doctor</texPath>
+      <texPath>Things/AK_Agents/Doctor/Doctor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <apparel>
@@ -97,7 +97,7 @@
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/AK_Agents/Misc/Doctor</wornGraphicPath>
+      <wornGraphicPath>Things/AK_Agents/Doctor/Doctor</wornGraphicPath>
       <useWornGraphicMask>true</useWornGraphicMask>
       <layers>
         <li>Middle</li>
@@ -159,7 +159,7 @@
       <Flammability>0.4</Flammability>
     </statBases>
     <graphicData>
-      <texPath>Things/AK_Agents/Misc/Doctor</texPath>
+      <texPath>Things/AK_Agents/Doctor/Doctor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
   </ThingDef>
