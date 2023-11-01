@@ -158,4 +158,16 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Medic">
+		<defName>AK_Apparel_Whisperain</defName>
+		<label>絮雨服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Medic/Whisperain</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Medic/Whisperain</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 </Defs>

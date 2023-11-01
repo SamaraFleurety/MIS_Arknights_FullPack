@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<!-- 医疗干员特性文件 --> <!-- 已排序 -->
+	<!-- 医疗干员特性文件 -->	<!-- 已排序 -->
 
 	<!-- 白面鸮 -->
 
@@ -312,6 +312,46 @@
 可以说，在选择了这一职业的同时，就等于已经将自己的安危置之度外。
 桑葚当然也是如此。
 				</description>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<!-- 絮雨 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_WhisperainSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>生物性分化</label>
+				<description>絮雨虽然性格温柔，善于与人共情，但是因为她很容易在重生后失去一切记忆，她恐惧与人交流，对于一些干员的主动接触，絮雨小姐通常以回避作为回应。
+				</description>
+				<statOffsets>
+					<SocialImpact>-0.15</SocialImpact>
+					<MentalBreakThreshold>-0.05</MentalBreakThreshold>
+					<PsychicSensitivity>0.3</PsychicSensitivity>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Whisperain</defName>
+		<degreeDatas>
+			<li>
+				<label>生物性退行</label>
+				<description>絮雨的身体虚弱到了难以理解的程度，体检报告的数值表明，絮雨小姐的各项身体指标皆低于健康人体的平均水准，其在免疫系统方面更是达到了一个需要被特殊关照的危险境地。
+				</description>
+				<statOffsets>
+					<PainShockThreshold>0.2</PainShockThreshold>
+				</statOffsets>
+				<statFactors>
+					<IncomingDamageFactor>1.8</IncomingDamageFactor>
+					<ImmunityGainSpeed>2</ImmunityGainSpeed>
+				</statFactors>
 			</li>
 		</degreeDatas>
 	</TraitDef>

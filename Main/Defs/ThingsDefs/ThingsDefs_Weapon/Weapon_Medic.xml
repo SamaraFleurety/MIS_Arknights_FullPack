@@ -299,4 +299,14 @@
     </tools>
   </ThingDef>
 
+	<ThingDef ParentName="AK_WeaponBase_Medic">
+		<defName>AK_Weapon_Whisperain</defName>
+		<label>絮雨的伞</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Medic/WhisperainW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<description>如同在屋下避雨的旅人。</description>
+	</ThingDef>
+
 </Defs>

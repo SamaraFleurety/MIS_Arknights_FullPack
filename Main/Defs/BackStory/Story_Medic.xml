@@ -207,4 +207,20 @@
 </baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Whisperain_Child</defName>
+		<slot>Childhood</slot>
+		<title>无数次重生</title>
+		<titleShort>无数次重生</titleShort>
+		<baseDesc>无数张褪色老旧的票根是证明她过去存在的方式。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Whisperain_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>巡游医师</title>
+		<titleShort>巡游医师</titleShort>
+		<baseDesc>伊比利亚出身的巡游医生絮雨，很少于同一地点长期停留，在卡西米尔与萨米等地区均有留下行动记录。</baseDesc>
+	</BackstoryDef>
+
 </Defs>

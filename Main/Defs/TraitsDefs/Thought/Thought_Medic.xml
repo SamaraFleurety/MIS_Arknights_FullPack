@@ -143,4 +143,18 @@
 		</stages>
 	</ThoughtDef>
 
+	<!-- 絮雨 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Whisperain</defName>
+		<requiredTraits><li>AK_Trait_Whisperain</li></requiredTraits>
+		<stages>
+			<li>
+				<label>生物性退行</label>
+				<description>所有的回忆最后都会变成泡沫。不管是痛苦的还是喜悦的，那些不想忘记的过去，总会悄然从我身边逃离。</description>
+				<baseMoodEffect>-10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
 </Defs>
