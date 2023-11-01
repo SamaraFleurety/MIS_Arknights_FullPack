@@ -38,12 +38,22 @@
 		<label>闪灵发型</label>
 		<texPath>Things/Hair/Medic/Shining</texPath>
 	</HairDef>
+	    <HairDef ParentName="AK_HairBaseF">
+		    <defName>AK_Hair_ShiningSilentNight</defName>
+			<label>闪灵-静谧午夜</label>
+			<texPath>Things/Hair/Medic/Shining_SilentNight</texPath>
+		</HairDef>
 
 	<HairDef ParentName="AK_HairBaseF">
 		<defName>AK_Hair_Nightingale</defName>
 		<label>夜莺发型</label>
 		<texPath>Things/Hair/Medic/Nightingale</texPath>
 	</HairDef>
+	    <HairDef ParentName="AK_HairBaseF">
+		    <defName>AK_Hair_NightingaleElegy</defName>
+			<label>夜莺-挽歌</label>
+			<texPath>Things/Hair/Medic/Nightingale_Elegy</texPath>
+		</HairDef>
 
 	<HairDef ParentName="AK_HairBaseF">
 		<defName>AK_Hair_Ptilopsis</defName>

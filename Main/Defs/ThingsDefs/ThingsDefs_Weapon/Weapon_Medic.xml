@@ -143,6 +143,50 @@
       </li>
     </tools>
   </ThingDef>
+    <ThingDef ParentName="AK_WeaponBase_Medic">
+      <defName>AK_Weapon_ShiningSilentNight</defName>
+      <label>“教条”</label>
+      <description>闪灵的剑，收入鞘中可以当作法杖使用。
+      赦罪师的利刃出鞘时，昼夜都可被斩断</description>
+      <graphicData>
+        <texPath>Things/AK_Agents/Weapon/Medic/Shining_SilentNightW</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <tools Inherit = "false">
+        <li>
+          <label>剑捅</label>
+          <capacities>
+            <li>Stab</li>
+          </capacities>
+          <power>63</power>
+          <cooldownTime>1.8</cooldownTime>
+        </li>
+        <li>
+          <label>剑柄猛砸</label>
+          <capacities>
+            <li>Blunt</li>
+          </capacities>
+          <power>27</power>
+          <cooldownTime>1.4</cooldownTime>
+        </li>
+        <li>
+          <label>剑劈</label>
+          <capacities>
+            <li>Cut</li>
+          </capacities>
+          <power>69</power>
+          <cooldownTime>2.0</cooldownTime>
+        </li>
+        <li>
+          <label>剑刺</label>
+          <capacities>
+            <li>Poke</li>
+          </capacities>
+          <power>48</power>
+          <cooldownTime>1.8</cooldownTime>
+        </li>
+      </tools>
+    </ThingDef>
 
   <ThingDef ParentName="AK_WeaponBase_Medic">
     <defName>AK_Weapon_Nightingale</defName>
@@ -153,6 +197,15 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
   </ThingDef>
+    <ThingDef ParentName="AK_WeaponBase_Medic">
+      <defName>AK_Weapon_NightingaleElegy</defName>
+      <label>封闭的希望</label>
+      <description>夜莺的法杖，笼中的蓝色光芒如同丽兹被封闭的希望。</description>
+      <graphicData>
+        <texPath>Things/AK_Agents/Weapon/Medic/Nightingale_ElegyW</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+    </ThingDef>
 
   <ThingDef ParentName="AK_WeaponBase_Medic">
     <defName>AK_Weapon_Ptilopsis</defName>
