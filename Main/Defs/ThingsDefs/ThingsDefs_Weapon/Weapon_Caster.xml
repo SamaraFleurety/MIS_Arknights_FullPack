@@ -1570,10 +1570,10 @@
 	</ThingDef>
 
 	<ThingDef ParentName="AK_WeaponBase_Caster">
-		<defName>AK_Weapon_CandleKnightA</defName>
+		<defName>AK_Weapon_VivianaA</defName>
 		<label>火烛银花</label>
 		<graphicData>
-			<texPath>Things/AK_Agents/Weapon/Caster/CandleKnightW</texPath>
+			<texPath>Things/AK_Agents/Weapon/Caster/VivianaW</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<description>烛骑士的长剑，装饰华丽，刻满了美丽的花纹，比起战斗用的武器更像是装饰用的艺术品，而烛骑士也确实是这么用的。</description>
@@ -1588,7 +1588,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>AK_Bullet_CandleKnight</defaultProjectile>
+				<defaultProjectile>AK_Bullet_Viviana</defaultProjectile>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
 				<warmupTime>2</warmupTime>				<!--前摇-->
 				<range>10</range>
@@ -1642,7 +1642,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="AK_BulletBase_Bow">
-		<defName>AK_Bullet_CandleKnight</defName>
+		<defName>AK_Bullet_Viviana</defName>
 		<label>法术射击</label>
 		<graphicData>
 			<texPath>Things/Projectile/MagicOrb</texPath>
@@ -1659,10 +1659,10 @@
 	</ThingDef>
 
 	<ThingDef ParentName="AK_WeaponBase_Caster">
-		<defName>AK_Weapon_CandleKnightB</defName>
+		<defName>AK_Weapon_VivianaB</defName>
 		<label>微光之触</label>
 		<graphicData>
-			<texPath>Things/AK_Agents/Weapon/Caster/CandleKnightW2</texPath>
+			<texPath>Things/AK_Agents/Weapon/Caster/VivianaW2</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<description>烛骑士手持的烛台，自小她就在昏暗的烛光下通过骑士小说了解整个世界，烛光是她的守护者和骑士。</description>

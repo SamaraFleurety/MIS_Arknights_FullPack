@@ -387,4 +387,18 @@
 		</stages>
 	</ThoughtDef>
 
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_RadiantKnight</defName>
+		<requiredTraits>
+			<li>AK_Trait_RadiantKnight</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>耀骑士</label>
+				<description>所谓骑士，就是照亮整片大地的崇高者。</description>
+				<baseMoodEffect>12</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
 </Defs>

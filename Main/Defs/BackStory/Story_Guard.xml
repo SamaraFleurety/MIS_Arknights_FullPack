@@ -508,4 +508,23 @@ ok halda njarðlásar níu.</baseDesc>
 经其父同意，加入罗德岛成为干员，在近身格斗方面展现出较强天赋，活跃于各类任务中。</baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_RadiantKnight_Child</defName>
+		<slot>Childhood</slot>
+		<title>，无胄盟才暂停了对临光的暗杀。</title>
+		<titleShort>，无胄盟才暂停了对临光的暗杀。</titleShort>
+		<baseDesc>临光曾以独立骑士身份参加骑士竞技，“耀骑士”的封号便是此时得来，她成为骑士竞技史上唯一的无赞助、无团体、出道即夺冠的年轻骑士，在民间传为佳话。
+但是，临光的活跃危及了商业联合会的利益，因此商业联合会将临光列入无胄盟的暗杀名单。
+临光被放逐时，是在是临光家家长们的策划下，由临光家亲信保护，被暗中送出去的。也正是由于临光因矿石病被放逐出境，无胄盟才暂停了对临光的暗杀。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_RadiantKnight_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>耀骑士</title>
+		<titleShort>耀骑士</titleShort>
+		<baseDesc>临光，卡西米尔耀骑士。在掩护己方队员、机动作战、歼灭战与开阔地带作战中体现出极高的战斗技巧和个人军事素养。
+在重返卡西米尔并夺得第二十四届骑士特别锦标赛决斗赛冠军之后，留在卡西米尔处理后续事务。作为合作干员为罗德岛驻卡瓦莱利亚基办事处提供战术支援，必要时也会去往其他地区协助本舰展开各项行动。</baseDesc>
+	</BackstoryDef>
+
 </Defs>

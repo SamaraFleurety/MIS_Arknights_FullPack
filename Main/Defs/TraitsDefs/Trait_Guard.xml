@@ -598,7 +598,7 @@
 		</degreeDatas>
 	</TraitDef>
 
-<!-- 达格达 -->
+	<!-- 达格达 -->
 
 	<TraitDef>
 		<ignoreConfigErrors>true</ignoreConfigErrors>
@@ -682,6 +682,44 @@
 				<statOffsets>
 					<SocialImpact>-0.15</SocialImpact>
 					<TradePriceImprovement>-0.05</TradePriceImprovement>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<!-- 耀骑士临光 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_RadiantKnightSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>耀阳</label>
+				<description>天马的金羽射出凛然辉光。
+				</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.4</MentalBreakThreshold>
+					<MeleeDodgeChance>0.05</MeleeDodgeChance>
+				</statOffsets>
+				<statFactors>
+					<IncomingDamageFactor>0.85</IncomingDamageFactor>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_RadiantKnight</defName>
+		<degreeDatas>
+			<li>
+				<label>耀骑士</label>
+				<description>“所谓骑士，就是照亮整片大地的崇高者。”
+				</description>
+				<statOffsets>
+					<PsychicSensitivity>-0.35</PsychicSensitivity>
 				</statOffsets>
 			</li>
 		</degreeDatas>

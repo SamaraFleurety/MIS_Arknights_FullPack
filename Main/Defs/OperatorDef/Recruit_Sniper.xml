@@ -2365,8 +2365,12 @@ FIXMEDESC</description>
 		<headPortrait>UI/Image/Sniper/EratoPortrait</headPortrait>
 		<bodyTypeDef>Female</bodyTypeDef>
 		<traits>
-			<li><def>AK_Trait_EratoSecond</def></li>
-			<li><def>AK_Trait_Erato</def></li>
+			<li>
+				<def>AK_Trait_EratoSecond</def>
+			</li>
+			<li>
+				<def>AK_Trait_Erato</def>
+			</li>
 			<li>
 				<def>Beauty</def>
 				<degree>2</degree>

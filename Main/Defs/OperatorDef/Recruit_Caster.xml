@@ -2206,30 +2206,36 @@ FIXMEDESC</description>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Caster">
-		<defName>AK_Recruit_CandleKnight</defName>
-		<name>CandleKnight</name>
-		<nickname>CandleKnight</nickname>
+		<defName>AK_Recruit_Viviana</defName>
+		<name>Viviana</name>
+		<nickname>Viviana</nickname>
 		<description>
 FIXMEDESC</description>
-		<weapon>AK_Weapon_CandleKnightA</weapon>
-		<hair>AK_Hair_CandleKnight</hair>
+		<weapon>AK_Weapon_VivianaA</weapon>
+		<hair>AK_Hair_Viviana</hair>
 		<apparels>
-			<li>AK_Apparel_CandleKnight</li>
+			<li>AK_Apparel_Viviana</li>
 		</apparels>
-		<stand>UI/Image/Caster/CandleKnightStand</stand>
-		<headPortrait>UI/Image/Caster/CandleKnightPortrait</headPortrait>
+		<stand>UI/Image/Caster/VivianaStand</stand>
+		<headPortrait>UI/Image/Caster/VivianaPortrait</headPortrait>
 		<bodyTypeDef>Female</bodyTypeDef>
 		<traits>
-			<li><def>AK_Trait_CandleKnightThird</def></li>
-			<li><def>AK_Trait_CandleKnightSecond</def></li>
-			<li><def>AK_Trait_CandleKnight</def></li>
+			<li>
+				<def>AK_Trait_VivianaThird</def>
+			</li>
+			<li>
+				<def>AK_Trait_VivianaSecond</def>
+			</li>
+			<li>
+				<def>AK_Trait_Viviana</def>
+			</li>
 			<li>
 				<def>Kind</def>
 			</li>
 		</traits>
 		<age>20</age>
-		<childHood>AK_BackStory_CandleKnight_Child</childHood>
-		<adultHood>AK_BackStory_CandleKnight_Adult</adultHood>
+		<childHood>AK_BackStory_Viviana_Child</childHood>
+		<adultHood>AK_BackStory_Viviana_Adult</adultHood>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -2294,7 +2300,7 @@ FIXMEDESC</description>
 		</skills>
 		<items>
 			<li>
-				<item>AK_Weapon_CandleKnightB</item>
+				<item>AK_Weapon_VivianaB</item>
 				<amount>1</amount>
 			</li>
 		</items>
