@@ -108,6 +108,19 @@
 			<wornGraphicPath>Things/AK_Agents/Specialist/Dorothy</wornGraphicPath>
 		</apparel>
 	</ThingDef>
+	    <ThingDef ParentName="AK_ArmorBase_Specialist">
+		    <defName>AK_Apparel_DorothyHandOfDestiny</defName>
+			<label>命运主宰</label>
+			<graphicData>
+				<texPath>Things/AK_Agents/GApparel</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+			</graphicData>
+			<apparel>
+				<wornGraphicPath>Things/AK_Agents/Specialist/Dorothy_HandOfDestiny</wornGraphicPath>
+			</apparel>
+		</ThingDef>
+		    
+
 
 	<ThingDef ParentName="AK_ArmorBase_Specialist">
 		<defName>AK_Apparel_Manticore</defName>

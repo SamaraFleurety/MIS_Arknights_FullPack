@@ -72,6 +72,18 @@
       <wornGraphicPath>Things/AK_Agents/Medic/Shining</wornGraphicPath>
     </apparel>
   </ThingDef>
+    <ThingDef ParentName="AK_ArmorBase_Medic">
+    <defName>AK_Apparel_ShiningSilentNight</defName>
+    <label>静谧午夜</label>
+    <graphicData>
+      <texPath>Things/AK_Agents/GApparel</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Things/AK_Agents/Medic/Shining_SilentNight</wornGraphicPath>
+    </apparel>
+  </ThingDef>
+  
 
   <ThingDef ParentName="AK_ArmorBase_Medic">
     <defName>AK_Apparel_Nightingale</defName>
@@ -84,6 +96,18 @@
       <wornGraphicPath>Things/AK_Agents/Medic/Nightingale</wornGraphicPath>
     </apparel>
   </ThingDef>
+    <ThingDef ParentName="AK_ArmorBase_Medic">
+      <defName>AK_Apparel_NightingaleElegy</defName>
+      <label>挽歌</label>
+      <graphicData>
+        <texPath>Things/AK_Agents/GApparel</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <apparel>
+        <wornGraphicPath>Things/AK_Agents/Medic/Nightingale_Elegy</wornGraphicPath>
+      </apparel>
+    </ThingDef>
+
 
   <ThingDef ParentName="AK_ArmorBase_Medic">
     <defName>AK_Apparel_Ptilopsis</defName>
