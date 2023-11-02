@@ -553,6 +553,55 @@
     </subSounds>
   </SoundDef>
 
+  <ThingDef ParentName="AK_WeaponBase_Specialist">
+    <defName>AK_Weapon_DorothyHandOfDestiny</defName>
+    <label>多萝西的共振装置</label>
+    <description>多萝西的共振装置</description>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Specialist/DorothyHandOfDestiny</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <AccuracyTouch>0.9</AccuracyTouch>
+      <AccuracyShort>1</AccuracyShort>
+      <AccuracyMedium>0.65</AccuracyMedium>
+      <AccuracyLong>0.55</AccuracyLong>
+      <RangedWeapon_Cooldown>0.3</RangedWeapon_Cooldown>      <!--后摇-->
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>AK_Bullet_DorothyHandOfDestiny</defaultProjectile>
+        <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+        <warmupTime>0.9</warmupTime>        <!--前摇-->
+        <range>30</range>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <soundCast>AK_Sound_Weapon_Dorothy</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <noiseRadius>3</noiseRadius>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <ThingDef ParentName="AK_BulletBase_Bow">
+    <defName>AK_Bullet_DorothyHandOfDestiny</defName>
+    <label>子弹射击</label>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Specialist/DorothyHandOfDestinyB</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingClass>Bullet</thingClass>
+    <projectile>
+      <damageDef>Bullet</damageDef>      <!--伤害类型-->
+      <damageAmountBase>30</damageAmountBase>
+      <stoppingPower>3</stoppingPower>
+      <speed>50</speed>
+    </projectile>
+  </ThingDef>
 
   <ThingDef ParentName="AK_WeaponBase_Specialist">
     <defName>AK_Weapon_Manticore</defName>

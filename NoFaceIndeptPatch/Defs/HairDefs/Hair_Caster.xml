@@ -117,10 +117,16 @@
 		<texPath>Things/Hair/Caster/Hoolheyak</texPath>
 	</HairDef>
 
-	<HairDef ParentName="AK_HairBaseM">
+	<HairDef ParentName="AK_HairBaseF">
 		<defName>AK_Hair_Passenger</defName>
 		<label>异客发型</label>
 		<texPath>Things/Hair/Caster/Passenger</texPath>
+	</HairDef>
+
+	<HairDef ParentName="AK_HairBaseF">
+		<defName>AK_Hair_Lava</defName>
+		<label>炎熔发型</label>
+		<texPath>Things/Hair/Caster/Lava</texPath>
 	</HairDef>
 
 </Defs>

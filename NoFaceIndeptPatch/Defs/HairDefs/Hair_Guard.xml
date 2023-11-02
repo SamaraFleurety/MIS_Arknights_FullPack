@@ -184,9 +184,21 @@
 	</HairDef>
 
 	<HairDef ParentName="AK_HairBaseF">
-		<defName>AK_Hair_NearlRK</defName>
+		<defName>AK_Hair_Jackie</defName>
+		<label>杰克发型</label>
+		<texPath>Things/Hair/Guard/Jackie</texPath>
+	</HairDef>
+
+	<HairDef ParentName="AK_HairBaseF">
+		<defName>AK_Hair_RadiantKnight</defName>
 		<label>耀骑士临光发型</label>
-		<texPath>Things/Hair/Guard/NearlRK</texPath>
+		<texPath>Things/Hair/Guard/RadiantKnight</texPath>
+	</HairDef>
+
+	<HairDef ParentName="AK_HairBaseF">
+		<defName>AK_Hair_Viviana</defName>
+		<label>烛骑士薇薇安发型</label>
+		<texPath>Things/Hair/Guard/Viviana</texPath>
 	</HairDef>
 
 </Defs>
