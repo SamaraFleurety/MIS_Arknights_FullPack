@@ -1,174 +1,174 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="AK_ArmorBase_Medic">
-    <defName>AK_Apparel_Gavial</defName>
-    <label>嘉维尔服装</label>
-    <graphicData>
-      <texPath>Things/AK_Agents/GApparel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <apparel>
-      <wornGraphicPath>Things/AK_Agents/Medic/Gavial</wornGraphicPath>
-    </apparel>
-  </ThingDef>
+	<ThingDef ParentName="AK_ArmorBase_Medic">
+		<defName>AK_Apparel_Gavial</defName>
+		<label>嘉维尔服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Medic/Gavial</wornGraphicPath>
+		</apparel>
+	</ThingDef>
 
-  <ThingDef ParentName="AK_ArmorBase_Medic">
-    <defName>AK_Apparel_Kaltsit</defName>
-    <label>凯尔希服装</label>
-    <graphicData>
-      <texPath>Things/AK_Agents/GApparel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <apparel>
-      <wornGraphicPath>Things/AK_Agents/Medic/Kaltsit</wornGraphicPath>
-    </apparel>
-  </ThingDef>
+	<ThingDef ParentName="AK_ArmorBase_Medic">
+		<defName>AK_Apparel_Kaltsit</defName>
+		<label>凯尔希服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Medic/Kaltsit</wornGraphicPath>
+		</apparel>
+	</ThingDef>
 
-  <ThingDef ParentName="AK_ArmorBase_Medic">
-    <defName>AK_Apparel_Myrrh</defName>
-    <label>末药服装</label>
-    <graphicData>
-      <texPath>Things/AK_Agents/GApparel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <apparel>
-      <wornGraphicPath>Things/AK_Agents/Medic/Myrrh</wornGraphicPath>
-    </apparel>
-  </ThingDef>
+	<ThingDef ParentName="AK_ArmorBase_Medic">
+		<defName>AK_Apparel_Myrrh</defName>
+		<label>末药服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Medic/Myrrh</wornGraphicPath>
+		</apparel>
+	</ThingDef>
 
-  <ThingDef ParentName="AK_ArmorBase_Medic">
-    <defName>AK_Apparel_Silence</defName>
-    <label>赫默服装</label>
-    <graphicData>
-      <texPath>Things/AK_Agents/GApparel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <apparel>
-      <wornGraphicPath>Things/AK_Agents/Medic/Silence</wornGraphicPath>
-    </apparel>
-  </ThingDef>
+	<ThingDef ParentName="AK_ArmorBase_Medic">
+		<defName>AK_Apparel_Silence</defName>
+		<label>赫默服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Medic/Silence</wornGraphicPath>
+		</apparel>
+	</ThingDef>
 
-  <ThingDef ParentName="AK_ArmorBase_Medic">
-    <defName>AK_Apparel_Perfumer</defName>
-    <label>调香师服装</label>
-    <graphicData>
-      <texPath>Things/AK_Agents/GApparel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <apparel>
-      <wornGraphicPath>Things/AK_Agents/Medic/Perfumer</wornGraphicPath>
-    </apparel>
-  </ThingDef>
+	<ThingDef ParentName="AK_ArmorBase_Medic">
+		<defName>AK_Apparel_Perfumer</defName>
+		<label>调香师服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Medic/Perfumer</wornGraphicPath>
+		</apparel>
+	</ThingDef>
 
-  <ThingDef ParentName="AK_ArmorBase_Medic">
-    <defName>AK_Apparel_Shining</defName>
-    <label>闪灵服装</label>
-    <graphicData>
-      <texPath>Things/AK_Agents/GApparel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <apparel>
-      <wornGraphicPath>Things/AK_Agents/Medic/Shining</wornGraphicPath>
-    </apparel>
-  </ThingDef>
-    <ThingDef ParentName="AK_ArmorBase_Medic">
-    <defName>AK_Apparel_ShiningSilentNight</defName>
-    <label>静谧午夜</label>
-    <graphicData>
-      <texPath>Things/AK_Agents/GApparel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <apparel>
-      <wornGraphicPath>Things/AK_Agents/Medic/Shining_SilentNight</wornGraphicPath>
-    </apparel>
-  </ThingDef>
-  
-
-  <ThingDef ParentName="AK_ArmorBase_Medic">
-    <defName>AK_Apparel_Nightingale</defName>
-    <label>夜莺服装</label>
-    <graphicData>
-      <texPath>Things/AK_Agents/GApparel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <apparel>
-      <wornGraphicPath>Things/AK_Agents/Medic/Nightingale</wornGraphicPath>
-    </apparel>
-  </ThingDef>
-    <ThingDef ParentName="AK_ArmorBase_Medic">
-      <defName>AK_Apparel_NightingaleElegy</defName>
-      <label>挽歌</label>
-      <graphicData>
-        <texPath>Things/AK_Agents/GApparel</texPath>
-        <graphicClass>Graphic_Single</graphicClass>
-      </graphicData>
-      <apparel>
-        <wornGraphicPath>Things/AK_Agents/Medic/Nightingale_Elegy</wornGraphicPath>
-      </apparel>
-    </ThingDef>
+	<ThingDef ParentName="AK_ArmorBase_Medic">
+		<defName>AK_Apparel_Shining</defName>
+		<label>闪灵服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Medic/Shining</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	<ThingDef ParentName="AK_ArmorBase_Medic">
+		<defName>AK_Apparel_ShiningSilentNight</defName>
+		<label>静谧午夜</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Medic/Shining_SilentNight</wornGraphicPath>
+		</apparel>
+	</ThingDef>
 
 
-  <ThingDef ParentName="AK_ArmorBase_Medic">
-    <defName>AK_Apparel_Ptilopsis</defName>
-    <label>白面鸮服装</label>
-    <graphicData>
-      <texPath>Things/AK_Agents/GApparel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <apparel>
-      <wornGraphicPath>Things/AK_Agents/Medic/Ptilopsis</wornGraphicPath>
-    </apparel>
-  </ThingDef>
+	<ThingDef ParentName="AK_ArmorBase_Medic">
+		<defName>AK_Apparel_Nightingale</defName>
+		<label>夜莺服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Medic/Nightingale</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	<ThingDef ParentName="AK_ArmorBase_Medic">
+		<defName>AK_Apparel_NightingaleElegy</defName>
+		<label>挽歌</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Medic/Nightingale_Elegy</wornGraphicPath>
+		</apparel>
+	</ThingDef>
 
 
-  <ThingDef ParentName="AK_ArmorBase_Medic">
-    <defName>AK_Apparel_Purestream</defName>
-    <label>清流服装</label>
-    <graphicData>
-      <texPath>Things/AK_Agents/GApparel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <apparel>
-      <wornGraphicPath>Things/AK_Agents/Medic/Purestream</wornGraphicPath>
-    </apparel>
-  </ThingDef>
+	<ThingDef ParentName="AK_ArmorBase_Medic">
+		<defName>AK_Apparel_Ptilopsis</defName>
+		<label>白面鸮服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Medic/Ptilopsis</wornGraphicPath>
+		</apparel>
+	</ThingDef>
 
-  <ThingDef ParentName="AK_ArmorBase_Medic">
-    <defName>AK_Apparel_Warfarin</defName>
-    <label>华法林服装</label>
-    <graphicData>
-      <texPath>Things/AK_Agents/GApparel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <apparel>
-      <wornGraphicPath>Things/AK_Agents/Medic/Warfarin</wornGraphicPath>
-    </apparel>
-  </ThingDef>
 
-  <ThingDef ParentName="AK_ArmorBase_Medic">
-    <defName>AK_Apparel_Sussurro</defName>
-    <label>苏苏洛服装</label>
-    <graphicData>
-      <texPath>Things/AK_Agents/GApparel</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <apparel>
-      <wornGraphicPath>Things/AK_Agents/Medic/Sussurro</wornGraphicPath>
-    </apparel>
-  </ThingDef>
+	<ThingDef ParentName="AK_ArmorBase_Medic">
+		<defName>AK_Apparel_Purestream</defName>
+		<label>清流服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Medic/Purestream</wornGraphicPath>
+		</apparel>
+	</ThingDef>
 
-  <ThingDef ParentName="AK_ArmorBase_Medic">
-    <defName>AK_Apparel_Ceylon</defName>
-    <label>锡兰服装</label>
-    <graphicData>
-      <texPath>Things/AK_Agents/Medic/Ceylon</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <apparel>
-      <wornGraphicPath>Things/AK_Agents/Medic/Ceylon</wornGraphicPath>
-    </apparel>
-  </ThingDef>
+	<ThingDef ParentName="AK_ArmorBase_Medic">
+		<defName>AK_Apparel_Warfarin</defName>
+		<label>华法林服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Medic/Warfarin</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Medic">
+		<defName>AK_Apparel_Sussurro</defName>
+		<label>苏苏洛服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Medic/Sussurro</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Medic">
+		<defName>AK_Apparel_Ceylon</defName>
+		<label>锡兰服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Medic/Ceylon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Medic/Ceylon</wornGraphicPath>
+		</apparel>
+	</ThingDef>
 
 	<ThingDef ParentName="AK_ArmorBase_Medic">
 		<defName>AK_Apparel_Mulberry</defName>
@@ -191,6 +191,17 @@
 		</graphicData>
 		<apparel>
 			<wornGraphicPath>Things/AK_Agents/Medic/Whisperain</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	<ThingDef ParentName="AK_ArmorBase_Medic">
+		<defName>AK_Apparel_WhisperainPrioryOfAbyss</defName>
+		<label>絮雨-幽邃隐修</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Medic/Whisperain_PrioryOfAbyss</wornGraphicPath>
 		</apparel>
 	</ThingDef>
 
