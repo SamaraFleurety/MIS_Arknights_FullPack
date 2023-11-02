@@ -242,14 +242,14 @@
 	</ThingDef>
 
 	<ThingDef ParentName="AK_ArmorBase_Caster">
-		<defName>AK_Apparel_Viviana</defName>
-		<label>烛骑士薇薇安服装</label>
+		<defName>AK_Apparel_Lava</defName>
+		<label>炎熔服装</label>
 		<graphicData>
-			<texPath>Things/AK_Agents/Caster/Viviana</texPath>
+			<texPath>Things/AK_Agents/Caster/Lava</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Things/AK_Agents/Caster/Viviana</wornGraphicPath>
+			<wornGraphicPath>Things/AK_Agents/Caster/Lava</wornGraphicPath>
 		</apparel>
 	</ThingDef>
 

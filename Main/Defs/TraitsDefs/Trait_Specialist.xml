@@ -29,8 +29,7 @@
 		<degreeDatas>
 			<li>
 				<label>极端洁癖</label>
-				<description>就连与她对话的人的衣服褶皱，{PAWN_nameDef}都会耿耿于怀。
-这种对于洁净难以理解的追求对{PAWN_possessive}生活与工作造成巨大影响。</description>
+				<description>就连与{PAWN_pronoun}对话的人的衣服褶皱，{PAWN_nameDef}都会耿耿于怀。\n这种对于洁净难以理解的追求对{PAWN_possessive}生活与工作造成巨大影响。</description>
 				<statOffsets>
 					<MentalBreakThreshold>0.15</MentalBreakThreshold>
 					<WorkSpeedGlobal>-0.3</WorkSpeedGlobal>
@@ -48,8 +47,7 @@
 		<degreeDatas>
 			<li>
 				<label>创伤性癔症</label>
-				<description>“为何人们会四处向自己的同胞散播痛苦？是出于族类生命形式的软弱？还是在族类个体之间缺乏真正的桥接与沟通？又或是植于族类基底中的劣根性？
-我们究竟又该怎么做，才能让自己变得更善更美，来脱离这一切？”</description>
+				<description>“为何人们会四处向自己的同胞散播痛苦？是出于族类生命形式的软弱？还是在族类个体之间缺乏真正的桥接与沟通？又或是植于族类基底中的劣根性？\n我们究竟又该怎么做，才能让自己变得更善更美，来脱离这一切？”</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.65</MentalBreakThreshold>
 					<PsychicSensitivity>-0.3</PsychicSensitivity>
@@ -65,8 +63,7 @@
 		<degreeDatas>
 			<li>
 				<label>镜花水月</label>
-				<description>“不过这些都是无关的闲谈啦。谁会真的反对收留这样一个懂礼貌、不添乱的好孩子呢？
-呃，我并不是在嫌弃我们救助的一部分爱吵闹捣蛋的孩子啊，没有的事！”</description>
+				<description>“不过这些都是无关的闲谈啦。谁会真的反对收留这样一个懂礼貌、不添乱的好孩子呢？\n呃，我并不是在嫌弃我们救助的一部分爱吵闹捣蛋的孩子啊，没有的事！”</description>
 			</li>
 		</degreeDatas>
 	</TraitDef>
@@ -97,8 +94,7 @@
 		<degreeDatas>
 			<li>
 				<label>装乖</label>
-				<description>{PAWN_nameDef}事实上完全不在乎有人因为这副面具而讨厌{PAWN_pronoun}，不如说{PAWN_pronoun}乐得如此，{PAWN_pronoun}不想被很多人喜欢，也不想去喜欢很多人，这种刻意的装乖就是她认为的，和其他人保持距离感的最佳工具。
-				</description>
+				<description>{PAWN_nameDef}事实上完全不在乎有人因为这副面具而讨厌{PAWN_pronoun}，不如说{PAWN_pronoun}乐得如此，{PAWN_pronoun}不想被很多人喜欢，也不想去喜欢很多人，这种刻意的装乖就是{PAWN_pronoun}认为的，和其他人保持距离感的最佳工具。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.1</MentalBreakThreshold>
 				</statOffsets>
@@ -115,8 +111,7 @@
 		<degreeDatas>
 			<li>
 				<label>让所有人都幸福</label>
-				<description>借助科技与理想的力量，{PAWN_pronoun}希望人与人之间的差距可以被消除，弱小之人，能得到来自{PAWN_possessive}庇护。
-				</description>
+				<description>借助科技与理想的力量，{PAWN_pronoun}希望人与人之间的差距可以被消除，弱小之人，能得到来自{PAWN_possessive}庇护。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.25</MentalBreakThreshold>
 					<SocialImpact>0.3</SocialImpact>
@@ -134,8 +129,7 @@
 		<degreeDatas>
 			<li>
 				<label>腼腆</label>
-				<description>狮蝎温柔、腼腆，甚至有时给人的感觉有些怯懦。断断续续的，采用试探性口气的说话方式是她语言中的最大特征。
-				</description>
+				<description>{PAWN_nameDef}温柔、腼腆，甚至有时给人的感觉有些怯懦。断断续续的，采用试探性口气的说话方式是{PAWN_pronoun}语言中的最大特征。</description>
 				<statOffsets>
 					<SocialImpact>0.3</SocialImpact>
 				</statOffsets>
@@ -150,8 +144,7 @@
 		<degreeDatas>
 			<li>
 				<label>隐匿的杀手</label>
-				<description>干员狮蝎出身于萨尔贡，因其提供的绝大部分履历均未能具备一定的有效性，因此狮蝎的活动活动经历仍处于不明朗的状态。目前已知的是，狮蝎已经接受过一套较为完善的特别行动训练，并已经具备至少一年左右的行动经验。
-				</description>
+				<description>干员{PAWN_nameDef}出身于萨尔贡，因其提供的绝大部分履历均未能具备一定的有效性，因此{PAWN_nameDef}的活动活动经历仍处于不明朗的状态。目前已知的是，{PAWN_nameDef}已经接受过一套较为完善的特别行动训练，并已经具备至少一年左右的行动经验。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.28</MentalBreakThreshold>
 				</statOffsets>
@@ -168,8 +161,7 @@
 		<degreeDatas>
 			<li>
 				<label>专业训练</label>
-				<description>风丸系统地接受过作为东国忍者死士的作战训练，虽然方式奇特，但招招致命。
-				</description>
+				<description>{PAWN_nameDef}系统地接受过作为东国忍者死士的作战训练，虽然方式奇特，但招招致命。</description>
 				<statOffsets>
 					<MeleeHitChance>8</MeleeHitChance>
 					<MeleeDodgeChance>12</MeleeDodgeChance>
@@ -189,8 +181,7 @@
 		<degreeDatas>
 			<li>
 				<label>折纸生花</label>
-				<description>“她们一直以为风丸没有比自己大上几岁，可爱又天真的孩子们呀……”
-				</description>
+				<description>“{PAWN_pronoun}们一直以为{PAWN_nameDef}没有比自己大上几岁，可爱又天真的孩子们呀……”</description>
 				<statOffsets>
 					<SocialImpact>0.3</SocialImpact>
 				</statOffsets>

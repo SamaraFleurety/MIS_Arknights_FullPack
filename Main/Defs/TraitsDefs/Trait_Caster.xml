@@ -43,11 +43,7 @@
 		<degreeDatas>
 			<li>
 				<label>奇美拉</label>
-				<description>
-					大量对此物种的描述仅存在于典籍中，一般可通过血亲物种异同来判断，根据遗传学表现度不同，个体之间也存在很大差距。
-在天灾频率骤升的矿石工业时代，政权之间的对立让这种种族混合的产物几乎不可能诞生。当然，除了延续生命的常识外，可能还有一些危险的方法可能会诞生奇美拉。
-如果她没有骗我的话。
-				</description>
+				<description>大量对此物种的描述仅存在于典籍中，一般可通过血亲物种异同来判断，根据遗传学表现度不同，个体之间也存在很大差距。\n在天灾频率骤升的矿石工业时代，政权之间的对立让这种种族混合的产物几乎不可能诞生。当然，除了延续生命的常识外，可能还有一些危险的方法可能会诞生奇美拉。\n如果{PAWN_pronoun}没有骗我的话。</description>
 				<statOffsets>
 					<PsychicSensitivity>1.0</PsychicSensitivity>
 				</statOffsets>
@@ -112,9 +108,7 @@
 		<degreeDatas>
 			<li>
 				<label>傻狗子</label>
-				<description>可能是因为一直在流浪，远离社会的原因，{PAWN_nameDef}的心智相当低幼，
-尽管在罗德岛待了一段时间后相比以前已经好了许多，
-但是{PAWN_pronoun}依旧有很多东西需要学。</description>
+				<description>可能是因为一直在流浪，远离社会的原因，{PAWN_nameDef}的心智相当低幼。\n尽管在罗德岛待了一段时间后相比以前已经好了许多，但是{PAWN_pronoun}依旧有很多东西需要学。</description>
 				<statOffsets>
 					<GlobalLearningFactor>-0.6</GlobalLearningFactor>
 				</statOffsets>
@@ -168,7 +162,7 @@
 		<degreeDatas>
 			<li>
 				<label>堕天使</label>
-				<description>法令的效力是绝对的。当{PAWN_pronoun}将枪口对准同类时，她的命运就已经被决定了。</description>
+				<description>法令的效力是绝对的。当{PAWN_pronoun}将枪口对准同类时，{PAWN_possessive}命运就已经被决定了。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.55</MentalBreakThreshold>
 					<PsychicSensitivity>-0.75</PsychicSensitivity>
@@ -206,9 +200,7 @@
 		<degreeDatas>
 			<li>
 				<label>炎魔</label>
-				<description>{PAWN_nameDef}时常会出现幻觉，{PAWN_pronoun}会看到烧焦的尸体与动物，或者亲密的人烈火焚身。
-每当此时，{PAWN_pronoun}就会变得意识恍惚，因此烧掉一条走廊的事也不是没有。
-但当{PAWN_pronoun}陷入恍惚时，身后那个巨大的幻影是什么？</description>
+				<description>{PAWN_nameDef}时常会出现幻觉，{PAWN_pronoun}会看到烧焦的尸体与动物，或者亲密的人烈火焚身。\n每当此时，{PAWN_pronoun}就会变得意识恍惚，因此烧掉一条走廊的事也不是没有。\n但当{PAWN_pronoun}陷入恍惚时，身后那个巨大的幻影是什么？</description>
 				<statOffsets>
 					<MentalBreakThreshold>0.4</MentalBreakThreshold>
 					<PsychicSensitivity>1.0</PsychicSensitivity>
@@ -260,8 +252,7 @@
 		<degreeDatas>
 			<li>
 				<label>旺盛的好奇心</label>
-				<description>{PAWN_nameDef}展现出了一种极度旺盛的好奇心，这对{PAWN_possessive}学习有帮助，然而却容易在工作的时候突然勾走{PAWN_possessive}注意力。
-				</description>
+				<description>{PAWN_nameDef}展现出了一种极度旺盛的好奇心，这对{PAWN_possessive}学习有帮助，然而却容易在工作的时候突然勾走{PAWN_possessive}注意力。</description>
 				<statOffsets>
 					<GlobalLearningFactor>0.2</GlobalLearningFactor>
 					<WorkSpeedGlobal>-0.2</WorkSpeedGlobal>
@@ -281,9 +272,7 @@
 		<degreeDatas>
 			<li>
 				<label>耶拉冈德</label>
-				<description>{PAWN_pronoun}为什么会降生在这个世界上？如果守护谢拉格不是{PAWN_possessive}使命，那{PAWN_possessive}生命有何意义？
-{PAWN_pronoun}想要找到这个答案。
-				</description>
+				<description>{PAWN_pronoun}为什么会降生在这个世界上？如果守护谢拉格不是{PAWN_possessive}使命，那{PAWN_possessive}生命有何意义？\n{PAWN_pronoun}想要找到这个答案。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.4</MentalBreakThreshold>
 				</statOffsets>
@@ -300,8 +289,7 @@
 		<degreeDatas>
 			<li>
 				<label>粗尾巴</label>
-				<description>{PAWN_nameDef}的尾巴不知道为什么，它似乎正在越长越粗，已经到了妨碍日常生活的程度了，到底是保持原样，还是咬咬牙把尾巴瘦下去，{PAWN_pronoun}自己都拿不定主意。
-				</description>
+				<description>{PAWN_nameDef}的尾巴不知道为什么，它似乎正在越长越粗，已经到了妨碍日常生活的程度了，到底是保持原样，还是咬咬牙把尾巴瘦下去，{PAWN_pronoun}自己都拿不定主意。</description>
 				<statOffsets>
 					<MoveSpeed>-0.15</MoveSpeed>
 					<WorkSpeedGlobal>-0.15</WorkSpeedGlobal>
@@ -320,8 +308,7 @@
 		<degreeDatas>
 			<li>
 				<label>静电</label>
-				<description>尽管{PAWN_nameDef}在感染矿石病之初就体现出了不断释放静电的能力，但是在经历了卡拉顿的一系列事件后，{PAWN_possessive}静电开始进入了不稳定的状态。{PAWN_possessive}静电现在仿佛带有了情绪。
-				</description>
+				<description>尽管{PAWN_nameDef}在感染矿石病之初就体现出了不断释放静电的能力，但是在经历了卡拉顿的一系列事件后，{PAWN_possessive}静电开始进入了不稳定的状态。\n{PAWN_possessive}静电现在仿佛带有了情绪。</description>
 				<statOffsets>
 					<MentalBreakThreshold>0.10</MentalBreakThreshold>
 					<SocialImpact>-0.05</SocialImpact>
@@ -337,9 +324,7 @@
 		<degreeDatas>
 			<li>
 				<label>随和</label>
-				<description>{PAWN_nameDef}的性格相当受人欢迎，开朗，随和。勤恳做事，认真生活。
-尽管{PAWN_pronoun}有着良好的源石技艺适应性，但是{PAWN_possessive}目标却是成为一个出色的理发师。
-				</description>
+				<description>{PAWN_nameDef}的性格相当受人欢迎，开朗，随和。勤恳做事，认真生活。\n尽管{PAWN_pronoun}有着良好的源石技艺适应性，但是{PAWN_possessive}目标却是成为一个出色的理发师。</description>
 			</li>
 		</degreeDatas>
 	</TraitDef>
@@ -353,8 +338,7 @@
 		<degreeDatas>
 			<li>
 				<label>星束交汇</label>
-				<description>过去的就让它过去吧，未来，在自己手中
-				</description>
+				<description>过去的就让它过去吧，未来，在自己手中。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.15</MentalBreakThreshold>
 				</statOffsets>
@@ -369,8 +353,7 @@
 		<degreeDatas>
 			<li>
 				<label>独立</label>
-				<description>{PAWN_pronoun}才不想做那虚幻飘渺的星，{PAWN_pronoun}想要成为光芒。
-				</description>
+				<description>{PAWN_pronoun}才不想做那虚幻飘渺的星，{PAWN_pronoun}想要成为光芒。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.10</MentalBreakThreshold>
 					<SocialImpact>0.25</SocialImpact>
@@ -388,8 +371,7 @@
 		<degreeDatas>
 			<li>
 				<label>和弦</label>
-				<description>在通过档案审核和入职测试后，{PAWN_nameDef}就不再提起自己的身份，既不以维多利亚公爵的使臣自居，也不表现出与深池或是维多利亚军方的任何关联。对于绝大多数干员来说，{PAWN_pronoun}只是罗德岛新来的一名活泼且颇有教养的维多利亚人。
-				</description>
+				<description>在通过档案审核和入职测试后，{PAWN_nameDef}就不再提起自己的身份，既不以维多利亚公爵的使臣自居，也不表现出与深池或是维多利亚军方的任何关联。\n对于绝大多数干员来说，{PAWN_pronoun}只是罗德岛新来的一名活泼且颇有教养的维多利亚人。</description>
 			</li>
 		</degreeDatas>
 	</TraitDef>
@@ -401,8 +383,7 @@
 		<degreeDatas>
 			<li>
 				<label>双面间谍</label>
-				<description>一名公爵使者驻舰可能给罗德岛带来多大的危险，我已经不愿意预测了。维多利亚的势力错综复杂，我们不断在调查中发现各位干员身份背景里的潜在风险......似乎大家都逐渐适应这种事情了。
-				</description>
+				<description>一名公爵使者驻舰可能给罗德岛带来多大的危险，我已经不愿意预测了。维多利亚的势力错综复杂，我们不断在调查中发现各位干员身份背景里的潜在风险......\n似乎大家都逐渐适应这种事情了。</description>
 				<statOffsets>
 					<SocialImpact>0.3</SocialImpact>
 					<TradePriceImprovement>0.3</TradePriceImprovement>
@@ -418,9 +399,7 @@
 		<degreeDatas>
 			<li>
 				<label>散漫？</label>
-				<description>{PAWN_nameDef}参加的数次外勤任务里，{PAWN_possessive}队友时常会在报告中形容{PAWN_pronoun}“严苛”“雷厉风行”，而被{PAWN_pronoun}帮助过的队友则说，总觉得自己好像做错了什么事，但对方也没有明说，只是继续按部就班地执行命令，完成任务。
-当然，{PAWN_pronoun}本人的报告还是和{PAWN_pronoun}平时的态度一样散漫。
-				</description>
+				<description>{PAWN_nameDef}参加的数次外勤任务里，{PAWN_possessive}队友时常会在报告中形容{PAWN_pronoun}“严苛”“雷厉风行”，而被{PAWN_pronoun}帮助过的队友则说，总觉得自己好像做错了什么事，但对方也没有明说，只是继续按部就班地执行命令，完成任务。\n当然，{PAWN_pronoun}本人的报告还是和{PAWN_pronoun}平时的态度一样散漫。</description>
 			</li>
 		</degreeDatas>
 	</TraitDef>
@@ -434,8 +413,7 @@
 		<degreeDatas>
 			<li>
 				<label>灰色的林</label>
-				<description>“林”无疑是一个分量极重的名字。“鼠王”或者是“灰色的林”，鲜少有人见过{PAWN_possessive}真容，但这个名字本身就象征着一种秩序。
-				</description>
+				<description>“林”无疑是一个分量极重的名字。“鼠王”或者是“灰色的林”，鲜少有人见过{PAWN_possessive}真容，但这个名字本身就象征着一种秩序。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.28</MentalBreakThreshold>
 					<TradePriceImprovement>0.3</TradePriceImprovement>
@@ -452,8 +430,7 @@
 		<degreeDatas>
 			<li>
 				<label>计出万全</label>
-				<description>如果你足够幸运，碰巧在{PAWN_pronoun}空闲时获得了与{PAWN_pronoun}交谈的机会，你会惊叹于{PAWN_pronoun}在艺术，文化，商业与社交方面深厚的知识储备。
-				</description>
+				<description>如果你足够幸运，碰巧在{PAWN_pronoun}空闲时获得了与{PAWN_pronoun}交谈的机会，你会惊叹于{PAWN_pronoun}在艺术，文化，商业与社交方面深厚的知识储备。</description>
 				<statOffsets>
 					<SmoothingSpeed>0.24</SmoothingSpeed>
 					<ConstructionSpeed>0.2</ConstructionSpeed>
@@ -472,8 +449,7 @@
 		<degreeDatas>
 			<li>
 				<label>羽蛇</label>
-				<description>即使作为神民血脉稀释过的后裔，霍尔海雅依旧拥有强大的身体素质和战斗能力，这一点是毋庸置疑的。
-				</description>
+				<description>即使作为神民血脉稀释过的后裔，{PAWN_nameDef}依旧拥有强大的身体素质和战斗能力，这一点是毋庸置疑的。</description>
 				<statOffsets>
 					<ShootingAccuracyPawn>0.25</ShootingAccuracyPawn>
 					<MeleeDPS>1.5</MeleeDPS>
@@ -492,8 +468,7 @@
 		<degreeDatas>
 			<li>
 				<label>人形图书馆</label>
-				<description>霍尔海雅有着四百五十余年的记忆和知识传承，这让她几乎拥有绝大多数问题的解决方案和强大的思维能力。
-				</description>
+				<description>{PAWN_nameDef}有着四百五十余年的记忆和知识传承，这让{PAWN_pronoun}几乎拥有绝大多数问题的解决方案和强大的思维能力。</description>
 				<statOffsets>
 					<ResearchSpeed>1</ResearchSpeed>
 					<GlobalLearningFactor>0.75</GlobalLearningFactor>
@@ -510,8 +485,7 @@
 		<degreeDatas>
 			<li>
 				<label>曾有羽翼</label>
-				<description>“对于我们来说，历史是必修课，我们总是在历史中寻找答案。当我们在重重迷雾中发现，现代的历史被高耸的墙壁所包围，我们只是在虚构的舞台上进行一场或许无人观赏的演出时，我们所处的当下就失去了所有的吸引力。”
-				</description>
+				<description>“对于我们来说，历史是必修课，我们总是在历史中寻找答案。\n当我们在重重迷雾中发现，现代的历史被高耸的墙壁所包围，我们只是在虚构的舞台上进行一场或许无人观赏的演出时，我们所处的当下就失去了所有的吸引力。”</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.32</MentalBreakThreshold>
 				</statOffsets>
@@ -528,8 +502,7 @@
 		<degreeDatas>
 			<li>
 				<label>沙卒</label>
-				<description>异客有着非凡的手腕、胆识、毅力，这足以证明他沁礁黑市之主——沙卒的名号绝非名不副实。
-				</description>
+				<description>{PAWN_nameDef}有着非凡的手腕、胆识、毅力，这足以证明{PAWN_pronoun}沁礁黑市之主——沙卒的名号绝非名不副实。</description>
 				<statOffsets>
 					<SocialImpact>1</SocialImpact>
 					<TradePriceImprovement>0.25</TradePriceImprovement>
@@ -545,8 +518,7 @@
 		<degreeDatas>
 			<li>
 				<label>“今夕须臾之梦”</label>
-				<description>“一个迷茫的旅人，他的前二十几年的大好光阴都投入到了复仇这一事业之中。而当复仇成功之后，他陷入了迷茫，他回望一路上被他碾碎的时光和年少的自己，他并不什么都不在乎，而是因为——他所在乎的过去，那些大好时光，已经永远不会回来了。”
-				</description>
+				<description>“一个迷茫的旅人，{PAWN_possessive}前二十几年的大好光阴都投入到了复仇这一事业之中。\n而当复仇成功之后，{PAWN_pronoun}陷入了迷茫，{PAWN_pronoun}回望一路上被{PAWN_pronoun}碾碎的时光和年少的自己，{PAWN_pronoun}并不什么都不在乎，而是因为——{PAWN_pronoun}所在乎的过去，那些大好时光，已经永远不会回来了。”</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.45</MentalBreakThreshold>
 				</statOffsets>
@@ -554,18 +526,18 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<!-- 炎熔 -->
+
 	<TraitDef>
 		<ignoreConfigErrors>true</ignoreConfigErrors>
 		<commonality>0.0</commonality>
-		<defName>AK_Trait_VivianaThird</defName>
+		<defName>AK_Trait_LavaSecond</defName>
 		<degreeDatas>
 			<li>
-				<label>金盏花</label>
-				<description>烛骑士的美貌在整个泰拉都难以找出能出其右者，言语无法形容她的美好，只有她映照光辉的眼眸令人沉醉。
-				</description>
+				<label>傲娇</label>
+				<description>嘴巴倔，做事一点都听不进去别人的指指点点。但是其实{PAWN_nameDef}心中一直都有比谁都温柔和孩子气的一面，当然，{PAWN_nameDef}自己绝对不会承认这件事就是了。</description>
 				<statOffsets>
-					<SocialImpact>0.5</SocialImpact>
-					<PawnBeauty>3</PawnBeauty>
+					<SocialImpact>-0.15</SocialImpact>
 				</statOffsets>
 			</li>
 		</degreeDatas>
@@ -574,31 +546,15 @@
 	<TraitDef>
 		<ignoreConfigErrors>true</ignoreConfigErrors>
 		<commonality>0.0</commonality>
-		<defName>AK_Trait_VivianaSecond</defName>
+		<defName>AK_Trait_Lava</defName>
 		<degreeDatas>
 			<li>
-				<label>烛骑士</label>
-				<description>不同于其他屈服于资本的骑士，薇薇安娜依旧保持着身为骑士的矜持与正义感。
-				</description>
+				<label>中二病</label>
+				<description>{PAWN_nameDef}总是像小孩子一样沉迷于各种奇怪的幻想，经常会做一些说一些其他人无法理解的人或事。</description>
 				<statOffsets>
-					<SocialImpact>0.2</SocialImpact>
-					<PsychicSensitivity>0.15</PsychicSensitivity>
-					<MentalBreakThreshold>-0.18</MentalBreakThreshold>
+					<MentalBreakThreshold>-0.05</MentalBreakThreshold>
+					<SocialImpact>-0.05</SocialImpact>
 				</statOffsets>
-				<marketValueFactorOffset>6</marketValueFactorOffset>
-			</li>
-		</degreeDatas>
-	</TraitDef>
-
-	<TraitDef>
-		<ignoreConfigErrors>true</ignoreConfigErrors>
-		<commonality>0.0</commonality>
-		<defName>AK_Trait_Viviana</defName>
-		<degreeDatas>
-			<li>
-				<label>鸟笼中的金丝雀</label>
-				<description>薇薇安娜自小便被囚禁在高塔中，她对外界的认知长期困于诗集和小说，她虽然不吝于对困苦者施予善意，但是十指不沾阳春水的她还没能真正的理解底层人所要承受的痛苦。
-				</description>
 			</li>
 		</degreeDatas>
 	</TraitDef>

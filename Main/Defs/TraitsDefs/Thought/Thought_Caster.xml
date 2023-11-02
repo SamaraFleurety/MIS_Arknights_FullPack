@@ -7,22 +7,22 @@
 		<workerClass>ThoughtWorker_AlwaysActive</workerClass>
 		<validWhileDespawned>false</validWhileDespawned>
 	</ThoughtDef>
-	
+
 	<ThoughtDef>
 		<defName>AK_Thought_Trait_OperatorReceived</defName>
 		<stages>
 			<li>
 				<label>切尔诺伯格</label>
-				<description>我们无从得知从切尔诺伯格逃出来的人经历了什么。但无论如何这对他们来说都是地狱般的经历，并且毫无疑问需要很多时间去试图遗忘并适应新生活。</description>
+				<description>我们无从得知从切尔诺伯格逃出来的人经历了什么。\n但无论如何这对他们来说都是地狱般的经历，并且毫无疑问需要很多时间去试图遗忘并适应新生活。</description>
 				<baseMoodEffect>-20</baseMoodEffect>
 			</li>
 		</stages>
 	</ThoughtDef>
-	
+
 	<!-- Caster -->
 
 	<!-- 杜林 -->
-	
+
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_Durin</defName>
 		<requiredTraits>
@@ -36,7 +36,7 @@
 			</li>
 		</stages>
 	</ThoughtDef>
-	
+
 	<!-- 阿米娅 -->
 
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
@@ -63,7 +63,7 @@
 		<stages>
 			<li>
 				<label>尽波澜</label>
-				<description>外面的世界，我不在乎了。不喜欢？我当然喜欢。山川风月，花羽林渊，贩夫走卒，老少男女，画不尽，也看不完，越不过，也走不出。我兴致尽了。</description>
+				<description>外面的世界，我不在乎了。不喜欢？\n我当然喜欢。山川风月，花羽林渊，贩夫走卒，老少男女，画不尽，也看不完，越不过，也走不出。我兴致尽了。</description>
 				<baseMoodEffect>-6</baseMoodEffect>
 			</li>
 		</stages>
@@ -79,8 +79,7 @@
 		<stages>
 			<li>
 				<label>傻狗子</label>
-				<description>咬你哦！
-				</description>
+				<description>咬你哦！</description>
 				<baseMoodEffect>20</baseMoodEffect>
 			</li>
 		</stages>
@@ -96,9 +95,7 @@
 		<stages>
 			<li>
 				<label>学者之心</label>
-				<description>
-					为了完成父母的研究，我还得更努力才行。如果我能证明他们的研究是有意义的，说不定，将会有一个影响世界的大发现呢。
-				</description>
+				<description>为了完成父母的研究，我还得更努力才行。如果我能证明他们的研究是有意义的，说不定，将会有一个影响世界的大发现呢。</description>
 				<baseMoodEffect>5</baseMoodEffect>
 			</li>
 		</stages>
@@ -146,15 +143,12 @@
 		<stages>
 			<li>
 				<label>炎魔</label>
-				<description>
-					{0}时常会出现幻觉，她会看到烧焦的尸体与动物，或者亲密的人烈火焚身。
-					每当此时，她就会变得意识恍惚，因此烧掉一条走廊的事也不是没有。
-				</description>
+				<description>{0}时常会出现幻觉，她会看到烧焦的尸体与动物，或者亲密的人烈火焚身。\n每当此时，她就会变得意识恍惚，因此烧掉一条走廊的事也不是没有。</description>
 				<baseMoodEffect>-12</baseMoodEffect>
 			</li>
 		</stages>
 	</ThoughtDef>
-	
+
 	<!-- 卡涅利安 -->
 
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
@@ -191,21 +185,25 @@
 
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_Kjera</defName>
-		<requiredTraits><li>AK_Trait_Kjera</li></requiredTraits>
+		<requiredTraits>
+			<li>AK_Trait_Kjera</li>
+		</requiredTraits>
 		<stages>
 			<li>
 				<label>耶拉冈德</label>
-				<description>祈祷便能有回报，诚心便能得所求......要是真的存在这么方便的东西，我也想见一见呢。</description>
+				<description>祈祷便能有回报，诚心便能得所求......\n要是真的存在这么方便的东西，我也想见一见呢。</description>
 				<baseMoodEffect>10</baseMoodEffect>
 			</li>
 		</stages>
 	</ThoughtDef>
-	
+
 	<!-- 特米米 -->
-	
+
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_Tomimi</defName>
-		<requiredTraits><li>AK_Trait_Tomimi</li></requiredTraits>
+		<requiredTraits>
+			<li>AK_Trait_Tomimi</li>
+		</requiredTraits>
 		<stages>
 			<li>
 				<label>粗尾巴</label>
@@ -215,8 +213,8 @@
 		</stages>
 	</ThoughtDef>
 
-<!-- 澄闪 -->
-	
+	<!-- 澄闪 -->
+
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_GoldenglowSecond</defName>
 		<requiredTraits>
@@ -231,11 +229,13 @@
 		</stages>
 	</ThoughtDef>
 
-<!-- 星源 -->
+	<!-- 星源 -->
 
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_Astgenne</defName>
-		<requiredTraits><li>AK_Trait_Astgenne</li></requiredTraits>
+		<requiredTraits>
+			<li>AK_Trait_Astgenne</li>
+		</requiredTraits>
 		<stages>
 			<li>
 				<label>星束交汇</label>
@@ -247,7 +247,9 @@
 
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_AstgenneSecond</defName>
-		<requiredTraits><li>AK_Trait_AstgenneSecond</li></requiredTraits>
+		<requiredTraits>
+			<li>AK_Trait_AstgenneSecond</li>
+		</requiredTraits>
 		<stages>
 			<li>
 				<label>独立</label>
@@ -261,7 +263,9 @@
 
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_Harmonie</defName>
-		<requiredTraits><li>AK_Trait_Harmonie</li></requiredTraits>
+		<requiredTraits>
+			<li>AK_Trait_Harmonie</li>
+		</requiredTraits>
 		<stages>
 			<li>
 				<label>和弦</label>
@@ -275,7 +279,9 @@
 
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_Lin</defName>
-		<requiredTraits><li>AK_Trait_Lin</li></requiredTraits>
+		<requiredTraits>
+			<li>AK_Trait_Lin</li>
+		</requiredTraits>
 		<stages>
 			<li>
 				<label>灰色的林</label>
@@ -289,11 +295,13 @@
 
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_Hoolheyak</defName>
-		<requiredTraits><li>AK_Trait_Hoolheyak</li></requiredTraits>
+		<requiredTraits>
+			<li>AK_Trait_Hoolheyak</li>
+		</requiredTraits>
 		<stages>
 			<li>
 				<label>曾有羽翼</label>
-				<description>当我放下对“羽蛇”的追求以后，过去的答案已经失去了意义。克丽斯腾残忍地在推开了真理之门后抛弃了所有人，而我唯一的幸运， 是在门前发现了你们的存在。</description>
+				<description>当我放下对“羽蛇”的追求以后，过去的答案已经失去了意义。\n克丽斯腾残忍地在推开了真理之门后抛弃了所有人，而我唯一的幸运， 是在门前发现了你们的存在。</description>
 				<baseMoodEffect>-10</baseMoodEffect>
 			</li>
 		</stages>
@@ -303,24 +311,28 @@
 
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_Passenger</defName>
-		<requiredTraits><li>AK_Trait_Passenger</li></requiredTraits>
+		<requiredTraits>
+			<li>AK_Trait_Passenger</li>
+		</requiredTraits>
 		<stages>
 			<li>
 				<label>“今夕须臾之梦”</label>
-				<description>现在，我该和过去做个了断。可我接下来要做什么?去哪里?</description>
+				<description>现在，我该和过去做个了断。\n可我接下来要做什么?去哪里?</description>
 				<baseMoodEffect>-12</baseMoodEffect>
 			</li>
 		</stages>
 	</ThoughtDef>
 
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
-		<defName>AK_Thought_Trait_Viviana</defName>
-		<requiredTraits><li>AK_Trait_Viviana</li></requiredTraits>
+		<defName>AK_Thought_Trait_Lava</defName>
+		<requiredTraits>
+			<li>AK_Trait_Lava</li>
+		</requiredTraits>
 		<stages>
 			<li>
-				<label>鸟笼中的金丝雀</label>
-				<description>当房间里点燃一支蜡烛时，最吸引你目光的是那点烛光，而真正将你包裹的，是周遭所有器物的影子。</description>
-				<baseMoodEffect>-10</baseMoodEffect>
+				<label>中二病</label>
+				<description>法术的最高境界，有点好奇啊。</description>
+				<baseMoodEffect>5</baseMoodEffect>
 			</li>
 		</stages>
 	</ThoughtDef>

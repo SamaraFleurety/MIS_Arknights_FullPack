@@ -6,8 +6,7 @@
         <slot>Childhood</slot>
         <title>飞行员的孩子</title>
         <titleShort>飞行员的孩子</titleShort>
-        <baseDesc>{PAWN_nameDef}出生于哥伦比亚一对飞行器研究员夫妻的家庭中，{PAWN_pronoun}本应受到良好的教育并拥有一个至少没有苦难的童年，但这一切在那次事故后戛然而止。
-这给{PAWN_pronoun}留下了严重的心理创伤。</baseDesc>
+        <baseDesc>{PAWN_nameDef}出生于哥伦比亚一对飞行器研究员夫妻的家庭中，{PAWN_pronoun}本应受到良好的教育并拥有一个至少没有苦难的童年，但这一切在那次事故后戛然而止。\n这给{PAWN_pronoun}留下了严重的心理创伤。</baseDesc>
     </BackstoryDef>
 
     <BackstoryDef ParentName = "AK_StoryBase">

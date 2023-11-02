@@ -98,8 +98,7 @@
 		<degreeDatas>
 			<li>
 				<label>“我感到迷惑”</label>
-				<description>{PAWN_nameDef}作为拉特兰公证所的执行人，有着他人难以比拟的心理素质和战斗能力
-但是{PAWN_possessive}情商也是无法理解的低</description>
+				<description>{PAWN_nameDef}作为拉特兰公证所的执行人，有着他人难以比拟的心理素质和战斗能力。\n但是{PAWN_possessive}情商也是无法理解的低</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.8</MentalBreakThreshold>
 					<SocialImpact>-0.4</SocialImpact>
@@ -135,8 +134,7 @@
 		<degreeDatas>
 			<li>
 				<label>翔隼</label>
-				<description>即使被金钱暂时埋没，卡西米尔的精神却从未远去，它们等待着再次现身，在天空中翱翔。
-				</description>
+				<description>即使被金钱暂时埋没，卡西米尔的精神却从未远去，它们等待着再次现身，在天空中翱翔。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.15</MentalBreakThreshold>
 				</statOffsets>
@@ -151,8 +149,7 @@
 		<degreeDatas>
 			<li>
 				<label>风息</label>
-				<description>{PAWN_nameDef}的思维像风一样迅速又自由，或许{PAWN_pronoun}也会在风中闻到家乡的气息。
-				</description>
+				<description>{PAWN_nameDef}的思维像风一样迅速又自由，或许{PAWN_pronoun}也会在风中闻到家乡的气息。</description>
 				<statOffsets>
 					<GlobalLearningFactor>0.10</GlobalLearningFactor>
 				</statOffsets>
@@ -169,8 +166,7 @@
 		<degreeDatas>
 			<li>
 				<label>陈述苦难</label>
-				<description>{PAWN_nameDef}作为拉特兰公证所外派干员经历了许多，现在{PAWN_pronoun}对于守护拉特兰的执念已经十分坚定
-				</description>
+				<description>{PAWN_nameDef}作为拉特兰公证所外派干员经历了许多，现在{PAWN_pronoun}对于守护拉特兰的执念已经十分坚定</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.25</MentalBreakThreshold>
 				</statOffsets>
@@ -187,8 +183,7 @@
 		<degreeDatas>
 			<li>
 				<label>天使的祝福</label>
-				<description>{PAWN_nameDef}与大多数拉特兰人给人的印象不同，是个彻头彻尾的乐天派。
-精通各种娱乐方式，无论什么时候都能找到让自己高兴的办法，在团队中总是充当活跃气氛的那个人。</description>
+				<description>{PAWN_nameDef}与大多数拉特兰人给人的印象不同，是个彻头彻尾的乐天派。\n精通各种娱乐方式，无论什么时候都能找到让自己高兴的办法，在团队中总是充当活跃气氛的那个人。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.4</MentalBreakThreshold>
 				</statOffsets>
@@ -239,7 +234,7 @@
 		<degreeDatas>
 			<li>
 				<label>飞羽的倒影</label>
-				<description>尽管{PAWN_nameDef}对于感染者的态度已经不那么偏激了，但是{PAWN_pronoun}童年的遭遇让她对感染者有着潜意识的回避，{PAWN_pronoun}显然还没能逃脱出童年的阴影。</description>
+				<description>尽管{PAWN_nameDef}对于感染者的态度已经不那么偏激了，但是{PAWN_pronoun}童年的遭遇让{PAWN_pronoun}对感染者有着潜意识的回避，{PAWN_pronoun}显然还没能逃脱出童年的阴影。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.2</MentalBreakThreshold>
 					<SocialImpact>-0.2</SocialImpact>
@@ -257,7 +252,7 @@
 		<degreeDatas>
 			<li>
 				<label>流泪猫猫头</label>
-				<description>{PAWN_nameDef}作为雷神工业的千金，却意外的性格软弱，而且非常爱哭，结果在黑钢国际混的连实习生香草都不如。不过实际上她比外表看上去更可靠。</description>
+				<description>{PAWN_nameDef}作为雷神工业的千金，却意外的性格软弱，而且非常爱哭，结果在黑钢国际混的连实习生香草都不如。不过实际上{PAWN_pronoun}比外表看上去更可靠。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.15</MentalBreakThreshold>
 					<SocialImpact>-0.1</SocialImpact>
@@ -275,10 +270,7 @@
 		<degreeDatas>
 			<li>
 				<label>毒物</label>
-				<description>
-					针对自己作为毒物的这一事实，{PAWN_nameDef}表现出较为抗拒的态度。
-					但如果保证毒物能力能被其他干员所接受，并不再影响他人对蓝毒的态度的话，{PAWN_pronoun}是否能接受自己的毒物能力？
-				</description>
+				<description>针对自己作为毒物的这一事实，{PAWN_nameDef}表现出较为抗拒的态度。\n但如果保证毒物能力能被其他干员所接受，并不再影响他人对蓝毒的态度的话，{PAWN_pronoun}是否能接受自己的毒物能力？</description>
 				<statOffsets>
 					<ImmunityGainSpeed>1.4</ImmunityGainSpeed>
 					<SocialImpact>-0.2</SocialImpact>
@@ -331,9 +323,7 @@
 		<degreeDatas>
 			<li>
 				<label>阴影里生存的人</label>
-				<description>{PAWN_nameDef}只有在锡兰小姐身边时，才会收敛自己的本性。
-{PAWN_possessive}冷酷无情与漠视生命，才更接近{PAWN_pronoun}本性的一部分。那是刻在{PAWN_pronoun}灵魂中的东西。
-{PAWN_pronoun}灵魂中的邪恶仍然需要被驯服。</description>
+				<description>{PAWN_nameDef}只有在锡兰小姐身边时，才会收敛自己的本性。\n{PAWN_possessive}冷酷无情与漠视生命，才更接近{PAWN_pronoun}本性的一部分。那是刻在{PAWN_pronoun}灵魂中的东西。\n{PAWN_pronoun}灵魂中的邪恶仍然需要被驯服。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.4</MentalBreakThreshold>
 					<SocialImpact>-0.3</SocialImpact>
@@ -368,8 +358,7 @@
 		<degreeDatas>
 			<li>
 				<label>阳光少女</label>
-				<description>尽管因为对感染者的天热歧视，{PAWN_nameDef}一时难以接受自己成为感染者的事实，但是{PAWN_pronoun}还是依靠着阳光外向的性格扛了下来。并且慢慢适应罗德岛的生活。
-				</description>
+				<description>尽管因为对感染者的天热歧视，{PAWN_nameDef}一时难以接受自己成为感染者的事实，但是{PAWN_pronoun}还是依靠着阳光外向的性格扛了下来。并且慢慢适应罗德岛的生活。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.2</MentalBreakThreshold>
 				</statOffsets>
@@ -386,8 +375,7 @@
 		<degreeDatas>
 			<li>
 				<label>猎手</label>
-				<description>“若是有实在难以决断的事就凭直觉去选择，身体是不会骗人的，这可是资深猎手的经验。”
-				</description>
+				<description>“若是有实在难以决断的事就凭直觉去选择，身体是不会骗人的，这可是资深猎手的经验。”</description>
 			</li>
 		</degreeDatas>
 	</TraitDef>
@@ -401,8 +389,7 @@
 		<degreeDatas>
 			<li>
 				<label>执拗</label>
-				<description>“熔泉的性格其实很好琢磨，她本身是个不听劝的石头，但你对她温和，她也会适当地......不那么，尖锐。但你要想强制她做些什么，吼吼，那可就有意思了，你看，她是个瓦伊凡，还上过军校，比谁拳头大她可是专业的。‘强扭的驮兽不听话’啊，想要她做些什么，还是得慢慢来。”——干员点评摘录
-				</description>
+				<description>“{PAWN_nameDef}的性格其实很好琢磨，{PAWN_pronoun}本身是个不听劝的石头，但你对{PAWN_pronoun}温和，{PAWN_pronoun}也会适当地......不那么，尖锐。但你要想强制{PAWN_pronoun}做些什么，吼吼，那可就有意思了，你看，{PAWN_pronoun}是个瓦伊凡，还上过军校，比谁拳头大{PAWN_pronoun}可是专业的。‘强扭的驮兽不听话’啊，想要{PAWN_pronoun}做些什么，还是得慢慢来。”——干员点评摘录</description>
 				<statOffsets>
 					<SocialImpact>-0.2</SocialImpact>
 					<MentalBreakThreshold>-0.3</MentalBreakThreshold>
@@ -418,8 +405,7 @@
 		<degreeDatas>
 			<li>
 				<label>狼孩</label>
-				<description>她在荒野上长大，荒野养育了她。
-				</description>
+				<description>{PAWN_pronoun}在荒野上长大，荒野养育了{PAWN_pronoun}。</description>
 				<statOffsets>
 					<SocialImpact>-0.2</SocialImpact>
 					<GeneralLaborSpeed>0.2</GeneralLaborSpeed>
@@ -437,8 +423,7 @@
 		<degreeDatas>
 			<li>
 				<label>阿涅赛</label>
-				<description>子月一直声称阿涅塞就在她的身边，也确有种种迹象表明，某种存在时常陪伴在子月的周围，但无论借助何种手段，我们暂时都还没有弄清楚，这位“阿涅塞”究竟是什么人，或者，是什么。
-				</description>
+				<description>{PAWN_nameDef}一直声称阿涅塞就在{PAWN_possessive}身边，也确有种种迹象表明，某种存在时常陪伴在子月的周围，但无论借助何种手段，我们暂时都还没有弄清楚，这位“阿涅塞”究竟是什么人，或者，是什么。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.15</MentalBreakThreshold>
 					<TameAnimalChance>2</TameAnimalChance>
@@ -456,8 +441,7 @@
 		<degreeDatas>
 			<li>
 				<label>锐笔</label>
-				<description>作为“文学代表”，鸿雪在际崖城承担了大量广告标语和文案包装之类的工作。与际崖城杜林人散漫的语言组织方式不同，她的广告词总能别出心裁，在商业写作之余，鸿雪也在进行文学创作——诗歌、小说、剧作。
-				</description>
+				<description>作为“文学代表”，{PAWN_nameDef}在际崖城承担了大量广告标语和文案包装之类的工作。\n与际崖城杜林人散漫的语言组织方式不同，{PAWN_possessive}广告词总能别出心裁，在商业写作之余，鸿雪也在进行文学创作——诗歌、小说、剧作。</description>
 				<statOffsets>
 					<GlobalLearningFactor>0.2</GlobalLearningFactor>
 					<!-- <TameAnimalChance>2</TameAnimalChance> -->
@@ -473,8 +457,7 @@
 		<degreeDatas>
 			<li>
 				<label>鸿雪</label>
-				<description>鸿雪对绝大多数非杜林族干员保持着强烈的警惕性，在过分礼貌之余拒绝透露任何非必要的信息。从际崖城回来的干员们似乎听鸿雪讲过内情，但大家默契地三缄其口。
-				</description>
+				<description>{PAWN_nameDef}对绝大多数非杜林族干员保持着强烈的警惕性，在过分礼貌之余拒绝透露任何非必要的信息。\n从际崖城回来的干员们似乎听鸿雪讲过内情，但大家默契地三缄其口。</description>
 				<statOffsets>
 					<SocialImpact>0.15</SocialImpact>
 				</statOffsets>
@@ -491,8 +474,7 @@
 		<degreeDatas>
 			<li>
 				<label>永恒狩猎</label>
-				<description>日复一日，她与危机四伏的冻原搏斗，在摸爬滚打中积累生存知识与狩猎技巧，与哪些看不见的影子和仇敌进行着永恒的战斗和狩猎。
-				</description>
+				<description>日复一日，{PAWN_pronoun}与危机四伏的冻原搏斗，在摸爬滚打中积累生存知识与狩猎技巧，与哪些看不见的影子和仇敌进行着永恒的战斗和狩猎。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.4</MentalBreakThreshold>
 					<ShootingAccuracyPawn>10</ShootingAccuracyPawn>
@@ -509,8 +491,7 @@
 		<degreeDatas>
 			<li>
 				<label>自然秩序</label>
-				<description>对于提丰来说，没有任何一栋房子能被称之为“家”，只有广阔的萨米大地才能被称为“家”，对于猎人来说，整个萨米的自然环境才是她真正的归属。她生于自然，自然会用自己的一切回馈自然。
-				</description>
+				<description>对于提丰来说，没有任何一栋房子能被称之为“家”，只有广阔的萨米大地才能被称为“家”，对于猎人来说，整个萨米的自然环境才是{PAWN_pronoun}真正的归属。\n{PAWN_pronoun}生于自然，自然会用自己的一切回馈自然。</description>
 				<statOffsets>
 					<PlantWorkSpeed>0.15</PlantWorkSpeed>
 					<ImmunityGainSpeed>0.4</ImmunityGainSpeed>
@@ -529,8 +510,7 @@
 		<degreeDatas>
 			<li>
 				<label>慢性子</label>
-				<description>克洛丝做什么事都是慢慢吞吞的，就算被人催着做也只会笑眯眯的敷衍过去。不过慢悠悠的性子似乎让她在某些时候更能冷静的思考问题
-				</description>
+				<description>克洛丝做什么事都是慢慢吞吞的，就算被人催着做也只会笑眯眯的敷衍过去。\n不过慢悠悠的性子似乎让{PAWN_pronoun}在某些时候更能冷静的思考问题。</description>
 				<statOffsets>
 					<GlobalLearningFactor>-0.15</GlobalLearningFactor>
 					<MentalBreakThreshold>-0.2</MentalBreakThreshold>
@@ -547,8 +527,7 @@
 		<degreeDatas>
 			<li>
 				<label>怕麻烦</label>
-				<description>克洛丝平常总是笑眯眯的，也不喜欢打抱不平和强出头，即使和人争吵也只会笑着避开。不过她有时候确实挺腹黑的。
-				</description>
+				<description>克洛丝平常总是笑眯眯的，也不喜欢打抱不平和强出头，即使和人争吵也只会笑着避开。\n不过{PAWN_pronoun}有时候确实挺腹黑的。</description>
 				<statOffsets>
 					<SocialImpact>0.15</SocialImpact>
 				</statOffsets>
@@ -565,8 +544,7 @@
 		<degreeDatas>
 			<li>
 				<label>英雄的诞生</label>
-				<description>对于埃拉托而言，英雄需要他人的支持，需要自身的成长，最终实现理想，这样的英雄来自于人，又回归于人。她的行动也在努力朝着这个目标靠拢。
-				</description>
+				<description>对于{PAWN_nameDef}而言，英雄需要他人的支持，需要自身的成长，最终实现理想，这样的英雄来自于人，又回归于人。\n{PAWN_possessive}行动也在努力朝着这个目标靠拢。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.18</MentalBreakThreshold>
 				</statOffsets>
@@ -581,8 +559,7 @@
 		<degreeDatas>
 			<li>
 				<label>诗歌的热诚</label>
-				<description>以一种温柔的方式，鼓舞人们带着热情去生活。对于爱与美的追求可以成为人们生活的信念，埃拉托小姐对一切事物的兴趣和仿佛永远不会枯竭的热情，或许正来源于此。
-				</description>
+				<description>以一种温柔的方式，鼓舞人们带着热情去生活。对于爱与美的追求可以成为人们生活的信念，{PAWN_nameDef}小姐对一切事物的兴趣和仿佛永远不会枯竭的热情，或许正来源于此。</description>
 				<statOffsets>
 					<SocialImpact>0.15</SocialImpact>
 				</statOffsets>

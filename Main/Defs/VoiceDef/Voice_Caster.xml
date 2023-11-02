@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
- <!-- 阿米娅语音 -->
+	<!-- 阿米娅语音 -->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Amiya</defName>
@@ -224,7 +224,7 @@
 		</subSounds>
 	</SoundDef>
 
- <!-- 澄闪语音 -->
+	<!-- 澄闪语音 -->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Goldenglow</defName>
@@ -448,7 +448,7 @@
 	</SoundDef>
 
 
- <!-- 艾尔法拉语音 -->
+	<!-- 艾尔法拉语音 -->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Eyjafjalla</defName>
@@ -671,7 +671,7 @@
 		</subSounds>
 	</SoundDef>
 
- <!-- 夕语音 -->
+	<!-- 夕语音 -->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Dusk</defName>
@@ -894,7 +894,7 @@
 		</subSounds>
 	</SoundDef>
 
- <!-- 苦艾语音 -->
+	<!-- 苦艾语音 -->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Absinthe</defName>
@@ -1117,7 +1117,7 @@
 		</subSounds>
 	</SoundDef>
 
- <!-- 小刻语音 -->
+	<!-- 小刻语音 -->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Ceobe</defName>
@@ -1340,7 +1340,7 @@
 		</subSounds>
 	</SoundDef>
 
- <!-- 伊芙利特语音 -->
+	<!-- 伊芙利特语音 -->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Ifrit</defName>
@@ -1563,7 +1563,7 @@
 		</subSounds>
 	</SoundDef>
 
- <!-- 深靛语音 -->
+	<!-- 深靛语音 -->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Indigo</defName>
@@ -1786,7 +1786,7 @@
 		</subSounds>
 	</SoundDef>
 
- <!-- 薄绿语音 -->
+	<!-- 薄绿语音 -->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Mint</defName>
@@ -2009,7 +2009,7 @@
 		</subSounds>
 	</SoundDef>
 
- <!-- 特米米语音 -->
+	<!-- 特米米语音 -->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Tomimi</defName>
@@ -2232,7 +2232,7 @@
 		</subSounds>
 	</SoundDef>
 
- <!-- 莫斯提马语音 -->
+	<!-- 莫斯提马语音 -->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Mostima</defName>
@@ -2455,7 +2455,7 @@
 		</subSounds>
 	</SoundDef>
 
- <!-- 天火语音 -->
+	<!-- 天火语音 -->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Skyfire</defName>
@@ -2678,7 +2678,7 @@
 		</subSounds>
 	</SoundDef>
 
- <!-- 蜜蜡语音 -->
+	<!-- 蜜蜡语音 -->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Beeswax</defName>
@@ -2901,7 +2901,7 @@
 		</subSounds>
 	</SoundDef>
 
- <!-- 卡涅利安语音 -->
+	<!-- 卡涅利安语音 -->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Carnelian</defName>
@@ -3124,7 +3124,7 @@
 		</subSounds>
 	</SoundDef>
 
- <!-- 耶拉语音 -->
+	<!-- 耶拉语音 -->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Kjera</defName>
@@ -3347,7 +3347,7 @@
 		</subSounds>
 	</SoundDef>
 
- <!-- Astgenne 星源 -->
+	<!-- Astgenne 星源 -->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Astgenne</defName>
@@ -3570,7 +3570,7 @@
 		</subSounds>
 	</SoundDef>
 
- <!-- Harmonie 和弦 -->
+	<!-- Harmonie 和弦 -->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Harmonie</defName>
@@ -3793,7 +3793,7 @@
 		</subSounds>
 	</SoundDef>
 
- <!-- Lin 林 -->
+	<!-- Lin 林 -->
 
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Lin</defName>
@@ -4021,11 +4021,11 @@
 		<subSounds>
 			<li>
 				<onCamera>True</onCamera>
-					<grains>
-						<li Class="AudioGrain_Clip">
-							<clipPath>Operator/Caster/Hoolheyak/char_4027_heyak/Recruit_Hoolheyak</clipPath>
-						</li>
-					</grains>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Hoolheyak/char_4027_heyak/Recruit_Hoolheyak</clipPath>
+					</li>
+				</grains>
 				<volumeRange>40~40</volumeRange>
 				<distRange>10~100</distRange>
 				<sustainLoop>False</sustainLoop>
@@ -4038,11 +4038,11 @@
 		<subSounds>
 			<li>
 				<onCamera>True</onCamera>
-					<grains>
-						<li Class="AudioGrain_Clip">
-							<clipPath>Operator/Caster/Hoolheyak/char_4027_heyak/Die_Hoolheyak</clipPath>
-						</li>
-					</grains>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Hoolheyak/char_4027_heyak/Die_Hoolheyak</clipPath>
+					</li>
+				</grains>
 				<volumeRange>40~40</volumeRange>
 				<distRange>10~100</distRange>
 				<sustainLoop>False</sustainLoop>
@@ -4055,11 +4055,11 @@
 		<subSounds>
 			<li>
 				<onCamera>True</onCamera>
-					<grains>
-						<li Class="AudioGrain_Clip">
-							<clipPath>Operator/Caster/Hoolheyak/char_4027_heyak/Undraft_Hoolheyak</clipPath>
-						</li>
-					</grains>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Hoolheyak/char_4027_heyak/Undraft_Hoolheyak</clipPath>
+					</li>
+				</grains>
 				<volumeRange>40~40</volumeRange>
 				<distRange>10~100</distRange>
 				<sustainLoop>False</sustainLoop>
@@ -4072,11 +4072,11 @@
 		<subSounds>
 			<li>
 				<onCamera>True</onCamera>
-					<grains>
-						<li Class="AudioGrain_Clip">
-							<clipPath>Operator/Caster/Hoolheyak/char_4027_heyak/Select_HoolheyakI</clipPath>
-						</li>
-					</grains>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Hoolheyak/char_4027_heyak/Select_HoolheyakI</clipPath>
+					</li>
+				</grains>
 				<volumeRange>40~40</volumeRange>
 				<distRange>10~100</distRange>
 				<sustainLoop>False</sustainLoop>
@@ -4089,11 +4089,11 @@
 		<subSounds>
 			<li>
 				<onCamera>True</onCamera>
-					<grains>
-						<li Class="AudioGrain_Clip">
-							<clipPath>Operator/Caster/Hoolheyak/char_4027_heyak/Select_HoolheyakII</clipPath>
-						</li>
-					</grains>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Hoolheyak/char_4027_heyak/Select_HoolheyakII</clipPath>
+					</li>
+				</grains>
 				<volumeRange>40~40</volumeRange>
 				<distRange>10~100</distRange>
 				<sustainLoop>False</sustainLoop>
@@ -4106,11 +4106,11 @@
 		<subSounds>
 			<li>
 				<onCamera>True</onCamera>
-					<grains>
-						<li Class="AudioGrain_Clip">
-							<clipPath>Operator/Caster/Hoolheyak/char_4027_heyak/Select_HoolheyakIII</clipPath>
-						</li>
-					</grains>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Hoolheyak/char_4027_heyak/Select_HoolheyakIII</clipPath>
+					</li>
+				</grains>
 				<volumeRange>40~40</volumeRange>
 				<distRange>10~100</distRange>
 				<sustainLoop>False</sustainLoop>
@@ -4123,11 +4123,11 @@
 		<subSounds>
 			<li>
 				<onCamera>True</onCamera>
-					<grains>
-						<li Class="AudioGrain_Clip">
-							<clipPath>Operator/Caster/Hoolheyak/char_4027_heyak/Select_HoolheyakIV</clipPath>
-						</li>
-					</grains>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Hoolheyak/char_4027_heyak/Select_HoolheyakIV</clipPath>
+					</li>
+				</grains>
 				<volumeRange>40~40</volumeRange>
 				<distRange>10~100</distRange>
 				<sustainLoop>False</sustainLoop>
@@ -4140,11 +4140,11 @@
 		<subSounds>
 			<li>
 				<onCamera>True</onCamera>
-					<grains>
-						<li Class="AudioGrain_Clip">
-							<clipPath>Operator/Caster/Hoolheyak/char_4027_heyak/Draft_HoolheyakI</clipPath>
-						</li>
-					</grains>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Hoolheyak/char_4027_heyak/Draft_HoolheyakI</clipPath>
+					</li>
+				</grains>
 				<volumeRange>40~40</volumeRange>
 				<distRange>10~100</distRange>
 				<sustainLoop>False</sustainLoop>
@@ -4157,11 +4157,11 @@
 		<subSounds>
 			<li>
 				<onCamera>True</onCamera>
-					<grains>
-						<li Class="AudioGrain_Clip">
-							<clipPath>Operator/Caster/Hoolheyak/char_4027_heyak/Draft_HoolheyakII</clipPath>
-						</li>
-					</grains>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Hoolheyak/char_4027_heyak/Draft_HoolheyakII</clipPath>
+					</li>
+				</grains>
 				<volumeRange>40~40</volumeRange>
 				<distRange>10~100</distRange>
 				<sustainLoop>False</sustainLoop>
@@ -4174,11 +4174,11 @@
 		<subSounds>
 			<li>
 				<onCamera>True</onCamera>
-					<grains>
-						<li Class="AudioGrain_Clip">
-							<clipPath>Operator/Caster/Hoolheyak/char_4027_heyak/Ability_HoolheyakI</clipPath>
-						</li>
-					</grains>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Hoolheyak/char_4027_heyak/Ability_HoolheyakI</clipPath>
+					</li>
+				</grains>
 				<volumeRange>40~40</volumeRange>
 				<distRange>10~100</distRange>
 				<sustainLoop>False</sustainLoop>
@@ -4191,11 +4191,11 @@
 		<subSounds>
 			<li>
 				<onCamera>True</onCamera>
-					<grains>
-						<li Class="AudioGrain_Clip">
-							<clipPath>Operator/Caster/Hoolheyak/char_4027_heyak/Ability_HoolheyakII</clipPath>
-						</li>
-					</grains>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Hoolheyak/char_4027_heyak/Ability_HoolheyakII</clipPath>
+					</li>
+				</grains>
 				<volumeRange>40~40</volumeRange>
 				<distRange>10~100</distRange>
 				<sustainLoop>False</sustainLoop>
@@ -4208,11 +4208,11 @@
 		<subSounds>
 			<li>
 				<onCamera>True</onCamera>
-					<grains>
-						<li Class="AudioGrain_Clip">
-							<clipPath>Operator/Caster/Hoolheyak/char_4027_heyak/Ability_HoolheyakIII</clipPath>
-						</li>
-					</grains>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Hoolheyak/char_4027_heyak/Ability_HoolheyakIII</clipPath>
+					</li>
+				</grains>
 				<volumeRange>40~40</volumeRange>
 				<distRange>10~100</distRange>
 				<sustainLoop>False</sustainLoop>
@@ -4225,11 +4225,11 @@
 		<subSounds>
 			<li>
 				<onCamera>True</onCamera>
-					<grains>
-						<li Class="AudioGrain_Clip">
-							<clipPath>Operator/Caster/Hoolheyak/char_4027_heyak/Ability_HoolheyakIV</clipPath>
-						</li>
-					</grains>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Hoolheyak/char_4027_heyak/Ability_HoolheyakIV</clipPath>
+					</li>
+				</grains>
 				<volumeRange>40~40</volumeRange>
 				<distRange>10~100</distRange>
 				<sustainLoop>False</sustainLoop>
@@ -4242,11 +4242,11 @@
 		<subSounds>
 			<li>
 				<onCamera>True</onCamera>
-					<grains>
-						<li Class="AudioGrain_Clip">
-							<clipPath>Operator/Caster/Passenger/char_472_pasngr/Recruit_Passenger</clipPath>
-						</li>
-					</grains>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Passenger/char_472_pasngr/Recruit_Passenger</clipPath>
+					</li>
+				</grains>
 				<volumeRange>40~40</volumeRange>
 				<distRange>10~100</distRange>
 				<sustainLoop>False</sustainLoop>
@@ -4259,11 +4259,11 @@
 		<subSounds>
 			<li>
 				<onCamera>True</onCamera>
-					<grains>
-						<li Class="AudioGrain_Clip">
-							<clipPath>Operator/Caster/Passenger/char_472_pasngr/Die_Passenger</clipPath>
-						</li>
-					</grains>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Passenger/char_472_pasngr/Die_Passenger</clipPath>
+					</li>
+				</grains>
 				<volumeRange>40~40</volumeRange>
 				<distRange>10~100</distRange>
 				<sustainLoop>False</sustainLoop>
@@ -4276,11 +4276,11 @@
 		<subSounds>
 			<li>
 				<onCamera>True</onCamera>
-					<grains>
-						<li Class="AudioGrain_Clip">
-							<clipPath>Operator/Caster/Passenger/char_472_pasngr/Undraft_Passenger</clipPath>
-						</li>
-					</grains>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Passenger/char_472_pasngr/Undraft_Passenger</clipPath>
+					</li>
+				</grains>
 				<volumeRange>40~40</volumeRange>
 				<distRange>10~100</distRange>
 				<sustainLoop>False</sustainLoop>
@@ -4293,11 +4293,11 @@
 		<subSounds>
 			<li>
 				<onCamera>True</onCamera>
-					<grains>
-						<li Class="AudioGrain_Clip">
-							<clipPath>Operator/Caster/Passenger/char_472_pasngr/Select_PassengerI</clipPath>
-						</li>
-					</grains>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Passenger/char_472_pasngr/Select_PassengerI</clipPath>
+					</li>
+				</grains>
 				<volumeRange>40~40</volumeRange>
 				<distRange>10~100</distRange>
 				<sustainLoop>False</sustainLoop>
@@ -4310,11 +4310,11 @@
 		<subSounds>
 			<li>
 				<onCamera>True</onCamera>
-					<grains>
-						<li Class="AudioGrain_Clip">
-							<clipPath>Operator/Caster/Passenger/char_472_pasngr/Select_PassengerII</clipPath>
-						</li>
-					</grains>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Passenger/char_472_pasngr/Select_PassengerII</clipPath>
+					</li>
+				</grains>
 				<volumeRange>40~40</volumeRange>
 				<distRange>10~100</distRange>
 				<sustainLoop>False</sustainLoop>
@@ -4327,11 +4327,11 @@
 		<subSounds>
 			<li>
 				<onCamera>True</onCamera>
-					<grains>
-						<li Class="AudioGrain_Clip">
-							<clipPath>Operator/Caster/Passenger/char_472_pasngr/Select_PassengerIII</clipPath>
-						</li>
-					</grains>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Passenger/char_472_pasngr/Select_PassengerIII</clipPath>
+					</li>
+				</grains>
 				<volumeRange>40~40</volumeRange>
 				<distRange>10~100</distRange>
 				<sustainLoop>False</sustainLoop>
@@ -4344,11 +4344,11 @@
 		<subSounds>
 			<li>
 				<onCamera>True</onCamera>
-					<grains>
-						<li Class="AudioGrain_Clip">
-							<clipPath>Operator/Caster/Passenger/char_472_pasngr/Select_PassengerIV</clipPath>
-						</li>
-					</grains>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Passenger/char_472_pasngr/Select_PassengerIV</clipPath>
+					</li>
+				</grains>
 				<volumeRange>40~40</volumeRange>
 				<distRange>10~100</distRange>
 				<sustainLoop>False</sustainLoop>
@@ -4361,11 +4361,11 @@
 		<subSounds>
 			<li>
 				<onCamera>True</onCamera>
-					<grains>
-						<li Class="AudioGrain_Clip">
-							<clipPath>Operator/Caster/Passenger/char_472_pasngr/Draft_PassengerI</clipPath>
-						</li>
-					</grains>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Passenger/char_472_pasngr/Draft_PassengerI</clipPath>
+					</li>
+				</grains>
 				<volumeRange>40~40</volumeRange>
 				<distRange>10~100</distRange>
 				<sustainLoop>False</sustainLoop>
@@ -4378,11 +4378,11 @@
 		<subSounds>
 			<li>
 				<onCamera>True</onCamera>
-					<grains>
-						<li Class="AudioGrain_Clip">
-							<clipPath>Operator/Caster/Passenger/char_472_pasngr/Draft_PassengerII</clipPath>
-						</li>
-					</grains>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Passenger/char_472_pasngr/Draft_PassengerII</clipPath>
+					</li>
+				</grains>
 				<volumeRange>40~40</volumeRange>
 				<distRange>10~100</distRange>
 				<sustainLoop>False</sustainLoop>
@@ -4395,11 +4395,11 @@
 		<subSounds>
 			<li>
 				<onCamera>True</onCamera>
-					<grains>
-						<li Class="AudioGrain_Clip">
-							<clipPath>Operator/Caster/Passenger/char_472_pasngr/Ability_PassengerI</clipPath>
-						</li>
-					</grains>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Passenger/char_472_pasngr/Ability_PassengerI</clipPath>
+					</li>
+				</grains>
 				<volumeRange>40~40</volumeRange>
 				<distRange>10~100</distRange>
 				<sustainLoop>False</sustainLoop>
@@ -4412,11 +4412,11 @@
 		<subSounds>
 			<li>
 				<onCamera>True</onCamera>
-					<grains>
-						<li Class="AudioGrain_Clip">
-							<clipPath>Operator/Caster/Passenger/char_472_pasngr/Ability_PassengerII</clipPath>
-						</li>
-					</grains>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Passenger/char_472_pasngr/Ability_PassengerII</clipPath>
+					</li>
+				</grains>
 				<volumeRange>40~40</volumeRange>
 				<distRange>10~100</distRange>
 				<sustainLoop>False</sustainLoop>
@@ -4429,11 +4429,11 @@
 		<subSounds>
 			<li>
 				<onCamera>True</onCamera>
-					<grains>
-						<li Class="AudioGrain_Clip">
-							<clipPath>Operator/Caster/Passenger/char_472_pasngr/Ability_PassengerIII</clipPath>
-						</li>
-					</grains>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Passenger/char_472_pasngr/Ability_PassengerIII</clipPath>
+					</li>
+				</grains>
 				<volumeRange>40~40</volumeRange>
 				<distRange>10~100</distRange>
 				<sustainLoop>False</sustainLoop>
@@ -4446,11 +4446,11 @@
 		<subSounds>
 			<li>
 				<onCamera>True</onCamera>
-					<grains>
-						<li Class="AudioGrain_Clip">
-							<clipPath>Operator/Caster/Passenger/char_472_pasngr/Ability_PassengerIV</clipPath>
-						</li>
-					</grains>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Passenger/char_472_pasngr/Ability_PassengerIV</clipPath>
+					</li>
+				</grains>
 				<volumeRange>40~40</volumeRange>
 				<distRange>10~100</distRange>
 				<sustainLoop>False</sustainLoop>
@@ -4459,15 +4459,15 @@
 	</SoundDef>
 
 	<SoundDef ParentName = "AK_VoiceBase">
-		<defName>AK_Voice_Recruit_Viviana</defName>
+		<defName>AK_Voice_Recruit_Lava</defName>
 		<subSounds>
 			<li>
 				<onCamera>True</onCamera>
-					<grains>
-						<li Class="AudioGrain_Clip">
-							<clipPath>Operator/Caster/Viviana/char_0003_viviana/Recruit_Viviana</clipPath>
-						</li>
-					</grains>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Lava/char_121_lava/Recruit_Lava</clipPath>
+					</li>
+				</grains>
 				<volumeRange>40~40</volumeRange>
 				<distRange>10~100</distRange>
 				<sustainLoop>False</sustainLoop>
@@ -4476,15 +4476,15 @@
 	</SoundDef>
 
 	<SoundDef ParentName = "AK_VoiceBase">
-		<defName>AK_Voice_Die_Viviana</defName>
+		<defName>AK_Voice_Die_Lava</defName>
 		<subSounds>
 			<li>
 				<onCamera>True</onCamera>
-					<grains>
-						<li Class="AudioGrain_Clip">
-							<clipPath>Operator/Caster/Viviana/char_0003_viviana/Die_Viviana</clipPath>
-						</li>
-					</grains>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Lava/char_121_lava/Die_Lava</clipPath>
+					</li>
+				</grains>
 				<volumeRange>40~40</volumeRange>
 				<distRange>10~100</distRange>
 				<sustainLoop>False</sustainLoop>
@@ -4493,15 +4493,15 @@
 	</SoundDef>
 
 	<SoundDef ParentName = "AK_VoiceBase">
-		<defName>AK_Voice_Undraft_Viviana</defName>
+		<defName>AK_Voice_Undraft_Lava</defName>
 		<subSounds>
 			<li>
 				<onCamera>True</onCamera>
-					<grains>
-						<li Class="AudioGrain_Clip">
-							<clipPath>Operator/Caster/Viviana/char_0003_viviana/Undraft_Viviana</clipPath>
-						</li>
-					</grains>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Lava/char_121_lava/Undraft_Lava</clipPath>
+					</li>
+				</grains>
 				<volumeRange>40~40</volumeRange>
 				<distRange>10~100</distRange>
 				<sustainLoop>False</sustainLoop>
@@ -4510,15 +4510,15 @@
 	</SoundDef>
 
 	<SoundDef ParentName = "AK_VoiceBase">
-		<defName>AK_Voice_Select_VivianaI</defName>
+		<defName>AK_Voice_Select_LavaI</defName>
 		<subSounds>
 			<li>
 				<onCamera>True</onCamera>
-					<grains>
-						<li Class="AudioGrain_Clip">
-							<clipPath>Operator/Caster/Viviana/char_0003_viviana/Select_VivianaI</clipPath>
-						</li>
-					</grains>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Lava/char_121_lava/Select_LavaI</clipPath>
+					</li>
+				</grains>
 				<volumeRange>40~40</volumeRange>
 				<distRange>10~100</distRange>
 				<sustainLoop>False</sustainLoop>
@@ -4527,15 +4527,15 @@
 	</SoundDef>
 
 	<SoundDef ParentName = "AK_VoiceBase">
-		<defName>AK_Voice_Select_VivianaII</defName>
+		<defName>AK_Voice_Select_LavaII</defName>
 		<subSounds>
 			<li>
 				<onCamera>True</onCamera>
-					<grains>
-						<li Class="AudioGrain_Clip">
-							<clipPath>Operator/Caster/Viviana/char_0003_viviana/Select_VivianaII</clipPath>
-						</li>
-					</grains>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Lava/char_121_lava/Select_LavaII</clipPath>
+					</li>
+				</grains>
 				<volumeRange>40~40</volumeRange>
 				<distRange>10~100</distRange>
 				<sustainLoop>False</sustainLoop>
@@ -4544,15 +4544,15 @@
 	</SoundDef>
 
 	<SoundDef ParentName = "AK_VoiceBase">
-		<defName>AK_Voice_Select_VivianaIII</defName>
+		<defName>AK_Voice_Select_LavaIII</defName>
 		<subSounds>
 			<li>
 				<onCamera>True</onCamera>
-					<grains>
-						<li Class="AudioGrain_Clip">
-							<clipPath>Operator/Caster/Viviana/char_0003_viviana/Select_VivianaIII</clipPath>
-						</li>
-					</grains>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Lava/char_121_lava/Select_LavaIII</clipPath>
+					</li>
+				</grains>
 				<volumeRange>40~40</volumeRange>
 				<distRange>10~100</distRange>
 				<sustainLoop>False</sustainLoop>
@@ -4561,15 +4561,15 @@
 	</SoundDef>
 
 	<SoundDef ParentName = "AK_VoiceBase">
-		<defName>AK_Voice_Select_VivianaIV</defName>
+		<defName>AK_Voice_Select_LavaIV</defName>
 		<subSounds>
 			<li>
 				<onCamera>True</onCamera>
-					<grains>
-						<li Class="AudioGrain_Clip">
-							<clipPath>Operator/Caster/Viviana/char_0003_viviana/Select_VivianaIV</clipPath>
-						</li>
-					</grains>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Lava/char_121_lava/Select_LavaIV</clipPath>
+					</li>
+				</grains>
 				<volumeRange>40~40</volumeRange>
 				<distRange>10~100</distRange>
 				<sustainLoop>False</sustainLoop>
@@ -4578,15 +4578,15 @@
 	</SoundDef>
 
 	<SoundDef ParentName = "AK_VoiceBase">
-		<defName>AK_Voice_Draft_VivianaI</defName>
+		<defName>AK_Voice_Draft_LavaI</defName>
 		<subSounds>
 			<li>
 				<onCamera>True</onCamera>
-					<grains>
-						<li Class="AudioGrain_Clip">
-							<clipPath>Operator/Caster/Viviana/char_0003_viviana/Draft_VivianaI</clipPath>
-						</li>
-					</grains>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Lava/char_121_lava/Draft_LavaI</clipPath>
+					</li>
+				</grains>
 				<volumeRange>40~40</volumeRange>
 				<distRange>10~100</distRange>
 				<sustainLoop>False</sustainLoop>
@@ -4595,15 +4595,15 @@
 	</SoundDef>
 
 	<SoundDef ParentName = "AK_VoiceBase">
-		<defName>AK_Voice_Draft_VivianaII</defName>
+		<defName>AK_Voice_Draft_LavaII</defName>
 		<subSounds>
 			<li>
 				<onCamera>True</onCamera>
-					<grains>
-						<li Class="AudioGrain_Clip">
-							<clipPath>Operator/Caster/Viviana/char_0003_viviana/Draft_VivianaII</clipPath>
-						</li>
-					</grains>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Lava/char_121_lava/Draft_LavaII</clipPath>
+					</li>
+				</grains>
 				<volumeRange>40~40</volumeRange>
 				<distRange>10~100</distRange>
 				<sustainLoop>False</sustainLoop>
@@ -4612,15 +4612,15 @@
 	</SoundDef>
 
 	<SoundDef ParentName = "AK_VoiceBase">
-		<defName>AK_Voice_Ability_VivianaI</defName>
+		<defName>AK_Voice_Ability_LavaI</defName>
 		<subSounds>
 			<li>
 				<onCamera>True</onCamera>
-					<grains>
-						<li Class="AudioGrain_Clip">
-							<clipPath>Operator/Caster/Viviana/char_0003_viviana/Ability_VivianaI</clipPath>
-						</li>
-					</grains>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Lava/char_121_lava/Ability_LavaI</clipPath>
+					</li>
+				</grains>
 				<volumeRange>40~40</volumeRange>
 				<distRange>10~100</distRange>
 				<sustainLoop>False</sustainLoop>
@@ -4629,49 +4629,15 @@
 	</SoundDef>
 
 	<SoundDef ParentName = "AK_VoiceBase">
-		<defName>AK_Voice_Ability_VivianaII</defName>
+		<defName>AK_Voice_Ability_LavaII</defName>
 		<subSounds>
 			<li>
 				<onCamera>True</onCamera>
-					<grains>
-						<li Class="AudioGrain_Clip">
-							<clipPath>Operator/Caster/Viviana/char_0003_viviana/Ability_VivianaII</clipPath>
-						</li>
-					</grains>
-				<volumeRange>40~40</volumeRange>
-				<distRange>10~100</distRange>
-				<sustainLoop>False</sustainLoop>
-			</li>
-		</subSounds>
-	</SoundDef>
-
-	<SoundDef ParentName = "AK_VoiceBase">
-		<defName>AK_Voice_Ability_VivianaIII</defName>
-		<subSounds>
-			<li>
-				<onCamera>True</onCamera>
-					<grains>
-						<li Class="AudioGrain_Clip">
-							<clipPath>Operator/Caster/Viviana/char_0003_viviana/Ability_VivianaIII</clipPath>
-						</li>
-					</grains>
-				<volumeRange>40~40</volumeRange>
-				<distRange>10~100</distRange>
-				<sustainLoop>False</sustainLoop>
-			</li>
-		</subSounds>
-	</SoundDef>
-
-	<SoundDef ParentName = "AK_VoiceBase">
-		<defName>AK_Voice_Ability_VivianaIV</defName>
-		<subSounds>
-			<li>
-				<onCamera>True</onCamera>
-					<grains>
-						<li Class="AudioGrain_Clip">
-							<clipPath>Operator/Caster/Viviana/char_0003_viviana/Ability_VivianaIV</clipPath>
-						</li>
-					</grains>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Caster/Lava/char_121_lava/Ability_LavaII</clipPath>
+					</li>
+				</grains>
 				<volumeRange>40~40</volumeRange>
 				<distRange>10~100</distRange>
 				<sustainLoop>False</sustainLoop>

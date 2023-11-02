@@ -194,7 +194,9 @@
 
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_Ines</defName>
-		<requiredTraits><li>AK_Trait_Ines</li></requiredTraits>
+		<requiredTraits>
+			<li>AK_Trait_Ines</li>
+		</requiredTraits>
 		<stages>
 			<li>
 				<label>“独影归途”</label>

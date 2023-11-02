@@ -4,8 +4,7 @@
   <ThingDef ParentName="AK_WeaponBase_Medic">
     <defName>AK_Weapon_Gavial</defName>
     <label>嘉维尔法杖</label>
-    <description>嘉维尔的法杖，比起治人的法术更像是敲人的武器
-    “你们老家的术士都是拿这东西治病的？”</description>
+    <description>嘉维尔的法杖，比起治人的法术更像是敲人的武器。\n“你们老家的术士都是拿这东西治病的？”</description>
     <graphicData>
       <texPath>Things/AK_Agents/Weapon/Medic/GavialW</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -61,8 +60,7 @@
   <ThingDef ParentName="AK_WeaponBase_Medic">
     <defName>AK_Weapon_Perfumer</defName>
     <label>调香师的法杖</label>
-    <description>调香师的治疗法杖，依旧散发着微微的清香
-    据说莱娜的技艺精湛到能用拖把施法，只不过没人见过。</description>
+    <description>调香师的治疗法杖，依旧散发着微微的清香。\n据说莱娜的技艺精湛到能用拖把施法，只不过没人见过。</description>
     <graphicData>
       <texPath>Things/AK_Agents/Weapon/Medic/PerfumerW</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -102,8 +100,7 @@
   <ThingDef ParentName="AK_WeaponBase_Medic">
     <defName>AK_Weapon_Shining</defName>
     <label>“教条”</label>
-    <description>闪灵的剑，收入鞘中可以当作法杖使用。
-    赦罪师的利刃出鞘时，昼夜都可被斩断</description>
+    <description>闪灵的剑，收入鞘中可以当作法杖使用。\n赦罪师的利刃出鞘时，昼夜都可被斩断</description>
     <graphicData>
       <texPath>Things/AK_Agents/Weapon/Medic/ShiningW</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -143,50 +140,50 @@
       </li>
     </tools>
   </ThingDef>
-    <ThingDef ParentName="AK_WeaponBase_Medic">
-      <defName>AK_Weapon_ShiningSilentNight</defName>
-      <label>“教条”</label>
-      <description>闪灵的剑，收入鞘中可以当作法杖使用。
-      赦罪师的利刃出鞘时，昼夜都可被斩断</description>
-      <graphicData>
-        <texPath>Things/AK_Agents/Weapon/Medic/Shining_SilentNightW</texPath>
-        <graphicClass>Graphic_Single</graphicClass>
-      </graphicData>
-      <tools Inherit = "false">
-        <li>
-          <label>剑捅</label>
-          <capacities>
-            <li>Stab</li>
-          </capacities>
-          <power>63</power>
-          <cooldownTime>1.8</cooldownTime>
-        </li>
-        <li>
-          <label>剑柄猛砸</label>
-          <capacities>
-            <li>Blunt</li>
-          </capacities>
-          <power>27</power>
-          <cooldownTime>1.4</cooldownTime>
-        </li>
-        <li>
-          <label>剑劈</label>
-          <capacities>
-            <li>Cut</li>
-          </capacities>
-          <power>69</power>
-          <cooldownTime>2.0</cooldownTime>
-        </li>
-        <li>
-          <label>剑刺</label>
-          <capacities>
-            <li>Poke</li>
-          </capacities>
-          <power>48</power>
-          <cooldownTime>1.8</cooldownTime>
-        </li>
-      </tools>
-    </ThingDef>
+
+  <ThingDef ParentName="AK_WeaponBase_Medic">
+    <defName>AK_Weapon_ShiningSilentNight</defName>
+    <label>“教条”</label>
+    <description>闪灵的剑，收入鞘中可以当作法杖使用。\n赦罪师的利刃出鞘时，昼夜都可被斩断</description>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Medic/Shining_SilentNightW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <tools Inherit = "false">
+      <li>
+        <label>剑捅</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>63</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>剑柄猛砸</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>27</power>
+        <cooldownTime>1.4</cooldownTime>
+      </li>
+      <li>
+        <label>剑劈</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>69</power>
+        <cooldownTime>2.0</cooldownTime>
+      </li>
+      <li>
+        <label>剑刺</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>48</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
 
   <ThingDef ParentName="AK_WeaponBase_Medic">
     <defName>AK_Weapon_Nightingale</defName>
@@ -197,21 +194,21 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
   </ThingDef>
-    <ThingDef ParentName="AK_WeaponBase_Medic">
-      <defName>AK_Weapon_NightingaleElegy</defName>
-      <label>封闭的希望</label>
-      <description>夜莺的法杖，笼中的蓝色光芒如同丽兹被封闭的希望。</description>
-      <graphicData>
-        <texPath>Things/AK_Agents/Weapon/Medic/Nightingale_ElegyW</texPath>
-        <graphicClass>Graphic_Single</graphicClass>
-      </graphicData>
-    </ThingDef>
+
+  <ThingDef ParentName="AK_WeaponBase_Medic">
+    <defName>AK_Weapon_NightingaleElegy</defName>
+    <label>封闭的希望</label>
+    <description>夜莺的法杖，笼中的蓝色光芒如同丽兹被封闭的希望。</description>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Medic/Nightingale_ElegyW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
 
   <ThingDef ParentName="AK_WeaponBase_Medic">
     <defName>AK_Weapon_Ptilopsis</defName>
     <label>莱茵医疗辅助单元</label>
-    <description>白面鸮的法杖，莱茵生命制式设计，结合了莱茵生命的尖端科技进行了诸多改造。
-    杜绝感情因素对施展治疗法术有益。</description>
+    <description>白面鸮的法杖，莱茵生命制式设计，结合了莱茵生命的尖端科技进行了诸多改造。\n杜绝感情因素对施展治疗法术有益。</description>
     <graphicData>
       <texPath>Things/AK_Agents/Weapon/Medic/PtilopsisW</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -231,8 +228,7 @@
   <ThingDef ParentName="AK_WeaponBase_Medic">
     <defName>AK_Weapon_Purestream</defName>
     <label>“江河之韵”</label>
-    <description>清流的法杖，泊泊清流从中涌出。
-    有传言说清流就是用它净水的。</description>
+    <description>清流的法杖，泊泊清流从中涌出。\n有传言说清流就是用它净水的。</description>
     <graphicData>
       <texPath>Things/AK_Agents/Weapon/Medic/PurestreamW</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -252,8 +248,7 @@
   <ThingDef ParentName="AK_WeaponBase_Medic">
     <defName>AK_Weapon_Myrrh</defName>
     <label>末药</label>
-    <description>末药手工制作的药剂，经过对各种成分的精准计算和特殊的用材，效果比普通的草药好得多。
-    但是苦味也比草药更加难以忍受</description>
+    <description>末药手工制作的药剂，经过对各种成分的精准计算和特殊的用材，效果比普通的草药好得多。\n但是苦味也比草药更加难以忍受</description>
     <graphicData>
       <texPath>Things/AK_Agents/Weapon/Medic/MyrrhW</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -273,8 +268,7 @@
   <ThingDef ParentName="AK_WeaponBase_Medic">
     <defName>AK_Weapon_Warfarin</defName>
     <label>血魔法杖</label>
-    <description>华法林的法杖，上面挂着一袋红色液体，有种令人着魔的感觉。
-    粘稠而富有光泽的红色在袋子中缓缓地改变着形态。</description>
+    <description>华法林的法杖，上面挂着一袋红色液体，有种令人着魔的感觉。\n粘稠而富有光泽的红色在袋子中缓缓地改变着形态。</description>
     <graphicData>
       <texPath>Things/AK_Agents/Weapon/Medic/WarfarinW</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -294,8 +288,7 @@
   <ThingDef ParentName="AK_WeaponBase_Medic">
     <defName>AK_Weapon_Sussurro</defName>
     <label>标准治疗单元</label>
-    <description>罗德岛制式医疗法杖，顶部置有源石法术增幅模块，能配合使用者发挥出更强大的治疗法术。
-    使用时如有任何不适请将情况立刻递交至医疗部。</description>
+    <description>罗德岛制式医疗法杖，顶部置有源石法术增幅模块，能配合使用者发挥出更强大的治疗法术。\n使用时如有任何不适请将情况立刻递交至医疗部。</description>
     <graphicData>
       <texPath>Things/AK_Agents/Weapon/Medic/SussurroW</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -352,14 +345,14 @@
     </tools>
   </ThingDef>
 
-	<ThingDef ParentName="AK_WeaponBase_Medic">
-		<defName>AK_Weapon_Whisperain</defName>
-		<label>絮雨的伞</label>
-		<graphicData>
-			<texPath>Things/AK_Agents/Weapon/Medic/WhisperainW</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<description>如同在屋下避雨的旅人。</description>
-	</ThingDef>
+  <ThingDef ParentName="AK_WeaponBase_Medic">
+    <defName>AK_Weapon_Whisperain</defName>
+    <label>絮雨的伞</label>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Medic/WhisperainW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <description>如同在屋下避雨的旅人。</description>
+  </ThingDef>
 
 </Defs>

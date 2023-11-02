@@ -1305,7 +1305,7 @@
 	<ThingDef ParentName="AK_WeaponBase_Caster">
 		<defName>AK_Weapon_Harmonie</defName>
 		<label>和弦的法杖</label>
-		<description>一把结构简单的法杖，能够发挥出略低于使用者潜能的源石技艺，很难想象作为深池高层的和弦用的武器只有这个</description>
+		<description>一把结构简单的法杖，能够发挥出略低于使用者潜能的源石技艺，很难想象作为深池高层的和弦用的武器只有这个。</description>
 		<graphicData>
 			<texPath>Things/AK_Agents/Weapon/Caster/HarmonieW</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -1570,27 +1570,27 @@
 	</ThingDef>
 
 	<ThingDef ParentName="AK_WeaponBase_Caster">
-		<defName>AK_Weapon_VivianaA</defName>
-		<label>火烛银花</label>
+		<defName>AK_Weapon_Lava</defName>
+		<label>炎熔的匕首</label>
 		<graphicData>
-			<texPath>Things/AK_Agents/Weapon/Caster/VivianaW</texPath>
+			<texPath>Things/AK_Agents/Weapon/Caster/LavaW</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<description>烛骑士的长剑，装饰华丽，刻满了美丽的花纹，比起战斗用的武器更像是装饰用的艺术品，而烛骑士也确实是这么用的。</description>
+		<description>“从源石技艺施法的媒介性能上说，书和法杖并无差别。反倒是小刀一直是最实用的工具，不论是战斗到力量枯竭不得不肉身搏击，亦或是在荒野生存的时候，书里教条式的文字是毫无用处的。”</description>
 		<statBases>
 			<AccuracyTouch>0.85</AccuracyTouch>
-			<AccuracyShort>0.95</AccuracyShort>
-			<AccuracyMedium>0.8</AccuracyMedium>
-			<AccuracyLong>0.65</AccuracyLong>
-			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+			<AccuracyShort>0.9</AccuracyShort>
+			<AccuracyMedium>0.75</AccuracyMedium>
+			<AccuracyLong>0.55</AccuracyLong>
+			<RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
 		</statBases>
 		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>AK_Bullet_Viviana</defaultProjectile>
+				<defaultProjectile>AK_Bullet_Lava</defaultProjectile>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
-				<warmupTime>2</warmupTime>				<!--前摇-->
+				<warmupTime>2.2</warmupTime>				<!--前摇-->
 				<range>10</range>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
@@ -1603,69 +1603,65 @@
 		</verbs>
 		<tools Inherit = "false">
 			<li>
-				<label>剑柄猛击</label>
+				<label>匕首猛击</label>
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>18</power>
+				<power>16</power>
 				<cooldownTime>1.8</cooldownTime>
 			</li>
 			<li>
-				<label>剑捅</label>
+				<label>匕首捅击</label>
 				<capacities>
 					<li>Stab</li>
 				</capacities>
-				<power>0</power>
-				<extraMeleeDamages>
-					<li>
-						<def>Flame</def>
-						<amount>22</amount>
-					</li>
-				</extraMeleeDamages>
+				<armorPenetration>0.82</armorPenetration>
+				<power>18</power>
 				<cooldownTime>2.2</cooldownTime>
 			</li>
 			<li>
-				<label>剑刺</label>
+				<label>匕首刺击</label>
 				<capacities>
 					<li>Poke</li>
 				</capacities>
-				<power>0</power>
-				<extraMeleeDamages>
-					<li>
-						<def>Flame</def>
-						<amount>24</amount>
-					</li>
-				</extraMeleeDamages>
+				<armorPenetration>0.72</armorPenetration>
+				<power>20</power>
 				<cooldownTime>1.7</cooldownTime>
 			</li>
 		</tools>
 	</ThingDef>
 
 	<ThingDef ParentName="AK_BulletBase_Bow">
-		<defName>AK_Bullet_Viviana</defName>
+		<defName>AK_Bullet_Lava</defName>
 		<label>法术射击</label>
 		<graphicData>
-			<texPath>Things/Projectile/MagicOrb</texPath>
+			<texPath>Things/Projectile/MagicFire</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<thingClass>Bullet</thingClass>
 		<projectile>
 			<damageDef>Flame</damageDef>
-			<damageAmountBase>28</damageAmountBase>
+			<damageAmountBase>18</damageAmountBase>
 			<stoppingPower>3</stoppingPower>
 			<speed>50</speed>
+			<extraDamages>
+				<li>
+					<def>Burn</def>
+					<amount>22</amount>					<!--伤害数值-->
+				</li>
+			</extraDamages>
 			<soundExplode>ThumpCannon_Impact</soundExplode>
 		</projectile>
 	</ThingDef>
 
 	<ThingDef ParentName="AK_WeaponBase_Caster">
-		<defName>AK_Weapon_VivianaB</defName>
-		<label>微光之触</label>
+		<defName>AK_Weapon_LavaB</defName>
+		<label>炎熔的法书</label>
 		<graphicData>
-			<texPath>Things/AK_Agents/Weapon/Caster/VivianaW2</texPath>
+			<texPath>Things/AK_Agents/Weapon/Caster/LavaW2</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<description>烛骑士手持的烛台，自小她就在昏暗的烛光下通过骑士小说了解整个世界，烛光是她的守护者和骑士。</description>
+		<description>炎熔的法书</description>
 	</ThingDef>
 
 </Defs>
