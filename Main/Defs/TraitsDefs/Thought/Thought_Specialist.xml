@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<!-- Specialist --> <!-- 已排序 -->
+	<!-- Specialist -->	<!-- 已排序 -->
 
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_Weedy</defName>
@@ -29,14 +29,16 @@
 			</li>
 		</stages>
 	</ThoughtDef>
-	
+
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_Kafka</defName>
-		<requiredTraits><li>AK_Trait_Kafka</li></requiredTraits>
+		<requiredTraits>
+			<li>AK_Trait_Kafka</li>
+		</requiredTraits>
 		<stages>
 			<li>
 				<label>装乖</label>
-				<description>大家竭力隐藏的秘密，就像在静静潜伏在阴影里，伺机而动的怪物一样美丽而危险。所以我才要努力把它们变成我的收藏品啊。</description>
+				<description>大家竭力隐藏的秘密，就像在静静潜伏在阴影里，伺机而动的怪物一样美丽而危险。\n所以我才要努力把它们变成我的收藏品啊。</description>
 				<baseMoodEffect>10</baseMoodEffect>
 			</li>
 		</stages>
@@ -44,11 +46,13 @@
 
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_Dorothy</defName>
-		<requiredTraits><li>AK_Trait_Dorothy</li></requiredTraits>
+		<requiredTraits>
+			<li>AK_Trait_Dorothy</li>
+		</requiredTraits>
 		<stages>
 			<li>
 				<label>让所有人都幸福</label>
-				<description>有时候半夜在实验室醒来，我会觉得......害怕。我怕做了这么多，最后大家还是离开了我，而且......带着恨意。我该怎么办？我只是想让他们更幸福......</description>
+				<description>有时候半夜在实验室醒来，我会觉得......害怕。\n我怕做了这么多，最后大家还是离开了我，而且......带着恨意。\n我该怎么办？我只是想让他们更幸福......</description>
 				<baseMoodEffect>-5</baseMoodEffect>
 			</li>
 		</stages>
@@ -56,7 +60,9 @@
 
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_Manticore</defName>
-		<requiredTraits><li>AK_Trait_ManticoreSecond</li></requiredTraits>
+		<requiredTraits>
+			<li>AK_Trait_ManticoreSecond</li>
+		</requiredTraits>
 		<stages>
 			<li>
 				<label>腼腆</label>
@@ -70,7 +76,9 @@
 
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_Kazemaru</defName>
-		<requiredTraits><li>AK_Trait_Kazemaru</li></requiredTraits>
+		<requiredTraits>
+			<li>AK_Trait_Kazemaru</li>
+		</requiredTraits>
 		<stages>
 			<li>
 				<label>折纸生花</label>

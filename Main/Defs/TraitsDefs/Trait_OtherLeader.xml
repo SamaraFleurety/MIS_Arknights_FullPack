@@ -8,8 +8,7 @@
 		<degreeDatas>
 			<li>
 				<label>空前绝后的天才</label>
-				<description>克丽丝腾的天分足以让绝大多数人眼红——她在十三岁时便考入特里蒙理工大学，这在哥伦比亚历史上是绝无仅有的。
-				</description>
+				<description>{PAWN_nameDef}的天分足以让绝大多数人眼红——{PAWN_pronoun}在十三岁时便考入特里蒙理工大学，这在哥伦比亚历史上是绝无仅有的。</description>
                 <statOffsets>
 					<GlobalLearningFactor>2.2</GlobalLearningFactor>
 					<ResearchSpeed>3.2</ResearchSpeed>
@@ -25,8 +24,7 @@
 		<degreeDatas>
 			<li>
 				<label>总辖</label>
-				<description>克丽斯腾的人格魅力足够吸引几乎所有遇到她的人，她的口才，煽动力和说服力能让最优秀的谈判者和演说家黯然失色，可以莱茵生命能成为哥伦比亚头部科研公司之一，克里斯腾本人的魅力起了巨大的作用。
-				</description>
+				<description>{PAWN_nameDef}的人格魅力足够吸引几乎所有遇到{PAWN_possessive}人，{PAWN_possessive}口才，煽动力和说服力能让最优秀的谈判者和演说家黯然失色，可以莱茵生命能成为哥伦比亚头部科研公司之一，克里斯腾本人的魅力起了巨大的作用。</description>
                 <statOffsets>
 					<PawnBeauty>1.0</PawnBeauty>
 					<SocialImpact>0.8</SocialImpact>
@@ -42,8 +40,7 @@
 		<degreeDatas>
 			<li>
 				<label>“孤星”</label>
-				<description>不灭。
-				</description>
+				<description>不灭。</description>
                 <statOffsets>
 					<MentalBreakThreshold>-0.8</MentalBreakThreshold>
 				</statOffsets>
@@ -58,8 +55,7 @@
 		<degreeDatas>
 			<li>
 				<label>冬痕</label>
-				<description>无论怎样动人的话语在钢铁般的意志面前也显得那么苍白无力。大地的凛冽已经有所觉悟，没有任何意志能与之为敌
-				</description>
+				<description>无论怎样动人的话语在钢铁般的意志面前也显得那么苍白无力。\n大地的凛冽已经有所觉悟，没有任何意志能与之为敌。</description>
 				<statOffsets>
 					<SocialImpact>-0.15</SocialImpact>
 				</statOffsets>
@@ -74,9 +70,7 @@
 		<degreeDatas>
 			<li>
 				<label>白兔子</label>
-				<description>但即使身体和法术都比严冬本身更加寒冷，她的心却永远炙热。
-正如乌萨斯广袤的雪原本身一样，深邃却又柔情
-				</description>
+				<description>但即使身体和法术都比严冬本身更加寒冷，{PAWN_possessive}心却永远炙热。\n正如乌萨斯广袤的雪原本身一样，深邃却又柔情</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.4</MentalBreakThreshold>
 					<PainShockThreshold>-0.3</PainShockThreshold>

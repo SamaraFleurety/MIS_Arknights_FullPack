@@ -2145,7 +2145,6 @@ Mousse, Guard Operator of Rhodes Island, thinks of her enemies as oversized scra
 		</accessory>
 		<stand>UI/Image/Guard/MaynarStand</stand>
 		<headPortrait>UI/Image/Guard/MaynarPortrait</headPortrait>
-		<bodyTypeDef>Thin</bodyTypeDef>
 		<traits>
 			<li>
 				<def>AK_Trait_MaynarSecond</def>
@@ -3176,8 +3175,12 @@ FIXMEDESC</description>
 		<headPortrait>UI/Image/Guard/RadiantKnightPortrait</headPortrait>
 		<bodyTypeDef>Female</bodyTypeDef>
 		<traits>
-			<li><def>AK_Trait_RadiantKnightSecond</def></li>
-			<li><def>AK_Trait_RadiantKnight</def></li>
+			<li>
+				<def>AK_Trait_RadiantKnightSecond</def>
+			</li>
+			<li>
+				<def>AK_Trait_RadiantKnight</def>
+			</li>
 		</traits>
 		<age>22</age>
 		<childHood>AK_BackStory_RadiantKnight_Child</childHood>
@@ -3244,6 +3247,107 @@ FIXMEDESC</description>
 				<fireLevel>0</fireLevel>
 			</li>
 		</skills>
+	</AK_DLL.OperatorDef>
+
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Guard">
+		<defName>AK_Recruit_Viviana</defName>
+		<name>Viviana</name>
+		<nickname>Viviana</nickname>
+		<description>
+FIXMEDESC</description>
+		<weapon>AK_Weapon_VivianaA</weapon>
+		<hair>AK_Hair_Viviana</hair>
+		<apparels>
+			<li>AK_Apparel_Viviana</li>
+		</apparels>
+		<stand>UI/Image/Guard/VivianaStand</stand>
+		<headPortrait>UI/Image/Guard/VivianaPortrait</headPortrait>
+		<bodyTypeDef>Female</bodyTypeDef>
+		<traits>
+			<li>
+				<def>AK_Trait_VivianaThird</def>
+			</li>
+			<li>
+				<def>AK_Trait_VivianaSecond</def>
+			</li>
+			<li>
+				<def>AK_Trait_Viviana</def>
+			</li>
+			<li>
+				<def>Kind</def>
+			</li>
+		</traits>
+		<age>20</age>
+		<childHood>AK_BackStory_Viviana_Child</childHood>
+		<adultHood>AK_BackStory_Viviana_Adult</adultHood>
+		<skills>
+			<li>
+				<skill>Animals</skill>
+				<level>2</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Artistic</skill>
+				<level>12</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Construction</skill>
+				<level>1</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Cooking</skill>
+				<level>3</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Crafting</skill>
+				<level>7</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Intellectual</skill>
+				<level>12</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<level>1</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<level>12</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Mining</skill>
+				<level>0</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Plants</skill>
+				<level>3</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<level>12</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<level>10</level>
+				<fireLevel>2</fireLevel>
+			</li>
+		</skills>
+		<items>
+			<li>
+				<item>AK_Weapon_VivianaB</item>
+				<amount>1</amount>
+			</li>
+		</items>
 	</AK_DLL.OperatorDef>
 
 </Defs>

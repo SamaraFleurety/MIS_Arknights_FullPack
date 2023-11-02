@@ -487,7 +487,7 @@
 	<ThingDef ParentName="AK_WeaponBase_Sniper">
 		<defName>AK_Weapon_Provence</defName>
 		<label>普罗旺斯的弩</label>
-		<description>天灾信使常用的弩，用以应对平常常见的威胁与小麻烦\n天灾信使的活动充满了危险，荒野行动更是九死一生，但普罗旺斯总能安然脱险。或许是因为她真的了解荒野的法则。</description>
+		<description>天灾信使常用的弩，用以应对平常常见的威胁与小麻烦。\n天灾信使的活动充满了危险，荒野行动更是九死一生，但普罗旺斯总能安然脱险。或许是因为她真的了解荒野的法则。</description>
 		<graphicData>
 			<texPath>Things/AK_Agents/Weapon/Sniper/ProvenceW</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -627,7 +627,7 @@
 	<ThingDef ParentName="AK_WeaponBase_Sniper">
 		<defName>AK_Weapon_RosmontisB</defName>
 		<label>迷迭香的书</label>
-		<description>fixme</description>
+		<description>迷迭香的书</description>
 		<graphicData>
 			<texPath>Things/AK_Agents/Weapon/Sniper/RosmontisW2</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -637,7 +637,7 @@
 	<ThingDef ParentName="AK_WeaponBase_Sniper">
 		<defName>AK_Weapon_Schwarz</defName>
 		<label>黑的弩</label>
-		<description>一把弩。保养得很好，使用起来也十分便捷。但从上面的各种武器划痕和细小缺口中，可以窥见它曾经历过怎样的厮杀。</description>
+		<description>一把弩。保养得很好，使用起来也十分便捷。\n但从上面的各种武器划痕和细小缺口中，可以窥见它曾经历过怎样的厮杀。</description>
 		<equippedAngleOffset>45</equippedAngleOffset>
 		<graphicData>
 			<texPath>Things/AK_Agents/Weapon/Sniper/SchwarzW</texPath>
@@ -1247,52 +1247,53 @@
 			</li>
 		</tools>
 	</ThingDef>
-	    <ThingDef ParentName="AK_WeaponBase_Sniper">
-		    <defName>AK_Weapon_FiammettaDivineOath</defName>
-		    <label>菲亚梅塔-至圣誓言的长炮</label>
-		    <description>一把手持长炮，拉特兰公正所标配版本。\n“你须偿还”</description>
-		    <graphicData>
-			    <texPath>Things/AK_Agents/Weapon/Sniper/Fiammetta_HolyOathW</texPath>
-			    <graphicClass>Graphic_Single</graphicClass>
-		    </graphicData>
-		    <equippedAngleOffset>45</equippedAngleOffset>
-		    <statBases>
-			    <AccuracyTouch>0.7</AccuracyTouch>
-			    <AccuracyShort>0.85</AccuracyShort>
-			    <AccuracyMedium>0.95</AccuracyMedium>
-			    <AccuracyLong>0.8</AccuracyLong>
-			    <RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
-			    <!--后摇-->
-		    </statBases>
-		    <verbs>
-			    <li>
-				    <verbClass>Verb_Shoot</verbClass>
-				    <hasStandardCommand>true</hasStandardCommand>
-				    <defaultProjectile>AK_Bullet_Fiammetta</defaultProjectile>
-				    <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
-				    <warmupTime>2.1</warmupTime>
-				    <!--前摇-->
-				    <range>40</range>
-				    <targetParams>
-					    <canTargetLocations>true</canTargetLocations>
-				    </targetParams>
-				    <soundCast>AK_Sound_Weapon_GeneralGrenade</soundCast>
-				    <soundCastTail>GunTail_Heavy</soundCastTail>
-				    <muzzleFlashScale>9</muzzleFlashScale>
-				    <noiseRadius>3</noiseRadius>
-			    </li>
-		    </verbs>
-		    <tools Inherit = "false">
-			    <li>
-				    <label>炮托猛砸</label>
-				    <capacities>
-					    <li>Blunt</li>
-				    </capacities>
-				    <power>24</power>
-				    <cooldownTime>2.0</cooldownTime>
-			    </li>
-		    </tools>
-	    </ThingDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Sniper">
+		<defName>AK_Weapon_FiammettaDivineOath</defName>
+		<label>菲亚梅塔-至圣誓言的长炮</label>
+		<description>一把手持长炮，拉特兰公正所标配版本。\n“你须偿还”</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Sniper/Fiammetta_HolyOathW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<equippedAngleOffset>45</equippedAngleOffset>
+		<statBases>
+			<AccuracyTouch>0.7</AccuracyTouch>
+			<AccuracyShort>0.85</AccuracyShort>
+			<AccuracyMedium>0.95</AccuracyMedium>
+			<AccuracyLong>0.8</AccuracyLong>
+			<RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
+			<!--后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_Fiammetta</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>2.1</warmupTime>
+				<!--前摇-->
+				<range>40</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_GeneralGrenade</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<tools Inherit = "false">
+			<li>
+				<label>炮托猛砸</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>24</power>
+				<cooldownTime>2.0</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
 
 	<ThingDef ParentName="AK_BulletBase_Bow">
 		<defName>AK_Bullet_Fiammetta</defName>
@@ -1322,20 +1323,21 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 	</ThingDef>
-	    <ThingDef ParentName="AK_WeaponBase_Sniper">
-		    <defName>AK_Weapon_FiammettaDivineOathTypeB</defName>
-		    <label>菲亚梅塔-至圣誓言的手炮</label>
-		    <description>一把短手炮，拉特兰公正所标配版本。\n“你须愧悔”</description>
-		    <graphicData>
-			    <texPath>Things/AK_Agents/Weapon/Sniper/Fiammetta_HolyOathW2</texPath>
-			    <graphicClass>Graphic_Single</graphicClass>
-		    </graphicData>
-	    </ThingDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Sniper">
+		<defName>AK_Weapon_FiammettaDivineOathTypeB</defName>
+		<label>菲亚梅塔-至圣誓言的手炮</label>
+		<description>一把短手炮，拉特兰公正所标配版本。\n“你须愧悔”</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Sniper/Fiammetta_HolyOathW2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
 
 	<ThingDef ParentName="AK_WeaponBase_Sniper">
 		<defName>AK_Weapon_April</defName>
 		<label>四月的猎弓</label>
-		<description>一把结实的猎弓，四月在担任猎手时经常用它猎杀野兽\n一边听音乐一边射击真的能够打得准吗？</description>
+		<description>一把结实的猎弓，四月在担任猎手时经常用它猎杀野兽。\n一边听音乐一边射击真的能够打得准吗？</description>
 		<equippedAngleOffset>45</equippedAngleOffset>
 		<graphicData>
 			<texPath>Things/AK_Agents/Weapon/Sniper/AprilW</texPath>
@@ -1471,7 +1473,7 @@
 	<ThingDef ParentName="AK_WeaponBase_Sniper">
 		<defName>AK_Weapon_Vermeil</defName>
 		<label>“不落”</label>
-		<description>荒野上新树立起一面旗帜，没人知道这是谁立起来的，又是属于哪个聚落的。它被一根粗糙的旗杆支起，扎在土地上，风席卷着沙砾，把它扯得紧绷。</description>
+		<description>荒野上新树立起一面旗帜，没人知道这是谁立起来的，又是属于哪个聚落的。\n它被一根粗糙的旗杆支起，扎在土地上，风席卷着沙砾，把它扯得紧绷。</description>
 		<graphicData>
 			<texPath>Things/AK_Agents/Weapon/Sniper/VermeilW</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -1590,7 +1592,7 @@
 	<ThingDef ParentName="AK_WeaponBase_Sniper">
 		<defName>AK_Weapon_Lunacub</defName>
 		<label>子月的弓</label>
-		<description>子月用的大弓，看上去和部落老哥用的差不多，但是在子月手里甚至可以用来单挑狂暴的裂兽</description>
+		<description>子月用的大弓，看上去和部落老哥用的差不多，但是在子月手里甚至可以用来单挑狂暴的裂兽。</description>
 		<graphicData>
 			<texPath>Things/AK_Agents/Weapon/Sniper/LunacubW</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -1685,7 +1687,7 @@
 			<texPath>Things/AK_Agents/Weapon/Sniper/PozyomkaW</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<description>由鸿雪的打字机改造成的武器之一。做工精致，宛如一件艺术品。人生到处知何似，应似飞鸿踏雪泥。（如果可以的话请随机往鸿雪的弩上加一个艺术画）</description>
+		<description>由鸿雪的打字机改造成的武器之一。\n做工精致，宛如一件艺术品。人生到处知何似，应似飞鸿踏雪泥。\n（如果可以的话请随机往鸿雪的弩上加一个艺术画）</description>
 		<statBases>
 			<AccuracyTouch>0.8</AccuracyTouch>
 			<AccuracyShort>0.95</AccuracyShort>
@@ -1752,8 +1754,7 @@
 			<texPath>Things/AK_Agents/Weapon/Sniper/FirewatchW</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<description>守林人的弩，自乌萨斯的荒原而来，带有森林的气息。
-守林人的弩只会被用来复仇，但是仇恨难以阻挡时间。</description>
+		<description>守林人的弩，自乌萨斯的荒原而来，带有森林的气息。\n守林人的弩只会被用来复仇，但是仇恨难以阻挡时间。</description>
 		<statBases>
 			<AccuracyTouch>0.8</AccuracyTouch>
 			<AccuracyShort>0.95</AccuracyShort>

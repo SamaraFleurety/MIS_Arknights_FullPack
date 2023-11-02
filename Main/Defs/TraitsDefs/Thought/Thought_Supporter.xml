@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<!-- Supporter --> <!-- 已排序 -->
+	<!-- Supporter -->	<!-- 已排序 -->
 
 	<!-- 空 -->
 
@@ -22,7 +22,9 @@
 
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_Angelina</defName>
-		<requiredTraits><li>AK_Trait_Angelina</li></requiredTraits>
+		<requiredTraits>
+			<li>AK_Trait_Angelina</li>
+		</requiredTraits>
 		<stages>
 			<li>
 				<label>年轻的信使</label>
@@ -49,7 +51,7 @@
 	</ThoughtDef>
 
 	<!-- 稀音 -->
-	
+
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_SceneSecond</defName>
 		<requiredTraits>
@@ -81,10 +83,12 @@
 	</ThoughtDef>
 
 	<!-- 灵知 -->
-	
+
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_Gnosis</defName>
-		<requiredTraits><li>AK_Trait_Gnosis</li></requiredTraits>
+		<requiredTraits>
+			<li>AK_Trait_Gnosis</li>
+		</requiredTraits>
 		<stages>
 			<li>
 				<label>深度思考</label>
@@ -94,11 +98,13 @@
 		</stages>
 	</ThoughtDef>
 
-<!-- 夏栎 -->
+	<!-- 夏栎 -->
 
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_Quercus</defName>
-		<requiredTraits><li>AK_Trait_Quercus</li></requiredTraits>
+		<requiredTraits>
+			<li>AK_Trait_Quercus</li>
+		</requiredTraits>
 		<stages>
 			<li>
 				<label>风声</label>
@@ -108,11 +114,13 @@
 		</stages>
 	</ThoughtDef>
 
-<!-- 罗比菈塔 -->
+	<!-- 罗比菈塔 -->
 
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_Roberta</defName>
-		<requiredTraits><li>AK_Trait_Roberta</li></requiredTraits>
+		<requiredTraits>
+			<li>AK_Trait_Roberta</li>
+		</requiredTraits>
 		<stages>
 			<li>
 				<label>化妆师</label>
@@ -122,15 +130,17 @@
 		</stages>
 	</ThoughtDef>
 
-<!-- 但书 -->
+	<!-- 但书 -->
 
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_Proviso</defName>
-		<requiredTraits><li>AK_Trait_Proviso</li></requiredTraits>
+		<requiredTraits>
+			<li>AK_Trait_Proviso</li>
+		</requiredTraits>
 		<stages>
 			<li>
 				<label>看了一次星星</label>
-				<description>我到现在才逐渐明白，期待存在一种可以公正判决一切矛盾的法律，与其说是天真，不如说是一种偷懒的想法吧。法律永远不会是万全的，其中永远存在的漏洞，则需要“人心”来填补。</description>
+				<description>我到现在才逐渐明白，期待存在一种可以公正判决一切矛盾的法律，与其说是天真，不如说是一种偷懒的想法吧。\n法律永远不会是万全的，其中永远存在的漏洞，则需要“人心”来填补。</description>
 				<baseMoodEffect>10</baseMoodEffect>
 			</li>
 		</stages>
@@ -138,7 +148,9 @@
 
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_CorruptingHeart</defName>
-		<requiredTraits><li>AK_Trait_CorruptingHeart</li></requiredTraits>
+		<requiredTraits>
+			<li>AK_Trait_CorruptingHeart</li>
+		</requiredTraits>
 		<stages>
 			<li>
 				<label>Ishar-mla</label>

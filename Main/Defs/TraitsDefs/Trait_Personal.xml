@@ -32,7 +32,7 @@
     <degreeDatas>
       <li>
         <label>皇帝的利刃</label>
-        <description>{PAWN_nameDef}脚下所伫立的，即是乌萨斯的伟大国土.</description>
+        <description>{PAWN_nameDef}脚下所伫立的，即是乌萨斯的伟大国土。</description>
         <statFactors>
           <MeleeDodgeChance>0.5</MeleeDodgeChance>
           <PainShockThreshold>2</PainShockThreshold>
@@ -58,7 +58,7 @@
     <degreeDatas>
       <li>
         <label>无所不知</label>
-        <description>{PAWN_nameDef}的自称，目前看来是这样的</description>
+        <description>{PAWN_nameDef}的自称，目前看来是这样的。</description>
         <statFactors>
           <ResearchSpeed>2</ResearchSpeed>
           <GlobalLearningFactor>1.25</GlobalLearningFactor>
@@ -104,7 +104,7 @@
     <degreeDatas>
       <li>
         <label>人形兵器</label>
-        <description>“罗德岛的一切，{PAWN_nameDef}真心希望你能帮{PAWN_pronoun}记住这些”</description>
+        <description>“罗德岛的一切，{PAWN_nameDef}真心希望你能帮{PAWN_pronoun}记住这些。”</description>
         <statFactors>
           <GlobalLearningFactor>0.75</GlobalLearningFactor>
         </statFactors>
@@ -206,8 +206,7 @@
     <degreeDatas>
       <li>
         <label>切尔诺伯格</label>
-        <description>我们无从得知从切尔诺伯格逃出来的人经历了什么。但无论如何这对他们来说都是地狱般的经历，并且毫无疑问需要很多时间去试图遗忘并适应新生活。
-        </description>
+        <description>我们无从得知从切尔诺伯格逃出来的人经历了什么。但无论如何这对他们来说都是地狱般的经历，并且毫无疑问需要很多时间去试图遗忘并适应新生活。</description>
         <statOffsets>
           <MentalBreakThreshold>0.20</MentalBreakThreshold>
         </statOffsets>

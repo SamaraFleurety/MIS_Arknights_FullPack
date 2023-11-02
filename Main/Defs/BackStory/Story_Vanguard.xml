@@ -6,8 +6,7 @@
 		<slot>Childhood</slot>
 		<title>天灾幸存者</title>
 		<titleShort>幸存者</titleShort>
-		<baseDesc>由于当地少数的骑士贵族卡利斯卡家对领民的漠视，导致{PAWN_nameDef}的家园被毁于一旦。
-{PAWN_possessive}家人、朋友和过去平静的生活几乎在一夜之间烟消云散。</baseDesc>
+		<baseDesc>由于当地少数的骑士贵族卡利斯卡家对领民的漠视，导致{PAWN_nameDef}的家园被毁于一旦。\n{PAWN_possessive}家人、朋友和过去平静的生活几乎在一夜之间烟消云散。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -15,8 +14,7 @@
 		<slot>Adulthood</slot>
 		<title>红松骑士团团长</title>
 		<titleShort>团长</titleShort>
-		<baseDesc>一开始，独立骑士{PAWN_nameDef}被扔进了满是残暴野兽和陷阱的牢笼，然后，是人造的丛林，封闭的大楼。索娜意识到，感染者所遭遇的，与电视转播里那些光鲜亮丽的竞技骑士有着天壤之别——{PAWN_pronoun}们都是自愿被观赏的玩物，而{PAWN_pronoun}们的性命几乎成为了手里唯一的资本。
-在{PAWN_pronoun}捧起骑士协会赠送的财富和“焰尾”名号的那个瞬间，{PAWN_possessive}内心就种下了那颗种子，等待生根发芽。</baseDesc>
+		<baseDesc>一开始，独立骑士{PAWN_nameDef}被扔进了满是残暴野兽和陷阱的牢笼，然后，是人造的丛林，封闭的大楼。索娜意识到，感染者所遭遇的，与电视转播里那些光鲜亮丽的竞技骑士有着天壤之别——{PAWN_pronoun}们都是自愿被观赏的玩物，而{PAWN_pronoun}们的性命几乎成为了手里唯一的资本。\n在{PAWN_pronoun}捧起骑士协会赠送的财富和“焰尾”名号的那个瞬间，{PAWN_possessive}内心就种下了那颗种子，等待生根发芽。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -24,8 +22,7 @@
 		<slot>Childhood</slot>
 		<title>寺庙中长大的孩子</title>
 		<titleShort>寺庙中长大的孩子</titleShort>
-		<baseDesc>{PAWN_nameDef}是打从襁褓中起就在寺庙长大的，{PAWN_pronoun}自有记忆开始就跟着师父和其{PAWN_pronoun}师兄弟们一起练武诵经。
-在{PAWN_pronoun}提出要下山的请求后，当天晚上，祖孙二人，一人一棍，一问一答，从月正当空打到东方初明，住持爷爷最终同意了让{PAWN_pronoun}下山。</baseDesc>
+		<baseDesc>{PAWN_nameDef}是打从襁褓中起就在寺庙长大的，{PAWN_pronoun}自有记忆开始就跟着师父和其{PAWN_pronoun}师兄弟们一起练武诵经。\n在{PAWN_pronoun}提出要下山的请求后，当天晚上，祖孙二人，一人一棍，一问一答，从月正当空打到东方初明，住持爷爷最终同意了让{PAWN_pronoun}下山。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -33,8 +30,7 @@
 		<slot>Adulthood</slot>
 		<title>画中人</title>
 		<titleShort>画中人</titleShort>
-		<baseDesc>在{PAWN_nameDef}云游大炎时，无意间踏入了夕的画卷，{PAWN_pronoun}不但明白了自己是画中人，并且在画中游历，看遍了人和事。
-在炎熔和克洛斯误打误撞闯入了画卷并成功脱离了之后，{PAWN_pronoun}便加入了罗德岛</baseDesc>
+		<baseDesc>在{PAWN_nameDef}云游大炎时，无意间踏入了夕的画卷，{PAWN_pronoun}不但明白了自己是画中人，并且在画中游历，看遍了人和事。\n在炎熔和克洛斯误打误撞闯入了画卷并成功脱离了之后，{PAWN_pronoun}便加入了罗德岛</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -50,8 +46,7 @@
 		<slot>Adulthood</slot>
 		<title>格拉斯哥帮头目</title>
 		<titleShort>头目</titleShort>
-		<baseDesc>在因陀罗与{PAWN_nameDef}决斗并失败后，出于对{PAWN_pronoun}人格魅力的尊敬，因陀罗将首领之位让给了{PAWN_pronoun}，并与摩根一同成为{PAWN_pronoun}最忠诚的下属与朋友。
-目前已知的情报是，格拉斯哥帮牵扯到某个关乎维多利亚的阴谋，并且帮派成员们由于某些原因无法回到故乡。</baseDesc>
+		<baseDesc>在因陀罗与{PAWN_nameDef}决斗并失败后，出于对{PAWN_pronoun}人格魅力的尊敬，因陀罗将首领之位让给了{PAWN_pronoun}，并与摩根一同成为{PAWN_pronoun}最忠诚的下属与朋友。\n目前已知的情报是，格拉斯哥帮牵扯到某个关乎维多利亚的阴谋，并且帮派成员们由于某些原因无法回到故乡。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -75,8 +70,7 @@
 		<slot>Childhood</slot>
 		<title>琴柳</title>
 		<titleShort>琴柳</titleShort>
-		<baseDesc>{PAWN_nameDef}小姐出生于一座维多利亚南部沿湖城市，在成年后成为仪仗兵并在塔拉地区服役。
-在塔拉地区，每年春天的节日里，人们会用刚刚长出新芽的柳枝来装点街道和雕像。这也是{PAWN_pronoun}代号的来源</baseDesc>
+		<baseDesc>{PAWN_nameDef}小姐出生于一座维多利亚南部沿湖城市，在成年后成为仪仗兵并在塔拉地区服役。\n在塔拉地区，每年春天的节日里，人们会用刚刚长出新芽的柳枝来装点街道和雕像。这也是{PAWN_pronoun}代号的来源</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -84,8 +78,7 @@
 		<slot>Adulthood</slot>
 		<title>维多利亚仪仗兵</title>
 		<titleShort>仪仗兵</titleShort>
-		<baseDesc>在维多利亚，一名普通士兵想要成为仪仗兵，往往需要经过严苛的选拔。因此，许多人第一眼看到{PAWN_nameDef}小姐，都会被{PAWN_pronoun}出色的外表与仪态吸引。
-但是，自从小丘郡的事情发生后，{PAWN_pronoun}就已经不是过去的那个{PAWN_pronoun}了。</baseDesc>
+		<baseDesc>在维多利亚，一名普通士兵想要成为仪仗兵，往往需要经过严苛的选拔。因此，许多人第一眼看到{PAWN_nameDef}小姐，都会被{PAWN_pronoun}出色的外表与仪态吸引。\n但是，自从小丘郡的事情发生后，{PAWN_pronoun}就已经不是过去的那个{PAWN_pronoun}了。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -93,8 +86,7 @@
 		<slot>Childhood</slot>
 		<title>农民的孩子</title>
 		<titleShort>农民</titleShort>
-		<baseDesc>即使经过了皇家近卫学校以及在毕业后的现代生活的洗礼，出身维多利亚一座游牧村庄的{PAWN_nameDef}小姐身上依然带着浓厚的乡土气息。
-从小就开始帮家里种田和畜牧的{PAWN_pronoun}，在加入罗德岛后，立刻与负责相关事务的后勤干员们打成了一片。</baseDesc>
+		<baseDesc>即使经过了皇家近卫学校以及在毕业后的现代生活的洗礼，出身维多利亚一座游牧村庄的{PAWN_nameDef}小姐身上依然带着浓厚的乡土气息。\n从小就开始帮家里种田和畜牧的{PAWN_pronoun}，在加入罗德岛后，立刻与负责相关事务的后勤干员们打成了一片。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -102,9 +94,7 @@
 		<slot>Adulthood</slot>
 		<title>维多利亚士兵</title>
 		<titleShort>士兵</titleShort>
-		<baseDesc>离开文明走进荒野，这是城邦居民无法想象的事情，毕竟离开了城市和聚落，基本就等于自寻死路。
-{PAWN_nameDef}一路上风尘仆仆，与信使同行，与雇佣兵合作，蹭车，蹭城，因为护照和国籍被人赶出城市，被仇视，被卷入危险的阴谋，据{PAWN_pronoun}所说，“什么都遭遇过啦。”
-或许，这也是为什么当{PAWN_pronoun}经历过小丘郡的那些事后依旧能保持乐观的原因。</baseDesc>
+		<baseDesc>离开文明走进荒野，这是城邦居民无法想象的事情，毕竟离开了城市和聚落，基本就等于自寻死路。\n{PAWN_nameDef}一路上风尘仆仆，与信使同行，与雇佣兵合作，蹭车，蹭城，因为护照和国籍被人赶出城市，被仇视，被卷入危险的阴谋，据{PAWN_pronoun}所说，“什么都遭遇过啦。”\n或许，这也是为什么当{PAWN_pronoun}经历过小丘郡的那些事后依旧能保持乐观的原因。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -128,8 +118,7 @@
 		<slot>Adulthood</slot>
 		<title>BSW见习生</title>
 		<titleShort>见习生</titleShort>
-		<baseDesc>黑钢的受训生，作为双方交流项目的一环驻扎学习。
-利用种族带来的抗打击能力，出色地履行着先锋干员的职责。</baseDesc>
+		<baseDesc>黑钢的受训生，作为双方交流项目的一环驻扎学习。\n利用种族带来的抗打击能力，出色地履行着先锋干员的职责。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -137,9 +126,7 @@
 		<slot>Childhood</slot>
 		<title>被遗弃的贵族</title>
 		<titleShort>遗弃贵族</titleShort>
-		<baseDesc>{PAWN_nameDef}曾经是一个骑士家族的一员，但是在一次外出训练后意外感染矿石病，随后被家族所抛弃。
-在那之后，{PAWN_pronoun}便成为了一名感染者骑士,想要靠胜利证明自己。
-		</baseDesc>
+		<baseDesc>{PAWN_nameDef}曾经是一个骑士家族的一员，但是在一次外出训练后意外感染矿石病，随后被家族所抛弃。\n在那之后，{PAWN_pronoun}便成为了一名感染者骑士,想要靠胜利证明自己。</baseDesc>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 	</BackstoryDef>
 
@@ -148,8 +135,7 @@
 		<slot>Adulthood</slot>
 		<title>野鬃骑士</title>
 		<titleShort>野鬃骑士</titleShort>
-		<baseDesc>{PAWN_nameDef}后来加入了红松骑士团，并很快伴随着红松骑士团的其他人一起加入了罗德岛。
-		</baseDesc>
+		<baseDesc>{PAWN_nameDef}后来加入了红松骑士团，并很快伴随着红松骑士团的其他人一起加入了罗德岛。</baseDesc>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 	</BackstoryDef>
 
@@ -158,8 +144,7 @@
 		<slot>Childhood</slot>
 		<title>迷路的孩子</title>
 		<titleShort>迷路的孩子</titleShort>
-		<baseDesc>小时候的{PAWN_nameDef}不仅不怎么识路，甚至还会迷路。据{PAWN_pronoun}所说，在一次外出游玩时曾经被风雪困住，差点就没法活着回家了。幸好在那附近狩猎野味的银灰发现了{PAWN_pronoun}。
-		</baseDesc>
+		<baseDesc>小时候的{PAWN_nameDef}不仅不怎么识路，甚至还会迷路。据{PAWN_pronoun}所说，在一次外出游玩时曾经被风雪困住，差点就没法活着回家了。幸好在那附近狩猎野味的银灰发现了{PAWN_pronoun}。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -175,8 +160,7 @@
 		<slot>Childhood</slot>
 		<title>卡西米尔移民</title>
 		<titleShort>卡西米尔移民</titleShort>
-		<baseDesc>骑警{PAWN_nameDef}，维多利亚公民。{PAWN_possessive}祖辈很早就移民维多利亚，其家庭保持了一种骑士竞技风潮席卷卡西米尔之前的淳朴民风。即使身在维多利亚，也对卡西米尔的骑士精神有着丰富的好奇心。
-		</baseDesc>
+		<baseDesc>骑警{PAWN_nameDef}，维多利亚公民。{PAWN_possessive}祖辈很早就移民维多利亚，其家庭保持了一种骑士竞技风潮席卷卡西米尔之前的淳朴民风。即使身在维多利亚，也对卡西米尔的骑士精神有着丰富的好奇心。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -184,9 +168,7 @@
 		<slot>Adulthood</slot>
 		<title>维多利亚骑警</title>
 		<titleShort>维多利亚骑警</titleShort>
-		<baseDesc>{PAWN_nameDef}，维多利亚骑警，在突袭战，机动作战，纵深作战等高速运动战领域表现出了较高的天赋。
-现以合约干员身份为罗德岛各行动组提供支援，并主动承担罗德岛及周边地区的义务巡逻与防卫协助等工作。
-		</baseDesc>
+		<baseDesc>{PAWN_nameDef}，维多利亚骑警，在突袭战，机动作战，纵深作战等高速运动战领域表现出了较高的天赋。\n现以合约干员身份为罗德岛各行动组提供支援，并主动承担罗德岛及周边地区的义务巡逻与防卫协助等工作。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -202,9 +184,7 @@
 		<slot>Adulthood</slot>
 		<title>大将军</title>
 		<titleShort>大将军</titleShort>
-		<baseDesc>杜林族出身的少女，根据本人强烈要求，记录此前履历为：大将军。
-外表与性格有孩子气的成分，但在战场上表现出颇强的感染力和相当的指挥水准，能够在提振其{PAWN_pronoun}干员士气的同时，为{PAWN_pronoun}们提供一定的治疗，十分可靠
-		</baseDesc>
+		<baseDesc>杜林族出身的少女，根据本人强烈要求，记录此前履历为：大将军。\n外表与性格有孩子气的成分，但在战场上表现出颇强的感染力和相当的指挥水准，能够在提振其{PAWN_pronoun}干员士气的同时，为{PAWN_pronoun}们提供一定的治疗，十分可靠</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -212,9 +192,7 @@
 		<slot>Childhood</slot>
 		<title>农场主的孩子</title>
 		<titleShort>农场主的孩子</titleShort>
-		<baseDesc>出生于哥伦比亚农场主家庭，因为出身的缘故选择了磐蟹饲养作为自己的职业。
-作为瑞柏巴族，{PAWN_nameDef}在萨尔贡的同族女性魁梧且彪悍，{PAWN_pronoun}生得如此纤细娇小真可谓是奇迹。
-		</baseDesc>
+		<baseDesc>出生于哥伦比亚农场主家庭，因为出身的缘故选择了磐蟹饲养作为自己的职业。\n作为瑞柏巴族，{PAWN_nameDef}在萨尔贡的同族女性魁梧且彪悍，{PAWN_pronoun}生得如此纤细娇小真可谓是奇迹。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -222,9 +200,7 @@
 		<slot>Adulthood</slot>
 		<title>磐蟹饲养员</title>
 		<titleShort>磐蟹饲养员</titleShort>
-		<baseDesc>专业磐蟹饲养员{PAWN_nameDef}，出生于哥伦比亚农场主家庭，向各大公司及平台投递创业企划书未果，最终经介绍前往罗德岛就职。
-现已通过专项测试，作为正式干员为罗德岛提供后勤与特殊侦查作战服务。
-		</baseDesc>
+		<baseDesc>专业磐蟹饲养员{PAWN_nameDef}，出生于哥伦比亚农场主家庭，向各大公司及平台投递创业企划书未果，最终经介绍前往罗德岛就职。\n现已通过专项测试，作为正式干员为罗德岛提供后勤与特殊侦查作战服务。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -232,8 +208,7 @@
 		<slot>Childhood</slot>
 		<title>猎人的养子</title>
 		<titleShort>猎人的养子</titleShort>
-		<baseDesc>据{PAWN_nameDef}自己说，{PAWN_pronoun}在十岁左右流落到一个荒地聚落，被一对猎人夫妇收养，远离移动城市的荫庇。
-		</baseDesc>
+		<baseDesc>据{PAWN_nameDef}自己说，{PAWN_pronoun}在十岁左右流落到一个荒地聚落，被一对猎人夫妇收养，远离移动城市的荫庇。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -241,8 +216,7 @@
 		<slot>Adulthood</slot>
 		<title>猎人</title>
 		<titleShort>猎人</titleShort>
-		<baseDesc>{PAWN_nameDef}，赏金猎人，擅长驯兽。曾因某项委托进入大炎境内，并在尚蜀城与罗德岛干员克洛丝相识，后经当地官员介绍，与罗德岛达成合作，活跃在大炎周边的各项委派任务中。
-		</baseDesc>
+		<baseDesc>{PAWN_nameDef}，赏金猎人，擅长驯兽。曾因某项委托进入大炎境内，并在尚蜀城与罗德岛干员克洛丝相识，后经当地官员介绍，与罗德岛达成合作，活跃在大炎周边的各项委派任务中。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -250,8 +224,7 @@
 		<slot>Childhood</slot>
 		<title>孤独的水精灵</title>
 		<titleShort>水精灵</titleShort>
-		<baseDesc>{PAWN_nameDef}的童年在哥伦比亚的一家孤儿院度过，{PAWN_pronoun}在还年幼时就已认识到自己的特殊之处。作为水精灵，{PAWN_pronoun}本身就是与现代社会互斥的。
-		</baseDesc>
+		<baseDesc>{PAWN_nameDef}的童年在哥伦比亚的一家孤儿院度过，{PAWN_pronoun}在还年幼时就已认识到自己的特殊之处。作为水精灵，{PAWN_pronoun}本身就是与现代社会互斥的。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -259,9 +232,7 @@
 		<slot>Adulthood</slot>
 		<title>莱茵生命生态科主任</title>
 		<titleShort>主任</titleShort>
-		<baseDesc>{PAWN_nameDef}是莱茵生命生态科主任，在莱茵生命草创初期便加入了莱茵生命，几乎是陪着莱茵从当年的那两间小办公室成长到哥伦比亚的科研巨头。{PAWN_pronoun}在数十年里一直是总辖的坚定支持者。
-但是，{PAWN_pronoun}没有陪总辖走到最后。
-		</baseDesc>
+		<baseDesc>{PAWN_nameDef}是莱茵生命生态科主任，在莱茵生命草创初期便加入了莱茵生命，几乎是陪着莱茵从当年的那两间小办公室成长到哥伦比亚的科研巨头。{PAWN_pronoun}在数十年里一直是总辖的坚定支持者。\n但是，{PAWN_pronoun}没有陪总辖走到最后。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -269,8 +240,7 @@
 		<slot>Childhood</slot>
 		<title>幸存的卡普里尼</title>
 		<titleShort>幸存的卡普里尼</titleShort>
-		<baseDesc>{PAWN_nameDef}在幼时是随家族前往卡兹戴尔走私的行商之女，{PAWN_pronoun}所在的商队遭遇了雇佣兵的背叛。最后，只剩{PAWN_pronoun}一人存活并被放逐进卡兹戴尔北部的茂密森林中。但{PAWN_possessive}运气还不错，走出了那片满是枯骨和美景的桦树林
-</baseDesc>
+		<baseDesc>{PAWN_nameDef}在幼时是随家族前往卡兹戴尔走私的行商之女，{PAWN_pronoun}所在的商队遭遇了雇佣兵的背叛。最后，只剩{PAWN_pronoun}一人存活并被放逐进卡兹戴尔北部的茂密森林中。但{PAWN_possessive}运气还不错，走出了那片满是枯骨和美景的桦树林</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -278,8 +248,7 @@
 		<slot>Adulthood</slot>
 		<title>萨卡兹雇佣兵头目</title>
 		<titleShort>萨卡兹雇佣兵头目</titleShort>
-		<baseDesc>在成年后{PAWN_nameDef}理所当然的成为了一名萨卡兹雇佣兵，尽管{PAWN_pronoun}不是萨卡兹。{PAWN_pronoun}在卡兹戴尔内战时便以雇佣兵身份出人头地，此后也作为萨卡兹雇佣兵参与了诸多事件与局部战争，这让{PAWN_pronoun}有着丰富的作战经验。
-</baseDesc>
+		<baseDesc>在成年后{PAWN_nameDef}理所当然的成为了一名萨卡兹雇佣兵，尽管{PAWN_pronoun}不是萨卡兹。{PAWN_pronoun}在卡兹戴尔内战时便以雇佣兵身份出人头地，此后也作为萨卡兹雇佣兵参与了诸多事件与局部战争，这让{PAWN_pronoun}有着丰富的作战经验。</baseDesc>
 	</BackstoryDef>
 
 </Defs>

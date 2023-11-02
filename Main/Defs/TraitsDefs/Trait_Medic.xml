@@ -12,9 +12,7 @@
 		<degreeDatas>
 			<li>
 				<label>另一个声音</label>
-				<description>{PAWN_nameDef}脑中出现了另一个声音，一个不属于已知语言范畴的声音，这东西会给{PAWN_possessive}精神造成极大负担。
-				只有使用机械性语言逻辑才能减轻这种痛苦。
-				</description>
+				<description>{PAWN_nameDef}脑中出现了另一个声音，一个不属于已知语言范畴的声音，这东西会给{PAWN_possessive}精神造成极大负担。\n只有使用机械性语言逻辑才能减轻这种痛苦。</description>
 				<statOffsets>
 					<PsychicSensitivity>1.2</PsychicSensitivity>
 					<MentalBreakThreshold>0.2</MentalBreakThreshold>
@@ -30,9 +28,7 @@
 		<degreeDatas>
 			<li>
 				<label>人形知识库</label>
-				<description>
-				作为数据维护员的{PAWN_nameDef}，脑子里装载着数量难以想象的知识，这会对{PAWN_possessive}工作和学习起到巨大的帮助。
-				</description>
+				<description>作为数据维护员的{PAWN_nameDef}，脑子里装载着数量难以想象的知识，这会对{PAWN_possessive}工作和学习起到巨大的帮助。</description>
 				<statOffsets>
 					<WorkSpeedGlobal>0.3</WorkSpeedGlobal>
 					<GlobalLearningFactor>1.0</GlobalLearningFactor>
@@ -51,9 +47,7 @@
 		<degreeDatas>
 			<li>
 				<label>真正的学者</label>
-				<description>
-				{PAWN_nameDef}拥有敏锐的洞察力以及极强的执行力。{PAWN_pronoun}就像一台精密的机器，不会出现一丝一毫的错误。{PAWN_pronoun}手下的科研小组也耳濡目染，整个组的氛围都显得有些忙碌和紧凑。
-				</description>
+				<description>{PAWN_nameDef}拥有敏锐的洞察力以及极强的执行力。{PAWN_pronoun}就像一台精密的机器，不会出现一丝一毫的错误。{PAWN_pronoun}手下的科研小组也耳濡目染，整个组的氛围都显得有些忙碌和紧凑。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.1</MentalBreakThreshold>
 					<WorkSpeedGlobal>0.15</WorkSpeedGlobal>
@@ -73,12 +67,7 @@
 		<degreeDatas>
 			<li>
 				<label>奇特的医师</label>
-				<description>
-				{PAWN_nameDef}经常会被怀疑手中的魔杖是用来敲人而非使用治疗法术的。
-				但在{PAWN_pronoun}口中，成为医生而被族人排挤也好，感染矿石病后遭受的冷眼也好，似乎都是不值一提的小事。
-				{PAWN_pronoun}现在在这里，她为每个人疗伤，对{PAWN_pronoun}来说，这样就足够了。
-				这样的{PAWN_pronoun}，是值得每个人去尊敬和学习的。
-				</description>
+				<description>{PAWN_nameDef}经常会被怀疑手中的魔杖是用来敲人而非使用治疗法术的。\n但在{PAWN_pronoun}口中，成为医生而被族人排挤也好，感染矿石病后遭受的冷眼也好，似乎都是不值一提的小事。\n{PAWN_pronoun}现在在这里，{PAWN_pronoun}为每个人疗伤，对{PAWN_pronoun}来说，这样就足够了。\n这样的{PAWN_pronoun}，是值得每个人去尊敬和学习的。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.25</MentalBreakThreshold>
 					<MedicalSurgerySuccessChance>-0.15</MedicalSurgerySuccessChance>
@@ -96,8 +85,7 @@
 		<degreeDatas>
 			<li>
 				<label>手有余香</label>
-				<description>
-				就职于疗养庭园期间，{PAWN_nameDef}展现出的温柔，耐心和十足的修养，以及足以令人沉醉其中的调制香薰，使{PAWN_pronoun}在干员之间颇受欢迎。</description>
+				<description>就职于疗养庭园期间，{PAWN_nameDef}展现出的温柔，耐心和十足的修养，以及足以令人沉醉其中的调制香薰，使{PAWN_pronoun}在干员之间颇受欢迎。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.15</MentalBreakThreshold>
 				</statOffsets>
@@ -114,12 +102,7 @@
 		<degreeDatas>
 			<li>
 				<label>使徒</label>
-				<description>
-				“那美好的仗我已经打过了，当跑的路我已经跑尽了，所信的道我已经守住了”
-				“从此以后，有公义的冠冕为我存留”
-				“就是按着公义审判的主到了那日要赐给我的”
-				“不但赐给我，也赐给凡爱慕他显现的人” 
-				</description>
+				<description>“那美好的仗我已经打过了，当跑的路我已经跑尽了，所信的道我已经守住了”\n“从此以后，有公义的冠冕为我存留”\n“就是按着公义审判的主到了那日要赐给我的”\n“不但赐给我，也赐给凡爱慕他显现的人” </description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.35</MentalBreakThreshold>
 					<MedicalTendSpeed>0.4</MedicalTendSpeed>
@@ -136,8 +119,7 @@
 		<degreeDatas>
 			<li>
 				<label>慈悲</label>
-				<description>{PAWN_nameDef}的眼神中仿佛永久带着慈悲，虽然{PAWN_pronoun}拥有着她人无可比拟的剑术，但是{PAWN_pronoun}在绝大多数时候拒绝使用暴力。
-				</description>
+				<description>{PAWN_nameDef}的眼神中仿佛永久带着慈悲，虽然{PAWN_pronoun}拥有着{PAWN_pronoun}人无可比拟的剑术，但是{PAWN_pronoun}在绝大多数时候拒绝使用暴力。</description>
 			</li>
 		</degreeDatas>
 	</TraitDef>
@@ -151,11 +133,7 @@
 		<degreeDatas>
 			<li>
 				<label>提灯女神</label>
-				<description>
-				AND THEY WERE DANCING, ***
-				THE BOARD FLOOR SLAMMING UNDER THE HOOVES AND THE SWORDS SHINING HIDEOUSLY OVER THEIR BLOODSTAINED CLOAKS. ***
-				HE SAYS HE WILL WIPE ALL THEM OUT FROM SARKAZ. HE NEVER RESTS, HE SAYS. HE SAYS THAT HE WILL NEVER DIE.
-				</description>
+				<description>AND THEY WERE DANCING, ***\nTHE BOARD FLOOR SLAMMING UNDER THE HOOVES AND THE SWORDS SHINING HIDEOUSLY OVER THEIR BLOODSTAINED CLOAKS. ***\nHE SAYS HE WILL WIPE ALL THEM OUT FROM SARKAZ. HE NEVER RESTS, HE SAYS. HE SAYS THAT HE WILL NEVER DIE.</description>
 				<statOffsets>
 					<MedicalSurgerySuccessChance>1</MedicalSurgerySuccessChance>
 				</statOffsets>
@@ -170,9 +148,7 @@
 		<degreeDatas>
 			<li>
 				<label>封闭的希望</label>
-				<description>“笼中的晶光，即使笼门开着，即使光芒能洒在别人身上，晶石本身还是固定在笼中。
-因为它没有移动的能力，被固定在了那里。”
-				</description>
+				<description>“笼中的晶光，即使笼门开着，即使光芒能洒在别人身上，晶石本身还是固定在笼中。\n因为它没有移动的能力，被固定在了那里。”</description>
 				<statOffsets>
 					<PsychicSensitivity>-0.5</PsychicSensitivity>
 				</statOffsets>
@@ -189,10 +165,7 @@
 		<degreeDatas>
 			<li>
 				<label>旧日之影</label>
-				<description>
-				魔王死了
-				巴别塔倒塌了。
-				</description>
+				<description>魔王死了\n巴别塔倒塌了。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-1.0</MentalBreakThreshold>
 				</statOffsets>
@@ -210,9 +183,7 @@
 		<degreeDatas>
 			<li>
 				<label>无所不知</label>
-				<description>
-				{PAWN_nameDef}在在冶金工业、社会学、源石技艺、考古学、历史系谱学、经济学、植物学、地质学等领域皆拥有渊博学识。就像是无所不知一般。
-				</description>
+				<description>{PAWN_nameDef}在在冶金工业、社会学、源石技艺、考古学、历史系谱学、经济学、植物学、地质学等领域皆拥有渊博学识。就像是无所不知一般。</description>
 				<statOffsets>
 					<WorkSpeedGlobal>0.4</WorkSpeedGlobal>
 					<GlobalLearningFactor>1.2</GlobalLearningFactor>
@@ -232,10 +203,7 @@
 		<degreeDatas>
 			<li>
 				<label>血先生</label>
-				<description>
-				尽管{PAWN_nameDef}有着各种天马行空的想法和淡泊的道德，但是{PAWN_pronoun}还是维持了一个医生与淑女基础的素养。
-				而且{PAWN_possessive}医术真的很高超，并也在尽力克服{PAWN_possessive}种群本能。
-				</description>
+				<description>尽管{PAWN_nameDef}有着各种天马行空的想法和淡泊的道德，但是{PAWN_pronoun}还是维持了一个医生与淑女基础的素养。\n而且{PAWN_possessive}医术真的很高超，并也在尽力克服{PAWN_possessive}种群本能。</description>
 				<statOffsets>
 					<GlobalLearningFactor>0.4</GlobalLearningFactor>
 					<ResearchSpeed>0.15</ResearchSpeed>
@@ -252,10 +220,7 @@
 		<degreeDatas>
 			<li>
 				<label>道德淡泊</label>
-				<description>
-				{PAWN_nameDef}的道德感相当的淡泊，{PAWN_pronoun}只要想到了什么点子，就会立刻去实践，而且完全不会顾及天理伦常。
-				即使是被多次说教也毫无用处，说到底，{PAWN_pronoun}大概也根本没在反省就是了。
-				</description>
+				<description>{PAWN_nameDef}的道德感相当的淡泊，{PAWN_pronoun}只要想到了什么点子，就会立刻去实践，而且完全不会顾及天理伦常。\n即使是被多次说教也毫无用处，说到底，{PAWN_pronoun}大概也根本没在反省就是了。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.15</MentalBreakThreshold>
 				</statOffsets>
@@ -272,8 +237,7 @@
 		<degreeDatas>
 			<li>
 				<label>大小姐</label>
-				<description>之所以用“大小姐”而不是“研究者”去概括，是因为她“大小姐”的印象过于强烈。因为由无数成功培养出来的自信感无时无刻不体现在她的言行之中，在大部分时候，她总是对的。而如果她错了，她从不会吝啬“对不起”。
-				</description>
+				<description>之所以用“大小姐”而不是“研究者”去概括，是因为{PAWN_pronoun}“大小姐”的印象过于强烈。\n因为由无数成功培养出来的自信感无时无刻不体现在{PAWN_possessive}言行之中，在大部分时候，{PAWN_pronoun}总是对的。而如果{PAWN_pronoun}错了，{PAWN_pronoun}从不会吝啬“对不起”。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.15</MentalBreakThreshold>
 					<SocialImpact>0.3</SocialImpact>
@@ -289,8 +253,7 @@
 		<degreeDatas>
 			<li>
 				<label>学者</label>
-				<description>锡兰小姐虽然才从大学毕业，但是她本身的知识储备以及对于源石研究的热情是令人赞叹的，完全可以想见她在学校中付出了怎样的努力。这样优秀人才的加入，对于罗德岛来说，不得不说是一个意外之喜。
-				</description>
+				<description>锡兰小姐虽然才从大学毕业，但是{PAWN_pronoun}本身的知识储备以及对于源石研究的热情是令人赞叹的，完全可以想见{PAWN_pronoun}在学校中付出了怎样的努力。这样优秀人才的加入，对于罗德岛来说，不得不说是一个意外之喜。</description>
 				<statOffsets>
 					<GlobalLearningFactor>0.2</GlobalLearningFactor>
 					<ResearchSpeed>0.3</ResearchSpeed>
@@ -308,10 +271,7 @@
 		<degreeDatas>
 			<li>
 				<label>平安祈愿</label>
-				<description>再严格的事前防护准备，也会有百密一疏的时候。常年在天灾频发区域活动，救助受灾人员，有时甚至需要直面突发的二次灾害，感染矿石病对于救助员这一高危职业来说，是十分难以避免的。
-可以说，在选择了这一职业的同时，就等于已经将自己的安危置之度外。
-桑葚当然也是如此。
-				</description>
+				<description>再严格的事前防护准备，也会有百密一疏的时候。常年在天灾频发区域活动，救助受灾人员，有时甚至需要直面突发的二次灾害，感染矿石病对于救助员这一高危职业来说，是十分难以避免的。\n可以说，在选择了这一职业的同时，就等于已经将自己的安危置之度外。\n{PAWN_nameDef}当然也是如此。</description>
 			</li>
 		</degreeDatas>
 	</TraitDef>
@@ -325,8 +285,7 @@
 		<degreeDatas>
 			<li>
 				<label>生物性分化</label>
-				<description>絮雨虽然性格温柔，善于与人共情，但是因为她很容易在重生后失去一切记忆，她恐惧与人交流，对于一些干员的主动接触，絮雨小姐通常以回避作为回应。
-				</description>
+				<description>{PAWN_nameDef}虽然性格温柔，善于与人共情，但是因为{PAWN_pronoun}很容易在重生后失去一切记忆，{PAWN_pronoun}恐惧与人交流，对于一些干员的主动接触，絮雨小姐通常以回避作为回应。</description>
 				<statOffsets>
 					<SocialImpact>-0.15</SocialImpact>
 					<MentalBreakThreshold>-0.05</MentalBreakThreshold>
@@ -343,8 +302,7 @@
 		<degreeDatas>
 			<li>
 				<label>生物性退行</label>
-				<description>絮雨的身体虚弱到了难以理解的程度，体检报告的数值表明，絮雨小姐的各项身体指标皆低于健康人体的平均水准，其在免疫系统方面更是达到了一个需要被特殊关照的危险境地。
-				</description>
+				<description>{PAWN_nameDef}的身体虚弱到了难以理解的程度，体检报告的数值表明，{PAWN_nameDef}小姐的各项身体指标皆低于健康人体的平均水准，其在免疫系统方面更是达到了一个需要被特殊关照的危险境地。</description>
 				<statOffsets>
 					<PainShockThreshold>0.2</PainShockThreshold>
 				</statOffsets>

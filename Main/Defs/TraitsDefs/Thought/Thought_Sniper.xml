@@ -13,7 +13,7 @@
 		<stages>
 			<li>
 				<label>前路迷茫</label>
-				<description>“没事的，经历了那样的事情后，对我来说，所谓贵族的体面，已经最无所谓的东西了。我现在只是和凛冬她们一样，受到保护的普通学生而已。”</description>
+				<description>“没事的，经历了那样的事情后，对我来说，所谓贵族的体面，已经最无所谓的东西了。\n我现在只是和凛冬她们一样，受到保护的普通学生而已。”</description>
 				<baseMoodEffect>-14</baseMoodEffect>
 			</li>
 		</stages>
@@ -123,7 +123,7 @@
 		<stages>
 			<li>
 				<label>陈述苦难</label>
-				<description>我去过很多国家，不是没有比拉特兰更打动我的地方，但现在我很清楚自己要的是什么。这座拉特兰城，任何人都别想伤害它。</description>
+				<description>我去过很多国家，不是没有比拉特兰更打动我的地方，但现在我很清楚自己要的是什么。\n这座拉特兰城，任何人都别想伤害它。</description>
 				<baseMoodEffect>10</baseMoodEffect>
 			</li>
 		</stages>
@@ -283,7 +283,7 @@
 		<stages>
 			<li>
 				<label>阳光少女</label>
-				<description>得了矿石病后，我偶尔也会被人说，感染者穿得这么鲜艳干什么，感染者听什么音乐......对于这样的人，我的回答永远都是——因为我喜欢~</description>
+				<description>得了矿石病后，我偶尔也会被人说，感染者穿得这么鲜艳干什么，感染者听什么音乐......\n对于这样的人，我的回答永远都是——因为我喜欢~</description>
 				<baseMoodEffect>20</baseMoodEffect>
 			</li>
 		</stages>
@@ -337,7 +337,7 @@
 			</li>
 		</stages>
 	</ThoughtDef>
-	
+
 	<!-- 提丰-->
 
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
@@ -356,7 +356,9 @@
 
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_Kroos</defName>
-		<requiredTraits><li>AK_Trait_Kroos</li></requiredTraits>
+		<requiredTraits>
+			<li>AK_Trait_Kroos</li>
+		</requiredTraits>
 		<stages>
 			<li>
 				<label>怕麻烦</label>
@@ -368,7 +370,9 @@
 
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_Erato</defName>
-		<requiredTraits><li>AK_Trait_Erato</li></requiredTraits>
+		<requiredTraits>
+			<li>AK_Trait_Erato</li>
+		</requiredTraits>
 		<stages>
 			<li>
 				<label>诗歌的热诚</label>

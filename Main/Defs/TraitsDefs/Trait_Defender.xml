@@ -12,8 +12,7 @@
 		<degreeDatas>
 			<li>
 				<label>钢铁意志</label>
-				<description>{PAWN_nameDef}的意志宛如钢铁一般坚韧而又不可撼动，没有任何东西能够动摇{PAWN_possessive}思想。
-但是更多时候则表现的像是脑子转不过弯。</description>
+				<description>{PAWN_nameDef}的意志宛如钢铁一般坚韧而又不可撼动，没有任何东西能够动摇{PAWN_possessive}思想。\n但是更多时候则表现的像是脑子转不过弯。</description>
 				<statOffsets>
 					<SocialImpact>-0.3</SocialImpact>
 					<MentalBreakThreshold>-0.6</MentalBreakThreshold>
@@ -31,8 +30,7 @@
 		<degreeDatas>
 			<li>
 				<label>沃土磐石之友</label>
-				<description>或许是特殊的源石技艺，{PAWN_nameDef}对于泥土有着一种奇妙的情感。
-{PAWN_pronoun}和泥土之间的关系可能比{PAWN_pronoun}和大部分人都要亲密得多。</description>
+				<description>或许是特殊的源石技艺，{PAWN_nameDef}对于泥土有着一种奇妙的情感。\n{PAWN_pronoun}和泥土之间的关系可能比{PAWN_pronoun}和大部分人都要亲密得多。</description>
 				<statOffsets>
 					<SocialImpact>-0.15</SocialImpact>
 					<MentalBreakThreshold>-0.35</MentalBreakThreshold>
@@ -50,8 +48,7 @@
 		<degreeDatas>
 			<li>
 				<label>地生五金</label>
-				<description>伐谋百世 一朝毁之
-国蚀器锈 如梦似电 无踪泡影
+				<description>伐谋百世 一朝毁之\n国蚀器锈 如梦似电 无踪泡影
 				</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.65</MentalBreakThreshold>
@@ -85,11 +82,7 @@
 		<degreeDatas>
 			<li>
 				<label>冷静的鬼</label>
-				<description>
-					在好战方面，{PAWN_nameDef}和其他鬼没有区别，在战场上的{PAWN_pronoun}比任何人都要骁勇善战。
-但{PAWN_pronoun}有着大部分鬼族欠缺的一项特质——冷静。
-从{PAWN_possessive}言行举止中，能感受到思考，在{PAWN_possessive}骁勇善战中，能感受到克制。
-				</description>
+				<description>在好战方面，{PAWN_nameDef}和其他鬼没有区别，在战场上的{PAWN_pronoun}比任何人都要骁勇善战。\n但{PAWN_pronoun}有着大部分鬼族欠缺的一项特质——冷静。\n从{PAWN_possessive}言行举止中，能感受到思考，在{PAWN_possessive}骁勇善战中，能感受到克制。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.4</MentalBreakThreshold>
 				</statOffsets>
@@ -106,8 +99,7 @@
 		<degreeDatas>
 			<li>
 				<label>都市少女</label>
-				<description>即使成为了干员，{PAWN_nameDef}小姐也完全不打算放弃她在日常生活中的兴趣爱好。
-{PAWN_pronoun}知道成为干员后要面临许多前所未有的危险，{PAWN_pronoun}也知道成为干员后会遇到很多笑不出来的事，{PAWN_pronoun}没有忽视这些，而是在此之上，{PAWN_pronoun}依然会是那个精打细算的都市少女。</description>
+				<description>即使成为了干员，{PAWN_nameDef}小姐也完全不打算放弃她在日常生活中的兴趣爱好。\n{PAWN_pronoun}知道成为干员后要面临许多前所未有的危险，{PAWN_pronoun}也知道成为干员后会遇到很多笑不出来的事，{PAWN_pronoun}没有忽视这些，而是在此之上，{PAWN_pronoun}依然会是那个精打细算的都市少女。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.15</MentalBreakThreshold>
 				</statOffsets>
@@ -178,8 +170,7 @@
 		<degreeDatas>
 			<li>
 				<label>不畏苦暗</label>
-				<description>行将绽放的荣光，照耀尘埃也染上明亮。
-时常沐浴着温暖的朝晖，偶尔也踏过照不见影子的苦暗。
+				<description>行将绽放的荣光，照耀尘埃也染上明亮。\n时常沐浴着温暖的朝晖，偶尔也踏过照不见影子的苦暗。
 				</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.2</MentalBreakThreshold>
@@ -323,9 +314,7 @@
 		<degreeDatas>
 			<li>
 				<label>铁匠</label>
-				<description>虽然铁匠这个行业事实上也早已摆脱了在火炉边挥汗如雨的印象，而且{PAWN_nameDef}也认为跟不上时代的人理应被淘汰。
-但{PAWN_pronoun}每天都会在锻造台上升起火，找来一块铁锭，敲打一段时间，一如那些古老的铁匠们所做的那样。
-或许，对{PAWN_pronoun}来说，跟不上时代的人固然应该被淘汰，但那些完全抛弃传统的人，也不配再被称为铁匠吧。
+				<description>虽然铁匠这个行业事实上也早已摆脱了在火炉边挥汗如雨的印象，而且{PAWN_nameDef}也认为跟不上时代的人理应被淘汰。\n但{PAWN_pronoun}每天都会在锻造台上升起火，找来一块铁锭，敲打一段时间，一如那些古老的铁匠们所做的那样。\n或许，对{PAWN_pronoun}来说，跟不上时代的人固然应该被淘汰，但那些完全抛弃传统的人，也不配再被称为铁匠吧。
 				</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.12</MentalBreakThreshold>
@@ -359,8 +348,7 @@
 		<degreeDatas>
 			<li>
 				<label>法为正典</label>
-				<description>{PAWN_nameDef}曾明确展示出法律正义不可侵犯的态度。
-				但或许对于这些从事法律工作的人来说，不论就职后曾不得已地做过什么，现在使用着什么样的手段，他们一开始的理想总是相同的：捍卫法律应存的正义。
+				<description>{PAWN_nameDef}曾明确展示出法律正义不可侵犯的态度。\n但或许对于这些从事法律工作的人来说，不论就职后曾不得已地做过什么，现在使用着什么样的手段，他们一开始的理想总是相同的：捍卫法律应存的正义。
 				</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.25</MentalBreakThreshold>

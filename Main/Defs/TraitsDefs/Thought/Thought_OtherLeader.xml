@@ -3,11 +3,13 @@
 
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_Kristen</defName>
-		<requiredTraits><li>AK_Trait_Kristen</li></requiredTraits>
+		<requiredTraits>
+			<li>AK_Trait_Kristen</li>
+		</requiredTraits>
 		<stages>
 			<li>
 				<label>“孤星”</label>
-				<description>“在我的一生中，仅有两次真正感觉自己活着。第一次，塞雷娅，是我带你回到我的家乡，在那个山坡上向你讲述一切的开始。第二次，是我在泰拉的卫星轨道上，已然完成父母的梦想。”</description>
+				<description>“在我的一生中，仅有两次真正感觉自己活着。\n第一次，塞雷娅，是我带你回到我的家乡，在那个山坡上向你讲述一切的开始。\n第二次，是我在泰拉的卫星轨道上，已然完成父母的梦想。”</description>
 				<baseMoodEffect>-20</baseMoodEffect>
 			</li>
 		</stages>
@@ -15,7 +17,9 @@
 
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_FrostNova</defName>
-		<requiredTraits><li>AK_Trait_FrostNova</li></requiredTraits>
+		<requiredTraits>
+			<li>AK_Trait_FrostNova</li>
+		</requiredTraits>
 		<stages>
 			<li>
 				<label>白兔子</label>

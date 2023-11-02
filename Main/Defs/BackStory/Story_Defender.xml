@@ -14,9 +14,7 @@
 		<slot>Adulthood</slot>
 		<title>前莱茵生命防卫科主任</title>
 		<titleShort>防卫主任</titleShort>
-		<baseDesc>{PAWN_nameDef}女士曾经是莱茵生命防卫科的主要领导人。其他与罗德岛的莱茵生命干员都或多或少的对{PAWN_pronoun}表现出敬意，干员赫默是个例外。
-{PAWN_pronoun}与赫默间的冲突源于莱茵生命的一项实验，而这项实验的主导人正是赫默。
-实验可悲地失败了。{PAWN_pronoun}独自镇压了失去控制的实验品。并因为此项实验离开了莱茵生命。</baseDesc>
+		<baseDesc>{PAWN_nameDef}女士曾经是莱茵生命防卫科的主要领导人。其他与罗德岛的莱茵生命干员都或多或少的对{PAWN_pronoun}表现出敬意，干员赫默是个例外。\n{PAWN_pronoun}与赫默间的冲突源于莱茵生命的一项实验，而这项实验的主导人正是赫默。\n实验可悲地失败了。{PAWN_pronoun}独自镇压了失去控制的实验品。并因为此项实验离开了莱茵生命。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -24,8 +22,7 @@
 		<slot>Adulthood</slot>
 		<title>泥岩小队队长</title>
 		<titleShort>队长</titleShort>
-		<baseDesc>{PAWN_nameDef}由于与整合运动的暴力主张相悖，{PAWN_pronoun}并没有参与整合运动在乌萨斯的活动，而是带领志同道合的萨卡兹同僚前往莱塔尼亚。
-一切都在沃伦姆德的灾难发生后被改变了。</baseDesc>
+		<baseDesc>{PAWN_nameDef}由于与整合运动的暴力主张相悖，{PAWN_pronoun}并没有参与整合运动在乌萨斯的活动，而是带领志同道合的萨卡兹同僚前往莱塔尼亚。\n一切都在沃伦姆德的灾难发生后被改变了。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -41,8 +38,7 @@
 		<slot>Adulthood</slot>
 		<title>无业游民</title>
 		<titleShort>无业游民</titleShort>
-		<baseDesc>{PAWN_nameDef}一直在休息，或者说放假，甚至是……整日无所事事。
-因为{PAWN_pronoun}并不是罗德岛的雇员，而且{PAWN_pronoun}并没有干扰他人工作的习惯，所以罗德岛的干员们也并不好评价{PAWN_possessive}行为。</baseDesc>
+		<baseDesc>{PAWN_nameDef}一直在休息，或者说放假，甚至是……整日无所事事。\n因为{PAWN_pronoun}并不是罗德岛的雇员，而且{PAWN_pronoun}并没有干扰他人工作的习惯，所以罗德岛的干员们也并不好评价{PAWN_possessive}行为。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -50,8 +46,7 @@
 		<slot>Childhood</slot>
 		<title>黑帮打手</title>
 		<titleShort>黑帮打手</titleShort>
-		<baseDesc>黑帮打手时期的{PAWN_nameDef}就显得十分独特，绝不欺压弱小，为非作歹，为人讲义气，有人情味，千杯不倒，简直就像是在东国都已经被时代所抛弃的任侠一般光明磊落。
-显然，这也是{PAWN_pronoun}能够破格成为龙门督察的理由。</baseDesc>
+		<baseDesc>黑帮打手时期的{PAWN_nameDef}就显得十分独特，绝不欺压弱小，为非作歹，为人讲义气，有人情味，千杯不倒，简直就像是在东国都已经被时代所抛弃的任侠一般光明磊落。\n显然，这也是{PAWN_pronoun}能够破格成为龙门督察的理由。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -59,8 +54,7 @@
 		<slot>Adulthood</slot>
 		<title>龙门督查</title>
 		<titleShort>龙门督查</titleShort>
-		<baseDesc>经龙门总督魏彦吾交涉，龙门近卫局依{PAWN_nameDef}的优异能力与良好表现，破格将其吸纳进近卫局特别督察组。
-在处理高危险性犯罪事件、要员保护、灾害紧急救援等领域表现出较高专业性。</baseDesc>
+		<baseDesc>经龙门总督魏彦吾交涉，龙门近卫局依{PAWN_nameDef}的优异能力与良好表现，破格将其吸纳进近卫局特别督察组。\n在处理高危险性犯罪事件、要员保护、灾害紧急救援等领域表现出较高专业性。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -68,8 +62,7 @@
 		<slot>Childhood</slot>
 		<title>瓦伊凡联盟的孩子</title>
 		<titleShort>瓦伊凡</titleShort>
-		<baseDesc>{PAWN_nameDef}的故乡位于瓦伊凡联盟控制区内，为了对应随时可能产生的劫掠行动，城市自身配备了一定的防御力量，但迫于训练不足与装备的匮乏，也不得不求助于一些更为专业的安全承包公司。
-在{PAWN_possessive}记忆中，那些在故乡街头操弄崭新的武器与装备，以听不懂的外国语言相互交谈，在骚乱中以小组形式迅速击溃敌寇的安全承包商们，是{PAWN_pronoun}对安全承包商这个行业的最初认知。</baseDesc>
+		<baseDesc>{PAWN_nameDef}的故乡位于瓦伊凡联盟控制区内，为了对应随时可能产生的劫掠行动，城市自身配备了一定的防御力量，但迫于训练不足与装备的匮乏，也不得不求助于一些更为专业的安全承包公司。\n在{PAWN_possessive}记忆中，那些在故乡街头操弄崭新的武器与装备，以听不懂的外国语言相互交谈，在骚乱中以小组形式迅速击溃敌寇的安全承包商们，是{PAWN_pronoun}对安全承包商这个行业的最初认知。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -77,8 +70,7 @@
 		<slot>Adulthood</slot>
 		<title>BSW雇员</title>
 		<titleShort>BSW雇员</titleShort>
-		<baseDesc>{PAWN_nameDef}的想法是：创办一家属于自己的安全承包公司。最初{PAWN_pronoun}之所以选择加入黑钢国际，正是这一想法中最为关键的一步。
-不是为了赚钱，也不是为了寻求战斗的快感，{PAWN_pronoun}只是希望，用手中的武器尽可能地为人们带来安稳，而不是动乱。</baseDesc>
+		<baseDesc>{PAWN_nameDef}的想法是：创办一家属于自己的安全承包公司。最初{PAWN_pronoun}之所以选择加入黑钢国际，正是这一想法中最为关键的一步。\n不是为了赚钱，也不是为了寻求战斗的快感，{PAWN_pronoun}只是希望，用手中的武器尽可能地为人们带来安稳，而不是动乱。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -86,8 +78,7 @@
 		<slot>Childhood</slot>
 		<title>穷孩子</title>
 		<titleShort>穷孩子</titleShort>
-		<baseDesc>{PAWN_nameDef}的家境并不富裕，加入企鹅物流也是为了改善生活条件
-至少{PAWN_pronoun}买买买的习惯不是在儿时养成的。</baseDesc>
+		<baseDesc>{PAWN_nameDef}的家境并不富裕，加入企鹅物流也是为了改善生活条件。\n至少{PAWN_pronoun}买买买的习惯不是在儿时养成的。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -95,9 +86,7 @@
 		<slot>Adulthood</slot>
 		<title>企鹅物流信使</title>
 		<titleShort>信使</titleShort>
-		<baseDesc>{PAWN_nameDef}是一个充满活力的信使少女。
-认为工作的目标就是为了提高生活品质和买买买，
-全心享受着现代生活。因此总是入不敷出。</baseDesc>
+		<baseDesc>{PAWN_nameDef}是一个充满活力的信使少女。\n认为工作的目标就是为了提高生活品质和买买买，全心享受着现代生活。因此总是入不敷出。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -105,9 +94,7 @@
 		<slot>Childhood</slot>
 		<title>被放逐的耀骑士</title>
 		<titleShort>耀骑士</titleShort>
-		<baseDesc>{PAWN_nameDef}曾以独立骑士身份参加骑士竞技，“耀骑士”的封号便是此时得来，并且初次参赛便获得封号、打入正赛甚至一举夺冠，成为骑士竞技史上唯一的无赞助、无团体、出道即夺冠的年轻骑士，在民间传为佳话。
-但是，临光的{PAWN_possessive}活跃打破了骑士竞技中由卡西米尔商业联合会主导的潜规则，危及了商业联合会的利益，因此商业联合会将临光列入无胄盟的暗杀名单。
-{PAWN_pronoun}被放逐时，是在是{PAWN_nameDef}家家长们的策划下，由{PAWN_nameDef}家亲信保护，被暗中送出去的。也正是由于{PAWN_pronoun}因矿石病被放逐出境，无胄盟才暂停了对{PAWN_possessive}暗杀。</baseDesc>
+		<baseDesc>{PAWN_nameDef}曾以独立骑士身份参加骑士竞技，“耀骑士”的封号便是此时得来，并且初次参赛便获得封号、打入正赛甚至一举夺冠，成为骑士竞技史上唯一的无赞助、无团体、出道即夺冠的年轻骑士，在民间传为佳话。\n但是，临光的{PAWN_possessive}活跃打破了骑士竞技中由卡西米尔商业联合会主导的潜规则，危及了商业联合会的利益，因此商业联合会将临光列入无胄盟的暗杀名单。\n{PAWN_pronoun}被放逐时，是在是{PAWN_nameDef}家家长们的策划下，由{PAWN_nameDef}家亲信保护，被暗中送出去的。也正是由于{PAWN_pronoun}因矿石病被放逐出境，无胄盟才暂停了对{PAWN_possessive}暗杀。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -123,8 +110,7 @@
 		<slot>Childhood</slot>
 		<title>喜爱机器的部落孩子</title>
 		<titleShort>部落孩子</titleShort>
-		<baseDesc>{PAWN_nameDef}曾经同其他的部族孩子一样，喜欢打架，尤其是和嘉维尔。
-但当{PAWN_pronoun}偶然看到了萨尔贡庞大的移动城市后，{PAWN_possessive}生活被永久的改变了。</baseDesc>
+		<baseDesc>{PAWN_nameDef}曾经同其他的部族孩子一样，喜欢打架，尤其是和嘉维尔。\n但当{PAWN_pronoun}偶然看到了萨尔贡庞大的移动城市后，{PAWN_possessive}生活被永久的改变了。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -132,8 +118,7 @@
 		<slot>Adulthood</slot>
 		<title>罗德岛机械师</title>
 		<titleShort>机械师</titleShort>
-		<baseDesc>在博士以闹剧收尾的阿卡胡拉之旅中，{PAWN_nameDef}在与Lancet-2相遇后就非常尊重Lancet-2，并被罗德岛的机械技术折服，选择加入罗德岛。
-虽然{PAWN_pronoun}和可露希尔的交流马上就把可露希尔气得把手中的薯片都扔了，但是{PAWN_possessive}学习能力确实足矣证明{PAWN_pronoun}有担任机械师的能力</baseDesc>
+		<baseDesc>在博士以闹剧收尾的阿卡胡拉之旅中，{PAWN_nameDef}在与Lancet-2相遇后就非常尊重Lancet-2，并被罗德岛的机械技术折服，选择加入罗德岛。\n虽然{PAWN_pronoun}和可露希尔的交流马上就把可露希尔气得把手中的薯片都扔了，但是{PAWN_possessive}学习能力确实足矣证明{PAWN_pronoun}有担任机械师的能力</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -141,8 +126,7 @@
 		<slot>Childhood</slot>
 		<title>雪山上的乌萨斯</title>
 		<titleShort>雪山上的乌萨斯</titleShort>
-		<baseDesc>{PAWN_nameDef}出生在谢拉格的湖区，{PAWN_possessive}童年生活几乎都是在冰面上度过。
-几年后，{PAWN_pronoun}中学毕业，接受希瓦艾什家的资助赴哥伦比亚学习，主攻雪地极端环境下的防御工程学。</baseDesc>
+		<baseDesc>{PAWN_nameDef}出生在谢拉格的湖区，{PAWN_possessive}童年生活几乎都是在冰面上度过。\n几年后，{PAWN_pronoun}中学毕业，接受希瓦艾什家的资助赴哥伦比亚学习，主攻雪地极端环境下的防御工程学。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -150,8 +134,7 @@
 		<slot>Adulthood</slot>
 		<title>探险队员</title>
 		<titleShort>探险队员</titleShort>
-		<baseDesc>在一次源石冰雹灾害后，{PAWN_nameDef}因为同其他几个人支撑住营地而感染了矿石病。
-最后{PAWN_pronoun}因为矿石病中断学业，来到罗德岛寻求治疗。</baseDesc>
+		<baseDesc>在一次源石冰雹灾害后，{PAWN_nameDef}因为同其他几个人支撑住营地而感染了矿石病。\n最后{PAWN_pronoun}因为矿石病中断学业，来到罗德岛寻求治疗。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -167,8 +150,7 @@
 		<slot>Adulthood</slot>
 		<title>小耀骑士</title>
 		<titleShort>小耀骑士</titleShort>
-		<baseDesc>尽管因为“耀骑士”的光环笼罩下，{PAWN_nameDef}成功杀入了总决赛。但是因为其行动触动了商业联合会的利益。因此商业联合会使用种种手段，企图将小瑕光杀死在竞技场上。
-但商业联合会的计划落空了，在被天降神兵的临光救下后，瑕光伴随着临光加入了罗德岛</baseDesc>
+		<baseDesc>尽管因为“耀骑士”的光环笼罩下，{PAWN_nameDef}成功杀入了总决赛。但是因为其行动触动了商业联合会的利益。因此商业联合会使用种种手段，企图将小瑕光杀死在竞技场上。\n但商业联合会的计划落空了，在被天降神兵的临光救下后，瑕光伴随着临光加入了罗德岛</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -176,8 +158,7 @@
 		<slot>Childhood</slot>
 		<title>谜团</title>
 		<titleShort>谜团</titleShort>
-		<baseDesc>干员{PAWN_nameDef}在来到罗德岛之前的经历一直是一个谜团，在罗德岛刚刚于哥伦比亚某小城市进行补给后驶离时，{PAWN_pronoun}被发现躺在罗德岛舰桥甲板上，一边晒太阳一边睡午觉。
-在叫醒蛇屠箱并进行询问的过程中，蛇屠箱发现自己完全没有来到罗德岛的相关记忆。随后在罗德岛为蛇屠箱安排了一次免费的检查中发现，{PAWN_pronoun}是一名轻度感染者。</baseDesc>
+		<baseDesc>干员{PAWN_nameDef}在来到罗德岛之前的经历一直是一个谜团，在罗德岛刚刚于哥伦比亚某小城市进行补给后驶离时，{PAWN_pronoun}被发现躺在罗德岛舰桥甲板上，一边晒太阳一边睡午觉。\n在叫醒蛇屠箱并进行询问的过程中，蛇屠箱发现自己完全没有来到罗德岛的相关记忆。随后在罗德岛为蛇屠箱安排了一次免费的检查中发现，{PAWN_pronoun}是一名轻度感染者。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -185,9 +166,7 @@
 		<slot>Childhood</slot>
 		<title>落魄贵族</title>
 		<titleShort>落魄贵族</titleShort>
-		<baseDesc>{PAWN_nameDef}在幼年曾经是一个名贵骑士家族的一员，但是家族在因为决策失误一蹶不振，并且因为自己感染矿石病后。
-灰毫因为一次不合时机的出场造成家族的合同被对方借故撕毁，自己也因此被逐出家族，{PAWN_pronoun}因此成为了一名感染者骑士想要为自己正名。
-		</baseDesc>
+		<baseDesc>{PAWN_nameDef}在幼年曾经是一个名贵骑士家族的一员，但是家族在因为决策失误一蹶不振，并且因为自己感染矿石病后。\n{PAWN_nameDef}因为一次不合时机的出场造成家族的合同被对方借故撕毁，自己也因此被逐出家族，{PAWN_pronoun}因此成为了一名感染者骑士想要为自己正名。</baseDesc>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 	</BackstoryDef>
 
@@ -196,8 +175,7 @@
 		<slot>Adulthood</slot>
 		<title>灰毫骑士</title>
 		<titleShort>灰毫骑士</titleShort>
-		<baseDesc>{PAWN_nameDef}在一次感染骑士特锦赛后遇到了现在的焰尾骑士，并且与{PAWN_pronoun}一同创建了红松骑士团并且拥有了越来越高的名气。
-		</baseDesc>
+		<baseDesc>{PAWN_nameDef}在一次感染骑士特锦赛后遇到了现在的焰尾骑士，并且与{PAWN_pronoun}一同创建了红松骑士团并且拥有了越来越高的名气。</baseDesc>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 	</BackstoryDef>
 
@@ -206,8 +184,7 @@
 		<slot>Childhood</slot>
 		<title>白狼公爵的孩子</title>
 		<titleShort>公爵孩子</titleShort>
-		<baseDesc>{PAWN_nameDef}诞生于维多利亚赫赫有名的军事贵族家庭，并且顺利考入了维多利亚近卫学院并毕业，在毕业后加入了暴风突击队。
-		</baseDesc>
+		<baseDesc>{PAWN_nameDef}诞生于维多利亚赫赫有名的军事贵族家庭，并且顺利考入了维多利亚近卫学院并毕业，在毕业后加入了暴风突击队。</baseDesc>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 	</BackstoryDef>
 
@@ -216,8 +193,7 @@
 		<slot>Adulthood</slot>
 		<title>暴风突击队队长</title>
 		<titleShort>暴风突击队队长</titleShort>
-		<baseDesc>{PAWN_nameDef}在加入暴风突击队后迅速晋升为了号角小队是队长，但在小丘郡的动乱中，号角小队几近全军覆没。
-		</baseDesc>
+		<baseDesc>{PAWN_nameDef}在加入暴风突击队后迅速晋升为了号角小队的队长，但在小丘郡的动乱中，号角小队几近全军覆没。</baseDesc>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 	</BackstoryDef>
 
@@ -226,9 +202,7 @@
 		<slot>Childhood</slot>
 		<title>家族侍卫</title>
 		<titleShort>家族侍卫</titleShort>
-		<baseDesc>{PAWN_nameDef}从小就是被当做银灰家侍卫来训练，他的父亲，祖父，都是银灰家荣耀的近卫，他自然也以此作为目标。
-在格斗训练之余他也会学习一些厨艺。
-		</baseDesc>
+		<baseDesc>{PAWN_nameDef}从小就是被当做银灰家侍卫来训练，他的父亲，祖父，都是银灰家荣耀的近卫，他自然也以此作为目标。\n在格斗训练之余他也会学习一些厨艺。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -244,8 +218,7 @@
 		<slot>Childhood</slot>
 		<title>履历缺失</title>
 		<titleShort>履历缺失</titleShort>
-		<baseDesc>履历缺失
-		</baseDesc>
+		<baseDesc>履历缺失</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -253,9 +226,7 @@
 		<slot>Adulthood</slot>
 		<title>铁匠</title>
 		<titleShort>铁匠</titleShort>
-		<baseDesc>来自米诺斯的铁匠，感染矿石病后，来到罗德岛求医，在与罗德岛达成协议后，成为罗德岛的一分子。
-平日主要负责其他干员的武器维护与打造，必要时亲自出动。
-		</baseDesc>
+		<baseDesc>来自米诺斯的铁匠，感染矿石病后，来到罗德岛求医，在与罗德岛达成协议后，成为罗德岛的一分子。\n平日主要负责其他干员的武器维护与打造，必要时亲自出动。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -263,9 +234,7 @@
 		<slot>Adulthood</slot>
 		<title>叙拉古法官</title>
 		<titleShort>叙拉古法官</titleShort>
-		<baseDesc>{PAWN_nameDef}原本为叙拉古的城邦法官，背后有着贝洛内家族的支持。
-但与其他有着家族支持的法官不同的是，斥罪并不完全以贝洛内家族的意志判决案件，{PAWN_pronoun}也会宣判贝洛内家族成员的罪行
-		</baseDesc>
+		<baseDesc>{PAWN_nameDef}原本为叙拉古的城邦法官，背后有着贝洛内家族的支持。\n但与其他有着家族支持的法官不同的是，{PAWN_nameDef}并不完全以贝洛内家族的意志判决案件，{PAWN_pronoun}也会宣判贝洛内家族成员的罪行。</baseDesc>
 	</BackstoryDef>
 
 </Defs>

@@ -12,10 +12,7 @@
 		<degreeDatas>
 			<li>
 				<label>江河的尽头</label>
-				<description>
-				{PAWN_nameDef}描述的海洋究竟是什么？{PAWN_pronoun}使用的蓝色为何会让人感到不安？{PAWN_pronoun}在绘画时那令人不适的杂音又从何而来？
-				管它呢，探听别人的机密可不好。
-				</description>
+				<description>{PAWN_nameDef}描述的海洋究竟是什么？{PAWN_pronoun}使用的蓝色为何会让人感到不安？{PAWN_pronoun}在绘画时那令人不适的杂音又从何而来？\n管它呢，探听别人的机密可不好。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.35</MentalBreakThreshold>
 				</statOffsets>
@@ -32,9 +29,7 @@
 		<degreeDatas>
 			<li>
 				<label>圣女</label>
-				<description>
-				圣女是整个谢拉格地方宗教至高无上的权首，身为经历残酷选拔而上位的圣女，{PAWN_nameDef}对信仰的虔诚与体能都是无可挑剔的，但是{PAWN_pronoun}似乎不喜欢这一圣洁的职位，貌似是因为职务太多了。
-				</description>
+				<description>圣女是整个谢拉格地方宗教至高无上的权首，身为经历残酷选拔而上位的圣女，{PAWN_nameDef}对信仰的虔诚与体能都是无可挑剔的，但是{PAWN_pronoun}似乎不喜欢这一圣洁的职位，貌似是因为职务太多了。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.3</MentalBreakThreshold>
 				</statOffsets>
@@ -51,9 +46,7 @@
 		<degreeDatas>
 			<li>
 				<label>真理</label>
-				<description>
-				与同龄的学生不一样，{PAWN_nameDef}喜欢安静读书，并在书籍中学到了如何重新理解一切
-				</description>
+				<description>与同龄的学生不一样，{PAWN_nameDef}喜欢安静读书，并在书籍中学到了如何重新理解一切。</description>
 				<statOffsets>
 					<WorkSpeedGlobal>0.2</WorkSpeedGlobal>
 					<GlobalLearningFactor>0.2</GlobalLearningFactor>
@@ -72,9 +65,7 @@
 		<degreeDatas>
 			<li>
 				<label>阳光偶像</label>
-				<description>
-				{PAWN_nameDef}的表演以其可爱活泼，充满朝气的风格著名，可以说{PAWN_pronoun}就是“阳光少女”的代名词
-				</description>
+				<description>{PAWN_nameDef}的表演以其可爱活泼，充满朝气的风格著名，可以说{PAWN_pronoun}就是“阳光少女”的代名词。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.2</MentalBreakThreshold>
 				</statOffsets>
@@ -91,10 +82,7 @@
 		<degreeDatas>
 			<li>
 				<label>年轻的信使</label>
-				<description>
-				即便已经知晓了感染者的结局，{PAWN_nameDef}却并不甘心。
-				作为信使，作为感染者，也作为一个普通的高中生，{PAWN_pronoun}正在努力地生活下去，无论未来会变成什么模样。
-				</description>
+				<description>即便已经知晓了感染者的结局，{PAWN_nameDef}却并不甘心。\n作为信使，作为感染者，也作为一个普通的高中生，{PAWN_pronoun}正在努力地生活下去，无论未来会变成什么模样。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.15</MentalBreakThreshold>
 				</statOffsets>
@@ -111,9 +99,7 @@
 		<degreeDatas>
 			<li>
 				<label>好孩子</label>
-				<description>
-				{PAWN_nameDef}给所有人的印象都是“听话的好孩子”事实也的确如此。
-				</description>
+				<description>{PAWN_nameDef}给所有人的印象都是“听话的好孩子”事实也的确如此。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.3</MentalBreakThreshold>
 				</statOffsets>
@@ -130,12 +116,7 @@
 		<degreeDatas>
 			<li>
 				<label>缓慢但坚定</label>
-				<description>
-				也许是天生的不敏感——又或许有其他原因——{PAWN_nameDef}没有被他人的言语所击败
-				{PAWN_pronoun}相信自己的伙伴，{PAWN_pronoun}也相信自己的父母。
-				{PAWN_pronoun}相信，通过自己的双眼与镜头，{PAWN_pronoun}能帮助更多像自己一样比起语言对图像更敏感的人，而{PAWN_pronoun}自己也能看到更多，更多。
-				虽然{PAWN_pronoun}不说，但也许她现在也很幸福。
-				</description>
+				<description>也许是天生的不敏感——又或许有其他原因——{PAWN_nameDef}没有被他人的言语所击败。\n{PAWN_pronoun}相信自己的伙伴，{PAWN_pronoun}也相信自己的父母。\n{PAWN_pronoun}相信，通过自己的双眼与镜头，{PAWN_pronoun}能帮助更多像自己一样比起语言对图像更敏感的人，而{PAWN_pronoun}自己也能看到更多，更多。\n虽然{PAWN_pronoun}不说，但也许{PAWN_pronoun}现在也很幸福。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.13</MentalBreakThreshold>
 				</statOffsets>
@@ -150,9 +131,7 @@
 		<degreeDatas>
 			<li>
 				<label>慢</label>
-				<description>
-				或许是因为种族特性的缘故，{PAWN_nameDef}不论是思考还是做任何事情都极度缓慢，真——的——很——慢——哦——
-				</description>
+				<description>或许是因为种族特性的缘故，{PAWN_nameDef}不论是思考还是做任何事情都极度缓慢，真——的——很——慢——哦——</description>
 				<statOffsets>
 					<WorkSpeedGlobal>-0.8</WorkSpeedGlobal>
 					<GlobalLearningFactor >-0.8</GlobalLearningFactor>
@@ -175,9 +154,7 @@
 		<degreeDatas>
 			<li>
 				<label>纵情快意</label>
-				<description>
-				悲长梦，醉挑灯。他年长风今犹在，旧时铁甲踏新声。
-				</description>
+				<description>悲长梦，醉挑灯。他年长风今犹在，旧时铁甲踏新声。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.35</MentalBreakThreshold>
 				</statOffsets>
@@ -195,9 +172,7 @@
 		<degreeDatas>
 			<li>
 				<label>乐逍遥</label>
-				<description>
-				长河远上，埋骸其下，吾自逍遥。
-				</description>
+				<description>长河远上，埋骸其下，吾自逍遥。</description>
 				<statFactors>
 					<MoveSpeed>1.15</MoveSpeed>
 				</statFactors>
@@ -214,10 +189,7 @@
 		<degreeDatas>
 			<li>
 				<label>深度思考</label>
-				<description>
-				{PAWN_nameDef}对于研究的热衷正是来自家学渊源。作为研究者来说，{PAWN_pronoun}可以说是十分理想的类型。
-				{PAWN_pronoun}几乎没有物欲，对于研究之外的事物几乎不抱有兴趣。{PAWN_pronoun}具备将自己的想法转化为现实的行动力与能力。而一旦他将精神集中到研究之上时，{PAWN_pronoun}就会化身成一台精密的仪器——在他参与过的诸多实验中，{PAWN_pronoun}从没有犯过一点错误。
-				</description>
+				<description>{PAWN_nameDef}对于研究的热衷正是来自家学渊源。作为研究者来说，{PAWN_pronoun}可以说是十分理想的类型。\n{PAWN_pronoun}几乎没有物欲，对于研究之外的事物几乎不抱有兴趣。{PAWN_pronoun}具备将自己的想法转化为现实的行动力与能力。而一旦他将精神集中到研究之上时，{PAWN_pronoun}就会化身成一台精密的仪器——在他参与过的诸多实验中，{PAWN_pronoun}从没有犯过一点错误。</description>
 				<statOffsets>
 					<WorkSpeedGlobal>0.25</WorkSpeedGlobal>
 					<ResearchSpeed>1.5</ResearchSpeed>
@@ -233,9 +205,7 @@
 		<degreeDatas>
 			<li>
 				<label>冷漠学者</label>
-				<description>
-				他的本名，诺希斯，意为知识、洞察。而{PAWN_pronoun}本人也如同这个名字的含义一般，极具洞察力，并且对于知识有着无穷的渴望。不近人情，言语刻薄。
-				</description>
+				<description>他的本名，诺希斯，意为知识、洞察。\n而{PAWN_pronoun}本人也如同这个名字的含义一般，极具洞察力，并且对于知识有着无穷的渴望。不近人情，言语刻薄。</description>
 				<statOffsets>
 					<GlobalLearningFactor>1.5</GlobalLearningFactor>
 					<MentalBreakThreshold>-0.15</MentalBreakThreshold>
@@ -253,10 +223,7 @@
 		<degreeDatas>
 			<li>
 				<label>才华横溢</label>
-				<description>
-				不论是社交，战术规划还是文学，{PAWN_nameDef}展露出的才华远非常人能及。
-				不过对{PAWN_pronoun}来说这些只不过是伪装的幕布
-				</description>
+				<description>不论是社交，战术规划还是文学，{PAWN_nameDef}展露出的才华远非常人能及。\n不过对{PAWN_pronoun}来说这些只不过是伪装的幕布</description>
 				<statOffsets>
 					<WorkSpeedGlobal>0.2</WorkSpeedGlobal>
 					<GlobalLearningFactor>1</GlobalLearningFactor>
@@ -275,8 +242,7 @@
 		<degreeDatas>
 			<li>
 				<label>风声</label>
-				<description>......{PAWN_pronoun}是不是有点太喜欢热闹了？就好像冷清的环境会让{PAWN_pronoun}感到恐惧似的。 
-				</description>
+				<description>......{PAWN_pronoun}是不是有点太喜欢热闹了？就好像冷清的环境会让{PAWN_pronoun}感到恐惧似的。 </description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.30</MentalBreakThreshold>
 				</statOffsets>
@@ -291,8 +257,7 @@
 		<degreeDatas>
 			<li>
 				<label>高多汀的德鲁伊</label>
-				<description>{PAWN_nameDef}虽然不是感染者，但有对感染者一视同仁的医者仁心，而且有着相当娴熟、专业的战斗技巧。
-				</description>
+				<description>{PAWN_nameDef}虽然不是感染者，但有对感染者一视同仁的医者仁心，而且有着相当娴熟、专业的战斗技巧。</description>
 				<statOffsets>
 					<MedicalTendQuality>1.00</MedicalTendQuality>
 					<SocialImpact>0.30</SocialImpact>
@@ -310,8 +275,7 @@
 		<degreeDatas>
 			<li>
 				<label>化妆师</label>
-				<description>“上届学院奖颁奖典礼我是从头到尾看下来的，拿到最佳化妆与发型设计的那部电影，领头的化妆师不正是叫这个名字、长着这张脸吗？！我没记错的话，近五年来，大大小小的电影奖，她拿到的提名次数一只手根本数不过来吧？”
-				</description>
+				<description>“上届学院奖颁奖典礼我是从头到尾看下来的，拿到最佳化妆与发型设计的那部电影，领头的化妆师不正是叫这个名字、长着这张脸吗？！我没记错的话，近五年来，大大小小的电影奖，{PAWN_pronoun}拿到的提名次数一只手根本数不过来吧？”</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.05</MentalBreakThreshold>
 				</statOffsets>
@@ -326,11 +290,7 @@
 		<degreeDatas>
 			<li>
 				<label>话多</label>
-				<description>“表面肌电追踪自填充粉底遮瑕！”
-“高能源石虫酸液萃取定型喷雾！”
-“颅颌面全结构自成像修容高光！”
-“干湿用环境色自适应唇彩腮红！”
-				</description>
+				<description>“表面肌电追踪自填充粉底遮瑕！”\n“高能源石虫酸液萃取定型喷雾！”\n“颅颌面全结构自成像修容高光！”\n“干湿用环境色自适应唇彩腮红！”</description>
 				<statOffsets>
 					<SocialImpact>-0.20</SocialImpact>
 				</statOffsets>
@@ -347,8 +307,7 @@
 		<degreeDatas>
 			<li>
 				<label>利己者</label>
-				<description>但书干员对待交到她手上的案件，往往不会在意结果正义与否，完全只是为了辩护人能获得最终胜利而行动，具体的办案手段也多有暧昧不明之处。
-				</description>
+				<description>{PAWN_nameDef}干员对待交到{PAWN_pronoun}手上的案件，往往不会在意结果正义与否，完全只是为了辩护人能获得最终胜利而行动，具体的办案手段也多有暧昧不明之处。</description>
 				<statOffsets>
 					<MentalBreakThreshold>0.06</MentalBreakThreshold>
 				</statOffsets>
@@ -363,8 +322,7 @@
 		<degreeDatas>
 			<li>
 				<label>职业律师</label>
-				<description>但书干员此前就职于卡西米尔顶尖的精英律所——长缰律所，有过非诉讼律师和诉讼律师的工作经验，在工作这几年内经手案子数量相当可观，拥有辩护不败的惊人战绩。
-				</description>
+				<description>{PAWN_nameDef}干员此前就职于卡西米尔顶尖的精英律所——长缰律所，有过非诉讼律师和诉讼律师的工作经验，在工作这几年内经手案子数量相当可观，拥有辩护不败的惊人战绩。</description>
 				<statOffsets>
 					<SocialImpact>0.80</SocialImpact>
 					<TradePriceImprovement>0.20</TradePriceImprovement>
@@ -380,14 +338,15 @@
 		<degreeDatas>
 			<li>
 				<label>看了一次星星</label>
-				<description>黛丝特太过聪明，也太过于绝对，这是她与多数学生最大的不同。她对于用法律寻找真理的执着支撑着她取得如斯优秀的成绩，但她还没有做好“找不到答案”的准备。
-				</description>
+				<description>{PAWN_nameDef}太过聪明，也太过于绝对，这是{PAWN_pronoun}与多数学生最大的不同。\n{PAWN_pronoun}对于用法律寻找真理的执着支撑着{PAWN_pronoun}取得如斯优秀的成绩，但{PAWN_pronoun}还没有做好“找不到答案”的准备。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.1</MentalBreakThreshold>
 				</statOffsets>
 			</li>
 		</degreeDatas>
 	</TraitDef>
+
+	<!-- 浊心斯卡蒂 -->
 
 	<TraitDef>
 		<ignoreConfigErrors>true</ignoreConfigErrors>
@@ -396,8 +355,7 @@
 		<degreeDatas>
 			<li>
 				<label>塞壬海妖</label>
-				<description>她在歌唱，她是如此美丽。
-				</description>
+				<description>{PAWN_pronoun}在歌唱，{PAWN_pronoun}是如此美丽。</description>
 				<statOffsets>
 					<SocialImpact>0.2</SocialImpact>
 				</statOffsets>
@@ -417,15 +375,7 @@
 		<degreeDatas>
 			<li>
 				<label>Ishar-mla</label>
-				<description>/检索中
-					/错误！未查询到相关档案
-					/检索中（2）
-					/错误！未查询到相关档案
-					/检索中（3）
-					/错误！未查询到相关档案
-					
-					严重错误！三次查询目标档案失败，请联系PRTS管理员补充相关信息。
-				</description>
+				<description>/检索中\n/错误！未查询到相关档案\n/检索中（2）\n/错误！未查询到相关档案\n/检索中（3）\n/错误！未查询到相关档案\n\n严重错误！三次查询目标档案失败，请联系PRTS管理员补充相关信息。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.99</MentalBreakThreshold>
 					<GlobalLearningFactor>20</GlobalLearningFactor>

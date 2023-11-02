@@ -30,8 +30,7 @@
 		<slot>Childhood</slot>
 		<title>部族最强壮的孩子</title>
 		<titleShort>强者</titleShort>
-		<baseDesc>{PAWN_nameDef}生长于萨尔贡深处的雨林部落中，小时候的{PAWN_pronoun}与同一地区的另一个部落的森蚺干员结下了深厚的“友谊”。
-{PAWN_pronoun}曾经是自己部族数一数二的战士。</baseDesc>
+		<baseDesc>{PAWN_nameDef}生长于萨尔贡深处的雨林部落中，小时候的{PAWN_pronoun}与同一地区的另一个部落的森蚺干员结下了深厚的“友谊”。\n{PAWN_pronoun}曾经是自己部族数一数二的战士。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -39,8 +38,7 @@
 		<slot>Adulthood</slot>
 		<title>医生</title>
 		<titleShort>医生</titleShort>
-		<baseDesc>在觉醒了治疗法术天赋后，{PAWN_nameDef}毅然选择了以救死扶伤为己任。
-在一次救援行动中，{PAWN_pronoun}不幸感染了矿石病，于是离开了萨尔贡的雨林，到罗德岛进行治疗。</baseDesc>
+		<baseDesc>在觉醒了治疗法术天赋后，{PAWN_nameDef}毅然选择了以救死扶伤为己任。\n在一次救援行动中，{PAWN_pronoun}不幸感染了矿石病，于是离开了萨尔贡的雨林，到罗德岛进行治疗。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -56,8 +54,7 @@
 		<slot>Adulthood</slot>
 		<title>愧疚的朋友</title>
 		<titleShort>愧疚的朋友</titleShort>
-		<baseDesc>其好友哈默妮的矿石病感染皆因两人在某次探险中{PAWN_nameDef}失误的行为所导致。但{PAWN_pronoun}并未详细描述探险的详细过程以及哈默妮感染的原因。
-为了为自己的好友取得治疗机会，{PAWN_pronoun}主动加入罗德岛。</baseDesc>
+		<baseDesc>其好友哈默妮的矿石病感染皆因两人在某次探险中{PAWN_nameDef}失误的行为所导致。但{PAWN_pronoun}并未详细描述探险的详细过程以及哈默妮感染的原因。\n为了为自己的好友取得治疗机会，{PAWN_pronoun}主动加入罗德岛。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -81,8 +78,7 @@
 		<slot>Adulthood</slot>
 		<title>调香师</title>
 		<titleShort>调香师</titleShort>
-		<baseDesc>{PAWN_nameDef}热爱自然，喜欢植物、花香和阳光，选择调香师作为职业正是对这份热爱的回应。
-在最初的阶段，较少亲自体验劳动与工作的莱娜吃了许多苦头，调香的学习和实践均遭遇了一段时间的低谷。但出身大家的{PAWN_pronoun}凭借长久养成的骄傲和自信，将本应沉浸于沮丧于沮丧中的情绪化为了自身前进的行动力，以惊人的毅力熬过了最艰难的时期。</baseDesc>
+		<baseDesc>{PAWN_nameDef}热爱自然，喜欢植物、花香和阳光，选择调香师作为职业正是对这份热爱的回应。\n在最初的阶段，较少亲自体验劳动与工作的莱娜吃了许多苦头，调香的学习和实践均遭遇了一段时间的低谷。但出身大家的{PAWN_pronoun}凭借长久养成的骄傲和自信，将本应沉浸于沮丧于沮丧中的情绪化为了自身前进的行动力，以惊人的毅力熬过了最艰难的时期。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -106,8 +102,7 @@
 		<slot>Adulthood</slot>
 		<title>使徒</title>
 		<titleShort>使徒</titleShort>
-		<baseDesc>闪灵最后救出了{PAWN_nameDef}并让她加入了使徒，但{PAWN_possessive}精神从未真正离开监禁她的地方；
-{PAWN_pronoun}常感到监禁与封闭，是因为自己还身在牢笼之中。</baseDesc>
+		<baseDesc>闪灵最后救出了{PAWN_nameDef}并让{PAWN_pronoun}加入了使徒，但{PAWN_possessive}精神从未真正离开监禁{PAWN_possessive}地方；\n{PAWN_pronoun}常感到监禁与封闭，是因为自己还身在牢笼之中。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -115,8 +110,7 @@
 		<slot>Childhood</slot>
 		<title>旧日之影</title>
 		<titleShort>旧日之影</titleShort>
-		<baseDesc>缥缈的行途歌谣，摇曳在时间长河中。
-找寻答案而去的风，已道不清来时的路。</baseDesc>
+		<baseDesc>缥缈的行途歌谣，摇曳在时间长河中。\n找寻答案而去的风，已道不清来时的路。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -126,15 +120,13 @@
 		<titleShort>老山猫</titleShort>
 		<baseDesc>{PAWN_nameDef}，罗德岛高层管理人员之一，罗德岛医疗项目领头人。在冶金工业、社会学、源石技艺、考古学、历史系谱学、经济学、植物学、地质学等领域皆拥有渊博学识。于罗德岛部分行动中作为医务人员提供医学理论协助与应急医疗器械，同时也作为罗德岛战略指挥系统的重要组成人员活跃在各项目中。</baseDesc>
 	</BackstoryDef>
+
 	<BackstoryDef ParentName = "AK_StoryBase">
 		<defName>AK_BackStory_Warfarin_Child</defName>
 		<slot>Childhood</slot>
 		<title>血魔</title>
 		<titleShort>血魔</titleShort>
-		<baseDesc>即使在经常被妖魔化的萨卡兹中，血魔也是最恶名远扬的一支。
-它们在黑夜中穿行，以他人的血液为食，杀人如麻，无恶不作……诸如此类。
-不过大多数干员都知道，{PAWN_nameDef}不是这样的人。
-		</baseDesc>
+		<baseDesc>即使在经常被妖魔化的萨卡兹中，血魔也是最恶名远扬的一支。\n它们在黑夜中穿行，以他人的血液为食，杀人如麻，无恶不作……诸如此类。\n不过大多数干员都知道，{PAWN_nameDef}不是这样的人。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -142,10 +134,7 @@
 		<slot>Adulthood</slot>
 		<title>罗德岛元老</title>
 		<titleShort>罗德岛元老</titleShort>
-		<baseDesc>外表弱不禁风，难以让人升起尊敬之心的血魔女性，实质上作为元老，在罗德岛中拥有最老的资历。
-本人并不介意他人不将自己当做前辈对待，但决不允许有人在接受治疗时不听从自己的命令。
-年龄虽然不是需要避讳的话题，不过从{PAWN_pronoun}口中吐出的数字总让人觉得难以置信。
-		</baseDesc>
+		<baseDesc>外表弱不禁风，难以让人升起尊敬之心的血魔女性，实质上作为元老，在罗德岛中拥有最老的资历。\n本人并不介意他人不将自己当做前辈对待，但决不允许有人在接受治疗时不听从自己的命令。\n年龄虽然不是需要避讳的话题，不过从{PAWN_pronoun}口中吐出的数字总让人觉得难以置信。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -153,9 +142,7 @@
 		<slot>Childhood</slot>
 		<title>敢说敢做的孩子</title>
 		<titleShort>敢说敢做的孩子</titleShort>
-		<baseDesc>{PAWN_nameDef}出生于叙拉古某大型都市一个普通家庭中。其父母皆为普通市民，{PAWN_pronoun}是他们第三个孩子。
-父母希望{PAWN_pronoun}成为一个安静，听话的孩子，但是在照顾幺妹的过程中，{PAWN_pronoun}逐渐形成了这种敢说敢做的性格。
-		</baseDesc>
+		<baseDesc>{PAWN_nameDef}出生于叙拉古某大型都市一个普通家庭中。其父母皆为普通市民，{PAWN_pronoun}是他们第三个孩子。\n父母希望{PAWN_pronoun}成为一个安静，听话的孩子，但是在照顾幺妹的过程中，{PAWN_pronoun}逐渐形成了这种敢说敢做的性格。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -163,9 +150,7 @@
 		<slot>Adulthood</slot>
 		<title>罗德岛医疗干员</title>
 		<titleShort>罗德岛医疗干员</titleShort>
-		<baseDesc>{PAWN_nameDef}，正式入职前为叙拉古帕勒莫市立医科学院毕业生。具备基础医疗方面的充足学识。
-现于罗德岛担任医疗干员，是总部后勤医疗体系内的坚实力量。
-		</baseDesc>
+		<baseDesc>{PAWN_nameDef}，正式入职前为叙拉古帕勒莫市立医科学院毕业生。具备基础医疗方面的充足学识。\n现于罗德岛担任医疗干员，是总部后勤医疗体系内的坚实力量。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -173,9 +158,7 @@
 		<slot>Childhood</slot>
 		<title>汐斯塔大小姐</title>
 		<titleShort>汐斯塔大小姐</titleShort>
-		<baseDesc>作为汐斯塔城主赫尔曼·道尔科斯的独女，{PAWN_nameDef}毫无疑问是含着金汤匙出生的。
-但因为{PAWN_pronoun}从小就被送往维多利亚留学，长期的独自留学生活让{PAWN_pronoun}养成了相当独立的性格，因此与大家印象中的“富家子女”形象有些偏差。
-		</baseDesc>
+		<baseDesc>作为汐斯塔城主赫尔曼·道尔科斯的独女，{PAWN_nameDef}毫无疑问是含着金汤匙出生的。\n但因为{PAWN_pronoun}从小就被送往维多利亚留学，长期的独自留学生活让{PAWN_pronoun}养成了相当独立的性格，因此与大家印象中的“富家子女”形象有些偏差。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -183,9 +166,7 @@
 		<slot>Adulthood</slot>
 		<title>学者</title>
 		<titleShort>学者</titleShort>
-		<baseDesc>维多利亚国立大学源石研究专业毕业生，现作为辅助研究员在凯尔希医生的研究室内工作。
-在水系法术上颇有造诣，能够在战场上为队友提供可靠的医疗支援。
-		</baseDesc>
+		<baseDesc>维多利亚国立大学源石研究专业毕业生，现作为辅助研究员在凯尔希医生的研究室内工作。\n在水系法术上颇有造诣，能够在战场上为队友提供可靠的医疗支援。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -193,8 +174,7 @@
 		<slot>Childhood</slot>
 		<title>普通的学生</title>
 		<titleShort>普通的学生</titleShort>
-		<baseDesc>{PAWN_nameDef}在炎国的传统家庭里长大，作为年龄最小的那一个女孩，{PAWN_possessive}人生被父母一眼就能望到头地安排好了。
-</baseDesc>
+		<baseDesc>{PAWN_nameDef}在炎国的传统家庭里长大，作为年龄最小的那一个女孩，{PAWN_possessive}人生被父母一眼就能望到头地安排好了。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -202,9 +182,7 @@
 		<slot>Adulthood</slot>
 		<title>救援队医生</title>
 		<titleShort>救援队医生</titleShort>
-		<baseDesc>但{PAWN_nameDef}决定反抗{PAWN_pronoun}父母的安排，为此{PAWN_pronoun}加入了直面天灾的一线救援组织。尽管陌生的环境，不保暖的睡袋，不合口味的饭菜，这都会让{PAWN_pronoun}在夜晚偷偷流泪想念家乡。
-但{PAWN_pronoun}也从未想过放弃这份工作
-</baseDesc>
+		<baseDesc>但{PAWN_nameDef}决定反抗{PAWN_pronoun}父母的安排，为此{PAWN_pronoun}加入了直面天灾的一线救援组织。尽管陌生的环境，不保暖的睡袋，不合口味的饭菜，这都会让{PAWN_pronoun}在夜晚偷偷流泪想念家乡。\n但{PAWN_pronoun}也从未想过放弃这份工作</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -212,7 +190,7 @@
 		<slot>Childhood</slot>
 		<title>无数次重生</title>
 		<titleShort>无数次重生</titleShort>
-		<baseDesc>无数张褪色老旧的票根是证明她过去存在的方式。</baseDesc>
+		<baseDesc>无数张褪色老旧的票根是证明{PAWN_pronoun}过去存在的方式。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -220,7 +198,7 @@
 		<slot>Adulthood</slot>
 		<title>巡游医师</title>
 		<titleShort>巡游医师</titleShort>
-		<baseDesc>伊比利亚出身的巡游医生絮雨，很少于同一地点长期停留，在卡西米尔与萨米等地区均有留下行动记录。</baseDesc>
+		<baseDesc>伊比利亚出身的巡游医生{PAWN_nameDef}，很少于同一地点长期停留，在卡西米尔与萨米等地区均有留下行动记录。</baseDesc>
 	</BackstoryDef>
 
 </Defs>
