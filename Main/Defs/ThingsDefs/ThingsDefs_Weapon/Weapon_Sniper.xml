@@ -1201,7 +1201,7 @@
 		</projectile>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_WeaponBase_Sniper">
+	<ThingDef ParentName="AK_WeaponBase_Sniper" Name="AK_Weapon_Fiammetta">
 		<defName>AK_Weapon_Fiammetta</defName>
 		<label>菲亚梅塔的长炮</label>
 		<description>一把手持长炮，拉特兰公正所标配版本。\n“你须偿还”</description>
@@ -1248,51 +1248,13 @@
 		</tools>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_WeaponBase_Sniper">
+	<ThingDef ParentName="AK_Weapon_Fiammetta">
 		<defName>AK_Weapon_FiammettaDivineOath</defName>
 		<label>菲亚梅塔-至圣誓言的长炮</label>
-		<description>一把手持长炮，拉特兰公正所标配版本。\n“你须偿还”</description>
 		<graphicData>
 			<texPath>Things/AK_Agents/Weapon/Sniper/Fiammetta_HolyOathW</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<equippedAngleOffset>45</equippedAngleOffset>
-		<statBases>
-			<AccuracyTouch>0.7</AccuracyTouch>
-			<AccuracyShort>0.85</AccuracyShort>
-			<AccuracyMedium>0.95</AccuracyMedium>
-			<AccuracyLong>0.8</AccuracyLong>
-			<RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
-			<!--后摇-->
-		</statBases>
-		<verbs>
-			<li>
-				<verbClass>Verb_Shoot</verbClass>
-				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>AK_Bullet_Fiammetta</defaultProjectile>
-				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
-				<warmupTime>2.1</warmupTime>
-				<!--前摇-->
-				<range>40</range>
-				<targetParams>
-					<canTargetLocations>true</canTargetLocations>
-				</targetParams>
-				<soundCast>AK_Sound_Weapon_GeneralGrenade</soundCast>
-				<soundCastTail>GunTail_Heavy</soundCastTail>
-				<muzzleFlashScale>9</muzzleFlashScale>
-				<noiseRadius>3</noiseRadius>
-			</li>
-		</verbs>
-		<tools Inherit = "false">
-			<li>
-				<label>炮托猛砸</label>
-				<capacities>
-					<li>Blunt</li>
-				</capacities>
-				<power>24</power>
-				<cooldownTime>2.0</cooldownTime>
-			</li>
-		</tools>
 	</ThingDef>
 
 	<ThingDef ParentName="AK_BulletBase_Bow">
