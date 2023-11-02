@@ -193,5 +193,16 @@
 			<wornGraphicPath>Things/AK_Agents/Medic/Whisperain</wornGraphicPath>
 		</apparel>
 	</ThingDef>
+    <ThingDef ParentName="AK_Armorbase_Medic">
+      <defName>AK_Apparel_WhisperainPrioryOfAbyss</defName>
+      <label>絮雨-幽邃隐修</label>
+      <graphicData>
+        <texPath>Thing/AK_Agents/GApparel</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <apparel>
+        <wornGraphicPath>Things/AK_Agents/Medic/Whisperain_PrioryOfAbyss</wornGraphicPath>
+      </apparel>
+    </ThingDef>
 
 </Defs>
