@@ -98,6 +98,18 @@
 	</ThingDef>
 
 	<ThingDef ParentName="AK_ArmorBase_Caster">
+		<defName>AK_Apparel_EyjafjallaSummerFlower</defName>
+		<label>艾雅法拉-夏卉</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Caster/Eyjafjalla_SummerFlower</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Caster">
 		<defName>AK_Apparel_Skyfire</defName>
 		<label>天火服装</label>
 		<graphicData>

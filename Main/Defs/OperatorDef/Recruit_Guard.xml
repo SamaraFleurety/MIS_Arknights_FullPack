@@ -525,6 +525,19 @@ Rhodes Island Guard Operator Surtr, a person difficult to approach.</description
 		<age>20</age>
 		<childHood>AK_BackStory_Surtr_Child</childHood>
 		<adultHood>AK_BackStory_Surtr_Adult</adultHood>
+		<clothSet>
+		    <li>
+			    <key>0</key>
+				<value>
+				    <label>ColorfulWonderland</label>
+					<hair>AK_Hair_SurtrColorfulWonderland</hair>
+					<apparels>
+					    <li>AK_Apparel_SurtrColorfulWonderland</li>
+					</apparels>
+					<weapon>AK_Weapon_SurtrColorfulWonderland</weapon>
+				</value>
+			</li>
+		</clothSet>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Guard">

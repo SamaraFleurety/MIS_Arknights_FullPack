@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="AK_WeaponBase_Guard">
+  <ThingDef ParentName="AK_WeaponBase_Guard" Name="AK_Weapon_Surtr">
     <defName>AK_Weapon_Surtr</defName>
     <label>莱瓦汀</label>
     <description>«Lævateinn hann heitir,\nen hann gerði Loptr rýninn\nfyr nágrindr neðan;\ní seigjárnkeri\nliggr hann hjá Sinmöru,\nok halda njarðlásar níu.»</description>
@@ -56,6 +56,15 @@
         <cooldownTime>1.2</cooldownTime>
       </li>
     </tools>
+  </ThingDef>
+
+  <ThingDef ParentName="AK_Weapon_Surtr">
+    <defName>AK_Weapon_SurtrColorfulWonderland</defName>
+    <label>史尔特尔-缤纷奇境的莱瓦汀</label>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Guard/Surtr_ColorfulWonderlandW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
   </ThingDef>
 
   <ThingDef ParentName="AK_WeaponBase_Guard">

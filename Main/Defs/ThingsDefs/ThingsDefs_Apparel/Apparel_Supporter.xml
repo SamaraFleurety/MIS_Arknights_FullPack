@@ -182,6 +182,18 @@
 	</ThingDef>
 
 	<ThingDef ParentName="AK_ArmorBase_Supporter">
+		<defName>AK_Apparel_QuercusBardsTale</defName>
+		<label>夏栎-树影吟游</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Supporter/Quercus_BardsTale</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Supporter">
 		<defName>AK_Apparel_Roberta</defName>
 		<label>罗比菈塔服装</label>
 		<graphicData>

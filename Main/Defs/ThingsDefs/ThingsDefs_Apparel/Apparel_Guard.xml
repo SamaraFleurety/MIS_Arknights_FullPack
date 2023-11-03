@@ -13,6 +13,18 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Guard">
+		<defName>AK_Apparel_SurtrColorfulWonderland</defName>
+		<label>史尔特尔-缤纷奇境</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Guard/Surtr_ColorfulWonderland</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 	<ThingDef ParentName="AK_ArmorBase_Supporter">
 		<defName>AK_Apparel_Maynar</defName>
 		<label>玛恩纳服装</label>

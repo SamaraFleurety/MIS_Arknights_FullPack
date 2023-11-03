@@ -222,6 +222,19 @@ Eyjafjalla, Caster Operator of Rhodes Island, has wanted to devote herself to do
 		<age>20</age>
 		<childHood>AK_BackStory_Eyjafjalla_Child</childHood>
 		<adultHood>AK_BackStory_Eyjafjalla_Adult</adultHood>
+		<clothSet>
+			<li>
+			    <key>0</key>
+				<value>
+				    <label>SummerFlower</label>
+					<hair>AK_Hair_EyjafjallaSummerFlower</hair>
+					<apparels>
+						<li>AK_Apparel_EyjafjallaSummerFlower</li>
+					</apparels>
+					<weapon>AK_Weapon_EyjafjallaSummerFlower</weapon>
+				</value>
+			</li>
+		</clothSet>
 		<standOffsets Inherit="false">
 			<li>
 				<key>0</key>

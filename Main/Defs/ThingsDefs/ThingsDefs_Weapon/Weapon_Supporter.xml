@@ -785,7 +785,7 @@
 		</subSounds>
 	</SoundDef>
 
-	<ThingDef ParentName="AK_WeaponBase_Supporter">
+	<ThingDef ParentName="AK_WeaponBase_Supporter" Name="AK_Weapon_Quercus">
 		<defName>AK_Weapon_Quercus</defName>
 		<label>德鲁伊之杖</label>
 		<description>大地终将宽恕所有人，但不是现在。</description>
@@ -827,6 +827,15 @@
 				<cooldownTime>1.2</cooldownTime>
 			</li>
 		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_Weapon_Quercus">
+		<defName>AK_Weapon_QuercusBardsTale</defName>
+		<label>夏栎-树影吟游的德鲁伊之杖</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Supporter/Quercus_BardsTaleW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
 	</ThingDef>
 
 	<ThingDef ParentName="AK_BulletBase_Bow">

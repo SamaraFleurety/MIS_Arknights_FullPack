@@ -860,7 +860,7 @@
 		</subSounds>
 	</SoundDef>
 
-	<ThingDef ParentName="AK_WeaponBase_Caster">
+	<ThingDef ParentName="AK_WeaponBase_Caster" Name="AK_Weapon_Eyjafjalla">
 		<defName>AK_Weapon_Eyjafjalla</defName>
 		<label>火山之杖</label>
 		<description>艾雅法拉的源石法杖，内部蕴含的能量宛如一座火山。\n中间被打磨的很光滑，很适合少女的双手。</description>
@@ -902,6 +902,15 @@
 				<cooldownTime>1.8</cooldownTime>
 			</li>
 		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_Weapon_Eyjafjalla">
+		<defName>AK_Weapon_EyjafjallaSummerFlower</defName>
+		<label>艾雅法拉-夏卉的火山之杖</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Caster/Eyjafjalla_SummerFlowerW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
 	</ThingDef>
 
 	<ThingDef ParentName="AK_BulletBase_Bow">
