@@ -24,14 +24,14 @@
       <mineableScatterLumpSizeRange>30~40</mineableScatterLumpSizeRange>
     </building>
 	<comps>
-      <li Class="AK_Industry.TCP_GasEmitter">
+      <li Class="MGasEmitter.TCP_GasEmitter">
 		<gasDef>AKI_Gas_OrgDust</gasDef>
       </li>
     </comps>
   </ThingDef>
   
   <ThingDef Name="BaseGas" Abstract="True">
-    <thingClass>AK_Industry.Gas</thingClass>
+    <thingClass>MGasEmitter.Gas</thingClass>
     <label>gas</label>
     <category>Gas</category>
     <altitudeLayer>Gas</altitudeLayer>
@@ -43,7 +43,7 @@
     </graphicData>
   </ThingDef>
   
-  <ThingDef Class="AK_Industry.GasDef" ParentName="BaseGas">
+  <ThingDef Class="MGasEmitter.GasDef" ParentName="BaseGas">
     <defName>AKI_Gas_OrgDust</defName>
     <label>源石尘</label>
     <graphicData>
@@ -64,7 +64,7 @@
     </gas>
   </ThingDef>
   
-  <ThingDef Class="AK_Industry.GasDef" ParentName="BaseGas">
+  <ThingDef Class="MGasEmitter.GasDef" ParentName="BaseGas">
     <defName>AKI_Gas_OrgDustActive</defName>
     <label>活性源石尘</label>
     <graphicData>
