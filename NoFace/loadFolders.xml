@@ -2,7 +2,8 @@
 	
 	<v1.4>
 		<li>/</li>
-		<li IfModNotActive="MIS.Arknights">SoftRely/MainPackHairDef</li>
+		<li IfModActive="MIS.Arknights">SoftRely/MainPackActive</li>
+		<li IfModNotActive="MIS.Arknights">SoftRely/MainPackNotActive</li>
 	</v1.4>
 	
 </loadFolders>
