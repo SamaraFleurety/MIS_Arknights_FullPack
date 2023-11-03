@@ -13,7 +13,7 @@
 		<defName>AK_BackStory_Saria_Adult</defName>
 		<slot>Adulthood</slot>
 		<title>前莱茵生命防卫科主任</title>
-		<titleShort>防卫主任</titleShort>
+		<titleShort>防卫科主任</titleShort>
 		<baseDesc>{PAWN_nameDef}女士曾经是莱茵生命防卫科的主要领导人。其他与罗德岛的莱茵生命干员都或多或少的对{PAWN_pronoun}表现出敬意，干员赫默是个例外。\n{PAWN_pronoun}与赫默间的冲突源于莱茵生命的一项实验，而这项实验的主导人正是赫默。\n实验可悲地失败了。{PAWN_pronoun}独自镇压了失去控制的实验品。并因为此项实验离开了莱茵生命。</baseDesc>
 	</BackstoryDef>
 
@@ -61,7 +61,7 @@
 		<defName>AK_BackStory_Liskarm_Child</defName>
 		<slot>Childhood</slot>
 		<title>瓦伊凡联盟的孩子</title>
-		<titleShort>瓦伊凡</titleShort>
+		<titleShort>联盟的孩子</titleShort>
 		<baseDesc>{PAWN_nameDef}的故乡位于瓦伊凡联盟控制区内，为了对应随时可能产生的劫掠行动，城市自身配备了一定的防御力量，但迫于训练不足与装备的匮乏，也不得不求助于一些更为专业的安全承包公司。\n在{PAWN_possessive}记忆中，那些在故乡街头操弄崭新的武器与装备，以听不懂的外国语言相互交谈，在骚乱中以小组形式迅速击溃敌寇的安全承包商们，是{PAWN_pronoun}对安全承包商这个行业的最初认知。</baseDesc>
 	</BackstoryDef>
 
@@ -125,7 +125,7 @@
 		<defName>AK_BackStory_Aurora_Child</defName>
 		<slot>Childhood</slot>
 		<title>雪山上的乌萨斯</title>
-		<titleShort>雪山上的乌萨斯</titleShort>
+		<titleShort>乌萨斯</titleShort>
 		<baseDesc>{PAWN_nameDef}出生在谢拉格的湖区，{PAWN_possessive}童年生活几乎都是在冰面上度过。\n几年后，{PAWN_pronoun}中学毕业，接受希瓦艾什家的资助赴哥伦比亚学习，主攻雪地极端环境下的防御工程学。</baseDesc>
 	</BackstoryDef>
 
@@ -183,7 +183,7 @@
 		<defName>AK_BackStory_Horn_Child</defName>
 		<slot>Childhood</slot>
 		<title>白狼公爵的孩子</title>
-		<titleShort>公爵孩子</titleShort>
+		<titleShort>公爵的孩子</titleShort>
 		<baseDesc>{PAWN_nameDef}诞生于维多利亚赫赫有名的军事贵族家庭，并且顺利考入了维多利亚近卫学院并毕业，在毕业后加入了暴风突击队。</baseDesc>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 	</BackstoryDef>
@@ -192,7 +192,7 @@
 		<defName>AK_BackStory_Horn_Adult</defName>
 		<slot>Adulthood</slot>
 		<title>暴风突击队队长</title>
-		<titleShort>暴风突击队队长</titleShort>
+		<titleShort>队长</titleShort>
 		<baseDesc>{PAWN_nameDef}在加入暴风突击队后迅速晋升为了号角小队的队长，但在小丘郡的动乱中，号角小队几近全军覆没。</baseDesc>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 	</BackstoryDef>
@@ -201,7 +201,7 @@
 		<defName>AK_BackStory_Matterhorn_Child</defName>
 		<slot>Childhood</slot>
 		<title>家族侍卫</title>
-		<titleShort>家族侍卫</titleShort>
+		<titleShort>侍卫</titleShort>
 		<baseDesc>{PAWN_nameDef}从小就是被当做银灰家侍卫来训练，他的父亲，祖父，都是银灰家荣耀的近卫，他自然也以此作为目标。\n在格斗训练之余他也会学习一些厨艺。</baseDesc>
 	</BackstoryDef>
 
@@ -209,7 +209,7 @@
 		<defName>AK_BackStory_Matterhorn_Adult</defName>
 		<slot>Adulthood</slot>
 		<title>喀兰贸易员工</title>
-		<titleShort>喀兰贸易员工</titleShort>
+		<titleShort>员工</titleShort>
 		<baseDesc>谢拉格出身，喀兰贸易公司成员。作为喀兰贸易公司与罗德岛合作协定的一部分，以外派人员身份参与罗德岛任务。</baseDesc>
 	</BackstoryDef>
 
@@ -224,7 +224,7 @@
 	<BackstoryDef ParentName = "AK_StoryBase">
 		<defName>AK_BackStory_Vulcan_Adult</defName>
 		<slot>Adulthood</slot>
-		<title>铁匠</title>
+		<title>米诺斯的铁匠</title>
 		<titleShort>铁匠</titleShort>
 		<baseDesc>来自米诺斯的铁匠，感染矿石病后，来到罗德岛求医，在与罗德岛达成协议后，成为罗德岛的一分子。\n平日主要负责其他干员的武器维护与打造，必要时亲自出动。</baseDesc>
 	</BackstoryDef>
@@ -233,7 +233,7 @@
 		<defName>AK_BackStory_Penance_Adult</defName>
 		<slot>Adulthood</slot>
 		<title>叙拉古法官</title>
-		<titleShort>叙拉古法官</titleShort>
+		<titleShort>法官</titleShort>
 		<baseDesc>{PAWN_nameDef}原本为叙拉古的城邦法官，背后有着贝洛内家族的支持。\n但与其他有着家族支持的法官不同的是，{PAWN_nameDef}并不完全以贝洛内家族的意志判决案件，{PAWN_pronoun}也会宣判贝洛内家族成员的罪行。</baseDesc>
 	</BackstoryDef>
 

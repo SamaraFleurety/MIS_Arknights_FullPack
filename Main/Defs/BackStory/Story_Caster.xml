@@ -68,7 +68,7 @@
 		<defName>AK_BackStory_Eyjafjalla_Child</defName>
 		<slot>Childhood</slot>
 		<title>学者的孩子</title>
-		<titleShort>学者</titleShort>
+		<titleShort>学者的孩子</titleShort>
 		<baseDesc>{PAWN_nameDef}出生于莱塔尼亚一个正统而充满学术氛围的家庭中，但{PAWN_possessive}父母于一次火山实地考察中遭遇火山碎屑流，不幸丧生。\n{PAWN_pronoun}希望这些研究不会因父母的逝去而中断，因此主动选择继承了他们的火山学研究成果。</baseDesc>
 	</BackstoryDef>
 
@@ -198,7 +198,7 @@
 		<defName>AK_BackStory_Tomimi_Child</defName>
 		<slot>Childhood</slot>
 		<title>嘉维尔的狂热粉丝</title>
-		<titleShort>嘉维尔的狂热粉丝</titleShort>
+		<titleShort>狂热粉丝</titleShort>
 		<baseDesc>{PAWN_nameDef}从小与嘉维尔就是朋友，在谁打架更厉害谁就是头头的萨尔贡部落里，嘉维尔毫无疑问是孩子王与所有孩子的崇拜对象，这也让与{PAWN_objective}朝夕相处的{PAWN_pronoun}对嘉维尔产生了几乎狂热的崇拜。\n{PAWN_pronoun}把飞行器轰下来可能只是因为很久没见的嘉维尔。</baseDesc>
 	</BackstoryDef>
 
@@ -206,7 +206,7 @@
 		<defName>AK_BackStory_Tomimi_Adult</defName>
 		<slot>Adulthood</slot>
 		<title>阿达克利斯术士</title>
-		<titleShort>阿达克利斯术士</titleShort>
+		<titleShort>术士</titleShort>
 		<baseDesc>{PAWN_nameDef}，萨尔贡阿卡胡拉地区的阿达克利斯人，嘉维尔的同伴与支持者，曾试图以激进手段阻止嘉维尔返回罗德岛，未果，随后便同其一起来到罗德岛。\n承担术师干员职责，但经常会忘记，鉴于在战场上表现尚佳，暂不考虑改变{PAWN_possessive}干员定位。</baseDesc>
 	</BackstoryDef>
 
@@ -237,8 +237,8 @@
 	<BackstoryDef ParentName = "AK_StoryBase">
 		<defName>AK_BackStory_Astgenne_Adult</defName>
 		<slot>Adulthood</slot>
-		<title>莱茵生命能量科研究源</title>
-		<titleShort>莱茵生命能量科研究源</titleShort>
+		<title>莱茵生命能量科研究员</title>
+		<titleShort>能量科研究员</titleShort>
 		<baseDesc>莱茵生命能量科研究员，{PAWN_nameDef}。在罗德岛驻留期间则使用其原名作为代号以示区分。\n使用自制法杖以极具特色的源石技艺制衡敌人，但比起前线作战，本人更希望在后方承接专业研究及器械维护方面的工作。</baseDesc>
 	</BackstoryDef>
 
@@ -286,7 +286,7 @@
 		<defName>AK_BackStory_Hoolheyak_Adult</defName>
 		<slot>Adulthood</slot>
 		<title>迷茫的羽蛇</title>
-		<titleShort>迷茫的羽蛇</titleShort>
+		<titleShort>羽蛇</titleShort>
 		<baseDesc>作为羽蛇一族的后代，{PAWN_nameDef}的使命是寻回羽蛇在过去的荣光。在某件事发生之前{PAWN_possessive}人生的确只有这一个简单的目标，不过{PAWN_pronoun}现在决定先把这件事放在一边。\n但{PAWN_pronoun}在面对族群使命之外的事情时感到迷茫。</baseDesc>
 	</BackstoryDef>
 
@@ -302,7 +302,7 @@
 		<defName>AK_BackStory_Passenger_Adult</defName>
 		<slot>Adulthood</slot>
 		<title>复仇的沙卒</title>
-		<titleShort>复仇的沙卒</titleShort>
+		<titleShort>沙卒</titleShort>
 		<baseDesc>{PAWN_nameDef}在余下的时间中致力于向当初的幕后主使们复仇。为达成此目的，{PAWN_pronoun}在萨尔贡从学徒开始一步步成为黑市之主。并在途中用获得的权力和手腕将仇人尽数抹杀，这几乎花费了{PAWN_possessive}四分之一的人生。</baseDesc>
 	</BackstoryDef>
 
@@ -310,7 +310,7 @@
 		<defName>AK_BackStory_Lava_Child</defName>
 		<slot>Childhood</slot>
 		<title>伦蒂尼姆的萨卡兹</title>
-		<titleShort>伦蒂尼姆的萨卡兹</titleShort>
+		<titleShort>萨卡兹</titleShort>
 		<baseDesc>不同于混迹于阴暗小巷中的其他流浪的孩子，{PAWN_nameDef}出生在并不算贫穷的维多利亚普通家庭里。因为感染了矿石病来到了罗德岛。</baseDesc>
 	</BackstoryDef>
 
@@ -318,7 +318,7 @@
 		<defName>AK_BackStory_Lava_Adult</defName>
 		<slot>Adulthood</slot>
 		<title>预备行动组A1</title>
-		<titleShort>预备行动组A1</titleShort>
+		<titleShort>预备队员</titleShort>
 		<baseDesc>在通过干员考核加入罗德岛后，{PAWN_nameDef}作为预备队员加入了预备行动组A1。</baseDesc>
 	</BackstoryDef>
 

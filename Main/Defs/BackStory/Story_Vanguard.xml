@@ -21,7 +21,7 @@
 		<defName>AK_BackStory_Saga_Child</defName>
 		<slot>Childhood</slot>
 		<title>寺庙中长大的孩子</title>
-		<titleShort>寺庙中长大的孩子</titleShort>
+		<titleShort>寺庙的孩子</titleShort>
 		<baseDesc>{PAWN_nameDef}是打从襁褓中起就在寺庙长大的，{PAWN_pronoun}自有记忆开始就跟着师父和其{PAWN_pronoun}师兄弟们一起练武诵经。\n在{PAWN_pronoun}提出要下山的请求后，当天晚上，祖孙二人，一人一棍，一问一答，从月正当空打到东方初明，住持爷爷最终同意了让{PAWN_pronoun}下山。</baseDesc>
 	</BackstoryDef>
 
@@ -85,7 +85,7 @@
 		<defName>AK_BackStory_Bagpipe_Child</defName>
 		<slot>Childhood</slot>
 		<title>农民的孩子</title>
-		<titleShort>农民</titleShort>
+		<titleShort>农民的孩子</titleShort>
 		<baseDesc>即使经过了皇家近卫学校以及在毕业后的现代生活的洗礼，出身维多利亚一座游牧村庄的{PAWN_nameDef}小姐身上依然带着浓厚的乡土气息。\n从小就开始帮家里种田和畜牧的{PAWN_pronoun}，在加入罗德岛后，立刻与负责相关事务的后勤干员们打成了一片。</baseDesc>
 	</BackstoryDef>
 
@@ -125,7 +125,7 @@
 		<defName>AK_BackStory_Wild_Child</defName>
 		<slot>Childhood</slot>
 		<title>被遗弃的贵族</title>
-		<titleShort>遗弃贵族</titleShort>
+		<titleShort>贵族</titleShort>
 		<baseDesc>{PAWN_nameDef}曾经是一个骑士家族的一员，但是在一次外出训练后意外感染矿石病，随后被家族所抛弃。\n在那之后，{PAWN_pronoun}便成为了一名感染者骑士,想要靠胜利证明自己。</baseDesc>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 	</BackstoryDef>
@@ -134,7 +134,7 @@
 		<defName>AK_BackStory_Wild_Adult</defName>
 		<slot>Adulthood</slot>
 		<title>野鬃骑士</title>
-		<titleShort>野鬃骑士</titleShort>
+		<titleShort>骑士</titleShort>
 		<baseDesc>{PAWN_nameDef}后来加入了红松骑士团，并很快伴随着红松骑士团的其他人一起加入了罗德岛。</baseDesc>
 		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 	</BackstoryDef>
@@ -159,7 +159,7 @@
 		<defName>AK_BackStory_Grani_Child</defName>
 		<slot>Childhood</slot>
 		<title>卡西米尔移民</title>
-		<titleShort>卡西米尔移民</titleShort>
+		<titleShort>移民</titleShort>
 		<baseDesc>骑警{PAWN_nameDef}，维多利亚公民。{PAWN_possessive}祖辈很早就移民维多利亚，其家庭保持了一种骑士竞技风潮席卷卡西米尔之前的淳朴民风。即使身在维多利亚，也对卡西米尔的骑士精神有着丰富的好奇心。</baseDesc>
 	</BackstoryDef>
 
@@ -167,7 +167,7 @@
 		<defName>AK_BackStory_Grani_Adult</defName>
 		<slot>Adulthood</slot>
 		<title>维多利亚骑警</title>
-		<titleShort>维多利亚骑警</titleShort>
+		<titleShort>骑警</titleShort>
 		<baseDesc>{PAWN_nameDef}，维多利亚骑警，在突袭战，机动作战，纵深作战等高速运动战领域表现出了较高的天赋。\n现以合约干员身份为罗德岛各行动组提供支援，并主动承担罗德岛及周边地区的义务巡逻与防卫协助等工作。</baseDesc>
 	</BackstoryDef>
 
@@ -199,7 +199,7 @@
 		<defName>AK_BackStory_Beanstalk_Adult</defName>
 		<slot>Adulthood</slot>
 		<title>磐蟹饲养员</title>
-		<titleShort>磐蟹饲养员</titleShort>
+		<titleShort>饲养员</titleShort>
 		<baseDesc>专业磐蟹饲养员{PAWN_nameDef}，出生于哥伦比亚农场主家庭，向各大公司及平台投递创业企划书未果，最终经介绍前往罗德岛就职。\n现已通过专项测试，作为正式干员为罗德岛提供后勤与特殊侦查作战服务。</baseDesc>
 	</BackstoryDef>
 
@@ -231,7 +231,7 @@
 		<defName>AK_BackStory_Muelsyse_Adult</defName>
 		<slot>Adulthood</slot>
 		<title>莱茵生命生态科主任</title>
-		<titleShort>主任</titleShort>
+		<titleShort>生态科主任</titleShort>
 		<baseDesc>{PAWN_nameDef}是莱茵生命生态科主任，在莱茵生命草创初期便加入了莱茵生命，几乎是陪着莱茵从当年的那两间小办公室成长到哥伦比亚的科研巨头。{PAWN_pronoun}在数十年里一直是总辖的坚定支持者。\n但是，{PAWN_pronoun}没有陪总辖走到最后。</baseDesc>
 	</BackstoryDef>
 
@@ -239,7 +239,7 @@
 		<defName>AK_BackStory_Ines_Child</defName>
 		<slot>Childhood</slot>
 		<title>幸存的卡普里尼</title>
-		<titleShort>幸存的卡普里尼</titleShort>
+		<titleShort>幸存者</titleShort>
 		<baseDesc>{PAWN_nameDef}在幼时是随家族前往卡兹戴尔走私的行商之女，{PAWN_pronoun}所在的商队遭遇了雇佣兵的背叛。最后，只剩{PAWN_pronoun}一人存活并被放逐进卡兹戴尔北部的茂密森林中。但{PAWN_possessive}运气还不错，走出了那片满是枯骨和美景的桦树林</baseDesc>
 	</BackstoryDef>
 
@@ -247,7 +247,7 @@
 		<defName>AK_BackStory_Ines_Adult</defName>
 		<slot>Adulthood</slot>
 		<title>萨卡兹雇佣兵头目</title>
-		<titleShort>萨卡兹雇佣兵头目</titleShort>
+		<titleShort>头目</titleShort>
 		<baseDesc>在成年后{PAWN_nameDef}理所当然的成为了一名萨卡兹雇佣兵，尽管{PAWN_pronoun}不是萨卡兹。{PAWN_pronoun}在卡兹戴尔内战时便以雇佣兵身份出人头地，此后也作为萨卡兹雇佣兵参与了诸多事件与局部战争，这让{PAWN_pronoun}有着丰富的作战经验。</baseDesc>
 	</BackstoryDef>
 

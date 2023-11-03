@@ -490,7 +490,7 @@
   </ThingDef>
 
 
-  <ThingDef ParentName="AK_WeaponBase_Specialist">
+  <ThingDef ParentName="AK_WeaponBase_Specialist" Name="AK_Weapon_Dorothy">
     <defName>AK_Weapon_DorothyC</defName>
     <label>多萝西的机械臂</label>
     <description>一条电子驱动的机械臂，顶部原本抓取部分被改成了射弹功能。\n莱茵生命的科研工作总是繁重的，主任级的更是两只手都忙不过来，因此很多莱茵生命科学家都会有这样一条机械臂辅助工作。</description>
@@ -524,7 +524,7 @@
     </verbs>
   </ThingDef>
 
-  <ThingDef ParentName="AK_BulletBase_Bow">
+  <ThingDef ParentName="AK_BulletBase_Bow" Name="AK_Bullet_Dorothy">
     <defName>AK_Bullet_Dorothy</defName>
     <label>子弹射击</label>
     <graphicData>
@@ -553,7 +553,7 @@
     </subSounds>
   </SoundDef>
 
-  <ThingDef ParentName="AK_WeaponBase_Specialist">
+  <ThingDef ParentName="AK_Weapon_Dorothy">
     <defName>AK_Weapon_DorothyHandOfDestiny</defName>
     <label>多萝西的共振装置</label>
     <description>多萝西的共振装置</description>
@@ -561,46 +561,20 @@
       <texPath>Things/AK_Agents/Weapon/Specialist/DorothyHandOfDestiny</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <statBases>
-      <AccuracyTouch>0.9</AccuracyTouch>
-      <AccuracyShort>1</AccuracyShort>
-      <AccuracyMedium>0.65</AccuracyMedium>
-      <AccuracyLong>0.55</AccuracyLong>
-      <RangedWeapon_Cooldown>0.3</RangedWeapon_Cooldown>      <!--后摇-->
-    </statBases>
     <verbs>
       <li>
-        <verbClass>Verb_Shoot</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>AK_Bullet_DorothyHandOfDestiny</defaultProjectile>
-        <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
-        <warmupTime>0.9</warmupTime>        <!--前摇-->
-        <range>30</range>
-        <targetParams>
-          <canTargetLocations>true</canTargetLocations>
-        </targetParams>
-        <soundCast>AK_Sound_Weapon_Dorothy</soundCast>
-        <soundCastTail>GunTail_Heavy</soundCastTail>
-        <muzzleFlashScale>9</muzzleFlashScale>
-        <noiseRadius>3</noiseRadius>
       </li>
     </verbs>
   </ThingDef>
 
-  <ThingDef ParentName="AK_BulletBase_Bow">
+  <ThingDef ParentName="AK_Bullet_Dorothy">
     <defName>AK_Bullet_DorothyHandOfDestiny</defName>
-    <label>子弹射击</label>
+    <label>多萝西的针</label>
     <graphicData>
       <texPath>Things/AK_Agents/Weapon/Specialist/DorothyHandOfDestinyB</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <thingClass>Bullet</thingClass>
-    <projectile>
-      <damageDef>Bullet</damageDef>      <!--伤害类型-->
-      <damageAmountBase>30</damageAmountBase>
-      <stoppingPower>3</stoppingPower>
-      <speed>50</speed>
-    </projectile>
   </ThingDef>
 
   <ThingDef ParentName="AK_WeaponBase_Specialist">

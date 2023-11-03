@@ -2219,8 +2219,12 @@ FIXMEDESC</description>
 		<stand>UI/Image/Caster/LavaStand</stand>
 		<headPortrait>UI/Image/Caster/LavaPortrait</headPortrait>
 		<traits>
-			<li><def>AK_Trait_LavaSecond</def></li>
-			<li><def>AK_Trait_Lava</def></li>
+			<li>
+				<def>AK_Trait_LavaSecond</def>
+			</li>
+			<li>
+				<def>AK_Trait_Lava</def>
+			</li>
 			<li>
 				<def>Beauty</def>
 				<degree>1</degree>
