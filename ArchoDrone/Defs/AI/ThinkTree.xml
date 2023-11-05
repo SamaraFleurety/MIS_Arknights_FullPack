@@ -30,6 +30,9 @@
 									<targetAcquireRadius>50</targetAcquireRadius>
 									<targetKeepRadius>200</targetKeepRadius>
 								</li>
+								<li Class="JobGiver_Idle">
+									<ticks>120</ticks>
+								</li>
 							</subNodes>
 						</li>
 						<li Class="ThinkNode_Priority">
@@ -61,64 +64,6 @@
 					</subNodes>
 				</li>
 
-				<!-- Wait if drafted 
-				<li Class="ThinkNode_Tagger">
-					<tagToGive>DraftedOrder</tagToGive>
-					<subNodes>
-						<li Class="JobGiver_Orders" />
-					</subNodes>
-				</li>-->
-
-
-				<!-- Seek allowed area 
-				<li Class="JobGiver_SeekAllowedArea" /> -->
-				<!-- Seek safe temperatures
-				<li Class="JobGiver_SeekSafeTemperature" /> -->
-				<!-- Drop unused inventory 
-				<li Class="JobGiver_DropUnusedInventory" /> -->
-
-
-				<!-- Main behavior core
-				<li Class="ThinkNode_PrioritySorter">
-					<subNodes>
-						<<<AIPawn - satisfy basic needs 
-						<li Class="AIRobot.X2_JobGiver_RechargeEnergy" />
-
-						<li Class="AIRobot.X2_JobGiver_Work" />
-					</subNodes>
-				</li>-->
-
-
-				<!-- Idle wander for colonists 
-				<li Class="AIRobot.X2_JobGiver_Return2BaseRoom" />
-				<li Class="AIRobot.X2_JobGiver_RechargeEnergyIdle" />-->
-				
-				<!--<li Class="ThinkNode_Tagger">
-					<tagToGive>Idle</tagToGive>
-					<subNodes>
-						Wander
-						<li Class="JobGiver_WanderColony">
-							<maxDanger>None</maxDanger>
-						</li>
-					</subNodes>
-				</li> -->
-
-
-
-				<!-- If you're a neutral non-prisoner, if you're not bleeding exit the map, otherwise wander the room 
-				<li Class="ThinkNode_ConditionalPrisoner">
-					<invert>true</invert>
-					<subNodes>
-						<li Class="ThinkNode_ConditionalNonPlayerNonHostileFactionOrFactionless">
-							<subNodes>
-								<li Class="JobGiver_ExitMapBest" >
-									<defaultLocomotion>Walk</defaultLocomotion>
-								</li>
-							</subNodes>
-						</li>
-					</subNodes>
-				</li> -->
-
 				<li Class="JobGiver_Idle">
 					<ticks>120</ticks>
 				</li>
@@ -128,30 +73,5 @@
 			</subNodes>
 		</thinkRoot>
 	</ThinkTreeDef>
-
-
-
-<!--	<ThinkTreeDef>
-		<defName>X2_AIRobotConstant</defName>
-		<thinkRoot Class="ThinkNode_Priority">
-			<subNodes>
-				<li Class="ThinkNode_ConditionalCanDoConstantThinkTreeJobNow">
-					<subNodes>
-
-						 Flee explosion 
-						<li Class="JobGiver_FleePotentialExplosion" />
-
-						 Hostility response 
-						<li Class="JobGiver_ConfigurableHostilityResponse" />
-
-						 Lord directives
-						<li Class="ThinkNode_Subtree">
-							<treeDef>AIRobot_LordDutyConstant</treeDef>
-						</li>
-					</subNodes>
-				</li>
-			</subNodes>
-		</thinkRoot>
-	</ThinkTreeDef> -->
 
 </Defs>
