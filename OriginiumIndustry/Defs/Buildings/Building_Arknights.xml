@@ -2,8 +2,8 @@
 <Defs>
 	<ThingDef ParentName="BuildingBase">
 		<defName>AKI_Building_LotteryMachine</defName>
-		<label>抽奖机</label>
-		<description>AllAllAll.</description>
+		<label>神秘的抽奖机</label>
+		<description>一台看上去平平无奇的转盘式抽奖机，转盘上的字符因未知影响全部变成了“ALL”。只要投入白银并转动它，这个世界上的任何珍奇都有可能出现在你眼前。\n\n抽奖时需保证有足够多的白银处于通电的轨道交易信标的范围内。</description>
 		<graphicData>
 			<texPath>Things/Building/AllMachine</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -13,6 +13,7 @@
 		<rotatable>false</rotatable>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
 		<castEdgeShadows>true</castEdgeShadows>
 		<fillPercent>1</fillPercent>
 		<designationCategory>Misc</designationCategory>
@@ -40,21 +41,59 @@
 				<cost>100</cost>
 				<candidate>
 					<li>
-						<item>Silver</item>
-						<amount>13</amount>
-						<weight>10</weight>
+						<item>Gold</item>
+						<amount>1</amount>
+						<weight>20</weight>
 					</li>
 					<li>
 						<item>Silver</item>
-						<amount>2700</amount>
+						<amount>200</amount>
+						<weight>40</weight>
+					</li>
+					<li>
+						<item>Heart</item>
+						<amount>1</amount>
 						<weight>10</weight>
 					</li>
 					<li>
-						<item>AKI_Item_CleaningKit</item>
+						<item>MealNutrientPaste</item>
 						<amount>100</amount>
 						<weight>10</weight>
 					</li>
+					<li>
+						<item>InsectJelly</item>
+						<amount>100</amount>
+						<weight>10</weight>
+					</li>
+					<li>
+						<item>Luciferium</item>
+						<amount>10</amount>
+						<weight>10</weight>
+					</li>
+					<li>
+						<item>BurningPowerCell</item>
+						<amount>1</amount>
+						<weight>10</weight>
+					</li>
+					<li>
+						<item>PsychicAmplifier</item>
+						<amount>1</amount>
+						<weight>10</weight>
+					</li>
+					<li>
+						<pawn>Mech_CentipedeBurner</pawn>
+						<weight>5</weight>
+					</li>
+					<li>
+						<pawn>Thrumbo</pawn>
+						<weight>5</weight>
+					</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">
+						<pawn>Mech_Diabolus</pawn>
+						<weight>5</weight>
+					</li>
 				</candidate>
+				<effecterDef MayRequire="Ludeon.RimWorld.Royalty">Skip_EntryNoDelay</effecterDef>
 			</li>
 		</comps>
 	</ThingDef>	
@@ -65,5 +104,4 @@
 			<neverShowWeapon>true</neverShowWeapon>
 			<casualInterruptible>false</casualInterruptible>
 		</JobDef>
-	
 </Defs>

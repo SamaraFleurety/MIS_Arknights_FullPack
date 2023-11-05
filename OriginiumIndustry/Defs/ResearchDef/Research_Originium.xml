@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<ResearchTabDef>
-		<defName>AKI_ResearchTab</defName>
+		<defName>Ark_ResearchTab</defName>
 		<label>科创泰拉</label>
 	</ResearchTabDef>
 
@@ -15,8 +15,8 @@
 			<li>Smithing</li>
 			<li>Stonecutting</li>
 		</prerequisites>
-		<tab>AKI_ResearchTab</tab>
-		<researchViewX>3</researchViewX>
+		<tab>Ark_ResearchTab</tab>
+		<researchViewX>0</researchViewX>
 		<researchViewY>2.5</researchViewY>
 	</ResearchProjectDef>
 
@@ -29,8 +29,8 @@
 		<prerequisites>
 			<li>AKI_Research_BaseSmelt</li>
 		</prerequisites>
-		<tab>AKI_ResearchTab</tab>
-		<researchViewX>4</researchViewX>
+		<tab>Ark_ResearchTab</tab>
+		<researchViewX>1</researchViewX>
 		<researchViewY>2.5</researchViewY>
 	</ResearchProjectDef>
 
@@ -45,8 +45,8 @@
 			<li>MicroelectronicsBasics</li>
 			<li>Electricity</li>
 		</prerequisites>
-		<tab>AKI_ResearchTab</tab>
-		<researchViewX>5</researchViewX>
+		<tab>Ark_ResearchTab</tab>
+		<researchViewX>2</researchViewX>
 		<researchViewY>2</researchViewY>
 	</ResearchProjectDef>
 
@@ -63,8 +63,8 @@
 		<prerequisites>
 			<li>AKI_Research_Power</li>
 		</prerequisites>
-		<tab>AKI_ResearchTab</tab>
-		<researchViewX>6</researchViewX>
+		<tab>Ark_ResearchTab</tab>
+		<researchViewX>3</researchViewX>
 		<researchViewY>2</researchViewY>
 	</ResearchProjectDef>
 
@@ -77,8 +77,8 @@
 		<prerequisites>
 			<li>AKI_Research_BlastFurnaceSmelt</li>
 		</prerequisites>
-		<tab>AKI_ResearchTab</tab>
-		<researchViewX>5</researchViewX>
+		<tab>Ark_ResearchTab</tab>
+		<researchViewX>2</researchViewX>
 		<researchViewY>3</researchViewY>
 	</ResearchProjectDef>
 
@@ -95,8 +95,8 @@
 		<prerequisites>
 			<li>AKI_Research_ChemicalAnalysis</li>
 		</prerequisites>
-		<tab>AKI_ResearchTab</tab>
-		<researchViewX>6</researchViewX>
+		<tab>Ark_ResearchTab</tab>
+		<researchViewX>3</researchViewX>
 		<researchViewY>3</researchViewY>
 	</ResearchProjectDef>
 
@@ -107,8 +107,8 @@
 		<baseCost>1800</baseCost>
 		<techLevel>Industrial</techLevel>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-		<tab>AKI_ResearchTab</tab>
-		<researchViewX>4</researchViewX>
+		<tab>Ark_ResearchTab</tab>
+		<researchViewX>1</researchViewX>
 		<researchViewY>4</researchViewY>
 	</ResearchProjectDef>
 
@@ -122,8 +122,8 @@
 		<prerequisites>
 			<li>AKI_Research_ChemicalExtract</li>
 		</prerequisites>
-		<tab>AKI_ResearchTab</tab>
-		<researchViewX>5</researchViewX>
+		<tab>Ark_ResearchTab</tab>
+		<researchViewX>2</researchViewX>
 		<researchViewY>4</researchViewY>
 	</ResearchProjectDef>
 
@@ -137,8 +137,8 @@
 		<prerequisites>
 			<li>AKI_Research_ChemicalExtract</li>
 		</prerequisites>
-		<tab>AKI_ResearchTab</tab>
-		<researchViewX>5</researchViewX>
+		<tab>Ark_ResearchTab</tab>
+		<researchViewX>2</researchViewX>
 		<researchViewY>4.5</researchViewY>
 	</ResearchProjectDef>
 
@@ -152,8 +152,8 @@
 		<prerequisites>
 			<li>AKI_Research_ChemicalExtract</li>
 		</prerequisites>
-		<tab>AKI_ResearchTab</tab>
-		<researchViewX>5</researchViewX>
+		<tab>Ark_ResearchTab</tab>
+		<researchViewX>2</researchViewX>
 		<researchViewY>5</researchViewY>
 	</ResearchProjectDef>
 
@@ -163,8 +163,8 @@
 		<description>从源石中提取污染度极高的源石碎片。</description>
 		<baseCost>800</baseCost>
 		<techLevel>Industrial</techLevel>
-		<tab>AKI_ResearchTab</tab>
-		<researchViewX>4</researchViewX>
+		<tab>Ark_ResearchTab</tab>
+		<researchViewX>1</researchViewX>
 		<researchViewY>0.5</researchViewY>
 	</ResearchProjectDef> -->
 
@@ -174,8 +174,8 @@
 		<description>对源石的基础研究可以让我们将它打造成杀人利器投入战争。</description>
 		<baseCost>1000</baseCost>
 		<techLevel>Industrial</techLevel>
-		<tab>AKI_ResearchTab</tab>
-		<researchViewX>5</researchViewX>
+		<tab>Ark_ResearchTab</tab>
+		<researchViewX>2</researchViewX>
 		<researchViewY>0.5</researchViewY>
 	</ResearchProjectDef>
 
@@ -188,8 +188,8 @@
 		<prerequisites>
 			<li>AKI_Research_Weapon</li>
 		</prerequisites>
-		<tab>AKI_ResearchTab</tab>
-		<researchViewX>6</researchViewX>
+		<tab>Ark_ResearchTab</tab>
+		<researchViewX>3</researchViewX>
 		<researchViewY>0.5</researchViewY>
 	</ResearchProjectDef>
 
@@ -203,8 +203,8 @@
 		<prerequisites>
 			<li>AKI_Research_Shell</li>
 		</prerequisites>
-		<tab>AKI_ResearchTab</tab>
-		<researchViewX>7</researchViewX>
+		<tab>Ark_ResearchTab</tab>
+		<researchViewX>4</researchViewX>
 		<researchViewY>0.5</researchViewY>
 	</ResearchProjectDef>
 
@@ -218,8 +218,8 @@
 		<prerequisites>
 			<li>AKI_Research_Cannon</li>
 		</prerequisites>
-		<tab>AKI_ResearchTab</tab>
-		<researchViewX>8</researchViewX>
+		<tab>Ark_ResearchTab</tab>
+		<researchViewX>5</researchViewX>
 		<researchViewY>1</researchViewY>
 	</ResearchProjectDef>
 
@@ -236,8 +236,8 @@
 		<prerequisites>
 			<li>AKI_Research_ChaseGun</li>
 		</prerequisites>
-		<tab>AKI_ResearchTab</tab>
-		<researchViewX>9</researchViewX>
+		<tab>Ark_ResearchTab</tab>
+		<researchViewX>6</researchViewX>
 		<researchViewY>1.5</researchViewY>
 	</ResearchProjectDef>
 
@@ -254,8 +254,8 @@
 		<prerequisites>
 			<li>AKI_Research_ChaseGun</li>
 		</prerequisites>
-		<tab>AKI_ResearchTab</tab>
-		<researchViewX>9</researchViewX>
+		<tab>Ark_ResearchTab</tab>
+		<researchViewX>6</researchViewX>
 		<researchViewY>0.5</researchViewY>
 	</ResearchProjectDef>
 
@@ -272,8 +272,8 @@
 		<prerequisites>
 			<li>AKI_Research_Cannon</li>
 		</prerequisites>
-		<tab>AKI_ResearchTab</tab>
-		<researchViewX>8</researchViewX>
+		<tab>Ark_ResearchTab</tab>
+		<researchViewX>5</researchViewX>
 		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
 </Defs>
