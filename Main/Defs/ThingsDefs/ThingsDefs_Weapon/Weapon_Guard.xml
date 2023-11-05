@@ -935,7 +935,7 @@
     </tools>
   </ThingDef>
 
-  <ThingDef ParentName="AK_WeaponBase_Guard">
+  <ThingDef ParentName="AK_WeaponBase_Guard" Name="AK_Weapon_LaPluma">
     <defName>AK_Weapon_LaPluma</defName>
     <label>羽毛笔的镰刀</label>
     <description>一把造型奇特的镰刀，收割的是敌人的性命。</description>
@@ -961,6 +961,15 @@
         <cooldownTime>1.3</cooldownTime>
       </li>
     </tools>
+  </ThingDef>
+
+  <ThingDef ParentName="AK_Weapon_LaPluma">
+    <defName>AK_Weapon_LaPlumaSummerFlower</defName>
+    <label>羽毛笔-夏卉的镰刀</label>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Guard/LaPluma_SummerFlowerW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
   </ThingDef>
 
   <ThingDef ParentName="AK_WeaponBase_Guard">

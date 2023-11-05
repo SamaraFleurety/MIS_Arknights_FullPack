@@ -241,6 +241,18 @@
 		</apparel>
 	</ThingDef>
 
+    <ThingDef ParentName="AK_ArmorBase_Guard">
+	    <defName>AK_Apparel_LaPlumaSummerFlower</defName>
+		<label>羽毛笔-夏卉</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Guard/LaPluma_SummerFlower</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 	<ThingDef ParentName="AK_ArmorBase_Guard">
 		<defName>AK_Apparel_Estelle</defName>
 		<label>艾丝黛尔服装</label>
