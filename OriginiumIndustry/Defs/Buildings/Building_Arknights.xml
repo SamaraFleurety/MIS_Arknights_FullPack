@@ -111,9 +111,10 @@
 		<description>一个印有罗德岛标志的手提袋，如果拉开拉链，手提袋内会发出明亮的光芒，每次拉开拉链光芒的色彩都有可能发生变化，这种变化似乎存在一定规律。\n\n它没法再吐出干员简历，但它的光芒仍能为你照亮每一个漆黑的夜，并且你现在可以不限次地拉开它了。</description>
 		<thingClass>AK_Industry.ThingClass_RecruitBagLight</thingClass>
 		<graphicData>
-			<texPath>Things/Building/RecruitBagLamp</texPath>
+			<texPath>Things/Building/RecruitBagLampI</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>2</drawSize>
+			<shaderType>Transparent</shaderType>
 		</graphicData>
 		<comps Inherit="False">
 			<li Class="CompProperties_Glower">
