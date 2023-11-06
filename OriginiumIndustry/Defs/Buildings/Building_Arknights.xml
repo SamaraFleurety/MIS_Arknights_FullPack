@@ -104,4 +104,28 @@
 			<neverShowWeapon>true</neverShowWeapon>
 			<casualInterruptible>false</casualInterruptible>
 		</JobDef>
+		
+	<ThingDef ParentName="StandingLampBase" >
+		<defName>AKI_Building_RecruitBagLamp</defName>
+		<label>招募袋</label>
+		<description>desc</description>
+		<thingClass>AK_Industry.ThingClass_RecruitBagLight</thingClass>
+		<comps Inherit="False">
+			<li Class="CompProperties_Glower">
+				<compClass>AK_Industry.TC_RBLGlower</compClass>
+				<glowRadius>12</glowRadius>
+				<glowColor>(214,148,94,0)</glowColor>
+				<colorPickerEnabled>true</colorPickerEnabled>
+				<darklightToggle>true</darklightToggle>
+			</li>
+		</comps>
+	</ThingDef>
+		<JobDef>
+			<defName>AKI_Job_UseRecruitBagLamp</defName>
+			<driverClass>AK_Industry.JobDriver_UseRecruitBagLamp</driverClass>
+			<reportString>desc</reportString>
+			<neverShowWeapon>true</neverShowWeapon>
+			<casualInterruptible>false</casualInterruptible>
+		</JobDef>
+		
 </Defs>
