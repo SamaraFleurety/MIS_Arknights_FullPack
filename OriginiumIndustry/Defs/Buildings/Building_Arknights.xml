@@ -110,6 +110,11 @@
 		<label>招募袋</label>
 		<description>desc</description>
 		<thingClass>AK_Industry.ThingClass_RecruitBagLight</thingClass>
+		<graphicData>
+			<texPath>Things/Building/RecruitBagLamp</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>2</drawSize>
+		</graphicData>
 		<comps Inherit="False">
 			<li Class="CompProperties_Glower">
 				<compClass>AK_Industry.TC_RBLGlower</compClass>
