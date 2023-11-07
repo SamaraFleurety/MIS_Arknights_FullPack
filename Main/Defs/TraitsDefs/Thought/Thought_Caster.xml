@@ -337,4 +337,18 @@
 		</stages>
 	</ThoughtDef>
 
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Santalla</defName>
+		<requiredTraits>
+			<li>AK_Trait_Santalla</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>融冰</label>
+				<description>曾经我还像是头倔强的岩角兽，不愿接受一点善意。现在......应该没那么固执了吧。被太阳晒久了，坚冰也是会融成清泉的。</description>
+				<baseMoodEffect>6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
 </Defs>

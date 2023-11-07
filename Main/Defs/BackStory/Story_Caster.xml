@@ -322,4 +322,20 @@
 		<baseDesc>在通过干员考核加入罗德岛后，{PAWN_nameDef}作为预备队员加入了预备行动组A1。</baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Santalla_Child</defName>
+		<slot>Childhood</slot>
+		<title>被挽回的弃婴</title>
+		<titleShort>被挽回的弃婴</titleShort>
+		<baseDesc>{PAWN_nameDef}的部落存在着弃婴传统，{PAWN_nameDef}本是那要被抛弃的孩子，但当 {PAWN_pronoun}要被抛诸野外时，部族那棵老树的枝丫正巧被风吹过，钩住了包裹着 {PAWN_possessive}布， {PAWN_possessive}命运就此扭转。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Santalla_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>萨米雪祀</title>
+		<titleShort>萨米雪祀</titleShort>
+		<baseDesc>{PAWN_nameDef}的部落因为拒绝离开，成为了乌萨斯开疆拓土的无数牺牲者之一，{PAWN_nameDef}恰好因为外出巡视逃过一劫，在被乌萨斯人刺伤感染矿石病后， {PAWN_pronoun}陷入了对乌萨斯和乌萨斯人极端的仇恨中</baseDesc>
+	</BackstoryDef>
+
 </Defs>

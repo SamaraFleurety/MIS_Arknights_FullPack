@@ -559,4 +559,39 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<!-- 寒檀 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_SantallaSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>雪祀</label>
+				<description>{PAWN_nameDef}很少出现在罗德岛上，比起在钢铁中生活，{PAWN_pronoun}更倾向于待在木石间，与自然同行。生于自然的人，会毫无保留的把自己的一切回馈给自然。</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.4</MentalBreakThreshold>
+					<PsychicSensitivity>0.4</PsychicSensitivity>
+					<MeleeDodgeChance>0.1</MeleeDodgeChance>
+					<ImmunityGainSpeed>0.8</ImmunityGainSpeed>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Santalla</defName>
+		<degreeDatas>
+			<li>
+				<label>融冰</label>
+				<description>{PAWN_possessive}内心虽包含着对于萨米以外一切事物的排斥，但当{PAWN_pronoun}放下这些，真正理性地去看待罗德岛上形形色色的人时，{PAWN_pronoun}意识到，自己和他们并没有什么不同，同样是被病痛折磨的苦命人，同样是在艰苦世道下蹒跚求生，仅仅因为不理解、不想理解而向他人宣泄情绪，甚至将自己的痛苦强加给别人，这种狭隘与自私的心态，不是自己作为一个萨米人、一位萨满应当保有的。</description>
+				<statOffsets>
+					<SocialImpact>-0.15</SocialImpact>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>

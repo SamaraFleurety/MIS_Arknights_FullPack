@@ -241,8 +241,8 @@
 		</apparel>
 	</ThingDef>
 
-    <ThingDef ParentName="AK_ArmorBase_Guard">
-	    <defName>AK_Apparel_LaPlumaSummerFlower</defName>
+	<ThingDef ParentName="AK_ArmorBase_Guard">
+		<defName>AK_Apparel_LaPlumaSummerFlower</defName>
 		<label>羽毛笔-夏卉</label>
 		<graphicData>
 			<texPath>Things/AK_Agents/GApparel</texPath>
@@ -411,7 +411,7 @@
 
 	<ThingDef ParentName="AK_ArmorBase_Guard">
 		<defName>AK_Apparel_Viviana</defName>
-		<label>烛骑士薇薇安服装</label>
+		<label>薇薇安娜服装</label>
 		<graphicData>
 			<texPath>Things/AK_Agents/Guard/Viviana</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

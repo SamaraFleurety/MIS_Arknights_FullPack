@@ -2,29 +2,29 @@
 <Defs>
 
   <ThingDef ParentName="AK_HatBase">
-		<defName>AK_Hat_Doctor</defName>
-		<label>博士兜帽</label>
-		<description>博士的兜帽。</description>
-		<useHitPoints>true</useHitPoints>
-		<graphicData>
-			<texPath>Things/AK_Agents/Doctor/DoctorH</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<apparel>
-			<bodyPartGroups>
-				<li>FullHead</li>
-			</bodyPartGroups>
-			<layers>
-				<li>Overhead</li>
-			</layers>
-			<defaultOutfitTags>
-				<li>Soldier</li>
-			</defaultOutfitTags>
-			<useDeflectMetalEffect>true</useDeflectMetalEffect>
-			<wornGraphicPath>Things/AK_Agents/Doctor/DoctorH</wornGraphicPath>
-		</apparel>
-		<techLevel>Spacer</techLevel>
-		<recipeMaker>
+    <defName>AK_Hat_Doctor</defName>
+    <label>博士兜帽</label>
+    <description>博士的兜帽。</description>
+    <useHitPoints>true</useHitPoints>
+    <graphicData>
+      <texPath>Things/AK_Agents/Doctor/DoctorH</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <useDeflectMetalEffect>true</useDeflectMetalEffect>
+      <wornGraphicPath>Things/AK_Agents/Doctor/DoctorH</wornGraphicPath>
+    </apparel>
+    <techLevel>Spacer</techLevel>
+    <recipeMaker>
       <unfinishedThingDef>AK_Unfinished_DoctorCloth</unfinishedThingDef>
       <skillRequirements>
         <Crafting>8</Crafting>
@@ -33,43 +33,43 @@
         <li>HandTailoringBench</li>
         <li>ElectricTailoringBench</li>
       </recipeUsers>
-		</recipeMaker>
-		<tradeTags>
-			<li>HiTechArmor</li>
-			<li>Armor</li>
-		</tradeTags>
-		<generateCommonality>2</generateCommonality>
-		<statBases>
-			<WorkToMake>26250</WorkToMake>
-			<MaxHitPoints>180</MaxHitPoints>
-			<Mass>2</Mass>
-			<Flammability>0.4</Flammability>
-			<ArmorRating_Sharp>1.2</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.6</ArmorRating_Heat>
-			<Insulation_Cold>4</Insulation_Cold>
-			<Insulation_Heat>2</Insulation_Heat>
-			<EquipDelay>6</EquipDelay>
-		</statBases>
-		<costList>
-			<ComponentSpacer>1</ComponentSpacer>
-			<Plasteel>50</Plasteel>
-		</costList>
-		<colorGenerator Class="ColorGenerator_Options">
-			<options>
-				<li>
-					<weight>10</weight>
-					<only>(1.0,1.0,1.0)</only>
-				</li>
-			</options>
-		</colorGenerator>
-		<comps>
-			<li Class="CompProperties_Biocodable"/>
-		</comps>
-		<thingSetMakerTags>
-			<li>RewardStandardHighFreq</li>
-		</thingSetMakerTags>
-	</ThingDef>
+    </recipeMaker>
+    <tradeTags>
+      <li>HiTechArmor</li>
+      <li>Armor</li>
+    </tradeTags>
+    <generateCommonality>2</generateCommonality>
+    <statBases>
+      <WorkToMake>26250</WorkToMake>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Mass>2</Mass>
+      <Flammability>0.4</Flammability>
+      <ArmorRating_Sharp>1.2</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.6</ArmorRating_Heat>
+      <Insulation_Cold>4</Insulation_Cold>
+      <Insulation_Heat>2</Insulation_Heat>
+      <EquipDelay>6</EquipDelay>
+    </statBases>
+    <costList>
+      <ComponentSpacer>1</ComponentSpacer>
+      <Plasteel>50</Plasteel>
+    </costList>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(1.0,1.0,1.0)</only>
+        </li>
+      </options>
+    </colorGenerator>
+    <comps>
+      <li Class="CompProperties_Biocodable"/>
+    </comps>
+    <thingSetMakerTags>
+      <li>RewardStandardHighFreq</li>
+    </thingSetMakerTags>
+  </ThingDef>
 
   <ThingDef ParentName="AK_ArmorBase">
     <defName>AK_Apparel_Doctor</defName>

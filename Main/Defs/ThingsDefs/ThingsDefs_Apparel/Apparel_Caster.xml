@@ -265,4 +265,16 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Caster">
+		<defName>AK_Apparel_Santalla</defName>
+		<label>寒檀服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Caster/Santalla</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Caster/Santalla</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 </Defs>

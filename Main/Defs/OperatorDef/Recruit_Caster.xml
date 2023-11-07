@@ -224,9 +224,9 @@ Eyjafjalla, Caster Operator of Rhodes Island, has wanted to devote herself to do
 		<adultHood>AK_BackStory_Eyjafjalla_Adult</adultHood>
 		<clothSet>
 			<li>
-			    <key>0</key>
+				<key>0</key>
 				<value>
-				    <label>SummerFlower</label>
+					<label>SummerFlower</label>
 					<hair>AK_Hair_EyjafjallaSummerFlower</hair>
 					<apparels>
 						<li>AK_Apparel_EyjafjallaSummerFlower</li>
@@ -2317,6 +2317,101 @@ FIXMEDESC</description>
 				<amount>1</amount>
 			</li>
 		</items>
+	</AK_DLL.OperatorDef>
+
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Caster">
+		<defName>AK_Recruit_Santalla</defName>
+		<name>Santalla</name>
+		<nickname>Santalla</nickname>
+		<description>
+FIXMEDESC</description>
+		<weapon>AK_Weapon_Santalla</weapon>
+		<hair>AK_Hair_Santalla</hair>
+		<apparels>
+			<li>AK_Apparel_Santalla</li>
+		</apparels>
+		<stand>UI/Image/Caster/SantallaStand</stand>
+		<headPortrait>UI/Image/Caster/SantallaPortrait</headPortrait>
+		<traits>
+			<li>
+				<def>BodyPurist</def>
+			</li>
+			<li>
+				<def>Beauty</def>
+				<degree>2</degree>
+			</li>
+			<li>
+				<def>AK_Trait_SantallaSecond</def>
+			</li>
+			<li>
+				<def>AK_Trait_Santalla</def>
+			</li>
+		</traits>
+		<age>20</age>
+		<childHood>AK_BackStory_Santalla_Child</childHood>
+		<adultHood>AK_BackStory_Santalla_Adult</adultHood>
+		<skills>
+			<li>
+				<skill>Animals</skill>
+				<level>8</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Artistic</skill>
+				<level>10</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Construction</skill>
+				<level>2</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Cooking</skill>
+				<level>4</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Crafting</skill>
+				<level>8</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Intellectual</skill>
+				<level>6</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<level>4</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<level>10</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Mining</skill>
+				<level>6</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Plants</skill>
+				<level>12</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<level>11</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<level>4</level>
+				<fireLevel>0</fireLevel>
+			</li>
+		</skills>
 	</AK_DLL.OperatorDef>
 
 </Defs>
