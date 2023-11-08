@@ -157,4 +157,16 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Specialist">
+		<defName>AK_Apparel_Almond</defName>
+		<label>杏仁服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Specialist/Almond</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Specialist/Almond</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 </Defs>

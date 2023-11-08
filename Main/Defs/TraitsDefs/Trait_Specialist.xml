@@ -209,4 +209,38 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<!-- 杏仁 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_AlmondSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>话多</label>
+				<description>{PAWN_nameDef}的语速很快，吐字清晰，表达非常自信。在项目经费和工程安全的相关讨论中，{PAWN_possessive}话量会激增至平时的两倍（讲废话时则是四倍）。阐述意见时{PAWN_pronoun}会将结论前置，随后分条展开解释与论述，任何人都能够明确理解{PAWN_pronoun}要传达的内容，而{PAWN_possessive}观点往往切中肯綮。但出乎意料的是，{PAWN_pronoun}讲话时神情专注的模样也在部分干员中间颇具讨论度。</description>
+				<statOffsets>
+					<SocialImpact>0.3</SocialImpact>
+					<TradePriceImprovement>0.1</TradePriceImprovement>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Almond</defName>
+		<degreeDatas>
+			<li>
+				<label>可爱</label>
+				<description>听说{PAWN_nameDef}讲话时脸红扑扑的，很想让人捏一把。</description>
+				<statOffsets>
+					<SocialImpact>0.1</SocialImpact>
+					<PawnBeauty>1</PawnBeauty>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>

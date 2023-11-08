@@ -765,4 +765,33 @@
     </tools>
   </ThingDef>
 
+  <ThingDef ParentName="AK_WeaponBase_Specialist">
+    <defName>AK_Weapon_Almond</defName>
+    <label>杏仁的钩锁</label>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Specialist/AlmondW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <description>杏仁的工程学钩锁，不要乱碰或者不小心被绊倒了。</description>
+    <tools Inherit = "false">
+      <li>
+        <label>钩刺</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>1.2</cooldownTime>
+        <armorPenetration>0.8</armorPenetration>        <!--穿甲-->
+      </li>
+      <li>
+        <label>钩锁猛砸</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
 </Defs>
