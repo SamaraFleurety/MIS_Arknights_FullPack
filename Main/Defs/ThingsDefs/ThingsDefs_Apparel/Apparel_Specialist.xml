@@ -145,4 +145,16 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Specialist">
+		<defName>AK_Apparel_Kirin</defName>
+		<label>麒麟R夜刀服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Specialist/Kirin</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Specialist/Kirin</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 </Defs>

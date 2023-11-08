@@ -665,14 +665,104 @@
     </projectile>
   </ThingDef>
 
-	<ThingDef ParentName="AK_WeaponBase_Specialist">
-		<defName>AK_Weapon_Kazemaru</defName>
-		<label>风丸的刀</label>
-		<graphicData>
-			<texPath>Things/AK_Agents/Weapon/Specialist/KazemaruW</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<description>风丸的忍者刀，很符合忍者敏捷的行动方式。</description>
-	</ThingDef>
+  <ThingDef ParentName="AK_WeaponBase_Specialist">
+    <defName>AK_Weapon_Kazemaru</defName>
+    <label>风丸的刀</label>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Specialist/KazemaruW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <description>风丸的忍者刀，很符合忍者敏捷的行动方式。</description>
+  </ThingDef>
+
+  <ThingDef ParentName="AK_WeaponBase_Specialist">
+    <defName>AK_Weapon_Kirin</defName>
+    <label>麒麟双刀A</label>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Specialist/KirinW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <description>麒麟双刀的其中一把，较长而直。</description>
+    <tools Inherit = "false">
+      <li>
+        <label>劈砍</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>22</power>
+        <cooldownTime>0.9</cooldownTime>
+      </li>
+      <li>
+        <label>鬼人化</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>22</power>
+        <cooldownTime>0.1</cooldownTime>
+      </li>
+      <li>
+        <label>刀捅</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>30</power>
+        <cooldownTime>1.6</cooldownTime>
+        <armorPenetration>0.6</armorPenetration>        <!--穿甲-->
+      </li>
+      <li>
+        <label>刀柄猛砸</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <ThingDef ParentName="AK_WeaponBase_Specialist">
+    <defName>AK_Weapon_KirinB</defName>
+    <label>麒麟双刀B</label>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Specialist/KirinW2</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <description>麒麟双刀的其中一把，较短而弯。</description>
+    <tools Inherit = "false">
+      <li>
+        <label>劈砍</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>22</power>
+        <cooldownTime>0.9</cooldownTime>
+      </li>
+      <li>
+        <label>鬼人化</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>22</power>
+        <cooldownTime>0.1</cooldownTime>
+      </li>
+      <li>
+        <label>刀捅</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>30</power>
+        <cooldownTime>1.6</cooldownTime>
+        <armorPenetration>0.6</armorPenetration>        <!--穿甲-->
+      </li>
+      <li>
+        <label>刀柄猛砸</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
 
 </Defs>

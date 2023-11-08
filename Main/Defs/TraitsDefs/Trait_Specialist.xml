@@ -189,4 +189,24 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<!-- 麒麟R夜刀 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Kirin</defName>
+		<degreeDatas>
+			<li>
+				<label>砺火成锋</label>
+				<description>值得庆幸的是，即使预见了未来，像夜刀这样的战士仍选择站在我们这边。他们放下自己的过去，以坚强的意志肩负重担，以巨大的勇气继续战斗，贯彻我们一致的使命。他们也许会倒下，但不会退缩。正是他们的存在绘就罗德岛的底色，也铸成了我们坚不可摧的铠甲。</description>
+				<statOffsets>
+					<SocialImpact>-0.05</SocialImpact>
+					<GlobalLearningFactor>0.3</GlobalLearningFactor>
+					<WorkSpeedGlobal>0.35</WorkSpeedGlobal>
+					<MentalBreakThreshold>-0.4</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>

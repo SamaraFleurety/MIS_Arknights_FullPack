@@ -88,4 +88,16 @@
 		</stages>
 	</ThoughtDef>
 
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Kirin</defName>
+		<requiredTraits><li>AK_Trait_Kirin</li></requiredTraits>
+		<stages>
+			<li>
+				<label>砺火成锋</label>
+				<description>以胜利做砥石，才能保持锋芒。</description>
+				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
 </Defs>

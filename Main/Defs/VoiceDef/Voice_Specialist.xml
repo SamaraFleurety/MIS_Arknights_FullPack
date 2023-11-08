@@ -2451,4 +2451,225 @@
 		</subSounds>
 	</SoundDef>
 
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Recruit_Kirin</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Specialist/Kirin/char_1029_yato2/Recruit_Kirin</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Die_Kirin</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Specialist/Kirin/char_1029_yato2/Die_Kirin</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Undraft_Kirin</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Specialist/Kirin/char_1029_yato2/Undraft_Kirin</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_KirinI</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Specialist/Kirin/char_1029_yato2/Select_KirinI</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_KirinII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Specialist/Kirin/char_1029_yato2/Select_KirinII</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_KirinIII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Specialist/Kirin/char_1029_yato2/Select_KirinIII</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_KirinIV</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Specialist/Kirin/char_1029_yato2/Select_KirinIV</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Draft_KirinI</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Specialist/Kirin/char_1029_yato2/Draft_KirinI</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Draft_KirinII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Specialist/Kirin/char_1029_yato2/Draft_KirinII</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_KirinI</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Specialist/Kirin/char_1029_yato2/Ability_KirinI</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_KirinII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Specialist/Kirin/char_1029_yato2/Ability_KirinII</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_KirinIII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Specialist/Kirin/char_1029_yato2/Ability_KirinIII</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_KirinIV</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Specialist/Kirin/char_1029_yato2/Ability_KirinIV</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
 </Defs>

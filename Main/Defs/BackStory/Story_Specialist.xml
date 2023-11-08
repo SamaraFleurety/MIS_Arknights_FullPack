@@ -169,4 +169,20 @@
 		<baseDesc>伴随着新任家主的改革，{PAWN_nameDef}最终决定脱离东国的家族——{PAWN_pronoun}无法忍受穿着制服在柜台前几个小时地重复向客户递出名片的动作。\n或许有些人生来就适合接近危险与阴影，在{PAWN_pronoun}忍无可忍地离开之后。由小家主牵线来到了罗德岛，并担任情报员一职。</baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Kirin_Child</defName>
+		<slot>Childhood</slot>
+		<title>东国杀手</title>
+		<titleShort>东国杀手</titleShort>
+		<baseDesc>夜刀曾经是东国杀手，对杀人感到厌倦，在追杀一对母女时遇到了身为敌对阵营杀手的黑角。与黑角一同叛离各自的阵营，放了母女二人离开，然后一路出逃，离开东国。后来加入了罗德岛。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Kirin_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>麒麟R夜刀</title>
+		<titleShort>麒麟R夜刀</titleShort>
+		<baseDesc>短暂的治疗后，从东国归来的夜刀回到岗位，继续履行罗德岛A4行动组组长的职责。换上了由艾露猫打造的全新装备，{PAWN_pronoun}将会承担更多高难度的攻坚行动，而{PAWN_possessive}意志也比以往都要强大。</baseDesc>
+	</BackstoryDef>
+
 </Defs>
