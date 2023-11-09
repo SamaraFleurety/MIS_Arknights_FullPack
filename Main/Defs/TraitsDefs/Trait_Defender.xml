@@ -424,4 +424,42 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<!-- 涤火杰西卡 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_LiberatedSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>不再懦弱</label>
+				<description>令人难过的是，{PAWN_pronoun}会固执地选择独自面对一切。而那些在作为佣兵时目睹的景象与经受的挣扎，杰西卡始终不愿告知，我们也不便追问，但通过关注{PAWN_pronoun}现在的行为表现，我们认为{PAWN_possessive}状态已经改善了许多。</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.2</MentalBreakThreshold>
+					<CarryingCapacity>0.8</CarryingCapacity>
+					<ShootingAccuracyPawn>0.1</ShootingAccuracyPawn>
+					<AimingDelayFactor>-0.1</AimingDelayFactor>
+				</statOffsets>
+				<statFactors>
+					<IncomingDamageFactor>0.8</IncomingDamageFactor>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Liberated</defName>
+		<degreeDatas>
+			<li>
+				<label>流泪猫猫头+</label>
+				<description>杰西卡现在表面看起来羞怯软弱，但其实内心执着又坚韧，还具有高度的同理心，可以敏锐地觉察他人的情绪，这种不可多得的品质，使杰西卡能够安抚那些因事故经受创伤的人，却也令{PAWN_pronoun}更易受他人情绪影响，很久才能从痛苦与悲伤中抽离。</description>
+				<statOffsets>
+					<SocialImpact>0.15</SocialImpact>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>

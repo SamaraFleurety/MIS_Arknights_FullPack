@@ -211,4 +211,18 @@
 		</stages>
 	</ThoughtDef>
 
+	<!-- 涤火杰西卡 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Liberated</defName>
+		<requiredTraits><li>AK_Trait_Liberated</li></requiredTraits>
+		<stages>
+			<li>
+				<label>流泪猫猫头+</label>
+				<description>我现在已经不会为哭泣而感到羞耻了......心肠软也不是什么丢人的事情。难过的事情用话讲不出来，就让眼泪来表达，那都是人之常情，没什么好羞耻的</description>
+				<baseMoodEffect>-10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
 </Defs>

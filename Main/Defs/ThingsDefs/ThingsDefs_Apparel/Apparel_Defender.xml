@@ -228,4 +228,16 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Defender">
+		<defName>AK_Apparel_Liberated</defName>
+		<label>涤火杰西卡服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Defender/Liberated</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Defender/Liberated</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 </Defs>

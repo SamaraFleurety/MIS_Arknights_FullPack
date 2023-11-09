@@ -253,4 +253,20 @@
 		<baseDesc>在通过干员考核加入罗德岛后，{PAWN_nameDef}作为预备队员加入了预备行动组A1。</baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Liberated_Child</defName>
+		<slot>Childhood</slot>
+		<title>雷神工业的大小姐</title>
+		<titleShort>雷神工业的大小姐</titleShort>
+		<baseDesc>杰西卡是布林雷家的小女儿，作为雷神工业的千金小姐性格却异常怯弱胆小，也许去黑钢国际也是父母对她的锻炼吧。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Liberated_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>边境治安官</title>
+		<titleShort>边境治安官</titleShort>
+		<baseDesc>杰西卡·布林雷，因私人原因离开黑钢基地后，选择去往拓荒地，成为了一名治安官。现作为当地办事处的合作干员为罗德岛提供帮助与支持。</baseDesc>
+	</BackstoryDef>
+
 </Defs>
