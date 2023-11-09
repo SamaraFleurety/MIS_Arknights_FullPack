@@ -29,4 +29,18 @@
 		</stages>
 	</ThoughtDef>
 
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Eblana</defName>
+		<requiredTraits>
+			<li>AK_Trait_Eblana</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>焚烧生命</label>
+				<description>“高速战舰在塔拉人的呜咽声和建筑的崩塌声中，碾过无数房屋，朝着伦蒂尼姆驶去”</description>
+				<baseMoodEffect>6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
 </Defs>

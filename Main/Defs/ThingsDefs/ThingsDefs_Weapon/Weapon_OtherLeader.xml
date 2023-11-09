@@ -149,4 +149,90 @@
 		</projectile>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_WeaponBase_OtherLeader">
+		<defName>AK_Weapon_Eblana</defName>
+		<label>死火之枪</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/OtherLeader/EblanaW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<description>能够焚烧生命的长枪。</description>
+		<statBases>
+			<AccuracyTouch>0.85</AccuracyTouch>
+			<AccuracyShort>0.95</AccuracyShort>
+			<AccuracyMedium>0.8</AccuracyMedium>
+			<AccuracyLong>0.65</AccuracyLong>
+			<RangedWeapon_Cooldown>0.3</RangedWeapon_Cooldown>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_Eblana</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>1.5</warmupTime>				<!--前摇-->
+				<range>20</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_Magic</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<tools Inherit = "false">
+			<li>
+				<label>长枪猛劈</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>40</power>
+				<cooldownTime>3.2</cooldownTime>
+			</li>
+			<li>
+				<label>旋枪</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>52</power>
+				<armorPenetration>1.12</armorPenetration>				<!--穿甲-->
+				<cooldownTime>5</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_Eblana</defName>
+		<label>法术射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/MagicOrb</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Burn</damageDef>
+			<damageAmountBase>28</damageAmountBase>
+			<stoppingPower>3</stoppingPower>
+			<speed>50</speed>
+			<extraDamages>
+				<li>
+					<def>Burn</def>
+					<amount>42</amount>					<!--伤害数值-->
+				</li>
+			</extraDamages>
+			<soundExplode>ThumpCannon_Impact</soundExplode>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_WeaponBase_OtherLeader">
+		<defName>AK_Weapon_EblanaB</defName>
+		<label>爱布拉娜的法术符</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/OtherLeader/EblanaW2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<description>爱布拉娜的法术符。</description>
+	</ThingDef>
+
 </Defs>

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<!-- 克里斯腾 -->
+
 	<TraitDef>
 		<ignoreConfigErrors>true</ignoreConfigErrors>
 		<commonality>0.0</commonality>
@@ -9,7 +11,7 @@
 			<li>
 				<label>空前绝后的天才</label>
 				<description>{PAWN_nameDef}的天分足以让绝大多数人眼红——{PAWN_pronoun}在十三岁时便考入特里蒙理工大学，这在哥伦比亚历史上是绝无仅有的。</description>
-                <statOffsets>
+				<statOffsets>
 					<GlobalLearningFactor>2.2</GlobalLearningFactor>
 					<ResearchSpeed>3.2</ResearchSpeed>
 				</statOffsets>
@@ -25,7 +27,7 @@
 			<li>
 				<label>总辖</label>
 				<description>{PAWN_nameDef}的人格魅力足够吸引几乎所有遇到{PAWN_possessive}人，{PAWN_possessive}口才，煽动力和说服力能让最优秀的谈判者和演说家黯然失色，可以莱茵生命能成为哥伦比亚头部科研公司之一，克里斯腾本人的魅力起了巨大的作用。</description>
-                <statOffsets>
+				<statOffsets>
 					<PawnBeauty>1</PawnBeauty>
 					<SocialImpact>0.8</SocialImpact>
 				</statOffsets>
@@ -41,12 +43,14 @@
 			<li>
 				<label>“孤星”</label>
 				<description>不灭。</description>
-                <statOffsets>
+				<statOffsets>
 					<MentalBreakThreshold>-0.8</MentalBreakThreshold>
 				</statOffsets>
 			</li>
 		</degreeDatas>
 	</TraitDef>
+
+	<!-- 霜星 -->
 
 	<TraitDef>
 		<ignoreConfigErrors>true</ignoreConfigErrors>
@@ -74,6 +78,60 @@
 				<statOffsets>
 					<MentalBreakThreshold>-0.4</MentalBreakThreshold>
 					<PainShockThreshold>-0.3</PainShockThreshold>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<!-- 爱布拉娜 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_EblanaThird</defName>
+		<degreeDatas>
+			<li>
+				<label>欲望与权术</label>
+				<description>作为政治与权力的工具被培养长大的{PAWN_nameDef}，天生对着权力有极强的敏感和渴求，虽说贪婪的红龙终将露出{PAWN_possessive}獠牙，但是{PAWN_possessive}最终目的到底是何物还是个谜。</description>
+				<statOffsets>
+					<SocialImpact>0.45</SocialImpact>
+					<TradePriceImprovement>0.25</TradePriceImprovement>
+					<SlaveSuppressionOffset>-0.2</SlaveSuppressionOffset>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_EblanaSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>领袖</label>
+				<description>作为深池的领袖，{PAWN_nameDef}是有着卓越的个人能力和领导力。</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.3</MentalBreakThreshold>
+					<Beauty>2</Beauty>
+				</statOffsets>
+				<statFactors>
+					<MentalBreakThreshold>1.8</MentalBreakThreshold>
+					<GlobalLearningFactor>1.6</GlobalLearningFactor>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Eblana</defName>
+		<degreeDatas>
+			<li>
+				<label>焚烧生命</label>
+				<description>{PAWN_nameDef}的源石技艺和{PAWN_possessive}活动无时无刻不在焚烧生命，似乎在{PAWN_possessive}目的达成前，还有多少生命和尸体在烈火中化为灰烬都无关紧要。</description>
+				<statOffsets>
+					<PsychicSensitivity>-0.2</PsychicSensitivity>
 				</statOffsets>
 			</li>
 		</degreeDatas>

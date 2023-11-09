@@ -35,4 +35,20 @@
         <baseDesc>曾经指挥旗下的雪怪小队与游击队取得了许多胜利，被乌萨斯军誉为“冻原中的白色死神”</baseDesc>
     </BackstoryDef>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Eblana_Child</defName>
+		<slot>Childhood</slot>
+		<title>维多利亚的德拉克</title>
+		<titleShort>维多利亚的德拉克</titleShort>
+		<baseDesc>作为血统高贵的德拉克，{PAWN_nameDef}自幼接受着高等教育，但是在其中也根植着塔拉人对维多利亚的仇恨。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Eblana_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>“领袖”</title>
+		<titleShort>“领袖”</titleShort>
+		<baseDesc>{PAWN_nameDef}在成年后成为了塔拉民族分裂组织“深池”的领袖，作为能在多方势力中周旋自如的野心家和权术家，{PAWN_pronoun}对于权力有着毫不掩饰的觊觎。</baseDesc>
+	</BackstoryDef>
+
 </Defs>
