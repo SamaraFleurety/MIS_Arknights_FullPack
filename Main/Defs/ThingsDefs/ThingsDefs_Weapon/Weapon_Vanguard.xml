@@ -843,4 +843,48 @@
     </tools>
   </ThingDef>
 
+  <ThingDef ParentName="AK_WeaponBase_Vanguard">
+    <defName>AK_Weapon_Plume</defName>
+    <label>拉特兰戍卫队标准制式斧枪</label>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Vanguard/PlumeW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <description>拉特兰戍卫队使用的斧枪，很沉重，不适合黎博利使用。</description>
+    <tools>
+      <li>
+        <label>枪捅</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>22</power>
+        <cooldownTime>1</cooldownTime>
+      </li>
+      <li>
+        <label>枪柄猛敲</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>1.4</cooldownTime>
+      </li>
+      <li>
+        <label>枪劈</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>枪刺</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>1</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
 </Defs>

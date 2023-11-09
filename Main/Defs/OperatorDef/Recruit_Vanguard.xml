@@ -5,8 +5,7 @@
 		<defName>AK_Recruit_Vanilla</defName>
 		<name>Vanilla</name>
 		<nickname>Vanilla</nickname>
-		<description>Don't let her know if you meet any wild animals.
-Vanilla, Vanguard Operator of Blacksteel, will make way for the squad on the battlefield with her professional skills.</description>
+		<description>Don't let her know if you meet any wild animals.\nVanilla, Vanguard Operator of Blacksteel, will make way for the squad on the battlefield with her professional skills.</description>
 		<weapon>AK_Weapon_Vanilla</weapon>
 		<hair>AK_Hair_Vanilla</hair>
 		<apparels>
@@ -203,8 +202,7 @@ Vanilla, Vanguard Operator of Blacksteel, will make way for the squad on the bat
 		<defName>AK_Recruit_Bagpipe</defName>
 		<name>Bagpipe</name>
 		<nickname>Bagpipe</nickname>
-		<description>Meticulous when it comes to fighting and farming, utterly clueless when it comes to electronics and trends.
-Bagpipe, former Victorian soldier, has come in search of the truth.</description>
+		<description>Meticulous when it comes to fighting and farming, utterly clueless when it comes to electronics and trends.\nBagpipe, former Victorian soldier, has come in search of the truth.</description>
 		<weapon>AK_Weapon_Bagpipe</weapon>
 		<hair>AK_Hair_Bagpipe</hair>
 		<apparels>
@@ -302,8 +300,7 @@ Bagpipe, former Victorian soldier, has come in search of the truth.</description
 		<defName>AK_Recruit_Reed</defName>
 		<name>Reed</name>
 		<nickname>Reed</nickname>
-		<description>Using her is more dangerous than protecting her.
-Reed, Rhodes Island inpatient, will provide personal assistance to those who are trustworthy.</description>
+		<description>Using her is more dangerous than protecting her.\nReed, Rhodes Island inpatient, will provide personal assistance to those who are trustworthy.</description>
 		<weapon>AK_Weapon_Reed</weapon>
 		<hair>AK_Hair_Reed</hair>
 		<apparels>
@@ -400,8 +397,7 @@ Reed, Rhodes Island inpatient, will provide personal assistance to those who are
 		<defName>AK_Recruit_Saga</defName>
 		<name>Saga</name>
 		<nickname>Saga</nickname>
-		<description>A heart like lapis. Cleanse the six senses.
-The wandering monk, Saga, joins in on the action wherever she goes.</description>
+		<description>A heart like lapis. Cleanse the six senses.\nThe wandering monk, Saga, joins in on the action wherever she goes.</description>
 		<weapon>AK_Weapon_Saga</weapon>
 		<hair>AK_Hair_Saga</hair>
 		<apparels>
@@ -499,8 +495,7 @@ The wandering monk, Saga, joins in on the action wherever she goes.</description
 		<defName>AK_Recruit_Texas</defName>
 		<name>Texas</name>
 		<nickname>Texas</nickname>
-		<description>You can trust her with your cargo.
-Texas, employee of Penguin Logistics, will give the squad a tactical advantage with her Originium Arts at the start of every battle.</description>
+		<description>You can trust her with your cargo.\nTexas, employee of Penguin Logistics, will give the squad a tactical advantage with her Originium Arts at the start of every battle.</description>
 		<weapon>AK_Weapon_Texas</weapon>
 		<hair>AK_Hair_Texas</hair>
 		<apparels>
@@ -1298,8 +1293,7 @@ Texas, employee of Penguin Logistics, will give the squad a tactical advantage w
 		<defName>AK_Recruit_Blacknight</defName>
 		<name>Blacknight</name>
 		<nickname>Blacknight</nickname>
-		<description>
-FIXMEDESC</description>
+		<description>FIXMEDESC</description>
 		<weapon>AK_Weapon_Blacknight</weapon>
 		<hair>AK_Hair_Blacknight</hair>
 		<apparels>
@@ -1398,8 +1392,7 @@ FIXMEDESC</description>
 		<defName>AK_Recruit_Muelsyse</defName>
 		<name>Muelsyse</name>
 		<nickname>Muelsyse</nickname>
-		<description>
-FIXMEDESC</description>
+		<description>FIXMEDESC</description>
 		<weapon>AK_Weapon_MuelsyseA</weapon>
 		<hair>AK_Hair_Muelsyse</hair>
 		<apparels>
@@ -1507,8 +1500,7 @@ FIXMEDESC</description>
 		<defName>AK_Recruit_Ines</defName>
 		<name>Ines</name>
 		<nickname>Ines</nickname>
-		<description>
-FIXMEDESC</description>
+		<description>FIXMEDESC</description>
 		<weapon>AK_Weapon_Ines</weapon>
 		<hair>AK_Hair_Ines</hair>
 		<apparels>
@@ -1639,6 +1631,103 @@ FIXMEDESC</description>
 		<age>20</age>
 		<childHood>AK_BackStory_Fang_Child</childHood>
 		<adultHood>AK_BackStory_Fang_Adult</adultHood>
+		<skills>
+			<li>
+				<skill>Animals</skill>
+				<level>3</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Artistic</skill>
+				<level>4</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Construction</skill>
+				<level>5</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Cooking</skill>
+				<level>5</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Crafting</skill>
+				<level>6</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Intellectual</skill>
+				<level>6</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<level>4</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<level>8</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Mining</skill>
+				<level>5</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Plants</skill>
+				<level>4</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<level>4</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<level>4</level>
+				<fireLevel>1</fireLevel>
+			</li>
+		</skills>
+	</AK_DLL.OperatorDef>
+
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Vanguard">
+		<defName>AK_Recruit_Plume</defName>
+		<name>Plume</name>
+		<nickname>Plume</nickname>
+		<description>FIXMEDESC</description>
+		<weapon>AK_Weapon_Plume</weapon>
+		<hair>AK_Hair_Plume</hair>
+		<apparels>
+			<li>AK_Apparel_Plume</li>
+		</apparels>
+		<stand>UI/Image/Vanguard/PlumeStand</stand>
+		<headPortrait>UI/Image/Vanguard/PlumePortrait</headPortrait>
+		<traits>
+			<li><def>AK_Trait_Plume</def></li>
+			<li>
+				<def>Nerves</def>
+				<degree>1</degree>
+			</li>
+			<li>
+				<def>Beauty</def>
+				<degree>1</degree>
+			</li>
+			<li>
+				<def>Nimble</def>
+			</li>
+			<li>
+				<def>SpeedOffset</def>
+				<degree>2</degree>
+			</li>
+		</traits>
+		<age>20</age>
+		<childHood>AK_BackStory_Plume_Child</childHood>
+		<adultHood>AK_BackStory_Plume_Adult</adultHood>
 		<skills>
 			<li>
 				<skill>Animals</skill>

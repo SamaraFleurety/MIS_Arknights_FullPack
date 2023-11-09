@@ -368,4 +368,23 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<!-- 翎羽 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Plume</defName>
+		<degreeDatas>
+			<li>
+				<label>认真</label>
+				<description>{PAWN_nameDef}几乎不会区分工作和生活之间的差别，甚至有时将工作视为一种娱乐，很多时候{PAWN_pronoun}太过认真了以至于显得有点呆。</description>
+				<statOffsets>
+					<SocialImpact>-0.05</SocialImpact>
+					<GlobalLearningFactor>0.15</GlobalLearningFactor>
+					<WorkSpeedGlobal>0.25</WorkSpeedGlobal>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>

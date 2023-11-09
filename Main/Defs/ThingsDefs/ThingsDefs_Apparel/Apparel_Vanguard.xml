@@ -206,4 +206,16 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Vanguard">
+		<defName>AK_Apparel_Plume</defName>
+		<label>翎羽服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Vanguard/Plume</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Vanguard/Plume</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 </Defs>

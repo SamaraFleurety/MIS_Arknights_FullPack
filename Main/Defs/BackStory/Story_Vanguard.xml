@@ -267,4 +267,20 @@
 		<baseDesc>在通过干员考核加入罗德岛后，{PAWN_nameDef}作为预备队员加入了预备行动组A1。</baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Plume_Child</defName>
+		<slot>Childhood</slot>
+		<title>拉特兰的黎博利</title>
+		<titleShort>拉特兰的黎博利</titleShort>
+		<baseDesc>{PAWN_nameDef}翎羽在拉特兰长大，过着和平而又富足的生活。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Plume_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>罗德岛安保人员</title>
+		<titleShort>罗德岛安保人员</titleShort>
+		<baseDesc>出身自拉特兰的黎博利人，前拉特兰戍卫队成员。阴差阳错间离开了拉特兰来到罗德岛。现于罗德岛担任安保人员，提供基地安保、巡查与重要物资看护等相关服务。</baseDesc>
+	</BackstoryDef>
+
 </Defs>
