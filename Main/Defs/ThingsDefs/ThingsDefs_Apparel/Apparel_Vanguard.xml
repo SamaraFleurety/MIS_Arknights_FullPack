@@ -218,4 +218,16 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Vanguard">
+		<defName>AK_Apparel_Yato</defName>
+		<label>夜刀服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Vanguard/Yato</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Vanguard/Yato</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 </Defs>

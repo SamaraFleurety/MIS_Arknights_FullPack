@@ -283,4 +283,12 @@
 		<baseDesc>出身自拉特兰的黎博利人，前拉特兰戍卫队成员。阴差阳错间离开了拉特兰来到罗德岛。现于罗德岛担任安保人员，提供基地安保、巡查与重要物资看护等相关服务。</baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Yato_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>行动组A4</title>
+		<titleShort>行动组A4</titleShort>
+		<baseDesc>A4行动组基础干员之一，同时也是他们的组长，忠诚可靠的武士。</baseDesc>
+	</BackstoryDef>
+
 </Defs>

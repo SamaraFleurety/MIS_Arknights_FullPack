@@ -206,4 +206,18 @@
 		</stages>
 	</ThoughtDef>
 
+	<!-- 夜刀 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Yato</defName>
+		<requiredTraits><li>AK_Trait_Yato</li></requiredTraits>
+		<stages>
+			<li>
+				<label>砥石</label>
+				<description>永远不要停止打磨你的技术，这是通往高效的唯一途径。想当然行动不可取，凡事或许皆有侥幸，但幸运不会时常眷顾你。</description>
+				<baseMoodEffect>6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
 </Defs>
