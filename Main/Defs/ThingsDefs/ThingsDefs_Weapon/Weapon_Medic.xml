@@ -345,23 +345,92 @@
     </tools>
   </ThingDef>
 
-	<ThingDef ParentName="AK_WeaponBase_Medic">
-		<defName>AK_Weapon_Whisperain</defName>
-		<label>絮雨的伞</label>
-		<graphicData>
-			<texPath>Things/AK_Agents/Weapon/Medic/WhisperainW</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<description>如同在屋下避雨的旅人。</description>
-	</ThingDef>
-    <ThingDef ParentName="AK_WeaponBase_Medic">
-      <defName>AK_Weapon_WhisperainPrioryOfAbyss</defName>
-      <label>絮雨-幽邃隐修的提灯</label>
-      <graphicData>
-        <texPath>Things/AK_Agents/Weapon/Medic/Whisperain_PrioryOfAbyssW</texPath>
-        <graphicClass>Graphic_Single</graphicClass>
-      </graphicData>
-      <description>如同在屋下避雨的旅人。</description>
-    </ThingDef>
+  <ThingDef ParentName="AK_WeaponBase_Medic">
+    <defName>AK_Weapon_Whisperain</defName>
+    <label>絮雨的伞</label>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Medic/WhisperainW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <description>如同在屋下避雨的旅人。</description>
+  </ThingDef>
+
+  <ThingDef ParentName="AK_WeaponBase_Medic">
+    <defName>AK_Weapon_WhisperainPrioryOfAbyss</defName>
+    <label>絮雨-幽邃隐修的提灯</label>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Medic/Whisperain_PrioryOfAbyssW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <description>如同在屋下避雨的旅人。</description>
+  </ThingDef>
+
+  <ThingDef ParentName="AK_WeaponBase_Medic">
+    <defName>AK_Weapon_FlameShadow</defName>
+    <label>焰影法杖</label>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Medic/FlameShadowW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <description>她似乎为自己能放下那柄旧枪而感到解脱。</description>
+    <statBases>
+      <AccuracyTouch>0.85</AccuracyTouch>
+      <AccuracyShort>0.95</AccuracyShort>
+      <AccuracyMedium>0.8</AccuracyMedium>
+      <AccuracyLong>0.65</AccuracyLong>
+      <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>AK_Bullet_FlameShadow</defaultProjectile>
+        <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+        <warmupTime>1.7</warmupTime>        <!--前摇-->
+        <range>24</range>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <soundCast>AK_Sound_Weapon_Magic</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <noiseRadius>3</noiseRadius>
+      </li>
+    </verbs>
+    <tools Inherit = "false">
+      <li>
+        <label>法杖猛击</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <ThingDef ParentName="AK_BulletBase_Bow">
+    <defName>AK_Bullet_FlameShadow</defName>
+    <label>法术射击</label>
+    <graphicData>
+      <texPath>Things/Projectile/MagicOrb</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingClass>Bullet</thingClass>
+    <projectile>
+      <damageDef>Flame</damageDef>
+      <damageAmountBase>30</damageAmountBase>
+      <stoppingPower>3</stoppingPower>
+      <speed>50</speed>
+      <extraDamages>
+        <li>
+          <def>Burn</def>
+          <amount>18</amount>          <!--伤害数值-->
+          <armorPenetration>1.1</armorPenetration>          <!--穿甲-->
+        </li>
+      </extraDamages>
+      <soundExplode>ThumpCannon_Impact</soundExplode>
+    </projectile>
+  </ThingDef>
 
 </Defs>

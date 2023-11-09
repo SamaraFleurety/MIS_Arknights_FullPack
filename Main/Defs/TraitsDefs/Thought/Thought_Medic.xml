@@ -147,4 +147,18 @@
 		</stages>
 	</ThoughtDef>
 
+	<!-- 焰影苇草 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_FlameShadow</defName>
+		<requiredTraits><li>AK_Trait_FlameShadow</li></requiredTraits>
+		<stages>
+			<li>
+				<label>生命之火</label>
+				<description>潮湿的泥土上，许多生命在挣扎。只要我的火还没有熄灭，我就一定、一定会触碰到他们。</description>
+				<baseMoodEffect>8</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
 </Defs>

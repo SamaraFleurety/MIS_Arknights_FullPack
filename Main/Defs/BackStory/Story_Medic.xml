@@ -201,4 +201,20 @@
 		<baseDesc>伊比利亚出身的巡游医生{PAWN_nameDef}，很少于同一地点长期停留，在卡西米尔与萨米等地区均有留下行动记录。</baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_FlameShadow_Child</defName>
+		<slot>Childhood</slot>
+		<title>维多利亚的德拉克</title>
+		<titleShort>维多利亚的德拉克</titleShort>
+		<baseDesc>作为血统高贵的德拉克，苇草自幼接受着高等教育，但是在其中也根植着塔拉人对维多利亚的仇恨。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_FlameShadow_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>苇草</title>
+		<titleShort>苇草</titleShort>
+		<baseDesc>苇草，驻留罗德岛的维多利亚南部办事处期间，曾提出撤离申请，近期再次成功与罗德岛建立联络。目前正以深池名义带领小股部队在维多利亚境内活动，以救助被暴力胁迫的塔拉人为主要行动目标。</baseDesc>
+	</BackstoryDef>
+
 </Defs>

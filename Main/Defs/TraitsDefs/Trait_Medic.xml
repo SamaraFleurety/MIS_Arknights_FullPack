@@ -314,4 +314,42 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<!-- 焰影苇草 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_FlameShadowSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>红龙之血</label>
+				<description>德拉克的血脉被认为早已绝迹，如今两滴鲜血再次出现在了维多利亚的土地上，也许再过不久火焰就会点燃维多利亚的土地。</description>
+				<statOffsets>
+					<ShootingAccuracyPawn>0.1</ShootingAccuracyPawn>
+					<AimingDelayFactor>-0.1</AimingDelayFactor>
+				</statOffsets>
+				<statFactors>
+					<IncomingDamageFactor>0.85</IncomingDamageFactor>
+				</statFactors>
+				<marketValueFactorOffset>6</marketValueFactorOffset>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_FlameShadow</defName>
+		<degreeDatas>
+			<li>
+				<label>生命之火</label>
+				<description>我的身份，我无法逃避。塔拉人，我是；深池，我是；德拉克，我是。\n深池的领袖，我可以是。\n我想让他们也看到生命所应有的样子，而如果那份责任选择了我，我不会再逃跑。</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.28</MentalBreakThreshold>
+					<SocialImpact>15</SocialImpact>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>

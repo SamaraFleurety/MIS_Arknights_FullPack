@@ -3103,4 +3103,225 @@
 		</subSounds>
 	</SoundDef>
 
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Recruit_FlameShadow</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Medic/FlameShadow/char_1020_reed2/Recruit_FlameShadow</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Die_FlameShadow</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Medic/FlameShadow/char_1020_reed2/Die_FlameShadow</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Undraft_FlameShadow</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Medic/FlameShadow/char_1020_reed2/Undraft_FlameShadow</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_FlameShadowI</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Medic/FlameShadow/char_1020_reed2/Select_FlameShadowI</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_FlameShadowII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Medic/FlameShadow/char_1020_reed2/Select_FlameShadowII</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_FlameShadowIII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Medic/FlameShadow/char_1020_reed2/Select_FlameShadowIII</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_FlameShadowIV</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Medic/FlameShadow/char_1020_reed2/Select_FlameShadowIV</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Draft_FlameShadowI</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Medic/FlameShadow/char_1020_reed2/Draft_FlameShadowI</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Draft_FlameShadowII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Medic/FlameShadow/char_1020_reed2/Draft_FlameShadowII</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_FlameShadowI</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Medic/FlameShadow/char_1020_reed2/Ability_FlameShadowI</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_FlameShadowII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Medic/FlameShadow/char_1020_reed2/Ability_FlameShadowII</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_FlameShadowIII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Medic/FlameShadow/char_1020_reed2/Ability_FlameShadowIII</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_FlameShadowIV</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+					<grains>
+						<li Class="AudioGrain_Clip">
+							<clipPath>Operator/Medic/FlameShadow/char_1020_reed2/Ability_FlameShadowIV</clipPath>
+						</li>
+					</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
 </Defs>
