@@ -181,4 +181,34 @@
 		</stages>
 	</ThoughtDef>
 
+	<!-- 米格鲁 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_BeagleSecond</defName>
+		<requiredTraits>
+			<li>AK_Trait_BeagleSecond</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>超级可爱</label>
+				<description>我会加油的！</description>
+				<baseMoodEffect>15</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Beagle</defName>
+		<requiredTraits>
+			<li>AK_Trait_Beagle</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>超级劳模</label>
+				<description>“芙蓉和炎熔总是来找我抱怨对方，可她们都是我的好朋友，各自的说法也都很有道理......我该怎么办才好啊......”</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
 </Defs>

@@ -817,4 +817,50 @@
 		</tools>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_WeaponBase_Defender">
+		<defName>AK_Weapon_Beagle</defName>
+		<label>米格鲁的剑</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Defender/BeagleW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<description>米格鲁的剑，她很喜欢，甩起来就像个大英雄。</description>
+		<tools Inherit = "false">
+			<li>
+				<label>劈砍</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>21</power>
+				<cooldownTime>1.2</cooldownTime>
+			</li>
+			<li>
+				<label>剑刺</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>18</power>
+				<cooldownTime>1</cooldownTime>
+			</li>
+			<li>
+				<label>重击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>17</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Defender">
+		<defName>AK_Weapon_BeagleB</defName>
+		<label>米格鲁的盾</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Defender/BeagleW2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<description>米格鲁的盾，很重，但是米格鲁甩起来没啥阻碍。</description>
+	</ThingDef>
+
 </Defs>

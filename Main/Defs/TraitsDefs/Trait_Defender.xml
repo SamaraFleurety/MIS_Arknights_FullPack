@@ -99,7 +99,7 @@
 		<degreeDatas>
 			<li>
 				<label>都市少女</label>
-				<description>即使成为了干员，{PAWN_nameDef}小姐也完全不打算放弃她在日常生活中的兴趣爱好。\n{PAWN_pronoun}知道成为干员后要面临许多前所未有的危险，{PAWN_pronoun}也知道成为干员后会遇到很多笑不出来的事，{PAWN_pronoun}没有忽视这些，而是在此之上，{PAWN_pronoun}依然会是那个精打细算的都市少女。</description>
+				<description>即使成为了干员，{PAWN_nameDef}小姐也完全不打算放弃{PAWN_pronoun}在日常生活中的兴趣爱好。\n{PAWN_pronoun}知道成为干员后要面临许多前所未有的危险，{PAWN_pronoun}也知道成为干员后会遇到很多笑不出来的事，{PAWN_pronoun}没有忽视这些，而是在此之上，{PAWN_pronoun}依然会是那个精打细算的都市少女。</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.15</MentalBreakThreshold>
 				</statOffsets>
@@ -153,7 +153,7 @@
 		<degreeDatas>
 			<li>
 				<label>雪山上的乌萨斯</label>
-				<description>极光虽然举止得体，性格温柔。但是作为乌萨斯，种族好斗的天性依旧在她的血液里流淌</description>
+				<description>极光虽然举止得体，性格温柔。但是作为乌萨斯，种族好斗的天性依旧在{PAWN_possessive}血液里流淌</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.25</MentalBreakThreshold>
 				</statOffsets>
@@ -369,6 +369,56 @@
 				</description>
 				<statOffsets>
 					<PainShockThreshold>-0.25</PainShockThreshold>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<!-- 米格鲁 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_BeagleThird</defName>
+		<degreeDatas>
+			<li>
+				<label>超级力气</label>
+				<description>如果说{PAWN_nameDef}真的有什么有点的话，就是力气大，非常大，据说{PAWN_pronoun}刚入职就差点破了负重蹲起的记录</description>
+				<statOffsets>
+					<MeleeDodgeChance>0.2</MeleeDodgeChance>
+					<CarryingCapacity>2</CarryingCapacity>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_BeagleSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>超级可爱</label>
+				<description>{PAWN_nameDef}的长相不算出众，但是{PAWN_pronoun}实在太可爱了，以至于几乎所有人都受不了{PAWN_pronoun}纯真的眼神。 </description>
+				<statOffsets>
+					<Beauty>2</Beauty>
+					<SocialImpact>0.2</SocialImpact>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Beagle</defName>
+		<degreeDatas>
+			<li>
+				<label>超级劳模</label>
+				<description>{PAWN_nameDef}似乎有点太过于乐于助人了，以至于{PAWN_pronoun}不会拒绝别人，即使是一些很奇怪很过分的要求。\n似乎这和{PAWN_pronoun}缺乏自信的性格有关，</description>
+				<statOffsets>
+					<GlobalLearningFactor>0.25</GlobalLearningFactor>
+					<WorkSpeedGlobal>0.25</WorkSpeedGlobal>
 				</statOffsets>
 			</li>
 		</degreeDatas>

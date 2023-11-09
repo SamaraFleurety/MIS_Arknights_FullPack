@@ -237,4 +237,20 @@
 		<baseDesc>{PAWN_nameDef}原本为叙拉古的城邦法官，背后有着贝洛内家族的支持。\n但与其他有着家族支持的法官不同的是，{PAWN_nameDef}并不完全以贝洛内家族的意志判决案件，{PAWN_pronoun}也会宣判贝洛内家族成员的罪行。</baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Beagle_Child</defName>
+		<slot>Childhood</slot>
+		<title>提卡伦多预备警员</title>
+		<titleShort>提卡伦多预备警员</titleShort>
+		<baseDesc>来自其他地区的{PAWN_nameDef}成为当地警备队成员后，因为遇上了突然降临的天灾，为了和芬保护感染者区块的人而感染矿石病并离开哥伦比亚，在线人的帮助下来到了罗德岛。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Beagle_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>预备行动组A1</title>
+		<titleShort>预备行动组A1</titleShort>
+		<baseDesc>在通过干员考核加入罗德岛后，{PAWN_nameDef}作为预备队员加入了预备行动组A1。</baseDesc>
+	</BackstoryDef>
+
 </Defs>

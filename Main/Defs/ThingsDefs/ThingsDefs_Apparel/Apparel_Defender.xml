@@ -216,4 +216,16 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Defender">
+		<defName>AK_Apparel_Beagle</defName>
+		<label>米格鲁服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Defender/Beagle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Defender/Beagle</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 </Defs>
