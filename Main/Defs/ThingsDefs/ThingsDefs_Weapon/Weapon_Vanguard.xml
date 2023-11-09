@@ -799,4 +799,48 @@
     <description>伊内丝的匕首</description>
   </ThingDef>
 
+  <ThingDef ParentName="AK_WeaponBase_Vanguard">
+    <defName>AK_Weapon_Fang</defName>
+    <label>罗德岛短枪</label>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Vanguard/FangW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <description>在战斗中，芬会充分发挥库兰塔的脚力优势，占据优势地形抢占先机。为了不影响机动力的同时兼顾一定的牵制力，芬选择了轻便的短枪作为武器。</description>
+    <tools Inherit = "false">
+      <li>
+        <label>枪捅</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+      <li>
+        <label>枪柄猛敲</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>1.1</cooldownTime>
+      </li>
+      <li>
+        <label>枪劈</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>1.4</cooldownTime>
+      </li>
+      <li>
+        <label>枪刺</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>1.0</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
 </Defs>

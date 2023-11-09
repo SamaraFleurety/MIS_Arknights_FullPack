@@ -314,6 +314,8 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<!-- 伊内丝 -->
+
 	<TraitDef>
 		<ignoreConfigErrors>true</ignoreConfigErrors>
 		<commonality>0.0</commonality>
@@ -342,6 +344,25 @@
 				<description>“我和那个卡普里尼唯一的区别是，我曾经走出了那片桦树林，靠着那片森林教会我的东西活到了今天”</description>
 				<statOffsets>
 					<MentalBreakThreshold>0.3</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<!-- 芬 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Fang</defName>
+		<degreeDatas>
+			<li>
+				<label>急性子</label>
+				<description>{PAWN_nameDef}做任何事总是带着一种紧迫感，经常听人说话到一半就会开始行动。</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.1</MentalBreakThreshold>
+					<GlobalLearningFactor>0.15</GlobalLearningFactor>
+					<WorkSpeedGlobal>0.25</WorkSpeedGlobal>
 				</statOffsets>
 			</li>
 		</degreeDatas>

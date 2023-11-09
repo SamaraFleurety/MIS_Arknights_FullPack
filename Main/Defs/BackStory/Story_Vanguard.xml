@@ -251,4 +251,20 @@
 		<baseDesc>在成年后{PAWN_nameDef}理所当然的成为了一名萨卡兹雇佣兵，尽管{PAWN_pronoun}不是萨卡兹。{PAWN_pronoun}在卡兹戴尔内战时便以雇佣兵身份出人头地，此后也作为萨卡兹雇佣兵参与了诸多事件与局部战争，这让{PAWN_pronoun}有着丰富的作战经验。</baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Fang_Child</defName>
+		<slot>Childhood</slot>
+		<title>提卡伦多预备警员</title>
+		<titleShort>提卡伦多预备警员</titleShort>
+		<baseDesc>来自其他地区的{PAWN_nameDef}成为当地警备队成员后，因为遇上了突然降临的天灾，为了保护感染者区块的人而感染矿石病并离开哥伦比亚，在线人的帮助下来到了罗德岛。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Fang_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>预备行动组A1</title>
+		<titleShort>预备行动组A1</titleShort>
+		<baseDesc>在通过干员考核加入罗德岛后，{PAWN_nameDef}作为预备队员加入了预备行动组A1。</baseDesc>
+	</BackstoryDef>
+
 </Defs>
