@@ -55,7 +55,7 @@
       <Beauty>-10</Beauty>      <!-- 美观度 -->
       <MaxHitPoints>40</MaxHitPoints>      <!-- 生命值 -->
     </statBases>
-    <burnableByRecipe>false</burnableByRecipe>    <!-- 是否可燃 -->
+    <burnableByRecipe>false</burnableByRecipe>    <!-- 是否可销毁 -->
     <smallVolume>false</smallVolume>    <!-- 小容量 -->
   </ThingDef>
 
@@ -108,7 +108,7 @@
       <Beauty>5</Beauty>      <!-- 美观度 -->
       <MaxHitPoints>200</MaxHitPoints>      <!-- 生命值 -->
     </statBases>
-    <burnableByRecipe>false</burnableByRecipe>    <!-- 是否可燃 -->
+    <burnableByRecipe>false</burnableByRecipe>    <!-- 是否可销毁 -->
     <possessionCount>40</possessionCount>    <!-- 财产计数 -->
     <stackLimit>10</stackLimit>
   </ThingDef>
