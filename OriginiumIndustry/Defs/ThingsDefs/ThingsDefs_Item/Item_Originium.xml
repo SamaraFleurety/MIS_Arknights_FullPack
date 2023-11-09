@@ -12,7 +12,7 @@
     <soundInteract>Stone_Drop</soundInteract>    <!-- 互动声音 -->
     <soundDrop>Stone_Drop</soundDrop>    <!-- 放下声音 -->
     <useHitPoints>true</useHitPoints>
-    <burnableByRecipe>true</burnableByRecipe>    <!-- 是否可燃 -->
+    <burnableByRecipe>false</burnableByRecipe>    <!-- 能否被销毁 -->
     <smeltable>false</smeltable>    <!-- 是否可熔炼 -->
     <deepCommonality>2</deepCommonality>    <!-- 深钻井探测概率 -->
     <deepCountPerPortion>70</deepCountPerPortion>    <!-- 每个部分的深度计数 -->
