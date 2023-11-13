@@ -949,7 +949,7 @@
 		</subSounds>
 	</SoundDef>
 
-	<ThingDef ParentName="AK_WeaponBase_Caster">
+	<ThingDef ParentName="AK_WeaponBase_Caster" Name="AK_Weapon_Carnelian">
 		<defName>AK_Weapon_Carnelian</defName>
 		<label>红玉髓</label>
 		<description>卡涅利安的长剑，做工有着莱塔尼亚的细致，却散发着萨尔贡的狂野。\n这把剑在卡涅利安的手中就犹如巨兽的利齿一样能够轻而易举的撕碎任何敌人。</description>
@@ -993,7 +993,16 @@
 		</tools>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_WeaponBase_Caster">
+	<ThingDef ParentName="AK_Weapon_Carnelian">
+		<defName>AK_Weapon_CarnelianShimmeringDew</defName>
+		<label>卡涅利安-灿阳朝露的红玉髓</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Caster/Carnelian_ShimmeringDewW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Caster" Name="AK_Weapon_Beeswax">
 		<defName>AK_Weapon_Beeswax</defName>
 		<label>沙原的祝福</label>
 		<description>请记住，不论我们各自去往何方，她给出的那份祝福，都将随你一路前行。</description>
@@ -1011,6 +1020,15 @@
 				<cooldownTime>1.2</cooldownTime>
 			</li>
 		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_Weapon_Beeswax">
+		<defName>AK_Weapon_BeeswaxCasualVacation</defName>
+		<label>蜜蜡-悠然假日的沙原的祝福</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Caster/Beeswax_CasualVacationW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
 	</ThingDef>
 
 	<ThingDef ParentName="AK_WeaponBase_Caster">

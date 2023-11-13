@@ -902,7 +902,7 @@
 		</subSounds>
 	</SoundDef>
 
-	<ThingDef ParentName="AK_WeaponBase_Sniper">
+	<ThingDef ParentName="AK_WeaponBase_Sniper" Name="AK_Weapon_Platinum">
 		<defName>AK_Weapon_Platinum</defName>
 		<label>白金的弓</label>
 		<description>无胄盟成员常用的弓，能够无声干掉目标的暗杀利器。\n这把弓曾经因为无胄盟的驱使夺走了许多条无辜的生命。</description>
@@ -947,6 +947,15 @@
 				<cooldownTime>1.6</cooldownTime>
 			</li>
 		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_Weapon_Platinum">
+		<defName>AK_Weapon_PlatinumShimmeringDew</defName>
+		<label>白金-灿阳朝露的弓</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Sniper/Platinum_ShimmeringDewW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
 	</ThingDef>
 
 	<ThingDef ParentName="AK_BulletBase_Bow">

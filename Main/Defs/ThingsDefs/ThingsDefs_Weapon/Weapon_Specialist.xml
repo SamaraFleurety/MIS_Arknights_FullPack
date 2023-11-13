@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="AK_WeaponBase_Specialist">
+  <ThingDef ParentName="AK_WeaponBase_Specialist" Name="AK_Weapon_Red">
     <defName>AK_Weapon_Red</defName>
     <label>红的小刀</label>
     <description>红有一把小刀，她有一把小刀。</description>
@@ -62,6 +62,15 @@
         <cooldownTime>1.2</cooldownTime>
       </li>
     </tools>
+  </ThingDef>
+
+  <ThingDef ParentName="AK_Weapon_Red">
+    <defName>AK_Weapon_RedLightBreeze</defName>
+    <label>红-轻风的小刀</label>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Specialist/ProjektRed_LightBreezeW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
   </ThingDef>
 
   <ThingDef ParentName="AK_WeaponBase_Specialist">

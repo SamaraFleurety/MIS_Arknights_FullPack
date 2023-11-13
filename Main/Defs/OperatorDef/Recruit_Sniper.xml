@@ -1066,6 +1066,19 @@ Construction worker Pinecone, all spaced out while she gets the job done.</descr
 		<age>20</age>
 		<childHood>AK_BackStory_Platinum_Child</childHood>
 		<adultHood>AK_BackStory_Platinum_Adult</adultHood>
+		<clothSet>
+		    <li>
+			    <key>0</key>
+				<value>
+				    <label>ShimmeringDew</label>
+					<hair>AK_Hair_PlatinumShimmeringDew</hair>
+					<apparels>
+					    <li>AK_Apparel_PlatinumShimmeringDew</li>
+					</apparels>
+					<weapon>AK_Weapon_PlatinumShimmeringDew</weapon>
+				</value>
+		    </li>
+		</clothSet>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Sniper">

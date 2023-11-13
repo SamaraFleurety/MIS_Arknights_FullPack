@@ -14,6 +14,18 @@
 	</ThingDef>
 
 	<ThingDef ParentName="AK_ArmorBase_Specialist">
+		<defName>AK_Apparel_RedLightBreeze</defName>
+		<label>红-轻风</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Specialist/ProjektRed_LightBreeze</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Specialist/ProjektRed_LightBreeze</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Specialist">
 		<defName>AK_Apparel_Robin</defName>
 		<label>罗宾的服装</label>
 		<graphicData>

@@ -134,6 +134,18 @@
 	</ThingDef>
 
 	<ThingDef ParentName="AK_ArmorBase_Caster">
+		<defName>AK_Apparel_CarnelianShimmeringDew</defName>
+		<label>卡涅利安-灿阳朝露</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Caster/Carnelian_ShimmeringDew</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Caster/Carnelian_ShimmeringDew</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Caster">
 		<defName>AK_Apparel_Beeswax</defName>
 		<label>蜜蜡服装</label>
 		<graphicData>
@@ -142,6 +154,18 @@
 		</graphicData>
 		<apparel>
 			<wornGraphicPath>Things/AK_Agents/Caster/Beeswax</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Caster">
+		<defName>AK_Apparel_BeeswaxCasualVacation</defName>
+		<label>蜜蜡-悠然假日</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Caster/Beeswax_CasualVacation</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Caster/Beeswax_CasualVacation</wornGraphicPath>
 		</apparel>
 	</ThingDef>
 

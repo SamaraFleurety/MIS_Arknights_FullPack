@@ -1118,6 +1118,19 @@
 		<age>23</age>
 		<childHood>AK_BackStory_Carnelian_Child</childHood>
 		<adultHood>AK_BackStory_Carnelian_Adult</adultHood>
+		<clothSet>
+			<li>
+			    <key>0</key>
+				<value>
+				    <label>ShimmeringDew</label>
+					<hair>AK_Hair_CarnelianShimmeringDew</hair>
+					<apparels>
+					    <li>AK_Apparel_CarnelianShimmeringDew</li>
+					</apparels>
+					<weapon>AK_Weapon_CarnelianShimmeringDew</weapon>
+				</value>
+			</li>
+		</clothSet>
 		<relations>
 			<li>
 				<key>Beeswax</key>
@@ -1225,6 +1238,19 @@
 			</li>
 		</traits>
 		<childHood>AK_BackStory_Beeswax_Child</childHood>
+		<clothSet>
+			<li>
+				<key>0</key>
+				<value>
+					<label>CasualVacation</label>
+					<hair>AK_Hair_BeeswaxCasualVacation</hair>
+					<apparels>
+						<li>AK_Apparel_BeeswaxCasualVacation</li>
+					</apparels>
+					<weapon>AK_Weapon_BeeswaxCasualVacation</weapon>
+				</value>
+			</li>
+		</clothSet>
 		<relations>
 			<li>
 				<key>Carnelian</key>

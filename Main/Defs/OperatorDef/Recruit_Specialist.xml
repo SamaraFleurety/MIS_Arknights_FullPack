@@ -195,6 +195,19 @@
 		<age>20</age>
 		<childHood>AK_BackStory_Red_Child</childHood>
 		<adultHood>AK_BackStory_Red_Adult</adultHood>
+		<clothSet>
+		    <li>
+			    <key>0</key>
+				<value>
+				    <label>LightBreeze</label>
+					<hair>AK_Hair_RedLightBreeze</hair>
+					<apparels>
+					    <li>AK_Apparel_RedLightBreeze</li>
+					</apparels>
+					<weapon>AK_Weapon_RedLightBreeze</weapon>
+				</value>
+		    </li>
+		</clothSet>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Specialist">
