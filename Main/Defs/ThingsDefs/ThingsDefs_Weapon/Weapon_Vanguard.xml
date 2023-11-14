@@ -379,7 +379,7 @@
     </tools>
   </ThingDef>
 
-  <ThingDef ParentName="AK_WeaponBase_Vanguard">
+  <ThingDef ParentName="AK_WeaponBase_Vanguard" Name="AK_Weapon_MyrtleA">
     <defName>AK_Weapon_MyrtleA</defName>
     <label>桃金娘的旗帜</label>
     <description>桃金娘的旗帜，据她说是从家里带出来的桌布。\n不过这块桌布不论怎样都不会脏，可以说是个很神奇的东西。</description>
@@ -405,6 +405,15 @@
         <cooldownTime>1.0</cooldownTime>
       </li>
     </tools>
+  </ThingDef>
+
+  <ThingDef ParentName="AK_Weapon_MyrtleA">
+    <defName>AK_Weapon_MyrtleSummerFlower</defName>
+    <label>桃金娘-夏卉的旗帜</label>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Vanguard/Myrtle_SummerFlowerW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
   </ThingDef>
 
   <ThingDef ParentName="AK_WeaponBase_Vanguard">

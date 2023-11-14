@@ -147,6 +147,18 @@
 	</ThingDef>
 
 	<ThingDef ParentName="AK_ArmorBase_Vanguard">
+		<defName>AK_Apparel_MyrtleSummerFlower</defName>
+		<label>桃金娘-夏卉</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Vanguard/Myrtle_SummerFlower</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Vanguard/Myrtle_SummerFlower</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Vanguard">
 		<defName>AK_Apparel_Beanstalk</defName>
 		<label>豆苗服装</label>
 		<graphicData>

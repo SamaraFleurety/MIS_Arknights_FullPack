@@ -1118,6 +1118,19 @@
 		<age>20</age>
 		<childHood>AK_BackStory_Myrtle_Child</childHood>
 		<adultHood>AK_BackStory_Myrtle_Adult</adultHood>
+		<clothSet>
+			<li>
+			    <key>0</key>
+				<value>
+				    <label>SummerFlower</label>
+					<hair>AK_Hair_MyrtleSummerFlower</hair>
+					<apparels>
+					    <li>AK_Apparel_MyrtleSummerFlower</li>
+					</apparels>
+					<weapon>AK_Weapon_MyrtleSummerFlower</weapon>
+				</value>
+			</li>
+		</clothSet>
 		<skills>
 			<li>
 				<skill>Animals</skill>
