@@ -8,7 +8,7 @@
         <graphicData>
             <graphicClass>Graphic_Multi</graphicClass>
             <texPath>Things/Building/AlternatorI</texPath>
-            <drawSize>(1,1)</drawSize>
+            <drawSize>(1.5,1.5)</drawSize>
         </graphicData>
         <passability>PassThroughOnly</passability>        <!-- 可通过 -->
         <pathCost>14</pathCost>
@@ -75,7 +75,7 @@
             <Flammability>0.8</Flammability>
             <Beauty>-10</Beauty>
         </statBases>
-        <size>(6,2)</size>
+        <size>(6,6)</size>
         <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
         <building>
             <allowAutoroof>false</allowAutoroof>

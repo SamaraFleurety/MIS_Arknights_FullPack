@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="BodyPartBase">
+        <defName>AKI_Item_CrystallizedLimb</defName>
+        <label>完全源石化的肢体</label>
+        <description>一条完全源石化的生物肢体，外形高度膨胀且布满了可怖的结晶，可以观察到源石的生长规律呈现出明显的生物特征。\n一般来说这样极度恐怖诡异的东西正常人看到都会逃之夭夭，且被大多数势力列为一级生物危险物，但是因为其极高的研究和医学价值，依旧会有疯子铤而走险想要搞到一条。</description>
+        <graphicData>
+            <texPath>Things/Body/CrystallizedLimb</texPath>
+            <graphicClass>Graphic_Random</graphicClass>
+            <drawSize>1</drawSize>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>60</MaxHitPoints>
+            <Flammability>0.85</Flammability>
+            <Beauty>0</Beauty>
+            <DeteriorationRate>0</DeteriorationRate>
+            <Mass>7</Mass>
+            <MarketValue>260</MarketValue>
+        </statBases>
+        <thingCategories>
+            <li>BodyPartsBionic</li>
+        </thingCategories>
+    </ThingDef>
+
+</Defs>

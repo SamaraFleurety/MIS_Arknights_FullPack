@@ -51,7 +51,7 @@
         <heatPerSecond>6</heatPerSecond>
       </li>
       <li Class="CompProperties_FireOverlay">
-        <fireSize>0.3</fireSize>
+        <fireSize>0.5</fireSize>
       </li>
     </comps>
     <building>
@@ -69,7 +69,7 @@
     <graphicData>
       <graphicClass>Graphic_Multi</graphicClass>
       <texPath>Things/Building/StoveII</texPath>
-      <drawSize>(4.5,4.5)</drawSize>
+      <drawSize>(3,3)</drawSize>
     </graphicData>
     <stuffCategories>
       <li>Stony</li>
@@ -131,7 +131,7 @@
     <graphicData>
       <graphicClass>Graphic_Multi</graphicClass>
       <texPath>Things/Building/StoveIII</texPath>
-      <drawSize>(6.5,6.5)</drawSize>
+      <drawSize>(5,5)</drawSize>
     </graphicData>
     <stuffCategories>
       <li>Stony</li>
@@ -187,7 +187,7 @@
     <graphicData>
       <graphicClass>Graphic_Multi</graphicClass>
       <texPath>Things/Building/StoveIV</texPath>
-      <drawSize>(8.5,8.5)</drawSize>
+      <drawSize>(7,7)</drawSize>
     </graphicData>
     <costList>
       <Steel>28000</Steel>

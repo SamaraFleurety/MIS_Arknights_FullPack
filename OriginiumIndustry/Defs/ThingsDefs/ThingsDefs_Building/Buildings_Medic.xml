@@ -18,7 +18,7 @@
             <Mass>3</Mass>
             <Beauty>-15</Beauty>
         </statBases>
-        <size>(4,2)</size>
+        <size>(4,3)</size>
         <building>
             <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
         </building>
@@ -30,7 +30,7 @@
         </costList>
         <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
         <hasInteractionCell>True</hasInteractionCell>
-        <interactionCellOffset>(0,1,-1)</interactionCellOffset>
+        <interactionCellOffset>(0,1,-2)</interactionCellOffset>
         <researchPrerequisites>
             <li>AKI_Research_ChemicalExtract</li>
         </researchPrerequisites>
