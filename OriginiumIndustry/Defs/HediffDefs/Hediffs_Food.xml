@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<HediffDef>
+		<defName>AKI_Hediff_CrabMeatRice</defName>
+		<label>吃了蟹肉碎拌饭</label>
+		<description>粗粮的朴素中带着肉的鲜美，真是优秀的组合啊！</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<isBad>false</isBad>
+		<defaultLabelColor>(1,1,0.5)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>24</maxSeverity>
+		<lethalSeverity>24.1</lethalSeverity>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-24</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<statFactors>
+					<BedHungerRateFactor>0.8</BedHungerRateFactor>
+					<IncomingDamageFactor>0.8</IncomingDamageFactor>
+					<InjuryHealingFactor>1.5</InjuryHealingFactor>
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
+
+</Defs>

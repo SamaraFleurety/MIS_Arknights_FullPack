@@ -1,4 +1,102 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+    <ThingDef Name="AKI_MealBaseIngredientless" Abstract="True">
+        <thingClass>ThingWithComps</thingClass>
+        <category>Item</category>
+        <drawerType>MapMeshOnly</drawerType>
+        <useHitPoints>true</useHitPoints>
+        <healthAffectsPrice>false</healthAffectsPrice>
+        <selectable>true</selectable>
+        <statBases>
+            <MaxHitPoints>50</MaxHitPoints>
+            <Flammability>1.0</Flammability>
+            <Beauty>0</Beauty>
+            <Mass>0.44</Mass>
+            <DeteriorationRate>10</DeteriorationRate>
+        </statBases>
+        <altitudeLayer>Item</altitudeLayer>
+        <stackLimit>10</stackLimit>
+        <tickerType>Rare</tickerType>
+        <socialPropernessMatters>true</socialPropernessMatters>
+        <thingCategories>
+            <li>FoodMeals</li>
+        </thingCategories>
+        <alwaysHaulable>true</alwaysHaulable>
+        <tradeability>Buyable</tradeability>
+        <comps>
+            <li Class="CompProperties_Forbiddable" />
+            <li Class="CompProperties_FoodPoisonable" />
+            <li Class="CompProperties_Rottable">
+                <daysToRotStart>4</daysToRotStart>
+                <rotDestroys>true</rotDestroys>
+            </li>
+        </comps>
+        <pathCost>14</pathCost>
+        <allowedArchonexusCount>40</allowedArchonexusCount>
+        <resourceReadoutPriority>Last</resourceReadoutPriority>
+        <drawGUIOverlay>true</drawGUIOverlay>
+        <uiIconForStackCount>1</uiIconForStackCount>
+        <ingestible>
+            <foodType>Meal</foodType>
+            <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+            <optimalityOffsetHumanlikes>16</optimalityOffsetHumanlikes>
+        </ingestible>
+    </ThingDef>
+
+    <ThingDef Name="AKI_MealFineBase" ParentName="AKI_MealBaseIngredientless" Abstract="True">
+        <ingestible>
+            <preferability>MealFine</preferability>
+            <tasteThought>AteFineMeal</tasteThought>
+            <ingestEffect>EatVegetarian</ingestEffect>
+            <ingestSound>Meal_Eat</ingestSound>
+        </ingestible>
+    </ThingDef>
+
+    <ThingDef Name="AKI_MealLavishBase" ParentName="AKI_MealBaseIngredientless" Abstract="True">
+        <ingestible>
+            <preferability>MealLavish</preferability>
+            <tasteThought>AteLavishMeal</tasteThought>
+            <ingestEffect>EatVegetarian</ingestEffect>
+            <ingestSound>Meal_Eat</ingestSound>
+        </ingestible>
+    </ThingDef>
+
+    <ThingDef ParentName="AKI_MealFineBase">
+        <defName>AKI_Item_CrabMeatRice</defName>
+        <label>蟹肉碎拌饭</label>
+        <description>热腾腾的杂粮中加入了岩壳蟹肉，吃起来朴素中略带鲜味。\n好吃是好吃，但……究竟是谁第一个决定尝试食用岩壳蟹的呢？</description>
+        <graphicData>
+            <texPath>Things/Food/CrabMeatRice</texPath>
+            <graphicClass>Graphic_MealVariants</graphicClass>
+        </graphicData>
+        <statBases>
+            <MarketValue>30</MarketValue>
+            <WorkToMake>900</WorkToMake>
+            <Nutrition>1</Nutrition>
+            <DeteriorationRate>4</DeteriorationRate>
+        </statBases>
+        <ingestible>
+            <outcomeDoers>
+                <li Class="IngestionOutcomeDoer_GiveHediff">
+                    <hediffDef>AKI_Hediff_CrabMeatRice</hediffDef>
+                    <severity>24</severity>
+                </li>
+            </outcomeDoers>
+            <tasteThought>AKI_Thought_EatingCrabMeatRice</tasteThought>
+        </ingestible>
+    </ThingDef>
+
+    <ThoughtDef>
+        <defName>AKI_Thought_EatingCrabMeatRice</defName>
+        <durationDays>1</durationDays>
+        <stages>
+            <li>
+                <label>吃了蟹肉碎拌饭</label>
+                <description>粗粮的朴素中带着肉的鲜美，真是优秀的组合啊！</description>
+                <baseMoodEffect>6</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
 </Defs>

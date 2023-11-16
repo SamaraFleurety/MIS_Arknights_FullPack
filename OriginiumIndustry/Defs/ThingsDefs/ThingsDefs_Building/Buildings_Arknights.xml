@@ -96,16 +96,17 @@
 				<effecterDef MayRequire="Ludeon.RimWorld.Royalty">Skip_EntryNoDelay</effecterDef>
 			</li>
 		</comps>
-	</ThingDef>	
-		<JobDef>
-			<defName>AKI_Job_UseLotteryMachine</defName>
-			<driverClass>AK_Industry.JobDriver_UseLotteryMachine</driverClass>
-			<reportString>desc</reportString>
-			<neverShowWeapon>true</neverShowWeapon>
-			<casualInterruptible>false</casualInterruptible>
-		</JobDef>
-		
-	<ThingDef ParentName="StandingLampBase" >
+	</ThingDef>
+
+	<JobDef>
+		<defName>AKI_Job_UseLotteryMachine</defName>
+		<driverClass>AK_Industry.JobDriver_UseLotteryMachine</driverClass>
+		<reportString>desc</reportString>
+		<neverShowWeapon>true</neverShowWeapon>
+		<casualInterruptible>false</casualInterruptible>
+	</JobDef>
+
+	<ThingDef ParentName="StandingLampBase">
 		<defName>AKI_Building_RecruitBagLamp</defName>
 		<label>招募袋</label>
 		<description>一个印有罗德岛标志的手提袋，如果拉开拉链，手提袋内会发出明亮的光芒，每次拉开拉链光芒的色彩都有可能发生变化，这种变化似乎存在一定规律。\n\n它没法再吐出干员简历，但它的光芒仍能为你照亮每一个漆黑的夜，并且你现在可以不限次地拉开它了。</description>
@@ -114,12 +115,13 @@
 		<graphicData>
 			<texPath>Things/Building/RecruitBagLampI</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>2</drawSize>
+			<drawSize>1</drawSize>
 			<shaderType>Transparent</shaderType>
 		</graphicData>
 		<costList Inherit="False">
 			<AK_Item_RecruitTicket>1</AK_Item_RecruitTicket>
 		</costList>
+		<size>(1,1)</size>
 		<comps Inherit="False">
 			<li Class="CompProperties_Glower">
 				<compClass>AK_Industry.TC_RBLGlower</compClass>
@@ -130,12 +132,13 @@
 			</li>
 		</comps>
 	</ThingDef>
-		<JobDef>
-			<defName>AKI_Job_UseRecruitBagLamp</defName>
-			<driverClass>AK_Industry.JobDriver_UseRecruitBagLamp</driverClass>
-			<reportString>desc</reportString>
-			<neverShowWeapon>true</neverShowWeapon>
-			<casualInterruptible>false</casualInterruptible>
-		</JobDef>
-		
+
+	<JobDef>
+		<defName>AKI_Job_UseRecruitBagLamp</defName>
+		<driverClass>AK_Industry.JobDriver_UseRecruitBagLamp</driverClass>
+		<reportString>desc</reportString>
+		<neverShowWeapon>true</neverShowWeapon>
+		<casualInterruptible>false</casualInterruptible>
+	</JobDef>
+
 </Defs>
