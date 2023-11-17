@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<SongDef>
+		<clipPath>Arknights_Main_Shop</clipPath><!--采购中心-->
+		<volume>0.7</volume>
+		<allowedTimeOfDay>Day</allowedTimeOfDay>
+	</SongDef>
+	
+	<SongDef>
+		<clipPath>Arknights_Main_City</clipPath><!--“商业”首页BGM-->
+        <volume>0.7</volume>
+		<allowedTimeOfDay>Night</allowedTimeOfDay>
+	</SongDef>
+
+	<SongDef>
+		<clipPath>Arknights_Text_HomeScreen</clipPath><!--内测主界面-->
+		<volume>0.7</volume>
+		<tense>true</tense>
+	</SongDef>
+
+	<SongDef>
+		<clipPath>Arknights_Text_Standby</clipPath><!--官网待机-->
+		<volume>0.7</volume>
+		<tense>true</tense>
+	</SongDef>
+
+	<SongDef>
+		<clipPath>Arknights_Lonetrail_01</clipPath><!--孤星-->
+		<volume>0.7</volume>
+	</SongDef>
+
+	<SongDef>
+		<clipPath>Arknights_Operational_Modest</clipPath><!--战地秘闻：和光同尘-->
+		<volume>0.7</volume>
+		<allowedTimeOfDay>Day</allowedTimeOfDay>
+	</SongDef>
+
+	<SongDef>
+		<clipPath>Arknights_Mizuki_SeaWish</clipPath><!--水月肉鸽：海愿-->
+		<volume>0.7</volume>
+		<allowedTimeOfDay>Night</allowedTimeOfDay>
+	</SongDef>
+
+	<SongDef>
+		<clipPath>Arknights_FireWithinSand_Oasis</clipPath><!--沙中之火：绿洲-->
+		<volume>0.7</volume>
+		<allowedTimeOfDay>Day</allowedTimeOfDay>
+	</SongDef>
+
+	<SongDef>
+		<clipPath>Arknights_FireWithinSand_Live</clipPath><!--沙中之火：生息-->
+		<volume>0.7</volume>
+		<allowedTimeOfDay>Night</allowedTimeOfDay>
+	</SongDef>
+
+	<SongDef>
+		<clipPath>Arknights_FireWithinSand_FineSand</clipPath><!--沙中之火：细沙-->
+		<volume>0.7</volume>
+		<tense>true</tense>
+		<allowedSeasons>
+			<li>Summer</li>
+		</allowedSeasons>
+	</SongDef>
+</Defs>
+

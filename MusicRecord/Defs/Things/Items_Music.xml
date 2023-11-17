@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef Name="Ark_RecordBase" ParentName="ResourceBase" Abstract="True">
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<stackLimit>10</stackLimit>
+		<healthAffectsPrice>true</healthAffectsPrice>
+		<techLevel>Industrial</techLevel>
+		<statBases>
+			<MaxHitPoints>1000</MaxHitPoints>
+			<MarketValue>500</MarketValue>
+			<DeteriorationRate>2</DeteriorationRate>
+			<Mass>1</Mass>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<intricate>true</intricate>
+		<thingCategories>
+			<li></li>
+		</thingCategories>
+		<tradeTags>
+			<li></li>
+		</tradeTags>
+	</ThingDef>
+
+	<ThingDef ParentName="Ark_RecordBase">
+		<defName>Ark_Record</defName>
+		<label>唱片</label>
+		<description>desc</description>
+		<graphicData>
+			<texPath>Things/Item/Ark_Record</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
+</Defs>
