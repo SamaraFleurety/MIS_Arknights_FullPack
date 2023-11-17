@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<HediffDef>
-		<defName>AKI_Hediff_CrabMeatRice</defName>
-		<label>吃了蟹肉碎拌饭</label>
-		<description>粗粮的朴素中带着肉的鲜美，真是优秀的组合啊！</description>
+	<HediffDef Name="AKI_HediffDefBase" Abstract="True">
 		<hediffClass>HediffWithComps</hediffClass>
 		<isBad>false</isBad>
 		<defaultLabelColor>(1,1,0.5)</defaultLabelColor>
 		<scenarioCanAdd>false</scenarioCanAdd>
-		<maxSeverity>24</maxSeverity>
-		<lethalSeverity>24.1</lethalSeverity>
+	</HediffDef>
+
+	<HediffDef ParentName="AKI_HediffDefBase">
+		<defName>AKI_Hediff_CrabMeatRice</defName>
+		<label>美味的蟹肉碎拌饭</label>
+		<description>粗粮的朴素中带着肉的鲜美，真是优秀的组合啊！</description>
+		<maxSeverity>12</maxSeverity>
 		<comps>
 			<li Class="HediffCompProperties_SeverityPerDay">
-				<severityPerDay>-24</severityPerDay>
+				<severityPerDay>-12</severityPerDay>
 			</li>
 		</comps>
 		<stages>
@@ -26,5 +28,318 @@
 			</li>
 		</stages>
 	</HediffDef>
+
+	<HediffDef ParentName="AKI_HediffDefBase">
+		<defName>AKI_Hediff_HighPressureSoup</defName>
+		<label>奢华的高压复焗浓汤</label>
+		<description>我感觉像是吃下了一口荤香味的云朵！</description>
+		<maxSeverity>12</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-12</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<statOffsets>
+					<ComfyTemperatureMin>-50</ComfyTemperatureMin>
+				</statOffsets>
+				<statFactors>
+					<BedHungerRateFactor>0.6</BedHungerRateFactor>
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef ParentName="AKI_HediffDefBase">
+		<defName>AKI_Hediff_LowTemperatureMeat</defName>
+		<label>美味的低温鲜烹炙肉</label>
+		<description>好吧，其实我还想再来一片。</description>
+		<maxSeverity>6</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-6</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<statOffsets>
+					<ComfyTemperatureMax>50</ComfyTemperatureMax>
+				</statOffsets>
+				<statFactors>
+					<MoveSpeed>1.2</MoveSpeed>
+					<IncomingDamageFactor>0.8</IncomingDamageFactor>
+					<MeleeWeapon_CooldownMultiplier>0.8</MeleeWeapon_CooldownMultiplier>
+					<AimingDelayFactor>0.8</AimingDelayFactor>
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef ParentName="AKI_HediffDefBase">
+		<defName>AKI_Hediff_ConcentratedSoupStock</defName>
+		<label>糟糕的浓缩羹原液</label>
+		<description>我感觉喉咙里嘴里都是油腻味道，我好像要吐了！</description>
+		<maxSeverity>6</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-6</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<statFactors>
+					<BedHungerRateFactor>0.6</BedHungerRateFactor>
+					<MeleeWeapon_CooldownMultiplier>0.85</MeleeWeapon_CooldownMultiplier>
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef ParentName="AKI_HediffDefBase">
+		<defName>AKI_Hediff_DeliciousSoupGel</defName>
+		<label>美味的鲜味汤凝胶</label>
+		<description>这东西确实很美味，但是它真的是肉吗？</description>
+		<maxSeverity>12</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-12</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<statOffsets>
+					<MeleeWeapon_DamageMultiplier>0.2</MeleeWeapon_DamageMultiplier>
+				</statOffsets>
+				<statFactors>
+					<MoveSpeed>1.2</MoveSpeed>
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef ParentName="AKI_HediffDefBase">
+		<defName>AKI_Hediff_CrabAlcohol</defName>
+		<label>奢华的蟹醇</label>
+		<description>真鲜美，不过这里头好像没有什么蟹味，为什么还要叫它蟹醇？</description>
+		<maxSeverity>12</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-12</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<statOffsets>
+					<MeleeWeapon_DamageMultiplier>-0.2</MeleeWeapon_DamageMultiplier>
+				</statOffsets>
+				<statFactors>
+					<IncomingDamageFactor>0.5</IncomingDamageFactor>
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef ParentName="AKI_HediffDefBase">
+		<defName>AKI_Hediff_LeitaniaThickSoup</defName>
+		<label>奢华的莱塔尼亚浓汤鲜萃</label>
+		<description>这一口，感觉全世界的美味都荟萃其中！</description>
+		<maxSeverity>24</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-24</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<statOffsets>
+					<RangedWeapon_DamageMultiplier>0.8</RangedWeapon_DamageMultiplier>
+					<AimingDelayFactor>-0.4</AimingDelayFactor>
+				</statOffsets>
+				<statFactors>
+					<PsychicEntropyRecoveryRate MayRequire="Ludeon.RimWorld.Royalty">2</PsychicEntropyRecoveryRate>
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef ParentName="AKI_HediffDefBase">
+		<defName>AKI_Hediff_VictoriaRoyalCoagulant</defName>
+		<label>奢华的维多利亚皇家凝方</label>
+		<description>在品尝它的时候我觉得我就像一个国王！</description>
+		<maxSeverity>24</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-24</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<statOffsets>
+					<MoveSpeed>1</MoveSpeed>
+				</statOffsets>
+				<statFactors>
+					<IncomingDamageFactor>0.8</IncomingDamageFactor>
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef ParentName="AKI_HediffDefBase">
+		<defName>AKI_Hediff_ColumbiaMolecularCapsule</defName>
+		<label>美味的哥伦比亚分子胶囊</label>
+		<description>嗝！好撑，说起来那个囊壳是什么味道来着？</description>
+		<maxSeverity>48</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-48</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<statOffsets>
+					<MoveSpeed>1</MoveSpeed>
+					<AimingDelayFactor>-0.4</AimingDelayFactor>
+					<MeleeWeapon_CooldownMultiplier>-0.4</MeleeWeapon_CooldownMultiplier>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef ParentName="AKI_HediffDefBase">
+		<defName>AKI_Hediff_YanOriginalLiquid</defName>
+		<label>奢华的炎国山水原液</label>
+		<description>呼……酽茶醇酒，斜风细雪，似乎都能在这之中体味到。</description>
+		<maxSeverity>48</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-48</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<statOffsets>
+					<MeleeWeapon_DamageMultiplier>0.4</MeleeWeapon_DamageMultiplier>
+				</statOffsets>
+				<statFactors>
+					<PsychicEntropyRecoveryRate MayRequire="Ludeon.RimWorld.Royalty">3</PsychicEntropyRecoveryRate>
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef ParentName="AKI_HediffDefBase">
+		<defName>AKI_Hediff_DongguoNanoFood</defName>
+		<label>奢华的东国纳米割烹</label>
+		<description>看到这份盘中艺术，我仿佛感受到了无尽的宁静。</description>
+		<maxSeverity>48</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-48</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<statOffsets>
+					<MeleeWeapon_CooldownMultiplier>-0.5</MeleeWeapon_CooldownMultiplier>
+					<ComfyTemperatureMin>30</ComfyTemperatureMin>
+					<ComfyTemperatureMax>30</ComfyTemperatureMax>
+				</statOffsets>
+				<statFactors>
+					<IncomingDamageFactor>0.5</IncomingDamageFactor>
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef ParentName="AKI_HediffDefBase">
+		<defName>AKI_Hediff_CassimirKnightSupplement</defName>
+		<label>美味的卡西米尔骑士补充剂</label>
+		<description>感觉状态上来了！</description>
+		<maxSeverity>48</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-48</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<statOffsets>
+					<MeleeDodgeChance>0.3</MeleeDodgeChance>
+				</statOffsets>
+				<statFactors>
+					<BedHungerRateFactor>0.6</BedHungerRateFactor>
+					<RestRateMultiplier>0.6</RestRateMultiplier>
+					<MoveSpeed>1.4</MoveSpeed>
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef ParentName="AKI_HediffDefBase">
+		<defName>AKI_Hediff_LateranHolySoundDecoction</defName>
+		<label>奢华的拉特兰圣音汤醇</label>
+		<description>为什么我喝了这东西脑子里会想到爆炸？</description>
+		<maxSeverity>48</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-48</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<statOffsets>
+					<AimingDelayFactor>0.7</AimingDelayFactor>
+					<MeleeDodgeChance>0.1</MeleeDodgeChance>
+				</statOffsets>
+				<statFactors>
+					<MoveSpeed>2</MoveSpeed>
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef ParentName="AKI_HediffDefBase">
+		<defName>AKI_Hediff_MinosPoetryGel</defName>
+		<label>奢华的米诺斯诗歌凝胶</label>
+		<description>我感受到了诗歌还有...酒精？哦...</description>
+		<maxSeverity>48</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-48</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<statOffsets>
+					<MeleeWeapon_DamageMultiplier>0.6</MeleeWeapon_DamageMultiplier>
+					<MeleeWeapon_CooldownMultiplier>-0.6</MeleeWeapon_CooldownMultiplier>
+					<MeleeDodgeChance>0.4</MeleeDodgeChance>
+					<ComfyTemperatureMin>50</ComfyTemperatureMin>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef ParentName="AKI_HediffDefBase">
+		<defName>AKI_Hediff_TribalCarnivalDinner</defName>
+		<label>奢华的部族狂欢晚宴</label>
+		<description>一！整！只！烤兽，还有什么能比这更让人满足吗？实话说，有点太满足了...</description>
+		<maxSeverity>48</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-48</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<statOffsets>
+					<MeleeWeapon_DamageMultiplier>1</MeleeWeapon_DamageMultiplier>
+					<MeleeDodgeChance>0.4</MeleeDodgeChance>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
 
 </Defs>

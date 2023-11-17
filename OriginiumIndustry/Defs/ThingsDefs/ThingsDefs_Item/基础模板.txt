@@ -42,3 +42,48 @@ AddictionNeedDoseInterval 药物成瘾者防止产生戒断而需要服用此药
 AddictionNeedOffset 这种药物每剂能满足对应化学品需求的量。
 AddictionNeedFallRate 成瘾者对这种化学品需求的满足度降低速率。
 AddictionCost 在满足需求并不产生戒断的情况下每日必须消费成瘾品的市场价值。\n\n这个值时根据每剂化学品需求、需求下降速率和该药物的市场价值计算出来的。
+
+-------------食物模板---------------
+<ThingDef ParentName="AKI_MealLavishBase"> <!--AKI_MealFineBase AKI_MealLavishBase-->
+        <defName>AKI_Item_@</defName>
+        <label>%</label>
+        <description></description>
+        <graphicData>
+            <texPath>Things/Food/@</texPath>
+            <graphicClass>Graphic_MealVariants</graphicClass>
+        </graphicData>
+        <statBases>
+            <MarketValue>35</MarketValue>
+            <WorkToMake>900</WorkToMake>
+            <Nutrition>1</Nutrition>
+        </statBases>
+        <ingestible>
+            <outcomeDoers>
+                <li Class="IngestionOutcomeDoer_GiveHediff">
+                    <hediffDef>AKI_Hediff_@</hediffDef>
+                    <severity>48</severity>
+                </li>
+            </outcomeDoers>
+            <tasteThought>AKI_Thought_Eating@</tasteThought>
+            <joy>1</joy>
+            <joyKind>Meditative</joyKind>
+        </ingestible>
+        <comps>
+            <li Class="CompProperties_Rottable">
+                <daysToRotStart>180</daysToRotStart>
+                <rotDestroys>true</rotDestroys>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThoughtDef>
+        <defName>AKI_Thought_Eating@</defName>
+        <durationDays>1</durationDays>
+        <stages>
+            <li>
+                <label>吃了%</label>
+                <description>好吧，其实我还想再来一片。</description>
+                <baseMoodEffect>5</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
