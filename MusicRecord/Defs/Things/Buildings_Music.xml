@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<ThingDef ParentName="BuildingBase">
-		<defName>Ark_MusicMachine</defName>
+		<defName>AKM_Building_MusicMachine</defName>
 		<label>“极限”混音设备</label>
 		<description>desc</description>
 		<graphicData>
@@ -19,6 +19,8 @@
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<canOverlapZones>false</canOverlapZones>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<thingCategories>
 			<li>BuildingsMisc</li>
 		</thingCategories>
@@ -37,11 +39,14 @@
 		<building>
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
 		</building>
+		<comps>
+			<li Class="AKM_MusicPlayer.TCP_MusicPlayer" />
+		</comps>
 	</ThingDef>
 
 	<JobDef>
-		<defName>Ark_Job_UseRecord</defName>
-		<driverClass>.JobDriver_UseRecord</driverClass>
+		<defName>AKM_Job_InsertMusicRecord</defName>
+		<driverClass>AKM_MusicPlayer.JobDriver_InsertMusicRecorder</driverClass>
 		<reportString>正在将TargetA插入设备。</reportString>
 	</JobDef>
 </Defs>

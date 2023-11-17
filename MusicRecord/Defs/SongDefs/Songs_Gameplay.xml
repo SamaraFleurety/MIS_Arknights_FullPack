@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<SongDef>
+	<AKM_MusicPlayer.ArkSongDef>
+		<defName>AKM_Song_Shop</defName>
+		<label>采购中心</label>
 		<clipPath>Arknights_Main_Shop</clipPath><!--采购中心-->
 		<volume>0.7</volume>
 		<allowedTimeOfDay>Day</allowedTimeOfDay>
-	</SongDef>
+	</AKM_MusicPlayer.ArkSongDef>
 	
-	<SongDef>
+	<AKM_MusicPlayer.ArkSongDef>
+		<defName>AKM_Song_City</defName>
+		<label>商业</label>
 		<clipPath>Arknights_Main_City</clipPath><!--“商业”首页BGM-->
         <volume>0.7</volume>
 		<allowedTimeOfDay>Night</allowedTimeOfDay>
-	</SongDef>
+	</AKM_MusicPlayer.ArkSongDef>
 
 	<SongDef>
 		<clipPath>Arknights_Text_HomeScreen</clipPath><!--内测主界面-->

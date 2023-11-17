@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<ThingDef Name="Ark_RecordBase" ParentName="ResourceBase" Abstract="True">
+	<ThingDef Name="AKM_RecordBase" ParentName="ResourceBase" Abstract="True">
 		<soundInteract>Metal_Drop</soundInteract>
 		<soundDrop>Standard_Drop</soundDrop>
 		<stackLimit>10</stackLimit>
@@ -15,17 +15,17 @@
 		</statBases>
 		<intricate>true</intricate>
 		<thingCategories>
-			<li></li>
+			<li>Root</li>
 		</thingCategories>
 		<tradeTags>
-			<li></li>
 		</tradeTags>
 	</ThingDef>
 
-	<ThingDef ParentName="Ark_RecordBase">
-		<defName>Ark_Record</defName>
+	<ThingDef ParentName="AKM_RecordBase">
+		<defName>AKM_Thing_Record</defName>
 		<label>唱片</label>
 		<description>desc</description>
+		<thingClass>AKM_MusicPlayer.ThingClass_MusicRecord</thingClass>
 		<graphicData>
 			<texPath>Things/Item/Ark_Record</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
