@@ -4,10 +4,13 @@
 		<defName>AKM_Building_MusicMachine</defName>
 		<label>“极限”混音设备</label>
 		<description>一套附带特殊光效的打碟混音音响设备，任何风格的乐曲都能轻松驾驭，没有音乐爱好者能拒绝把它请入家中。</description>
+		<descriptionHyperlinks>
+			<ThingDef>AKM_Item_Record</ThingDef>
+		</descriptionHyperlinks>
 		<graphicData>
 			<texPath>Things/Building/Ark_MusicMachine</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(3,2.8)</drawSize>
+			<drawSize>(3,3)</drawSize>
 		</graphicData>
 		<size>(2,1)</size>
 		<rotatable>false</rotatable>
