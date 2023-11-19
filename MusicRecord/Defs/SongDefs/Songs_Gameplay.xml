@@ -16,54 +16,70 @@
 		<allowedTimeOfDay>Night</allowedTimeOfDay>
 	</AKM_MusicPlayer.ArkSongDef>
 
-	<SongDef>
+	<AKM_MusicPlayer.ArkSongDef>
+		<defName>AKM_Song_HomeScreen</defName>
+		<label>内测主界面</label>
 		<clipPath>Arknights_Text_HomeScreen</clipPath><!--内测主界面-->
 		<volume>0.7</volume>
 		<tense>true</tense>
-	</SongDef>
+	</AKM_MusicPlayer.ArkSongDef>
 
-	<SongDef>
+	<AKM_MusicPlayer.ArkSongDef>
+		<defName>AKM_Song_Standby</defName>
+		<label>官网待机</label>
 		<clipPath>Arknights_Text_Standby</clipPath><!--官网待机-->
 		<volume>0.7</volume>
 		<tense>true</tense>
-	</SongDef>
+	</AKM_MusicPlayer.ArkSongDef>
 
-	<SongDef>
+	<AKM_MusicPlayer.ArkSongDef>
+		<defName>AKM_Song_Lonetrail_01</defName>
+		<label>孤星01</label>
 		<clipPath>Arknights_Lonetrail_01</clipPath><!--孤星-->
 		<volume>0.7</volume>
-	</SongDef>
+	</AKM_MusicPlayer.ArkSongDef>
 
-	<SongDef>
+	<AKM_MusicPlayer.ArkSongDef>
+		<defName>AKM_Song_Modest</defName>
+		<label>和光同尘</label>
 		<clipPath>Arknights_Operational_Modest</clipPath><!--战地秘闻：和光同尘-->
 		<volume>0.7</volume>
 		<allowedTimeOfDay>Day</allowedTimeOfDay>
-	</SongDef>
+	</AKM_MusicPlayer.ArkSongDef>
 
-	<SongDef>
+	<AKM_MusicPlayer.ArkSongDef>
+		<defName>AKM_Song_SeaWish</defName>
+		<label>海愿</label>
 		<clipPath>Arknights_Mizuki_SeaWish</clipPath><!--水月肉鸽：海愿-->
 		<volume>0.7</volume>
 		<allowedTimeOfDay>Night</allowedTimeOfDay>
-	</SongDef>
+	</AKM_MusicPlayer.ArkSongDef>
 
-	<SongDef>
+	<AKM_MusicPlayer.ArkSongDef>
+		<defName>AKM_Song_Oasis</defName>
+		<label>绿洲</label>
 		<clipPath>Arknights_FireWithinSand_Oasis</clipPath><!--沙中之火：绿洲-->
 		<volume>0.7</volume>
 		<allowedTimeOfDay>Day</allowedTimeOfDay>
-	</SongDef>
+	</AKM_MusicPlayer.ArkSongDef>
 
-	<SongDef>
+	<AKM_MusicPlayer.ArkSongDef>
+		<defName>AKM_Song_Live</defName>
+		<label>生息</label>
 		<clipPath>Arknights_FireWithinSand_Live</clipPath><!--沙中之火：生息-->
 		<volume>0.7</volume>
 		<allowedTimeOfDay>Night</allowedTimeOfDay>
-	</SongDef>
+	</AKM_MusicPlayer.ArkSongDef>
 
-	<SongDef>
+	<AKM_MusicPlayer.ArkSongDef>
+		<defName>AKM_Song_FineSand</defName>
+		<label>细沙</label>
 		<clipPath>Arknights_FireWithinSand_FineSand</clipPath><!--沙中之火：细沙-->
 		<volume>0.7</volume>
 		<tense>true</tense>
 		<allowedSeasons>
 			<li>Summer</li>
 		</allowedSeasons>
-	</SongDef>
+	</AKM_MusicPlayer.ArkSongDef>
 </Defs>
 

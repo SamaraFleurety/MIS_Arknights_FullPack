@@ -3,13 +3,13 @@
 	<ThingDef ParentName="BuildingBase">
 		<defName>AKM_Building_MusicMachine</defName>
 		<label>“极限”混音设备</label>
-		<description>desc</description>
+		<description>一套附带特殊光效的打碟混音音响设备，任何风格的乐曲都能轻松驾驭，没有音乐爱好者能拒绝把它请入家中。</description>
 		<graphicData>
 			<texPath>Things/Building/Ark_MusicMachine</texPath>
-			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>(3,1)</drawSize>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,2.8)</drawSize>
 		</graphicData>
-		<size>(3,1)</size>
+		<size>(2,1)</size>
 		<rotatable>false</rotatable>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
@@ -20,7 +20,7 @@
 		<canOverlapZones>false</canOverlapZones>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
 		<hasInteractionCell>True</hasInteractionCell>
-		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<interactionCellOffset>(0,0,1)</interactionCellOffset>
 		<thingCategories>
 			<li>BuildingsMisc</li>
 		</thingCategories>
@@ -41,12 +41,17 @@
 		</building>
 		<comps>
 			<li Class="AKM_MusicPlayer.TCP_MusicPlayer" />
+			<li Class="CompProperties_Glower">
+				<glowRadius>10</glowRadius>
+				<glowColor>(150,150,150,0)</glowColor>
+				<colorPickerEnabled>true</colorPickerEnabled>
+			</li>
 		</comps>
 	</ThingDef>
 
 	<JobDef>
 		<defName>AKM_Job_InsertMusicRecord</defName>
 		<driverClass>AKM_MusicPlayer.JobDriver_InsertMusicRecorder</driverClass>
-		<reportString>正在将TargetA插入设备。</reportString>
+		<reportString>正在将TargetA录入设备。</reportString>
 	</JobDef>
 </Defs>

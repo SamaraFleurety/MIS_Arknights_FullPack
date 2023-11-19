@@ -3,7 +3,7 @@
 	<ThingDef Name="AKM_RecordBase" ParentName="ResourceBase" Abstract="True">
 		<soundInteract>Metal_Drop</soundInteract>
 		<soundDrop>Standard_Drop</soundDrop>
-		<stackLimit>10</stackLimit>
+		<stackLimit>1</stackLimit>
 		<healthAffectsPrice>true</healthAffectsPrice>
 		<techLevel>Industrial</techLevel>
 		<statBases>
@@ -23,8 +23,8 @@
 
 	<ThingDef ParentName="AKM_RecordBase">
 		<defName>AKM_Item_Record</defName>
-		<label>唱片</label>
-		<description>desc</description>
+		<label>泰拉唱片</label>
+		<description>泰拉大陆上多元化的文明各自所奏响的乐曲的载体，文明的呐喊与生灵的火花皆刻进唱片的沟壑之中。\n\n在对应的音响设备上使用唱片能够解锁并播放唱片中所刻录的乐曲，即使唱片中刻录的乐曲已经被解锁，使用者也可以通过转录乐曲来增进艺术技能。</description>
 		<thingClass>AKM_MusicPlayer.ThingClass_MusicRecord</thingClass>
 		<graphicData>
 			<texPath>Things/Item/Ark_Record</texPath>
