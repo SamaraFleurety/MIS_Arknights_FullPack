@@ -186,7 +186,7 @@
     </subSounds>
   </SoundDef>
 
-  <ThingDef ParentName="AK_WeaponBase_Specialist">
+  <ThingDef ParentName="AK_WeaponBase_Specialist" Name="AK_Weapon_Gladiia">
     <defName>AK_Weapon_Gladiia</defName>
     <label>歌雷蒂娅的长槊</label>
     <description>陆地的泥土是如此缺水，陆地的空气是如此干燥。离开了大海的歌蕾蒂娅如同一条搁浅的鲸鱼一样。\n或许每一个被迫离开大海的阿戈尔人都不得不忍受这种痛苦。</description>
@@ -238,6 +238,15 @@
         <cooldownTime>3.2</cooldownTime>
       </li>
     </tools>
+  </ThingDef>
+
+  <ThingDef ParentName="AK_Weapon_Gladiia">
+    <defName>AK_Weapon_GladiiaReturn</defName>
+    <label>歌雷蒂亚-返航的长槊</label>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Specialist/Gladiia_ReturnW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
   </ThingDef>
 
   <ThingDef ParentName="AK_WeaponBase_Specialist">

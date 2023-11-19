@@ -50,6 +50,18 @@
 	</ThingDef>
 
 	<ThingDef ParentName="AK_ArmorBase_Specialist">
+		<defName>AK_Apparel_GladiiaReturn</defName>
+		<label>歌雷蒂亚-返航</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Specialist/Gladiia_Return</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Specialist/Gladiia_Return</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Specialist">
 		<defName>AK_Apparel_Weedy</defName>
 		<label>温蒂服装</label>
 		<graphicData>

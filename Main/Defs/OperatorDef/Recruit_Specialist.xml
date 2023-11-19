@@ -306,6 +306,19 @@
 		<age>20</age>
 		<childHood>AK_BackStory_Gladiia_Child</childHood>
 		<adultHood>AK_BackStory_Gladiia_Adult</adultHood>
+		<clothSet>
+			<li>
+			    <key>0</key>
+				<value>
+				    <label>Return</label>
+					<hair>AK_Hair_GladiiaReturn</hair>
+					<apparels>
+					    <li>AK_Apparel_GladiiaReturn</li>
+					</apparels>
+					<weapon>AK_Weapon_GladiiaReturn</weapon>
+				</value>
+			</li>
+		</clothSet>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Specialist">
