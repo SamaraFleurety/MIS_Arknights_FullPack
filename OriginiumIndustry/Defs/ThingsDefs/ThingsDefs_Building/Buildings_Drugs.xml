@@ -3,10 +3,8 @@
 
 	<ThingDef ParentName="BuildingBase">
 		<defName>AKI_Building_KohlBarrel</defName>
-		<!-- <label>isobutanol fermenting barrel</label> -->
-		<label>高卢果酒发酵桶</label>
-		<!-- <description>A barrel for fermenting raw wort into beer.</description> -->
-		<description>将生麦芽汁发酵成高卢果酒的桶。</description>
+		<label>异醇发酵桶</label>
+		<description>将生麦芽汁发酵成异醇的桶。</description>
 		<thingClass>AK_Industry.Building_KohlBarrel</thingClass>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>

@@ -1,53 +1,21 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <RecipeDef>
-		<defName>AKI_Recipe_OriginiumRefineI</defName>
-		<label>加工源石粗矿</label>
-		<description>加工源石粗矿。</description>
-		<jobString>正在加工源石粗矿。</jobString>
-		<workAmount>10</workAmount>
-		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-		<effectWorking>CutStone</effectWorking>
-		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>AKI_Item_OriginiumRefineI</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<products>
-			<AKI_Item_OriginiumRefineII>10</AKI_Item_OriginiumRefineII>
-		</products>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>AKI_Item_OriginiumRefineI</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<workSkill>Crafting</workSkill>
-		<recipeUsers>
-			<li>TableStonecutter</li>
-		</recipeUsers>
-	</RecipeDef>
 
-    <RecipeDef ParentName="AKI_Recipe_OriginiumRefineBase">        <!--配方-->
-        <defName>AKI_Recipe_OriginiumRefineII</defName>
+    <RecipeDef ParentName="AKI_Recipe_OriginiumRefineBase">
+        <defName>AKI_Recipe_OriginiumRefineI</defName>
         <label>初步提炼源石</label>
         <description>运用简单的方法提炼源石，只能提炼出一些纯度很低的产品。</description>
         <jobString>正在初步提炼源石。</jobString>
-        <workAmount>900</workAmount>        <!--工作量-->
-        <ingredients>            <!--配料表-->
+        <workAmount>900</workAmount>
+        <ingredients>
             <li>
                 <filter>
                     <thingDefs>
-                        <li>AKI_Item_OriginiumRefineII</li>                        <!--需求物-->
+                        <li>AKI_Item_OriginiumRefineI</li>
                     </thingDefs>
                 </filter>
-                <count>10</count>                <!--需求数量-->
+                <count>15</count>
             </li>
             <li>
                 <filter>
@@ -58,44 +26,74 @@
                 <count>5</count>
             </li>
         </ingredients>
-        <fixedIngredientFilter>            <!--过滤器-->
+        <fixedIngredientFilter>
             <thingDefs>
-                <li>AKI_Item_OriginiumRefineII</li>
+                <li>AKI_Item_OriginiumRefineI</li>
                 <li>WoodLog</li>
             </thingDefs>
         </fixedIngredientFilter>
-        <products>            <!--产品-->
-            <AKI_Item_OriginiumRefineIII>1</AKI_Item_OriginiumRefineIII>            <!--产品数量-->
+        <products>
+            <AKI_Item_OriginiumRefineII>10</AKI_Item_OriginiumRefineII>
         </products>
         <skillRequirements>
             <Crafting>4</Crafting>
         </skillRequirements>
+        <researchPrerequisite>AKI_Research_BaseSmelt</researchPrerequisite>
+    </RecipeDef>
+
+    <RecipeDef ParentName="AKI_Recipe_OriginiumRefineBase">
+        <defName>AKI_Recipe_OriginiumRefineII</defName>
+        <label>初步加工源石</label>
+        <description>初步加工源石。</description>
+        <jobString>正在初步加工源石。</jobString>
+        <workAmount>900</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>AKI_Item_OriginiumRefineII</li>
+                    </thingDefs>
+                </filter>
+                <count>10</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>AKI_Item_OriginiumRefineII</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <AKI_Item_OriginiumRefineIII>1</AKI_Item_OriginiumRefineIII>
+        </products>
+        <skillRequirements>
+            <Crafting>5</Crafting>
+        </skillRequirements>
         <researchPrerequisite>AKI_Research_BlastFurnaceSmelt</researchPrerequisite>
     </RecipeDef>
 
-    <RecipeDef ParentName="AKI_Recipe_OriginiumRefineBase">        <!--配方-->
+    <RecipeDef ParentName="AKI_Recipe_OriginiumRefineBase">
         <defName>AKI_Recipe_OriginiumRefineIII</defName>
         <label>精炼源石</label>
         <description>用工业化的标准流程提炼高纯度的源石，速度，效率和产出都有了大幅度提升</description>
         <jobString>正在精炼源石。</jobString>
-        <workAmount>1200</workAmount>        <!--工作量-->
-        <ingredients>            <!--配料表-->
+        <workAmount>1200</workAmount>
+        <ingredients>
             <li>
                 <filter>
                     <thingDefs>
-                        <li>AKI_Item_OriginiumRefineIII</li>                        <!--需求物-->
+                        <li>AKI_Item_OriginiumRefineIII</li>
                     </thingDefs>
                 </filter>
-                <count>10</count>                <!--需求数量-->
+                <count>10</count>
             </li>
         </ingredients>
-        <fixedIngredientFilter>            <!--过滤器-->
+        <fixedIngredientFilter>
             <thingDefs>
                 <li>AKI_Item_OriginiumRefineIII</li>
             </thingDefs>
         </fixedIngredientFilter>
-        <products>            <!--产品-->
-            <AKI_Item_OriginiumRefineIV>1</AKI_Item_OriginiumRefineIV>            <!--产品数量-->
+        <products>
+            <AKI_Item_OriginiumRefineIV>1</AKI_Item_OriginiumRefineIV>
         </products>
         <skillRequirements>
             <Crafting>6</Crafting>
@@ -103,52 +101,119 @@
         <researchPrerequisite>AKI_Research_ChemicalAnalysis</researchPrerequisite>
     </RecipeDef>
 
-    <RecipeDef ParentName="AKI_Recipe_OriginiumRefineBase">        <!--配方-->
+    <RecipeDef ParentName="AKI_Recipe_OriginiumRefineBase">
         <defName>AKI_Recipe_OriginiumRefineIV</defName>
         <label>至纯源石提炼</label>
         <description>通过高能反应提炼出纯度无限接近于100%的源石，虽然有了最先进的提炼设备，提炼至纯源石的过程依旧是复杂的。</description>
         <jobString>正在提炼至纯源石。</jobString>
-        <workAmount>18000</workAmount>        <!--工作量-->
-        <ingredients>            <!--配料表-->
+        <workAmount>18000</workAmount>
+        <ingredients>
             <li>
                 <filter>
                     <thingDefs>
-                        <li>AKI_Item_OriginiumRefineIV</li>                        <!--需求物-->
+                        <li>AKI_Item_OriginiumRefineIV</li>
                     </thingDefs>
                 </filter>
-                <count>10</count>                <!--需求数量-->
+                <count>10</count>
             </li>
             <li>
                 <filter>
                     <thingDefs>
-                        <li>Uranium</li>                        <!--需求物-->
+                        <li>Uranium</li>
                     </thingDefs>
                 </filter>
-                <count>5</count>                <!--需求数量-->
+                <count>5</count>
             </li>
             <li>
                 <filter>
                     <thingDefs>
-                        <li>Plasteel</li>                        <!--需求物-->
+                        <li>Plasteel</li>
                     </thingDefs>
                 </filter>
-                <count>10</count>                <!--需求数量-->
+                <count>10</count>
             </li>
         </ingredients>
-        <fixedIngredientFilter>            <!--过滤器-->
+        <fixedIngredientFilter>
             <thingDefs>
                 <li>AKI_Item_OriginiumRefineIV</li>
                 <li>Uranium</li>
                 <li>Plasteel</li>
             </thingDefs>
         </fixedIngredientFilter>
-        <products>            <!--产品-->
-            <AKI_Item_OriginiumRefineV>1</AKI_Item_OriginiumRefineV>            <!--产品数量-->
+        <products>
+            <AKI_Item_OriginiumRefineV>1</AKI_Item_OriginiumRefineV>
         </products>
         <skillRequirements>
             <Crafting>12</Crafting>
         </skillRequirements>
         <researchPrerequisite>AKI_Research_PrecisionRefine</researchPrerequisite>
     </RecipeDef>
+
+    <RecipeDef ParentName="AKI_Recipe_OriginiumRefineBase">
+        <defName>AKI_Recipe_CrystallizedLimbI</defName>
+        <label>用源石肢体加工成粗制源石</label>
+        <description>通过把源石肢体切割成较小的便于加工的块，但是肢体源石化的特殊性造成利用率不高。</description>
+        <jobString>正在加工出粗制源石。</jobString>
+        <workAmount>900</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>AKI_Item_CrystallizedLimb</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>AKI_Item_CrystallizedLimb</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <AKI_Item_OriginiumRefineII>50</AKI_Item_OriginiumRefineII>
+        </products>
+        <skillRequirements>
+            <Crafting>2</Crafting>
+        </skillRequirements>
+        <recipeUsers>
+            <li>CraftingSpot</li>
+            <li>TableStonecutter</li>
+            <li>FueledSmithy</li>
+            <li>ElectricSmithy</li>
+        </recipeUsers>
+        <researchPrerequisite>AKI_Research_BaseSmelt</researchPrerequisite>
+    </RecipeDef>
+
+    <RecipeDef ParentName="AKI_Recipe_OriginiumRefineBase">
+        <defName>AKI_Recipe_CrystallizedLimbII</defName>
+        <label>用源石肢体熔炼成精炼源石</label>
+        <description>把源石肢体熔炼成浓度高的大块，其中有机物在加工前会被事先去除掉。</description>
+        <jobString>正在熔炼出精炼源石。</jobString>
+        <workAmount>1200</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>AKI_Item_CrystallizedLimb</li>
+                    </thingDefs>
+                </filter>
+                <count>4</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>AKI_Item_CrystallizedLimb</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <AKI_Item_OriginiumRefineIV>3</AKI_Item_OriginiumRefineIV>
+        </products>
+        <skillRequirements>
+            <Crafting>2</Crafting>
+        </skillRequirements>
+        <researchPrerequisite>AKI_Research_ChemicalAnalysis</researchPrerequisite>
+    </RecipeDef>
+
 
 </Defs>

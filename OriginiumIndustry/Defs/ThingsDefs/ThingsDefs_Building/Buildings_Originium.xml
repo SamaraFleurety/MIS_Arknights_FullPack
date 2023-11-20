@@ -29,7 +29,8 @@
     <pathCost>65</pathCost>
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
     <recipes>
-      <li>AKI_Recipe_OriginiumRefineII</li>
+      <li>AKI_Recipe_OriginiumRefineI</li>
+      <li>AKI_Recipe_CrystallizedLimbII</li>
     </recipes>
     <comps>
       <li Class="CompProperties_Refuelable">
@@ -93,7 +94,9 @@
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
     <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
     <recipes>
+      <li>AKI_Recipe_OriginiumRefineI</li>
       <li>AKI_Recipe_OriginiumRefineII</li>
+      <li>AKI_Recipe_CrystallizedLimbII</li>
     </recipes>
     <comps>
       <li Class="CompProperties_Refuelable">
@@ -155,8 +158,10 @@
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
     <recipes>
+      <li>AKI_Recipe_OriginiumRefineI</li>
       <li>AKI_Recipe_OriginiumRefineII</li>
       <li>AKI_Recipe_OriginiumRefineIII</li>
+      <li>AKI_Recipe_CrystallizedLimbII</li>
     </recipes>
     <comps>
       <li Class="CompProperties_Power">
@@ -208,9 +213,11 @@
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <constructionSkillPrerequisite>12</constructionSkillPrerequisite>
     <recipes>
+      <li>AKI_Recipe_OriginiumRefineI</li>
       <li>AKI_Recipe_OriginiumRefineII</li>
       <li>AKI_Recipe_OriginiumRefineIII</li>
       <li>AKI_Recipe_OriginiumRefineIV</li>
+      <li>AKI_Recipe_CrystallizedLimbII</li>
     </recipes>
     <comps>
       <li Class="CompProperties_Power">

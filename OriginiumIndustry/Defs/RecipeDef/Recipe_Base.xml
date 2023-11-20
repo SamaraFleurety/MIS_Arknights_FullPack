@@ -8,6 +8,9 @@
         <soundWorking>Recipe_Brewing</soundWorking>        <!--工作音效-->
         <targetCountAdjustment>1</targetCountAdjustment>        <!--目标计数调整-->
         <allowMixingIngredients>true</allowMixingIngredients>        <!--允许混合配料-->
+        <recipeUsers>
+            <li>AKI_Building_MedicI</li>
+        </recipeUsers>
     </RecipeDef>
 
     <RecipeDef Name="AKI_Recipe_OriginiumRefineBase" Abstract="True">
@@ -37,11 +40,11 @@
         <requiredGiverWorkType>Cooking</requiredGiverWorkType>
         <displayPriority>100</displayPriority>
         <recipeUsers>
-			<li>ElectricStove</li>
+            <li>ElectricStove</li>
             <li>FueledStove</li>
             <li>Campfire</li>
             <li>AK_Building_IfritGrill</li>
-		</recipeUsers>
+        </recipeUsers>
     </RecipeDef>
 
 </Defs>
