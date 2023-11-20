@@ -12,12 +12,13 @@
         <statBases>
             <Mass>2.4</Mass>
             <Flammability>0</Flammability>
-            <DeteriorationRate>1</DeteriorationRate>
             <EquipDelay>2</EquipDelay>
+			<DeteriorationRate>0</DeteriorationRate>
         </statBases>
         <tickerType>Normal</tickerType>
         <comps>
             <li Class="CompProperties_Biocodable" />
+			<li Class="AK_DLL.TCP_RemoveMe"/>
         </comps>
         <thingCategories Inherit="false">
             <li>AK_ShieldBelt</li>
@@ -27,14 +28,17 @@
             <layers>
                 <li>Belt</li>
             </layers>
-            <tags>
-                <li>BeltDefense</li>
-            </tags>
             <bodyPartGroups>
                 <li>Waist</li>
             </bodyPartGroups>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
         </apparel>
-        <generateCommonality>0.2</generateCommonality>
+		<useHitPoints>false</useHitPoints>
+		<burnableByRecipe>false</burnableByRecipe>
+		<relicChance>0</relicChance>
+		<tradeability>None</tradeability>
+        <generateCommonality>0.0</generateCommonality>
+		<generateAllowChance>0</generateAllowChance>
     </ThingDef>
 
     <ThingDef ParentName="AK_BeltBase">
