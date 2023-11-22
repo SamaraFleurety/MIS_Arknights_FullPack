@@ -2,16 +2,16 @@
 <Defs>
 
 	<JobDef>
-		<defName>AK_UseRecruitConsole</defName>
+		<defName>AK_Job_UseRecruitConsole</defName>
 		<driverClass>AK_DLL.JobDriver_UseRecruitConsole</driverClass>
-		<reportString>Use Recruit Console.</reportString>
+		<reportString>Using recruit console.</reportString>
 		<!--使用招募台-->
 	</JobDef>
 
 	<JobDef>
-		<defName>AK_OperatorChangeFashion</defName>
+		<defName>AK_Job_OperatorChangeFashion</defName>
 		<driverClass>AK_DLL.JobDriver_ChangeFashion</driverClass>
-		<reportString>Changing Fashion</reportString>
+		<reportString>Changing fashion.</reportString>
 	</JobDef>
 
 </Defs>
