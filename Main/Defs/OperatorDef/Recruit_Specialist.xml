@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<!-- 罗宾 -->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Specialist">
 		<defName>AK_Recruit_Robin</defName>
 		<name>Robin</name>
@@ -98,6 +100,8 @@
 		<childHood>AK_BackStory_Robin_Child</childHood>
 		<adultHood>AK_BackStory_Robin_Adult</adultHood>
 	</AK_DLL.OperatorDef>
+
+	<!-- 红 -->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Specialist">
 		<defName>AK_Recruit_Red</defName>
@@ -210,6 +214,8 @@
 		</clothSet>
 	</AK_DLL.OperatorDef>
 
+	<!-- 歌蕾蒂娅 -->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Specialist">
 		<defName>AK_Recruit_Gladiia</defName>
 		<name>Gladiia</name>
@@ -321,6 +327,8 @@
 		</clothSet>
 	</AK_DLL.OperatorDef>
 
+	<!-- 温蒂 -->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Specialist">
 		<defName>AK_Recruit_Weedy</defName>
 		<name>Weedy</name>
@@ -420,6 +428,8 @@
 		<adultHood>AK_BackStory_Weedy_Adult</adultHood>
 	</AK_DLL.OperatorDef>
 
+	<!-- 水月 -->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Specialist">
 		<defName>AK_Recruit_Mizuki</defName>
 		<name>Mizuki</name>
@@ -514,6 +524,8 @@
 		<childHood>AK_BackStory_Mizuki_Child</childHood>
 		<adultHood>AK_BackStory_Mizuki_Adult</adultHood>
 	</AK_DLL.OperatorDef>
+
+	<!-- 砾 -->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Specialist">
 		<defName>AK_Recruit_Gravel</defName>
@@ -616,6 +628,8 @@
 		<adultHood>AK_BackStory_Gravel_Adult</adultHood>
 	</AK_DLL.OperatorDef>
 
+	<!-- 卡夫卡 -->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Specialist">
 		<defName>AK_Recruit_Kafka</defName>
 		<name>Kafka</name>
@@ -709,6 +723,8 @@
 			</li>
 		</skills>
 	</AK_DLL.OperatorDef>
+
+	<!-- 崖心 -->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Specialist">
 		<defName>AK_Recruit_Cliffheart</defName>
@@ -816,6 +832,8 @@
 			</li>
 		</skills>
 	</AK_DLL.OperatorDef>
+
+	<!-- 多萝西 -->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Specialist">
 		<defName>AK_Recruit_Dorothy</defName>
@@ -934,6 +952,8 @@
 		</items>
 	</AK_DLL.OperatorDef>
 
+	<!-- 狮蝎 -->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Specialist">
 		<defName>AK_Recruit_Manticore</defName>
 		<name>Manticore</name>
@@ -1030,6 +1050,8 @@
 		</skills>
 	</AK_DLL.OperatorDef>
 
+	<!-- 风丸 -->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Specialist">
 		<defName>AK_Recruit_Kazemaru</defName>
 		<name>Kazemaru</name>
@@ -1123,6 +1145,8 @@
 			</li>
 		</skills>
 	</AK_DLL.OperatorDef>
+
+	<!-- 麒麟X夜刀 -->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Specialist">
 		<defName>AK_Recruit_Kirin</defName>
@@ -1219,6 +1243,8 @@
 			</li>
 		</items>
 	</AK_DLL.OperatorDef>
+
+	<!-- 杏仁 -->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Specialist">
 		<defName>AK_Recruit_Almond</defName>

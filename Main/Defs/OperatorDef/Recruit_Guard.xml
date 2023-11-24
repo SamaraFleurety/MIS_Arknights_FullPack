@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<!-- 银灰 -->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Guard">
 		<defName>AK_Recruit_Silverash</defName>
 		<name>Silverash</name>
@@ -114,6 +116,8 @@
 		</relations>
 	</AK_DLL.OperatorDef>
 
+	<!-- 斯卡蒂 -->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Guard">
 		<defName>AK_Recruit_Skadi</defName>
 		<name>Skadi</name>
@@ -216,6 +220,8 @@
 			</li>
 		</relations>
 	</AK_DLL.OperatorDef>
+
+	<!-- 幽灵鲨 -->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Guard">
 		<defName>AK_Recruit_Specter</defName>
@@ -323,6 +329,8 @@
 		</relations>
 	</AK_DLL.OperatorDef>
 
+	<!-- 棘刺 -->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Guard">
 		<defName>AK_Recruit_Thorns</defName>
 		<name>Thorns</name>
@@ -333,6 +341,7 @@
 		<apparels>
 			<li>AK_Apparel_Thorns</li>
 		</apparels>
+		<bodyTypeDef>Male</bodyTypeDef>
 		<isMale>true</isMale>
 		<stand>UI/Image/Guard/ThornsStand</stand>
 		<headPortrait>UI/Image/Guard/ThornsPortrait</headPortrait>
@@ -421,6 +430,8 @@
 		<childHood>AK_BackStory_Thorns_Child</childHood>
 		<adultHood>AK_BackStory_Thorns_Adult</adultHood>
 	</AK_DLL.OperatorDef>
+
+	<!-- 史尔特尔 -->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Guard">
 		<defName>AK_Recruit_Surtr</defName>
@@ -533,6 +544,8 @@
 		</clothSet>
 	</AK_DLL.OperatorDef>
 
+	<!-- 煌 -->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Guard">
 		<defName>AK_Recruit_Blaze</defName>
 		<name>Blaze</name>
@@ -633,6 +646,8 @@ Blaze, Rhodes Island's most fired-up Operator, will spread her enthusiasm like a
 		<age>20</age>
 		<adultHood>AK_BackStory_Blaze_Adult</adultHood>
 	</AK_DLL.OperatorDef>
+
+	<!-- 陈 -->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Guard">
 		<defName>AK_Recruit_Chen</defName>
@@ -744,6 +759,8 @@ Blaze, Rhodes Island's most fired-up Operator, will spread her enthusiasm like a
 		</items>
 	</AK_DLL.OperatorDef>
 
+	<!-- 刻刀 -->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Guard">
 		<defName>AK_Recruit_Cutter</defName>
 		<name>Cutter</name>
@@ -838,6 +855,8 @@ Blaze, Rhodes Island's most fired-up Operator, will spread her enthusiasm like a
 		</traits>
 		<childHood>AK_BackStory_Cutter_Child</childHood>
 	</AK_DLL.OperatorDef>
+
+	<!-- 芙兰卡 -->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Guard">
 		<defName>AK_Recruit_Franka</defName>
@@ -943,6 +962,8 @@ Blaze, Rhodes Island's most fired-up Operator, will spread her enthusiasm like a
 		</relations>
 	</AK_DLL.OperatorDef>
 
+	<!-- 霜叶 -->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Guard">
 		<defName>AK_Recruit_Frostleaf</defName>
 		<name>Frostleaf</name>
@@ -1034,6 +1055,8 @@ Blaze, Rhodes Island's most fired-up Operator, will spread her enthusiasm like a
 		</traits>
 		<childHood>AK_BackStory_Frostleaf_Child</childHood>
 	</AK_DLL.OperatorDef>
+
+	<!-- 拉普兰德 -->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Guard">
 		<defName>AK_Recruit_Lappland</defName>
@@ -1142,6 +1165,8 @@ Blaze, Rhodes Island's most fired-up Operator, will spread her enthusiasm like a
 		<standRatio>3</standRatio>
 	</AK_DLL.OperatorDef>
 
+	<!-- 慕斯 -->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Guard">
 		<defName>AK_Recruit_Mousse</defName>
 		<name>Mousse</name>
@@ -1235,6 +1260,8 @@ Blaze, Rhodes Island's most fired-up Operator, will spread her enthusiasm like a
 		</traits>
 		<childHood>AK_BackStory_Mousse_Child</childHood>
 	</AK_DLL.OperatorDef>
+
+	<!-- 鞭刃 -->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Guard">
 		<defName>AK_Recruit_Whislash</defName>
@@ -1349,6 +1376,8 @@ Blaze, Rhodes Island's most fired-up Operator, will spread her enthusiasm like a
 		</relations>
 	</AK_DLL.OperatorDef>
 
+	<!-- 诗怀雅 -->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Guard">
 		<defName>AK_Recruit_Swire</defName>
 		<name>Swire</name>
@@ -1447,6 +1476,8 @@ Blaze, Rhodes Island's most fired-up Operator, will spread her enthusiasm like a
 		<adultHood>AK_BackStory_Swire_Adult</adultHood>
 	</AK_DLL.OperatorDef>
 
+	<!-- 帕拉斯 -->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Guard">
 		<defName>AK_Recruit_Pallas</defName>
 		<name>Pallas</name>
@@ -1544,6 +1575,8 @@ Blaze, Rhodes Island's most fired-up Operator, will spread her enthusiasm like a
 		</skills>
 	</AK_DLL.OperatorDef>
 
+	<!-- 艾丽妮 -->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Guard">
 		<defName>AK_Recruit_Irene</defName>
 		<name>Irene</name>
@@ -1637,6 +1670,8 @@ Blaze, Rhodes Island's most fired-up Operator, will spread her enthusiasm like a
 			</li>
 		</skills>
 	</AK_DLL.OperatorDef>
+
+	<!-- 龙舌兰 -->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Guard">
 		<defName>AK_Recruit_Tequila</defName>
@@ -1734,6 +1769,8 @@ Blaze, Rhodes Island's most fired-up Operator, will spread her enthusiasm like a
 			</li>
 		</skills>
 	</AK_DLL.OperatorDef>
+
+	<!-- 羽毛笔 -->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Guard">
 		<defName>AK_Recruit_LaPluma</defName>
@@ -1843,6 +1880,8 @@ Blaze, Rhodes Island's most fired-up Operator, will spread her enthusiasm like a
 		</skills>
 	</AK_DLL.OperatorDef>
 
+	<!-- 艾丝黛尔 -->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Guard">
 		<defName>AK_Recruit_Estelle</defName>
 		<name>Estelle</name>
@@ -1939,6 +1978,8 @@ Blaze, Rhodes Island's most fired-up Operator, will spread her enthusiasm like a
 			</li>
 		</skills>
 	</AK_DLL.OperatorDef>
+
+	<!-- 燧石 -->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Guard">
 		<defName>AK_Recruit_Flint</defName>
@@ -2037,6 +2078,8 @@ Blaze, Rhodes Island's most fired-up Operator, will spread her enthusiasm like a
 		</skills>
 	</AK_DLL.OperatorDef>
 
+	<!-- 暴行 -->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Guard">
 		<defName>AK_Recruit_Savage</defName>
 		<name>Savage</name>
@@ -2134,6 +2177,8 @@ Blaze, Rhodes Island's most fired-up Operator, will spread her enthusiasm like a
 		</skills>
 	</AK_DLL.OperatorDef>
 
+	<!-- 玛恩纳 -->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Guard">
 		<defName>AK_Recruit_Maynar</defName>
 		<name>Maynar</name>
@@ -2144,6 +2189,7 @@ Blaze, Rhodes Island's most fired-up Operator, will spread her enthusiasm like a
 		<apparels>
 			<li>AK_Apparel_Maynar</li>
 		</apparels>
+		<bodyTypeDef>Male</bodyTypeDef>
 		<accessory Inherit="false">
 			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Nearl</li>
 		</accessory>
@@ -2246,6 +2292,8 @@ Blaze, Rhodes Island's most fired-up Operator, will spread her enthusiasm like a
 		</skills>
 	</AK_DLL.OperatorDef>
 
+	<!-- 铸铁 -->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Guard">
 		<defName>AK_Recruit_Sideroca</defName>
 		<name>Sideroca</name>
@@ -2343,6 +2391,8 @@ Blaze, Rhodes Island's most fired-up Operator, will spread her enthusiasm like a
 		</skills>
 	</AK_DLL.OperatorDef>
 
+	<!-- 星极 -->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Guard">
 		<defName>AK_Recruit_Astesia</defName>
 		<name>Astesia</name>
@@ -2386,12 +2436,12 @@ Blaze, Rhodes Island's most fired-up Operator, will spread her enthusiasm like a
 		<skills>
 			<li>
 				<skill>Animals</skill>
-				<level>1</level>
+				<level>4</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Artistic</skill>
-				<level>9</level>
+				<level>10</level>
 				<fireLevel>2</fireLevel>
 			</li>
 			<li>
@@ -2401,7 +2451,7 @@ Blaze, Rhodes Island's most fired-up Operator, will spread her enthusiasm like a
 			</li>
 			<li>
 				<skill>Cooking</skill>
-				<level>4</level>
+				<level>6</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
@@ -2412,7 +2462,7 @@ Blaze, Rhodes Island's most fired-up Operator, will spread her enthusiasm like a
 			<li>
 				<skill>Intellectual</skill>
 				<level>13</level>
-				<fireLevel>1</fireLevel>
+				<fireLevel>2</fireLevel>
 			</li>
 			<li>
 				<skill>Medicine</skill>
@@ -2431,21 +2481,23 @@ Blaze, Rhodes Island's most fired-up Operator, will spread her enthusiasm like a
 			</li>
 			<li>
 				<skill>Plants</skill>
-				<level>2</level>
+				<level>5</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Shooting</skill>
-				<level>3</level>
+				<level>4</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Social</skill>
 				<level>10</level>
-				<fireLevel>0</fireLevel>
+				<fireLevel>2</fireLevel>
 			</li>
 		</skills>
 	</AK_DLL.OperatorDef>
+
+	<!-- 重岳 -->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Guard">
 		<defName>AK_Recruit_Chongyue</defName>
@@ -2500,37 +2552,37 @@ Blaze, Rhodes Island's most fired-up Operator, will spread her enthusiasm like a
 		<skills>
 			<li>
 				<skill>Animals</skill>
-				<level>5</level>
+				<level>2</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Artistic</skill>
-				<level>8</level>
-				<fireLevel>2</fireLevel>
-			</li>
-			<li>
-				<skill>Construction</skill>
 				<level>6</level>
 				<fireLevel>1</fireLevel>
 			</li>
 			<li>
+				<skill>Construction</skill>
+				<level>4</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
 				<skill>Cooking</skill>
-				<level>10</level>
+				<level>6</level>
 				<fireLevel>1</fireLevel>
 			</li>
 			<li>
 				<skill>Crafting</skill>
-				<level>14</level>
-				<fireLevel>2</fireLevel>
+				<level>6</level>
+				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Intellectual</skill>
-				<level>20</level>
-				<fireLevel>2</fireLevel>
+				<level>16</level>
+				<fireLevel>1</fireLevel>
 			</li>
 			<li>
 				<skill>Medicine</skill>
-				<level>6</level>
+				<level>2</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
@@ -2540,26 +2592,28 @@ Blaze, Rhodes Island's most fired-up Operator, will spread her enthusiasm like a
 			</li>
 			<li>
 				<skill>Mining</skill>
-				<level>6</level>
+				<level>1</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Plants</skill>
-				<level>12</level>
-				<fireLevel>2</fireLevel>
+				<level>8</level>
+				<fireLevel>1</fireLevel>
 			</li>
 			<li>
 				<skill>Shooting</skill>
 				<level>2</level>
-				<fireLevel>1</fireLevel>
+				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Social</skill>
-				<level>12</level>
+				<level>10</level>
 				<fireLevel>0</fireLevel>
 			</li>
 		</skills>
 	</AK_DLL.OperatorDef>
+
+	<!-- 仇白 -->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Guard">
 		<defName>AK_Recruit_Qiubai</defName>
@@ -2658,6 +2712,8 @@ Blaze, Rhodes Island's most fired-up Operator, will spread her enthusiasm like a
 		</skills>
 	</AK_DLL.OperatorDef>
 
+	<!-- 因陀罗 -->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Guard">
 		<defName>AK_Recruit_Indra</defName>
 		<name>Indra</name>
@@ -2752,6 +2808,8 @@ Blaze, Rhodes Island's most fired-up Operator, will spread her enthusiasm like a
 			</li>
 		</skills>
 	</AK_DLL.OperatorDef>
+
+	<!-- 达格达 -->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Guard">
 		<defName>AK_Recruit_Dagda</defName>
@@ -2853,6 +2911,8 @@ Blaze, Rhodes Island's most fired-up Operator, will spread her enthusiasm like a
 		</skills>
 	</AK_DLL.OperatorDef>
 
+	<!-- 摩根 -->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Guard">
 		<defName>AK_Recruit_Morgan</defName>
 		<name>Morgan</name>
@@ -2947,6 +3007,8 @@ Blaze, Rhodes Island's most fired-up Operator, will spread her enthusiasm like a
 			</li>
 		</skills>
 	</AK_DLL.OperatorDef>
+
+	<!-- 宴 -->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Guard">
 		<defName>AK_Recruit_Utage</defName>
@@ -3049,6 +3111,8 @@ Blaze, Rhodes Island's most fired-up Operator, will spread her enthusiasm like a
 		</skills>
 	</AK_DLL.OperatorDef>
 
+	<!-- 杰克 -->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Guard">
 		<defName>AK_Recruit_Jackie</defName>
 		<name>Jackie</name>
@@ -3148,6 +3212,8 @@ Blaze, Rhodes Island's most fired-up Operator, will spread her enthusiasm like a
 		</skills>
 	</AK_DLL.OperatorDef>
 
+	<!-- 耀骑士临光 -->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Guard">
 		<defName>AK_Recruit_RadiantKnight</defName>
 		<name>RadiantKnight</name>
@@ -3237,6 +3303,8 @@ Blaze, Rhodes Island's most fired-up Operator, will spread her enthusiasm like a
 			</li>
 		</skills>
 	</AK_DLL.OperatorDef>
+
+	<!-- 薇薇安娜 -->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Guard">
 		<defName>AK_Recruit_Viviana</defName>

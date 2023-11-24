@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<!-- 克里斯滕 -->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_OtherLeader">
 		<defName>AK_Recruit_Kristen</defName>
 		<name>Kristen</name>
@@ -39,23 +41,23 @@
 		<skills>
 			<li>
 				<skill>Animals</skill>
-				<level>11</level>
+				<level>10</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Artistic</skill>
-				<level>18</level>
+				<level>16</level>
 				<fireLevel>2</fireLevel>
 			</li>
 			<li>
 				<skill>Construction</skill>
-				<level>18</level>
+				<level>14</level>
 				<fireLevel>1</fireLevel>
 			</li>
 			<li>
 				<skill>Cooking</skill>
-				<level>16</level>
-				<fireLevel>2</fireLevel>
+				<level>10</level>
+				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Crafting</skill>
@@ -65,7 +67,7 @@
 			<li>
 				<skill>Intellectual</skill>
 				<level>18</level>
-				<fireLevel>1</fireLevel>
+				<fireLevel>2</fireLevel>
 			</li>
 			<li>
 				<skill>Medicine</skill>
@@ -74,12 +76,12 @@
 			</li>
 			<li>
 				<skill>Melee</skill>
-				<level>13</level>
+				<level>12</level>
 				<fireLevel>1</fireLevel>
 			</li>
 			<li>
 				<skill>Mining</skill>
-				<level>14</level>
+				<level>10</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
@@ -89,8 +91,8 @@
 			</li>
 			<li>
 				<skill>Shooting</skill>
-				<level>14</level>
-				<fireLevel>2</fireLevel>
+				<level>12</level>
+				<fireLevel>1</fireLevel>
 			</li>
 			<li>
 				<skill>Social</skill>
@@ -99,6 +101,8 @@
 			</li>
 		</skills>
 	</AK_DLL.OperatorDef>
+
+	<!-- 霜星 -->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_OtherLeader">
 		<defName>AK_Recruit_FrostNova</defName>
@@ -197,6 +201,8 @@
 			</li>
 		</skills>
 	</AK_DLL.OperatorDef>
+
+	<!-- 爱布拉娜 -->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_OtherLeader">
 		<defName>AK_Recruit_Eblana</defName>
