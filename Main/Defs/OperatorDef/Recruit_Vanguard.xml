@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<!--香草-->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Vanguard">
 		<defName>AK_Recruit_Vanilla</defName>
 		<name>Vanilla</name>
@@ -100,6 +102,8 @@
 		<adultHood>AK_BackStory_Vanilla_Adult</adultHood>
 	</AK_DLL.OperatorDef>
 
+	<!--推进之王-->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Vanguard">
 		<defName>AK_Recruit_Siege</defName>
 		<name>Siege</name>
@@ -196,6 +200,8 @@
 		<childHood>AK_BackStory_Siege_Child</childHood>
 		<adultHood>AK_BackStory_Siege_Adult</adultHood>
 	</AK_DLL.OperatorDef>
+
+	<!--风笛-->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Vanguard">
 		<defName>AK_Recruit_Bagpipe</defName>
@@ -294,6 +300,8 @@
 		<adultHood>AK_BackStory_Bagpipe_Adult</adultHood>
 	</AK_DLL.OperatorDef>
 
+	<!--苇草-->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Vanguard">
 		<defName>AK_Recruit_Reed</defName>
 		<name>Reed</name>
@@ -389,6 +397,8 @@
 		<age>20</age>
 		<adultHood>AK_BackStory_Reed_Adult</adultHood>
 	</AK_DLL.OperatorDef>
+
+	<!--嵯峨-->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Vanguard">
 		<defName>AK_Recruit_Saga</defName>
@@ -486,6 +496,8 @@
 		<childHood>AK_BackStory_Saga_Child</childHood>
 		<adultHood>AK_BackStory_Saga_Adult</adultHood>
 	</AK_DLL.OperatorDef>
+
+	<!--德克萨斯-->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Vanguard">
 		<defName>AK_Recruit_Texas</defName>
@@ -592,6 +604,8 @@
 		<standRatio>3</standRatio>
 	</AK_DLL.OperatorDef>
 
+	<!--琴柳-->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Vanguard">
 		<defName>AK_Recruit_Saileach</defName>
 		<name>Saileach</name>
@@ -694,6 +708,8 @@
 		</items>
 	</AK_DLL.OperatorDef>
 
+	<!--焰尾-->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Vanguard">
 		<defName>AK_Recruit_Flametail</defName>
 		<name>Flametail</name>
@@ -791,6 +807,8 @@
 		<adultHood>AK_BackStory_Flametail_Adult</adultHood>
 	</AK_DLL.OperatorDef>
 
+	<!--野鬃-->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Vanguard">
 		<defName>AK_Recruit_Wild</defName>
 		<name>Wild</name>
@@ -885,6 +903,8 @@
 			</li>
 		</skills>
 	</AK_DLL.OperatorDef>
+
+	<!--信使-->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Vanguard">
 		<defName>AK_Recruit_Courier</defName>
@@ -986,6 +1006,8 @@
 		</skills>
 	</AK_DLL.OperatorDef>
 
+	<!--格拉尼-->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Vanguard">
 		<defName>AK_Recruit_Grani</defName>
 		<name>Grani</name>
@@ -1084,6 +1106,8 @@
 			</li>
 		</skills>
 	</AK_DLL.OperatorDef>
+
+	<!--桃金娘-->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Vanguard">
 		<defName>AK_Recruit_Myrtle</defName>
@@ -1201,6 +1225,8 @@
 		</items>
 	</AK_DLL.OperatorDef>
 
+	<!--豆苗-->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Vanguard">
 		<defName>AK_Recruit_Beanstalk</defName>
 		<name>Beanstalk</name>
@@ -1295,6 +1321,8 @@
 			</li>
 		</skills>
 	</AK_DLL.OperatorDef>
+
+	<!--夜半-->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Vanguard">
 		<defName>AK_Recruit_Blacknight</defName>
@@ -1394,6 +1422,8 @@
 		</skills>
 	</AK_DLL.OperatorDef>
 
+	<!--缪尔赛思-->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Vanguard">
 		<defName>AK_Recruit_Muelsyse</defName>
 		<name>Muelsyse</name>
@@ -1434,63 +1464,63 @@
 		<skills>
 			<li>
 				<skill>Animals</skill>
-				<level>18</level>
-				<fireLevel>1</fireLevel>
+				<level>5</level>
+				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Artistic</skill>
-				<level>11</level>
-				<fireLevel>1</fireLevel>
+				<level>10</level>
+				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Construction</skill>
-				<level>6</level>
+				<level>1</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Cooking</skill>
-				<level>9</level>
-				<fireLevel>1</fireLevel>
+				<level>3</level>
+				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Crafting</skill>
-				<level>14</level>
-				<fireLevel>2</fireLevel>
+				<level>10</level>
+				<fireLevel>1</fireLevel>
 			</li>
 			<li>
 				<skill>Intellectual</skill>
 				<level>16</level>
-				<fireLevel>2</fireLevel>
+				<fireLevel>1</fireLevel>
 			</li>
 			<li>
 				<skill>Medicine</skill>
-				<level>18</level>
-				<fireLevel>2</fireLevel>
+				<level>2</level>
+				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Melee</skill>
-				<level>7</level>
+				<level>4</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Mining</skill>
-				<level>12</level>
+				<level>0</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Plants</skill>
-				<level>18</level>
-				<fireLevel>1</fireLevel>
+				<level>16</level>
+				<fireLevel>2</fireLevel>
 			</li>
 			<li>
 				<skill>Shooting</skill>
-				<level>8</level>
+				<level>5</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Social</skill>
-				<level>14</level>
-				<fireLevel>2</fireLevel>
+				<level>8</level>
+				<fireLevel>1</fireLevel>
 			</li>
 		</skills>
 		<items>
@@ -1500,6 +1530,8 @@
 			</li>
 		</items>
 	</AK_DLL.OperatorDef>
+
+	<!--伊内丝-->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Vanguard">
 		<defName>AK_Recruit_Ines</defName>
@@ -1605,6 +1637,8 @@
 		</items>
 	</AK_DLL.OperatorDef>
 
+	<!--芬-->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Vanguard">
 		<defName>AK_Recruit_Fang</defName>
 		<name>Fang</name>
@@ -1700,6 +1734,8 @@
 			</li>
 		</skills>
 	</AK_DLL.OperatorDef>
+
+	<!--翎羽-->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Vanguard">
 		<defName>AK_Recruit_Plume</defName>
@@ -1799,6 +1835,8 @@
 			</li>
 		</skills>
 	</AK_DLL.OperatorDef>
+
+	<!--夜刀-->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Vanguard">
 		<defName>AK_Recruit_Yato</defName>

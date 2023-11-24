@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<!--夕-->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Caster">
 		<defName>AK_Recruit_Dusk</defName>
 		<nickname>Dusk</nickname>
@@ -51,7 +53,7 @@
 			<li>
 				<skill>Melee</skill>
 				<level>3</level>
-				<fireLevel></fireLevel>
+				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Mining</skill>
@@ -65,8 +67,8 @@
 			</li>
 			<li>
 				<skill>Shooting</skill>
-				<level>10</level>
-				<fireLevel>1</fireLevel>
+				<level>6</level>
+				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Social</skill>
@@ -120,6 +122,8 @@
 			</li>
 		</items>
 	</AK_DLL.OperatorDef>
+
+	<!--艾雅法拉-->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Caster">
 		<defName>AK_Recruit_Eyjafjalla</defName>
@@ -243,6 +247,8 @@
 		</standOffsets>
 	</AK_DLL.OperatorDef>
 
+	<!--伊芙利特-->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Caster">
 		<defName>AK_Recruit_Ifrit</defName>
 		<nickname>Ifrit</nickname>
@@ -339,6 +345,8 @@
 			</li>
 		</relations>
 	</AK_DLL.OperatorDef>
+
+	<!--薄绿-->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Caster">
 		<defName>AK_Recruit_Mint</defName>
@@ -451,6 +459,8 @@
 			</li>
 		</items>
 	</AK_DLL.OperatorDef>
+
+	<!--莫斯提马-->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Caster">
 		<defName>AK_Recruit_Mostima</defName>
@@ -576,6 +586,8 @@
 		</items>
 	</AK_DLL.OperatorDef>
 
+	<!--天火-->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Caster">
 		<defName>AK_Recruit_Skyfire</defName>
 		<name>Skyfire</name>
@@ -676,6 +688,8 @@
 			</li>
 		</standOffsets>
 	</AK_DLL.OperatorDef>
+
+	<!--苦艾-->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Caster">
 		<defName>AK_Recruit_Absinthe</defName>
@@ -783,6 +797,8 @@
 			</li>
 		</standOffsets>
 	</AK_DLL.OperatorDef>
+
+	<!--阿米娅-->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Caster">
 		<defName>AK_Recruit_Amiya</defName>
@@ -894,6 +910,8 @@
 			</li>
 		</standOffsets>
 	</AK_DLL.OperatorDef>
+
+	<!--刻俄柏-->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Caster">
 		<defName>AK_Recruit_Ceobe</defName>
@@ -1018,6 +1036,8 @@
 			</li>
 		</items>
 	</AK_DLL.OperatorDef>
+
+	<!--卡涅利安-->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Caster">
 		<defName>AK_Recruit_Carnelian</defName>
@@ -1149,6 +1169,8 @@
 		</standOffsets>
 	</AK_DLL.OperatorDef>
 
+	<!--蜜蜡-->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Caster">
 		<defName>AK_Recruit_Beeswax</defName>
 		<name>Beeswax</name>
@@ -1270,6 +1292,8 @@
 		</standOffsets>
 	</AK_DLL.OperatorDef>
 
+	<!--深靛-->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Caster">
 		<defName>AK_Recruit_Indigo</defName>
 		<name>Indigo</name>
@@ -1379,6 +1403,7 @@
 		</standOffsets>
 	</AK_DLL.OperatorDef>
 
+	<!--澄闪-->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Caster">
 		<defName>AK_Recruit_Goldenglow</defName>
@@ -1491,6 +1516,8 @@
 		</standOffsets>
 	</AK_DLL.OperatorDef>
 
+	<!--特米米-->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Caster">
 		<defName>AK_Recruit_Tomimi</defName>
 		<name>Tomimi</name>
@@ -1599,6 +1626,8 @@
 		</standOffsets>
 	</AK_DLL.OperatorDef>
 
+	<!--耶拉-->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Caster">
 		<defName>AK_Recruit_Kjera</defName>
 		<name>Kjera</name>
@@ -1700,6 +1729,8 @@
 		</standOffsets>
 	</AK_DLL.OperatorDef>
 
+	<!--星源-->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Caster">
 		<defName>AK_Recruit_Astgenne</defName>
 		<name>Astgenne</name>
@@ -1732,17 +1763,17 @@
 		<skills>
 			<li>
 				<skill>Animals</skill>
-				<level>2</level>
+				<level>3</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Artistic</skill>
-				<level>8</level>
+				<level>6</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Construction</skill>
-				<level>14</level>
+				<level>12</level>
 				<fireLevel>2</fireLevel>
 			</li>
 			<li>
@@ -1752,12 +1783,12 @@
 			</li>
 			<li>
 				<skill>Crafting</skill>
-				<level>12</level>
-				<fireLevel>2</fireLevel>
+				<level>11</level>
+				<fireLevel>1</fireLevel>
 			</li>
 			<li>
 				<skill>Intellectual</skill>
-				<level>14</level>
+				<level>13</level>
 				<fireLevel>2</fireLevel>
 			</li>
 			<li>
@@ -1783,7 +1814,7 @@
 			<li>
 				<skill>Shooting</skill>
 				<level>10</level>
-				<fireLevel>1</fireLevel>
+				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Social</skill>
@@ -1802,6 +1833,8 @@
 			</li>
 		</standOffsets>
 	</AK_DLL.OperatorDef>
+
+	<!--和弦-->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Caster">
 		<defName>AK_Recruit_Harmonie</defName>
@@ -1908,6 +1941,8 @@
 		</standOffsets>
 	</AK_DLL.OperatorDef>
 
+	<!--林-->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Caster">
 		<defName>AK_Recruit_Lin</defName>
 		<name>Lin</name>
@@ -1947,28 +1982,28 @@
 		<skills>
 			<li>
 				<skill>Animals</skill>
-				<level>4</level>
+				<level>2</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Artistic</skill>
-				<level>14</level>
-				<fireLevel>2</fireLevel>
+				<level>9</level>
+				<fireLevel>1</fireLevel>
 			</li>
 			<li>
 				<skill>Construction</skill>
-				<level>12</level>
-				<fireLevel>2</fireLevel>
+				<level>6</level>
+				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Cooking</skill>
-				<level>7</level>
+				<level>4</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Crafting</skill>
-				<level>13</level>
-				<fireLevel>2</fireLevel>
+				<level>10</level>
+				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Intellectual</skill>
@@ -1977,32 +2012,32 @@
 			</li>
 			<li>
 				<skill>Medicine</skill>
-				<level>6</level>
+				<level>4</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Melee</skill>
-				<level>13</level>
-				<fireLevel>1</fireLevel>
-			</li>
-			<li>
-				<skill>Mining</skill>
 				<level>12</level>
 				<fireLevel>1</fireLevel>
 			</li>
 			<li>
+				<skill>Mining</skill>
+				<level>8</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
 				<skill>Plants</skill>
-				<level>6</level>
+				<level>4</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Shooting</skill>
-				<level>14</level>
+				<level>12</level>
 				<fireLevel>1</fireLevel>
 			</li>
 			<li>
 				<skill>Social</skill>
-				<level>13</level>
+				<level>10</level>
 				<fireLevel>2</fireLevel>
 			</li>
 		</skills>
@@ -2017,6 +2052,8 @@
 			</li>
 		</standOffsets>
 	</AK_DLL.OperatorDef>
+
+	<!--霍尔海雅-->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Caster">
 		<defName>AK_Recruit_Hoolheyak</defName>
@@ -2112,6 +2149,8 @@
 		</skills>
 	</AK_DLL.OperatorDef>
 
+	<!--异客-->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Caster">
 		<defName>AK_Recruit_Passenger</defName>
 		<name>Passenger</name>
@@ -2150,52 +2189,52 @@
 		<skills>
 			<li>
 				<skill>Animals</skill>
-				<level>4</level>
+				<level>2</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Artistic</skill>
-				<level>10</level>
-				<fireLevel>1</fireLevel>
-			</li>
-			<li>
-				<skill>Construction</skill>
-				<level>18</level>
-				<fireLevel>2</fireLevel>
-			</li>
-			<li>
-				<skill>Cooking</skill>
-				<level>6</level>
-				<fireLevel>0</fireLevel>
-			</li>
-			<li>
-				<skill>Crafting</skill>
-				<level>18</level>
-				<fireLevel>2</fireLevel>
-			</li>
-			<li>
-				<skill>Intellectual</skill>
-				<level>15</level>
-				<fireLevel>2</fireLevel>
-			</li>
-			<li>
-				<skill>Medicine</skill>
-				<level>8</level>
-				<fireLevel>0</fireLevel>
-			</li>
-			<li>
-				<skill>Melee</skill>
 				<level>7</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
-				<skill>Mining</skill>
-				<level>18</level>
+				<skill>Construction</skill>
+				<level>14</level>
 				<fireLevel>1</fireLevel>
 			</li>
 			<li>
+				<skill>Cooking</skill>
+				<level>4</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Crafting</skill>
+				<level>13</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Intellectual</skill>
+				<level>14</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<level>2</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<level>4</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Mining</skill>
+				<level>6</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
 				<skill>Plants</skill>
-				<level>5</level>
+				<level>4</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
@@ -2205,7 +2244,7 @@
 			</li>
 			<li>
 				<skill>Social</skill>
-				<level>12</level>
+				<level>10</level>
 				<fireLevel>1</fireLevel>
 			</li>
 		</skills>
@@ -2224,6 +2263,8 @@
 			</li>
 		</items>
 	</AK_DLL.OperatorDef>
+
+	<!--炎熔-->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Caster">
 		<defName>AK_Recruit_Lava</defName>
@@ -2324,6 +2365,8 @@
 			</li>
 		</items>
 	</AK_DLL.OperatorDef>
+
+	<!--寒檀-->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Caster">
 		<defName>AK_Recruit_Santalla</defName>

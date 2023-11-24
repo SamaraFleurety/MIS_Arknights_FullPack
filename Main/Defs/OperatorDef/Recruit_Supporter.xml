@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<!--铃兰-->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Supporter">
 		<defName>AK_Recruit_Suzuran</defName>
 		<name>Suzuran</name>
@@ -99,6 +101,8 @@
 		<childHood>AK_BackStory_Suzuran_Child</childHood>
 	</AK_DLL.OperatorDef>
 
+	<!--安洁莉娜-->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Supporter">
 		<defName>AK_Recruit_Angelina</defName>
 		<name>Angelina</name>
@@ -194,6 +198,8 @@
 		<age>15</age>
 		<childHood>AK_BackStory_Angelina_Child</childHood>
 	</AK_DLL.OperatorDef>
+
+	<!--麦哲伦-->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Supporter">
 		<defName>AK_Recruit_Magallan</defName>
@@ -294,6 +300,8 @@
 		<adultHood>AK_BackStory_Magallan_Adult</adultHood>
 	</AK_DLL.OperatorDef>
 
+	<!--深海色-->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Supporter">
 		<defName>AK_Recruit_Deepcolor</defName>
 		<name>Deepcolor</name>
@@ -391,6 +399,8 @@
 		<childHood>AK_BackStory_Deepcolor_Child</childHood>
 		<adultHood>AK_BackStory_Deepcolor_Adult</adultHood>
 	</AK_DLL.OperatorDef>
+
+	<!--初雪-->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Supporter">
 		<defName>AK_Recruit_Pramanix</defName>
@@ -497,6 +507,8 @@
 		</relations>
 	</AK_DLL.OperatorDef>
 
+	<!--格劳克斯-->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Supporter">
 		<defName>AK_Recruit_Glaucus</defName>
 		<name>Glaucus</name>
@@ -589,6 +601,8 @@
 		<childHood>AK_BackStory_Glaucus_Child</childHood>
 		<adultHood>AK_BackStory_Glaucus_Adult</adultHood>
 	</AK_DLL.OperatorDef>
+
+	<!--稀音-->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Supporter">
 		<defName>AK_Recruit_Scene</defName>
@@ -688,6 +702,8 @@
 		</skills>
 	</AK_DLL.OperatorDef>
 
+	<!--空-->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Supporter">
 		<defName>AK_Recruit_Sora</defName>
 		<name>Sora</name>
@@ -785,6 +801,8 @@
 		</skills>
 	</AK_DLL.OperatorDef>
 
+	<!--令-->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Supporter">
 		<defName>AK_Recruit_Ling</defName>
 		<name>Ling</name>
@@ -835,7 +853,7 @@
 		<skills>
 			<li>
 				<skill>Animals</skill>
-				<level>5</level>
+				<level>3</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
@@ -850,27 +868,27 @@
 			</li>
 			<li>
 				<skill>Cooking</skill>
-				<level>5</level>
+				<level>3</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Crafting</skill>
-				<level>5</level>
+				<level>6</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Intellectual</skill>
-				<level>20</level>
+				<level>18</level>
 				<fireLevel>2</fireLevel>
 			</li>
 			<li>
 				<skill>Medicine</skill>
 				<level>0</level>
-				<fireLevel>1</fireLevel>
+				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Melee</skill>
-				<level>5</level>
+				<level>4</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
@@ -885,16 +903,18 @@
 			</li>
 			<li>
 				<skill>Shooting</skill>
-				<level>10</level>
+				<level>8</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Social</skill>
-				<level>12</level>
+				<level>10</level>
 				<fireLevel>1</fireLevel>
 			</li>
 		</skills>
 	</AK_DLL.OperatorDef>
+
+	<!--真理-->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Supporter">
 		<defName>AK_Recruit_Istina</defName>
@@ -991,6 +1011,8 @@
 		</skills>
 	</AK_DLL.OperatorDef>
 
+	<!--海蒂-->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Supporter">
 		<defName>AK_Recruit_Heidi</defName>
 		<name>Heidi</name>
@@ -1084,6 +1106,8 @@
 			</li>
 		</skills>
 	</AK_DLL.OperatorDef>
+
+	<!--灵知-->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Supporter">
 		<defName>AK_Recruit_Gnosis</defName>
@@ -1179,6 +1203,8 @@
 			</li>
 		</skills>
 	</AK_DLL.OperatorDef>
+
+	<!--夏栎-->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Supporter">
 		<defName>AK_Recruit_Quercus</defName>
@@ -1291,6 +1317,7 @@
 		</skills>
 	</AK_DLL.OperatorDef>
 
+	<!--罗比菈塔-->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Supporter">
 		<defName>AK_Recruit_Roberta</defName>
@@ -1385,6 +1412,8 @@
 			</li>
 		</skills>
 	</AK_DLL.OperatorDef>
+
+	<!--但书-->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Supporter">
 		<defName>AK_Recruit_Proviso</defName>
@@ -1482,6 +1511,8 @@
 			</li>
 		</skills>
 	</AK_DLL.OperatorDef>
+
+	<!--梅尔-->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Supporter">
 		<defName>AK_Recruit_Mayer</defName>
@@ -1581,6 +1612,8 @@
 			</li>
 		</skills>
 	</AK_DLL.OperatorDef>
+
+	<!--浊心斯卡蒂-->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Supporter">
 		<defName>AK_Recruit_CorruptingHeart</defName>

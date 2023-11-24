@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<!--黑-->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Sniper">
 		<defName>AK_Recruit_Schwarz</defName>
 		<name>Schwarz</name>
@@ -98,6 +100,8 @@
 		<adultHood>AK_BackStory_Schwarz_Adult</adultHood>
 	</AK_DLL.OperatorDef>
 
+	<!--W-->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Sniper">
 		<defName>AK_Recruit_AgentW</defName>
 		<name>W</name>
@@ -194,6 +198,8 @@
 		<adultHood>AK_BackStory_W_Adult</adultHood>
 		<voicePackDef>AK_VoicePack_W</voicePackDef>
 	</AK_DLL.OperatorDef>
+
+	<!--送葬人-->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Sniper">
 		<defName>AK_Recruit_Executor</defName>
@@ -293,6 +299,8 @@
 			</li>
 		</relations>
 	</AK_DLL.OperatorDef>
+
+	<!--能天使-->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Sniper">
 		<defName>AK_Recruit_Exusiai</defName>
@@ -404,6 +412,8 @@ Exusiai, employee of Penguin Logistics, will clear out everything in the way usi
 		<standRatio>3</standRatio>
 	</AK_DLL.OperatorDef>
 
+	<!--灰喉-->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Sniper">
 		<defName>AK_Recruit_Greythroat</defName>
 		<name>Greythroat</name>
@@ -502,6 +512,8 @@ Exusiai, employee of Penguin Logistics, will clear out everything in the way usi
 		<adultHood>AK_BackStory_Greythroat_Adult</adultHood>
 	</AK_DLL.OperatorDef>
 
+	<!--杰西卡-->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Sniper">
 		<defName>AK_Recruit_Jessica</defName>
 		<name>Jessica</name>
@@ -598,6 +610,8 @@ Jessica, Sniper Operator of Blacksteel, will provide effective attack power for 
 		<adultHood>AK_BackStory_Jessica_Adult</adultHood>
 	</AK_DLL.OperatorDef>
 
+	<!--松果-->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Sniper">
 		<defName>AK_Recruit_Pinecone</defName>
 		<name>Pinecone</name>
@@ -682,6 +696,8 @@ Construction worker Pinecone, all spaced out while she gets the job done.</descr
 		<childHood>AK_BackStory_Pinecone_Child</childHood>
 		<adultHood>AK_BackStory_Pinecone_Adult</adultHood>
 	</AK_DLL.OperatorDef>
+
+	<!--普罗旺斯-->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Sniper">
 		<defName>AK_Recruit_Provence</defName>
@@ -780,6 +796,8 @@ Construction worker Pinecone, all spaced out while she gets the job done.</descr
 		<adultHood>AK_BackStory_Provence_Adult</adultHood>
 	</AK_DLL.OperatorDef>
 
+	<!--早露-->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Sniper">
 		<defName>AK_Recruit_Rosa</defName>
 		<name>Rosa</name>
@@ -868,6 +886,8 @@ Construction worker Pinecone, all spaced out while she gets the job done.</descr
 		</traits>
 		<childHood>AK_BackStory_Rosa_Child</childHood>
 	</AK_DLL.OperatorDef>
+
+	<!--迷迭香-->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Sniper">
 		<defName>AK_Recruit_Rosmontis</defName>
@@ -969,6 +989,8 @@ Construction worker Pinecone, all spaced out while she gets the job done.</descr
 			</li>
 		</items>
 	</AK_DLL.OperatorDef>
+
+	<!--白金-->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Sniper">
 		<defName>AK_Recruit_Platinum</defName>
@@ -1081,6 +1103,8 @@ Construction worker Pinecone, all spaced out while she gets the job done.</descr
 		</clothSet>
 	</AK_DLL.OperatorDef>
 
+	<!--空弦-->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Sniper">
 		<defName>AK_Recruit_Archetto</defName>
 		<name>Archetto</name>
@@ -1180,6 +1204,8 @@ Construction worker Pinecone, all spaced out while she gets the job done.</descr
 		<adultHood>AK_BackStory_Archetto_Adult</adultHood>
 	</AK_DLL.OperatorDef>
 
+	<!--陨星-->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Sniper">
 		<defName>AK_Recruit_Meteorite</defName>
 		<name>Meteorite</name>
@@ -1272,6 +1298,8 @@ Construction worker Pinecone, all spaced out while she gets the job done.</descr
 		<age>20</age>
 		<adultHood>AK_BackStory_Meteorite_Adult</adultHood>
 	</AK_DLL.OperatorDef>
+
+	<!--蓝毒-->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Sniper">
 		<defName>AK_Recruit_Bluepoison</defName>
@@ -1369,6 +1397,8 @@ Construction worker Pinecone, all spaced out while she gets the job done.</descr
 		<childHood>AK_BackStory_Bluepoison_Child</childHood>
 		<adultHood>AK_BackStory_Bluepoison_Adult</adultHood>
 	</AK_DLL.OperatorDef>
+
+    <!--菲亚梅塔-->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Sniper">
 		<defName>AK_Recruit_Fiammetta</defName>
@@ -1478,6 +1508,8 @@ Construction worker Pinecone, all spaced out while she gets the job done.</descr
 		</skills>
 	</AK_DLL.OperatorDef>
 
+	<!--四月-->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Sniper">
 		<defName>AK_Recruit_April</defName>
 		<name>April</name>
@@ -1574,6 +1606,8 @@ Construction worker Pinecone, all spaced out while she gets the job done.</descr
 			</li>
 		</skills>
 	</AK_DLL.OperatorDef>
+
+	<!--远牙-->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Sniper">
 		<defName>AK_Recruit_Fartooth</defName>
@@ -1672,6 +1706,8 @@ Construction worker Pinecone, all spaced out while she gets the job done.</descr
 			</li>
 		</skills>
 	</AK_DLL.OperatorDef>
+
+	<!--红云-->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Sniper">
 		<defName>AK_Recruit_Vermeil</defName>
@@ -1773,6 +1809,8 @@ Construction worker Pinecone, all spaced out while she gets the job done.</descr
 		</skills>
 	</AK_DLL.OperatorDef>
 
+	<!--熔泉-->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Sniper">
 		<defName>AK_Recruit_Toddifons</defName>
 		<name>Toddifons</name>
@@ -1871,6 +1909,8 @@ Construction worker Pinecone, all spaced out while she gets the job done.</descr
 		</skills>
 	</AK_DLL.OperatorDef>
 
+	<!--子月-->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Sniper">
 		<defName>AK_Recruit_Lunacub</defName>
 		<name>Lunacub</name>
@@ -1968,6 +2008,8 @@ Construction worker Pinecone, all spaced out while she gets the job done.</descr
 		</skills>
 	</AK_DLL.OperatorDef>
 
+	<!--鸿雪-->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Sniper">
 		<defName>AK_Recruit_Pozyomka</defName>
 		<name>Pozyomka</name>
@@ -2061,6 +2103,8 @@ Construction worker Pinecone, all spaced out while she gets the job done.</descr
 			</li>
 		</skills>
 	</AK_DLL.OperatorDef>
+
+	<!--守林人-->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Sniper">
 		<defName>AK_Recruit_Firewatch</defName>
@@ -2159,6 +2203,8 @@ Construction worker Pinecone, all spaced out while she gets the job done.</descr
 		</skills>
 	</AK_DLL.OperatorDef>
 
+	<!--提丰-->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Sniper">
 		<defName>AK_Recruit_Typhon</defName>
 		<name>Typhon</name>
@@ -2250,6 +2296,8 @@ Construction worker Pinecone, all spaced out while she gets the job done.</descr
 		</skills>
 	</AK_DLL.OperatorDef>
 
+	<!--克洛丝-->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Sniper">
 		<defName>AK_Recruit_Kroos</defName>
 		<name>Kroos</name>
@@ -2340,6 +2388,8 @@ Construction worker Pinecone, all spaced out while she gets the job done.</descr
 			</li>
 		</skills>
 	</AK_DLL.OperatorDef>
+
+	<!--埃拉托-->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Sniper">
 		<defName>AK_Recruit_Erato</defName>
