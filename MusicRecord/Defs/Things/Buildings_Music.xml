@@ -18,14 +18,14 @@
 		<passability>PassThroughOnly</passability>
 		<castEdgeShadows>true</castEdgeShadows>
 		<fillPercent>0.5</fillPercent>
-		<designationCategory>Misc</designationCategory>
+		<designationCategory>MISBuildings</designationCategory>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<canOverlapZones>false</canOverlapZones>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
 		<hasInteractionCell>True</hasInteractionCell>
 		<interactionCellOffset>(0,0,1)</interactionCellOffset>
 		<thingCategories>
-			<li>BuildingsMisc</li>
+			<li>AK_Buildings</li>
 		</thingCategories>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>

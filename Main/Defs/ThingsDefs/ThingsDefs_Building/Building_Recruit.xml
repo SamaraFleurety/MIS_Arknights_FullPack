@@ -1,22 +1,16 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
 	<ThingDef ParentName="BuildingBase">
-		<defName>AK_Building_RecruitConsole</defName>
-		<label>干员招募台</label>
-		<description>招募干员用的特殊通讯台。</description>
+		<defName>AK_Building_RecruitTower</defName>
+		<label>协议核心</label>
+		<description>能用于招募干员的特殊通讯设施，整合了瞬时传送模块，可以将覆盖范围内的殖民者瞬间传送到塔下。\n\n该设施已支持名称自定义，欢迎各位用户搭建自己的个性化传送网络。</description>
 		<thingClass>AK_DLL.RecruitConsole</thingClass>
 		<graphicData>
-			<texPath>Things/Building/Misc/RecruitConsole</texPath>
-			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>(5,4)</drawSize>
-			<damageData>
-				<rect>(0,0,3,1.8)</rect>
-				<cornerBL>Damage/Corner</cornerBL>
-				<cornerBR>Damage/Corner</cornerBR>
-			</damageData>
+			<texPath>Things/Building/RecruitTower</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>10</drawSize>
 			<shadowData>
-				<volume>(3,0.5,2)</volume>
+				<volume>(0.7,1,0.7)</volume>
 			</shadowData>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
@@ -27,24 +21,25 @@
 		<fillPercent>0.5</fillPercent>
 		<canOverlapZones>false</canOverlapZones>
 		<statBases>
-			<MaxHitPoints>250</MaxHitPoints>
-			<WorkToBuild>2200</WorkToBuild>
-			<Mass>15</Mass>
-			<Flammability>0.6</Flammability>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>5000</WorkToBuild>
+			<Mass>30</Mass>
+			<Flammability>0.1</Flammability>
 		</statBases>
-		<size>(3,2)</size>
+		<size>(1,1)</size>
+		<uiIconPath>Things/Building/RecruitTower_MenuIcon</uiIconPath>
+		<uiIconScale>1.2</uiIconScale>
 		<building>
-			<destroySound>BuildingDestroyed_Metal_Big</destroySound>
+			<destroySound>BuildingDestroyed_Metal_Small</destroySound>
 		</building>
 		<costList>
 			<Steel>120</Steel>
 			<ComponentIndustrial>4</ComponentIndustrial>
 		</costList>
-		<defaultPlacingRot>South</defaultPlacingRot>
-		<interactionCellOffset>(0,0,2)</interactionCellOffset>
+		<interactionCellOffset>(0,0,0)</interactionCellOffset>
 		<hasInteractionCell>true</hasInteractionCell>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-		<designationCategory>Misc</designationCategory>
+		<designationCategory>MISBuildings</designationCategory>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<thingCategories>
 			<li>AK_Buildings</li>
@@ -73,11 +68,11 @@
 		</comps>
 		<placeWorkers>
 			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+			<li>PlaceWorker_NotUnderRoof</li>
 		</placeWorkers>
 		<researchPrerequisites>
 			<li>MicroelectronicsBasics</li>
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
 	</ThingDef>
-
 </Defs>
