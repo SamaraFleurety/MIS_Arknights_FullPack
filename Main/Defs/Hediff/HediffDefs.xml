@@ -33,6 +33,25 @@
 			</li>
 		</comps>
 	</HediffDef>-->
+	<HediffDef ParentName="ChronicDiseaseBase">
+		<defName>AK_Hediff_DoctorScenario</defName>
+		<label>博士</label>
+		<labelNoun>博士</labelNoun>
+		<isBad>false</isBad>
+		<description>博士</description>
+		<scenarioCanAdd>true</scenarioCanAdd>
+		<removeOnRedressChanceByDaysCurve Inherit = "false">
+		</removeOnRedressChanceByDaysCurve>
+		<comps>
+			<li Class="AK_DLL.HCP_AddTrait">
+				<traits>
+					<li>
+						<def>AK_Trait_Agent_Doc</def>
+					</li>
+				</traits>
+			</li>
+		</comps>
+	</HediffDef>
 
 	<!-- 专属 -->
 

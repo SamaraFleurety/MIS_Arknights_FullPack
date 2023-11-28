@@ -24,17 +24,19 @@
 				</li>
 				<li Class="ScenPart_ForcedHediff">
 					<def>ForcedHediff</def>
+					<chance>1</chance>
+					<context>PlayerStarter</context>
+					<hideOffMap>True</hideOffMap>
+					<hediff>AK_Trait_Agent_Doc</hediff>
+					<severityRange>1~1</severityRange>
+				</li>
+				<li Class="ScenPart_ForcedHediff">
+					<def>ForcedHediff</def>
 					<chance>0.5</chance>
 					<context>PlayerStarter</context>
 					<hideOffMap>True</hideOffMap>
 					<hediff>CryptosleepSickness</hediff>
 					<severityRange>1~1</severityRange>
-				</li>
-				<li Class="ScenPart_ForcedTrait">
-					<def>ForcedTrait</def>
-					<chance>1</chance>
-					<context>PlayerStarter</context>
-					<trait>AK_Trait_Agent_Doc</trait>
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>

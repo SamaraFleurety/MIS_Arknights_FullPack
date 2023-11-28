@@ -14,6 +14,19 @@
 		</comps>
 	</HediffDef> -->
 	
+	<HediffDef ParentName="ChronicDiseaseBase">
+		<defName>AK_Hediff_AlienRacePatch</defName>
+		<label>外星人发型修复</label>
+		<labelNoun>外星人发型修复</labelNoun>
+		<isBad>false</isBad>
+		<description>博士</description>
+		<removeOnRedressChanceByDaysCurve Inherit = "false">
+		</removeOnRedressChanceByDaysCurve>
+		<comps>
+			<li Class="AK_DLL.HCP_ForceColors" />
+		</comps>
+	</HediffDef>
+	
 	<AbilityDef Name="AK_OperatorIDBase">
 		<defName>AK_VAbility_Operator</defName>
 		<label>Operator</label>
