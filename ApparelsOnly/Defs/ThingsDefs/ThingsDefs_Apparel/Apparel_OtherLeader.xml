@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="AK_ArmorBase_OtherLeader">
+		<defName>AK_Apparel_Kristen</defName>
+		<label>克丽斯腾服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/OtherLeader/Kristen</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/OtherLeader/Kristen</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_OtherLeader">
+		<defName>AK_Apparel_FrostNova</defName>
+		<label>霜星服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/OtherLeader/FrostNova</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/OtherLeader/FrostNova</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_OtherLeader">
+		<defName>AK_Apparel_Eblana</defName>
+		<label>爱布拉娜服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/OtherLeader/Eblana</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/OtherLeader/Eblana</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+</Defs>

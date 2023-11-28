@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="AK_ArmorBase_Supporter">
+		<defName>AK_Apparel_Angelina</defName>
+		<label>安洁莉娜的服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Supporter/Angelina</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Supporter/Angelina</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Supporter">
+		<defName>AK_Apparel_Magallan</defName>
+		<label>麦哲伦的服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Supporter/Magallan</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Supporter/Magallan</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Supporter">
+		<defName>AK_Apparel_Suzuran</defName>
+		<label>铃兰的服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Supporter/Suzuran</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Supporter/Suzuran</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Supporter">
+		<defName>AK_Apparel_MayerB</defName>
+		<label>梅尔的服装（无线控装置）</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Supporter/Mayer2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Supporter/Mayer2</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Supporter">
+		<defName>AK_Apparel_MayerA</defName>
+		<label>梅尔的服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Supporter/Mayer</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Supporter/Mayer</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Supporter">
+		<defName>AK_Apparel_Deepcolor</defName>
+		<label>深海色服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Supporter/Deepcolor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Supporter/Deepcolor</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Supporter">
+		<defName>AK_Apparel_Pramanix</defName>
+		<label>初雪服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Supporter/Pramanix</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Supporter/Pramanix</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Supporter">
+		<defName>AK_Apparel_Glaucus</defName>
+		<label>格劳克斯服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Supporter/Glaucus</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Supporter/Glaucus</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Supporter">
+		<defName>AK_Apparel_Scene</defName>
+		<label>稀音服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Supporter/Scene</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Supporter/Scene</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Supporter">
+		<defName>AK_Apparel_Sora</defName>
+		<label>空服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Supporter/Sora</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Supporter/Sora</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Supporter">
+		<defName>AK_Apparel_Ling</defName>
+		<label>令服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Supporter/Ling</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Supporter/Ling</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Supporter">
+		<defName>AK_Apparel_Istina</defName>
+		<label>真理服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Supporter/Istina</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Supporter/Istina</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Supporter">
+		<defName>AK_Apparel_Heidi</defName>
+		<label>海蒂服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Supporter/Heidi</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Supporter/Heidi</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Supporter">
+		<defName>AK_Apparel_Gnosis</defName>
+		<label>灵知服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Supporter/Gnosis</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Supporter/Gnosis</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Supporter">
+		<defName>AK_Apparel_Quercus</defName>
+		<label>夏栎服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Supporter/Quercus</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Supporter/Quercus</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Supporter">
+		<defName>AK_Apparel_QuercusBardsTale</defName>
+		<label>夏栎-树影吟游</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Supporter/Quercus_BardsTale</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Supporter/Quercus_BardsTale</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Supporter">
+		<defName>AK_Apparel_Roberta</defName>
+		<label>罗比菈塔服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Supporter/Roberta</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Supporter/Roberta</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Supporter">
+		<defName>AK_Apparel_Proviso</defName>
+		<label>但书服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Supporter/Proviso</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Supporter/Proviso</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Supporter">
+		<defName>AK_Apparel_CorruptingHeart</defName>
+		<label>浊心斯卡蒂服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Supporter/CorruptingHeart</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Supporter/CorruptingHeart</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+</Defs>

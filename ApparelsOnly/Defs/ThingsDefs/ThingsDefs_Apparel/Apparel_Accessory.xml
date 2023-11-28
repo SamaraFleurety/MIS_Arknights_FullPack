@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  FIXME:连带base一起完全没做  -->
+<Defs>
+	<ThingDef Name="AK_AccessoryBase" ParentName="AK_ArmorBase">
+		<apparel>
+			<bodyPartGroups Inherit="False">
+				<li>Neck</li>
+			</bodyPartGroups>
+			<layers Inherit="False">
+				<li>Overhead</li>
+			</layers>
+		</apparel>
+	</ThingDef>
+
+
+	<!-- <ThingDef ParentName="AK_AccessoryBase">
+		<defName>AK_Accessory_Weedy</defName>
+		<label>小叶</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/HatAccessory/WeedyA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/HatAccessory/WeedyA</wornGraphicPath>
+		</apparel>
+	</ThingDef> -->
+
+</Defs>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="AK_ArmorBase_Defender">
+		<defName>AK_Apparel_Eunectes</defName>
+		<label>森蚺服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Defender/Eunectes</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Defender/Eunectes</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Defender">
+		<defName>AK_Apparel_Hoshiguma</defName>
+		<label>星熊服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Defender/Hoshiguma</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Defender/Hoshiguma</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Defender">
+
+		<defName>AK_Apparel_Liskarm</defName>
+		<label>雷蛇服装</label>
+		<description>黑钢为防护人员的标准制服，采用了高强度纤维打造，轻便灵活又能提供可靠的防护，适用于包括要人保全、据点攻坚、人质解救、威胁肃清在内的各种特种行动。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Defender/Liskarm</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<Mass>7</Mass>
+			<ArmorRating_Sharp>1.00</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.40</ArmorRating_Heat>
+			<Insulation_Cold>16</Insulation_Cold>
+			<Insulation_Heat>8</Insulation_Heat>
+			<EquipDelay>13</EquipDelay>
+		</statBases>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Defender/Liskarm</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Defender">
+		<defName>AK_Apparel_Mudrock</defName>
+		<label>泥岩服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Defender/Mudrock</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Defender/Mudrock</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Defender">
+		<defName>AK_Apparel_Nian</defName>
+		<label>年服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Defender/Nian</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Defender/Nian</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Defender">
+		<defName>AK_Apparel_Saria</defName>
+		<label>塞雷娅服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Defender/Saria</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Defender/Saria</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Defender">
+		<defName>AK_Apparel_Blemishine</defName>
+		<label>瑕光服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Defender/Blemishine</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Defender/Blemishine</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Defender">
+		<defName>AK_Apparel_Cuora</defName>
+		<label>蛇屠箱服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Defender/Cuora</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Defender/Cuora</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Defender">
+		<defName>AK_Apparel_Croissant</defName>
+		<label>可颂服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Defender/Croissant</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Defender/Croissant</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Defender">
+		<defName>AK_Apparel_Aurora</defName>
+		<label>极光服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Defender/Aurora</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Defender/Aurora</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Defender">
+		<defName>AK_Apparel_Ashlock</defName>
+		<label>灰毫服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Defender/Ashlock</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Defender/Ashlock</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Defender">
+		<defName>AK_Apparel_Horn</defName>
+		<label>号角服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Defender/Horn</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Defender/Horn</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Defender">
+		<defName>AK_Apparel_Gummy</defName>
+		<label>古米服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Defender/Gummy</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Defender/Gummy</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Defender">
+		<defName>AK_Apparel_Matterhorn</defName>
+		<label>角峰服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Defender/Matterhorn</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Defender/Matterhorn</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Defender">
+		<defName>AK_Apparel_Vulcan</defName>
+		<label>火神服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Defender/Vulcan</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Defender/Vulcan</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Defender">
+		<defName>AK_Apparel_Nearl</defName>
+		<label>临光服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Defender/Nearl</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Defender/Nearl</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Defender">
+		<defName>AK_Apparel_Penance</defName>
+		<label>斥罪服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Defender/Penance</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Defender/Penance</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Defender">
+		<defName>AK_Apparel_Beagle</defName>
+		<label>米格鲁服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Defender/Beagle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Defender/Beagle</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Defender">
+		<defName>AK_Apparel_Liberated</defName>
+		<label>涤火杰西卡服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Defender/Liberated</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Defender/Liberated</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+</Defs>
