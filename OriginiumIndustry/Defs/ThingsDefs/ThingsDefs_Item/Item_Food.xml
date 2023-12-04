@@ -2,6 +2,9 @@
 <Defs>
 
     <ThingDef Name="AKI_MealBaseIngredientless" Abstract="True">
+        <graphicData>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
         <thingClass>ThingWithComps</thingClass>
         <category>Item</category>
         <drawerType>MapMeshOnly</drawerType>
@@ -71,7 +74,6 @@
         <description>热腾腾的杂粮中加入了岩壳蟹肉，吃起来朴素中略带鲜味。\n好吃是好吃，但……究竟是谁第一个决定尝试食用岩壳蟹的呢？</description>
         <graphicData>
             <texPath>Things/Food/CrabMeatRice</texPath>
-            <graphicClass>Graphic_MealVariants</graphicClass>
         </graphicData>
         <statBases>
             <MarketValue>30</MarketValue>
@@ -113,7 +115,6 @@
         <description>经超长时间高压蒸制的极鲜浓汤，被料理机固化重组后制成的汤酥。\n一口下去，仿佛吃进去了一片云朵，一阵热风。汤鲜浓郁，入口即化。</description>
         <graphicData>
             <texPath>Things/Food/HighPressureSoup</texPath>
-            <graphicClass>Graphic_MealVariants</graphicClass>
         </graphicData>
         <statBases>
             <MarketValue>45</MarketValue>
@@ -157,7 +158,6 @@
         <description>低温慢煮而成的食物，为了增香，外表还经过了微微的炙烤。\n很难从外表看出它来自何种动物，不过加热之后味道令人满意，这就足够了，毕竟填饱肚子才是最重要的。</description>
         <graphicData>
             <texPath>Things/Food/LowTemperatureMeat</texPath>
-            <graphicClass>Graphic_MealVariants</graphicClass>
         </graphicData>
         <statBases>
             <MarketValue>35</MarketValue>
@@ -194,7 +194,6 @@
         <description>将多种肉类复合制成的肉酱，在添加完相应的营养剂后，不论是口感还是色香味，都有了明显的提升。\n任何时候都能食用，科技使它永远不会过期。</description>
         <graphicData>
             <texPath>Things/Food/CompoundRefinedMeatSauce</texPath>
-            <graphicClass>Graphic_MealVariants</graphicClass>
         </graphicData>
         <statBases>
             <MarketValue>10</MarketValue>
@@ -225,7 +224,6 @@
         <description>提取肉类鲜味和营养物质后高温浓缩而成的原液，营养丰富。\n本品为浓缩液，请避免直接食用。</description>
         <graphicData>
             <texPath>Things/Food/ConcentratedSoupStock</texPath>
-            <graphicClass>Graphic_MealVariants</graphicClass>
         </graphicData>
         <statBases>
             <MarketValue>50</MarketValue>
@@ -267,7 +265,6 @@
         <description>可直接食用的凝胶，室温下不会融化，口感软弹，营养丰富。\n有些科技食物会为了追求高级感而失去食物的本味，它就是一个很好的例子。</description>
         <graphicData>
             <texPath>Things/Food/DeliciousSoupGel</texPath>
-            <graphicClass>Graphic_MealVariants</graphicClass>
         </graphicData>
         <statBases>
             <MarketValue>50</MarketValue>
@@ -309,7 +306,6 @@
         <description>为了展现出岩壳蟹的鲜味和营养，其中还加入了很少见的高级肉类。\n据说它还努力地模仿了岩壳蟹肉的口感，但似乎没人发现。</description>
         <graphicData>
             <texPath>Things/Food/CrabAlcohol</texPath>
-            <graphicClass>Graphic_MealVariants</graphicClass>
         </graphicData>
         <statBases>
             <MarketValue>80</MarketValue>
@@ -353,7 +349,6 @@
         <description>由当下最时兴的鲜萃技术制作而成，只有小小一口，但浓香醉人。\n莱塔尼亚人执着于为不同口味的浓汤搭配不同的音乐，据说曾有诗人专门为此创作诗歌。</description>
         <graphicData>
             <texPath>Things/Food/LeitaniaThickSoup</texPath>
-            <graphicClass>Graphic_MealVariants</graphicClass>
         </graphicData>
         <statBases>
             <MarketValue>200</MarketValue>
@@ -397,7 +392,6 @@
         <description>食用时请遵守绅士淑女进餐礼仪，好保证你在此刻对于食物的享受。\n维多利亚人为他们的文化而自豪，任何时候都不愿低头。</description>
         <graphicData>
             <texPath>Things/Food/VictoriaRoyalCoagulant</texPath>
-            <graphicClass>Graphic_MealVariants</graphicClass>
         </graphicData>
         <statBases>
             <MarketValue>220</MarketValue>
@@ -439,7 +433,6 @@
         <description>莱茵生命产品，改变食材分子结构再重新组合而成，外壳滋味丰富，食用后可获得极强的饱腹感，在获得满足的同时降低食物的摄取量。\n非常利于身体健康，但不利于心灵健康。</description>
         <graphicData>
             <texPath>Things/Food/ColumbiaMolecularCapsule</texPath>
-            <graphicClass>Graphic_MealVariants</graphicClass>
         </graphicData>
         <statBases>
             <MarketValue>280</MarketValue>
@@ -475,7 +468,6 @@
         <description>云山衔一梦。\n呼……酽茶醇酒，斜风细雪，似乎都能在这之中体味到。</description>
         <graphicData>
             <texPath>Things/Food/YanOriginalLiquid</texPath>
-            <graphicClass>Graphic_MealVariants</graphicClass>
         </graphicData>
         <statBases>
             <MarketValue>230</MarketValue>
@@ -517,7 +509,6 @@
         <description>选用当季的新鲜食材，配合季节变换，通过菜肴传达禅意，给人绝对的视觉享受。\n如果制作这席荣肴的是专业东国厨师的话，或许美丽和美味还是可以兼得的。</description>
         <graphicData>
             <texPath>Things/Food/DongguoNanoFood</texPath>
-            <graphicClass>Graphic_MealVariants</graphicClass>
         </graphicData>
         <statBases>
             <MarketValue>400</MarketValue>
@@ -561,7 +552,6 @@
         <description>光看颜色就能让人兴奋起来，并涌出了拥有它的欲望，哪怕已经走过，也想回过头来再看看。\n喝下去以后感觉精神百倍。之前有商家说这就是耀骑士赛前喝的东西，人们蜂拥而上。</description>
         <graphicData>
             <texPath>Things/Food/CassimirKnightSupplement</texPath>
-            <graphicClass>Graphic_MealVariants</graphicClass>
         </graphicData>
         <statBases>
             <MarketValue>400</MarketValue>
@@ -597,7 +587,6 @@
         <description>纯净的外表让人安静下来，但里面的味道让人脑袋在一瞬间出现了有些奇怪的画面——是爆炸？！\n而且很甜，非常甜！不应该是汤吗?</description>
         <graphicData>
             <texPath>Things/Food/LateranHolySoundDecoction</texPath>
-            <graphicClass>Graphic_MealVariants</graphicClass>
         </graphicData>
         <statBases>
             <MarketValue>400</MarketValue>
@@ -641,7 +630,6 @@
         <description>据说最开始是某位祭司在听完一首长篇叙事诗后突发灵感所作，品尝后让人能够真切感悟到他当时的心情。\n不好，里面似乎加了酒，已经开始头晕了！</description>
         <graphicData>
             <texPath>Things/Food/MinosPoetryGel</texPath>
-            <graphicClass>Graphic_MealVariants</graphicClass>
         </graphicData>
         <statBases>
             <MarketValue>400</MarketValue>
@@ -685,7 +673,6 @@
         <description>篝火！舞蹈！烤得金黄渗出油脂的整只猎物！雨林部族最高级别的款待！\n一个人吃完一整头，你就是今天的部族英雄！</description>
         <graphicData>
             <texPath>Things/Food/TribalCarnivalDinner</texPath>
-            <graphicClass>Graphic_MealVariants</graphicClass>
         </graphicData>
         <statBases>
             <MarketValue>650</MarketValue>
