@@ -1622,7 +1622,7 @@
 		<description>FIXMEDESC</description>
 		<weapon>AK_Weapon_CorruptingHeart</weapon>
 		<hair>AK_Hair_CorruptingHeart</hair>
-		<apparels>
+		<apparels Inherit="false">
 			<li>AK_Apparel_CorruptingHeart</li>
 			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_CorruptingHeart</li>
 		</apparels>

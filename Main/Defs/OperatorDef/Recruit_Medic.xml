@@ -10,7 +10,7 @@
 		<description>Simple, yet a mystery you can't seem to solve no matter what.\nShining, Sarkaz healer, will do everything she can to provide medical care for the squad.</description>
 		<weapon>AK_Weapon_Shining</weapon>
 		<hair>AK_Hair_Shining</hair>
-		<apparels>
+		<apparels Inherit="false">
 			<li>AK_Apparel_Shining</li>
 			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Shining</li>
 		</apparels>
@@ -472,7 +472,7 @@ Silence, medical specialist of Rhine Lab, will make use of the latest scientific
 		<apparels>
 			<li>AK_Apparel_Nightingale</li>
 			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Nightingale</li>
-		</apparels>
+		</apparels Inherit="false">
 		<stand>UI/Image/Medic/NightingaleStand</stand>
 		<headPortrait>UI/Image/Medic/NightingalePortrait</headPortrait>
 		<skills>
