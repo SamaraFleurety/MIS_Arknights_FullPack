@@ -229,4 +229,16 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Supporter">
+		<defName>AK_Apparel_CorruptingHeartSublimation</defName>
+		<label>浊心斯卡蒂-升华</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Supporter/CorruptingHeart_Sublimation</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Supporter/CorruptingHeart_Sublimation</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 </Defs>

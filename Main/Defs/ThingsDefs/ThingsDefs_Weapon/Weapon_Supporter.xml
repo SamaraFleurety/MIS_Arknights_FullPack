@@ -1015,7 +1015,7 @@
 		</projectile>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_WeaponBase_Supporter">
+	<ThingDef ParentName="AK_WeaponBase_Supporter" Name="AK_Weapon_CorruptingHeart">
 		<defName>AK_Weapon_CorruptingHeart</defName>
 		<label>斯卡蒂的法杖</label>
 		<graphicData>
@@ -1065,6 +1065,15 @@
 				<noiseRadius>3</noiseRadius>
 			</li>
 		</verbs>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_Weapon_CorruptingHeart">
+		<defName>AK_Weapon_CorruptingHeartSublimation</defName>
+		<label>浊心斯卡蒂-升华的法杖</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Supporter/CorruptingHeart_SublimationW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
 	</ThingDef>
 
 	<ThingDef ParentName="AK_BulletBase_Bow">

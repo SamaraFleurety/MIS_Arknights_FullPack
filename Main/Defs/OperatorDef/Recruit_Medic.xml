@@ -12,10 +12,8 @@
 		<hair>AK_Hair_Shining</hair>
 		<apparels>
 			<li>AK_Apparel_Shining</li>
-		</apparels>
-		<accessory Inherit="false">
 			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Shining</li>
-		</accessory>
+		</apparels>
 		<stand>UI/Image/Medic/ShiningStand</stand>
 		<headPortrait>UI/Image/Medic/ShiningPortrait</headPortrait>
 		<skills>
@@ -108,6 +106,7 @@
 					<hair>AK_Hair_ShiningSilentNight</hair>
 					<apparels>
 						<li>AK_Apparel_ShiningSilentNight</li>
+						<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_ShiningSilentNight</li>
 					</apparels>
 					<weapon>AK_Weapon_ShiningSilentNight</weapon>
 				</value>
@@ -472,10 +471,8 @@ Silence, medical specialist of Rhine Lab, will make use of the latest scientific
 		<hair>AK_Hair_Nightingale</hair>
 		<apparels>
 			<li>AK_Apparel_Nightingale</li>
-		</apparels>
-		<accessory Inherit="false">
 			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Nightingale</li>
-		</accessory>
+		</apparels>
 		<stand>UI/Image/Medic/NightingaleStand</stand>
 		<headPortrait>UI/Image/Medic/NightingalePortrait</headPortrait>
 		<skills>
@@ -569,6 +566,7 @@ Silence, medical specialist of Rhine Lab, will make use of the latest scientific
 					<hair>AK_Hair_NightingaleElegy</hair>
 					<apparels>
 						<li>AK_Apparel_NightingaleElegy</li>
+						<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_NightingaleElegy</li>
 					</apparels>
 					<weapon>AK_Weapon_NightingaleElegy</weapon>
 				</value>

@@ -1624,10 +1624,8 @@
 		<hair>AK_Hair_CorruptingHeart</hair>
 		<apparels>
 			<li>AK_Apparel_CorruptingHeart</li>
-		</apparels>
-		<accessory Inherit="false">
 			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_CorruptingHeart</li>
-		</accessory>
+		</apparels>
 		<stand>UI/Image/Supporter/CorruptingHeartStand</stand>
 		<headPortrait>UI/Image/Supporter/CorruptingHeartPortrait</headPortrait>
 		<traits>
@@ -1641,6 +1639,20 @@
 		<age>20</age>
 		<childHood>AK_BackStory_CorruptingHeart_Child</childHood>
 		<adultHood>AK_BackStory_CorruptingHeart_Adult</adultHood>
+		<clothSet>
+			<li>
+				<key>0</key>
+				<value>
+					<label>Sublimation</label>
+					<hair>AK_Hair_CorruptingHeartSublimation</hair>
+					<apparels>
+						<li>AK_Apparel_CorruptingHeartSublimation</li>
+						<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_CorruptingHeartSublimation</li>
+					</apparels>
+					<weapon>AK_Weapon_CorruptingHeartSublimation</weapon>
+				</value>
+			</li>
+		</clothSet>
 		<skills>
 			<li>
 				<skill>Animals</skill>

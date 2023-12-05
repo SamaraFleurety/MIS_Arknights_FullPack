@@ -248,6 +248,41 @@
     </ThingDef>
 
     <ThingDef ParentName="AK_BeltBase">
+        <defName>AK_ShieldBelt_ShiningSilentNight</defName>
+        <label>黑恶魔的庇护-静谧午夜</label>
+        <description>无论繁荣，还是灭亡。</description>
+        <statBases>
+            <EnergyShieldRechargeRate>0.2</EnergyShieldRechargeRate>
+            <EnergyShieldEnergyMax>2</EnergyShieldEnergyMax>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/ShieldBeltShining_SilentNight</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+                <startingTicksToReset>4800</startingTicksToReset>
+                <energyOnReset>0.3</energyOnReset>
+                <energyLossPerDamage>0.01</energyLossPerDamage>
+                <canAbsorbMeleeDamage>true</canAbsorbMeleeDamage>
+                <meleeAbsorbFactor>1</meleeAbsorbFactor>
+                <rangedAbsorbFactor>2</rangedAbsorbFactor>
+                <canDodge>false</canDodge>
+                <breakWithSmoke>false</breakWithSmoke>
+                <canForceActive>false</canForceActive>
+                <fireFoamBurster>false</fireFoamBurster>
+                <versionInfo>ShiningSilentNight-Shield</versionInfo>
+                <alias>闪灵-静谧午夜的护盾</alias>
+            </li>
+            <li Class="AKE_VanyaShield.TCP_VanyaShieldExtension">
+                <hideVanillaBubble>true</hideVanillaBubble>
+                <bubbleStaticTexPath>Things/ShieldBelt/ShieldBeltShining_SilentNightS</bubbleStaticTexPath>
+                <bubbleRotateTexPath>Things/ShieldBelt/ShieldBeltShining_SilentNightD</bubbleRotateTexPath>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="AK_BeltBase">
         <defName>AK_ShieldBelt_Nightingale</defName>
         <label>白恶魔的庇护</label>
         <description>于睡梦中，她是否也会成为一只自由的飞鸟呢？</description>
@@ -278,6 +313,41 @@
             <li Class="AKE_VanyaShield.TCP_VanyaShieldExtension">
                 <hideVanillaBubble>true</hideVanillaBubble>
                 <bubbleStaticTexPath>Things/ShieldBelt/ShieldBeltNightingaleS</bubbleStaticTexPath>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="AK_BeltBase">
+        <defName>AK_ShieldBelt_NightingaleElegy</defName>
+        <label>白恶魔-挽歌的庇护</label>
+        <description>于睡梦中，她是否也会成为一只自由的飞鸟呢？</description>
+        <statBases>
+            <EnergyShieldRechargeRate>0.2</EnergyShieldRechargeRate>
+            <EnergyShieldEnergyMax>2</EnergyShieldEnergyMax>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/ShieldBeltNightingale_ElegyS</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+                <startingTicksToReset>4800</startingTicksToReset>
+                <energyOnReset>0.3</energyOnReset>
+                <energyLossPerDamage>0.015</energyLossPerDamage>
+                <canAbsorbMeleeDamage>true</canAbsorbMeleeDamage>
+                <meleeAbsorbFactor>2</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1</rangedAbsorbFactor>
+                <canDodge>true</canDodge>
+                <dodgeChanceFactor>0.3</dodgeChanceFactor>
+                <breakWithSmoke>false</breakWithSmoke>
+                <canForceActive>false</canForceActive>
+                <fireFoamBurster>false</fireFoamBurster>
+                <versionInfo>NightingaleElegy-Shield</versionInfo>
+                <alias>夜莺-挽歌的护盾</alias>
+            </li>
+            <li Class="AKE_VanyaShield.TCP_VanyaShieldExtension">
+                <hideVanillaBubble>true</hideVanillaBubble>
+                <bubbleStaticTexPath>Things/ShieldBelt/ShieldBeltNightingale_ElegyS</bubbleStaticTexPath>
             </li>
         </comps>
     </ThingDef>
@@ -453,6 +523,42 @@
                 <hideVanillaBubble>true</hideVanillaBubble>
                 <bubbleStaticTexPath>Things/ShieldBelt/ShieldBeltCorruptingHeartS</bubbleStaticTexPath>
                 <bubbleRotateTexPath>Things/ShieldBelt/ShieldBeltCorruptingHeartD</bubbleRotateTexPath>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="AK_BeltBase">
+        <defName>AK_ShieldBelt_CorruptingHeartSublimation</defName>
+        <label>同葬无光之愿-升华</label>
+        <description>她从不想伤害任何人，亦不想成为灾厄，她是如此深爱着你们，渴望着你们幡然悔悟，成为她的血亲，去往那永恒的故乡和摇篮。</description>
+        <statBases>
+            <EnergyShieldRechargeRate>0.6</EnergyShieldRechargeRate>
+            <EnergyShieldEnergyMax>6</EnergyShieldEnergyMax>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/ShieldBeltCorruptingHeart_Sublimation</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+                <startingTicksToReset>2700</startingTicksToReset>
+                <energyOnReset>1</energyOnReset>
+                <energyLossPerDamage>0.015</energyLossPerDamage>
+                <canAbsorbMeleeDamage>true</canAbsorbMeleeDamage>
+                <meleeAbsorbFactor>1</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1</rangedAbsorbFactor>
+                <canDodge>true</canDodge>
+                <dodgeChanceFactor>0.35</dodgeChanceFactor>
+                <breakWithSmoke>false</breakWithSmoke>
+                <canForceActive>false</canForceActive>
+                <fireFoamBurster>true</fireFoamBurster>
+                <versionInfo>CorruptingHeartSublimation-Shield</versionInfo>
+                <alias>浊心斯卡蒂-升华的护盾</alias>
+            </li>
+            <li Class="AKE_VanyaShield.TCP_VanyaShieldExtension">
+                <hideVanillaBubble>true</hideVanillaBubble>
+                <bubbleStaticTexPath>Things/ShieldBelt/ShieldBeltCorruptingHeart_SublimationS</bubbleStaticTexPath>
+                <bubbleRotateTexPath>Things/ShieldBelt/ShieldBeltCorruptingHeart_SublimationD</bubbleRotateTexPath>
             </li>
         </comps>
     </ThingDef>
