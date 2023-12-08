@@ -469,10 +469,10 @@ Silence, medical specialist of Rhine Lab, will make use of the latest scientific
 		<description>As simple as a blank sheet.\nNightingale, Sarkaz healer, will do everything she can to provide medical care for the squad.</description>
 		<weapon>AK_Weapon_Nightingale</weapon>
 		<hair>AK_Hair_Nightingale</hair>
-		<apparels>
+		<apparels Inherit="false">
 			<li>AK_Apparel_Nightingale</li>
 			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Nightingale</li>
-		</apparels Inherit="false">
+		</apparels>
 		<stand>UI/Image/Medic/NightingaleStand</stand>
 		<headPortrait>UI/Image/Medic/NightingalePortrait</headPortrait>
 		<skills>
