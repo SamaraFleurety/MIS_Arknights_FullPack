@@ -789,7 +789,7 @@
 		</tools>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_WeaponBase_Defender">
+	<ThingDef ParentName="AK_WeaponBase_Defender" Name="AK_Weapon_Penance">
 		<defName>AK_Weapon_Penance</defName>
 		<label>斥罪的刺锤</label>
 		<description>布满了荆棘的锤子，锐气逼人。\n越能感受到拿起它时之轻，越能感受到敲下它时之重。</description>
@@ -815,6 +815,15 @@
 				<cooldownTime>2.8</cooldownTime>
 			</li>
 		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_Weapon_Penance">
+		<defName>AK_Weapon_PenanceOccasionalFlush</defName>
+		<label>斥罪-偶尔熏陶的手提包</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Defender/Penance_OccasionalFlushW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
 	</ThingDef>
 
 	<ThingDef ParentName="AK_WeaponBase_Defender">
