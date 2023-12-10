@@ -171,6 +171,18 @@
 	</ThingDef>
 
 	<ThingDef ParentName="AK_ArmorBase_Vanguard">
+		<defName>AK_Apparel_BeanstalkGiftUncompleted</defName>
+		<label>豆苗-未完成的礼物</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Vanguard/Beanstalk_GiftUncompleted</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Vanguard/Beanstalk_GiftUncompleted</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Vanguard">
 		<defName>AK_Apparel_Blacknight</defName>
 		<label>夜半服装</label>
 		<graphicData>

@@ -483,7 +483,7 @@
     </tools>
   </ThingDef>
 
-  <ThingDef ParentName="AK_WeaponBase_Vanguard">
+  <ThingDef ParentName="AK_WeaponBase_Vanguard" Name="AK_Weapon_Beanstalk">
     <defName>AK_Weapon_Beanstalk</defName>
     <label>豆苗的手弩</label>
     <description>豆苗的手弩，上面绑着很漂亮的绿色丝带。\n哥伦比亚各大武器商店均有销售。</description>
@@ -524,6 +524,15 @@
         <cooldownTime>1.2</cooldownTime>
       </li>
     </tools>
+  </ThingDef>
+
+  <ThingDef ParentName="AK_Weapon_Beanstalk">
+    <defName>AK_Weapon_BeanstalkGiftUncompleted</defName>
+    <label>豆苗-未完成的礼物的手弩</label>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Vanguard/Beanstalk_GiftUncompletedW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
   </ThingDef>
 
   <ThingDef ParentName="AK_BulletBase_Bow">
