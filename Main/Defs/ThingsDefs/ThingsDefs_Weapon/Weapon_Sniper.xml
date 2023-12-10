@@ -952,6 +952,7 @@
 	<ThingDef ParentName="AK_Weapon_Platinum">
 		<defName>AK_Weapon_PlatinumShimmeringDew</defName>
 		<label>白金-灿阳朝露的弓</label>
+		<equippedAngleOffset>45</equippedAngleOffset>
 		<graphicData>
 			<texPath>Things/AK_Agents/Weapon/Sniper/Platinum_ShimmeringDewW</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

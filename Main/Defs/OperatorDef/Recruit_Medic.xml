@@ -14,6 +14,7 @@
 			<li>AK_Apparel_Shining</li>
 			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Shining</li>
 		</apparels>
+		<accessory Inherit="false"/>
 		<stand>UI/Image/Medic/ShiningStand</stand>
 		<headPortrait>UI/Image/Medic/ShiningPortrait</headPortrait>
 		<skills>
@@ -473,6 +474,7 @@ Silence, medical specialist of Rhine Lab, will make use of the latest scientific
 			<li>AK_Apparel_Nightingale</li>
 			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Nightingale</li>
 		</apparels>
+		<accessory Inherit="false"/>
 		<stand>UI/Image/Medic/NightingaleStand</stand>
 		<headPortrait>UI/Image/Medic/NightingalePortrait</headPortrait>
 		<skills>

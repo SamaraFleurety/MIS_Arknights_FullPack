@@ -1070,6 +1070,7 @@
 	<ThingDef ParentName="AK_Weapon_CorruptingHeart">
 		<defName>AK_Weapon_CorruptingHeartSublimation</defName>
 		<label>浊心斯卡蒂-升华的法杖</label>
+		<equippedAngleOffset>45</equippedAngleOffset>
 		<graphicData>
 			<texPath>Things/AK_Agents/Weapon/Supporter/CorruptingHeart_SublimationW</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
