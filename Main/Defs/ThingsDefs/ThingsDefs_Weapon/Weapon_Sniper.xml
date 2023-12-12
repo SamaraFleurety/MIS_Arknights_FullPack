@@ -1921,7 +1921,7 @@
 		</projectile>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_WeaponBase_Sniper">
+	<ThingDef ParentName="AK_WeaponBase_Sniper" Name="AK_Weapon_Erato">
 		<defName>AK_Weapon_Erato</defName>
 		<label>埃拉托的弦弓</label>
 		<graphicData>
@@ -1966,6 +1966,15 @@
 				<cooldownTime>2.8</cooldownTime>
 			</li>
 		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_Weapon_Erato">
+		<defName>AK_Weapon_EratoUntoldStories</defName>
+		<label>埃拉托-未讲述的故事的巨弩</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Sniper/Erato_UntoldStoriesW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
 	</ThingDef>
 
 	<ThingDef ParentName="AK_BulletBase_Bow">

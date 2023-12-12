@@ -325,4 +325,16 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Sniper">
+		<defName>AK_Apparel_EratoUntoldStories</defName>
+		<label>埃拉托-未讲述的故事</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Sniper/Erato_UntoldStories</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Sniper/Erato_UntoldStories</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 </Defs>
