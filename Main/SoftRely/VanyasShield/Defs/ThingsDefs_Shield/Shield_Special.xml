@@ -108,6 +108,41 @@
     </ThingDef>
 
     <ThingDef ParentName="AK_BeltBase">
+        <defName>AK_ShieldBelt_PenanceOccasionalFlush</defName>
+        <label>荆棘环身</label>
+        <description>捍卫法律应存的正义。</description>
+        <statBases>
+            <EnergyShieldRechargeRate>0.15</EnergyShieldRechargeRate>
+            <EnergyShieldEnergyMax>3.2</EnergyShieldEnergyMax>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/ShieldBeltPenance_OccasionalFlushS</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+                <startingTicksToReset>6000</startingTicksToReset>
+                <energyOnReset>0.2</energyOnReset>
+                <energyLossPerDamage>0.015</energyLossPerDamage>
+                <canAbsorbMeleeDamage>true</canAbsorbMeleeDamage>
+                <meleeAbsorbFactor>1</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1</rangedAbsorbFactor>
+                <canDodge>false</canDodge>
+                <breakWithSmoke>false</breakWithSmoke>
+                <canForceActive>false</canForceActive>
+                <fireFoamBurster>false</fireFoamBurster>
+                <versionInfo>PenanceOccasionalFlush-Shield</versionInfo>
+                <alias>斥罪-偶尔熏陶的护盾</alias>
+            </li>
+            <li Class="AKE_VanyaShield.TCP_VanyaShieldExtension">
+                <hideVanillaBubble>true</hideVanillaBubble>
+                <bubbleStaticTexPath>Things/ShieldBelt/ShieldBeltPenance_OccasionalFlushS</bubbleStaticTexPath>
+                <reflectionRatio>0.5</reflectionRatio>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="AK_BeltBase">
         <defName>AK_ShieldBelt_Mudrock</defName>
         <label>沃土予身</label>
         <description>自她身后，山岳拔地而起，她扬起手，岩石瓦解，又再度汇聚。</description>

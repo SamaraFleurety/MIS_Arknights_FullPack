@@ -1737,10 +1737,9 @@
 		<hair>AK_Hair_Penance</hair>
 		<apparels>
 			<li>AK_Apparel_Penance</li>
-		</apparels>
-		<accessory Inherit="false">
 			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Penance</li>
-		</accessory>
+		</apparels>
+		<accessory Inherit="false"/>
 		<stand>UI/Image/Defender/PenanceStand</stand>
 		<headPortrait>UI/Image/Defender/PenancePortrait</headPortrait>
 		<traits>
@@ -1772,6 +1771,7 @@
 					<hair>AK_Hair_PenanceOccasionalFlush</hair>
 					<apparels>
 						<li>AK_Apparel_PenanceOccasionalFlush</li>
+						<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_PenanceOccasionalFlush</li>
 					</apparels>
 					<weapon>AK_Weapon_PenanceOccasionalFlush</weapon>
 				</value>
