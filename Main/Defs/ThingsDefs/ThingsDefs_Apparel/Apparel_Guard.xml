@@ -302,6 +302,18 @@
 	</ThingDef>
 
 	<ThingDef ParentName="AK_ArmorBase_Guard">
+		<defName>AK_Apparel_SiderocaLightBreeze</defName>
+		<label>铸铁服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Guard/Sideroca_LightBreeze</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Guard/Sideroca_LightBreeze</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Guard">
 		<defName>AK_Apparel_Astesia</defName>
 		<label>星极服装</label>
 		<graphicData>

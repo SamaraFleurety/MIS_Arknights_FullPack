@@ -1048,7 +1048,7 @@
     </tools>
   </ThingDef>
 
-  <ThingDef ParentName="AK_WeaponBase_Guard">
+  <ThingDef ParentName="AK_WeaponBase_Guard" Name="AK_Weapon_Sideroca">
     <defName>AK_Weapon_Sideroca</defName>
     <label>佣兵之刃</label>
     <description>一把大的有点夸张的刀刃，普通人只是举起来就极度费力，但是对于丰蹄来说并不困难。</description>
@@ -1108,6 +1108,15 @@
         <cooldownTime>1.2</cooldownTime>
       </li>
     </tools>
+  </ThingDef>
+
+  <ThingDef ParentName="AK_Weapon_Sideroca">
+    <defName>AK_Weapon_SiderocaLightBreeze</defName>
+    <label>铸铁-轻风的大剑</label>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Guard/Sideroca_LightBreezeW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
   </ThingDef>
 
   <ThingDef ParentName="AK_WeaponBase_Guard">
