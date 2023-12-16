@@ -1691,7 +1691,7 @@
 		<description>炎熔的法书</description>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_WeaponBase_Caster">
+	<ThingDef ParentName="AK_WeaponBase_Caster" Name="AK_Weapon_Santalla">
 		<defName>AK_Weapon_Santalla</defName>
 		<label>寒檀的法杖</label>
 		<graphicData>
@@ -1733,6 +1733,15 @@
 				<cooldownTime>1.8</cooldownTime>
 			</li>
 		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_Weapon_Santalla">
+		<defName>AK_Weapon_SantallaLeisurelyHoliday</defName>
+		<label>寒檀-悠然假日的法杖</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Caster/Santalla_LeisurelyHolidayW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
 	</ThingDef>
 
 	<ThingDef ParentName="AK_BulletBase_Bow">

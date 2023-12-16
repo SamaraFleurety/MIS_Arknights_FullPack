@@ -301,4 +301,16 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Caster">
+		<defName>AK_Apparel_SantallaLeisurelyHoliday</defName>
+		<label>寒檀服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Caster/Santalla_LeisurelyHoliday</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Caster/Santalla_LeisurelyHoliday</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 </Defs>
