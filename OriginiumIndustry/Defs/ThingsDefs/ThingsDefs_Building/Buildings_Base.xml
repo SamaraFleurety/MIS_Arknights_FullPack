@@ -24,7 +24,7 @@
         <constructEffect>ConstructMetal</constructEffect>
         <selectable>true</selectable>
         <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
-        <designationCategory>Power</designationCategory>
+        <designationCategory>MISBuildings</designationCategory>
         <tickerType>Normal</tickerType>
         <minifiedDef />
         <thingCategories Inherit="false" />
@@ -59,7 +59,7 @@
         <constructEffect>ConstructMetal</constructEffect>
         <selectable>true</selectable>
         <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
-        <designationCategory>Production</designationCategory>
+        <designationCategory>MISBuildings</designationCategory>
         <passability>PassThroughOnly</passability>
         <hasInteractionCell>True</hasInteractionCell>
         <interactionCellOffset>(0,0,-1)</interactionCellOffset>

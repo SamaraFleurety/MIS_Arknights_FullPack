@@ -1746,9 +1746,12 @@
 		<stand>UI/Image/Supporter/VirtuosaStand</stand>
 		<headPortrait>UI/Image/Supporter/VirtuosaPortrait</headPortrait>
 		<traits>
-			<li><def>AK_Trait_VirtuosaThird</def></li>
-			<li><def>AK_Trait_VirtuosaSecond</def></li>
-			<li><def>AK_Trait_Virtuosa</def></li>
+			<li>
+				<def>AK_Trait_VirtuosaSecond</def>
+			</li>
+			<li>
+				<def>AK_Trait_Virtuosa</def>
+			</li>
 			<li>
 				<def>Beauty</def>
 				<degree>1</degree>

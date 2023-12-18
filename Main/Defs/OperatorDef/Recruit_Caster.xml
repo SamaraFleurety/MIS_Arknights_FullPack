@@ -1140,12 +1140,12 @@
 		<adultHood>AK_BackStory_Carnelian_Adult</adultHood>
 		<clothSet>
 			<li>
-			    <key>0</key>
+				<key>0</key>
 				<value>
-				    <label>ShimmeringDew</label>
+					<label>ShimmeringDew</label>
 					<hair>AK_Hair_CarnelianShimmeringDew</hair>
 					<apparels>
-					    <li>AK_Apparel_CarnelianShimmeringDew</li>
+						<li>AK_Apparel_CarnelianShimmeringDew</li>
 					</apparels>
 					<weapon>AK_Weapon_CarnelianShimmeringDew</weapon>
 				</value>
@@ -2497,8 +2497,12 @@
 				<def>Beauty</def>
 				<degree>1</degree>
 			</li>
-			<li><def>AK_Trait_HeteronucleoidSecond</def></li>
-			<li><def>AK_Trait_Heteronucleoid</def></li>
+			<li>
+				<def>AK_Trait_HeteronucleoidSecond</def>
+			</li>
+			<li>
+				<def>AK_Trait_Heteronucleoid</def>
+			</li>
 			<li>
 				<def>Tough</def>
 			</li>
