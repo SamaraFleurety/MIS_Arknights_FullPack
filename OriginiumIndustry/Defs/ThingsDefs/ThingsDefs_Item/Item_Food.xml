@@ -104,7 +104,7 @@
             <li>
                 <label>吃了蟹肉碎拌饭</label>
                 <description>粗粮的朴素中带着肉的鲜美，真是优秀的组合啊！</description>
-                <baseMoodEffect>6</baseMoodEffect>
+                <baseMoodEffect>4</baseMoodEffect>
             </li>
         </stages>
     </ThoughtDef>
@@ -129,7 +129,7 @@
                 </li>
             </outcomeDoers>
             <tasteThought>AKI_Thought_EatingHighPressureSoup</tasteThought>
-            <joy>0.4</joy>
+            <joy>0.1</joy>
             <joyKind>Gluttonous</joyKind>
         </ingestible>
         <comps>
@@ -147,7 +147,7 @@
             <li>
                 <label>吃了高压复焗浓汤</label>
                 <description>我感觉像是吃下了一口荤香味的云朵！</description>
-                <baseMoodEffect>10</baseMoodEffect>
+                <baseMoodEffect>6</baseMoodEffect>
             </li>
         </stages>
     </ThoughtDef>
@@ -254,7 +254,7 @@
             <li>
                 <label>吃了浓缩羹原液</label>
                 <description>我感觉喉咙里嘴里都是油腻味道，我好像要吐了！</description>
-                <baseMoodEffect>-6</baseMoodEffect>
+                <baseMoodEffect>-8</baseMoodEffect>
             </li>
         </stages>
     </ThoughtDef>
@@ -275,7 +275,7 @@
             <outcomeDoers>
                 <li Class="IngestionOutcomeDoer_GiveHediff">
                     <hediffDef>AKI_Hediff_DeliciousSoupGel</hediffDef>
-                    <severity>12</severity>
+                    <severity>6</severity>
                 </li>
             </outcomeDoers>
             <tasteThought>AKI_Thought_EatingDeliciousSoupGel</tasteThought>
@@ -316,11 +316,11 @@
             <outcomeDoers>
                 <li Class="IngestionOutcomeDoer_GiveHediff">
                     <hediffDef>AKI_Hediff_CrabAlcohol</hediffDef>
-                    <severity>12</severity>
+                    <severity>8</severity>
                 </li>
             </outcomeDoers>
             <tasteThought>AKI_Thought_EatingCrabAlcohol</tasteThought>
-            <joy>0.5</joy>
+            <joy>0.15</joy>
             <joyKind>Gluttonous</joyKind>
         </ingestible>
         <comps>
@@ -338,7 +338,7 @@
             <li>
                 <label>吃了蟹醇</label>
                 <description>真鲜美，不过这里头好像没有什么蟹味，为什么还要叫它蟹醇？</description>
-                <baseMoodEffect>8</baseMoodEffect>
+                <baseMoodEffect>7</baseMoodEffect>
             </li>
         </stages>
     </ThoughtDef>
@@ -359,12 +359,12 @@
             <outcomeDoers>
                 <li Class="IngestionOutcomeDoer_GiveHediff">
                     <hediffDef>AKI_Hediff_LeitaniaThickSoup</hediffDef>
-                    <severity>24</severity>
+                    <severity>12</severity>
                 </li>
             </outcomeDoers>
             <tasteThought>AKI_Thought_EatingLeitaniaThickSoup</tasteThought>
-            <joy>1</joy>
-            <joyKind>Gluttonous</joyKind>
+            <joy>0.2</joy>
+            <joyKind>HighCulture</joyKind>
         </ingestible>
         <comps>
             <li Class="CompProperties_Rottable">
@@ -381,7 +381,7 @@
             <li>
                 <label>吃了莱塔尼亚浓汤鲜萃</label>
                 <description>这一口，感觉全世界的美味都荟萃其中！</description>
-                <baseMoodEffect>25</baseMoodEffect>
+                <baseMoodEffect>10</baseMoodEffect>
             </li>
         </stages>
     </ThoughtDef>
@@ -402,10 +402,12 @@
             <outcomeDoers>
                 <li Class="IngestionOutcomeDoer_GiveHediff">
                     <hediffDef>AKI_Hediff_VictoriaRoyalCoagulant</hediffDef>
-                    <severity>24</severity>
+                    <severity>8</severity>
                 </li>
             </outcomeDoers>
             <tasteThought>AKI_Thought_EatingVictoriaRoyalCoagulant</tasteThought>
+            <joy>0.2</joy>
+            <joyKind>Meditative</joyKind>
         </ingestible>
         <comps>
             <li Class="CompProperties_Rottable">
@@ -422,7 +424,7 @@
             <li>
                 <label>吃了维多利亚皇家凝方</label>
                 <description>在品尝它的时候我觉得我就像一个国王！</description>
-                <baseMoodEffect>25</baseMoodEffect>
+                <baseMoodEffect>12</baseMoodEffect>
             </li>
         </stages>
     </ThoughtDef>
@@ -443,7 +445,7 @@
             <outcomeDoers>
                 <li Class="IngestionOutcomeDoer_GiveHediff">
                     <hediffDef>AKI_Hediff_ColumbiaMolecularCapsule</hediffDef>
-                    <severity>48</severity>
+                    <severity>8</severity>
                 </li>
             </outcomeDoers>
             <tasteThought>AKI_Thought_EatingColumbiaMolecularCapsule</tasteThought>
@@ -457,7 +459,7 @@
             <li>
                 <label>吃了哥伦比亚分子胶囊</label>
                 <description>嗝！好撑，说起来那个囊壳是什么味道来着？</description>
-                <baseMoodEffect>8</baseMoodEffect>
+                <baseMoodEffect>0</baseMoodEffect>
             </li>
         </stages>
     </ThoughtDef>
@@ -478,7 +480,7 @@
             <outcomeDoers>
                 <li Class="IngestionOutcomeDoer_GiveHediff">
                     <hediffDef>AKI_Hediff_YanOriginalLiquid</hediffDef>
-                    <severity>48</severity>
+                    <severity>12</severity>
                 </li>
             </outcomeDoers>
             <tasteThought>AKI_Thought_EatingYanOriginalLiquid</tasteThought>
@@ -498,7 +500,7 @@
             <li>
                 <label>吃了炎国山水原液</label>
                 <description>呼……酽茶醇酒，斜风细雪，似乎都能在这之中体味到。</description>
-                <baseMoodEffect>25</baseMoodEffect>
+                <baseMoodEffect>12</baseMoodEffect>
             </li>
         </stages>
     </ThoughtDef>
@@ -519,11 +521,11 @@
             <outcomeDoers>
                 <li Class="IngestionOutcomeDoer_GiveHediff">
                     <hediffDef>AKI_Hediff_DongguoNanoFood</hediffDef>
-                    <severity>48</severity>
+                    <severity>12</severity>
                 </li>
             </outcomeDoers>
             <tasteThought>AKI_Thought_EatingDongguoNanoFood</tasteThought>
-            <joy>1</joy>
+            <joy>0.25</joy>
             <joyKind>Meditative</joyKind>
         </ingestible>
         <comps>
@@ -541,7 +543,7 @@
             <li>
                 <label>吃了东国纳米割烹</label>
                 <description>看到这份盘中艺术，我仿佛感受到了无尽的宁静。</description>
-                <baseMoodEffect>30</baseMoodEffect>
+                <baseMoodEffect>12</baseMoodEffect>
             </li>
         </stages>
     </ThoughtDef>
@@ -562,7 +564,7 @@
             <outcomeDoers>
                 <li Class="IngestionOutcomeDoer_GiveHediff">
                     <hediffDef>AKI_Hediff_CassimirKnightSupplement</hediffDef>
-                    <severity>48</severity>
+                    <severity>8</severity>
                 </li>
             </outcomeDoers>
             <tasteThought>AKI_Thought_EatingCassimirKnightSupplement</tasteThought>
@@ -576,7 +578,7 @@
             <li>
                 <label>吃了卡西米尔骑士补充剂</label>
                 <description>感觉状态上来了！</description>
-                <baseMoodEffect>10</baseMoodEffect>
+                <baseMoodEffect>2</baseMoodEffect>
             </li>
         </stages>
     </ThoughtDef>
@@ -597,11 +599,11 @@
             <outcomeDoers>
                 <li Class="IngestionOutcomeDoer_GiveHediff">
                     <hediffDef>AKI_Hediff_LateranHolySoundDecoction</hediffDef>
-                    <severity>48</severity>
+                    <severity>12</severity>
                 </li>
             </outcomeDoers>
             <tasteThought>AKI_Thought_EatingLateranHolySoundDecoction</tasteThought>
-            <joy>1</joy>
+            <joy>0.2</joy>
             <joyKind>Meditative</joyKind>
         </ingestible>
         <comps>
@@ -619,7 +621,7 @@
             <li>
                 <label>吃了拉特兰圣音汤醇</label>
                 <description>为什么我喝了这东西脑子里会想到爆炸？</description>
-                <baseMoodEffect>30</baseMoodEffect>
+                <baseMoodEffect>15</baseMoodEffect>
             </li>
         </stages>
     </ThoughtDef>
@@ -640,11 +642,11 @@
             <outcomeDoers>
                 <li Class="IngestionOutcomeDoer_GiveHediff">
                     <hediffDef>AKI_Hediff_MinosPoetryGel</hediffDef>
-                    <severity>48</severity>
+                    <severity>12</severity>
                 </li>
             </outcomeDoers>
             <tasteThought>AKI_Thought_EatingMinosPoetryGel</tasteThought>
-            <joy>0.8</joy>
+            <joy>0.3</joy>
             <joyKind>Meditative</joyKind>
         </ingestible>
         <comps>
@@ -662,7 +664,7 @@
             <li>
                 <label>吃了米诺斯诗歌凝胶</label>
                 <description>我感受到了诗歌还有...酒精？哦...</description>
-                <baseMoodEffect>30</baseMoodEffect>
+                <baseMoodEffect>14</baseMoodEffect>
             </li>
         </stages>
     </ThoughtDef>
@@ -683,11 +685,11 @@
             <outcomeDoers>
                 <li Class="IngestionOutcomeDoer_GiveHediff">
                     <hediffDef>AKI_Hediff_TribalCarnivalDinner</hediffDef>
-                    <severity>48</severity>
+                    <severity>7</severity>
                 </li>
             </outcomeDoers>
             <tasteThought>AKI_Thought_EatingTribalCarnivalDinner</tasteThought>
-            <joy>1</joy>
+            <joy>0.4</joy>
             <joyKind>Gluttonous</joyKind>
         </ingestible>
         <comps>
@@ -705,7 +707,7 @@
             <li>
                 <label>吃了部族狂欢晚宴</label>
                 <description>一！整！只！烤兽，还有什么能比这更让人满足吗？实话说，有点太满足了...</description>
-                <baseMoodEffect>40</baseMoodEffect>
+                <baseMoodEffect>20</baseMoodEffect>
             </li>
         </stages>
     </ThoughtDef>

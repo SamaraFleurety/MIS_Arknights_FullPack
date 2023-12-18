@@ -633,5 +633,41 @@
         </comps>
     </ThingDef>
 
+    <ThingDef ParentName="AK_BeltBase">
+        <defName>AK_ShieldBelt_Viviana</defName>
+        <label>“散华”</label>
+        <description>金盏花盛开而又凋谢，如同烛光一样，所有的美好与芳华只能停留在那片刻之间。</description>
+        <statBases>
+            <EnergyShieldRechargeRate>0</EnergyShieldRechargeRate>
+            <EnergyShieldEnergyMax>3</EnergyShieldEnergyMax>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/ShieldBeltViviana</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+                <startingTicksToReset>1800</startingTicksToReset>
+                <energyOnReset>1</energyOnReset>
+                <energyLossPerDamage>0.015</energyLossPerDamage>
+                <canAbsorbMeleeDamage>true</canAbsorbMeleeDamage>
+                <meleeAbsorbFactor>1</meleeAbsorbFactor>
+                <rangedAbsorbFactor>2</rangedAbsorbFactor>
+                <canDodge>false</canDodge>
+                <breakWithSmoke>false</breakWithSmoke>
+                <canForceActive>false</canForceActive>
+                <fireFoamBurster>false</fireFoamBurster>
+                <versionInfo>Viviana-Shield</versionInfo>
+                <alias>薇薇安娜的护盾</alias>
+            </li>
+            <li Class="AKE_VanyaShield.TCP_VanyaShieldExtension">
+                <hideVanillaBubble>true</hideVanillaBubble>
+                <bubbleStaticTexPath>Things/ShieldBelt/ShieldBeltVivianaS</bubbleStaticTexPath>
+                <bubbleRotateTexPath>Things/ShieldBelt/ShieldBeltVivianaD</bubbleRotateTexPath>
+            </li>
+        </comps>
+    </ThingDef>
+
+
 
 </Defs>
