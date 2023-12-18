@@ -146,6 +146,8 @@
 		</stages>
 	</ThoughtDef>
 
+	<!-- 浊心斯卡蒂 -->
+
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_CorruptingHeart</defName>
 		<requiredTraits>
@@ -156,6 +158,22 @@
 				<label>Ishar-mla</label>
 				<description>梦……你会有怎样一个梦呢？你现在身处何方？那里……会不会也是一个梦呢？</description>
 				<baseMoodEffect>20</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 塑心 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Virtuosa</defName>
+		<requiredTraits>
+			<li>AK_Trait_Virtuosa</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>塑心</label>
+				<description>你有没有想过，演奏从未停止，只是你听不见？只是不到最精彩最宏大的段落时，所有人都听不见？</description>
+				<baseMoodEffect>8</baseMoodEffect>
 			</li>
 		</stages>
 	</ThoughtDef>

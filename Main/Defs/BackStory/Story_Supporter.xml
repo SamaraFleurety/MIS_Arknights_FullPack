@@ -245,4 +245,20 @@
 		<baseDesc>她不再歌唱，她为大群发声。</baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Virtuosa_Child</defName>
+		<slot>Childhood</slot>
+		<title>阿尔图罗</title>
+		<titleShort>阿尔图罗</titleShort>
+		<baseDesc>年幼时与失去双亲的从堂弟费德里科一起生活，在父母的照顾下如同亲姐弟一般生活着。年幼时，阿尔图罗就以显现出了用音乐调动他人内心隐藏感情的源石技艺。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Virtuosa_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>塑心</title>
+		<titleShort>塑心</titleShort>
+		<baseDesc>阿尔图罗·吉亚洛，出身于拉特兰、活跃于泰拉大地的著名音乐家。受莱塔尼亚帝国宫廷、拉特兰教皇厅委托，罗德岛与两方签署协议确认，在受相应人员的严格监管下，允许其以干员“塑心”身份暂留罗德岛。</baseDesc>
+	</BackstoryDef>
+
 </Defs>

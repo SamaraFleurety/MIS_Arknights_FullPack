@@ -253,4 +253,16 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Supporter">
+		<defName>AK_Apparel_Virtuosa</defName>
+		<label>塑心服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Supporter/Virtuosa</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Supporter/Virtuosa</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 </Defs>

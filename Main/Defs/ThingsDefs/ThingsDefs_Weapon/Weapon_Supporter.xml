@@ -1048,7 +1048,7 @@
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
 				<warmupTime>0.8</warmupTime>
 				<!--前摇-->
-				<range>15</range>
+				<range>30</range>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
@@ -1064,7 +1064,7 @@
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
 				<warmupTime>3.3</warmupTime>
 				<!--前摇-->
-				<range>12</range>
+				<range>24</range>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
@@ -1121,6 +1121,66 @@
 			<speed>50</speed>
 			<soundExplode>ThumpCannon_Impact</soundExplode>
 			<!--爆炸音效-->
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Supporter">
+		<defName>AK_Weapon_Virtuosa</defName>
+		<label>弥撒“君王”</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Supporter/VirtuosaW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<description>这首乐曲不是为哪一位君王而作，我想这首乐曲应是为了所有君王而作。\n永远铭记崔林特尔梅的晚霞。再见君王。成为君王。</description>
+		<statBases>
+			<AccuracyTouch>1</AccuracyTouch>
+			<AccuracyShort>0.95</AccuracyShort>
+			<AccuracyMedium>0.7</AccuracyMedium>
+			<AccuracyLong>0.55</AccuracyLong>
+			<RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>			<!--后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_Virtuosa</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>1.2</warmupTime>				<!--前摇-->
+				<range>28</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_Magic</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<tools Inherit = "false">
+			<li>
+				<label>琴弓敲击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>18</power>
+				<cooldownTime>1.5</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_Virtuosa</defName>
+		<label>射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/MagicOrb</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Flame</damageDef>			<!--伤害类型-->
+			<damageAmountBase>22</damageAmountBase>
+			<stoppingPower>3</stoppingPower>
+			<speed>60</speed>
 		</projectile>
 	</ThingDef>
 

@@ -1731,4 +1731,97 @@
 		</skills>
 	</AK_DLL.OperatorDef>
 
+	<!-- 塑心 -->
+
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Supporter">
+		<defName>AK_Recruit_Virtuosa</defName>
+		<name>Virtuosa</name>
+		<nickname>Virtuosa</nickname>
+		<description>FIXMEDESC</description>
+		<weapon>AK_Weapon_Virtuosa</weapon>
+		<hair>AK_Hair_Virtuosa</hair>
+		<apparels>
+			<li>AK_Apparel_Virtuosa</li>
+		</apparels>
+		<stand>UI/Image/Supporter/VirtuosaStand</stand>
+		<headPortrait>UI/Image/Supporter/VirtuosaPortrait</headPortrait>
+		<traits>
+			<li><def>AK_Trait_VirtuosaThird</def></li>
+			<li><def>AK_Trait_VirtuosaSecond</def></li>
+			<li><def>AK_Trait_Virtuosa</def></li>
+			<li>
+				<def>Beauty</def>
+				<degree>1</degree>
+			</li>
+			<li>
+				<def>TooSmart</def>
+			</li>
+		</traits>
+		<age>20</age>
+		<childHood>AK_BackStory_Virtuosa_Child</childHood>
+		<adultHood>AK_BackStory_Virtuosa_Adult</adultHood>
+		<skills>
+			<li>
+				<skill>Animals</skill>
+				<level>2</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Artistic</skill>
+				<level>17</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Construction</skill>
+				<level>2</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Cooking</skill>
+				<level>5</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Crafting</skill>
+				<level>4</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Intellectual</skill>
+				<level>14</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<level>2</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<level>4</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Mining</skill>
+				<level>2</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Plants</skill>
+				<level>5</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<level>4</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<level>16</level>
+				<fireLevel>2</fireLevel>
+			</li>
+		</skills>
+	</AK_DLL.OperatorDef>
+
 </Defs>

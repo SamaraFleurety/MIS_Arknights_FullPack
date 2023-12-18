@@ -384,4 +384,39 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<!-- 塑心 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_VirtuosaSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>感受自我</label>
+				<description>他们在评议会上的猜想是对的。塑心小姐的源石技艺能够唤醒人们内心深处最特别的记忆，这些记忆会激发某种情绪，从而形成情感。但她不能凭自己的意志来改变人们在听到她的音乐之后重现的记忆。</description>
+				<statOffsets>
+					<SocialImpact>0.25</SocialImpact>
+					<TradePriceImprovement>-0.15</TradePriceImprovement>
+					<SlaveSuppressionOffset>-0.2</SlaveSuppressionOffset>
+					<PsychicSensitivity>2</PsychicSensitivity>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Virtuosa</defName>
+		<degreeDatas>
+			<li>
+				<label>塑心</label>
+				<description>她不能让悲伤的人欢笑，不能让暴虐的人变得慈悲。她的源石技艺所展现出来的强大力量，也是人们被唤醒的自我与音乐的共鸣。塑心小姐早已知晓，她从未尝试以自己的音乐扭转他人的本性，不是出于无奈，而是出于明智。</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.22</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>
