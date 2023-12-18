@@ -313,4 +313,16 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Caster">
+		<defName>AK_Apparel_Heteronucleoid</defName>
+		<label>类异核体-安洁莉娜服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Caster/Heteronucleoid</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Caster/Heteronucleoid</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 </Defs>

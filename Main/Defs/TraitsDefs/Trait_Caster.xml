@@ -594,4 +594,40 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<!-- 类异核体-安洁莉娜 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_HeteronucleoidSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>异类核体</label>
+				<description>//权限档案，当前权限过低，请联系档案管理员授权进行查看\n//授权失败，请稍后再试</description>
+				<statOffsets>
+					<ImmunityGainSpeed>2</ImmunityGainSpeed>
+					<GlobalLearningFactor>0.2</GlobalLearningFactor>
+				</statOffsets>
+				<statFactors>
+					<IncomingDamageFactor>0.85</IncomingDamageFactor>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Heteronucleoid</defName>
+		<degreeDatas>
+			<li>
+				<label>界旅者</label>
+				<description>即使跨越时空，穿越星河，她依旧是安洁莉娜，她希望成为像“安洁莉娜前辈”那样可靠的人，也对自己的新冒险充满了期盼和希冀。</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.2</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>

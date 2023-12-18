@@ -351,4 +351,18 @@
 		</stages>
 	</ThoughtDef>
 
+	<!-- 类异核体-安洁莉娜 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Heteronucleoid</defName>
+		<requiredTraits><li>AK_Trait_Heteronucleoid</li></requiredTraits>
+		<stages>
+			<li>
+				<label>界旅者</label>
+				<description>我不会为曾经的迷茫感到羞愧,这是我普通而又精彩的人生的一部分。每一步都是如此。你也是这样吗，安洁莉娜前辈·…….</description>
+				<baseMoodEffect>15</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
 </Defs>

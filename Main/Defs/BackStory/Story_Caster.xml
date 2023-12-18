@@ -338,4 +338,20 @@
 		<baseDesc>{PAWN_nameDef}的部落因为拒绝离开，成为了乌萨斯开疆拓土的无数牺牲者之一，{PAWN_nameDef}恰好因为外出巡视逃过一劫，在被乌萨斯人刺伤感染矿石病后， {PAWN_pronoun}陷入了对乌萨斯和乌萨斯人极端的仇恨中</baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Heteronucleoid_Child</defName>
+		<slot>Childhood</slot>
+		<title>类异核体</title>
+		<titleShort>类异核体</titleShort>
+		<baseDesc>在经过慎重和严密的考量后，{PAWN_nameDef}的“异类核体计划”申请被批准，在接受了多方面的稳定性和技能性测试后，{PAWN_possessive}活动被准许。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Heteronucleoid_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>安洁莉娜</title>
+		<titleShort>安洁莉娜</titleShort>
+		<baseDesc>在确认了记忆测试，经过罗德岛和殖民地的评估后，{PAWN_nameDef}被允许成为天灾信使与多个殖民地之间活动。</baseDesc>
+	</BackstoryDef>
+
 </Defs>
