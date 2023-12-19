@@ -51,4 +51,20 @@
 		<baseDesc>{PAWN_nameDef}在成年后成为了塔拉民族分裂组织“深池”的领袖，作为能在多方势力中周旋自如的野心家和权术家，{PAWN_pronoun}对于权力有着毫不掩饰的觊觎。</baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Administrator_Child</defName>
+		<slot>Childhood</slot>
+		<title>履历缺失</title>
+		<titleShort>履历缺失</titleShort>
+		<baseDesc>/检索中\n/错误！未查询到相关档案\n/检索中（2）\n/错误！未查询到相关档案\n/检索中（3）\n/错误！未查询到相关档案\n\n严重错误！三次查询目标档案失败，请联系终末地工业文档管理员补充相关信息。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Administrator_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>管理员</title>
+		<titleShort>管理员</titleShort>
+		<baseDesc>终末地工业的“管理员”。\n传言中，管理员曾多次在塔卫二和终末地发生重大变故时挺身而出，留下了不少传说和流言。\n在塔卫二各个组织的认知中，管理员是一个相当神秘的存在，外部势力普遍知道终末地有着一张十分特别的“底牌”，但也仅限于此。</baseDesc>
+	</BackstoryDef>
+
 </Defs>

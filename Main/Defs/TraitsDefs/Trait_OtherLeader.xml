@@ -137,4 +137,26 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<!-- 管理员 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Administrator</defName>
+		<degreeDatas>
+			<li>
+				<label>管理员</label>
+				<description>作为终末地工业的管理员，曾经多次在重大变故后挺身而出，因为其行事手段和神秘的过往留下了大量的传说和留言。\n她现在联系并依靠着你们，不要让她失望。</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.45</MentalBreakThreshold>
+					<GlobalLearningFactor>2</GlobalLearningFactor>
+					<WorkSpeedGlobal>1.2</WorkSpeedGlobal>
+					<PsychicSensitivity>-0.2</PsychicSensitivity>
+					<TradePriceImprovement>0.15</TradePriceImprovement>
+					<SocialImpact>0.4</SocialImpact>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>

@@ -43,4 +43,18 @@
 		</stages>
 	</ThoughtDef>
 
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Administrator</defName>
+		<requiredTraits>
+			<li>AK_Trait_Administrator</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>管理员</label>
+				<description>了解，已经做好准备。</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
 </Defs>
