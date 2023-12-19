@@ -355,12 +355,30 @@
 
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_Heteronucleoid</defName>
-		<requiredTraits><li>AK_Trait_Heteronucleoid</li></requiredTraits>
+		<requiredTraits>
+			<li>AK_Trait_Heteronucleoid</li>
+		</requiredTraits>
 		<stages>
 			<li>
 				<label>界旅者</label>
 				<description>我不会为曾经的迷茫感到羞愧,这是我普通而又精彩的人生的一部分。每一步都是如此。你也是这样吗，安洁莉娜前辈·…….</description>
 				<baseMoodEffect>15</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- 戴菲恩 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Delphine</defName>
+		<requiredTraits>
+			<li>AK_Trait_Delphine</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>正义黯淡</label>
+				<description>我更愿意去做那些具体的事情，去杀死那些具体的罪恶，而不是继续以“公爵之女”或者“公爵”的身份，同那些阴谋家纠缠不清。</description>
+				<baseMoodEffect>-12</baseMoodEffect>
 			</li>
 		</stages>
 	</ThoughtDef>

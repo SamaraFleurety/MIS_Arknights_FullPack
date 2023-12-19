@@ -325,4 +325,16 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Caster">
+		<defName>AK_Apparel_Delphine</defName>
+		<label>戴菲恩服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Caster/Delphine</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Caster/Delphine</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 </Defs>

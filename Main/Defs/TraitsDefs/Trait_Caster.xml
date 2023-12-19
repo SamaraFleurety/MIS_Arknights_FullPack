@@ -630,4 +630,42 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<!-- 戴菲恩 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_DelphineSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>温德米尔家族</label>
+				<description>和其他军事贵族一样，温德米尔家族的人除了兵法和战斗，也要学习待人接物和政治斗争的技巧。这让他们有了卓越的远见的同时，也让他们有了自己的局限性。</description>
+				<statOffsets>
+					<SocialImpact>0.25</SocialImpact>
+					<TradePriceImprovement>0.25</TradePriceImprovement>
+				</statOffsets>
+				<statFactors>
+					<GlobalLearningFactor>1.3</GlobalLearningFactor>
+					<WorkSpeedGlobal>1.3</WorkSpeedGlobal>
+				</statFactors>
+				<marketValueFactorOffset>6</marketValueFactorOffset>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Delphine</defName>
+		<degreeDatas>
+			<li>
+				<label>正义黯淡</label>
+				<description>“戴菲恩，我对你父亲的离开同样感到痛苦，但温德米尔公爵不能展露出软弱的一面。我并不奢求你的理解，我只是希望你明白，在你接过我的爵位之前，你同样需要学会这一切。”</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.35</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>
