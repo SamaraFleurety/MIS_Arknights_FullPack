@@ -57,4 +57,18 @@
 		</stages>
 	</ThoughtDef>
 
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_DukeWindermere</defName>
+		<requiredTraits>
+			<li>AK_Trait_DukeWindermere</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>铁血公爵</label>
+				<description>你们要杀死温德米尔的敌人，而非保护温德米尔的性命!温德米尔的军队只会守护维多利亚！</description>
+				<baseMoodEffect>-8</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
 </Defs>

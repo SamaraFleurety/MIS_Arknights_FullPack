@@ -235,4 +235,67 @@
 		<description>爱布拉娜的法术符。</description>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_WeaponBase_OtherLeader">
+		<defName>AK_Weapon_DukeWindermere</defName>
+		<label>温德米尔公爵之剑</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/OtherLeader/DukeWindermereW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<description>温德米尔家族的佩剑，与其他贵族的名贵宝物不同，它经历了无数厮杀而磨损。</description>
+		<tools Inherit = "false">
+			<li>
+				<label>剑柄重击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>24</power>
+				<cooldownTime>1.4</cooldownTime>
+			</li>
+			<li>
+				<label>剑劈砍</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>0</power>
+				<extraMeleeDamages>
+					<li>
+						<def>Flame</def>
+						<amount>36</amount>						<!--伤害数值-->
+					</li>
+				</extraMeleeDamages>
+				<cooldownTime>2.5</cooldownTime>
+			</li>
+			<li>
+				<label>剑长刺</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>0</power>
+				<extraMeleeDamages>
+					<li>
+						<def>Flame</def>
+						<amount>32</amount>						<!--伤害数值-->
+					</li>
+				</extraMeleeDamages>
+				<armorPenetration>1</armorPenetration>				<!--穿甲-->
+				<cooldownTime>2.6</cooldownTime>
+			</li>
+			<li>
+				<label>剑直劈</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>0</power>
+				<extraMeleeDamages>
+					<li>
+						<def>Flame</def>
+						<amount>40</amount>						<!--伤害数值-->
+					</li>
+				</extraMeleeDamages>
+				<cooldownTime>4.8</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
 </Defs>

@@ -49,4 +49,16 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_OtherLeader">
+		<defName>AK_Apparel_DukeWindermere</defName>
+		<label>温德米尔公爵服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/OtherLeader/DukeWindermere</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/OtherLeader/DukeWindermere</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 </Defs>

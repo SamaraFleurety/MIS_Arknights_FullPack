@@ -159,4 +159,49 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<!-- 温德米尔公爵 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_DukeWindermereSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>温德米尔家族</label>
+				<description>和其他军事贵族一样，温德米尔家族的人除了兵法和战斗，也要学习待人接物和政治斗争的技巧。这让他们有了卓越的远见的同时，也让他们有了自己的局限性。</description>
+				<statOffsets>
+					<TradePriceImprovement>0.25</TradePriceImprovement>
+					<SocialImpact>0.25</SocialImpact>
+				</statOffsets>
+				<statFactors>
+					<GlobalLearningFactor>1.3</GlobalLearningFactor>
+					<WorkSpeedGlobal>1.3</WorkSpeedGlobal>
+				</statFactors>
+				<marketValueFactorOffset>6</marketValueFactorOffset>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_DukeWindermere</defName>
+		<degreeDatas>
+			<li>
+				<label>铁血公爵</label>
+				<description>作为维多利亚世代传承的军事贵族，和其他公爵不同，温德米尔家族依旧有着极强的军事传统和如同军人一样严苛的作息。\n而温德米尔公爵更是其中的佼佼者，她甚至能下令手下为了达成目的不顾自己的安危。</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.6</MentalBreakThreshold>
+					<ShootingAccuracyPawn>0.2</ShootingAccuracyPawn>
+					<AimingDelayFactor>-0.2</AimingDelayFactor>
+					<PsychicSensitivity>-0.2</PsychicSensitivity>
+				</statOffsets>
+				<statFactors>
+					<SlaveSuppressionOffset>4</SlaveSuppressionOffset>
+					<IncomingDamageFactor>0.8</IncomingDamageFactor>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>
