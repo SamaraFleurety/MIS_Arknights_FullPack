@@ -217,4 +217,20 @@
 		<baseDesc>苇草，驻留罗德岛的维多利亚南部办事处期间，曾提出撤离申请，近期再次成功与罗德岛建立联络。目前正以深池名义带领小股部队在维多利亚境内活动，以救助被暴力胁迫的塔拉人为主要行动目标。</baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Vendela_Child</defName>
+		<slot>Childhood</slot>
+		<title>花店店长</title>
+		<titleShort>花店店长</titleShort>
+		<baseDesc>{PAWN_nameDef}家族时代都在一家小镇经营着一家花店和卧室，那里生活惬意，{PAWN_nameDef}最喜欢的事情就是在阳光下的下午独自小憩。\n直到整座小镇被血魔大君的仪式彻底摧毁。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Vendela_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>灾难幸存者</title>
+		<titleShort>灾难幸存者</titleShort>
+		<baseDesc>在{PAWN_nameDef}生活的小镇被血魔大君的仪式彻底摧毁后，被救出的刺玫加入了伦蒂尼姆自救军，并在后者的牵线搭桥下加入了罗德岛，伦蒂尼姆事件结束之后，玛格达尔主动申请回到维多利亚重建家乡，并担任当地罗德岛办事处的联络员。</baseDesc>
+	</BackstoryDef>
+
 </Defs>
