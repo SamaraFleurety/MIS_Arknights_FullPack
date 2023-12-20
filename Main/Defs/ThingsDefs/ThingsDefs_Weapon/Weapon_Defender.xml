@@ -197,7 +197,7 @@
 		</tools>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_WeaponBase_Defender">
+	<ThingDef ParentName="AK_WeaponBase_Defender" Name="AK_Weapon_Mudrock">
 		<defName>AK_Weapon_Mudrock</defName>
 		<label>岩崩锤</label>
 		<description>泥岩所使用的锤子，沾染了泥土的气息。\n当她挥动这柄锤子时，大地都为之颤动。</description>
@@ -223,6 +223,15 @@
 				<cooldownTime>3.5</cooldownTime>
 			</li>
 		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_Weapon_Mudrock">
+		<defName>AK_Weapon_MudrockSilentNight</defName>
+		<label>泥岩-静谧午夜的锤子</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Defender/Mudrock_SilentNightW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
 	</ThingDef>
 
 	<ThingDef ParentName="AK_WeaponBase_Defender">

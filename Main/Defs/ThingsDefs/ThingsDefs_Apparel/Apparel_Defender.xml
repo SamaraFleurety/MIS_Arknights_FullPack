@@ -61,6 +61,18 @@
 	</ThingDef>
 
 	<ThingDef ParentName="AK_ArmorBase_Defender">
+		<defName>AK_Apparel_MudrockSilentNight</defName>
+		<label>泥岩服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Defender/Mudrock_SilentNight</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Defender/Mudrock_SilentNight</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Defender">
 		<defName>AK_Apparel_Nian</defName>
 		<label>年服装</label>
 		<graphicData>
