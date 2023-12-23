@@ -326,6 +326,18 @@
 	</ThingDef>
 
 	<ThingDef ParentName="AK_ArmorBase_Guard">
+		<defName>AK_Apparel_AstesiaFantasticCrafts</defName>
+		<label>星极-奇工妙想</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Guard/Astesia_FantasticCrafts</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Guard/Astesia_FantasticCrafts</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Guard">
 		<defName>AK_Apparel_Chongyue</defName>
 		<label>重岳服装</label>
 		<graphicData>

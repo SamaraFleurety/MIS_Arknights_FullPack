@@ -1268,7 +1268,7 @@
 		</projectile>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_WeaponBase_Caster">
+	<ThingDef ParentName="AK_WeaponBase_Caster" Name="AK_Weapon_Astgenne">
 		<defName>AK_Weapon_Astgenne</defName>
 		<label>法术串联单元</label>
 		<description>以我电光，闪耀星空吧！</description>
@@ -1312,6 +1312,15 @@
 		</tools>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_Weapon_Astgenne">
+		<defName>AK_Weapon_AstgenneHerAspiration</defName>
+		<label>星源-所愿的法杖</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Caster/Astgenne_HerAspirationW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
+
 	<ThingDef ParentName="AK_BulletBase_Bow">
 		<defName>AK_Bullet_Astgenne</defName>
 		<label>法术射击</label>
@@ -1329,7 +1338,7 @@
 		</projectile>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_WeaponBase_Caster">
+	<ThingDef ParentName="AK_WeaponBase_Caster" Name="AK_Weapon_Harmonie">
 		<defName>AK_Weapon_Harmonie</defName>
 		<label>和弦的法杖</label>
 		<description>一把结构简单的法杖，能够发挥出略低于使用者潜能的源石技艺，很难想象作为深池高层的和弦用的武器只有这个。</description>
@@ -1371,6 +1380,15 @@
 				<cooldownTime>1.8</cooldownTime>
 			</li>
 		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_Weapon_Harmonie">
+		<defName>AK_Weapon_HarmonieInvitation</defName>
+		<label>和弦_邀约的法杖</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Caster/Harmonie_InvitationW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
 	</ThingDef>
 
 	<ThingDef ParentName="AK_BulletBase_Bow">

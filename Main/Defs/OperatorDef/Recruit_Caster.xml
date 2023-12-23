@@ -1754,6 +1754,19 @@
 		<age>22</age>
 		<childHood>AK_BackStory_Astgenne_Child</childHood>
 		<adultHood>AK_BackStory_Astgenne_Adult</adultHood>
+		<clothSet>
+			<li>
+				<key>0</key>
+				<value>
+					<label>HerAspiration</label>
+					<hair>AK_Hair_AstgenneHerAspiration</hair>
+					<apparels>
+						<li>AK_Apparel_AstgenneHerAspiration</li>
+					</apparels>
+					<weapon>AK_Weapon_AstgenneHerAspiration</weapon>
+				</value>
+			</li>
+		</clothSet>
 		<relations>
 			<li>
 				<key>Astesia</key>
@@ -1865,6 +1878,19 @@
 		<age>20</age>
 		<childHood>AK_BackStory_Harmonie_Child</childHood>
 		<adultHood>AK_BackStory_Harmonie_Adult</adultHood>
+		<clothSet>
+			<li>
+				<key>0</key>
+				<value>
+					<label>Invitation</label>
+					<hair>AK_Hair_HarmonieInvitation</hair>
+					<apparels>
+						<li>AK_Apparel_HarmonieInvitation</li>
+					</apparels>
+					<weapon>AK_Weapon_HarmonieInvitation</weapon>
+				</value>
+			</li>
+		</clothSet>
 		<thoughtReceived>AK_ThoughtCollection</thoughtReceived>
 		<TRStage>0</TRStage>
 		<skills>

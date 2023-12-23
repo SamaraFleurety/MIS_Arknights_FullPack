@@ -118,9 +118,21 @@
 	</HairDef>
 
 	<HairDef ParentName="AK_HairBaseF">
+		<defName>AK_Hair_AstgenneHerAspiration</defName>
+		<label>星源-所愿</label>
+		<texPath>Things/Hair/Caster/Astgenne_HerAspiration</texPath>
+	</HairDef>
+
+	<HairDef ParentName="AK_HairBaseF">
 		<defName>AK_Hair_Harmonie</defName>
 		<label>和弦发型</label>
 		<texPath>Things/Hair/Caster/Harmonie</texPath>
+	</HairDef>
+
+	<HairDef ParentName="AK_HairBaseF">
+		<defName>AK_Hair_HarmonieInvitation</defName>
+		<label>和弦_邀约</label>
+		<texPath>Things/Hair/Caster/Harmonie_Invitation</texPath>
 	</HairDef>
 
 	<HairDef ParentName="AK_HairBaseF">

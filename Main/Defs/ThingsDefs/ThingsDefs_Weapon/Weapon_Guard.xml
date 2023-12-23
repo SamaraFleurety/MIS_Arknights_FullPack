@@ -1119,7 +1119,7 @@
     </graphicData>
   </ThingDef>
 
-  <ThingDef ParentName="AK_WeaponBase_Guard">
+  <ThingDef ParentName="AK_WeaponBase_Guard" Name="AK_Weapon_Astesia">
     <defName>AK_Weapon_Astesia</defName>
     <label>星辉剑</label>
     <description>我之剑光，即为星光！</description>
@@ -1179,6 +1179,15 @@
         <cooldownTime>1.8</cooldownTime>
       </li>
     </tools>
+  </ThingDef>
+
+  <ThingDef ParentName="AK_Weapon_Astesia">
+    <defName>AK_Weapon_AstesiaFantasticCrafts</defName>
+    <label>星极-奇工妙想的星辉剑</label>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Guard/Astesia_FantasticCraftsW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
   </ThingDef>
 
   <ThingDef ParentName="AK_WeaponBase_Guard">

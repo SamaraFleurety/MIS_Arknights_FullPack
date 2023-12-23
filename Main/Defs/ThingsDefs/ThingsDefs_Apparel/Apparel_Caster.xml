@@ -230,6 +230,18 @@
 	</ThingDef>
 
 	<ThingDef ParentName="AK_ArmorBase_Caster">
+		<defName>AK_Apparel_AstgenneHerAspiration</defName>
+		<label>星源-所愿</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Caster/Astgenne_HerAspiration</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Caster/Astgenne_HerAspiration</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Caster">
 		<defName>AK_Apparel_Harmonie</defName>
 		<label>和弦服装</label>
 		<graphicData>
@@ -238,6 +250,18 @@
 		</graphicData>
 		<apparel>
 			<wornGraphicPath>Things/AK_Agents/Caster/Harmonie</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Caster">
+		<defName>AK_Apparel_HarmonieInvitation</defName>
+		<label>和弦_邀约</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Caster/Harmonie_Invitation</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Caster/Harmonie_Invitation</wornGraphicPath>
 		</apparel>
 	</ThingDef>
 
