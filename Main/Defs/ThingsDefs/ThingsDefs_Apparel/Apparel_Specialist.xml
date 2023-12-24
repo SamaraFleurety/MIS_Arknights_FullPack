@@ -158,6 +158,18 @@
 	</ThingDef>
 
 	<ThingDef ParentName="AK_ArmorBase_Specialist">
+		<defName>AK_Apparel_ManticoreUnderVeil</defName>
+		<label>狮蝎-面纱之下</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Specialist/Manticore_UnderVeil</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Specialist/Manticore_UnderVeil</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Specialist">
 		<defName>AK_Apparel_Kazemaru</defName>
 		<label>风丸服装</label>
 		<graphicData>
