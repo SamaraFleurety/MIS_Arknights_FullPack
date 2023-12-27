@@ -1105,7 +1105,7 @@
 		</subSounds>
 	</SoundDef>
 
-	<ThingDef ParentName="AK_WeaponBase_Caster">
+	<ThingDef ParentName="AK_WeaponBase_Caster" Name="AK_Weapon_Goldenglow">
 		<defName>AK_Weapon_Goldenglow</defName>
 		<label>澄闪的法杖</label>
 		<description>澄闪的法杖，内置了一个静电球，保证了澄闪的静电不会散的到处都是。\n不过听说有个不知名的近卫干员喜欢被她电。</description>
@@ -1148,6 +1148,15 @@
 				<cooldownTime>1.2</cooldownTime>
 			</li>
 		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_Weapon_Goldenglow">
+		<defName>AK_Weapon_GoldenglowMaidenfortheBrightNight</defName>
+		<label>澄闪-喜夜侍者的法杖</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Caster/Goldenglow_MaidenfortheBrightNightW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
 	</ThingDef>
 
 	<ThingDef ParentName="AK_BulletBase_Bow">
