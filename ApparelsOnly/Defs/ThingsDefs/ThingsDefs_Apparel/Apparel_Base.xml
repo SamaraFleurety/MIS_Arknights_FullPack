@@ -20,7 +20,6 @@
       <ArmorRating_Sharp>1.00</ArmorRating_Sharp>
       <ArmorRating_Blunt>0.36</ArmorRating_Blunt>
       <ArmorRating_Heat>0.27</ArmorRating_Heat>
-      <AK_ArmorRating_Magic>0.27</AK_ArmorRating_Magic>
       <Insulation_Cold>1</Insulation_Cold>
       <EquipDelay>5</EquipDelay>
     </statBases>
@@ -58,8 +57,6 @@
     <canLoadIntoCaravan>false</canLoadIntoCaravan>
     <comps>
       <li Class="CompProperties_Biocodable"/>
-      <li Class="AK_DLL.TCP_RemoveMe"/>
-      <li Class="AK_Industry.TCP_OripathyMonitor" MayRequire="MIS.Industry" />
     </comps>
   </ThingDef>
 
