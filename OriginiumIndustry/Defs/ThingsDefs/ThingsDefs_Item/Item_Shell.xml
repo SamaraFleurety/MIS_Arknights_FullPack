@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="MakeableShellBase">
+        <defName>AKI_Shell_Stone</defName>
+        <label>石炮弹</label>
+        <description>用各种石材打磨而成的石炮弹，因为材质比较疏松所以开火时不容易炸膛，代价是火力和毁伤性都不如铁炮弹。</description>
+        <possessionCount>1</possessionCount>
+        <graphicData>
+            <texPath>Things/Shell/Medieval/StoneShell</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+            <drawSize>(3,3)</drawSize>
+        </graphicData>
+        <statBases>
+            <MarketValue>30</MarketValue>
+            <Mass>3</Mass>
+            <Flammability>0</Flammability>
+            <DeteriorationRate>0</DeteriorationRate>
+        </statBases>
+        <techLevel>Neolithic</techLevel>
+        <comps>
+            <li Class="CompProperties_Explosive">
+                <explosiveRadius>3</explosiveRadius>
+                <explosiveDamageType>Bomb</explosiveDamageType>
+                <explosiveExpandPerStackcount>0.4</explosiveExpandPerStackcount>
+                <startWickHitPointsPercent>0.7</startWickHitPointsPercent>
+                <wickTicks>30~60</wickTicks>
+            </li>
+        </comps>
+        <projectileWhenLoaded>Bullet_Shell_Stone</projectileWhenLoaded>
+        <costList>
+            <Steel>15</Steel>
+            <Chemfuel>15</Chemfuel>
+        </costList>
+        <costListForDifficulty>
+            <difficultyVar>classicMortars</difficultyVar>
+            <costList>
+                <Steel>25</Steel>
+                <Chemfuel>15</Chemfuel>
+            </costList>
+        </costListForDifficulty>
+        <recipeMaker>
+            <workAmount>800</workAmount>
+            <skillRequirements>
+                <Crafting>4</Crafting>
+            </skillRequirements>
+            <researchPrerequisite>Smithing</researchPrerequisite>
+        </recipeMaker>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseBullet">
+        <defName>Bullet_Shell_Stone</defName>
+        <label>石炮弹</label>
+        <graphicData>
+            <texPath>Things/Projectile/Grenade</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <thingClass>Projectile_Explosive</thingClass>
+        <projectile>
+            <damageDef>Bomb</damageDef>
+            <speed>35</speed>
+            <explosionRadius>3</explosionRadius>
+            <flyOverhead>true</flyOverhead>
+            <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+            <soundExplode>MortarBomb_Explode</soundExplode>
+            <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+            <soundAmbient>MortarRound_Ambient</soundAmbient>
+        </projectile>
+    </ThingDef>
+
+</Defs>

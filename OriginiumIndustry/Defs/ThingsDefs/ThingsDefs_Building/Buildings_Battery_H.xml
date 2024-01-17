@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef Name="BaseArtilleryBuilding" ParentName="BuildingBase" Abstract="True">
+    <thingClass>Building_TurretGun</thingClass>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <damageData>
+        <rect>(0.38,0.2,0.56375,0.8)</rect>
+        <cornerTL>Damage/Corner</cornerTL>
+      </damageData>
+      <shadowData>
+        <offset>(-0.13,-0.87,-0.1)</offset>
+        <volume>(0.5,0.4,1.05)</volume>
+      </shadowData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <hasInteractionCell>True</hasInteractionCell>
+    <stealable>false</stealable>
+    <fillPercent>1</fillPercent>
+    <tickerType>Normal</tickerType>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+    <inspectorTabs>
+      <li>ITab_Shells</li>
+    </inspectorTabs>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Mannable">
+        <manWorkType>Violent</manWorkType>
+      </li>
+    </comps>
+    <placeWorkers>
+      <li>PlaceWorker_NotUnderRoof</li>
+      <li>PlaceWorker_TurretTop</li>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+    </placeWorkers>
+    <uiIconScale>1.1</uiIconScale>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseArtilleryBuilding">
+    <defName>AKI_Battery_Bombard</defName>
+    <label>射石炮</label>
+    <description>中世纪后期可以发射被打磨过的石头的炮弹，实际上就是一大捆铁管捆在一起。虽然装填慢伤害力也欠佳，但是对建筑能造成的致命损伤还是加快了城堡时代的终结。</description>
+    <graphicData>
+      <texPath>Things/Building/Battery/Bombard</texPath>
+      <drawSize>(6,6)</drawSize>
+    </graphicData>
+    <costListForDifficulty>
+      <difficultyVar>classicMortars</difficultyVar>
+      <invert>true</invert>
+      <costList>
+        <WoodLog>200</WoodLog>
+        <Steel>80</Steel>
+      </costList>
+    </costListForDifficulty>
+    <statBases>
+      <AccuracyTouch>0.25</AccuracyTouch>
+      <AccuracyShort>0.45</AccuracyShort>
+      <AccuracyMedium>0.6</AccuracyMedium>
+      <AccuracyLong>0.55</AccuracyLong>
+      <MaxHitPoints>330</MaxHitPoints>
+      <Flammability>0.1</Flammability>
+      <WorkToBuild>2700</WorkToBuild>
+      <Beauty>-25</Beauty>
+    </statBases>
+    <minifiedDef />
+    <size>(4,4)</size>
+    <passability>Impassable</passability>
+    <designationHotKey>Misc4</designationHotKey>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <interactionCellOffset>(0,-1,-2)</interactionCellOffset>
+    <building>
+      <turretGunDef>AKI_Artillery_Bombard</turretGunDef>
+      <turretBurstWarmupTime>4.5</turretBurstWarmupTime>
+      <turretBurstCooldownTime>60.0</turretBurstCooldownTime>
+      <buildingTags>
+        <li>Artillery</li>
+        <li>Artillery_BaseDestroyer</li>
+        <li>Artillery_MannedMortar</li>
+      </buildingTags>
+    </building>
+    <uiIconPath>Things/Building/Battery/Bombard</uiIconPath>
+    <uiIconScale>0.9</uiIconScale>
+    <researchPrerequisites>
+      <li>Smithing</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseArtilleryWeapon">
+    <defName>AKI_Artillery_Bombard</defName>
+    <label>射石炮</label>
+    <description>中世纪后期可以发射被打磨过的石头的炮弹，实际上就是一大捆铁管捆在一起。虽然装填慢伤害力也欠佳，但是对建筑能造成的致命损伤还是加快了城堡时代的终结。</description>
+    <recoilPower>3</recoilPower>
+    <graphicData>
+      <texPath>Things/Building/Battery/BombardBarrel</texPath>
+    </graphicData>
+    <weaponTags>
+      <li>Artillery_BaseDestroyer</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+        <warmupTime>4.5</warmupTime>
+        <forcedMissRadius>9</forcedMissRadius>
+        <forcedMissRadiusClassicMortars>13</forcedMissRadiusClassicMortars>
+        <isMortar>true</isMortar>
+        <requireLineOfSight>false</requireLineOfSight>
+        <range>35</range>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>Mortar_LaunchA</soundCast>
+        <muzzleFlashScale>16</muzzleFlashScale>
+        <consumeFuelPerShot>1</consumeFuelPerShot>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CompProperties_ChangeableProjectile" />
+    </comps>
+    <building>
+      <fixedStorageSettings>
+        <filter>
+          <thingDefs>
+            <li>AKI_Shell_Stone</li>
+          </thingDefs>
+        </filter>
+      </fixedStorageSettings>
+      <defaultStorageSettings>
+        <filter>
+          <thingDefs>
+            <li>AKI_Shell_Stone</li>
+          </thingDefs>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+  </ThingDef>
+
+</Defs>
