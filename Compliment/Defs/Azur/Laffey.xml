@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase">
+		<defName>FS_Recruit_Laffey</defName>
+		<nickname>拉菲</nickname>
+		<surname>本森级</surname>
+		<description>本森级驱逐舰—拉菲，舷号DD-459
+我是备受期待的本森级驱逐舰拉菲，在三次所罗门海战有着极为活跃的表现，战舰？那是什么？</description>
+		<operatorType>AK_OperatorClass_AzurLane</operatorType>
+		<bodyTypeDef>Thin</bodyTypeDef>		
+		<stand>Azur/Laffey/LaffeyStand</stand>
+		<headPortrait>Azur/Laffey/LaffeyPortrait</headPortrait>
+		<skills>
+			<li>
+				<skill>Animals</skill>
+				<level>6</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Artistic</skill>
+				<level>10</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Construction</skill>
+				<level>6</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Cooking</skill>
+				<level>2</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Crafting</skill>
+				<level>7</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Intellectual</skill>
+				<level>7</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<level>5</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<level>10</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Mining</skill>
+				<level>5</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Plants</skill>
+				<level>10</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<level>15</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<level>8</level>
+				<fireLevel>0</fireLevel>
+			</li>
+		</skills>
+		<traits>
+			<li>
+				<def>Beauty</def>
+				<degree>1</degree>
+			</li>
+			<li>
+				<def>ShootingAccuracy</def>
+				<degree>-1</degree>
+			</li>
+			<li>
+				<def>NaturalMood</def>
+				<degree>1</degree>
+			</li>
+			<li>
+				<def>Industriousness</def>
+				<degree>-1</degree>
+			</li>
+		</traits>
+		<age>14</age>
+		<standRatio>2.5</standRatio>
+		<standOffset>(0, 0)</standOffset>
+	</AK_DLL.OperatorDef>
+	
+	<HairDef ParentName="AK_HairBaseF">
+		<defName>FS_Hair_Laffey</defName>
+		<label>拉菲发型</label>
+		<texPath>Azur/Laffey/LaffeyHair</texPath>
+	</HairDef>  
+	
+	<ThingDef ParentName="AK_ArmorBase">
+		<defName>FS_Apparel_Laffey</defName>
+		<label>拉菲常服</label>
+		<description>拉菲平常穿的衣服。\nZzzzzzz...</description>
+		<graphicData>
+		  <texPath>Azur/Laffey/Laffey_Thin_south</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+		  <wornGraphicPath>Azur/Laffey/Laffey</wornGraphicPath>
+		</apparel>
+    </ThingDef>
+	
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>FS_BackStory_Laffey_Child</defName>
+		<slot>Childhood</slot>
+		<title>本森级驱逐舰</title>
+		<titleShort>驱逐舰</titleShort>
+		<baseDesc>拉菲号（USS Laffey，DD-459）是美国海军的本森级驱逐舰7号舰，为了与后来的艾伦萨姆纳级拉菲作区别，通常称作初代拉菲。1942年3月31日服役。在1942年11月13日的瓜达尔卡纳尔海战（日方称第三次所罗门海战）中，在与日军战舰比叡交错的过程中疯狂倾泻火力，直接造成了对方指挥系统的瘫痪，并且在日军包围下依然用仅剩的火炮坚持作战直至沉没。
+　　是役，拉菲荣获总统集体嘉奖（PUC），并且被称为“美军的所罗门疯狗”。</baseDesc>
+	</BackstoryDef>
+</Defs>
