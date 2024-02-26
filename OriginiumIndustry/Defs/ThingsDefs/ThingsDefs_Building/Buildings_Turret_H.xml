@@ -40,11 +40,11 @@
   </ThingDef>
 
   <ThingDef ParentName="BaseArtilleryBuilding">
-    <defName>AKI_Battery_Bombard</defName>
+    <defName>AKI_Turret_Bombard</defName>
     <label>射石炮</label>
     <description>中世纪后期可以发射被打磨过的石头的炮弹，实际上就是一大捆铁管捆在一起。虽然装填慢伤害力也欠佳，但是对建筑能造成的致命损伤还是加快了城堡时代的终结。</description>
     <graphicData>
-      <texPath>Things/Building/Battery/Bombard</texPath>
+      <texPath>Things/Building/Turret/Bombard</texPath>
       <drawSize>(6,6)</drawSize>
     </graphicData>
     <costListForDifficulty>
@@ -81,7 +81,7 @@
         <li>Artillery_MannedMortar</li>
       </buildingTags>
     </building>
-    <uiIconPath>Things/Building/Battery/Bombard</uiIconPath>
+    <uiIconPath>Things/Building/Turret/Bombard</uiIconPath>
     <uiIconScale>0.9</uiIconScale>
     <researchPrerequisites>
       <li>Smithing</li>
@@ -94,7 +94,7 @@
     <description>中世纪后期可以发射被打磨过的石头的炮弹，实际上就是一大捆铁管捆在一起。虽然装填慢伤害力也欠佳，但是对建筑能造成的致命损伤还是加快了城堡时代的终结。</description>
     <recoilPower>3</recoilPower>
     <graphicData>
-      <texPath>Things/Building/Battery/BombardBarrel</texPath>
+      <texPath>Things/Building/Turret/BombardBarrel</texPath>
     </graphicData>
     <weaponTags>
       <li>Artillery_BaseDestroyer</li>
