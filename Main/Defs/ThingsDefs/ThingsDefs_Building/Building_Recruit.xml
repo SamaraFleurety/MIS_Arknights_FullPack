@@ -13,8 +13,9 @@
 				<volume>(0.7,1,0.7)</volume>
 			</shadowData>
 		</graphicData>
-		<altitudeLayer>Building</altitudeLayer>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
 		<passability>PassThroughOnly</passability>
+		<canBeUsedUnderRoof>false</canBeUsedUnderRoof>
 		<pathCost>50</pathCost>
 		<blockWind>true</blockWind>
 		<castEdgeShadows>false</castEdgeShadows>
@@ -64,7 +65,72 @@
 			</li>
 			<li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_Breakdownable"/>
-			<li Class="AK_DLL.TCP_TeleportTowerSuperior" />
+			<li Class="AK_DLL.TCP_TeleportTowerSuperior"/>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+			<li>PlaceWorker_NotUnderRoof</li>
+		</placeWorkers>
+		<researchPrerequisites>
+			<li>MicroelectronicsBasics</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+	</ThingDef>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>AK_Building_SubclassTower</defName>
+		<label>协议分塔</label>
+		<description>搭载瞬时传送模块的塔型通讯设施，可以将覆盖范围内的殖民者瞬间传送到任何登记在协议网络中的核心附近。</description>
+		<graphicData>
+			<texPath>Things/Building/RecruitTower</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>10</drawSize>
+			<shadowData>
+				<volume>(0.7,1,0.7)</volume>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<canBeUsedUnderRoof>false</canBeUsedUnderRoof>
+		<pathCost>50</pathCost>
+		<blockWind>true</blockWind>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0.5</fillPercent>
+		<canOverlapZones>false</canOverlapZones>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>5000</WorkToBuild>
+			<Mass>30</Mass>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<uiIconPath>Things/Building/RecruitTower_MenuIcon</uiIconPath>
+		<uiIconScale>1.2</uiIconScale>
+		<building>
+			<destroySound>BuildingDestroyed_Metal_Small</destroySound>
+		</building>
+		<costList>
+			<Steel>120</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+		</costList>
+		<interactionCellOffset>(0,0,0)</interactionCellOffset>
+		<hasInteractionCell>true</hasInteractionCell>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<designationCategory>MISBuildings</designationCategory>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>AK_Buildings</li>
+		</thingCategories>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerPlant</compClass>
+				<shortCircuitInRain>false</shortCircuitInRain>
+				<basePowerConsumption>-100</basePowerConsumption>
+				<transmitsPower>true</transmitsPower>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="AK_DLL.TCP_TeleportTowerInferior"/>
 		</comps>
 		<placeWorkers>
 			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
