@@ -2627,8 +2627,12 @@
 		<stand>UI/Image/Caster/DelphineStand</stand>
 		<headPortrait>UI/Image/Caster/DelphinePortrait</headPortrait>
 		<traits>
-			<li><def>AK_Trait_DelphineSecond</def></li>
-			<li><def>AK_Trait_Delphine</def></li>
+			<li>
+				<def>AK_Trait_DelphineSecond</def>
+			</li>
+			<li>
+				<def>AK_Trait_Delphine</def>
+			</li>
 			<li>
 				<def>Beauty</def>
 				<degree>1</degree>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="AK_WeaponBase_Millennium">
+		<defName>AK_Weapon_AsunaA</defName>
+		<label>惊喜派对</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Millennium/AsunaW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<description>明日奈使用的突击步枪。虽然这个华丽的名字不太适合潜行任务，但她却并不是很在意。</description>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Millennium">
+		<defName>AK_Weapon_AsunaB</defName>
+		<label>明日奈的炸弹</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Millennium/AsunaW2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<description>明日奈的炸弹。</description>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Millennium">
+		<defName>AK_Weapon_Karin</defName>
+		<label>鹰眼</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Millennium/KarinW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<description>花凛专用的反器材步枪。即使是空中跳跃的白兔，也可以准确无比地击落。</description>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Millennium">
+		<defName>AK_Weapon_AkaneA</defName>
+		<label>无声解决</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Millennium/AkaneW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<description>朱音经常携带的手枪，没有比它更适合潜行任务的了。</description>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Millennium">
+		<defName>AK_Weapon_AkaneB</defName>
+		<label>吵死人的解决（引爆器）</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Millennium/AkaneW2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<description>吵死人的解决的引爆器。</description>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Millennium">
+		<defName>AK_Weapon_AkaneC</defName>
+		<label>吵死人的解决</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Millennium/AkaneW3</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<description>朱音更偏向的解决方案，用爆炸清扫一切，高效又轻松。</description>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Millennium">
+		<defName>AK_Weapon_TokiA</defName>
+		<label>秘密时间</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Millennium/TokiW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<description>时专用的突击步枪。\n她认为这把枪无论是寻常任务还是秘密作战都十分适合。她会通过自己的双手，来证明她所认为的是正确的。</description>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Millennium">
+		<defName>AK_Weapon_TokiB</defName>
+		<label>阿比舒·B</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Millennium/TokiW2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<description>隐藏在手提箱中的火箭装甲拳套，可以一拳揍飞敌人或者发射火箭把敌人炸上天。</description>
+	</ThingDef>
+
+</Defs>

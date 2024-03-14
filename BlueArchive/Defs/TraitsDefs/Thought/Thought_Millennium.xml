@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_KarinThird</defName>
+		<requiredTraits>
+			<li>AK_Trait_KarinThird</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>笨蛋？</label>
+				<description>啊啊...，如果这次考试再不及格的话，那我的代号可能就要从【02】变成【笨蛋】了啊...</description>
+				<baseMoodEffect>-2</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_KarinSecond</defName>
+		<requiredTraits>
+			<li>AK_Trait_KarinSecond</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>闲情雅致</label>
+				<description>美丽的地方……我也想有天能变得漂亮…</description>
+				<baseMoodEffect>6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Karin</defName>
+		<requiredTraits>
+			<li>AK_Trait_Karin</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>可靠女仆</label>
+				<description>虽然我一开始是因为衣服好看才加入女仆部的，但是现在女仆装对我来说已经不止是一件美丽的衣服了，因为这件衣服代表了我愿意为千年奉献的决心。</description>
+				<baseMoodEffect>8</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_AkaneSecond</defName>
+		<requiredTraits><li>AK_Trait_AkaneSecond</li></requiredTraits>
+		<stages>
+			<li>
+				<label>清扫高手</label>
+				<description>优雅地清除。</description>
+				<baseMoodEffect>6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Akane</defName>
+		<requiredTraits><li>AK_Trait_Akane</li></requiredTraits>
+		<stages>
+			<li>
+				<label>温柔女仆？</label>
+				<description>好，接下来开始侍奉吧。</description>
+				<baseMoodEffect>6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_TokiSecond</defName>
+		<requiredTraits><li>AK_Trait_TokiSecond</li></requiredTraits>
+		<stages>
+			<li>
+				<label>理性</label>
+				<description>请不要默不作声……很难为情不是吗……</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+</Defs>

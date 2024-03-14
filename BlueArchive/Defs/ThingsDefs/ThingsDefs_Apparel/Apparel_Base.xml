@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Name="AK_ArmorBase_Millennium" ParentName="AK_ArmorBase" Abstract="True">
+    <thingCategories Inherit="false">
+      <li>AK_Apparel_BlueArchive</li>
+    </thingCategories>
+  </ThingDef>
+
+ </Defs>

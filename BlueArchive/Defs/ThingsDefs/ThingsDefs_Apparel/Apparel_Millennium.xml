@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="AK_ArmorBase_Millennium">
+		<defName>AK_Apparel_Asuna</defName>
+		<label>明日奈的兔女郎装</label>
+		<description>虽然不是平常的女仆装，但完全不受影响，一如既往的情绪高昂。甚至能说因为身处在新的地方体验新的事物，看起来比平时还要开心。\n"今天也开心的玩吧，主人！"\nP.S.这件衣服其实是从轮船守卫身上扒下来的</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Millennium/Asuna</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Millennium/Asuna</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Millennium">
+		<defName>AK_Apparel_Karin</defName>
+		<label>花凛的兔女郎装</label>
+		<description>她一边说着是为了任务，一边兴冲冲地换衣服。但是，比起平时，对于周围的视线还是有点在意的样子。\nP.S.这件衣服其实是从轮船守卫身上扒下来的</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Millennium/Karin</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Millennium/Karin</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Millennium">
+		<defName>AK_Apparel_Akane</defName>
+		<label>朱音的兔女郎装</label>
+		<description>即使是在不习惯的环境下，为了潜入任务也率先准备好了兔女郎服装，使用C4清理掉了障碍物等等，一如既往沉着冷静地推进着作战计划。也许是因为穿着和平时不同的服装的缘故，哪儿都能看到她兴奋的表情。\n"我是主人的女仆……\n不对，现在应该说是主人的兔子吧"\nP.S.这件衣服其实是从轮船守卫身上扒下来的</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Millennium/Akane</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Millennium/Akane</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Millennium">
+		<defName>AK_Apparel_Toki</defName>
+		<label>时的兔女郎服</label>
+		<description>时坚信潜入作战理所当然要穿兔女郎服装，不知是否是因为她平常总是处于特殊的立场，被委任到平时不怎么有机会参与的潜入任务，她看起来格外兴奋。能有机会和CC的前辈一起出任务，内心十分喜悦，但本人表面上却装作一派平静的样子。\n"作战执行准备、完毕。随时可以出发。\n这个打扮……？有什么问题吗？"</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Millennium/Toki</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Millennium/Toki</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+</Defs>

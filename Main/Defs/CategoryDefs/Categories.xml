@@ -68,6 +68,12 @@
 		<parent>AK_Weapon</parent>
 	</ThingCategoryDef>
 
+	<ThingCategoryDef MayRequire="MIS.BlueArchive">
+		<defName>AK_Weapon_BlueArchive</defName>
+		<label>碧蓝档案武器</label>
+		<parent>AK_Weapon</parent>
+	</ThingCategoryDef>
+
 	<!-- 衣着 -->
 
 	<ThingCategoryDef>
@@ -133,6 +139,12 @@
 	<ThingCategoryDef>
 		<defName>AK_Apparel_OtherLeader</defName>
 		<label>领袖衣着</label>
+		<parent>AK_Apparel</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef MayRequire="MIS.BlueArchive">
+		<defName>AK_Apparel_BlueArchive</defName>
+		<label>碧蓝档案衣着</label>
 		<parent>AK_Apparel</parent>
 	</ThingCategoryDef>
 
