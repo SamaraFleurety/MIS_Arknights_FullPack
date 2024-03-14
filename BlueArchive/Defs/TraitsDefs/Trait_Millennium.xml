@@ -174,4 +174,110 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_NeruThird</defName>
+		<degreeDatas>
+			<li>
+				<label>零号女仆</label>
+				<description>虽说平常总是一副小太妹的形象，但是尼禄的看护和料理水平是绝对过硬且经得住考验的，不过她对常规女仆的工作的确不屑一顾。</description>
+				<statOffsets>
+					<WorkSpeedGlobal>0.16</WorkSpeedGlobal>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_NeruSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>千年最强</label>
+				<description>作为千年科技最强战斗力之一，尼禄甚至能够近战打趴装备了阿比舒的时，很难想象这只是一个不良少女的战斗力。</description>
+				<statOffsets>
+					<AimingDelayFactor>-0.5</AimingDelayFactor>
+					<ShootingAccuracyPawn>0.25</ShootingAccuracyPawn>
+					<MeleeDodgeChance>0.25</MeleeDodgeChance>
+				</statOffsets>
+				<statFactors>
+					<IncomingDamageFactor>0.25</IncomingDamageFactor>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Neru</defName>
+		<degreeDatas>
+			<li>
+				<label>小太妹</label>
+				<description>尼禄平常给人的印象就是会亿点打架的不良学生，实际上也确实是个喜欢翘课打游戏的不良学生，对她不了解的通常都会对她退避三舍。只有愿意了解她的人才能理解到她的独特之处。\nP.S.她很在意自己的身高，不要叫她小个子，会死的！\nP.P.S 也不要提她上周偷吃花凛布丁那事，真的会死的！</description>
+				<statOffsets>
+					<GlobalLearningFactor>-0.2</GlobalLearningFactor>
+					<ResearchSpeed>-0.5</ResearchSpeed>
+					<MentalBreakThreshold>-0.12</MentalBreakThreshold>
+					<SocialImpact>-0.15</SocialImpact>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_ArisThird</defName>
+		<degreeDatas>
+			<li>
+				<label>重度游戏发烧友</label>
+				<description>爱丽丝的知识都是通过开发部的老式RPG游戏中学会的，导致爱丽丝的认知和游戏产生了一定重合，说话偶尔会蹦出「邦邦卡邦」的游戏音效，而且还喜欢翻垃圾桶找稀有道具。</description>
+				<statOffsets>
+					<SocialImpact>-0.05</SocialImpact>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_ArisSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>光之勇者</label>
+				<description>爱丽丝相信基沃托斯存在魔法，而自己就是这个魔法世界的光之勇者。她也时刻期待着和游戏开发部的众人经历新的冒险。x</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.25</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Aris</defName>
+		<degreeDatas>
+			<li>
+				<label>AL-1S</label>
+				<description>爱丽丝是被废墟内的AI G·Bible 称作「AL-1S」的机器人，她被制造出来是为了成为“无名诸神的王女”的。然而如今以及被彩羽姐妹彻底带歪变成游戏发烧友了。\n据说她战斗中被打败是因为她在计算自己的体力值，清零了就自动投降。</description>
+				<statOffsets>
+					<MoveSpeed>0.2</MoveSpeed>
+					<MeleeDodgeChance>0.2</MeleeDodgeChance>
+					<PsychicSensitivity>-1</PsychicSensitivity>
+					<RestRateMultiplier>0.5</RestRateMultiplier>
+				</statOffsets>
+				<statFactors>
+					<InjuryHealingFactor>0.25</InjuryHealingFactor>
+					<CarryingCapacity>4</CarryingCapacity>
+					<InjuryHealingFactor>12</InjuryHealingFactor>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>

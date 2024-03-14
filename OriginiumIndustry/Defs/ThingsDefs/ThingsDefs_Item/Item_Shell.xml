@@ -46,6 +46,9 @@
             </skillRequirements>
             <researchPrerequisite>Smithing</researchPrerequisite>
         </recipeMaker>
+        <thingCategories>
+            <li>AKI_Shell_Stone</li>
+        </thingCategories>
     </ThingDef>
 
     <ThingDef ParentName="BaseBullet">

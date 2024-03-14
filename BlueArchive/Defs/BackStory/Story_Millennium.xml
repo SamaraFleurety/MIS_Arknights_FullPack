@@ -33,4 +33,28 @@
 		<baseDesc>时是所属CC的五号特工，通常会以女仆的打扮示人。虽然说是CC所属，之前一直都作为莉音的专属女仆兼保镖活动着，知道时的存在的人并不多。在要塞都市埃里都之战莉音引咎辞职后投靠CC并成为五号特工。</baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Neru_Child</defName>
+		<slot>Childhood</slot>
+		<title>CC 00</title>
+		<titleShort>CC 00</titleShort>
+		<baseDesc>尼禄是CC的领头人，平常基本上都是以不良学生的形象示人，学业和成绩也基本上都是在留级边缘徘徊，但是实际上是千年科技学院最强战斗力之一。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Aris_Child</defName>
+		<slot>Childhood</slot>
+		<title>无名诸神的王女</title>
+		<titleShort>无名诸神的王女</titleShort>
+		<baseDesc>AL-1S被制造出来是为了成为“无名诸神的王女”，但是不知道为何被埋藏在废墟中，直到彩羽姐妹发现并将其激活并带回游戏开发部。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Aris_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>天童爱丽丝</title>
+		<titleShort>天童爱丽丝</titleShort>
+		<baseDesc>在废墟发现的来历不明的少女。包含年龄在内，所有情报都无法推断。现在跟着绿和桃井玩游戏，已经变成重度游戏狂热者了。</baseDesc>
+	</BackstoryDef>
+
 </Defs>

@@ -53,4 +53,30 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Millennium">
+		<defName>AK_Apparel_Neru</defName>
+		<label>尼禄的兔女郎装</label>
+		<description>平时绝不会穿上兔女郎，但为了任务无可奈何。\n虽然平时为了任务一直都在忍耐着，但那个外套是不会脱下来的</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Millennium/Neru</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Millennium/Neru</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Millennium">
+		<defName>AK_Apparel_Aris</defName>
+		<label>爱丽丝的服装</label>
+		<description>由于爱丽丝被发现的时候不着寸缕，所以彩羽姐妹就把自己的衣服借给了爱丽丝穿。不过爱丽丝似乎很喜欢这套。\n顺便一提爱丽丝的内裤是彩羽绿的。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Millennium/Aris</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Millennium/Aris</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 </Defs>

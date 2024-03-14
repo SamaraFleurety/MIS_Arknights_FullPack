@@ -81,4 +81,24 @@
 		<description>隐藏在手提箱中的火箭装甲拳套，可以一拳揍飞敌人或者发射火箭把敌人炸上天。</description>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_WeaponBase_Millennium">
+		<defName>AK_Weapon_Neru</defName>
+		<label>双龙</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Millennium/NeruW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<description>尼禄使用的双持冲锋枪。\n每当她奔跑起来，相连的链子就华丽地在空中飞舞。</description>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Millennium">
+		<defName>AK_Weapon_Aris</defName>
+		<label>光之剑：超新星</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Millennium/ArisW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<description>爱丽丝从工程部那里拿到的巨大电磁炮。\n它的重量和功率输出，普通学生仅仅是提着走路都十分困难。</description>
+	</ThingDef>
+
 </Defs>
