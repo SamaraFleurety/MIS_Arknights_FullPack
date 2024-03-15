@@ -10,7 +10,7 @@
 
 “但是我觉得人肉不好吃啊。”</description>
 		<operatorType>AK_OperatorClass_Medic</operatorType>
-		<bodyTypeDef>Thin</bodyTypeDef>		
+		<bodyTypeDef>Thin</bodyTypeDef>
 		<stand>Credit/Silka/SilkaStand</stand>
 		<headPortrait>Credit/Silka/SilkaPortrait</headPortrait>
 		<apparels>
@@ -101,7 +101,7 @@
 		<standRatio>3</standRatio>
 		<standOffset>(0, 0)</standOffset>
 	</AK_DLL.OperatorDef>
-	
+
 	<TraitDef>
 		<defName>FS_Trait_Silka</defName>
 		<ignoreConfigErrors>true</ignoreConfigErrors>
@@ -116,18 +116,12 @@
 					<MeleeHitChance>4</MeleeHitChance>
 				</statOffsets>
 				<skillGains>
-				  <li>
-					<key>Melee</key>
-					<value>6</value>
-				  </li>
-				  <li>
-					<key>Shooting</key>
-					<value>-2</value>
-				  </li>
+					<Melee>6</Melee>
+					<Shooting>-2</Shooting>
 				</skillGains>
 				<statFactors>
-				  <PawnTrapSpringChance>0.0</PawnTrapSpringChance>
-				  <IncomingDamageFactor>0.5</IncomingDamageFactor>
+					<PawnTrapSpringChance>0.0</PawnTrapSpringChance>
+					<IncomingDamageFactor>0.5</IncomingDamageFactor>
 				</statFactors>
 			</li>
 		</degreeDatas>
@@ -147,7 +141,7 @@
 			</li>
 		</degreeDatas>
 	</TraitDef>
-	
+
 	<ThoughtDef>
 		<workerClass>ThoughtWorker_AlwaysActive</workerClass>
 		<validWhileDespawned>false</validWhileDespawned>
@@ -163,13 +157,13 @@
 			</li>
 		</stages>
 	</ThoughtDef>
-	
+
 	<HairDef ParentName="AK_HairBaseF">
 		<defName>FS_Hair_Silka</defName>
 		<label>希尔卡的短发</label>
 		<texPath>Credit/Silka/SilkaHair</texPath>
-	</HairDef>  
-	
+	</HairDef>
+
 	<ThingDef ParentName="MeleeWeaponUltratech">
 		<defName>FS_Weapon_Silka</defName>
 		<label>“琴弓”</label>
@@ -179,46 +173,46 @@
 		<equippedAngleOffset>-65</equippedAngleOffset>
 		<smeltable>false</smeltable>
 		<weaponClasses>
-		  <li>MeleePiercer</li>
+			<li>MeleePiercer</li>
 		</weaponClasses>
 		<graphicData>
-		  <texPath>Credit/Silka/Weapon</texPath>
-		  <graphicClass>Graphic_Single</graphicClass>
+			<texPath>Credit/Silka/Weapon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<tools>
-		  <li>
-			<label>切割</label>
-			<capacities>
-			  <li>Cut</li>
-			</capacities>
-			<power>18</power>
-			<armorPenetration>3.0</armorPenetration>
-			<extraMeleeDamages>
-			  <li>
-				<def>Burn</def>
-				<amount>8</amount>
+			<li>
+				<label>切割</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>18</power>
 				<armorPenetration>3.0</armorPenetration>
-			  </li>
-			</extraMeleeDamages>
-			<chanceFactor>20</chanceFactor>
-			<cooldownTime>1.2</cooldownTime>
-		  </li>
+				<extraMeleeDamages>
+					<li>
+						<def>Burn</def>
+						<amount>8</amount>
+						<armorPenetration>3.0</armorPenetration>
+					</li>
+				</extraMeleeDamages>
+				<chanceFactor>20</chanceFactor>
+				<cooldownTime>1.2</cooldownTime>
+			</li>
 		</tools>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="AK_ArmorBase_Medic">
 		<defName>FS_Apparel_Silka</defName>
 		<label>鳞翼的服装</label>
 		<description>由一件防护服和短T恤组成，鳞翼并不需要穿戴防护装备保护自己。但博士要求她起码穿件衣服。</description>
 		<graphicData>
-		  <texPath>Things/AK_Agents/GApparel</texPath>
-		  <graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
-		  <wornGraphicPath>Credit/Silka/Silka</wornGraphicPath>
+			<wornGraphicPath>Credit/Silka/Silka</wornGraphicPath>
 		</apparel>
-    </ThingDef>
-	
+	</ThingDef>
+
 	<BackstoryDef ParentName = "AK_StoryBase">
 		<defName>FS_BackStory_Silka_Child</defName>
 		<slot>Childhood</slot>
@@ -226,13 +220,13 @@
 		<titleShort>米戈幼虫</titleShort>
 		<baseDesc>米戈们通常被认为是半节肢类半真菌的生物，他们拥有自己的文明，国家和政体。而鳞翼就是米戈社会中的一只个体，她的幼虫期总是在集体学校和公社里度过，只是学习飞行、医学、社会学，和那么一点儿禁忌的知识，仅此而已。</baseDesc>
 	</BackstoryDef>
-	
+
 	<BackstoryDef ParentName = "AK_StoryBase">
 		<defName>FS_BackStory_Silka_Adult</defName>
-		<slot>Adulthood</slot>	
+		<slot>Adulthood</slot>
 		<title>星间旅者</title>
 		<titleShort>星间旅者</titleShort>
 		<baseDesc>鳞翼不那么喜欢社交，这或许是族群的通病。所以她如愿以偿地成为了米戈族群中的开拓者。大概是开着飞船或者肉身横跨星系这种孤独又无聊的工作，但正好对上她的胃口——还有什么能比一个人的旅行更有意思？她这么说，然后就在边缘世界坠机了。</baseDesc>
 	</BackstoryDef>
-	
+
 </Defs>

@@ -16,10 +16,7 @@
           <IncomingDamageFactor>0.35</IncomingDamageFactor>
         </statFactors>
         <skillGains>
-          <li>
-            <key>Medicine</key>
-            <value>4</value>
-          </li>
+          <Medicine>4</Medicine>
         </skillGains>
       </li>
     </degreeDatas>
@@ -38,14 +35,8 @@
           <PainShockThreshold>2</PainShockThreshold>
         </statFactors>
         <skillGains>
-          <li>
-            <key>Melee</key>
-            <value>10</value>
-          </li>
-          <li>
-            <key>Shooting</key>
-            <value>6</value>
-          </li>
+          <Melee>10</Melee>
+          <Shooting>6</Shooting>
         </skillGains>
       </li>
     </degreeDatas>
@@ -64,10 +55,7 @@
           <GlobalLearningFactor>1.25</GlobalLearningFactor>
         </statFactors>
         <skillGains>
-          <li>
-            <key>Intellectual</key>
-            <value>5</value>
-          </li>
+          <Intellectual>5</Intellectual>
         </skillGains>
       </li>
     </degreeDatas>
@@ -88,10 +76,7 @@
           <GlobalLearningFactor>1.5</GlobalLearningFactor>
         </statFactors>
         <skillGains>
-          <li>
-            <key>Social</key>
-            <value>5</value>
-          </li>
+          <Social>5</Social>
         </skillGains>
       </li>
     </degreeDatas>
@@ -109,14 +94,8 @@
           <GlobalLearningFactor>0.75</GlobalLearningFactor>
         </statFactors>
         <skillGains>
-          <li>
-            <key>Shooting</key>
-            <value>5</value>
-          </li>
-          <li>
-            <key>Intellectual</key>
-            <value>-2</value>
-          </li>
+          <Shooting>5</Shooting>
+          <Intellectual>-2</Intellectual>
         </skillGains>
       </li>
     </degreeDatas>
@@ -135,14 +114,8 @@
           <MeleeDodgeChance>0.05</MeleeDodgeChance>
         </statOffsets>
         <skillGains>
-          <li>
-            <key>Melee</key>
-            <value>4</value>
-          </li>
-          <li>
-            <key>Social</key>
-            <value>3</value>
-          </li>
+          <Melee>4</Melee>
+          <Social>3</Social>
         </skillGains>
       </li>
     </degreeDatas>
@@ -160,14 +133,8 @@
           <PainShockThreshold>-0.20</PainShockThreshold>
         </statOffsets>
         <skillGains>
-          <li>
-            <key>Melee</key>
-            <value>5</value>
-          </li>
-          <li>
-            <key>Social</key>
-            <value>-2</value>
-          </li>
+          <Melee>5</Melee>
+          <Social>-2</Social>
         </skillGains>
       </li>
     </degreeDatas>
@@ -186,14 +153,8 @@
           <MeleeDodgeChance>0.25</MeleeDodgeChance>
         </statOffsets>
         <skillGains>
-          <li>
-            <key>Melee</key>
-            <value>4</value>
-          </li>
-          <li>
-            <key>Social</key>
-            <value>-2</value>
-          </li>
+          <Melee>4</Melee>
+          <Social>-2</Social>
         </skillGains>
       </li>
     </degreeDatas>
