@@ -391,6 +391,14 @@
 				<power>28</power>
 				<cooldownTime>1</cooldownTime>
 			</li>
+			<li>
+				<label>拳击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>32</power>
+				<cooldownTime>1</cooldownTime>
+			</li>
 		</tools>
 	</ThingDef>
 
@@ -477,10 +485,165 @@
 			<speed>50</speed>
 			<extraDamages>
 				<li>
-					<def>Burn</def>
+					<def>Flame</def>
 					<amount>42</amount>					<!--伤害数值-->
 				</li>
 			</extraDamages>
+			<soundExplode>ThumpCannon_Impact</soundExplode>
+			<!--爆炸音效-->
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Millennium">
+		<defName>AK_Weapon_Yuzu</defName>
+		<label>喵冲</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Millennium/YuzuW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<description>柚子随身携带的掷弹筒。\n它的侧面一直播放着可爱的猫猫影像。</description>
+		<statBases>
+			<AccuracyTouch>0.8</AccuracyTouch>
+			<AccuracyShort>0.8</AccuracyShort>
+			<AccuracyMedium>0.7</AccuracyMedium>
+			<AccuracyLong>0.6</AccuracyLong>
+			<RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+			<!--后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_Yuzu</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>2.6</warmupTime>
+				<!--前摇-->
+				<range>25</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_GeneralPistol</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<tools Inherit = "false">
+			<li>
+				<label>枪托猛砸</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>18</power>
+				<cooldownTime>1.8</cooldownTime>
+			</li>
+			<li>
+				<label>踢击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>20</power>
+				<cooldownTime>1.2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_Yuzu</defName>
+		<label>榴弹射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<!--伤害类型-->
+			<damageAmountBase>0</damageAmountBase>
+			<armorPenetrationBase>0.8</armorPenetrationBase>
+			<stoppingPower>3</stoppingPower>
+			<speed>50</speed>
+			<extraDamages>
+				<li>
+					<def>Burn</def>
+					<amount>28</amount>					<!--伤害数值-->
+				</li>
+			</extraDamages>
+			<soundExplode>ThumpCannon_Impact</soundExplode>
+			<!--爆炸音效-->
+		</projectile>
+	</ThingDef>
+
+
+	<ThingDef ParentName="AK_WeaponBase_Millennium">
+		<defName>AK_Weapon_Momoi</defName>
+		<label>独特点子</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Millennium/MomoiW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<description>桃井使用的突击步枪。/n挂着最重要的妹妹送的装饰，在困顿的时候拨弄拨弄它，点子就闪闪发亮起来了。</description>
+		<statBases>
+			<AccuracyTouch>0.75</AccuracyTouch>
+			<AccuracyShort>0.8</AccuracyShort>
+			<AccuracyMedium>0.6</AccuracyMedium>
+			<AccuracyLong>0.6</AccuracyLong>
+			<RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
+			<!--后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_Momoi</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>2</warmupTime>
+				<!--前摇-->
+				<range>28</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_GeneralPistol</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<tools Inherit = "false">
+			<li>
+				<label>枪托猛砸</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>24</power>
+				<cooldownTime>2.2</cooldownTime>
+			</li>
+			<li>
+				<label>踢击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>22</power>
+				<cooldownTime>1.2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_Momoi</defName>
+		<label>短点射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<!--伤害类型-->
+			<damageAmountBase>60</damageAmountBase>
+			<armorPenetrationBase>0.37</armorPenetrationBase>
+			<stoppingPower>3</stoppingPower>
+			<speed>50</speed>
 			<soundExplode>ThumpCannon_Impact</soundExplode>
 			<!--爆炸音效-->
 		</projectile>

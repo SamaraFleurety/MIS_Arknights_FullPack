@@ -109,4 +109,40 @@
 		</statBases>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Millennium">
+		<defName>AK_Apparel_Yuzu</defName>
+		<label>柚子的服装</label>
+		<description>柚子的开发部部长制服，外套很宽大；因为平时极少出门，柚子大多数情况下都是穿拖鞋或者干脆光脚。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Millennium/Yuzu</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Millennium/Yuzu</wornGraphicPath>
+		</apparel>
+		<statBases>
+			<ArmorRating_Sharp>1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.4</ArmorRating_Heat>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Millennium">
+		<defName>AK_Apparel_Momoi</defName>
+		<label>桃井的服装</label>
+		<description>桃井的开发部制服，和妹妹的款式几乎一样，但是是桃红色的。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Millennium/Momoi</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Millennium/Momoi</wornGraphicPath>
+		</apparel>
+		<statBases>
+			<ArmorRating_Sharp>1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.4</ArmorRating_Heat>
+		</statBases>
+	</ThingDef>
+
 </Defs>

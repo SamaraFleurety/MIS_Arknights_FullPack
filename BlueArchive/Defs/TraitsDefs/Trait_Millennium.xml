@@ -277,4 +277,65 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_YuzuSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>游戏爱好者</label>
+				<description>柚子是游戏的忠实爱好者，理想也是能努力开发出优秀的游戏，一但提到游戏她就会非常热情。</description>
+				<statOffsets>
+					<WorkSpeedGlobal>0.4</WorkSpeedGlobal>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Yuzu</defName>
+		<degreeDatas>
+			<li>
+				<label>重度社恐</label>
+				<description>因为被网暴，柚子相当恐惧和人交流，曾经几个月没有出过柜子回宿舍；她平常都是呆在狭小的柜子里，对于任何的社交活动和外出都感到抗拒。</description>
+				<statOffsets>
+					<SocialImpact>-0.4</SocialImpact>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_MomoiSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>游戏爱好者</label>
+				<description>桃井是游戏的忠实爱好者，理想也是能努力开发出优秀的游戏，一但提到游戏她就会非常热情，不过她的游戏其实打的挺菜的。</description>
+				<!-- <statOffsets>
+					<WorkSpeedGlobal>-0.24</WorkSpeedGlobal>
+				</statOffsets> -->
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Momoi</defName>
+		<degreeDatas>
+			<li>
+				<label>创作的痛苦</label>
+				<description>桃井虽然对开发游戏充满热情，但是她的热情总是很难转化成灵感，而且她经常会因为光顾着打游戏而忘了编剧工作。</description>
+				<statOffsets>
+					<WorkSpeedGlobal>-0.24</WorkSpeedGlobal>
+					<GlobalLearningFactor>0.2</GlobalLearningFactor>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>

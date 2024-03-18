@@ -57,4 +57,20 @@
 		<baseDesc>在废墟发现的来历不明的少女。包含年龄在内，所有情报都无法推断。现在跟着绿和桃井玩游戏，已经变成重度游戏狂热者了。</baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Yuzu_Child</defName>
+		<slot>Childhood</slot>
+		<title>游戏开发部部长</title>
+		<titleShort>游戏开发部部长</titleShort>
+		<baseDesc>柚子是千年科学学院游戏开发部的部长，因为开发的游戏被千年科学学院评为了该年的“粪游排名”第一位，遭到了大量网爆而患上了社交恐惧症，不过如今在彩羽姐妹和爱丽丝的帮助下坚持了继续制作有趣的游戏的决心。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Momoi_Child</defName>
+		<slot>Childhood</slot>
+		<title>游戏开发者桃井</title>
+		<titleShort>游戏开发者桃井</titleShort>
+		<baseDesc>桃井是游戏开发部的编剧，因为看到了柚子的游戏对游戏产生了浓重的兴趣因而和双胞胎妹妹绿加入了游戏开发部；虽然对游戏有很大的爱好，但是桃井的游戏打的很菜，而且经常光顾着玩游戏而忘了游戏开发的工作。</baseDesc>
+	</BackstoryDef>
+
 </Defs>

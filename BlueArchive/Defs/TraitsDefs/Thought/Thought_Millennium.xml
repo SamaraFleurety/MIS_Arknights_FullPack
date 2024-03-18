@@ -45,7 +45,9 @@
 
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_AkaneSecond</defName>
-		<requiredTraits><li>AK_Trait_AkaneSecond</li></requiredTraits>
+		<requiredTraits>
+			<li>AK_Trait_AkaneSecond</li>
+		</requiredTraits>
 		<stages>
 			<li>
 				<label>清扫高手</label>
@@ -57,7 +59,9 @@
 
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_Akane</defName>
-		<requiredTraits><li>AK_Trait_Akane</li></requiredTraits>
+		<requiredTraits>
+			<li>AK_Trait_Akane</li>
+		</requiredTraits>
 		<stages>
 			<li>
 				<label>温柔女仆？</label>
@@ -69,7 +73,9 @@
 
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_TokiSecond</defName>
-		<requiredTraits><li>AK_Trait_TokiSecond</li></requiredTraits>
+		<requiredTraits>
+			<li>AK_Trait_TokiSecond</li>
+		</requiredTraits>
 		<stages>
 			<li>
 				<label>理性</label>
@@ -81,7 +87,9 @@
 
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_Neru</defName>
-		<requiredTraits><li>AK_Trait_Neru</li></requiredTraits>
+		<requiredTraits>
+			<li>AK_Trait_Neru</li>
+		</requiredTraits>
 		<stages>
 			<li>
 				<label>小太妹</label>
@@ -93,12 +101,40 @@
 
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_ArisSecond</defName>
-		<requiredTraits><li>AK_Trait_ArisSecond</li></requiredTraits>
+		<requiredTraits>
+			<li>AK_Trait_ArisSecond</li>
+		</requiredTraits>
 		<stages>
 			<li>
 				<label>光之勇者</label>
 				<description>爱丽丝不觉得基沃托斯没有魔法，魔法是存在的；因为现在爱丽丝感到了幸福。游戏，猫，朋友，还有，现在这个瞬间，这个世界上有很多美丽的东西。</description>
 				<baseMoodEffect>15</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Yuzu</defName>
+		<requiredTraits>
+			<li>AK_Trait_Yuzu</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>重度社恐</label>
+				<description>呜呜，好想躲起来......</description>
+				<baseMoodEffect>-6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Momoi</defName>
+		<requiredTraits><li>AK_Trait_Momoi</li></requiredTraits>
+		<stages>
+			<li>
+				<label>创作的痛苦</label>
+				<description>任务什么的待会再说，总之先来打游戏吧！</description>
+				<baseMoodEffect>8</baseMoodEffect>
 			</li>
 		</stages>
 	</ThoughtDef>
