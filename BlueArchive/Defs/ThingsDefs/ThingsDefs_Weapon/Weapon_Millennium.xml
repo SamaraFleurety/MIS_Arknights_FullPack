@@ -9,6 +9,70 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<description>明日奈使用的突击步枪。虽然这个华丽的名字不太适合潜行任务，但她却并不是很在意。</description>
+		<statBases>
+			<AccuracyTouch>0.75</AccuracyTouch>
+			<AccuracyShort>0.8</AccuracyShort>
+			<AccuracyMedium>0.6</AccuracyMedium>
+			<AccuracyLong>0.6</AccuracyLong>
+			<RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
+			<!--后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_Asuna</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>2.0</warmupTime>
+				<!--前摇-->
+				<range>30</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_GeneralPistol</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<tools Inherit = "false">
+			<li>
+				<label>枪托猛砸</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>28</power>
+				<cooldownTime>2.2</cooldownTime>
+			</li>
+			<li>
+				<label>踢击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>26</power>
+				<cooldownTime>1.2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_Asuna</defName>
+		<label>短点射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<!--伤害类型-->
+			<damageAmountBase>66</damageAmountBase>
+			<armorPenetrationBase>0.42</armorPenetrationBase>
+			<stoppingPower>3</stoppingPower>
+			<speed>50</speed>
+			<soundExplode>ThumpCannon_Impact</soundExplode>
+			<!--爆炸音效-->
+		</projectile>
 	</ThingDef>
 
 	<ThingDef ParentName="AK_WeaponBase_Millennium">
@@ -29,6 +93,70 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<description>花凛专用的反器材步枪。即使是空中跳跃的白兔，也可以准确无比地击落。</description>
+		<statBases>
+			<AccuracyTouch>0.65</AccuracyTouch>
+			<AccuracyShort>0.9</AccuracyShort>
+			<AccuracyMedium>1</AccuracyMedium>
+			<AccuracyLong>0.9</AccuracyLong>
+			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+			<!--后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_Karin</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>2.8</warmupTime>
+				<!--前摇-->
+				<range>50</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_GeneralPistol</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<tools Inherit = "false">
+			<li>
+				<label>枪托猛砸</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>32</power>
+				<cooldownTime>2.8</cooldownTime>
+			</li>
+			<li>
+				<label>踢击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>20</power>
+				<cooldownTime>1.2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_Karin</defName>
+		<label>瞄准射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<!--伤害类型-->
+			<damageAmountBase>45</damageAmountBase>
+			<armorPenetrationBase>0.94</armorPenetrationBase>
+			<stoppingPower>3</stoppingPower>
+			<speed>50</speed>
+			<soundExplode>ThumpCannon_Impact</soundExplode>
+			<!--爆炸音效-->
+		</projectile>
 	</ThingDef>
 
 	<ThingDef ParentName="AK_WeaponBase_Millennium">
@@ -39,6 +167,70 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<description>朱音经常携带的手枪，没有比它更适合潜行任务的了。</description>
+		<statBases>
+			<AccuracyTouch>0.55</AccuracyTouch>
+			<AccuracyShort>0.7</AccuracyShort>
+			<AccuracyMedium>0.5</AccuracyMedium>
+			<AccuracyLong>0.3</AccuracyLong>
+			<RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+			<!--后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_Akane</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>1.4</warmupTime>
+				<!--前摇-->
+				<range>25</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_GeneralPistol</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<tools Inherit = "false">
+			<li>
+				<label>枪托猛砸</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>18</power>
+				<cooldownTime>1.8</cooldownTime>
+			</li>
+			<li>
+				<label>踢击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>20</power>
+				<cooldownTime>1.2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_Akane</defName>
+		<label>射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<!--伤害类型-->
+			<damageAmountBase>24</damageAmountBase>
+			<armorPenetrationBase>0.72</armorPenetrationBase>
+			<stoppingPower>3</stoppingPower>
+			<speed>50</speed>
+			<soundExplode>ThumpCannon_Impact</soundExplode>
+			<!--爆炸音效-->
+		</projectile>
 	</ThingDef>
 
 	<ThingDef ParentName="AK_WeaponBase_Millennium">
@@ -69,6 +261,73 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<description>时专用的突击步枪。\n她认为这把枪无论是寻常任务还是秘密作战都十分适合。她会通过自己的双手，来证明她所认为的是正确的。</description>
+		<statBases>
+			<AccuracyTouch>0.85</AccuracyTouch>
+			<AccuracyShort>0.9</AccuracyShort>
+			<AccuracyMedium>0.9</AccuracyMedium>
+			<AccuracyLong>0.6</AccuracyLong>
+			<RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
+			<!--后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_Toki</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>2</warmupTime>
+				<!--前摇-->
+				<range>35</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_GeneralPistol</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<tools Inherit = "false">
+			<li>
+				<label>机械臂轰击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>45</power>
+				<cooldownTime>4.2</cooldownTime>
+				<armorPenetrationBase>1.35</armorPenetrationBase>
+				<chanceFactor>20</chanceFactor>				<!-- 概率 -->
+			</li>
+			<li>
+				<label>踢击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>26</power>
+				<cooldownTime>1.2</cooldownTime>
+				<chanceFactor>80</chanceFactor>				<!-- 概率 -->
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_Toki</defName>
+		<label>短点射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<!--伤害类型-->
+			<damageAmountBase>84</damageAmountBase>
+			<armorPenetrationBase>0.32</armorPenetrationBase>
+			<stoppingPower>3</stoppingPower>
+			<speed>50</speed>
+			<soundExplode>ThumpCannon_Impact</soundExplode>
+			<!--爆炸音效-->
+		</projectile>
 	</ThingDef>
 
 	<ThingDef ParentName="AK_WeaponBase_Millennium">
@@ -89,6 +348,70 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<description>尼禄使用的双持冲锋枪。\n每当她奔跑起来，相连的链子就华丽地在空中飞舞。</description>
+		<statBases>
+			<AccuracyTouch>0.85</AccuracyTouch>
+			<AccuracyShort>0.9</AccuracyShort>
+			<AccuracyMedium>0.9</AccuracyMedium>
+			<AccuracyLong>0.6</AccuracyLong>
+			<RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
+			<!--后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_Neru</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>2.2</warmupTime>
+				<!--前摇-->
+				<range>25</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_GeneralPistol</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<tools Inherit = "false">
+			<li>
+				<label>枪托猛砸</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>32</power>
+				<cooldownTime>2.6</cooldownTime>
+			</li>
+			<li>
+				<label>踢击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>28</power>
+				<cooldownTime>1</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_Neru</defName>
+		<label>冲锋射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<!--伤害类型-->
+			<damageAmountBase>108</damageAmountBase>
+			<armorPenetrationBase>0.32</armorPenetrationBase>
+			<stoppingPower>3</stoppingPower>
+			<speed>50</speed>
+			<soundExplode>ThumpCannon_Impact</soundExplode>
+			<!--爆炸音效-->
+		</projectile>
 	</ThingDef>
 
 	<ThingDef ParentName="AK_WeaponBase_Millennium">
@@ -99,6 +422,68 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<description>爱丽丝从工程部那里拿到的巨大电磁炮。\n它的重量和功率输出，普通学生仅仅是提着走路都十分困难。</description>
+		<statBases>
+			<AccuracyTouch>0.45</AccuracyTouch>
+			<AccuracyShort>0.6</AccuracyShort>
+			<AccuracyMedium>0.7</AccuracyMedium>
+			<AccuracyLong>0.5</AccuracyLong>
+			<RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+			<!--后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_Aris</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>4.7</warmupTime>
+				<!--前摇-->
+				<range>25</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_GeneralPistol</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<tools Inherit = "false">
+			<li>
+				<label>炮管撞击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>34</power>
+				<cooldownTime>3.8</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_Aris</defName>
+		<label>光啊！</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<!--伤害类型-->
+			<damageAmountBase>0</damageAmountBase>
+			<armorPenetrationBase>2</armorPenetrationBase>
+			<stoppingPower>3</stoppingPower>
+			<speed>50</speed>
+			<extraDamages>
+				<li>
+					<def>Burn</def>
+					<amount>42</amount>					<!--伤害数值-->
+				</li>
+			</extraDamages>
+			<soundExplode>ThumpCannon_Impact</soundExplode>
+			<!--爆炸音效-->
+		</projectile>
 	</ThingDef>
 
 </Defs>

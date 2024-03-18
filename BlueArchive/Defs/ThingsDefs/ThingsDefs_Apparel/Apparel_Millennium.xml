@@ -12,6 +12,11 @@
 		<apparel>
 			<wornGraphicPath>Things/AK_Agents/Millennium/Asuna</wornGraphicPath>
 		</apparel>
+		<statBases>
+			<ArmorRating_Sharp>1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.4</ArmorRating_Heat>
+		</statBases>
 	</ThingDef>
 
 	<ThingDef ParentName="AK_ArmorBase_Millennium">
@@ -25,6 +30,11 @@
 		<apparel>
 			<wornGraphicPath>Things/AK_Agents/Millennium/Karin</wornGraphicPath>
 		</apparel>
+		<statBases>
+			<ArmorRating_Sharp>1.35</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.8</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.7</ArmorRating_Heat>
+		</statBases>
 	</ThingDef>
 
 	<ThingDef ParentName="AK_ArmorBase_Millennium">
@@ -38,6 +48,11 @@
 		<apparel>
 			<wornGraphicPath>Things/AK_Agents/Millennium/Akane</wornGraphicPath>
 		</apparel>
+		<statBases>
+			<ArmorRating_Sharp>1.35</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.8</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.7</ArmorRating_Heat>
+		</statBases>
 	</ThingDef>
 
 	<ThingDef ParentName="AK_ArmorBase_Millennium">
@@ -51,6 +66,11 @@
 		<apparel>
 			<wornGraphicPath>Things/AK_Agents/Millennium/Toki</wornGraphicPath>
 		</apparel>
+		<statBases>
+			<ArmorRating_Sharp>0.9</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.2</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.3</ArmorRating_Heat>
+		</statBases>
 	</ThingDef>
 
 	<ThingDef ParentName="AK_ArmorBase_Millennium">
@@ -64,6 +84,11 @@
 		<apparel>
 			<wornGraphicPath>Things/AK_Agents/Millennium/Neru</wornGraphicPath>
 		</apparel>
+		<statBases>
+			<ArmorRating_Sharp>1.35</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.8</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.7</ArmorRating_Heat>
+		</statBases>
 	</ThingDef>
 
 	<ThingDef ParentName="AK_ArmorBase_Millennium">
@@ -77,6 +102,11 @@
 		<apparel>
 			<wornGraphicPath>Things/AK_Agents/Millennium/Aris</wornGraphicPath>
 		</apparel>
+		<statBases>
+			<ArmorRating_Sharp>1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.4</ArmorRating_Heat>
+		</statBases>
 	</ThingDef>
 
 </Defs>

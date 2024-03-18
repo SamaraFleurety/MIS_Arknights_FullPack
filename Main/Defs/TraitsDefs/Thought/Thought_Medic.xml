@@ -151,7 +151,9 @@
 
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_FlameShadow</defName>
-		<requiredTraits><li>AK_Trait_FlameShadow</li></requiredTraits>
+		<requiredTraits>
+			<li>AK_Trait_FlameShadow</li>
+		</requiredTraits>
 		<stages>
 			<li>
 				<label>生命之火</label>
