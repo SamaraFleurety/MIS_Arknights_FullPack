@@ -27,7 +27,7 @@
 		<degreeDatas>
 			<li>
 				<label>隐藏欧皇</label>
-				<description>明日奈平时总是出乎意料的好运，抽卡一次就能中奖，随便输密码都能正确，跟踪目标直接跑到身边...这种违背概率学的事情已经不能用好运来解释了吧！</description>
+				<description>{PAWN_nameDef}平时总是出乎意料的好运，抽卡一次就能中奖，随便输密码都能正确，跟踪目标直接跑到身边...这种违背概率学的事情已经不能用好运来解释了吧！</description>
 				<statOffsets>
 					<TradePriceImprovement>0.15</TradePriceImprovement>
 					<SocialImpact>0.2</SocialImpact>
@@ -48,7 +48,7 @@
 		<degreeDatas>
 			<li>
 				<label>心盲症</label>
-				<description>明日奈平常总是充满热情的做任何事，可是一但闲下来，就会变得有些恍惚，难以集中精神，甚至忘记自己正在做什么。</description>
+				<description>{PAWN_nameDef}平常总是充满热情的做任何事，可是一但闲下来，就会变得有些恍惚，难以集中精神，甚至忘记自己正在做什么。</description>
 				<statOffsets>
 					<WorkSpeedGlobal>0.18</WorkSpeedGlobal>
 					<MentalBreakThreshold>-0.12</MentalBreakThreshold>
@@ -66,7 +66,7 @@
 		<degreeDatas>
 			<li>
 				<label>笨蛋？</label>
-				<description>虽然可能是因为打工特工任务上学连轴转无法兼顾的缘故，但是花凛的学习成绩真的很差劲，最近已经很多次挂科了，她本人对此也相当烦恼，担心自己可能真的是笨蛋。</description>
+				<description>虽然可能是因为打工特工任务上学连轴转无法兼顾的缘故，但是{PAWN_nameDef}的学习成绩真的很差劲，最近已经很多次挂科了，{PAWN_pronoun}本人对此也相当烦恼，担心自己可能真的是笨蛋。</description>
 				<statOffsets>
 					<GlobalLearningFactor>-0.09</GlobalLearningFactor>
 					<ResearchSpeed>-0.15</ResearchSpeed>
@@ -82,7 +82,7 @@
 		<degreeDatas>
 			<li>
 				<label>闲情雅致</label>
-				<description>花凛的内心依旧有少女的一面，她喜欢可爱和美的事务，也对自己的形象很在意。\n她的梦想是成为一家咖啡厅的女主人</description>
+				<description>{PAWN_nameDef}的内心依旧有少女的一面，{PAWN_pronoun}喜欢可爱和美的事务，也对自己的形象很在意。\n{PAWN_possessive}梦想是成为一家咖啡厅的女主人</description>
 			</li>
 		</degreeDatas>
 	</TraitDef>
@@ -94,7 +94,7 @@
 		<degreeDatas>
 			<li>
 				<label>可靠女仆</label>
-				<description>虽然没想到女仆部是那样的地方，不过花凛现在已经喜欢上了现在的社团和工作，并且坚定了想要作为战斗女仆为千年奉献的决心。</description>
+				<description>虽然没想到女仆部是那样的地方，不过{PAWN_nameDef}现在已经喜欢上了现在的社团和工作，并且坚定了想要作为战斗女仆为千年奉献的决心。</description>
 				<statOffsets>
 					<WorkSpeedGlobal>0.16</WorkSpeedGlobal>
 					<MentalBreakThreshold>-0.12</MentalBreakThreshold>
@@ -110,7 +110,7 @@
 		<degreeDatas>
 			<li>
 				<label>清扫高手</label>
-				<description>与表面的温柔不同，茜其实喜欢用炸弹清扫一切，在执行任务时也会因为使用炸弹清扫闹出不小的麻烦，或者干出某些意想不到的举动。</description>
+				<description>与表面的温柔不同，{PAWN_nameDef}其实喜欢用炸弹清扫一切，在执行任务时也会因为使用炸弹清扫闹出不小的麻烦，或者干出某些意想不到的举动。</description>
 				<statOffsets>
 					<MentalBreakThreshold>0.1</MentalBreakThreshold>
 				</statOffsets>
@@ -125,7 +125,7 @@
 		<degreeDatas>
 			<li>
 				<label>温柔女仆？</label>
-				<description>朱音的女仆技巧是CC最高超的，她平日里总是会以温柔女仆的形象示人，如果你不了解她就很容易被她软萌无辜的外形和高超的女仆技巧所蒙蔽。</description>
+				<description>{PAWN_nameDef}的女仆技巧是CC最高超的，{PAWN_pronoun}平日里总是会以温柔女仆的形象示人，如果你不了解{PAWN_pronoun}就很容易被{PAWN_pronoun}软萌无辜的外形和高超的女仆技巧所蒙蔽。</description>
 				<statOffsets>
 					<WorkSpeedGlobal>0.25</WorkSpeedGlobal>
 					<GlobalLearningFactor>0.1</GlobalLearningFactor>
@@ -142,7 +142,7 @@
 		<degreeDatas>
 			<li>
 				<label>理性</label>
-				<description>时总是表现的十分认真且理性，哪怕只是看一部娱乐性的电影也会进行长篇理性的分析，不过虽然她总是一副扑克脸且十分理性，但是其实内心感情十分丰富。\nP.S.虽然时的学习能力很强而且很会分析，但是因为长期缺课其实她已经留过一年级了</description>
+				<description>{PAWN_nameDef}总是表现的十分认真且理性，哪怕只是看一部娱乐性的电影也会进行长篇理性的分析，不过虽然{PAWN_pronoun}总是一副扑克脸且十分理性，但是其实内心感情十分丰富。\nP.S.虽然时的学习能力很强而且很会分析，但是因为长期缺课其实{PAWN_pronoun}已经留过一年级了</description>
 				<statOffsets>
 					<GlobalLearningFactor>0.2</GlobalLearningFactor>
 				</statOffsets>
@@ -157,7 +157,7 @@
 		<degreeDatas>
 			<li>
 				<label>完美特工</label>
-				<description>作为莉音私下豢养的死士，时长期接受各种作战训练，拥有了许多成年人都无法比拟的作战势力和经验。不过由于长期处于作战和特战环境而不和人接触，已经与现实生活产生了一定脱节，以至于缺乏常识，难以适应校园环境。</description>
+				<description>作为莉音私下豢养的死士，{PAWN_nameDef}长期接受各种作战训练，拥有了许多成年人都无法比拟的作战势力和经验。不过由于长期处于作战和特战环境而不和人接触，已经与现实生活产生了一定脱节，以至于缺乏常识，难以适应校园环境。</description>
 				<statOffsets>
 					<ShootingAccuracyPawn>0.15</ShootingAccuracyPawn>
 					<AimingDelayFactor>-0.1</AimingDelayFactor>
@@ -178,7 +178,7 @@
 		<degreeDatas>
 			<li>
 				<label>零号女仆</label>
-				<description>虽说平常总是一副小太妹的形象，但是尼禄的看护和料理水平是绝对过硬且经得住考验的，不过她对常规女仆的工作的确不屑一顾。</description>
+				<description>虽说平常总是一副小太妹的形象，但是{PAWN_nameDef}的看护和料理水平是绝对过硬且经得住考验的，不过{PAWN_pronoun}对常规女仆的工作的确不屑一顾。</description>
 				<statOffsets>
 					<WorkSpeedGlobal>0.16</WorkSpeedGlobal>
 				</statOffsets>
@@ -193,7 +193,7 @@
 		<degreeDatas>
 			<li>
 				<label>千年最强</label>
-				<description>作为千年科技最强战斗力之一，尼禄甚至能够近战打趴装备了阿比舒的时，很难想象这只是一个不良少女的战斗力。</description>
+				<description>作为千年科技最强战斗力之一，{PAWN_nameDef}甚至能够近战打趴装备了阿比舒的时，很难想象这只是一个不良少女的战斗力。</description>
 				<statOffsets>
 					<AimingDelayFactor>-0.5</AimingDelayFactor>
 					<ShootingAccuracyPawn>0.25</ShootingAccuracyPawn>
@@ -213,7 +213,7 @@
 		<degreeDatas>
 			<li>
 				<label>小太妹</label>
-				<description>尼禄平常给人的印象就是会亿点打架的不良学生，实际上也确实是个喜欢翘课打游戏的不良学生，对她不了解的通常都会对她退避三舍。只有愿意了解她的人才能理解到她的独特之处。\nP.S.她很在意自己的身高，不要叫她小个子，会死的！\nP.P.S 也不要提她上周偷吃花凛布丁那事，真的会死的！</description>
+				<description>{PAWN_nameDef}平常给人的印象就是会亿点打架的不良学生，实际上也确实是个喜欢翘课打游戏的不良学生，对{PAWN_pronoun}不了解的通常都会对{PAWN_pronoun}退避三舍。只有愿意了解{PAWN_possessive}人才能理解到{PAWN_possessive}独特之处。\nP.S.{PAWN_pronoun}很在意自己的身高，不要叫{PAWN_pronoun}小个子，会死的！\nP.P.S 也不要提{PAWN_pronoun}上周偷吃花凛布丁那事，真的会死的！</description>
 				<statOffsets>
 					<GlobalLearningFactor>-0.2</GlobalLearningFactor>
 					<ResearchSpeed>-0.5</ResearchSpeed>
@@ -231,7 +231,7 @@
 		<degreeDatas>
 			<li>
 				<label>重度游戏发烧友</label>
-				<description>爱丽丝的知识都是通过开发部的老式RPG游戏中学会的，导致爱丽丝的认知和游戏产生了一定重合，说话偶尔会蹦出「邦邦卡邦」的游戏音效，而且还喜欢翻垃圾桶找稀有道具。</description>
+				<description>{PAWN_nameDef}的知识都是通过开发部的老式RPG游戏中学会的，导致爱丽丝的认知和游戏产生了一定重合，说话偶尔会蹦出「邦邦卡邦」的游戏音效，而且还喜欢翻垃圾桶找稀有道具。</description>
 				<statOffsets>
 					<SocialImpact>-0.05</SocialImpact>
 				</statOffsets>
@@ -246,7 +246,7 @@
 		<degreeDatas>
 			<li>
 				<label>光之勇者</label>
-				<description>爱丽丝相信基沃托斯存在魔法，而自己就是这个魔法世界的光之勇者。她也时刻期待着和游戏开发部的众人经历新的冒险。x</description>
+				<description>{PAWN_nameDef}相信基沃托斯存在魔法，而自己就是这个魔法世界的光之勇者。{PAWN_pronoun}也时刻期待着和游戏开发部的众人经历新的冒险。x</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.25</MentalBreakThreshold>
 				</statOffsets>
@@ -261,7 +261,7 @@
 		<degreeDatas>
 			<li>
 				<label>AL-1S</label>
-				<description>爱丽丝是被废墟内的AI G·Bible 称作「AL-1S」的机器人，她被制造出来是为了成为“无名诸神的王女”的。然而如今以及被彩羽姐妹彻底带歪变成游戏发烧友了。\n据说她战斗中被打败是因为她在计算自己的体力值，清零了就自动投降。</description>
+				<description>{PAWN_nameDef}是被废墟内的AI G·Bible 称作「AL-1S」的机器人，{PAWN_pronoun}被制造出来是为了成为“无名诸神的王女”的。然而如今以及被彩羽姐妹彻底带歪变成游戏发烧友了。\n据说{PAWN_pronoun}战斗中被打败是因为{PAWN_pronoun}在计算自己的体力值，清零了就自动投降。</description>
 				<statOffsets>
 					<MoveSpeed>0.2</MoveSpeed>
 					<MeleeDodgeChance>0.2</MeleeDodgeChance>
@@ -284,7 +284,7 @@
 		<degreeDatas>
 			<li>
 				<label>游戏爱好者</label>
-				<description>柚子是游戏的忠实爱好者，理想也是能努力开发出优秀的游戏，一但提到游戏她就会非常热情。</description>
+				<description>{PAWN_nameDef}是游戏的忠实爱好者，理想也是能努力开发出优秀的游戏，一但提到游戏{PAWN_pronoun}就会非常热情。</description>
 				<statOffsets>
 					<WorkSpeedGlobal>0.4</WorkSpeedGlobal>
 				</statOffsets>
@@ -299,7 +299,7 @@
 		<degreeDatas>
 			<li>
 				<label>重度社恐</label>
-				<description>因为被网暴，柚子相当恐惧和人交流，曾经几个月没有出过柜子回宿舍；她平常都是呆在狭小的柜子里，对于任何的社交活动和外出都感到抗拒。</description>
+				<description>因为被网暴，{PAWN_nameDef}相当恐惧和人交流，曾经几个月没有出过柜子回宿舍；{PAWN_pronoun}平常都是呆在狭小的柜子里，对于任何的社交活动和外出都感到抗拒。</description>
 				<statOffsets>
 					<SocialImpact>-0.4</SocialImpact>
 				</statOffsets>
@@ -314,7 +314,7 @@
 		<degreeDatas>
 			<li>
 				<label>游戏爱好者</label>
-				<description>桃井是游戏的忠实爱好者，理想也是能努力开发出优秀的游戏，一但提到游戏她就会非常热情，不过她的游戏其实打的挺菜的。</description>
+				<description>{PAWN_nameDef}是游戏的忠实爱好者，理想也是能努力开发出优秀的游戏，一但提到游戏{PAWN_pronoun}就会非常热情，不过{PAWN_possessive}游戏其实打的挺菜的。</description>
 				<!-- <statOffsets>
 					<WorkSpeedGlobal>-0.24</WorkSpeedGlobal>
 				</statOffsets> -->
@@ -329,10 +329,116 @@
 		<degreeDatas>
 			<li>
 				<label>创作的痛苦</label>
-				<description>桃井虽然对开发游戏充满热情，但是她的热情总是很难转化成灵感，而且她经常会因为光顾着打游戏而忘了编剧工作。</description>
+				<description>{PAWN_nameDef}虽然对开发游戏充满热情，但是{PAWN_possessive}热情总是很难转化成灵感，而且{PAWN_pronoun}经常会因为光顾着打游戏而忘了编剧工作。</description>
 				<statOffsets>
 					<WorkSpeedGlobal>-0.24</WorkSpeedGlobal>
 					<GlobalLearningFactor>0.2</GlobalLearningFactor>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_MidoriSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>内向</label>
+				<description>{PAWN_nameDef}的性格相对与姐姐桃井相对腼腆内向，不过{PAWN_pronoun}喜欢把这点包装成成熟稳重。</description>
+				<statOffsets>
+					<SocialImpact>-0.15</SocialImpact>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Midori</defName>
+		<degreeDatas>
+			<li>
+				<label>绘图打磨</label>
+				<description>{PAWN_nameDef}虽然对开发游戏充满热情，但是{PAWN_pronoun}经常会因为光顾着打游戏而忘了绘制工作。</description>
+				<statOffsets>
+					<WorkSpeedGlobal>-0.18</WorkSpeedGlobal>
+					<GlobalLearningFactor>0.12</GlobalLearningFactor>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_HibikiSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>工学天才</label>
+				<description>{PAWN_nameDef}在工程学的天赋在天才辈出的青年学院也是极其少见的，{PAWN_pronoun}制造的东西都广受学生的追捧，不过{PAWN_pronoun}特别喜欢在制造的东西里塞些奇奇怪怪的功能。</description>
+				<statOffsets>
+					<WorkSpeedGlobal>0.4</WorkSpeedGlobal>
+					<GlobalLearningFactor>0.7</GlobalLearningFactor>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Hibiki</defName>
+		<degreeDatas>
+			<li>
+				<label>木讷</label>
+				<description>{PAWN_nameDef}不太会表达自己的想法和感情，不太擅长社交，说话也比较木讷。</description>
+				<statOffsets>
+					<SocialImpact>-0.1</SocialImpact>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Kotori</defName>
+		<degreeDatas>
+			<li>
+				<label>职业解说家</label>
+				<description>{PAWN_nameDef}一但提到工程学和机械学的问题就会滔滔不绝，如果不想办法让{PAWN_pronoun}停下来{PAWN_pronoun}能就一个小部件一口气讲三个小时。</description>
+				<statOffsets>
+					<SocialImpact>-0.1</SocialImpact>
+					<GlobalLearningFactor>0.25</GlobalLearningFactor>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_UtahaSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>工学天才</label>
+				<description>
+				</description>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Utaha</defName>
+		<degreeDatas>
+			<li>
+				<label>热情少女</label>
+				<description>{PAWN_nameDef}是一个充满了热情与浪漫的少女，做的一切都是为了贯彻心中的热情，有时候甚至会为了追求心中的热情而去造一些毫无意义的东西。</description>
+				<statOffsets>
+					<WorkSpeedGlobal>0.15</WorkSpeedGlobal>
 				</statOffsets>
 			</li>
 		</degreeDatas>

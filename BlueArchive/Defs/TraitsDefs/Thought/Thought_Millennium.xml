@@ -129,12 +129,42 @@
 
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_Momoi</defName>
-		<requiredTraits><li>AK_Trait_Momoi</li></requiredTraits>
+		<requiredTraits>
+			<li>AK_Trait_Momoi</li>
+		</requiredTraits>
 		<stages>
 			<li>
 				<label>创作的痛苦</label>
 				<description>任务什么的待会再说，总之先来打游戏吧！</description>
 				<baseMoodEffect>8</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Midori</defName>
+		<requiredTraits>
+			<li>AK_Trait_Midori</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>绘图打磨</label>
+				<description>想要创作出更美丽的东西。为此……丰富的经验是不可或缺的。</description>
+				<baseMoodEffect>4</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Utaha</defName>
+		<requiredTraits>
+			<li>AK_Trait_Utaha</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>热情少女</label>
+				<description>不可思议啊，人类的心。虽然不知道是什么样的机制，却能令我心跳加速。</description>
+				<baseMoodEffect>5</baseMoodEffect>
 			</li>
 		</stages>
 	</ThoughtDef>

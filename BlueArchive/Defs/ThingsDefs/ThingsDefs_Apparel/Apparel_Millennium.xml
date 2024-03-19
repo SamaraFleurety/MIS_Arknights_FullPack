@@ -145,4 +145,76 @@
 		</statBases>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Millennium">
+		<defName>AK_Apparel_Midori</defName>
+		<label>绿的服装</label>
+		<description>绿的开发部制服，和姐姐的款式几乎一样，但是是绿色的。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Millennium/Midori</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Millennium/Midori</wornGraphicPath>
+		</apparel>
+		<statBases>
+			<ArmorRating_Sharp>1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.4</ArmorRating_Heat>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Millennium">
+		<defName>AK_Apparel_Hibiki</defName>
+		<label>响的应援服</label>
+		<description>因为平常爱好COSPLAY所以学会了裁缝的技能，并为工程部的部员们制作服装。由于穿着的啦啦队长衣服是由以前制作的衣服改造而成的，所以她稍微有点在意短裙长度的样子。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Millennium/Hibiki</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Millennium/Hibiki</wornGraphicPath>
+		</apparel>
+		<statBases>
+			<ArmorRating_Sharp>1.35</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.8</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.7</ArmorRating_Heat>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Millennium">
+		<defName>AK_Apparel_Kotori</defName>
+		<label>柯托莉的应援服</label>
+		<description>为了在大运动会中给大家加油，柯托莉换上的啦啦队服。\n在用她那活泼明快的声音加油的同时，平时一直在做的解说似乎也没落下。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Millennium/Kotori</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Millennium/Kotori</wornGraphicPath>
+		</apparel>
+		<statBases>
+			<ArmorRating_Sharp>1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.4</ArmorRating_Heat>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Millennium">
+		<defName>AK_Apparel_Utaha</defName>
+		<label>歌原的应援服</label>
+		<description>虽然是突然被拉进了啦啦队，但作为凡事都要做到最好的大师，她的热情比任何其他啦啦队都要高涨。但由于被热情冲昏头脑，好像将原本的目的忘在了脑后……\n"注入熊熊燃烧的热情！"</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Millennium/Utaha</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Millennium/Utaha</wornGraphicPath>
+		</apparel>
+		<statBases>
+			<ArmorRating_Sharp>1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.4</ArmorRating_Heat>
+		</statBases>
+	</ThingDef>
+
 </Defs>

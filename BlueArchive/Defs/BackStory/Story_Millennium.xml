@@ -6,7 +6,7 @@
 		<slot>Childhood</slot>
 		<title>CC 01</title>
 		<titleShort>CC 01</titleShort>
-		<baseDesc>明日奈是千年科技学院CC秘密组织的01号特工，通常会以女仆的打扮示人，性格飘忽不定，不受管束，但是出乎意料的总是能完成任务。</baseDesc>
+		<baseDesc>{PAWN_nameDef}是千年科技学院CC秘密组织的01号特工，通常会以女仆的打扮示人，性格飘忽不定，不受管束，但是出乎意料的总是能完成任务。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -14,7 +14,7 @@
 		<slot>Childhood</slot>
 		<title>CC 02</title>
 		<titleShort>CC 02</titleShort>
-		<baseDesc>花凛是千年科技学院CC秘密组织的02号特工，通常会以女仆的打扮示人。\n花凛原本是因为不想和战斗和情报工作扯上关系才选择加入CC的，结果没想到CC这方面的工作比她以前所在的学院还要多。</baseDesc>
+		<baseDesc>{PAWN_nameDef}是千年科技学院CC秘密组织的02号特工，通常会以女仆的打扮示人。\n花凛原本是因为不想和战斗和情报工作扯上关系才选择加入CC的，结果没想到CC这方面的工作比她以前所在的学院还要多。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -22,7 +22,7 @@
 		<slot>Childhood</slot>
 		<title>CC 03</title>
 		<titleShort>CC 03</titleShort>
-		<baseDesc>朱音是千年科技学院CC秘密组织的03号特工，通常会以女仆的打扮示人。\n虽然有着看上去软萌无害的外表，但是实际上最喜欢的武器却是炸药，也经常会干出一些非常难以理解的行为。</baseDesc>
+		<baseDesc>{PAWN_nameDef}是千年科技学院CC秘密组织的03号特工，通常会以女仆的打扮示人。\n虽然有着看上去软萌无害的外表，但是实际上最喜欢的武器却是炸药，也经常会干出一些非常难以理解的行为。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -30,7 +30,7 @@
 		<slot>Childhood</slot>
 		<title>CC 05</title>
 		<titleShort>CC 05</titleShort>
-		<baseDesc>时是所属CC的五号特工，通常会以女仆的打扮示人。虽然说是CC所属，之前一直都作为莉音的专属女仆兼保镖活动着，知道时的存在的人并不多。在要塞都市埃里都之战莉音引咎辞职后投靠CC并成为五号特工。</baseDesc>
+		<baseDesc>{PAWN_nameDef}是所属CC的五号特工，通常会以女仆的打扮示人。虽然说是CC所属，之前一直都作为莉音的专属女仆兼保镖活动着，知道时的存在的人并不多。在要塞都市埃里都之战莉音引咎辞职后投靠CC并成为五号特工。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -38,7 +38,7 @@
 		<slot>Childhood</slot>
 		<title>CC 00</title>
 		<titleShort>CC 00</titleShort>
-		<baseDesc>尼禄是CC的领头人，平常基本上都是以不良学生的形象示人，学业和成绩也基本上都是在留级边缘徘徊，但是实际上是千年科技学院最强战斗力之一。</baseDesc>
+		<baseDesc>{PAWN_nameDef}是CC的领头人，平常基本上都是以不良学生的形象示人，学业和成绩也基本上都是在留级边缘徘徊，但是实际上是千年科技学院最强战斗力之一。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -62,7 +62,7 @@
 		<slot>Childhood</slot>
 		<title>游戏开发部部长</title>
 		<titleShort>游戏开发部部长</titleShort>
-		<baseDesc>柚子是千年科学学院游戏开发部的部长，因为开发的游戏被千年科学学院评为了该年的“粪游排名”第一位，遭到了大量网爆而患上了社交恐惧症，不过如今在彩羽姐妹和爱丽丝的帮助下坚持了继续制作有趣的游戏的决心。</baseDesc>
+		<baseDesc>{PAWN_nameDef}是千年科学学院游戏开发部的部长，因为开发的游戏被千年科学学院评为了该年的“粪游排名”第一位，遭到了大量网爆而患上了社交恐惧症，不过如今在彩羽姐妹和爱丽丝的帮助下坚持了继续制作有趣的游戏的决心。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -70,7 +70,39 @@
 		<slot>Childhood</slot>
 		<title>游戏开发者桃井</title>
 		<titleShort>游戏开发者桃井</titleShort>
-		<baseDesc>桃井是游戏开发部的编剧，因为看到了柚子的游戏对游戏产生了浓重的兴趣因而和双胞胎妹妹绿加入了游戏开发部；虽然对游戏有很大的爱好，但是桃井的游戏打的很菜，而且经常光顾着玩游戏而忘了游戏开发的工作。</baseDesc>
+		<baseDesc>{PAWN_nameDef}是游戏开发部的编剧，因为看到了柚子的游戏对游戏产生了浓重的兴趣因而和双胞胎妹妹绿加入了游戏开发部；虽然对游戏有很大的爱好，但是桃井的游戏打的很菜，而且经常光顾着玩游戏而忘了游戏开发的工作。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Midori_Child</defName>
+		<slot>Childhood</slot>
+		<title>游戏开发者绿</title>
+		<titleShort>游戏开发者绿</titleShort>
+		<baseDesc>{PAWN_nameDef}是游戏开发部的插画师，因为看到了柚子的游戏对游戏产生了浓重的兴趣因而和双胞胎姐姐桃井加入了游戏开发部；虽然对游戏有很大的爱好，但是{PAWN_nameDef}的游戏打的很菜，而且经常光顾着玩游戏而忘了游戏开发的工作。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Hibiki_Child</defName>
+		<slot>Childhood</slot>
+		<title>工程部部员</title>
+		<titleShort>工程部部员</titleShort>
+		<baseDesc>{PAWN_nameDef}是千年科学学院一年生，工程部成员，被认为是难得一见的工程天才，很喜欢在装备中加入各种小功能，比如蓝牙WIFI和自爆。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Kotori_Child</defName>
+		<slot>Childhood</slot>
+		<title>工程部部员</title>
+		<titleShort>工程部部员</titleShort>
+		<baseDesc>{PAWN_nameDef}是千年科学学院一年生，工程部成员，是职业解说家，一但牵扯到工程学和机械有关的知识就会开始滔滔不绝。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Utaha_Child</defName>
+		<slot>Childhood</slot>
+		<title>工程部部长</title>
+		<titleShort>工程部部长</titleShort>
+		<baseDesc>{PAWN_nameDef}是千年科学学院三年生，工程部部长，是各种意义上的天才，工程理论和工程实践都有着出色的成就，除了工程，她对于艺术也有执着的追求。</baseDesc>
 	</BackstoryDef>
 
 </Defs>
