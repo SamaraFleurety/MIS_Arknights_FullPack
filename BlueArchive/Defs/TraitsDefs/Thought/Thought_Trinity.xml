@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Ui</defName>
+		<requiredTraits><li>AK_Trait_Ui</li></requiredTraits>
+		<stages>
+			<li>
+				<label>图书馆的魔术师</label>
+				<description>尽，尽量不要和我搭话……</description>
+				<baseMoodEffect>-12</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
 </Defs>

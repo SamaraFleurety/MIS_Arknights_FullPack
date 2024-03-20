@@ -1,4 +1,22 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Ui</defName>
+		<degreeDatas>
+			<li>
+				<label>图书馆的魔术师</label>
+				<description>{PAWN_nameDef}在古书解读和管理上的工作堪称顶尖，也在古书的研究中积累了大量的知识；但是长期封闭在古书馆里让{PAWN_pronoun}很讨厌与人交流，性格也比较阴暗自闭，甚至自诩厌恶人类。</description>
+				<statOffsets>
+					<SocialImpact>-0.3</SocialImpact>
+					<ResearchSpeed>2.2</ResearchSpeed>
+					<GlobalLearningFactor>0.8</GlobalLearningFactor>
+					<WorkSpeedGlobal>0.5</WorkSpeedGlobal>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>

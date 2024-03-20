@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Ui_Child</defName>
+		<slot>Childhood</slot>
+		<title>图书馆的魔术师</title>
+		<titleShort>图书馆的魔术师</titleShort>
+		<baseDesc>{PAWN_nameDef}是古书馆图书委员会的委员长，平常总是待在古书馆里不分日夜的进行管理和解读古书的工作，因为不和人交流，性格比较孤僻与冷漠；因为在古籍方面的能力堪称顶级，被称作“图书馆的魔术师”。</baseDesc>
+	</BackstoryDef>
+
 </Defs>
