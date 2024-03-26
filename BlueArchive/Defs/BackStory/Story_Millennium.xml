@@ -14,7 +14,7 @@
 		<slot>Childhood</slot>
 		<title>CC 02</title>
 		<titleShort>CC 02</titleShort>
-		<baseDesc>{PAWN_nameDef}是千年科技学院CC秘密组织的02号特工，通常会以女仆的打扮示人。\n花凛原本是因为不想和战斗和情报工作扯上关系才选择加入CC的，结果没想到CC这方面的工作比她以前所在的学院还要多。</baseDesc>
+		<baseDesc>{PAWN_nameDef}是千年科技学院CC秘密组织的02号特工，通常会以女仆的打扮示人。\n{PAWN_nameDef}原本是因为不想和战斗和情报工作扯上关系才选择加入CC的，结果没想到CC这方面的工作比她以前所在的学院还要多。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -70,7 +70,7 @@
 		<slot>Childhood</slot>
 		<title>游戏开发者桃井</title>
 		<titleShort>游戏开发者桃井</titleShort>
-		<baseDesc>{PAWN_nameDef}是游戏开发部的编剧，因为看到了柚子的游戏对游戏产生了浓重的兴趣因而和双胞胎妹妹绿加入了游戏开发部；虽然对游戏有很大的爱好，但是桃井的游戏打的很菜，而且经常光顾着玩游戏而忘了游戏开发的工作。</baseDesc>
+		<baseDesc>{PAWN_nameDef}是游戏开发部的编剧，因为看到了柚子的游戏对游戏产生了浓重的兴趣因而和双胞胎妹妹绿加入了游戏开发部；虽然对游戏有很大的爱好，但是{PAWN_nameDef}的游戏打的很菜，而且经常光顾着玩游戏而忘了游戏开发的工作。</baseDesc>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
@@ -102,7 +102,7 @@
 		<slot>Childhood</slot>
 		<title>工程部部长</title>
 		<titleShort>工程部部长</titleShort>
-		<baseDesc>{PAWN_nameDef}是千年科学学院三年生，工程部部长，是各种意义上的天才，工程理论和工程实践都有着出色的成就，除了工程，她对于艺术也有执着的追求。</baseDesc>
+		<baseDesc>{PAWN_nameDef}是千年科学学院三年生，工程部部长，是各种意义上的天才，工程理论和工程实践都有着出色的成就，除了工程，{PAWN_pronoun}对于艺术也有执着的追求。</baseDesc>
 	</BackstoryDef>
 
 </Defs>

@@ -33,16 +33,13 @@
 		<xenoType>AK_BaseType</xenoType>
 	</AK_DLL.OperatorDef>
 
-	<AK_DLL.OperatorDef ParentName="AK_RecruitBase" Name="AK_RecruitBase_Millennium" Abstract="True">
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase" Name="AK_RecruitBase_Abydos" Abstract="True">
 		<traits>
 			<li>
-				<def>AK_Trait_Agent_Millennium</def>
+				<def>AK_Trait_Agent_Abydos</def>
 			</li>
 		</traits>
-		<operatorType>AK_OperatorClass_Millennium</operatorType>
-		<!-- <accessory>
-			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Millennium</li>
-		</accessory> -->
+		<operatorType>AK_OperatorClass_Abydos</operatorType>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase" Name="AK_RecruitBase_Hyakkiyako" Abstract="True">
@@ -52,9 +49,15 @@
 			</li>
 		</traits>
 		<operatorType>AK_OperatorClass_Hyakkiyako</operatorType>
-		<!-- <accessory>
-			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Hyakkiyako</li>
-		</accessory> -->
+	</AK_DLL.OperatorDef>
+
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase" Name="AK_RecruitBase_Millennium" Abstract="True">
+		<traits>
+			<li>
+				<def>AK_Trait_Agent_Millennium</def>
+			</li>
+		</traits>
+		<operatorType>AK_OperatorClass_Millennium</operatorType>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase" Name="AK_RecruitBase_SRT" Abstract="True">
@@ -64,9 +67,15 @@
 			</li>
 		</traits>
 		<operatorType>AK_OperatorClass_SRT</operatorType>
-		<!-- <accessory>
-			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_SRT</li>
-		</accessory> -->
+	</AK_DLL.OperatorDef>
+
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase" Name="AK_RecruitBase_Trinity" Abstract="True">
+		<traits>
+			<li>
+				<def>AK_Trait_Agent_Trinity</def>
+			</li>
+		</traits>
+		<operatorType>AK_OperatorClass_Trinity</operatorType>
 	</AK_DLL.OperatorDef>
 
 </Defs>
