@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Shiroko_Child</defName>
+		<slot>Childhood</slot>
+		<title>白子</title>
+		<titleShort>白子</titleShort>
+		<baseDesc>{PAWN_nameDef}的出身和过去都不为人所知，{PAWN_pronoun}是因为失去记忆袭击星野的时候被星野拦下带入阿拜多斯的，那时候星野送给{PAWN_possessive}围巾也成为了{PAWN_pronoun}最重要的东西。\n现在的目标是为了复兴阿拜多斯而奋斗，还有能袭击任何一家银行。</baseDesc>
+	</BackstoryDef>
+
 </Defs>

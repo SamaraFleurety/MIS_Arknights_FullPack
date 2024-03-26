@@ -1,4 +1,28 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_ShirokoThird</defName>
+		<requiredTraits><li>AK_Trait_ShirokoThird</li></requiredTraits>
+		<stages>
+			<li>
+				<label></label>
+				<description></description>
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_ShirokoSecond</defName>
+		<requiredTraits><li>AK_Trait_ShirokoSecond</li></requiredTraits>
+		<stages>
+			<li>
+				<label></label>
+				<description></description>
+				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
 </Defs>

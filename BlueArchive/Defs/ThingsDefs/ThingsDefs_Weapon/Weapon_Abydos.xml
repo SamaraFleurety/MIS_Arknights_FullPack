@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<ThingDef ParentName="AK_WeaponBase_Abydos">
+		<defName>AK_Weapon_Shiroko</defName>
+		<label>WHITE FANG 465</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Abydos/ShirokoW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<description>白子的爱用突击步枪。\n一直都在好好地进行整备，所以无论何时都是没有问题的状态。</description>
+	</ThingDef>
+
 </Defs>
