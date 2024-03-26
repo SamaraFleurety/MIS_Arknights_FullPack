@@ -45,4 +45,28 @@
 		</accessory> -->
 	</AK_DLL.OperatorDef>
 
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase" Name="AK_RecruitBase_Hyakkiyako" Abstract="True">
+		<traits>
+			<li>
+				<def>AK_Trait_Agent_Hyakkiyako</def>
+			</li>
+		</traits>
+		<operatorType>AK_OperatorClass_Hyakkiyako</operatorType>
+		<!-- <accessory>
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Hyakkiyako</li>
+		</accessory> -->
+	</AK_DLL.OperatorDef>
+
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase" Name="AK_RecruitBase_SRT" Abstract="True">
+		<traits>
+			<li>
+				<def>AK_Trait_Agent_SRT</def>
+			</li>
+		</traits>
+		<operatorType>AK_OperatorClass_SRT</operatorType>
+		<!-- <accessory>
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_SRT</li>
+		</accessory> -->
+	</AK_DLL.OperatorDef>
+
 </Defs>

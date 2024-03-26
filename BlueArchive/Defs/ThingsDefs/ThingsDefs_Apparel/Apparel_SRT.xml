@@ -1,4 +1,76 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+    <ThingDef ParentName="AK_ArmorBase_SRT">
+		<defName>AK_Apparel_Miyako</defName>
+		<label>宫子的SRT制服</label>
+		<description>SRT学院的标准制服，为了冲锋和特种作战，宫子穿了更多的护具。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/SRT/Miyako</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/SRT/Miyako</wornGraphicPath>
+		</apparel>
+		<statBases>
+			<ArmorRating_Sharp>1.35</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.8</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.7</ArmorRating_Heat>
+		</statBases>
+	</ThingDef>
+
+    <ThingDef ParentName="AK_ArmorBase_SRT">
+		<defName>AK_Apparel_Saki</defName>
+		<label>咲的SRT制服</label>
+		<description>SRT学院的标准制服，为了特种作战和火力支援，咲装备了更多挂载，而且戴着一个看上去很久没洗的头盔。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/SRT/Saki</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/SRT/Saki</wornGraphicPath>
+		</apparel>
+		<statBases>
+			<ArmorRating_Sharp>1.35</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.8</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.7</ArmorRating_Heat>
+		</statBases>
+	</ThingDef>
+
+    <ThingDef ParentName="AK_ArmorBase_SRT">
+		<defName>AK_Apparel_Moe</defName>
+		<label>萌绘的SRT制服</label>
+		<description>SRT学院的标准制服，因为不需要上前线，萌绘不需要穿什么装备，也不需要在意身材，制服已经被她过度丰满的身材给撑大了。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/SRT/Moe</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/SRT/Moe</wornGraphicPath>
+		</apparel>
+		<statBases>
+			<ArmorRating_Sharp>1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.4</ArmorRating_Heat>
+		</statBases>
+	</ThingDef>
+
+    <ThingDef ParentName="AK_ArmorBase_SRT">
+		<defName>AK_Apparel_Miyu</defName>
+		<label>美游的SRT制服</label>
+		<description>SRT学院的标准制服，狙击手的标准挂载，不需要做额外处理的原因是美游本身的存在感已经够低了。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/SRT/Miyu</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/SRT/Miyu</wornGraphicPath>
+		</apparel>
+		<statBases>
+			<ArmorRating_Sharp>1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.4</ArmorRating_Heat>
+		</statBases>
+	</ThingDef>
+
 </Defs>

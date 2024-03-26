@@ -7,4 +7,16 @@
 		</thingCategories>
 	</ThingDef>
 
+	<ThingDef Name="AK_WeaponBase_Hyakkiyako" ParentName="AK_WeaponBase_Rifle" Abstract="True">
+		<thingCategories Inherit="False">
+			<li>AK_Weapon_BlueArchive</li>
+		</thingCategories>
+	</ThingDef>
+
+	<ThingDef Name="AK_WeaponBase_SRT" ParentName="AK_WeaponBase_Rifle" Abstract="True">
+		<thingCategories Inherit="False">
+			<li>AK_Weapon_BlueArchive</li>
+		</thingCategories>
+	</ThingDef>
+
 </Defs>

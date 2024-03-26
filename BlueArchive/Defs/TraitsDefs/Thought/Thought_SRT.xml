@@ -1,4 +1,46 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+    <ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Saki</defName>
+		<requiredTraits>
+			<li>AK_Trait_SakiSecond</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>严格训练</label>
+				<description>虽说是在休息，但最低限度的军纪还要遵守的……</description>
+				<baseMoodEffect>6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+    <ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Moe</defName>
+		<requiredTraits>
+			<li>AK_Trait_Moe</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>破坏发烧友</label>
+				<description>库嘿嘿...想到能造成无法挽回，怎么也承担不起责任的破坏...这种宣泄感...哈啊，哈啊，哈啊...真是太爽了！</description>
+				<baseMoodEffect>4</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+    <ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Miyu</defName>
+		<requiredTraits>
+			<li>AK_Trait_Miyu</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>极度自卑</label>
+				<description>果然我是什么都不会的小垃姬...</description>
+				<baseMoodEffect>-12</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
 </Defs>

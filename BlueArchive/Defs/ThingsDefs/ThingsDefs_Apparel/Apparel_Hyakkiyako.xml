@@ -1,4 +1,22 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+    <ThingDef ParentName="AK_ArmorBase_Hyakkiyako">
+		<defName>AK_Apparel_Tsubaki</defName>
+		<label>椿的制服</label>
+		<description>椿的修行部制服，非常轻薄透气，这也是椿修行的秘诀之一。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Hyakkiyako/Tsubaki</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Hyakkiyako/Tsubaki</wornGraphicPath>
+		</apparel>
+		<statBases>
+			<ArmorRating_Sharp>1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.4</ArmorRating_Heat>
+		</statBases>
+	</ThingDef>
+
 </Defs>

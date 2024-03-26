@@ -7,4 +7,16 @@
     </thingCategories>
   </ThingDef>
 
+  <ThingDef Name="AK_ArmorBase_Hyakkiyako" ParentName="AK_ArmorBase" Abstract="True">
+    <thingCategories Inherit="false">
+      <li>AK_Apparel_BlueArchive</li>
+    </thingCategories>
+  </ThingDef>
+
+  <ThingDef Name="AK_ArmorBase_SRT" ParentName="AK_ArmorBase" Abstract="True">
+    <thingCategories Inherit="false">
+      <li>AK_Apparel_BlueArchive</li>
+    </thingCategories>
+  </ThingDef>
+
  </Defs>

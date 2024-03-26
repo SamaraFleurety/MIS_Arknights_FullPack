@@ -1,4 +1,40 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+    <TraitDef>
+		<defName>AK_Trait_Agent_Hyakkiyako</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>百鬼夜行学院学生</label>
+				<description>{PAWN_nameDef}是百鬼夜行学院的学生。</description>
+				<statOffsets>
+					<MoveSpeed>1.0</MoveSpeed>
+					<HuntingStealth>0.5</HuntingStealth>
+				</statOffsets>
+				<skillGains>
+					<Shooting>4</Shooting>
+				</skillGains>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+    <TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Tsubaki</defName>
+		<degreeDatas>
+			<li>
+				<label>睡美人</label>
+				<description>"椿把睡觉视作自己的修行方式，平日里也总是在睡觉，因此获得了“睡美人”的外号。\n然而椿却能在睡着的情况下搭扑克牌，甚至躲开子弹，这到底是怎么做到的。"</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.08</MentalBreakThreshold>
+					<RestRateMultiplier>-0.35</RestRateMultiplier>
+					<MeleeDodgeChance>0.25</MeleeDodgeChance>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>

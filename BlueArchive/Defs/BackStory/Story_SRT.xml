@@ -1,4 +1,36 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+    <BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Miyako_Child</defName>
+		<slot>Childhood</slot>
+		<title>RABBIT_1</title>
+		<titleShort>RABBIT_1</titleShort>
+		<baseDesc>宫子因为憧憬前辈们而加入了RABBIT小队，作为RABBIT小队的领导人在SRT学院废校后为了贯彻真正的正义拒绝加入瓦尔基里学院，现在正在和其他成员在小兔子公园露营中。</baseDesc>
+	</BackstoryDef>
+
+    <BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Saki_Child</defName>
+		<slot>Childhood</slot>
+		<title>RABBIT_2</title>
+		<titleShort>RABBIT_2</titleShort>
+		<baseDesc>咲因为希望严格的生活而加入了RABBIT小队，在SRT学院废校后为了贯彻真正的正义拒绝加入瓦尔基里学院，现在正在和其他成员在小兔子公园露营中，想办法靠收废品和挖野菜改善公园的情况。</baseDesc>
+	</BackstoryDef>
+
+    <BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Moe_Child</defName>
+		<slot>Childhood</slot>
+		<title>RABBIT_3</title>
+		<titleShort>RABBIT_3</titleShort>
+		<baseDesc>萌绘因为喜欢爆破和强大的火力而加入了RABBIT小队，在SRT学院废校后拒绝加入瓦尔基里学院，现在正在和其他成员在小兔子公园露营中，喜欢收集爆炸物，棒棒糖和临期便当。</baseDesc>
+	</BackstoryDef>
+
+    <BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Miyu_Child</defName>
+		<slot>Childhood</slot>
+		<title>RABBIT_4</title>
+		<titleShort>RABBIT_4</titleShort>
+		<baseDesc>美游通过自己的狙击天赋进入SRT学院，在SRT学院废校后拒绝加入瓦尔基里学院，现在正在和其他成员在小兔子公园露营中，喜欢躲在垃圾桶里观察外界。</baseDesc>
+	</BackstoryDef>
+
 </Defs>

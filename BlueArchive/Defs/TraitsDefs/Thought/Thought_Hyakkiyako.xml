@@ -1,4 +1,18 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+    <ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Tsubaki</defName>
+		<requiredTraits>
+			<li>AK_Trait_Tsubaki</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>睡美人</label>
+				<description>温暖的阳光，松软的枕头，柔软的被子……真好啊。</description>
+				<baseMoodEffect>6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
 </Defs>
