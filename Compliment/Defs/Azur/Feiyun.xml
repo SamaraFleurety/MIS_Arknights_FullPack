@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase">
+		<defName>FS_Recruit_Feiyun</defName>
+		<nickname>飞云</nickname>
+		<surname>长风级</surname>
+		<description>缠着让大家叫自己“飞云大人”、有些调皮的小孩子
+时常出门搞些恶作剧，她却称之为“冒险”，无论走到哪里都会引发某些事件。
+说不定指挥官你也会被邀请加入这样的“冒险”？</description>
+		<operatorType>AK_OperatorClass_AzurLane</operatorType>
+		<bodyTypeDef>Thin</bodyTypeDef>		
+		<stand>Azur/Feiyun/FeiyunStand</stand>
+		<headPortrait>Azur/Feiyun/FeiyunPortrait</headPortrait>
+		<skills>
+			<li>
+				<skill>Animals</skill>
+				<level>7</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Artistic</skill>
+				<level>7</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Construction</skill>
+				<level>0</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Cooking</skill>
+				<level>8</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Crafting</skill>
+				<level>5</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Intellectual</skill>
+				<level>7</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<level>0</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<level>0</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Mining</skill>
+				<level>0</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Plants</skill>
+				<level>0</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<level>10</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<level>13</level>
+				<fireLevel>2</fireLevel>
+			</li>
+		</skills>
+		<traits>
+			<li>
+				<def>Beauty</def>
+				<degree>2</degree>
+			</li>
+			<li>
+				<def>Kind</def>
+			</li>
+		</traits>
+		<age>12</age>
+		<standRatio>2.5</standRatio>
+		<standOffset>(0, 0)</standOffset>
+	</AK_DLL.OperatorDef>
+	
+	<HairDef ParentName="AK_HairBaseF">
+		<defName>FS_Hair_Feiyun</defName>
+		<label>飞云发型</label>
+		<texPath>Azur/Feiyun/FeiyunHair</texPath>
+	</HairDef>  
+	
+	<ThingDef ParentName="AK_ArmorBase">
+		<defName>FS_Apparel_Feiyun</defName>
+		<label>飞云常服</label>
+		<description>飞云常穿的，中式黑白花边裙。袖子很长，不知道下面是否藏了什么呢？</description>
+		<graphicData>
+		  <texPath>Things/AK_Agents/GApparel</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+		  <wornGraphicPath>Azur/Feiyun/Feiyun</wornGraphicPath>
+		</apparel>
+    </ThingDef>
+	
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>FS_BackStory_Feiyun_Child</defName>
+		<slot>Childhood</slot>
+		<title>长风级驱逐舰</title>
+		<titleShort>驱逐舰</titleShort>
+		<baseDesc>飞云号驱逐舰是清朝末期订购的驱逐舰之一，为长风级驱逐舰三号舰。本舰下水时清朝已经覆灭，中华民国继承了该舰，为避免重名而改名“同安”。本舰参加过护法舰队，护法运动失败后辗转于渤海舰队、东北海军等军阀舰队之间。1937年抗日战争爆发初期在青岛自沉。日军随后打捞起本舰，改造成炮艇，以“同春”之名加入日本帝国海军。1940年，日军将本舰转交予汪精卫政权。1944年底，部分汪政权海军官兵夺取了本舰起义，前往烟台附近登陆，其后本舰下落不明</baseDesc>
+	</BackstoryDef>
+</Defs>
