@@ -9,4 +9,36 @@
 		<baseDesc>{PAWN_nameDef}的出身和过去都不为人所知，{PAWN_pronoun}是因为失去记忆袭击星野的时候被星野拦下带入阿拜多斯的，那时候星野送给{PAWN_possessive}围巾也成为了{PAWN_pronoun}最重要的东西。\n现在的目标是为了复兴阿拜多斯而奋斗，还有能袭击任何一家银行。</baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Hoshino_Child</defName>
+		<slot>Childhood</slot>
+		<title>"大叔"</title>
+		<titleShort>"大叔"</titleShort>
+		<baseDesc>星野在阿拜多斯最困难的时期入学，曾经性格十分好战，擅长进攻性的战术，但是因为某件事性情大变，变成了如今懒散温和的模样。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Serika_Child</defName>
+		<slot>Childhood</slot>
+		<title>芹香</title>
+		<titleShort>芹香</titleShort>
+		<baseDesc>阿拜多斯对策委员会的打工战士，学院内少数的理智派，虽然希望靠打工赚钱来慢慢还上债务，不过因为防骗意识差总是在有关钱的方面被骗。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Nonomi_Child</defName>
+		<slot>Childhood</slot>
+		<title>野宫</title>
+		<titleShort>野宫</titleShort>
+		<baseDesc>阿拜多斯对策委员会的隐藏大小姐，学院内给大家提供零食和精神支持的存在，性格温柔且慷慨，阿拜多斯委员会的零食费都是她出的</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Ayane_Child</defName>
+		<slot>Childhood</slot>
+		<title>绫音</title>
+		<titleShort>绫音</titleShort>
+		<baseDesc>阿拜多斯对策委员会仅有的常识人兼会计，因为是唯一的常识人，面对委员会众人的各种离谱提案时会感觉十分头疼乃至于火大。</baseDesc>
+	</BackstoryDef>
+
 </Defs>

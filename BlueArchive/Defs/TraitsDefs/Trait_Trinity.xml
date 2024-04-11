@@ -2,6 +2,25 @@
 <Defs>
 
 	<TraitDef>
+		<defName>AK_Trait_Agent_Trinity</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>圣三一学院学生</label>
+				<description>{PAWN_nameDef}是圣三一学院的学生。</description>
+				<statOffsets>
+					<MoveSpeed>1.0</MoveSpeed>
+					<HuntingStealth>0.5</HuntingStealth>
+				</statOffsets>
+				<skillGains>
+					<Shooting>4</Shooting>
+				</skillGains>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
 		<ignoreConfigErrors>true</ignoreConfigErrors>
 		<commonality>0.0</commonality>
 		<defName>AK_Trait_Ui</defName>

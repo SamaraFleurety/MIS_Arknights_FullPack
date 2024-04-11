@@ -2,14 +2,32 @@
 <Defs>
 
 	<TraitDef>
+		<defName>AK_Trait_Agent_Abydos</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>阿拜多斯学院学生</label>
+				<description>{PAWN_nameDef}是阿拜多斯学院的学生。</description>
+				<statOffsets>
+					<MoveSpeed>1.0</MoveSpeed>
+					<HuntingStealth>0.5</HuntingStealth>
+				</statOffsets>
+				<skillGains>
+					<Shooting>4</Shooting>
+				</skillGains>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
 		<ignoreConfigErrors>true</ignoreConfigErrors>
 		<commonality>0.0</commonality>
 		<defName>AK_Trait_ShirokoThird</defName>
 		<degreeDatas>
 			<li>
-				<label></label>
-				<description>
-				</description>
+				<label>阿努比斯</label>
+				<description>......</description>
 			</li>
 		</degreeDatas>
 	</TraitDef>
@@ -20,9 +38,16 @@
 		<defName>AK_Trait_ShirokoSecond</defName>
 		<degreeDatas>
 			<li>
-				<label></label>
-				<description>
-				</description>
+				<label>无表情系</label>
+				<description>白子平常总是没什么表情，看上去甚至有些冷若冰霜，但是实际上内心是个很善良很热情的孩子，也很关心自己的朋友和阿拜多斯的复兴。</description>
+				<statOffsets>
+					<SocialImpact>-0.05</SocialImpact>
+					<PsychicSensitivity>0.2</PsychicSensitivity>
+				</statOffsets>
+				<disallowedMentalStates>
+                    <li>InsultingSpree</li>
+                    <li>TargetedInsultingSpree</li>
+                </disallowedMentalStates>
 			</li>
 		</degreeDatas>
 	</TraitDef>
@@ -33,9 +58,131 @@
 		<defName>AK_Trait_Shiroko</defName>
 		<degreeDatas>
 			<li>
-				<label></label>
-				<description>
-				</description>
+				<label>运动爱好者</label>
+				<description>白子喜欢运动，每天都要进行大量的锻炼，比如跑步15KM去超市，骑行200KM，当然白子最喜欢的锻炼方式是计划抢银行。</description>
+				<statOffsets>
+					<MoveSpeed>0.6</MoveSpeed>
+					<CarryingCapacity>1.8</CarryingCapacity>
+					<MeleeDodgeChance>0.15</MeleeDodgeChance>
+					<IncomingDamageFactor>0.9</IncomingDamageFactor>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_HoshinoSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>荷鲁斯</label>
+				<description>......</description>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Hoshino</defName>
+		<degreeDatas>
+			<li>
+				<label>大叔</label>
+				<description>星野总喜欢以“大叔”自称，而且性格也和大叔一样慵懒懈怠，不过她以前的性格十分好战且有攻击性，是因为某些变故才变成了如今这副模样。如今她的爱好是睡午觉和偷懒。</description>
+				<statOffsets>
+					<SocialImpact>0.2</SocialImpact>
+					<RestRateMultiplier>-0.2</RestRateMultiplier>
+				</statOffsets>
+				<disallowedMentalStates>
+                    <li>InsultingSpree</li>
+                    <li>TargetedInsultingSpree</li>
+                </disallowedMentalStates>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_SerikaThird</defName>
+		<degreeDatas>
+			<li>
+				<label>巴斯泰托</label>
+				<description>......</description>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_SerikaSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>容易上当</label>
+				<description>芹香虽然很努力的在打工了，但是由于防诈意识实在不强，所以很容易就被骗走一整天打工的积蓄，比如买一堆发财手链或者买显卡想靠挖币赚钱。</description>
+				<statOffsets>
+					<TradePriceImprovement>-0.25</TradePriceImprovement>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Serika</defName>
+		<degreeDatas>
+			<li>
+				<label>傲娇</label>
+				<description>芹香表面上是那种喜欢直言不讳表达自己感情的类型，实际上是个教科书式的傲娇，而她的傲娇甚至成了柴关拉面的招牌。</description>
+				<statOffsets>
+					<SocialImpact>-0.1</SocialImpact>
+				</statOffsets>
+				<disallowedMentalStates>
+                    <li>InsultingSpree</li>
+                    <li>TargetedInsultingSpree</li>
+                </disallowedMentalStates>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_NonomiSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>奈芙蒂斯</label>
+				<description>......</description>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Nonomi</defName>
+		<degreeDatas>
+			<li>
+				<label>温柔</label>
+				<description>野宫的性格温柔，很在意别人的感受，不过不知道为什么对成为偶像这件事有着谜之执念。</description>
+				<statOffsets>
+					<SocialImpact>0.45</SocialImpact>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Ayane</defName>
+		<degreeDatas>
+			<li>
+				<label>托特</label>
+				<description>......</description>
 			</li>
 		</degreeDatas>
 	</TraitDef>

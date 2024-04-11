@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<ThingDef Name="AK_WeaponBase_Abydos" ParentName="AK_WeaponBase_Rifle" Abstract="True">
+		<thingCategories Inherit="False">
+			<li>AK_Weapon_BlueArchive</li>
+		</thingCategories>
+	</ThingDef>
+
 	<ThingDef Name="AK_WeaponBase_Millennium" ParentName="AK_WeaponBase_Rifle" Abstract="True">
 		<thingCategories Inherit="False">
 			<li>AK_Weapon_BlueArchive</li>
@@ -14,6 +20,12 @@
 	</ThingDef>
 
 	<ThingDef Name="AK_WeaponBase_SRT" ParentName="AK_WeaponBase_Rifle" Abstract="True">
+		<thingCategories Inherit="False">
+			<li>AK_Weapon_BlueArchive</li>
+		</thingCategories>
+	</ThingDef>
+
+	<ThingDef Name="AK_WeaponBase_Trinity" ParentName="AK_WeaponBase_Rifle" Abstract="True">
 		<thingCategories Inherit="False">
 			<li>AK_Weapon_BlueArchive</li>
 		</thingCategories>

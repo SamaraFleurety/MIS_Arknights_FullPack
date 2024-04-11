@@ -3,11 +3,13 @@
 
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_ShirokoThird</defName>
-		<requiredTraits><li>AK_Trait_ShirokoThird</li></requiredTraits>
+		<requiredTraits>
+			<li>AK_Trait_ShirokoThird</li>
+		</requiredTraits>
 		<stages>
 			<li>
-				<label></label>
-				<description></description>
+				<label>阿努比斯</label>
+				<description>有什么不好的预感...</description>
 				<baseMoodEffect>-1</baseMoodEffect>
 			</li>
 		</stages>
@@ -15,12 +17,112 @@
 
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_ShirokoSecond</defName>
-		<requiredTraits><li>AK_Trait_ShirokoSecond</li></requiredTraits>
+		<requiredTraits>
+			<li>AK_Trait_ShirokoSecond</li>
+		</requiredTraits>
 		<stages>
 			<li>
-				<label></label>
-				<description></description>
+				<label>无表情系</label>
+				<description>就这样呆在一起也不错呢。</description>
 				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_HoshinoSecond</defName>
+		<requiredTraits>
+			<li>AK_Trait_HoshinoSecond</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>荷鲁斯</label>
+				<description>唔，感觉好像不错呢。</description>
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Hoshino</defName>
+		<requiredTraits>
+			<li>AK_Trait_Hoshino</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>大叔</label>
+				<description>摸鱼吧，摸鱼吧~</description>
+				<baseMoodEffect>12</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_SerikaThird</defName>
+		<requiredTraits>
+			<li>AK_Trait_SerikaThird</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>巴斯泰托</label>
+				<description>我现在很严肃呢。\n…我是说真的。</description>
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Serika</defName>
+		<requiredTraits>
+			<li>AK_Trait_Serika</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>傲娇</label>
+				<description>没办法呢，请好好感谢我吧。</description>
+				<baseMoodEffect>7</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_NonomiSecond</defName>
+		<requiredTraits>
+			<li>AK_Trait_NonomiSecond</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>奈芙蒂斯</label>
+				<description>好开心～☆</description>
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Nonomi</defName>
+		<requiredTraits>
+			<li>AK_Trait_Nonomi</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>温柔</label>
+				<description>今天也辛苦啦～☆</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Ayane</defName>
+		<requiredTraits>
+			<li>AK_Trait_Ayane</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>托特</label>
+				<description>今天要做什么样的工作呢？</description>
+				<baseMoodEffect>1</baseMoodEffect>
 			</li>
 		</stages>
 	</ThoughtDef>

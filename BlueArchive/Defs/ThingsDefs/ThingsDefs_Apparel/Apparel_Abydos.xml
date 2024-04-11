@@ -4,6 +4,7 @@
 	<ThingDef ParentName="AK_ArmorBase_Abydos">
 		<defName>AK_Apparel_Shiroko</defName>
 		<label>砂狼白子服装</label>
+		<description>白子的阿拜多斯校服，那条围巾是星野送给她的“......围巾是重要的东西，不能给你”</description>
 		<graphicData>
 			<texPath>Things/AK_Agents/Abydos/Shiroko</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -11,6 +12,83 @@
 		<apparel>
 			<wornGraphicPath>Things/AK_Agents/Abydos/Shiroko</wornGraphicPath>
 		</apparel>
+		<statBases>
+			<ArmorRating_Sharp>1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.4</ArmorRating_Heat>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Abydos">
+		<defName>AK_Apparel_Hoshino</defName>
+		<label>小鸟游星野服装</label>
+		<description>星野的阿拜多斯校服，这个外形是为了纪念她的一位前辈。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Abydos/Hoshino</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Abydos/Hoshino</wornGraphicPath>
+		</apparel>
+		<statBases>
+			<ArmorRating_Sharp>1.35</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.8</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.7</ArmorRating_Heat>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Abydos">
+		<defName>AK_Apparel_Serika</defName>
+		<label>黑见芹香服装</label>
+		<description>芹香的阿拜多斯校服，当然平常更多看到她时她会穿着柴关拉面的打工服</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Abydos/Serika</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Abydos/Serika</wornGraphicPath>
+		</apparel>
+		<statBases>
+			<ArmorRating_Sharp>1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.4</ArmorRating_Heat>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Abydos">
+		<defName>AK_Apparel_Nonomi</defName>
+		<label>十六夜野宫服装</label>
+		<description>野宫的阿拜多斯校服，比起阿拜多斯的其他孩子，野宫可换的衣服多种多样，不过她还是喜欢穿这件衣服。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Abydos/Nonomi</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Abydos/Nonomi</wornGraphicPath>
+		</apparel>
+		<statBases>
+			<ArmorRating_Sharp>1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.4</ArmorRating_Heat>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Abydos">
+		<defName>AK_Apparel_Ayane</defName>
+		<label>奥空绫音服装</label>
+		<description>绫音的阿拜多斯校服，比起其他阿拜多斯的孩子，绫音的这身实在是太过于没有特点了。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Abydos/Ayane</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Abydos/Ayane</wornGraphicPath>
+		</apparel>
+		<statBases>
+			<ArmorRating_Sharp>1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.4</ArmorRating_Heat>
+		</statBases>
 	</ThingDef>
 
 </Defs>
