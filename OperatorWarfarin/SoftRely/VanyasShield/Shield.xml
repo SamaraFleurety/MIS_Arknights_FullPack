@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	    
+	<ThingDef ParentName="AK_BeltBase">
+        <defName>AK_ShieldBelt_WarfarinGothic</defName>
+        <label>血翼</label>
+        <description>血魔在黑夜中穿行，以他人的血液为食，杀人如麻，无恶不作......诸如此类。当然，华法琳小姐并不是这样的人。</description>
+        <statBases>
+            <EnergyShieldRechargeRate>0.20</EnergyShieldRechargeRate>
+            <EnergyShieldEnergyMax>3.0</EnergyShieldEnergyMax>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/ShieldBeltMuelsyse</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+                <startingTicksToReset>4800</startingTicksToReset>
+                <energyOnReset>0.5</energyOnReset>
+                <energyLossPerDamage>0.01</energyLossPerDamage>
+                <canAbsorbMeleeDamage>true</canAbsorbMeleeDamage>
+                <meleeAbsorbFactor>1</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1</rangedAbsorbFactor>
+                <canDodge>true</canDodge>
+                <dodgeChanceFactor>0.2</dodgeChanceFactor>
+                <breakWithSmoke>false</breakWithSmoke>
+                <canForceActive>false</canForceActive>
+                <fireFoamBurster>false</fireFoamBurster>
+                <versionInfo>Blood Veil</versionInfo>
+                <alias>华法林的护盾</alias>
+            </li>
+            <li Class="AKE_VanyaShield.TCP_VanyaShieldExtension">
+                <hideVanillaBubble>true</hideVanillaBubble>
+            </li>
+			<li Class="FS_WarfarinGothic.TCP_WarfarinGothicShield" />
+        </comps>
+    </ThingDef>
+
+</Defs>

@@ -6,7 +6,7 @@
         <techLevel>Spacer</techLevel>
         <smeltable>false</smeltable>
         <graphicData>
-            <texPath>Things/ShieldBelt/ShieldBelt</texPath>
+            <texPath>Vanya_ShieldBelt/ShieldBelt</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <statBases>
@@ -14,6 +14,8 @@
             <Flammability>0</Flammability>
             <EquipDelay>2</EquipDelay>
 			<DeteriorationRate>0</DeteriorationRate>
+			<Insulation_Cold>20</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
         </statBases>
         <tickerType>Normal</tickerType>
         <comps>
@@ -33,6 +35,9 @@
             </bodyPartGroups>
 			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
         </apparel>
+		<equippedStatOffsets>
+			<Flammability>-10</Flammability>
+		</equippedStatOffsets>
 		<useHitPoints>false</useHitPoints>
 		<burnableByRecipe>false</burnableByRecipe>
 		<relicChance>0</relicChance>

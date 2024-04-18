@@ -99,7 +99,7 @@
 		</traits>
 		<age>20</age>
 		<adultHood>AK_BackStory_Shining_Adult</adultHood>
-		<clothSet>
+		<clothSet> 
 			<li>
 				<key>0</key>
 				<value>
@@ -1047,12 +1047,12 @@ Silence, medical specialist of Rhine Lab, will make use of the latest scientific
 			</li>
 			<li>
 				<skill>Melee</skill>
-				<level>2</level>
+				<level>0</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
 				<skill>Mining</skill>
-				<level>4</level>
+				<level>2</level>
 				<fireLevel>0</fireLevel>
 			</li>
 			<li>
@@ -1062,20 +1062,26 @@ Silence, medical specialist of Rhine Lab, will make use of the latest scientific
 			</li>
 			<li>
 				<skill>Shooting</skill>
-				<level>4</level>
-				<fireLevel>0</fireLevel>
+				<level>10</level>
+				<fireLevel>2</fireLevel>
 			</li>
 			<li>
 				<skill>Social</skill>
-				<level>8</level>
+				<level>4</level>
 				<fireLevel>0</fireLevel>
 			</li>
 		</skills>
+		<clothSet> <!-- 0在别的地方占用了，第一套从1开始 -->
+		</clothSet>
+		<fashion>
+			<li MayRequire="FS.Warfarin">Warfarin/WarfarinGothicStand</li>
+		</fashion>
 		<live2dModel MayRequire="FS.LivelyRim">
 			<li>FS_Live_Farfarin</li>
+			<li MayRequire="FS.Warfarin">FS_Live_WarfarinGothic</li>
 		</live2dModel>
 	</AK_DLL.OperatorDef>
-	、
+	 
 	<!-- 苏苏洛 -->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Medic">

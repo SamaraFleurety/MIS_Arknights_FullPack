@@ -1,282 +1,282 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef Name="AK_ArmorBase" ParentName="ApparelBase" Abstract="True">
-    <defName>AK_ArmorBase</defName>
-    <label>干员基础装束</label>
-    <smeltable>false</smeltable>
-    <description>干员平时最常穿着的服装。虽然不一定比制服更实用，但是一定是干员最舒适的搭配之一。</description>
-    <useHitPoints>false</useHitPoints>
-    <techLevel>Undefined</techLevel>
-    <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/FlakVest/FlakVest</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1.50</drawSize>
-    </graphicData>
-    <statBases>
-      <Mass>4</Mass>
-      <Flammability>0</Flammability>
-      <DeteriorationRate>0</DeteriorationRate>
-      <ArmorRating_Sharp>1.00</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.36</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.27</ArmorRating_Heat>
-      <AK_ArmorRating_Magic>0.27</AK_ArmorRating_Magic>
-      <Insulation_Cold>1</Insulation_Cold>
-      <EquipDelay>5</EquipDelay>
-    </statBases>
-    <thingCategories Inherit="false">
-      <li>AK_Apparel</li>
-    </thingCategories>
-    <apparel>
-      <bodyPartGroups>
-        <li>Torso</li>
-        <li>Neck</li>
-        <li>Shoulders</li>
-        <li>Arms</li>
-        <li>Legs</li>
-      </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/FlakVest/FlakVest</wornGraphicPath>
-      <layers>
-        <li>Middle</li>
-      </layers>
-      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
-    </apparel>
-    <colorGenerator Class="ColorGenerator_Options" Inherit="false">
-      <options>
-        <li>
-          <only>(255,255,255)</only>
-        </li>
-      </options>
-    </colorGenerator>
-    <burnableByRecipe>false</burnableByRecipe>
-    <relicChance>0</relicChance>
-    <tradeability>None</tradeability>
-    <tickerType>Never</tickerType>
-    <generateCommonality>0</generateCommonality>
-    <generateAllowChance>0</generateAllowChance>
-    <randomizeRotationOnSpawn>false</randomizeRotationOnSpawn>
-    <canLoadIntoCaravan>false</canLoadIntoCaravan>
-    <comps>
-      <li Class="CompProperties_Biocodable"/>
-      <li Class="AK_DLL.TCP_RemoveMe"/>
-      <li Class="AK_Industry.TCP_OripathyMonitor" MayRequire="MIS.Industry" />
-    </comps>
-  </ThingDef>
+	<ThingDef Name="AK_ArmorBase" ParentName="ApparelBase" Abstract="True">
+		<defName>AK_ArmorBase</defName>
+		<label>干员基础装束</label>
+		<smeltable>false</smeltable>
+		<description>干员平时最常穿着的服装。虽然不一定比制服更实用，但是一定是干员最舒适的搭配之一。</description>
+		<useHitPoints>false</useHitPoints>
+		<techLevel>Undefined</techLevel>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/FlakVest/FlakVest</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.50</drawSize>
+		</graphicData>
+		<statBases>
+			<Mass>4</Mass>
+			<Flammability>0</Flammability>
+			<DeteriorationRate>0</DeteriorationRate>
+			<ArmorRating_Sharp>1.00</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.36</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.27</ArmorRating_Heat>
+			<AK_ArmorRating_Magic>0.27</AK_ArmorRating_Magic>
+			<Insulation_Cold>1</Insulation_Cold>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
+		<thingCategories Inherit="false">
+			<li>AK_Apparel</li>
+		</thingCategories>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/FlakVest/FlakVest</wornGraphicPath>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options" Inherit="false">
+			<options>
+				<li>
+					<only>(255,255,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<burnableByRecipe>false</burnableByRecipe>
+		<relicChance>0</relicChance>
+		<tradeability>None</tradeability>
+		<tickerType>Never</tickerType>
+		<generateCommonality>0</generateCommonality>
+		<generateAllowChance>0</generateAllowChance>
+		<randomizeRotationOnSpawn>false</randomizeRotationOnSpawn>
+		<canLoadIntoCaravan>false</canLoadIntoCaravan>
+		<comps>
+			<li Class="CompProperties_Biocodable"/>
+			<li Class="AK_DLL.TCP_RemoveMe"/>
+			<li Class="AK_Industry.TCP_OripathyMonitor" MayRequire="MIS.Industry" />
+		</comps>
+	</ThingDef>
 
-  <ThingDef Name="AK_ArmorBase_Caster" ParentName="AK_ArmorBase" Abstract="True">
-    <thingCategories Inherit="false">
-      <li>AK_Apparel_Caster</li>
-    </thingCategories>
-    <statBases>
-      <ArmorRating_Sharp>0.20</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.20</ArmorRating_Blunt>
-      <ArmorRating_Heat>1.00</ArmorRating_Heat>
-      <Insulation_Cold>20</Insulation_Cold>
-      <Insulation_Heat>65</Insulation_Heat>
-      <EquipDelay>4</EquipDelay>
-    </statBases>
-    <equippedStatOffsets>
-      <ShootingAccuracyPawn>0.2</ShootingAccuracyPawn>
-      <AimingDelayFactor>-0.25</AimingDelayFactor>
-      <MoveSpeed>0.5</MoveSpeed>
-      <WorkSpeedGlobal>0.15</WorkSpeedGlobal>
-    </equippedStatOffsets>
-  </ThingDef>
+	<ThingDef Name="AK_ArmorBase_Caster" ParentName="AK_ArmorBase" Abstract="True">
+		<thingCategories Inherit="false">
+			<li>AK_Apparel_Caster</li>
+		</thingCategories>
+		<statBases>
+			<ArmorRating_Sharp>0.20</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.20</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.00</ArmorRating_Heat>
+			<Insulation_Cold>20</Insulation_Cold>
+			<Insulation_Heat>65</Insulation_Heat>
+			<EquipDelay>4</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<ShootingAccuracyPawn>0.2</ShootingAccuracyPawn>
+			<AimingDelayFactor>-0.25</AimingDelayFactor>
+			<MoveSpeed>0.5</MoveSpeed>
+			<WorkSpeedGlobal>0.15</WorkSpeedGlobal>
+		</equippedStatOffsets>
+	</ThingDef>
 
-  <ThingDef Name="AK_ArmorBase_Vanguard" ParentName="AK_ArmorBase" Abstract="True">
-    <statBases>
-      <ArmorRating_Sharp>0.80</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.90</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.27</ArmorRating_Heat>
-      <Insulation_Cold>20</Insulation_Cold>
-      <Insulation_Heat>45</Insulation_Heat>
-      <EquipDelay>10</EquipDelay>
-    </statBases>
-    <equippedStatOffsets>
-      <MeleeHitChance>2</MeleeHitChance>
-      <MeleeDodgeChance>2</MeleeDodgeChance>
-      <MoveSpeed>0.1</MoveSpeed>
-      <WorkSpeedGlobal>0.04</WorkSpeedGlobal>
-    </equippedStatOffsets>
-    <thingCategories Inherit="false">
-      <li>AK_Apparel_Vanguard</li>
-    </thingCategories>
-  </ThingDef>
+	<ThingDef Name="AK_ArmorBase_Vanguard" ParentName="AK_ArmorBase" Abstract="True">
+		<statBases>
+			<ArmorRating_Sharp>0.80</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.90</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.27</ArmorRating_Heat>
+			<Insulation_Cold>20</Insulation_Cold>
+			<Insulation_Heat>45</Insulation_Heat>
+			<EquipDelay>10</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MeleeHitChance>2</MeleeHitChance>
+			<MeleeDodgeChance>2</MeleeDodgeChance>
+			<MoveSpeed>0.1</MoveSpeed>
+			<WorkSpeedGlobal>0.04</WorkSpeedGlobal>
+		</equippedStatOffsets>
+		<thingCategories Inherit="false">
+			<li>AK_Apparel_Vanguard</li>
+		</thingCategories>
+	</ThingDef>
 
-  <ThingDef Name="AK_ArmorBase_Guard" ParentName="AK_ArmorBase" Abstract="True">
-    <statBases>
-      <ArmorRating_Sharp>1.00</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.40</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.20</ArmorRating_Heat>
-      <Insulation_Cold>10</Insulation_Cold>
-      <Insulation_Heat>35</Insulation_Heat>
-      <EquipDelay>10</EquipDelay>
-    </statBases>
-    <equippedStatOffsets>
-      <MeleeHitChance>4</MeleeHitChance>
-      <MeleeDodgeChance>2</MeleeDodgeChance>
-      <MoveSpeed>-0.2</MoveSpeed>
-      <WorkSpeedGlobal>-0.08</WorkSpeedGlobal>
-    </equippedStatOffsets>
-    <thingCategories Inherit="false">
-      <li>AK_Apparel_Guard</li>
-    </thingCategories>
-  </ThingDef>
+	<ThingDef Name="AK_ArmorBase_Guard" ParentName="AK_ArmorBase" Abstract="True">
+		<statBases>
+			<ArmorRating_Sharp>1.00</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.20</ArmorRating_Heat>
+			<Insulation_Cold>10</Insulation_Cold>
+			<Insulation_Heat>35</Insulation_Heat>
+			<EquipDelay>10</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MeleeHitChance>4</MeleeHitChance>
+			<MeleeDodgeChance>2</MeleeDodgeChance>
+			<MoveSpeed>-0.2</MoveSpeed>
+			<WorkSpeedGlobal>-0.08</WorkSpeedGlobal>
+		</equippedStatOffsets>
+		<thingCategories Inherit="false">
+			<li>AK_Apparel_Guard</li>
+		</thingCategories>
+	</ThingDef>
 
-  <ThingDef Name="AK_ArmorBase_Defender" ParentName="AK_ArmorBase" Abstract="True">
-    <statBases>
-      <ArmorRating_Sharp>1.20</ArmorRating_Sharp>
-      <ArmorRating_Blunt>1.36</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.20</ArmorRating_Heat>
-      <Insulation_Cold>20</Insulation_Cold>
-      <Insulation_Heat>35</Insulation_Heat>
-      <EquipDelay>10</EquipDelay>
-    </statBases>
-    <equippedStatOffsets>
-      <MeleeHitChance>4</MeleeHitChance>
-      <MeleeDodgeChance>2</MeleeDodgeChance>
-      <MoveSpeed>-0.5</MoveSpeed>
-      <WorkSpeedGlobal>-0.08</WorkSpeedGlobal>
-    </equippedStatOffsets>
-    <thingCategories Inherit="false">
-      <li>AK_Apparel_Defender</li>
-    </thingCategories>
-  </ThingDef>
+	<ThingDef Name="AK_ArmorBase_Defender" ParentName="AK_ArmorBase" Abstract="True">
+		<statBases>
+			<ArmorRating_Sharp>1.20</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.36</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.20</ArmorRating_Heat>
+			<Insulation_Cold>20</Insulation_Cold>
+			<Insulation_Heat>35</Insulation_Heat>
+			<EquipDelay>10</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MeleeHitChance>4</MeleeHitChance>
+			<MeleeDodgeChance>2</MeleeDodgeChance>
+			<MoveSpeed>-0.5</MoveSpeed>
+			<WorkSpeedGlobal>-0.08</WorkSpeedGlobal>
+		</equippedStatOffsets>
+		<thingCategories Inherit="false">
+			<li>AK_Apparel_Defender</li>
+		</thingCategories>
+	</ThingDef>
 
-  <ThingDef Name="AK_ArmorBase_Supporter" ParentName="AK_ArmorBase" Abstract="True">
-    <thingCategories Inherit="false">
-      <li>AK_Apparel_Supporter</li>
-    </thingCategories>
-    <statBases>
-      <ArmorRating_Sharp>0.20</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.30</ArmorRating_Blunt>
-      <ArmorRating_Heat>1.00</ArmorRating_Heat>
-      <Insulation_Cold>10</Insulation_Cold>
-      <Insulation_Heat>365</Insulation_Heat>
-      <EquipDelay>4</EquipDelay>
-    </statBases>
-    <equippedStatOffsets>
-      <ShootingAccuracyPawn>0.2</ShootingAccuracyPawn>
-      <AimingDelayFactor>-0.15</AimingDelayFactor>
-      <MoveSpeed>0.5</MoveSpeed>
-      <WorkSpeedGlobal>0.15</WorkSpeedGlobal>
-    </equippedStatOffsets>
-  </ThingDef>
+	<ThingDef Name="AK_ArmorBase_Supporter" ParentName="AK_ArmorBase" Abstract="True">
+		<thingCategories Inherit="false">
+			<li>AK_Apparel_Supporter</li>
+		</thingCategories>
+		<statBases>
+			<ArmorRating_Sharp>0.20</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.30</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.00</ArmorRating_Heat>
+			<Insulation_Cold>10</Insulation_Cold>
+			<Insulation_Heat>365</Insulation_Heat>
+			<EquipDelay>4</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<ShootingAccuracyPawn>0.2</ShootingAccuracyPawn>
+			<AimingDelayFactor>-0.15</AimingDelayFactor>
+			<MoveSpeed>0.5</MoveSpeed>
+			<WorkSpeedGlobal>0.15</WorkSpeedGlobal>
+		</equippedStatOffsets>
+	</ThingDef>
 
-  <ThingDef Name="AK_ArmorBase_Specialist" ParentName="AK_ArmorBase" Abstract="True">
-    <statBases>
-      <ArmorRating_Sharp>0.80</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.4</ArmorRating_Heat>
-      <Insulation_Cold>20</Insulation_Cold>
-      <Insulation_Heat>45</Insulation_Heat>
-      <EquipDelay>5</EquipDelay>
-    </statBases>
-    <equippedStatOffsets>
-      <MeleeHitChance>2</MeleeHitChance>
-      <MeleeDodgeChance>5</MeleeDodgeChance>
-      <MoveSpeed>0.5</MoveSpeed>
-      <WorkSpeedGlobal>0.04</WorkSpeedGlobal>
-    </equippedStatOffsets>
-    <thingCategories Inherit="false">
-      <li>AK_Apparel_Specialist</li>
-    </thingCategories>
-  </ThingDef>
+	<ThingDef Name="AK_ArmorBase_Specialist" ParentName="AK_ArmorBase" Abstract="True">
+		<statBases>
+			<ArmorRating_Sharp>0.80</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.4</ArmorRating_Heat>
+			<Insulation_Cold>20</Insulation_Cold>
+			<Insulation_Heat>45</Insulation_Heat>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MeleeHitChance>2</MeleeHitChance>
+			<MeleeDodgeChance>5</MeleeDodgeChance>
+			<MoveSpeed>0.5</MoveSpeed>
+			<WorkSpeedGlobal>0.04</WorkSpeedGlobal>
+		</equippedStatOffsets>
+		<thingCategories Inherit="false">
+			<li>AK_Apparel_Specialist</li>
+		</thingCategories>
+	</ThingDef>
 
-  <ThingDef Name="AK_ArmorBase_Sniper" ParentName="AK_ArmorBase" Abstract="True">
-    <thingCategories Inherit="false">
-      <li>AK_Apparel_Sniper</li>
-    </thingCategories>
-    <statBases>
-      <ArmorRating_Sharp>0.40</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.20</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.40</ArmorRating_Heat>
-      <Insulation_Cold>20</Insulation_Cold>
-      <Insulation_Heat>65</Insulation_Heat>
-      <EquipDelay>4</EquipDelay>
-    </statBases>
-    <equippedStatOffsets>
-      <ShootingAccuracyPawn>0.2</ShootingAccuracyPawn>
-      <AimingDelayFactor>-0.25</AimingDelayFactor>
-      <MoveSpeed>0.2</MoveSpeed>
-      <WorkSpeedGlobal>0.8</WorkSpeedGlobal>
-    </equippedStatOffsets>
-  </ThingDef>
+	<ThingDef Name="AK_ArmorBase_Sniper" ParentName="AK_ArmorBase" Abstract="True">
+		<thingCategories Inherit="false">
+			<li>AK_Apparel_Sniper</li>
+		</thingCategories>
+		<statBases>
+			<ArmorRating_Sharp>0.40</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.20</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.40</ArmorRating_Heat>
+			<Insulation_Cold>20</Insulation_Cold>
+			<Insulation_Heat>65</Insulation_Heat>
+			<EquipDelay>4</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<ShootingAccuracyPawn>0.2</ShootingAccuracyPawn>
+			<AimingDelayFactor>-0.25</AimingDelayFactor>
+			<MoveSpeed>0.2</MoveSpeed>
+			<WorkSpeedGlobal>0.8</WorkSpeedGlobal>
+		</equippedStatOffsets>
+	</ThingDef>
 
-  <ThingDef Name="AK_ArmorBase_Medic" ParentName="AK_ArmorBase" Abstract="True">
-    <thingCategories Inherit="false">
-      <li>AK_Apparel_Medic</li>
-    </thingCategories>
-    <statBases>
-      <ArmorRating_Sharp>0.20</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.30</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.20</ArmorRating_Heat>
-      <Insulation_Cold>10</Insulation_Cold>
-      <Insulation_Heat>65</Insulation_Heat>
-      <EquipDelay>4</EquipDelay>
-    </statBases>
-    <equippedStatOffsets>
-      <ShootingAccuracyPawn>0.2</ShootingAccuracyPawn>
-      <AimingDelayFactor>-0.15</AimingDelayFactor>
-      <MoveSpeed>0.5</MoveSpeed>
-      <WorkSpeedGlobal>0.15</WorkSpeedGlobal>
-    </equippedStatOffsets>
-  </ThingDef>
+	<ThingDef Name="AK_ArmorBase_Medic" ParentName="AK_ArmorBase" Abstract="True">
+		<thingCategories Inherit="false">
+			<li>AK_Apparel_Medic</li>
+		</thingCategories>
+		<statBases>
+			<ArmorRating_Sharp>0.20</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.30</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.20</ArmorRating_Heat>
+			<Insulation_Cold>10</Insulation_Cold>
+			<Insulation_Heat>65</Insulation_Heat>
+			<EquipDelay>4</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<ShootingAccuracyPawn>0.2</ShootingAccuracyPawn>
+			<AimingDelayFactor>-0.15</AimingDelayFactor>
+			<MoveSpeed>0.5</MoveSpeed>
+			<WorkSpeedGlobal>0.15</WorkSpeedGlobal>
+		</equippedStatOffsets>
+	</ThingDef>
 
-  <ThingDef Name="AK_ArmorBase_Reunion" ParentName="AK_ArmorBase" Abstract="True">
-    <thingCategories Inherit="false">
-      <li>AK_Apparel_Reunion</li>
-    </thingCategories>
-  </ThingDef>
+	<ThingDef Name="AK_ArmorBase_Reunion" ParentName="AK_ArmorBase" Abstract="True">
+		<thingCategories Inherit="false">
+			<li>AK_Apparel_Reunion</li>
+		</thingCategories>
+	</ThingDef>
 
-  <ThingDef Name="AK_ArmorBase_OtherLeader" ParentName="AK_ArmorBase" Abstract="True">
-    <thingCategories Inherit="false">
-      <li>AK_Apparel_OtherLeader</li>
-    </thingCategories>
-  </ThingDef>
+	<ThingDef Name="AK_ArmorBase_OtherLeader" ParentName="AK_ArmorBase" Abstract="True">
+		<thingCategories Inherit="false">
+			<li>AK_Apparel_OtherLeader</li>
+		</thingCategories>
+	</ThingDef>
 
-  <!-- FIXME -->
+	<!-- FIXME -->
 
-  <ThingDef Name="AK_HatBase" ParentName="ApparelBase" Abstract="True">
-    <thingCategories Inherit="false">
-      <li>AK_Apparel_Hat</li>
-    </thingCategories>
-    <smeltable>false</smeltable>
-    <description>和干员常服搭配的帽子.虽然不一定比制式头盔性能更好,但更舒适,也更能体现干员本人的个性.</description>
-    <techLevel>Industrial</techLevel>
-    <useHitPoints>false</useHitPoints>
-    <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/AdvancedHelmet/AdvancedHelmet</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <uiIconScale>1.4</uiIconScale>
-    <statBases>
-      <Flammability>0</Flammability>
-      <DeteriorationRate>0</DeteriorationRate>
-      <Mass>1.2</Mass>
-      <EquipDelay>1.5</EquipDelay>
-    </statBases>
-    <apparel>
-      <countsAsClothingForNudity>false</countsAsClothingForNudity>
-      <bodyPartGroups>
-        <li>UpperHead</li>
-      </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/AdvancedHelmet/AdvancedHelmet</wornGraphicPath>
-      <layers>
-        <li>Overhead</li>
-      </layers>
-    </apparel>
-    <colorGenerator Class="ColorGenerator_Options" Inherit="false">
-      <options>
-        <li>
-          <only>(255,255,255)</only>
-        </li>
-      </options>
-    </colorGenerator>
-  </ThingDef>
+	<ThingDef Name="AK_HatBase" ParentName="ApparelBase" Abstract="True">
+		<thingCategories Inherit="false">
+			<li>AK_Apparel_Hat</li>
+		</thingCategories>
+		<smeltable>false</smeltable>
+		<description>和干员常服搭配的帽子.虽然不一定比制式头盔性能更好,但更舒适,也更能体现干员本人的个性.</description>
+		<techLevel>Industrial</techLevel>
+		<useHitPoints>false</useHitPoints>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/AdvancedHelmet/AdvancedHelmet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<uiIconScale>1.4</uiIconScale>
+		<statBases>
+			<Flammability>0</Flammability>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Mass>1.2</Mass>
+			<EquipDelay>1.5</EquipDelay>
+		</statBases>
+		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/AdvancedHelmet/AdvancedHelmet</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options" Inherit="false">
+			<options>
+				<li>
+					<only>(255,255,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
 
-  <ThingDef Name="AK_HatBase_Reunion" ParentName="AK_HatBase" Abstract="True">
-    <description>平平无奇的一顶帽子.</description>
-  </ThingDef>
+	<ThingDef Name="AK_HatBase_Reunion" ParentName="AK_HatBase" Abstract="True">
+		<description>平平无奇的一顶帽子.</description>
+	</ThingDef>
 
 </Defs>

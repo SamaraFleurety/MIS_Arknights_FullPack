@@ -51,11 +51,6 @@
     </placeWorkers>
     <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
     <comps>
-      <li Class="FS_LifeImprove.TCP_RangedFixMinBuilding">
-        <radius>10</radius>
-        <interval>1</interval>
-        <repairAmount>200</repairAmount>
-      </li>
       <li Class="CompProperties_Refuelable">
         <fuelConsumptionRate>10.0</fuelConsumptionRate>
         <fuelCapacity>50.0</fuelCapacity>

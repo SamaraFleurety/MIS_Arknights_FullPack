@@ -1,38 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<AK_DLL.OperatorDef Name="AK_RecruitBase" Abstract="True">
-		<surname>罗德岛</surname>
-		<description>在路的尽头，他看到她们成了他</description>
-		<bodyTypeDef>Thin</bodyTypeDef>
-		<skinColor>
-			<r>0.9804</r>
-			<g>0.902</g>
-			<b>0.8235</b>
-			<a>1.0</a>
-		</skinColor>
-		<hairColor>
-			<r>1</r>
-			<g>1</g>
-			<b>1</b>
-			<a>1</a>
-		</hairColor>
-		<childHood>AK_BackStory_Unknown_Child</childHood>
-		<age>16</age>
-		<headTypeDef>AK_Head_Small</headTypeDef>
-		<standOffsets>
-			<li>
-				<key>0</key>
-				<value>(10,20,0.5)</value>
-			</li>
-			<li>
-				<key>1</key>
-				<value>(10,10,0.5)</value>
-			</li>
-		</standOffsets>
-		<xenoType>AK_BaseType</xenoType>
-	</AK_DLL.OperatorDef>
-
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase" Name="AK_RecruitBase_Guard" Abstract="True">
 		<traits>
 			<li>
@@ -129,18 +97,6 @@
 		<operatorType>AK_OperatorClass_Specialist</operatorType>
 		<accessory>
 			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Specialist</li>
-		</accessory>
-	</AK_DLL.OperatorDef>
-
-	<AK_DLL.OperatorDef ParentName="AK_RecruitBase" Name="AK_RecruitBase_OtherLeader" Abstract="True">
-		<traits>
-			<li>
-				<def>AK_Trait_Agent_OtherLeader</def>
-			</li>
-		</traits>
-		<operatorType>AK_OperatorClass_OtherLeader</operatorType>
-		<accessory>
-			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_OtherLeader</li>
 		</accessory>
 	</AK_DLL.OperatorDef>
 

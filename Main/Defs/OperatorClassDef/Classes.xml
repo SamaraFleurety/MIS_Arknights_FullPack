@@ -7,18 +7,8 @@
 		<icon>UI/Element/Arknights</icon>
 	</AK_DLL.OperatorSeriesDef>
 
-	<AK_DLL.OperatorSeriesDef>
-		<defName>AK_Series_Other</defName>
-		<label>其它领袖</label>
-		<icon>UI/Element/Other</icon>
-	</AK_DLL.OperatorSeriesDef>
-
 	<AK_DLL.OperatorClassDef Name="AK_OpClassBase" Abstract="True">
 		<series>AK_Series_Arknights</series>
-	</AK_DLL.OperatorClassDef>
-
-	<AK_DLL.OperatorClassDef Name="AK_OpClassOther" Abstract="True">
-		<series>AK_Series_Other</series>
 	</AK_DLL.OperatorClassDef>
 
 	<AK_DLL.OperatorClassDef ParentName="AK_OpClassBase">
@@ -83,14 +73,6 @@
 		<sortingOrder>8</sortingOrder>
 		<textureFolder>Vanguard</textureFolder>
 		<iconPath>UI/Element/Vanguard</iconPath>
-	</AK_DLL.OperatorClassDef>
-
-	<AK_DLL.OperatorClassDef ParentName="AK_OpClassOther">
-		<defName>AK_OperatorClass_OtherLeader</defName>
-		<label>OtherLeader</label>
-		<sortingOrder>9</sortingOrder>
-		<textureFolder>OtherLeader</textureFolder>
-		<iconPath>UI/Element/OtherLeader</iconPath>
 	</AK_DLL.OperatorClassDef>
 
 </Defs>
