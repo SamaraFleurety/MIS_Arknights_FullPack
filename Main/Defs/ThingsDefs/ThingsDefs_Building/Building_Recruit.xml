@@ -27,7 +27,7 @@
 			<Mass>30</Mass>
 			<Flammability>0.1</Flammability>
 		</statBases>
-		<size>(1,1)</size>
+		<size>(3,3)</size>
 		<uiIconPath>Things/Building/RecruitTower_MenuIcon</uiIconPath>
 		<uiIconScale>1.2</uiIconScale>
 		<building>
@@ -37,7 +37,7 @@
 			<Steel>120</Steel>
 			<ComponentIndustrial>4</ComponentIndustrial>
 		</costList>
-		<interactionCellOffset>(0,0,0)</interactionCellOffset>
+		<interactionCellOffset>(0,0,-2)</interactionCellOffset>
 		<hasInteractionCell>true</hasInteractionCell>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
 		<designationCategory>MISBuildings</designationCategory>
@@ -82,7 +82,7 @@
 		<label>协议分塔</label>
 		<description>搭载瞬时传送模块的塔型通讯设施，可以将覆盖范围内的殖民者瞬间传送到任何登记在协议网络中的核心附近。</description>
 		<graphicData>
-			<texPath>Things/Building/RecruitTower</texPath>
+			<texPath>Things/Building/SubclassTower</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>10</drawSize>
 			<shadowData>
@@ -104,7 +104,7 @@
 			<Flammability>0.1</Flammability>
 		</statBases>
 		<size>(1,1)</size>
-		<uiIconPath>Things/Building/RecruitTower_MenuIcon</uiIconPath>
+		<uiIconPath>Things/Building/SubclassTower_MenuIcon</uiIconPath>
 		<uiIconScale>1.2</uiIconScale>
 		<building>
 			<destroySound>BuildingDestroyed_Metal_Small</destroySound>
