@@ -1,6 +1,50 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	    
+	<ThingDef Name="AK_BeltBase" Abstract="True" ParentName="ApparelBase">
+        <thingClass>VanyaMod.Vanya_ShieldBelt</thingClass>
+        <techLevel>Spacer</techLevel>
+        <smeltable>false</smeltable>
+        <graphicData>
+            <texPath>Vanya_ShieldBelt/ShieldBelt</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <Mass>2.4</Mass>
+            <Flammability>0</Flammability>
+            <EquipDelay>2</EquipDelay>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Insulation_Cold>20</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
+        </statBases>
+        <tickerType>Normal</tickerType>
+        <comps>
+            <li Class="CompProperties_Biocodable" />
+			<li Class="AK_DLL.TCP_RemoveMe"/>
+        </comps>
+        <thingCategories Inherit="false">
+            <li>AK_ShieldBelt</li>
+        </thingCategories>
+        <apparel>
+            <careIfWornByCorpse>false</careIfWornByCorpse>
+            <layers>
+                <li>Belt</li>
+            </layers>
+            <bodyPartGroups>
+                <li>Waist</li>
+            </bodyPartGroups>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+        </apparel>
+		<equippedStatOffsets>
+			<Flammability>-10</Flammability>
+		</equippedStatOffsets>
+		<useHitPoints>false</useHitPoints>
+		<burnableByRecipe>false</burnableByRecipe>
+		<relicChance>0</relicChance>
+		<tradeability>None</tradeability>
+        <generateCommonality>0.0</generateCommonality>
+		<generateAllowChance>0</generateAllowChance>
+    </ThingDef>
+	
 	<ThingDef ParentName="AK_BeltBase">
         <defName>AK_ShieldBelt_WarfarinGothic</defName>
         <label>血翼</label>

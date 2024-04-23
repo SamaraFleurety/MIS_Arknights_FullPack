@@ -35,13 +35,13 @@
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase" Name="AK_RecruitBase_OtherLeader" Abstract="True">
 		<traits>
-			<li>
+			<li MayRequire="MIS.Arknights">
 				<def>AK_Trait_Agent_OtherLeader</def>
 			</li>
 		</traits>
 		<operatorType>AK_OperatorClass_OtherLeader</operatorType>
-		<accessory MayRequire="MIS.Arknights">
-			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_OtherLeader</li>
+		<accessory>
+			<li MayRequire="Mlie.VanyaShield,MIS.Arknights">AK_ShieldBelt_OtherLeader</li>
 		</accessory>
 	</AK_DLL.OperatorDef>
 

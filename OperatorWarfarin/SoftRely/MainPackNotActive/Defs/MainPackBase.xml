@@ -14,13 +14,8 @@
 		</apparels>
 		<stand>Warfarin/WarfarinGothicStand</stand>
 		<headPortrait>Warfarin/WarfarinGothicPortrait</headPortrait>
+		<headTypeDef>Female_AverageNormal</headTypeDef>
 		<traits>
-			<li>
-				<def>AK_Trait_WarfarinSecond</def>
-			</li>
-			<li>
-				<def>AK_Trait_Warfarin</def>
-			</li>
 			<li>
 				<def>Beauty</def>
 				<degree>2</degree>
@@ -101,4 +96,27 @@
 			<li>FS_Live_Farfarin</li>
 		</live2dModel>
 	</AK_DLL.OperatorDef>
+	
+	<BackstoryDef Abstract = "True" Name = "AK_StoryBase">
+		<workDisables>None</workDisables>
+		<requiredWorkTags>None</requiredWorkTags>
+		<shuffleable>False</shuffleable>
+	</BackstoryDef>
+	
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Warfarin_Child</defName>
+		<slot>Childhood</slot>
+		<title>血魔</title>
+		<titleShort>血魔</titleShort>
+		<baseDesc>即使在经常被妖魔化的萨卡兹中，血魔也是最恶名远扬的一支。\n它们在黑夜中穿行，以他人的血液为食，杀人如麻，无恶不作……诸如此类。\n不过大多数干员都知道，{PAWN_nameDef}不是这样的人。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Warfarin_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>罗德岛元老</title>
+		<titleShort>元老</titleShort>
+		<baseDesc>外表弱不禁风，难以让人升起尊敬之心的血魔女性，实质上作为元老，在罗德岛中拥有最老的资历。\n本人并不介意他人不将自己当做前辈对待，但决不允许有人在接受治疗时不听从自己的命令。\n年龄虽然不是需要避讳的话题，不过从{PAWN_pronoun}口中吐出的数字总让人觉得难以置信。</baseDesc>
+	</BackstoryDef>
+	
 </Defs>

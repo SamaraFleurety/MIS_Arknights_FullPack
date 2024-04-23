@@ -6,7 +6,7 @@
 		<label>华法林礼服</label>
 		<description>华法林穿着的，带花边的洋装</description>
 		<graphicData>
-			<texPath>Things/AK_Agents/Medic/Gavial</texPath>
+			<texPath>Warfarin/WarfarinGothic_Thin_south</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<smeltable>false</smeltable>
@@ -40,7 +40,7 @@
 				<li>Arms</li>
 				<li>Legs</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/AK_Agents/Medic/Gavial</wornGraphicPath>
+			<wornGraphicPath>Warfarin/WarfarinGothic</wornGraphicPath>
 			<layers>
 				<li>Middle</li>
 			</layers>
@@ -64,14 +64,17 @@
 		<comps>
 			<li Class="CompProperties_Biocodable"/>
 			<li Class="AK_DLL.TCP_RemoveMe"/>
-			<li Class="AK_Industry.TCP_OripathyMonitor" MayRequire="MIS.Industry" />
+			<li Class="SFLib.TCP_HideBody">
+				<hideBody>true</hideBody>
+				<hideHead>true</hideHead>
+			</li>
 		</comps>
 	</ThingDef>
 
 	<HairDef>
 		<defName>AK_Hair_WarfarinGothic</defName>
 		<label>华法林发型-礼服</label>
-		<texPath>Things/Hair/Medic/Warfarin</texPath>
+		<texPath>Warfarin/WarfarinGothicHair</texPath>
 		<hairGender>Female</hairGender>
 		<category>AK_Agents</category>
 		<requiredGene>Skin_Melanin1</requiredGene>
