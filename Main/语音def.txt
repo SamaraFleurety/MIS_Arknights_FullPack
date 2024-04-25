@@ -1,0 +1,45 @@
+语音def规范及须知：
+	招募&死亡语音只能有一条
+	选中语音&征召语音可以有无限多条
+	技能语音&技能数一致 也可以多做换着用
+	究竟原作哪条语音对应mod中哪种语音我不管，合理就行，或者问墨鱼
+	
+	语音来源：https://aceship.github.io/AN-EN-Tags/akhrchars.html 可能需要梯子
+	你要是愿意用prts或者其他的然后手动改文件名也随便你（出于兼容性考虑，文件名不能包含中文）
+	
+	语音文件命名标准：不改变下载文件就可以（一般是叫CN_***.wav，且日语和中文的同一个语音是同名的）
+	语音文件路径标准：.\Operator\{干员职业(Caster, Defender, Guard, Vanguard, Medic, Sniper, Specialist, Supporter),不包含任何括号}\{干员英文名, 特殊:凛冬是Zima，早露Rosa, 凯尔希Kaltsit, 古米Gummy,其他的特殊的遇到再说}\{随便一个文件夹}\语音文件
+		例: Operator\Caster\Absinthe\char_405_absin\CN_025.wav
+	任何语音都用此标准作路径，这样可以直接通过订阅不同包切语音(当然写就要分两个包写，不要混在一起了)
+	
+	def模板:	
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_Amiya</defName>
+		<subSounds>
+		  <li>
+			<onCamera>True</onCamera>   
+			<grains>
+			  <li Class="AudioGrain_Clip">
+				<clipPath>Operator/Caster/Amiya/char_002_amiya/CN_025</clipPath>
+			  </li>
+			</grains>
+			<volumeRange>40~40</volumeRange>
+			<distRange>10~100</distRange>
+			<sustainLoop>False</sustainLoop>
+		  </li>
+		</subSounds>
+	</SoundDef>
+	def规范：
+		defName: AK_Voice_{语音种类(Draft,Select,Die,Recruit,Skill)}_{干员英文名}
+			若同类有多条，则以罗马数字计数(I, II, III, IV, V, VI等)
+				例:AK_Voice_Select_AmiyaI; AK_Voice_Select_AmiyaII
+			第一个的I加不加都行，但最好统一点
+		两个soundDef之间空一行
+		def文件名：Voice_{干员职业}.xml 例：Voice_Caster.xml
+		8个def文件放任意同一路径都可以。
+	clipPath里面填语音文件路径就可以。
+	其他不必改。
+	xml只需要写一次。文件则每种语言都需要下载归档一次。(可以先完成日语的包再说)
+	
+	不必担心干员和语音怎么绑定，dll里面动态生成（所以defName一定要符合规范）。
+	

@@ -31,7 +31,12 @@
             </li>
             <li Class="AKE_VanyaShield.TCP_VanyaShieldExtension">
                 <hideVanillaBubble>true</hideVanillaBubble>
-                <bubbleStaticTexPath>Things/ShieldBelt/ShieldBeltMuelsyseS</bubbleStaticTexPath>
+				<bubbleStaticOverlay>
+					<texPath>Things/ShieldBelt/ShieldBeltMuelsyseS</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>(2,2)</drawSize>
+				</bubbleStaticOverlay>
+                <!--<bubbleStaticTexPath>Things/ShieldBelt/ShieldBeltMuelsyseS</bubbleStaticTexPath>-->
                 <bubbleRotateTexPath>Things/ShieldBelt/ShieldBeltMuelsyseD</bubbleRotateTexPath>
             </li>
         </comps>
@@ -67,6 +72,11 @@
             <li Class="AKE_VanyaShield.TCP_VanyaShieldExtension">
                 <hideVanillaBubble>true</hideVanillaBubble>
                 <bubbleStaticTexPath>Things/ShieldBelt/ShieldBeltNearlS</bubbleStaticTexPath>
+				<!--<bubbleStaticOverlay>
+					<texPath>Things/Building/Misc/ORGProcessCenter</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(2,2)</drawSize>
+				</bubbleStaticOverlay>-->
                 <reflectionRatio>0.1</reflectionRatio>
             </li>
         </comps>
