@@ -32,7 +32,7 @@
 		</compEffectList>
 	</AKA_Ability.AKAbilityDef>
 
-  <ThingDef ParentName="TrapIEDBase">
+<!--  <ThingDef ParentName="TrapIEDBase">
     <defName>AK_Test_Trap_Thing</defName>
     <label>IED incendiary trap</label>
     <description>A pair of incendiary shells connected to a trigger which detonates on touch or bullet impact. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm.</description>
@@ -58,6 +58,6 @@
       </li>
     </comps>
     <specialDisplayRadius>3.9</specialDisplayRadius>
-  </ThingDef>
+  </ThingDef> -->
 
 </Defs>

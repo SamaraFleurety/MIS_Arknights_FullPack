@@ -16,6 +16,7 @@
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
 		<passability>PassThroughOnly</passability>
+		<drawerType>MapMeshAndRealTime</drawerType>
 		<canBeUsedUnderRoof>false</canBeUsedUnderRoof>
 		<pathCost>50</pathCost>
 		<blockWind>true</blockWind>
@@ -69,7 +70,7 @@
 			<li Class="AK_DLL.TCP_TeleportTowerSuperior"/>
 			<li Class="AK_DLL.TCP_DrawOverlay">
 				<overlay>
-					<texPath>Things/Building/RecruitTower_MenuIcon</texPath>
+					<texPath>Things/Building/RecruitTower_Upper</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
 					<drawSize>5</drawSize>
 				</overlay>
