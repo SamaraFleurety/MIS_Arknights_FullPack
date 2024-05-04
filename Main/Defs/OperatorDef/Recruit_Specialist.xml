@@ -1170,6 +1170,9 @@
 		<apparels>
 			<li>AK_Apparel_Kirin</li>
 		</apparels>
+		<accessory Inherit="false">
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Kirin</li>
+		</accessory>
 		<stand>UI/Image/Specialist/KirinStand</stand>
 		<headPortrait>UI/Image/Specialist/KirinPortrait</headPortrait>
 		<traits>

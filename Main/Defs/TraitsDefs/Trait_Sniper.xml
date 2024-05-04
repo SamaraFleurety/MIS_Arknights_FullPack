@@ -567,4 +567,24 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Wisadel</defName>
+		<degreeDatas>
+			<li>
+				<label>何以为我</label>
+				<description>杀人如麻、疯疯癫癫的雇佣兵，成为那位殿下的继承者，下一位巴别塔的议长——听起来的确缺乏可信度，对吧？但这里是卡兹戴尔，这话说出来，还真不算荒唐。</description>
+				<statOffsets>
+					<SocialImpact>-0.15</SocialImpact>
+					<ShootingAccuracyPawn>6</ShootingAccuracyPawn >
+					<PsychicSensitivity>1</PsychicSensitivity>
+				</statOffsets>
+				<statFactors>
+					<CertaintyLossFactor>0.01</CertaintyLossFactor>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>

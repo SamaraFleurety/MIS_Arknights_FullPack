@@ -337,4 +337,16 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Sniper">
+		<defName>AK_Apparel_Wisadel</defName>
+		<label>维什戴尔服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Sniper/Wisadel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Sniper/Wisadel</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 </Defs>

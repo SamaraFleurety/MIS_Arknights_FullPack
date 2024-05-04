@@ -213,6 +213,9 @@
 		<apparels>
 			<li>AK_Apparel_Bagpipe</li>
 		</apparels>
+		<accessory Inherit="false">
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Bagpipe</li>
+		</accessory>
 		<stand>UI/Image/Vanguard/BagpipeStand</stand>
 		<headPortrait>UI/Image/Vanguard/BagpipePortrait</headPortrait>
 		<skills>

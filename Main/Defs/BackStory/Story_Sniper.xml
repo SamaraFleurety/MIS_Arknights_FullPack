@@ -358,4 +358,12 @@
 		<baseDesc>{PAWN_nameDef}，来自米诺斯的吟游诗人，对抗萨尔贡殖民者的游击队成员。\n至于本人反复强调的“蝉联三届勇士大会射箭项目冠军”和“米诺斯第一竖琴演奏家”的身份无法考证，暂不录入档案。</baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Wisadel_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>萨卡兹雇佣兵领袖</title>
+		<titleShort>萨卡兹雇佣兵领袖</titleShort>
+		<baseDesc>{PAWN_nameDef}，雇佣兵的领袖，萨卡兹的新希望。/n{PAWN_pronoun}习惯黑夜，甚至称得上喜欢黑夜。在{PAWN_pronoun}尚不知如何处置自己的时候，黑夜是庇护性命的大衣。等到{PAWN_pronoun}学会了填饱肚子的方法，黑夜又成了能涂黑匕首的迷彩。每个能从卡兹戴尔的荒野上走出来的人，都知晓该怎么利用永远暗沉的夜色，因为没有学会的那些人，都已被它一一溺死。</baseDesc>
+	</BackstoryDef>
+
 </Defs>

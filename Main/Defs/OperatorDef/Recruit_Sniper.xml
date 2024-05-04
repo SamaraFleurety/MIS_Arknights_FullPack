@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 	<!--黑-->
@@ -7,7 +7,8 @@
 		<defName>AK_Recruit_Schwarz</defName>
 		<name>Schwarz</name>
 		<nickname>Schwarz</nickname>
-		<description>Keep her away from the faint of heart.\nSchwarz, Operator of Rhodes Island, will protect you from the shadows.</description>
+		<description>Keep her away from the faint of heart.\nSchwarz, Operator of Rhodes Island,
+			will protect you from the shadows.</description>
 		<weapon>AK_Weapon_Schwarz</weapon>
 		<hair>AK_Hair_Schwarz</hair>
 		<apparels>
@@ -106,12 +107,16 @@
 		<defName>AK_Recruit_AgentW</defName>
 		<name>W</name>
 		<nickname>W</nickname>
-		<description>Nothing good ever comes of her laughter. And she's always laughing.\nW, Sarkaz mercenary, is the single most dangerous signal on the battlefield.</description>
+		<description>Nothing good ever comes of her laughter. And she's always laughing.\nW, Sarkaz
+			mercenary, is the single most dangerous signal on the battlefield.</description>
 		<weapon>AK_Weapon_AgentW</weapon>
 		<hair>AK_Hair_AgentW</hair>
 		<apparels>
 			<li>AK_Apparel_AgentW</li>
 		</apparels>
+		<accessory Inherit="false">
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Wisadel</li>
+		</accessory>
 		<stand>UI/Image/Sniper/WStand</stand>
 		<headPortrait>UI/Image/Sniper/WPortrait</headPortrait>
 		<skills>
@@ -197,6 +202,12 @@
 		<age>20</age>
 		<adultHood>AK_BackStory_W_Adult</adultHood>
 		<voicePackDef>AK_VoicePack_W</voicePackDef>
+		<items>
+			<li>
+				<item>RawPotatoes</item>
+				<amount>75</amount>
+			</li>
+		</items>
 	</AK_DLL.OperatorDef>
 
 	<!--送葬人-->
@@ -205,7 +216,9 @@
 		<defName>AK_Recruit_Executor</defName>
 		<name>Executor</name>
 		<nickname>Executor</nickname>
-		<description>Be careful what you wish for, because he really can accomplish things that border on absurdity or impossibility.\nExecutor, a professional undertaker sent from the Laterano Embassy, is glad to fulfill any and all contracts.</description>
+		<description>Be careful what you wish for, because he really can accomplish things that
+			border on absurdity or impossibility.\nExecutor, a professional undertaker sent from the
+			Laterano Embassy, is glad to fulfill any and all contracts.</description>
 		<weapon>AK_Weapon_Executor</weapon>
 		<hair>AK_Hair_Executor</hair>
 		<apparels>
@@ -306,7 +319,8 @@
 		<name>Exusiai</name>
 		<nickname>Exusiai</nickname>
 		<description>Is it really fine to trust her with any cargo?
-Exusiai, employee of Penguin Logistics, will clear out everything in the way using her guns.</description>
+			Exusiai, employee of Penguin Logistics, will clear out everything in the way using her
+			guns.</description>
 		<weapon>AK_Weapon_Exusiai</weapon>
 		<hair>AK_Hair_Exusiai</hair>
 		<apparels>
@@ -417,7 +431,9 @@ Exusiai, employee of Penguin Logistics, will clear out everything in the way usi
 		<defName>AK_Recruit_Greythroat</defName>
 		<name>Greythroat</name>
 		<nickname>Greythroat</nickname>
-		<description>If you're ever on the receiving end of her evil eye, it's not necessarily meant for you.\nGreyThroat, Sniper Operator of Rhodes Island, brings eternal peace with each of her steady shots.</description>
+		<description>If you're ever on the receiving end of her evil eye, it's not necessarily meant
+			for you.\nGreyThroat, Sniper Operator of Rhodes Island, brings eternal peace with each
+			of her steady shots.</description>
 		<weapon>AK_Weapon_Greythroat</weapon>
 		<hair>AK_Hair_Greythroat</hair>
 		<apparels>
@@ -518,7 +534,8 @@ Exusiai, employee of Penguin Logistics, will clear out everything in the way usi
 		<name>Jessica</name>
 		<nickname>Jessica</nickname>
 		<description>If only she wasn't such a scaredy-cat…
-Jessica, Sniper Operator of Blacksteel, will provide effective attack power for the squad with her professional skills.</description>
+			Jessica, Sniper Operator of Blacksteel, will provide effective attack power for the
+			squad with her professional skills.</description>
 		<weapon>AK_Weapon_Jessica</weapon>
 		<hair>AK_Hair_Jessica</hair>
 		<apparels>
@@ -616,7 +633,7 @@ Jessica, Sniper Operator of Blacksteel, will provide effective attack power for 
 		<name>Pinecone</name>
 		<nickname>Pinecone</nickname>
 		<description>She looks half-asleep, but her work's laser-accurate. How does she do it?
-Construction worker Pinecone, all spaced out while she gets the job done.</description>
+			Construction worker Pinecone, all spaced out while she gets the job done.</description>
 		<weapon>AK_Weapon_Pinecone</weapon>
 		<hair>AK_Hair_Pinecone</hair>
 		<apparels>
@@ -702,7 +719,8 @@ Construction worker Pinecone, all spaced out while she gets the job done.</descr
 		<defName>AK_Recruit_Provence</defName>
 		<name>Provence</name>
 		<nickname>Provence</nickname>
-		<description>She also keeps an eye on everyone's health.\nProvence, Catastrophe Messenger of Rhodes Island, always keeps an eye on the movements of Catastrophes and the enemy.</description>
+		<description>She also keeps an eye on everyone's health.\nProvence, Catastrophe Messenger of
+			Rhodes Island, always keeps an eye on the movements of Catastrophes and the enemy.</description>
 		<weapon>AK_Weapon_Provence</weapon>
 		<hair>AK_Hair_Provence</hair>
 		<apparels>
@@ -801,7 +819,8 @@ Construction worker Pinecone, all spaced out while she gets the job done.</descr
 		<defName>AK_Recruit_Rosa</defName>
 		<name>Rosa</name>
 		<nickname>Rosa</nickname>
-		<description>Give her some time.\nRosa, a member of the Ursus Student Self-Government Group, is ready to welcome a new life.</description>
+		<description>Give her some time.\nRosa, a member of the Ursus Student Self-Government Group,
+			is ready to welcome a new life.</description>
 		<weapon>AK_Weapon_Rosa</weapon>
 		<hair>AK_Hair_Rosa</hair>
 		<apparels>
@@ -892,7 +911,9 @@ Construction worker Pinecone, all spaced out while she gets the job done.</descr
 		<defName>AK_Recruit_Rosmontis</defName>
 		<name>Rosmontis</name>
 		<nickname>Rosmontis</nickname>
-		<description>Her equipment's not on her. No need to worry about her remembering you ate her snacks yesterday. Probably.\nRosmontis, Rhodes Island Elite Operator, pushes open your office door by hand.</description>
+		<description>Her equipment's not on her. No need to worry about her remembering you ate her
+			snacks yesterday. Probably.\nRosmontis, Rhodes Island Elite Operator, pushes open your
+			office door by hand.</description>
 		<weapon>AK_Weapon_RosmontisA</weapon>
 		<hair>AK_Hair_Rosmontis</hair>
 		<apparels>
@@ -1088,17 +1109,17 @@ Construction worker Pinecone, all spaced out while she gets the job done.</descr
 		<childHood>AK_BackStory_Platinum_Child</childHood>
 		<adultHood>AK_BackStory_Platinum_Adult</adultHood>
 		<clothSet>
-		    <li>
-			    <key>0</key>
+			<li>
+				<key>0</key>
 				<value>
-				    <label>ShimmeringDew</label>
+					<label>ShimmeringDew</label>
 					<hair>AK_Hair_PlatinumShimmeringDew</hair>
 					<apparels>
-					    <li>AK_Apparel_PlatinumShimmeringDew</li>
+						<li>AK_Apparel_PlatinumShimmeringDew</li>
 					</apparels>
 					<weapon>AK_Weapon_PlatinumShimmeringDew</weapon>
 				</value>
-		    </li>
+			</li>
 		</clothSet>
 	</AK_DLL.OperatorDef>
 
@@ -1397,7 +1418,7 @@ Construction worker Pinecone, all spaced out while she gets the job done.</descr
 		<adultHood>AK_BackStory_Bluepoison_Adult</adultHood>
 	</AK_DLL.OperatorDef>
 
-    <!--菲亚梅塔-->
+	<!--菲亚梅塔-->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Sniper">
 		<defName>AK_Recruit_Fiammetta</defName>
@@ -2492,6 +2513,114 @@ Construction worker Pinecone, all spaced out while she gets the job done.</descr
 				<fireLevel>2</fireLevel>
 			</li>
 		</skills>
+	</AK_DLL.OperatorDef>
+
+	<!-- 维什戴尔 -->
+
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Sniper">
+		<defName>AK_Recruit_Wisadel</defName>
+		<name>Wisadel</name>
+		<nickname>Wisadel</nickname>
+		<description>FIXMEDESC</description>
+		<weapon>AK_Weapon_Wisadel</weapon>
+		<hair>AK_Hair_Wisadel</hair>
+		<apparels>
+			<li>AK_Apparel_Wisadel</li>
+		</apparels>
+		<accessory Inherit="false">
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Wisadel</li>
+		</accessory>
+		<stand>UI/Image/Sniper/WisadelStand</stand>
+		<headPortrait>UI/Image/Sniper/WisadelPortrait</headPortrait>
+		<traits>
+			<li>
+				<def>Nimble</def>
+			</li>
+			<li>
+				<def>Beauty</def>
+				<degree>1</degree>
+			</li>
+			<li>
+				<def>ShootingAccuracy</def>
+				<degree>-1</degree>
+			</li>
+			<li>
+				<def>AK_Trait_Wisadel</def>
+			</li>
+			<li>
+				<def>TooSmart</def>
+			</li>
+		</traits>
+		<age>20</age>
+		<adultHood>AK_BackStory_Wisadel_Adult</adultHood>
+		<skills>
+			<li>
+				<skill>Animals</skill>
+				<level>5</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Artistic</skill>
+				<level>5</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Construction</skill>
+				<level>12</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Cooking</skill>
+				<level>5</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Crafting</skill>
+				<level>12</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Intellectual</skill>
+				<level>0</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<level>10</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<level>10</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Mining</skill>
+				<level>0</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Plants</skill>
+				<level>5</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<level>15</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<level>0</level>
+				<fireLevel>0</fireLevel>
+			</li>
+		</skills>
+		<items>
+			<li>
+				<item>RawPotatoes</item>
+				<amount>75</amount>
+			</li>
+		</items>
 	</AK_DLL.OperatorDef>
 
 </Defs>
