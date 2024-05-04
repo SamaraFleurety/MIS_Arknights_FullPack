@@ -6,8 +6,9 @@
 		<label>华法林礼服</label>
 		<description>华法林穿着的，带花边的洋装</description>
 		<graphicData>
-			<texPath>Warfarin/WarfarinGothic_Thin_south</texPath>
+			<texPath>Warfarin/WarfarinGothic</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.2,1.2)</drawSize>
 		</graphicData>
 		<smeltable>false</smeltable>
 		<useHitPoints>false</useHitPoints>
@@ -82,12 +83,13 @@
 
 	<ThingDef>
 		<defName>AK_Weapon_WarfarinGothic</defName>
-		<label>血魔阳伞</label>
-		<description>华法林的花边阳伞。既可以遮阳，也可以用作施法单元</description>
+		<label>华法林的法杖</label>
+		<description>华法林的法杖，可以用作施法单元</description>
 		<graphicData>
 			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
-			<texPath>Things/AK_Agents/Weapon/Medic/WarfarinW</texPath>
+			<texPath>Warfarin/WarfarinGothicW</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.5,1.5)</drawSize>
 		</graphicData>
 		<statBases>
 			<AccuracyTouch>0.75</AccuracyTouch>
@@ -106,11 +108,11 @@
 				<defaultProjectile>AK_Bullet_WarfarinGothic</defaultProjectile>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
 				<warmupTime>0.9</warmupTime>				<!--前摇-->
-				<range>30</range>
+				<range>35</range>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
-				<soundCast>AK_Sound_Weapon_Absinthe</soundCast>
+				<soundCast>AK_Sound_Weapon_WarfarinGothic</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 				<noiseRadius>3</noiseRadius>
@@ -126,6 +128,7 @@
 			<cooldownTime>1.2</cooldownTime>
 		  </li>
 		</tools>
+		<equippedDistanceOffset>-0.3</equippedDistanceOffset>
 		<thingClass>ThingWithComps</thingClass>
 		<category>Item</category>
 		<drawerType>MapMeshOnly</drawerType>
@@ -157,9 +160,9 @@
 	</ThingDef>
 		<ThingDef ParentName="AK_BulletBase_Bow">
 			<defName>AK_Bullet_WarfarinGothic</defName>
-			<label>法术射击</label>
+			<label>血球</label>
 			<graphicData>
-				<texPath>Things/Projectile/MagicOrb</texPath>
+				<texPath>Warfarin/WarfarinGothicBullet</texPath>
 				<graphicClass>Graphic_Single</graphicClass>
 			</graphicData>
 			<thingClass>Bullet</thingClass>
@@ -191,4 +194,23 @@
 			<shaderType>Transparent</shaderType>
 		</graphicData>
 	</ThingDef>
+	
+	<SoundDef>
+		<defName>AK_Sound_Weapon_WarfarinGothic</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>3</maxSimultaneous>
+		<sustain>False</sustain>
+		<subSounds Inherit="False">
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Medic/Warfarin/player_p_atk_p_atk_bloodheal_n</clipPath>
+					</li>
+				</grains>
+				<volumeRange>35~35</volumeRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
 </Defs>

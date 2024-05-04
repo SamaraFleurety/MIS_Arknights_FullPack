@@ -22,7 +22,7 @@
 			<li Class="AK_DLL.TCP_RemoveMe"/>
         </comps>
         <thingCategories Inherit="false">
-            <li>AK_ShieldBelt</li>
+            <li>Apparel</li>
         </thingCategories>
         <apparel>
             <careIfWornByCorpse>false</careIfWornByCorpse>
@@ -54,7 +54,7 @@
             <EnergyShieldEnergyMax>3.0</EnergyShieldEnergyMax>
         </statBases>
         <graphicData>
-            <texPath>Things/ShieldBelt/ShieldBeltMuelsyse</texPath>
+            <texPath>Shield/BloodWing</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <comps>
@@ -73,10 +73,9 @@
                 <versionInfo>Blood Veil</versionInfo>
                 <alias>华法林的护盾</alias>
             </li>
-            <li Class="AKE_VanyaShield.TCP_VanyaShieldExtension">
+			<li Class="FS_WarfarinGothic.TCP_WarfarinGothicShield">
                 <hideVanillaBubble>true</hideVanillaBubble>
-            </li>
-			<li Class="FS_WarfarinGothic.TCP_WarfarinGothicShield" />
+			</li>
         </comps>
     </ThingDef>
 
