@@ -290,6 +290,12 @@
 				</capacities>
 				<power>24</power>
 				<cooldownTime>1.2</cooldownTime>
+				<extraMeleeDamages>
+          			<li>
+            			<def>Stun</def>
+            			<amount>9</amount>
+          			</li>
+        		</extraMeleeDamages>
 			</li>
 		</tools>
 	</ThingDef>

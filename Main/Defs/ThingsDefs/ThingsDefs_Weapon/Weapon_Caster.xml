@@ -497,7 +497,7 @@
 				<defaultProjectile>AK_Bullet_Dusk</defaultProjectile>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
 				<warmupTime>2.2</warmupTime>				<!--前摇-->
-				<range>20</range>
+				<range>35</range>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
@@ -513,7 +513,7 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>21</power>
+				<power>50</power>
 				<cooldownTime>1.8</cooldownTime>
 			</li>
 		</tools>

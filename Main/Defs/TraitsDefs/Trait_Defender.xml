@@ -15,7 +15,7 @@
 				<description>{PAWN_nameDef}的意志宛如钢铁一般坚韧而又不可撼动，没有任何东西能够动摇{PAWN_possessive}思想。\n但是更多时候则表现的像是脑子转不过弯。</description>
 				<statOffsets>
 					<SocialImpact>-0.3</SocialImpact>
-					<MentalBreakThreshold>-0.6</MentalBreakThreshold>
+					<MentalBreakThreshold>-0.34</MentalBreakThreshold>
 				</statOffsets>
 			</li>
 		</degreeDatas>
@@ -352,7 +352,7 @@
 				</description>
 				<statOffsets>
 					<MentalBreakThreshold>-0.25</MentalBreakThreshold>
-					<SocialImpact>-0.2</SocialImpact>
+					<SocialImpact>0.2</SocialImpact>
 				</statOffsets>
 			</li>
 		</degreeDatas>
@@ -368,7 +368,7 @@
 				<description>每个人偶尔都需要点外物的帮助，无论是为了纾解疲乏，还是缓解痛苦。
 				</description>
 				<statOffsets>
-					<PainShockThreshold>-0.25</PainShockThreshold>
+					<IncomingDamageFactor>0.5</IncomingDamageFactor>
 				</statOffsets>
 			</li>
 		</degreeDatas>

@@ -25,6 +25,12 @@
         </capacities>
         <power>27</power>
         <cooldownTime>1.4</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>9</amount>
+          </li>
+        </extraMeleeDamages>
       </li>
       <li>
         <label>矛尖突刺</label>
@@ -575,8 +581,8 @@
     </graphicData>
     <description>荒地猎人常用来狩猎的手弩，做功粗糙，但是手感舒适，结构也很结实。</description>
     <weaponClasses>
-		<li>Ranged</li>
-	</weaponClasses>
+		  <li>Ranged</li>
+	  </weaponClasses>
     <statBases>
       <AccuracyTouch>0.80</AccuracyTouch>
       <AccuracyShort>0.75</AccuracyShort>

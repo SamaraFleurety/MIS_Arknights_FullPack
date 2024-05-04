@@ -530,7 +530,7 @@
         <defaultProjectile>AK_Bullet_Dorothy</defaultProjectile>
         <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
         <warmupTime>0.9</warmupTime>        <!--前摇-->
-        <range>30</range>
+        <range>35</range>
         <targetParams>
           <canTargetLocations>true</canTargetLocations>
         </targetParams>
@@ -553,6 +553,7 @@
     <projectile>
       <damageDef>Bullet</damageDef>      <!--伤害类型-->
       <damageAmountBase>30</damageAmountBase>
+      <armorPenetrationBase>1.45</armorPenetrationBase>
       <stoppingPower>3</stoppingPower>
       <speed>50</speed>
     </projectile>
@@ -593,7 +594,7 @@
         <defaultProjectile>AK_Bullet_DorothyHandOfDestiny</defaultProjectile>
         <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
         <warmupTime>0.9</warmupTime>        <!--前摇-->
-        <range>30</range>
+        <range>35</range>
         <targetParams>
           <canTargetLocations>true</canTargetLocations>
         </targetParams>

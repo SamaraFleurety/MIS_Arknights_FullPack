@@ -153,9 +153,9 @@
 				<label>真正的士兵</label>
 				<description>作为维多利亚的士兵，{PAWN_nameDef}拥有大多数干员都无法比拟的超强作战素质。\n不过这也造成{PAWN_pronoun}做事，尤其是摆弄精密电子器具时有点毛手毛脚的。</description>
 				<statOffsets>
-					<MentalBreakThreshold>-0.55</MentalBreakThreshold>
-					<PainShockThreshold>-0.2</PainShockThreshold>
-					<SmoothingSpeed>-0.85</SmoothingSpeed>
+					<MentalBreakThreshold>-0.18</MentalBreakThreshold>
+					<IncomingDamageFactor>0.8</IncomingDamageFactor>
+					<FixBrokenDownBuildingSuccessChance>0.1</FixBrokenDownBuildingSuccessChance>
 				</statOffsets>
 			</li>
 		</degreeDatas>

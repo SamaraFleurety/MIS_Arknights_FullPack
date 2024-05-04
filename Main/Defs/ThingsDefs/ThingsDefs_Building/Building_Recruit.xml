@@ -72,7 +72,7 @@
 				<overlay>
 					<texPath>Things/Building/RecruitTower_Upper</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
-					<drawSize>5</drawSize>
+					<drawSize>10</drawSize>
 				</overlay>
 			</li>
 		</comps>
@@ -101,6 +101,7 @@
 		<rotatable>false</rotatable>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
 		<passability>PassThroughOnly</passability>
+		<drawerType>MapMeshAndRealTime</drawerType>
 		<canBeUsedUnderRoof>false</canBeUsedUnderRoof>
 		<pathCost>50</pathCost>
 		<blockWind>true</blockWind>

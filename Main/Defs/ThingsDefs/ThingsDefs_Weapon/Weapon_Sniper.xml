@@ -659,7 +659,7 @@
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
 				<warmupTime>1.2</warmupTime>
 				<!--前摇-->
-				<range>20</range>
+				<range>40</range>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
@@ -693,7 +693,7 @@
 			<damageDef>Bullet</damageDef>
 			<!--伤害类型-->
 			<damageAmountBase>39</damageAmountBase>
-			<armorPenetrationBase>1</armorPenetrationBase>
+			<armorPenetrationBase>2</armorPenetrationBase>
 			<!--穿甲-->
 			<stoppingPower>3</stoppingPower>
 			<speed>50</speed>
@@ -1858,8 +1858,7 @@
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
 				<warmupTime>2</warmupTime>
 				<!--前摇-->
-				<range>26</range>
-				<minRange>10</minRange>
+				<range>55</range>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
@@ -1893,7 +1892,7 @@
 			<damageDef>Bullet</damageDef>
 			<!--伤害类型-->
 			<damageAmountBase>38</damageAmountBase>
-			<armorPenetrationBase>1.15</armorPenetrationBase>
+			<armorPenetrationBase>1.8</armorPenetrationBase>
 			<!--穿甲-->
 			<stoppingPower>3</stoppingPower>
 			<speed>50</speed>
