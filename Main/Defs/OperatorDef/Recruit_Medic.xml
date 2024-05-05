@@ -560,20 +560,9 @@ Silence, medical specialist of Rhine Lab, will make use of the latest scientific
 		<age>20</age>
 		<childHood>AK_BackStory_Nightingale_Child</childHood>
 		<adultHood>AK_BackStory_Nightingale_Adult</adultHood>
-		<clothSet>
-			<li>
-				<key>0</key>
-				<value>
-					<label>Elegy</label>
-					<hair>AK_Hair_NightingaleElegy</hair>
-					<apparels>
-						<li>AK_Apparel_NightingaleElegy</li>
-						<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_NightingaleElegy</li>
-					</apparels>
-					<weapon>AK_Weapon_NightingaleElegy</weapon>
-				</value>
-			</li>
-		</clothSet>
+		<clothSets>
+			<li>AK_FashionSet_Nightingale_Elegy</li>
+		</clothSets>
 		<relations>
 			<li>
 				<key>Shining</key>
