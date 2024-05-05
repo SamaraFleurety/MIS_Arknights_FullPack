@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 	<!-- 闪灵 -->
@@ -14,7 +14,7 @@
 			<li>AK_Apparel_Shining</li>
 			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Shining</li>
 		</apparels>
-		<accessory Inherit="false"/>
+		<accessory Inherit="false" />
 		<stand>UI/Image/Medic/ShiningStand</stand>
 		<headPortrait>UI/Image/Medic/ShiningPortrait</headPortrait>
 		<skills>
@@ -99,20 +99,9 @@
 		</traits>
 		<age>20</age>
 		<adultHood>AK_BackStory_Shining_Adult</adultHood>
-		<clothSet> 
-			<li>
-				<key>0</key>
-				<value>
-					<label>SilentNight</label>
-					<hair>AK_Hair_ShiningSilentNight</hair>
-					<apparels>
-						<li>AK_Apparel_ShiningSilentNight</li>
-						<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_ShiningSilentNight</li>
-					</apparels>
-					<weapon>AK_Weapon_ShiningSilentNight</weapon>
-				</value>
-			</li>
-		</clothSet>
+		<clothSets>
+			<li>AK_FashionSet_Shining_SilentNight</li>
+		</clothSets>
 		<relations>
 			<li>
 				<key>Nightingale</key>
@@ -127,8 +116,7 @@
 		<defName>AK_Recruit_Silence</defName>
 		<name>Silence</name>
 		<nickname>Silence</nickname>
-		<description>There’s no risk in the fruits of research, as they are only byproducts after all. Experimentation, on the other hand…
-Silence, medical specialist of Rhine Lab, will make use of the latest scientific developments on the battlefield.</description>
+		<description>There’s no risk in the fruits of research, as they are only byproducts after all. Experimentation, on the other hand…/nSilence, medical specialist of Rhine Lab, will make use of the latest scientific developments on the battlefield.</description>
 		<weapon>AK_Weapon_Silence</weapon>
 		<hair>AK_Hair_Silence</hair>
 		<apparels>
@@ -474,7 +462,7 @@ Silence, medical specialist of Rhine Lab, will make use of the latest scientific
 			<li>AK_Apparel_Nightingale</li>
 			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Nightingale</li>
 		</apparels>
-		<accessory Inherit="false"/>
+		<accessory Inherit="false" />
 		<stand>UI/Image/Medic/NightingaleStand</stand>
 		<headPortrait>UI/Image/Medic/NightingalePortrait</headPortrait>
 		<skills>
@@ -1060,8 +1048,6 @@ Silence, medical specialist of Rhine Lab, will make use of the latest scientific
 				<fireLevel>0</fireLevel>
 			</li>
 		</skills>
-		<clothSet> <!-- 0在别的地方占用了，第一套从1开始 -->
-		</clothSet>
 		<fashion>
 			<li MayRequire="FS.Warfarin">Warfarin/WarfarinGothicStand</li>
 		</fashion>
@@ -1070,7 +1056,7 @@ Silence, medical specialist of Rhine Lab, will make use of the latest scientific
 			<li MayRequire="FS.Warfarin">FS_Live_WarfarinGothic</li>
 		</live2dModel>
 	</AK_DLL.OperatorDef>
-	 
+
 	<!-- 苏苏洛 -->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Medic">
@@ -1395,19 +1381,9 @@ Silence, medical specialist of Rhine Lab, will make use of the latest scientific
 		<age>20</age>
 		<childHood>AK_BackStory_Whisperain_Child</childHood>
 		<adultHood>AK_BackStory_Whisperain_Adult</adultHood>
-		<clothSet>
-			<li>
-				<key>0</key>
-				<value>
-					<label>PrioryOfAbyss</label>
-					<hair>AK_Hair_WhisperainPrioryOfAbyss</hair>
-					<apparels>
-						<li>AK_Apparel_WhisperainPrioryOfAbyss</li>
-					</apparels>
-					<weapon>AK_Weapon_WhisperainPrioryOfAbyss</weapon>
-				</value>
-			</li>
-		</clothSet>
+		<clothSets>
+			<li>AK_FashionSet_Whisperain_PrioryOfAbyss</li>
+		</clothSets>
 		<skills>
 			<li>
 				<skill>Animals</skill>

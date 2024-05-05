@@ -398,19 +398,9 @@
 		<age>20</age>
 		<childHood>AK_BackStory_Deepcolor_Child</childHood>
 		<adultHood>AK_BackStory_Deepcolor_Adult</adultHood>
-		<clothSet>
-			<li>
-				<key>0</key>
-				<value>
-					<label>MelodicPortrayal</label>
-					<hair>AK_Hair_DeepcolorMelodicPortrayal</hair>
-					<apparels>
-						<li>AK_Apparel_DeepcolorMelodicPortrayal</li>
-					</apparels>
-					<weapon>AK_Weapon_DeepcolorMelodicPortrayal</weapon>
-				</value>
-			</li>
-		</clothSet>
+		<clothSets>
+			<li>AK_FashionSet_Deepcolor_MelodicPortrayal</li>
+		</clothSets>
 	</AK_DLL.OperatorDef>
 
 	<!--初雪-->
@@ -1252,19 +1242,9 @@
 		<age>24</age>
 		<childHood>AK_BackStory_Quercus_Child</childHood>
 		<adultHood>AK_BackStory_Quercus_Adult</adultHood>
-		<clothSet>
-			<li>
-				<key>0</key>
-				<value>
-					<label>BardsTale</label>
-					<hair>AK_Hair_QuercusBardsTale</hair>
-					<apparels>
-						<li>AK_Apparel_QuercusBardsTale</li>
-					</apparels>
-					<weapon>AK_Weapon_QuercusBardsTale</weapon>
-				</value>
-			</li>
-		</clothSet>
+		<clothSets>
+			<li>AK_FashionSet_Quercus_BardsTale</li>
+		</clothSets>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -1652,20 +1632,9 @@
 		<age>20</age>
 		<childHood>AK_BackStory_CorruptingHeart_Child</childHood>
 		<adultHood>AK_BackStory_CorruptingHeart_Adult</adultHood>
-		<clothSet>
-			<li>
-				<key>0</key>
-				<value>
-					<label>Sublimation</label>
-					<hair>AK_Hair_CorruptingHeartSublimation</hair>
-					<apparels>
-						<li>AK_Apparel_CorruptingHeartSublimation</li>
-						<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_CorruptingHeartSublimation</li>
-					</apparels>
-					<weapon>AK_Weapon_CorruptingHeartSublimation</weapon>
-				</value>
-			</li>
-		</clothSet>
+		<clothSets>
+			<li>AK_FashionSet_CorruptingHeart_Sublimation</li>
+		</clothSets>
 		<skills>
 			<li>
 				<skill>Animals</skill>

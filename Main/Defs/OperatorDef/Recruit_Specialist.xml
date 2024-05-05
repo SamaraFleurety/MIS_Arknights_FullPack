@@ -199,19 +199,9 @@
 		<age>20</age>
 		<childHood>AK_BackStory_Red_Child</childHood>
 		<adultHood>AK_BackStory_Red_Adult</adultHood>
-		<clothSet>
-		    <li>
-			    <key>0</key>
-				<value>
-				    <label>LightBreeze</label>
-					<hair>AK_Hair_RedLightBreeze</hair>
-					<apparels>
-					    <li>AK_Apparel_RedLightBreeze</li>
-					</apparels>
-					<weapon>AK_Weapon_RedLightBreeze</weapon>
-				</value>
-		    </li>
-		</clothSet>
+		<clothSets>
+		    <li>AK_FashionSet_Red_LightBreeze</li>
+		</clothSets>
 	</AK_DLL.OperatorDef>
 
 	<!-- 歌蕾蒂娅 -->
@@ -312,19 +302,9 @@
 		<age>20</age>
 		<childHood>AK_BackStory_Gladiia_Child</childHood>
 		<adultHood>AK_BackStory_Gladiia_Adult</adultHood>
-		<clothSet>
-			<li>
-			    <key>0</key>
-				<value>
-				    <label>Return</label>
-					<hair>AK_Hair_GladiiaReturn</hair>
-					<apparels>
-					    <li>AK_Apparel_GladiiaReturn</li>
-					</apparels>
-					<weapon>AK_Weapon_GladiiaReturn</weapon>
-				</value>
-			</li>
-		</clothSet>
+		<clothSets>
+			<li>AK_FashionSet_Gladiia_Return</li>
+		</clothSets>
 	</AK_DLL.OperatorDef>
 
 	<!-- 温蒂 -->
@@ -865,19 +845,9 @@
 		<age>20</age>
 		<childHood>AK_BackStory_Dorothy_Child</childHood>
 		<adultHood>AK_BackStory_Dorothy_Adult</adultHood>
-		<clothSet>
-			<li>
-				<key>0</key>
-				<value>
-					<label>HandOfDestiny</label>
-					<hair>AK_Hair_DorothyHandOfDestiny</hair>
-					<apparels>
-						<li>AK_Apparel_DorothyHandOfDestiny</li>
-					</apparels>
-					<weapon>AK_Weapon_DorothyHandOfDestiny</weapon>
-				</value>
-			</li>
-		</clothSet>
+		<clothSets>
+			<li>AK_FashionSet_Dorothy_HandOfDestiny</li>
+		</clothSets>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -986,18 +956,9 @@
 		</traits>
 		<age>20</age>
 		<adultHood>AK_BackStory_Manticore_Adult</adultHood>
-		<clothSet>
-			<li>
-				<key>0</key>
-				<value>
-					<label>UnderVeil</label>
-					<hair>AK_Hair_ManticoreUnderVeil</hair>
-					<apparels>
-						<li>AK_Apparel_ManticoreUnderVeil</li>
-					</apparels>
-				</value>
-			</li>
-		</clothSet>
+		<clothSets>
+			<li>AK_FashionSet_Manticore_UnderVeil</li>
+		</clothSets>
 		<skills>
 			<li>
 				<skill>Animals</skill>

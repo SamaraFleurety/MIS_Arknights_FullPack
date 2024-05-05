@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<Def Class="AK_DLL.OperatorFashionSetDef">
+		<defName>AK_FashionSet_Deepcolor_MelodicPortrayal</defName>
+		<label>MelodicPortrayal</label>
+		<hair>AK_Hair_DeepcolorMelodicPortrayal</hair>
+		<apparels>
+			<li>AK_Apparel_DeepcolorMelodicPortrayal</li>
+		</apparels>
+		<weapon>AK_Weapon_DeepcolorMelodicPortrayal</weapon>
+		<standIndex>2</standIndex>
+	</Def>
+
+	<Def Class="AK_DLL.OperatorFashionSetDef">
+		<defName>AK_FashionSet_Quercus_BardsTale</defName>
+		<label>BardsTale</label>
+		<hair>AK_Hair_QuercusBardsTale</hair>
+		<apparels>
+			<li>AK_Apparel_QuercusBardsTale</li>
+		</apparels>
+		<weapon>AK_Weapon_QuercusBardsTale</weapon>
+		<standIndex>2</standIndex>
+	</Def>
+
+	<Def Class="AK_DLL.OperatorFashionSetDef">
+		<defName>AK_FashionSet_CorruptingHeart_Sublimation</defName>
+		<label>Sublimation</label>
+		<hair>AK_Hair_CorruptingHeartSublimation</hair>
+		<apparels>
+			<li>AK_Apparel_CorruptingHeartSublimation</li>
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_CorruptingHeartSublimation</li>
+		</apparels>
+		<weapon>AK_Weapon_CorruptingHeartSublimation</weapon>
+		<standIndex>2</standIndex>
+	</Def>
+
+</Defs>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<Def Class="AK_DLL.OperatorFashionSetDef">
+		<defName>AK_FashionSet_Mudrock_SilentNight</defName>
+		<label>SilentNight</label>
+		<hair>AK_Hair_MudrockSilentNight</hair>
+		<apparels>
+			<li>AK_Apparel_MudrockSilentNight</li>
+		</apparels>
+		<weapon>AK_Weapon_MudrockSilentNight</weapon>
+		<standIndex>3</standIndex>
+	</Def>
+
+	<Def Class="AK_DLL.OperatorFashionSetDef">
+		<defName>AK_FashionSet_Penance_OccasionalFlush</defName>
+		<label>OccasionalFlush</label>
+		<hair>AK_Hair_PenanceOccasionalFlush</hair>
+		<apparels>
+			<li>AK_Apparel_PenanceOccasionalFlush</li>
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_PenanceOccasionalFlush</li>
+		</apparels>
+		<weapon>AK_Weapon_PenanceOccasionalFlush</weapon>
+		<standIndex>2</standIndex>
+	</Def>
+
+</Defs>

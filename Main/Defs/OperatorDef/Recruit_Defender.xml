@@ -518,19 +518,9 @@
 		</traits>
 		<age>20</age>
 		<adultHood>AK_BackStory_Mudrock_Adult</adultHood>
-		<clothSet>
-			<li>
-				<key>0</key>
-				<value>
-					<label>SilentNight</label>
-					<hair>AK_Hair_MudrockSilentNight</hair>
-					<apparels>
-						<li>AK_Apparel_MudrockSilentNight</li>
-					</apparels>
-					<weapon>AK_Weapon_MudrockSilentNight</weapon>
-				</value>
-			</li>
-		</clothSet>
+		<clothSets>
+			<li>AK_FashionSet_Mudrock_SilentNight</li>
+		</clothSets>
 	</AK_DLL.OperatorDef>
 
 	<!-- 年 -->
@@ -1776,20 +1766,9 @@
 		</traits>
 		<age>20</age>
 		<adultHood>AK_BackStory_Penance_Adult</adultHood>
-		<clothSet>
-			<li>
-				<key>0</key>
-				<value>
-					<label>OccasionalFlush</label>
-					<hair>AK_Hair_PenanceOccasionalFlush</hair>
-					<apparels>
-						<li>AK_Apparel_PenanceOccasionalFlush</li>
-						<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_PenanceOccasionalFlush</li>
-					</apparels>
-					<weapon>AK_Weapon_PenanceOccasionalFlush</weapon>
-				</value>
-			</li>
-		</clothSet>
+		<clothSets>
+			<li>AK_FashionSet_Penance_OccasionalFlush</li>
+		</clothSets>
 		<skills>
 			<li>
 				<skill>Animals</skill>

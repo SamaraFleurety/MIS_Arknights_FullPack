@@ -35,6 +35,7 @@
                     <texPath>Things/ShieldBelt/ShieldBeltMuelsyseS</texPath>
                     <graphicClass>Graphic_Single</graphicClass>
                     <drawSize>(2,2)</drawSize>
+                    <drawOffsetNorth>(0,0.1,0)</drawOffsetNorth>
                 </bubbleStaticOverlay>
                 <bubbleRotateTexPath>Things/ShieldBelt/ShieldBeltMuelsyseD</bubbleRotateTexPath>
             </li>
@@ -268,6 +269,7 @@
                     <texPath>Things/ShieldBelt/ShieldBeltReedS</texPath>
                     <graphicClass>Graphic_Single</graphicClass>
                     <drawSize>(2,2)</drawSize>
+                    <drawOffsetNorth>(0,0.1,0)</drawOffsetNorth>
                 </bubbleStaticOverlay>
                 <bubbleRotateTexPath>Things/ShieldBelt/ShieldBeltReedD</bubbleRotateTexPath>
                 <reflectionRatio>0.15</reflectionRatio>
@@ -308,6 +310,7 @@
                     <texPath>Things/ShieldBelt/ShieldBeltShiningS</texPath>
                     <graphicClass>Graphic_Single</graphicClass>
                     <drawSize>(2,2)</drawSize>
+                    <drawOffsetNorth>(0,0.1,0)</drawOffsetNorth>
                 </bubbleStaticOverlay>
                 <bubbleRotateTexPath>Things/ShieldBelt/ShieldBeltShiningD</bubbleRotateTexPath>
             </li>
@@ -347,6 +350,7 @@
                     <texPath>Things/ShieldBelt/ShieldBeltShining_SilentNightS</texPath>
                     <graphicClass>Graphic_Single</graphicClass>
                     <drawSize>(2,2)</drawSize>
+                    <drawOffsetNorth>(0,0.1,0)</drawOffsetNorth>
                 </bubbleStaticOverlay>
                 <bubbleRotateTexPath>Things/ShieldBelt/ShieldBeltShining_SilentNightD</bubbleRotateTexPath>
             </li>
@@ -387,7 +391,7 @@
                     <texPath>Things/ShieldBelt/ShieldBeltNightingaleS</texPath>
                     <graphicClass>Graphic_Single</graphicClass>
                     <drawSize>(2,2)</drawSize>
-					<drawOffsetNorth>(0,5,0)</drawOffsetNorth>
+					<drawOffsetNorth>(0,0,0)</drawOffsetNorth>
                 </bubbleStaticOverlay>
             </li>
         </comps>
@@ -504,6 +508,7 @@
                     <texPath>Things/ShieldBelt/ShieldBeltDesertBlessingsS</texPath>
                     <graphicClass>Graphic_Single</graphicClass>
                     <drawSize>(2,2)</drawSize>
+                    <drawOffsetNorth>(0,0.1,0)</drawOffsetNorth>
                 </bubbleStaticOverlay>
                 <bubbleRotateTexPath>Things/ShieldBelt/ShieldBeltDesertBlessingsD</bubbleRotateTexPath>
             </li>
@@ -621,6 +626,7 @@
                     <texPath>Things/ShieldBelt/ShieldBeltCorruptingHeartS</texPath>
                     <graphicClass>Graphic_Single</graphicClass>
                     <drawSize>(2,2)</drawSize>
+                    <drawOffsetNorth>(0,0.1,0)</drawOffsetNorth>
                 </bubbleStaticOverlay>
                 <bubbleRotateTexPath>Things/ShieldBelt/ShieldBeltCorruptingHeartD</bubbleRotateTexPath>
             </li>
@@ -661,6 +667,7 @@
                     <texPath>Things/ShieldBelt/ShieldBeltCorruptingHeart_SublimationS</texPath>
                     <graphicClass>Graphic_Single</graphicClass>
                     <drawSize>(2,2)</drawSize>
+                    <drawOffsetNorth>(0,0.1,0)</drawOffsetNorth>
                 </bubbleStaticOverlay>
                 <bubbleRotateTexPath>Things/ShieldBelt/ShieldBeltCorruptingHeart_SublimationD</bubbleRotateTexPath>
             </li>
@@ -669,7 +676,7 @@
 
     <ThingDef ParentName="AK_BeltBase">
         <defName>AK_ShieldBelt_Eblana</defName>
-        <label>“予取予得”</label>
+        <label>予取予得</label>
         <description>她赐予他们力量，让他们成为不死的战士，让他们为自己尽忠，现在，是收回这些力量的时候了。</description>
         <statBases>
             <EnergyShieldRechargeRate>0.6</EnergyShieldRechargeRate>
@@ -700,6 +707,7 @@
                     <texPath>Things/ShieldBelt/ShieldBeltEblanaS</texPath>
                     <graphicClass>Graphic_Single</graphicClass>
                     <drawSize>(2,2)</drawSize>
+                    <drawOffsetNorth>(0,0.1,0)</drawOffsetNorth>
                 </bubbleStaticOverlay>
                 <bubbleRotateTexPath>Things/ShieldBelt/ShieldBeltEblanaD</bubbleRotateTexPath>
             </li>
@@ -708,7 +716,7 @@
 
     <ThingDef ParentName="AK_BeltBase">
         <defName>AK_ShieldBelt_Viviana</defName>
-        <label>“散华”</label>
+        <label>散华</label>
         <description>金盏花盛开而又凋谢，如同烛光一样，所有的美好与芳华只能停留在那片刻之间。</description>
         <statBases>
             <EnergyShieldRechargeRate>0</EnergyShieldRechargeRate>
@@ -739,6 +747,7 @@
                     <texPath>Things/ShieldBelt/ShieldBeltVivianaS</texPath>
                     <graphicClass>Graphic_Single</graphicClass>
                     <drawSize>(2,2)</drawSize>
+                    <drawOffsetNorth>(0,0.1,0)</drawOffsetNorth>
                 </bubbleStaticOverlay>
                 <bubbleRotateTexPath>Things/ShieldBelt/ShieldBeltVivianaD</bubbleRotateTexPath>
             </li>
@@ -779,6 +788,7 @@
                     <texPath>Things/ShieldBelt/ShieldBeltWisadelS</texPath>
                     <graphicClass>Graphic_Single</graphicClass>
                     <drawSize>(2,2)</drawSize>
+                    <drawOffsetNorth>(0,0.1,0)</drawOffsetNorth>
                 </bubbleStaticOverlay>
                 <bubbleRotateTexPath>Things/ShieldBelt/ShieldBeltWisadelD</bubbleRotateTexPath>
             </li>
@@ -819,6 +829,7 @@
                     <texPath>Things/ShieldBelt/ShieldBeltBagpipeS</texPath>
                     <graphicClass>Graphic_Single</graphicClass>
                     <drawSize>(2,2)</drawSize>
+                    <drawOffsetNorth>(0,0.1,0)</drawOffsetNorth>
                 </bubbleStaticOverlay>
                 <bubbleRotateTexPath>Things/ShieldBelt/ShieldBeltBagpipeD</bubbleRotateTexPath>
             </li>

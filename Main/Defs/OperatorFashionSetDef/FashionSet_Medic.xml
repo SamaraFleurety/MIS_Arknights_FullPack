@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<Def Class="AK_DLL.OperatorFashionSetDef">
+		<defName>AK_FashionSet_Nightingale_Elegy</defName>
+		<label>Elegy</label>
+		<hair>AK_Hair_NightingaleElegy</hair>
+		<apparels>
+			<li>AK_Apparel_NightingaleElegy</li>
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_NightingaleElegy</li>
+		</apparels>
+		<weapon>AK_Weapon_NightingaleElegy</weapon>
+		<standIndex>2</standIndex>
+	</Def>
+
+	<Def Class="AK_DLL.OperatorFashionSetDef">
+		<defName>AK_FashionSet_Shining_SilentNight</defName>
+		<label>SilentNight</label>
+		<hair>AK_Hair_ShiningSilentNight</hair>
+		<apparels>
+			<li>AK_Apparel_ShiningSilentNight</li>
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_ShiningSilentNight</li>
+		</apparels>
+		<weapon>AK_Weapon_ShiningSilentNight</weapon>
+		<standIndex>2</standIndex>
+	</Def>
+
+	<Def Class="AK_DLL.OperatorFashionSetDef">
+		<defName>AK_FashionSet_Whisperain_PrioryOfAbyss</defName>
+		<label>PrioryOfAbyss</label>
+		<hair>AK_Hair_WhisperainPrioryOfAbyss</hair>
+		<apparels>
+			<li>AK_Apparel_WhisperainPrioryOfAbyss</li>
+		</apparels>
+		<weapon>AK_Weapon_WhisperainPrioryOfAbyss</weapon>
+		<standIndex>3</standIndex>
+	</Def>
+
+</Defs>

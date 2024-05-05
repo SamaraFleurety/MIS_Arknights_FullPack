@@ -214,6 +214,9 @@
 		<apparels>
 			<li>AK_Apparel_Eblana</li>
 		</apparels>
+		<accessory Inherit="false">
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Eblana</li>
+		</accessory>
 		<stand>UI/Image/OtherLeader/EblanaStand</stand>
 		<headPortrait>UI/Image/OtherLeader/EblanaPortrait</headPortrait>
 		<traits>
@@ -390,6 +393,8 @@
 			</li>
 		</skills>
 	</AK_DLL.OperatorDef>
+
+	<!-- 温德米尔公爵 -->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_OtherLeader">
 		<defName>AK_Recruit_DukeWindermere</defName>

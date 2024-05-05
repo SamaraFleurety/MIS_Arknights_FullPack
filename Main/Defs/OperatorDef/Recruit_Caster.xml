@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 	<!--夕-->
@@ -218,19 +218,9 @@
 		<age>20</age>
 		<childHood>AK_BackStory_Eyjafjalla_Child</childHood>
 		<adultHood>AK_BackStory_Eyjafjalla_Adult</adultHood>
-		<clothSet>
-			<li>
-				<key>0</key>
-				<value>
-					<label>SummerFlower</label>
-					<hair>AK_Hair_EyjafjallaSummerFlower</hair>
-					<apparels>
-						<li>AK_Apparel_EyjafjallaSummerFlower</li>
-					</apparels>
-					<weapon>AK_Weapon_EyjafjallaSummerFlower</weapon>
-				</value>
-			</li>
-		</clothSet>
+		<clothSets>
+			<li>AK_FashionSet_Eyjafjalla_SummerFlower</li>
+		</clothSets>
 		<standOffsets Inherit="false">
 			<li>
 				<key>0</key>
@@ -1134,19 +1124,9 @@
 		<age>23</age>
 		<childHood>AK_BackStory_Carnelian_Child</childHood>
 		<adultHood>AK_BackStory_Carnelian_Adult</adultHood>
-		<clothSet>
-			<li>
-				<key>0</key>
-				<value>
-					<label>ShimmeringDew</label>
-					<hair>AK_Hair_CarnelianShimmeringDew</hair>
-					<apparels>
-						<li>AK_Apparel_CarnelianShimmeringDew</li>
-					</apparels>
-					<weapon>AK_Weapon_CarnelianShimmeringDew</weapon>
-				</value>
-			</li>
-		</clothSet>
+		<clothSets>
+			<li>AK_FashionSet_Carnelian_ShimmeringDew</li>
+		</clothSets>
 		<relations>
 			<li>
 				<key>Beeswax</key>
@@ -1256,19 +1236,9 @@
 			</li>
 		</traits>
 		<childHood>AK_BackStory_Beeswax_Child</childHood>
-		<clothSet>
-			<li>
-				<key>0</key>
-				<value>
-					<label>CasualVacation</label>
-					<hair>AK_Hair_BeeswaxCasualVacation</hair>
-					<apparels>
-						<li>AK_Apparel_BeeswaxCasualVacation</li>
-					</apparels>
-					<weapon>AK_Weapon_BeeswaxCasualVacation</weapon>
-				</value>
-			</li>
-		</clothSet>
+		<clothSets>
+			<li>AK_FashionSet_Beeswax_CasualVacation</li>
+		</clothSets>
 		<relations>
 			<li>
 				<key>Carnelian</key>
@@ -1435,19 +1405,9 @@
 		<age>20</age>
 		<childHood>AK_BackStory_Goldenglow_Child</childHood>
 		<adultHood>AK_BackStory_Goldenglow_Adult</adultHood>
-		<clothSet>
-			<li>
-				<key>0</key>
-				<value>
-					<label>MaidenfortheBrightNight</label>
-					<hair>AK_Hair_GoldenglowMaidenfortheBrightNight</hair>
-					<apparels>
-						<li>AK_Apparel_GoldenglowMaidenfortheBrightNight</li>
-					</apparels>
-					<weapon>AK_Weapon_GoldenglowMaidenfortheBrightNight</weapon>
-				</value>
-			</li>
-		</clothSet>
+		<clothSets>
+			<li>AK_FashionSet_Goldenglow_MaidenfortheBrightNight</li>
+		</clothSets>
 		<AKAbilities>
 			<li>AKA_Ability_Goldenglow_HairCut</li>
 		</AKAbilities>
@@ -1763,19 +1723,9 @@
 		<age>22</age>
 		<childHood>AK_BackStory_Astgenne_Child</childHood>
 		<adultHood>AK_BackStory_Astgenne_Adult</adultHood>
-		<clothSet>
-			<li>
-				<key>0</key>
-				<value>
-					<label>HerAspiration</label>
-					<hair>AK_Hair_AstgenneHerAspiration</hair>
-					<apparels>
-						<li>AK_Apparel_AstgenneHerAspiration</li>
-					</apparels>
-					<weapon>AK_Weapon_AstgenneHerAspiration</weapon>
-				</value>
-			</li>
-		</clothSet>
+		<clothSets>
+			<li>AK_FashionSet_Astgenne_HerAspiration</li>
+		</clothSets>
 		<relations>
 			<li>
 				<key>Astesia</key>
@@ -1887,19 +1837,9 @@
 		<age>20</age>
 		<childHood>AK_BackStory_Harmonie_Child</childHood>
 		<adultHood>AK_BackStory_Harmonie_Adult</adultHood>
-		<clothSet>
-			<li>
-				<key>0</key>
-				<value>
-					<label>Invitation</label>
-					<hair>AK_Hair_HarmonieInvitation</hair>
-					<apparels>
-						<li>AK_Apparel_HarmonieInvitation</li>
-					</apparels>
-					<weapon>AK_Weapon_HarmonieInvitation</weapon>
-				</value>
-			</li>
-		</clothSet>
+		<clothSets>
+			<li>AK_FashionSet_Harmonie_Invitation</li>
+		</clothSets>
 		<thoughtReceived>AK_ThoughtCollection</thoughtReceived>
 		<TRStage>0</TRStage>
 		<skills>
@@ -2432,19 +2372,9 @@
 		<age>20</age>
 		<childHood>AK_BackStory_Santalla_Child</childHood>
 		<adultHood>AK_BackStory_Santalla_Adult</adultHood>
-		<clothSet>
-			<li>
-				<key>0</key>
-				<value>
-					<label>LeisurelyHoliday</label>
-					<hair>AK_Hair_SantallaLeisurelyHoliday</hair>
-					<apparels>
-						<li>AK_Apparel_SantallaLeisurelyHoliday</li>
-					</apparels>
-					<weapon>AK_Weapon_SantallaLeisurelyHoliday</weapon>
-				</value>
-			</li>
-		</clothSet>
+		<clothSets>
+			<li>AK_FashionSet_Santalla_LeisurelyHoliday</li>
+		</clothSets>
 		<skills>
 			<li>
 				<skill>Animals</skill>
