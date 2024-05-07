@@ -194,6 +194,9 @@
       <texPath>Things/AK_Agents/Weapon/Medic/NightingaleW</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <equippedStatOffsets>
+      <ShootingAccuracyPawn>30</ShootingAccuracyPawn>
+    </equippedStatOffsets>
     <statBases>
 			<AccuracyTouch>1.15</AccuracyTouch>
 			<AccuracyShort>1.25</AccuracyShort>
@@ -207,8 +210,9 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>AK_Bullet_Nightingale</defaultProjectile>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
-				<warmupTime>1.2</warmupTime>				<!--前摇-->
+				<warmupTime>3</warmupTime>				<!--前摇-->
 				<range>25</range>
+        <forcedMissRadius>1.9</forcedMissRadius>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
@@ -228,6 +232,9 @@
       <texPath>Things/AK_Agents/Weapon/Medic/Nightingale_ElegyW</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <equippedStatOffsets>
+      <ShootingAccuracyPawn>30</ShootingAccuracyPawn>
+    </equippedStatOffsets>
     <statBases>
 			<AccuracyTouch>1.15</AccuracyTouch>
 			<AccuracyShort>1.25</AccuracyShort>
@@ -241,8 +248,9 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>AK_Bullet_Nightingale</defaultProjectile>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
-				<warmupTime>1.2</warmupTime>				<!--前摇-->
+				<warmupTime>3</warmupTime>				<!--前摇-->
 				<range>25</range>
+        <forcedMissRadius>1.9</forcedMissRadius>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
@@ -261,10 +269,10 @@
 			<texPath>Things/Projectile/MagicOrb</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<thingClass>Bullet</thingClass>
+		<thingClass>Projectile_Explosive</thingClass>
 		<projectile>
 			<damageDef>Stun</damageDef>
-			<damageAmountBase>0</damageAmountBase>
+			<damageAmountBase>4</damageAmountBase>
 			<stoppingPower>3</stoppingPower>
 			<speed>50</speed>
 			<soundExplode>ThumpCannon_Impact</soundExplode>
