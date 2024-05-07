@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
   <ThingDef ParentName="AK_WeaponBase_Medic">
@@ -9,7 +9,7 @@
       <texPath>Things/AK_Agents/Weapon/Medic/GavialW</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <tools Inherit = "false">
+    <tools Inherit="false">
       <li>
         <label>法杖猛砸</label>
         <capacities>
@@ -45,7 +45,7 @@
       <texPath>Things/AK_Agents/Weapon/Medic/KaltsitW</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <tools Inherit = "false">
+    <tools Inherit="false">
       <li>
         <label>法杖敲击</label>
         <capacities>
@@ -65,7 +65,7 @@
       <texPath>Things/AK_Agents/Weapon/Medic/PerfumerW</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <tools Inherit = "false">
+    <tools Inherit="false">
       <li>
         <label>法杖敲击</label>
         <capacities>
@@ -85,7 +85,7 @@
       <texPath>Things/AK_Agents/Weapon/Medic/SilenceW</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <tools Inherit = "false">
+    <tools Inherit="false">
       <li>
         <label>扑打</label>
         <capacities>
@@ -105,7 +105,7 @@
       <texPath>Things/AK_Agents/Weapon/Medic/ShiningW</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <tools Inherit = "false">
+    <tools Inherit="false">
       <li>
         <label>剑捅</label>
         <capacities>
@@ -150,7 +150,7 @@
       <texPath>Things/AK_Agents/Weapon/Medic/Shining_SilentNightW</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <tools Inherit = "false">
+    <tools Inherit="false">
       <li>
         <label>剑捅</label>
         <capacities>
@@ -198,31 +198,31 @@
       <ShootingAccuracyPawn>30</ShootingAccuracyPawn>
     </equippedStatOffsets>
     <statBases>
-			<AccuracyTouch>0.85</AccuracyTouch>
-			<AccuracyShort>0.95</AccuracyShort>
-			<AccuracyMedium>0.8</AccuracyMedium>
-			<AccuracyLong>0.65</AccuracyLong>
-			<RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
-		</statBases>
-		<verbs>
-			<li>
-				<verbClass>Verb_Shoot</verbClass>
-				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>AK_Bullet_Nightingale</defaultProjectile>
-				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
-				<warmupTime>2.5</warmupTime>				<!--前摇-->
-				<range>25</range>
+      <AccuracyTouch>0.85</AccuracyTouch>
+      <AccuracyShort>0.95</AccuracyShort>
+      <AccuracyMedium>0.8</AccuracyMedium>
+      <AccuracyLong>0.65</AccuracyLong>
+      <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>AK_Bullet_Nightingale</defaultProjectile>
+        <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+        <warmupTime>2.5</warmupTime>				<!--前摇-->
+        <range>25</range>
         <forcedMissRadius>1.9</forcedMissRadius>
-				<targetParams>
-					<canTargetLocations>true</canTargetLocations>
-				</targetParams>
-				<soundCast>AK_Sound_Weapon_Magic</soundCast>
-				<soundCastTail>GunTail_Heavy</soundCastTail>
-				<muzzleFlashScale>9</muzzleFlashScale>
-				<noiseRadius>3</noiseRadius>
-			</li>
-		</verbs>
-	</ThingDef>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <soundCast>AK_Sound_Weapon_Magic</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <noiseRadius>3</noiseRadius>
+      </li>
+    </verbs>
+  </ThingDef>
 
   <ThingDef ParentName="AK_WeaponBase_Medic">
     <defName>AK_Weapon_NightingaleElegy</defName>
@@ -236,49 +236,49 @@
       <ShootingAccuracyPawn>30</ShootingAccuracyPawn>
     </equippedStatOffsets>
     <statBases>
-			<AccuracyTouch>0.85</AccuracyTouch>
-			<AccuracyShort>0.95</AccuracyShort>
-			<AccuracyMedium>0.8</AccuracyMedium>
-			<AccuracyLong>0.65</AccuracyLong>
-			<RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
-		</statBases>
-		<verbs>
-			<li>
-				<verbClass>Verb_Shoot</verbClass>
-				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>AK_Bullet_Nightingale</defaultProjectile>
-				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
-				<warmupTime>2.5</warmupTime>				<!--前摇-->
-				<range>25</range>
+      <AccuracyTouch>0.85</AccuracyTouch>
+      <AccuracyShort>0.95</AccuracyShort>
+      <AccuracyMedium>0.8</AccuracyMedium>
+      <AccuracyLong>0.65</AccuracyLong>
+      <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>AK_Bullet_Nightingale</defaultProjectile>
+        <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+        <warmupTime>2.5</warmupTime>				<!--前摇-->
+        <range>25</range>
         <forcedMissRadius>1.9</forcedMissRadius>
-				<targetParams>
-					<canTargetLocations>true</canTargetLocations>
-				</targetParams>
-				<soundCast>AK_Sound_Weapon_Magic</soundCast>
-				<soundCastTail>GunTail_Heavy</soundCastTail>
-				<muzzleFlashScale>9</muzzleFlashScale>
-				<noiseRadius>3</noiseRadius>
-			</li>
-		</verbs>
-	</ThingDef>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <soundCast>AK_Sound_Weapon_Magic</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <noiseRadius>3</noiseRadius>
+      </li>
+    </verbs>
+  </ThingDef>
 
   <ThingDef ParentName="AK_BulletBase_Bow">
-		<defName>AK_Bullet_Nightingale</defName>
-		<label>法术射击</label>
-		<graphicData>
-			<texPath>Things/Projectile/MagicOrb</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<thingClass>Projectile_Explosive</thingClass>
-		<projectile>
-			<damageDef>Stun</damageDef>
-			<damageAmountBase>0</damageAmountBase>
-			<stoppingPower>3</stoppingPower>
-			<speed>50</speed>
-			<soundExplode>ThumpCannon_Impact</soundExplode>
+    <defName>AK_Bullet_Nightingale</defName>
+    <label>法术射击</label>
+    <graphicData>
+      <texPath>Things/Projectile/MagicOrb</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <damageDef>Stun</damageDef>
+      <damageAmountBase>0</damageAmountBase>
+      <stoppingPower>3</stoppingPower>
+      <speed>50</speed>
+      <soundExplode>ThumpCannon_Impact</soundExplode>
       <explosionRadius>3.5</explosionRadius>
-		</projectile>
-	</ThingDef>
+    </projectile>
+  </ThingDef>
 
   <ThingDef ParentName="AK_WeaponBase_Medic">
     <defName>AK_Weapon_Ptilopsis</defName>
@@ -288,7 +288,7 @@
       <texPath>Things/AK_Agents/Weapon/Medic/PtilopsisW</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <tools Inherit = "false">
+    <tools Inherit="false">
       <li>
         <label>法杖猛砸</label>
         <capacities>
@@ -308,7 +308,7 @@
       <texPath>Things/AK_Agents/Weapon/Medic/PurestreamW</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <tools Inherit = "false">
+    <tools Inherit="false">
       <li>
         <label>法杖猛砸</label>
         <capacities>
@@ -328,7 +328,7 @@
       <texPath>Things/AK_Agents/Weapon/Medic/MyrrhW</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <tools Inherit = "false">
+    <tools Inherit="false">
       <li>
         <label>扑打</label>
         <capacities>
@@ -348,7 +348,7 @@
       <texPath>Things/AK_Agents/Weapon/Medic/WarfarinW</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <tools Inherit = "false">
+    <tools Inherit="false">
       <li>
         <label>法杖猛砸</label>
         <capacities>
@@ -368,7 +368,7 @@
       <texPath>Things/AK_Agents/Weapon/Medic/SussurroW</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <tools Inherit = "false">
+    <tools Inherit="false">
       <li>
         <label>法杖猛砸</label>
         <capacities>
@@ -388,7 +388,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <description>锡兰的伞，握在手中感觉十分潮湿，但是脱手又感觉没有任何水，难道这也是源石技艺？</description>
-    <tools Inherit = "false">
+    <tools Inherit="false">
       <li>
         <label>法杖猛砸</label>
         <capacities>
@@ -408,7 +408,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <description>桑葚的法杖，上面的令牌用炎国某地的方言写了大量的祈福语，香火的气息若有若无。</description>
-    <tools Inherit = "false">
+    <tools Inherit="false">
       <li>
         <label>法杖猛砸</label>
         <capacities>
@@ -472,7 +472,7 @@
         <noiseRadius>3</noiseRadius>
       </li>
     </verbs>
-    <tools Inherit = "false">
+    <tools Inherit="false">
       <li>
         <label>法杖猛击</label>
         <capacities>
@@ -508,14 +508,14 @@
     </projectile>
   </ThingDef>
 
-	<ThingDef ParentName="AK_WeaponBase_Medic">
-		<defName>AK_Weapon_Vendela</defName>
-		<label>刺玫之杖</label>
-		<graphicData>
-			<texPath>Things/AK_Agents/Weapon/Medic/VendelaW</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<description>刺玫的法杖，过往已逝，她能攥住的并不多。</description>
+  <ThingDef ParentName="AK_WeaponBase_Medic">
+    <defName>AK_Weapon_Vendela</defName>
+    <label>刺玫之杖</label>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Medic/VendelaW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <description>刺玫的法杖，过往已逝，她能攥住的并不多。</description>
     <statBases>
       <AccuracyTouch>0.85</AccuracyTouch>
       <AccuracyShort>0.95</AccuracyShort>
@@ -540,7 +540,7 @@
         <noiseRadius>3</noiseRadius>
       </li>
     </verbs>
-    <tools Inherit = "false">
+    <tools Inherit="false">
       <li>
         <label>法杖猛击</label>
         <capacities>
