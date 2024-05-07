@@ -182,6 +182,18 @@
 			</projectile>
 		</ThingDef>
 	    
+	<Def Class="AK_DLL.OperatorFashionSetDef">
+		<defName>AK_FashionSet_Warfarin_Gothic</defName>
+		<label>哥特式洋装</label>
+		<hair>AK_Hair_WarfarinGothic</hair>
+		<apparels>
+			<li>AK_Apparel_WarfarinGothic</li>
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_WarfarinGothic</li>
+		</apparels>
+		<weapon>AK_Weapon_WarfarinGothic</weapon>
+		<standIndex>2</standIndex>
+	</Def>
+		
 	<ThingDef Name="AK_BulletBase_Bow" Abstract="True">
 		<category>Projectile</category>
 		<tickerType>Normal</tickerType>

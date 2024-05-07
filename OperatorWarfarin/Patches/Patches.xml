@@ -4,21 +4,10 @@
 		<mods><li>[MIS] - Arknights</li></mods>
 		<match Class="PatchOperationAdd">
 			<xpath>
-				Defs/AK_DLL.OperatorDef[defName="AK_Recruit_Warfarin"]/clothSet
+				Defs/AK_DLL.OperatorDef[defName="AK_Recruit_Warfarin"]/clothSets
 			</xpath>
 			<value>
-				<li>
-					<key>0</key>
-					<value>
-						<label>WarfarinGothic</label>
-						<hair>AK_Hair_WarfarinGothic</hair>
-						<apparels>
-							<li>AK_Apparel_WarfarinGothic</li>
-							<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_WarfarinGothic</li>
-						</apparels>
-						<weapon>AK_Weapon_WarfarinGothic</weapon>
-					</value>
-				</li>
+				<li>AK_FashionSet_Warfarin_Gothic</li>
 			</value>
 		</match>
 	</Operation>

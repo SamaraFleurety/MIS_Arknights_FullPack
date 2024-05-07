@@ -54,7 +54,7 @@
             <EnergyShieldEnergyMax>3.0</EnergyShieldEnergyMax>
         </statBases>
         <graphicData>
-            <texPath>Shield/BloodWing</texPath>
+            <texPath>Shield/WarfarinGothicShield</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <comps>
@@ -73,9 +73,15 @@
                 <versionInfo>Blood Veil</versionInfo>
                 <alias>华法林的护盾</alias>
             </li>
-			<li Class="FS_WarfarinGothic.TCP_WarfarinGothicShield">
+			<li Class="AKE_VanyaShield.TCP_VanyaShieldExtension">
                 <hideVanillaBubble>true</hideVanillaBubble>
-			</li>
+                <bubbleStaticOverlay>
+                    <texPath>Shield/WarfarinGothicShield</texPath>
+                    <graphicClass>Graphic_Multi</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+					<drawOffsetNorth>(0,0,0)</drawOffsetNorth>
+                </bubbleStaticOverlay>
+            </li>
         </comps>
     </ThingDef>
 
