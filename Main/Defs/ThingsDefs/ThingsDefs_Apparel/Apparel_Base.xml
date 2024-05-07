@@ -135,8 +135,7 @@
 		<equippedStatOffsets>
 			<MeleeHitChance>4</MeleeHitChance>
 			<MeleeDodgeChance>2</MeleeDodgeChance>
-			<MoveSpeed>-0.5</MoveSpeed>
-			<WorkSpeedGlobal>-0.08</WorkSpeedGlobal>
+			<WorkSpeedGlobal>0.08</WorkSpeedGlobal>
 		</equippedStatOffsets>
 		<thingCategories Inherit="false">
 			<li>AK_Apparel_Defender</li>
@@ -199,7 +198,7 @@
 			<ShootingAccuracyPawn>0.2</ShootingAccuracyPawn>
 			<AimingDelayFactor>-0.25</AimingDelayFactor>
 			<MoveSpeed>0.2</MoveSpeed>
-			<WorkSpeedGlobal>0.8</WorkSpeedGlobal>
+			<WorkSpeedGlobal>0.08</WorkSpeedGlobal>
 		</equippedStatOffsets>
 	</ThingDef>
 

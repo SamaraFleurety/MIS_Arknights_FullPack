@@ -198,11 +198,11 @@
       <ShootingAccuracyPawn>30</ShootingAccuracyPawn>
     </equippedStatOffsets>
     <statBases>
-			<AccuracyTouch>1.15</AccuracyTouch>
-			<AccuracyShort>1.25</AccuracyShort>
-			<AccuracyMedium>1.1</AccuracyMedium>
-			<AccuracyLong>0.95</AccuracyLong>
-			<RangedWeapon_Cooldown>0.3</RangedWeapon_Cooldown>
+			<AccuracyTouch>0.85</AccuracyTouch>
+			<AccuracyShort>0.95</AccuracyShort>
+			<AccuracyMedium>0.8</AccuracyMedium>
+			<AccuracyLong>0.65</AccuracyLong>
+			<RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
 		</statBases>
 		<verbs>
 			<li>
@@ -210,7 +210,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>AK_Bullet_Nightingale</defaultProjectile>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
-				<warmupTime>3</warmupTime>				<!--前摇-->
+				<warmupTime>2.5</warmupTime>				<!--前摇-->
 				<range>25</range>
         <forcedMissRadius>1.9</forcedMissRadius>
 				<targetParams>
@@ -236,11 +236,11 @@
       <ShootingAccuracyPawn>30</ShootingAccuracyPawn>
     </equippedStatOffsets>
     <statBases>
-			<AccuracyTouch>1.15</AccuracyTouch>
-			<AccuracyShort>1.25</AccuracyShort>
-			<AccuracyMedium>1.1</AccuracyMedium>
-			<AccuracyLong>0.95</AccuracyLong>
-			<RangedWeapon_Cooldown>0.3</RangedWeapon_Cooldown>
+			<AccuracyTouch>0.85</AccuracyTouch>
+			<AccuracyShort>0.95</AccuracyShort>
+			<AccuracyMedium>0.8</AccuracyMedium>
+			<AccuracyLong>0.65</AccuracyLong>
+			<RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
 		</statBases>
 		<verbs>
 			<li>
@@ -248,7 +248,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>AK_Bullet_Nightingale</defaultProjectile>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
-				<warmupTime>3</warmupTime>				<!--前摇-->
+				<warmupTime>2.5</warmupTime>				<!--前摇-->
 				<range>25</range>
         <forcedMissRadius>1.9</forcedMissRadius>
 				<targetParams>
@@ -272,7 +272,7 @@
 		<thingClass>Projectile_Explosive</thingClass>
 		<projectile>
 			<damageDef>Stun</damageDef>
-			<damageAmountBase>4</damageAmountBase>
+			<damageAmountBase>0</damageAmountBase>
 			<stoppingPower>3</stoppingPower>
 			<speed>50</speed>
 			<soundExplode>ThumpCannon_Impact</soundExplode>

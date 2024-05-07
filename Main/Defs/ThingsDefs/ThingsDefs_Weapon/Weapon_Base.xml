@@ -153,6 +153,7 @@
 			<li>RangedLight</li>
 		</weaponClasses>
 	</ThingDef>
+
 	<ThingDef ParentName="BaseBullet">
 		<defName>AK_Bullet_Base</defName>
 		<label>子弹射击</label>
@@ -183,6 +184,7 @@
 			<li>RangedLight</li>
 		</weaponClasses>
 	</ThingDef>
+
 	<ThingDef Name="AK_BulletBase_Bow" Abstract="True">
 		<category>Projectile</category>
 		<tickerType>Normal</tickerType>
@@ -195,6 +197,7 @@
 			<shaderType>Transparent</shaderType>
 		</graphicData>
 	</ThingDef>
+
 	<ThingDef ParentName="AK_BulletBase_Bow">
 		<defName>AK_Arrow_Base</defName>
 		<label>Arrow</label>
@@ -226,6 +229,7 @@
 			<li>RangedLight</li>
 		</weaponClasses>
 	</ThingDef>
+	
 	<ThingDef ParentName="BaseBullet">
 		<defName>AK_MagicBullet_Base</defName>
 		<label>子弹射击</label>
@@ -251,6 +255,22 @@
 		<thingCategories Inherit="False">
 			<li>AK_Weapon_Vanguard</li>
 		</thingCategories>
+		<tools Inherit = "false">
+			<li>
+				<label>眩晕击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>0</power>
+				<cooldownTime>1</cooldownTime>
+				<extraMeleeDamages>
+          			<li>
+            			<def>Stun</def>
+            			<amount>0</amount>
+          			</li>
+        		</extraMeleeDamages>
+			</li>
+		</tools>
 	</ThingDef>
 
 	<ThingDef Name="AK_WeaponBase_Guard" ParentName="AK_WeaponBase_Melee" Abstract="True">
@@ -276,7 +296,7 @@
 			<li>AK_Weapon_Specialist</li>
 		</thingCategories>
 	</ThingDef>
-	<!-- FIXME ↓仅为了不红字占位，完善后删除-->
+
 	<ThingDef Name="AK_WeaponBase_Sniper" ParentName="AK_WeaponBase_Rifle" Abstract="True">
 		<thingCategories Inherit="False">
 			<li>AK_Weapon_Sniper</li>
