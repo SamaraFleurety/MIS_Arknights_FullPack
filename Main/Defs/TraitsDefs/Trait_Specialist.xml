@@ -200,11 +200,11 @@
 				<label>苍蓝星</label>
 				<description>在一切的磨难之后，自无数次从深渊中崛起。有过愧疚，有过遗憾，也有过伤感。我们也许会倒下，但绝不会退缩!指引前路的苍蓝星啊!请带领我们走向闪耀的明天!</description>
 				<statOffsets>
-					<IncomingDamageFactor>0.6</IncomingDamageFactor>
 					<MeleeHitChance>10</MeleeHitChance>
-					<WorkSpeedGlobal>0.35</WorkSpeedGlobal>
-					<MentalBreakThreshold>-0.1</MentalBreakThreshold>
 				</statOffsets>
+				<statFactors>
+					<IncomingDamageFactor>0.6</IncomingDamageFactor>
+				</statFactors>
 				<hungerRateFactor>1.5</hungerRateFactor>
 			</li>
 		</degreeDatas>
