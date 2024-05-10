@@ -17,8 +17,39 @@
 				<saveChance>0.67</saveChance>
 				<hediffStatsSet>
 					<li>
-						<hediff></hediff>
-						<randWeight>权重</randWeight>
+						<hediff>Alzheimers</hediff>
+						<randWeight>1</randWeight>
+						<part>Brain</part>
+					</li>
+					<li>
+						<hediff>Asthma</hediff>
+						<randWeight>20</randWeight>
+						<part>Lung</part>
+					</li>
+					<li>
+						<hediff>BadBack</hediff>
+						<randWeight>20</randWeight>
+						<part>Spine</part>
+					</li>
+					<li>
+						<hediff>Cataract</hediff>
+						<randWeight>20</randWeight>
+						<part>Eye</part>
+					</li>
+					<li>
+						<hediff>Dementia</hediff>
+						<randWeight>15</randWeight>
+						<part>Brain</part>
+					</li>
+					<li>
+						<hediff>HearingLoss</hediff>
+						<randWeight>20</randWeight>
+						<part>Ear</part>
+					</li>
+					<li>
+						<hediff>HeartArteryBlockage</hediff>
+						<randWeight>4</randWeight>
+						<part>Heart</part>
 					</li>
 				</hediffStatsSet>
 			</li>
