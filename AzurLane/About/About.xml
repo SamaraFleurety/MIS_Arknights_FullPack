@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>[MIS] - AzurLane</name>
+	<author>M.I.S. Group</author>
+	<supportedVersions>
+		<li>1.4</li>
+		<li>1.5</li>
+	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>MIS.Framework</packageId>
+			<displayName>M.I.S - Framework</displayName>
+			<downloadUrl>https://github.com/SamaraFleurety/Rimworld_Arknights</downloadUrl>
+		</li>
+		<li>
+			<packageId>MIS.Arknights</packageId>
+			<displayName>M.I.S - Arknights</displayName>
+			<downloadUrl>https://github.com/SamaraFleurety/Rimworld_Arknights</downloadUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>MIS.Framework</li>
+		<li>MIS.Arknights</li>
+	</loadAfter>
+	<description>
+MIS组的碧蓝航线DLC。
+	</description>
+	<packageId>MIS.AzurLane</packageId>
+</ModMetaData>

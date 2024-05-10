@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AK_DLL.OperatorSeriesDef>
+		<defName>AK_Series_AzurLane</defName>
+		<label>碧蓝航线</label>
+		<icon>UI/Element/AzurLane</icon>
+	</AK_DLL.OperatorSeriesDef>
+
+	<AK_DLL.OperatorClassDef Name="AK_OpClassAzurLane" Abstract="True">
+		<series>AK_Series_AzurLane</series>
+	</AK_DLL.OperatorClassDef>
+
+	<AK_DLL.OperatorClassDef ParentName="AK_OpClassAzurLane">
+		<defName>AK_OperatorClass_Aircraftcarrier</defName>
+		<label>Aircraftcarrier</label>
+		<sortingOrder>30</sortingOrder>
+		<textureFolder>Aircraftcarrier</textureFolder>
+		<iconPath>UI/Element/Aircraftcarrier</iconPath>
+	</AK_DLL.OperatorClassDef>
+
+	<AK_DLL.OperatorClassDef ParentName="AK_OpClassAzurLane">
+		<defName>AK_OperatorClass_Aviationbattleship</defName>
+		<label>Aviationbattleship</label>
+		<sortingOrder>31</sortingOrder>
+		<textureFolder>Aviationbattleship</textureFolder>
+		<iconPath>UI/Element/Aviationbattleship</iconPath>
+	</AK_DLL.OperatorClassDef>
+
+	<AK_DLL.OperatorClassDef ParentName="AK_OpClassAzurLane">
+		<defName>AK_OperatorClass_Battlecruiser</defName>
+		<label>Battlecruiser</label>
+		<sortingOrder>32</sortingOrder>
+		<textureFolder>Battlecruiser</textureFolder>
+		<iconPath>UI/Element/Battlecruiser</iconPath>
+	</AK_DLL.OperatorClassDef>
+
+	<AK_DLL.OperatorClassDef ParentName="AK_OpClassAzurLane">
+		<defName>AK_OperatorClass_Battleship</defName>
+		<label>Battleship</label>
+		<sortingOrder>33</sortingOrder>
+		<textureFolder>Battleship</textureFolder>
+		<iconPath>UI/Element/Battleship</iconPath>
+	</AK_DLL.OperatorClassDef>
+
+	<AK_DLL.OperatorClassDef ParentName="AK_OpClassAzurLane">
+		<defName>AK_OperatorClass_Destroyer</defName>
+		<label>Destroyer</label>
+		<sortingOrder>34</sortingOrder>
+		<textureFolder>Destroyer</textureFolder>
+		<iconPath>UI/Element/Destroyer</iconPath>
+	</AK_DLL.OperatorClassDef>
+
+	<AK_DLL.OperatorClassDef ParentName="AK_OpClassAzurLane">
+		<defName>AK_OperatorClass_Heavyartilleryship</defName>
+		<label>Heavyartilleryship</label>
+		<sortingOrder>35</sortingOrder>
+		<textureFolder>Heavyartilleryship</textureFolder>
+		<iconPath>UI/Element/Heavyartilleryship</iconPath>
+	</AK_DLL.OperatorClassDef>
+
+	<AK_DLL.OperatorClassDef ParentName="AK_OpClassAzurLane">
+		<defName>AK_OperatorClass_Heavycruiser</defName>
+		<label>Heavycruiser</label>
+		<sortingOrder>36</sortingOrder>
+		<textureFolder>Heavycruiser</textureFolder>
+		<iconPath>UI/Element/Heavycruiser</iconPath>
+	</AK_DLL.OperatorClassDef>
+
+	<AK_DLL.OperatorClassDef ParentName="AK_OpClassAzurLane">
+		<defName>AK_OperatorClass_Lightcarrier</defName>
+		<label>Lightcarrier</label>
+		<sortingOrder>37</sortingOrder>
+		<textureFolder>Lightcarrier</textureFolder>
+		<iconPath>UI/Element/Lightcarrier</iconPath>
+	</AK_DLL.OperatorClassDef>
+
+	<AK_DLL.OperatorClassDef ParentName="AK_OpClassAzurLane">
+		<defName>AK_OperatorClass_Lightcruiser</defName>
+		<label>Lightcruiser</label>
+		<sortingOrder>38</sortingOrder>
+		<textureFolder>Lightcruiser</textureFolder>
+		<iconPath>UI/Element/Lightcruiser</iconPath>
+	</AK_DLL.OperatorClassDef>
+
+	<AK_DLL.OperatorClassDef ParentName="AK_OpClassAzurLane">
+		<defName>AK_OperatorClass_Maintenanceship</defName>
+		<label>Maintenanceship</label>
+		<sortingOrder>39</sortingOrder>
+		<textureFolder>Maintenanceship</textureFolder>
+		<iconPath>UI/Element/Maintenanceship</iconPath>
+	</AK_DLL.OperatorClassDef>
+
+	<AK_DLL.OperatorClassDef ParentName="AK_OpClassAzurLane">
+		<defName>AK_OperatorClass_Sailingbattleship</defName>
+		<label>Sailingbattleship</label>
+		<sortingOrder>40</sortingOrder>
+		<textureFolder>Sailingbattleship</textureFolder>
+		<iconPath>UI/Element/Sailingbattleship</iconPath>
+	</AK_DLL.OperatorClassDef>
+
+	<AK_DLL.OperatorClassDef ParentName="AK_OpClassAzurLane">
+		<defName>AK_OperatorClass_Submarine</defName>
+		<label>Submarine</label>
+		<sortingOrder>41</sortingOrder>
+		<textureFolder>Submarine</textureFolder>
+		<iconPath>UI/Element/Submarine</iconPath>
+	</AK_DLL.OperatorClassDef>
+
+	<AK_DLL.OperatorClassDef ParentName="AK_OpClassAzurLane">
+		<defName>AK_OperatorClass_Submarinecarrier</defName>
+		<label>Submarinecarrier</label>
+		<sortingOrder>42</sortingOrder>
+		<textureFolder>Submarinecarrier</textureFolder>
+		<iconPath>UI/Element/Submarinecarrier</iconPath>
+	</AK_DLL.OperatorClassDef>
+
+	<AK_DLL.OperatorClassDef ParentName="AK_OpClassAzurLane">
+		<defName>AK_OperatorClass_Supercruiser</defName>
+		<label>Supercruiser</label>
+		<sortingOrder>43</sortingOrder>
+		<textureFolder>Supercruiser</textureFolder>
+		<iconPath>UI/Element/Supercruiser</iconPath>
+	</AK_DLL.OperatorClassDef>
+
+	<AK_DLL.OperatorClassDef ParentName="AK_OpClassAzurLane">
+		<defName>AK_OperatorClass_Transportship</defName>
+		<label>Transportship</label>
+		<sortingOrder>44</sortingOrder>
+		<textureFolder>Transportship</textureFolder>
+		<iconPath>UI/Element/Transportship</iconPath>
+	</AK_DLL.OperatorClassDef>
+
+</Defs>

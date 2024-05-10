@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- 武器 -->
+
+	<ThingCategoryDef>
+		<defName>AK_Weapon_AzurLane</defName>
+		<label>碧蓝航线武器</label>
+		<parent>AK_Weapon</parent>
+	</ThingCategoryDef>
+
+	<!-- 衣着 -->
+
+	<ThingCategoryDef>
+		<defName>AK_Apparel_AzurLane</defName>
+		<label>碧蓝航线衣着</label>
+		<parent>AK_Apparel</parent>
+	</ThingCategoryDef>
+
+</Defs>

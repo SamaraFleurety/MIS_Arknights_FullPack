@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="AK_WeaponBase_Aircraftcarrier" ParentName="AK_WeaponBase_Rifle" Abstract="True">
+		<thingCategories Inherit="false">
+		  <li>AK_Apparel_AzurLane</li>
+		</thingCategories>
+	  </ThingDef>
+	
+	  <ThingDef Name="AK_WeaponBase_Aviationbattleship" ParentName="AK_WeaponBase_Rifle" Abstract="True">
+		<thingCategories Inherit="false">
+		  <li>AK_Apparel_AzurLane</li>
+		</thingCategories>
+	  </ThingDef>
+	
+	  <ThingDef Name="AK_WeaponBase_Battlecruiser" ParentName="AK_WeaponBase_Rifle" Abstract="True">
+		<thingCategories Inherit="false">
+		  <li>AK_Apparel_AzurLane</li>
+		</thingCategories>
+	  </ThingDef>
+	
+	  <ThingDef Name="AK_WeaponBase_Battleship" ParentName="AK_WeaponBase_Rifle" Abstract="True">
+		<thingCategories Inherit="false">
+		  <li>AK_Apparel_AzurLane</li>
+		</thingCategories>
+	  </ThingDef>
+	
+	  <ThingDef Name="AK_WeaponBase_Destroyer" ParentName="AK_WeaponBase_Rifle" Abstract="True">
+		<thingCategories Inherit="false">
+		  <li>AK_Apparel_AzurLane</li>
+		</thingCategories>
+	  </ThingDef>
+	
+	  <ThingDef Name="AK_WeaponBase_Heavyartilleryship" ParentName="AK_WeaponBase_Rifle" Abstract="True">
+		<thingCategories Inherit="false">
+		  <li>AK_Apparel_AzurLane</li>
+		</thingCategories>
+	  </ThingDef>
+	
+	  <ThingDef Name="AK_WeaponBase_Heavycruiser" ParentName="AK_WeaponBase_Rifle" Abstract="True">
+		<thingCategories Inherit="false">
+		  <li>AK_Apparel_AzurLane</li>
+		</thingCategories>
+	  </ThingDef>
+	
+	  <ThingDef Name="AK_WeaponBase_Lightcarrier" ParentName="AK_WeaponBase_Rifle" Abstract="True">
+		<thingCategories Inherit="false">
+		  <li>AK_Apparel_AzurLane</li>
+		</thingCategories>
+	  </ThingDef>
+	
+	  <ThingDef Name="AK_WeaponBase_Lightcruiser" ParentName="AK_WeaponBase_Rifle" Abstract="True">
+		<thingCategories Inherit="false">
+		  <li>AK_Apparel_AzurLane</li>
+		</thingCategories>
+	  </ThingDef>
+	
+	  <ThingDef Name="AK_WeaponBase_Maintenanceship" ParentName="AK_WeaponBase_Rifle" Abstract="True">
+		<thingCategories Inherit="false">
+		  <li>AK_Apparel_AzurLane</li>
+		</thingCategories>
+	  </ThingDef>
+	
+	  <ThingDef Name="AK_WeaponBase_Sailingbattleship" ParentName="AK_WeaponBase_Rifle" Abstract="True">
+		<thingCategories Inherit="false">
+		  <li>AK_Apparel_AzurLane</li>
+		</thingCategories>
+	  </ThingDef>
+	
+	  <ThingDef Name="AK_WeaponBase_Submarine" ParentName="AK_WeaponBase_Rifle" Abstract="True">
+		<thingCategories Inherit="false">
+		  <li>AK_Apparel_AzurLane</li>
+		</thingCategories>
+	  </ThingDef>
+	
+	  <ThingDef Name="AK_WeaponBase_Submarinecarrier" ParentName="AK_WeaponBase_Rifle" Abstract="True">
+		<thingCategories Inherit="false">
+		  <li>AK_Apparel_AzurLane</li>
+		</thingCategories>
+	  </ThingDef>
+	
+	  <ThingDef Name="AK_WeaponBase_Supercruiser" ParentName="AK_WeaponBase_Rifle" Abstract="True">
+		<thingCategories Inherit="false">
+		  <li>AK_Apparel_AzurLane</li>
+		</thingCategories>
+	  </ThingDef>
+	
+	  <ThingDef Name="AK_WeaponBase_Transportship" ParentName="AK_WeaponBase_Rifle" Abstract="True">
+		<thingCategories Inherit="false">
+		  <li>AK_Apparel_AzurLane</li>
+		</thingCategories>
+	  </ThingDef>
+
+</Defs>

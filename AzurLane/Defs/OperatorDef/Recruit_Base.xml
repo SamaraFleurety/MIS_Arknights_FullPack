@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase" Name="AK_RecruitBase_Aircraftcarrier" Abstract="True">
+		<traits>
+			<li>
+				<def>AK_Trait_Agent_Aircraftcarrier</def>
+			</li>
+		</traits>
+		<operatorType>AK_OperatorClass_Aircraftcarrier</operatorType>
+		<accessory>
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Aircraftcarrier</li>
+		</accessory>
+	</AK_DLL.OperatorDef>
+
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase" Name="AK_RecruitBase_Aviationbattleship" Abstract="True">
+		<traits>
+			<li>
+				<def>AK_Trait_Agent_Aviationbattleship</def>
+			</li>
+		</traits>
+		<operatorType>AK_OperatorClass_Aviationbattleship</operatorType>
+		<accessory>
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Aviationbattleship</li>
+		</accessory>
+	</AK_DLL.OperatorDef>
+
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase" Name="AK_RecruitBase_Battlecruiser" Abstract="True">
+		<traits>
+			<li>
+				<def>AK_Trait_Agent_Battlecruiser</def>
+			</li>
+		</traits>
+		<operatorType>AK_OperatorClass_Battlecruiser</operatorType>
+		<accessory>
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Battlecruiser</li>
+		</accessory>
+	</AK_DLL.OperatorDef>
+
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase" Name="AK_RecruitBase_Battleship" Abstract="True">
+		<traits>
+			<li>
+				<def>AK_Trait_Agent_Battleship</def>
+			</li>
+		</traits>
+		<operatorType>AK_OperatorClass_Battleship</operatorType>
+		<accessory>
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Battleship</li>
+		</accessory>
+	</AK_DLL.OperatorDef>
+
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase" Name="AK_RecruitBase_Destroyer" Abstract="True">
+		<traits>
+			<li>
+				<def>AK_Trait_Agent_Destroyer</def>
+			</li>
+		</traits>
+		<operatorType>AK_OperatorClass_Destroyer</operatorType>
+		<accessory>
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Destroyer</li>
+		</accessory>
+	</AK_DLL.OperatorDef>
+
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase" Name="AK_RecruitBase_Heavyartilleryship" Abstract="True">
+		<traits>
+			<li>
+				<def>AK_Trait_Agent_Heavyartilleryship</def>
+			</li>
+		</traits>
+		<AKAbilities>
+			<li>AKA_Ability_BaseHeal</li>
+		</AKAbilities>
+		<operatorType>AK_OperatorClass_Heavyartilleryship</operatorType>
+		<accessory>
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Heavyartilleryship</li>
+		</accessory>
+	</AK_DLL.OperatorDef>
+
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase" Name="AK_RecruitBase_Heavycruiser" Abstract="True">
+		<traits>
+			<li>
+				<def>AK_Trait_Agent_Heavycruiser</def>
+			</li>
+		</traits>
+		<operatorType>AK_OperatorClass_Heavycruiser</operatorType>
+		<accessory>
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Heavycruiser</li>
+		</accessory>
+	</AK_DLL.OperatorDef>
+
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase" Name="AK_RecruitBase_Lightcarrier" Abstract="True">
+		<traits>
+			<li>
+				<def>AK_Trait_Agent_Lightcarrier</def>
+			</li>
+		</traits>
+		<operatorType>AK_OperatorClass_Lightcarrier</operatorType>
+		<accessory>
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Lightcarrier</li>
+		</accessory>
+	</AK_DLL.OperatorDef>
+
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase" Name="AK_RecruitBase_Lightcruiser" Abstract="True">
+		<traits>
+			<li>
+				<def>AK_Trait_Agent_Lightcruiser</def>
+			</li>
+		</traits>
+		<operatorType>AK_OperatorClass_Lightcruiser</operatorType>
+		<accessory>
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Lightcruiser</li>
+		</accessory>
+	</AK_DLL.OperatorDef>
+
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase" Name="AK_RecruitBase_Lightcruiser" Abstract="True">
+		<traits>
+			<li>
+				<def>AK_Trait_Agent_Maintenanceship</def>
+			</li>
+		</traits>
+		<operatorType>AK_OperatorClass_Maintenanceship</operatorType>
+		<accessory>
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Maintenanceship</li>
+		</accessory>
+	</AK_DLL.OperatorDef>
+
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase" Name="AK_RecruitBase_Sailingbattleship" Abstract="True">
+		<traits>
+			<li>
+				<def>AK_Trait_Agent_Sailingbattleship</def>
+			</li>
+		</traits>
+		<operatorType>AK_OperatorClass_Sailingbattleship</operatorType>
+		<accessory>
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Sailingbattleship</li>
+		</accessory>
+	</AK_DLL.OperatorDef>
+
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase" Name="AK_RecruitBase_Submarine" Abstract="True">
+		<traits>
+			<li>
+				<def>AK_Trait_Agent_Submarine</def>
+			</li>
+		</traits>
+		<operatorType>AK_OperatorClass_Submarine</operatorType>
+		<accessory>
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Submarine</li>
+		</accessory>
+	</AK_DLL.OperatorDef>
+
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase" Name="AK_RecruitBase_Submarinecarrier" Abstract="True">
+		<traits>
+			<li>
+				<def>AK_Trait_Agent_Submarinecarrier</def>
+			</li>
+		</traits>
+		<operatorType>AK_OperatorClass_Submarinecarrier</operatorType>
+		<accessory>
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Submarinecarrier</li>
+		</accessory>
+	</AK_DLL.OperatorDef>
+
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase" Name="AK_RecruitBase_Supercruiser" Abstract="True">
+		<traits>
+			<li>
+				<def>AK_Trait_Agent_Supercruiser</def>
+			</li>
+		</traits>
+		<operatorType>AK_OperatorClass_Supercruiser</operatorType>
+		<accessory>
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Supercruiser</li>
+		</accessory>
+	</AK_DLL.OperatorDef>
+
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase" Name="AK_RecruitBase_Transportship" Abstract="True">
+		<traits>
+			<li>
+				<def>AK_Trait_Agent_Transportship</def>
+			</li>
+		</traits>
+		<operatorType>AK_OperatorClass_Transportship</operatorType>
+		<accessory>
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Transportship</li>
+		</accessory>
+	</AK_DLL.OperatorDef>
+
+</Defs>
