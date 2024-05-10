@@ -792,6 +792,9 @@
                 </bubbleStaticOverlay>
                 <bubbleRotateTexPath>Things/ShieldBelt/ShieldBeltWisadelD</bubbleRotateTexPath>
             </li>
+			<li Class="AKE_VanyaShield.TCP_AddHediffWhileShieldActive">
+				<hediff>AK_Hediff_Camouflage</hediff>
+			</li>
         </comps>
     </ThingDef>
 

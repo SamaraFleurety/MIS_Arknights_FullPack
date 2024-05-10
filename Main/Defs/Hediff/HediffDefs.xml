@@ -1,127 +1,28 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<!--<HediffDef ParentName="ChronicDiseaseBase">
-		<defName>AK_TESTTT</defName>
-		<label>干员TTT</label>
-		<labelNoun>干员TTT</labelNoun>
-		<isBad>false</isBad>
-		<description>fixme</description>
-		<comps>
-			<li Class="AK_DLL.HCP_RandAddHediff">
-				<interval>100</interval>
-				<intervalUnit>tick</intervalUnit>
-				<hediffStatsSet>
-					<li>
-						<hediff>Cataract</hediff>
-						<part>Eye</part>
-						<randWeight>2</randWeight>
-						<randWorseMin>1</randWorseMin>
-						<randWorseMax>2</randWorseMax>
-					</li>
-					<li>
-						<hediff>HearingLoss</hediff>
-						<part>Ear</part>
-						<randWeight>10</randWeight>
-						<randWorseMin>1</randWorseMin>
-						<randWorseMax>2</randWorseMax>
-					</li>
-				</hediffStatsSet>
-			</li>
-			<li Class="HediffCompProperties_SeverityPerDay">
-				<severityPerDay>0.1</severityPerDay>
-			</li>
-		</comps>
-	</HediffDef>-->
 	<HediffDef ParentName="ChronicDiseaseBase">
-		<defName>AK_Hediff_DoctorScenario</defName>
-		<label>博士</label>
-		<labelNoun>博士</labelNoun>
+		<defName>AK_Hediff_Personal_Kaltsit</defName>
+		<label>老猞猁</label>
+		<labelNoun>老猞猁</labelNoun>
 		<isBad>false</isBad>
-		<description>博士</description>
+		<description>老猞猁desc</description>
 		<scenarioCanAdd>true</scenarioCanAdd>
 		<removeOnRedressChanceByDaysCurve Inherit = "false">
 		</removeOnRedressChanceByDaysCurve>
 		<comps>
-			<li Class="AK_DLL.HCP_AddTrait">
-				<traits>
+			<li Class="AKE_OperatorExtension.HCP_RandAddHediff">
+				<interval>10</interval>
+				<intervalUnit>day</intervalUnit>
+				<saveChance>0.67</saveChance>
+				<hediffStatsSet>
 					<li>
-						<def>AK_Trait_Agent_Doc</def>
+						<hediff></hediff>
+						<randWeight>权重</randWeight>
 					</li>
-				</traits>
+				</hediffStatsSet>
 			</li>
 		</comps>
 	</HediffDef>
 
-	<!-- 专属 -->
-
-	<HediffDef ParentName="ChronicDiseaseBase">
-		<defName>AK_Disease_Personal_Frostnova</defName>
-		<label>永冻症</label>
-		<labelNoun>永冻症</labelNoun>
-		<description>一种永远不能被治愈的疾病....</description>
-		<stages>
-			<li>
-				<statOffsets>
-					<PainShockThreshold>-0.25</PainShockThreshold>
-					<MoveSpeed>-1.0</MoveSpeed>
-					<ComfyTemperatureMax>-10</ComfyTemperatureMax>
-				</statOffsets>
-			</li>
-		</stages>
-	</HediffDef>
-
-	<HediffDef ParentName="ChronicDiseaseBase">
-		<defName>AK_Disease_Personal_Patriot</defName>
-		<label>种族性感染</label>
-		<labelNoun>种族性感染</labelNoun>
-		<description>温迪戈的身体本就拥有极强的新陈代谢和修复能力，令人望而生畏变异。</description>
-		<stages>
-			<li>
-				<statOffsets>
-					<PainShockThreshold>2.0</PainShockThreshold>
-					<MoveSpeed>-0.10</MoveSpeed>
-					<ArmorRating_Sharp>0.20</ArmorRating_Sharp>
-					<ArmorRating_Blunt>0.20</ArmorRating_Blunt>
-					<ArmorRating_Heat>0.20</ArmorRating_Heat>
-				</statOffsets>
-			</li>
-		</stages>
-	</HediffDef>
-	<!-- FIXME:名字；降低意识 -->
-	<HediffDef ParentName="ChronicDiseaseBase">
-		<defName>AK_Disease_Personal_PossessedSoldier</defName>
-		<label>源石增生</label>
-		<labelNoun>源石增生</labelNoun>
-		<description>不会感知到疼痛，能够慢速自愈，增强肉体强度，但是大幅度降低意识。</description>
-		<stages>
-			<li>
-				<painFactor>0.0</painFactor>
-				<statOffsets>
-					<MoveSpeed>0.50</MoveSpeed>
-					<ArmorRating_Sharp>0.30</ArmorRating_Sharp>
-					<ArmorRating_Blunt>0.30</ArmorRating_Blunt>
-					<ArmorRating_Heat>0.30</ArmorRating_Heat>
-				</statOffsets>
-			</li>
-		</stages>
-	</HediffDef>
-
-	<HediffDef ParentName="ChronicDiseaseBase">
-		<defName>AK_Disease_Personal_EnragedPossessedSoldier</defName>
-		<label>源石侵蚀</label>
-		<labelNoun>源石侵蚀</labelNoun>
-		<description>不会感知到疼痛，大幅度增加肉体强度和移动速度</description>
-		<stages>
-			<li>
-				<painFactor>0.0</painFactor>
-				<statOffsets>
-					<MoveSpeed>0.70</MoveSpeed>
-					<ArmorRating_Sharp>0.50</ArmorRating_Sharp>
-					<ArmorRating_Blunt>0.50</ArmorRating_Blunt>
-					<ArmorRating_Heat>0.50</ArmorRating_Heat>
-				</statOffsets>
-			</li>
-		</stages>
-	</HediffDef>
 </Defs>

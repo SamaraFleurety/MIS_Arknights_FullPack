@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<HediffDef ParentName="ChronicDiseaseBase">
+		<defName>AK_Hediff_DoctorScenario</defName>
+		<label>博士</label>
+		<labelNoun>博士</labelNoun>
+		<isBad>false</isBad>
+		<description>博士</description>
+		<scenarioCanAdd>true</scenarioCanAdd>
+		<removeOnRedressChanceByDaysCurve Inherit = "false">
+		</removeOnRedressChanceByDaysCurve>
+		<comps>
+			<li Class="AK_DLL.HCP_AddTrait">
+				<traits>
+					<li>
+						<def>AK_Trait_Agent_Doc</def>
+					</li>
+				</traits>
+			</li>
+		</comps>
+	</HediffDef>
+
+	<HediffDef>
+		<defName>AK_Hediff_Camouflage</defName>
+		<label>迷彩</label>
+		<hediffClass>HediffWithComps</hediffClass>
+		<description>迷彩desc</description>
+		<isBad>false</isBad>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_Invisibility">
+				<visibleToPlayer>true</visibleToPlayer>
+			</li>
+			<li Class="HediffCompProperties_DisappearsOnDeath"/>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-24</severityPerDay>
+			</li>
+		</comps>
+	</HediffDef>
+
+</Defs>
