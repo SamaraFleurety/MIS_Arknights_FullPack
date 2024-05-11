@@ -7,4 +7,20 @@
         <shuffleable>False</shuffleable>
     </BackstoryDef>
 
+    <BackstoryDef ParentName="BA_StoryBase">
+        <defName>BA_BackStory_Unknown_Child</defName>
+        <slot>Childhood</slot>
+        <title>不明</title>
+        <titleShort>不明</titleShort>
+        <baseDesc>履历缺失</baseDesc>
+    </BackstoryDef>
+
+    <BackstoryDef ParentName="BA_StoryBase">
+        <defName>BA_BackStory_Unknown_Adult</defName>
+        <slot>Adulthood</slot>
+        <title>不明</title>
+        <titleShort>不明</titleShort>
+        <baseDesc>履历缺失</baseDesc>
+    </BackstoryDef>
+
 </Defs>

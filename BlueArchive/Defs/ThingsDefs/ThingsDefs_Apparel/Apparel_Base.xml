@@ -20,7 +20,7 @@
 			<ArmorRating_Sharp>1.00</ArmorRating_Sharp>
 			<ArmorRating_Blunt>0.36</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.27</ArmorRating_Heat>
-			<AK_ArmorRating_Magic>0.27</AK_ArmorRating_Magic>
+			<BA_ArmorRating_Magic>0.27</BA_ArmorRating_Magic>
 			<Insulation_Cold>1</Insulation_Cold>
 			<EquipDelay>5</EquipDelay>
 		</statBases>
@@ -65,31 +65,31 @@
 
   <ThingDef Name="BA_ArmorBase_Abydos" ParentName="BA_ArmorBase" Abstract="True">
     <thingCategories Inherit="false">
-      <li>BA_Apparel_BlueArchive</li>
+      <li>BA_Apparel</li>
     </thingCategories>
   </ThingDef>
 
   <ThingDef Name="BA_ArmorBase_Millennium" ParentName="BA_ArmorBase" Abstract="True">
     <thingCategories Inherit="false">
-      <li>BA_Apparel_BlueArchive</li>
+      <li>BA_Apparel</li>
     </thingCategories>
   </ThingDef>
 
   <ThingDef Name="BA_ArmorBase_Hyakkiyako" ParentName="BA_ArmorBase" Abstract="True">
     <thingCategories Inherit="false">
-      <li>BA_Apparel_BlueArchive</li>
+      <li>BA_Apparel</li>
     </thingCategories>
   </ThingDef>
 
   <ThingDef Name="BA_ArmorBase_SRT" ParentName="BA_ArmorBase" Abstract="True">
     <thingCategories Inherit="false">
-      <li>BA_Apparel_BlueArchive</li>
+      <li>BA_Apparel</li>
     </thingCategories>
   </ThingDef>
 
   <ThingDef Name="BA_ArmorBase_Trinity" ParentName="BA_ArmorBase" Abstract="True">
     <thingCategories Inherit="false">
-      <li>BA_Apparel_BlueArchive</li>
+      <li>BA_Apparel</li>
     </thingCategories>
   </ThingDef>
 

@@ -7,4 +7,29 @@
         <shuffleable>False</shuffleable>
     </BackstoryDef>
 
+    <BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Unknown_Child</defName>
+		<slot>Childhood</slot>
+		<title>不明</title>
+		<titleShort>不明</titleShort>
+		<baseDesc>履历缺失</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Unknown_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>不明</title>
+		<titleShort>不明</titleShort>
+		<baseDesc>履历缺失</baseDesc>
+	</BackstoryDef>
+
+    <BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_UrsusStudent</defName>
+		<slot>Childhood</slot>
+		<title>乌萨斯学生自治团团员</title>
+		<titleShort>团员</titleShort>
+		<baseDesc>同乌萨斯学生自治团其他团员一样，{PAWN_nameDef}原本是就读于彼得海姆的普通学生，但{PAWN_pronoun}们原本可以被称为平静的生活因为切尔诺伯格发生的灾难戛然而止了。</baseDesc>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+	</BackstoryDef>
+
 </Defs>

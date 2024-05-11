@@ -3,17 +3,22 @@
 	<!-- 武器 -->
 
 	<ThingCategoryDef>
-		<defName>BA_Weapon_BlueArchive</defName>
+		<defName>BA_Weapon</defName>
 		<label>碧蓝档案武器</label>
-		<parent>BA_Weapon</parent>
+		<parent>Weapons</parent>
 	</ThingCategoryDef>
 
 	<!-- 衣着 -->
 
 	<ThingCategoryDef>
-		<defName>BA_Apparel_BlueArchive</defName>
+		<defName>BA_Apparel</defName>
 		<label>碧蓝档案衣着</label>
-		<parent>BA_Apparel</parent>
+		<parent>Apparel</parent>
 	</ThingCategoryDef>
+
+	<StyleItemCategoryDef>
+		<defName>BA_Agents</defName>
+		<label>碧蓝档案</label>
+	</StyleItemCategoryDef>
 
 </Defs>

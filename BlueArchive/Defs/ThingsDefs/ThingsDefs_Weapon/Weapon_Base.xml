@@ -50,33 +50,125 @@
 		</tools>
 	</ThingDef>
 
+	<ThingDef Name="BA_WeaponBase_Ranged" ParentName="BA_WeaponBase" Abstract="True">
+		<weaponClasses>
+			<li>Ranged</li>
+		</weaponClasses>
+		<inspectorTabs>
+			<li>ITab_Art</li>
+		</inspectorTabs>
+	</ThingDef>
+
+	<ThingDef Name="BA_WeaponBase_Rifle" ParentName="BA_WeaponBase_Ranged" Abstract="True">
+		<soundInteract>Interact_ChargeRifle</soundInteract>
+		<statBases>
+			<Mass>4.6</Mass>
+			<AccuracyTouch>0.55</AccuracyTouch>
+			<AccuracyShort>0.64</AccuracyShort>
+			<AccuracyMedium>0.55</AccuracyMedium>
+			<AccuracyLong>0.45</AccuracyLong>
+			<RangedWeapon_Cooldown>2.00</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponClasses>
+			<li>RangedLight</li>
+		</weaponClasses>
+	</ThingDef>
+
+	<ThingDef Name="BA_BulletBase_Bow" Abstract="True">
+		<category>Projectile</category>
+		<tickerType>Normal</tickerType>
+		<altitudeLayer>Projectile</altitudeLayer>
+		<thingClass>Bullet</thingClass>
+		<label>arrow</label>
+		<useHitPoints>False</useHitPoints>
+		<neverMultiSelect>True</neverMultiSelect>
+		<graphicData>
+			<shaderType>Transparent</shaderType>
+		</graphicData>
+	</ThingDef>
+
+	<SoundDef Name="BA_SoundBase" Abstract="True">
+		<defName>BA_SoundBase</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>3</maxSimultaneous>
+		<sustain>False</sustain>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Weapon/ChargeRifle</clipPath>
+					</li>
+				</grains>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName="BA_SoundBase">
+		<defName>BA_Sound_Weapon_GeneralPistol</defName>
+		<subSounds Inherit="False">
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/GeneralSFX/p_atk_pistol_n</clipPath>
+					</li>
+				</grains>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName="BA_SoundBase">
+		<defName>BA_Sound_Weapon_GeneralArrow</defName>
+		<subSounds Inherit="False">
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/GeneralSFX/p_atk_arrow_n</clipPath>
+					</li>
+				</grains>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName="BA_SoundBase">
+		<defName>BA_Sound_Weapon_GeneralGrenade</defName>
+		<subSounds Inherit="False">
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/GeneralSFX/b_char_atkboost</clipPath>
+					</li>
+				</grains>
+			</li>
+		</subSounds>
+	</SoundDef>
+
 	<ThingDef Name="BA_WeaponBase_Abydos" ParentName="BA_WeaponBase_Rifle" Abstract="True">
 		<thingCategories Inherit="False">
-			<li>BA_Weapon_BlueArchive</li>
+			<li>BA_Weapon</li>
 		</thingCategories>
 	</ThingDef>
 
 	<ThingDef Name="BA_WeaponBase_Millennium" ParentName="BA_WeaponBase_Rifle" Abstract="True">
 		<thingCategories Inherit="False">
-			<li>BA_Weapon_BlueArchive</li>
+			<li>BA_Weapon</li>
 		</thingCategories>
 	</ThingDef>
 
 	<ThingDef Name="BA_WeaponBase_Hyakkiyako" ParentName="BA_WeaponBase_Rifle" Abstract="True">
 		<thingCategories Inherit="False">
-			<li>BA_Weapon_BlueArchive</li>
+			<li>BA_Weapon</li>
 		</thingCategories>
 	</ThingDef>
 
 	<ThingDef Name="BA_WeaponBase_SRT" ParentName="BA_WeaponBase_Rifle" Abstract="True">
 		<thingCategories Inherit="False">
-			<li>BA_Weapon_BlueArchive</li>
+			<li>BA_Weapon</li>
 		</thingCategories>
 	</ThingDef>
 
 	<ThingDef Name="BA_WeaponBase_Trinity" ParentName="BA_WeaponBase_Rifle" Abstract="True">
 		<thingCategories Inherit="False">
-			<li>BA_Weapon_BlueArchive</li>
+			<li>BA_Weapon</li>
 		</thingCategories>
 	</ThingDef>
 
