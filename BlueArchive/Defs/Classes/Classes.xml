@@ -8,7 +8,7 @@
 	</AK_DLL.OperatorSeriesDef>
 
 	<AK_DLL.OperatorClassDef Name="BA_OpClassBlueArchive" Abstract="True">
-		<series>AK_Series_BlueArchive</series>
+		<series>BA_Series_BlueArchive</series>
 	</AK_DLL.OperatorClassDef>
 
 	<AK_DLL.OperatorClassDef ParentName="BA_OpClassBlueArchive">

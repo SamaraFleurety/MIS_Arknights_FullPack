@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<ThingDef ParentName="AK_WeaponBase_Millennium">
-		<defName>AK_Weapon_AsunaA</defName>
+	<ThingDef ParentName="BA_WeaponBase_Millennium">
+		<defName>BA_Weapon_AsunaA</defName>
 		<label>惊喜派对</label>
 		<graphicData>
 			<texPath>Things/BA_Students/Weapon/Millennium/AsunaW</texPath>
@@ -21,7 +21,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>AK_Bullet_Asuna</defaultProjectile>
+				<defaultProjectile>BA_Bullet_Asuna</defaultProjectile>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
 				<warmupTime>2.0</warmupTime>
 				<!--前摇-->
@@ -29,13 +29,13 @@
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
-				<soundCast>AK_Sound_Weapon_GeneralPistol</soundCast>
+				<soundCast>BA_Sound_Weapon_GeneralPistol</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 				<noiseRadius>3</noiseRadius>
 			</li>
 		</verbs>
-		<tools Inherit = "false">
+		<tools Inherit="false">
 			<li>
 				<label>枪托猛砸</label>
 				<capacities>
@@ -55,8 +55,8 @@
 		</tools>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_BulletBase_Bow">
-		<defName>AK_Bullet_Asuna</defName>
+	<ThingDef ParentName="BA_BulletBase_Bow">
+		<defName>BA_Bullet_Asuna</defName>
 		<label>短点射击</label>
 		<graphicData>
 			<texPath>Things/Projectile/Bullet</texPath>
@@ -75,8 +75,8 @@
 		</projectile>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_WeaponBase_Millennium">
-		<defName>AK_Weapon_AsunaB</defName>
+	<ThingDef ParentName="BA_WeaponBase_Millennium">
+		<defName>BA_Weapon_AsunaB</defName>
 		<label>明日奈的炸弹</label>
 		<graphicData>
 			<texPath>Things/BA_Students/Weapon/Millennium/AsunaW2</texPath>
@@ -85,8 +85,8 @@
 		<description>明日奈的炸弹。</description>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_WeaponBase_Millennium">
-		<defName>AK_Weapon_Karin</defName>
+	<ThingDef ParentName="BA_WeaponBase_Millennium">
+		<defName>BA_Weapon_Karin</defName>
 		<label>鹰眼</label>
 		<graphicData>
 			<texPath>Things/BA_Students/Weapon/Millennium/KarinW</texPath>
@@ -105,7 +105,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>AK_Bullet_Karin</defaultProjectile>
+				<defaultProjectile>BA_Bullet_Karin</defaultProjectile>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
 				<warmupTime>2.8</warmupTime>
 				<!--前摇-->
@@ -113,13 +113,13 @@
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
-				<soundCast>AK_Sound_Weapon_GeneralPistol</soundCast>
+				<soundCast>BA_Sound_Weapon_GeneralPistol</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 				<noiseRadius>3</noiseRadius>
 			</li>
 		</verbs>
-		<tools Inherit = "false">
+		<tools Inherit="false">
 			<li>
 				<label>枪托猛砸</label>
 				<capacities>
@@ -139,8 +139,8 @@
 		</tools>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_BulletBase_Bow">
-		<defName>AK_Bullet_Karin</defName>
+	<ThingDef ParentName="BA_BulletBase_Bow">
+		<defName>BA_Bullet_Karin</defName>
 		<label>瞄准射击</label>
 		<graphicData>
 			<texPath>Things/Projectile/Bullet</texPath>
@@ -159,8 +159,8 @@
 		</projectile>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_WeaponBase_Millennium">
-		<defName>AK_Weapon_AkaneA</defName>
+	<ThingDef ParentName="BA_WeaponBase_Millennium">
+		<defName>BA_Weapon_AkaneA</defName>
 		<label>无声解决</label>
 		<graphicData>
 			<texPath>Things/BA_Students/Weapon/Millennium/AkaneW</texPath>
@@ -179,7 +179,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>AK_Bullet_Akane</defaultProjectile>
+				<defaultProjectile>BA_Bullet_Akane</defaultProjectile>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
 				<warmupTime>1.4</warmupTime>
 				<!--前摇-->
@@ -187,13 +187,13 @@
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
-				<soundCast>AK_Sound_Weapon_GeneralPistol</soundCast>
+				<soundCast>BA_Sound_Weapon_GeneralPistol</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 				<noiseRadius>3</noiseRadius>
 			</li>
 		</verbs>
-		<tools Inherit = "false">
+		<tools Inherit="false">
 			<li>
 				<label>枪托猛砸</label>
 				<capacities>
@@ -213,8 +213,8 @@
 		</tools>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_BulletBase_Bow">
-		<defName>AK_Bullet_Akane</defName>
+	<ThingDef ParentName="BA_BulletBase_Bow">
+		<defName>BA_Bullet_Akane</defName>
 		<label>射击</label>
 		<graphicData>
 			<texPath>Things/Projectile/Bullet</texPath>
@@ -233,8 +233,8 @@
 		</projectile>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_WeaponBase_Millennium">
-		<defName>AK_Weapon_AkaneB</defName>
+	<ThingDef ParentName="BA_WeaponBase_Millennium">
+		<defName>BA_Weapon_AkaneB</defName>
 		<label>吵死人的解决（引爆器）</label>
 		<graphicData>
 			<texPath>Things/BA_Students/Weapon/Millennium/AkaneW2</texPath>
@@ -243,8 +243,8 @@
 		<description>吵死人的解决的引爆器。</description>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_WeaponBase_Millennium">
-		<defName>AK_Weapon_AkaneC</defName>
+	<ThingDef ParentName="BA_WeaponBase_Millennium">
+		<defName>BA_Weapon_AkaneC</defName>
 		<label>吵死人的解决</label>
 		<graphicData>
 			<texPath>Things/BA_Students/Weapon/Millennium/AkaneW3</texPath>
@@ -253,8 +253,8 @@
 		<description>朱音更偏向的解决方案，用爆炸清扫一切，高效又轻松。</description>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_WeaponBase_Millennium">
-		<defName>AK_Weapon_TokiA</defName>
+	<ThingDef ParentName="BA_WeaponBase_Millennium">
+		<defName>BA_Weapon_TokiA</defName>
 		<label>秘密时间</label>
 		<graphicData>
 			<texPath>Things/BA_Students/Weapon/Millennium/TokiW</texPath>
@@ -273,7 +273,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>AK_Bullet_Toki</defaultProjectile>
+				<defaultProjectile>BA_Bullet_Toki</defaultProjectile>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
 				<warmupTime>2</warmupTime>
 				<!--前摇-->
@@ -281,13 +281,13 @@
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
-				<soundCast>AK_Sound_Weapon_GeneralPistol</soundCast>
+				<soundCast>BA_Sound_Weapon_GeneralPistol</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 				<noiseRadius>3</noiseRadius>
 			</li>
 		</verbs>
-		<tools Inherit = "false">
+		<tools Inherit="false">
 			<li>
 				<label>机械臂轰击</label>
 				<capacities>
@@ -310,8 +310,8 @@
 		</tools>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_BulletBase_Bow">
-		<defName>AK_Bullet_Toki</defName>
+	<ThingDef ParentName="BA_BulletBase_Bow">
+		<defName>BA_Bullet_Toki</defName>
 		<label>短点射击</label>
 		<graphicData>
 			<texPath>Things/Projectile/Bullet</texPath>
@@ -330,8 +330,8 @@
 		</projectile>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_WeaponBase_Millennium">
-		<defName>AK_Weapon_TokiB</defName>
+	<ThingDef ParentName="BA_WeaponBase_Millennium">
+		<defName>BA_Weapon_TokiB</defName>
 		<label>阿比舒·B</label>
 		<graphicData>
 			<texPath>Things/BA_Students/Weapon/Millennium/TokiW2</texPath>
@@ -340,8 +340,8 @@
 		<description>隐藏在手提箱中的火箭装甲拳套，可以一拳揍飞敌人或者发射火箭把敌人炸上天。</description>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_WeaponBase_Millennium">
-		<defName>AK_Weapon_Neru</defName>
+	<ThingDef ParentName="BA_WeaponBase_Millennium">
+		<defName>BA_Weapon_Neru</defName>
 		<label>双龙</label>
 		<graphicData>
 			<texPath>Things/BA_Students/Weapon/Millennium/NeruW</texPath>
@@ -360,7 +360,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>AK_Bullet_Neru</defaultProjectile>
+				<defaultProjectile>BA_Bullet_Neru</defaultProjectile>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
 				<warmupTime>2.2</warmupTime>
 				<!--前摇-->
@@ -368,13 +368,13 @@
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
-				<soundCast>AK_Sound_Weapon_GeneralPistol</soundCast>
+				<soundCast>BA_Sound_Weapon_GeneralPistol</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 				<noiseRadius>3</noiseRadius>
 			</li>
 		</verbs>
-		<tools Inherit = "false">
+		<tools Inherit="false">
 			<li>
 				<label>枪托猛砸</label>
 				<capacities>
@@ -402,8 +402,8 @@
 		</tools>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_BulletBase_Bow">
-		<defName>AK_Bullet_Neru</defName>
+	<ThingDef ParentName="BA_BulletBase_Bow">
+		<defName>BA_Bullet_Neru</defName>
 		<label>冲锋射击</label>
 		<graphicData>
 			<texPath>Things/Projectile/Bullet</texPath>
@@ -422,8 +422,8 @@
 		</projectile>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_WeaponBase_Millennium">
-		<defName>AK_Weapon_Aris</defName>
+	<ThingDef ParentName="BA_WeaponBase_Millennium">
+		<defName>BA_Weapon_Aris</defName>
 		<label>光之剑：超新星</label>
 		<graphicData>
 			<texPath>Things/BA_Students/Weapon/Millennium/ArisW</texPath>
@@ -442,7 +442,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>AK_Bullet_Aris</defaultProjectile>
+				<defaultProjectile>BA_Bullet_Aris</defaultProjectile>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
 				<warmupTime>4.7</warmupTime>
 				<!--前摇-->
@@ -450,13 +450,13 @@
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
-				<soundCast>AK_Sound_Weapon_GeneralPistol</soundCast>
+				<soundCast>BA_Sound_Weapon_GeneralPistol</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 				<noiseRadius>3</noiseRadius>
 			</li>
 		</verbs>
-		<tools Inherit = "false">
+		<tools Inherit="false">
 			<li>
 				<label>炮管撞击</label>
 				<capacities>
@@ -468,8 +468,8 @@
 		</tools>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_BulletBase_Bow">
-		<defName>AK_Bullet_Aris</defName>
+	<ThingDef ParentName="BA_BulletBase_Bow">
+		<defName>BA_Bullet_Aris</defName>
 		<label>光啊！</label>
 		<graphicData>
 			<texPath>Things/Projectile/Bullet</texPath>
@@ -494,8 +494,8 @@
 		</projectile>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_WeaponBase_Millennium">
-		<defName>AK_Weapon_Yuzu</defName>
+	<ThingDef ParentName="BA_WeaponBase_Millennium">
+		<defName>BA_Weapon_Yuzu</defName>
 		<label>喵冲</label>
 		<graphicData>
 			<texPath>Things/BA_Students/Weapon/Millennium/YuzuW</texPath>
@@ -514,7 +514,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>AK_Bullet_Yuzu</defaultProjectile>
+				<defaultProjectile>BA_Bullet_Yuzu</defaultProjectile>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
 				<warmupTime>2.6</warmupTime>
 				<!--前摇-->
@@ -522,13 +522,13 @@
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
-				<soundCast>AK_Sound_Weapon_GeneralPistol</soundCast>
+				<soundCast>BA_Sound_Weapon_GeneralPistol</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 				<noiseRadius>3</noiseRadius>
 			</li>
 		</verbs>
-		<tools Inherit = "false">
+		<tools Inherit="false">
 			<li>
 				<label>枪托猛砸</label>
 				<capacities>
@@ -548,8 +548,8 @@
 		</tools>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_BulletBase_Bow">
-		<defName>AK_Bullet_Yuzu</defName>
+	<ThingDef ParentName="BA_BulletBase_Bow">
+		<defName>BA_Bullet_Yuzu</defName>
 		<label>榴弹射击</label>
 		<graphicData>
 			<texPath>Things/Projectile/Bullet</texPath>
@@ -575,8 +575,8 @@
 	</ThingDef>
 
 
-	<ThingDef ParentName="AK_WeaponBase_Millennium">
-		<defName>AK_Weapon_Momoi</defName>
+	<ThingDef ParentName="BA_WeaponBase_Millennium">
+		<defName>BA_Weapon_Momoi</defName>
 		<label>独特点子</label>
 		<graphicData>
 			<texPath>Things/BA_Students/Weapon/Millennium/MomoiW</texPath>
@@ -595,7 +595,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>AK_Bullet_Momoi</defaultProjectile>
+				<defaultProjectile>BA_Bullet_Momoi</defaultProjectile>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
 				<warmupTime>2</warmupTime>
 				<!--前摇-->
@@ -603,13 +603,13 @@
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
-				<soundCast>AK_Sound_Weapon_GeneralPistol</soundCast>
+				<soundCast>BA_Sound_Weapon_GeneralPistol</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 				<noiseRadius>3</noiseRadius>
 			</li>
 		</verbs>
-		<tools Inherit = "false">
+		<tools Inherit="false">
 			<li>
 				<label>枪托猛砸</label>
 				<capacities>
@@ -629,8 +629,8 @@
 		</tools>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_BulletBase_Bow">
-		<defName>AK_Bullet_Momoi</defName>
+	<ThingDef ParentName="BA_BulletBase_Bow">
+		<defName>BA_Bullet_Momoi</defName>
 		<label>短点射击</label>
 		<graphicData>
 			<texPath>Things/Projectile/Bullet</texPath>
@@ -649,8 +649,8 @@
 		</projectile>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_WeaponBase_Millennium">
-		<defName>AK_Weapon_Midori</defName>
+	<ThingDef ParentName="BA_WeaponBase_Millennium">
+		<defName>BA_Weapon_Midori</defName>
 		<label>清爽灵感</label>
 		<graphicData>
 			<texPath>Things/BA_Students/Weapon/Millennium/MidoriW</texPath>
@@ -669,7 +669,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>AK_Bullet_Midori</defaultProjectile>
+				<defaultProjectile>BA_Bullet_Midori</defaultProjectile>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
 				<warmupTime>2.5</warmupTime>
 				<!--前摇-->
@@ -677,13 +677,13 @@
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
-				<soundCast>AK_Sound_Weapon_GeneralPistol</soundCast>
+				<soundCast>BA_Sound_Weapon_GeneralPistol</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 				<noiseRadius>3</noiseRadius>
 			</li>
 		</verbs>
-		<tools Inherit = "false">
+		<tools Inherit="false">
 			<li>
 				<label>枪托猛砸</label>
 				<capacities>
@@ -703,8 +703,8 @@
 		</tools>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_BulletBase_Bow">
-		<defName>AK_Bullet_Midori</defName>
+	<ThingDef ParentName="BA_BulletBase_Bow">
+		<defName>BA_Bullet_Midori</defName>
 		<label>瞄准射击</label>
 		<graphicData>
 			<texPath>Things/Projectile/Bullet</texPath>
@@ -723,8 +723,8 @@
 		</projectile>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_WeaponBase_Millennium">
-		<defName>AK_Weapon_Hibiki</defName>
+	<ThingDef ParentName="BA_WeaponBase_Millennium">
+		<defName>BA_Weapon_Hibiki</defName>
 		<label>Fancy Light</label>
 		<graphicData>
 			<texPath>Things/BA_Students/Weapon/Millennium/HibikiW</texPath>
@@ -743,7 +743,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>AK_Bullet_Hibiki</defaultProjectile>
+				<defaultProjectile>BA_Bullet_Hibiki</defaultProjectile>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
 				<warmupTime>3.9</warmupTime>
 				<!--前摇-->
@@ -751,13 +751,13 @@
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
-				<soundCast>AK_Sound_Weapon_GeneralGrenade</soundCast>
+				<soundCast>BA_Sound_Weapon_GeneralGrenade</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 				<noiseRadius>3</noiseRadius>
 			</li>
 		</verbs>
-		<tools Inherit = "false">
+		<tools Inherit="false">
 			<li>
 				<label>炮管猛砸</label>
 				<capacities>
@@ -769,8 +769,8 @@
 		</tools>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_BulletBase_Bow">
-		<defName>AK_Bullet_Hibiki</defName>
+	<ThingDef ParentName="BA_BulletBase_Bow">
+		<defName>BA_Bullet_Hibiki</defName>
 		<label>炮弹射击</label>
 		<graphicData>
 			<texPath>Things/Projectile/Grenade</texPath>
@@ -795,8 +795,8 @@
 		</projectile>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_WeaponBase_Millennium">
-		<defName>AK_Weapon_Kotori</defName>
+	<ThingDef ParentName="BA_WeaponBase_Millennium">
+		<defName>BA_Weapon_Kotori</defName>
 		<label>教授K</label>
 		<graphicData>
 			<texPath>Things/BA_Students/Weapon/Millennium/KotoriW</texPath>
@@ -815,7 +815,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>AK_Bullet_Kotori</defaultProjectile>
+				<defaultProjectile>BA_Bullet_Kotori</defaultProjectile>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
 				<warmupTime>3.9</warmupTime>
 				<!--前摇-->
@@ -823,13 +823,13 @@
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
-				<soundCast>AK_Sound_Weapon_GeneralPistol</soundCast>
+				<soundCast>BA_Sound_Weapon_GeneralPistol</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 				<noiseRadius>3</noiseRadius>
 			</li>
 		</verbs>
-		<tools Inherit = "false">
+		<tools Inherit="false">
 			<li>
 				<label>踢击</label>
 				<capacities>
@@ -841,8 +841,8 @@
 		</tools>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_BulletBase_Bow">
-		<defName>AK_Bullet_Kotori</defName>
+	<ThingDef ParentName="BA_BulletBase_Bow">
+		<defName>BA_Bullet_Kotori</defName>
 		<label>机枪连射</label>
 		<graphicData>
 			<texPath>Things/Projectile/Bullet</texPath>
@@ -861,8 +861,8 @@
 		</projectile>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_WeaponBase_Millennium">
-		<defName>AK_Weapon_Utaha</defName>
+	<ThingDef ParentName="BA_WeaponBase_Millennium">
+		<defName>BA_Weapon_Utaha</defName>
 		<label>大师零</label>
 		<graphicData>
 			<texPath>Things/BA_Students/Weapon/Millennium/UtahaW</texPath>
@@ -881,7 +881,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>AK_Bullet_Utaha</defaultProjectile>
+				<defaultProjectile>BA_Bullet_Utaha</defaultProjectile>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
 				<warmupTime>2</warmupTime>
 				<!--前摇-->
@@ -889,13 +889,13 @@
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
-				<soundCast>AK_Sound_Weapon_GeneralPistol</soundCast>
+				<soundCast>BA_Sound_Weapon_GeneralPistol</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 				<noiseRadius>3</noiseRadius>
 			</li>
 		</verbs>
-		<tools Inherit = "false">
+		<tools Inherit="false">
 			<li>
 				<label>枪托猛砸</label>
 				<capacities>
@@ -915,8 +915,8 @@
 		</tools>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_BulletBase_Bow">
-		<defName>AK_Bullet_Utaha</defName>
+	<ThingDef ParentName="BA_BulletBase_Bow">
+		<defName>BA_Bullet_Utaha</defName>
 		<label>短点射</label>
 		<graphicData>
 			<texPath>Things/Projectile/Bullet</texPath>

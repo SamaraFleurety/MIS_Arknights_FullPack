@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-    <ThoughtDef ParentName = "AK_Thought_Permanent">
-		<defName>AK_Thought_Trait_Saki</defName>
+	<ThoughtDef ParentName="BA_Thought_Permanent">
+		<defName>BA_Thought_Trait_Saki</defName>
 		<requiredTraits>
-			<li>AK_Trait_SakiSecond</li>
+			<li>BA_Trait_SakiSecond</li>
 		</requiredTraits>
 		<stages>
 			<li>
@@ -15,10 +15,10 @@
 		</stages>
 	</ThoughtDef>
 
-    <ThoughtDef ParentName = "AK_Thought_Permanent">
-		<defName>AK_Thought_Trait_Moe</defName>
+	<ThoughtDef ParentName="BA_Thought_Permanent">
+		<defName>BA_Thought_Trait_Moe</defName>
 		<requiredTraits>
-			<li>AK_Trait_Moe</li>
+			<li>BA_Trait_Moe</li>
 		</requiredTraits>
 		<stages>
 			<li>
@@ -29,10 +29,10 @@
 		</stages>
 	</ThoughtDef>
 
-    <ThoughtDef ParentName = "AK_Thought_Permanent">
-		<defName>AK_Thought_Trait_Miyu</defName>
+	<ThoughtDef ParentName="BA_Thought_Permanent">
+		<defName>BA_Thought_Trait_Miyu</defName>
 		<requiredTraits>
-			<li>AK_Trait_Miyu</li>
+			<li>BA_Trait_Miyu</li>
 		</requiredTraits>
 		<stages>
 			<li>

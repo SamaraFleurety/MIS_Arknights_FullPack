@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<ThingDef ParentName="AK_WeaponBase_SRT">
-		<defName>AK_Weapon_Miyako</defName>
+	<ThingDef ParentName="BA_WeaponBase_SRT">
+		<defName>BA_Weapon_Miyako</defName>
 		<label>RABBIT-31式冲锋枪</label>
 		<graphicData>
 			<texPath>Things/BA_Students/Weapon/SRT/MiyakoW</texPath>
@@ -21,7 +21,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>AK_Bullet_Miyako</defaultProjectile>
+				<defaultProjectile>BA_Bullet_Miyako</defaultProjectile>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
 				<warmupTime>2.7</warmupTime>
 				<!--前摇-->
@@ -29,13 +29,13 @@
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
-				<soundCast>AK_Sound_Weapon_GeneralPistol</soundCast>
+				<soundCast>BA_Sound_Weapon_GeneralPistol</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 				<noiseRadius>3</noiseRadius>
 			</li>
 		</verbs>
-		<tools Inherit = "false">
+		<tools Inherit="false">
 			<li>
 				<label>枪托猛砸</label>
 				<capacities>
@@ -55,8 +55,8 @@
 		</tools>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_BulletBase_Bow">
-		<defName>AK_Bullet_Miyako</defName>
+	<ThingDef ParentName="BA_BulletBase_Bow">
+		<defName>BA_Bullet_Miyako</defName>
 		<label>短点射击</label>
 		<graphicData>
 			<texPath>Things/Projectile/Bullet</texPath>
@@ -75,8 +75,8 @@
 		</projectile>
 	</ThingDef>
 
-    <ThingDef ParentName="AK_WeaponBase_SRT">
-		<defName>AK_Weapon_SakiA</defName>
+	<ThingDef ParentName="BA_WeaponBase_SRT">
+		<defName>BA_Weapon_SakiA</defName>
 		<label>RABBIT-26式机关枪</label>
 		<graphicData>
 			<texPath>Things/BA_Students/Weapon/SRT/SakiW</texPath>
@@ -95,7 +95,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>AK_Bullet_Saki</defaultProjectile>
+				<defaultProjectile>BA_Bullet_Saki</defaultProjectile>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
 				<warmupTime>3.4</warmupTime>
 				<!--前摇-->
@@ -103,13 +103,13 @@
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
-				<soundCast>AK_Sound_Weapon_GeneralPistol</soundCast>
+				<soundCast>BA_Sound_Weapon_GeneralPistol</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 				<noiseRadius>3</noiseRadius>
 			</li>
 		</verbs>
-		<tools Inherit = "false">
+		<tools Inherit="false">
 			<li>
 				<label>枪托猛砸</label>
 				<capacities>
@@ -129,8 +129,8 @@
 		</tools>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_BulletBase_Bow">
-		<defName>AK_Bullet_Saki</defName>
+	<ThingDef ParentName="BA_BulletBase_Bow">
+		<defName>BA_Bullet_Saki</defName>
 		<label>短点射击</label>
 		<graphicData>
 			<texPath>Things/Projectile/Bullet</texPath>
@@ -149,8 +149,8 @@
 		</projectile>
 	</ThingDef>
 
-    <ThingDef ParentName="AK_WeaponBase_SRT">
-		<defName>AK_Weapon_SakiB</defName>
+	<ThingDef ParentName="BA_WeaponBase_SRT">
+		<defName>BA_Weapon_SakiB</defName>
 		<label>工兵铲迫击炮</label>
 		<graphicData>
 			<texPath>Things/BA_Students/Weapon/SRT/SakiW2</texPath>
@@ -159,8 +159,8 @@
 		<description>一把工兵铲和迫击炮二合一的少见武器，相对工兵铲来说太沉，相对迫击炮威力又太小，不过在边缘世界显然是够用了。</description>
 	</ThingDef>
 
-    <ThingDef ParentName="AK_WeaponBase_SRT">
-		<defName>AK_Weapon_Moe</defName>
+	<ThingDef ParentName="BA_WeaponBase_SRT">
+		<defName>BA_Weapon_Moe</defName>
 		<label>Rabbit-224式手枪</label>
 		<graphicData>
 			<texPath>Things/BA_Students/Weapon/SRT/MoeW</texPath>
@@ -179,7 +179,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>AK_Bullet_Moe</defaultProjectile>
+				<defaultProjectile>BA_Bullet_Moe</defaultProjectile>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
 				<warmupTime>3.4</warmupTime>
 				<!--前摇-->
@@ -187,13 +187,13 @@
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
-				<soundCast>AK_Sound_Weapon_GeneralPistol</soundCast>
+				<soundCast>BA_Sound_Weapon_GeneralPistol</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 				<noiseRadius>3</noiseRadius>
 			</li>
 		</verbs>
-		<tools Inherit = "false">
+		<tools Inherit="false">
 			<li>
 				<label>踢击</label>
 				<capacities>
@@ -205,8 +205,8 @@
 		</tools>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_BulletBase_Bow">
-		<defName>AK_Bullet_Moe</defName>
+	<ThingDef ParentName="BA_BulletBase_Bow">
+		<defName>BA_Bullet_Moe</defName>
 		<label>短点射击</label>
 		<graphicData>
 			<texPath>Things/Projectile/Bullet</texPath>
@@ -225,8 +225,8 @@
 		</projectile>
 	</ThingDef>
 
-    <ThingDef ParentName="AK_WeaponBase_SRT">
-		<defName>AK_Weapon_Miyu</defName>
+	<ThingDef ParentName="BA_WeaponBase_SRT">
+		<defName>BA_Weapon_Miyu</defName>
 		<label>RABBIT-39式来福枪</label>
 		<graphicData>
 			<texPath>Things/BA_Students/Weapon/SRT/MiyuW</texPath>
@@ -245,7 +245,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>AK_Bullet_Miyu</defaultProjectile>
+				<defaultProjectile>BA_Bullet_Miyu</defaultProjectile>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
 				<warmupTime>3.8</warmupTime>
 				<!--前摇-->
@@ -253,13 +253,13 @@
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
-				<soundCast>AK_Sound_Weapon_GeneralPistol</soundCast>
+				<soundCast>BA_Sound_Weapon_GeneralPistol</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 				<noiseRadius>3</noiseRadius>
 			</li>
 		</verbs>
-		<tools Inherit = "false">
+		<tools Inherit="false">
 			<li>
 				<label>枪托猛砸</label>
 				<capacities>
@@ -279,8 +279,8 @@
 		</tools>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_BulletBase_Bow">
-		<defName>AK_Bullet_Miyu</defName>
+	<ThingDef ParentName="BA_BulletBase_Bow">
+		<defName>BA_Bullet_Miyu</defName>
 		<label>短点射击</label>
 		<graphicData>
 			<texPath>Things/Projectile/Bullet</texPath>

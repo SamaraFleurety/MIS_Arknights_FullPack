@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 	<ThingDef ParentName="BA_WeaponBase_Hyakkiyako">
@@ -35,7 +35,7 @@
 				<noiseRadius>3</noiseRadius>
 			</li>
 		</verbs>
-		<tools Inherit = "false">
+		<tools Inherit="false">
 			<li>
 				<label>枪托猛砸</label>
 				<capacities>
@@ -43,7 +43,7 @@
 				</capacities>
 				<power>22</power>
 				<cooldownTime>2.6</cooldownTime>
-                <chanceFactor>60</chanceFactor>
+				<chanceFactor>60</chanceFactor>
 			</li>
 			<li>
 				<label>盾击</label>
@@ -52,7 +52,7 @@
 				</capacities>
 				<power>32</power>
 				<cooldownTime>3.6</cooldownTime>
-                <chanceFactor>40</chanceFactor>
+				<chanceFactor>40</chanceFactor>
 			</li>
 		</tools>
 	</ThingDef>

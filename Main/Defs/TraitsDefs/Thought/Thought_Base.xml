@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThoughtDef Name="AK_Thought_Permanent" Abstract="True">
+        <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+        <validWhileDespawned>false</validWhileDespawned>
+    </ThoughtDef>
+
+</Defs>

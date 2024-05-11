@@ -1,33 +1,82 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<ThingDef Name="AK_WeaponBase_Abydos" ParentName="AK_WeaponBase_Rifle" Abstract="True">
+	<ThingDef Name="BA_WeaponBase" Abstract="True">
+		<description>此学员的惯用武器。</description>
+		<thingClass>ThingWithComps</thingClass>
+		<category>Item</category>
+		<drawerType>MapMeshOnly</drawerType>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<altitudeLayer>Item</altitudeLayer>
+		<alwaysHaulable>true</alwaysHaulable>
+		<tickerType>Normal</tickerType>
+		<equipmentType>Primary</equipmentType>
+		<useHitPoints>false</useHitPoints>
+		<pathCost>14</pathCost>
+		<selectable>true</selectable>
+		<smeltable>false</smeltable>
+		<burnableByRecipe>false</burnableByRecipe>
+		<relicChance>0</relicChance>
+		<tradeability>None</tradeability>
+		<statBases>
+			<Flammability>0</Flammability>
+			<Beauty>-3</Beauty>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Forbiddable" />
+			<li>
+				<compClass>CompEquippable</compClass>
+			</li>
+			<li Class="CompProperties_Styleable" />
+			<li Class="CompProperties_Biocodable" />
+		</comps>
+		<graphicData>
+			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+			<texPath>Things/BA_Students/Weapon/Abydos/AyaneW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Industrial</techLevel>
+		<verbs Inherit="false" />
+		<tools Inherit="false">
+			<li>
+				<label>基础打击(只有此种攻击方式意味着此武器暂未完成)</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>21</power>
+				<cooldownTime>1.4</cooldownTime>
+				<chanceFactor>0.0001</chanceFactor>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef Name="BA_WeaponBase_Abydos" ParentName="BA_WeaponBase_Rifle" Abstract="True">
 		<thingCategories Inherit="False">
-			<li>AK_Weapon_BlueArchive</li>
+			<li>BA_Weapon_BlueArchive</li>
 		</thingCategories>
 	</ThingDef>
 
-	<ThingDef Name="AK_WeaponBase_Millennium" ParentName="AK_WeaponBase_Rifle" Abstract="True">
+	<ThingDef Name="BA_WeaponBase_Millennium" ParentName="BA_WeaponBase_Rifle" Abstract="True">
 		<thingCategories Inherit="False">
-			<li>AK_Weapon_BlueArchive</li>
+			<li>BA_Weapon_BlueArchive</li>
 		</thingCategories>
 	</ThingDef>
 
-	<ThingDef Name="AK_WeaponBase_Hyakkiyako" ParentName="AK_WeaponBase_Rifle" Abstract="True">
+	<ThingDef Name="BA_WeaponBase_Hyakkiyako" ParentName="BA_WeaponBase_Rifle" Abstract="True">
 		<thingCategories Inherit="False">
-			<li>AK_Weapon_BlueArchive</li>
+			<li>BA_Weapon_BlueArchive</li>
 		</thingCategories>
 	</ThingDef>
 
-	<ThingDef Name="AK_WeaponBase_SRT" ParentName="AK_WeaponBase_Rifle" Abstract="True">
+	<ThingDef Name="BA_WeaponBase_SRT" ParentName="BA_WeaponBase_Rifle" Abstract="True">
 		<thingCategories Inherit="False">
-			<li>AK_Weapon_BlueArchive</li>
+			<li>BA_Weapon_BlueArchive</li>
 		</thingCategories>
 	</ThingDef>
 
-	<ThingDef Name="AK_WeaponBase_Trinity" ParentName="AK_WeaponBase_Rifle" Abstract="True">
+	<ThingDef Name="BA_WeaponBase_Trinity" ParentName="BA_WeaponBase_Rifle" Abstract="True">
 		<thingCategories Inherit="False">
-			<li>AK_Weapon_BlueArchive</li>
+			<li>BA_Weapon_BlueArchive</li>
 		</thingCategories>
 	</ThingDef>
 

@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-    <ThoughtDef ParentName = "AK_Thought_Permanent">
-		<defName>AK_Thought_Trait_Tsubaki</defName>
+	<ThoughtDef ParentName="BA_Thought_Permanent">
+		<defName>BA_Thought_Trait_Tsubaki</defName>
 		<requiredTraits>
-			<li>AK_Trait_Tsubaki</li>
+			<li>BA_Trait_Tsubaki</li>
 		</requiredTraits>
 		<stages>
 			<li>

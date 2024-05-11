@@ -1,9 +1,11 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<ThoughtDef ParentName = "AK_Thought_Permanent">
-		<defName>AK_Thought_Trait_Ui</defName>
-		<requiredTraits><li>AK_Trait_Ui</li></requiredTraits>
+	<ThoughtDef ParentName="BA_Thought_Permanent">
+		<defName>BA_Thought_Trait_Ui</defName>
+		<requiredTraits>
+			<li>BA_Trait_Ui</li>
+		</requiredTraits>
 		<stages>
 			<li>
 				<label>图书馆的魔术师</label>

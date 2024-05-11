@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<ThoughtDef ParentName = "AK_Thought_Permanent">
-		<defName>AK_Thought_Trait_KarinThird</defName>
+	<ThoughtDef ParentName="BA_Thought_Permanent">
+		<defName>BA_Thought_Trait_KarinThird</defName>
 		<requiredTraits>
-			<li>AK_Trait_KarinThird</li>
+			<li>BA_Trait_KarinThird</li>
 		</requiredTraits>
 		<stages>
 			<li>
@@ -15,10 +15,10 @@
 		</stages>
 	</ThoughtDef>
 
-	<ThoughtDef ParentName = "AK_Thought_Permanent">
-		<defName>AK_Thought_Trait_KarinSecond</defName>
+	<ThoughtDef ParentName="BA_Thought_Permanent">
+		<defName>BA_Thought_Trait_KarinSecond</defName>
 		<requiredTraits>
-			<li>AK_Trait_KarinSecond</li>
+			<li>BA_Trait_KarinSecond</li>
 		</requiredTraits>
 		<stages>
 			<li>
@@ -29,10 +29,10 @@
 		</stages>
 	</ThoughtDef>
 
-	<ThoughtDef ParentName = "AK_Thought_Permanent">
-		<defName>AK_Thought_Trait_Karin</defName>
+	<ThoughtDef ParentName="BA_Thought_Permanent">
+		<defName>BA_Thought_Trait_Karin</defName>
 		<requiredTraits>
-			<li>AK_Trait_Karin</li>
+			<li>BA_Trait_Karin</li>
 		</requiredTraits>
 		<stages>
 			<li>
@@ -43,10 +43,10 @@
 		</stages>
 	</ThoughtDef>
 
-	<ThoughtDef ParentName = "AK_Thought_Permanent">
-		<defName>AK_Thought_Trait_AkaneSecond</defName>
+	<ThoughtDef ParentName="BA_Thought_Permanent">
+		<defName>BA_Thought_Trait_AkaneSecond</defName>
 		<requiredTraits>
-			<li>AK_Trait_AkaneSecond</li>
+			<li>BA_Trait_AkaneSecond</li>
 		</requiredTraits>
 		<stages>
 			<li>
@@ -57,10 +57,10 @@
 		</stages>
 	</ThoughtDef>
 
-	<ThoughtDef ParentName = "AK_Thought_Permanent">
-		<defName>AK_Thought_Trait_Akane</defName>
+	<ThoughtDef ParentName="BA_Thought_Permanent">
+		<defName>BA_Thought_Trait_Akane</defName>
 		<requiredTraits>
-			<li>AK_Trait_Akane</li>
+			<li>BA_Trait_Akane</li>
 		</requiredTraits>
 		<stages>
 			<li>
@@ -71,10 +71,10 @@
 		</stages>
 	</ThoughtDef>
 
-	<ThoughtDef ParentName = "AK_Thought_Permanent">
-		<defName>AK_Thought_Trait_TokiSecond</defName>
+	<ThoughtDef ParentName="BA_Thought_Permanent">
+		<defName>BA_Thought_Trait_TokiSecond</defName>
 		<requiredTraits>
-			<li>AK_Trait_TokiSecond</li>
+			<li>BA_Trait_TokiSecond</li>
 		</requiredTraits>
 		<stages>
 			<li>
@@ -85,10 +85,10 @@
 		</stages>
 	</ThoughtDef>
 
-	<ThoughtDef ParentName = "AK_Thought_Permanent">
-		<defName>AK_Thought_Trait_Neru</defName>
+	<ThoughtDef ParentName="BA_Thought_Permanent">
+		<defName>BA_Thought_Trait_Neru</defName>
 		<requiredTraits>
-			<li>AK_Trait_Neru</li>
+			<li>BA_Trait_Neru</li>
 		</requiredTraits>
 		<stages>
 			<li>
@@ -99,10 +99,10 @@
 		</stages>
 	</ThoughtDef>
 
-	<ThoughtDef ParentName = "AK_Thought_Permanent">
-		<defName>AK_Thought_Trait_ArisSecond</defName>
+	<ThoughtDef ParentName="BA_Thought_Permanent">
+		<defName>BA_Thought_Trait_ArisSecond</defName>
 		<requiredTraits>
-			<li>AK_Trait_ArisSecond</li>
+			<li>BA_Trait_ArisSecond</li>
 		</requiredTraits>
 		<stages>
 			<li>
@@ -113,10 +113,10 @@
 		</stages>
 	</ThoughtDef>
 
-	<ThoughtDef ParentName = "AK_Thought_Permanent">
-		<defName>AK_Thought_Trait_Yuzu</defName>
+	<ThoughtDef ParentName="BA_Thought_Permanent">
+		<defName>BA_Thought_Trait_Yuzu</defName>
 		<requiredTraits>
-			<li>AK_Trait_Yuzu</li>
+			<li>BA_Trait_Yuzu</li>
 		</requiredTraits>
 		<stages>
 			<li>
@@ -127,10 +127,10 @@
 		</stages>
 	</ThoughtDef>
 
-	<ThoughtDef ParentName = "AK_Thought_Permanent">
-		<defName>AK_Thought_Trait_Momoi</defName>
+	<ThoughtDef ParentName="BA_Thought_Permanent">
+		<defName>BA_Thought_Trait_Momoi</defName>
 		<requiredTraits>
-			<li>AK_Trait_Momoi</li>
+			<li>BA_Trait_Momoi</li>
 		</requiredTraits>
 		<stages>
 			<li>
@@ -141,10 +141,10 @@
 		</stages>
 	</ThoughtDef>
 
-	<ThoughtDef ParentName = "AK_Thought_Permanent">
-		<defName>AK_Thought_Trait_Midori</defName>
+	<ThoughtDef ParentName="BA_Thought_Permanent">
+		<defName>BA_Thought_Trait_Midori</defName>
 		<requiredTraits>
-			<li>AK_Trait_Midori</li>
+			<li>BA_Trait_Midori</li>
 		</requiredTraits>
 		<stages>
 			<li>
@@ -155,10 +155,10 @@
 		</stages>
 	</ThoughtDef>
 
-	<ThoughtDef ParentName = "AK_Thought_Permanent">
-		<defName>AK_Thought_Trait_Utaha</defName>
+	<ThoughtDef ParentName="BA_Thought_Permanent">
+		<defName>BA_Thought_Trait_Utaha</defName>
 		<requiredTraits>
-			<li>AK_Trait_Utaha</li>
+			<li>BA_Trait_Utaha</li>
 		</requiredTraits>
 		<stages>
 			<li>

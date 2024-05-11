@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<ThingDef ParentName="AK_WeaponBase_Trinity">
-		<defName>AK_Weapon_Ui</defName>
+	<ThingDef ParentName="BA_WeaponBase_Trinity">
+		<defName>BA_Weapon_Ui</defName>
 		<label>音量抑制器</label>
 		<graphicData>
 			<texPath>Things/BA_Students/Weapon/Trinity/UiW</texPath>
@@ -21,7 +21,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>AK_Bullet_Ui</defaultProjectile>
+				<defaultProjectile>BA_Bullet_Ui</defaultProjectile>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
 				<warmupTime>2.7</warmupTime>
 				<!--前摇-->
@@ -29,13 +29,13 @@
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
-				<soundCast>AK_Sound_Weapon_GeneralPistol</soundCast>
+				<soundCast>BA_Sound_Weapon_GeneralPistol</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 				<noiseRadius>3</noiseRadius>
 			</li>
 		</verbs>
-		<tools Inherit = "false">
+		<tools Inherit="false">
 			<li>
 				<label>枪托猛砸</label>
 				<capacities>
@@ -55,8 +55,8 @@
 		</tools>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_BulletBase_Bow">
-		<defName>AK_Bullet_Ui</defName>
+	<ThingDef ParentName="BA_BulletBase_Bow">
+		<defName>BA_Bullet_Ui</defName>
 		<label>瞄准射击</label>
 		<graphicData>
 			<texPath>Things/Projectile/Bullet</texPath>

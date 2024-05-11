@@ -1,24 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<!-- 已排序 -->
-
-	<ThoughtDef Name = "AK_Thought_Permanent" Abstract = "True">
-		<workerClass>ThoughtWorker_AlwaysActive</workerClass>
-		<validWhileDespawned>false</validWhileDespawned>
-	</ThoughtDef>
-
 	<ThoughtDef>
-		<defName>AK_Thought_Trait_OperatorReceived</defName>
-		<stages>
-			<li>
-				<label>切尔诺伯格</label>
-				<description>我们无从得知从切尔诺伯格逃出来的人经历了什么。\n但无论如何这对他们来说都是地狱般的经历，并且毫无疑问需要很多时间去试图遗忘并适应新生活。</description>
-				<baseMoodEffect>-20</baseMoodEffect>
-			</li>
-		</stages>
-	</ThoughtDef>
-
+        <defName>AK_Thought_Trait_OperatorReceived</defName>
+        <stages>
+            <li>
+                <label>切尔诺伯格</label>
+                <description>我们无从得知从切尔诺伯格逃出来的人经历了什么。\n但无论如何这对他们来说都是地狱般的经历，并且毫无疑问需要很多时间去试图遗忘并适应新生活。</description>
+                <baseMoodEffect>-20</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
 	<!-- Caster -->
 
 	<!-- 杜林 -->
