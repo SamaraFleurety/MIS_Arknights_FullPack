@@ -2058,8 +2058,27 @@
 			<AccuracyShort>0.94</AccuracyShort>
 			<AccuracyMedium>0.85</AccuracyMedium>
 			<AccuracyLong>0.75</AccuracyLong>
+			<MarketValue>1000</MarketValue>
+			<Mass>7</Mass>
 			<RangedWeapon_Cooldown>4.5</RangedWeapon_Cooldown>
 		</statBases>
+		<techLevel>Spacer</techLevel>
+		<weaponTags>
+			<li>Gun</li>
+			<li>GunSingleUse</li>
+		</weaponTags>
+		<weaponClasses>
+			<li>RangedHeavy</li>
+		</weaponClasses>
+		<tradeTags>
+			<li>ExoticMisc</li>
+			<li>WeaponRanged</li>
+		</tradeTags>
+		<thingSetMakerTags>
+			<li>SingleUseWeapon</li>
+			<li>RewardStandardLowFreq</li>
+		</thingSetMakerTags>
+		<relicChance>0</relicChance>
 		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
