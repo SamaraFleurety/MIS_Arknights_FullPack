@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+    <TraitDef>
+		<defName>ZW_Trait_Ship_Transportship</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>运输</label>
+				<description>{PAWN_nameDef}是运输。</description>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>

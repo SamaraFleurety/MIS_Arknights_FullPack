@@ -1,93 +1,234 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef Name="AK_WeaponBase_Aircraftcarrier" ParentName="AK_WeaponBase_Rifle" Abstract="True">
+	<ThingDef Name="ZW_WeaponBase" Abstract="True">
+		<description>此舰娘的惯用武器。</description>
+		<thingClass>ThingWithComps</thingClass>
+		<category>Item</category>
+		<drawerType>MapMeshOnly</drawerType>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<altitudeLayer>Item</altitudeLayer>
+		<alwaysHaulable>true</alwaysHaulable>
+		<tickerType>Normal</tickerType>
+		<equipmentType>Primary</equipmentType>
+		<useHitPoints>false</useHitPoints>
+		<pathCost>14</pathCost>
+		<selectable>true</selectable>
+		<smeltable>false</smeltable>
+		<burnableByRecipe>false</burnableByRecipe>
+		<relicChance>0</relicChance>
+		<tradeability>None</tradeability>
+		<statBases>
+			<Flammability>0</Flammability>
+			<Beauty>-3</Beauty>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Forbiddable" />
+			<li>
+				<compClass>CompEquippable</compClass>
+			</li>
+			<li Class="CompProperties_Styleable" />
+			<li Class="CompProperties_Biocodable" />
+		</comps>
+		<graphicData>
+			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+			<texPath>Things/BA_Students/Weapon/Abydos/AyaneW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Industrial</techLevel>
+		<verbs Inherit="false" />
+		<tools Inherit="false">
+			<li>
+				<label>基础打击(只有此种攻击方式意味着此武器暂未完成)</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>21</power>
+				<cooldownTime>1.4</cooldownTime>
+				<chanceFactor>0.0001</chanceFactor>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef Name="ZW_WeaponBase_Ranged" ParentName="ZW_WeaponBase" Abstract="True">
+		<weaponClasses>
+			<li>Ranged</li>
+		</weaponClasses>
+		<inspectorTabs>
+			<li>ITab_Art</li>
+		</inspectorTabs>
+	</ThingDef>
+
+	<ThingDef Name="ZW_WeaponBase_Rifle" ParentName="ZW_WeaponBase_Ranged" Abstract="True">
+		<soundInteract>Interact_ChargeRifle</soundInteract>
+		<statBases>
+			<Mass>4.6</Mass>
+			<AccuracyTouch>0.55</AccuracyTouch>
+			<AccuracyShort>0.64</AccuracyShort>
+			<AccuracyMedium>0.55</AccuracyMedium>
+			<AccuracyLong>0.45</AccuracyLong>
+			<RangedWeapon_Cooldown>2.00</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponClasses>
+			<li>RangedLight</li>
+		</weaponClasses>
+	</ThingDef>
+
+	<ThingDef Name="ZW_BulletBase_Bow" Abstract="True">
+		<category>Projectile</category>
+		<tickerType>Normal</tickerType>
+		<altitudeLayer>Projectile</altitudeLayer>
+		<thingClass>Bullet</thingClass>
+		<label>arrow</label>
+		<useHitPoints>False</useHitPoints>
+		<neverMultiSelect>True</neverMultiSelect>
+		<graphicData>
+			<shaderType>Transparent</shaderType>
+		</graphicData>
+	</ThingDef>
+
+	<SoundDef Name="ZW_SoundBase" Abstract="True">
+		<defName>ZW_SoundBase</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>3</maxSimultaneous>
+		<sustain>False</sustain>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Weapon/ChargeRifle</clipPath>
+					</li>
+				</grains>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName="ZW_SoundBase">
+		<defName>ZW_Sound_Weapon_GeneralPistol</defName>
+		<subSounds Inherit="False">
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/GeneralSFX/p_atk_pistol_n</clipPath>
+					</li>
+				</grains>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName="ZW_SoundBase">
+		<defName>ZW_Sound_Weapon_GeneralArrow</defName>
+		<subSounds Inherit="False">
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/GeneralSFX/p_atk_arrow_n</clipPath>
+					</li>
+				</grains>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName="ZW_SoundBase">
+		<defName>ZW_Sound_Weapon_GeneralGrenade</defName>
+		<subSounds Inherit="False">
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/GeneralSFX/b_char_atkboost</clipPath>
+					</li>
+				</grains>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<ThingDef Name="ZW_WeaponBase_Aircraftcarrier" ParentName="ZW_WeaponBase_Rifle" Abstract="True">
 		<thingCategories Inherit="false">
-		  <li>AK_Apparel_AzurLane</li>
+		  <li>ZW_Weapon</li>
 		</thingCategories>
 	  </ThingDef>
 	
-	  <ThingDef Name="AK_WeaponBase_Aviationbattleship" ParentName="AK_WeaponBase_Rifle" Abstract="True">
+	  <ThingDef Name="ZW_WeaponBase_Aviationbattleship" ParentName="ZW_WeaponBase_Rifle" Abstract="True">
 		<thingCategories Inherit="false">
-		  <li>AK_Apparel_AzurLane</li>
+		  <li>ZW_Weapon</li>
 		</thingCategories>
 	  </ThingDef>
 	
-	  <ThingDef Name="AK_WeaponBase_Battlecruiser" ParentName="AK_WeaponBase_Rifle" Abstract="True">
+	  <ThingDef Name="ZW_WeaponBase_Battlecruiser" ParentName="ZW_WeaponBase_Rifle" Abstract="True">
 		<thingCategories Inherit="false">
-		  <li>AK_Apparel_AzurLane</li>
+		  <li>ZW_Weapon</li>
 		</thingCategories>
 	  </ThingDef>
 	
-	  <ThingDef Name="AK_WeaponBase_Battleship" ParentName="AK_WeaponBase_Rifle" Abstract="True">
+	  <ThingDef Name="ZW_WeaponBase_Battleship" ParentName="ZW_WeaponBase_Rifle" Abstract="True">
 		<thingCategories Inherit="false">
-		  <li>AK_Apparel_AzurLane</li>
+		  <li>ZW_Weapon</li>
 		</thingCategories>
 	  </ThingDef>
 	
-	  <ThingDef Name="AK_WeaponBase_Destroyer" ParentName="AK_WeaponBase_Rifle" Abstract="True">
+	  <ThingDef Name="ZW_WeaponBase_Destroyer" ParentName="ZW_WeaponBase_Rifle" Abstract="True">
 		<thingCategories Inherit="false">
-		  <li>AK_Apparel_AzurLane</li>
+		  <li>ZW_Weapon</li>
 		</thingCategories>
 	  </ThingDef>
 	
-	  <ThingDef Name="AK_WeaponBase_Heavyartilleryship" ParentName="AK_WeaponBase_Rifle" Abstract="True">
+	  <ThingDef Name="ZW_WeaponBase_Heavyartilleryship" ParentName="ZW_WeaponBase_Rifle" Abstract="True">
 		<thingCategories Inherit="false">
-		  <li>AK_Apparel_AzurLane</li>
+		  <li>ZW_Weapon</li>
 		</thingCategories>
 	  </ThingDef>
 	
-	  <ThingDef Name="AK_WeaponBase_Heavycruiser" ParentName="AK_WeaponBase_Rifle" Abstract="True">
+	  <ThingDef Name="ZW_WeaponBase_Heavycruiser" ParentName="ZW_WeaponBase_Rifle" Abstract="True">
 		<thingCategories Inherit="false">
-		  <li>AK_Apparel_AzurLane</li>
+		  <li>ZW_Weapon</li>
 		</thingCategories>
 	  </ThingDef>
 	
-	  <ThingDef Name="AK_WeaponBase_Lightcarrier" ParentName="AK_WeaponBase_Rifle" Abstract="True">
+	  <ThingDef Name="ZW_WeaponBase_Lightcarrier" ParentName="ZW_WeaponBase_Rifle" Abstract="True">
 		<thingCategories Inherit="false">
-		  <li>AK_Apparel_AzurLane</li>
+		  <li>ZW_Weapon</li>
 		</thingCategories>
 	  </ThingDef>
 	
-	  <ThingDef Name="AK_WeaponBase_Lightcruiser" ParentName="AK_WeaponBase_Rifle" Abstract="True">
+	  <ThingDef Name="ZW_WeaponBase_Lightcruiser" ParentName="ZW_WeaponBase_Rifle" Abstract="True">
 		<thingCategories Inherit="false">
-		  <li>AK_Apparel_AzurLane</li>
+		  <li>ZW_Weapon</li>
 		</thingCategories>
 	  </ThingDef>
 	
-	  <ThingDef Name="AK_WeaponBase_Maintenanceship" ParentName="AK_WeaponBase_Rifle" Abstract="True">
+	  <ThingDef Name="ZW_WeaponBase_Maintenanceship" ParentName="ZW_WeaponBase_Rifle" Abstract="True">
 		<thingCategories Inherit="false">
-		  <li>AK_Apparel_AzurLane</li>
+		  <li>ZW_Weapon</li>
 		</thingCategories>
 	  </ThingDef>
 	
-	  <ThingDef Name="AK_WeaponBase_Sailingbattleship" ParentName="AK_WeaponBase_Rifle" Abstract="True">
+	  <ThingDef Name="ZW_WeaponBase_Sailingbattleship" ParentName="ZW_WeaponBase_Rifle" Abstract="True">
 		<thingCategories Inherit="false">
-		  <li>AK_Apparel_AzurLane</li>
+		  <li>ZW_Weapon</li>
 		</thingCategories>
 	  </ThingDef>
 	
-	  <ThingDef Name="AK_WeaponBase_Submarine" ParentName="AK_WeaponBase_Rifle" Abstract="True">
+	  <ThingDef Name="ZW_WeaponBase_Submarine" ParentName="ZW_WeaponBase_Rifle" Abstract="True">
 		<thingCategories Inherit="false">
-		  <li>AK_Apparel_AzurLane</li>
+		  <li>ZW_Weapon</li>
 		</thingCategories>
 	  </ThingDef>
 	
-	  <ThingDef Name="AK_WeaponBase_Submarinecarrier" ParentName="AK_WeaponBase_Rifle" Abstract="True">
+	  <ThingDef Name="ZW_WeaponBase_Submarinecarrier" ParentName="ZW_WeaponBase_Rifle" Abstract="True">
 		<thingCategories Inherit="false">
-		  <li>AK_Apparel_AzurLane</li>
+		  <li>ZW_Weapon</li>
 		</thingCategories>
 	  </ThingDef>
 	
-	  <ThingDef Name="AK_WeaponBase_Supercruiser" ParentName="AK_WeaponBase_Rifle" Abstract="True">
+	  <ThingDef Name="ZW_WeaponBase_Supercruiser" ParentName="ZW_WeaponBase_Rifle" Abstract="True">
 		<thingCategories Inherit="false">
-		  <li>AK_Apparel_AzurLane</li>
+		  <li>ZW_Weapon</li>
 		</thingCategories>
 	  </ThingDef>
 	
-	  <ThingDef Name="AK_WeaponBase_Transportship" ParentName="AK_WeaponBase_Rifle" Abstract="True">
+	  <ThingDef Name="ZW_WeaponBase_Transportship" ParentName="ZW_WeaponBase_Rifle" Abstract="True">
 		<thingCategories Inherit="false">
-		  <li>AK_Apparel_AzurLane</li>
+		  <li>ZW_Weapon</li>
 		</thingCategories>
 	  </ThingDef>
 

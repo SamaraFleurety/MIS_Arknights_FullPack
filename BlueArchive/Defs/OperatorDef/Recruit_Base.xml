@@ -36,7 +36,7 @@
 	<AK_DLL.OperatorDef ParentName="BA_RecruitBase" Name="BA_RecruitBase_Abydos" Abstract="True">
 		<traits>
 			<li>
-				<def>BA_Trait_Agent_Abydos</def>
+				<def>BA_Trait_Student_Abydos</def>
 			</li>
 		</traits>
 		<operatorType>BA_OperatorClass_Abydos</operatorType>
@@ -45,7 +45,7 @@
 	<AK_DLL.OperatorDef ParentName="BA_RecruitBase" Name="BA_RecruitBase_Hyakkiyako" Abstract="True">
 		<traits>
 			<li>
-				<def>BA_Trait_Agent_Hyakkiyako</def>
+				<def>BA_Trait_Student_Hyakkiyako</def>
 			</li>
 		</traits>
 		<operatorType>BA_OperatorClass_Hyakkiyako</operatorType>
@@ -54,7 +54,7 @@
 	<AK_DLL.OperatorDef ParentName="BA_RecruitBase" Name="BA_RecruitBase_Millennium" Abstract="True">
 		<traits>
 			<li>
-				<def>BA_Trait_Agent_Millennium</def>
+				<def>BA_Trait_Student_Millennium</def>
 			</li>
 		</traits>
 		<operatorType>BA_OperatorClass_Millennium</operatorType>
@@ -63,7 +63,7 @@
 	<AK_DLL.OperatorDef ParentName="BA_RecruitBase" Name="BA_RecruitBase_SRT" Abstract="True">
 		<traits>
 			<li>
-				<def>BA_Trait_Agent_SRT</def>
+				<def>BA_Trait_Student_SRT</def>
 			</li>
 		</traits>
 		<operatorType>BA_OperatorClass_SRT</operatorType>
@@ -72,7 +72,7 @@
 	<AK_DLL.OperatorDef ParentName="BA_RecruitBase" Name="BA_RecruitBase_Trinity" Abstract="True">
 		<traits>
 			<li>
-				<def>BA_Trait_Agent_Trinity</def>
+				<def>BA_Trait_Student_Trinity</def>
 			</li>
 		</traits>
 		<operatorType>BA_OperatorClass_Trinity</operatorType>

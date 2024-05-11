@@ -1,17 +1,17 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	
-	<ThingDef ParentName="AK_ArmorBase_Destroyer">
-		<defName>AK_Apparel_Feiyun</defName>
+
+	<ThingDef ParentName="ZW_ArmorBase_Destroyer">
+		<defName>ZW_Apparel_Feiyun</defName>
 		<label>飞云常服</label>
 		<description>飞云常穿的，中式黑白花边裙。袖子很长，不知道下面是否藏了什么呢？</description>
 		<graphicData>
-		  <texPath>Things/AK_Agents/GApparel</texPath>
-		  <graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/ZW_Ships/Destroyer/Feiyun</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
-		  <wornGraphicPath>Things/AK_Agents/Destroyer/Feiyun</wornGraphicPath>
+			<wornGraphicPath>Things/ZW_Ships/Destroyer/Feiyun</wornGraphicPath>
 		</apparel>
-    </ThingDef>
+	</ThingDef>
 
 </Defs>

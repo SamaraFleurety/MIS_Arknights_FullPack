@@ -3,17 +3,22 @@
 	<!-- 武器 -->
 
 	<ThingCategoryDef>
-		<defName>AK_Weapon_AzurLane</defName>
+		<defName>ZW_Weapon</defName>
 		<label>碧蓝航线武器</label>
-		<parent>AK_Weapon</parent>
+		<parent>Weapons</parent>
 	</ThingCategoryDef>
 
 	<!-- 衣着 -->
 
 	<ThingCategoryDef>
-		<defName>AK_Apparel_AzurLane</defName>
+		<defName>ZW_Apparel</defName>
 		<label>碧蓝航线衣着</label>
-		<parent>AK_Apparel</parent>
+		<parent>Apparel</parent>
 	</ThingCategoryDef>
+
+	<StyleItemCategoryDef>
+		<defName>ZW_Agents</defName>
+		<label>碧蓝航线舰娘</label>
+	</StyleItemCategoryDef>
 
 </Defs>

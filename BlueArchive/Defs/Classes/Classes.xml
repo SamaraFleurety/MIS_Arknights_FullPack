@@ -2,13 +2,13 @@
 <Defs>
 
 	<AK_DLL.OperatorSeriesDef>
-		<defName>BA_Series_BlueArchive</defName>
+		<defName>BA_Series</defName>
 		<label>碧蓝档案</label>
 		<icon>UI/Element/BlueArchive</icon>
 	</AK_DLL.OperatorSeriesDef>
 
 	<AK_DLL.OperatorClassDef Name="BA_OpClassBlueArchive" Abstract="True">
-		<series>BA_Series_BlueArchive</series>
+		<series>BA_Series</series>
 	</AK_DLL.OperatorClassDef>
 
 	<AK_DLL.OperatorClassDef ParentName="BA_OpClassBlueArchive">

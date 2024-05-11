@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <AK_DLL.OperatorDef ParentName="AK_RecruitBase_Destroyer">
-		<defName>AK_Recruit_Feiyun</defName>
-		<name>Feiyun</name>
-		<nickname>Changfeng</nickname>
+    <AK_DLL.OperatorDef ParentName="ZW_RecruitBase_Destroyer">
+		<defName>ZW_Recruit_Feiyun</defName>
+		<name>Changfeng</name>
+		<nickname>Feiyun</nickname>
 		<description>FIXME</description>
-		<hair>AK_Hair_Feiyun</hair>
+		<hair>ZW_Hair_Feiyun</hair>
 		<apparels>
-			<li>AK_Apparel_Eyjafjalla</li>
+			<li>ZW_Apparel_Feiyun</li>
 		</apparels>
 		<bodyTypeDef>Thin</bodyTypeDef>		
 		<stand>UI/Image/Destroyer/FeiyunStand</stand>
@@ -85,7 +85,7 @@
 			</li>
 		</traits>
 		<age>12</age>
-		<childHood>AK_BackStory_Feiyun_Child</childHood>
+		<childHood>ZW_BackStory_Feiyun_Child</childHood>
 		<standRatio>2.5</standRatio>
 		<standOffset>(0, 0)</standOffset>
 	</AK_DLL.OperatorDef>

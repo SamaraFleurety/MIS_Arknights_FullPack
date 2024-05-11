@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+    <TraitDef>
+		<defName>ZW_Trait_Ship_Aviationbattleship</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>航战</label>
+				<description>{PAWN_nameDef}是航战。</description>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>
