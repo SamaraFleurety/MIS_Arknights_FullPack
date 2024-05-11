@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef ParentName="AK_WeaponBase_Hyakkiyako">
-		<defName>AK_Weapon_TsubakiA</defName>
+	<ThingDef ParentName="BA_WeaponBase_Hyakkiyako">
+		<defName>BA_Weapon_TsubakiA</defName>
 		<label>睡眠伴侣Ⅱ</label>
 		<graphicData>
-			<texPath>Things/AK_Agents/Weapon/Hyakkiyako/TsubakiW</texPath>
+			<texPath>Things/BA_Students/Weapon/Hyakkiyako/TsubakiW</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<description>"椿使用的冲锋枪。\n为了不干扰到平时的修行，椿选择了小巧的型号。顺带一提，Ⅰ是她盾牌里面的枕头。"</description>
@@ -21,7 +21,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>AK_Bullet_Tsubaki</defaultProjectile>
+				<defaultProjectile>BA_Bullet_Tsubaki</defaultProjectile>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
 				<warmupTime>2.0</warmupTime>
 				<!--前摇-->
@@ -29,7 +29,7 @@
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
-				<soundCast>AK_Sound_Weapon_GeneralPistol</soundCast>
+				<soundCast>BA_Sound_Weapon_GeneralPistol</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 				<noiseRadius>3</noiseRadius>
@@ -57,8 +57,8 @@
 		</tools>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_BulletBase_Bow">
-		<defName>AK_Bullet_Tsubaki</defName>
+	<ThingDef ParentName="BA_BulletBase_Bow">
+		<defName>BA_Bullet_Tsubaki</defName>
 		<label>短点射击</label>
 		<graphicData>
 			<texPath>Things/Projectile/Bullet</texPath>
@@ -77,11 +77,11 @@
 		</projectile>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_WeaponBase_Hyakkiyako">
-		<defName>AK_Weapon_TsubakiB</defName>
+	<ThingDef ParentName="BA_WeaponBase_Hyakkiyako">
+		<defName>BA_Weapon_TsubakiB</defName>
 		<label>椿的盾牌</label>
 		<graphicData>
-			<texPath>Things/AK_Agents/Weapon/Hyakkiyako/TsubakiW2</texPath>
+			<texPath>Things/BA_Students/Weapon/Hyakkiyako/TsubakiW2</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<description>椿使用的盾牌，里头放着一个枕头，被椿叫做睡眠伴侣</description>

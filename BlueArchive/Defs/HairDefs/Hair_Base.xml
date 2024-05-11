@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<HairDef Name="BA_HairBaseF" Abstract="True">
+		<hairGender>Female</hairGender>
+		<category>BA_Agents</category>
+		<requiredGene>Skin_Melanin1</requiredGene>
+	</HairDef>
+
+	<HairDef Name="BA_HairBaseM" Abstract="True">
+		<hairGender>Male</hairGender>
+		<category>BA_Agents</category>
+		<requiredGene>Skin_Melanin1</requiredGene>
+	</HairDef>
+
+</Defs>

@@ -2,49 +2,49 @@
 <Defs>
 
 	<AK_DLL.OperatorSeriesDef>
-		<defName>AK_Series_BlueArchive</defName>
+		<defName>BA_Series_BlueArchive</defName>
 		<label>碧蓝档案</label>
 		<icon>UI/Element/BlueArchive</icon>
 	</AK_DLL.OperatorSeriesDef>
 
-	<AK_DLL.OperatorClassDef Name="AK_OpClassBlueArchive" Abstract="True">
+	<AK_DLL.OperatorClassDef Name="BA_OpClassBlueArchive" Abstract="True">
 		<series>AK_Series_BlueArchive</series>
 	</AK_DLL.OperatorClassDef>
 
-	<AK_DLL.OperatorClassDef ParentName="AK_OpClassBlueArchive">
-		<defName>AK_OperatorClass_Millennium</defName>
+	<AK_DLL.OperatorClassDef ParentName="BA_OpClassBlueArchive">
+		<defName>BA_OperatorClass_Millennium</defName>
 		<label>Millennium</label>
 		<sortingOrder>20</sortingOrder>
 		<textureFolder>Millennium</textureFolder>
 		<iconPath>UI/Element/Millennium</iconPath>
 	</AK_DLL.OperatorClassDef>
 
-	<AK_DLL.OperatorClassDef ParentName="AK_OpClassBlueArchive">
-		<defName>AK_OperatorClass_Trinity</defName>
+	<AK_DLL.OperatorClassDef ParentName="BA_OpClassBlueArchive">
+		<defName>BA_OperatorClass_Trinity</defName>
 		<label>Trinity</label>
 		<sortingOrder>21</sortingOrder>
 		<textureFolder>Trinity</textureFolder>
 		<iconPath>UI/Element/Trinity</iconPath>
 	</AK_DLL.OperatorClassDef>
 
-	<AK_DLL.OperatorClassDef ParentName="AK_OpClassBlueArchive">
-		<defName>AK_OperatorClass_Abydos</defName>
+	<AK_DLL.OperatorClassDef ParentName="BA_OpClassBlueArchive">
+		<defName>BA_OperatorClass_Abydos</defName>
 		<label>Abydos</label>
 		<sortingOrder>22</sortingOrder>
 		<textureFolder>Abydos</textureFolder>
 		<iconPath>UI/Element/Abydos</iconPath>
 	</AK_DLL.OperatorClassDef>
 
-	<AK_DLL.OperatorClassDef ParentName="AK_OpClassBlueArchive">
-		<defName>AK_OperatorClass_Hyakkiyako</defName>
+	<AK_DLL.OperatorClassDef ParentName="BA_OpClassBlueArchive">
+		<defName>BA_OperatorClass_Hyakkiyako</defName>
 		<label>Hyakkiyako</label>
 		<sortingOrder>23</sortingOrder>
 		<textureFolder>Hyakkiyako</textureFolder>
 		<iconPath>UI/Element/Hyakkiyako</iconPath>
 	</AK_DLL.OperatorClassDef>
 
-	<AK_DLL.OperatorClassDef ParentName="AK_OpClassBlueArchive">
-		<defName>AK_OperatorClass_SRT</defName>
+	<AK_DLL.OperatorClassDef ParentName="BA_OpClassBlueArchive">
+		<defName>BA_OperatorClass_SRT</defName>
 		<label>SRT</label>
 		<sortingOrder>24</sortingOrder>
 		<textureFolder>SRT</textureFolder>

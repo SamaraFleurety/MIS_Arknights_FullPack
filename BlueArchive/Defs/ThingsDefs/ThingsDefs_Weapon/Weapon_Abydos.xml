@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef ParentName="AK_WeaponBase_Abydos">
-		<defName>AK_Weapon_Shiroko</defName>
+	<ThingDef ParentName="BA_WeaponBase_Abydos">
+		<defName>BA_Weapon_Shiroko</defName>
 		<label>WHITE FANG 465</label>
 		<graphicData>
-			<texPath>Things/AK_Agents/Weapon/Abydos/ShirokoW</texPath>
+			<texPath>Things/BA_Students/Weapon/Abydos/ShirokoW</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<description>白子的爱用突击步枪。\n一直都在好好地进行整备，所以无论何时都是没有问题的状态。</description>
@@ -21,7 +21,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>AK_Bullet_Shiroko</defaultProjectile>
+				<defaultProjectile>BA_Bullet_Shiroko</defaultProjectile>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
 				<warmupTime>2.7</warmupTime>
 				<!--前摇-->
@@ -29,7 +29,7 @@
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
-				<soundCast>AK_Sound_Weapon_GeneralPistol</soundCast>
+				<soundCast>BA_Sound_Weapon_GeneralPistol</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 				<noiseRadius>3</noiseRadius>
@@ -55,8 +55,8 @@
 		</tools>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_BulletBase_Bow">
-		<defName>AK_Bullet_Shiroko</defName>
+	<ThingDef ParentName="BA_BulletBase_Bow">
+		<defName>BA_Bullet_Shiroko</defName>
 		<label>短点射击</label>
 		<graphicData>
 			<texPath>Things/Projectile/Bullet</texPath>
@@ -75,11 +75,11 @@
 		</projectile>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_WeaponBase_Abydos">
-		<defName>AK_Weapon_Hoshino</defName>
+	<ThingDef ParentName="BA_WeaponBase_Abydos">
+		<defName>BA_Weapon_Hoshino</defName>
 		<label>荷鲁斯之眼</label>
 		<graphicData>
-			<texPath>Things/AK_Agents/Weapon/Abydos/HoshinoW</texPath>
+			<texPath>Things/BA_Students/Weapon/Abydos/HoshinoW</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<description>星野爱用的简洁造型的霰弹枪平时懒洋洋的她，唯独对于枪的整备绝不会懈怠。</description>
@@ -95,7 +95,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>AK_Bullet_Hoshino</defaultProjectile>
+				<defaultProjectile>BA_Bullet_Hoshino</defaultProjectile>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
 				<warmupTime>2.7</warmupTime>
 				<!--前摇-->
@@ -103,7 +103,7 @@
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
-				<soundCast>AK_Sound_Weapon_GeneralPistol</soundCast>
+				<soundCast>BA_Sound_Weapon_GeneralPistol</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 				<noiseRadius>3</noiseRadius>
@@ -131,8 +131,8 @@
 		</tools>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_BulletBase_Bow">
-		<defName>AK_Bullet_Hoshino</defName>
+	<ThingDef ParentName="BA_BulletBase_Bow">
+		<defName>BA_Bullet_Hoshino</defName>
 		<label>霰弹散射</label>
 		<graphicData>
 			<texPath>Things/Projectile/Bullet</texPath>
@@ -151,21 +151,21 @@
 		</projectile>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_WeaponBase_Abydos">
-		<defName>AK_Weapon_HoshinoB</defName>
+	<ThingDef ParentName="BA_WeaponBase_Abydos">
+		<defName>BA_Weapon_HoshinoB</defName>
 		<label>钢铁荷鲁斯</label>
 		<graphicData>
-			<texPath>Things/AK_Agents/Weapon/Abydos/HoshinoW2</texPath>
+			<texPath>Things/BA_Students/Weapon/Abydos/HoshinoW2</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<description>梦前辈的遗物</description>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_WeaponBase_Abydos">
-		<defName>AK_Weapon_Serika</defName>
+	<ThingDef ParentName="BA_WeaponBase_Abydos">
+		<defName>BA_Weapon_Serika</defName>
 		<label>诚意</label>
 		<graphicData>
-			<texPath>Things/AK_Agents/Weapon/Abydos/SerikaW</texPath>
+			<texPath>Things/BA_Students/Weapon/Abydos/SerikaW</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<description>芹香外出打工时携带的突击步枪。芹香一直都很仔细地整备它，从这点也可以看出她认真诚实的一面。</description>
@@ -181,7 +181,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>AK_Bullet_Serika</defaultProjectile>
+				<defaultProjectile>BA_Bullet_Serika</defaultProjectile>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
 				<warmupTime>2.7</warmupTime>
 				<!--前摇-->
@@ -189,7 +189,7 @@
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
-				<soundCast>AK_Sound_Weapon_GeneralPistol</soundCast>
+				<soundCast>BA_Sound_Weapon_GeneralPistol</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 				<noiseRadius>3</noiseRadius>
@@ -215,8 +215,8 @@
 		</tools>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_BulletBase_Bow">
-		<defName>AK_Bullet_Serika</defName>
+	<ThingDef ParentName="BA_BulletBase_Bow">
+		<defName>BA_Bullet_Serika</defName>
 		<label>短点射击</label>
 		<graphicData>
 			<texPath>Things/Projectile/Bullet</texPath>
@@ -235,11 +235,11 @@
 		</projectile>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_WeaponBase_Abydos">
-		<defName>AK_Weapon_Nonomi</defName>
+	<ThingDef ParentName="BA_WeaponBase_Abydos">
+		<defName>BA_Weapon_Nonomi</defName>
 		<label>小型机关枪Ⅴ</label>
 		<graphicData>
-			<texPath>Things/AK_Agents/Weapon/Abydos/NonomiW</texPath>
+			<texPath>Things/BA_Students/Weapon/Abydos/NonomiW</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<description>野宫使用的机关枪。与名字里的“小型”正相反，相当大。</description>
@@ -255,7 +255,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>AK_Bullet_Nonomi</defaultProjectile>
+				<defaultProjectile>BA_Bullet_Nonomi</defaultProjectile>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
 				<warmupTime>5.2</warmupTime>
 				<!--前摇-->
@@ -263,7 +263,7 @@
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
-				<soundCast>AK_Sound_Weapon_GeneralPistol</soundCast>
+				<soundCast>BA_Sound_Weapon_GeneralPistol</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 				<noiseRadius>3</noiseRadius>
@@ -289,8 +289,8 @@
 		</tools>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_BulletBase_Bow">
-		<defName>AK_Bullet_Nonomi</defName>
+	<ThingDef ParentName="BA_BulletBase_Bow">
+		<defName>BA_Bullet_Nonomi</defName>
 		<label>短点射击</label>
 		<graphicData>
 			<texPath>Things/Projectile/Bullet</texPath>
@@ -309,11 +309,11 @@
 		</projectile>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_WeaponBase_Abydos">
-		<defName>AK_Weapon_Ayane</defName>
+	<ThingDef ParentName="BA_WeaponBase_Abydos">
+		<defName>BA_Weapon_Ayane</defName>
 		<label>常识</label>
 		<graphicData>
-			<texPath>Things/AK_Agents/Weapon/Abydos/AyaneW</texPath>
+			<texPath>Things/BA_Students/Weapon/Abydos/AyaneW</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<description>绫音所持的可爱造型的枪。只要不在绫音面前重复非常识性的言行，就不会有机会见到它。</description>
@@ -329,7 +329,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>AK_Bullet_Ayane</defaultProjectile>
+				<defaultProjectile>BA_Bullet_Ayane</defaultProjectile>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
 				<warmupTime>1.9</warmupTime>
 				<!--前摇-->
@@ -337,7 +337,7 @@
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
-				<soundCast>AK_Sound_Weapon_GeneralPistol</soundCast>
+				<soundCast>BA_Sound_Weapon_GeneralPistol</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 				<noiseRadius>3</noiseRadius>
@@ -363,8 +363,8 @@
 		</tools>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_BulletBase_Bow">
-		<defName>AK_Bullet_Ayane</defName>
+	<ThingDef ParentName="BA_BulletBase_Bow">
+		<defName>BA_Bullet_Ayane</defName>
 		<label>短点射击</label>
 		<graphicData>
 			<texPath>Things/Projectile/Bullet</texPath>

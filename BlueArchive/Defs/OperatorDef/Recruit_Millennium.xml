@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Millennium">
-		<defName>AK_Recruit_Asuna</defName>
+	<AK_DLL.OperatorDef ParentName="BA_RecruitBase_Millennium">
+		<defName>BA_Recruit_Asuna</defName>
 		<name>Asuna</name>
 		<nickname>Asuna</nickname>
 		<description>FIXMEDESC</description>
-		<weapon>AK_Weapon_AsunaA</weapon>
-		<hair>AK_Hair_Asuna</hair>
+		<weapon>BA_Weapon_AsunaA</weapon>
+		<hair>BA_Hair_Asuna</hair>
 		<apparels>
-			<li>AK_Apparel_Asuna</li>
+			<li>BA_Apparel_Asuna</li>
 		</apparels>
 		<stand>UI/Image/Millennium/AsunaStand</stand>
 		<headPortrait>UI/Image/Millennium/AsunaPortrait</headPortrait>
@@ -26,14 +26,14 @@
 				<def>Kind</def>
 			</li>
 			<li>
-				<def>AK_Trait_AsunaSecond</def>
+				<def>BA_Trait_AsunaSecond</def>
 			</li>
 			<li>
-				<def>AK_Trait_Asuna</def>
+				<def>BA_Trait_Asuna</def>
 			</li>
 		</traits>
 		<age>17</age>
-		<childHood>AK_BackStory_Asuna_Child</childHood>
+		<childHood>BA_BackStory_Asuna_Child</childHood>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -98,33 +98,33 @@
 		</skills>
 		<items>
 			<li>
-				<item>AK_Weapon_AsunaB</item>
+				<item>BA_Weapon_AsunaB</item>
 				<amount>1</amount>
 			</li>
 		</items>
 	</AK_DLL.OperatorDef>
 
-	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Millennium">
-		<defName>AK_Recruit_Karin</defName>
+	<AK_DLL.OperatorDef ParentName="BA_RecruitBase_Millennium">
+		<defName>BA_Recruit_Karin</defName>
 		<name>Karin</name>
 		<nickname>Karin</nickname>
 		<description>FIXMEDESC</description>
-		<weapon>AK_Weapon_Karin</weapon>
-		<hair>AK_Hair_Karin</hair>
+		<weapon>BA_Weapon_Karin</weapon>
+		<hair>BA_Hair_Karin</hair>
 		<apparels>
-			<li>AK_Apparel_Karin</li>
+			<li>BA_Apparel_Karin</li>
 		</apparels>
 		<stand>UI/Image/Millennium/KarinStand</stand>
 		<headPortrait>UI/Image/Millennium/KarinPortrait</headPortrait>
 		<traits>
 			<li>
-				<def>AK_Trait_KarinThird</def>
+				<def>BA_Trait_KarinThird</def>
 			</li>
 			<li>
-				<def>AK_Trait_KarinSecond</def>
+				<def>BA_Trait_KarinSecond</def>
 			</li>
 			<li>
-				<def>AK_Trait_Karin</def>
+				<def>BA_Trait_Karin</def>
 			</li>
 			<li>
 				<def>Beauty</def>
@@ -136,7 +136,7 @@
 			</li>
 		</traits>
 		<age>16</age>
-		<childHood>AK_BackStory_Karin_Child</childHood>
+		<childHood>BA_BackStory_Karin_Child</childHood>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -201,24 +201,24 @@
 		</skills>
 	</AK_DLL.OperatorDef>
 
-	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Millennium">
-		<defName>AK_Recruit_Akane</defName>
+	<AK_DLL.OperatorDef ParentName="BA_RecruitBase_Millennium">
+		<defName>BA_Recruit_Akane</defName>
 		<name>Akane</name>
 		<nickname>Akane</nickname>
 		<description>FIXMEDESC</description>
-		<weapon>AK_Weapon_AkaneA</weapon>
-		<hair>AK_Hair_Akane</hair>
+		<weapon>BA_Weapon_AkaneA</weapon>
+		<hair>BA_Hair_Akane</hair>
 		<apparels>
-			<li>AK_Apparel_Akane</li>
+			<li>BA_Apparel_Akane</li>
 		</apparels>
 		<stand>UI/Image/Millennium/AkaneStand</stand>
 		<headPortrait>UI/Image/Millennium/AkanePortrait</headPortrait>
 		<traits>
 			<li>
-				<def>AK_Trait_AkaneSecond</def>
+				<def>BA_Trait_AkaneSecond</def>
 			</li>
 			<li>
-				<def>AK_Trait_Akane</def>
+				<def>BA_Trait_Akane</def>
 			</li>
 			<li>
 				<def>Beauty</def>
@@ -226,7 +226,7 @@
 			</li>
 		</traits>
 		<age>16</age>
-		<childHood>AK_BackStory_Akane_Child</childHood>
+		<childHood>BA_BackStory_Akane_Child</childHood>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -291,11 +291,11 @@
 		</skills>
 		<items>
 			<li>
-				<item>AK_Weapon_AkaneB</item>
+				<item>BA_Weapon_AkaneB</item>
 				<amount>1</amount>
 			</li>
 			<li>
-				<item>AK_Weapon_AkaneC</item>
+				<item>BA_Weapon_AkaneC</item>
 				<amount>1</amount>
 			</li>
 			<li>
@@ -309,31 +309,31 @@
 		</items>
 	</AK_DLL.OperatorDef>
 
-	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Millennium">
-		<defName>AK_Recruit_Toki</defName>
+	<AK_DLL.OperatorDef ParentName="BA_RecruitBase_Millennium">
+		<defName>BA_Recruit_Toki</defName>
 		<name>Toki</name>
 		<nickname>Toki</nickname>
 		<description>FIXMEDESC</description>
-		<weapon>AK_Weapon_TokiA</weapon>
-		<hair>AK_Hair_Toki</hair>
+		<weapon>BA_Weapon_TokiA</weapon>
+		<hair>BA_Hair_Toki</hair>
 		<apparels>
-			<li>AK_Apparel_Toki</li>
+			<li>BA_Apparel_Toki</li>
 		</apparels>
 		<stand>UI/Image/Millennium/TokiStand</stand>
 		<headPortrait>UI/Image/Millennium/TokiPortrait</headPortrait>
 		<traits>
 			<li>
-				<def>AK_Trait_TokiSecond</def>
+				<def>BA_Trait_TokiSecond</def>
 			</li>
 			<li>
-				<def>AK_Trait_Toki</def>
+				<def>BA_Trait_Toki</def>
 			</li>
 			<li>
 				<def>Beauty</def>
 				<degree>2</degree>
 			</li>
 		</traits>
-		<childHood>AK_BackStory_Toki_Child</childHood>
+		<childHood>BA_BackStory_Toki_Child</childHood>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -398,21 +398,21 @@
 		</skills>
 		<items>
 			<li>
-				<item>AK_Weapon_TokiB</item>
+				<item>BA_Weapon_TokiB</item>
 				<amount>1</amount>
 			</li>
 		</items>
 	</AK_DLL.OperatorDef>
 
-	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Millennium">
-		<defName>AK_Recruit_Neru</defName>
+	<AK_DLL.OperatorDef ParentName="BA_RecruitBase_Millennium">
+		<defName>BA_Recruit_Neru</defName>
 		<name>Neru</name>
 		<nickname>Neru</nickname>
 		<description>FIXMEDESC</description>
-		<weapon>AK_Weapon_Neru</weapon>
-		<hair>AK_Hair_Neru</hair>
+		<weapon>BA_Weapon_Neru</weapon>
+		<hair>BA_Hair_Neru</hair>
 		<apparels>
-			<li>AK_Apparel_Neru</li>
+			<li>BA_Apparel_Neru</li>
 		</apparels>
 		<stand>UI/Image/Millennium/NeruStand</stand>
 		<headPortrait>UI/Image/Millennium/NeruPortrait</headPortrait>
@@ -426,17 +426,17 @@
 				<degree>2</degree>
 			</li>
 			<li>
-				<def>AK_Trait_NeruThird</def>
+				<def>BA_Trait_NeruThird</def>
 			</li>
 			<li>
-				<def>AK_Trait_NeruSecond</def>
+				<def>BA_Trait_NeruSecond</def>
 			</li>
 			<li>
-				<def>AK_Trait_Neru</def>
+				<def>BA_Trait_Neru</def>
 			</li>
 		</traits>
 		<age>17</age>
-		<childHood>AK_BackStory_Neru_Child</childHood>
+		<childHood>BA_BackStory_Neru_Child</childHood>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -501,27 +501,27 @@
 		</skills>
 	</AK_DLL.OperatorDef>
 
-	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Millennium">
-		<defName>AK_Recruit_Aris</defName>
+	<AK_DLL.OperatorDef ParentName="BA_RecruitBase_Millennium">
+		<defName>BA_Recruit_Aris</defName>
 		<name>Aris</name>
 		<nickname>Aris</nickname>
 		<description>FIXMEDESC</description>
-		<weapon>AK_Weapon_Aris</weapon>
-		<hair>AK_Hair_Aris</hair>
+		<weapon>BA_Weapon_Aris</weapon>
+		<hair>BA_Hair_Aris</hair>
 		<apparels>
-			<li>AK_Apparel_Aris</li>
+			<li>BA_Apparel_Aris</li>
 		</apparels>
 		<stand>UI/Image/Millennium/ArisStand</stand>
 		<headPortrait>UI/Image/Millennium/ArisPortrait</headPortrait>
 		<traits>
 			<li>
-				<def>AK_Trait_ArisThird</def>
+				<def>BA_Trait_ArisThird</def>
 			</li>
 			<li>
-				<def>AK_Trait_ArisSecond</def>
+				<def>BA_Trait_ArisSecond</def>
 			</li>
 			<li>
-				<def>AK_Trait_Aris</def>
+				<def>BA_Trait_Aris</def>
 			</li>
 			<li>
 				<def>Beauty</def>
@@ -529,7 +529,7 @@
 			</li>
 		</traits>
 		<age>15</age>
-		<childHood>AK_BackStory_Aris_Child</childHood>
+		<childHood>BA_BackStory_Aris_Child</childHood>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -594,15 +594,15 @@
 		</skills>
 	</AK_DLL.OperatorDef>
 
-	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Millennium">
-		<defName>AK_Recruit_Yuzu</defName>
+	<AK_DLL.OperatorDef ParentName="BA_RecruitBase_Millennium">
+		<defName>BA_Recruit_Yuzu</defName>
 		<name>Yuzu</name>
 		<nickname>Yuzu</nickname>
 		<description>FIXMEDESC</description>
-		<weapon>AK_Weapon_Yuzu</weapon>
-		<hair>AK_Hair_Yuzu</hair>
+		<weapon>BA_Weapon_Yuzu</weapon>
+		<hair>BA_Hair_Yuzu</hair>
 		<apparels>
-			<li>AK_Apparel_Yuzu</li>
+			<li>BA_Apparel_Yuzu</li>
 		</apparels>
 		<stand>UI/Image/Millennium/YuzuStand</stand>
 		<headPortrait>UI/Image/Millennium/YuzuPortrait</headPortrait>
@@ -615,16 +615,16 @@
 				<degree>2</degree>
 			</li>
 			<li>
-				<def>AK_Trait_YuzuSecond</def>
+				<def>BA_Trait_YuzuSecond</def>
 			</li>
 			<li>
-				<def>AK_Trait_Yuzu</def>
+				<def>BA_Trait_Yuzu</def>
 			</li>
 			<li>
 				<def>Undergrounder</def>
 			</li>
 		</traits>
-		<childHood>AK_BackStory_Yuzu_Child</childHood>
+		<childHood>BA_BackStory_Yuzu_Child</childHood>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -689,15 +689,15 @@
 		</skills>
 	</AK_DLL.OperatorDef>
 
-	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Millennium">
-		<defName>AK_Recruit_Momoi</defName>
+	<AK_DLL.OperatorDef ParentName="BA_RecruitBase_Millennium">
+		<defName>BA_Recruit_Momoi</defName>
 		<name>Momoi</name>
 		<nickname>Momoi</nickname>
 		<description>FIXMEDESC</description>
-		<weapon>AK_Weapon_Momoi</weapon>
-		<hair>AK_Hair_Momoi</hair>
+		<weapon>BA_Weapon_Momoi</weapon>
+		<hair>BA_Hair_Momoi</hair>
 		<apparels>
-			<li>AK_Apparel_Momoi</li>
+			<li>BA_Apparel_Momoi</li>
 		</apparels>
 		<stand>UI/Image/Millennium/MomoiStand</stand>
 		<headPortrait>UI/Image/Millennium/MomoiPortrait</headPortrait>
@@ -714,14 +714,14 @@
 				<def>Kind</def>
 			</li>
 			<li>
-				<def>AK_Trait_MomoiSecond</def>
+				<def>BA_Trait_MomoiSecond</def>
 			</li>
 			<li>
-				<def>AK_Trait_Momoi</def>
+				<def>BA_Trait_Momoi</def>
 			</li>
 		</traits>
 		<age>15</age>
-		<childHood>AK_BackStory_Momoi_Child</childHood>
+		<childHood>BA_BackStory_Momoi_Child</childHood>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -786,15 +786,15 @@
 		</skills>
 	</AK_DLL.OperatorDef>
 
-	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Millennium">
-		<defName>AK_Recruit_Midori</defName>
+	<AK_DLL.OperatorDef ParentName="BA_RecruitBase_Millennium">
+		<defName>BA_Recruit_Midori</defName>
 		<name>Midori</name>
 		<nickname>Midori</nickname>
 		<description>FIXMEDESC</description>
-		<weapon>AK_Weapon_Midori</weapon>
-		<hair>AK_Hair_Midori</hair>
+		<weapon>BA_Weapon_Midori</weapon>
+		<hair>BA_Hair_Midori</hair>
 		<apparels>
-			<li>AK_Apparel_Midori</li>
+			<li>BA_Apparel_Midori</li>
 		</apparels>
 		<stand>UI/Image/Millennium/MidoriStand</stand>
 		<headPortrait>UI/Image/Millennium/MidoriPortrait</headPortrait>
@@ -807,17 +807,17 @@
 				<degree>2</degree>
 			</li>
 			<li>
-				<def>AK_Trait_MidoriSecond</def>
+				<def>BA_Trait_MidoriSecond</def>
 			</li>
 			<li>
-				<def>AK_Trait_Midori</def>
+				<def>BA_Trait_Midori</def>
 			</li>
 			<li>
-				<def>AK_Trait_MomoiSecond</def>
+				<def>BA_Trait_MomoiSecond</def>
 			</li>
 		</traits>
 		<age>15</age>
-		<childHood>AK_BackStory_Midori_Child</childHood>
+		<childHood>BA_BackStory_Midori_Child</childHood>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -882,24 +882,24 @@
 		</skills>
 	</AK_DLL.OperatorDef>
 
-	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Millennium">
-		<defName>AK_Recruit_Hibiki</defName>
+	<AK_DLL.OperatorDef ParentName="BA_RecruitBase_Millennium">
+		<defName>BA_Recruit_Hibiki</defName>
 		<name>Hibiki</name>
 		<nickname>Hibiki</nickname>
 		<description>FIXMEDESC</description>
-		<weapon>AK_Weapon_Hibiki</weapon>
-		<hair>AK_Hair_Hibiki</hair>
+		<weapon>BA_Weapon_Hibiki</weapon>
+		<hair>BA_Hair_Hibiki</hair>
 		<apparels>
-			<li>AK_Apparel_Hibiki</li>
+			<li>BA_Apparel_Hibiki</li>
 		</apparels>
 		<stand>UI/Image/Millennium/HibikiStand</stand>
 		<headPortrait>UI/Image/Millennium/HibikiPortrait</headPortrait>
 		<traits>
 			<li>
-				<def>AK_Trait_HibikiSecond</def>
+				<def>BA_Trait_HibikiSecond</def>
 			</li>
 			<li>
-				<def>AK_Trait_Hibiki</def>
+				<def>BA_Trait_Hibiki</def>
 			</li>
 			<li>
 				<def>Beauty</def>
@@ -910,7 +910,7 @@
 			</li>
 		</traits>
 		<age>15</age>
-		<childHood>AK_BackStory_Hibiki_Child</childHood>
+		<childHood>BA_BackStory_Hibiki_Child</childHood>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -975,15 +975,15 @@
 		</skills>
 	</AK_DLL.OperatorDef>
 
-	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Millennium">
-		<defName>AK_Recruit_Kotori</defName>
+	<AK_DLL.OperatorDef ParentName="BA_RecruitBase_Millennium">
+		<defName>BA_Recruit_Kotori</defName>
 		<name>Kotori</name>
 		<nickname>Kotori</nickname>
 		<description>FIXMEDESC</description>
-		<weapon>AK_Weapon_Kotori</weapon>
-		<hair>AK_Hair_Kotori</hair>
+		<weapon>BA_Weapon_Kotori</weapon>
+		<hair>BA_Hair_Kotori</hair>
 		<apparels>
-			<li>AK_Apparel_Kotori</li>
+			<li>BA_Apparel_Kotori</li>
 		</apparels>
 		<stand>UI/Image/Millennium/KotoriStand</stand>
 		<headPortrait>UI/Image/Millennium/KotoriPortrait</headPortrait>
@@ -1000,14 +1000,14 @@
 				<def>Kind</def>
 			</li>
 			<li>
-				<def>AK_Trait_Kotori</def>
+				<def>BA_Trait_Kotori</def>
 			</li>
 			<li>
 				<def>TooSmart</def>
 			</li>
 		</traits>
 		<age>15</age>
-		<childHood>AK_BackStory_Kotori_Child</childHood>
+		<childHood>BA_BackStory_Kotori_Child</childHood>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -1072,15 +1072,15 @@
 		</skills>
 	</AK_DLL.OperatorDef>
 
-	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Millennium">
-		<defName>AK_Recruit_Utaha</defName>
+	<AK_DLL.OperatorDef ParentName="BA_RecruitBase_Millennium">
+		<defName>BA_Recruit_Utaha</defName>
 		<name>Utaha</name>
 		<nickname>Utaha</nickname>
 		<description>FIXMEDESC</description>
-		<weapon>AK_Weapon_Utaha</weapon>
-		<hair>AK_Hair_Utaha</hair>
+		<weapon>BA_Weapon_Utaha</weapon>
+		<hair>BA_Hair_Utaha</hair>
 		<apparels>
-			<li>AK_Apparel_Utaha</li>
+			<li>BA_Apparel_Utaha</li>
 		</apparels>
 		<stand>UI/Image/Millennium/UtahaStand</stand>
 		<headPortrait>UI/Image/Millennium/UtahaPortrait</headPortrait>
@@ -1093,17 +1093,17 @@
 				<degree>2</degree>
 			</li>
 			<li>
-				<def>AK_Trait_HibikiSecond</def>
+				<def>BA_Trait_HibikiSecond</def>
 			</li>
 			<li>
-				<def>AK_Trait_Utaha</def>
+				<def>BA_Trait_Utaha</def>
 			</li>
 			<li>
 				<def>TooSmart</def>
 			</li>
 		</traits>
 		<age>17</age>
-		<childHood>AK_BackStory_Utaha_Child</childHood>
+		<childHood>BA_BackStory_Utaha_Child</childHood>
 		<skills>
 			<li>
 				<skill>Animals</skill>

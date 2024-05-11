@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Hyakkiyako">
-		<defName>AK_Recruit_Tsubaki</defName>
+	<AK_DLL.OperatorDef ParentName="BA_RecruitBase_Hyakkiyako">
+		<defName>BA_Recruit_Tsubaki</defName>
 		<name>Tsubaki</name>
 		<nickname>Tsubaki</nickname>
 		<description>FIXMEDESC</description>
-		<weapon>AK_Weapon_TsubakiA</weapon>
-		<hair>AK_Hair_Tsubaki</hair>
+		<weapon>BA_Weapon_TsubakiA</weapon>
+		<hair>BA_Hair_Tsubaki</hair>
 		<apparels>
-			<li>AK_Apparel_Tsubaki</li>
+			<li>BA_Apparel_Tsubaki</li>
 		</apparels>
 		<stand>UI/Image/Hyakkiyako/TsubakiStand</stand>
 		<headPortrait>UI/Image/Hyakkiyako/TsubakiPortrait</headPortrait>
@@ -25,11 +25,11 @@
 				<def>Kind</def>
 			</li>
 			<li>
-				<def>AK_Trait_Tsubaki</def>
+				<def>BA_Trait_Tsubaki</def>
 			</li>
 		</traits>
 		<age>16</age>
-		<childHood>AK_BackStory_Tsubaki_Child</childHood>
+		<childHood>BA_BackStory_Tsubaki_Child</childHood>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -94,7 +94,7 @@
 		</skills>
 		<items>
 			<li>
-				<item>AK_Weapon_TsubakiB</item>
+				<item>BA_Weapon_TsubakiB</item>
 				<amount>1</amount>
 			</li>
 		</items>

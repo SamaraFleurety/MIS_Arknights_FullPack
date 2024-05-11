@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<AK_DLL.OperatorDef Name="AK_RecruitBase" Abstract="True">
-		<surname>罗德岛</surname>
-		<description>在路的尽头，他看到她们成了他</description>
+	<AK_DLL.OperatorDef Name="BA_RecruitBase" Abstract="True">
+		<surname>基沃托斯</surname>
+		<description>欢迎来到基沃托斯</description>
 		<bodyTypeDef>Thin</bodyTypeDef>
 		<skinColor>
 			<r>0.9804</r>
@@ -17,9 +17,9 @@
 			<b>1</b>
 			<a>1</a>
 		</hairColor>
-		<childHood>AK_BackStory_Unknown_Child</childHood>
+		<childHood>BA_BackStory_Unknown_Child</childHood>
 		<age>16</age>
-		<headTypeDef>AK_Head_Small</headTypeDef>
+		<headTypeDef>BA_Head_Small</headTypeDef>
 		<standOffsets>
 			<li>
 				<key>0</key>
@@ -30,52 +30,52 @@
 				<value>(10,10,0.5)</value>
 			</li>
 		</standOffsets>
-		<xenoType>AK_BaseType</xenoType>
+		<xenoType>BA_BaseType</xenoType>
 	</AK_DLL.OperatorDef>
 
-	<AK_DLL.OperatorDef ParentName="AK_RecruitBase" Name="AK_RecruitBase_Abydos" Abstract="True">
+	<AK_DLL.OperatorDef ParentName="BA_RecruitBase" Name="BA_RecruitBase_Abydos" Abstract="True">
 		<traits>
 			<li>
-				<def>AK_Trait_Agent_Abydos</def>
+				<def>BA_Trait_Agent_Abydos</def>
 			</li>
 		</traits>
-		<operatorType>AK_OperatorClass_Abydos</operatorType>
+		<operatorType>BA_OperatorClass_Abydos</operatorType>
 	</AK_DLL.OperatorDef>
 
-	<AK_DLL.OperatorDef ParentName="AK_RecruitBase" Name="AK_RecruitBase_Hyakkiyako" Abstract="True">
+	<AK_DLL.OperatorDef ParentName="BA_RecruitBase" Name="BA_RecruitBase_Hyakkiyako" Abstract="True">
 		<traits>
 			<li>
-				<def>AK_Trait_Agent_Hyakkiyako</def>
+				<def>BA_Trait_Agent_Hyakkiyako</def>
 			</li>
 		</traits>
-		<operatorType>AK_OperatorClass_Hyakkiyako</operatorType>
+		<operatorType>BA_OperatorClass_Hyakkiyako</operatorType>
 	</AK_DLL.OperatorDef>
 
-	<AK_DLL.OperatorDef ParentName="AK_RecruitBase" Name="AK_RecruitBase_Millennium" Abstract="True">
+	<AK_DLL.OperatorDef ParentName="BA_RecruitBase" Name="BA_RecruitBase_Millennium" Abstract="True">
 		<traits>
 			<li>
-				<def>AK_Trait_Agent_Millennium</def>
+				<def>BA_Trait_Agent_Millennium</def>
 			</li>
 		</traits>
-		<operatorType>AK_OperatorClass_Millennium</operatorType>
+		<operatorType>BA_OperatorClass_Millennium</operatorType>
 	</AK_DLL.OperatorDef>
 
-	<AK_DLL.OperatorDef ParentName="AK_RecruitBase" Name="AK_RecruitBase_SRT" Abstract="True">
+	<AK_DLL.OperatorDef ParentName="BA_RecruitBase" Name="BA_RecruitBase_SRT" Abstract="True">
 		<traits>
 			<li>
-				<def>AK_Trait_Agent_SRT</def>
+				<def>BA_Trait_Agent_SRT</def>
 			</li>
 		</traits>
-		<operatorType>AK_OperatorClass_SRT</operatorType>
+		<operatorType>BA_OperatorClass_SRT</operatorType>
 	</AK_DLL.OperatorDef>
 
-	<AK_DLL.OperatorDef ParentName="AK_RecruitBase" Name="AK_RecruitBase_Trinity" Abstract="True">
+	<AK_DLL.OperatorDef ParentName="BA_RecruitBase" Name="BA_RecruitBase_Trinity" Abstract="True">
 		<traits>
 			<li>
-				<def>AK_Trait_Agent_Trinity</def>
+				<def>BA_Trait_Agent_Trinity</def>
 			</li>
 		</traits>
-		<operatorType>AK_OperatorClass_Trinity</operatorType>
+		<operatorType>BA_OperatorClass_Trinity</operatorType>
 	</AK_DLL.OperatorDef>
 
 </Defs>

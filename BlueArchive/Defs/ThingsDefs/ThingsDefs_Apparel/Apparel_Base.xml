@@ -1,33 +1,95 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef Name="AK_ArmorBase_Abydos" ParentName="AK_ArmorBase" Abstract="True">
+  <ThingDef Name="BA_ArmorBase" ParentName="ApparelBase" Abstract="True">
+		<defName>BA_ArmorBase</defName>
+		<label>学生日常装束</label>
+		<smeltable>false</smeltable>
+		<description>学生平时最常穿着的服装。虽然不一定比私服更实用，但是一定是学生最舒适的搭配之一。</description>
+		<useHitPoints>false</useHitPoints>
+		<techLevel>Undefined</techLevel>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/FlakVest/FlakVest</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.50</drawSize>
+		</graphicData>
+		<statBases>
+			<Mass>4</Mass>
+			<Flammability>0</Flammability>
+			<DeteriorationRate>0</DeteriorationRate>
+			<ArmorRating_Sharp>1.00</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.36</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.27</ArmorRating_Heat>
+			<AK_ArmorRating_Magic>0.27</AK_ArmorRating_Magic>
+			<Insulation_Cold>1</Insulation_Cold>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
+		<thingCategories Inherit="false">
+			<li>BA_Apparel</li>
+		</thingCategories>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/FlakVest/FlakVest</wornGraphicPath>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options" Inherit="false">
+			<options>
+				<li>
+					<only>(255,255,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<burnableByRecipe>false</burnableByRecipe>
+		<relicChance>0</relicChance>
+		<tradeability>None</tradeability>
+		<tickerType>Never</tickerType>
+		<generateCommonality>0</generateCommonality>
+		<generateAllowChance>0</generateAllowChance>
+		<randomizeRotationOnSpawn>false</randomizeRotationOnSpawn>
+		<canLoadIntoCaravan>false</canLoadIntoCaravan>
+		<comps>
+			<li Class="CompProperties_Biocodable"/>
+			<li Class="AK_DLL.TCP_RemoveMe"/>
+			<li Class="AK_Industry.TCP_OripathyMonitor" MayRequire="MIS.Industry" />
+		</comps>
+	</ThingDef>
+
+  <ThingDef Name="BA_ArmorBase_Abydos" ParentName="BA_ArmorBase" Abstract="True">
     <thingCategories Inherit="false">
-      <li>AK_Apparel_BlueArchive</li>
+      <li>BA_Apparel_BlueArchive</li>
     </thingCategories>
   </ThingDef>
 
-  <ThingDef Name="AK_ArmorBase_Millennium" ParentName="AK_ArmorBase" Abstract="True">
+  <ThingDef Name="BA_ArmorBase_Millennium" ParentName="BA_ArmorBase" Abstract="True">
     <thingCategories Inherit="false">
-      <li>AK_Apparel_BlueArchive</li>
+      <li>BA_Apparel_BlueArchive</li>
     </thingCategories>
   </ThingDef>
 
-  <ThingDef Name="AK_ArmorBase_Hyakkiyako" ParentName="AK_ArmorBase" Abstract="True">
+  <ThingDef Name="BA_ArmorBase_Hyakkiyako" ParentName="BA_ArmorBase" Abstract="True">
     <thingCategories Inherit="false">
-      <li>AK_Apparel_BlueArchive</li>
+      <li>BA_Apparel_BlueArchive</li>
     </thingCategories>
   </ThingDef>
 
-  <ThingDef Name="AK_ArmorBase_SRT" ParentName="AK_ArmorBase" Abstract="True">
+  <ThingDef Name="BA_ArmorBase_SRT" ParentName="BA_ArmorBase" Abstract="True">
     <thingCategories Inherit="false">
-      <li>AK_Apparel_BlueArchive</li>
+      <li>BA_Apparel_BlueArchive</li>
     </thingCategories>
   </ThingDef>
 
-  <ThingDef Name="AK_ArmorBase_Trinity" ParentName="AK_ArmorBase" Abstract="True">
+  <ThingDef Name="BA_ArmorBase_Trinity" ParentName="BA_ArmorBase" Abstract="True">
     <thingCategories Inherit="false">
-      <li>AK_Apparel_BlueArchive</li>
+      <li>BA_Apparel_BlueArchive</li>
     </thingCategories>
   </ThingDef>
 

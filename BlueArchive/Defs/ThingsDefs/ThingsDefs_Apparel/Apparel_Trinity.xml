@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef ParentName="AK_ArmorBase_Trinity">
-		<defName>AK_Apparel_Ui</defName>
+	<ThingDef ParentName="BA_ArmorBase_Trinity">
+		<defName>BA_Apparel_Ui</defName>
 		<label>忧的服装</label>
 		<description>忧的圣三一制服，虽然打理的还算干净，但因为长期待在缺乏通风设备的古书馆，她身上总是有一股很重的发霉味道。</description>
 		<graphicData>
-			<texPath>Things/AK_Agents/Trinity/Ui</texPath>
+			<texPath>Things/BA_Students/Trinity/Ui</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Things/AK_Agents/Trinity/Ui</wornGraphicPath>
+			<wornGraphicPath>Things/BA_Students/Trinity/Ui</wornGraphicPath>
 		</apparel>
 		<statBases>
 			<ArmorRating_Sharp>1</ArmorRating_Sharp>

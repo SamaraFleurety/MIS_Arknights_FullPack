@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <AK_DLL.OperatorDef ParentName="AK_RecruitBase_SRT">
-		<defName>AK_Recruit_Miyako</defName>
+    <AK_DLL.OperatorDef ParentName="BA_RecruitBase_SRT">
+		<defName>BA_Recruit_Miyako</defName>
 		<name>Miyako</name>
 		<nickname>Miyako</nickname>
 		<description>FIXMEDESC</description>
-		<weapon>AK_Weapon_Miyako</weapon>
-		<hair>AK_Hair_Miyako</hair>
+		<weapon>BA_Weapon_Miyako</weapon>
+		<hair>BA_Hair_Miyako</hair>
 		<apparels>
-			<li>AK_Apparel_Miyako</li>
+			<li>BA_Apparel_Miyako</li>
 		</apparels>
 		<stand>UI/Image/SRT/MiyakoStand</stand>
 		<headPortrait>UI/Image/SRT/MiyakoPortrait</headPortrait>
@@ -22,14 +22,14 @@
 				<degree>2</degree>
 			</li>
 			<li>
-				<def>AK_Trait_Miyako</def>
+				<def>BA_Trait_Miyako</def>
 			</li>
 			<li>
-				<def>AK_Trait_MiyakoSecond</def>
+				<def>BA_Trait_MiyakoSecond</def>
 			</li>
 		</traits>
 		<age>15</age>
-		<childHood>AK_BackStory_Miyako_Child</childHood>
+		<childHood>BA_BackStory_Miyako_Child</childHood>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -94,15 +94,15 @@
 		</skills>
 	</AK_DLL.OperatorDef>
 
-    <AK_DLL.OperatorDef ParentName="AK_RecruitBase_SRT">
-		<defName>AK_Recruit_Saki</defName>
+    <AK_DLL.OperatorDef ParentName="BA_RecruitBase_SRT">
+		<defName>BA_Recruit_Saki</defName>
 		<name>Saki</name>
 		<nickname>Saki</nickname>
 		<description>FIXMEDESC</description>
-		<weapon>AK_Weapon_SakiA</weapon>
-		<hair>AK_Hair_Saki</hair>
+		<weapon>BA_Weapon_SakiA</weapon>
+		<hair>BA_Hair_Saki</hair>
 		<apparels>
-			<li>AK_Apparel_Saki</li>
+			<li>BA_Apparel_Saki</li>
 		</apparels>
 		<stand>UI/Image/SRT/SakiStand</stand>
 		<headPortrait>UI/Image/SRT/SakiPortrait</headPortrait>
@@ -120,14 +120,14 @@
                 <degree>-1</degree>
 			</li>
 			<li>
-				<def>AK_Trait_Saki</def>
+				<def>BA_Trait_Saki</def>
 			</li>
 			<li>
-				<def>AK_Trait_SakiSecond</def>
+				<def>BA_Trait_SakiSecond</def>
 			</li>
 		</traits>
 		<age>15</age>
-		<childHood>AK_BackStory_Saki_Child</childHood>
+		<childHood>BA_BackStory_Saki_Child</childHood>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -192,21 +192,21 @@
 		</skills>
         <items>
 			<li>
-				<item>AK_Weapon_SakiB</item>
+				<item>BA_Weapon_SakiB</item>
 				<amount>1</amount>
 			</li>
         </items>
 	</AK_DLL.OperatorDef>
 
-    <AK_DLL.OperatorDef ParentName="AK_RecruitBase_SRT">
-		<defName>AK_Recruit_Moe</defName>
+    <AK_DLL.OperatorDef ParentName="BA_RecruitBase_SRT">
+		<defName>BA_Recruit_Moe</defName>
 		<name>Moe</name>
 		<nickname>Moe</nickname>
 		<description>FIXMEDESC</description>
-		<weapon>AK_Weapon_Moe</weapon>
-		<hair>AK_Hair_Moe</hair>
+		<weapon>BA_Weapon_Moe</weapon>
+		<hair>BA_Hair_Moe</hair>
 		<apparels>
-			<li>AK_Apparel_Moe</li>
+			<li>BA_Apparel_Moe</li>
 		</apparels>
 		<stand>UI/Image/SRT/MoeStand</stand>
 		<headPortrait>UI/Image/SRT/MoePortrait</headPortrait>
@@ -219,14 +219,14 @@
 				<def>Masochist</def>
 			</li>
 			<li>
-				<def>AK_Trait_Moe</def>
+				<def>BA_Trait_Moe</def>
 			</li>
 			<li>
-				<def>AK_Trait_MoeSecond</def>
+				<def>BA_Trait_MoeSecond</def>
 			</li>
 		</traits>
 		<age>15</age>
-		<childHood>AK_BackStory_Moe_Child</childHood>
+		<childHood>BA_BackStory_Moe_Child</childHood>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -297,15 +297,15 @@
         </items>
 	</AK_DLL.OperatorDef>
 
-    <AK_DLL.OperatorDef ParentName="AK_RecruitBase_SRT">
-		<defName>AK_Recruit_Miyu</defName>
+    <AK_DLL.OperatorDef ParentName="BA_RecruitBase_SRT">
+		<defName>BA_Recruit_Miyu</defName>
 		<name>Miyu</name>
 		<nickname>Miyu</nickname>
 		<description>FIXMEDESC</description>
-		<weapon>AK_Weapon_Miyu</weapon>
-		<hair>AK_Hair_Miyu</hair>
+		<weapon>BA_Weapon_Miyu</weapon>
+		<hair>BA_Hair_Miyu</hair>
 		<apparels>
-			<li>AK_Apparel_Miyu</li>
+			<li>BA_Apparel_Miyu</li>
 		</apparels>
 		<stand>UI/Image/SRT/MiyuStand</stand>
 		<headPortrait>UI/Image/SRT/MiyuPortrait</headPortrait>
@@ -319,14 +319,14 @@
 				<degree>-1</degree>
 			</li>
 			<li>
-				<def>AK_Trait_Miyu</def>
+				<def>BA_Trait_Miyu</def>
 			</li>
 			<li>
-				<def>AK_Trait_MiyuSecond</def>
+				<def>BA_Trait_MiyuSecond</def>
 			</li>
 		</traits>
 		<age>15</age>
-		<childHood>AK_BackStory_Miyu_Child</childHood>
+		<childHood>BA_BackStory_Miyu_Child</childHood>
 		<skills>
 			<li>
 				<skill>Animals</skill>

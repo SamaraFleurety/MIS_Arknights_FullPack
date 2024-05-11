@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef ParentName="AK_ArmorBase_Millennium">
-		<defName>AK_Apparel_Asuna</defName>
+	<ThingDef ParentName="BA_ArmorBase_Millennium">
+		<defName>BA_Apparel_Asuna</defName>
 		<label>明日奈的兔女郎装</label>
 		<description>虽然不是平常的女仆装，但完全不受影响，一如既往的情绪高昂。甚至能说因为身处在新的地方体验新的事物，看起来比平时还要开心。\n"今天也开心的玩吧，主人！"\nP.S.这件衣服其实是从轮船守卫身上扒下来的</description>
 		<graphicData>
-			<texPath>Things/AK_Agents/Millennium/Asuna</texPath>
+			<texPath>Things/BA_Students/Millennium/Asuna</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Things/AK_Agents/Millennium/Asuna</wornGraphicPath>
+			<wornGraphicPath>Things/BA_Students/Millennium/Asuna</wornGraphicPath>
 		</apparel>
 		<statBases>
 			<ArmorRating_Sharp>1</ArmorRating_Sharp>
@@ -19,16 +19,16 @@
 		</statBases>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_ArmorBase_Millennium">
-		<defName>AK_Apparel_Karin</defName>
+	<ThingDef ParentName="BA_ArmorBase_Millennium">
+		<defName>BA_Apparel_Karin</defName>
 		<label>花凛的兔女郎装</label>
 		<description>她一边说着是为了任务，一边兴冲冲地换衣服。但是，比起平时，对于周围的视线还是有点在意的样子。\nP.S.这件衣服其实是从轮船守卫身上扒下来的</description>
 		<graphicData>
-			<texPath>Things/AK_Agents/Millennium/Karin</texPath>
+			<texPath>Things/BA_Students/Millennium/Karin</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Things/AK_Agents/Millennium/Karin</wornGraphicPath>
+			<wornGraphicPath>Things/BA_Students/Millennium/Karin</wornGraphicPath>
 		</apparel>
 		<statBases>
 			<ArmorRating_Sharp>1.35</ArmorRating_Sharp>
@@ -37,16 +37,16 @@
 		</statBases>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_ArmorBase_Millennium">
-		<defName>AK_Apparel_Akane</defName>
+	<ThingDef ParentName="BA_ArmorBase_Millennium">
+		<defName>BA_Apparel_Akane</defName>
 		<label>朱音的兔女郎装</label>
 		<description>即使是在不习惯的环境下，为了潜入任务也率先准备好了兔女郎服装，使用C4清理掉了障碍物等等，一如既往沉着冷静地推进着作战计划。也许是因为穿着和平时不同的服装的缘故，哪儿都能看到她兴奋的表情。\n"我是主人的女仆……\n不对，现在应该说是主人的兔子吧"\nP.S.这件衣服其实是从轮船守卫身上扒下来的</description>
 		<graphicData>
-			<texPath>Things/AK_Agents/Millennium/Akane</texPath>
+			<texPath>Things/BA_Students/Millennium/Akane</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Things/AK_Agents/Millennium/Akane</wornGraphicPath>
+			<wornGraphicPath>Things/BA_Students/Millennium/Akane</wornGraphicPath>
 		</apparel>
 		<statBases>
 			<ArmorRating_Sharp>1.35</ArmorRating_Sharp>
@@ -55,16 +55,16 @@
 		</statBases>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_ArmorBase_Millennium">
-		<defName>AK_Apparel_Toki</defName>
+	<ThingDef ParentName="BA_ArmorBase_Millennium">
+		<defName>BA_Apparel_Toki</defName>
 		<label>时的兔女郎服</label>
 		<description>时坚信潜入作战理所当然要穿兔女郎服装，不知是否是因为她平常总是处于特殊的立场，被委任到平时不怎么有机会参与的潜入任务，她看起来格外兴奋。能有机会和CC的前辈一起出任务，内心十分喜悦，但本人表面上却装作一派平静的样子。\n"作战执行准备、完毕。随时可以出发。\n这个打扮……？有什么问题吗？"</description>
 		<graphicData>
-			<texPath>Things/AK_Agents/Millennium/Toki</texPath>
+			<texPath>Things/BA_Students/Millennium/Toki</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Things/AK_Agents/Millennium/Toki</wornGraphicPath>
+			<wornGraphicPath>Things/BA_Students/Millennium/Toki</wornGraphicPath>
 		</apparel>
 		<statBases>
 			<ArmorRating_Sharp>0.9</ArmorRating_Sharp>
@@ -73,16 +73,16 @@
 		</statBases>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_ArmorBase_Millennium">
-		<defName>AK_Apparel_Neru</defName>
+	<ThingDef ParentName="BA_ArmorBase_Millennium">
+		<defName>BA_Apparel_Neru</defName>
 		<label>尼禄的兔女郎装</label>
 		<description>平时绝不会穿上兔女郎，但为了任务无可奈何。\n虽然平时为了任务一直都在忍耐着，但那个外套是不会脱下来的</description>
 		<graphicData>
-			<texPath>Things/AK_Agents/Millennium/Neru</texPath>
+			<texPath>Things/BA_Students/Millennium/Neru</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Things/AK_Agents/Millennium/Neru</wornGraphicPath>
+			<wornGraphicPath>Things/BA_Students/Millennium/Neru</wornGraphicPath>
 		</apparel>
 		<statBases>
 			<ArmorRating_Sharp>1.35</ArmorRating_Sharp>
@@ -91,16 +91,16 @@
 		</statBases>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_ArmorBase_Millennium">
-		<defName>AK_Apparel_Aris</defName>
+	<ThingDef ParentName="BA_ArmorBase_Millennium">
+		<defName>BA_Apparel_Aris</defName>
 		<label>爱丽丝的服装</label>
 		<description>由于爱丽丝被发现的时候不着寸缕，所以彩羽姐妹就把自己的衣服借给了爱丽丝穿。不过爱丽丝似乎很喜欢这套。\n顺便一提爱丽丝的内裤是彩羽绿的。</description>
 		<graphicData>
-			<texPath>Things/AK_Agents/Millennium/Aris</texPath>
+			<texPath>Things/BA_Students/Millennium/Aris</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Things/AK_Agents/Millennium/Aris</wornGraphicPath>
+			<wornGraphicPath>Things/BA_Students/Millennium/Aris</wornGraphicPath>
 		</apparel>
 		<statBases>
 			<ArmorRating_Sharp>1</ArmorRating_Sharp>
@@ -109,16 +109,16 @@
 		</statBases>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_ArmorBase_Millennium">
-		<defName>AK_Apparel_Yuzu</defName>
+	<ThingDef ParentName="BA_ArmorBase_Millennium">
+		<defName>BA_Apparel_Yuzu</defName>
 		<label>柚子的服装</label>
 		<description>柚子的开发部部长制服，外套很宽大；因为平时极少出门，柚子大多数情况下都是穿拖鞋或者干脆光脚。</description>
 		<graphicData>
-			<texPath>Things/AK_Agents/Millennium/Yuzu</texPath>
+			<texPath>Things/BA_Students/Millennium/Yuzu</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Things/AK_Agents/Millennium/Yuzu</wornGraphicPath>
+			<wornGraphicPath>Things/BA_Students/Millennium/Yuzu</wornGraphicPath>
 		</apparel>
 		<statBases>
 			<ArmorRating_Sharp>1</ArmorRating_Sharp>
@@ -127,16 +127,16 @@
 		</statBases>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_ArmorBase_Millennium">
-		<defName>AK_Apparel_Momoi</defName>
+	<ThingDef ParentName="BA_ArmorBase_Millennium">
+		<defName>BA_Apparel_Momoi</defName>
 		<label>桃井的服装</label>
 		<description>桃井的开发部制服，和妹妹的款式几乎一样，但是是桃红色的。</description>
 		<graphicData>
-			<texPath>Things/AK_Agents/Millennium/Momoi</texPath>
+			<texPath>Things/BA_Students/Millennium/Momoi</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Things/AK_Agents/Millennium/Momoi</wornGraphicPath>
+			<wornGraphicPath>Things/BA_Students/Millennium/Momoi</wornGraphicPath>
 		</apparel>
 		<statBases>
 			<ArmorRating_Sharp>1</ArmorRating_Sharp>
@@ -145,16 +145,16 @@
 		</statBases>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_ArmorBase_Millennium">
-		<defName>AK_Apparel_Midori</defName>
+	<ThingDef ParentName="BA_ArmorBase_Millennium">
+		<defName>BA_Apparel_Midori</defName>
 		<label>绿的服装</label>
 		<description>绿的开发部制服，和姐姐的款式几乎一样，但是是绿色的。</description>
 		<graphicData>
-			<texPath>Things/AK_Agents/Millennium/Midori</texPath>
+			<texPath>Things/BA_Students/Millennium/Midori</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Things/AK_Agents/Millennium/Midori</wornGraphicPath>
+			<wornGraphicPath>Things/BA_Students/Millennium/Midori</wornGraphicPath>
 		</apparel>
 		<statBases>
 			<ArmorRating_Sharp>1</ArmorRating_Sharp>
@@ -163,16 +163,16 @@
 		</statBases>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_ArmorBase_Millennium">
-		<defName>AK_Apparel_Hibiki</defName>
+	<ThingDef ParentName="BA_ArmorBase_Millennium">
+		<defName>BA_Apparel_Hibiki</defName>
 		<label>响的应援服</label>
 		<description>因为平常爱好COSPLAY所以学会了裁缝的技能，并为工程部的部员们制作服装。由于穿着的啦啦队长衣服是由以前制作的衣服改造而成的，所以她稍微有点在意短裙长度的样子。</description>
 		<graphicData>
-			<texPath>Things/AK_Agents/Millennium/Hibiki</texPath>
+			<texPath>Things/BA_Students/Millennium/Hibiki</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Things/AK_Agents/Millennium/Hibiki</wornGraphicPath>
+			<wornGraphicPath>Things/BA_Students/Millennium/Hibiki</wornGraphicPath>
 		</apparel>
 		<statBases>
 			<ArmorRating_Sharp>1.35</ArmorRating_Sharp>
@@ -181,16 +181,16 @@
 		</statBases>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_ArmorBase_Millennium">
-		<defName>AK_Apparel_Kotori</defName>
+	<ThingDef ParentName="BA_ArmorBase_Millennium">
+		<defName>BA_Apparel_Kotori</defName>
 		<label>柯托莉的应援服</label>
 		<description>为了在大运动会中给大家加油，柯托莉换上的啦啦队服。\n在用她那活泼明快的声音加油的同时，平时一直在做的解说似乎也没落下。</description>
 		<graphicData>
-			<texPath>Things/AK_Agents/Millennium/Kotori</texPath>
+			<texPath>Things/BA_Students/Millennium/Kotori</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Things/AK_Agents/Millennium/Kotori</wornGraphicPath>
+			<wornGraphicPath>Things/BA_Students/Millennium/Kotori</wornGraphicPath>
 		</apparel>
 		<statBases>
 			<ArmorRating_Sharp>1</ArmorRating_Sharp>
@@ -199,16 +199,16 @@
 		</statBases>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_ArmorBase_Millennium">
-		<defName>AK_Apparel_Utaha</defName>
+	<ThingDef ParentName="BA_ArmorBase_Millennium">
+		<defName>BA_Apparel_Utaha</defName>
 		<label>歌原的应援服</label>
 		<description>虽然是突然被拉进了啦啦队，但作为凡事都要做到最好的大师，她的热情比任何其他啦啦队都要高涨。但由于被热情冲昏头脑，好像将原本的目的忘在了脑后……\n"注入熊熊燃烧的热情！"</description>
 		<graphicData>
-			<texPath>Things/AK_Agents/Millennium/Utaha</texPath>
+			<texPath>Things/BA_Students/Millennium/Utaha</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Things/AK_Agents/Millennium/Utaha</wornGraphicPath>
+			<wornGraphicPath>Things/BA_Students/Millennium/Utaha</wornGraphicPath>
 		</apparel>
 		<statBases>
 			<ArmorRating_Sharp>1</ArmorRating_Sharp>

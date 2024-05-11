@@ -1,28 +1,34 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Abydos">
-		<defName>AK_Recruit_Shiroko</defName>
+	<AK_DLL.OperatorDef ParentName="BA_RecruitBase_Abydos">
+		<defName>BA_Recruit_Shiroko</defName>
 		<name>Shiroko</name>
 		<nickname>Shiroko</nickname>
 		<description>FIXMEDESC</description>
-		<weapon>AK_Weapon_Shiroko</weapon>
-		<hair>AK_Hair_Shiroko</hair>
+		<weapon>BA_Weapon_Shiroko</weapon>
+		<hair>BA_Hair_Shiroko</hair>
 		<apparels>
-			<li>AK_Apparel_Shiroko</li>
+			<li>BA_Apparel_Shiroko</li>
 		</apparels>
 		<stand>UI/Image/Abydos/ShirokoStand</stand>
 		<headPortrait>UI/Image/Abydos/ShirokoPortrait</headPortrait>
 		<traits>
-			<li><def>AK_Trait_ShirokoThird</def></li>
-			<li><def>AK_Trait_ShirokoSecond</def></li>
-			<li><def>AK_Trait_Shiroko</def></li>
+			<li>
+				<def>BA_Trait_ShirokoThird</def>
+			</li>
+			<li>
+				<def>BA_Trait_ShirokoSecond</def>
+			</li>
+			<li>
+				<def>BA_Trait_Shiroko</def>
+			</li>
 			<li>
 				<def>Beauty</def>
 				<degree>2</degree>
 			</li>
 		</traits>
-		<childHood>AK_BackStory_Shiroko_Child</childHood>
+		<childHood>BA_BackStory_Shiroko_Child</childHood>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -87,21 +93,25 @@
 		</skills>
 	</AK_DLL.OperatorDef>
 
-	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Abydos">
-		<defName>AK_Recruit_Hoshino</defName>
+	<AK_DLL.OperatorDef ParentName="BA_RecruitBase_Abydos">
+		<defName>BA_Recruit_Hoshino</defName>
 		<name>Hoshino</name>
 		<nickname>Hoshino</nickname>
 		<description>FIXMEDESC</description>
-		<weapon>AK_Weapon_Hoshino</weapon>
-		<hair>AK_Hair_Hoshino</hair>
+		<weapon>BA_Weapon_Hoshino</weapon>
+		<hair>BA_Hair_Hoshino</hair>
 		<apparels>
-			<li>AK_Apparel_Hoshino</li>
+			<li>BA_Apparel_Hoshino</li>
 		</apparels>
 		<stand>UI/Image/Abydos/HoshinoStand</stand>
 		<headPortrait>UI/Image/Abydos/HoshinoPortrait</headPortrait>
 		<traits>
-			<li><def>AK_Trait_HoshinoSecond</def></li>
-			<li><def>AK_Trait_Hoshino</def></li>
+			<li>
+				<def>BA_Trait_HoshinoSecond</def>
+			</li>
+			<li>
+				<def>BA_Trait_Hoshino</def>
+			</li>
 			<li>
 				<def>Industriousness</def>
 				<degree>-2</degree>
@@ -111,7 +121,7 @@
 				<degree>2</degree>
 			</li>
 		</traits>
-		<childHood>AK_BackStory_Hoshino_Child</childHood>
+		<childHood>BA_BackStory_Hoshino_Child</childHood>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -176,34 +186,40 @@
 		</skills>
 		<items>
 			<li>
-				<item>AK_Weapon_HoshinoB</item>
+				<item>BA_Weapon_HoshinoB</item>
 				<amount>1</amount>
 			</li>
 		</items>
 	</AK_DLL.OperatorDef>
 
-	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Abydos">
-		<defName>AK_Recruit_Serika</defName>
+	<AK_DLL.OperatorDef ParentName="BA_RecruitBase_Abydos">
+		<defName>BA_Recruit_Serika</defName>
 		<name>Serika</name>
 		<nickname>Serika</nickname>
 		<description>FIXMEDESC</description>
-		<weapon>AK_Weapon_Serika</weapon>
-		<hair>AK_Hair_Serika</hair>
+		<weapon>BA_Weapon_Serika</weapon>
+		<hair>BA_Hair_Serika</hair>
 		<apparels>
-			<li>AK_Apparel_Serika</li>
+			<li>BA_Apparel_Serika</li>
 		</apparels>
 		<stand>UI/Image/Abydos/SerikaStand</stand>
 		<headPortrait>UI/Image/Abydos/SerikaPortrait</headPortrait>
 		<traits>
-			<li><def>AK_Trait_SerikaThird</def></li>
-			<li><def>AK_Trait_SerikaSecond</def></li>
-			<li><def>AK_Trait_Serika</def></li>
+			<li>
+				<def>BA_Trait_SerikaThird</def>
+			</li>
+			<li>
+				<def>BA_Trait_SerikaSecond</def>
+			</li>
+			<li>
+				<def>BA_Trait_Serika</def>
+			</li>
 			<li>
 				<def>Beauty</def>
 				<degree>2</degree>
 			</li>
 		</traits>
-		<childHood>AK_BackStory_Serika_Child</childHood>
+		<childHood>BA_BackStory_Serika_Child</childHood>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -268,21 +284,25 @@
 		</skills>
 	</AK_DLL.OperatorDef>
 
-	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Abydos">
-		<defName>AK_Recruit_Nonomi</defName>
+	<AK_DLL.OperatorDef ParentName="BA_RecruitBase_Abydos">
+		<defName>BA_Recruit_Nonomi</defName>
 		<name>Nonomi</name>
 		<nickname>Nonomi</nickname>
 		<description>FIXMEDESC</description>
-		<weapon>AK_Weapon_Nonomi</weapon>
-		<hair>AK_Hair_Nonomi</hair>
+		<weapon>BA_Weapon_Nonomi</weapon>
+		<hair>BA_Hair_Nonomi</hair>
 		<apparels>
-			<li>AK_Apparel_Nonomi</li>
+			<li>BA_Apparel_Nonomi</li>
 		</apparels>
 		<stand>UI/Image/Abydos/NonomiStand</stand>
 		<headPortrait>UI/Image/Abydos/NonomiPortrait</headPortrait>
 		<traits>
-			<li><def>AK_Trait_NonomiSecond</def></li>
-			<li><def>AK_Trait_Nonomi</def></li>
+			<li>
+				<def>BA_Trait_NonomiSecond</def>
+			</li>
+			<li>
+				<def>BA_Trait_Nonomi</def>
+			</li>
 			<li>
 				<def>Kind</def>
 			</li>
@@ -291,7 +311,7 @@
 				<degree>2</degree>
 			</li>
 		</traits>
-		<childHood>AK_BackStory_Nonomi_Child</childHood>
+		<childHood>BA_BackStory_Nonomi_Child</childHood>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -356,20 +376,22 @@
 		</skills>
 	</AK_DLL.OperatorDef>
 
-	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Abydos">
-		<defName>AK_Recruit_Ayane</defName>
+	<AK_DLL.OperatorDef ParentName="BA_RecruitBase_Abydos">
+		<defName>BA_Recruit_Ayane</defName>
 		<name>Ayane</name>
 		<nickname>Ayane</nickname>
 		<description>FIXMEDESC</description>
-		<weapon>AK_Weapon_Ayane</weapon>
-		<hair>AK_Hair_Ayane</hair>
+		<weapon>BA_Weapon_Ayane</weapon>
+		<hair>BA_Hair_Ayane</hair>
 		<apparels>
-			<li>AK_Apparel_Ayane</li>
+			<li>BA_Apparel_Ayane</li>
 		</apparels>
 		<stand>UI/Image/Abydos/AyaneStand</stand>
 		<headPortrait>UI/Image/Abydos/AyanePortrait</headPortrait>
 		<traits>
-			<li><def>AK_Trait_Ayane</def></li>
+			<li>
+				<def>BA_Trait_Ayane</def>
+			</li>
 			<li>
 				<def>Kind</def>
 			</li>
@@ -385,7 +407,7 @@
 				<degree>2</degree>
 			</li>
 		</traits>
-		<childHood>AK_BackStory_Ayane_Child</childHood>
+		<childHood>BA_BackStory_Ayane_Child</childHood>
 		<skills>
 			<li>
 				<skill>Animals</skill>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Trinity">
-		<defName>AK_Recruit_Ui</defName>
+	<AK_DLL.OperatorDef ParentName="BA_RecruitBase_Trinity">
+		<defName>BA_Recruit_Ui</defName>
 		<name>Ui</name>
 		<nickname>Ui</nickname>
 		<description>FIXMEDESC</description>
-		<weapon>AK_Weapon_Ui</weapon>
-		<hair>AK_Hair_Ui</hair>
+		<weapon>BA_Weapon_Ui</weapon>
+		<hair>BA_Hair_Ui</hair>
 		<apparels>
-			<li>AK_Apparel_Ui</li>
+			<li>BA_Apparel_Ui</li>
 		</apparels>
 		<stand>UI/Image/Trinity/UiStand</stand>
 		<headPortrait>UI/Image/Trinity/UiPortrait</headPortrait>
@@ -21,14 +21,14 @@
 				<def>Neurotic</def>
 				<degree>2</degree>
 			</li>
-			<li><def>AK_Trait_Ui</def></li>
+			<li><def>BA_Trait_Ui</def></li>
 			<li>
 				<def>Undergrounder</def>
 			</li>
 		</traits>
 		<age>17</age>
-		<childHood>AK_BackStory_Ui_Child</childHood>
-		<adultHood>AK_BackStory_Unknown_Adult</adultHood>
+		<childHood>BA_BackStory_Ui_Child</childHood>
+		<adultHood>BA_BackStory_Unknown_Adult</adultHood>
 		<skills>
 			<li>
 				<skill>Animals</skill>
