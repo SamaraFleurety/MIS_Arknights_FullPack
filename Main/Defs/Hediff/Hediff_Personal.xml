@@ -2,40 +2,56 @@
 <Defs>
 
 	<HediffDef ParentName="ChronicDiseaseBase">
-		<defName>AK_Hediff_DoctorScenario</defName>
-		<label>博士</label>
-		<labelNoun>博士</labelNoun>
+		<defName>AK_Hediff_Personal_Kaltsit</defName>
+		<label>老猞猁</label>
+		<labelNoun>老猞猁</labelNoun>
 		<isBad>false</isBad>
-		<description>博士</description>
-		<scenarioCanAdd>true</scenarioCanAdd>
+		<description>老猞猁desc</description>
+		<scenarioCanAdd>false</scenarioCanAdd>
 		<removeOnRedressChanceByDaysCurve Inherit = "false">
 		</removeOnRedressChanceByDaysCurve>
 		<comps>
-			<li Class="AK_DLL.HCP_AddTrait">
-				<traits>
+			<li Class="AKE_OperatorExtension.HCP_RandAddHediff">
+				<interval>10</interval>
+				<intervalUnit>day</intervalUnit>
+				<saveChance>0.67</saveChance>
+				<hediffStatsSet>
 					<li>
-						<def>AK_Trait_Agent_Doc</def>
+						<hediff>Alzheimers</hediff>
+						<randWeight>1</randWeight>
+						<part>Brain</part>
 					</li>
-				</traits>
-			</li>
-		</comps>
-	</HediffDef>
-
-	<HediffDef>
-		<defName>AK_Hediff_Camouflage</defName>
-		<label>迷彩</label>
-		<hediffClass>HediffWithComps</hediffClass>
-		<description>迷彩desc</description>
-		<isBad>false</isBad>
-		<scenarioCanAdd>false</scenarioCanAdd>
-		<maxSeverity>1</maxSeverity>
-		<comps>
-			<li Class="HediffCompProperties_Invisibility">
-				<visibleToPlayer>true</visibleToPlayer>
-			</li>
-			<li Class="HediffCompProperties_DisappearsOnDeath"/>
-			<li Class="HediffCompProperties_SeverityPerDay">
-				<severityPerDay>-24</severityPerDay>
+					<li>
+						<hediff>Asthma</hediff>
+						<randWeight>20</randWeight>
+						<part>Lung</part>
+					</li>
+					<li>
+						<hediff>BadBack</hediff>
+						<randWeight>20</randWeight>
+						<part>Spine</part>
+					</li>
+					<li>
+						<hediff>Cataract</hediff>
+						<randWeight>20</randWeight>
+						<part>Eye</part>
+					</li>
+					<li>
+						<hediff>Dementia</hediff>
+						<randWeight>15</randWeight>
+						<part>Brain</part>
+					</li>
+					<li>
+						<hediff>HearingLoss</hediff>
+						<randWeight>20</randWeight>
+						<part>Ear</part>
+					</li>
+					<li>
+						<hediff>HeartArteryBlockage</hediff>
+						<randWeight>4</randWeight>
+						<part>Heart</part>
+					</li>
+				</hediffStatsSet>
 			</li>
 		</comps>
 	</HediffDef>
