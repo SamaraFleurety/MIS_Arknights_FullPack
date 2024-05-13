@@ -1943,6 +1943,9 @@
 		<apparels>
 			<li>AK_Apparel_Liberated</li>
 		</apparels>
+		<accessory Inherit="false">
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Liberated</li>
+		</accessory>
 		<stand>UI/Image/Defender/LiberatedStand</stand>
 		<headPortrait>UI/Image/Defender/LiberatedPortrait</headPortrait>
 		<traits>
@@ -2036,10 +2039,6 @@
 			</li>
 			<li>
 				<item>AK_Weapon_LiberatedC</item>
-				<amount>1</amount>
-			</li>
-			<li>
-				<item>AK_Weapon_LiberatedD</item>
 				<amount>1</amount>
 			</li>
 		</items>

@@ -978,14 +978,4 @@
 		<description>在荒地遇上紧急情况时，普通的武器不起作用，这时候这门长炮就起到作用了。</description>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_WeaponBase_Defender">
-		<defName>AK_Weapon_LiberatedD</defName>
-		<label>杰西卡的盾</label>
-		<graphicData>
-			<texPath>Things/AK_Agents/Weapon/Defender/LiberatedW4</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<description>杰西卡的盾。</description>
-	</ThingDef>
-
 </Defs>

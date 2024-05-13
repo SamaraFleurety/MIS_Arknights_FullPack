@@ -878,4 +878,44 @@
         </comps>
     </ThingDef>
 
+    <ThingDef ParentName="AK_BeltBase">
+        <defName>AK_ShieldBelt_Liberated</defName>
+        <label>黑钢壁垒</label>
+        <description>涤火淬炼，黑钢之盾，无懈防御。</description>
+        <statBases>
+            <EnergyShieldRechargeRate>0.26</EnergyShieldRechargeRate>
+            <EnergyShieldEnergyMax>1.8</EnergyShieldEnergyMax>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/AK_ShieldBelt_LiberatedS</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+                <startingTicksToReset>6000</startingTicksToReset>
+                <energyOnReset>0.26</energyOnReset>
+                <energyLossPerDamage>0.015</energyLossPerDamage>
+                <canAbsorbMeleeDamage>true</canAbsorbMeleeDamage>
+                <meleeAbsorbFactor>1</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1</rangedAbsorbFactor>
+                <canDodge>true</canDodge>
+                <breakWithSmoke>false</breakWithSmoke>
+                <canForceActive>true</canForceActive>
+                <fireFoamBurster>true</fireFoamBurster>
+                <versionInfo>Liberated-Shield</versionInfo>
+                <alias>涤火杰西卡的护盾</alias>
+            </li>
+            <li Class="AKE_VanyaShield.TCP_VanyaShieldExtension">
+                <hideVanillaBubble>true</hideVanillaBubble>
+                <bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/AK_ShieldBelt_LiberatedS</texPath>
+                    <graphicClass>Graphic_Multi</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawOffsetNorth>(0,0.1,0)</drawOffsetNorth>
+                    <drawOffsetSouth>(0,1.1,0.06)</drawOffsetSouth>
+                </bubbleStaticOverlay>
+            </li>
+        </comps>
+    </ThingDef>
+
 </Defs>
