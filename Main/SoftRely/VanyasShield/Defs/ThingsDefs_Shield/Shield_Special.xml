@@ -894,7 +894,7 @@
             <EnergyShieldEnergyMax>1.8</EnergyShieldEnergyMax>
         </statBases>
         <graphicData>
-            <texPath>Things/ShieldBelt/AK_ShieldBelt_LiberatedS</texPath>
+            <texPath>Things/ShieldBelt/ShieldBeltLiberatedS</texPath>
             <graphicClass>Graphic_Multi</graphicClass>
         </graphicData>
         <comps>
@@ -915,7 +915,7 @@
             <li Class="AKE_VanyaShield.TCP_VanyaShieldExtension">
                 <hideVanillaBubble>true</hideVanillaBubble>
                 <bubbleStaticOverlay>
-                    <texPath>Things/ShieldBelt/AK_ShieldBelt_LiberatedS</texPath>
+                    <texPath>Things/ShieldBelt/ShieldBeltLiberatedS</texPath>
                     <graphicClass>Graphic_Multi</graphicClass>
                     <drawSize>(2,2)</drawSize>
                     <drawOffsetNorth>(0,0.1,0)</drawOffsetNorth>
@@ -934,7 +934,7 @@
             <EnergyShieldEnergyMax>1.8</EnergyShieldEnergyMax>
         </statBases>
         <graphicData>
-            <texPath>Things/ShieldBelt/ShieldBeltTyphonS</texPath>
+            <texPath>Things/ShieldBelt/ShieldBeltTyphon</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <comps>
@@ -961,6 +961,7 @@
                     <drawSize>(2,2)</drawSize>
 					<drawOffsetNorth>(0,0,0)</drawOffsetNorth>
                 </bubbleStaticOverlay>
+                <bubbleRotateTexPath>Things/ShieldBelt/ShieldBeltTyphonD</bubbleRotateTexPath>
             </li>
         </comps>
     </ThingDef>
