@@ -2040,6 +2040,9 @@
 		<apparels>
 			<li>AK_Apparel_Hoolheyak</li>
 		</apparels>
+		<accessory Inherit="false">
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Hoolheyak</li>
+		</accessory>
 		<stand>UI/Image/Caster/HoolheyakStand</stand>
 		<headPortrait>UI/Image/Caster/HoolheyakPortrait</headPortrait>
 		<traits>
