@@ -928,7 +928,7 @@
     <ThingDef ParentName="AK_BeltBase">
         <defName>AK_ShieldBelt_Typhon</defName>
         <label>自然的包容</label>
-        <description>自然的包容</description>
+        <description>这块小小的南方土壤上，树只能这么长，你们有这样的规矩也没办法。</description>
         <statBases>
             <EnergyShieldRechargeRate>0.2</EnergyShieldRechargeRate>
             <EnergyShieldEnergyMax>1.8</EnergyShieldEnergyMax>
@@ -968,10 +968,10 @@
 
     <ThingDef ParentName="AK_BeltBase">
         <defName>AK_ShieldBelt_Hoolheyak</defName>
-        <label>霍尔海雅的护盾</label>
-        <description>霍尔海雅的护盾</description>
+        <label>时之刻痕</label>
+        <description>不惜牺牲全族人的寿命，只是为了回到过去......这一切真的有价值吗？</description>
         <statBases>
-            <EnergyShieldRechargeRate>0.2</EnergyShieldRechargeRate>
+            <EnergyShieldRechargeRate>0.3</EnergyShieldRechargeRate>
             <EnergyShieldEnergyMax>1.8</EnergyShieldEnergyMax>
         </statBases>
         <graphicData>
