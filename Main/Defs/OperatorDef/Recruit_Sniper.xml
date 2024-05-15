@@ -2215,6 +2215,9 @@
 		<apparels>
 			<li>AK_Apparel_Typhon</li>
 		</apparels>
+		<accessory Inherit="false">
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Typhon</li>
+		</accessory>
 		<stand>UI/Image/Sniper/TyphonStand</stand>
 		<headPortrait>UI/Image/Sniper/TyphonPortrait</headPortrait>
 		<traits>
