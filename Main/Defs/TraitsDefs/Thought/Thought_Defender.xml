@@ -225,4 +225,20 @@
 		</stages>
 	</ThoughtDef>
 
+	<!-- 黍 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Shu</defName>
+		<requiredTraits>
+			<li>AK_Trait_Shu</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>博士，你也想被种到地里去？</label>
+				<description>把你种在土里，你重新长吧。</description>
+				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
 </Defs>

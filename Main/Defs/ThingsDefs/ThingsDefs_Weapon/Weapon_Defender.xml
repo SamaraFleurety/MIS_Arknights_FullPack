@@ -557,7 +557,6 @@
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
 				<warmupTime>2.1</warmupTime>
 				<!--前摇-->
-				<minRange>40</minRange>
 				<range>60</range>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
@@ -976,6 +975,40 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<description>在荒地遇上紧急情况时，普通的武器不起作用，这时候这门长炮就起到作用了。</description>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Defender">
+		<defName>AK_Weapon_Shu</defName>
+		<label>钦天司时</label>
+		<description>节气歌也好，天师仪也罢，都是钦天司时的力量。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Defender/ShuW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tools Inherit = "false">
+			<li>
+				<label>捅击</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>24.8</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>敲击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>51.2</power>
+				<cooldownTime>3</cooldownTime>
+				<extraMeleeDamages>
+          			<li>
+            			<def>Stun</def>
+            			<amount>8</amount>
+          			</li>
+        		</extraMeleeDamages>
+			</li>
+		</tools>
 	</ThingDef>
 
 </Defs>

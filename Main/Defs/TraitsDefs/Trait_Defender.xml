@@ -462,4 +462,39 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<!-- 黍 -->
+
+	<TraitDef>
+		<defName>AK_Trait_Shu</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>春雷响，万物长</label>
+				<description>“春雨惊春清谷天，夏满芒夏暑相连。”</description>
+				<statFactors>
+					<PlantWorkSpeed>3</PlantWorkSpeed>
+					<PruningSpeed>10</PruningSpeed>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>AK_Trait_ShuSecond</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>稻禾厚，顺秋收</label>
+				<description>“秋处露秋寒霜降，冬雪雪冬小大寒。”</description>
+				<statFactors>
+					<CookSpeed>1.5</CookSpeed>
+					<FoodPoisonChance>0</FoodPoisonChance>
+					<PlantHarvestYield>1.25</PlantHarvestYield>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>

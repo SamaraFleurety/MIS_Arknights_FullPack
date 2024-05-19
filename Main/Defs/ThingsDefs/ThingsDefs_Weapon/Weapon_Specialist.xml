@@ -735,7 +735,7 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>22</power>
+        <power>16</power>
         <cooldownTime>0.1</cooldownTime>
       </li>
       <li>
@@ -828,6 +828,36 @@
         </capacities>
         <power>14</power>
         <cooldownTime>1.6</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <ThingDef ParentName="AK_WeaponBase_Specialist">
+    <defName>AK_Weapon_Ascalon</defName>
+    <label>“无形，无情”</label>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Specialist/AscalonW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <description>刽子手的手指勾回，轻触掌根。利刃在暴烈的日光下沿轨道滑出，细小的光点顺着锋刃边缘坠向交会处，如铁水无声地注入模具。</description>
+    <tools Inherit = "false">
+      <li>
+        <label>拳刃</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>22</power>
+        <cooldownTime>0.5</cooldownTime>
+        <armorPenetration>1.5</armorPenetration>        <!--穿甲-->
+      </li>
+      <li>
+        <label>拳击</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <armorPenetration>1.5</armorPenetration>
+        <power>30</power>
+        <cooldownTime>1</cooldownTime>
       </li>
     </tools>
   </ThingDef>

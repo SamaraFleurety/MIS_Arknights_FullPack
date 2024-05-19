@@ -39,12 +39,29 @@
 
   <ThingDef ParentName="AK_WeaponBase_Medic">
     <defName>AK_Weapon_Kaltsit</defName>
-    <label>凯尔希的医疗铳</label>
+    <label>MON2TR</label>
     <description>凯尔希的医疗铳，看上去没什么特别的，但是其实全罗德岛也找不出第二把，凯尔希不会任何法术，也没有高超的武术，但是没有一个敌人敢对她掉以轻心。</description>
     <graphicData>
       <texPath>Things/AK_Agents/Weapon/Medic/KaltsitW</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>AK_Bullet_Kaltsit</defaultProjectile>
+        <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+        <warmupTime>1.7</warmupTime>        <!--前摇-->
+        <range>24</range>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <soundCast>AK_Sound_Weapon_Magic</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <noiseRadius>3</noiseRadius>
+      </li>
+    </verbs>
     <tools Inherit="false">
       <li>
         <label>法杖敲击</label>
@@ -55,6 +72,23 @@
         <cooldownTime>1.0</cooldownTime>
       </li>
     </tools>
+  </ThingDef>
+
+  <ThingDef ParentName="AK_BulletBase_Bow">
+    <defName>AK_Bullet_Kaltsit</defName>
+    <label>法术射击</label>
+    <graphicData>
+      <texPath>Things/Projectile/MagicOrb</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingClass>Bullet</thingClass>
+    <projectile>
+      <damageDef>Stun</damageDef>
+      <damageAmountBase>6</damageAmountBase>
+      <stoppingPower>3</stoppingPower>
+      <speed>50</speed>
+      <soundExplode>ThumpCannon_Impact</soundExplode>
+    </projectile>
   </ThingDef>
 
   <ThingDef ParentName="AK_WeaponBase_Medic">

@@ -636,6 +636,10 @@
 				<key>Dusk</key>
 				<value>Sibling</value>
 			</li>
+			<li>
+				<key>Shu</key>
+				<value>Sibling</value>
+			</li>
 		</relations>
 		<items>
 			<li>
@@ -1204,6 +1208,9 @@
 		<apparels>
 			<li>AK_Apparel_Horn</li>
 		</apparels>
+		<accessory Inherit="false">
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Horn</li>
+		</accessory>
 		<stand>UI/Image/Defender/HornStand</stand>
 		<headPortrait>UI/Image/Defender/HornPortrait</headPortrait>
 		<traits>
@@ -2042,6 +2049,120 @@
 				<amount>1</amount>
 			</li>
 		</items>
+	</AK_DLL.OperatorDef>
+
+	<!-- 黍 -->
+
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Defender">
+		<defName>AK_Recruit_Shu</defName>
+		<name>Shu</name>
+		<nickname>Shu</nickname>
+		<description>FIXMEDESC</description>
+		<weapon>AK_Weapon_Shu</weapon>
+		<hair>AK_Hair_Shu</hair>
+		<apparels>
+			<li>AK_Apparel_Shu</li>
+		</apparels>
+		<accessory Inherit="false">
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Shu</li>
+		</accessory>
+		<stand>UI/Image/Defender/ShuStand</stand>
+		<headPortrait>UI/Image/Defender/ShuPortrait</headPortrait>
+		<skills>
+			<li>
+				<skill>Animals</skill>
+				<level>5</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Artistic</skill>
+				<level>8</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Construction</skill>
+				<level>5</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Cooking</skill>
+				<level>20</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Crafting</skill>
+				<level>14</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Intellectual</skill>
+				<level>15</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<level>15</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<level>8</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Mining</skill>
+				<level>0</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Plants</skill>
+				<level>20</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<level>0</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<level>12</level>
+				<fireLevel>2</fireLevel>
+			</li>
+		</skills>
+		<traits>
+			<li>
+				<def>AK_Trait_Shu</def>
+			</li>
+			<li>
+				<def>AK_Trait_ShuSecond</def>
+			</li>
+			<li>
+				<def>Beauty</def>
+				<degree>2</degree>
+			</li>
+		</traits>
+		<age>23</age>
+		<childHood>AK_BackStory_Shu_Child</childHood>
+		<adultHood>AK_BackStory_Shu_Adult</adultHood>
+		<relations>
+			<li>
+				<key>Chongyue</key>
+				<value>Sibling</value>
+			</li>
+			<li>
+				<key>Ling</key>
+				<value>Sibling</value>
+			</li>
+			<li>
+				<key>Dusk</key>
+				<value>Sibling</value>
+			</li>
+			<li>
+				<key>Nian</key>
+				<value>Sibling</value>
+			</li>
+		</relations>
 	</AK_DLL.OperatorDef>
 
 </Defs>

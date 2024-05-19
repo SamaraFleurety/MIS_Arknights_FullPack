@@ -1324,4 +1324,106 @@
 		</skills>
 	</AK_DLL.OperatorDef>
 
+	<!-- 阿斯卡纶 -->
+
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Specialist">
+		<defName>AK_Recruit_Ascalon</defName>
+		<name>Ascalon</name>
+		<nickname>Ascalon</nickname>
+		<description>FIXMEDESC</description>
+		<weapon>AK_Weapon_Ascalon</weapon>
+		<hair>AK_Hair_Ascalon</hair>
+		<apparels>
+			<li>AK_Apparel_Ascalon</li>
+		</apparels>
+		<accessory Inherit="false">
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Ascalon</li>
+		</accessory>
+		<stand>UI/Image/Specialist/AscalonStand</stand>
+		<headPortrait>UI/Image/Specialist/AscalonPortrait</headPortrait>
+		<traits>
+			<li>
+				<def>SpeedOffset</def>
+				<degree>2</degree>
+			</li>
+			<li>
+				<def>Beauty</def>
+				<degree>1</degree>
+			</li>
+			<li>
+				<def>AK_Trait_AscalonSecond</def>
+			</li>
+			<li>
+				<def>AK_Trait_Ascalon</def>
+			</li>
+			<li>
+				<def>Tough</def>
+			</li>
+		</traits>
+		<age>20</age>
+		<adultHood>AK_BackStory_Ascalon_Adult</adultHood>
+		<skills>
+			<li>
+				<skill>Animals</skill>
+				<level>5</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Artistic</skill>
+				<level>0</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Construction</skill>
+				<level>3</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Cooking</skill>
+				<level>5</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Crafting</skill>
+				<level>10</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Intellectual</skill>
+				<level>15</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<level>8</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<level>18</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Mining</skill>
+				<level>5</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Plants</skill>
+				<level>3</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<level>6</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<level>8</level>
+				<fireLevel>0</fireLevel>
+			</li>
+		</skills>
+	</AK_DLL.OperatorDef>
+
 </Defs>

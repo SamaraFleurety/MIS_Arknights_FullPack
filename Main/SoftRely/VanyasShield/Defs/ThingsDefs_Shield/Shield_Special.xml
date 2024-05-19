@@ -891,7 +891,7 @@
         <description>涤火淬炼，黑钢之盾，无懈防御。</description>
         <statBases>
             <EnergyShieldRechargeRate>0.26</EnergyShieldRechargeRate>
-            <EnergyShieldEnergyMax>1.8</EnergyShieldEnergyMax>
+            <EnergyShieldEnergyMax>4</EnergyShieldEnergyMax>
         </statBases>
         <graphicData>
             <texPath>Things/ShieldBelt/ShieldBeltLiberatedS</texPath>
@@ -1003,6 +1003,170 @@
 					<drawOffsetNorth>(0,0.1,0)</drawOffsetNorth>
                 </bubbleStaticOverlay>
                 <bubbleRotateTexPath>Things/ShieldBelt/ShieldBeltHoolheyakD</bubbleRotateTexPath>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="AK_BeltBase">
+        <defName>AK_ShieldBelt_Horn</defName>
+        <label>维多利亚要塞</label>
+        <description>号角的护盾</description>
+        <statBases>
+            <EnergyShieldRechargeRate>0.15</EnergyShieldRechargeRate>
+            <EnergyShieldEnergyMax>6</EnergyShieldEnergyMax>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/ShieldBeltHornS</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+                <startingTicksToReset>6000</startingTicksToReset>
+                <energyOnReset>0.26</energyOnReset>
+                <energyLossPerDamage>0.015</energyLossPerDamage>
+                <canAbsorbMeleeDamage>true</canAbsorbMeleeDamage>
+                <meleeAbsorbFactor>1</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1</rangedAbsorbFactor>
+                <canDodge>true</canDodge>
+                <breakWithSmoke>false</breakWithSmoke>
+                <canForceActive>true</canForceActive>
+                <fireFoamBurster>true</fireFoamBurster>
+                <versionInfo>Horn-Shield</versionInfo>
+                <alias>号角的护盾</alias>
+            </li>
+            <li Class="AKE_VanyaShield.TCP_VanyaShieldExtension">
+                <hideVanillaBubble>true</hideVanillaBubble>
+                <bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/ShieldBeltHornS</texPath>
+                    <graphicClass>Graphic_Multi</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawOffsetNorth>(0,0.1,0)</drawOffsetNorth>
+                    <drawOffsetSouth>(0,1.1,0.06)</drawOffsetSouth>
+                </bubbleStaticOverlay>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="AK_BeltBase">
+        <defName>AK_ShieldBelt_CivilightEterna</defName>
+        <label>魔王残响</label>
+        <description>魔王的护盾</description>
+        <statBases>
+            <EnergyShieldRechargeRate>0.4</EnergyShieldRechargeRate>
+            <EnergyShieldEnergyMax>4</EnergyShieldEnergyMax>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/ShieldBeltCivilightEternaS</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+                <startingTicksToReset>4680</startingTicksToReset>
+                <energyOnReset>0.3</energyOnReset>
+                <energyLossPerDamage>0.01</energyLossPerDamage>
+                <canAbsorbMeleeDamage>true</canAbsorbMeleeDamage>
+                <meleeAbsorbFactor>2</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1</rangedAbsorbFactor>
+                <canDodge>true</canDodge>
+                <dodgeChanceFactor>0.1</dodgeChanceFactor>
+                <breakWithSmoke>false</breakWithSmoke>
+                <canForceActive>false</canForceActive>
+                <fireFoamBurster>false</fireFoamBurster>
+                <versionInfo>CivilightEterna-Shield</versionInfo>
+                <alias>魔王的护盾</alias>
+            </li>
+            <li Class="AKE_VanyaShield.TCP_VanyaShieldExtension">
+                <hideVanillaBubble>true</hideVanillaBubble>
+                <bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/ShieldBeltCivilightEternaS</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+					<drawOffsetNorth>(0,0.1,0)</drawOffsetNorth>
+                </bubbleStaticOverlay>
+                <bubbleRotateTexPath>Things/ShieldBelt/ShieldBeltCivilightEternaD</bubbleRotateTexPath>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="AK_BeltBase">
+        <defName>AK_ShieldBelt_Ascalon</defName>
+        <label>死亡拘审</label>
+        <description>阿斯卡纶的护盾</description>
+        <statBases>
+            <EnergyShieldRechargeRate>0.25</EnergyShieldRechargeRate>
+            <EnergyShieldEnergyMax>1</EnergyShieldEnergyMax>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/ShieldBeltAscalonS</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+                <startingTicksToReset>4680</startingTicksToReset>
+                <energyOnReset>0.3</energyOnReset>
+                <energyLossPerDamage>0.01</energyLossPerDamage>
+                <canAbsorbMeleeDamage>true</canAbsorbMeleeDamage>
+                <meleeAbsorbFactor>2</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1</rangedAbsorbFactor>
+                <canDodge>true</canDodge>
+                <dodgeChanceFactor>0.1</dodgeChanceFactor>
+                <breakWithSmoke>false</breakWithSmoke>
+                <canForceActive>false</canForceActive>
+                <fireFoamBurster>false</fireFoamBurster>
+                <versionInfo>Ascalon-Shield</versionInfo>
+                <alias>阿斯卡纶的护盾</alias>
+            </li>
+            <li Class="AKE_VanyaShield.TCP_VanyaShieldExtension">
+                <hideVanillaBubble>true</hideVanillaBubble>
+                <bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/ShieldBeltAscalonS</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+					<drawOffsetNorth>(0,0.1,0)</drawOffsetNorth>
+                </bubbleStaticOverlay>
+                <bubbleRotateTexPath>Things/ShieldBelt/ShieldBeltAscalonD</bubbleRotateTexPath>
+            </li>
+            <li Class="AKE_VanyaShield.TCP_AddHediffWhileShieldActive">
+				<hediff>AK_Hediff_Camouflage</hediff>
+			</li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="AK_BeltBase">
+        <defName>AK_ShieldBelt_Shu</defName>
+        <label>嘉禾盈仓</label>
+        <description>“干戈相向，无休无止，莫种恶果”</description>
+        <statBases>
+            <EnergyShieldRechargeRate>0.1</EnergyShieldRechargeRate>
+            <EnergyShieldEnergyMax>4</EnergyShieldEnergyMax>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/ShieldBeltShu</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+                <startingTicksToReset>6000</startingTicksToReset>
+                <energyOnReset>0.2</energyOnReset>
+                <energyLossPerDamage>0.015</energyLossPerDamage>
+                <canAbsorbMeleeDamage>true</canAbsorbMeleeDamage>
+                <meleeAbsorbFactor>1</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1</rangedAbsorbFactor>
+                <canDodge>false</canDodge>
+                <breakWithSmoke>true</breakWithSmoke>
+                <canForceActive>false</canForceActive>
+                <fireFoamBurster>false</fireFoamBurster>
+                <versionInfo>Shu-Shield</versionInfo>
+                <alias>黍的护盾</alias>
+            </li>
+            <li Class="AKE_VanyaShield.TCP_VanyaShieldExtension">
+                <hideVanillaBubble>true</hideVanillaBubble>
+                <bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/ShieldBeltShuS</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                </bubbleStaticOverlay>
+                <bubbleRotateTexPath>Things/ShieldBelt/ShieldBeltShuD</bubbleRotateTexPath>
             </li>
         </comps>
     </ThingDef>

@@ -419,4 +419,60 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<!-- 魔王 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_CivilightEternaThird</defName>
+		<degreeDatas>
+			<li>
+				<label>真正的魔王</label>
+				<description>这就是你选择的“希望”吗</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.34</MentalBreakThreshold>
+				</statOffsets>
+				<statFactors>
+					<GlobalLearningFactor>2</GlobalLearningFactor>
+					<WorkSpeedGlobal>1.5</WorkSpeedGlobal>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_CivilightEternaSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>“未完的故事”</label>
+				<description>我知道，还有许多人需要我。不用着急，这一次我不会离开了。</description>
+				<statOffsets>
+					<MedicalSurgerySuccessChance>1</MedicalSurgerySuccessChance>
+					<MedicalTendQuality>2</MedicalTendQuality>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_CivilightEterna</defName>
+		<degreeDatas>
+			<li>
+				<label>文明的存续</label>
+				<description>特蕾西娅已经永远离开了，现在留在这里的我，只是一个存在于“魔王”之中的程序。因为阿米娅的情感，我才会以这副模样显现。不要将我当作特蕾西娅，尽管我记得过去的一切。</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.34</MentalBreakThreshold>
+				</statOffsets>
+				<statFactors>
+					<GlobalLearningFactor>0</GlobalLearningFactor>
+					<PsychicSensitivity>0.01</PsychicSensitivity>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>

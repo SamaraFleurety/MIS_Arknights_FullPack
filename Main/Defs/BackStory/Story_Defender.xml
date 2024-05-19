@@ -269,4 +269,20 @@
 		<baseDesc>杰西卡·布林雷，因私人原因离开黑钢基地后，选择去往拓荒地，成为了一名治安官。现作为当地办事处的合作干员为罗德岛提供帮助与支持。</baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Shu_Child</defName>
+		<slot>Childhood</slot>
+		<title>神灵碎片（其六）</title>
+		<titleShort>碎片</titleShort>
+		<baseDesc>“有兽色苍 颢气千里\n其数为六 载物无声\n春山怀辰 林泉时涌\n秋溟汤汤 溯游无涯\n及寤 叩垣击壤 九垓承平\n及瞑 灾异横肆 命舛数奇\n业缘难辞 果报循因\n神通宙始 犹怜幽草 同胞物与 万类齐一\n故抱州负地 钦天司时 躯化四极\n轮回始终 千载不易\n星移物换 寸心枯荣 百谷长青”\n拓本是完整的，但石碑上的字迹已经逐渐变得模糊。石碑台座的裂痕里，长出了一株青翠的稻苗。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Shu_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>炎国农业天师</title>
+		<titleShort>炎国农业天师</titleShort>
+		<baseDesc>曾于炎国北部农业基地大荒城从事农业研究多年且已有丰富的科研成果。现因访问亲属，以访客身份暂驻罗德岛。</baseDesc>
+	</BackstoryDef>
+
 </Defs>

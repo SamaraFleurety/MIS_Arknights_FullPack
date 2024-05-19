@@ -262,4 +262,45 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<!-- 阿斯卡纶 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_AscalonSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>噬光残影</label>
+				<description>烟雾是我，也是我的刀刃，方便隐匿，也能抢占先机。</description>
+				<statOffsets>
+					<MeleeDodgeChance>50</MeleeDodgeChance>
+					<MentalBreakThreshold>-0.12</MentalBreakThreshold>
+				</statOffsets>
+				<statFactors>
+					<PawnTrapSpringChance>0</PawnTrapSpringChance>
+					<MoveSpeed>1.5</MoveSpeed>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Ascalon</defName>
+		<degreeDatas>
+			<li>
+				<label>独刃</label>
+				<description>只有融入黑暗的人才知道，有多少寒意想要冷却黎明时的天光。{PAWN_nameDef}一直在做这样的事情——她和她的阴影游走在黑暗里，过滤一切危险。她不需要重归天光。</description>
+				<statOffsets>
+					<CarryingCapacity>100</CarryingCapacity>
+				</statOffsets>
+				<statFactors>
+					<HackingSpeed>3</HackingSpeed>
+					<GeneralLaborSpeed>1.5</GeneralLaborSpeed>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>

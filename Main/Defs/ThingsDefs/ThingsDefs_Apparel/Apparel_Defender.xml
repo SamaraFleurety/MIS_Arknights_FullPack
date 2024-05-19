@@ -264,4 +264,16 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Defender">
+		<defName>AK_Apparel_Shu</defName>
+		<label>黍服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Defender/Shu</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Defender/Shu</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 </Defs>

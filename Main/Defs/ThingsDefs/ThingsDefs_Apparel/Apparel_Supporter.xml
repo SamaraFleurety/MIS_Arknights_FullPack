@@ -265,4 +265,16 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Supporter">
+		<defName>AK_Apparel_CivilightEterna</defName>
+		<label>魔王服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Supporter/CivilightEterna</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Supporter/CivilightEterna</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 </Defs>
