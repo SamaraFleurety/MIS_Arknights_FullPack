@@ -117,22 +117,6 @@
 		</stages>
 	</ThoughtDef>
 
-	<!-- 号角 -->
-
-	<ThoughtDef ParentName = "AK_Thought_Permanent">
-		<defName>AK_Thought_Trait_HornSecond</defName>
-		<requiredTraits>
-			<li>AK_Trait_HornSecond</li>
-		</requiredTraits>
-		<stages>
-			<li>
-				<label>鸣号</label>
-				<description>我尽力不被个人情绪左右，但是我没办法忘记。我答应过他们我不会忘记。</description>
-				<baseMoodEffect>-20</baseMoodEffect>
-			</li>
-		</stages>
-	</ThoughtDef>
-
 	<!-- 古米 -->
 
 	<ThoughtDef ParentName = "AK_Thought_Permanent">

@@ -167,10 +167,10 @@
 				<label>旧日之影</label>
 				<description>魔王死了\n巴别塔倒塌了。</description>
 				<statOffsets>
-					<MentalBreakThreshold>-1.0</MentalBreakThreshold>
+					<MentalBreakThreshold>-0.34</MentalBreakThreshold>
 				</statOffsets>
 				<statFactors>
-					<PsychicSensitivity>0.0</PsychicSensitivity>
+					<PsychicSensitivity>0.1</PsychicSensitivity>
 				</statFactors>
 			</li>
 		</degreeDatas>
@@ -186,7 +186,7 @@
 				<description>{PAWN_nameDef}在在冶金工业、社会学、源石技艺、考古学、历史系谱学、经济学、植物学、地质学等领域皆拥有渊博学识。就像是无所不知一般。</description>
 				<statOffsets>
 					<WorkSpeedGlobal>0.4</WorkSpeedGlobal>
-					<GlobalLearningFactor>1.2</GlobalLearningFactor>
+					<GlobalLearningFactor>3.5</GlobalLearningFactor>
 					<ResearchSpeed>1.8</ResearchSpeed>
 					<MedicalSurgerySuccessChance>1.4</MedicalSurgerySuccessChance>
 				</statOffsets>

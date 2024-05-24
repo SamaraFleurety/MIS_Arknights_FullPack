@@ -451,11 +451,11 @@
 				<label>羽蛇</label>
 				<description>即使作为神民血脉稀释过的后裔，{PAWN_nameDef}依旧拥有强大的身体素质和战斗能力，这一点是毋庸置疑的。</description>
 				<statOffsets>
-					<ShootingAccuracyPawn>0.25</ShootingAccuracyPawn>
-					<MeleeDPS>1.5</MeleeDPS>
+					<ShootingAccuracyPawn>3</ShootingAccuracyPawn>
 				</statOffsets>
 				<statFactors>
 					<IncomingDamageFactor>0.6</IncomingDamageFactor>
+					<MeleeWeapon_DamageMultiplier>1.2</MeleeWeapon_DamageMultiplier>
 				</statFactors>
 			</li>
 		</degreeDatas>
@@ -470,10 +470,12 @@
 				<label>人形图书馆</label>
 				<description>{PAWN_nameDef}有着四百五十余年的记忆和知识传承，这让{PAWN_pronoun}几乎拥有绝大多数问题的解决方案和强大的思维能力。</description>
 				<statOffsets>
-					<ResearchSpeed>1</ResearchSpeed>
-					<GlobalLearningFactor>0.75</GlobalLearningFactor>
-					<NegotiationAbility>0.3</NegotiationAbility>
+					<ResearchSpeed>0.5</ResearchSpeed>
+					<WorkSpeedGlobal>-0.25</WorkSpeedGlobal>
 				</statOffsets>
+				<statFactors>
+					<GlobalLearningFactor>0.75</GlobalLearningFactor>
+				</statFactors>
 			</li>
 		</degreeDatas>
 	</TraitDef>

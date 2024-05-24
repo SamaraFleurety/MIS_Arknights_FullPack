@@ -859,8 +859,8 @@
 		<skills>
 			<li>
 				<skill>Animals</skill>
-				<level>3</level>
-				<fireLevel>0</fireLevel>
+				<level>12</level>
+				<fireLevel>2</fireLevel>
 			</li>
 			<li>
 				<skill>Artistic</skill>
@@ -874,13 +874,13 @@
 			</li>
 			<li>
 				<skill>Cooking</skill>
-				<level>3</level>
-				<fireLevel>0</fireLevel>
+				<level>10</level>
+				<fireLevel>1</fireLevel>
 			</li>
 			<li>
 				<skill>Crafting</skill>
-				<level>6</level>
-				<fireLevel>0</fireLevel>
+				<level>8</level>
+				<fireLevel>2</fireLevel>
 			</li>
 			<li>
 				<skill>Intellectual</skill>
@@ -904,20 +904,26 @@
 			</li>
 			<li>
 				<skill>Plants</skill>
-				<level>2</level>
-				<fireLevel>0</fireLevel>
-			</li>
-			<li>
-				<skill>Shooting</skill>
-				<level>8</level>
-				<fireLevel>0</fireLevel>
-			</li>
-			<li>
-				<skill>Social</skill>
 				<level>10</level>
 				<fireLevel>1</fireLevel>
 			</li>
+			<li>
+				<skill>Shooting</skill>
+				<level>15</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<level>15</level>
+				<fireLevel>2</fireLevel>
+			</li>
 		</skills>
+		<hediffInate>
+			<li>
+				<hediff>AlcoholAddiction</hediff>
+				<serverity>20</serverity>
+			</li>
+		</hediffInate>
 	</AK_DLL.OperatorDef>
 
 	<!--真理-->
@@ -1797,6 +1803,10 @@
 				<fireLevel>2</fireLevel>
 			</li>
 		</skills>
+		<AKAbilities>
+			<li>AKA_Ability_Virtuosa</li>
+			<li>AKA_Ability_Virtuosa_Second</li>
+		</AKAbilities>
 	</AK_DLL.OperatorDef>
 
 	<!-- 魔王 -->

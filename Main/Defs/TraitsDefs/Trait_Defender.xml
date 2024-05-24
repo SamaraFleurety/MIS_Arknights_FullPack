@@ -32,9 +32,14 @@
 				<label>沃土磐石之友</label>
 				<description>或许是特殊的源石技艺，{PAWN_nameDef}对于泥土有着一种奇妙的情感。\n{PAWN_pronoun}和泥土之间的关系可能比{PAWN_pronoun}和大部分人都要亲密得多。</description>
 				<statOffsets>
-					<SocialImpact>-0.15</SocialImpact>
-					<MentalBreakThreshold>-0.35</MentalBreakThreshold>
+					<MentalBreakThreshold>-0.15</MentalBreakThreshold>
+					<MiningYield>0.3</MiningYield>
+					<GeneralLaborSpeed>0.5</GeneralLaborSpeed>
 				</statOffsets>
+				<statFactors>
+					<DeepDrillingSpeed>1.5</DeepDrillingSpeed>
+					<MiningSpeed>1.5</MiningSpeed>
+				</statFactors>
 			</li>
 		</degreeDatas>
 	</TraitDef>
@@ -51,9 +56,13 @@
 				<description>伐谋百世 一朝毁之\n国蚀器锈 如梦似电 无踪泡影
 				</description>
 				<statOffsets>
-					<MentalBreakThreshold>-0.65</MentalBreakThreshold>
+					<MentalBreakThreshold>-0.15</MentalBreakThreshold>
 					<GlobalLearningFactor>0.55</GlobalLearningFactor>
 				</statOffsets>
+				<statFactors>
+					<ConstructionSpeed>1.5</ConstructionSpeed>
+					<MiningSpeed>1.5</MiningSpeed>
+				</statFactors>
 			</li>
 		</degreeDatas>
 	</TraitDef>
@@ -244,9 +253,11 @@
 				<description>{PAWN_nameDef}可以说是暴风突击队的最佳象征，勇敢，坚韧，顽强，忠诚。
 				</description>
 				<statOffsets>
-					<MentalBreakThreshold>-0.45</MentalBreakThreshold>
-					<PainShockThreshold>-0.2</PainShockThreshold>
+					<AimingDelayFactor>-0.25</AimingDelayFactor>
 				</statOffsets>
+				<statFactors>
+					<MeleeWeapon_DamageMultiplier>1.25</MeleeWeapon_DamageMultiplier>
+				</statFactors>
 			</li>
 		</degreeDatas>
 	</TraitDef>
@@ -263,6 +274,9 @@
 				<statOffsets>
 					<MentalBreakThreshold>-0.15</MentalBreakThreshold>
 				</statOffsets>
+				<statFactors>
+					<CertaintyLossFactor>0</CertaintyLossFactor>
+				</statFactors>
 			</li>
 		</degreeDatas>
 	</TraitDef>

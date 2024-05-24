@@ -156,10 +156,10 @@
 				<label>纵情快意</label>
 				<description>悲长梦，醉挑灯。他年长风今犹在，旧时铁甲踏新声。</description>
 				<statOffsets>
-					<MentalBreakThreshold>-0.35</MentalBreakThreshold>
+					<MentalBreakThreshold>-0.34</MentalBreakThreshold>
 				</statOffsets>
 				<statFactors>
-					<PsychicSensitivity>0.0</PsychicSensitivity>
+					<PsychicSensitivity>0.01</PsychicSensitivity>
 				</statFactors>
 			</li>
 		</degreeDatas>
@@ -395,11 +395,13 @@
 				<label>感受自我</label>
 				<description>他们在评议会上的猜想是对的。塑心小姐的源石技艺能够唤醒人们内心深处最特别的记忆，这些记忆会激发某种情绪，从而形成情感。但她不能凭自己的意志来改变人们在听到她的音乐之后重现的记忆。</description>
 				<statOffsets>
-					<SocialImpact>0.25</SocialImpact>
-					<TradePriceImprovement>-0.15</TradePriceImprovement>
-					<SlaveSuppressionOffset>-0.2</SlaveSuppressionOffset>
+					<NegotiationAbility>0.5</NegotiationAbility>
+					<TradePriceImprovement>0.2</TradePriceImprovement>
 					<PsychicSensitivity>2</PsychicSensitivity>
 				</statOffsets>
+				<statFactors>
+					<EntityStudyRate MayRequire="Ludeon.RimWorld.Anomaly">30</EntityStudyRate><!-- 实体研究速率 -->
+				</statFactors>
 			</li>
 		</degreeDatas>
 	</TraitDef>

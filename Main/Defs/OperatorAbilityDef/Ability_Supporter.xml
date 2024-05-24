@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- 塑心技能 1 (改自痛苦脉冲) -->
+
+	<AbilityDef>
+		<defName>AKA_Ability_Virtuosa</defName>
+		<label>test1</label>
+		<description>test1</description>
+        <cooldownTicksRange>900</cooldownTicksRange> <!-- 15 seconds -->
+        <statBases>
+            <Ability_EffectRadius>2.9</Ability_EffectRadius>
+        </statBases>
+		<iconPath>UI/Abilities/Medic/HealEnhance</iconPath>
+        <verbProperties>
+            <verbClass>Verb_CastAbility</verbClass>
+            <defaultProjectile>Bullet_Test</defaultProjectile>
+            <range>24.9</range>
+            <warmupTime>1.0</warmupTime>
+            <soundCast>GunShotA</soundCast>
+            <ai_IsWeapon>false</ai_IsWeapon>
+            <ai_ProjectileLaunchingIgnoresMeleeThreats>true</ai_ProjectileLaunchingIgnoresMeleeThreats>
+        </verbProperties>
+        <comps>
+            <li Class="CompProperties_AbilityGiveHediffPsychic">
+                <compClass>CompAbilityEffect_GiveHediffPsychic</compClass>
+                <durationSecondsOverride>2000~4000</durationSecondsOverride> <!-- 2 to 4 days -->
+                <replaceExisting>true</replaceExisting>
+                <hediffDef>TestHediff</hediffDef>
+                <onlyBrain>true</onlyBrain>
+                <ignoreSelf>true</ignoreSelf>
+                <severity>0</severity>
+            </li>
+            <li Class="CompProperties_AbilityFleckOnTarget">
+                <fleckDef>PsycastPsychicEffect</fleckDef>
+            </li>
+            <li Class="CompProperties_AbilityEffecterOnTarget">
+                <effecterDef>AgonyPulseExplosion</effecterDef>
+            </li>
+        </comps>
+	</AbilityDef>
+    
+    <ThingDef ParentName="BaseBullet">
+        <defName>Bullet_Test</defName>
+        <label>fleshmelter bolt</label>
+        <thingClass>Projectile_Explosive</thingClass>
+        <graphicData>
+            <texPath>Things/Projectile/MagicFire</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+            <damageDef>NociosphereVaporize</damageDef>
+            <damageAmountBase>150</damageAmountBase>
+            <speed>75</speed>
+            <soundAmbient>ThumpCannon_Impact</soundAmbient>
+            <explosionRadius>2.49</explosionRadius>
+            <screenShakeFactor>1.25</screenShakeFactor>
+            <explosionChanceToStartFire>0.75</explosionChanceToStartFire>
+        </projectile>
+    </ThingDef>
+
+    <HediffDef>
+        <hediffClass>HediffWithComps</hediffClass>
+        <defName>TestHediff</defName>
+        <label>test hediff</label>
+        <description>Pure projected mental pain caused by a shock-pulse of suffering. It is overwhelming, but dissipates relatively quickly.</description>
+        <initialSeverity>0.001</initialSeverity>
+        <maxSeverity>1</maxSeverity>
+        <comps>
+            <li Class="HediffCompProperties_Disappears">
+                <showRemainingTime>true</showRemainingTime>
+            </li>
+            <li Class="HediffCompProperties_SeverityPerSecond">
+                <severityPerSecondRange>0.1~0.15</severityPerSecondRange> <!-- 10 to 15 seconds -->
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <minSeverity>0</minSeverity>
+                <painOffset>1</painOffset>
+                <label>acute</label>
+            </li>
+            <li>
+                <minSeverity>0.95</minSeverity>
+                <painOffset>0.25</painOffset>
+                <label>lingering</label>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <!-- 塑心技能 2 -->
+
+    <AbilityDef>
+		<defName>AKA_Ability_Virtuosa_Second</defName>
+		<label>test2</label>
+		<description>test2</description>
+        <cooldownTicksRange>900</cooldownTicksRange> <!-- 15 seconds -->
+		<iconPath>UI/Abilities/Medic/HealEnhance</iconPath>
+        <verbProperties>
+            <verbClass>Verb_CastAbility</verbClass>
+            <defaultProjectile>Bullet_Test</defaultProjectile>
+            <range>24.9</range>
+            <warmupTime>1.0</warmupTime>
+            <soundCast>GunShotA</soundCast>
+            <ai_IsWeapon>false</ai_IsWeapon>
+            <ai_ProjectileLaunchingIgnoresMeleeThreats>true</ai_ProjectileLaunchingIgnoresMeleeThreats>
+        </verbProperties>
+        <comps>
+            <li Class="CompProperties_AbilityGiveHediffPsychic">
+                <compClass>CompAbilityEffect_GiveHediffPsychic</compClass>
+                <durationSecondsOverride>1000</durationSecondsOverride>
+                <replaceExisting>true</replaceExisting>
+                <hediffDef>PsychicShock</hediffDef>
+                <onlyBrain>true</onlyBrain>
+                <ignoreSelf>true</ignoreSelf>
+                <severity>100</severity>
+            </li>
+        </comps>
+    </AbilityDef>
+
+</Defs>
