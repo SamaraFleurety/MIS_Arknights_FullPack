@@ -39,6 +39,40 @@
             </li>
         </comps>
 	</AbilityDef>
+
+    <AKA_Ability.AKAbilityDef>
+		<defName>AKA_Ability_Virtuosa1</defName>
+		<grouped>false</grouped>
+		<label>一技能</label>
+		<description>一技能</description>
+		<icon>UI/Abilities/Medic/HealEnhance</icon>
+		<CD>900</CD>
+		<CDUnit>tick</CDUnit>
+		<targetMode>VerbSingle</targetMode>
+		<verb>
+			<verbClass>AKA_Ability.Verb_AbilityTargeting</verbClass>
+			<defaultProjectile>Bullet_Test</defaultProjectile>
+			<warmupTime>0</warmupTime>
+			<range>28.9</range>
+			<soundCast>GunShotA</soundCast>
+			<soundCastTail>GunTail_Light</soundCastTail>
+			<muzzleFlashScale>9</muzzleFlashScale>
+			<targetParams>
+				<canTargetPawns>true</canTargetPawns>
+				<canTargetLocations>true</canTargetLocations>
+				<canTargetMechs>true</canTargetMechs>
+			</targetParams>
+		</verb>
+		<compEffectList>
+			<li Class="AKA_Ability.AbilityEffect_AddHediff">
+                <onSelf>false</onSelf>
+				<hediffDef>TestHediff</hediffDef>
+				<severity>0.55</severity>
+                <bodyPart>Brain</bodyPart>
+			</li>
+		</compEffectList>
+		<typeSFX>heal</typeSFX>
+	</AKA_Ability.AKAbilityDef>
     
     <ThingDef ParentName="BaseBullet">
         <defName>Bullet_Test</defName>
@@ -69,6 +103,7 @@
         <comps>
             <li Class="HediffCompProperties_Disappears">
                 <showRemainingTime>true</showRemainingTime>
+                <disappearsAfterTicks>7500~7500</disappearsAfterTicks>
             </li>
             <li Class="HediffCompProperties_SeverityPerSecond">
                 <severityPerSecondRange>0.1~0.15</severityPerSecondRange> <!-- 10 to 15 seconds -->

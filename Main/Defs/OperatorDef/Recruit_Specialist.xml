@@ -825,6 +825,9 @@
 		<apparels>
 			<li>AK_Apparel_Dorothy</li>
 		</apparels>
+		<accessory Inherit="false">
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Dorothy</li>
+		</accessory>
 		<stand>UI/Image/Specialist/DorothyStand</stand>
 		<headPortrait>UI/Image/Specialist/DorothyPortrait</headPortrait>
 		<traits>

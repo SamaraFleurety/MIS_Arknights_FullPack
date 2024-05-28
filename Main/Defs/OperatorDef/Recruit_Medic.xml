@@ -356,6 +356,9 @@
 		<apparels>
 			<li>AK_Apparel_Kaltsit</li>
 		</apparels>
+		<accessory Inherit="false">
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Kaltsit</li>
+		</accessory>
 		<stand>UI/Image/Medic/KaltsitStand</stand>
 		<headPortrait>UI/Image/Medic/KaltsitPortrait</headPortrait>
 		<skills>

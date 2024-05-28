@@ -815,6 +815,9 @@
 		<apparels>
 			<li>AK_Apparel_Ling</li>
 		</apparels>
+		<accessory Inherit="false">
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Ling</li>
+		</accessory>
 		<stand>UI/Image/Supporter/LingStand</stand>
 		<headPortrait>UI/Image/Supporter/LingPortrait</headPortrait>
 		<traits>
@@ -1721,6 +1724,9 @@
 		<apparels>
 			<li>AK_Apparel_Virtuosa</li>
 		</apparels>
+		<accessory Inherit="false">
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Virtuosa</li>
+		</accessory>
 		<stand>UI/Image/Supporter/VirtuosaStand</stand>
 		<headPortrait>UI/Image/Supporter/VirtuosaPortrait</headPortrait>
 		<traits>
@@ -1803,10 +1809,10 @@
 				<fireLevel>2</fireLevel>
 			</li>
 		</skills>
-		<AKAbilities>
-			<li>AKA_Ability_Virtuosa</li>
+		<!-- <AKAbilities>
+			<li>AKA_Ability_Virtuosa1</li>
 			<li>AKA_Ability_Virtuosa_Second</li>
-		</AKAbilities>
+		</AKAbilities> -->
 	</AK_DLL.OperatorDef>
 
 	<!-- 魔王 -->

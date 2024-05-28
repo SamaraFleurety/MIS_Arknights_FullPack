@@ -111,6 +111,9 @@
 		<apparels>
 			<li>AK_Apparel_Eunectes</li>
 		</apparels>
+		<accessory Inherit="false">
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Eunectes</li>
+		</accessory>
 		<stand>UI/Image/Defender/EunectesStand</stand>
 		<headPortrait>UI/Image/Defender/EunectesPortrait</headPortrait>
 		<skills>
@@ -661,6 +664,9 @@
 		<apparels>
 			<li>AK_Apparel_Saria</li>
 		</apparels>
+		<accessory Inherit="false">
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Saria</li>
+		</accessory>
 		<stand>UI/Image/Defender/SariaStand</stand>
 		<headPortrait>UI/Image/Defender/SariaPortrait</headPortrait>
 		<skills>
