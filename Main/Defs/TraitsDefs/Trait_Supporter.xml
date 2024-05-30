@@ -440,6 +440,11 @@
 				</statFactors>
 			</li>
 		</degreeDatas>
+		<modExtensions>
+			<li Class="AKE_OperatorExtension.DefExt_SkillLossRate">
+				<skillLossFactor>0</skillLossFactor>
+			</li>
+		</modExtensions>
 	</TraitDef>
 
 	<TraitDef>
@@ -475,6 +480,11 @@
 				</statFactors>
 			</li>
 		</degreeDatas>
+		<modExtensions>
+			<li Class="AKE_OperatorExtension.DefExt_SkillLossRate">
+				<skillLossFactor>0</skillLossFactor>
+			</li>
+		</modExtensions>
 	</TraitDef>
 
 </Defs>
