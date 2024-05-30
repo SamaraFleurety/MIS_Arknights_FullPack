@@ -1320,7 +1320,8 @@
                 <bubbleStaticOverlay>
                     <texPath>Things/ShieldBelt/ShieldBeltKaltsitS</texPath>
                     <graphicClass>Graphic_Single</graphicClass>
-                    <drawSize>(2,2)</drawSize>
+                    <drawSize>(3,3)</drawSize>
+                    <drawOffset>(0,0,0.2)</drawOffset>
                 </bubbleStaticOverlay>
                 <bubbleRotateTexPath>Things/ShieldBelt/ShieldBeltKaltsitD</bubbleRotateTexPath>
             </li>
