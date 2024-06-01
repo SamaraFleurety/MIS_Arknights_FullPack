@@ -1,47 +1,56 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+    <!--语法:如果希望干员有指定的物资池的物资，就必须指定对应ID,ID为空则使用未指定ID的物资池-->
+    <!--delaytime:空投舱开启的延迟(ms)  IsGrowthSys:是否启用成长系统代替技能次数升级(未来功能，不启用) -->
+	<!--Isphase:是否升级空投品质 MaxPhaseLevel:最高几层品质(默认5) phaseCount:如果Isphase,使用多少次技能后升级品质 phase:初始的品质，对应poor[0],Normal[1],Good[2],Excellent[3],Legendary[4]-->
+    <AKA_Ability.AKAbilityDef>
+        <defName>AKA_Ability_CommandTable</defName>
+        <grouped>false</grouped>
+        <label>战术面板</label>
+        <description>杰西卡的战场终端\n可以定期请求空投物资</description>
+        <icon>UI/Abilities/Medic/HealEnhance</icon>
+        <CD>5</CD>
+        <CDUnit>day</CDUnit>
+        <targetMode>VerbSingle</targetMode>
+        <verb>
+            <verbClass>AKA_Ability.Verb_AbilityTargeting</verbClass>
+            <defaultProjectile>Bullet_MiniTurret</defaultProjectile>
+            <warmupTime>0</warmupTime>
+            <range>28.9</range>
+            <soundCast>GunShotA</soundCast>
+            <soundCastTail>GunTail_Light</soundCastTail>
+            <muzzleFlashScale>9</muzzleFlashScale>
+            <consumeFuelPerShot>1</consumeFuelPerShot>
+            <targetParams>
+                <canTargetPawns>false</canTargetPawns>
+                <canTargetLocations>true</canTargetLocations>
+            </targetParams>
+        </verb>
+        <needCD>true</needCD>
+		<typeSFX>tact</typeSFX>
+        <compEffectList>
+            <li Class="AKA_Ability.AE_CommandTerminal">
+			    <ID></ID>
+                <delaytime>142</delaytime>
+                <phase>0</phase>
+                <MaxPhaseLevel>5</MaxPhaseLevel>
+				<Isphase>false</Isphase>
+                <phaseCount>2</phaseCount>
+                <IsGrowthSys>false</IsGrowthSys>
+            </li>
+        </compEffectList>
+    </AKA_Ability.AKAbilityDef>
 
-	<AKA_Ability.AKAbilityDef>
-		<defName>AKA_Ability_CommandTable</defName>
-		<grouped>false</grouped>
-		<label>战术面板</label>
-		<description>杰西卡的战场终端\n可以定期请求空投物资</description>
-		<icon>UI/Abilities/Medic/HealEnhance</icon>
-		<CD>10</CD>
-		<CDUnit>day</CDUnit>
-		<targetMode>VerbSingle</targetMode>
-		<verb>
-			<verbClass>AKA_Ability.Verb_AbilityTargeting</verbClass>
-			<defaultProjectile>Bullet_MiniTurret</defaultProjectile>
-			<warmupTime>0</warmupTime>
-			<range>28.9</range>
-			<soundCast>GunShotA</soundCast>
-			<soundCastTail>GunTail_Light</soundCastTail>
-			<muzzleFlashScale>9</muzzleFlashScale>
-			<consumeFuelPerShot>1</consumeFuelPerShot>
-			<targetParams>
-				<canTargetPawns>false</canTargetPawns>
-				<canTargetLocations>true</canTargetLocations>
-			</targetParams>
-		</verb>
-		<needCD>true</needCD>
-		<compEffectList>
-			<li Class="AKA_Ability.AE_CommandTerminal">
-			    <delaytime>142</delaytime>
-				<phase>0</phase>
-			</li>
-		</compEffectList>
-		<typeSFX>heal</typeSFX>
-	</AKA_Ability.AKAbilityDef>
-
-    <!--物资池 品质:Poor,Normal,Good,Excellent,Legendary;每种品质的物资池都必须至少有4的倍数的RewardDef，最少8个-->
-    <!--目前是杰西卡专属 记得改成通用模板-->
+    <!--物资池 品质:Poor,Normal,Good,Excellent,Legendary;每种ID对应品质的物资池数量都必须至少为phaseCount的最小公倍数，最少4个-->
+	<!--指定品质空投sendRewardOf 只-->
+    <!--如果不指定ID，则视为全局物资池-->
     <!--烂品质池子-->
     <AKA_Ability.RewardDef>
         <defName>AKA_Ability_WoodDrop</defName>
         <texPath>UI/Abilities/White</texPath>
         <label>资源空投</label>
         <description>呼叫空投 250 个木材</description>
+		<ID></ID>
         <category>Poor</category>
         <items>
             <li>
@@ -56,6 +65,7 @@
         <texPath>UI/Abilities/White</texPath>
         <label>钢铁空投</label>
         <description>呼叫空投 250 个钢铁</description>
+		<ID></ID>
         <category>Poor</category>
         <items>
             <li>
@@ -70,6 +80,7 @@
         <texPath>UI/Abilities/White</texPath>
         <label>食品空投</label>
         <description>呼叫空投 30 份包装食品</description>
+		<ID></ID>
         <category>Poor</category>
         <items>
             <li>
@@ -84,6 +95,7 @@
         <texPath>UI/Abilities/White</texPath>
         <label>医药空投</label>
         <description>呼叫空投 30 个医药</description>
+		<ID></ID>
         <category>Poor</category>
         <items>
             <li>
@@ -98,6 +110,7 @@
         <texPath>UI/Abilities/White</texPath>
         <label>燃料空投</label>
         <description>呼叫空投 200 个化合燃料</description>
+		<ID></ID>
         <category>Poor</category>
         <items>
             <li>
@@ -112,6 +125,7 @@
         <texPath>UI/Abilities/White</texPath>
         <label>金钱空投</label>
         <description>呼叫空投 1000 个银子</description>
+		<ID></ID>
         <category>Poor</category>
         <items>
             <li>
@@ -122,10 +136,11 @@
     </AKA_Ability.RewardDef>
 
     <AKA_Ability.RewardDef>
-        <defName>AKA_Ability_PoorCashDrop</defName>
+        <defName>AKA_Ability_PoorCashDrop2</defName>
         <texPath>UI/Abilities/White</texPath>
         <label>金钱空投</label>
         <description>呼叫空投 500 个银子</description>
+		<ID></ID>
         <category>Poor</category>
         <items>
             <li>
@@ -138,14 +153,15 @@
     <AKA_Ability.RewardDef>
         <defName>AKA_Ability_RandomNormalDrop</defName>
         <texPath>UI/Abilities/White</texPath>
-        <label>随机普通空投</label>
+        <label>随机普通品质空投</label>
         <description>desc</description>
+		<ID></ID>
         <category>Poor</category>
         <sendRewardOf>Normal</sendRewardOf>
     </AKA_Ability.RewardDef>
 
     <!--普通品质-->
-    <AKA_Ability.RewardDef>
+    <!--AKA_Ability.RewardDef>
         <defName>AKA_Ability_NormalResourceDrop</defName>
         <texPath>UI/Abilities/White</texPath>
         <category>Normal</category>
@@ -165,7 +181,7 @@
                 <count>10</count>
             </li>
         </items>
-    </AKA_Ability.RewardDef>
+    </AKA_Ability.RewardDef-->
 
     <!--下面的记得写完-->
 </Defs>
