@@ -28,7 +28,7 @@
         </verb>
         <needCD>true</needCD>
 		<typeSFX>tact</typeSFX>
-        <compEffectList>
+        <!-- <compEffectList>
             <li Class="AKA_Ability.AE_CommandTerminal">
 			    <ID></ID>
                 <delaytime>142</delaytime>
@@ -38,7 +38,7 @@
                 <phaseCount>2</phaseCount>
                 <IsGrowthSys>false</IsGrowthSys>
             </li>
-        </compEffectList>
+        </compEffectList> -->
     </AKA_Ability.AKAbilityDef>
 
     <!--物资池 品质:Poor,Normal,Good,Excellent,Legendary;每种ID对应品质的物资池数量都必须至少为phaseCount的最小公倍数，最少4个-->
