@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 	<!-- 克里斯滕 -->
@@ -325,7 +325,9 @@
 				<def>Beauty</def>
 				<degree>1</degree>
 			</li>
-			<li><def>AK_Trait_Administrator</def></li>
+			<li>
+				<def>AK_Trait_Administrator</def>
+			</li>
 		</traits>
 		<age>20</age>
 		<childHood>AK_BackStory_Administrator_Child</childHood>
@@ -409,8 +411,12 @@
 		<stand>UI/Image/OtherLeader/DukeWindermereStand</stand>
 		<headPortrait>UI/Image/OtherLeader/DukeWindermerePortrait</headPortrait>
 		<traits>
-			<li><def>AK_Trait_DukeWindermereSecond</def></li>
-			<li><def>AK_Trait_DukeWindermere</def></li>
+			<li>
+				<def>AK_Trait_DukeWindermereSecond</def>
+			</li>
+			<li>
+				<def>AK_Trait_DukeWindermere</def>
+			</li>
 			<li>
 				<def>Beauty</def>
 				<degree>1</degree>
@@ -482,6 +488,120 @@
 				<skill>Social</skill>
 				<level>12</level>
 				<fireLevel>2</fireLevel>
+			</li>
+		</skills>
+	</AK_DLL.OperatorDef>
+
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_OtherLeader">
+		<defName>AK_Recruit_PRTS</defName>
+		<name>PRTS</name>
+		<nickname>PRTS</nickname>
+		<description>FIXMEDESC</description>
+		<weapon>AK_Weapon_PRTS</weapon>
+		<hair>AK_Hair_PRTS</hair>
+		<accessory Inherit="false">
+			<li>AK_Apparel_PRTS</li>
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_PRTS</li>
+		</accessory>
+		<stand>UI/Image/OtherLeader/PRTSStand</stand>
+		<headPortrait>UI/Image/OtherLeader/PRTSPortrait</headPortrait>
+		<traits>
+			<li>
+				<def>PerfectMemory</def>
+			</li>
+			<li>
+				<def>Beauty</def>
+				<degree>2</degree>
+			</li>
+			<li>
+				<def>AK_Trait_PRTSFourth</def>
+			</li>
+			<li>
+				<def>AK_Trait_PRTSThird</def>
+			</li>
+			<li>
+				<def>AK_Trait_PRTSSecond</def>
+			</li>
+			<li>
+				<def>AK_Trait_PRTS</def>
+			</li>
+		</traits>
+		<age>25</age>
+		<childHood>AK_BackStory_PRTS_Child</childHood>
+		<adultHood>AK_BackStory_PRTS_Adult</adultHood>
+		<relations>
+			<li>
+				<key>Kaltsit</key>
+				<value>Child</value>
+			</li>
+			<li>
+				<key>Amiya</key>
+				<value>Grandchild</value>
+			</li>
+		</relations>
+		<clothSets>
+			<li>AK_FashionSet_PRTS_Defeat</li>
+		</clothSets>
+		<skills>
+			<li>
+				<skill>Animals</skill>
+				<level>11</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Artistic</skill>
+				<level>15</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Construction</skill>
+				<level>9</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Cooking</skill>
+				<level>2</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Crafting</skill>
+				<level>15</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Intellectual</skill>
+				<level>20</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<level>20</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<level>0</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Mining</skill>
+				<level>3</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Plants</skill>
+				<level>12</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<level>0</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<level>5</level>
+				<fireLevel>0</fireLevel>
 			</li>
 		</skills>
 	</AK_DLL.OperatorDef>

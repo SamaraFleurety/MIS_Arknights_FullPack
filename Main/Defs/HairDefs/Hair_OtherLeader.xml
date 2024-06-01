@@ -37,4 +37,16 @@
 		<texPath>Things/Hair/OtherLeader/DukeWindermere</texPath>
 	</HairDef>
 
+	<HairDef ParentName="AK_HairBaseF">
+		<defName>AK_Hair_PRTS</defName>
+		<label>普瑞赛斯发型</label>
+		<texPath>Things/Hair/OtherLeader/PRTS</texPath>
+	</HairDef>
+
+	<HairDef ParentName="AK_HairBaseF">
+		<defName>AK_Hair_PRTSDefeat</defName>
+		<label>普瑞赛斯-战败</label>
+		<texPath>Things/Hair/OtherLeader/PRTS_Defeat</texPath>
+	</HairDef>
+
 </Defs>

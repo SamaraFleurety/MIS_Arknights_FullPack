@@ -71,4 +71,16 @@
 		</stages>
 	</ThoughtDef>
 
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_PRTSThird</defName>
+		<requiredTraits><li>AK_Trait_PRTSThird</li></requiredTraits>
+		<stages>
+			<li>
+				<label>内化宇宙</label>
+				<description>我会等到那一天，我一定会等到那一天。等我，你也要等我!</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
 </Defs>

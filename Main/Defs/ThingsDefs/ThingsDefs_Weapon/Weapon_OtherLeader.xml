@@ -298,4 +298,14 @@
 		</tools>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_WeaponBase_OtherLeader">
+		<defName>AK_Weapon_PRTS</defName>
+		<label>普瑞赛斯的文具</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/OtherLeader/PRTSW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<description>很普通的圆珠笔和书。</description>
+	</ThingDef>
+
 </Defs>

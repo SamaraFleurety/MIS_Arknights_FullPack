@@ -1,41 +1,39 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-    <BackstoryDef ParentName = "AK_StoryBase">
-        <defName>AK_BackStory_Kristen_Child</defName>
-        <slot>Childhood</slot>
-        <title>飞行员的孩子</title>
-        <titleShort>飞行员的孩子</titleShort>
-        <baseDesc>{PAWN_nameDef}出生于哥伦比亚一对飞行器研究员夫妻的家庭中，{PAWN_pronoun}本应受到良好的教育并拥有一个至少没有苦难的童年，但这一切在那次事故后戛然而止。\n这给{PAWN_pronoun}留下了严重的心理创伤。</baseDesc>
-    </BackstoryDef>
+	<BackstoryDef ParentName="AK_StoryBase">
+		<defName>AK_BackStory_Kristen_Child</defName>
+		<slot>Childhood</slot>
+		<title>飞行员的孩子</title>
+		<titleShort>飞行员的孩子</titleShort>
+		<baseDesc>{PAWN_nameDef}出生于哥伦比亚一对飞行器研究员夫妻的家庭中，{PAWN_pronoun}本应受到良好的教育并拥有一个至少没有苦难的童年，但这一切在那次事故后戛然而止。\n这给{PAWN_pronoun}留下了严重的心理创伤。</baseDesc>
+	</BackstoryDef>
 
-    <BackstoryDef ParentName = "AK_StoryBase">
-        <defName>AK_BackStory_Kristen_Adult</defName>
-        <slot>Adulthood</slot>
-        <title>莱茵生命总辖构建科主任</title>
-        <titleShort>构建科主任</titleShort>
-        <baseDesc>后来，{PAWN_nameDef}与塞雷娅一同创立了莱茵生命并亲自担任总辖构建科主任。在所有人都认为{PAWN_pronoun}只是对哥伦比亚学术界及政府不满时，{PAWN_pronoun}却做出了一件超出所有人想象的事——成为泰拉第一名宇航员，并且有去无回。
-        </baseDesc>
-    </BackstoryDef>
+	<BackstoryDef ParentName="AK_StoryBase">
+		<defName>AK_BackStory_Kristen_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>莱茵生命总辖构建科主任</title>
+		<titleShort>构建科主任</titleShort>
+		<baseDesc>后来，{PAWN_nameDef}与塞雷娅一同创立了莱茵生命并亲自担任总辖构建科主任。在所有人都认为{PAWN_pronoun}只是对哥伦比亚学术界及政府不满时，{PAWN_pronoun}却做出了一件超出所有人想象的事——成为泰拉第一名宇航员，并且有去无回。</baseDesc>
+	</BackstoryDef>
 
-    <BackstoryDef ParentName = "AK_StoryBase">
-        <defName>AK_BackStory_FrostNova_Child</defName>
-        <slot>Childhood</slot>
-        <title>矿场奴隶</title>
-        <titleShort>矿场奴隶</titleShort>
-        <baseDesc>父母因反对乌萨斯的战时策略而被送去某处矿场，祖母也受牵连迁至矿场，{PAWN_nameDef}则出生于此。五岁和十岁时，父母和祖母分别抽到黑签被矿场驻军杀害，十一岁时{PAWN_pronoun}抽到黑签险些被杀害时，被当时正在突袭矿场的“爱国者”救下。
-        </baseDesc>
-    </BackstoryDef>
+	<BackstoryDef ParentName="AK_StoryBase">
+		<defName>AK_BackStory_FrostNova_Child</defName>
+		<slot>Childhood</slot>
+		<title>矿场奴隶</title>
+		<titleShort>矿场奴隶</titleShort>
+		<baseDesc>父母因反对乌萨斯的战时策略而被送去某处矿场，祖母也受牵连迁至矿场，{PAWN_nameDef}则出生于此。五岁和十岁时，父母和祖母分别抽到黑签被矿场驻军杀害，十一岁时{PAWN_pronoun}抽到黑签险些被杀害时，被当时正在突袭矿场的“爱国者”救下。</baseDesc>
+	</BackstoryDef>
 
-    <BackstoryDef ParentName = "AK_StoryBase">
-        <defName>AK_BackStory_FrostNova_Adult</defName>
-        <slot>Adulthood</slot>
-        <title>游击队术师，雪怪小队领袖和“大姐”</title>
-        <titleShort>“大姐”</titleShort>
-        <baseDesc>曾经指挥旗下的雪怪小队与游击队取得了许多胜利，被乌萨斯军誉为“冻原中的白色死神”</baseDesc>
-    </BackstoryDef>
+	<BackstoryDef ParentName="AK_StoryBase">
+		<defName>AK_BackStory_FrostNova_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>游击队术师，雪怪小队领袖和“大姐”</title>
+		<titleShort>“大姐”</titleShort>
+		<baseDesc>曾经指挥旗下的雪怪小队与游击队取得了许多胜利，被乌萨斯军誉为“冻原中的白色死神”</baseDesc>
+	</BackstoryDef>
 
-	<BackstoryDef ParentName = "AK_StoryBase">
+	<BackstoryDef ParentName="AK_StoryBase">
 		<defName>AK_BackStory_Eblana_Child</defName>
 		<slot>Childhood</slot>
 		<title>维多利亚的德拉克</title>
@@ -43,7 +41,7 @@
 		<baseDesc>作为血统高贵的德拉克，{PAWN_nameDef}自幼接受着高等教育，但是在其中也根植着塔拉人对维多利亚的仇恨。</baseDesc>
 	</BackstoryDef>
 
-	<BackstoryDef ParentName = "AK_StoryBase">
+	<BackstoryDef ParentName="AK_StoryBase">
 		<defName>AK_BackStory_Eblana_Adult</defName>
 		<slot>Adulthood</slot>
 		<title>“领袖”</title>
@@ -51,7 +49,7 @@
 		<baseDesc>{PAWN_nameDef}在成年后成为了塔拉民族分裂组织“深池”的领袖，作为能在多方势力中周旋自如的野心家和权术家，{PAWN_pronoun}对于权力有着毫不掩饰的觊觎。</baseDesc>
 	</BackstoryDef>
 
-	<BackstoryDef ParentName = "AK_StoryBase">
+	<BackstoryDef ParentName="AK_StoryBase">
 		<defName>AK_BackStory_Administrator_Child</defName>
 		<slot>Childhood</slot>
 		<title>履历缺失</title>
@@ -59,7 +57,7 @@
 		<baseDesc>/检索中\n/错误！未查询到相关档案\n/检索中（2）\n/错误！未查询到相关档案\n/检索中（3）\n/错误！未查询到相关档案\n\n严重错误！三次查询目标档案失败，请联系终末地工业文档管理员补充相关信息。</baseDesc>
 	</BackstoryDef>
 
-	<BackstoryDef ParentName = "AK_StoryBase">
+	<BackstoryDef ParentName="AK_StoryBase">
 		<defName>AK_BackStory_Administrator_Adult</defName>
 		<slot>Adulthood</slot>
 		<title>管理员</title>
@@ -67,7 +65,7 @@
 		<baseDesc>终末地工业的“管理员”。\n传言中，管理员曾多次在塔卫二和终末地发生重大变故时挺身而出，留下了不少传说和流言。\n在塔卫二各个组织的认知中，管理员是一个相当神秘的存在，外部势力普遍知道终末地有着一张十分特别的“底牌”，但也仅限于此。</baseDesc>
 	</BackstoryDef>
 
-	<BackstoryDef ParentName = "AK_StoryBase">
+	<BackstoryDef ParentName="AK_StoryBase">
 		<defName>AK_BackStory_DukeWindermere_Child</defName>
 		<slot>Childhood</slot>
 		<title>温德米尔公爵传人</title>
@@ -75,12 +73,33 @@
 		<baseDesc>作为温德米尔家族的第一顺位继承人，她自小受到了大量堪称严苛的军事训练，也在日复一日的成长中逐渐练就了铁血贵族的气质。</baseDesc>
 	</BackstoryDef>
 
-	<BackstoryDef ParentName = "AK_StoryBase">
+	<BackstoryDef ParentName="AK_StoryBase">
 		<defName>AK_BackStory_DukeWindermere_Adult</defName>
 		<slot>Adulthood</slot>
 		<title>温德米尔公爵</title>
 		<titleShort>温德米尔公爵</titleShort>
 		<baseDesc>作为当代温德米尔公爵，安费莉丝拥有自己的封地丽茵卡登和大量可供调遣的战舰和军人，在领地内说一不二的威权以及相当可观的财富。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="AK_StoryBase">
+		<defName>AK_BackStory_PRTS_Child</defName>
+		<slot>Childhood</slot>
+		<title>前人类</title>
+		<titleShort>前人类</titleShort>
+		<baseDesc>{PAWN_nameDef}出生在泰拉前人类时代，惊人的天赋让她自童年开始就备受瞩目。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>AK_BackStory_PRTS_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>#？%）￥！</title>
+		<titleShort>#？%）￥！</titleShort>
+		<baseDesc>档案yi dmae wu法ca……＊＆#@。</baseDesc>
+		<workDisables>
+			<li>Violent</li>
+		</workDisables>
+		<requiredWorkTags>None</requiredWorkTags>
+        <shuffleable>False</shuffleable>
 	</BackstoryDef>
 
 </Defs>

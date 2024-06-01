@@ -204,4 +204,78 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_PRTSFourth</defName>
+		<degreeDatas>
+			<li>
+				<label>天纵奇才</label>
+				<description>{PAWN_nameDef}作为“源石”的制造者，纵使前文明也万中无一的天才，对科技研究有着极其强烈的兴趣。</description>
+				<statOffsets>
+					<MoveSpeed>3</MoveSpeed>
+				</statOffsets>
+				<statFactors>
+					<ResearchSpeed>2</ResearchSpeed>
+					<GlobalLearningFactor>2</GlobalLearningFactor>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_PRTSThird</defName>
+		<degreeDatas>
+			<li>
+				<label>内化宇宙</label>
+				<description>{PAWN_nameDef}曾经只存在于内化宇宙中，掌控内化宇宙中的全部信息，长久的孤独加之所处时代人们交流甚少，普瑞赛斯在交流和心理方面出现了一些问题。</description>
+				<statOffsets>
+					<NegotiationAbility>-0.2</NegotiationAbility>
+					<TradePriceImprovement>-0.2</TradePriceImprovement>
+					<MentalBreakThreshold>0.2</MentalBreakThreshold>
+				</statOffsets>
+				<statFactors>
+					<PsychicSensitivity>1.5</PsychicSensitivity>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_PRTSSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>群星间的相遇</label>
+				<description>{PAWN_nameDef}在一次星际旅行中与博士相识，两人畅聊宇宙，相谈甚欢，并和博士养了一只猫。“我可以满足你所有的愿望。”</description>
+				<statOffsets>
+					<MedicalTendQuality>1</MedicalTendQuality>
+					<MedicalSurgerySuccessChance>0.5</MedicalSurgerySuccessChance>
+					<TameAnimalChance>0.5</TameAnimalChance>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_PRTS</defName>
+		<degreeDatas>
+			<li>
+				<label>前人类</label>
+				<description>{PAWN_nameDef}从前文明而来，作为前文明屈指可数的天才，她对这片大地上科技和文明落后的人类有着深深的偏见。</description>
+				<statOffsets>
+					<SocialImpact>-0.5</SocialImpact>
+				</statOffsets>
+				<statFactors>
+					<GeneralLaborSpeed>0.76</GeneralLaborSpeed>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>
