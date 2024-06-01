@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThingDef ParentName="AK_BeltBase">
+        <defName>AK_ShieldBelt_Nearl</defName>
+        <label>长夜临光</label>
+        <description>职位与头衔不过是虚名，临光家的骑士从不需要他人的认可来指引自己的道路......即使在如今的卡西米尔，每一条道路都没入黑暗。</description>
+        <statBases>
+            <EnergyShieldRechargeRate>0.2</EnergyShieldRechargeRate>
+            <EnergyShieldEnergyMax>2.4</EnergyShieldEnergyMax>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/Guard/ShieldBeltNearlS</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+                <startingTicksToReset>3600</startingTicksToReset>
+                <energyOnReset>0.2</energyOnReset>
+                <energyLossPerDamage>0.01</energyLossPerDamage>
+                <canAbsorbMeleeDamage>true</canAbsorbMeleeDamage>
+                <meleeAbsorbFactor>1</meleeAbsorbFactor>
+                <rangedAbsorbFactor>2</rangedAbsorbFactor>
+                <canDodge>true</canDodge>
+                <breakWithSmoke>false</breakWithSmoke>
+                <canForceActive>false</canForceActive>
+                <fireFoamBurster>false</fireFoamBurster>
+                <versionInfo>Nearl-Shield</versionInfo>
+                <alias>临光家族的护盾</alias>
+            </li>
+            <li Class="AKE_VanyaShield.TCP_VanyaShieldExtension">
+                <hideVanillaBubble>true</hideVanillaBubble>
+                <bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/Guard/ShieldBeltNearlS</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                </bubbleStaticOverlay>
+                <reflectionRatio>0.1</reflectionRatio>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="AK_BeltBase">
+        <defName>AK_ShieldBelt_Viviana</defName>
+        <label>散华</label>
+        <description>金盏花盛开而又凋谢，如同烛光一样，所有的美好与芳华只能停留在那片刻之间。</description>
+        <statBases>
+            <EnergyShieldRechargeRate>0</EnergyShieldRechargeRate>
+            <EnergyShieldEnergyMax>3</EnergyShieldEnergyMax>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/Guard/ShieldBeltViviana</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+                <startingTicksToReset>1800</startingTicksToReset>
+                <energyOnReset>1</energyOnReset>
+                <energyLossPerDamage>0.015</energyLossPerDamage>
+                <canAbsorbMeleeDamage>true</canAbsorbMeleeDamage>
+                <meleeAbsorbFactor>1</meleeAbsorbFactor>
+                <rangedAbsorbFactor>2</rangedAbsorbFactor>
+                <canDodge>false</canDodge>
+                <breakWithSmoke>false</breakWithSmoke>
+                <canForceActive>false</canForceActive>
+                <fireFoamBurster>false</fireFoamBurster>
+                <versionInfo>Viviana-Shield</versionInfo>
+                <alias>薇薇安娜的护盾</alias>
+            </li>
+            <li Class="AKE_VanyaShield.TCP_VanyaShieldExtension">
+                <hideVanillaBubble>true</hideVanillaBubble>
+                <bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/Guard/ShieldBeltVivianaS</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawOffsetNorth>(0,0.1,0)</drawOffsetNorth>
+                </bubbleStaticOverlay>
+                <bubbleRotateTexPath>Things/ShieldBelt/Guard/ShieldBeltVivianaD</bubbleRotateTexPath>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="AK_BeltBase">
+        <defName>AK_ShieldBelt_Invincible</defName>
+        <label>丛林的庇护</label>
+        <description>在接到特米米关于阿卡胡拉可能发生灾难的来信之后，嘉维尔提出了更换新装备的申请，于是森蚺用最好的材料赶制了一整套装备，从武器到盔甲再到配饰应有尽有。</description>
+        <statBases>
+            <EnergyShieldRechargeRate>0.18</EnergyShieldRechargeRate>
+            <EnergyShieldEnergyMax>1.5</EnergyShieldEnergyMax>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/Guard/ShieldBeltInvincibleS</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+                <startingTicksToReset>240</startingTicksToReset>
+                <energyOnReset>1</energyOnReset>
+                <energyLossPerDamage>0.015</energyLossPerDamage>
+                <canAbsorbMeleeDamage>true</canAbsorbMeleeDamage>
+                <meleeAbsorbFactor>1</meleeAbsorbFactor>
+                <rangedAbsorbFactor>2</rangedAbsorbFactor>
+                <canDodge>false</canDodge>
+                <breakWithSmoke>false</breakWithSmoke>
+                <canForceActive>false</canForceActive>
+                <fireFoamBurster>false</fireFoamBurster>
+                <versionInfo>Invincible-Shield</versionInfo>
+                <alias>百炼嘉维尔的护盾</alias>
+            </li>
+            <li Class="AKE_VanyaShield.TCP_VanyaShieldExtension">
+                <hideVanillaBubble>true</hideVanillaBubble>
+                <bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/Guard/ShieldBeltInvincibleS</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawOffsetNorth>(0,-1.1,0)</drawOffsetNorth>
+                </bubbleStaticOverlay>
+                <bubbleRotateTexPath>Things/ShieldBelt/Guard/ShieldBeltInvincibleD</bubbleRotateTexPath>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>

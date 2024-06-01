@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThingDef ParentName="AK_BeltBase">
+        <defName>AK_ShieldBelt_Lin</defName>
+        <label>琉璃璧</label>
+        <description>绛景无别，惟似琉璃。</description>
+        <statBases>
+            <EnergyShieldRechargeRate>0.2</EnergyShieldRechargeRate>
+            <EnergyShieldEnergyMax>2</EnergyShieldEnergyMax>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/Caster/ShieldBeltLinS</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+                <startingTicksToReset>3600</startingTicksToReset>
+                <energyOnReset>0.2</energyOnReset>
+                <energyLossPerDamage>0.015</energyLossPerDamage>
+                <canAbsorbMeleeDamage>true</canAbsorbMeleeDamage>
+                <meleeAbsorbFactor>1</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1</rangedAbsorbFactor>
+                <canDodge>true</canDodge>
+                <breakWithSmoke>false</breakWithSmoke>
+                <canForceActive>false</canForceActive>
+                <fireFoamBurster>false</fireFoamBurster>
+                <versionInfo>Lin-Shield</versionInfo>
+                <alias>林的护盾</alias>
+            </li>
+            <li Class="AKE_VanyaShield.TCP_VanyaShieldExtension">
+                <hideVanillaBubble>true</hideVanillaBubble>
+                <bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/Caster/ShieldBeltLinS</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                </bubbleStaticOverlay>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="AK_BeltBase">
+        <defName>AK_ShieldBelt_DesertBlessings</defName>
+        <label>沙原祝福</label>
+        <description>“愿神灵祝福你，祝福你从此远离奴役与饥饿，祝福你如同烈阳、风暴和金色的沙原一般，永远美丽而坚强。”</description>
+        <statBases>
+            <EnergyShieldRechargeRate>0.2</EnergyShieldRechargeRate>
+            <EnergyShieldEnergyMax>2.4</EnergyShieldEnergyMax>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/Caster/ShieldBeltDesertBlessings</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+                <startingTicksToReset>3600</startingTicksToReset>
+                <energyOnReset>0.2</energyOnReset>
+                <energyLossPerDamage>0.01</energyLossPerDamage>
+                <canAbsorbMeleeDamage>true</canAbsorbMeleeDamage>
+                <meleeAbsorbFactor>1</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1</rangedAbsorbFactor>
+                <canDodge>true</canDodge>
+                <dodgeChanceFactor>0.3</dodgeChanceFactor>
+                <breakWithSmoke>false</breakWithSmoke>
+                <canForceActive>true</canForceActive>
+                <fireFoamBurster>false</fireFoamBurster>
+                <versionInfo>DesertBlessings-Shield</versionInfo>
+                <alias>黑皮姐妹的护盾</alias>
+            </li>
+            <li Class="AKE_VanyaShield.TCP_VanyaShieldExtension">
+                <hideVanillaBubble>true</hideVanillaBubble>
+                <bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/Caster/ShieldBeltDesertBlessingsS</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawOffsetNorth>(0,0.1,0)</drawOffsetNorth>
+                </bubbleStaticOverlay>
+                <bubbleRotateTexPath>Things/ShieldBelt/Caster/ShieldBeltDesertBlessingsD</bubbleRotateTexPath>
+            </li>
+        </comps>
+    </ThingDef>
+
+    
+    <ThingDef ParentName="AK_BeltBase">
+        <defName>AK_ShieldBelt_Hoolheyak</defName>
+        <label>时之刻痕</label>
+        <description>不惜牺牲全族人的寿命，只是为了回到过去......这一切真的有价值吗？</description>
+        <statBases>
+            <EnergyShieldRechargeRate>0.3</EnergyShieldRechargeRate>
+            <EnergyShieldEnergyMax>1.8</EnergyShieldEnergyMax>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/Caster/ShieldBeltHoolheyak</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+                <startingTicksToReset>4680</startingTicksToReset>
+                <energyOnReset>0.3</energyOnReset>
+                <energyLossPerDamage>0.01</energyLossPerDamage>
+                <canAbsorbMeleeDamage>true</canAbsorbMeleeDamage>
+                <meleeAbsorbFactor>2</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1</rangedAbsorbFactor>
+                <canDodge>true</canDodge>
+                <dodgeChanceFactor>0.1</dodgeChanceFactor>
+                <breakWithSmoke>false</breakWithSmoke>
+                <canForceActive>false</canForceActive>
+                <fireFoamBurster>false</fireFoamBurster>
+                <versionInfo>Hoolheyak-Shield</versionInfo>
+                <alias>霍尔海雅的护盾</alias>
+            </li>
+            <li Class="AKE_VanyaShield.TCP_VanyaShieldExtension">
+                <hideVanillaBubble>true</hideVanillaBubble>
+                <bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/Caster/ShieldBeltHoolheyakS</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+					<drawOffsetNorth>(0,0.1,0)</drawOffsetNorth>
+                </bubbleStaticOverlay>
+                <bubbleRotateTexPath>Things/ShieldBelt/Caster/ShieldBeltHoolheyakD</bubbleRotateTexPath>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>

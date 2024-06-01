@@ -458,4 +458,16 @@
 	</ThingDef>
 
 
+	<ThingDef ParentName="AK_ArmorBase_Guard">
+		<defName>AK_Apparel_Invincible</defName>
+		<label>百炼嘉维尔服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Guard/Invincible</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Guard/Invincible</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 </Defs>

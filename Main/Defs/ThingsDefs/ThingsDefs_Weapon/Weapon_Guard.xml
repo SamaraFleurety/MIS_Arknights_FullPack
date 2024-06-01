@@ -1743,4 +1743,60 @@
     <description>当烛骑士的烛火点燃时，璀璨的霓虹灯晦暗无光，世界上最美的画作再烛光下烛骑士的容颜相比也将黯然失色。</description>
   </ThingDef>
 
+	<ThingDef ParentName="AK_WeaponBase_Guard">
+		<defName>AK_Weapon_InvincibleA</defName>
+		<label>嘉维尔的折磨</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Guard/InvincibleW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<description>锯链上没有杂物，传动轴上的油很新，手把绑带也更换过。传动系统运转良好，供能系统稳定。</description>
+    <tools Inherit = "false">
+      <li>
+        <label>锯刃</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>0.3</cooldownTime>
+        <armorPenetration>1.5</armorPenetration>        <!--穿甲-->
+      </li>
+    </tools>
+	</ThingDef>
+
+  <ThingDef ParentName="AK_WeaponBase_Guard">
+		<defName>AK_Weapon_InvincibleB</defName>
+		<label>嘉维尔的美德</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Guard/InvincibleW2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<description>“嘉维尔曾经用那把大斧在阿卡胡拉的最高峰一击劈出一道瀑布，那道瀑布成了阿卡胡拉的地标”</description>
+    <tools Inherit = "false">
+      <li>
+        <label>斧刃砍击</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>50</power>
+        <cooldownTime>1.6</cooldownTime>
+        <armorPenetration>1</armorPenetration>        <!--穿甲-->
+      </li>
+      <li>
+        <label>斧柄猛砸</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>40</power>
+        <cooldownTime>2</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>2</amount>
+          </li>
+      </extraMeleeDamages>
+      </li>
+    </tools>
+	</ThingDef>
+
 </Defs>

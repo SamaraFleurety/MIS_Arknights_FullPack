@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThingDef ParentName="AK_BeltBase">
+        <defName>AK_ShieldBelt_CorruptingHeart</defName>
+        <label>同葬无光之愿</label>
+        <description>她从不想伤害任何人，亦不想成为灾厄，她是如此深爱着你们，渴望着你们幡然悔悟，成为她的血亲，去往那永恒的故乡和摇篮。</description>
+        <statBases>
+            <EnergyShieldRechargeRate>0.6</EnergyShieldRechargeRate>
+            <EnergyShieldEnergyMax>6</EnergyShieldEnergyMax>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/Supporter/ShieldBeltCorruptingHeart</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+                <startingTicksToReset>2700</startingTicksToReset>
+                <energyOnReset>1</energyOnReset>
+                <energyLossPerDamage>0.015</energyLossPerDamage>
+                <canAbsorbMeleeDamage>true</canAbsorbMeleeDamage>
+                <meleeAbsorbFactor>1</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1</rangedAbsorbFactor>
+                <canDodge>true</canDodge>
+                <dodgeChanceFactor>0.35</dodgeChanceFactor>
+                <breakWithSmoke>false</breakWithSmoke>
+                <canForceActive>false</canForceActive>
+                <fireFoamBurster>true</fireFoamBurster>
+                <versionInfo>CorruptingHeart-Shield</versionInfo>
+                <alias>浊心斯卡蒂的护盾</alias>
+            </li>
+            <li Class="AKE_VanyaShield.TCP_VanyaShieldExtension">
+                <hideVanillaBubble>true</hideVanillaBubble>
+                <bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/Supporter/ShieldBeltCorruptingHeartS</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawOffsetNorth>(0,0.1,0)</drawOffsetNorth>
+                </bubbleStaticOverlay>
+                <bubbleRotateTexPath>Things/ShieldBelt/Supporter/ShieldBeltCorruptingHeartD</bubbleRotateTexPath>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="AK_BeltBase">
+        <defName>AK_ShieldBelt_CorruptingHeartSublimation</defName>
+        <label>同葬无光之愿-升华</label>
+        <description>她从不想伤害任何人，亦不想成为灾厄，她是如此深爱着你们，渴望着你们幡然悔悟，成为她的血亲，去往那永恒的故乡和摇篮。</description>
+        <statBases>
+            <EnergyShieldRechargeRate>0.6</EnergyShieldRechargeRate>
+            <EnergyShieldEnergyMax>6</EnergyShieldEnergyMax>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/Supporter/ShieldBeltCorruptingHeart_Sublimation</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+                <startingTicksToReset>2700</startingTicksToReset>
+                <energyOnReset>1</energyOnReset>
+                <energyLossPerDamage>0.015</energyLossPerDamage>
+                <canAbsorbMeleeDamage>true</canAbsorbMeleeDamage>
+                <meleeAbsorbFactor>1</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1</rangedAbsorbFactor>
+                <canDodge>true</canDodge>
+                <dodgeChanceFactor>0.35</dodgeChanceFactor>
+                <breakWithSmoke>false</breakWithSmoke>
+                <canForceActive>false</canForceActive>
+                <fireFoamBurster>true</fireFoamBurster>
+                <versionInfo>CorruptingHeartSublimation-Shield</versionInfo>
+                <alias>浊心斯卡蒂-升华的护盾</alias>
+            </li>
+            <li Class="AKE_VanyaShield.TCP_VanyaShieldExtension">
+                <hideVanillaBubble>true</hideVanillaBubble>
+                <bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/Supporter/ShieldBeltCorruptingHeart_SublimationS</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawOffsetNorth>(0,0.1,0)</drawOffsetNorth>
+                </bubbleStaticOverlay>
+                <bubbleRotateTexPath>Things/ShieldBelt/Supporter/ShieldBeltCorruptingHeart_SublimationD</bubbleRotateTexPath>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="AK_BeltBase">
+        <defName>AK_ShieldBelt_CivilightEterna</defName>
+        <label>魔王残响</label>
+        <description>魔王的护盾</description>
+        <statBases>
+            <EnergyShieldRechargeRate>0.4</EnergyShieldRechargeRate>
+            <EnergyShieldEnergyMax>4</EnergyShieldEnergyMax>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/Supporter/ShieldBeltCivilightEternaS</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+                <startingTicksToReset>4680</startingTicksToReset>
+                <energyOnReset>0.3</energyOnReset>
+                <energyLossPerDamage>0.01</energyLossPerDamage>
+                <canAbsorbMeleeDamage>true</canAbsorbMeleeDamage>
+                <meleeAbsorbFactor>2</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1</rangedAbsorbFactor>
+                <canDodge>true</canDodge>
+                <dodgeChanceFactor>0.1</dodgeChanceFactor>
+                <breakWithSmoke>false</breakWithSmoke>
+                <canForceActive>false</canForceActive>
+                <fireFoamBurster>false</fireFoamBurster>
+                <versionInfo>CivilightEterna-Shield</versionInfo>
+                <alias>魔王的护盾</alias>
+            </li>
+            <li Class="AKE_VanyaShield.TCP_VanyaShieldExtension">
+                <hideVanillaBubble>true</hideVanillaBubble>
+                <bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/Supporter/ShieldBeltCivilightEternaS</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+					<drawOffsetNorth>(0,0.1,0)</drawOffsetNorth>
+                </bubbleStaticOverlay>
+                <bubbleRotateTexPath>Things/ShieldBelt/Supporter/ShieldBeltCivilightEternaD</bubbleRotateTexPath>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="AK_BeltBase">
+        <defName>AK_ShieldBelt_Ling</defName>
+        <label>山河远阔</label>
+        <description>关山远，春风不度。</description>
+        <statBases>
+            <EnergyShieldRechargeRate>0.1</EnergyShieldRechargeRate>
+            <EnergyShieldEnergyMax>3.2</EnergyShieldEnergyMax>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/Supporter/ShieldBeltLing</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+                <startingTicksToReset>6000</startingTicksToReset>
+                <energyOnReset>0.2</energyOnReset>
+                <energyLossPerDamage>0.015</energyLossPerDamage>
+                <canAbsorbMeleeDamage>true</canAbsorbMeleeDamage>
+                <meleeAbsorbFactor>1</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1</rangedAbsorbFactor>
+                <canDodge>false</canDodge>
+                <breakWithSmoke>true</breakWithSmoke>
+                <canForceActive>false</canForceActive>
+                <fireFoamBurster>false</fireFoamBurster>
+                <versionInfo>Ling-Shield</versionInfo>
+                <alias>令的护盾</alias>
+            </li>
+            <li Class="AKE_VanyaShield.TCP_VanyaShieldExtension">
+                <hideVanillaBubble>true</hideVanillaBubble>
+                <bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/Supporter/ShieldBeltLingS</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                </bubbleStaticOverlay>
+                <bubbleRotateTexPath>Things/ShieldBelt/Supporter/ShieldBeltLingD</bubbleRotateTexPath>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="AK_BeltBase">
+        <defName>AK_ShieldBelt_Virtuosa</defName>
+        <label>安魂的弥撒</label>
+        <description>“音乐是在混沌中发掘的秩序。”</description>
+        <statBases>
+            <EnergyShieldRechargeRate>0.1</EnergyShieldRechargeRate>
+            <EnergyShieldEnergyMax>4</EnergyShieldEnergyMax>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/Supporter/ShieldBeltVirtuosa</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+                <startingTicksToReset>6000</startingTicksToReset>
+                <energyOnReset>0.2</energyOnReset>
+                <energyLossPerDamage>0.015</energyLossPerDamage>
+                <canAbsorbMeleeDamage>true</canAbsorbMeleeDamage>
+                <meleeAbsorbFactor>1</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1</rangedAbsorbFactor>
+                <canDodge>false</canDodge>
+                <breakWithSmoke>true</breakWithSmoke>
+                <canForceActive>false</canForceActive>
+                <fireFoamBurster>false</fireFoamBurster>
+                <versionInfo>Virtuosa-Shield</versionInfo>
+                <alias>塑心的护盾</alias>
+            </li>
+            <li Class="AKE_VanyaShield.TCP_VanyaShieldExtension">
+                <hideVanillaBubble>true</hideVanillaBubble>
+                <bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/Supporter/ShieldBeltVirtuosaS</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                </bubbleStaticOverlay>
+                <bubbleRotateTexPath>Things/ShieldBelt/Supporter/ShieldBeltVirtuosaD</bubbleRotateTexPath>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>

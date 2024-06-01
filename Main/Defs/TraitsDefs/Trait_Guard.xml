@@ -729,4 +729,44 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_InvincibleSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>医学背景</label>
+				<description>嘉维尔现在仍是罗德岛医疗部的一员，但在罗德岛需要她发挥自己的战斗力而非医学素养的时候，她也会拿起战斧，冲锋陷阵。</description>
+				<statOffsets>
+					<ImmunityGainSpeed>0.5</ImmunityGainSpeed>
+					<InjuryHealingFactor>0.5</InjuryHealingFactor>
+					<MedicalSurgerySuccessChance>0.5</MedicalSurgerySuccessChance>
+					<MedicalTendQuality>0.5</MedicalTendQuality>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Invincible</defName>
+		<degreeDatas>
+			<li>
+				<label>战地巨斧</label>
+				<description>一旦阿卡胡拉面临什么难以逾越的艰难险阻，{PAWN_nameDef}将会第一时间赶回去，用自己的铁拳和巨斧开辟出新的道路。</description>
+				<statOffsets>
+					<MeleeHitChance>20</MeleeHitChance>
+					<MoveSpeed>1</MoveSpeed>
+					<CarryingCapacity>200</CarryingCapacity>
+				</statOffsets>
+				<statFactors>
+					<MeleeWeapon_DamageMultiplier>1.5</MeleeWeapon_DamageMultiplier>
+					<IncomingDamageFactor>0.75</IncomingDamageFactor >
+					<StaggerDurationFactor>0</StaggerDurationFactor>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>
