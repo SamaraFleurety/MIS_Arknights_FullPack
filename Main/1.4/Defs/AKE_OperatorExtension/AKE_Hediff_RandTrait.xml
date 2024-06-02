@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<!-- 干员拓展的空壳hediff，是干员的特性附带BUFF的载体-->
-	<!--interval是天数倍数，不填默认10-->
+	<!--interval是天数倍数，10= 10天切换一次随机特性 由traitSets里的TraitDef决定具体修正值-->
 	<HediffDef>
 		<defName>AKE_Hediff_SurtrChaos</defName>
 		<hediffClass>HediffWithComps</hediffClass>
