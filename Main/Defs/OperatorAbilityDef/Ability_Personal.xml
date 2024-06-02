@@ -16,7 +16,7 @@
             <verbClass>AKA_Ability.Verb_AbilityTargeting</verbClass>
             <defaultProjectile>Bullet_MiniTurret</defaultProjectile>
             <warmupTime>0</warmupTime>
-            <range>28.9</range>
+            <range>42.9</range>
             <soundCast>GunShotA</soundCast>
             <soundCastTail>GunTail_Light</soundCastTail>
             <muzzleFlashScale>9</muzzleFlashScale>
@@ -42,9 +42,25 @@
     </AKA_Ability.AKAbilityDef>
 
     <!--物资池 品质:Poor,Normal,Good,Excellent,Legendary;每种ID对应品质的物资池数量都必须至少为phaseCount的最小公倍数，最少4个-->
-	<!--指定品质空投sendRewardOf 只-->
+	<!--奖励类型 items 随机物品randomItems 生成事件incidentDef 解锁研究unlockXResearch 治好全部小人massHeal 指定品质空投sendRewardOf-->
     <!--如果不指定ID，则视为全局物资池-->
-    <!--烂品质池子-->
+    <!--模版>
+    <randomItems模版>
+        <li>
+            <thingCategories>
+                <li>Weapons</li>
+            </thingCategories>
+            <excludeThingCategories>
+                <li MayRequire="CETeam.CombatExtended">Ammo</li>
+            </excludeThingCategories>
+            <quality>Poor</quality>
+            <count>3</count>
+        </li>
+    </randomItems>
+    <incidentDef>PsychicSoothe</incidentDef>(生成心灵抚慰事件)
+    <unlockXResearch>2</unlockXResearch>(随机解锁已满足前置的2个研究)
+    <massHeal>True</massHeal>(治疗所有殖民者Pawn)-->
+    <!--较差 品质池子-->
     <AKA_Ability.RewardDef>
         <defName>AKA_Ability_WoodDrop</defName>
         <texPath>UI/Abilities/White</texPath>
@@ -136,18 +152,24 @@
     </AKA_Ability.RewardDef>
 
     <AKA_Ability.RewardDef>
-        <defName>AKA_Ability_PoorCashDrop2</defName>
+        <defName>AKA_PoorWeaponsDrop</defName>
         <texPath>UI/Abilities/White</texPath>
-        <label>金钱空投</label>
-        <description>呼叫空投 500 个银子</description>
-		<ID></ID>
+        <label>破烂 武器空投</label>
+        <description>呼叫空投 3 随机武器, 最高品质为 破烂</description>
+        <ID></ID>
         <category>Poor</category>
-        <items>
+        <randomItems>
             <li>
-                <thing>Silver</thing>
-                <count>500</count>
+                <thingCategories>
+                    <li>Weapons</li>
+                </thingCategories>
+                <excludeThingCategories>
+                    <li MayRequire="CETeam.CombatExtended">Ammo</li>
+                </excludeThingCategories>
+                <quality>Poor</quality>
+                <count>3</count>
             </li>
-        </items>
+        </randomItems>
     </AKA_Ability.RewardDef>
 
     <AKA_Ability.RewardDef>
