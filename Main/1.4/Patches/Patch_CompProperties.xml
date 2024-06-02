@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/HediffDef[defName="AK_Hediff_Camouflage"]/comps/li[@Class="HediffCompProperties_Invisibility"]</xpath>
+		<match Class="PatchOperationRemove">
+			<xpath>Defs/HediffDef[defName="AK_Hediff_Camouflage"]/comps/li[@Class="HediffCompProperties_Invisibility"]</xpath>
+		</match>
+	</Operation>
+
+    <Operation Class="PatchOperationConditional">
+		<xpath>Defs/HediffDef[defName="TestHediff"]/comps/li[@Class="HediffCompProperties_SeverityPerSecond"]</xpath>
+		<match Class="PatchOperationRemove">
+			<xpath>Defs/HediffDef[defName="TestHediff"]/comps/li[@Class="HediffCompProperties_SeverityPerSecond"]</xpath>
+		</match>
+	</Operation>
+
+    <Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="Bullet_Test"]</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Bullet_Test"]/projectile/damageDef</xpath>
+            <value>
+                <damageDef>Bullet</damageDef>
+            </value>
+		</match>
+	</Operation>
+
+    <Operation Class="PatchOperationConditional">
+		<xpath>Defs/AbilityDef[defName="AKA_Ability_Virtuosa"]/comps/li[@Class="CompProperties_AbilityGiveHediffPsychic"]</xpath>
+		<match Class="PatchOperationRemove">
+			<xpath>Defs/AbilityDef[defName="AKA_Ability_Virtuosa"]/comps/li[@Class="CompProperties_AbilityGiveHediffPsychic"]</xpath>
+		</match>
+	</Operation>
+
+    <Operation Class="PatchOperationConditional">
+		<xpath>Defs/AbilityDef[defName="AKA_Ability_Virtuosa"]/comps/li[@Class="CompProperties_AbilityEffecterOnTarget"]</xpath>
+        <match Class="PatchOperationRemove">
+			<xpath>Defs/AbilityDef[defName="AKA_Ability_Virtuosa"]/comps/li[@Class="CompProperties_AbilityEffecterOnTarget"]</xpath>
+		</match>
+	</Operation>
+
+    <Operation Class="PatchOperationConditional">
+		<xpath>Defs/AbilityDef[defName="AKA_Ability_Virtuosa_Second"]/comps/li[@Class="CompProperties_AbilityGiveHediffPsychic"]</xpath>
+		<match Class="PatchOperationRemove">
+			<xpath>Defs/AbilityDef[defName="AKA_Ability_Virtuosa_Second"]/comps/li[@Class="CompProperties_AbilityGiveHediffPsychic"]</xpath>
+		</match>
+	</Operation>
+
+</Patch>
