@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/AK_DLL.OperatorDef[@Name="AK_RecruitBase"]/headTypeDef</xpath>
-		<value>
-			<headTypeDef>Female_AverageNormal</headTypeDef>
-		</value>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[@Name="AK_ArmorBase"]/comps</xpath>
+		<match Class="PatchOperationRemove">
+			<xpath>Defs/ThingDef[@Name="AK_ArmorBase"]/comps/li[@Class="SFLib.TCP_HideBody"]</xpath>
+		</match>
 	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/AK_DLL.OperatorDef[@Name="AK_RecruitBase"]</xpath>
+		<match Class="PatchOperationRemove">
+			<xpath>Defs/AK_DLL.OperatorDef[@Name="AK_RecruitBase"]/headTypeDef</xpath>
+		</match>
+	</Operation>
+	
 </Patch>
