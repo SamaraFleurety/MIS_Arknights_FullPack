@@ -1429,4 +1429,104 @@
 		</skills>
 	</AK_DLL.OperatorDef>
 
+	<!-- 琳琅诗怀雅 -->
+
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Specialist">
+		<defName>AK_Recruit_SwireElegantWit</defName>
+		<name>SwireElegantWit</name>
+		<nickname>SwireElegantWit</nickname>
+		<description>FIXMEDESC</description>
+		<weapon>AK_Weapon_SwireElegantWit</weapon>
+		<hair>AK_Hair_SwireElegantWit</hair>
+		<apparels>
+			<li>AK_Apparel_SwireElegantWit</li>
+		</apparels>
+		<accessory Inherit="false">
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_SwireElegantWit</li>
+		</accessory>
+		<stand>UI/Image/Specialist/SwireElegantWitStand</stand>
+		<headPortrait>UI/Image/Specialist/SwireElegantWitPortrait</headPortrait>
+		<traits>
+			<li>
+				<def>Industriousness</def>
+				<degree>1</degree>
+			</li>
+			<li>
+				<def>Beauty</def>
+				<degree>1</degree>
+			</li>
+			<li>
+				<def>AK_Trait_SwireElegantWitSecond</def>
+			</li>
+			<li>
+				<def>AK_Trait_SwireElegantWit</def>
+			</li>
+		</traits>
+		<age>20</age>
+		<childHood>AK_BackStory_Swire_Child</childHood>
+		<adultHood>AK_BackStory_Swire_Adult</adultHood>
+		<skills>
+			<li>
+				<skill>Animals</skill>
+				<level>1</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Artistic</skill>
+				<level>11</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Construction</skill>
+				<level>1</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Cooking</skill>
+				<level>4</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Crafting</skill>
+				<level>2</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Intellectual</skill>
+				<level>15</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<level>3</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<level>10</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Mining</skill>
+				<level>1</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Plants</skill>
+				<level>3</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<level>9</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<level>15</level>
+				<fireLevel>2</fireLevel>
+			</li>
+		</skills>
+	</AK_DLL.OperatorDef>
+
 </Defs>

@@ -3116,4 +3116,227 @@
 		</subSounds>
 	</SoundDef>
 
+	<!-- SwireElegantWit 琳琅诗怀雅 -->
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Recruit_SwireElegantWit</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Specialist/SwireElegantWit/char_1033_swire2/Recruit_SwireElegantWit</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Die_SwireElegantWit</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Specialist/SwireElegantWit/char_1033_swire2/Die_SwireElegantWit</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Draft_SwireElegantWitI</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Specialist/SwireElegantWit/char_1033_swire2/Draft_SwireElegantWitI</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Draft_SwireElegantWitII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Specialist/SwireElegantWit/char_1033_swire2/Draft_SwireElegantWitII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_SwireElegantWitI</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Specialist/SwireElegantWit/char_1033_swire2/Select_SwireElegantWitI</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_SwireElegantWitII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Specialist/SwireElegantWit/char_1033_swire2/Select_SwireElegantWitII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_SwireElegantWitIII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Specialist/SwireElegantWit/char_1033_swire2/Select_SwireElegantWitIII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_SwireElegantWitIV</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Specialist/SwireElegantWit/char_1033_swire2/Select_SwireElegantWitIV</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_SwireElegantWitI</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Specialist/SwireElegantWit/char_1033_swire2/Ability_SwireElegantWitI</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_SwireElegantWitII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Specialist/SwireElegantWit/char_1033_swire2/Ability_SwireElegantWitII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_SwireElegantWitIII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Specialist/SwireElegantWit/char_1033_swire2/Ability_SwireElegantWitIII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_SwireElegantWitIV</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Specialist/SwireElegantWit/char_1033_swire2/Ability_SwireElegantWitIV</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Undraft_SwireElegantWit</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Specialist/SwireElegantWit/char_1033_swire2/Undraft_SwireElegantWit</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
 </Defs>

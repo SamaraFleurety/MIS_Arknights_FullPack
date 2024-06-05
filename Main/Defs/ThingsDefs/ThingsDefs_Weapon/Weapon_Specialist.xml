@@ -862,4 +862,38 @@
     </tools>
   </ThingDef>
 
+  <ThingDef ParentName="AK_WeaponBase_Specialist">
+    <defName>AK_Weapon_SwireElegantWit</defName>
+    <label>琳琅诗怀雅的“金币辉煌”手提包</label>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Specialist/SwireElegantWitW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <description>琳琅诗怀雅的手提包，用钱砸人？</description>
+    <tools Inherit = "false">
+      <li>
+        <label>砸</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>22</power>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+      <li>
+        <label>猛砸</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>30</power>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>5</amount>
+          </li>
+        </extraMeleeDamages>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
 </Defs>
