@@ -23,7 +23,7 @@
 				<defName>AK_Bullet_LapplandCE</defName>
 				<label>狼魂</label>
 				<graphicData>
-					<texPath>Things/Projectile/MagicOrb</texPath>
+					<texPath>Things/Projectile/MagicFireB</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
 				</graphicData>
 				<projectile Class="CombatExtended.ProjectilePropertiesCE">
@@ -39,7 +39,7 @@
 				<defName>AK_Bullet_SilverashCE</defName>
 				<label>丹增</label>
 				<graphicData>
-					<texPath>Things/Projectile/MagicOrb</texPath>
+					<texPath>Things/Projectile/MagicFireB</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
 				</graphicData>
 				<projectile Class="CombatExtended.ProjectilePropertiesCE">
@@ -55,7 +55,7 @@
 				<defName>AK_Bullet_ThornsCE</defName>
 				<label>至高之术</label>
 				<graphicData>
-					<texPath>Things/Projectile/MagicOrb</texPath>
+					<texPath>Things/Projectile/MagicFireB</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
 				</graphicData>
 				<projectile Class="CombatExtended.ProjectilePropertiesCE">
@@ -1719,4 +1719,3 @@
 		</value>
 	</Operation>
 </Patch>
-

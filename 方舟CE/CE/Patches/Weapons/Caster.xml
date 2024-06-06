@@ -7,7 +7,7 @@
 				<defName>AK_MagicBullet_BaseCE</defName>
 				<label>法术</label>
 				<graphicData>
-					<texPath>Things/Projectile/MagicOrb</texPath>
+					<texPath>Things/Projectile/MagicFireB</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
 				</graphicData>
 				<projectile Class="CombatExtended.ProjectilePropertiesCE">
@@ -21,7 +21,7 @@
 				<defName>AK_MagicBullet_BaseCEAOE</defName>
 				<label>法术</label>
 				<graphicData>
-					<texPath>Things/Projectile/MagicOrb</texPath>
+					<texPath>Things/Projectile/MagicFireB</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
 				</graphicData>
 				<projectile Class="CombatExtended.ProjectilePropertiesCE">
@@ -101,7 +101,7 @@
 				<defName>AK_Bullet_AbsintheCE</defName>
 				<label>法术</label>
 				<graphicData>
-					<texPath>Things/Projectile/MagicOrb</texPath>
+					<texPath>Things/Projectile/MagicFireB</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
 				</graphicData>
 				<projectile Class="CombatExtended.ProjectilePropertiesCE">
