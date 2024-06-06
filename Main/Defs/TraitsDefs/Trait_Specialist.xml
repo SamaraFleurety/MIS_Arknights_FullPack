@@ -49,9 +49,12 @@
 				<label>创伤性癔症</label>
 				<description>“为何人们会四处向自己的同胞散播痛苦？是出于族类生命形式的软弱？还是在族类个体之间缺乏真正的桥接与沟通？又或是植于族类基底中的劣根性？\n我们究竟又该怎么做，才能让自己变得更善更美，来脱离这一切？”</description>
 				<statOffsets>
-					<MentalBreakThreshold>-0.65</MentalBreakThreshold>
-					<PsychicSensitivity>-0.3</PsychicSensitivity>
+					<MentalBreakThreshold>-0.05</MentalBreakThreshold>
+					<SocialImpact>0.15</SocialImpact>
 				</statOffsets>
+				<statFactors>
+					<PsychicSensitivity>2</PsychicSensitivity>
+				</statFactors>
 			</li>
 		</degreeDatas>
 	</TraitDef>
@@ -62,8 +65,27 @@
 		<commonality>0.0</commonality>
 		<degreeDatas>
 			<li>
-				<label>镜花水月</label>
-				<description>“不过这些都是无关的闲谈啦。谁会真的反对收留这样一个懂礼貌、不添乱的好孩子呢？\n呃，我并不是在嫌弃我们救助的一部分爱吵闹捣蛋的孩子啊，没有的事！”</description>
+				<label>深蓝之籽</label>
+				<description>每一棵大树，在起初都只是一粒渺小的种子。</description>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>AK_Trait_MizukiThird</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>使者的馈赠</label>
+				<description>我本以为这个孩子早晚会泯然众人。但这一次，我或许能找到人类的希望。</description>
+				<statOffsets>
+					<GlobalLearningFactor>0.2</GlobalLearningFactor>
+					<CarryingCapacity>25</CarryingCapacity>
+				</statOffsets>
+				<statFactors>
+					<CertaintyLossFactor>0.5</CertaintyLossFactor>
+				</statFactors>
 			</li>
 		</degreeDatas>
 	</TraitDef>

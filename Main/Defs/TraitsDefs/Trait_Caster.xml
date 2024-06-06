@@ -194,16 +194,38 @@
 	<!-- 伊芙利特 -->
 
 	<TraitDef>
+		<defName>AK_Trait_IfritSecond</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>“同熔”</label>
+				<description>占据梦境的庞然巨物开始消退，它的火焰澄澈起来。昏迷的{PAWN_nameDef}沉睡在上面，{PAWN_pronoun}不再感到痛苦，那片火融入{PAWN_pronoun}，{PAWN_pronoun}接纳了那片火。</description>
+				<statOffsets>
+					<ShootingAccuracyPawn>5</ShootingAccuracyPawn>
+					<ComfyTemperatureMin>-10</ComfyTemperatureMin>
+					<ComfyTemperatureMax>10</ComfyTemperatureMax>
+					<WorkSpeedGlobal>0.1</WorkSpeedGlobal>
+					<MoveSpeed>0.5</MoveSpeed>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
 		<defName>AK_Trait_Ifrit</defName>
 		<ignoreConfigErrors>true</ignoreConfigErrors>
 		<commonality>0.0</commonality>
 		<degreeDatas>
 			<li>
 				<label>炎魔</label>
-				<description>{PAWN_nameDef}时常会出现幻觉，{PAWN_pronoun}会看到烧焦的尸体与动物，或者亲密的人烈火焚身。\n每当此时，{PAWN_pronoun}就会变得意识恍惚，因此烧掉一条走廊的事也不是没有。\n但当{PAWN_pronoun}陷入恍惚时，身后那个巨大的幻影是什么？</description>
+				<description>{PAWN_nameDef}患有长期的神经阻滞性疼痛，严重时甚至会出现幻觉，导致{PAWN_pronoun}性格暴躁。但在罗德岛是长期的训练和与干员们的接触，让{PAWN_pronoun}逐渐能够控制自己的脾气和火焰。</description>
 				<statOffsets>
-					<MentalBreakThreshold>0.4</MentalBreakThreshold>
-					<PsychicSensitivity>1.0</PsychicSensitivity>
+					<SocialImpact>0.2</SocialImpact>
+					<CookSpeed>0.3</CookSpeed>
+					<AimingDelayFactor>-0.15</AimingDelayFactor>
+					<PsychicSensitivity>0.3</PsychicSensitivity>
+					<MentalBreakThreshold>0.05</MentalBreakThreshold>
 				</statOffsets>
 			</li>
 		</degreeDatas>
@@ -307,12 +329,17 @@
 		<defName>AK_Trait_Goldenglow</defName>
 		<degreeDatas>
 			<li>
-				<label>静电</label>
-				<description>尽管{PAWN_nameDef}在感染矿石病之初就体现出了不断释放静电的能力，但是在经历了卡拉顿的一系列事件后，{PAWN_possessive}静电开始进入了不稳定的状态。\n{PAWN_possessive}静电现在仿佛带有了情绪。</description>
+				<label>“辛劳之翼”</label>
+				<description>明天仍是辛劳的一天，明天也仍将满载而归......\n苏茜心满意足地在温暖中沉入了梦乡</description>
 				<statOffsets>
-					<MentalBreakThreshold>0.10</MentalBreakThreshold>
-					<SocialImpact>-0.05</SocialImpact>
+					<MentalBreakThreshold>-0.10</MentalBreakThreshold>
+					<SocialImpact>0.3</SocialImpact>
+					<MoveSpeed>0.3</MoveSpeed>
 				</statOffsets>
+				<statFactors>
+					<WorkSpeedGlobal>1.1</WorkSpeedGlobal>
+					<CertaintyLossFactor>0.8</CertaintyLossFactor>
+				</statFactors>
 			</li>
 		</degreeDatas>
 	</TraitDef>
@@ -323,8 +350,14 @@
 		<defName>AK_Trait_GoldenglowSecond</defName>
 		<degreeDatas>
 			<li>
-				<label>随和</label>
-				<description>{PAWN_nameDef}的性格相当受人欢迎，开朗，随和。勤恳做事，认真生活。\n尽管{PAWN_pronoun}有着良好的源石技艺适应性，但是{PAWN_possessive}目标却是成为一个出色的理发师。</description>
+				<label>澄净火花</label>
+				<description>{PAWN_nameDef}的源石技艺容易失控，需要靠法杖和小措施维持稳定。但她很愿意在学习源石技艺和生活技能上面投入精力。</description>
+				<statOffsets>
+					<ShootingAccuracyPawn>-3</ShootingAccuracyPawn>
+					<AimingDelayFactor>-0.3</AimingDelayFactor>
+					<GlobalLearningFactor>0.4</GlobalLearningFactor>
+					<ReadingSpeed>0.3</ReadingSpeed><!-- 阅读速度 -->
+				</statOffsets>
 			</li>
 		</degreeDatas>
 	</TraitDef>

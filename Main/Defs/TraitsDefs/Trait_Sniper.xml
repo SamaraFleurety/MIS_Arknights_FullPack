@@ -290,9 +290,14 @@
 				<label>迷迭香之拥</label>
 				<description>“谁来审判？”</description>
 				<statOffsets>
-					<MentalBreakThreshold>0.4</MentalBreakThreshold>
-					<PsychicSensitivity>1</PsychicSensitivity>
+					<ShootingAccuracyPawn>5</ShootingAccuracyPawn>
+					<AimingDelayFactor>-0.5</AimingDelayFactor>
+					<CarryingCapacity>50</CarryingCapacity>
 				</statOffsets>
+				<statFactors>
+					<MortarMissRadiusFactor>0</MortarMissRadiusFactor>
+					<IncomingDamageFactor>0.8</IncomingDamageFactor>
+				</statFactors>
 			</li>
 		</degreeDatas>
 	</TraitDef>
@@ -309,6 +314,20 @@
 					<GlobalLearningFactor>-0.55</GlobalLearningFactor>
 					<WorkSpeedGlobal>-0.25</WorkSpeedGlobal>
 					<SocialImpact>-0.15</SocialImpact>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>AK_Trait_RosmontisThird</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>“记事”</label>
+				<description>如果我变坏的话.....不，无论未来我会变成什么样子。我会记录，会审视。\n我评判的最后一个人将会是我自己。\n你就是{PAWN_pronoun}的大地。你怎么对待{PAWN_pronoun}，{PAWN_pronoun}就会怎么对待这片大地。——Whitesmith</description>
+				<statOffsets>
 				</statOffsets>
 			</li>
 		</degreeDatas>

@@ -454,62 +454,62 @@
 		<skills>
 			<li>
 				<skill>Animals</skill>
-				<level>1</level>
+				<level>0</level>
 				<fireLevel>1</fireLevel>
 			</li>
 			<li>
 				<skill>Artistic</skill>
-				<level>1</level>
+				<level>0</level>
 				<fireLevel>1</fireLevel>
 			</li>
 			<li>
 				<skill>Construction</skill>
-				<level>2</level>
+				<level>0</level>
 				<fireLevel>1</fireLevel>
 			</li>
 			<li>
 				<skill>Cooking</skill>
-				<level>1</level>
-				<fireLevel>2</fireLevel>
-			</li>
-			<li>
-				<skill>Crafting</skill>
-				<level>4</level>
-				<fireLevel>1</fireLevel>
-			</li>
-			<li>
-				<skill>Intellectual</skill>
-				<level>8</level>
-				<fireLevel>2</fireLevel>
-			</li>
-			<li>
-				<skill>Medicine</skill>
 				<level>2</level>
 				<fireLevel>1</fireLevel>
 			</li>
 			<li>
+				<skill>Crafting</skill>
+				<level>0</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Intellectual</skill>
+				<level>3</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<level>0</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
 				<skill>Melee</skill>
-				<level>16</level>
+				<level>19</level>
 				<fireLevel>2</fireLevel>
 			</li>
 			<li>
 				<skill>Mining</skill>
-				<level>1</level>
+				<level>0</level>
 				<fireLevel>1</fireLevel>
 			</li>
 			<li>
 				<skill>Plants</skill>
-				<level>1</level>
+				<level>0</level>
 				<fireLevel>1</fireLevel>
 			</li>
 			<li>
 				<skill>Shooting</skill>
-				<level>1</level>
+				<level>0</level>
 				<fireLevel>1</fireLevel>
 			</li>
 			<li>
 				<skill>Social</skill>
-				<level>3</level>
+				<level>0</level>
 				<fireLevel>1</fireLevel>
 			</li>
 		</skills>
@@ -518,8 +518,7 @@
 				<def>AK_Trait_Surtr</def>
 			</li>
 			<li>
-				<def>Immunity</def>
-				<degree>1</degree>
+				<def>AK_Trait_SurtrSecond</def>
 			</li>
 			<li>
 				<def>Beauty</def>
@@ -527,9 +526,6 @@
 			</li>
 			<li>
 				<def>Abrasive</def>
-			</li>
-			<li>
-				<def>Tough</def>
 			</li>
 		</traits>
 		<age>20</age>
@@ -573,7 +569,7 @@
 			<li>
 				<skill>Construction</skill>
 				<level>12</level>
-				<fireLevel>1</fireLevel>
+				<fireLevel>2</fireLevel>
 			</li>
 			<li>
 				<skill>Cooking</skill>
@@ -582,8 +578,8 @@
 			</li>
 			<li>
 				<skill>Crafting</skill>
-				<level>6</level>
-				<fireLevel>0</fireLevel>
+				<level>10</level>
+				<fireLevel>1</fireLevel>
 			</li>
 			<li>
 				<skill>Intellectual</skill>
@@ -642,6 +638,12 @@
 		</traits>
 		<age>20</age>
 		<adultHood>AK_BackStory_Blaze_Adult</adultHood>
+		<hediffInate>
+			<li>
+				<hediff>AlcoholAddiction</hediff>
+				<serverity>20</serverity>
+			</li>
+		</hediffInate>
 	</AK_DLL.OperatorDef>
 
 	<!-- 陈 -->

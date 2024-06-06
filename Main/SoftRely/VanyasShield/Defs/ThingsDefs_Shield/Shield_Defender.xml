@@ -314,6 +314,7 @@
                     <texPath>Things/ShieldBelt/Defender/ShieldBeltEunectesS</texPath>
                     <graphicClass>Graphic_Multi</graphicClass>
                     <drawSize>(2,2)</drawSize>
+                    <shaderType>TransparentPostLight</shaderType>
                     <drawOffsetSouth>(0,1.1,0)</drawOffsetSouth>
                 </bubbleStaticOverlay>
             </li>
