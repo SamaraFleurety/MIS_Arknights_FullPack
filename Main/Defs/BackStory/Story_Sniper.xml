@@ -366,4 +366,20 @@
 		<baseDesc>{PAWN_nameDef}，雇佣兵的领袖，萨卡兹的新希望。/n{PAWN_pronoun}习惯黑夜，甚至称得上喜欢黑夜。在{PAWN_pronoun}尚不知如何处置自己的时候，黑夜是庇护性命的大衣。等到{PAWN_pronoun}学会了填饱肚子的方法，黑夜又成了能涂黑匕首的迷彩。每个能从卡兹戴尔的荒野上走出来的人，都知晓该怎么利用永远暗沉的夜色，因为没有学会的那些人，都已被它一一溺死。</baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Ray_Child</defName>
+		<slot>Childhood</slot>
+		<title>猎人家庭的孩子</title>
+		<titleShort>猎人家庭的孩子</titleShort>
+		<baseDesc>{PAWN_nameDef}出身于一个猎人家庭，那支猎人队伍常年游离城市文明之外，但在一次恶劣天气的重创中，一部分家庭成员失散，{PAWN_nameDef}自己幸存了下来，之后选择跟随一名远亲前往移动城市谋生，一个人埋头走得越来越远。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Ray_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>“探井人”</title>
+		<titleShort>“探井人”</titleShort>
+		<baseDesc>{PAWN_nameDef}曾在雷姆必拓做过很多种散工，对各种技能都略有涉猎，修补电线、缝补衣服、训练沙地兽、通过手边材料搭建临时棚屋。同时，作为雷姆必拓的探井人，{PAWN_nameDef}拥有优秀的战斗能力和充足的专业知识。但{PAWN_pronoun}不太擅长与人交流。</baseDesc>
+	</BackstoryDef>
+
 </Defs>

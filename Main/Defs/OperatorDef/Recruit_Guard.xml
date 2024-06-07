@@ -553,6 +553,9 @@
 		<apparels>
 			<li>AK_Apparel_Blaze</li>
 		</apparels>
+		<accessory Inherit="false">
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Blaze</li>
+		</accessory>
 		<stand>UI/Image/Guard/BlazeStand</stand>
 		<headPortrait>UI/Image/Guard/BlazePortrait</headPortrait>
 		<skills>

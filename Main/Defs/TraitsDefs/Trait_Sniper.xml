@@ -586,6 +586,8 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<!-- 维什戴尔 -->
+
 	<TraitDef>
 		<ignoreConfigErrors>true</ignoreConfigErrors>
 		<commonality>0.0</commonality>
@@ -605,6 +607,64 @@
 				<statFactors>
 					<CertaintyLossFactor>0.01</CertaintyLossFactor>
 				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<!-- 莱伊 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_RayThird</defName>
+		<degreeDatas>
+			<li>
+				<label>自由职业者</label>
+				<description>{PAWN_nameDef}经常在探井之余做一些杂活，涉猎各个方面，同时还驯养了一只非常难以驯服的沙地兽，同时在闲暇时也经常会去看书。</description>
+				<statOffsets>
+					<WorkSpeedGlobal>0.15</WorkSpeedGlobal>
+					<TameAnimalChance>0.4</TameAnimalChance>
+					<TrainAnimalChance>0.4</TrainAnimalChance>
+					<GlobalLearningFactor>0.2</GlobalLearningFactor>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_RaySecond</defName>
+		<degreeDatas>
+			<li>
+				<label>资深探井人</label>
+				<description>{PAWN_nameDef}常年作为探井人工作，在日积月累中成为了一名安保好手，反应迅捷，对各种矿物也十分了解，但长期独来独往，让{PAWN_pronoun}没那么擅长与人交流。</description>
+				<statOffsets>
+					<MiningYield>0.15</MiningYield>
+					<MiningSpeed>0.1</MiningSpeed>
+					<CarryingCapacity>15</CarryingCapacity>
+					<ShootingAccuracyPawn>2</ShootingAccuracyPawn>
+					<AimingDelayFactor>-0.2</AimingDelayFactor>
+					<MoveSpeed>0.8</MoveSpeed>
+					<PsychicSensitivity>-0.3</PsychicSensitivity>
+					<SocialImpact>-0.45</SocialImpact>
+					<NegotiationAbility>-0.5</NegotiationAbility>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Ray</defName>
+		<degreeDatas>
+			<li>
+				<label>“得见光芒”</label>
+				<description>黑暗不会再追上我，我已经有了家，有了必须活下去的理由。</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.15</MentalBreakThreshold>
+				</statOffsets>
 			</li>
 		</degreeDatas>
 	</TraitDef>

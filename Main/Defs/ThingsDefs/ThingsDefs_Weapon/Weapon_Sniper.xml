@@ -2118,4 +2118,71 @@
 		</projectile>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_WeaponBase_Sniper">
+		<defName>AK_Weapon_Ray</defName>
+		<label>无翼弩</label>
+		<description>莱伊的无翼弩,造型精简而充满力量感，摒弃了传统的翼型设计，以流线型的形态呈现。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Sniper/RayW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.75</AccuracyTouch>
+			<AccuracyShort>1</AccuracyShort>
+			<AccuracyMedium>1</AccuracyMedium>
+			<AccuracyLong>1</AccuracyLong>
+			<RangedWeapon_Cooldown>2.3</RangedWeapon_Cooldown>
+			<!--后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_Ray</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>1.5</warmupTime>
+				<!--前摇-->
+				<range>45</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_GeneralPistol</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<tools Inherit="false">
+			<li>
+				<label>枪托猛砸</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>15</power>
+				<cooldownTime>1.0</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_Ray</defName>
+		<label>射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<!--伤害类型-->
+			<damageAmountBase>38</damageAmountBase>
+			<armorPenetrationBase>0.56</armorPenetrationBase>
+			<!--穿甲-->
+			<stoppingPower>1.5</stoppingPower>
+			<speed>50</speed>
+			<soundExplode>ThumpCannon_Impact</soundExplode>
+			<!--爆炸音效-->
+		</projectile>
+	</ThingDef>
+
 </Defs>

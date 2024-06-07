@@ -121,4 +121,50 @@
         </comps>
     </ThingDef>
 
+    <ThingDef ParentName="AK_BeltBase">
+        <defName>AK_ShieldBelt_Blaze</defName>
+        <label>沸腾爆裂</label>
+        <description>如果没法承受更多伤害，如果自己的法术会对自己造成损伤，那就想办法去克服，带上更多药品，装上朋友研制的特制起搏器，从休克中站起来，一次次站起来，再一次加入战斗。</description>
+        <statBases>
+            <EnergyShieldRechargeRate>0.1</EnergyShieldRechargeRate>
+            <EnergyShieldEnergyMax>3</EnergyShieldEnergyMax>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/Guard/ShieldBeltBlaze</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+                <startingTicksToReset>1800</startingTicksToReset>
+                <energyOnReset>1</energyOnReset>
+                <energyLossPerDamage>0.015</energyLossPerDamage>
+                <canAbsorbMeleeDamage>true</canAbsorbMeleeDamage>
+                <meleeAbsorbFactor>1</meleeAbsorbFactor>
+                <rangedAbsorbFactor>2</rangedAbsorbFactor>
+                <canDodge>false</canDodge>
+                <breakWithSmoke>false</breakWithSmoke>
+                <canForceActive>false</canForceActive>
+                <fireFoamBurster>false</fireFoamBurster>
+                <versionInfo>Blaze-Shield</versionInfo>
+                <alias>煌的护盾</alias>
+            </li>
+            <li Class="AKE_VanyaShield.TCP_VanyaShieldExtension">
+                <hideVanillaBubble>true</hideVanillaBubble>
+                <bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/Guard/ShieldBeltBlazeS</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawOffsetNorth>(0,0.1,0)</drawOffsetNorth>
+                </bubbleStaticOverlay>
+            </li>
+            <li Class="AKE_VanyaShield.TCP_ShieldExtraRenderer">
+                <bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/Guard/ShieldBeltBlazeSE</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                </bubbleStaticOverlay>
+            </li>
+        </comps>
+    </ThingDef>
+
 </Defs>
