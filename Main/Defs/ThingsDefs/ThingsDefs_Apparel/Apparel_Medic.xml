@@ -221,6 +221,18 @@
 	</ThingDef>
 
 	<ThingDef ParentName="AK_ArmorBase_Medic">
+		<defName>AK_Apparel_FlameShadowCurator</defName>
+		<label>焰影苇草_博物</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Medic/FlameShadow_Curator</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Medic/FlameShadow_Curator</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Medic">
 		<defName>AK_Apparel_Vendela</defName>
 		<label>刺玫服装</label>
 		<graphicData>
