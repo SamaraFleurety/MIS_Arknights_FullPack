@@ -86,4 +86,45 @@
         </comps>
     </ThingDef>
 
+    <ThingDef ParentName="AK_BeltBase">
+        <defName>AK_ShieldBelt_Ray</defName>
+        <label>莱伊的护盾</label>
+        <description>莱伊的护盾</description>
+        <statBases>
+            <EnergyShieldRechargeRate>0.2</EnergyShieldRechargeRate>
+            <EnergyShieldEnergyMax>1.8</EnergyShieldEnergyMax>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/Sniper/ShieldBeltRayS</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+                <startingTicksToReset>4680</startingTicksToReset>
+                <energyOnReset>0.3</energyOnReset>
+                <energyLossPerDamage>0.01</energyLossPerDamage>
+                <canAbsorbMeleeDamage>true</canAbsorbMeleeDamage>
+                <meleeAbsorbFactor>2</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1</rangedAbsorbFactor>
+                <canDodge>true</canDodge>
+                <dodgeChanceFactor>0.1</dodgeChanceFactor>
+                <breakWithSmoke>false</breakWithSmoke>
+                <canForceActive>false</canForceActive>
+                <fireFoamBurster>false</fireFoamBurster>
+                <versionInfo>Ray-Shield</versionInfo>
+                <alias>莱伊的护盾</alias>
+            </li>
+            <li Class="AKE_VanyaShield.TCP_VanyaShieldExtension">
+                <hideVanillaBubble>true</hideVanillaBubble>
+                <bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/Sniper/ShieldBeltRayS</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+					<drawOffsetNorth>(0,0,0)</drawOffsetNorth>
+                    <shaderType>Transparent</shaderType>
+                </bubbleStaticOverlay>
+            </li>
+        </comps>
+    </ThingDef>
+
 </Defs>

@@ -2608,6 +2608,9 @@
 		<apparels>
 			<li>AK_Apparel_Ray</li>
 		</apparels>
+		<accessory Inherit="false">
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Ray</li>
+		</accessory>
 		<stand>UI/Image/Sniper/RayStand</stand>
 		<headPortrait>UI/Image/Sniper/RayPortrait</headPortrait>
 		<traits>
