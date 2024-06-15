@@ -470,4 +470,16 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Guard">
+		<defName>AK_Apparel_Degenbrecher</defName>
+		<label>锏服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Guard/Degenbrecher</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Guard/Degenbrecher</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 </Defs>

@@ -370,4 +370,56 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<!-- 归溟幽灵鲨 -->
+
+	<TraitDef>
+		<defName>AK_Trait_SpecterUnchained</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>深海猎人——幽灵鲨</label>
+				<description>既然文明遇上了害兽，那么，{PAWN_nameDef}很乐意成为一位屠夫。\n以它们的死亡，铸就阿戈尔的生存。</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.15</MentalBreakThreshold>
+					<MeleeDodgeChance>2</MeleeDodgeChance>
+				</statOffsets>
+				<statFactors>
+					<IncomingDamageFactor>0.5</IncomingDamageFactor>
+					<MeleeWeapon_DamageMultiplier>1.2</MeleeWeapon_DamageMultiplier>
+					<PsychicSensitivity>0.5</PsychicSensitivity>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>AK_Trait_SpecterUnchainedSecond</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>未竟之美</label>
+				<description>“{PAWN_pronoun}正在斗争中创造属于{PAWN_pronoun}的美。如你所说那般，兴致勃勃。”</description>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>AK_Trait_SpecterUnchainedThird</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>拥抱自我</label>
+				<description>{PAWN_pronoun}从唱片箱中掏出一枚锯片轻轻擦拭，同时换上了一张新的唱片继续播放。或许，正如伊比利亚人用各种方式记录了他们的黄金时代一样，{PAWN_pronoun}也可以试着重新捡回她曾经最爱做的事——雕塑。</description>
+				<statOffsets>
+					<GeneralLaborSpeed>0.5</GeneralLaborSpeed>
+					<ConstructionSpeed>0.1</ConstructionSpeed>
+					<ConstructSuccessChance>0.1</ConstructSuccessChance>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>

@@ -896,4 +896,41 @@
     </tools>
   </ThingDef>
 
+  <ThingDef ParentName="AK_WeaponBase_Specialist">
+    <defName>AK_Weapon_SpecterUnchained</defName>
+    <label>归溟幽灵鲨的圆锯</label>
+    <description>沾满了鲜血的圆锯，能够轻而易举的破开血肉，切断骨头。\n与幽灵鲨狂暴血腥的作战风格完美契合。</description>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Specialist/SpecterUnchainedW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <tools Inherit = "false">
+      <li>
+        <label>链锯猛砸</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>45</power>
+        <cooldownTime>1.4</cooldownTime>
+      </li>
+      <li>
+        <label>链锯切割</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>57</power>
+        <cooldownTime>1.4</cooldownTime>
+      </li>
+      <li>
+        <label>圆锯劈砍</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>40</power>
+        <cooldownTime>1.2</cooldownTime>
+        <armorPenetration>0.6</armorPenetration>
+      </li>
+    </tools>
+  </ThingDef>
+
 </Defs>

@@ -201,4 +201,59 @@
         </comps>
     </ThingDef>
 
+    <ThingDef ParentName="AK_BeltBase">
+        <defName>AK_ShieldBelt_SpecterUnchained</defName>
+        <label>生存的技巧</label>
+        <description>在与那些渣滓厮杀的日子里，幽灵鲨早就掌握了该如何更加华丽而优雅的生存下去，甚至于能将她自己的艺术风格与灵感融入进去。\n幽灵鲨已经领悟了生存的艺术，艺术的生存。既然无法将灵感用于创造艺术，便将它们用于战斗与杀戮。</description>
+        <statBases>
+            <EnergyShieldRechargeRate>0.18</EnergyShieldRechargeRate>
+            <EnergyShieldEnergyMax>1.5</EnergyShieldEnergyMax>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/Specialist/ShieldBeltSpecterUnchainedS</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+                <startingTicksToReset>2400</startingTicksToReset>
+                <energyOnReset>1</energyOnReset>
+                <energyLossPerDamage>0.15</energyLossPerDamage>
+                <canAbsorbMeleeDamage>true</canAbsorbMeleeDamage>
+                <meleeAbsorbFactor>1</meleeAbsorbFactor>
+                <rangedAbsorbFactor>2</rangedAbsorbFactor>
+                <canDodge>false</canDodge>
+                <breakWithSmoke>false</breakWithSmoke>
+                <canForceActive>false</canForceActive>
+                <fireFoamBurster>false</fireFoamBurster>
+                <versionInfo>SpecterUnchained-Shield</versionInfo>
+                <alias>归溟幽灵鲨的护盾</alias>
+            </li>
+            <li Class="AKE_VanyaShield.TCP_VanyaShieldExtension">
+                <hideVanillaBubble>true</hideVanillaBubble>
+                <bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/Specialist/ShieldBeltSpecterUnchainedS</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawOffsetNorth>(0,1.1,0)</drawOffsetNorth>
+                    <drawOffsetSouth>(0,1.1,0)</drawOffsetSouth>
+                    <drawOffsetEast>(0,1.1,0)</drawOffsetEast>
+                    <drawOffsetWest>(0,1.1,0)</drawOffsetWest>
+                    <shaderType>Transparent</shaderType>
+                </bubbleStaticOverlay>
+            </li>
+            <li Class="AKE_VanyaShield.TCP_ShieldExtraRenderer">
+                <bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/Specialist/ShieldBeltSpecterUnchainedSE</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawOffsetNorth>(0,-1.15,0)</drawOffsetNorth>
+                    <drawOffsetSouth>(0,-1.15,0)</drawOffsetSouth>
+                    <drawOffsetEast>(0,-1.15,0)</drawOffsetEast>
+                    <drawOffsetWest>(0,-1.15,0)</drawOffsetWest>
+                    <shaderType>Transparent</shaderType>
+                </bubbleStaticOverlay>
+            </li>
+        </comps>
+    </ThingDef>
+
 </Defs>

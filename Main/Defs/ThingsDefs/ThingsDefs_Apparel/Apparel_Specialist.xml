@@ -229,4 +229,16 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Specialist">
+		<defName>AK_Apparel_SpecterUnchained</defName>
+		<label>归溟幽灵鲨服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Specialist/SpecterUnchained</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Specialist/SpecterUnchained</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 </Defs>

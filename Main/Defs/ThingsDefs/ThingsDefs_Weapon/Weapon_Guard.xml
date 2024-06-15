@@ -1799,4 +1799,78 @@
     </tools>
 	</ThingDef>
 
+  <ThingDef ParentName="AK_WeaponBase_Guard">
+    <defName>AK_Weapon_DegenbrecherA</defName>
+    <label>锏的剑</label>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Guard/DegenbrecherW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <description>锏的双刀的其中一把，较长而直。</description>
+    <tools Inherit = "false">
+      <li>
+        <label>劈砍</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>22</power>
+        <cooldownTime>0.9</cooldownTime>
+      </li>
+      <li>
+        <label>刀击</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>35</power>
+        <cooldownTime>1.6</cooldownTime>
+        <armorPenetration>0.6</armorPenetration>        <!--穿甲-->
+      </li>
+      <li>
+        <label>刀柄猛砸</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <ThingDef ParentName="AK_WeaponBase_Guard">
+    <defName>AK_Weapon_DegenbrecherB</defName>
+    <label>锏的锏</label>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Guard/DegenbrecherW2</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <description>锏的双刀的其中一把，较短而弯。</description>
+    <tools Inherit = "false">
+      <li>
+        <label>劈砍</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>22</power>
+        <cooldownTime>0.9</cooldownTime>
+      </li>
+      <li>
+        <label>刀劈</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>24</power>
+        <cooldownTime>1.2</cooldownTime>
+        <armorPenetration>0.6</armorPenetration>
+      </li>
+      <li>
+        <label>刀柄猛砸</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
 </Defs>

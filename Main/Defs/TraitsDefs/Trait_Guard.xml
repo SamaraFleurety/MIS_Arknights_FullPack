@@ -790,4 +790,63 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_DegenbrecherThird</defName>
+		<degreeDatas>
+			<li>
+				<label>纯粹的武力</label>
+				<description>用你的武器告诉我，你是谁。</description>
+				<statOffsets>
+					<MoveSpeed>1.5</MoveSpeed>
+				</statOffsets>
+				<statFactors>
+					<MeleeWeapon_DamageMultiplier>1.5</MeleeWeapon_DamageMultiplier>
+					<IncomingDamageFactor>0.5</IncomingDamageFactor >
+					<MeleeArmorPenetration>1.5</MeleeArmorPenetration>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_DegenbrecherSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>活着的传奇</label>
+				<description>蝉联了三届的冠军，原本有三枚，但只有第一次夺冠时获得的这枚是大骑士长亲手为{PAWN_pronoun}颁发的，所以{PAWN_pronoun}没有扔掉，也是{PAWN_pronoun}唯一还携带着的与卡西米尔有关的东西。</description>
+				<statOffsets>
+					<WorkSpeedGlobal>0.5</WorkSpeedGlobal>
+					<PawnBeauty>1</PawnBeauty>
+				</statOffsets>
+				<statFactors>
+					<StaggerDurationFactor>0</StaggerDurationFactor>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Degenbrecher</defName>
+		<degreeDatas>
+			<li>
+				<label>“天生的武者”</label>
+				<description>成为冠军后，我回过一次莱塔尼亚。即使“莱塔尼亚残次品”变成了“天生的武者”，也依然不受欢迎。当我意识到那些人看我的眼神和过去没有区别时，我发现自己没那么讨厌这个国家了。</description>
+				<statOffsets>
+					<ShootingAccuracyPawn>-5</ShootingAccuracyPawn>
+					<AimingDelayFactor>1</AimingDelayFactor>
+					<MentalBreakThreshold>-0.35</MentalBreakThreshold>
+				</statOffsets>
+				<statFactors>
+					<PsychicSensitivity>0.5</PsychicSensitivity>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>

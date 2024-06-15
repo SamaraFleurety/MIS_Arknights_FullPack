@@ -491,4 +491,20 @@
 		<baseDesc>医疗部的同事们仍然看得出，嘉维尔发生了一些微妙的变化。这绝不是说她在朝着更多愁善感或者类似的方向变化，她只是更加自信、更加健谈，而且更喜欢谈及自己的家乡了。</baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Degenbrecher_Child</defName>
+		<slot>Childhood</slot>
+		<title>莱塔尼亚残次品</title>
+		<titleShort>莱塔尼亚残次品</titleShort>
+		<baseDesc>对那个流落街头的孤儿而言，活下去，吃上一口好吃的，就是{PAWN_pronoun}最大的理想。一个生来无法使用任何源石技艺的莱塔尼亚卡普里尼，注定会死在某个阴暗的小巷里。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Degenbrecher_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>黑骑士</title>
+		<titleShort>黑骑士</titleShort>
+		<baseDesc>如果一个人要了解卡西米尔骑士竞技，那他就一定无法越过“黑骑士”这个名号。\n对大部分竞技骑士来说，一座冠军奖杯是他们梦寐以求的奖励，但对黑骑士而言，却好像只是{PAWN_pronoun}人生中最微不足道的一个注脚。</baseDesc>
+	</BackstoryDef>
+
 </Defs>
