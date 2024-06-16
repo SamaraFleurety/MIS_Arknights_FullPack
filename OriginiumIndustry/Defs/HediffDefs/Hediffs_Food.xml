@@ -109,7 +109,7 @@
 		<stages>
 			<li>
 				<statOffsets>
-					<MeleeWeapon_DamageMultiplier>0.15</MeleeWeapon_DamageMultiplier>
+					<MeleeDamageFactor>0.15</MeleeDamageFactor>
 				</statOffsets>
 				<statFactors>
 					<MoveSpeed>1.1</MoveSpeed>
@@ -131,7 +131,7 @@
 		<stages>
 			<li>
 				<statOffsets>
-					<MeleeWeapon_DamageMultiplier>-0.25</MeleeWeapon_DamageMultiplier>
+					<MeleeDamageFactor>-0.25</MeleeDamageFactor>
 				</statOffsets>
 				<statFactors>
 					<IncomingDamageFactor>0.75</IncomingDamageFactor>
@@ -219,7 +219,7 @@
 		<stages>
 			<li>
 				<statOffsets>
-					<MeleeWeapon_DamageMultiplier>0.2</MeleeWeapon_DamageMultiplier>
+					<MeleeDamageFactor>0.2</MeleeDamageFactor>
 				</statOffsets>
 				<statFactors>
 					<PsychicEntropyRecoveryRate MayRequire="Ludeon.RimWorld.Royalty">1.6</PsychicEntropyRecoveryRate>
@@ -312,7 +312,7 @@
 		<stages>
 			<li>
 				<statOffsets>
-					<MeleeWeapon_DamageMultiplier>0.6</MeleeWeapon_DamageMultiplier>
+					<MeleeDamageFactor>0.6</MeleeDamageFactor>
 					<MeleeWeapon_CooldownMultiplier>-0.3</MeleeWeapon_CooldownMultiplier>
 					<MeleeDodgeChance>0.2</MeleeDodgeChance>
 					<ComfyTemperatureMin>-20</ComfyTemperatureMin>

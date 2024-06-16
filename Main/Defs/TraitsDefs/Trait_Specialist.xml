@@ -301,7 +301,7 @@
 				<statFactors>
 					<PawnTrapSpringChance>0</PawnTrapSpringChance>
 					<MoveSpeed>1.5</MoveSpeed>
-					<MeleeWeapon_DamageMultiplier>1.5</MeleeWeapon_DamageMultiplier>
+					<MeleeDamageFactor>1.5</MeleeDamageFactor>
 				</statFactors>
 			</li>
 		</degreeDatas>
@@ -342,7 +342,7 @@
 				</statOffsets>
 				<statFactors>
 					<CertaintyLossFactor>0.5</CertaintyLossFactor>
-					<MeleeWeapon_DamageMultiplier>1.15</MeleeWeapon_DamageMultiplier>
+					<MeleeDamageFactor>1.15</MeleeDamageFactor>
 				</statFactors>
 				<disallowedMentalStates>
                     <li>InsultingSpree</li>
@@ -386,7 +386,7 @@
 				</statOffsets>
 				<statFactors>
 					<IncomingDamageFactor>0.5</IncomingDamageFactor>
-					<MeleeWeapon_DamageMultiplier>1.2</MeleeWeapon_DamageMultiplier>
+					<MeleeDamageFactor>1.2</MeleeDamageFactor>
 					<PsychicSensitivity>0.5</PsychicSensitivity>
 				</statFactors>
 			</li>

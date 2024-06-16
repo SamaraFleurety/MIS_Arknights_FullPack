@@ -154,7 +154,7 @@
 				</statOffsets>
 				<statFactors>
 					<IncomingDamageFactor>0.7</IncomingDamageFactor>
-					<MeleeWeapon_DamageMultiplier>1.2</MeleeWeapon_DamageMultiplier>
+					<MeleeDamageFactor>1.2</MeleeDamageFactor>
 					<MeleeArmorPenetration>1.5</MeleeArmorPenetration><!-- 近战护甲穿透 -->
 				</statFactors>
 			</li>
@@ -782,7 +782,7 @@
 					<CarryingCapacity>200</CarryingCapacity>
 				</statOffsets>
 				<statFactors>
-					<MeleeWeapon_DamageMultiplier>1.5</MeleeWeapon_DamageMultiplier>
+					<MeleeDamageFactor>1.5</MeleeDamageFactor>
 					<IncomingDamageFactor>0.75</IncomingDamageFactor >
 					<StaggerDurationFactor>0</StaggerDurationFactor>
 				</statFactors>
@@ -802,7 +802,7 @@
 					<MoveSpeed>1.5</MoveSpeed>
 				</statOffsets>
 				<statFactors>
-					<MeleeWeapon_DamageMultiplier>1.5</MeleeWeapon_DamageMultiplier>
+					<MeleeDamageFactor>1.5</MeleeDamageFactor>
 					<IncomingDamageFactor>0.5</IncomingDamageFactor >
 					<MeleeArmorPenetration>1.5</MeleeArmorPenetration>
 				</statFactors>
