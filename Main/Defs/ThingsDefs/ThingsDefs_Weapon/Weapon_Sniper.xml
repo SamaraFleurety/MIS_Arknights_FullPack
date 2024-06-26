@@ -2188,16 +2188,16 @@
 	<ThingDef ParentName="AK_WeaponBase_Sniper">
 		<defName>AK_Weapon_ChenHolungday</defName>
 		<label>“假日风暴”</label>
-		<description>水陈的武器</description>
+		<description>在多索雷斯期间，龙舌兰为她提供的特制铳是偏向中距离攻击的，用拉特兰的分类来说，属于突击步枪，而在逗留多索雷斯期间的使用过程中，她认为这种进攻模式并不适合自己。于是，在经过长达一周的摸索与磨合，以及参考拉特兰干员们对铳的运用后，确定了现在的方案——近距离的霰弹枪模式，以及中远距离的轰炸攻击。</description>
 		<graphicData>
 			<texPath>Things/AK_Agents/Weapon/Sniper/ChenHolungdayW</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
-			<AccuracyTouch>0.57</AccuracyTouch>
-			<AccuracyShort>0.64</AccuracyShort>
-			<AccuracyMedium>0.55</AccuracyMedium>
-			<AccuracyLong>0.45</AccuracyLong>
+			<AccuracyTouch>0.86</AccuracyTouch>
+			<AccuracyShort>0.96</AccuracyShort>
+			<AccuracyMedium>0.83</AccuracyMedium>
+			<AccuracyLong>0.67</AccuracyLong>
 			<RangedWeapon_Cooldown>2.3</RangedWeapon_Cooldown>
 			<!--后摇-->
 		</statBases>
@@ -2251,7 +2251,7 @@
 				<li>
 					<def>Frostbite</def>
 					<!--伤害类型-->
-					<amount>8</amount>
+					<amount>16</amount>
 					<!--伤害数值-->
 				</li>
 			</extraDamages>
