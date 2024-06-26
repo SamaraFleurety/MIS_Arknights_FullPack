@@ -361,4 +361,16 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Sniper">
+		<defName>AK_Apparel_ChenHolungday</defName>
+		<label>莱伊服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Sniper/ChenHolungday</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Sniper/ChenHolungday</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 </Defs>

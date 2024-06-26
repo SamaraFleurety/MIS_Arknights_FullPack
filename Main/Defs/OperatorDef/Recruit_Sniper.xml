@@ -2698,4 +2698,107 @@
 		</skills>
 	</AK_DLL.OperatorDef>
 
+	<!-- 假日威龙陈 -->
+
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Sniper">
+		<defName>AK_Recruit_ChenHolungday</defName>
+		<name>ChenHolungday</name>
+		<nickname>ChenHolungday</nickname>
+		<description>FIXMEDESC</description>
+		<weapon>AK_Weapon_ChenHolungday</weapon>
+		<hair>AK_Hair_ChenHolungday</hair>
+		<apparels>
+			<li>AK_Apparel_ChenHolungday</li>
+		</apparels>
+		<accessory Inherit="false">
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_ChenHolungday</li>
+		</accessory>
+		<stand>UI/Image/Sniper/ChenHolungdayStand</stand>
+		<headPortrait>UI/Image/Sniper/ChenHolungdayPortrait</headPortrait>
+		<traits>
+			<li>
+				<def>Industriousness</def>
+				<degree>2</degree>
+			</li>
+			<li>
+				<def>Beauty</def>
+				<degree>2</degree>
+			</li>
+			<li>
+				<def>AK_Trait_ChenHolungday</def>
+			</li>
+			<li>
+				<def>AK_Trait_ChenHolungdaySecond</def>
+			</li>
+			<li>
+				<def>AK_Trait_ChenHolungdayThird</def>
+			</li>
+		</traits>
+		<age>20</age>
+		<childHood>AK_BackStory_Chen_Child</childHood>
+		<adultHood>AK_BackStory_ChenHolungday_Adult</adultHood>
+		<skills>
+			<li>
+				<skill>Animals</skill>
+				<level>1</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Artistic</skill>
+				<level>7</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Construction</skill>
+				<level>3</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Cooking</skill>
+				<level>2</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Crafting</skill>
+				<level>2</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Intellectual</skill>
+				<level>13</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<level>8</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<level>17</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Mining</skill>
+				<level>3</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Plants</skill>
+				<level>4</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<level>16</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<level>12</level>
+				<fireLevel>2</fireLevel>
+			</li>
+		</skills>
+	</AK_DLL.OperatorDef>
+
 </Defs>

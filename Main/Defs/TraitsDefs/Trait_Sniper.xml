@@ -669,4 +669,63 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<!-- 假日威龙陈 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_ChenHolungdayThird</defName>
+		<degreeDatas>
+			<li>
+				<label>假日余韵</label>
+				<description>当{PAWN_nameDef}带着{PAWN_pronoun}的特制铳从度假中归来时，所有人都被{PAWN_pronoun}吓了一跳。</description>
+				<statOffsets>
+					<ShootingAccuracyPawn>3.0</ShootingAccuracyPawn>
+					<AimingDelayFactor>-0.3</AimingDelayFactor>
+					<NegotiationAbility>0.25</NegotiationAbility>
+					<GlobalLearningFactor>0.1</GlobalLearningFactor>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_ChenHolungdaySecond</defName>
+		<degreeDatas>
+			<li>
+				<label>斩龙之剑</label>
+				<description>“拔刀之招，当破即破。”\n“泪锋之招，当断即断。”\n“泪锋之剑，当弃即弃。”\n“云裂之剑，当立则立。”</description>
+				<statOffsets>
+					<MeleeHitChance>1.5</MeleeHitChance>
+					<MeleeDodgeChance>1.5</MeleeDodgeChance>
+				</statOffsets>
+				<statFactors>
+					<MeleeDamageFactor>1.1</MeleeDamageFactor>
+					<MeleeArmorPenetration>1.1</MeleeArmorPenetration>
+					<IncomingDamageFactor>0.75</IncomingDamageFactor>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_ChenHolungday</defName>
+		<degreeDatas>
+			<li>
+				<label>节约风气</label>
+				<description>{PAWN_nameDef}从多索雷斯回来后，不少干员都认为{PAWN_nameDef}有些改变。</description>
+				<hungerRateFactor>0.9</hungerRateFactor>
+				<statOffsets>
+					<TradePriceImprovement>0.15</TradePriceImprovement>
+					<JoyFallRateFactor>-0.15</JoyFallRateFactor>
+					<RestRateMultiplier>0.15</RestRateMultiplier>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>

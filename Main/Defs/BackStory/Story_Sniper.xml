@@ -382,4 +382,12 @@
 		<baseDesc>{PAWN_nameDef}曾在雷姆必拓做过很多种散工，对各种技能都略有涉猎，修补电线、缝补衣服、训练沙地兽、通过手边材料搭建临时棚屋。同时，作为雷姆必拓的探井人，{PAWN_nameDef}拥有优秀的战斗能力和充足的专业知识。但{PAWN_pronoun}不太擅长与人交流。</baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_ChenHolungday_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>龙门近卫局局长</title>
+		<titleShort>局长</titleShort>
+		<baseDesc>罗德岛正式干员：前龙门高级警司，龙门近卫局特别督查组组长。现辞去职务，正式成为罗德岛的一员。依本人意愿，任务多以外拍为主，为各地外派干员提供有力支援及现场指导。</baseDesc>
+	</BackstoryDef>
+
 </Defs>

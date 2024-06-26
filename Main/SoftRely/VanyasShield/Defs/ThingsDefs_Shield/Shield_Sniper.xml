@@ -127,4 +127,59 @@
         </comps>
     </ThingDef>
 
+    <ThingDef ParentName="AK_BeltBase">
+        <defName>AK_ShieldBelt_ChenHolungday</defName>
+        <label>假日威龙陈的护盾</label>
+        <description>假日威龙陈的护盾</description>
+        <statBases>
+            <EnergyShieldRechargeRate>0.18</EnergyShieldRechargeRate>
+            <EnergyShieldEnergyMax>1.5</EnergyShieldEnergyMax>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/Sniper/ShieldBeltChenHolungday</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+                <startingTicksToReset>2400</startingTicksToReset>
+                <energyOnReset>1</energyOnReset>
+                <energyLossPerDamage>0.15</energyLossPerDamage>
+                <canAbsorbMeleeDamage>true</canAbsorbMeleeDamage>
+                <meleeAbsorbFactor>1</meleeAbsorbFactor>
+                <rangedAbsorbFactor>2</rangedAbsorbFactor>
+                <canDodge>false</canDodge>
+                <breakWithSmoke>false</breakWithSmoke>
+                <canForceActive>false</canForceActive>
+                <fireFoamBurster>false</fireFoamBurster>
+                <versionInfo>ChenHolungday-Shield</versionInfo>
+                <alias>假日威龙陈的护盾</alias>
+            </li>
+            <li Class="AKE_VanyaShield.TCP_VanyaShieldExtension">
+                <hideVanillaBubble>true</hideVanillaBubble>
+                <bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/Sniper/ShieldBeltChenHolungdayS</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawOffsetNorth>(0,1.1,0)</drawOffsetNorth>
+                    <drawOffsetSouth>(0,1.1,0)</drawOffsetSouth>
+                    <drawOffsetEast>(0,1.1,0)</drawOffsetEast>
+                    <drawOffsetWest>(0,1.1,0)</drawOffsetWest>
+                    <shaderType>Transparent</shaderType>
+                </bubbleStaticOverlay>
+            </li>
+            <li Class="AKE_VanyaShield.TCP_ShieldExtraRenderer">
+                <bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/Sniper/ShieldBeltChenHolungdaySE</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawOffsetNorth>(0,-1.15,0)</drawOffsetNorth>
+                    <drawOffsetSouth>(0,-1.15,0)</drawOffsetSouth>
+                    <drawOffsetEast>(0,-1.15,0)</drawOffsetEast>
+                    <drawOffsetWest>(0,-1.15,0)</drawOffsetWest>
+                    <shaderType>Transparent</shaderType>
+                </bubbleStaticOverlay>
+            </li>
+        </comps>
+    </ThingDef>
+
 </Defs>
