@@ -28,6 +28,12 @@
 	</HairDef>
 
 	<HairDef ParentName="AK_HairBaseF">
+		<defName>AK_Hair_MudrockSilentNight</defName>
+		<label>泥岩发型</label>
+		<texPath>Things/Hair/Defender/Mudrock_SilentNight</texPath>
+	</HairDef>
+
+	<HairDef ParentName="AK_HairBaseF">
 		<defName>AK_Hair_Mudrock</defName>
 		<label>泥岩发型</label>
 		<texPath>Things/Hair/Defender/Mudrock</texPath>
@@ -103,6 +109,24 @@
 		<defName>AK_Hair_Penance</defName>
 		<label>斥罪发型</label>
 		<texPath>Things/Hair/Defender/Penance</texPath>
+	</HairDef>
+
+	<HairDef ParentName="AK_HairBaseF">
+		<defName>AK_Hair_PenanceOccasionalFlush</defName>
+		<label>斥罪发型</label>
+		<texPath>Things/Hair/Defender/Penance_OccasionalFlush</texPath>
+	</HairDef>
+
+	<HairDef ParentName="AK_HairBaseF">
+		<defName>AK_Hair_Beagle</defName>
+		<label>米格鲁发型</label>
+		<texPath>Things/Hair/Defender/Beagle</texPath>
+	</HairDef>
+
+	<HairDef ParentName="AK_HairBaseF">
+		<defName>AK_Hair_Liberated</defName>
+		<label>涤火杰西卡发型</label>
+		<texPath>Things/Hair/Defender/Liberated</texPath>
 	</HairDef>
 
 </Defs>

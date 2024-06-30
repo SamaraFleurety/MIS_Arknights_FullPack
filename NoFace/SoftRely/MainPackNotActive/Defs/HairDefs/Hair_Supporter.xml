@@ -40,6 +40,12 @@
 	</HairDef>
 
 	<HairDef ParentName="AK_HairBaseF">
+		<defName>AK_Hair_DeepcolorMelodicPortrayal</defName>
+		<label>深海色-绘声绘影</label>
+		<texPath>Things/Hair/Supporter/Deepcolor_MelodicPortrayal</texPath>
+	</HairDef>
+
+	<HairDef ParentName="AK_HairBaseF">
 		<defName>AK_Hair_Glaucus</defName>
 		<label>格劳克斯发型</label>
 		<texPath>Things/Hair/Supporter/Glaucus</texPath>
@@ -109,6 +115,24 @@
 		<defName>AK_Hair_CorruptingHeart</defName>
 		<label>浊心斯卡蒂发型</label>
 		<texPath>Things/Hair/Supporter/CorruptingHeart</texPath>
+	</HairDef>
+
+	<HairDef ParentName="AK_HairBaseF">
+		<defName>AK_Hair_CorruptingHeartSublimation</defName>
+		<label>浊心斯卡蒂-升华</label>
+		<texPath>Things/Hair/Supporter/CorruptingHeart_Sublimation</texPath>
+	</HairDef>
+
+	<HairDef ParentName="AK_HairBaseF">
+		<defName>AK_Hair_Virtuosa</defName>
+		<label>塑心发型</label>
+		<texPath>Things/Hair/Supporter/Virtuosa</texPath>
+	</HairDef>
+
+	<HairDef ParentName="AK_HairBaseF">
+		<defName>AK_Hair_CivilightEterna</defName>
+		<label>魔王发型</label>
+		<texPath>Things/Hair/Supporter/CivilightEterna</texPath>
 	</HairDef>
 
 </Defs>
