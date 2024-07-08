@@ -4,9 +4,9 @@
 	<!-- 观察人类尸体 -->
 
 	<Operation Class="PatchOperationConditional">
-		<xpath>Defs/ThoughtDefs/Thoughts_Mermory_Misc[defName="ObservedLayingCorpse"]/nullifyingTraits/</xpath>
+		<xpath>/Defs/ThoughtDef[defName = "ObservedLayingCorpse"]/nullifyingTraits</xpath>
 		<match Class="PatchOperationAdd">
-			<xpath>Defs/ThoughtDefs/Thoughts_Mermory_Misc[defName="ObservedLayingCorpse"]/nullifyingTraits/</xpath>
+			<xpath>/Defs/ThoughtDef[defName = "ObservedLayingCorpse"]/nullifyingTraits</xpath>
 			<value>
 				<li>AK_Trait_Surtr</li>
 			</value>
@@ -16,9 +16,9 @@
 	<!-- 黑暗的环境 -->
 
 	<Operation Class="PatchOperationConditional">
-		<xpath>Defs/ThoughtDefs/Thoughts_Situation_General[defName="EnvironmentDark"]/nullifyingTraits/</xpath>
+		<xpath>/Defs/ThoughtDef[defName = "EnvironmentDark"]/nullifyingTraits</xpath>
 		<match Class="PatchOperationAdd">
-			<xpath>Defs/ThoughtDefs/Thoughts_Situation_General[defName="EnvironmentDark"]/nullifyingTraits/</xpath>
+			<xpath>/Defs/ThoughtDef[defName = "EnvironmentDark"]/nullifyingTraits</xpath>
 			<value>
 				<li>AK_Trait_Ray</li>
 			</value>
