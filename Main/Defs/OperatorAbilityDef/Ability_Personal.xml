@@ -1,5 +1,40 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+    
+    <AKA_Ability.AKAbilityDef>
+        <defName>AKA_Ability_CatchMother</defName>
+        <grouped>false</grouped>
+        <label>抓走马马</label>
+        <description>可以定期抓走一个人的马马</description>
+        <icon>UI/Abilities/Medic/HealEnhance</icon>
+        <CD>15</CD>
+        <CDUnit>day</CDUnit>
+        <targetMode>VerbSingle</targetMode>
+        <verb>
+            <verbClass>AKA_Ability.Verb_AbilityTargeting</verbClass>
+            <defaultProjectile>Bullet_MiniTurret</defaultProjectile>
+            <warmupTime>0</warmupTime>
+            <range>42.9</range>
+            <soundCast>GunShotA</soundCast>
+            <soundCastTail>GunTail_Light</soundCastTail>
+            <muzzleFlashScale>9</muzzleFlashScale>
+            <targetParams>
+                <canTargetPawns>true</canTargetPawns>
+                <canTargetLocations>false</canTargetLocations>
+                <canTargetMechs>false</canTargetMechs>
+				<canTargetBuildings>false</canTargetBuildings>
+				<canTargetItems>false</canTargetItems>
+            </targetParams>
+        </verb>
+        <needCD>true</needCD>
+		<typeSFX>tact</typeSFX>
+        <!--compEffectList>
+            <li Class="AKA_Ability.AE_CatchMother">
+                <goodwillchange>-75</goodwillchange>
+            </li>
+        </compEffectList-->
+    </AKA_Ability.AKAbilityDef>
+
     <!--语法:如果希望干员有指定的物资池的物资，就必须指定对应ID,ID为空则使用未指定ID的物资池-->
     <!--delaytime:空投舱开启的延迟(ms)  IsGrowthSys:是否启用成长系统代替技能次数升级(未来功能，不启用) -->
 	<!--Isphase:是否升级空投品质 MaxPhaseLevel:最高几层品质(默认5) phaseCount:如果Isphase,使用多少次技能后升级品质 phase:初始的品质，对应poor[0],Normal[1],Good[2],Excellent[3],Legendary[4]-->
