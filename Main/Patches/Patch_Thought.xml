@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<!-- 观察人类尸体 -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThoughtDef[defName="ObservedLayingCorpse"]/nullifyingTraits</xpath>
+		<value>
+			<li>AK_Trait_Surtr</li>
+			<li>AK_Trait_MaynarSecond</li>
+			<li>AK_Trait_SkadiSecond</li>
+		</value>
+	</Operation>
+	
+	<!-- 黑暗的环境 -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThoughtDef[defName="EnvironmentDark"]/nullifyingTraits</xpath>
+		<value>
+			<li>AK_Trait_Ray</li>
+			<li>AK_Trait_MaynarSecond</li>
+		</value>
+	</Operation>
+
+</Patch>

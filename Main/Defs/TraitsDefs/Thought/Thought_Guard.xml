@@ -110,7 +110,7 @@
 			<li>
 				<label>涌潮悲歌</label>
 				<description>当你历经漫长黑暗、终于浮出海面——睁开眼睛的刹那，灿烂星空滴落眼眶、无垠波浪拂过面颊，眼泪和家的味道，都是咸的。</description>
-				<baseMoodEffect>20</baseMoodEffect>
+				<baseMoodEffect>-5</baseMoodEffect>
 			</li>
 		</stages>
 	</ThoughtDef>
@@ -264,13 +264,13 @@
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_Maynar</defName>
 		<requiredTraits>
-			<li>AK_Trait_Maynar</li>
+			<li>AK_Trait_MaynarSecond</li>
 		</requiredTraits>
 		<stages>
 			<li>
 				<label>未照耀的荣光</label>
 				<description>...卡西米尔无权为我授勋</description>
-				<baseMoodEffect>-15</baseMoodEffect>
+				<baseMoodEffect>-5</baseMoodEffect>
 			</li>
 		</stages>
 	</ThoughtDef>

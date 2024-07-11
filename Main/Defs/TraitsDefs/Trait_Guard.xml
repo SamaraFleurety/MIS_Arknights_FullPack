@@ -226,6 +226,44 @@
 
 	<!-- Skadi 斯卡蒂 -->
 	<TraitDef>
+		<defName>AK_Trait_SkadiThird</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>漫游的小电工</label>
+				<description>如果{PAWN_nameDef}不成为深海猎人，或许{PAWN_pronoun}可以继续享受{PAWN_pronoun}的漫游生活，一边敲打灯光阵列复杂的元件，一边拍下除了{PAWN_pronoun}自己之外没人能懂的海底影像。</description>
+				<statOffsets>
+					<ConstructionSpeed>0.2</ConstructionSpeed>
+					<ConstructSuccessChance>0.1</ConstructSuccessChance>
+					<GeneralLaborSpeed>0.3</GeneralLaborSpeed>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>AK_Trait_SkadiSecond</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>深海猎人—斯卡蒂</label>
+				<description>“您现在觉得怎么样，干员斯卡蒂？”“我觉得——好极了。”</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.3</MentalBreakThreshold>
+					<SocialImpact>-0.2</SocialImpact>
+				</statOffsets>
+				<statFactors>
+					<IncomingDamageFactor>0.75</IncomingDamageFactor>
+					<MeleeDamageFactor>1.35</MeleeDamageFactor>
+					<PsychicSensitivity>0.5</PsychicSensitivity>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
 		<defName>AK_Trait_Skadi</defName>
 		<ignoreConfigErrors>true</ignoreConfigErrors>
 		<commonality>0.0</commonality>
@@ -233,6 +271,13 @@
 			<li>
 				<label>涌潮悲歌</label>
 				<description>“用家乡语言写下的歌谱。虽然完全没法理解这种文字，但{PAWN_pronoun}确实是打算教你这首歌的。”</description>
+				<statOffsets>
+					<MoveSpeed>1.0</MoveSpeed>
+					<MeleeHitChance>1.5</MeleeHitChance>
+				</statOffsets>
+				<statFactors>
+					<MeleeArmorPenetration>1.2</MeleeArmorPenetration>
+				</statFactors>
 			</li>
 		</degreeDatas>
 	</TraitDef>
@@ -438,7 +483,7 @@
 	<TraitDef>
 		<ignoreConfigErrors>true</ignoreConfigErrors>
 		<commonality>0.0</commonality>
-		<defName>AK_Trait_MaynarSecond</defName>
+		<defName>AK_Trait_MaynarThird</defName>
 		<degreeDatas>
 			<li>
 				<label>社畜</label>
@@ -453,15 +498,36 @@
 	<TraitDef>
 		<ignoreConfigErrors>true</ignoreConfigErrors>
 		<commonality>0.0</commonality>
+		<defName>AK_Trait_MaynarSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>“不畏苦暗”</label>
+				<description>正如家训所言——“不畏苦暗。”</description>
+				<statFactors>
+					<WorkSpeedGlobal>1.25</WorkSpeedGlobal>
+					<RestRateMultiplier>1.1</RestRateMultiplier>
+					<FoodPoisonChance>0</FoodPoisonChance >
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
 		<defName>AK_Trait_Maynar</defName>
 		<degreeDatas>
 			<li>
-				<label>未照耀的荣光</label>
-				<description>正如家训所言，“不畏苦暗”。</description>
+				<label>游侠</label>
+				<description>玛恩纳 临光，临光家前家主，干员临光与瑕光的叔叔，迄今并未获得过任何形式的骑士封号。</description>
 				<statOffsets>
-					<MentalBreakThreshold>-0.50</MentalBreakThreshold>
-					<SocialImpact>-0.25</SocialImpact>
+					<MoveSpeed>2.0</MoveSpeed>
+					<MeleeHitChance>1.5</MeleeHitChance>
 				</statOffsets>
+				<statFactors>
+					<MeleeDamageFactor>1.3</MeleeDamageFactor>
+					<IncomingDamageFactor>0.85</IncomingDamageFactor>
+				</statFactors>
 			</li>
 		</degreeDatas>
 	</TraitDef>

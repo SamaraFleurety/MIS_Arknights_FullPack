@@ -327,8 +327,9 @@
 			<li>
 				<label>“记事”</label>
 				<description>如果我变坏的话.....不，无论未来我会变成什么样子。我会记录，会审视。\n我评判的最后一个人将会是我自己。\n你就是{PAWN_pronoun}的大地。你怎么对待{PAWN_pronoun}，{PAWN_pronoun}就会怎么对待这片大地。——Whitesmith</description>
-				<statOffsets>
-				</statOffsets>
+				<statFactors>
+					<PsychicSensitivity>2</PsychicSensitivity>
+				</statFactors>
 			</li>
 		</degreeDatas>
 	</TraitDef>
