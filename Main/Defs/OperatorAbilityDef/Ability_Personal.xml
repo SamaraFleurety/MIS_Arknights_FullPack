@@ -28,11 +28,11 @@
         </verb>
         <needCD>true</needCD>
 		<typeSFX>tact</typeSFX>
-        <!--compEffectList>
+        <compEffectList>
             <li Class="AKA_Ability.AE_CatchMother">
                 <goodwillchange>-75</goodwillchange>
             </li>
-        </compEffectList-->
+        </compEffectList>
     </AKA_Ability.AKAbilityDef>
 
     <!--语法:如果希望干员有指定的物资池的物资，就必须指定对应ID,ID为空则使用未指定ID的物资池-->
