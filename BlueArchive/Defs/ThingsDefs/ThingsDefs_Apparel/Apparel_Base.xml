@@ -60,6 +60,10 @@
 			<li Class="CompProperties_Biocodable"/>
 			<li Class="AK_DLL.TCP_RemoveMe"/>
 			<li Class="AK_Industry.TCP_OripathyMonitor" MayRequire="MIS.Industry" />
+			<li Class="SFLib.TCP_HideBody">
+				<hideBody>true</hideBody>
+				<hideHead>true</hideHead>
+			</li>
 		</comps>
 	</ThingDef>
 
