@@ -38,13 +38,24 @@
 
 	<Def Class="AK_DLL.OperatorFashionSetDef">
 		<defName>AK_FashionSet_FlameShadow_Curator</defName>
-		<label>PrioryOfAbyss</label>
+		<label>Curator</label>
 		<hair>AK_Hair_FlameShadowCurator</hair>
 		<apparels>
 			<li>AK_Apparel_FlameShadowCurator</li>
 		</apparels>
 		<weapon>AK_Weapon_FlameShadowCurator</weapon>
 		<standIndex>2</standIndex>
+	</Def>
+
+	<Def Class="AK_DLL.OperatorFashionSetDef">
+		<defName>AK_FashionSet_FlameShadow_SummerFlower</defName>
+		<label>SummerFlower</label>
+		<hair>AK_Hair_FlameSummerFlower</hair>
+		<apparels>
+			<li>AK_Apparel_FlameSummerFlower</li>
+		</apparels>
+		<weapon>AK_Weapon_FlameSummerFlower</weapon>
+		<standIndex>3</standIndex>
 	</Def>
 
 </Defs>

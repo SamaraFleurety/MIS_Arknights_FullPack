@@ -34,4 +34,15 @@
 		<standIndex>2</standIndex>
 	</Def>
 
+	<Def Class="AK_DLL.OperatorFashionSetDef">
+		<defName>AK_FashionSet_Typhon_Temperature</defName>
+		<label>Temperature</label>
+		<hair>AK_Hair_TyphonTemperature</hair>
+		<apparels>
+			<li>AK_Apparel_TyphonTemperature</li>
+		</apparels>
+		<weapon>AK_Weapon_TyphonTemperature</weapon>
+		<standIndex>3</standIndex>
+	</Def>
+
 </Defs>

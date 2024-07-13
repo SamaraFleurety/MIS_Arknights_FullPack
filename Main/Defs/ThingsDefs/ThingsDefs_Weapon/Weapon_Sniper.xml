@@ -1880,6 +1880,52 @@
 		</tools>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_WeaponBase_Sniper">
+		<defName>AK_Weapon_TyphonTemperature</defName>
+		<label>提丰_温差的黑色巨弓</label>
+		<description>沾染了灾厄与不详的弓，只有提丰能够驾驭它，千万不要尝试研究它</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Sniper/Typhon_TemperatureW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.2</AccuracyTouch>
+			<AccuracyShort>0.35</AccuracyShort>
+			<AccuracyMedium>0.85</AccuracyMedium>
+			<AccuracyLong>0.95</AccuracyLong>
+			<RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+			<!--后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_Typhon</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>2</warmupTime>
+				<!--前摇-->
+				<range>55</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_GeneralArrow</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<tools Inherit="false">
+			<li>
+				<label>弓托猛砸</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>20</power>
+				<cooldownTime>2.8</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
 	<ThingDef ParentName="AK_BulletBase_Bow">
 		<defName>AK_Bullet_Typhon</defName>
 		<label>射击</label>

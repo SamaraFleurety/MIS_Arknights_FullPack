@@ -302,6 +302,18 @@
 	</ThingDef>
 
 	<ThingDef ParentName="AK_ArmorBase_Sniper">
+		<defName>AK_Apparel_TyphonTemperature</defName>
+		<label>提丰_温差</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Sniper/Typhon_Temperature</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Sniper/Typhon_Temperature</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Sniper">
 		<defName>AK_Apparel_Kroos</defName>
 		<label>克洛丝服装</label>
 		<graphicData>
