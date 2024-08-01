@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef Name="AK_CombatRecord" Abstract="True">
+        <thingClass>ThingWithComps</thingClass>
+        <selectable>true</selectable>
+        <graphicData>
+			<texPath>Things/Expcard/JuniorCombatRecord</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+        <drawerType>MapMeshOnly</drawerType>
+        <statBases>
+            <MarketValue>250</MarketValue>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>0.1</Mass>
+			<Flammability>0</Flammability>
+            <DeteriorationRate>0</DeteriorationRate>
+        </statBases>
+        <techLevel>Spacer</techLevel>
+        <altitudeLayer>Item</altitudeLayer>
+        <stackLimit>1</stackLimit>
+        <thingCategories>
+            <li>CombatRecord</li>
+        </thingCategories>
+        <alwaysHaulable>true</alwaysHaulable>
+        <forceDebugSpawnable>true</forceDebugSpawnable>
+        <comps>
+            <li Class="CompProperties_Forbiddable"/>
+            <li Class="CompProperties_Usable">
+				<useJob>UseItem</useJob>
+				<useLabel>Cleaning self</useLabel>
+				<useDuration>300</useDuration>
+			</li>
+            <li Class="CompProperties_UseEffectDestroySelf" />
+        </comps>
+    </ThingDef>
+
+	<ThingDef ParentName="AK_CombatRecord">
+		<defName>AK_Item_JuniorCombatRecord_Animals</defName>
+		<label>初级作战记录（驯兽）</label>
+        <comps>
+            <li Class="AKE_OperatorExtension.CP_UseEffect_CombatRecord">
+                <skill>Animals</skill>
+			</li>
+        </comps>
+	</ThingDef>
+
+    <ThingDef ParentName="AK_CombatRecord">
+		<defName>AK_Item_JuniorCombatRecord_Artistic</defName>
+		<label>初级作战记录（艺术）</label>
+        <comps>
+            <li Class="AKE_OperatorExtension.CP_UseEffect_CombatRecord">
+				<skill>Artistic</skill>
+			</li>
+        </comps>
+	</ThingDef>
+
+    <ThingDef ParentName="AK_CombatRecord">
+		<defName>AK_Item_JuniorCombatRecord_Construction</defName>
+		<label>初级作战记录（建造）</label>
+        <comps>
+            <li Class="AKE_OperatorExtension.CP_UseEffect_CombatRecord">
+				<skill>Construction</skill>
+			</li>
+        </comps>
+	</ThingDef>
+
+    <ThingDef ParentName="AK_CombatRecord">
+		<defName>AK_Item_JuniorCombatRecord_Cooking</defName>
+		<label>初级作战记录（烹饪）</label>
+        <comps>
+            <li Class="AKE_OperatorExtension.CP_UseEffect_CombatRecord">
+				<skill>Cooking</skill>
+			</li>
+        </comps>
+	</ThingDef>
+
+    <ThingDef ParentName="AK_CombatRecord">
+		<defName>AK_Item_JuniorCombatRecord_Crafting</defName>
+		<label>初级作战记录（手工）</label>
+        <comps>
+            <li Class="AKE_OperatorExtension.CP_UseEffect_CombatRecord">
+				<skill>Crafting</skill>
+			</li>
+        </comps>
+	</ThingDef>
+
+    <ThingDef ParentName="AK_CombatRecord">
+		<defName>AK_Item_JuniorCombatRecord_Intellectual</defName>
+		<label>初级作战记录（智识）</label>
+        <comps>
+            <li Class="AKE_OperatorExtension.CP_UseEffect_CombatRecord">
+				<skill>Intellectual</skill>
+			</li>
+        </comps>
+	</ThingDef>
+
+    <ThingDef ParentName="AK_CombatRecord">
+		<defName>AK_Item_JuniorCombatRecord_Medicine</defName>
+		<label>初级作战记录（医疗）</label>
+        <comps>
+            <li Class="AKE_OperatorExtension.CP_UseEffect_CombatRecord">
+				<skill>Medicine</skill>
+			</li>
+        </comps>
+	</ThingDef>
+
+    <ThingDef ParentName="AK_CombatRecord">
+		<defName>AK_Item_JuniorCombatRecord_Melee</defName>
+		<label>初级作战记录（格斗）</label>
+        <comps>
+            <li Class="AKE_OperatorExtension.CP_UseEffect_CombatRecord">
+				<skill>Melee</skill>
+			</li>
+        </comps>
+	</ThingDef>
+
+    <ThingDef ParentName="AK_CombatRecord">
+		<defName>AK_Item_JuniorCombatRecord_Mining</defName>
+		<label>初级作战记录（采矿）</label>
+        <comps>
+            <li Class="AKE_OperatorExtension.CP_UseEffect_CombatRecord">
+				<skill>Mining</skill>
+			</li>
+        </comps>
+	</ThingDef>
+
+    <ThingDef ParentName="AK_CombatRecord">
+		<defName>AK_Item_JuniorCombatRecord_Plants</defName>
+		<label>初级作战记录（种植）</label>
+        <comps>
+            <li Class="AKE_OperatorExtension.CP_UseEffect_CombatRecord">
+				<skill>Plants</skill>
+			</li>
+        </comps>
+	</ThingDef>
+
+    <ThingDef ParentName="AK_CombatRecord">
+		<defName>AK_Item_JuniorCombatRecord_Shooting</defName>
+		<label>初级作战记录（射击）</label>
+        <comps>
+            <li Class="AKE_OperatorExtension.CP_UseEffect_CombatRecord">
+				<skill>Shooting</skill>
+			</li>
+        </comps>
+	</ThingDef>
+
+    <ThingDef ParentName="AK_CombatRecord">
+		<defName>AK_Item_JuniorCombatRecord_Social</defName>
+		<label>初级作战记录（社交）</label>
+        <comps>
+            <li Class="AKE_OperatorExtension.CP_UseEffect_CombatRecord">
+				<skill>Social</skill>
+			</li>
+        </comps>
+	</ThingDef>
+
+</Defs>
