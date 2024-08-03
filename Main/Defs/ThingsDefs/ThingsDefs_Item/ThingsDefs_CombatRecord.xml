@@ -4,10 +4,6 @@
     <ThingDef Name="AK_CombatRecord" Abstract="True">
         <thingClass>ThingWithComps</thingClass>
         <selectable>true</selectable>
-        <graphicData>
-			<texPath>Things/Expcard/JuniorCombatRecord</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
         <drawerType>MapMeshOnly</drawerType>
         <statBases>
             <MarketValue>250</MarketValue>
@@ -28,18 +24,73 @@
             <li Class="CompProperties_Forbiddable"/>
             <li Class="CompProperties_Usable">
 				<useJob>UseItem</useJob>
-				<useLabel>Cleaning self</useLabel>
+				<useLabel>使用作战记录</useLabel>
 				<useDuration>300</useDuration>
 			</li>
             <li Class="CompProperties_UseEffectDestroySelf" />
         </comps>
     </ThingDef>
 
-	<ThingDef ParentName="AK_CombatRecord">
-		<defName>AK_Item_JuniorCombatRecord_Animals</defName>
-		<label>初级作战记录</label>
+    <ThingDef ParentName="AK_CombatRecord">
+		<defName>AK_Item_BasicCombatRecord</defName>
+		<label>基础作战记录</label>
+        <description>随机一项技能+1000经验</description>
+        <graphicData>
+			<texPath>Things/Expcard/BasicCombatRecord</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
         <comps>
             <li Class="AKE_OperatorExtension.TCP_UseEffect_CombatRecord">
+				<xpGainAmount>1000</xpGainAmount>
+				<rank>0</rank>
+			</li>
+        </comps>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_CombatRecord">
+		<defName>AK_Item_JuniorCombatRecord</defName>
+		<label>初级作战记录</label>
+        <description>获得1000对应技能经验</description>
+        <graphicData>
+			<texPath>Things/Expcard/JuniorCombatRecord</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+        <comps>
+            <li Class="AKE_OperatorExtension.TCP_UseEffect_CombatRecord">
+				<xpGainAmount>1000</xpGainAmount>
+				<rank>1</rank>
+			</li>
+        </comps>
+	</ThingDef>
+
+    <ThingDef ParentName="AK_CombatRecord">
+		<defName>AK_Item_IntermediateCombatRecord</defName>
+		<label>中级作战记录</label>
+        <description>获得2000对应技能经验,若殖民者1火和2火技能总数不多于5,将对应技能设置为1火(杰西卡与涤火杰西卡不受限制)</description>
+        <graphicData>
+			<texPath>Things/Expcard/IntermediateCombatRecord</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+        <comps>
+            <li Class="AKE_OperatorExtension.TCP_UseEffect_CombatRecord">
+				<xpGainAmount>2000</xpGainAmount>
+				<rank>2</rank>
+			</li>
+        </comps>
+	</ThingDef>
+
+    <ThingDef ParentName="AK_CombatRecord">
+		<defName>AK_Item_SeniorCombatRecord</defName>
+		<label>高级作战记录</label>
+        <description>获得4000对应技能经验,若殖民者2火技能总数不多于3,将对应技能设置为2火(杰西卡与涤火杰西卡不受限制)</description>
+        <graphicData>
+			<texPath>Things/Expcard/SeniorCombatRecord</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+        <comps>
+            <li Class="AKE_OperatorExtension.TCP_UseEffect_CombatRecord">
+				<xpGainAmount>4000</xpGainAmount>
+				<rank>3</rank>
 			</li>
         </comps>
 	</ThingDef>
