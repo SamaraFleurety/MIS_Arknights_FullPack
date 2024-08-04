@@ -22,13 +22,12 @@
       <li>
 				<compClass>AK_DLL.HealthBarControllerComp</compClass>
 			</li>
-			<li Class="AK_DLL.TCP_SkillBarControllerComp">
-				<BurstButtonTexPath>UI/Abilities/Burst</BurstButtonTexPath>
-        <RotateRingTexPath>UI/Abilities/RotateRing</RotateRingTexPath>
+			<li>
+        <compClass>AK_DLL.SkillBarControllerComp</compClass>
 			</li>
-      <!--li>
+      <li>
         <compClass>AK_DLL.ShieldBarControllerComp</compClass>
-      </li-->
+      </li>
 		</value>
 	</Operation>
 </Patch>
