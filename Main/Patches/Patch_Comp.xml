@@ -25,7 +25,7 @@
 			<li>
         <compClass>AK_DLL.SkillBarControllerComp</compClass>
 			</li>
-      <li>
+      <li MayRequire="Mlie.VanyaShield">
         <compClass>AK_DLL.ShieldBarControllerComp</compClass>
       </li>
 		</value>
