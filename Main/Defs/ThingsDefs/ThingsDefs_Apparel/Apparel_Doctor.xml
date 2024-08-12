@@ -71,7 +71,7 @@
     </thingSetMakerTags>
   </ThingDef>
 
-  <ThingDef ParentName="AK_ArmorBase">
+  <ThingDef ParentName="ApparelBase">
     <defName>AK_Apparel_Doctor</defName>
     <label>博士衣服</label>
     <description>博士的衣服。</description>
@@ -119,6 +119,7 @@
       <skillRequirements>
         <Crafting>8</Crafting>
       </skillRequirements>
+      <workSkill>Crafting</workSkill>
       <recipeUsers Inherit="false">
         <li>HandTailoringBench</li>
         <li>ElectricTailoringBench</li>
