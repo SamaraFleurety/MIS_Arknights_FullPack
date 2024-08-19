@@ -729,4 +729,62 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<!-- 娜仁图亚 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_NarantuyaThird</defName>
+		<degreeDatas>
+			<li>
+				<label>“我见，我得”</label>
+				<description>扬起鞭子，卷起黄沙，遮蔽日光，然后想要什么，就拿走什么。</description>
+				<statOffsets>
+					<SocialImpact>0.2</SocialImpact>
+					<TradePriceImprovement>0.1</TradePriceImprovement>
+					<GlobalLearningFactor>-0.2</GlobalLearningFactor>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_NarantuyaSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>“梦魇”</label>
+				<description>别做梦了。在我面前，没有好梦。</description>
+				<statOffsets>
+					<ShootingAccuracyPawn>1.0</ShootingAccuracyPawn>
+					<AimingDelayFactor>-0.1</AimingDelayFactor>
+				</statOffsets>
+				<statFactors>
+					<MeleeDamageFactor>1.2</MeleeDamageFactor>
+					<MeleeArmorPenetration>1.2</MeleeArmorPenetration>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Narantuya</defName>
+		<degreeDatas>
+			<li>
+				<label>婀娜虚影</label>
+				<description>{PAWN_nameDef}，推测年龄二十五岁上下，库兰塔，身材高挑，特征为极其鲜艳的红发。\n“确实每次最先被认出来的都是我，我的红发不好藏嘛，我也不想藏。隐姓埋名活动，那就没办法名扬萨尔贡了。”</description>
+				<statOffsets>
+					<PawnBeauty>2</PawnBeauty>
+					<MoveSpeed>1</MoveSpeed>
+				</statOffsets>
+				<statFactors>
+					<IncomingDamageFactor>0.8</IncomingDamageFactor>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>

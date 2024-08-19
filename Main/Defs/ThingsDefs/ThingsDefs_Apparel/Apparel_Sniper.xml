@@ -385,4 +385,16 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Sniper">
+		<defName>AK_Apparel_Narantuya</defName>
+		<label>娜仁图亚服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Sniper/Narantuya</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Sniper/Narantuya</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 </Defs>

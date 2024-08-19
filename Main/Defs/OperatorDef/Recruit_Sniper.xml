@@ -2807,4 +2807,96 @@
 		</AKAbilities>
 	</AK_DLL.OperatorDef>
 
+	<!-- 娜仁图亚 -->
+
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Sniper">
+		<defName>AK_Recruit_Narantuya</defName>
+		<name>Narantuya</name>
+		<nickname>Narantuya</nickname>
+		<description>FIXMEDESC</description>
+		<weapon>AK_Weapon_Narantuya</weapon>
+		<hair>AK_Hair_Narantuya</hair>
+		<apparels>
+			<li>AK_Apparel_Narantuya</li>
+		</apparels>
+		<stand>UI/Image/Sniper/NarantuyaStand</stand>
+		<headPortrait>UI/Image/Sniper/NarantuyaPortrait</headPortrait>
+		<traits>
+			<li>
+				<def>AK_Trait_Narantuya</def>
+			</li>
+			<li>
+				<def>AK_Trait_NarantuyaSecond</def>
+			</li>
+			<li>
+				<def>AK_Trait_NarantuyaThird</def>
+			</li>
+		</traits>
+		<age>20</age>
+		<childHood>AK_BackStory_Narantuya_Child</childHood>
+		<adultHood>AK_BackStory_Narantuya_Adult</adultHood>
+		<skills>
+			<li>
+				<skill>Animals</skill>
+				<level>13</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Artistic</skill>
+				<level>0</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Construction</skill>
+				<level>7</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Cooking</skill>
+				<level>10</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Crafting</skill>
+				<level>13</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Intellectual</skill>
+				<level>10</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<level>10</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<level>13</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Mining</skill>
+				<level>1</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Plants</skill>
+				<level>2</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<level>13</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<level>10</level>
+				<fireLevel>1</fireLevel>
+			</li>
+		</skills>
+	</AK_DLL.OperatorDef>
+
 </Defs>

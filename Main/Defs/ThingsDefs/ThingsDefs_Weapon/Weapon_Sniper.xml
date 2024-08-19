@@ -2306,4 +2306,72 @@
 		</projectile>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_WeaponBase_Sniper">
+		<defName>AK_Weapon_Narantuya</defName>
+		<label>黑色弯刀</label>
+		<description>两把特殊的黑色弯刀，双刀能够通过特定的机关组装在一起并展开刀扇，可作为投掷武器灵活使用。工程部尚未解明制成刀刃的金属材料成分，娜仁图亚本人对武器的来历以及刃身上蚀刻纹样的含义也一无所知。她只知道这原本是父母准备等她成年再赠予她的礼物，以及，使用它们时自己施展源石技艺也会格外顺手。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Sniper/NarantuyaW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.98</AccuracyTouch>
+			<AccuracyShort>1</AccuracyShort>
+			<AccuracyMedium>1</AccuracyMedium>
+			<AccuracyLong>1</AccuracyLong>
+			<RangedWeapon_Cooldown>1.35</RangedWeapon_Cooldown>
+			<!--后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_Narantuya</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>0.85</warmupTime>
+				<!--前摇-->
+				<range>30</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_GeneralPistol</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<tools Inherit="false">
+			<li>
+				<label>枪托猛砸</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>1.0</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_Narantuya</defName>
+		<label>射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/NarantuyaW/NarantuyaW_Thrown</texPath>
+			<graphicClass>Graphic_Flicker</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<!--伤害类型-->
+			<damageAmountBase>45</damageAmountBase>
+			<armorPenetrationBase>0.67</armorPenetrationBase>
+			<!--穿甲-->
+			<stoppingPower>1.5</stoppingPower>
+			<speed>50</speed>
+			<soundExplode>ThumpCannon_Impact</soundExplode>
+			<!--爆炸音效-->
+		</projectile>
+	</ThingDef>
+
+
 </Defs>

@@ -390,4 +390,20 @@
 		<baseDesc>罗德岛正式干员：前龙门高级警司，龙门近卫局特别督查组组长。现辞去职务，正式成为罗德岛的一员。依本人意愿，任务多以外拍为主，为各地外派干员提供有力支援及现场指导。</baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Narantuya_Child</defName>
+		<slot>Childhood</slot>
+		<title>梦魇部族的孩子</title>
+		<titleShort>梦魇部族的孩子</titleShort>
+		<baseDesc>{PAWN_nameDef}自幼掌握了大量生活技艺与战斗技巧，{PAWN_pronoun}知晓如何驯服野生的角跳兽，如何将毛皮制成衣物与挂毯，也知晓如何凭两把弯刀和一捧沙子在任何搏斗中幸存。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Narantuya_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>天途行者</title>
+		<titleShort>天途行者</titleShort>
+		<baseDesc>赤红的梦魇{PAWN_nameDef}，正走在自己的“天途”上。\n{PAWN_pronoun}相信自己即将名扬萨尔贡，{PAWN_pronoun}已经如此相信了很多年。</baseDesc>
+	</BackstoryDef>
+
 </Defs>
