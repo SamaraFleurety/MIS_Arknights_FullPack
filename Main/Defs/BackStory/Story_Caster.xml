@@ -339,4 +339,20 @@
 		<baseDesc>{PAWN_nameDef}，曾作为情报人员在诺伯特区活动多年，后以典范军成员的身份参与了伦蒂尼姆周边的一系列战役。在维多利亚事件结束后，同罗德岛达成了一系列战略合作条款，为罗德岛驻维多利亚办事处提供协助。</baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Nymph_Child</defName>
+		<slot>Childhood</slot>
+		<title>卡兹戴尔市民</title>
+		<titleShort>卡兹戴尔市民</titleShort>
+		<baseDesc>{PAWN_nameDef}第一次感觉到，星星点点的光亮从这个城市的人们心中迸发。{PAWN_pronoun}等到了。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Nymph_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>笞心魔</title>
+		<titleShort>笞心魔</titleShort>
+		<baseDesc>笞心魔：当笞心魔第一次在猎物心中肆意掠夺时，一道道如同鞭笞般的心灵创伤就会留在受害者的心中，这便是“笞心魔”这一名称的由来——他们是贪食心灵的萨卡兹，窃取内心就如血魔用尖牙撕开皮肤般寻常。</baseDesc>
+	</BackstoryDef>
+
 </Defs>

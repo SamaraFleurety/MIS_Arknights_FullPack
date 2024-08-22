@@ -708,4 +708,57 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<!-- 妮芙 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_NymphThird</defName>
+		<degreeDatas>
+			<li>
+				<label>人见人爱</label>
+				<description>“为什么{PAWN_nameDef}小姐一笑我的脑袋就变得空荡荡的，{PAWN_pronoun}是不是对我用了什么萨卡兹巫术？”\n“因为{PAWN_nameDef}小姐很可爱，可爱到心跳会停半拍。如果你觉得是巫术的原因，我建议你去找Logos先生，让他把巫术塞满你的脑袋。”</description>
+				<statOffsets>
+					<SocialImpact>0.3</SocialImpact>
+					<TradePriceImprovement>0.3</TradePriceImprovement>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_NymphSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>心的锁钥</label>
+				<description>即使是没有任何心灵能力的普通人，也能够用肉眼观测到笞心魔进行这一行为时自己那远离身躯的记忆在现实中的样貌，笞心魔的心性决定着它的形象，或许是水果，或许是刀剑，在{PAWN_nameDef}手中便成了一把锁钥。</description>
+				<statOffsets>
+					<AimingDelayFactor>0.2</AimingDelayFactor>
+					<ShootingAccuracyPawn>4</ShootingAccuracyPawn>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Nymph</defName>
+		<degreeDatas>
+			<li>
+				<label>卡兹戴尔最善良的笞心魔</label>
+				<description>唉，不知道该说你什么好。恐怕整个卡兹戴尔也只有你会这么想了，最善良的笞心魔。</description>
+				<statOffsets>
+					<MoveSpeed>1</MoveSpeed>
+					<WorkSpeedGlobal>0.5</WorkSpeedGlobal>
+				</statOffsets>
+				<statFactors>
+					<CertaintyLossFactor>0</CertaintyLossFactor>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>
