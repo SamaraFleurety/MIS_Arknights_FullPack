@@ -3545,4 +3545,227 @@
 		</subSounds>
 	</SoundDef>
 
+ <!-- EyjafjallaHvitAska 纯烬艾雅法拉 -->
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Recruit_EyjafjallaHvitAska</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Medic/EyjafjallaHvitAska/char_1016_agoat2/Recruit_EyjafjallaHvitAska</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Die_EyjafjallaHvitAska</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Medic/EyjafjallaHvitAska/char_1016_agoat2/Die_EyjafjallaHvitAska</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Draft_EyjafjallaHvitAskaI</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Medic/EyjafjallaHvitAska/char_1016_agoat2/Draft_EyjafjallaHvitAskaI</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Draft_EyjafjallaHvitAskaII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Medic/EyjafjallaHvitAska/char_1016_agoat2/Draft_EyjafjallaHvitAskaII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_EyjafjallaHvitAskaI</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Medic/EyjafjallaHvitAska/char_1016_agoat2/Select_EyjafjallaHvitAskaI</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_EyjafjallaHvitAskaII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Medic/EyjafjallaHvitAska/char_1016_agoat2/Select_EyjafjallaHvitAskaII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_EyjafjallaHvitAskaIII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Medic/EyjafjallaHvitAska/char_1016_agoat2/Select_EyjafjallaHvitAskaIII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_EyjafjallaHvitAskaIV</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Medic/EyjafjallaHvitAska/char_1016_agoat2/Select_EyjafjallaHvitAskaIV</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_EyjafjallaHvitAskaI</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Medic/EyjafjallaHvitAska/char_1016_agoat2/Ability_EyjafjallaHvitAskaI</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_EyjafjallaHvitAskaII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Medic/EyjafjallaHvitAska/char_1016_agoat2/Ability_EyjafjallaHvitAskaII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_EyjafjallaHvitAskaIII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Medic/EyjafjallaHvitAska/char_1016_agoat2/Ability_EyjafjallaHvitAskaIII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_EyjafjallaHvitAskaIV</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Medic/EyjafjallaHvitAska/char_1016_agoat2/Ability_EyjafjallaHvitAskaIV</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Undraft_EyjafjallaHvitAska</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Medic/EyjafjallaHvitAska/char_1016_agoat2/Undraft_EyjafjallaHvitAska</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
 </Defs>
