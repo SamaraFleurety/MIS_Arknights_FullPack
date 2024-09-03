@@ -7564,4 +7564,227 @@
 		</subSounds>
 	</SoundDef>
 
+<!-- Ulpianus 乌尔比安 -->
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Recruit_Ulpianus</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Guard/Ulpianus/char_4145_ulpia/Recruit_Ulpianus</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Die_Ulpianus</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Guard/Ulpianus/char_4145_ulpia/Die_Ulpianus</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Draft_UlpianusI</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Guard/Ulpianus/char_4145_ulpia/Draft_UlpianusI</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Draft_UlpianusII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Guard/Ulpianus/char_4145_ulpia/Draft_UlpianusII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_UlpianusI</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Guard/Ulpianus/char_4145_ulpia/Select_UlpianusI</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_UlpianusII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Guard/Ulpianus/char_4145_ulpia/Select_UlpianusII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_UlpianusIII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Guard/Ulpianus/char_4145_ulpia/Select_UlpianusIII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_UlpianusIV</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Guard/Ulpianus/char_4145_ulpia/Select_UlpianusIV</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_UlpianusI</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Guard/Ulpianus/char_4145_ulpia/Ability_UlpianusI</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_UlpianusII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Guard/Ulpianus/char_4145_ulpia/Ability_UlpianusII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_UlpianusIII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Guard/Ulpianus/char_4145_ulpia/Ability_UlpianusIII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_UlpianusIV</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Guard/Ulpianus/char_4145_ulpia/Ability_UlpianusIV</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Undraft_Ulpianus</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Guard/Ulpianus/char_4145_ulpia/Undraft_Ulpianus</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
 </Defs>
