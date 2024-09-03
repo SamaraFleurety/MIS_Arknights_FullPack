@@ -869,7 +869,7 @@
 				</statOffsets>
 				<statFactors>
 					<MeleeDamageFactor>1.5</MeleeDamageFactor>
-					<IncomingDamageFactor>0.5</IncomingDamageFactor >
+					<IncomingDamageFactor>0.5</IncomingDamageFactor>
 					<MeleeArmorPenetration>1.5</MeleeArmorPenetration>
 				</statFactors>
 			</li>
@@ -910,6 +910,63 @@
 				</statOffsets>
 				<statFactors>
 					<PsychicSensitivity>0.5</PsychicSensitivity>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_UlpianusThird</defName>
+		<degreeDatas>
+			<li>
+				<label>深海猎人——乌尔比安</label>
+				<description>{PAWN_pronoun}独行，一如{PAWN_pronoun}刚成为深海猎人时那样。</description>
+				<statOffsets>
+					<SocialImpact>-0.6</SocialImpact>
+				</statOffsets>
+				<statFactors>
+					<MeleeArmorPenetration>1.5</MeleeArmorPenetration>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_UlpianusSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>血脉的哺养</label>
+				<description>无论是穿越复杂地形还是负重远航，{PAWN_pronoun}的偏航角度都微小到可以忽略不计，这似乎并不是基因改造为{PAWN_pronoun}带来的特殊机能，{PAWN_pronoun}生来如此。{PAWN_nameDef}从不迷路。</description>
+				<statOffsets>
+					<MoveSpeed>2</MoveSpeed>
+				</statOffsets>
+				<statFactors>
+					<MeleeDamageFactor>1.5</MeleeDamageFactor>
+					<IncomingDamageFactor>0.5</IncomingDamageFactor>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Ulpianus</defName>
+		<degreeDatas>
+			<li>
+				<label>本性的坚守</label>
+				<description>我仍清醒，我将继续行动。\n......\n航道已经联通，但如非必要，不要轻易前往阿戈尔本境。</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.4</MentalBreakThreshold>
+					<WorkSpeedGlobal>0.3</WorkSpeedGlobal>
+				</statOffsets>
+				<statFactors>
+					<PsychicSensitivity>0</PsychicSensitivity>
+					<CertaintyLossFactor>0</CertaintyLossFactor>
 				</statFactors>
 			</li>
 		</degreeDatas>

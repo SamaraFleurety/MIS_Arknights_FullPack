@@ -507,4 +507,20 @@
 		<baseDesc>如果一个人要了解卡西米尔骑士竞技，那他就一定无法越过“黑骑士”这个名号。\n对大部分竞技骑士来说，一座冠军奖杯是他们梦寐以求的奖励，但对黑骑士而言，却好像只是{PAWN_pronoun}人生中最微不足道的一个注脚。</baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Ulpianus_Child</defName>
+		<slot>Childhood</slot>
+		<title>技术院执政官</title>
+		<titleShort>技术院执政官</titleShort>
+		<baseDesc>{PAWN_nameDef}在技术院任职时，曾作为深海猎人计划创始人之一</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Ulpianus_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>深海猎人</title>
+		<titleShort>深海猎人</titleShort>
+		<baseDesc>{PAWN_nameDef}，最初的深海猎人</baseDesc>
+	</BackstoryDef>
+
 </Defs>

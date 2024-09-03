@@ -1873,4 +1873,32 @@
     </tools>
   </ThingDef>
 
+  <ThingDef ParentName="AK_WeaponBase_Guard">
+    <defName>AK_Weapon_Ulpianus</defName>
+    <label>船锚</label>
+    <description>乌尔比安的使用的船锚。每一次挥动，都必须给敌人带去创面巨大、难以恢复的撕裂伤。</description>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Guard/UlpianusW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <tools Inherit = "false">
+      <li>
+        <label>船锚猛砸</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>28</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+      <li>
+        <label>猛力切割</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>52</power>
+        <cooldownTime>2.2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
 </Defs>
