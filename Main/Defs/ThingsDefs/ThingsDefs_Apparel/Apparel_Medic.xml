@@ -256,4 +256,16 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Medic">
+		<defName>AK_Apparel_EyjafjallaHvitAska</defName>
+		<label>纯烬艾雅法拉服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Medic/EyjafjallaHvitAska</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Medic/EyjafjallaHvitAska</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 </Defs>

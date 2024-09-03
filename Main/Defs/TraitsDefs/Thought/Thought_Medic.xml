@@ -163,4 +163,20 @@
 		</stages>
 	</ThoughtDef>
 
+	<!-- 纯烬艾雅法拉 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_EyjafjallaHvitAska</defName>
+		<requiredTraits>
+			<li>AK_Trait_EyjafjallaHvitAskaSecond</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>想要留住的声音</label>
+				<description>真希望与大家相处的日子，能再久一点呀。</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
 </Defs>

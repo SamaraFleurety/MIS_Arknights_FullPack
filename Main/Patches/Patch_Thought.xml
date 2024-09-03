@@ -22,4 +22,15 @@
 		</value>
 	</Operation>
 
+	<!-- 睡觉时被打扰 -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThoughtDef[defName="SleepDisturbed"]</xpath>
+		<value>
+			<nullifyingTraits>
+				<li>AK_Trait_EyjafjallaHvitAskaSecond</li>
+			</nullifyingTraits>
+		</value>
+	</Operation>
+
 </Patch>
