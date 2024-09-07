@@ -14,6 +14,17 @@
 	</Def>
 
 	<Def Class="AK_DLL.OperatorFashionSetDef">
+		<defName>AK_FashionSet_Nightingale_IakhuOfFlows</defName>
+		<label>IakhuOfFlows</label>
+		<hair>AK_Hair_NightingaleIakhuOfFlows</hair>
+		<apparels>
+			<li>AK_Apparel_NightingaleIakhuOfFlows</li>
+		</apparels>
+		<weapon>AK_Weapon_NightingaleIakhuOfFlows</weapon>
+		<standIndex>3</standIndex>
+	</Def>
+
+	<Def Class="AK_DLL.OperatorFashionSetDef">
 		<defName>AK_FashionSet_Shining_SilentNight</defName>
 		<label>SilentNight</label>
 		<hair>AK_Hair_ShiningSilentNight</hair>
@@ -56,6 +67,17 @@
 		</apparels>
 		<weapon>AK_Weapon_FlameSummerFlower</weapon>
 		<standIndex>3</standIndex>
+	</Def>
+
+	<Def Class="AK_DLL.OperatorFashionSetDef">
+		<defName>AK_FashionSet_EyjafjallaHvitAska_PicnicBeforeLongTrip</defName>
+		<label>PicnicBeforeLongTrip</label>
+		<hair>AK_Hair_EyjafjallaHvitAskaPicnicBeforeLongTrip</hair>
+		<apparels>
+			<li>AK_Apparel_EyjafjallaHvitAskaPicnicBeforeLongTrip</li>
+		</apparels>
+		<weapon>AK_Weapon_EyjafjallaHvitAskaPicnicBeforeLongTrip</weapon>
+		<standIndex>2</standIndex>
 	</Def>
 
 </Defs>

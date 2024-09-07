@@ -441,6 +441,44 @@
     </verbs>
   </ThingDef>
 
+  <ThingDef ParentName="AK_WeaponBase_Medic">
+    <defName>AK_Weapon_NightingaleIakhuOfFlows</defName>
+    <label>挽歌-错位巡礼的希望</label>
+    <description>夜莺的法杖，笼中的蓝色光芒如同丽兹被封闭的希望。</description>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Medic/Nightingale_IakhuOfFlowsW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedStatOffsets>
+      <ShootingAccuracyPawn>30</ShootingAccuracyPawn>
+    </equippedStatOffsets>
+    <statBases>
+      <AccuracyTouch>0.85</AccuracyTouch>
+      <AccuracyShort>0.95</AccuracyShort>
+      <AccuracyMedium>0.8</AccuracyMedium>
+      <AccuracyLong>0.65</AccuracyLong>
+      <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>AK_Bullet_Nightingale</defaultProjectile>
+        <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+        <warmupTime>2.5</warmupTime>				<!--前摇-->
+        <range>25</range>
+        <forcedMissRadius>1.9</forcedMissRadius>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <soundCast>AK_Sound_Weapon_Magic</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <noiseRadius>3</noiseRadius>
+      </li>
+    </verbs>
+  </ThingDef>
+
   <ThingDef ParentName="AK_BulletBase_Bow">
     <defName>AK_Bullet_Nightingale</defName>
     <label>法术射击</label>
@@ -1052,11 +1090,44 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="AK_WeaponBase_Medic">
+  <ThingDef ParentName="AK_WeaponBase_Medic" Name="AK_Weapon_EyjafjallaHvitAska">
     <defName>AK_Weapon_EyjafjallaHvitAska</defName>
     <label>纯烬艾雅法拉的法杖</label>
     <graphicData>
       <texPath>Things/AK_Agents/Weapon/Medic/EyjafjallaHvitAskaW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <AccuracyTouch>1</AccuracyTouch>
+      <AccuracyShort>1</AccuracyShort>
+      <AccuracyMedium>0.98</AccuracyMedium>
+      <AccuracyLong>0.65</AccuracyLong>
+      <RangedWeapon_Cooldown>1.65</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>AK_Bullet_Medic_Common</defaultProjectile>
+        <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+        <warmupTime>1.45</warmupTime>        <!--前摇-->
+        <range>30</range>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <soundCast>AK_Sound_Weapon_Magic</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <noiseRadius>3</noiseRadius>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <ThingDef ParentName="AK_Weapon_EyjafjallaHvitAska">
+    <defName>AK_Weapon_EyjafjallaHvitAskaPicnicBeforeLongTrip</defName>
+    <label>纯烬艾雅法拉-远行前的野餐的法杖</label>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Medic/EyjafjallaHvitAska_PicnicBeforeLongTripW</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>

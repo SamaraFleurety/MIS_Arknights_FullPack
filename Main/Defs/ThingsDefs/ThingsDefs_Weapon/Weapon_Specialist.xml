@@ -249,7 +249,7 @@
     </graphicData>
   </ThingDef>
 
-  <ThingDef ParentName="AK_WeaponBase_Specialist">
+  <ThingDef ParentName="AK_WeaponBase_Specialist" Name="AK_Weapon_Weedy">
     <defName>AK_Weapon_Weedy</defName>
     <label>工程蓄水炮</label>
     <description>没有煌快，但是比煌大姐远，而且很能喷水！！！</description>
@@ -275,6 +275,15 @@
         <cooldownTime>2.8</cooldownTime>
       </li>
     </tools>
+  </ThingDef>
+
+  <ThingDef ParentName="AK_Weapon_Weedy">
+    <defName>AK_Weapon_WeedySedjem</defName>
+    <label>温蒂-倾听的工程蓄水炮</label>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Specialist/Weedy_SedjemW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
   </ThingDef>
 
   <ThingDef ParentName="AK_WeaponBase_Specialist">

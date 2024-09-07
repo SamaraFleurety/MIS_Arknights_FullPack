@@ -74,6 +74,18 @@
 	</ThingDef>
 
 	<ThingDef ParentName="AK_ArmorBase_Specialist">
+		<defName>AK_Apparel_WeedySedjem</defName>
+		<label>温蒂-倾听</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Specialist/Weedy_Sedjem</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Specialist/Weedy_Sedjem</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Specialist">
 		<defName>AK_Apparel_Mizuki</defName>
 		<label>水月服装</label>
 		<graphicData>

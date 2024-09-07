@@ -110,6 +110,18 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Medic">
+		<defName>AK_Apparel_NightingaleIakhuOfFlows</defName>
+		<label>错位巡礼</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Medic/Nightingale_IakhuOfFlows</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Medic/Nightingale_IakhuOfFlows</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 
 	<ThingDef ParentName="AK_ArmorBase_Medic">
 		<defName>AK_Apparel_Ptilopsis</defName>
@@ -265,6 +277,18 @@
 		</graphicData>
 		<apparel>
 			<wornGraphicPath>Things/AK_Agents/Medic/EyjafjallaHvitAska</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Medic">
+		<defName>AK_Apparel_EyjafjallaHvitAskaPicnicBeforeLongTrip</defName>
+		<label>纯烬艾雅法拉服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Medic/EyjafjallaHvitAska_PicnicBeforeLongTrip</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Medic/EyjafjallaHvitAska_PicnicBeforeLongTrip</wornGraphicPath>
 		</apparel>
 	</ThingDef>
 

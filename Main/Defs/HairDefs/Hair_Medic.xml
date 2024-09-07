@@ -58,6 +58,12 @@
 	</HairDef>
 
 	<HairDef ParentName="AK_HairBaseF">
+		<defName>AK_Hair_NightingaleIakhuOfFlows</defName>
+		<label>夜莺-错位巡礼</label>
+		<texPath>Things/Hair/Medic/Nightingale_IakhuOfFlows</texPath>
+	</HairDef>
+
+	<HairDef ParentName="AK_HairBaseF">
 		<defName>AK_Hair_Ptilopsis</defName>
 		<label>白面鸮发型</label>
 		<texPath>Things/Hair/Medic/Ptilopsis</texPath>
@@ -113,13 +119,13 @@
 
 	<HairDef ParentName="AK_HairBaseF">
 		<defName>AK_Hair_FlameShadowCurator</defName>
-		<label>焰影苇草_博物</label>
+		<label>焰影苇草-博物</label>
 		<texPath>Things/Hair/Medic/FlameShadow_Curator</texPath>
 	</HairDef>
 
 	<HairDef ParentName="AK_HairBaseF">
 		<defName>AK_Hair_FlameSummerFlower</defName>
-		<label>焰影苇草_夏卉</label>
+		<label>焰影苇草-夏卉</label>
 		<texPath>Things/Hair/Medic/FlameShadow_SummerFlower</texPath>
 	</HairDef>
 
@@ -131,8 +137,14 @@
 
 	<HairDef ParentName="AK_HairBaseF">
 		<defName>AK_Hair_EyjafjallaHvitAska</defName>
-		<label>刺玫发型</label>
+		<label>纯烬艾雅法拉发型</label>
 		<texPath>Things/Hair/Medic/EyjafjallaHvitAska</texPath>
+	</HairDef>
+
+	<HairDef ParentName="AK_HairBaseF">
+		<defName>AK_Hair_EyjafjallaHvitAskaPicnicBeforeLongTrip</defName>
+		<label>纯烬艾雅法拉-远行前的野餐</label>
+		<texPath>Things/Hair/Medic/EyjafjallaHvitAska_PicnicBeforeLongTrip</texPath>
 	</HairDef>
 
 </Defs>
