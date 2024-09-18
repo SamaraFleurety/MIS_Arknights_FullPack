@@ -228,7 +228,7 @@
     </tools>
   </ThingDef>
 
-  <ThingDef ParentName="AK_WeaponBase_Medic">
+  <ThingDef ParentName="AK_WeaponBase_Medic" Name="AK_Weapon_Shining">
     <defName>AK_Weapon_Shining</defName>
     <label>“教条”</label>
     <description>闪灵的剑，收入鞘中可以当作法杖使用。\n赦罪师的利刃出鞘时，昼夜都可被斩断</description>
@@ -296,7 +296,7 @@
     </tools>
   </ThingDef>
 
-  <ThingDef ParentName="AK_WeaponBase_Medic">
+  <ThingDef ParentName="AK_Weapon_Shining">
     <defName>AK_Weapon_ShiningSilentNight</defName>
     <label>静谧午夜-“教条”</label>
     <description>闪灵的剑，收入鞘中可以当作法杖使用。\n赦罪师的利刃出鞘时，昼夜都可被斩断</description>
@@ -305,67 +305,9 @@
       <texPath>Things/AK_Agents/Weapon/Medic/Shining_SilentNightW</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <statBases>
-      <AccuracyTouch>1</AccuracyTouch>
-      <AccuracyShort>1</AccuracyShort>
-      <AccuracyMedium>0.98</AccuracyMedium>
-      <AccuracyLong>0.65</AccuracyLong>
-      <RangedWeapon_Cooldown>1.65</RangedWeapon_Cooldown>
-    </statBases>
-    <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>AK_Bullet_Medic_Common</defaultProjectile>
-        <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
-        <warmupTime>1.45</warmupTime>        <!--前摇-->
-        <range>30</range>
-        <targetParams>
-          <canTargetLocations>true</canTargetLocations>
-        </targetParams>
-        <soundCast>AK_Sound_Weapon_Magic</soundCast>
-        <soundCastTail>GunTail_Heavy</soundCastTail>
-        <muzzleFlashScale>9</muzzleFlashScale>
-        <noiseRadius>3</noiseRadius>
-      </li>
-    </verbs>
-    <tools Inherit="false">
-      <li>
-        <label>剑捅</label>
-        <capacities>
-          <li>Stab</li>
-        </capacities>
-        <power>63</power>
-        <cooldownTime>1.8</cooldownTime>
-      </li>
-      <li>
-        <label>剑柄猛砸</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>27</power>
-        <cooldownTime>1.4</cooldownTime>
-      </li>
-      <li>
-        <label>剑劈</label>
-        <capacities>
-          <li>Cut</li>
-        </capacities>
-        <power>69</power>
-        <cooldownTime>2.0</cooldownTime>
-      </li>
-      <li>
-        <label>剑刺</label>
-        <capacities>
-          <li>Poke</li>
-        </capacities>
-        <power>48</power>
-        <cooldownTime>1.8</cooldownTime>
-      </li>
-    </tools>
   </ThingDef>
 
-  <ThingDef ParentName="AK_WeaponBase_Medic">
+  <ThingDef ParentName="AK_WeaponBase_Medic" Name="AK_Weapon_Nightingale">
     <defName>AK_Weapon_Nightingale</defName>
     <label>封闭的希望</label>
     <description>夜莺的法杖，笼中的蓝色光芒如同丽兹被封闭的希望。</description>
@@ -403,7 +345,7 @@
     </verbs>
   </ThingDef>
 
-  <ThingDef ParentName="AK_WeaponBase_Medic">
+  <ThingDef ParentName="AK_Weapon_Nightingale">
     <defName>AK_Weapon_NightingaleElegy</defName>
     <label>挽歌-封闭的希望</label>
     <description>夜莺的法杖，笼中的蓝色光芒如同丽兹被封闭的希望。</description>
@@ -411,37 +353,9 @@
       <texPath>Things/AK_Agents/Weapon/Medic/Nightingale_ElegyW</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <equippedStatOffsets>
-      <ShootingAccuracyPawn>30</ShootingAccuracyPawn>
-    </equippedStatOffsets>
-    <statBases>
-      <AccuracyTouch>0.85</AccuracyTouch>
-      <AccuracyShort>0.95</AccuracyShort>
-      <AccuracyMedium>0.8</AccuracyMedium>
-      <AccuracyLong>0.65</AccuracyLong>
-      <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
-    </statBases>
-    <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>AK_Bullet_Nightingale</defaultProjectile>
-        <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
-        <warmupTime>2.5</warmupTime>				<!--前摇-->
-        <range>25</range>
-        <forcedMissRadius>1.9</forcedMissRadius>
-        <targetParams>
-          <canTargetLocations>true</canTargetLocations>
-        </targetParams>
-        <soundCast>AK_Sound_Weapon_Magic</soundCast>
-        <soundCastTail>GunTail_Heavy</soundCastTail>
-        <muzzleFlashScale>9</muzzleFlashScale>
-        <noiseRadius>3</noiseRadius>
-      </li>
-    </verbs>
   </ThingDef>
 
-  <ThingDef ParentName="AK_WeaponBase_Medic">
+  <ThingDef ParentName="AK_Weapon_Nightingale">
     <defName>AK_Weapon_NightingaleIakhuOfFlows</defName>
     <label>挽歌-错位巡礼的希望</label>
     <description>夜莺的法杖，笼中的蓝色光芒如同丽兹被封闭的希望。</description>
@@ -449,34 +363,6 @@
       <texPath>Things/AK_Agents/Weapon/Medic/Nightingale_IakhuOfFlowsW</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <equippedStatOffsets>
-      <ShootingAccuracyPawn>30</ShootingAccuracyPawn>
-    </equippedStatOffsets>
-    <statBases>
-      <AccuracyTouch>0.85</AccuracyTouch>
-      <AccuracyShort>0.95</AccuracyShort>
-      <AccuracyMedium>0.8</AccuracyMedium>
-      <AccuracyLong>0.65</AccuracyLong>
-      <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
-    </statBases>
-    <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>AK_Bullet_Nightingale</defaultProjectile>
-        <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
-        <warmupTime>2.5</warmupTime>				<!--前摇-->
-        <range>25</range>
-        <forcedMissRadius>1.9</forcedMissRadius>
-        <targetParams>
-          <canTargetLocations>true</canTargetLocations>
-        </targetParams>
-        <soundCast>AK_Sound_Weapon_Magic</soundCast>
-        <soundCastTail>GunTail_Heavy</soundCastTail>
-        <muzzleFlashScale>9</muzzleFlashScale>
-        <noiseRadius>3</noiseRadius>
-      </li>
-    </verbs>
   </ThingDef>
 
   <ThingDef ParentName="AK_BulletBase_Bow">
@@ -805,7 +691,7 @@
     </tools>
   </ThingDef>
 
-  <ThingDef ParentName="AK_WeaponBase_Medic">
+  <ThingDef ParentName="AK_WeaponBase_Medic" Name="AK_Weapon_Whisperain">
     <defName>AK_Weapon_Whisperain</defName>
     <label>絮雨的伞</label>
     <graphicData>
@@ -839,41 +725,16 @@
     </verbs>
   </ThingDef>
 
-  <ThingDef ParentName="AK_WeaponBase_Medic">
+  <ThingDef ParentName="AK_Weapon_Whisperain">
     <defName>AK_Weapon_WhisperainPrioryOfAbyss</defName>
     <label>絮雨-幽邃隐修的提灯</label>
     <graphicData>
       <texPath>Things/AK_Agents/Weapon/Medic/Whisperain_PrioryOfAbyssW</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <description>如同在屋下避雨的旅人。</description>
-    <statBases>
-      <AccuracyTouch>1</AccuracyTouch>
-      <AccuracyShort>1</AccuracyShort>
-      <AccuracyMedium>0.98</AccuracyMedium>
-      <AccuracyLong>0.65</AccuracyLong>
-      <RangedWeapon_Cooldown>1.65</RangedWeapon_Cooldown>
-    </statBases>
-    <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>AK_Bullet_Medic_Common</defaultProjectile>
-        <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
-        <warmupTime>1.45</warmupTime>        <!--前摇-->
-        <range>30</range>
-        <targetParams>
-          <canTargetLocations>true</canTargetLocations>
-        </targetParams>
-        <soundCast>AK_Sound_Weapon_Magic</soundCast>
-        <soundCastTail>GunTail_Heavy</soundCastTail>
-        <muzzleFlashScale>9</muzzleFlashScale>
-        <noiseRadius>3</noiseRadius>
-      </li>
-    </verbs>
   </ThingDef>
 
-  <ThingDef ParentName="AK_WeaponBase_Medic">
+  <ThingDef ParentName="AK_WeaponBase_Medic" Name="AK_Weapon_FlameShadow">
     <defName>AK_Weapon_FlameShadow</defName>
     <label>焰影法杖</label>
     <graphicData>
@@ -917,92 +778,22 @@
     </tools>
   </ThingDef>
 
-  <ThingDef ParentName="AK_WeaponBase_Medic">
+  <ThingDef ParentName="AK_Weapon_FlameShadow">
     <defName>AK_Weapon_FlameShadowCurator</defName>
     <label>焰影苇草_博物的法杖</label>
     <graphicData>
       <texPath>Things/AK_Agents/Weapon/Medic/FlameShadow_CuratorW</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <description>她似乎为自己能放下那柄旧枪而感到解脱。</description>
-    <statBases>
-      <AccuracyTouch>0.85</AccuracyTouch>
-      <AccuracyShort>0.95</AccuracyShort>
-      <AccuracyMedium>0.8</AccuracyMedium>
-      <AccuracyLong>0.65</AccuracyLong>
-      <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
-    </statBases>
-    <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>AK_Bullet_FlameShadow</defaultProjectile>
-        <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
-        <warmupTime>1.7</warmupTime>        <!--前摇-->
-        <range>40</range>
-        <targetParams>
-          <canTargetLocations>true</canTargetLocations>
-        </targetParams>
-        <soundCast>AK_Sound_Weapon_Magic</soundCast>
-        <soundCastTail>GunTail_Heavy</soundCastTail>
-        <muzzleFlashScale>9</muzzleFlashScale>
-        <noiseRadius>3</noiseRadius>
-      </li>
-    </verbs>
-    <tools Inherit="false">
-      <li>
-        <label>法杖猛击</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>14</power>
-        <cooldownTime>1.2</cooldownTime>
-      </li>
-    </tools>
   </ThingDef>
 
-  <ThingDef ParentName="AK_WeaponBase_Medic">
+  <ThingDef ParentName="AK_Weapon_FlameShadow">
     <defName>AK_Weapon_FlameSummerFlower</defName>
     <label>焰影苇草_夏卉的法杖</label>
     <graphicData>
       <texPath>Things/AK_Agents/Weapon/Medic/FlameShadow_SummerFlowerW</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <description>她似乎为自己能放下那柄旧枪而感到解脱。</description>
-    <statBases>
-      <AccuracyTouch>0.85</AccuracyTouch>
-      <AccuracyShort>0.95</AccuracyShort>
-      <AccuracyMedium>0.8</AccuracyMedium>
-      <AccuracyLong>0.65</AccuracyLong>
-      <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
-    </statBases>
-    <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>AK_Bullet_FlameShadow</defaultProjectile>
-        <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
-        <warmupTime>1.7</warmupTime>        <!--前摇-->
-        <range>40</range>
-        <targetParams>
-          <canTargetLocations>true</canTargetLocations>
-        </targetParams>
-        <soundCast>AK_Sound_Weapon_Magic</soundCast>
-        <soundCastTail>GunTail_Heavy</soundCastTail>
-        <muzzleFlashScale>9</muzzleFlashScale>
-        <noiseRadius>3</noiseRadius>
-      </li>
-    </verbs>
-    <tools Inherit="false">
-      <li>
-        <label>法杖猛击</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>14</power>
-        <cooldownTime>1.2</cooldownTime>
-      </li>
-    </tools>
   </ThingDef>
 
   <ThingDef ParentName="AK_BulletBase_Bow">
@@ -1130,30 +921,6 @@
       <texPath>Things/AK_Agents/Weapon/Medic/EyjafjallaHvitAska_PicnicBeforeLongTripW</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <statBases>
-      <AccuracyTouch>1</AccuracyTouch>
-      <AccuracyShort>1</AccuracyShort>
-      <AccuracyMedium>0.98</AccuracyMedium>
-      <AccuracyLong>0.65</AccuracyLong>
-      <RangedWeapon_Cooldown>1.65</RangedWeapon_Cooldown>
-    </statBases>
-    <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>AK_Bullet_Medic_Common</defaultProjectile>
-        <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
-        <warmupTime>1.45</warmupTime>        <!--前摇-->
-        <range>30</range>
-        <targetParams>
-          <canTargetLocations>true</canTargetLocations>
-        </targetParams>
-        <soundCast>AK_Sound_Weapon_Magic</soundCast>
-        <soundCastTail>GunTail_Heavy</soundCastTail>
-        <muzzleFlashScale>9</muzzleFlashScale>
-        <noiseRadius>3</noiseRadius>
-      </li>
-    </verbs>
   </ThingDef>
 
 </Defs>

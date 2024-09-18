@@ -1157,41 +1157,6 @@
 			<texPath>Things/AK_Agents/Weapon/Caster/Goldenglow_MaidenfortheBrightNightW</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<statBases>
-			<AccuracyTouch>0.75</AccuracyTouch>
-			<AccuracyShort>0.95</AccuracyShort>
-			<AccuracyMedium>1</AccuracyMedium>
-			<AccuracyLong>0.85</AccuracyLong>
-			<RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
-		</statBases>
-		<verbs>
-			<li>
-				<verbClass>Verb_Shoot</verbClass>
-				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>AK_Bullet_Goldenglow</defaultProjectile>
-				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
-				<warmupTime>1.2</warmupTime>				<!--前摇-->
-				<range>25</range>
-				<burstShotCount>2</burstShotCount>
-				<targetParams>
-					<canTargetLocations>true</canTargetLocations>
-				</targetParams>
-				<soundCast>AK_Sound_Weapon_Magic</soundCast>
-				<soundCastTail>GunTail_Heavy</soundCastTail>
-				<muzzleFlashScale>9</muzzleFlashScale>
-				<noiseRadius>3</noiseRadius>
-			</li>
-		</verbs>
-		<tools Inherit="false">
-			<li>
-				<label>法杖猛击</label>
-				<capacities>
-					<li>Blunt</li>
-				</capacities>
-				<power>18</power>
-				<cooldownTime>1.2</cooldownTime>
-			</li>
-		</tools>
 	</ThingDef>
 
 	<ThingDef ParentName="AK_BulletBase_Bow">
@@ -1363,40 +1328,6 @@
 			<texPath>Things/AK_Agents/Weapon/Caster/Astgenne_HerAspirationW</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<statBases>
-			<AccuracyTouch>0.85</AccuracyTouch>
-			<AccuracyShort>0.95</AccuracyShort>
-			<AccuracyMedium>0.8</AccuracyMedium>
-			<AccuracyLong>0.65</AccuracyLong>
-			<RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
-		</statBases>
-		<verbs>
-			<li>
-				<verbClass>Verb_Shoot</verbClass>
-				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>AK_Bullet_Astgenne</defaultProjectile>
-				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
-				<warmupTime>1.7</warmupTime>				<!--前摇-->
-				<range>25</range>
-				<targetParams>
-					<canTargetLocations>true</canTargetLocations>
-				</targetParams>
-				<soundCast>AK_Sound_Weapon_Magic</soundCast>
-				<soundCastTail>GunTail_Heavy</soundCastTail>
-				<muzzleFlashScale>9</muzzleFlashScale>
-				<noiseRadius>3</noiseRadius>
-			</li>
-		</verbs>
-		<tools Inherit="false">
-			<li>
-				<label>法杖猛击</label>
-				<capacities>
-					<li>Blunt</li>
-				</capacities>
-				<power>24</power>
-				<cooldownTime>1.8</cooldownTime>
-			</li>
-		</tools>
 	</ThingDef>
 
 	<ThingDef ParentName="AK_BulletBase_Bow">
