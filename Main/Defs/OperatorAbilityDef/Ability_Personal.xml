@@ -1,6 +1,41 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-    
+    <!--AKA_Ability.AKAbilityDef>
+        <defName>AKA_Ability_FireExtinguisher</defName>
+        <grouped>false</grouped>
+        <label>大范围灭火</label>
+        <description>desc</description>
+        <icon>UI/Abilities/Medic/HealEnhance</icon>
+        <CD>15</CD>
+        <CDUnit>day</CDUnit>
+        <targetMode>VerbSingle</targetMode>
+        <verb>
+            <verbClass>AKA_Ability.Verb_AbilityTargeting</verbClass>
+            <defaultProjectile>Bullet_MiniTurret</defaultProjectile>
+            <warmupTime>0</warmupTime>
+            <range>42.9</range>
+            <soundCast>GunShotA</soundCast>
+            <soundCastTail>GunTail_Light</soundCastTail>
+            <muzzleFlashScale>9</muzzleFlashScale>
+            <targetParams>
+                <canTargetPawns>true</canTargetPawns>
+                <canTargetLocations>true</canTargetLocations>
+                <canTargetMechs>true</canTargetMechs>
+				<canTargetBuildings>true</canTargetBuildings>
+				<canTargetItems>true</canTargetItems>
+            </targetParams>
+        </verb>
+        <needCD>true</needCD>
+		<typeSFX>tact</typeSFX>
+        <compEffectList>
+            <li Class="AKA_Ability.AE_Extinguisher">
+                <DmgType>Extinguish</DmgType>
+                <explosiveRadius>19.9</explosiveRadius>
+                <explosionSound>Explosion_FirefoamPopper</explosionSound>
+            </li>
+        </compEffectList>
+    </AKA_Ability.AKAbilityDef-->
+
     <AKA_Ability.AKAbilityDef>
         <defName>AKA_Ability_CatchMother</defName>
         <grouped>false</grouped>
