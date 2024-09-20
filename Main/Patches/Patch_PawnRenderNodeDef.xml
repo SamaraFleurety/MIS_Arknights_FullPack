@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <!--Operation Class="PatchOperationAdd">
+		<xpath>Defs/PawnRenderTreeDef[defName="Humanlike"]/root[@Class="PawnRenderNodeProperties_Parent"]/children</xpath>
+		<value>
+			<li>
+                <debugLabel>AK_HealthBar_RenderNode</debugLabel>
+                <nodeClass>AK_DLL.PawnRenderNode_AKHealthBar</nodeClass>
+                <workerClass>AK_DLL.PawnRenderNodeWorker_AKHealthBar</workerClass>
+			</li>
+            <li>
+                <debugLabel>AK_SkillBar_RenderNode</debugLabel>
+                <nodeClass>AK_DLL.PawnRenderNode_AKSkillBar</nodeClass>
+                <workerClass>AK_DLL.PawnRenderNodeWorker_AKSkillBar</workerClass>
+			</li>
+		</value>
+	</Operation-->
+</Patch>
