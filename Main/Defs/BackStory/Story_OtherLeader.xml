@@ -102,4 +102,20 @@
         <shuffleable>False</shuffleable>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName="AK_StoryBase">
+		<defName>AK_BackStory_Closure_Child</defName>
+		<slot>Childhood</slot>
+		<title>知名黑客</title>
+		<titleShort>知名黑客</titleShort>
+		<baseDesc>卡兹戴尔为数不多的精通程序与工程设计的天才少女</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="AK_StoryBase">
+		<defName>AK_BackStory_Closure_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>罗德岛舰船总工程师</title>
+		<titleShort>罗德岛舰船总工程师</titleShort>
+		<baseDesc>兼任罗德岛采购部负责人，德岛建立最初的人员之一，亲手将罗德岛本舰设计改造成如今的状态。</baseDesc>
+	</BackstoryDef>
+
 </Defs>

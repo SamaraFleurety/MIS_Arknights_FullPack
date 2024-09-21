@@ -73,12 +73,44 @@
 
 	<ThoughtDef ParentName = "AK_Thought_Permanent">
 		<defName>AK_Thought_Trait_PRTSThird</defName>
-		<requiredTraits><li>AK_Trait_PRTSThird</li></requiredTraits>
+		<requiredTraits>
+			<li>AK_Trait_PRTSThird</li>
+		</requiredTraits>
 		<stages>
 			<li>
 				<label>内化宇宙</label>
 				<description>我会等到那一天，我一定会等到那一天。等我，你也要等我!</description>
 				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Closure_DuringTheDay</defName>
+		<workerClass>ThoughtWorker_IsDayForNightOwl</workerClass>
+		<requiredTraits>
+			<li>AK_Trait_Closure</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>血魔(白天)</label>
+				<description>啊....我讨厌太阳</description>
+				<baseMoodEffect>-7</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Closure_DuringTheNight</defName>
+		<workerClass>ThoughtWorker_IsNightForNightOwl</workerClass>
+		<requiredTraits>
+			<li>AK_Trait_Closure</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>血魔(夜晚)</label>
+				<description>嗯。工作效率好像提高了。</description>
+				<baseMoodEffect>5</baseMoodEffect>
 			</li>
 		</stages>
 	</ThoughtDef>

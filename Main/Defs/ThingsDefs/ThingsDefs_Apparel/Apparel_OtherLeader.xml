@@ -73,4 +73,16 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_OtherLeader">
+		<defName>AK_Apparel_Closure</defName>
+		<label>可露希尔服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/OtherLeader/Closure</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/OtherLeader/Closure</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 </Defs>

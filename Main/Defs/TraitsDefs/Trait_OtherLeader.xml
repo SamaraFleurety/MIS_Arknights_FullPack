@@ -278,4 +278,58 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<!-- 可露希尔 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_ClosureThird</defName>
+		<degreeDatas>
+			<li>
+				<label>小血魔无人机</label>
+				<description>一直跟随在{PAWN_nameDef}身边的血魔造型无人机，无论何时，它们都是可露希尔工作中的左膀右臂。</description>
+				<statOffsets>
+					<AimingDelayFactor>-0.2</AimingDelayFactor>
+					<ShootingAccuracyPawn>1</ShootingAccuracyPawn>
+					<WorkSpeedGlobal>0.2</WorkSpeedGlobal>
+					<MoveSpeed>0.2</MoveSpeed>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_ClosureSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>天才黑客工程师</label>
+				<description>{PAWN_nameDef}在加入巴别塔前便是知名黑客，因特蕾西娅寻找人才上门而同意加入巴别塔一直陪伴罗德岛至今。</description>
+				<statOffsets>
+					<GlobalLearningFactor>0.3</GlobalLearningFactor>
+					<HackingSpeed>0.3</HackingSpeed>
+				</statOffsets>
+				<statFactors>
+					<ResearchSpeed>1.5</ResearchSpeed>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Closure</defName>
+		<degreeDatas>
+			<li>
+				<label>血魔</label>
+				<description>即使在经常被妖魔化的萨卡兹中，血魔也是最恶名远扬的一支。\n它们在黑夜中穿行，以他人的血液为食，杀人如麻，无恶不作......诸如此类。</description>
+				<possessions>
+					<WakeUp>5~10</WakeUp>
+				</possessions>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>
