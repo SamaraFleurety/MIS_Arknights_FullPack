@@ -85,4 +85,16 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_OtherLeader">
+		<defName>AK_Apparel_Perlica</defName>
+		<label>佩丽卡服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/OtherLeader/Perlica</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/OtherLeader/Perlica</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 </Defs>

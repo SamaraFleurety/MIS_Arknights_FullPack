@@ -118,4 +118,20 @@
 		<baseDesc>兼任罗德岛采购部负责人，德岛建立最初的人员之一，亲手将罗德岛本舰设计改造成如今的状态。</baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName="AK_StoryBase">
+		<defName>AK_BackStory_Perlica_Child</defName>
+		<slot>Childhood</slot>
+		<title>协议技术专家</title>
+		<titleShort>协议技术专家</titleShort>
+		<baseDesc>{PAWN_nameDef}对于协议相关技术的使用出类拔萃。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="AK_StoryBase">
+		<defName>AK_BackStory_Perlica_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>工业监督</title>
+		<titleShort>工业监督</titleShort>
+		<baseDesc>{PAWN_pronoun}不是一个苛刻的管理者，严格但平易近人。</baseDesc>
+	</BackstoryDef>
+
 </Defs>

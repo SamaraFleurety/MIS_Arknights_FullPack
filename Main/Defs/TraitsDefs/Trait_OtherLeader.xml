@@ -332,4 +332,41 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<!-- 佩丽卡 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_PerlicaSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>终末地工业监督</label>
+				<description>{PAWN_nameDef}能够充分有效地调动公司资源，使终末地对协议技术的掌握进入了新的阶段，大量科研成果落地并投入使用。</description>
+				<statOffsets>
+					<SocialImpact>0.3</SocialImpact>
+					<TradePriceImprovement>0.3</TradePriceImprovement>
+					<PawnBeauty>2</PawnBeauty>
+					<WorkSpeedGlobal>0.3</WorkSpeedGlobal>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Perlica</defName>
+		<degreeDatas>
+			<li>
+				<label>战场指挥家</label>
+				<description>{PAWN_nameDef}有着丰富的指挥经验和冷静的头脑，让{PAWN_nameDef}成为一个天生的战场指挥家。</description>
+				<statOffsets>
+					<AimingDelayFactor>-0.3</AimingDelayFactor>
+					<ShootingAccuracyPawn>2</ShootingAccuracyPawn>
+					<MentalBreakThreshold>-0.1</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>

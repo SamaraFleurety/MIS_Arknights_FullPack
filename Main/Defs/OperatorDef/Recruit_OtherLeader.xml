@@ -614,7 +614,7 @@
 		<nickname>Closure</nickname>
 		<description>FIXMEDESC</description>
 		<hair>AK_Hair_Closure</hair>
-		<accessory Inherit="false">
+		<accessory>
 			<li>AK_Apparel_Closure</li>
 		</accessory>
 		<stand>UI/Image/OtherLeader/ClosureStand</stand>
@@ -696,6 +696,94 @@
 			<li>
 				<skill>Social</skill>
 				<level>10</level>
+				<fireLevel>1</fireLevel>
+			</li>
+		</skills>
+	</AK_DLL.OperatorDef>
+
+	<!-- 佩丽卡 -->
+
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_OtherLeader">
+		<defName>AK_Recruit_Perlica</defName>
+		<name>Perlica</name>
+		<nickname>Perlica</nickname>
+		<description>FIXMEDESC</description>
+		<hair>AK_Hair_Perlica</hair>
+		<accessory>
+			<li>AK_Apparel_Perlica</li>
+		</accessory>
+		<stand>UI/Image/OtherLeader/PerlicaStand</stand>
+		<headPortrait>UI/Image/OtherLeader/PerlicaPortrait</headPortrait>
+		<traits>
+			<li>
+				<def>AK_Trait_PerlicaSecond</def>
+			</li>
+			<li>
+				<def>AK_Trait_Perlica</def>
+			</li>
+		</traits>
+		<age>25</age>
+		<childHood>AK_BackStory_Perlica_Child</childHood>
+		<adultHood>AK_BackStory_Perlica_Adult</adultHood>
+		<skills>
+			<li>
+				<skill>Animals</skill>
+				<level>2</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Artistic</skill>
+				<level>5</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Construction</skill>
+				<level>6</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Cooking</skill>
+				<level>2</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Crafting</skill>
+				<level>10</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Intellectual</skill>
+				<level>14</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<level>5</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<level>1</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Mining</skill>
+				<level>0</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Plants</skill>
+				<level>1</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<level>10</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<level>15</level>
 				<fireLevel>1</fireLevel>
 			</li>
 		</skills>
