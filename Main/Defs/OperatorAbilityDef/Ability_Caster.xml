@@ -3,34 +3,21 @@
 
 	<AKA_Ability.AKAbilityDef>
 		<defName>AKA_Ability_Goldenglow_HairCut</defName>
+		<abilityClass>AKA_Ability.AKAbility_Targetor</abilityClass>
 		<grouped>false</grouped>
 		<label>理发</label>
 		<description>随机改变目标发型。”祝你生日快乐！“</description>
 		<icon>UI/Abilities/Medic/HealEnhance</icon>
-		<CD>1</CD>
+		<CDPerCharge>24</CDPerCharge>
 		<CDUnit>hour</CDUnit>
-		<targetMode>VerbSingle</targetMode>
-		<verb>
-			<verbClass>AKA_Ability.Verb_AbilityTargeting</verbClass>
-			<defaultProjectile>Bullet_MiniTurret</defaultProjectile>
-			<warmupTime>0</warmupTime>
-			<range>28.9</range>
-			<soundCast>GunShotA</soundCast>
-			<soundCastTail>GunTail_Light</soundCastTail>
-			<muzzleFlashScale>9</muzzleFlashScale>
-			<targetParams>
-				<canTargetPawns>true</canTargetPawns>
-				<canTargetLocations>false</canTargetLocations>
-				<canTargetMechs>false</canTargetMechs>
-				<canTargetBuildings>false</canTargetBuildings>
-				<canTargetItems>false</canTargetItems>
-			</targetParams>
-		</verb>
+		<range>40</range>
 		<compEffectList>
-			<li Class="AKA_Ability.AE_ChangeHair">
-			</li>
+			<li Class="AKA_Ability.AE_ChangeHair" />
+			<li Class="AKA_Ability.AbilityEffect.AE_CostChargeStatic"/>
 		</compEffectList>
-		<typeSFX>heal</typeSFX>
+		<useSounds>
+			<li>AK_SFX_Tactboost</li>
+		</useSounds>
 	</AKA_Ability.AKAbilityDef>
 
 </Defs>

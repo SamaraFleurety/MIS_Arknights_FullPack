@@ -1,20 +1,37 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<Def Class="AKA_Ability.DelayedEffects.DelayedEffectDef">
+		<defName>AKA_Effect_ShootIgnit</defName>
+		<label>发射点燃</label>
+		<delayedEffector>AKA_Ability.DelayedEffects.Effector_ShootProjectile</delayedEffector>
+		<projectile>AK_Bullet_Base</projectile>
+		<!--verbProperties>
+			<verbClass>Verb_Shoot</verbClass>
+			<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+			<hasStandardCommand>false</hasStandardCommand>
+			<defaultProjectile>AK_Bullet_Base</defaultProjectile>
+			<warmupTime>0</warmupTime>
+			<range>99</range>
+			<ticksBetweenBurstShots>23</ticksBetweenBurstShots>
+			<burstShotCount>3</burstShotCount>
+			<soundCast>AK_Sound_Weapon_Exusiai</soundCast>
+			<soundCastTail>GunTail_Medium</soundCastTail>
+			<muzzleFlashScale>9</muzzleFlashScale>
+		</verbProperties-->
+	</Def>
+
 	<AKA_Ability.AKAbilityDef>
 		<defName>AKA_Ability_Ignit</defName>
 		<label>测试点燃</label>
 		<description>艾雅法拉和夕的同款的点燃-测试版</description>
 		<icon>UI/Abilities/A</icon>
-		<CD>30</CD>
 		<maxCharge>10</maxCharge>
 		<CDUnit>rSecond</CDUnit>
-		<targetMode>AutoEnemy</targetMode>
 		<grouped>true</grouped>
-		<needCD>true</needCD>
 		<displayGizmoUndraft>true</displayGizmoUndraft>
 		<compEffectList>
-			<li Class = "AKA_Ability.AE_ShootProjectile">
+			<!--li Class = "AKA_Ability.AE_DelayedEffects">
 				<verb>
 					<verbClass>Verb_Shoot</verbClass>
 					<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
@@ -28,36 +45,19 @@
 					<soundCastTail>GunTail_Medium</soundCastTail>
 					<muzzleFlashScale>9</muzzleFlashScale>
 				</verb>
+			</li-->
+			<li Class="AKA_Ability.AbilityEffect.AE_DelayedEffects">	
+				<delayedEffect>AKA_Effect_ShootIgnit</delayedEffect>
+				<burstCount>3</burstCount>
+				<burstInterval>17</burstInterval>
 			</li>
-		</compEffectList>
+			<li Class="AKA_Ability.AbilityEffect.AE_CostChargeStatic" />
+		</compEffectList>		
+		<abilityClass>AKA_Ability.AKAbility_Auto</abilityClass>
+		<useSounds>
+			<li>AK_SFX_Tactboost</li>
+		</useSounds>
+		<CDPerCharge>15</CDPerCharge>
 	</AKA_Ability.AKAbilityDef>
-
-<!--  <ThingDef ParentName="TrapIEDBase">
-    <defName>AK_Test_Trap_Thing</defName>
-    <label>IED incendiary trap</label>
-    <description>A pair of incendiary shells connected to a trigger which detonates on touch or bullet impact. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm.</description>
-    <thingClass>AK_DLL.Trap</thingClass>
-    <graphicData>
-      <texPath>Things/Building/Security/IEDIncendiary</texPath>
-    </graphicData>
-    <costList>
-      <Shell_Incendiary>2</Shell_Incendiary>
-    </costList>
-    <designationHotKey>Misc8</designationHotKey>
-    <comps>
-      <li Class="CompProperties_Explosive">
-        <explosiveRadius>3.9</explosiveRadius>
-        <explosiveDamageType>Flame</explosiveDamageType>
-        <startWickHitPointsPercent>0.2</startWickHitPointsPercent>
-        <wickTicks>15</wickTicks>
-        <startWickOnDamageTaken>
-          <li>Bullet</li>
-          <li>Arrow</li>
-          <li>ArrowHighVelocity</li>
-        </startWickOnDamageTaken>
-      </li>
-    </comps>
-    <specialDisplayRadius>3.9</specialDisplayRadius>
-  </ThingDef> -->
 
 </Defs>

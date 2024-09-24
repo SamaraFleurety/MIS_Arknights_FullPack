@@ -7,25 +7,7 @@
 		<label>治疗</label>
 		<description>每位医疗干员都掌握的，非常基础的伤口处理。</description>
 		<icon>UI/Abilities/Medic/HealEnhance</icon>
-		<CD>12</CD>
 		<CDUnit>hour</CDUnit>
-		<targetMode>VerbSingle</targetMode>
-		<verb>
-			<verbClass>AKA_Ability.Verb_AbilityTargeting</verbClass>
-			<defaultProjectile>Bullet_MiniTurret</defaultProjectile>
-			<warmupTime>0</warmupTime>
-			<range>28.9</range>
-			<soundCast>GunShotA</soundCast>
-			<soundCastTail>GunTail_Light</soundCastTail>
-			<muzzleFlashScale>9</muzzleFlashScale>
-			<targetParams>
-				<canTargetPawns>true</canTargetPawns>
-				<canTargetLocations>false</canTargetLocations>
-				<canTargetMechs>false</canTargetMechs>
-				<canTargetBuildings>false</canTargetBuildings>
-				<canTargetItems>false</canTargetItems>
-			</targetParams>
-		</verb>
 		<compEffectList>
 			<li Class="AKA_Ability.AbilityEffect_Heal">
 				<healPoint>10</healPoint>
@@ -33,8 +15,13 @@
 				<healNeutral>true</healNeutral>
 				<healNullFaction>true</healNullFaction>
 			</li>
+			<li Class="AKA_Ability.AbilityEffect.AE_CostChargeStatic" />
 		</compEffectList>
-		<typeSFX>heal</typeSFX>
+		<abilityClass>AKA_Ability.AKAbility_Targetor</abilityClass>
+		<useSounds>
+			<li>AK_SFX_Tactboost</li>
+		</useSounds>
+		<CDPerCharge>12</CDPerCharge>
 	</AKA_Ability.AKAbilityDef>
 
 	<AKA_Ability.AKAbilityDef>
@@ -43,24 +30,7 @@
 		<label>再生</label>
 		<description>每位医疗干员都掌握的，非常基础的伤口处理。</description>
 		<icon>UI/Abilities/Medic/HealEnhance</icon>
-		<CD>12</CD>
 		<CDUnit>hour</CDUnit>
-		<targetMode>VerbSingle</targetMode>
-		<verb>
-			<verbClass>AKA_Ability.Verb_AbilityTargeting</verbClass>
-			<defaultProjectile>Bullet_MiniTurret</defaultProjectile>
-			<warmupTime>0</warmupTime>
-			<range>28.9</range>
-			<soundCast>GunShotA</soundCast>
-			<soundCastTail>GunTail_Light</soundCastTail>
-			<muzzleFlashScale>9</muzzleFlashScale>
-			<consumeFuelPerShot>1</consumeFuelPerShot>
-			<targetParams>
-				<canTargetPawns>true</canTargetPawns>
-				<canTargetLocations>false</canTargetLocations>
-			</targetParams>
-		</verb>
-		<needCD>true</needCD>
 		<compEffectList>
 			<li Class="AKA_Ability.AbilityEffect_Regrow">
 				<lastTime>10</lastTime>
@@ -68,84 +38,13 @@
 				<healAmount>1</healAmount>
 				<regrowType>compare</regrowType>
 			</li>
+			<li Class="AKA_Ability.AbilityEffect.AE_CostChargeStatic" />
 		</compEffectList>
-		<typeSFX>heal</typeSFX>
+		<abilityClass>AKA_Ability.AKAbility_Targetor</abilityClass>
+		<useSounds>
+			<li>AK_SFX_Tactboost</li>
+		</useSounds>
+		<CDPerCharge>12</CDPerCharge>
 	</AKA_Ability.AKAbilityDef>
 
-	<!--<AK_DLL.OperatorAbilityDef>
-		<defName>AK_Ability_Regrow</defName>
-		<grouped>true</grouped>
-		<label>再生</label>
-		<description>每位医疗干员都掌握的，非常基础的伤口处理。</description>
-		<icon>UI/Abilities/Medic/HealEnhance</icon>
-		<CD>12</CD>
-		<CDUnit>hour</CDUnit>
-		<abilityType>Heal</abilityType>
-		<targetMode>Single</targetMode>
-		<verb>
-			<verbClass>AK_DLL.Verb_Ability</verbClass>
-			<defaultProjectile>Bullet_MiniTurret</defaultProjectile>
-			<warmupTime>0</warmupTime>
-			<range>28.9</range>
-			<ticksBetweenBurstShots>8</ticksBetweenBurstShots>
-			<burstShotCount>2</burstShotCount>
-			<soundCast>GunShotA</soundCast>
-			<soundCastTail>GunTail_Light</soundCastTail>
-			<muzzleFlashScale>9</muzzleFlashScale>
-			<consumeFuelPerShot>1</consumeFuelPerShot>
-			<targetParams>
-				<canTargetPawns>true</canTargetPawns>
-				<canTargetLocations>false</canTargetLocations>
-			</targetParams>
-		</verb>
-		<needCD>true</needCD>
-		<compEffectList>
-			<li Class="AK_DLL.AbilityEffect_Regrow">
-				<lastTime>10</lastTime>
-				<healInterval>60</healInterval>
-				<healAmount>1</healAmount>
-				<regrowType>compare</regrowType>
-			</li>
-		</compEffectList>
-		<typeSFX>heal</typeSFX>
-	</AK_DLL.OperatorAbilityDef>
-
-	<AK_DLL.OperatorAbilityDef>
-		<defName>AK_Ability_EnhanceRegrow</defName>
-		<label>强力再生</label>
-		<description>每位医疗干员都掌握的，非常基础的伤口处理。</description>
-		<icon>UI/Abilities/Medic/HealEnhance</icon>
-		<CD>12</CD>
-		<CDUnit>hour</CDUnit>
-		<maxCharge>3</maxCharge>
-		<abilityType>Heal</abilityType>
-		<targetMode>Single</targetMode>
-		<displayOnUndraft>true</displayOnUndraft>
-		<verb>
-			<verbClass>AK_DLL.Verb_Ability</verbClass>
-			<defaultProjectile>Bullet_MiniTurret</defaultProjectile>
-			<warmupTime>0</warmupTime>
-			<range>28.9</range>
-			<ticksBetweenBurstShots>8</ticksBetweenBurstShots>
-			<burstShotCount>2</burstShotCount>
-			<soundCast>GunShotA</soundCast>
-			<soundCastTail>GunTail_Light</soundCastTail>
-			<muzzleFlashScale>9</muzzleFlashScale>
-			<consumeFuelPerShot>1</consumeFuelPerShot>
-			<targetParams>
-				<canTargetPawns>true</canTargetPawns>
-				<canTargetLocations>false</canTargetLocations>
-			</targetParams>
-		</verb>
-		<needCD>true</needCD>
-		<compEffectList>
-			<li Class="AK_DLL.AbilityEffect_Regrow">
-				<lastTime>1</lastTime>
-				<healInterval>240</healInterval>
-				<healAmount>15</healAmount>
-				<regrowType>enhance</regrowType>
-			</li>
-		</compEffectList>
-		<typeSFX>heal</typeSFX>
-	</AK_DLL.OperatorAbilityDef> -->
 </Defs>

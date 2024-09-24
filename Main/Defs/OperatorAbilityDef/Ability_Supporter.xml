@@ -3,11 +3,11 @@
 
     <!-- 塑心技能 1 (改自痛苦脉冲) -->
 
-	<AbilityDef>
+	<!--AbilityDef>
 		<defName>AKA_Ability_Virtuosa</defName>
 		<label>test1</label>
 		<description>test1</description>
-        <cooldownTicksRange>900</cooldownTicksRange> <!-- 15 seconds -->
+        <cooldownTicksRange>900</cooldownTicksRange> 
         <statBases>
             <Ability_EffectRadius>2.9</Ability_EffectRadius>
         </statBases>
@@ -24,7 +24,7 @@
         <comps>
             <li Class="CompProperties_AbilityGiveHediffPsychic">
                 <compClass>CompAbilityEffect_GiveHediffPsychic</compClass>
-                <durationSecondsOverride>2000~4000</durationSecondsOverride> <!-- 2 to 4 days -->
+                <durationSecondsOverride>2000~4000</durationSecondsOverride>  2 to 4 days 
                 <replaceExisting>true</replaceExisting>
                 <hediffDef>TestHediff</hediffDef>
                 <onlyBrain>true</onlyBrain>
@@ -106,7 +106,7 @@
                 <disappearsAfterTicks>7500~7500</disappearsAfterTicks>
             </li>
             <li Class="HediffCompProperties_SeverityPerSecond">
-                <severityPerSecondRange>0.1~0.15</severityPerSecondRange> <!-- 10 to 15 seconds -->
+                <severityPerSecondRange>0.1~0.15</severityPerSecondRange>  10 to 15 seconds 
             </li>
         </comps>
         <stages>
@@ -123,13 +123,13 @@
         </stages>
     </HediffDef>
 
-    <!-- 塑心技能 2 -->
+   塑心技能 2 
 
     <AbilityDef>
 		<defName>AKA_Ability_Virtuosa_Second</defName>
 		<label>test2</label>
 		<description>test2</description>
-        <cooldownTicksRange>900</cooldownTicksRange> <!-- 15 seconds -->
+        <cooldownTicksRange>900</cooldownTicksRange> 
 		<iconPath>UI/Abilities/Medic/HealEnhance</iconPath>
         <verbProperties>
             <verbClass>Verb_CastAbility</verbClass>
@@ -151,6 +151,6 @@
                 <severity>100</severity>
             </li>
         </comps>
-    </AbilityDef>
+    </AbilityDef-->
 
 </Defs>
