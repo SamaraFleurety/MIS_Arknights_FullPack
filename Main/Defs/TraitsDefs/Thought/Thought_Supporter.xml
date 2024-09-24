@@ -178,4 +178,20 @@
 		</stages>
 	</ThoughtDef>
 
+	<!-- 凛视 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_Valarqvin</defName>
+		<requiredTraits>
+			<li>AK_Trait_Valarqvin</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>苦厄命运</label>
+				<description>那些苦难的未来，在我脑海萦绕...</description>
+				<baseMoodEffect>-9</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
 </Defs>

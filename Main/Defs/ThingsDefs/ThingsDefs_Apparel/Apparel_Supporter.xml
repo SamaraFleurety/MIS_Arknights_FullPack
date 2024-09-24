@@ -277,4 +277,16 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Supporter">
+		<defName>AK_Apparel_Valarqvin</defName>
+		<label>凛视服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Supporter/Valarqvin</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Supporter/Valarqvin</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 </Defs>

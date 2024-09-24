@@ -269,4 +269,20 @@
 		<baseDesc>特蕾西娅，卡兹戴尔移动城市的建立者，卡兹戴尔军事委员会创始人之一，巴别塔组织的创立者，曾是卡兹戴尔的最高领袖。</baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Valarqvin_Child</defName>
+		<slot>Childhood</slot>
+		<title>独眼巨人</title>
+		<titleShort>独眼巨人</titleShort>
+		<baseDesc>预见苦难与未来的萨卡兹部族。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Valarqvin_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>罗德岛萨米合作人</title>
+		<titleShort>罗德岛萨米合作人</titleShort>
+		<baseDesc>为了其预见的某种未来，正在积极主动地向各方寻求合作，现与罗德岛达成协议，为罗德岛在萨米及其北方冰原上的相关事务提供帮助。</baseDesc>
+	</BackstoryDef>
+
 </Defs>

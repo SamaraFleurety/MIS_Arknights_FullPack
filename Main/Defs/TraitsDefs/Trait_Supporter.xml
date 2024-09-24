@@ -487,4 +487,54 @@
 		</modExtensions>
 	</TraitDef>
 
+	<!-- 凛视 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_ValarqvinThird</defName>
+		<degreeDatas>
+			<li>
+				<label>远见未来</label>
+				<description>{PAWN_pronoun}其实已经见到许多景象，许多可能。而{PAWN_pronoun}将永远对此保持缄默。</description>
+				<statOffsets>
+					<SocialImpact>-0.4</SocialImpact>
+				</statOffsets>
+				<statFactors>
+					<ResearchSpeed>1.2</ResearchSpeed>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_ValarqvinSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>隐居者</label>
+				<description>在千年之间，隐居各地的独眼巨人缓慢地逐一前往北方，离开众人的视野，仅有历史残章的只言片语，透露出这一族群为某种共同使命而迁徙的事实。</description>
+				<statOffsets>
+					<WorkSpeedGlobal>0.5</WorkSpeedGlobal>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Valarqvin</defName>
+		<degreeDatas>
+			<li>
+				<label>独眼巨人</label>
+				<description>几乎每个独眼巨人都曾挑战过自己眼中的命运，想要阻止一场灾难或一次死亡，但最后往往发现自己的行动只是在推波助澜，让厄运更早降临。</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.1</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>

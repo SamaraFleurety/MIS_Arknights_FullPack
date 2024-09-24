@@ -1908,4 +1908,95 @@
 		</AKAbilities>
 	</AK_DLL.OperatorDef>
 
+	<!-- 凛视 -->
+
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Supporter">
+		<defName>AK_Recruit_Valarqvin</defName>
+		<name>Valarqvin</name>
+		<nickname>Valarqvin</nickname>
+		<description>FIXMEDESC</description>
+		<hair>AK_Hair_Valarqvin</hair>
+		<apparels>
+			<li>AK_Apparel_Valarqvin</li>
+		</apparels>
+		<stand>UI/Image/Supporter/ValarqvinStand</stand>
+		<headPortrait>UI/Image/Supporter/ValarqvinPortrait</headPortrait>
+		<traits>
+			<li>
+				<def>AK_Trait_ValarqvinThird</def>
+			</li>
+			<li>
+				<def>AK_Trait_ValarqvinSecond</def>
+			</li>
+			<li>
+				<def>AK_Trait_Valarqvin</def>
+			</li>
+		</traits>
+		<age>20</age>
+		<childHood>AK_BackStory_Valarqvin_Child</childHood>
+		<adultHood>AK_BackStory_Valarqvin_Adult</adultHood>
+		<skills>
+			<li>
+				<skill>Animals</skill>
+				<level>2</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Artistic</skill>
+				<level>2</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Construction</skill>
+				<level>1</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Cooking</skill>
+				<level>2</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Crafting</skill>
+				<level>10</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Intellectual</skill>
+				<level>18</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<level>10</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<level>1</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Mining</skill>
+				<level>0</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Plants</skill>
+				<level>1</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<level>13</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<level>10</level>
+				<fireLevel>1</fireLevel>
+			</li>
+		</skills>
+	</AK_DLL.OperatorDef>
+
 </Defs>
