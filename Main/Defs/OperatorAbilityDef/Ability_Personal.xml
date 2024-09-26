@@ -7,6 +7,7 @@
         <label>抓走马马</label>
         <description>可以定期抓走一个人的马马</description>
         <icon>UI/Abilities/Medic/HealEnhance</icon>
+        <range>40</range>
         <compEffectList>
             <li Class="AKA_Ability.AE_CatchMother">
                 <goodwillchange>-75</goodwillchange>
@@ -32,6 +33,7 @@
         <label>复制技能</label>
         <description>可以指定复制一个人的一项技能覆盖到使用者身上</description>
         <icon>UI/Abilities/Medic/HealEnhance</icon>
+        <range>40</range>
         <compEffectList>
             <li Class="AKA_Ability.AE_CopySkill"/>
 			<li Class="AKA_Ability.AbilityEffect.AE_CostChargeStatic" />
