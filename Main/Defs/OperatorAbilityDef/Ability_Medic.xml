@@ -8,6 +8,7 @@
 		<description>每位医疗干员都掌握的，非常基础的伤口处理。</description>
 		<icon>UI/Abilities/Medic/HealEnhance</icon>
 		<CDUnit>hour</CDUnit>
+		<range>10</range>
 		<compEffectList>
 			<li Class="AKA_Ability.AbilityEffect_Heal">
 				<healPoint>10</healPoint>
@@ -31,6 +32,7 @@
 		<description>每位医疗干员都掌握的，非常基础的伤口处理。</description>
 		<icon>UI/Abilities/Medic/HealEnhance</icon>
 		<CDUnit>hour</CDUnit>
+		<range>4</range>
 		<compEffectList>
 			<li Class="AKA_Ability.AbilityEffect_Regrow">
 				<lastTime>10</lastTime>

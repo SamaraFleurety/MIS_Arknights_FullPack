@@ -29,6 +29,7 @@
         <description>可以指定复制一个人的一项技能覆盖到使用者身上</description>
         <icon>UI/Abilities/Medic/HealEnhance</icon>
         <CDUnit>day</CDUnit>
+        <range>10</range>
         <compEffectList>
             <li Class="AKA_Ability.AE_CopySkill"/>
 			<li Class="AKA_Ability.AbilityEffect.AE_CostChargeStatic" />
