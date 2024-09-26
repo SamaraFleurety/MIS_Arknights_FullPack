@@ -26,8 +26,6 @@
 		<label>测试点燃</label>
 		<description>艾雅法拉和夕的同款的点燃-测试版</description>
 		<icon>UI/Abilities/A</icon>
-		<maxCharge>10</maxCharge>
-		<CDUnit>rSecond</CDUnit>
 		<grouped>true</grouped>
 		<displayGizmoUndraft>true</displayGizmoUndraft>
 		<compEffectList>
@@ -56,8 +54,13 @@
 		<abilityClass>AKA_Ability.AKAbility_Auto</abilityClass>
 		<useSounds>
 			<li>AK_SFX_Tactboost</li>
-		</useSounds>
-		<CDPerCharge>15</CDPerCharge>
+		</useSounds>	
+		<cooldownProperty>
+		    <SPPerCharge>15</SPPerCharge>
+			<SPUnit>rSecond</SPUnit>
+			<initSP>6000</initSP>
+			<maxCharge>10</maxCharge>
+		</cooldownProperty>
 	</AKA_Ability.AKAbilityDef>
 
 </Defs>

@@ -7,8 +7,6 @@
 		<label>治疗</label>
 		<description>每位医疗干员都掌握的，非常基础的伤口处理。</description>
 		<icon>UI/Abilities/Medic/HealEnhance</icon>
-		<CDUnit>hour</CDUnit>
-		<range>10</range>
 		<compEffectList>
 			<li Class="AKA_Ability.AbilityEffect_Heal">
 				<healPoint>10</healPoint>
@@ -21,8 +19,13 @@
 		<abilityClass>AKA_Ability.AKAbility_Targetor</abilityClass>
 		<useSounds>
 			<li>AK_SFX_Tactboost</li>
-		</useSounds>
-		<CDPerCharge>12</CDPerCharge>
+		</useSounds>	
+		<range>40</range>
+		<cooldownProperty>
+		    <SPPerCharge>12</SPPerCharge>
+			<SPUnit>tick</SPUnit>
+			<maxCharge>3</maxCharge>
+		</cooldownProperty>
 	</AKA_Ability.AKAbilityDef>
 
 	<AKA_Ability.AKAbilityDef>
@@ -31,8 +34,12 @@
 		<label>再生</label>
 		<description>每位医疗干员都掌握的，非常基础的伤口处理。</description>
 		<icon>UI/Abilities/Medic/HealEnhance</icon>
-		<CDUnit>hour</CDUnit>
-		<range>4</range>
+		<range>40</range>
+		<cooldownProperty>
+		    <SPPerCharge>12</SPPerCharge>
+			<SPUnit>hour</SPUnit>
+			<maxCharge>3</maxCharge>
+		</cooldownProperty>
 		<compEffectList>
 			<li Class="AKA_Ability.AbilityEffect_Regrow">
 				<lastTime>10</lastTime>
@@ -46,7 +53,6 @@
 		<useSounds>
 			<li>AK_SFX_Tactboost</li>
 		</useSounds>
-		<CDPerCharge>12</CDPerCharge>
 	</AKA_Ability.AKAbilityDef>
 
 </Defs>

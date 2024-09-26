@@ -8,8 +8,6 @@
 		<label>理发</label>
 		<description>随机改变目标发型。”祝你生日快乐！“</description>
 		<icon>UI/Abilities/Medic/HealEnhance</icon>
-		<CDPerCharge>24</CDPerCharge>
-		<CDUnit>hour</CDUnit>
 		<range>40</range>
 		<compEffectList>
 			<li Class="AKA_Ability.AE_ChangeHair" />
@@ -18,6 +16,12 @@
 		<useSounds>
 			<li>AK_SFX_Tactboost</li>
 		</useSounds>
+		<cooldownProperty>
+		    <SPPerCharge>1</SPPerCharge>
+			<SPUnit>day</SPUnit>
+			<initSP>600000</initSP>
+			<maxCharge>1</maxCharge>
+		</cooldownProperty>
 	</AKA_Ability.AKAbilityDef>
 
 </Defs>

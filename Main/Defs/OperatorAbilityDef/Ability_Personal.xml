@@ -7,7 +7,6 @@
         <label>抓走马马</label>
         <description>可以定期抓走一个人的马马</description>
         <icon>UI/Abilities/Medic/HealEnhance</icon>
-        <CDUnit>day</CDUnit>
         <compEffectList>
             <li Class="AKA_Ability.AE_CatchMother">
                 <goodwillchange>-75</goodwillchange>
@@ -18,7 +17,12 @@
 		<useSounds>
 			<li>AK_SFX_Tactboost</li>
 		</useSounds>
-		<CDPerCharge>15</CDPerCharge>
+		<cooldownProperty>
+		    <SPPerCharge>15</SPPerCharge>
+			<SPUnit>day</SPUnit>
+			<initSP>60000000</initSP>
+			<maxCharge>1</maxCharge>
+		</cooldownProperty>
     </AKA_Ability.AKAbilityDef>
 
     <!--CD,图标和音效随便填的 记得修改-->
@@ -28,8 +32,6 @@
         <label>复制技能</label>
         <description>可以指定复制一个人的一项技能覆盖到使用者身上</description>
         <icon>UI/Abilities/Medic/HealEnhance</icon>
-        <CDUnit>day</CDUnit>
-        <range>10</range>
         <compEffectList>
             <li Class="AKA_Ability.AE_CopySkill"/>
 			<li Class="AKA_Ability.AbilityEffect.AE_CostChargeStatic" />
@@ -38,7 +40,12 @@
 		<useSounds>
 			<li>AK_SFX_Tactboost</li>
 		</useSounds>
-		<CDPerCharge>15</CDPerCharge>
+		<cooldownProperty>
+		    <SPPerCharge>15</SPPerCharge>
+			<SPUnit>day</SPUnit>
+			<initSP>60000000</initSP>
+			<maxCharge>1</maxCharge>
+		</cooldownProperty>
     </AKA_Ability.AKAbilityDef>
 
     <!--语法:如果希望干员有指定的物资池的物资，就必须指定对应ID,ID为空则使用未指定ID的物资池-->
@@ -50,7 +57,6 @@
         <label>战术面板</label>
         <description>杰西卡的战场终端\n可以定期请求空投物资</description>
         <icon>UI/Abilities/Medic/HealEnhance</icon>
-        <CDUnit>day</CDUnit>
         <!-- <compEffectList>
             <li Class="AKA_Ability.AE_CommandTerminal">
 			    <ID></ID>
@@ -67,7 +73,12 @@
 		<useSounds>
 			<li>AK_SFX_Tactboost</li>
 		</useSounds>
-		<CDPerCharge>15</CDPerCharge>
+		<cooldownProperty>
+		    <SPPerCharge>15</SPPerCharge>
+			<SPUnit>day</SPUnit>
+			<initSP>60000000</initSP>
+			<maxCharge>1</maxCharge>
+		</cooldownProperty>
     </AKA_Ability.AKAbilityDef>
 
     <!--物资池 品质:Poor,Normal,Good,Excellent,Legendary;每种ID对应品质的物资池数量都必须至少为phaseCount的最小公倍数，最少4个-->
