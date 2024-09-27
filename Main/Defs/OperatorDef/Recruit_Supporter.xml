@@ -1916,9 +1916,13 @@
 		<nickname>Valarqvin</nickname>
 		<description>FIXMEDESC</description>
 		<hair>AK_Hair_Valarqvin</hair>
+		<weapon>AK_Weapon_Valarqvin</weapon>
 		<apparels>
 			<li>AK_Apparel_Valarqvin</li>
 		</apparels>
+		<accessory Inherit="false">
+			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Valarqvin</li>
+		</accessory>
 		<stand>UI/Image/Supporter/ValarqvinStand</stand>
 		<headPortrait>UI/Image/Supporter/ValarqvinPortrait</headPortrait>
 		<traits>
