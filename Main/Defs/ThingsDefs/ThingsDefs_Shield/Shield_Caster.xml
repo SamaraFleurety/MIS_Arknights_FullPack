@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!--ThingDef ParentName="AK_BeltBase">
+        <defName>AK_ShieldBelt_Lin</defName>
+        <label>琉璃璧</label>
+        <description>绛景无别，惟似琉璃。</description>
+        <statBases>
+            <EnergyShieldRechargeRate>0.2</EnergyShieldRechargeRate>
+            <EnergyShieldEnergyMax>2</EnergyShieldEnergyMax>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/Caster/ShieldBeltLinS</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="VanyaMod.CompProperties_VanyaUniversalShieldBelt">
+                <startingTicksToReset>3600</startingTicksToReset>
+                <energyOnReset>0.2</energyOnReset>
+                <energyLossPerDamage>0.015</energyLossPerDamage>
+                <canAbsorbMeleeDamage>true</canAbsorbMeleeDamage>
+                <meleeAbsorbFactor>1</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1</rangedAbsorbFactor>
+                <canDodge>true</canDodge>
+                <breakWithSmoke>false</breakWithSmoke>
+                <canForceActive>false</canForceActive>
+                <fireFoamBurster>false</fireFoamBurster>
+                <versionInfo>Lin-Shield</versionInfo>
+                <alias>林的护盾</alias>
+            </li>
+            <li Class="AKE_VanyaShield.TCP_VanyaShieldExtension">
+                <hideVanillaBubble>true</hideVanillaBubble>
+                <bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/Caster/ShieldBeltLinS</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                </bubbleStaticOverlay>
+            </li>
+        </comps>
+    </ThingDef-->
+	
+    <ThingDef ParentName="AKS_BeltBase">
+        <defName>AKS_ShieldBelt_Lin</defName>
+        <label>新护盾示例--目前装在林身上记得改</label>
+        <description>绛景无别，惟似琉璃。</description>
+        <statBases>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/Caster/ShieldBeltLinS</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+			<li Class="AKS_Shield.TCP_GenericShield">
+			</li>
+			<!--li Class="AKS_Shield.Extension.TCP_ExtraRenderStatic">
+				<bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/Caster/ShieldBeltLinS</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+					<shaderType>TransparentPostLight</shaderType>
+				</bubbleStaticOverlay>
+			</li-->
+			<li Class="AKS_Shield.Extension.TCP_ExtraRenderRotate">
+                <bubbleRotateTexPath>Things/ShieldBelt/Caster/ShieldBeltDesertBlessingsD</bubbleRotateTexPath>
+            </li>
+        </comps>
+    </ThingDef>
+</Defs>
