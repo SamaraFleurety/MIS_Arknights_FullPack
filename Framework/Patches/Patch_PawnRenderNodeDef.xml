@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <!--Core-->
+    <Operation Class="PatchOperationSequence">
+	    <operations>
+		<li Class="PatchOperationAdd">
+			    <xpath>Defs/PawnRenderTreeDef[defName="Humanlike"]/root[@Class="PawnRenderNodeProperties_Parent"]/children</xpath>
+				<value>
+				    <li>
+                        <debugLabel>AK_HealthBar_RenderNode</debugLabel>
+                        <nodeClass>AK_DLL.PawnRenderNode_AKHealthBar</nodeClass>
+                        <workerClass>AK_DLL.PawnRenderNodeWorker_AKHealthBar</workerClass>
+                        <useGraphic>true</useGraphic>
+			        </li>
+					<li>
+                        <debugLabel>AK_SkillBar_RenderNode</debugLabel>
+                        <nodeClass>AK_DLL.PawnRenderNode_AKSkillBar</nodeClass>
+                        <workerClass>AK_DLL.PawnRenderNodeWorker_AKSkillBar</workerClass>
+                        <useGraphic>true</useGraphic>
+			        </li>
+				</value>
+			</li>
+		    <li Class="PatchOperationAdd">
+			    <xpath>Defs/PawnRenderTreeDef[defName="Animal" or defName="Misc"]/root[@Class="PawnRenderNodeProperties_Parent"]/children</xpath>
+				<value>
+				    <li>
+                        <debugLabel>AK_HealthBar_RenderNode</debugLabel>
+                        <nodeClass>AK_DLL.PawnRenderNode_AKHealthBar</nodeClass>
+                        <workerClass>AK_DLL.PawnRenderNodeWorker_AKHealthBar</workerClass>
+                        <useGraphic>true</useGraphic>
+			        </li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+    <!--Anomaly-->
+	<Operation Class="PatchOperationSequence">
+	    <operations>
+		    <li Class="PatchOperationAdd" MayRequire="Ludeon.Rimworld.Anomaly">
+			    <xpath>Defs/PawnRenderTreeDef[defName="Bulbfreak" or defName="Toughspike" or defName="Trispike" or defName="Fingerspike"]/root[@Class="PawnRenderNodeProperties_Parent"]/children</xpath>
+				<value>
+				    <li>
+                        <debugLabel>AK_HealthBar_RenderNode</debugLabel>
+                        <nodeClass>AK_DLL.PawnRenderNode_AKHealthBar</nodeClass>
+                        <workerClass>AK_DLL.PawnRenderNodeWorker_AKHealthBar</workerClass>
+                        <useGraphic>true</useGraphic>
+			         </li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd" MayRequire="Ludeon.Rimworld.Anomaly">
+			    <xpath>Defs/PawnRenderTreeDef[defName="Dreadmeld" or defName="Revenant" or defName="Devourer" or defName="Nociosphere"]/root[@Class="PawnRenderNodeProperties_Parent"]/children</xpath>
+				<value>
+				    <li>
+                        <debugLabel>AK_HealthBar_RenderNode</debugLabel>
+                        <nodeClass>AK_DLL.PawnRenderNode_AKHealthBar</nodeClass>
+                        <workerClass>AK_DLL.PawnRenderNodeWorker_AKHealthBar</workerClass>
+                        <useGraphic>true</useGraphic>
+			        </li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>
