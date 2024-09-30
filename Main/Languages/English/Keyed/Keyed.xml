@@ -3,6 +3,53 @@
 
     <AK_AlienModWarnings>Warning：\nYou have not loaded the compatible patch for MIS.Arknights and Humanoid Alien Race,compatibility issues will occur in the game,\nPlease subscribe to patches: Arknights-Compatibility\nAre you sure you want to continue playing? Compatibility reports in this case will not be accepted..\nClick 'Confirm' to jump to the steamWorkshop page.</AK_AlienModWarnings>
 	<AK_Option_Play>Play Opertors' Voice</AK_Option_Play>
+
+    <AK_HealthBar_Option_TitleSwitches>Quick Switch</AK_HealthBar_Option_TitleSwitches>
+    <AK_HealthBar_Option_Expanded>(Expanded)</AK_HealthBar_Option_Expanded>
+    <AK_HealthBar_Option_Folded>(Folded)</AK_HealthBar_Option_Folded>
+    <AK_HealthBar_Option_InjuryedOnly>Injured Only</AK_HealthBar_Option_InjuryedOnly>
+    <AK_HealthBar_displayBar>Enable</AK_HealthBar_displayBar>
+    <AK_HealthBar_displayBarD>Enable HealthBar Draw</AK_HealthBar_displayBarD>
+
+    <AK_HealthBar_displayPlayerFaction>Enable Player Faction Draw</AK_HealthBar_displayPlayerFaction>
+    <AK_HealthBar_displayAllyFaction>Ally Faction Draw</AK_HealthBar_displayAllyFaction>
+    <AK_HealthBar_displayNeutralFaction>Neutral Faction Draw</AK_HealthBar_displayNeutralFaction>
+    
+    <AK_HealthBar_display_Colonist>Enable Draw for Colonists</AK_HealthBar_display_Colonist>
+    <AK_HealthBar_display_ColonyAnimal>Enable for Colony Animals</AK_HealthBar_display_ColonyAnimal>
+    <AK_HealthBar_display_ColonyMech>Enable for Colony Mechs</AK_HealthBar_display_ColonyMech>
+    <AK_HealthBar_display_OnDraftedOnly>Drafted Only</AK_HealthBar_display_OnDraftedOnly>
+
+    <AK_HealthBar_display_Enemy>Enable Hostile Enemy Draw</AK_HealthBar_display_Enemy>
+    <AK_HealthBar_display_EnemyHurtOnlyD>This Option is more like Arknights</AK_HealthBar_display_EnemyHurtOnlyD>
+    <AK_HealthBar_disable_displayPawnLabelHealth>Disable Vanilla PawnLabel Health FillBar(Restart Required)</AK_HealthBar_disable_displayPawnLabelHealth>
+    <AK_HealthBar_disable_displayPawnLabelHealthD>Health FillBar inside PawnLabel Won't display anymore</AK_HealthBar_disable_displayPawnLabelHealthD>
+    
+    <AK_HealthBar_display_PawnDeathIndicator>Set DeathIndicator Disaply</AK_HealthBar_display_PawnDeathIndicator>
+    <AK_HealthBar_display_PawnDeathIndicator_None>Not Display</AK_HealthBar_display_PawnDeathIndicator_None>
+    <AK_HealthBar_display_PawnDeathIndicator_DeathTimeOnly>Death Countdown</AK_HealthBar_display_PawnDeathIndicator_DeathTimeOnly>
+    <AK_HealthBar_display_PawnDeathIndicator_BleedRateOnly>Bleed Rate</AK_HealthBar_display_PawnDeathIndicator_BleedRateOnly>
+    <AK_HealthBar_display_PawnDeathIndicator_Both>Both</AK_HealthBar_display_PawnDeathIndicator_Both>
+
+    <AK_HealthBar_Option_TitlePositon>Set Size And Position</AK_HealthBar_Option_TitlePositon>
+    <AK_HealthBar_Option_barWidth>Adjust HealthBar Width:  </AK_HealthBar_Option_barWidth>
+    <AK_HealthBar_Option_barHeight>Adjust HealthBar Height:  </AK_HealthBar_Option_barHeight>
+    <AK_HealthBar_Option_barMargin>Adjust HealthBar Margin:  </AK_HealthBar_Option_barMargin>
+    <AK_HealthBar_Option_zoomWithCamera>Enable follow camera zoom</AK_HealthBar_Option_zoomWithCamera>
+    <AK_HealthBar_Option_zoomWithCameraD>Disable this option may have unknown displaying issues, you can turn it off manually</AK_HealthBar_Option_zoomWithCameraD>
+    
+    <AK_HealthBar_Option_TitleRGB>Set Color</AK_HealthBar_Option_TitleRGB>
+    <AK_HealthBar_Label_Colony>Current Colony RGB Color:  </AK_HealthBar_Label_Colony>
+    <AK_HealthBar_Option_r>Adjust R value:  </AK_HealthBar_Option_r>
+    <AK_HealthBar_Option_g>Adjust G value:  </AK_HealthBar_Option_g>
+    <AK_HealthBar_Option_b>Adjust B value:  </AK_HealthBar_Option_b>
+    <AK_HealthBar_Option_a>Adjust Alpha value:  </AK_HealthBar_Option_a>
+
+    <AK_HealthBar_Label_Enemy>Current Enemy RGB Color:  </AK_HealthBar_Label_Enemy>
+    <AK_HealthBar_Option_r_enemy>Adjust R value:  </AK_HealthBar_Option_r_enemy>
+    <AK_HealthBar_Option_g_enemy>Adjust G value:  </AK_HealthBar_Option_g_enemy>
+    <AK_HealthBar_Option_b_enemy>Adjustr B value:  </AK_HealthBar_Option_b_enemy>
+    <AK_HealthBar_Option_a_enemy>Adjust Alpha value:  </AK_HealthBar_Option_a_enemy>
 	<!--Quality-->
     <AKA.Poor>Poor</AKA.Poor>
     <AKA.Normal>Normal</AKA.Normal>

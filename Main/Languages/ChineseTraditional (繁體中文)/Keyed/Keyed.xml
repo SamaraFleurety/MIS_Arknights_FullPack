@@ -1,9 +1,56 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
+    
+    <AK_AlienModWarnings>警告：\n您沒有加載MIS.Arknights和Humanoid Alien Race的兼容補丁,遊戲內會出現各種兼容性問題,\n請訂閱兼容補丁: 明日方舟-兼容性拓展\n你確定要繼續遊戲嗎?在此情況下出現的相容性問題報告不會被受理.\n點擊確定將會跳到Steam工作坊頁面.</AK_AlienModWarnings>
+    <AK_Option_Play>播放幹員語音</AK_Option_Play>
 
-  <AK_AlienModWarnings>警告：\n您沒有加載MIS.Arknights和Humanoid Alien Race的兼容補丁,遊戲內會出現各種兼容性問題,\n請訂閱兼容補丁: 明日方舟-兼容性拓展\n你確定要繼續遊戲嗎?在此情況下出現的相容性問題報告不會被受理.\n點擊確定將會跳到Steam工作坊頁面.</AK_AlienModWarnings>
-  <AK_Option_Play>播放幹員語音</AK_Option_Play>
-  <!--品质-->
+    <AK_HealthBar_Option_TitleSwitches>快捷开关</AK_HealthBar_Option_TitleSwitches>
+    <AK_HealthBar_Option_Expanded>(展开)</AK_HealthBar_Option_Expanded>
+    <AK_HealthBar_Option_Folded>(折叠)</AK_HealthBar_Option_Folded>
+    <AK_HealthBar_Option_InjuryedOnly>仅受伤启用</AK_HealthBar_Option_InjuryedOnly>
+    <AK_HealthBar_displayBar>启用</AK_HealthBar_displayBar>
+    <AK_HealthBar_displayBarD>启用健康条绘制</AK_HealthBar_displayBarD>
+
+    <AK_HealthBar_displayPlayerFaction>启用玩家派系的健康条</AK_HealthBar_displayPlayerFaction>
+    <AK_HealthBar_displayAllyFaction>启用盟友派系的健康条</AK_HealthBar_displayAllyFaction>
+    <AK_HealthBar_displayNeutralFaction>启用中立派系的健康条</AK_HealthBar_displayNeutralFaction>
+    
+    <AK_HealthBar_display_Colonist>启用殖民者的健康条</AK_HealthBar_display_Colonist>
+    <AK_HealthBar_display_ColonyAnimal>启用殖民地动物的健康条</AK_HealthBar_display_ColonyAnimal>
+    <AK_HealthBar_display_ColonyMech>启用殖民地机械体的健康条</AK_HealthBar_display_ColonyMech>
+    <AK_HealthBar_display_OnDraftedOnly>仅被征召启用</AK_HealthBar_display_OnDraftedOnly>
+
+    <AK_HealthBar_display_Enemy>启用敌人的健康条</AK_HealthBar_display_Enemy>
+    <AK_HealthBar_display_EnemyHurtOnlyD>这个选项更有明日方舟味，也更美观</AK_HealthBar_display_EnemyHurtOnlyD>
+    <AK_HealthBar_disable_displayPawnLabelHealth>禁用Pawn名称标签内的原版血条(需要重启)</AK_HealthBar_disable_displayPawnLabelHealth>
+    <AK_HealthBar_disable_displayPawnLabelHealthD>Pawn受伤后,名称标签内不再显示原版血条</AK_HealthBar_disable_displayPawnLabelHealthD>
+    
+    <AK_HealthBar_display_PawnDeathIndicator>设置死亡倒计时指示器</AK_HealthBar_display_PawnDeathIndicator>
+    <AK_HealthBar_display_PawnDeathIndicator_None>不显示</AK_HealthBar_display_PawnDeathIndicator_None>
+    <AK_HealthBar_display_PawnDeathIndicator_DeathTimeOnly>显示死亡时间</AK_HealthBar_display_PawnDeathIndicator_DeathTimeOnly>
+    <AK_HealthBar_display_PawnDeathIndicator_BleedRateOnly>显示流血率</AK_HealthBar_display_PawnDeathIndicator_BleedRateOnly>
+    <AK_HealthBar_display_PawnDeathIndicator_Both>显示死亡时间+流血率</AK_HealthBar_display_PawnDeathIndicator_Both>
+
+    <AK_HealthBar_Option_TitlePositon>设置尺寸大小和方位</AK_HealthBar_Option_TitlePositon>
+    <AK_HealthBar_Option_barWidth>调整健康条宽度:  </AK_HealthBar_Option_barWidth>
+    <AK_HealthBar_Option_barHeight>调整健康条高度:  </AK_HealthBar_Option_barHeight>
+    <AK_HealthBar_Option_barMargin>调整健康条间距:  </AK_HealthBar_Option_barMargin>
+    <AK_HealthBar_Option_zoomWithCamera>启用跟随摄像机缩放</AK_HealthBar_Option_zoomWithCamera>
+    <AK_HealthBar_Option_zoomWithCameraD>禁用此选项可能有显示问题，你可以手动关闭</AK_HealthBar_Option_zoomWithCameraD>
+    
+    <AK_HealthBar_Option_TitleRGB>设置颜色</AK_HealthBar_Option_TitleRGB>
+    <AK_HealthBar_Label_Colony>当前友方RGB颜色:  </AK_HealthBar_Label_Colony>
+    <AK_HealthBar_Option_r>调整R值:  </AK_HealthBar_Option_r>
+    <AK_HealthBar_Option_g>调整G值:  </AK_HealthBar_Option_g>
+    <AK_HealthBar_Option_b>调整B值:  </AK_HealthBar_Option_b>
+    <AK_HealthBar_Option_a>调整Alpha透明值:  </AK_HealthBar_Option_a>
+
+    <AK_HealthBar_Label_Enemy>当前敌方RGB颜色:  </AK_HealthBar_Label_Enemy>
+    <AK_HealthBar_Option_r_enemy>调整R值:  </AK_HealthBar_Option_r_enemy>
+    <AK_HealthBar_Option_g_enemy>调整G值:  </AK_HealthBar_Option_g_enemy>
+    <AK_HealthBar_Option_b_enemy>调整B值:  </AK_HealthBar_Option_b_enemy>
+    <AK_HealthBar_Option_a_enemy>调整Alpha透明值:  </AK_HealthBar_Option_a_enemy>
+    <!--品质-->
     <AKA.Poor>貧窮</AKA.Poor>
     <AKA.Normal>普通</AKA.Normal>
     <AKA.Good>良好</AKA.Good>
@@ -14,7 +61,7 @@
     <AKA.SelectReward>就決定是你了！</AKA.SelectReward>
     <AKA.RandRewardOutcome>你得到了: {0}</AKA.RandRewardOutcome>
     <AKA.ResearchUnlocked>{0} 已經完成研究</AKA.ResearchUnlocked>
-	  <AK_SuccessfulCallSupplyDropPod> 正在呼叫戰術空投! </AK_SuccessfulCallSupplyDropPod>
+	<AK_SuccessfulCallSupplyDropPod> 正在呼叫戰術空投! </AK_SuccessfulCallSupplyDropPod>
     
     <AKA_Successful_CaughtMother>我要抓走你的馬馬！</AKA_Successful_CaughtMother>
     <AKA_Message_CaughtMother>{0} 的媽媽 被抓來了！</AKA_Message_CaughtMother>
