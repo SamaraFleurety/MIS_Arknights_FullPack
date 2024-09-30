@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<StatDef>
+		<defName>AKA_Stat_RangedDamageFactor</defName>
+		<label>远程伤害倍率</label>
+		<description>影响此人物发射的子弹的伤害。</description>
+		<category>PawnCombat</category>
+		<toStringStyle>PercentZero</toStringStyle>
+		<defaultBaseValue>1</defaultBaseValue>
+		<hideAtValue>1</hideAtValue>
+		<minValue>0.0001</minValue>
+		<displayPriorityInCategory>5201</displayPriorityInCategory>
+	</StatDef>
+  
+</Defs>

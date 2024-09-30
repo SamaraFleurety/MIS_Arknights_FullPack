@@ -21,7 +21,7 @@
 		<abilityClass>AK_DLL.VAbility_Operator</abilityClass>
 		<displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
 		<disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
-		<verbProperties>
+		<verbProperties> <!-- 没用，但没有好像会报错 -->
 			<verbClass>Verb_CastPsycast</verbClass>
 			<range>24.9</range>
 			<requireLineOfSight>True</requireLineOfSight>
@@ -34,4 +34,7 @@
 		<iconPath>UI/Element/Arknights</iconPath>
 	</AbilityDef>
 	
+	<HediffDef>
+		
+	</HediffDef>
 </Defs>
