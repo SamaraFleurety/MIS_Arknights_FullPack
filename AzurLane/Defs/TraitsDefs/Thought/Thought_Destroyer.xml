@@ -1,4 +1,20 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+    <ThoughtDef>
+        <defName>ZW_Thought_Trait_Laffey</defName>
+        <workerClass>ThoughtWorker_IsCarryingRangedWeapon</workerClass>
+        <validWhileDespawned>true</validWhileDespawned>
+        <requiredTraits>
+            <li>ZW_Trait_Laffey</li>
+        </requiredTraits>
+        <stages>
+            <li>
+                <label>持有远程武器</label>
+                <!-- <description></description> -->
+                <baseMoodEffect>4</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
 </Defs>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<!-- 观察人类尸体 -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThoughtDef[defName="ObservedLayingCorpse"]/nullifyingTraits</xpath>
+		<value>
+			<li>ZW_Trait_Ayanami</li>
+			<li>ZW_Trait_Laffey</li>
+		</value>
+	</Operation>
+	
+	<!-- 黑暗的环境 -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThoughtDef[defName="EnvironmentDark"]/nullifyingTraits</xpath>
+		<value>
+			<li>ZW_Trait_Laffey</li>
+		</value>
+	</Operation>
+
+</Patch>

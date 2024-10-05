@@ -13,4 +13,70 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<!-- 绫波 Ayanami -->
+
+	<TraitDef>
+		<defName>ZW_Trait_Ayanami</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>鬼神</label>
+				<description>“鬼神”之力，好好感受吧！</description>
+				<statOffsets>
+					<AimingDelayFactor>-0.25</AimingDelayFactor>
+					<MeleeHitChance>0.08</MeleeHitChance>
+					<MeleeDodgeChance>20</MeleeDodgeChance>
+					<MoveSpeed>0.2</MoveSpeed>
+				</statOffsets>
+				<statFactors>
+					<IncomingDamageFactor>0.8</IncomingDamageFactor>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<!-- 拉菲 Laffey -->
+
+	<TraitDef>
+		<defName>ZW_Trait_Laffey</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>所罗门的战神</label>
+				<description>状态良好……去吧</description>
+				<statOffsets>
+					<AimingDelayFactor>-0.35</AimingDelayFactor>
+					<ShootingAccuracyPawn>2.0</ShootingAccuracyPawn>
+				</statOffsets>
+				<skillGains>
+					<li>
+						<key>Shooting</key>
+						<value>4</value>
+					</li>
+				</skillGains>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<!-- 妮米 Z23 -->
+
+	<TraitDef>
+		<defName>ZW_Trait_Z23</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>铁血先锋</label>
+				<description>命中吧！</description>
+				<statOffsets>
+					<AimingDelayFactor>-0.6</AimingDelayFactor>
+					<ShootingAccuracyPawn>-4.0</ShootingAccuracyPawn>
+					<MoveSpeed>0.1</MoveSpeed>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>

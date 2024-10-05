@@ -14,4 +14,43 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="ZW_ArmorBase_Destroyer">
+		<defName>ZW_Apparel_Ayanami</defName>
+		<label>绫波常服</label>
+		<!-- <description>绫波常服</description> -->
+		<graphicData>
+			<texPath>Things/ZW_Ships/Destroyer/Ayanami</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/ZW_Ships/Destroyer/Ayanami</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="ZW_ArmorBase_Destroyer">
+		<defName>ZW_Apparel_Laffey</defName>
+		<label>拉菲常服</label>
+		<!-- <description>拉菲常服</description> -->
+		<graphicData>
+			<texPath>Things/ZW_Ships/Destroyer/Laffey</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/ZW_Ships/Destroyer/Laffey</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="ZW_ArmorBase_Destroyer">
+		<defName>ZW_Apparel_Z23</defName>
+		<label>妮米常服</label>
+		<!-- <description>妮米常服</description> -->
+		<graphicData>
+			<texPath>Things/ZW_Ships/Destroyer/Z23</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/ZW_Ships/Destroyer/Z23</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 </Defs>

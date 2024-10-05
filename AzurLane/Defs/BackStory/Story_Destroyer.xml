@@ -1,12 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
+	<!-- 飞云 Feiyun -->
+
 	<BackstoryDef ParentName="ZW_StoryBase">
 		<defName>ZW_BackStory_Feiyun_Child</defName>
 		<slot>Childhood</slot>
 		<title>长风级驱逐舰</title>
 		<titleShort>驱逐舰</titleShort>
 		<baseDesc>飞云号驱逐舰是清朝末期订购的驱逐舰之一，为长风级驱逐舰三号舰。本舰下水时清朝已经覆灭，中华民国继承了该舰，为避免重名而改名“同安”。本舰参加过护法舰队，护法运动失败后辗转于渤海舰队、东北海军等军阀舰队之间。1937年抗日战争爆发初期在青岛自沉。日军随后打捞起本舰，改造成炮艇，以“同春”之名加入日本帝国海军。1940年，日军将本舰转交予汪精卫政权。1944年底，部分汪政权海军官兵夺取了本舰起义，前往烟台附近登陆，其后本舰下落不明。</baseDesc>
+	</BackstoryDef>
+
+	<!-- 绫波 Ayanami -->
+
+	<BackstoryDef ParentName="ZW_StoryBase">
+		<defName>ZW_BackStory_Ayanami_Child</defName>
+		<slot>Childhood</slot>
+		<title>吹雪型驱逐舰</title>
+		<titleShort>驱逐舰</titleShort>
+		<baseDesc>该型舰属于舰队驱逐舰（一等驱逐舰），在计划时期被称为特型驱逐舰（とくがたくちくかん），最大特色之一就是强大的武装，其在约2000吨排水量的船体上安装了3座双联装127mm火炮和多达3座三联装610mm鱼雷发射器。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="ZW_StoryBase">
+		<defName>ZW_BackStory_Ayanami_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>绫波号驱逐舰</title>
+		<titleShort>驱逐舰</titleShort>
+		<baseDesc>背负着鬼神之名的战士，但与其说是英勇善战，不如说是不知恐惧为何物，所以无论是什么敌人都不会退缩。总体来说比较冷淡，没有特别喜欢的东西，也没有特别讨厌的东西，不太需要社交，也不会有特别的欲望，是放着不管也能坚强活下来的仙人掌性格。作为兵器绝对是超一流的水准，但相对的，若要作为普通的个体相处，可能需要花一些力气。</baseDesc>
+	</BackstoryDef>
+
+	<!-- 拉菲 Laffey -->
+
+	<BackstoryDef ParentName="ZW_StoryBase">
+		<defName>ZW_BackStory_Laffey_Child</defName>
+		<slot>Childhood</slot>
+		<title>本森级驱逐舰</title>
+		<titleShort>驱逐舰</titleShort>
+		<baseDesc>拉菲(DD-459)，本森级驱逐舰的一员，由舰名由来的勇敢的水兵『巴雷特·拉菲』。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="ZW_StoryBase">
+		<defName>ZW_BackStory_Laffey_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>拉菲号驱逐舰</title>
+		<titleShort>驱逐舰</titleShort>
+		<baseDesc>你应该听说过拉菲小姐在那战的英勇，并且惊讶于她与事迹不符的冷淡。关于这一点只能说越是外表冰山的人，也许越有一颗火热的内心。而这往往不是其他人能够品味到的。你是她的其他人吗？这就要看你的选择了。</baseDesc>
+	</BackstoryDef>
+
+	<!-- 妮米 Z23 -->
+
+	<BackstoryDef ParentName="ZW_StoryBase">
+		<defName>ZW_BackStory_Z23_Child</defName>
+		<slot>Childhood</slot>
+		<title>纳尔维克型驱逐舰</title>
+		<titleShort>驱逐舰</titleShort>
+		<baseDesc>Z23（KMS Z23）是Z驱1936A型首舰，该级舰包括1936A型（Mob）共15艘，也被称为纳尔维克（Narvik）级。该型最大的改良点是主炮的大口径化，由127mm改进为150mm(游戏中可装备轻巡主炮)，除此之外相比1936型为止的Z驱井无太大变动。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="ZW_StoryBase">
+		<defName>ZW_BackStory_Z23_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>1936A型驱逐舰</title>
+		<titleShort>驱逐舰</titleShort>
+		<baseDesc>不知道你憧憬过班上那位成绩优秀、做事一丝不苟的女孩吗？你有幻想过和她一起学习的光景，和她共有的未来吗？Z23就是那样的，不，她就是那个女孩。现在，她来到你的身边了。　不过，和优等生同行的生活可从来不是充满玫瑰色的，如果你不够努力，那也许有一天就会被她远远甩在身后也说不定。所以，假如你心怀憧憬，那就前进吧，指挥官，为了不辜负她的期待。</baseDesc>
 	</BackstoryDef>
 
 </Defs>
