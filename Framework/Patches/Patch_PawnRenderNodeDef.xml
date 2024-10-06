@@ -3,7 +3,7 @@
     <!--Core-->
     <Operation Class="PatchOperationSequence">
 	    <operations>
-		<li Class="PatchOperationAdd">
+			<li Class="PatchOperationAdd">
 			    <xpath>Defs/PawnRenderTreeDef[defName="Humanlike"]/root[@Class="PawnRenderNodeProperties_Parent"]/children</xpath>
 				<value>
 				    <li>
@@ -18,6 +18,21 @@
                         <workerClass>AK_DLL.PawnRenderNodeWorker_AKSkillBar</workerClass>
                         <useGraphic>true</useGraphic>
 			        </li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/PawnRenderTreeDef[defName="Humanlike"]/root[@Class="PawnRenderNodeProperties_Parent"]/children/li[debugLabel[text()="Head"]]/children</xpath>
+				<value>
+					<li>
+						<debugLabel>AK_BackHair_RenderNode</debugLabel>
+						<nodeClass>AK_DLL.RenderNode_BackHair</nodeClass>
+						<workerClass>AK_DLL.RenderNodeWorker_BackHair</workerClass>
+						<rotDrawMode>Fresh, Rotting</rotDrawMode>
+						<colorType>Hair</colorType>
+						<skipFlag>Hair</skipFlag>
+					    <useGraphic>true</useGraphic>
+                        <baseLayer>1</baseLayer>
+					</li>
 				</value>
 			</li>
 		    <li Class="PatchOperationAdd">
