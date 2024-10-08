@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	
+    <ThingDef ParentName="LMAS_BeltBase">
+        <defName>LMAS_ShieldBelt_Ayanami</defName>
+        <label>绫波舰装</label>
+        <description>绫波舰装</description>
+        <statBases>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/Destroyer/ShieldBeltAyanami</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+			<li Class="AKS_Shield.TCP_GenericShield">
+			</li>
+			<li Class="AKS_Shield.Extension.TCP_ExtraRenderStatic">
+				<bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/Destroyer/ShieldBeltAyanamiS</texPath>
+                    <graphicClass>Graphic_Multi</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+					<!-- <shaderType>TransparentPostLight</shaderType> -->
+				</bubbleStaticOverlay>
+			</li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="LMAS_BeltBase">
+        <defName>LMAS_ShieldBelt_Z23A</defName>
+        <label>妮米舰装</label>
+        <description>妮米舰装</description>
+        <statBases>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/Destroyer/ShieldBeltZ23</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+			<li Class="AKS_Shield.TCP_GenericShield">
+			</li>
+			<li Class="AKS_Shield.Extension.TCP_ExtraRenderStatic">
+				<bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/Destroyer/ShieldBeltZ23S</texPath>
+                    <graphicClass>Graphic_Multi</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+					<!-- <shaderType>TransparentPostLight</shaderType> -->
+				</bubbleStaticOverlay>
+			</li>
+        </comps>
+    </ThingDef>
+
+</Defs>

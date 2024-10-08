@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+<!--
+	
+			<li Class="AKS_Shield.TCP_GenericShield">
+				<energyMax>最大能量，默认100</energyMax>              		
+				<energyRegenRate>能量回复</energyRegenRate>
+				<energyLostPerDmg>每点伤害减少能量，默认0.33</energyLostPerDmg>
+				<allowEnergyOverflow>是否允许过充，默认否</allowEnergyOverflow>
+				<energyRatioOnReset>重置时能量比率，默认0.2</energyRatioOnReset>
+				<ticksToReset>破碎重置时间，单位tick，默认2400（60秒）</ticksToReset>
+				<canAbsorbMeleeDmg>能否吸收近战伤害，默认是</canAbsorbMeleeDmg>
+				<meleeAbsorbFactor>吸收近战伤害时，扣除能量的倍率，越高越弱近战，默认1</meleeAbsorbFactor>
+				<rangedAbsorbFactor>同上，远程伤害。默认1</rangedAbsorbFactor>
+				<meleeDodgeChanceFactor>吸收任何伤害时，有此数值*角色近战闪避概率的概率闪避</meleeDodgeChanceFactor>
+				<postBreakEffects>
+					<li>每次护盾破碎时执行一次的效果器的Class</li>
+				</postBreakEffects>
+				<postAbsorbDmgEffects>
+					<li>每次护盾吸收伤害时执行一次的效果器Class</li>
+				</postAbsorbDmgEffects>
+			</li>
+-->
+    <ThingDef Name="LMAS_BeltBase" Abstract="True" ParentName="ApparelBase">
+        <thingClass>Apparel</thingClass>
+        <techLevel>Spacer</techLevel>
+        <smeltable>false</smeltable>
+        <graphicData>
+            <texPath>Vanya_ShieldBelt/ShieldBelt</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <Mass>2.4</Mass>
+            <Flammability>0</Flammability>
+            <EquipDelay>2</EquipDelay>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Insulation_Cold>20</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
+        </statBases>
+        <tickerType>Normal</tickerType>
+        <comps>
+            <li Class="CompProperties_Biocodable" />
+			<li Class="AK_DLL.TCP_RemoveMe"/>
+            <li Class="AKE_VanyaShield.TCP_ShieldBarUIExtension"/>
+        </comps>
+        <thingCategories Inherit="false">
+            <li>AK_ShieldBelt</li>
+        </thingCategories>
+        <apparel>
+            <careIfWornByCorpse>false</careIfWornByCorpse>
+            <layers>
+                <li>Belt</li>
+            </layers>
+            <bodyPartGroups>
+                <li>Waist</li>
+            </bodyPartGroups>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+        </apparel>
+		<equippedStatOffsets>
+			<Flammability>-10</Flammability>
+		</equippedStatOffsets>
+		<useHitPoints>false</useHitPoints>
+		<burnableByRecipe>false</burnableByRecipe>
+		<relicChance>0</relicChance>
+		<tradeability>None</tradeability>
+        <generateCommonality>0.0</generateCommonality>
+		<generateAllowChance>0</generateAllowChance>
+    </ThingDef>
+
+</Defs>

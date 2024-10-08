@@ -2,66 +2,70 @@
 <Defs>
 
   <ThingDef Name="ZW_ArmorBase" ParentName="ApparelBase" Abstract="True">
-		<defName>ZW_ArmorBase</defName>
-		<label>舰娘的日常装束</label>
-		<smeltable>false</smeltable>
-		<description>舰娘平时最常穿着的服装。虽然不一定比舰装更实用，但是一定是舰娘最舒适的搭配之一。</description>
-		<useHitPoints>false</useHitPoints>
-		<techLevel>Undefined</techLevel>
-		<graphicData>
-			<texPath>Things/Pawn/Humanlike/Apparel/FlakVest/FlakVest</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.50</drawSize>
-		</graphicData>
-		<statBases>
-			<Mass>4</Mass>
-			<Flammability>0</Flammability>
-			<DeteriorationRate>0</DeteriorationRate>
-			<ArmorRating_Sharp>1.00</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.36</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.27</ArmorRating_Heat>
-			<ZW_ArmorRating_Magic>0.27</ZW_ArmorRating_Magic>
-			<Insulation_Cold>1</Insulation_Cold>
-			<EquipDelay>5</EquipDelay>
-		</statBases>
-		<thingCategories Inherit="false">
-			<li>ZW_Apparel</li>
-		</thingCategories>
-		<apparel>
-			<bodyPartGroups>
-				<li>Torso</li>
-				<li>Neck</li>
-				<li>Shoulders</li>
-				<li>Arms</li>
-				<li>Legs</li>
-			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/FlakVest/FlakVest</wornGraphicPath>
-			<layers>
-				<li>Middle</li>
-			</layers>
-			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
-		</apparel>
-		<colorGenerator Class="ColorGenerator_Options" Inherit="false">
-			<options>
-				<li>
-					<only>(255,255,255)</only>
-				</li>
-			</options>
-		</colorGenerator>
-		<burnableByRecipe>false</burnableByRecipe>
-		<relicChance>0</relicChance>
-		<tradeability>None</tradeability>
-		<tickerType>Never</tickerType>
-		<generateCommonality>0</generateCommonality>
-		<generateAllowChance>0</generateAllowChance>
-		<randomizeRotationOnSpawn>false</randomizeRotationOnSpawn>
-		<canLoadIntoCaravan>false</canLoadIntoCaravan>
-		<comps>
-			<li Class="CompProperties_Biocodable"/>
-			<li Class="AK_DLL.TCP_RemoveMe"/>
-			<li Class="AK_Industry.TCP_OripathyMonitor" MayRequire="MIS.Industry" />
-		</comps>
-	</ThingDef>
+    <defName>ZW_ArmorBase</defName>
+    <label>舰娘的日常装束</label>
+    <smeltable>false</smeltable>
+    <description>舰娘平时最常穿着的服装。虽然不一定比舰装更实用，但是一定是舰娘最舒适的搭配之一。</description>
+    <useHitPoints>false</useHitPoints>
+    <techLevel>Undefined</techLevel>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/FlakVest/FlakVest</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.50</drawSize>
+    </graphicData>
+    <statBases>
+      <Mass>4</Mass>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+      <ArmorRating_Sharp>1.00</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.36</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.27</ArmorRating_Heat>
+      <ZW_ArmorRating_Magic>0.27</ZW_ArmorRating_Magic>
+      <Insulation_Cold>1</Insulation_Cold>
+      <EquipDelay>5</EquipDelay>
+    </statBases>
+    <thingCategories Inherit="false">
+      <li>ZW_Apparel</li>
+    </thingCategories>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/FlakVest/FlakVest</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options" Inherit="false">
+      <options>
+        <li>
+          <only>(255,255,255)</only>
+        </li>
+      </options>
+    </colorGenerator>
+    <burnableByRecipe>false</burnableByRecipe>
+    <relicChance>0</relicChance>
+    <tradeability>None</tradeability>
+    <tickerType>Never</tickerType>
+    <generateCommonality>0</generateCommonality>
+    <generateAllowChance>0</generateAllowChance>
+    <randomizeRotationOnSpawn>false</randomizeRotationOnSpawn>
+    <canLoadIntoCaravan>false</canLoadIntoCaravan>
+    <comps>
+      <li Class="CompProperties_Biocodable"/>
+      <li Class="AK_DLL.TCP_RemoveMe"/>
+      <li Class="AK_Industry.TCP_OripathyMonitor" MayRequire="MIS.Industry" />
+      <li Class="SFLib.TCP_HideBody">
+				<hideBody>true</hideBody>
+				<hideHead>true</hideHead>
+			</li>
+    </comps>
+  </ThingDef>
 
   <ThingDef Name="ZW_ArmorBase_Aircraftcarrier" ParentName="ZW_ArmorBase" Abstract="True">
     <thingCategories Inherit="false">
@@ -153,4 +157,4 @@
     </thingCategories>
   </ThingDef>
 
- </Defs>
+</Defs>
