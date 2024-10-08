@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef Name="ZW_ArmorBase" ParentName="ApparelBase" Abstract="True">
-    <defName>ZW_ArmorBase</defName>
+  <ThingDef Name="LMA_ArmorBase" ParentName="ApparelBase" Abstract="True">
+    <defName>LMA_ArmorBase</defName>
     <label>舰娘的日常装束</label>
     <smeltable>false</smeltable>
     <description>舰娘平时最常穿着的服装。虽然不一定比舰装更实用，但是一定是舰娘最舒适的搭配之一。</description>
@@ -20,12 +20,12 @@
       <ArmorRating_Sharp>1.00</ArmorRating_Sharp>
       <ArmorRating_Blunt>0.36</ArmorRating_Blunt>
       <ArmorRating_Heat>0.27</ArmorRating_Heat>
-      <ZW_ArmorRating_Magic>0.27</ZW_ArmorRating_Magic>
+      <LMA_ArmorRating_Magic>0.27</LMA_ArmorRating_Magic>
       <Insulation_Cold>1</Insulation_Cold>
       <EquipDelay>5</EquipDelay>
     </statBases>
     <thingCategories Inherit="false">
-      <li>ZW_Apparel</li>
+      <li>LMA_Apparel</li>
     </thingCategories>
     <apparel>
       <bodyPartGroups>
@@ -67,93 +67,93 @@
     </comps>
   </ThingDef>
 
-  <ThingDef Name="ZW_ArmorBase_Aircraftcarrier" ParentName="ZW_ArmorBase" Abstract="True">
+  <ThingDef Name="LMA_ArmorBase_Aircraftcarrier" ParentName="LMA_ArmorBase" Abstract="True">
     <thingCategories Inherit="false">
-      <li>ZW_Apparel</li>
+      <li>LMA_Apparel</li>
     </thingCategories>
   </ThingDef>
 
-  <ThingDef Name="ZW_ArmorBase_Aviationbattleship" ParentName="ZW_ArmorBase" Abstract="True">
+  <ThingDef Name="LMA_ArmorBase_Aviationbattleship" ParentName="LMA_ArmorBase" Abstract="True">
     <thingCategories Inherit="false">
-      <li>ZW_Apparel</li>
+      <li>LMA_Apparel</li>
     </thingCategories>
   </ThingDef>
 
-  <ThingDef Name="ZW_ArmorBase_Battlecruiser" ParentName="ZW_ArmorBase" Abstract="True">
+  <ThingDef Name="LMA_ArmorBase_Battlecruiser" ParentName="LMA_ArmorBase" Abstract="True">
     <thingCategories Inherit="false">
-      <li>ZW_Apparel</li>
+      <li>LMA_Apparel</li>
     </thingCategories>
   </ThingDef>
 
-  <ThingDef Name="ZW_ArmorBase_Battleship" ParentName="ZW_ArmorBase" Abstract="True">
+  <ThingDef Name="LMA_ArmorBase_Battleship" ParentName="LMA_ArmorBase" Abstract="True">
     <thingCategories Inherit="false">
-      <li>ZW_Apparel</li>
+      <li>LMA_Apparel</li>
     </thingCategories>
   </ThingDef>
 
-  <ThingDef Name="ZW_ArmorBase_Destroyer" ParentName="ZW_ArmorBase" Abstract="True">
+  <ThingDef Name="LMA_ArmorBase_Destroyer" ParentName="LMA_ArmorBase" Abstract="True">
     <thingCategories Inherit="false">
-      <li>ZW_Apparel</li>
+      <li>LMA_Apparel</li>
     </thingCategories>
   </ThingDef>
 
-  <ThingDef Name="ZW_ArmorBase_Heavyartilleryship" ParentName="ZW_ArmorBase" Abstract="True">
+  <ThingDef Name="LMA_ArmorBase_Heavyartilleryship" ParentName="LMA_ArmorBase" Abstract="True">
     <thingCategories Inherit="false">
-      <li>ZW_Apparel</li>
+      <li>LMA_Apparel</li>
     </thingCategories>
   </ThingDef>
 
-  <ThingDef Name="ZW_ArmorBase_Heavycruiser" ParentName="ZW_ArmorBase" Abstract="True">
+  <ThingDef Name="LMA_ArmorBase_Heavycruiser" ParentName="LMA_ArmorBase" Abstract="True">
     <thingCategories Inherit="false">
-      <li>ZW_Apparel</li>
+      <li>LMA_Apparel</li>
     </thingCategories>
   </ThingDef>
 
-  <ThingDef Name="ZW_ArmorBase_Lightcarrier" ParentName="ZW_ArmorBase" Abstract="True">
+  <ThingDef Name="LMA_ArmorBase_Lightcarrier" ParentName="LMA_ArmorBase" Abstract="True">
     <thingCategories Inherit="false">
-      <li>ZW_Apparel</li>
+      <li>LMA_Apparel</li>
     </thingCategories>
   </ThingDef>
 
-  <ThingDef Name="ZW_ArmorBase_Lightcruiser" ParentName="ZW_ArmorBase" Abstract="True">
+  <ThingDef Name="LMA_ArmorBase_Lightcruiser" ParentName="LMA_ArmorBase" Abstract="True">
     <thingCategories Inherit="false">
-      <li>ZW_Apparel</li>
+      <li>LMA_Apparel</li>
     </thingCategories>
   </ThingDef>
 
-  <ThingDef Name="ZW_ArmorBase_Maintenanceship" ParentName="ZW_ArmorBase" Abstract="True">
+  <ThingDef Name="LMA_ArmorBase_Maintenanceship" ParentName="LMA_ArmorBase" Abstract="True">
     <thingCategories Inherit="false">
-      <li>ZW_Apparel</li>
+      <li>LMA_Apparel</li>
     </thingCategories>
   </ThingDef>
 
-  <ThingDef Name="ZW_ArmorBase_Sailingbattleship" ParentName="ZW_ArmorBase" Abstract="True">
+  <ThingDef Name="LMA_ArmorBase_Sailingbattleship" ParentName="LMA_ArmorBase" Abstract="True">
     <thingCategories Inherit="false">
-      <li>ZW_Apparel</li>
+      <li>LMA_Apparel</li>
     </thingCategories>
   </ThingDef>
 
-  <ThingDef Name="ZW_ArmorBase_Submarine" ParentName="ZW_ArmorBase" Abstract="True">
+  <ThingDef Name="LMA_ArmorBase_Submarine" ParentName="LMA_ArmorBase" Abstract="True">
     <thingCategories Inherit="false">
-      <li>ZW_Apparel</li>
+      <li>LMA_Apparel</li>
     </thingCategories>
   </ThingDef>
 
-  <ThingDef Name="ZW_ArmorBase_Submarinecarrier" ParentName="ZW_ArmorBase" Abstract="True">
+  <ThingDef Name="LMA_ArmorBase_Submarinecarrier" ParentName="LMA_ArmorBase" Abstract="True">
     <thingCategories Inherit="false">
-      <li>ZW_Apparel</li>
+      <li>LMA_Apparel</li>
     </thingCategories>
   </ThingDef>
 
-  <ThingDef Name="ZW_ArmorBase_Supercruiser" ParentName="ZW_ArmorBase" Abstract="True">
+  <ThingDef Name="LMA_ArmorBase_Supercruiser" ParentName="LMA_ArmorBase" Abstract="True">
     <thingCategories Inherit="false">
-      <li>ZW_Apparel</li>
+      <li>LMA_Apparel</li>
     </thingCategories>
   </ThingDef>
 
-  <ThingDef Name="ZW_ArmorBase_Transportship" ParentName="ZW_ArmorBase" Abstract="True">
+  <ThingDef Name="LMA_ArmorBase_Transportship" ParentName="LMA_ArmorBase" Abstract="True">
     <thingCategories Inherit="false">
-      <li>ZW_Apparel</li>
+      <li>LMA_Apparel</li>
     </thingCategories>
   </ThingDef>
 

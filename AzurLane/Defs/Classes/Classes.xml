@@ -2,81 +2,81 @@
 <Defs>
 
 	<AK_DLL.OperatorSeriesDef>
-		<defName>ZW_Series</defName>
+		<defName>LMA_Series</defName>
 		<label>碧蓝航线</label>
 		<icon>UI/Element/AzurLane</icon>
 	</AK_DLL.OperatorSeriesDef>
 
-	<AK_DLL.OperatorClassDef Name="ZW_OpClassAzurLane" Abstract="True">
-		<series>ZW_Series</series>
+	<AK_DLL.OperatorClassDef Name="LMA_OpClassAzurLane" Abstract="True">
+		<series>LMA_Series</series>
 	</AK_DLL.OperatorClassDef>
 
-	<AK_DLL.OperatorClassDef ParentName="ZW_OpClassAzurLane">
-		<defName>ZW_OperatorClass_Aircraftcarrier</defName>
+	<AK_DLL.OperatorClassDef ParentName="LMA_OpClassAzurLane">
+		<defName>LMA_OperatorClass_Aircraftcarrier</defName>
 		<label>Aircraftcarrier</label>
 		<sortingOrder>30</sortingOrder>
 		<textureFolder>Aircraftcarrier</textureFolder>
 		<iconPath>UI/Element/Aircraftcarrier</iconPath>
 	</AK_DLL.OperatorClassDef>
 
-	<AK_DLL.OperatorClassDef ParentName="ZW_OpClassAzurLane">
-		<defName>ZW_OperatorClass_Battle</defName>
+	<AK_DLL.OperatorClassDef ParentName="LMA_OpClassAzurLane">
+		<defName>LMA_OperatorClass_Battle</defName>
 		<label>Battle</label>
 		<sortingOrder>31</sortingOrder>
 		<textureFolder>Battle</textureFolder>
 		<iconPath>UI/Element/Battle</iconPath>
 	</AK_DLL.OperatorClassDef>
 
-	<AK_DLL.OperatorClassDef ParentName="ZW_OpClassAzurLane">
-		<defName>ZW_OperatorClass_Destroyer</defName>
+	<AK_DLL.OperatorClassDef ParentName="LMA_OpClassAzurLane">
+		<defName>LMA_OperatorClass_Destroyer</defName>
 		<label>Destroyer</label>
 		<sortingOrder>32</sortingOrder>
 		<textureFolder>Destroyer</textureFolder>
 		<iconPath>UI/Element/Destroyer</iconPath>
 	</AK_DLL.OperatorClassDef>
 
-	<AK_DLL.OperatorClassDef ParentName="ZW_OpClassAzurLane">
-		<defName>ZW_OperatorClass_Heavyartillery</defName>
+	<AK_DLL.OperatorClassDef ParentName="LMA_OpClassAzurLane">
+		<defName>LMA_OperatorClass_Heavyartillery</defName>
 		<label>Heavyartillery</label>
 		<sortingOrder>33</sortingOrder>
 		<textureFolder>Heavyartillery</textureFolder>
 		<iconPath>UI/Element/Heavyartillery</iconPath>
 	</AK_DLL.OperatorClassDef>
 
-	<AK_DLL.OperatorClassDef ParentName="ZW_OpClassAzurLane">
-		<defName>ZW_OperatorClass_Cruiser</defName>
+	<AK_DLL.OperatorClassDef ParentName="LMA_OpClassAzurLane">
+		<defName>LMA_OperatorClass_Cruiser</defName>
 		<label>Cruiser</label>
 		<sortingOrder>34</sortingOrder>
 		<textureFolder>Cruiser</textureFolder>
 		<iconPath>UI/Element/Cruiser</iconPath>
 	</AK_DLL.OperatorClassDef>
 
-	<AK_DLL.OperatorClassDef ParentName="ZW_OpClassAzurLane">
-		<defName>ZW_OperatorClass_Maintenance</defName>
+	<AK_DLL.OperatorClassDef ParentName="LMA_OpClassAzurLane">
+		<defName>LMA_OperatorClass_Maintenance</defName>
 		<label>Maintenance</label>
 		<sortingOrder>35</sortingOrder>
 		<textureFolder>Maintenance</textureFolder>
 		<iconPath>UI/Element/Maintenance</iconPath>
 	</AK_DLL.OperatorClassDef>
 
-	<AK_DLL.OperatorClassDef ParentName="ZW_OpClassAzurLane">
-		<defName>ZW_OperatorClass_Sailingbattle</defName>
+	<AK_DLL.OperatorClassDef ParentName="LMA_OpClassAzurLane">
+		<defName>LMA_OperatorClass_Sailingbattle</defName>
 		<label>Sailingbattle</label>
 		<sortingOrder>36</sortingOrder>
 		<textureFolder>Sailingbattle</textureFolder>
 		<iconPath>UI/Element/Sailingbattle</iconPath>
 	</AK_DLL.OperatorClassDef>
 
-	<AK_DLL.OperatorClassDef ParentName="ZW_OpClassAzurLane">
-		<defName>ZW_OperatorClass_Submarine</defName>
+	<AK_DLL.OperatorClassDef ParentName="LMA_OpClassAzurLane">
+		<defName>LMA_OperatorClass_Submarine</defName>
 		<label>Submarine</label>
 		<sortingOrder>37</sortingOrder>
 		<textureFolder>Submarine</textureFolder>
 		<iconPath>UI/Element/Submarine</iconPath>
 	</AK_DLL.OperatorClassDef>
 
-	<AK_DLL.OperatorClassDef ParentName="ZW_OpClassAzurLane">
-		<defName>ZW_OperatorClass_Transport</defName>
+	<AK_DLL.OperatorClassDef ParentName="LMA_OpClassAzurLane">
+		<defName>LMA_OperatorClass_Transport</defName>
 		<label>Transport</label>
 		<sortingOrder>38</sortingOrder>
 		<textureFolder>Transport</textureFolder>

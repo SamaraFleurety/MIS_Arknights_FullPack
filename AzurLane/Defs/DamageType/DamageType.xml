@@ -2,19 +2,19 @@
 <Defs>
 
   <DamageArmorCategoryDef>
-    <defName>ZW_DamageType_Magic</defName>
-    <multStat>ZW_MagicDamageMultiplier</multStat>
-    <armorRatingStat>ZW_ArmorRating_Magic</armorRatingStat>
+    <defName>LMA_DamageType_Magic</defName>
+    <multStat>LMA_MagicDamageMultiplier</multStat>
+    <armorRatingStat>LMA_ArmorRating_Magic</armorRatingStat>
   </DamageArmorCategoryDef>
 
   <DamageArmorCategoryDef>
-    <defName>ZW_DamageType_Absolute</defName>
-    <multStat>ZW_AbsoluteDamageMultiplier</multStat>
-    <armorRatingStat>ZW_ArmorRating_Absolute</armorRatingStat>
+    <defName>LMA_DamageType_Absolute</defName>
+    <multStat>LMA_AbsoluteDamageMultiplier</multStat>
+    <armorRatingStat>LMA_ArmorRating_Absolute</armorRatingStat>
   </DamageArmorCategoryDef>
 
   <StatDef ParentName="ArmorRatingBase">
-    <defName>ZW_ArmorRating_Magic</defName>
+    <defName>LMA_ArmorRating_Magic</defName>
     <label>护甲 - 法术</label>
     <labelForFullStatList>护甲 - 法术(装甲属性)</labelForFullStatList>
     <description>对于法术类型伤害的抗性,法术伤害通常来自于术士和辅助干员.
@@ -23,14 +23,14 @@
     <parts>
       <li Class="StatPart_Stuff">
         <priority>99</priority>
-        <stuffPowerStat>ZW_StuffPower_Armor_Magic</stuffPowerStat>
+        <stuffPowerStat>LMA_StuffPower_Armor_Magic</stuffPowerStat>
         <multiplierStat>StuffEffectMultiplierArmor</multiplierStat>
       </li>
     </parts>
   </StatDef>
 
   <StatDef ParentName="ArmorRatingBase">
-    <defName>ZW_ArmorRating_Absolute</defName>
+    <defName>LMA_ArmorRating_Absolute</defName>
     <label>护甲 - 真实</label>
     <labelForFullStatList>护甲 - 真实(装甲属性)</labelForFullStatList>
     <description>真实伤害极为罕见,仅极少干员的技能可以造成.
@@ -39,14 +39,14 @@
     <parts>
       <li Class="StatPart_Stuff">
         <priority>99</priority>
-        <stuffPowerStat>ZW_StuffPower_Armor_Absolute</stuffPowerStat>
+        <stuffPowerStat>LMA_StuffPower_Armor_Absolute</stuffPowerStat>
         <multiplierStat>StuffEffectMultiplierArmor</multiplierStat>
       </li>
     </parts>
   </StatDef>
 
   <StatDef>
-    <defName>ZW_MagicDamageMultiplier</defName>
+    <defName>LMA_MagicDamageMultiplier</defName>
     <label>法术伤害</label>
     <description>A multiplier on damage from Magic-type attacks for weapons made of this material.</description>
     <category>StuffStatFactors</category>
@@ -58,7 +58,7 @@
   </StatDef>
 
   <StatDef>
-    <defName>ZW_AbsoluteDamageMultiplier</defName>
+    <defName>LMA_AbsoluteDamageMultiplier</defName>
     <label>真实伤害</label>
     <description>A multiplier on damage from Absolute-type attacks for weapons made of this material.</description>
     <category>StuffStatFactors</category>
@@ -70,7 +70,7 @@
   </StatDef>
 
   <StatDef>
-    <defName>ZW_StuffPower_Armor_Magic</defName>
+    <defName>LMA_StuffPower_Armor_Magic</defName>
     <label>护甲 - 法术</label>
     <labelForFullStatList>护甲 - 法术(材料倍率)</labelForFullStatList>
     <description>Armor against sharp damage like bullets, knife stabs, and animal bites.</description>
@@ -83,7 +83,7 @@
   </StatDef>
 
   <StatDef>
-    <defName>ZW_StuffPower_Armor_Absolute</defName>
+    <defName>LMA_StuffPower_Armor_Absolute</defName>
     <label>护甲 - 真实</label>
     <labelForFullStatList>护甲 - 真实(材料倍率)</labelForFullStatList>
     <description>Armor against sharp damage like bullets, knife stabs, and animal bites.</description>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef Name="ZW_WeaponBase" Abstract="True">
+	<ThingDef Name="LMA_WeaponBase" Abstract="True">
 		<description>此舰娘的惯用武器。</description>
 		<thingClass>ThingWithComps</thingClass>
 		<category>Item</category>
@@ -50,7 +50,7 @@
 		</tools>
 	</ThingDef>
 
-	<ThingDef Name="ZW_WeaponBase_Ranged" ParentName="ZW_WeaponBase" Abstract="True">
+	<ThingDef Name="LMA_WeaponBase_Ranged" ParentName="LMA_WeaponBase" Abstract="True">
 		<weaponClasses>
 			<li>Ranged</li>
 		</weaponClasses>
@@ -59,7 +59,7 @@
 		</inspectorTabs>
 	</ThingDef>
 
-	<ThingDef Name="ZW_WeaponBase_Rifle" ParentName="ZW_WeaponBase_Ranged" Abstract="True">
+	<ThingDef Name="LMA_WeaponBase_Rifle" ParentName="LMA_WeaponBase_Ranged" Abstract="True">
 		<soundInteract>Interact_ChargeRifle</soundInteract>
 		<statBases>
 			<Mass>4.6</Mass>
@@ -74,7 +74,7 @@
 		</weaponClasses>
 	</ThingDef>
 
-	<ThingDef Name="ZW_BulletBase_Bow" Abstract="True">
+	<ThingDef Name="LMA_BulletBase_Bow" Abstract="True">
 		<category>Projectile</category>
 		<tickerType>Normal</tickerType>
 		<altitudeLayer>Projectile</altitudeLayer>
@@ -87,8 +87,8 @@
 		</graphicData>
 	</ThingDef>
 
-	<SoundDef Name="ZW_SoundBase" Abstract="True">
-		<defName>ZW_SoundBase</defName>
+	<SoundDef Name="LMA_SoundBase" Abstract="True">
+		<defName>LMA_SoundBase</defName>
 		<context>MapOnly</context>
 		<maxSimultaneous>3</maxSimultaneous>
 		<sustain>False</sustain>
@@ -103,8 +103,8 @@
 		</subSounds>
 	</SoundDef>
 
-	<SoundDef ParentName="ZW_SoundBase">
-		<defName>ZW_Sound_Weapon_GeneralPistol</defName>
+	<SoundDef ParentName="LMA_SoundBase">
+		<defName>LMA_Sound_Weapon_GeneralPistol</defName>
 		<subSounds Inherit="False">
 			<li>
 				<grains>
@@ -116,8 +116,8 @@
 		</subSounds>
 	</SoundDef>
 
-	<SoundDef ParentName="ZW_SoundBase">
-		<defName>ZW_Sound_Weapon_GeneralArrow</defName>
+	<SoundDef ParentName="LMA_SoundBase">
+		<defName>LMA_Sound_Weapon_GeneralArrow</defName>
 		<subSounds Inherit="False">
 			<li>
 				<grains>
@@ -129,8 +129,8 @@
 		</subSounds>
 	</SoundDef>
 
-	<SoundDef ParentName="ZW_SoundBase">
-		<defName>ZW_Sound_Weapon_GeneralGrenade</defName>
+	<SoundDef ParentName="LMA_SoundBase">
+		<defName>LMA_Sound_Weapon_GeneralGrenade</defName>
 		<subSounds Inherit="False">
 			<li>
 				<grains>
@@ -142,93 +142,93 @@
 		</subSounds>
 	</SoundDef>
 
-	<ThingDef Name="ZW_WeaponBase_Aircraftcarrier" ParentName="ZW_WeaponBase_Rifle" Abstract="True">
+	<ThingDef Name="LMA_WeaponBase_Aircraftcarrier" ParentName="LMA_WeaponBase_Rifle" Abstract="True">
 		<thingCategories Inherit="false">
-		  <li>ZW_Weapon</li>
+		  <li>LMA_Weapon</li>
 		</thingCategories>
 	  </ThingDef>
 	
-	  <ThingDef Name="ZW_WeaponBase_Aviationbattleship" ParentName="ZW_WeaponBase_Rifle" Abstract="True">
+	  <ThingDef Name="LMA_WeaponBase_Aviationbattleship" ParentName="LMA_WeaponBase_Rifle" Abstract="True">
 		<thingCategories Inherit="false">
-		  <li>ZW_Weapon</li>
+		  <li>LMA_Weapon</li>
 		</thingCategories>
 	  </ThingDef>
 	
-	  <ThingDef Name="ZW_WeaponBase_Battlecruiser" ParentName="ZW_WeaponBase_Rifle" Abstract="True">
+	  <ThingDef Name="LMA_WeaponBase_Battlecruiser" ParentName="LMA_WeaponBase_Rifle" Abstract="True">
 		<thingCategories Inherit="false">
-		  <li>ZW_Weapon</li>
+		  <li>LMA_Weapon</li>
 		</thingCategories>
 	  </ThingDef>
 	
-	  <ThingDef Name="ZW_WeaponBase_Battleship" ParentName="ZW_WeaponBase_Rifle" Abstract="True">
+	  <ThingDef Name="LMA_WeaponBase_Battleship" ParentName="LMA_WeaponBase_Rifle" Abstract="True">
 		<thingCategories Inherit="false">
-		  <li>ZW_Weapon</li>
+		  <li>LMA_Weapon</li>
 		</thingCategories>
 	  </ThingDef>
 	
-	  <ThingDef Name="ZW_WeaponBase_Destroyer" ParentName="ZW_WeaponBase_Rifle" Abstract="True">
+	  <ThingDef Name="LMA_WeaponBase_Destroyer" ParentName="LMA_WeaponBase_Rifle" Abstract="True">
 		<thingCategories Inherit="false">
-		  <li>ZW_Weapon</li>
+		  <li>LMA_Weapon</li>
 		</thingCategories>
 	  </ThingDef>
 	
-	  <ThingDef Name="ZW_WeaponBase_Heavyartilleryship" ParentName="ZW_WeaponBase_Rifle" Abstract="True">
+	  <ThingDef Name="LMA_WeaponBase_Heavyartilleryship" ParentName="LMA_WeaponBase_Rifle" Abstract="True">
 		<thingCategories Inherit="false">
-		  <li>ZW_Weapon</li>
+		  <li>LMA_Weapon</li>
 		</thingCategories>
 	  </ThingDef>
 	
-	  <ThingDef Name="ZW_WeaponBase_Heavycruiser" ParentName="ZW_WeaponBase_Rifle" Abstract="True">
+	  <ThingDef Name="LMA_WeaponBase_Heavycruiser" ParentName="LMA_WeaponBase_Rifle" Abstract="True">
 		<thingCategories Inherit="false">
-		  <li>ZW_Weapon</li>
+		  <li>LMA_Weapon</li>
 		</thingCategories>
 	  </ThingDef>
 	
-	  <ThingDef Name="ZW_WeaponBase_Lightcarrier" ParentName="ZW_WeaponBase_Rifle" Abstract="True">
+	  <ThingDef Name="LMA_WeaponBase_Lightcarrier" ParentName="LMA_WeaponBase_Rifle" Abstract="True">
 		<thingCategories Inherit="false">
-		  <li>ZW_Weapon</li>
+		  <li>LMA_Weapon</li>
 		</thingCategories>
 	  </ThingDef>
 	
-	  <ThingDef Name="ZW_WeaponBase_Lightcruiser" ParentName="ZW_WeaponBase_Rifle" Abstract="True">
+	  <ThingDef Name="LMA_WeaponBase_Lightcruiser" ParentName="LMA_WeaponBase_Rifle" Abstract="True">
 		<thingCategories Inherit="false">
-		  <li>ZW_Weapon</li>
+		  <li>LMA_Weapon</li>
 		</thingCategories>
 	  </ThingDef>
 	
-	  <ThingDef Name="ZW_WeaponBase_Maintenanceship" ParentName="ZW_WeaponBase_Rifle" Abstract="True">
+	  <ThingDef Name="LMA_WeaponBase_Maintenanceship" ParentName="LMA_WeaponBase_Rifle" Abstract="True">
 		<thingCategories Inherit="false">
-		  <li>ZW_Weapon</li>
+		  <li>LMA_Weapon</li>
 		</thingCategories>
 	  </ThingDef>
 	
-	  <ThingDef Name="ZW_WeaponBase_Sailingbattleship" ParentName="ZW_WeaponBase_Rifle" Abstract="True">
+	  <ThingDef Name="LMA_WeaponBase_Sailingbattleship" ParentName="LMA_WeaponBase_Rifle" Abstract="True">
 		<thingCategories Inherit="false">
-		  <li>ZW_Weapon</li>
+		  <li>LMA_Weapon</li>
 		</thingCategories>
 	  </ThingDef>
 	
-	  <ThingDef Name="ZW_WeaponBase_Submarine" ParentName="ZW_WeaponBase_Rifle" Abstract="True">
+	  <ThingDef Name="LMA_WeaponBase_Submarine" ParentName="LMA_WeaponBase_Rifle" Abstract="True">
 		<thingCategories Inherit="false">
-		  <li>ZW_Weapon</li>
+		  <li>LMA_Weapon</li>
 		</thingCategories>
 	  </ThingDef>
 	
-	  <ThingDef Name="ZW_WeaponBase_Submarinecarrier" ParentName="ZW_WeaponBase_Rifle" Abstract="True">
+	  <ThingDef Name="LMA_WeaponBase_Submarinecarrier" ParentName="LMA_WeaponBase_Rifle" Abstract="True">
 		<thingCategories Inherit="false">
-		  <li>ZW_Weapon</li>
+		  <li>LMA_Weapon</li>
 		</thingCategories>
 	  </ThingDef>
 	
-	  <ThingDef Name="ZW_WeaponBase_Supercruiser" ParentName="ZW_WeaponBase_Rifle" Abstract="True">
+	  <ThingDef Name="LMA_WeaponBase_Supercruiser" ParentName="LMA_WeaponBase_Rifle" Abstract="True">
 		<thingCategories Inherit="false">
-		  <li>ZW_Weapon</li>
+		  <li>LMA_Weapon</li>
 		</thingCategories>
 	  </ThingDef>
 	
-	  <ThingDef Name="ZW_WeaponBase_Transportship" ParentName="ZW_WeaponBase_Rifle" Abstract="True">
+	  <ThingDef Name="LMA_WeaponBase_Transportship" ParentName="LMA_WeaponBase_Rifle" Abstract="True">
 		<thingCategories Inherit="false">
-		  <li>ZW_Weapon</li>
+		  <li>LMA_Weapon</li>
 		</thingCategories>
 	  </ThingDef>
 

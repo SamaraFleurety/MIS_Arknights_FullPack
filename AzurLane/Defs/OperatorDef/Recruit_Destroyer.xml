@@ -3,14 +3,14 @@
 
 	<!-- 飞云 Feiyun -->
 
-    <AK_DLL.OperatorDef ParentName="ZW_RecruitBase_Destroyer">
-		<defName>ZW_Recruit_Feiyun</defName>
+    <AK_DLL.OperatorDef ParentName="LMA_RecruitBase_Destroyer">
+		<defName>LMA_Recruit_Feiyun</defName>
 		<name>Changfeng</name>
 		<nickname>Feiyun</nickname>
 		<description>FIXME</description>
-		<hair>ZW_Hair_Feiyun</hair>
+		<hair>LMA_Hair_Feiyun</hair>
 		<apparels>
-			<li>ZW_Apparel_Feiyun</li>
+			<li>LMA_Apparel_Feiyun</li>
 		</apparels>
 		<bodyTypeDef>Thin</bodyTypeDef>		
 		<stand>UI/Image/Destroyer/FeiyunStand</stand>
@@ -87,21 +87,21 @@
 			</li>
 		</traits>
 		<age>14</age>
-		<childHood>ZW_BackStory_Feiyun_Child</childHood>
+		<childHood>LMA_BackStory_Feiyun_Child</childHood>
 		<standRatio>2.5</standRatio>
 		<standOffset>(0, 0)</standOffset>
 	</AK_DLL.OperatorDef>
 
 	<!-- 绫波 Ayanami -->
 
-	<AK_DLL.OperatorDef ParentName="ZW_RecruitBase_Destroyer">
-		<defName>ZW_Recruit_Ayanami</defName>
+	<AK_DLL.OperatorDef ParentName="LMA_RecruitBase_Destroyer">
+		<defName>LMA_Recruit_Ayanami</defName>
 		<name>Fubuki</name>
 		<nickname>Ayanami</nickname>
 		<description>FIXME</description>
-		<hair>ZW_Hair_Ayanami</hair>
+		<hair>LMA_Hair_Ayanami</hair>
 		<apparels>
-			<li>ZW_Apparel_Ayanami</li>
+			<li>LMA_Apparel_Ayanami</li>
 		</apparels>
 		<accessory Inherit="false">
 			<li>LMAS_ShieldBelt_Ayanami</li>
@@ -173,7 +173,7 @@
 		</skills>
 		<traits>
 			<li>
-				<def>ZW_Trait_Ayanami</def>
+				<def>LMA_Trait_Ayanami</def>
 			</li>
 			<li>
 				<def>Neurotic</def>
@@ -184,22 +184,22 @@
 			</li>
 		</traits>
 		<age>14</age>
-		<childHood>ZW_BackStory_Ayanami_Child</childHood>
-		<adultHood>ZW_BackStory_Ayanami_Adult</adultHood>
+		<childHood>LMA_BackStory_Ayanami_Child</childHood>
+		<adultHood>LMA_BackStory_Ayanami_Adult</adultHood>
 		<standRatio>2.5</standRatio>
 		<standOffset>(0, 0)</standOffset>
 	</AK_DLL.OperatorDef>
 
 	<!-- 拉菲 Laffey -->
 
-	<AK_DLL.OperatorDef ParentName="ZW_RecruitBase_Destroyer">
-		<defName>ZW_Recruit_Laffey</defName>
+	<AK_DLL.OperatorDef ParentName="LMA_RecruitBase_Destroyer">
+		<defName>LMA_Recruit_Laffey</defName>
 		<name>Benson</name>
 		<nickname>Laffey</nickname>
 		<description>FIXME</description>
-		<hair>ZW_Hair_Laffey</hair>
+		<hair>LMA_Hair_Laffey</hair>
 		<apparels>
-			<li>ZW_Apparel_Laffey</li>
+			<li>LMA_Apparel_Laffey</li>
 		</apparels>
 		<bodyTypeDef>Thin</bodyTypeDef>		
 		<stand>UI/Image/Destroyer/LaffeyStand</stand>
@@ -268,7 +268,7 @@
 		</skills>
 		<traits>
 			<li>
-				<def>ZW_Trait_Laffey</def>
+				<def>LMA_Trait_Laffey</def>
 			</li>
 			<li>
 				<def>Industriousness</def>
@@ -279,22 +279,22 @@
 			</li>
 		</traits>
 		<age>14</age>
-		<childHood>ZW_BackStory_Laffey_Child</childHood>
-		<adultHood>ZW_BackStory_Laffey_Adult</adultHood>
+		<childHood>LMA_BackStory_Laffey_Child</childHood>
+		<adultHood>LMA_BackStory_Laffey_Adult</adultHood>
 		<standRatio>2.5</standRatio>
 		<standOffset>(0, 0)</standOffset>
 	</AK_DLL.OperatorDef>
 
 	<!-- 妮米 Z23 -->
 
-	<AK_DLL.OperatorDef ParentName="ZW_RecruitBase_Destroyer">
-		<defName>ZW_Recruit_Z23</defName>
+	<AK_DLL.OperatorDef ParentName="LMA_RecruitBase_Destroyer">
+		<defName>LMA_Recruit_Z23</defName>
 		<name>Z23</name>
 		<nickname>Z23</nickname>
 		<description>FIXME</description>
-		<hair>ZW_Hair_Z23A</hair>
+		<hair>LMA_Hair_Z23A</hair>
 		<apparels>
-			<li>ZW_Apparel_Z23A</li>
+			<li>LMA_Apparel_Z23A</li>
 		</apparels>
 		<accessory Inherit="false">
 			<li>LMAS_ShieldBelt_Z23A</li>
@@ -366,7 +366,7 @@
 		</skills>
 		<traits>
 			<li>
-				<def>ZW_Trait_Z23</def>
+				<def>LMA_Trait_Z23</def>
 			</li>
 			<li>
 				<def>FastLearner</def>
@@ -376,8 +376,8 @@
 			</li>
 		</traits>
 		<age>14</age>
-		<childHood>ZW_BackStory_Z23_Child</childHood>
-		<adultHood>ZW_BackStory_Z23_Adult</adultHood>
+		<childHood>LMA_BackStory_Z23_Child</childHood>
+		<adultHood>LMA_BackStory_Z23_Adult</adultHood>
 		<standRatio>2.5</standRatio>
 		<standOffset>(0, 0)</standOffset>
 	</AK_DLL.OperatorDef>

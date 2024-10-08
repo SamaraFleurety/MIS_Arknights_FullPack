@@ -6,8 +6,8 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThoughtDef[defName="ObservedLayingCorpse"]/nullifyingTraits</xpath>
 		<value>
-			<li>ZW_Trait_Ayanami</li>
-			<li>ZW_Trait_Laffey</li>
+			<li>LMA_Trait_Ayanami</li>
+			<li>LMA_Trait_Laffey</li>
 		</value>
 	</Operation>
 	
@@ -16,7 +16,7 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThoughtDef[defName="EnvironmentDark"]/nullifyingTraits</xpath>
 		<value>
-			<li>ZW_Trait_Laffey</li>
+			<li>LMA_Trait_Laffey</li>
 		</value>
 	</Operation>
 

@@ -1,55 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<ThingDef ParentName="ZW_ArmorBase_Destroyer">
-		<defName>ZW_Apparel_Feiyun</defName>
+	<ThingDef ParentName="LMA_ArmorBase_Destroyer">
+		<defName>LMA_Apparel_Feiyun</defName>
 		<label>飞云常服</label>
 		<description>飞云常穿的，中式黑白花边裙。袖子很长，不知道下面是否藏了什么呢？</description>
 		<graphicData>
-			<texPath>Things/ZW_Ships/Destroyer/Feiyun</texPath>
+			<texPath>Things/LMA_Ships/Destroyer/Feiyun</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Things/ZW_Ships/Destroyer/Feiyun</wornGraphicPath>
+			<wornGraphicPath>Things/LMA_Ships/Destroyer/Feiyun</wornGraphicPath>
 		</apparel>
 	</ThingDef>
 
-	<ThingDef ParentName="ZW_ArmorBase_Destroyer">
-		<defName>ZW_Apparel_Ayanami</defName>
+	<ThingDef ParentName="LMA_ArmorBase_Destroyer">
+		<defName>LMA_Apparel_Ayanami</defName>
 		<label>绫波常服</label>
 		<!-- <description>绫波常服</description> -->
 		<graphicData>
-			<texPath>Things/ZW_Ships/Destroyer/Ayanami</texPath>
+			<texPath>Things/LMA_Ships/Destroyer/Ayanami</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Things/ZW_Ships/Destroyer/Ayanami</wornGraphicPath>
+			<wornGraphicPath>Things/LMA_Ships/Destroyer/Ayanami</wornGraphicPath>
 		</apparel>
 	</ThingDef>
 
-	<ThingDef ParentName="ZW_ArmorBase_Destroyer">
-		<defName>ZW_Apparel_Laffey</defName>
+	<ThingDef ParentName="LMA_ArmorBase_Destroyer">
+		<defName>LMA_Apparel_Laffey</defName>
 		<label>拉菲常服</label>
 		<!-- <description>拉菲常服</description> -->
 		<graphicData>
-			<texPath>Things/ZW_Ships/Destroyer/Laffey</texPath>
+			<texPath>Things/LMA_Ships/Destroyer/Laffey</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Things/ZW_Ships/Destroyer/Laffey</wornGraphicPath>
+			<wornGraphicPath>Things/LMA_Ships/Destroyer/Laffey</wornGraphicPath>
 		</apparel>
 	</ThingDef>
 
-	<ThingDef ParentName="ZW_ArmorBase_Destroyer">
-		<defName>ZW_Apparel_Z23A</defName>
+	<ThingDef ParentName="LMA_ArmorBase_Destroyer">
+		<defName>LMA_Apparel_Z23A</defName>
 		<label>妮米常服</label>
 		<!-- <description>妮米常服</description> -->
 		<graphicData>
-			<texPath>Things/ZW_Ships/Destroyer/Z23</texPath>
+			<texPath>Things/LMA_Ships/Destroyer/Z23</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Things/ZW_Ships/Destroyer/Z23</wornGraphicPath>
+			<wornGraphicPath>Things/LMA_Ships/Destroyer/Z23</wornGraphicPath>
 		</apparel>
 	</ThingDef>
 

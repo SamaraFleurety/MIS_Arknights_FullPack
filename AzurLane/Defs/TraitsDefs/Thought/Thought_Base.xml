@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-    <ThoughtDef Name="ZW_Thought_Permanent" Abstract="True">
+    <ThoughtDef Name="LMA_Thought_Permanent" Abstract="True">
         <workerClass>ThoughtWorker_AlwaysActive</workerClass>
         <validWhileDespawned>false</validWhileDespawned>
     </ThoughtDef>

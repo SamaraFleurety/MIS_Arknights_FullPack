@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<AK_DLL.OperatorDef Name="ZW_RecruitBase" Abstract="True">
+	<AK_DLL.OperatorDef Name="LMA_RecruitBase" Abstract="True">
 		<surname>碧蓝航线</surname>
 		<description>欢迎来到碧蓝航线</description>
 		<bodyTypeDef>Thin</bodyTypeDef>
@@ -17,10 +17,10 @@
 			<b>1</b>
 			<a>1</a>
 		</hairColor>
-		<childHood>ZW_BackStory_Unknown_Child</childHood>
-		<adultHood>ZW_BackStory_Unknown_Adult</adultHood>
+		<childHood>LMA_BackStory_Unknown_Child</childHood>
+		<adultHood>LMA_BackStory_Unknown_Adult</adultHood>
 		<age>16</age>
-		<headTypeDef>ZW_Head_Small</headTypeDef>
+		<headTypeDef>LMA_Head_Small</headTypeDef>
 		<standOffsets>
 			<li>
 				<key>0</key>
@@ -31,145 +31,145 @@
 				<value>(10,10,0.5)</value>
 			</li>
 		</standOffsets>
-		<xenoType>ZW_BaseType</xenoType>
+		<xenoType>LMA_BaseType</xenoType>
 	</AK_DLL.OperatorDef>
 
-	<AK_DLL.OperatorDef ParentName="ZW_RecruitBase" Name="ZW_RecruitBase_Aircraftcarrier" Abstract="True">
+	<AK_DLL.OperatorDef ParentName="LMA_RecruitBase" Name="LMA_RecruitBase_Aircraftcarrier" Abstract="True">
 		<traits>
 			<li>
-				<def>ZW_Trait_Ship_Aircraftcarrier</def>
+				<def>LMA_Trait_Ship_Aircraftcarrier</def>
 			</li>
 		</traits>
-		<operatorType>ZW_OperatorClass_Aircraftcarrier</operatorType>
+		<operatorType>LMA_OperatorClass_Aircraftcarrier</operatorType>
 	</AK_DLL.OperatorDef>
 
-	<AK_DLL.OperatorDef ParentName="ZW_RecruitBase" Name="ZW_RecruitBase_Aviationbattleship" Abstract="True">
+	<AK_DLL.OperatorDef ParentName="LMA_RecruitBase" Name="LMA_RecruitBase_Aviationbattleship" Abstract="True">
 		<traits>
 			<li>
-				<def>ZW_Trait_Ship_Aviationbattleship</def>
+				<def>LMA_Trait_Ship_Aviationbattleship</def>
 			</li>
 		</traits>
-		<operatorType>ZW_OperatorClass_Aviationbattleship</operatorType>
+		<operatorType>LMA_OperatorClass_Aviationbattleship</operatorType>
 	</AK_DLL.OperatorDef>
 
-	<AK_DLL.OperatorDef ParentName="ZW_RecruitBase" Name="ZW_RecruitBase_Battlecruiser" Abstract="True">
+	<AK_DLL.OperatorDef ParentName="LMA_RecruitBase" Name="LMA_RecruitBase_Battlecruiser" Abstract="True">
 		<traits>
 			<li>
-				<def>ZW_Trait_Ship_Battlecruiser</def>
+				<def>LMA_Trait_Ship_Battlecruiser</def>
 			</li>
 		</traits>
-		<operatorType>ZW_OperatorClass_Battlecruiser</operatorType>
+		<operatorType>LMA_OperatorClass_Battlecruiser</operatorType>
 	</AK_DLL.OperatorDef>
 
-	<AK_DLL.OperatorDef ParentName="ZW_RecruitBase" Name="ZW_RecruitBase_Battleship" Abstract="True">
+	<AK_DLL.OperatorDef ParentName="LMA_RecruitBase" Name="LMA_RecruitBase_Battleship" Abstract="True">
 		<traits>
 			<li>
-				<def>ZW_Trait_Ship_Battleship</def>
+				<def>LMA_Trait_Ship_Battleship</def>
 			</li>
 		</traits>
-		<operatorType>ZW_OperatorClass_Battleship</operatorType>
+		<operatorType>LMA_OperatorClass_Battleship</operatorType>
 	</AK_DLL.OperatorDef>
 
-	<AK_DLL.OperatorDef ParentName="ZW_RecruitBase" Name="ZW_RecruitBase_Destroyer" Abstract="True">
+	<AK_DLL.OperatorDef ParentName="LMA_RecruitBase" Name="LMA_RecruitBase_Destroyer" Abstract="True">
 		<traits>
 			<li>
-				<def>ZW_Trait_Ship_Destroyer</def>
+				<def>LMA_Trait_Ship_Destroyer</def>
 			</li>
 		</traits>
-		<operatorType>ZW_OperatorClass_Destroyer</operatorType>
+		<operatorType>LMA_OperatorClass_Destroyer</operatorType>
 	</AK_DLL.OperatorDef>
 
-	<AK_DLL.OperatorDef ParentName="ZW_RecruitBase" Name="ZW_RecruitBase_Heavyartilleryship" Abstract="True">
+	<AK_DLL.OperatorDef ParentName="LMA_RecruitBase" Name="LMA_RecruitBase_Heavyartilleryship" Abstract="True">
 		<traits>
 			<li>
-				<def>ZW_Trait_Ship_Heavyartilleryship</def>
+				<def>LMA_Trait_Ship_Heavyartilleryship</def>
 			</li>
 		</traits>
 		<AKAbilities>
 			<li>ZWA_Ability_BaseHeal</li>
 		</AKAbilities>
-		<operatorType>ZW_OperatorClass_Heavyartilleryship</operatorType>
+		<operatorType>LMA_OperatorClass_Heavyartilleryship</operatorType>
 	</AK_DLL.OperatorDef>
 
-	<AK_DLL.OperatorDef ParentName="ZW_RecruitBase" Name="ZW_RecruitBase_Heavycruiser" Abstract="True">
+	<AK_DLL.OperatorDef ParentName="LMA_RecruitBase" Name="LMA_RecruitBase_Heavycruiser" Abstract="True">
 		<traits>
 			<li>
-				<def>ZW_Trait_Ship_Heavycruiser</def>
+				<def>LMA_Trait_Ship_Heavycruiser</def>
 			</li>
 		</traits>
-		<operatorType>ZW_OperatorClass_Heavycruiser</operatorType>
+		<operatorType>LMA_OperatorClass_Heavycruiser</operatorType>
 	</AK_DLL.OperatorDef>
 
-	<AK_DLL.OperatorDef ParentName="ZW_RecruitBase" Name="ZW_RecruitBase_Lightcarrier" Abstract="True">
+	<AK_DLL.OperatorDef ParentName="LMA_RecruitBase" Name="LMA_RecruitBase_Lightcarrier" Abstract="True">
 		<traits>
 			<li>
-				<def>ZW_Trait_Ship_Lightcarrier</def>
+				<def>LMA_Trait_Ship_Lightcarrier</def>
 			</li>
 		</traits>
-		<operatorType>ZW_OperatorClass_Lightcarrier</operatorType>
+		<operatorType>LMA_OperatorClass_Lightcarrier</operatorType>
 	</AK_DLL.OperatorDef>
 
-	<AK_DLL.OperatorDef ParentName="ZW_RecruitBase" Name="ZW_RecruitBase_Lightcruiser" Abstract="True">
+	<AK_DLL.OperatorDef ParentName="LMA_RecruitBase" Name="LMA_RecruitBase_Lightcruiser" Abstract="True">
 		<traits>
 			<li>
-				<def>ZW_Trait_Ship_Lightcruiser</def>
+				<def>LMA_Trait_Ship_Lightcruiser</def>
 			</li>
 		</traits>
-		<operatorType>ZW_OperatorClass_Lightcruiser</operatorType>
+		<operatorType>LMA_OperatorClass_Lightcruiser</operatorType>
 	</AK_DLL.OperatorDef>
 
-	<AK_DLL.OperatorDef ParentName="ZW_RecruitBase" Name="ZW_RecruitBase_Maintenanceship" Abstract="True">
+	<AK_DLL.OperatorDef ParentName="LMA_RecruitBase" Name="LMA_RecruitBase_Maintenanceship" Abstract="True">
 		<traits>
 			<li>
-				<def>ZW_Trait_Ship_Maintenanceship</def>
+				<def>LMA_Trait_Ship_Maintenanceship</def>
 			</li>
 		</traits>
-		<operatorType>ZW_OperatorClass_Maintenanceship</operatorType>
+		<operatorType>LMA_OperatorClass_Maintenanceship</operatorType>
 	</AK_DLL.OperatorDef>
 
-	<AK_DLL.OperatorDef ParentName="ZW_RecruitBase" Name="ZW_RecruitBase_Sailingbattleship" Abstract="True">
+	<AK_DLL.OperatorDef ParentName="LMA_RecruitBase" Name="LMA_RecruitBase_Sailingbattleship" Abstract="True">
 		<traits>
 			<li>
-				<def>ZW_Trait_Ship_Sailingbattleship</def>
+				<def>LMA_Trait_Ship_Sailingbattleship</def>
 			</li>
 		</traits>
-		<operatorType>ZW_OperatorClass_Sailingbattleship</operatorType>
+		<operatorType>LMA_OperatorClass_Sailingbattleship</operatorType>
 	</AK_DLL.OperatorDef>
 
-	<AK_DLL.OperatorDef ParentName="ZW_RecruitBase" Name="ZW_RecruitBase_Submarine" Abstract="True">
+	<AK_DLL.OperatorDef ParentName="LMA_RecruitBase" Name="LMA_RecruitBase_Submarine" Abstract="True">
 		<traits>
 			<li>
-				<def>ZW_Trait_Ship_Submarine</def>
+				<def>LMA_Trait_Ship_Submarine</def>
 			</li>
 		</traits>
-		<operatorType>ZW_OperatorClass_Submarine</operatorType>
+		<operatorType>LMA_OperatorClass_Submarine</operatorType>
 	</AK_DLL.OperatorDef>
 
-	<AK_DLL.OperatorDef ParentName="ZW_RecruitBase" Name="ZW_RecruitBase_Submarinecarrier" Abstract="True">
+	<AK_DLL.OperatorDef ParentName="LMA_RecruitBase" Name="LMA_RecruitBase_Submarinecarrier" Abstract="True">
 		<traits>
 			<li>
-				<def>ZW_Trait_Ship_Submarinecarrier</def>
+				<def>LMA_Trait_Ship_Submarinecarrier</def>
 			</li>
 		</traits>
-		<operatorType>ZW_OperatorClass_Submarinecarrier</operatorType>
+		<operatorType>LMA_OperatorClass_Submarinecarrier</operatorType>
 	</AK_DLL.OperatorDef>
 
-	<AK_DLL.OperatorDef ParentName="ZW_RecruitBase" Name="ZW_RecruitBase_Supercruiser" Abstract="True">
+	<AK_DLL.OperatorDef ParentName="LMA_RecruitBase" Name="LMA_RecruitBase_Supercruiser" Abstract="True">
 		<traits>
 			<li>
-				<def>ZW_Trait_Ship_Supercruiser</def>
+				<def>LMA_Trait_Ship_Supercruiser</def>
 			</li>
 		</traits>
-		<operatorType>ZW_OperatorClass_Supercruiser</operatorType>
+		<operatorType>LMA_OperatorClass_Supercruiser</operatorType>
 	</AK_DLL.OperatorDef>
 
-	<AK_DLL.OperatorDef ParentName="ZW_RecruitBase" Name="ZW_RecruitBase_Transportship" Abstract="True">
+	<AK_DLL.OperatorDef ParentName="LMA_RecruitBase" Name="LMA_RecruitBase_Transportship" Abstract="True">
 		<traits>
 			<li>
-				<def>ZW_Trait_Ship_Transportship</def>
+				<def>LMA_Trait_Ship_Transportship</def>
 			</li>
 		</traits>
-		<operatorType>ZW_OperatorClass_Transportship</operatorType>
+		<operatorType>LMA_OperatorClass_Transportship</operatorType>
 	</AK_DLL.OperatorDef>
 
 </Defs>

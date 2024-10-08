@@ -3,8 +3,8 @@
 
 	<!-- 飞云 Feiyun -->
 
-	<BackstoryDef ParentName="ZW_StoryBase">
-		<defName>ZW_BackStory_Feiyun_Child</defName>
+	<BackstoryDef ParentName="LMA_StoryBase">
+		<defName>LMA_BackStory_Feiyun_Child</defName>
 		<slot>Childhood</slot>
 		<title>长风级驱逐舰</title>
 		<titleShort>驱逐舰</titleShort>
@@ -13,16 +13,16 @@
 
 	<!-- 绫波 Ayanami -->
 
-	<BackstoryDef ParentName="ZW_StoryBase">
-		<defName>ZW_BackStory_Ayanami_Child</defName>
+	<BackstoryDef ParentName="LMA_StoryBase">
+		<defName>LMA_BackStory_Ayanami_Child</defName>
 		<slot>Childhood</slot>
 		<title>吹雪型驱逐舰</title>
 		<titleShort>驱逐舰</titleShort>
 		<baseDesc>该型舰属于舰队驱逐舰（一等驱逐舰），在计划时期被称为特型驱逐舰（とくがたくちくかん），最大特色之一就是强大的武装，其在约2000吨排水量的船体上安装了3座双联装127mm火炮和多达3座三联装610mm鱼雷发射器。</baseDesc>
 	</BackstoryDef>
 
-	<BackstoryDef ParentName="ZW_StoryBase">
-		<defName>ZW_BackStory_Ayanami_Adult</defName>
+	<BackstoryDef ParentName="LMA_StoryBase">
+		<defName>LMA_BackStory_Ayanami_Adult</defName>
 		<slot>Adulthood</slot>
 		<title>绫波号驱逐舰</title>
 		<titleShort>驱逐舰</titleShort>
@@ -31,16 +31,16 @@
 
 	<!-- 拉菲 Laffey -->
 
-	<BackstoryDef ParentName="ZW_StoryBase">
-		<defName>ZW_BackStory_Laffey_Child</defName>
+	<BackstoryDef ParentName="LMA_StoryBase">
+		<defName>LMA_BackStory_Laffey_Child</defName>
 		<slot>Childhood</slot>
 		<title>本森级驱逐舰</title>
 		<titleShort>驱逐舰</titleShort>
 		<baseDesc>拉菲(DD-459)，本森级驱逐舰的一员，由舰名由来的勇敢的水兵『巴雷特·拉菲』。</baseDesc>
 	</BackstoryDef>
 
-	<BackstoryDef ParentName="ZW_StoryBase">
-		<defName>ZW_BackStory_Laffey_Adult</defName>
+	<BackstoryDef ParentName="LMA_StoryBase">
+		<defName>LMA_BackStory_Laffey_Adult</defName>
 		<slot>Adulthood</slot>
 		<title>拉菲号驱逐舰</title>
 		<titleShort>驱逐舰</titleShort>
@@ -49,16 +49,16 @@
 
 	<!-- 妮米 Z23 -->
 
-	<BackstoryDef ParentName="ZW_StoryBase">
-		<defName>ZW_BackStory_Z23_Child</defName>
+	<BackstoryDef ParentName="LMA_StoryBase">
+		<defName>LMA_BackStory_Z23_Child</defName>
 		<slot>Childhood</slot>
 		<title>纳尔维克型驱逐舰</title>
 		<titleShort>驱逐舰</titleShort>
 		<baseDesc>Z23（KMS Z23）是Z驱1936A型首舰，该级舰包括1936A型（Mob）共15艘，也被称为纳尔维克（Narvik）级。该型最大的改良点是主炮的大口径化，由127mm改进为150mm(游戏中可装备轻巡主炮)，除此之外相比1936型为止的Z驱井无太大变动。</baseDesc>
 	</BackstoryDef>
 
-	<BackstoryDef ParentName="ZW_StoryBase">
-		<defName>ZW_BackStory_Z23_Adult</defName>
+	<BackstoryDef ParentName="LMA_StoryBase">
+		<defName>LMA_BackStory_Z23_Adult</defName>
 		<slot>Adulthood</slot>
 		<title>1936A型驱逐舰</title>
 		<titleShort>驱逐舰</titleShort>

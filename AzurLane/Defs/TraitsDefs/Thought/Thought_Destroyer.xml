@@ -2,11 +2,11 @@
 <Defs>
 
     <ThoughtDef>
-        <defName>ZW_Thought_Trait_Laffey</defName>
+        <defName>LMA_Thought_Trait_Laffey</defName>
         <workerClass>ThoughtWorker_IsCarryingRangedWeapon</workerClass>
         <validWhileDespawned>true</validWhileDespawned>
         <requiredTraits>
-            <li>ZW_Trait_Laffey</li>
+            <li>LMA_Trait_Laffey</li>
         </requiredTraits>
         <stages>
             <li>
