@@ -21,7 +21,7 @@
 				</postAbsorbDmgEffects>
 			</li>
 -->
-    <ThingDef Name="LMAS_BeltBase" Abstract="True" ParentName="ApparelBase">
+    <ThingDef Name="LMA_BeltBase" Abstract="True" ParentName="ApparelBase">
         <thingClass>Apparel</thingClass>
         <techLevel>Spacer</techLevel>
         <smeltable>false</smeltable>
@@ -41,10 +41,9 @@
         <comps>
             <li Class="CompProperties_Biocodable" />
 			<li Class="AK_DLL.TCP_RemoveMe"/>
-            <li Class="AKE_VanyaShield.TCP_ShieldBarUIExtension"/>
         </comps>
         <thingCategories Inherit="false">
-            <li>AK_ShieldBelt</li>
+            <li>LMA_ShieldBelt</li>
         </thingCategories>
         <apparel>
             <careIfWornByCorpse>false</careIfWornByCorpse>

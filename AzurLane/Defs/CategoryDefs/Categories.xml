@@ -21,4 +21,11 @@
 		<label>碧蓝航线舰娘</label>
 	</StyleItemCategoryDef>
 
+	<!-- 护盾 -->
+
+	<ThingCategoryDef>
+		<defName>LMA_ShieldBelt</defName>
+		<label>明日方舟系列护盾</label>
+		<parent>LMA_Apparel</parent>
+	</ThingCategoryDef>
 </Defs>

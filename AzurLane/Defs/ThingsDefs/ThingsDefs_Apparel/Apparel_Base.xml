@@ -1,160 +1,160 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef Name="LMA_ArmorBase" ParentName="ApparelBase" Abstract="True">
-    <defName>LMA_ArmorBase</defName>
-    <label>舰娘的日常装束</label>
-    <smeltable>false</smeltable>
-    <description>舰娘平时最常穿着的服装。虽然不一定比舰装更实用，但是一定是舰娘最舒适的搭配之一。</description>
-    <useHitPoints>false</useHitPoints>
-    <techLevel>Undefined</techLevel>
-    <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/FlakVest/FlakVest</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1.50</drawSize>
-    </graphicData>
-    <statBases>
-      <Mass>4</Mass>
-      <Flammability>0</Flammability>
-      <DeteriorationRate>0</DeteriorationRate>
-      <ArmorRating_Sharp>1.00</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.36</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.27</ArmorRating_Heat>
-      <LMA_ArmorRating_Magic>0.27</LMA_ArmorRating_Magic>
-      <Insulation_Cold>1</Insulation_Cold>
-      <EquipDelay>5</EquipDelay>
-    </statBases>
-    <thingCategories Inherit="false">
-      <li>LMA_Apparel</li>
-    </thingCategories>
-    <apparel>
-      <bodyPartGroups>
-        <li>Torso</li>
-        <li>Neck</li>
-        <li>Shoulders</li>
-        <li>Arms</li>
-        <li>Legs</li>
-      </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/FlakVest/FlakVest</wornGraphicPath>
-      <layers>
-        <li>Middle</li>
-      </layers>
-      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
-    </apparel>
-    <colorGenerator Class="ColorGenerator_Options" Inherit="false">
-      <options>
-        <li>
-          <only>(255,255,255)</only>
-        </li>
-      </options>
-    </colorGenerator>
-    <burnableByRecipe>false</burnableByRecipe>
-    <relicChance>0</relicChance>
-    <tradeability>None</tradeability>
-    <tickerType>Never</tickerType>
-    <generateCommonality>0</generateCommonality>
-    <generateAllowChance>0</generateAllowChance>
-    <randomizeRotationOnSpawn>false</randomizeRotationOnSpawn>
-    <canLoadIntoCaravan>false</canLoadIntoCaravan>
-    <comps>
-      <li Class="CompProperties_Biocodable"/>
-      <li Class="AK_DLL.TCP_RemoveMe"/>
-      <li Class="AK_Industry.TCP_OripathyMonitor" MayRequire="MIS.Industry" />
-      <li Class="SFLib.TCP_HideBody">
+	<ThingDef Name="LMA_ArmorBase" ParentName="ApparelBase" Abstract="True">
+		<defName>LMA_ArmorBase</defName>
+		<label>舰娘的日常装束</label>
+		<smeltable>false</smeltable>
+		<description>舰娘平时最常穿着的服装。虽然不一定比舰装更实用，但是一定是舰娘最舒适的搭配之一。</description>
+		<useHitPoints>false</useHitPoints>
+		<techLevel>Undefined</techLevel>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/FlakVest/FlakVest</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.50</drawSize>
+		</graphicData>
+		<statBases>
+			<Mass>4</Mass>
+			<Flammability>0</Flammability>
+			<DeteriorationRate>0</DeteriorationRate>
+			<ArmorRating_Sharp>1.00</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.36</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.27</ArmorRating_Heat>
+			<LMA_ArmorRating_Magic>0.27</LMA_ArmorRating_Magic>
+			<Insulation_Cold>1</Insulation_Cold>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
+		<thingCategories Inherit="false">
+			<li>LMA_Apparel</li>
+		</thingCategories>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/FlakVest/FlakVest</wornGraphicPath>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options" Inherit="false">
+			<options>
+				<li>
+					<only>(255,255,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<burnableByRecipe>false</burnableByRecipe>
+		<relicChance>0</relicChance>
+		<tradeability>None</tradeability>
+		<tickerType>Never</tickerType>
+		<generateCommonality>0</generateCommonality>
+		<generateAllowChance>0</generateAllowChance>
+		<randomizeRotationOnSpawn>false</randomizeRotationOnSpawn>
+		<canLoadIntoCaravan>false</canLoadIntoCaravan>
+		<comps>
+			<li Class="CompProperties_Biocodable"/>
+			<li Class="AK_DLL.TCP_RemoveMe"/>
+			<li Class="AK_Industry.TCP_OripathyMonitor" MayRequire="MIS.Industry" />
+			<li Class="SFLib.TCP_HideBody">
 				<hideBody>true</hideBody>
 				<hideHead>true</hideHead>
 			</li>
-    </comps>
-  </ThingDef>
+		</comps>
+	</ThingDef>
 
-  <ThingDef Name="LMA_ArmorBase_Aircraftcarrier" ParentName="LMA_ArmorBase" Abstract="True">
-    <thingCategories Inherit="false">
-      <li>LMA_Apparel</li>
-    </thingCategories>
-  </ThingDef>
+	<ThingDef Name="LMA_ArmorBase_Aircraftcarrier" ParentName="LMA_ArmorBase" Abstract="True">
+		<thingCategories Inherit="false">
+			<li>LMA_Apparel</li>
+		</thingCategories>
+	</ThingDef>
 
-  <ThingDef Name="LMA_ArmorBase_Aviationbattleship" ParentName="LMA_ArmorBase" Abstract="True">
-    <thingCategories Inherit="false">
-      <li>LMA_Apparel</li>
-    </thingCategories>
-  </ThingDef>
+	<ThingDef Name="LMA_ArmorBase_Aviationbattleship" ParentName="LMA_ArmorBase" Abstract="True">
+		<thingCategories Inherit="false">
+			<li>LMA_Apparel</li>
+		</thingCategories>
+	</ThingDef>
 
-  <ThingDef Name="LMA_ArmorBase_Battlecruiser" ParentName="LMA_ArmorBase" Abstract="True">
-    <thingCategories Inherit="false">
-      <li>LMA_Apparel</li>
-    </thingCategories>
-  </ThingDef>
+	<ThingDef Name="LMA_ArmorBase_Battlecruiser" ParentName="LMA_ArmorBase" Abstract="True">
+		<thingCategories Inherit="false">
+			<li>LMA_Apparel</li>
+		</thingCategories>
+	</ThingDef>
 
-  <ThingDef Name="LMA_ArmorBase_Battleship" ParentName="LMA_ArmorBase" Abstract="True">
-    <thingCategories Inherit="false">
-      <li>LMA_Apparel</li>
-    </thingCategories>
-  </ThingDef>
+	<ThingDef Name="LMA_ArmorBase_Battleship" ParentName="LMA_ArmorBase" Abstract="True">
+		<thingCategories Inherit="false">
+			<li>LMA_Apparel</li>
+		</thingCategories>
+	</ThingDef>
 
-  <ThingDef Name="LMA_ArmorBase_Destroyer" ParentName="LMA_ArmorBase" Abstract="True">
-    <thingCategories Inherit="false">
-      <li>LMA_Apparel</li>
-    </thingCategories>
-  </ThingDef>
+	<ThingDef Name="LMA_ArmorBase_Destroyer" ParentName="LMA_ArmorBase" Abstract="True">
+		<thingCategories Inherit="false">
+			<li>LMA_Apparel</li>
+		</thingCategories>
+	</ThingDef>
 
-  <ThingDef Name="LMA_ArmorBase_Heavyartilleryship" ParentName="LMA_ArmorBase" Abstract="True">
-    <thingCategories Inherit="false">
-      <li>LMA_Apparel</li>
-    </thingCategories>
-  </ThingDef>
+	<ThingDef Name="LMA_ArmorBase_Heavyartilleryship" ParentName="LMA_ArmorBase" Abstract="True">
+		<thingCategories Inherit="false">
+			<li>LMA_Apparel</li>
+		</thingCategories>
+	</ThingDef>
 
-  <ThingDef Name="LMA_ArmorBase_Heavycruiser" ParentName="LMA_ArmorBase" Abstract="True">
-    <thingCategories Inherit="false">
-      <li>LMA_Apparel</li>
-    </thingCategories>
-  </ThingDef>
+	<ThingDef Name="LMA_ArmorBase_Heavycruiser" ParentName="LMA_ArmorBase" Abstract="True">
+		<thingCategories Inherit="false">
+			<li>LMA_Apparel</li>
+		</thingCategories>
+	</ThingDef>
 
-  <ThingDef Name="LMA_ArmorBase_Lightcarrier" ParentName="LMA_ArmorBase" Abstract="True">
-    <thingCategories Inherit="false">
-      <li>LMA_Apparel</li>
-    </thingCategories>
-  </ThingDef>
+	<ThingDef Name="LMA_ArmorBase_Lightcarrier" ParentName="LMA_ArmorBase" Abstract="True">
+		<thingCategories Inherit="false">
+			<li>LMA_Apparel</li>
+		</thingCategories>
+	</ThingDef>
 
-  <ThingDef Name="LMA_ArmorBase_Lightcruiser" ParentName="LMA_ArmorBase" Abstract="True">
-    <thingCategories Inherit="false">
-      <li>LMA_Apparel</li>
-    </thingCategories>
-  </ThingDef>
+	<ThingDef Name="LMA_ArmorBase_Lightcruiser" ParentName="LMA_ArmorBase" Abstract="True">
+		<thingCategories Inherit="false">
+			<li>LMA_Apparel</li>
+		</thingCategories>
+	</ThingDef>
 
-  <ThingDef Name="LMA_ArmorBase_Maintenanceship" ParentName="LMA_ArmorBase" Abstract="True">
-    <thingCategories Inherit="false">
-      <li>LMA_Apparel</li>
-    </thingCategories>
-  </ThingDef>
+	<ThingDef Name="LMA_ArmorBase_Maintenanceship" ParentName="LMA_ArmorBase" Abstract="True">
+		<thingCategories Inherit="false">
+			<li>LMA_Apparel</li>
+		</thingCategories>
+	</ThingDef>
 
-  <ThingDef Name="LMA_ArmorBase_Sailingbattleship" ParentName="LMA_ArmorBase" Abstract="True">
-    <thingCategories Inherit="false">
-      <li>LMA_Apparel</li>
-    </thingCategories>
-  </ThingDef>
+	<ThingDef Name="LMA_ArmorBase_Sailingbattleship" ParentName="LMA_ArmorBase" Abstract="True">
+		<thingCategories Inherit="false">
+			<li>LMA_Apparel</li>
+		</thingCategories>
+	</ThingDef>
 
-  <ThingDef Name="LMA_ArmorBase_Submarine" ParentName="LMA_ArmorBase" Abstract="True">
-    <thingCategories Inherit="false">
-      <li>LMA_Apparel</li>
-    </thingCategories>
-  </ThingDef>
+	<ThingDef Name="LMA_ArmorBase_Submarine" ParentName="LMA_ArmorBase" Abstract="True">
+		<thingCategories Inherit="false">
+			<li>LMA_Apparel</li>
+		</thingCategories>
+	</ThingDef>
 
-  <ThingDef Name="LMA_ArmorBase_Submarinecarrier" ParentName="LMA_ArmorBase" Abstract="True">
-    <thingCategories Inherit="false">
-      <li>LMA_Apparel</li>
-    </thingCategories>
-  </ThingDef>
+	<ThingDef Name="LMA_ArmorBase_Submarinecarrier" ParentName="LMA_ArmorBase" Abstract="True">
+		<thingCategories Inherit="false">
+			<li>LMA_Apparel</li>
+		</thingCategories>
+	</ThingDef>
 
-  <ThingDef Name="LMA_ArmorBase_Supercruiser" ParentName="LMA_ArmorBase" Abstract="True">
-    <thingCategories Inherit="false">
-      <li>LMA_Apparel</li>
-    </thingCategories>
-  </ThingDef>
+	<ThingDef Name="LMA_ArmorBase_Supercruiser" ParentName="LMA_ArmorBase" Abstract="True">
+		<thingCategories Inherit="false">
+			<li>LMA_Apparel</li>
+		</thingCategories>
+	</ThingDef>
 
-  <ThingDef Name="LMA_ArmorBase_Transportship" ParentName="LMA_ArmorBase" Abstract="True">
-    <thingCategories Inherit="false">
-      <li>LMA_Apparel</li>
-    </thingCategories>
-  </ThingDef>
+	<ThingDef Name="LMA_ArmorBase_Transportship" ParentName="LMA_ArmorBase" Abstract="True">
+		<thingCategories Inherit="false">
+			<li>LMA_Apparel</li>
+		</thingCategories>
+	</ThingDef>
 
 </Defs>

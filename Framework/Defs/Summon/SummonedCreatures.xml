@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BasePawn" Name="AK_SummonedBodyBase" Abstract="True">
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <PsychicSensitivity>0.5</PsychicSensitivity>
+      <ToxicResistance>1</ToxicResistance>
+      <Flammability>0</Flammability>
+      <ComfyTemperatureMin>-100</ComfyTemperatureMin>
+      <ComfyTemperatureMax>250</ComfyTemperatureMax>
+      <MeatAmount>0</MeatAmount>
+      <ArmorRating_Heat>1.00</ArmorRating_Heat>
+    </statBases>
+    <tradeability>None</tradeability>
+    <race>
+      <fleshType>Mechanoid</fleshType>
+      <needsRest>false</needsRest>
+      <hasGenders>false</hasGenders>
+      <foodType>None</foodType>
+      <body>AK_Body_Summoned</body>
+      <lifeExpectancy>2500</lifeExpectancy>
+      <bloodDef>Filth_MachineBits</bloodDef>
+      <nameGenerator MayRequire="Ludeon.RimWorld.Biotech">NamerMech</nameGenerator>
+      <soundCallIntervalRange>1000~2000</soundCallIntervalRange>
+      <soundCallIntervalFriendlyFactor>2</soundCallIntervalFriendlyFactor>
+    </race>
+    <comps>
+    </comps>
+  </ThingDef>
+
+	<BodyDef>
+		<defName>AK_Body_Summoned</defName>
+		<label>召唤物躯体</label>
+		<corePart>
+			<def>AK_BodyPart_SummonedCore</def>
+			<customLabel>动力核心</customLabel>
+			<height>Bottom</height>
+			<depth>Outside</depth>
+		</corePart>
+	</BodyDef>
+	
+	<BodyPartDef>
+		<defName>AK_BodyPart_SummonedCore</defName>
+		<label>召唤物核心</label>
+		<hitPoints>5</hitPoints>
+		<labelShort>核心</labelShort>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+		<skinCovered>false</skinCovered>
+		<solid>true</solid>
+		<alive>true</alive>
+		<bleedRate>0</bleedRate>
+		<tags>
+			<li>ManipulationLimbCore</li>
+			<li>MovingLimbCore</li>
+			<li>Spine</li>
+			<li>BloodFiltrationSource</li>
+			<li>BreathingSource</li>
+			<li>ConsciousnessSource</li>
+			<li>HearingSource</li>
+			<li>MetabolismSource</li>
+			<li>SightSource</li>
+		</tags>
+	</BodyPartDef>
+</Defs>

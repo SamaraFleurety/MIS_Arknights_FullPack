@@ -33,6 +33,16 @@
 					    <useGraphic>true</useGraphic>
                         <baseLayer>1</baseLayer>
 					</li>
+					<li>
+						<debugLabel>AK_FrontHair_RenderNode</debugLabel>
+						<nodeClass>AK_DLL.RenderNode_FrontHair</nodeClass>
+						<workerClass>AK_DLL.RenderNodeWorker_FrontHair</workerClass>
+						<rotDrawMode>Fresh, Rotting</rotDrawMode>
+						<colorType>Hair</colorType>
+						<skipFlag>Hair</skipFlag>
+					    <useGraphic>true</useGraphic>
+                        <baseLayer>63</baseLayer>
+					</li>
 				</value>
 			</li>
 		    <li Class="PatchOperationAdd">

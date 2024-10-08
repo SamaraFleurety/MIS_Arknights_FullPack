@@ -23,6 +23,16 @@
 		<defName>LMA_Hair_Z23A</defName>
 		<label>妮米发型</label>
 		<texPath>Things/Hair/Destroyer/Z23</texPath>
+		<noGraphic>false</noGraphic>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_FrontHair">
+				<graphicData>
+					<texPath>Things/Hair/Destroyer/Ayanami</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawOffset>(1,0,1)</drawOffset>
+				</graphicData>
+			</li>
+		</modExtensions>
 	</HairDef>
 
 </Defs>
