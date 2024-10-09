@@ -51,6 +51,14 @@
 		<apparel>
 			<wornGraphicPath>Things/LMA_Ships/Destroyer/Z23</wornGraphicPath>			
 		</apparel>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_ExtraGraphicData">
+				<graphicData>
+					<drawOffset>(0,0,0)</drawOffset>
+					<drawSize>(1.7, 1.7)</drawSize>
+				</graphicData>
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 </Defs>

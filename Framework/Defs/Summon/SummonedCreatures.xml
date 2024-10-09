@@ -24,8 +24,20 @@
       <bloodDef>Filth_MachineBits</bloodDef>
       <nameGenerator MayRequire="Ludeon.RimWorld.Biotech">NamerMech</nameGenerator>
       <soundCallIntervalRange>1000~2000</soundCallIntervalRange>
-      <soundCallIntervalFriendlyFactor>2</soundCallIntervalFriendlyFactor>
-    </race>
+      <soundCallIntervalFriendlyFactor>2</soundCallIntervalFriendlyFactor>      
+	  <lifeStageAges>
+        <li>
+          <def>MechanoidFullyFormed</def>
+          <minAge>0</minAge>
+          <soundWounded>Pawn_Mech_Tunneler_Wounded</soundWounded>
+          <soundDeath>Pawn_Mech_Tunneler_Death</soundDeath>
+          <soundCall>Pawn_Mech_Tunneler_Call</soundCall>
+        </li>
+      </lifeStageAges>
+    </race>		
+	<butcherProducts Inherit="False">
+		<Steel>1</Steel>
+	</butcherProducts>
     <comps>
     </comps>
   </ThingDef>
@@ -48,6 +60,7 @@
 		<labelShort>核心</labelShort>
 		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
 		<skinCovered>false</skinCovered>
+		<frostbiteVulnerability>0.01</frostbiteVulnerability>
 		<solid>true</solid>
 		<alive>true</alive>
 		<bleedRate>0</bleedRate>
