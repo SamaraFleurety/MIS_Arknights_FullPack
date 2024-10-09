@@ -20,6 +20,10 @@
                     <graphicClass>Graphic_Multi</graphicClass>
                     <drawSize>(2,2)</drawSize>
 					<!-- <shaderType>TransparentPostLight</shaderType> -->
+                    <drawOffsetSouth>(0,0,0.15)</drawOffsetSouth>
+					<drawOffsetNorth>(0,0,0.15)</drawOffsetNorth>
+					<drawOffsetEast>(0,0,0.15)</drawOffsetEast>
+					<drawOffsetWest>(0,0,0.15)</drawOffsetWest>
 				</bubbleStaticOverlay>
 			</li>
         </comps>
@@ -44,6 +48,10 @@
                     <graphicClass>Graphic_Multi</graphicClass>
                     <drawSize>(2,2)</drawSize>
 					<!-- <shaderType>TransparentPostLight</shaderType> -->
+                    <drawOffsetSouth>(0,0,0.15)</drawOffsetSouth>
+					<drawOffsetNorth>(0,0,0.15)</drawOffsetNorth>
+					<drawOffsetEast>(0,0,0.15)</drawOffsetEast>
+					<drawOffsetWest>(0,0,0.15)</drawOffsetWest>
 				</bubbleStaticOverlay>
 			</li>
         </comps>

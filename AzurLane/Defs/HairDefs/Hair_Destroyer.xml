@@ -11,6 +11,20 @@
 		<defName>LMA_Hair_Ayanami</defName>
 		<label>绫波发型</label>
 		<texPath>Things/Hair/Destroyer/Ayanami</texPath>
+		<noGraphic>true</noGraphic>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_FrontHair">
+				<graphicData>
+					<texPath>Things/Hair/Destroyer/Ayanami</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>0.77</drawSize>
+					<drawOffsetSouth>(0,0,0.42)</drawOffsetSouth>
+					<drawOffsetNorth>(0,0,0.42)</drawOffsetNorth>
+					<drawOffsetEast>(-0.1,0,0.42)</drawOffsetEast>
+					<drawOffsetWest>(0.1,0,0.42)</drawOffsetWest>
+				</graphicData>
+			</li>
+		</modExtensions>
 	</HairDef>
 
 	<HairDef ParentName="LMA_HairBaseF">
@@ -23,13 +37,17 @@
 		<defName>LMA_Hair_Z23A</defName>
 		<label>妮米发型</label>
 		<texPath>Things/Hair/Destroyer/Z23</texPath>
-		<noGraphic>false</noGraphic>
+		<noGraphic>true</noGraphic>
 		<modExtensions>
 			<li Class="AK_DLL.Ext_FrontHair">
 				<graphicData>
-					<texPath>Things/Hair/Destroyer/Ayanami</texPath>
+					<texPath>Things/Hair/Destroyer/Z23</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
-					<drawOffset>(1,0,1)</drawOffset>
+					<drawSize>0.77</drawSize>
+					<drawOffsetSouth>(0,0,0.42)</drawOffsetSouth>
+					<drawOffsetNorth>(0,0,0.42)</drawOffsetNorth>
+					<drawOffsetEast>(-0.1,0,0.42)</drawOffsetEast>
+					<drawOffsetWest>(0.1,0,0.42)</drawOffsetWest>
 				</graphicData>
 			</li>
 		</modExtensions>
