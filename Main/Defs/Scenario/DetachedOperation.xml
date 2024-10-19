@@ -96,10 +96,10 @@
 					<textKey>GameStartDialog</textKey>
 					<closeSound>GameStartSting</closeSound>
 				</li>
-				<li Class="ScenPart_ScatterThingsNearPlayerStart">
-					<def>ScatterThingsNearPlayerStart</def>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
 					<thingDef>AK_Building_RecruitConsole</thingDef>
-					<allowRoofed>True</allowRoofed>
+					<count>1</count>
 				</li>
 				<li Class="ScenPart_ScatterThingsNearPlayerStart">
 					<def>ScatterThingsNearPlayerStart</def>
