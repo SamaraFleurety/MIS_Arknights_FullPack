@@ -8,7 +8,7 @@
 				<energyLostPerDmg>每点伤害减少能量，默认0.33</energyLostPerDmg>
 				<allowEnergyOverflow>是否允许过充，默认否</allowEnergyOverflow>
 				<energyRatioOnReset>重置时能量比率，默认0.2</energyRatioOnReset>
-				<ticksToReset>破碎重置时间，单位tick，默认2400（60秒）</ticksToReset>
+				<ticksToReset>破碎重置时间，单位tick，默认3600（60秒）</ticksToReset>
 				<canAbsorbMeleeDmg>能否吸收近战伤害，默认是</canAbsorbMeleeDmg>
 				<meleeAbsorbFactor>吸收近战伤害时，扣除能量的倍率，越高越弱近战，默认1</meleeAbsorbFactor>
 				<rangedAbsorbFactor>同上，远程伤害。默认1</rangedAbsorbFactor>
