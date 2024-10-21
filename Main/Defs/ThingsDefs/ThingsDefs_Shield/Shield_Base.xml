@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-<!--
+    <!--
 	
 			<li Class="AKS_Shield.TCP_GenericShield">
 				<energyMax>最大能量，默认100</energyMax>              		
@@ -8,7 +8,7 @@
 				<energyLostPerDmg>每点伤害减少能量，默认0.33</energyLostPerDmg>
 				<allowEnergyOverflow>是否允许过充，默认否</allowEnergyOverflow>
 				<energyRatioOnReset>重置时能量比率，默认0.2</energyRatioOnReset>
-				<ticksToReset>破碎重置时间，单位tick，默认3600（60秒）</ticksToReset>
+				<ticksToReset>破碎重置时间，单位tick，默认2400（60秒）</ticksToReset>
 				<canAbsorbMeleeDmg>能否吸收近战伤害，默认是</canAbsorbMeleeDmg>
 				<meleeAbsorbFactor>吸收近战伤害时，扣除能量的倍率，越高越弱近战，默认1</meleeAbsorbFactor>
 				<rangedAbsorbFactor>同上，远程伤害。默认1</rangedAbsorbFactor>
@@ -33,14 +33,14 @@
             <Mass>2.4</Mass>
             <Flammability>0</Flammability>
             <EquipDelay>2</EquipDelay>
-			<DeteriorationRate>0</DeteriorationRate>
-			<Insulation_Cold>20</Insulation_Cold>
-			<Insulation_Heat>10</Insulation_Heat>
+            <DeteriorationRate>0</DeteriorationRate>
+            <Insulation_Cold>20</Insulation_Cold>
+            <Insulation_Heat>10</Insulation_Heat>
         </statBases>
         <tickerType>Normal</tickerType>
         <comps>
             <li Class="CompProperties_Biocodable" />
-			<li Class="AK_DLL.TCP_RemoveMe"/>
+            <li Class="AK_DLL.TCP_RemoveMe"/>
 
             <!--li Class="AKE_VanyaShield.TCP_ShieldBarUIExtension"/-->
         </comps>
@@ -55,17 +55,366 @@
             <bodyPartGroups>
                 <li>Waist</li>
             </bodyPartGroups>
-			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+            <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
         </apparel>
-		<equippedStatOffsets>
-			<Flammability>-10</Flammability>
-		</equippedStatOffsets>
-		<useHitPoints>false</useHitPoints>
-		<burnableByRecipe>false</burnableByRecipe>
-		<relicChance>0</relicChance>
-		<tradeability>None</tradeability>
+        <equippedStatOffsets>
+            <Flammability>-10</Flammability>
+        </equippedStatOffsets>
+        <useHitPoints>false</useHitPoints>
+        <burnableByRecipe>false</burnableByRecipe>
+        <relicChance>0</relicChance>
+        <tradeability>None</tradeability>
         <generateCommonality>0.0</generateCommonality>
-		<generateAllowChance>0</generateAllowChance>
+        <generateAllowChance>0</generateAllowChance>
+    </ThingDef>
+
+    <!-- 术士基础护盾 -->
+
+    <ThingDef ParentName="AKS_BeltBase">
+        <defName>AKS_ShieldBelt_Caster</defName>
+        <label>术士护盾</label>
+        <description>术士干员专属护盾，在有了足够抵御敌人投射物攻击的同时能够在近战中留下足够的空间。</description>
+        <statBases>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/ShieldBubble</texPath>
+            <shaderType>TransparentPostLight</shaderType>
+            <graphicClass>Graphic_Single</graphicClass>
+            <color>(0,210,255)</color>
+        </graphicData>
+        <comps>
+            <li Class="AKS_Shield.TCP_GenericShield">
+                <energyMax>160</energyMax>
+                <energyRegenRate>0.15</energyRegenRate>
+                <energyLostPerDmg>1</energyLostPerDmg>
+                <allowEnergyOverflow>false</allowEnergyOverflow>
+                <energyRatioOnReset>0.2</energyRatioOnReset>
+                <ticksToReset>3600</ticksToReset>
+                <canAbsorbMeleeDmg>true</canAbsorbMeleeDmg>
+                <meleeAbsorbFactor>1</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1</rangedAbsorbFactor>
+                <meleeDodgeChanceFactor>0.1</meleeDodgeChanceFactor>
+            </li>
+            <li Class="AKS_Shield.Extension.TCP_ExtraRenderStatic">
+                <bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/ShieldBubble</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <color>(0,210,255)</color>
+                    <drawSize>(2,2)</drawSize>
+                    <shaderType>TransparentPostLight</shaderType>
+                </bubbleStaticOverlay>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- 重装基础护盾 -->
+
+    <ThingDef ParentName="AKS_BeltBase">
+        <defName>AKS_ShieldBelt_Defender</defName>
+        <label>重装护盾</label>
+        <description>重装干员专属护盾，非常坚固，穿上它宛如被一座堡垒庇护，但是也对行动造成了不便。</description>
+        <statBases>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/ShieldBubble</texPath>
+            <shaderType>TransparentPostLight</shaderType>
+            <graphicClass>Graphic_Single</graphicClass>
+            <color>(255,210,125)</color>
+        </graphicData>
+        <comps>
+            <li Class="AKS_Shield.TCP_GenericShield">
+                <energyMax>300</energyMax>
+                <energyRegenRate>0.15</energyRegenRate>
+                <energyLostPerDmg>0.015</energyLostPerDmg>
+                <allowEnergyOverflow>false</allowEnergyOverflow>
+                <energyRatioOnReset>0.2</energyRatioOnReset>
+                <ticksToReset>6000</ticksToReset>
+                <canAbsorbMeleeDmg>true</canAbsorbMeleeDmg>
+                <meleeAbsorbFactor>1</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1</rangedAbsorbFactor>
+            </li>
+            <li Class="AKS_Shield.Extension.TCP_ExtraRenderStatic">
+                <bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/ShieldBubble</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <color>(255,210,125)</color>
+                    <drawSize>(2,2)</drawSize>
+                    <shaderType>TransparentPostLight</shaderType>
+                </bubbleStaticOverlay>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- 近卫基础护盾 -->
+
+    <ThingDef ParentName="AKS_BeltBase">
+        <defName>AKS_ShieldBelt_Guard</defName>
+        <label>近卫护盾</label>
+        <description>近卫干员专属护盾，有着较强的续航功能，适合近卫干员的持续作战。</description>
+        <statBases>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/ShieldBubble</texPath>
+            <shaderType>TransparentPostLight</shaderType>
+            <graphicClass>Graphic_Single</graphicClass>
+            <color>(255,235,125)</color>
+        </graphicData>
+        <comps>
+            <li Class="AKS_Shield.TCP_GenericShield">
+                <energyMax>240</energyMax>
+                <energyRegenRate>0.2</energyRegenRate>
+                <energyLostPerDmg>0.015</energyLostPerDmg>
+                <allowEnergyOverflow>false</allowEnergyOverflow>
+                <energyRatioOnReset>0.2</energyRatioOnReset>
+                <ticksToReset>4800</ticksToReset>
+                <canAbsorbMeleeDmg>true</canAbsorbMeleeDmg>
+                <meleeAbsorbFactor>1.5</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1.5</rangedAbsorbFactor>
+            </li>
+            <li Class="AKS_Shield.Extension.TCP_ExtraRenderStatic">
+                <bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/ShieldBubble</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <color>(255,235,125)</color>
+                    <drawSize>(2,2)</drawSize>
+                    <shaderType>TransparentPostLight</shaderType>
+                </bubbleStaticOverlay>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- 医疗基础护盾 -->
+
+    <ThingDef ParentName="AKS_BeltBase">
+        <defName>AKS_ShieldBelt_Medic</defName>
+        <label>医疗护盾</label>
+        <description>医疗干员专属护盾，为医疗和后勤干员准备，足够坚固，但是被击破后医疗干员基本上没有多的应对手段。</description>
+        <statBases>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/ShieldBubble</texPath>
+            <shaderType>TransparentPostLight</shaderType>
+            <graphicClass>Graphic_Single</graphicClass>
+            <color>(255,65,0)</color>
+        </graphicData>
+        <comps>
+            <li Class="AKS_Shield.TCP_GenericShield">
+                <energyMax>200</energyMax>
+                <energyRegenRate>0.3</energyRegenRate>
+                <energyLostPerDmg>0.01</energyLostPerDmg>
+                <allowEnergyOverflow>false</allowEnergyOverflow>
+                <energyRatioOnReset>0.3</energyRatioOnReset>
+                <ticksToReset>4800</ticksToReset>
+                <canAbsorbMeleeDmg>true</canAbsorbMeleeDmg>
+                <meleeAbsorbFactor>1</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1</rangedAbsorbFactor>
+                <meleeDodgeChanceFactor>0.2</meleeDodgeChanceFactor>
+            </li>
+            <li Class="AKS_Shield.Extension.TCP_ExtraRenderStatic">
+                <bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/ShieldBubble</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <color>(255,65,0)</color>
+                    <drawSize>(2,2)</drawSize>
+                    <shaderType>TransparentPostLight</shaderType>
+                </bubbleStaticOverlay>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- 狙击基础护盾 -->
+
+    <ThingDef ParentName="AKS_BeltBase">
+        <defName>AKS_ShieldBelt_Sniper</defName>
+        <label>狙击护盾</label>
+        <description>狙击干员专属护盾，在有了足够抵御敌人投射物攻击的同时能够在近战中留下足够的空间。</description>
+        <statBases>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/ShieldBubble</texPath>
+            <shaderType>TransparentPostLight</shaderType>
+            <graphicClass>Graphic_Single</graphicClass>
+            <color>(255,160,125)</color>
+        </graphicData>
+        <comps>
+            <li Class="AKS_Shield.TCP_GenericShield">
+                <energyMax>160</energyMax>
+                <energyRegenRate>0.15</energyRegenRate>
+                <energyLostPerDmg>0.01</energyLostPerDmg>
+                <allowEnergyOverflow>false</allowEnergyOverflow>
+                <energyRatioOnReset>0.2</energyRatioOnReset>
+                <ticksToReset>3600</ticksToReset>
+                <canAbsorbMeleeDmg>true</canAbsorbMeleeDmg>
+                <meleeAbsorbFactor>2</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1</rangedAbsorbFactor>
+                <meleeDodgeChanceFactor>0.1</meleeDodgeChanceFactor>
+            </li>
+            <li Class="AKS_Shield.Extension.TCP_ExtraRenderStatic">
+                <bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/ShieldBubble</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <color>(255,160,125)</color>
+                    <drawSize>(2,2)</drawSize>
+                    <shaderType>TransparentPostLight</shaderType>
+                </bubbleStaticOverlay>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- 特种基础护盾 -->
+
+    <ThingDef ParentName="AKS_BeltBase">
+        <defName>AKS_ShieldBelt_Specialist</defName>
+        <label>特种护盾</label>
+        <description>特种干员专属护盾，进行了特化改造，允许特种干员穿着它进行各种特种行动。</description>
+        <statBases>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/ShieldBubble</texPath>
+            <shaderType>TransparentPostLight</shaderType>
+            <graphicClass>Graphic_Single</graphicClass>
+            <color>(0,255,170)</color>
+        </graphicData>
+        <comps>
+            <li Class="AKS_Shield.TCP_GenericShield">
+                <energyMax>160</energyMax>
+                <energyRegenRate>0.2</energyRegenRate>
+                <energyLostPerDmg>0.01</energyLostPerDmg>
+                <allowEnergyOverflow>false</allowEnergyOverflow>
+                <energyRatioOnReset>0.3</energyRatioOnReset>
+                <ticksToReset>3600</ticksToReset>
+                <canAbsorbMeleeDmg>true</canAbsorbMeleeDmg>
+                <meleeAbsorbFactor>2</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1.5</rangedAbsorbFactor>
+                <meleeDodgeChanceFactor>0.2</meleeDodgeChanceFactor>
+            </li>
+            <li Class="AKS_Shield.Extension.TCP_ExtraRenderStatic">
+                <bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/ShieldBubble</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <color>(0,255,170)</color>
+                    <drawSize>(2,2)</drawSize>
+                    <shaderType>TransparentPostLight</shaderType>
+                </bubbleStaticOverlay>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- 辅助基础护盾 -->
+
+    <ThingDef ParentName="AKS_BeltBase">
+        <defName>AKS_ShieldBelt_Supporter</defName>
+        <label>辅助护盾</label>
+        <description>辅助干员专属护盾，在有了足够抵御敌人投射物攻击的同时能够在近战中留下足够的空间。</description>
+        <statBases>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/ShieldBubble</texPath>
+            <shaderType>TransparentPostLight</shaderType>
+            <graphicClass>Graphic_Single</graphicClass>
+            <color>(115,175,255)</color>
+        </graphicData>
+        <comps>
+            <li Class="AKS_Shield.TCP_GenericShield">
+                <energyMax>160</energyMax>
+                <energyRegenRate>0.15</energyRegenRate>
+                <energyLostPerDmg>0.01</energyLostPerDmg>
+                <allowEnergyOverflow>false</allowEnergyOverflow>
+                <energyRatioOnReset>0.2</energyRatioOnReset>
+                <ticksToReset>3600</ticksToReset>
+                <canAbsorbMeleeDmg>true</canAbsorbMeleeDmg>
+                <meleeAbsorbFactor>2</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1</rangedAbsorbFactor>
+                <meleeDodgeChanceFactor>0.1</meleeDodgeChanceFactor>
+            </li>
+            <li Class="AKS_Shield.Extension.TCP_ExtraRenderStatic">
+                <bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/ShieldBubble</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <color>(115,175,255)</color>
+                    <drawSize>(2,2)</drawSize>
+                    <shaderType>TransparentPostLight</shaderType>
+                </bubbleStaticOverlay>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- 先锋基础护盾 -->
+
+    <ThingDef ParentName="AKS_BeltBase">
+        <defName>AKS_ShieldBelt_Vanguard</defName>
+        <label>先锋护盾</label>
+        <description>先锋干员专属护盾，在足够轻量的同时提供了足够的防御，为第一线的先锋干员保驾护航。</description>
+        <statBases>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/ShieldBubble</texPath>
+            <shaderType>TransparentPostLight</shaderType>
+            <graphicClass>Graphic_Single</graphicClass>
+            <color>(130,255,125)</color>
+        </graphicData>
+        <comps>
+            <li Class="AKS_Shield.TCP_GenericShield">
+                <energyMax>200</energyMax>
+                <energyRegenRate>0.2</energyRegenRate>
+                <energyLostPerDmg>0.015</energyLostPerDmg>
+                <allowEnergyOverflow>false</allowEnergyOverflow>
+                <energyRatioOnReset>0.2</energyRatioOnReset>
+                <ticksToReset>3600</ticksToReset>
+                <canAbsorbMeleeDmg>true</canAbsorbMeleeDmg>
+                <meleeAbsorbFactor>1.5</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1.5</rangedAbsorbFactor>
+                <meleeDodgeChanceFactor>0.1</meleeDodgeChanceFactor>
+            </li>
+            <li Class="AKS_Shield.Extension.TCP_ExtraRenderStatic">
+                <bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/ShieldBubble</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <color>(130,255,125)</color>
+                    <drawSize>(2,2)</drawSize>
+                    <shaderType>TransparentPostLight</shaderType>
+                </bubbleStaticOverlay>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- 其他基础护盾 -->
+
+    <ThingDef ParentName="AKS_BeltBase">
+        <defName>AKS_ShieldBelt_OtherLeader</defName>
+        <label>其他护盾</label>
+        <description>其他护盾</description>
+        <statBases>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/ShieldBubble</texPath>
+            <shaderType>TransparentPostLight</shaderType>
+            <graphicClass>Graphic_Single</graphicClass>
+            <color>(255,255,255)</color>
+        </graphicData>
+        <comps>
+            <li Class="AKS_Shield.TCP_GenericShield">
+                <energyMax>300</energyMax>
+                <energyRegenRate>0.5</energyRegenRate>
+                <energyLostPerDmg>0.15</energyLostPerDmg>
+                <allowEnergyOverflow>false</allowEnergyOverflow>
+                <energyRatioOnReset>0.5</energyRatioOnReset>
+                <ticksToReset>4800</ticksToReset>
+                <canAbsorbMeleeDmg>true</canAbsorbMeleeDmg>
+                <meleeAbsorbFactor>1</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1</rangedAbsorbFactor>
+                <meleeDodgeChanceFactor>0.5</meleeDodgeChanceFactor>
+            </li>
+            <li Class="AKS_Shield.Extension.TCP_ExtraRenderStatic">
+                <bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/ShieldBubble</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <color>(255,255,255)</color>
+                    <drawSize>(2,2)</drawSize>
+                    <shaderType>TransparentPostLight</shaderType>
+                </bubbleStaticOverlay>
+            </li>
+        </comps>
     </ThingDef>
 
 </Defs>

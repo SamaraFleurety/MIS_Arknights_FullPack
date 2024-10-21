@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- 维什戴尔的护盾 -->
+
+    <ThingDef ParentName="AKS_BeltBase">
+        <defName>AKS_ShieldBelt_Wisadel</defName>
+        <label>死魂灵的余息</label>
+        <description>要是还没人管这扇门，我就自己来修了啊。喂，死魂灵，出来干活。</description>
+        <statBases>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/Sniper/ShieldBeltWisadel</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="AKS_Shield.TCP_GenericShield">
+                <energyMax>200</energyMax>
+                <energyRegenRate>0.2</energyRegenRate>
+                <energyLostPerDmg>0.01</energyLostPerDmg>
+                <allowEnergyOverflow>false</allowEnergyOverflow>
+                <energyRatioOnReset>0.2</energyRatioOnReset>
+                <ticksToReset>3600</ticksToReset>
+                <canAbsorbMeleeDmg>true</canAbsorbMeleeDmg>
+                <meleeAbsorbFactor>1</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1</rangedAbsorbFactor>
+                <meleeDodgeChanceFactor>0.1</meleeDodgeChanceFactor>
+            </li>
+            <li Class="AKS_Shield.Extension.TCP_ExtraRenderStatic">
+                <bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/Sniper/ShieldBeltWisadelS</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawOffsetNorth>(0,0.1,0)</drawOffsetNorth>
+                </bubbleStaticOverlay>
+            </li>
+            <li Class="AKS_Shield.Extension.TCP_ExtraRenderRotate">
+                <bubbleRotateTexPath>Things/ShieldBelt/Sniper/ShieldBeltWisadelD</bubbleRotateTexPath>
+            </li>
+            <li Class="AKS_Shield.Extension.TCP_AddHediffWhileActive">
+				<hediff>AK_Hediff_Camouflage</hediff>
+			</li>
+        </comps>
+    </ThingDef>
+
+    <!-- 提丰的护盾 -->
+
+    <ThingDef ParentName="AKS_BeltBase">
+        <defName>AKS_ShieldBelt_Typhon</defName>
+        <label>自然的包容</label>
+        <description>这块小小的南方土壤上，树只能这么长，你们有这样的规矩也没办法。</description>
+        <statBases>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/Sniper/ShieldBeltTyphon</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="AKS_Shield.TCP_GenericShield">
+                <energyMax>180</energyMax>
+                <energyRegenRate>0.2</energyRegenRate>
+                <energyLostPerDmg>0.01</energyLostPerDmg>
+                <allowEnergyOverflow>false</allowEnergyOverflow>
+                <energyRatioOnReset>0.3</energyRatioOnReset>
+                <ticksToReset>4680</ticksToReset>
+                <canAbsorbMeleeDmg>true</canAbsorbMeleeDmg>
+                <meleeAbsorbFactor>2</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1</rangedAbsorbFactor>
+                <meleeDodgeChanceFactor>0.1</meleeDodgeChanceFactor>
+            </li>
+            <li Class="AKS_Shield.Extension.TCP_ExtraRenderStatic">
+                <bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/Sniper/ShieldBeltTyphonS</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+					<drawOffsetNorth>(0,0,0)</drawOffsetNorth>
+                </bubbleStaticOverlay>
+            </li>
+            <li Class="AKS_Shield.Extension.TCP_ExtraRenderRotate">
+                <bubbleRotateTexPath>Things/ShieldBelt/Sniper/ShieldBeltTyphonD</bubbleRotateTexPath>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- 莱伊的护盾 -->
+
+    <ThingDef ParentName="AKS_BeltBase">
+        <defName>AKS_ShieldBelt_Ray</defName>
+        <label>巡哨伙伴·莱菈叶</label>
+        <description>工程部为莱伊改装的专用护盾腰带，能够有效防止在外勤任务中受到意外伤害，莱伊在点头示意并“嗯”了一声后便接过了它。</description>
+        <statBases>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/Sniper/ShieldBeltRayS</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="AKS_Shield.TCP_GenericShield">
+                <energyMax>180</energyMax>
+                <energyRegenRate>0.2</energyRegenRate>
+                <energyLostPerDmg>0.01</energyLostPerDmg>
+                <allowEnergyOverflow>false</allowEnergyOverflow>
+                <energyRatioOnReset>0.3</energyRatioOnReset>
+                <ticksToReset>4680</ticksToReset>
+                <canAbsorbMeleeDmg>true</canAbsorbMeleeDmg>
+                <meleeAbsorbFactor>2</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1</rangedAbsorbFactor>
+                <meleeDodgeChanceFactor>0.1</meleeDodgeChanceFactor>
+            </li>
+            <li Class="AKS_Shield.Extension.TCP_ExtraRenderStatic">
+                <bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/Sniper/ShieldBeltRayS</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+					<drawOffsetNorth>(0,0,0)</drawOffsetNorth>
+                    <shaderType>Transparent</shaderType>
+                </bubbleStaticOverlay>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- 假日威龙陈的护盾 -->
+
+    <ThingDef ParentName="AKS_BeltBase">
+        <defName>AKS_ShieldBelt_ChenHolungday</defName>
+        <label>堇青之夜</label>
+        <description>工程部为莱在使用护盾更有效的时候，陈会毫不犹豫地去使用。这并不意味着她不再信任自己的剑术和腰间的赤霄，只是她强迫自己去理解，如果她要达成目的，那么，在不违背底线的情况下，她应当开拓自己的视野。伊改装的专用护盾腰带，能够有效防止在外勤任务中受到意外伤害，莱伊在点头示意并“嗯”了一声后便接过了它。</description>
+        <statBases>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/Sniper/ShieldBeltChenHolungday</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="AKS_Shield.TCP_GenericShield">
+                <energyMax>150</energyMax>
+                <energyRegenRate>0.18</energyRegenRate>
+                <energyLostPerDmg>0.15</energyLostPerDmg>
+                <allowEnergyOverflow>false</allowEnergyOverflow>
+                <energyRatioOnReset>1</energyRatioOnReset>
+                <ticksToReset>2400</ticksToReset>
+                <canAbsorbMeleeDmg>true</canAbsorbMeleeDmg>
+                <meleeAbsorbFactor>1</meleeAbsorbFactor>
+                <rangedAbsorbFactor>2</rangedAbsorbFactor>
+            </li>
+            <li Class="AKS_Shield.Extension.TCP_ExtraRenderStatic">
+                <bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/Sniper/ShieldBeltChenHolungdayS</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawOffsetNorth>(0,1.1,0)</drawOffsetNorth>
+                    <drawOffsetSouth>(0,1.1,0)</drawOffsetSouth>
+                    <drawOffsetEast>(0,1.1,0)</drawOffsetEast>
+                    <drawOffsetWest>(0,1.1,0)</drawOffsetWest>
+                    <shaderType>Transparent</shaderType>
+                </bubbleStaticOverlay>
+            </li>
+            <li Class="AKS_Shield.Extension.TCP_ExtraRenderStatic">
+                <bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/Sniper/ShieldBeltChenHolungdaySE</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawOffsetNorth>(0,-1.15,0)</drawOffsetNorth>
+                    <drawOffsetSouth>(0,-1.15,0)</drawOffsetSouth>
+                    <drawOffsetEast>(0,-1.15,0)</drawOffsetEast>
+                    <drawOffsetWest>(0,-1.15,0)</drawOffsetWest>
+                    <shaderType>Transparent</shaderType>
+                </bubbleStaticOverlay>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>

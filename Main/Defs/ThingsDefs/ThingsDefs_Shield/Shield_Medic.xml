@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- 闪灵的护盾 -->
+
+    <ThingDef ParentName="AKS_BeltBase">
+        <defName>AKS_ShieldBelt_Shining</defName>
+        <label>黑恶魔的庇护</label>
+        <description>无论繁荣，还是灭亡。</description>
+        <statBases>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/Medic/ShieldBeltShining</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="AKS_Shield.TCP_GenericShield">
+                <energyMax>200</energyMax>
+                <energyRegenRate>0.2</energyRegenRate>
+                <energyLostPerDmg>0.01</energyLostPerDmg>
+                <allowEnergyOverflow>false</allowEnergyOverflow>
+                <energyRatioOnReset>0.3</energyRatioOnReset>
+                <ticksToReset>1800</ticksToReset>
+                <canAbsorbMeleeDmg>true</canAbsorbMeleeDmg>
+                <meleeAbsorbFactor>1</meleeAbsorbFactor>
+                <rangedAbsorbFactor>2</rangedAbsorbFactor>
+            </li>
+            <li Class="AKS_Shield.Extension.TCP_ExtraRenderStatic">
+                <bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/Medic/ShieldBeltShiningS</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawOffsetNorth>(0,0.1,0)</drawOffsetNorth>
+                </bubbleStaticOverlay>
+            </li>
+            <li Class="AKS_Shield.Extension.TCP_ExtraRenderRotate">
+                <bubbleRotateTexPath>Things/ShieldBelt/Medic/ShieldBeltShiningD</bubbleRotateTexPath>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- 闪灵-静谧午夜的护盾 -->
+
+    <ThingDef ParentName="AKS_BeltBase">
+        <defName>AKS_ShieldBelt_ShiningSilentNight</defName>
+        <label>黑恶魔的庇护-静谧午夜</label>
+        <description>无论繁荣，还是灭亡。</description>
+        <statBases>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/Medic/ShieldBeltShining_SilentNight</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="AKS_Shield.TCP_GenericShield">
+                <energyMax>200</energyMax>
+                <energyRegenRate>0.2</energyRegenRate>
+                <energyLostPerDmg>0.01</energyLostPerDmg>
+                <allowEnergyOverflow>false</allowEnergyOverflow>
+                <energyRatioOnReset>0.3</energyRatioOnReset>
+                <ticksToReset>1800</ticksToReset>
+                <canAbsorbMeleeDmg>true</canAbsorbMeleeDmg>
+                <meleeAbsorbFactor>1</meleeAbsorbFactor>
+                <rangedAbsorbFactor>2</rangedAbsorbFactor>
+            </li>
+            <li Class="AKS_Shield.Extension.TCP_ExtraRenderStatic">
+                <bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/Medic/ShieldBeltShining_SilentNightS</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawOffsetNorth>(0,0.1,0)</drawOffsetNorth>
+                </bubbleStaticOverlay>
+            </li>
+            <li Class="AKS_Shield.Extension.TCP_ExtraRenderRotate">
+                <bubbleRotateTexPath>Things/ShieldBelt/Medic/ShieldBeltShining_SilentNightD</bubbleRotateTexPath>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- 夜莺的护盾 -->
+
+    <ThingDef ParentName="AKS_BeltBase">
+        <defName>AKS_ShieldBelt_Nightingale</defName>
+        <label>白恶魔的庇护</label>
+        <description>于睡梦中，她是否也会成为一只自由的飞鸟呢？</description>
+        <statBases>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/Medic/ShieldBeltNightingaleS</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="AKS_Shield.TCP_GenericShield">
+                <energyMax>200</energyMax>
+                <energyRegenRate>0.3</energyRegenRate>
+                <energyLostPerDmg>0.015</energyLostPerDmg>
+                <allowEnergyOverflow>false</allowEnergyOverflow>
+                <energyRatioOnReset>0.3</energyRatioOnReset>
+                <ticksToReset>4800</ticksToReset>
+                <canAbsorbMeleeDmg>true</canAbsorbMeleeDmg>
+                <meleeAbsorbFactor>1</meleeAbsorbFactor>
+                <rangedAbsorbFactor>2</rangedAbsorbFactor>
+                <meleeDodgeChanceFactor>0.3</meleeDodgeChanceFactor>
+            </li>
+            <li Class="AKS_Shield.Extension.TCP_ExtraRenderStatic">
+                <bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/Medic/ShieldBeltNightingaleS</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                </bubbleStaticOverlay>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- 夜莺-挽歌的护盾 -->
+
+    <ThingDef ParentName="AKS_BeltBase">
+        <defName>AKS_ShieldBelt_NightingaleElegy</defName>
+        <label>白恶魔的庇护</label>
+        <description>于睡梦中，她是否也会成为一只自由的飞鸟呢？</description>
+        <statBases>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/Medic/ShieldBeltNightingale_ElegyS</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="AKS_Shield.TCP_GenericShield">
+                <energyMax>200</energyMax>
+                <energyRegenRate>0.3</energyRegenRate>
+                <energyLostPerDmg>0.015</energyLostPerDmg>
+                <allowEnergyOverflow>false</allowEnergyOverflow>
+                <energyRatioOnReset>0.3</energyRatioOnReset>
+                <ticksToReset>4800</ticksToReset>
+                <canAbsorbMeleeDmg>true</canAbsorbMeleeDmg>
+                <meleeAbsorbFactor>1</meleeAbsorbFactor>
+                <rangedAbsorbFactor>2</rangedAbsorbFactor>
+                <meleeDodgeChanceFactor>0.3</meleeDodgeChanceFactor>
+            </li>
+            <li Class="AKS_Shield.Extension.TCP_ExtraRenderStatic">
+                <bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/Medic/ShieldBeltNightingale_ElegyS</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                </bubbleStaticOverlay>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- 凯尔希的护盾 -->
+
+    <ThingDef ParentName="AKS_BeltBase">
+        <defName>AKS_ShieldBelt_Kaltsit</defName>
+        <label>Mon3tr</label>
+        <description>“Mon3tr和我会保护所有人的”</description>
+        <statBases>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/Medic/ShieldBeltKaltsit</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="AKS_Shield.TCP_GenericShield">
+                <energyMax>400</energyMax>
+                <energyRegenRate>0.1</energyRegenRate>
+                <energyLostPerDmg>0.015</energyLostPerDmg>
+                <allowEnergyOverflow>false</allowEnergyOverflow>
+                <energyRatioOnReset>0.2</energyRatioOnReset>
+                <ticksToReset>6000</ticksToReset>
+                <canAbsorbMeleeDmg>true</canAbsorbMeleeDmg>
+                <meleeAbsorbFactor>1</meleeAbsorbFactor>
+                <rangedAbsorbFactor>2</rangedAbsorbFactor>
+            </li>
+            <li Class="AKS_Shield.Extension.TCP_ExtraRenderStatic">
+                <bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/Medic/ShieldBeltKaltsitS</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(3,3)</drawSize>
+                    <drawOffset>(0,0,0.2)</drawOffset>
+                </bubbleStaticOverlay>
+            </li>
+            <li Class="AKS_Shield.Extension.TCP_ExtraRenderRotate">
+                <bubbleRotateTexPath>Things/ShieldBelt/Medic/ShieldBeltKaltsitD</bubbleRotateTexPath>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>

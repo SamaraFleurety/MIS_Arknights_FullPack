@@ -1,115 +1,109 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-    <!-- 林的护盾 -->
+    <!-- 霜星的护盾 -->
 
     <ThingDef ParentName="AKS_BeltBase">
-        <defName>AKS_ShieldBelt_Lin</defName>
-        <label>琉璃璧</label>
-        <description>绛景无别，惟似琉璃。</description>
+        <defName>AKS_ShieldBelt_FrostNova</defName>
+        <label>冬痕</label>
+        <description>你感受到衣角寒霜的余温，你感受到一片轻盈的雪花落在你的肩头，带着冬痕的寂静。</description>
         <statBases>
         </statBases>
         <graphicData>
-            <texPath>Things/ShieldBelt/Caster/ShieldBeltLinS</texPath>
+            <texPath>Things/ShieldBelt/OtherLeader/ShieldBeltFrostNovaS</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <comps>
             <li Class="AKS_Shield.TCP_GenericShield">
-                <energyMax>200</energyMax>
-                <energyRegenRate>0.2</energyRegenRate>
-                <energyLostPerDmg>0.015</energyLostPerDmg>
+                <energyMax>1200</energyMax>
+                <energyRegenRate>0</energyRegenRate>
+                <energyLostPerDmg>0.01</energyLostPerDmg>
                 <allowEnergyOverflow>false</allowEnergyOverflow>
-                <energyRatioOnReset>0.2</energyRatioOnReset>
-                <ticksToReset>3600</ticksToReset>
+                <energyRatioOnReset>0.3</energyRatioOnReset>
+                <ticksToReset>4800</ticksToReset>
                 <canAbsorbMeleeDmg>true</canAbsorbMeleeDmg>
                 <meleeAbsorbFactor>1</meleeAbsorbFactor>
                 <rangedAbsorbFactor>1</rangedAbsorbFactor>
             </li>
             <li Class="AKS_Shield.Extension.TCP_ExtraRenderStatic">
                 <bubbleStaticOverlay>
-                    <texPath>Things/ShieldBelt/Caster/ShieldBeltLinS</texPath>
+                    <texPath>Things/ShieldBelt/OtherLeader/ShieldBeltFrostNovaS</texPath>
                     <graphicClass>Graphic_Single</graphicClass>
                     <drawSize>(2,2)</drawSize>
-                    <shaderType>TransparentPostLight</shaderType>
                 </bubbleStaticOverlay>
             </li>
         </comps>
     </ThingDef>
 
-    <!-- 黑皮姐妹的护盾 -->
+    <!-- 爱布拉娜的护盾 -->
 
     <ThingDef ParentName="AKS_BeltBase">
-        <defName>AKS_ShieldBelt_DesertBlessings</defName>
-        <label>沙原祝福</label>
-        <description>“愿神灵祝福你，祝福你从此远离奴役与饥饿，祝福你如同烈阳、风暴和金色的沙原一般，永远美丽而坚强。”</description>
+        <defName>AKS_ShieldBelt_Eblana</defName>
+        <label>予取予得</label>
+        <description>她赐予他们力量，让他们成为不死的战士，让他们为自己尽忠，现在，是收回这些力量的时候了。</description>
         <statBases>
         </statBases>
         <graphicData>
-            <texPath>Things/ShieldBelt/Caster/ShieldBeltDesertBlessings</texPath>
+            <texPath>Things/ShieldBelt/OtherLeader/ShieldBeltEblana</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <comps>
             <li Class="AKS_Shield.TCP_GenericShield">
-                <energyMax>240</energyMax>
-                <energyRegenRate>0.2</energyRegenRate>
-                <energyLostPerDmg>0.01</energyLostPerDmg>
+                <energyMax>800</energyMax>
+                <energyRegenRate>0.6</energyRegenRate>
+                <energyLostPerDmg>0.015</energyLostPerDmg>
                 <allowEnergyOverflow>false</allowEnergyOverflow>
-                <energyRatioOnReset>0.2</energyRatioOnReset>
+                <energyRatioOnReset>1</energyRatioOnReset>
                 <ticksToReset>3600</ticksToReset>
                 <canAbsorbMeleeDmg>true</canAbsorbMeleeDmg>
                 <meleeAbsorbFactor>1</meleeAbsorbFactor>
                 <rangedAbsorbFactor>1</rangedAbsorbFactor>
-                <meleeDodgeChanceFactor>0.3</meleeDodgeChanceFactor>
             </li>
             <li Class="AKS_Shield.Extension.TCP_ExtraRenderStatic">
                 <bubbleStaticOverlay>
-                    <texPath>Things/ShieldBelt/Caster/ShieldBeltDesertBlessingsS</texPath>
+                    <texPath>Things/ShieldBelt/OtherLeader/ShieldBeltEblanaS</texPath>
                     <graphicClass>Graphic_Single</graphicClass>
                     <drawSize>(2,2)</drawSize>
                     <drawOffsetNorth>(0,0.1,0)</drawOffsetNorth>
                 </bubbleStaticOverlay>
             </li>
             <li Class="AKS_Shield.Extension.TCP_ExtraRenderRotate">
-                <bubbleRotateTexPath>Things/ShieldBelt/Caster/ShieldBeltDesertBlessingsD</bubbleRotateTexPath>
+                <bubbleRotateTexPath>Things/ShieldBelt/OtherLeader/ShieldBeltEblanaD</bubbleRotateTexPath>
             </li>
         </comps>
     </ThingDef>
 
-    <!-- 霍尔海雅的护盾 -->
+    <!-- 普瑞赛斯的护盾 -->
 
     <ThingDef ParentName="AKS_BeltBase">
-        <defName>AKS_ShieldBelt_Hoolheyak</defName>
-        <label>时之刻痕</label>
-        <description>不惜牺牲全族人的寿命，只是为了回到过去......这一切真的有价值吗？</description>
+        <defName>AKS_ShieldBelt_PRTS</defName>
+        <label>至纯源石</label>
+        <description>在工业中用量巨大的源石结晶，但有着较高的提取难度。是世界的主要能源类精加工产物，同时也是几乎所有源石技艺得以施展的根本。</description>
         <statBases>
         </statBases>
         <graphicData>
-            <texPath>Things/ShieldBelt/Caster/ShieldBeltHoolheyak</texPath>
+            <texPath>Things/ShieldBelt/OtherLeader/ShieldBeltPRTSS</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <comps>
             <li Class="AKS_Shield.TCP_GenericShield">
-                <energyMax>180</energyMax>
-                <energyRegenRate>0.3</energyRegenRate>
-                <energyLostPerDmg>0.01</energyLostPerDmg>
+                <energyMax>500</energyMax>
+                <energyRegenRate>0.5</energyRegenRate>
+                <energyLostPerDmg>0.015</energyLostPerDmg>
                 <allowEnergyOverflow>false</allowEnergyOverflow>
-                <energyRatioOnReset>0.3</energyRatioOnReset>
-                <ticksToReset>4680</ticksToReset>
+                <energyRatioOnReset>1</energyRatioOnReset>
+                <ticksToReset>3600</ticksToReset>
                 <canAbsorbMeleeDmg>true</canAbsorbMeleeDmg>
-                <meleeAbsorbFactor>2</meleeAbsorbFactor>
+                <meleeAbsorbFactor>1</meleeAbsorbFactor>
                 <rangedAbsorbFactor>1</rangedAbsorbFactor>
-                <meleeDodgeChanceFactor>0.1</meleeDodgeChanceFactor>
             </li>
             <li Class="AKS_Shield.Extension.TCP_ExtraRenderStatic">
                 <bubbleStaticOverlay>
-                    <texPath>Things/ShieldBelt/Caster/ShieldBeltHoolheyakS</texPath>
+                    <texPath>Things/ShieldBelt/OtherLeader/ShieldBeltPRTSS</texPath>
                     <graphicClass>Graphic_Single</graphicClass>
                     <drawSize>(2,2)</drawSize>
-					<drawOffsetNorth>(0,0.1,0)</drawOffsetNorth>
+                    <drawOffsetNorth>(0,0.1,0)</drawOffsetNorth>
                 </bubbleStaticOverlay>
-            </li>
-            <li Class="AKS_Shield.Extension.TCP_ExtraRenderRotate">
-                <bubbleRotateTexPath>Things/ShieldBelt/Caster/ShieldBeltHoolheyakD</bubbleRotateTexPath>
             </li>
         </comps>
     </ThingDef>

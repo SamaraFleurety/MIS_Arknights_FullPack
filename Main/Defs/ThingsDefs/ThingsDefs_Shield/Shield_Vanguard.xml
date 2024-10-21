@@ -1,115 +1,119 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-    <!-- 林的护盾 -->
+    <!-- 缪尔赛思的护盾 -->
 
     <ThingDef ParentName="AKS_BeltBase">
-        <defName>AKS_ShieldBelt_Lin</defName>
-        <label>琉璃璧</label>
-        <description>绛景无别，惟似琉璃。</description>
+        <defName>AKS_ShieldBelt_Muelsyse</defName>
+        <label>水之形</label>
+        <description>你看着她惊讶，木讷，不知所措，然后握住了你的手。她在邀请你，她渴望与你分享大地。</description>
         <statBases>
         </statBases>
         <graphicData>
-            <texPath>Things/ShieldBelt/Caster/ShieldBeltLinS</texPath>
+            <texPath>Things/ShieldBelt/Vanguard/ShieldBeltMuelsyse</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <comps>
             <li Class="AKS_Shield.TCP_GenericShield">
-                <energyMax>200</energyMax>
-                <energyRegenRate>0.2</energyRegenRate>
-                <energyLostPerDmg>0.015</energyLostPerDmg>
-                <allowEnergyOverflow>false</allowEnergyOverflow>
-                <energyRatioOnReset>0.2</energyRatioOnReset>
-                <ticksToReset>3600</ticksToReset>
-                <canAbsorbMeleeDmg>true</canAbsorbMeleeDmg>
-                <meleeAbsorbFactor>1</meleeAbsorbFactor>
-                <rangedAbsorbFactor>1</rangedAbsorbFactor>
-            </li>
-            <li Class="AKS_Shield.Extension.TCP_ExtraRenderStatic">
-                <bubbleStaticOverlay>
-                    <texPath>Things/ShieldBelt/Caster/ShieldBeltLinS</texPath>
-                    <graphicClass>Graphic_Single</graphicClass>
-                    <drawSize>(2,2)</drawSize>
-                    <shaderType>TransparentPostLight</shaderType>
-                </bubbleStaticOverlay>
-            </li>
-        </comps>
-    </ThingDef>
-
-    <!-- 黑皮姐妹的护盾 -->
-
-    <ThingDef ParentName="AKS_BeltBase">
-        <defName>AKS_ShieldBelt_DesertBlessings</defName>
-        <label>沙原祝福</label>
-        <description>“愿神灵祝福你，祝福你从此远离奴役与饥饿，祝福你如同烈阳、风暴和金色的沙原一般，永远美丽而坚强。”</description>
-        <statBases>
-        </statBases>
-        <graphicData>
-            <texPath>Things/ShieldBelt/Caster/ShieldBeltDesertBlessings</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-        </graphicData>
-        <comps>
-            <li Class="AKS_Shield.TCP_GenericShield">
-                <energyMax>240</energyMax>
-                <energyRegenRate>0.2</energyRegenRate>
+                <energyMax>160</energyMax>
+                <energyRegenRate>0.4</energyRegenRate>
                 <energyLostPerDmg>0.01</energyLostPerDmg>
                 <allowEnergyOverflow>false</allowEnergyOverflow>
                 <energyRatioOnReset>0.2</energyRatioOnReset>
                 <ticksToReset>3600</ticksToReset>
                 <canAbsorbMeleeDmg>true</canAbsorbMeleeDmg>
-                <meleeAbsorbFactor>1</meleeAbsorbFactor>
+                <meleeAbsorbFactor>2</meleeAbsorbFactor>
                 <rangedAbsorbFactor>1</rangedAbsorbFactor>
-                <meleeDodgeChanceFactor>0.3</meleeDodgeChanceFactor>
+                <meleeDodgeChanceFactor>0.2</meleeDodgeChanceFactor>
             </li>
             <li Class="AKS_Shield.Extension.TCP_ExtraRenderStatic">
                 <bubbleStaticOverlay>
-                    <texPath>Things/ShieldBelt/Caster/ShieldBeltDesertBlessingsS</texPath>
+                    <texPath>Things/ShieldBelt/Vanguard/ShieldBeltMuelsyseS</texPath>
                     <graphicClass>Graphic_Single</graphicClass>
                     <drawSize>(2,2)</drawSize>
                     <drawOffsetNorth>(0,0.1,0)</drawOffsetNorth>
                 </bubbleStaticOverlay>
             </li>
             <li Class="AKS_Shield.Extension.TCP_ExtraRenderRotate">
-                <bubbleRotateTexPath>Things/ShieldBelt/Caster/ShieldBeltDesertBlessingsD</bubbleRotateTexPath>
+                <bubbleRotateTexPath>Things/ShieldBelt/Vanguard/ShieldBeltMuelsyseD</bubbleRotateTexPath>
             </li>
         </comps>
     </ThingDef>
 
-    <!-- 霍尔海雅的护盾 -->
+    <!-- 苇草的护盾 -->
 
     <ThingDef ParentName="AKS_BeltBase">
-        <defName>AKS_ShieldBelt_Hoolheyak</defName>
-        <label>时之刻痕</label>
-        <description>不惜牺牲全族人的寿命，只是为了回到过去......这一切真的有价值吗？</description>
+        <defName>AKS_ShieldBelt_Reed</defName>
+        <label>映耀</label>
+        <description>活着的火焰会净化你们污浊的内在。</description>
         <statBases>
         </statBases>
         <graphicData>
-            <texPath>Things/ShieldBelt/Caster/ShieldBeltHoolheyak</texPath>
+            <texPath>Things/ShieldBelt/Vanguard/ShieldBeltReed</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <comps>
             <li Class="AKS_Shield.TCP_GenericShield">
-                <energyMax>180</energyMax>
-                <energyRegenRate>0.3</energyRegenRate>
+                <energyMax>200</energyMax>
+                <energyRegenRate>0.2</energyRegenRate>
                 <energyLostPerDmg>0.01</energyLostPerDmg>
                 <allowEnergyOverflow>false</allowEnergyOverflow>
-                <energyRatioOnReset>0.3</energyRatioOnReset>
-                <ticksToReset>4680</ticksToReset>
+                <energyRatioOnReset>0.2</energyRatioOnReset>
+                <ticksToReset>3600</ticksToReset>
                 <canAbsorbMeleeDmg>true</canAbsorbMeleeDmg>
-                <meleeAbsorbFactor>2</meleeAbsorbFactor>
-                <rangedAbsorbFactor>1</rangedAbsorbFactor>
+                <meleeAbsorbFactor>1</meleeAbsorbFactor>
+                <rangedAbsorbFactor>2</rangedAbsorbFactor>
+                <meleeDodgeChanceFactor>0.2</meleeDodgeChanceFactor>
+            </li>
+            <li Class="AKS_Shield.Extension.TCP_ExtraRenderStatic">
+                <bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/Vanguard/ShieldBeltReedS</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawOffsetNorth>(0,0.1,0)</drawOffsetNorth>
+                </bubbleStaticOverlay>
+            </li>
+            <li Class="AKS_Shield.Extension.TCP_ExtraRenderRotate">
+                <bubbleRotateTexPath>Things/ShieldBelt/Vanguard/ShieldBeltReedD</bubbleRotateTexPath>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- 风笛的护盾 -->
+
+    <ThingDef ParentName="AKS_BeltBase">
+        <defName>AKS_ShieldBelt_Bagpipe</defName>
+        <label>维多利亚铁壁</label>
+        <description>这长江天险后……抱歉走错片场了。</description>
+        <statBases>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/Vanguard/ShieldBeltBagpipe</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="AKS_Shield.TCP_GenericShield">
+                <energyMax>200</energyMax>
+                <energyRegenRate>0.2</energyRegenRate>
+                <energyLostPerDmg>0.01</energyLostPerDmg>
+                <allowEnergyOverflow>false</allowEnergyOverflow>
+                <energyRatioOnReset>0.2</energyRatioOnReset>
+                <ticksToReset>3600</ticksToReset>
+                <canAbsorbMeleeDmg>true</canAbsorbMeleeDmg>
+                <meleeAbsorbFactor>1.5</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1.5</rangedAbsorbFactor>
                 <meleeDodgeChanceFactor>0.1</meleeDodgeChanceFactor>
             </li>
             <li Class="AKS_Shield.Extension.TCP_ExtraRenderStatic">
                 <bubbleStaticOverlay>
-                    <texPath>Things/ShieldBelt/Caster/ShieldBeltHoolheyakS</texPath>
+                    <texPath>Things/ShieldBelt/Vanguard/ShieldBeltBagpipeS</texPath>
                     <graphicClass>Graphic_Single</graphicClass>
                     <drawSize>(2,2)</drawSize>
-					<drawOffsetNorth>(0,0.1,0)</drawOffsetNorth>
+                    <drawOffsetNorth>(0,0.1,0)</drawOffsetNorth>
                 </bubbleStaticOverlay>
             </li>
             <li Class="AKS_Shield.Extension.TCP_ExtraRenderRotate">
-                <bubbleRotateTexPath>Things/ShieldBelt/Caster/ShieldBeltHoolheyakD</bubbleRotateTexPath>
+                <bubbleRotateTexPath>Things/ShieldBelt/Vanguard/ShieldBeltBagpipeD</bubbleRotateTexPath>
             </li>
         </comps>
     </ThingDef>

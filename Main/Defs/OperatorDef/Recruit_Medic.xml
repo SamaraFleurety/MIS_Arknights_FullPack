@@ -12,7 +12,7 @@
 		<hair>AK_Hair_Shining</hair>
 		<apparels Inherit="false">
 			<li>AK_Apparel_Shining</li>
-			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Shining</li>
+			<li>AKS_ShieldBelt_Shining</li>
 		</apparels>
 		<accessory Inherit="false" />
 		<stand>UI/Image/Medic/ShiningStand</stand>
@@ -357,7 +357,7 @@
 			<li>AK_Apparel_Kaltsit</li>
 		</apparels>
 		<accessory Inherit="false">
-			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Kaltsit</li>
+			<li>AKS_ShieldBelt_Kaltsit</li>
 		</accessory>
 		<stand>UI/Image/Medic/KaltsitStand</stand>
 		<headPortrait>UI/Image/Medic/KaltsitPortrait</headPortrait>
@@ -473,7 +473,7 @@
 		<hair>AK_Hair_Nightingale</hair>
 		<apparels Inherit="false">
 			<li>AK_Apparel_Nightingale</li>
-			<li MayRequire="Mlie.VanyaShield">AK_ShieldBelt_Nightingale</li>
+			<li>AKS_ShieldBelt_Nightingale</li>
 		</apparels>
 		<accessory Inherit="false" />
 		<stand>UI/Image/Medic/NightingaleStand</stand>
