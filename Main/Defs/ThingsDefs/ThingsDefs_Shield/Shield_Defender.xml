@@ -100,13 +100,6 @@
                     <drawSize>(2,2)</drawSize>
                 </bubbleStaticOverlay>
             </li>
-            <li Class="AKS_Shield.Extension.TCP_ExtraRenderStatic">
-                <bubbleStaticOverlay>
-                    <texPath>Things/ShieldBelt/Defender/ShieldBeltNianSE</texPath>
-                    <graphicClass>Graphic_Multi</graphicClass>
-                    <drawSize>(2,2)</drawSize>
-                </bubbleStaticOverlay>
-            </li>
         </comps>
     </ThingDef>
 
@@ -139,6 +132,15 @@
                     <texPath>Things/ShieldBelt/Defender/ShieldBeltNianS</texPath>
                     <graphicClass>Graphic_Single</graphicClass>
                     <drawSize>(2,2)</drawSize>
+                </bubbleStaticOverlay>
+            </li>
+            <li Class="AKS_Shield.Extension.TCP_ExtraRenderStatic">
+                <bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/Defender/ShieldBeltNianSE</texPath>
+                    <graphicClass>Graphic_Multi</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawOffsetNorth>(0,2,0)</drawOffsetNorth>
+                    <drawOffsetSouth>(0,0,0)</drawOffsetSouth>
                 </bubbleStaticOverlay>
             </li>
         </comps>
@@ -189,7 +191,7 @@
         <statBases>
         </statBases>
         <graphicData>
-            <texPath>Things/ShieldBelt/Defender/ShieldBeltLiberatedS</texPath>
+            <texPath>Things/ShieldBelt/Defender/ShieldBeltHornS</texPath>
             <graphicClass>Graphic_Multi</graphicClass>
         </graphicData>
         <comps>
@@ -206,7 +208,7 @@
             </li>
             <li Class="AKS_Shield.Extension.TCP_ExtraRenderStatic">
                 <bubbleStaticOverlay>
-                    <texPath>Things/ShieldBelt/Defender/ShieldBeltLiberatedS</texPath>
+                    <texPath>Things/ShieldBelt/Defender/ShieldBeltHornS</texPath>
                     <graphicClass>Graphic_Multi</graphicClass>
                     <drawSize>(2,2)</drawSize>
                     <drawOffsetNorth>(0,0.1,0)</drawOffsetNorth>
