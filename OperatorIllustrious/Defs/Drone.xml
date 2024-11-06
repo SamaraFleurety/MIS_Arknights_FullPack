@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="AK_SummonedBodyBase">
+		<defName>LMA_Summon_Obliterator</defName>
+		<label>清除者-I型</label>
+		<description>光辉的护卫飞机</description>
+		<statBases>
+			<MoveSpeed>10.0</MoveSpeed>
+		</statBases>
+		<comps>
+			<li Class="AKA_Ability.Summon.TCP_SummonedProperties">
+				<timeExpire>-1</timeExpire>
+				<summonCap>3</summonCap>
+			</li>
+			<li Class="AKS_Shield.TCP_GenericShield">
+				<compClass>AKS_Shield.TC_GenericShieldDirect</compClass>
+				<energyMax>750</energyMax>
+				<energyRegenRate>0.001</energyRegenRate>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<PawnKindDef ParentName="BaseMechanoidKind">
+		<defName>LMA_PawnKind_Obliterator</defName>
+		<label>清除者-I型</label>
+		<race>LMA_Summon_Obliterator</race>
+		<combatPower>180</combatPower>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Mechanoid/CentipedeClean</texPath>
+					<!--maskPath>black</maskPath-->
+					<shaderType>Cutout</shaderType>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.8, 0.4)</volume>
+					</shadowData>
+				</bodyGraphicData>
+			</li>
+		</lifeStages>
+		<weaponMoney>10000~10000</weaponMoney>
+		<weaponTags>
+		</weaponTags>
+		<techHediffsChance>1</techHediffsChance>
+		<techHediffsMoney>9999~9999</techHediffsMoney>
+	</PawnKindDef>
+
+</Defs>

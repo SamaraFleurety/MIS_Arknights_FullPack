@@ -26,7 +26,6 @@
         <techLevel>Spacer</techLevel>
         <smeltable>false</smeltable>
         <graphicData>
-            <texPath>Vanya_ShieldBelt/ShieldBelt</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <statBases>
@@ -41,8 +40,6 @@
         <comps>
             <li Class="CompProperties_Biocodable" />
             <li Class="AK_DLL.TCP_RemoveMe"/>
-
-            <!--li Class="AKE_VanyaShield.TCP_ShieldBarUIExtension"/-->
         </comps>
         <thingCategories Inherit="false">
             <li>AK_ShieldBelt</li>

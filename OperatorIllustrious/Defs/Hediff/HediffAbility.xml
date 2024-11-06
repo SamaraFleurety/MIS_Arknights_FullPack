@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- 基本上都是技能相关的hediff，不要单独修改。-->
+	<HediffDef>
+		<defName>LMA_Hediff_Illustrious_InoryEnemy</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>交织的祈愿（敌方）</label>
+		<description>受到光辉同名技能影响。</description>
+		<isBad>false</isBad>
+		<defaultLabelColor>(1,1,0.5)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>96</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-24</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<statFactors>
+					<MoveSpeed>0.8</MoveSpeed>
+					<MeleeDamageFactor>0.75</MeleeDamageFactor>
+					<AKA_Stat_RangedDamageFactor>0.75</AKA_Stat_RangedDamageFactor>
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>LMA_Hediff_Illustrious_InoryFriend</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>交织的祈愿（友方）</label>
+		<description>受到光辉同名技能影响。</description>
+		<isBad>false</isBad>
+		<defaultLabelColor>(1,1,0.5)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>96</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-24</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<statFactors>
+					<MoveSpeed>0.9</MoveSpeed>
+					<MeleeDamageFactor>0.8</MeleeDamageFactor>
+					<AKA_Stat_RangedDamageFactor>0.8</AKA_Stat_RangedDamageFactor>
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef>
+		<defName>LMA_Hediff_Illustrious_InorySelf</defName>
+		<hediffClass>AKA_Ability.Hediff_DynamicStage</hediffClass>
+		<label>交织的祈愿</label>
+		<description>受到光辉同名技能影响。</description>
+		<isBad>false</isBad>
+		<defaultLabelColor>(1,1,0.5)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>96</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-24</severityPerDay>
+			</li>
+		</comps>
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>LMA_Hediff_Illustrious_Dilapidate</defName>
+		<hediffClass>AKA_Ability.Hediff_DynamicStage</hediffClass>
+		<label>极堕残光</label>
+		<description>光辉的主动技能，会根据层数给予不同效果。</description>
+		<isBad>false</isBad>
+		<defaultLabelColor>(1,1,0.5)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>96</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-24</severityPerDay>
+			</li>
+		</comps>
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>LMA_Hediff_Camouflage</defName>
+		<label>隐身</label>
+		<hediffClass>HediffWithComps</hediffClass>
+		<description>隐身desc</description>
+		<isBad>false</isBad>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>200</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_Invisibility">
+				<visibleToPlayer>true</visibleToPlayer>
+			</li>
+			<li Class="HediffCompProperties_DisappearsOnDeath"/>
+			<li Class="HediffCompProperties_SeverityPerSecond">
+				<severityPerSecond>-1</severityPerSecond>
+			</li>
+		</comps>
+	</HediffDef>
+	
+	
+</Defs>

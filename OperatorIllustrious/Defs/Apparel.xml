@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="ApparelBase">
+		<defName>LMA_Apparel_Illustrious</defName>
+		<label>光辉礼服</label>
+		<description>desc</description>
+		<graphicData>
+			<texPath>Warfarin/WarfarinGothic</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.2,1.2)</drawSize>
+		</graphicData>
+		<smeltable>false</smeltable>
+		<useHitPoints>false</useHitPoints>
+		<techLevel>Undefined</techLevel>
+		<statBases>
+			<Mass>4</Mass>
+			<Flammability>0</Flammability>
+			<DeteriorationRate>0</DeteriorationRate>
+			<ArmorRating_Sharp>0.20</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.30</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.20</ArmorRating_Heat>
+			<Insulation_Cold>10</Insulation_Cold>
+			<Insulation_Heat>65</Insulation_Heat>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<ShootingAccuracyPawn>0.2</ShootingAccuracyPawn>
+			<AimingDelayFactor>-0.15</AimingDelayFactor>
+			<MoveSpeed>0.5</MoveSpeed>
+			<WorkSpeedGlobal>0.15</WorkSpeedGlobal>
+		</equippedStatOffsets>
+		<thingCategories Inherit="false">
+			<li>Apparel</li>
+		</thingCategories>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Illustrious/IllustriousSiren</wornGraphicPath>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options" Inherit="false">
+			<options>
+				<li>
+					<only>(255,255,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<burnableByRecipe>false</burnableByRecipe>
+		<relicChance>0</relicChance>
+		<tradeability>None</tradeability>
+		<tickerType>Never</tickerType>
+		<generateCommonality>0</generateCommonality>
+		<generateAllowChance>0</generateAllowChance>
+		<randomizeRotationOnSpawn>false</randomizeRotationOnSpawn>
+		<canLoadIntoCaravan>false</canLoadIntoCaravan>
+		<comps>
+			<li Class="CompProperties_Biocodable"/>
+			<li Class="AK_DLL.TCP_RemoveMe"/>
+			<li Class="SFLib.TCP_HideBody">
+				<hideBody>true</hideBody>
+				<hideHead>true</hideHead>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<HairDef>
+		<defName>LMA_Hair_IllustriousSiren</defName>
+		<label>常暗发型</label>
+		<texPath>Warfarin/WarfarinGothicHair</texPath>
+		<hairGender>Female</hairGender>
+		<noGraphic>true</noGraphic>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_BackHair">
+				<graphicData>
+					<texPath>Illustrious/IllustriousSirenHairB</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>0.77</drawSize>
+					<drawOffsetSouth>(0,0,-0.28)</drawOffsetSouth>
+					<drawOffsetNorth>(0,0,-0.3)</drawOffsetNorth>
+					<drawOffsetEast>(0,0,-0.3)</drawOffsetEast>
+					<drawOffsetWest>(0,0,-0.4)</drawOffsetWest>
+				</graphicData>
+			</li>
+			<li Class="AK_DLL.Ext_FrontHair">
+				<graphicData>
+					<texPath>Illustrious/IllustriousSirenHairF</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>0.77</drawSize>
+					<drawOffsetSouth>(0,0,-0.28)</drawOffsetSouth>
+					<drawOffsetNorth>(0,0,-0.4)</drawOffsetNorth>
+					<drawOffsetEast>(0,0,-0.4)</drawOffsetEast>
+					<drawOffsetWest>(0,0,-0.4)</drawOffsetWest>
+				</graphicData>
+			</li>
+		</modExtensions>
+	</HairDef>
+
+	<ThingDef>
+		<defName>LMA_Weapon_IllustriousSiren</defName>
+		<label>无光镰刃</label>
+		<description>常暗的收割武器</description>
+		<graphicData>
+			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+			<texPath>Illustrious/Weapon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.5,1.5)</drawSize>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.75</AccuracyTouch>
+			<AccuracyShort>0.95</AccuracyShort>
+			<AccuracyMedium>0.8</AccuracyMedium>
+			<AccuracyLong>0.6</AccuracyLong>
+			<RangedWeapon_Cooldown>0.3</RangedWeapon_Cooldown>
+			<Flammability>0</Flammability>
+			<Beauty>3</Beauty>
+			<Mass>1.1</Mass>
+		</statBases>
+		<tools Inherit = "false">
+		  <li>
+			<label>收割</label>
+			<capacities>
+			  <li>Blunt</li>
+			</capacities>
+			<power>15</power>
+			<cooldownTime>1.2</cooldownTime>
+		  </li>
+		</tools>
+		<equippedDistanceOffset>-0.3</equippedDistanceOffset>
+		<thingClass>ThingWithComps</thingClass>
+		<category>Item</category>
+		<drawerType>MapMeshOnly</drawerType>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<altitudeLayer>Item</altitudeLayer>
+		<alwaysHaulable>true</alwaysHaulable>
+		<tickerType>Normal</tickerType>
+		<equipmentType>Primary</equipmentType>
+		<useHitPoints>false</useHitPoints>
+		<pathCost>14</pathCost>
+		<selectable>true</selectable>
+		<smeltable>false</smeltable>
+		<burnableByRecipe>false</burnableByRecipe>
+		<relicChance>0</relicChance>
+		<tradeability>None</tradeability>
+		<techLevel>Industrial</techLevel>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li>
+				<compClass>CompEquippable</compClass>
+			</li>
+			<li Class="CompProperties_Styleable"/>
+			<li Class="CompProperties_Biocodable"/>
+		</comps>
+		<uiIconScale>1.25</uiIconScale>
+	</ThingDef>
+		<ThingDef ParentName="AK_BulletBase_Bow">
+			<defName>AK_Bullet_WarfarinGothic</defName>
+			<label>血球</label>
+			<graphicData>
+				<texPath>Warfarin/WarfarinGothicBullet</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+			</graphicData>
+			<thingClass>Bullet</thingClass>
+			<projectile>
+				<damageDef>Bullet</damageDef>
+				<damageAmountBase>16</damageAmountBase>
+				<stoppingPower>3</stoppingPower>
+				<speed>50</speed>
+				<extraDamages>
+					<li>
+						<def>Flame</def>
+						<amount>12</amount>					<!--伤害数值-->
+						<armorPenetration>0.8</armorPenetration>					<!--穿甲-->
+					</li>
+				</extraDamages>
+				<soundExplode>ThumpCannon_Impact</soundExplode>
+			</projectile>
+		</ThingDef>
+	    
+	<!--Def Class="AK_DLL.OperatorFashionSetDef">
+		<defName>AK_FashionSet_Warfarin_Gothic</defName>
+		<label>常暗（原设）</label>
+		<hair>AK_Hair_WarfarinGothic</hair>
+		<apparels>
+		</apparels>
+		<weapon>AK_Weapon_WarfarinGothic</weapon>
+		<standIndex>2</standIndex>
+	</Def-->
+		
+	<ThingDef Name="AK_BulletBase_Bow" Abstract="True">
+		<category>Projectile</category>
+		<tickerType>Normal</tickerType>
+		<altitudeLayer>Projectile</altitudeLayer>
+		<thingClass>Bullet</thingClass>
+		<label>arrow</label>
+		<useHitPoints>False</useHitPoints>
+		<neverMultiSelect>True</neverMultiSelect>
+		<graphicData>
+			<shaderType>Transparent</shaderType>
+		</graphicData>
+	</ThingDef>
+	
+	<SoundDef>
+		<defName>AK_Sound_Weapon_WarfarinGothic</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>3</maxSimultaneous>
+		<sustain>False</sustain>
+		<subSounds Inherit="False">
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Medic/Warfarin/player_p_atk_p_atk_bloodheal_n</clipPath>
+					</li>
+				</grains>
+				<volumeRange>35~35</volumeRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<ThingDef ParentName="ApparelBase">
+        <defName>LMA_ShieldBelt_IllustriousSiren</defName>
+        <label>机械龙</label>
+        <description>desc</description>
+        <graphicData>
+            <texPath>Shield/Mech_south</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+			<li Class="AKS_Shield.TCP_GenericShield">
+				<energyMax>40</energyMax>              		
+				<energyRegenRate>0.01</energyRegenRate>
+				<energyLostPerDmg>0.33</energyLostPerDmg>
+				<allowEnergyOverflow>true</allowEnergyOverflow>
+				<energyRatioOnReset>1</energyRatioOnReset>
+				<ticksToReset>3600</ticksToReset>
+			</li>
+			<li Class="AKS_Shield.Extension.TCP_ExtraCharges">
+				<maxExtraCharges>5</maxExtraCharges>
+				<chargeInterval>600</chargeInterval>
+				<chargesOnReset>5</chargesOnReset>
+				<displayInfoGizmo>true</displayInfoGizmo>
+				<infoGizmoLabel>黯淡威光</infoGizmoLabel>
+				<infoGizmoDesc>光辉生成数层屏障来保护她，阻止受到的伤害，失去的屏障经过一定时间会自动恢复。</infoGizmoDesc>
+				<infoGizmoIcon>Skill/ShieldExtraCharge</infoGizmoIcon>
+			</li>
+			<li Class="AKS_Shield.Extension.TCP_ExtraRenderStatic">
+				<bubbleStaticOverlay>
+                    <texPath>Shield/Mech</texPath>
+                    <graphicClass>Graphic_Multi</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+					<shaderType>TransparentPostLight</shaderType>
+				</bubbleStaticOverlay>
+			</li>
+            <li Class="CompProperties_Biocodable" />
+			<li Class="AK_DLL.TCP_RemoveMe"/>
+        </comps>
+		<thingClass>Apparel</thingClass>
+        <techLevel>Spacer</techLevel>
+        <smeltable>false</smeltable>
+        <statBases>
+            <Mass>2.4</Mass>
+            <Flammability>0</Flammability>
+            <EquipDelay>2</EquipDelay>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Insulation_Cold>20</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
+        </statBases>
+        <tickerType>Normal</tickerType>
+        <apparel>
+            <careIfWornByCorpse>false</careIfWornByCorpse>
+            <layers>
+                <li>Belt</li>
+            </layers>
+            <bodyPartGroups>
+                <li>Waist</li>
+            </bodyPartGroups>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+        </apparel>
+		<equippedStatOffsets>
+			<Flammability>-10</Flammability>
+		</equippedStatOffsets>
+		<useHitPoints>false</useHitPoints>
+		<burnableByRecipe>false</burnableByRecipe>
+		<relicChance>0</relicChance>
+		<tradeability>None</tradeability>
+        <generateCommonality>0.0</generateCommonality>
+		<generateAllowChance>0</generateAllowChance>
+    </ThingDef>
+	
+</Defs>

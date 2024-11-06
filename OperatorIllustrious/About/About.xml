@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>[FS] - Illustrious ver.Siren</name>
+	<author>Fleurety</author>
+	<authors>
+		<li>Fleurety</li>
+		<li>Saila</li>
+	</authors>
+	<supportedVersions>
+		<li>1.5</li>	
+	</supportedVersions> 
+	<modDependencies>
+		<li>
+			<packageId>FS.LivelyRim</packageId>
+			<displayName>FS Live2D Cubism Framework</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/3012190497</steamWorkshopUrl>
+			<downloadUrl>https://github.com/SamaraFleurety/Rimworld_Arknights</downloadUrl>
+		</li>
+		<li>
+			<packageId>MIS.Framework</packageId>
+			<displayName>MIS - Framework</displayName>
+			<downloadUrl>https://github.com/SamaraFleurety/Rimworld_Arknights</downloadUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>brrainz.harmony</li>
+		<li>Ludeon.RimWorld</li>
+		<li>FS.LivelyRim</li>
+		<li>MIS.Framework</li>
+		<li>MIS.Arknights</li>
+	</loadAfter>	  
+	<description>增加了可招募的华法琳干员，服装是约的私设定。可以独立运行也可以和MIS舟主包运行。Added recruitable operator warfarin with gothic apparel. Works alone or with MIS main pack.</description>	
+	<packageId>FS.IllustriousSiren</packageId>	
+</ModMetaData>

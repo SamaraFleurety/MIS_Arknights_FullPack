@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AKA_Ability.AKAbilityDef Name="AKA_Base" Abstract="True">
+		<label>来自深渊的契约</label>
+		<grouped>false</grouped>
+		<displayGizmoUndraft>false</displayGizmoUndraft>
+		<compEffectList>
+			<li Class="AKA_Ability.AbilityEffect.AE_CostChargeStatic" />
+		</compEffectList>		
+		<abilityClass>AKA_Ability.AKAbility_SelfTarget</abilityClass>
+		<castConditions>
+			<li Class="AKA_Ability.CastConditioner.CC_NeedCharge" />
+		</castConditions>
+		<cooldownProperty>
+		    <SPPerCharge>15</SPPerCharge>
+			<SPUnit>rSecond</SPUnit>
+			<initSP>900</initSP>
+			<maxCharge>10</maxCharge>
+		</cooldownProperty>
+	</AKA_Ability.AKAbilityDef>
+
+	
+</Defs>
