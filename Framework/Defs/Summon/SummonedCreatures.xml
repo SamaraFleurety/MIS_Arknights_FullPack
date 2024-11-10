@@ -17,7 +17,7 @@
     <race>
       <intelligence>ToolUser</intelligence>
       <thinkTreeMain>Mechanoid</thinkTreeMain>
-      <fleshType>Mechanoid</fleshType>
+      <fleshType>Normal</fleshType>
       <needsRest>false</needsRest>
       <hasGenders>false</hasGenders>
       <foodType>None</foodType>
@@ -26,7 +26,9 @@
       <bloodDef>Filth_MachineBits</bloodDef>
       <nameGenerator MayRequire="Ludeon.RimWorld.Biotech">NamerMech</nameGenerator>
       <soundCallIntervalRange>1000~2000</soundCallIntervalRange>
-      <soundCallIntervalFriendlyFactor>2</soundCallIntervalFriendlyFactor>      
+      <soundCallIntervalFriendlyFactor>2</soundCallIntervalFriendlyFactor>    
+	  <gestationPeriodDays>1</gestationPeriodDays>
+      <trainability>None</trainability>
 	  <lifeStageAges>
         <li>
           <def>MechanoidFullyFormed</def>
@@ -42,7 +44,20 @@
 	</butcherProducts>
     <comps>
     </comps>
-  </ThingDef>
+	<tools Inherit="False">
+		<li>
+			<label>近战</label>
+			<labelNoLocation>近战</labelNoLocation>
+			<capacities>
+				<li>Cut</li>
+			</capacities>
+			<power>10.0</power>
+			<armorPenetration>0.23</armorPenetration>
+			<cooldownTime>4</cooldownTime>
+			<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+		</li>
+	</tools>
+	</ThingDef>
 
 	<BodyDef>
 		<defName>AK_Body_Summoned</defName>

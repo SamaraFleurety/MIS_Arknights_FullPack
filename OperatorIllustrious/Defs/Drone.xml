@@ -11,12 +11,17 @@
 		<comps>
 			<li Class="AKA_Ability.Summon.TCP_SummonedProperties">
 				<timeExpire>-1</timeExpire>
-				<summonCap>3</summonCap>
+				<allowDraft>true</allowDraft>
 			</li>
 			<li Class="AKS_Shield.TCP_GenericShield">
 				<compClass>AKS_Shield.TC_GenericShieldDirect</compClass>
 				<energyMax>750</energyMax>
 				<energyRegenRate>0.001</energyRegenRate>
+			</li>
+			<li Class="AKA_Ability.TCP_AKATracker">
+				<abilities>
+					<li>LMA_Ability_Illustrious_DroneExplode</li>
+				</abilities>
 			</li>
 		</comps>
 	</ThingDef>
@@ -29,7 +34,7 @@
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Mechanoid/CentipedeClean</texPath>
+					<texPath>Drone</texPath>
 					<!--maskPath>black</maskPath-->
 					<shaderType>Cutout</shaderType>
 					<graphicClass>Graphic_Multi</graphicClass>
@@ -42,9 +47,84 @@
 		</lifeStages>
 		<weaponMoney>10000~10000</weaponMoney>
 		<weaponTags>
+			<li>LMA_Tag_WeaponSummon_Obliterator</li>
 		</weaponTags>
 		<techHediffsChance>1</techHediffsChance>
 		<techHediffsMoney>9999~9999</techHediffsMoney>
+		<initialResistanceRange>999~9999</initialResistanceRange>
+		<initialWillRange>999~9999</initialWillRange>
 	</PawnKindDef>
+
+	<ThingDef ParentName="BaseGun">
+		<defName>LMA_WeaponSummon_Obliterator</defName>
+		<label>冲击肃清者I型</label>
+		<description>冲击肃清者I型.</description>
+		<techLevel>Spacer</techLevel>
+		<smeltable>false</smeltable>
+		<tradeability>None</tradeability>
+		<destroyOnDrop>true</destroyOnDrop>
+		<graphicData>
+			<texPath>transp</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_ChargeLance</soundInteract>
+		<statBases>
+			<Mass>8</Mass>
+			<AccuracyTouch>0.8</AccuracyTouch>
+			<AccuracyShort>0.6</AccuracyShort>
+			<AccuracyMedium>0.4</AccuracyMedium>
+			<AccuracyLong>0.2</AccuracyLong>
+			<RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+			<MarketValue>9000</MarketValue>
+		</statBases>
+		<weaponTags>
+			<li>LMA_Tag_WeaponSummon_Obliterator</li>
+		</weaponTags>
+		<weaponClasses>
+			<li>RangedHeavy</li>
+		</weaponClasses>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>LMA_Bullet_Obliterator</defaultProjectile>
+				<warmupTime>0.2</warmupTime>
+				<range>15</range>
+				<soundCast>ChargeLance_Fire</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+				<burstShotCount>10</burstShotCount>
+				<targetParams>
+					<canTargetLocations>false</canTargetLocations>
+				</targetParams>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+	<ThingDef ParentName="BaseBullet">
+		<defName>LMA_Bullet_Obliterator</defName>
+		<label>冲击肃清者I型子弹</label>
+		<graphicData>
+			<texPath>Things/Projectile/AssembledRocket</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>12</damageAmountBase>
+			<speed>70</speed>
+		</projectile>
+	</ThingDef>
 
 </Defs>
