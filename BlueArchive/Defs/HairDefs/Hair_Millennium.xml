@@ -5,12 +5,40 @@
 		<defName>BA_Hair_Asuna</defName>
 		<label>一之濑明日奈发型</label>
 		<texPath>Things/Hair/Millennium/Asuna</texPath>
+		<noGraphic>true</noGraphic>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_FrontHair">
+				<graphicData>
+					<texPath>Things/Hair/Millennium/Asuna</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1.3</drawSize>
+					<drawOffsetSouth>(0,0,0.39)</drawOffsetSouth>
+					<drawOffsetNorth>(0,0,0.39)</drawOffsetNorth>
+					<drawOffsetEast>(0.02,0,0.39)</drawOffsetEast>
+					<drawOffsetWest>(-0.02,0,0.39)</drawOffsetWest>
+				</graphicData>
+			</li>
+		</modExtensions>
 	</HairDef>
 
 	<HairDef ParentName="BA_HairBaseF">
 		<defName>BA_Hair_Karin</defName>
 		<label>角楯花凛发型</label>
 		<texPath>Things/Hair/Millennium/Karin</texPath>
+		<noGraphic>true</noGraphic>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_FrontHair">
+				<graphicData>
+					<texPath>Things/Hair/Millennium/Karin</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1.3</drawSize>
+					<drawOffsetSouth>(0,0,0.39)</drawOffsetSouth>
+					<drawOffsetNorth>(0,0,0.39)</drawOffsetNorth>
+					<drawOffsetEast>(0.02,0,0.39)</drawOffsetEast>
+					<drawOffsetWest>(-0.02,0,0.39)</drawOffsetWest>
+				</graphicData>
+			</li>
+		</modExtensions>
 	</HairDef>
 
 	<HairDef ParentName="BA_HairBaseF">
