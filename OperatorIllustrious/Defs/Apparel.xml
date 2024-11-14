@@ -160,30 +160,17 @@
 			<li Class="CompProperties_Biocodable"/>
 		</comps>
 		<uiIconScale>1.25</uiIconScale>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_WeaponWieldGraphics">
+				<alterGraphics>
+					<texPath>Drone_south</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>(10,10)</drawSize>
+					<drawOffsetSouth>(2,0,2)</drawOffsetSouth>
+				</alterGraphics>
+			</li>
+		</modExtensions>
 	</ThingDef>
-		<ThingDef ParentName="AK_BulletBase_Bow">
-			<defName>AK_Bullet_WarfarinGothic</defName>
-			<label>血球</label>
-			<graphicData>
-				<texPath>Warfarin/WarfarinGothicBullet</texPath>
-				<graphicClass>Graphic_Single</graphicClass>
-			</graphicData>
-			<thingClass>Bullet</thingClass>
-			<projectile>
-				<damageDef>Bullet</damageDef>
-				<damageAmountBase>16</damageAmountBase>
-				<stoppingPower>3</stoppingPower>
-				<speed>50</speed>
-				<extraDamages>
-					<li>
-						<def>Flame</def>
-						<amount>12</amount>					<!--伤害数值-->
-						<armorPenetration>0.8</armorPenetration>					<!--穿甲-->
-					</li>
-				</extraDamages>
-				<soundExplode>ThumpCannon_Impact</soundExplode>
-			</projectile>
-		</ThingDef>
 	    
 	<!--Def Class="AK_DLL.OperatorFashionSetDef">
 		<defName>AK_FashionSet_Warfarin_Gothic</defName>
