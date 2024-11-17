@@ -201,6 +201,9 @@
 		<apparels>
 			<li>LMA_Apparel_Laffey</li>
 		</apparels>
+		<accessory Inherit="false">
+			<li>LMA_ShieldBelt_Laffey</li>
+		</accessory>
 		<bodyTypeDef>Thin</bodyTypeDef>		
 		<stand>UI/Image/Destroyer/LaffeyStand</stand>
 		<headPortrait>UI/Image/Destroyer/LaffeyPortrait</headPortrait>
@@ -380,6 +383,216 @@
 		<adultHood>LMA_BackStory_Z23_Adult</adultHood>
 		<standRatio>2.5</standRatio>
 		<standOffset>(0, 0)</standOffset>
+	</AK_DLL.OperatorDef>
+
+	<!-- 标枪 Javelin -->
+
+	<AK_DLL.OperatorDef ParentName="LMA_RecruitBase_Destroyer">
+		<defName>LMA_Recruit_Javelin</defName>
+		<name>HMS</name>
+		<nickname>Javelin</nickname>
+		<description>FIXME</description>
+		<hair>LMA_Hair_Javelin</hair>
+		<apparels>
+			<li>LMA_Apparel_Javelin</li>
+		</apparels>
+		<accessory Inherit="false">
+			<li>LMA_ShieldBelt_Javelin</li>
+		</accessory>
+		<bodyTypeDef>Thin</bodyTypeDef>		
+		<stand>UI/Image/Destroyer/JavelinStand</stand>
+		<headPortrait>UI/Image/Destroyer/JavelinPortrait</headPortrait>
+		<skills>
+			<li>
+				<skill>Animals</skill>
+				<level>4</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Artistic</skill>
+				<level>4</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Construction</skill>
+				<level>6</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Cooking</skill>
+				<level>5</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Crafting</skill>
+				<level>4</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Intellectual</skill>
+				<level>6</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<level>6</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<level>10</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Mining</skill>
+				<level>4</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Plants</skill>
+				<level>5</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<level>8</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<level>6</level>
+				<fireLevel>1</fireLevel>
+			</li>
+		</skills>
+		<traits>
+			<li>
+				<def>LMA_Trait_Javelin</def>
+			</li>
+			<li>
+				<def>NaturalMood</def>
+				<degree>2</degree>
+			</li>
+			<li>
+				<def>Nerves</def>
+				<degree>1</degree>
+			</li>
+		</traits>
+		<age>14</age>
+		<childHood>LMA_BackStory_Javelin_Child</childHood>
+		<adultHood>LMA_BackStory_Javelin_Adult</adultHood>
+		<standRatio>2.5</standRatio>
+		<standOffset>(0, 0)</standOffset>
+	</AK_DLL.OperatorDef>
+
+	<!--  恶毒 Lemalin -->
+
+	<AK_DLL.OperatorDef ParentName="LMA_RecruitBase_Destroyer">
+		<defName>LMA_Recruit_Lemalin</defName>
+		<name>Fantasque</name>
+		<nickname>Lemalin</nickname>
+		<description>FIXME</description>
+		<hair>LMA_Hair_Lemalin</hair>
+		<apparels>
+			<li>LMA_Apparel_Lemalin</li>
+		</apparels>
+		<accessory Inherit="false">
+			<li>LMA_ShieldBelt_Lemalin</li>
+		</accessory>
+		<bodyTypeDef>Thin</bodyTypeDef>		
+		<stand>UI/Image/Destroyer/LemalinStand</stand>
+		<headPortrait>UI/Image/Destroyer/LemalinPortrait</headPortrait>
+		<skills>
+			<li>
+				<skill>Animals</skill>
+				<level>4</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Artistic</skill>
+				<level>5</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Construction</skill>
+				<level>4</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Cooking</skill>
+				<level>4</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Crafting</skill>
+				<level>4</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Intellectual</skill>
+				<level>6</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<level>6</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<level>10</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Mining</skill>
+				<level>4</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Plants</skill>
+				<level>6</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<level>8</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<level>6</level>
+				<fireLevel>0</fireLevel>
+			</li>
+		</skills>
+		<traits>
+			<li>
+				<def>LMA_Trait_Lemalin</def>
+			</li>
+			<li>
+				<def>Beauty</def>
+				<degree>2</degree>
+			</li>
+			<li>
+				<def>Industriousness</def>
+				<degree>-1</degree>
+			</li>
+			<li>
+				<def>Nimble</def>
+			</li>
+			<li>
+				<def>Delicate</def>
+			</li>
+		</traits>
+		<age>14</age>
+		<childHood>LMA_BackStory_Lemalin_Child</childHood>
+		<adultHood>LMA_BackStory_Lemalin_Adult</adultHood>
+		<standRatio>2.5</standRatio>
+		<standOffset>(0, 0)</standOffset>
+		<hediffInate>
+			<li>
+				<hediff>LMA_Hediff_Personal_Lemalin</hediff>
+				<serverity>20</serverity>
+			</li>
+		</hediffInate>
 	</AK_DLL.OperatorDef>
 
 </Defs>

@@ -46,6 +46,14 @@
 		<apparel>
 			<wornGraphicPath>Things/LMA_Ships/Destroyer/Laffey</wornGraphicPath>
 		</apparel>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_ExtraGraphicData">
+				<graphicData>
+					<drawOffset>(0,0,0.3)</drawOffset>
+					<drawSize>(1.3, 1.3)</drawSize>
+				</graphicData>
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 	<ThingDef ParentName="LMA_ArmorBase_Destroyer">
@@ -58,6 +66,48 @@
 		</graphicData>
 		<apparel>
 			<wornGraphicPath>Things/LMA_Ships/Destroyer/Z23</wornGraphicPath>			
+		</apparel>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_ExtraGraphicData">
+				<graphicData>
+					<drawOffset>(0,0,0.3)</drawOffset>
+					<drawSize>(1.3, 1.3)</drawSize>
+				</graphicData>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="LMA_ArmorBase_Destroyer">
+		<defName>LMA_Apparel_Javelin</defName>
+		<label>标枪常服</label>
+		<!-- <description>标枪常服</description> -->
+		<graphicData>
+			<texPath>Things/LMA_Ships/Destroyer/Javelin</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/LMA_Ships/Destroyer/Javelin</wornGraphicPath>			
+		</apparel>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_ExtraGraphicData">
+				<graphicData>
+					<drawOffset>(0,0,0.3)</drawOffset>
+					<drawSize>(1.3, 1.3)</drawSize>
+				</graphicData>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="LMA_ArmorBase_Destroyer">
+		<defName>LMA_Apparel_Lemalin</defName>
+		<label>恶毒常服</label>
+		<!-- <description>恶毒常服</description> -->
+		<graphicData>
+			<texPath>Things/LMA_Ships/Destroyer/Lemalin</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/LMA_Ships/Destroyer/Lemalin</wornGraphicPath>			
 		</apparel>
 		<modExtensions>
 			<li Class="AK_DLL.Ext_ExtraGraphicData">

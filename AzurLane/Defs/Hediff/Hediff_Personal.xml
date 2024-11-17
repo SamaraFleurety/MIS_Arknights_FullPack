@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<HediffDef ParentName="ChronicDiseaseBase">
+		<defName>LMA_Hediff_Personal_Lemalin</defName>
+		<label>【兴奋之毒】</label>
+		<labelNoun>【兴奋之毒】</labelNoun>
+		<isBad>false</isBad>
+		<description>【兴奋之毒】desc</description>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<removeOnRedressChanceByDaysCurve Inherit = "false">
+		</removeOnRedressChanceByDaysCurve>
+		<comps>
+			<li Class="AKE_OperatorExtension.HCP_RandAddHediff">
+				<interval>30</interval>
+				<intervalUnit>day</intervalUnit>
+				<saveChance>0.67</saveChance>
+				<hediffStatsSet>
+					<li>
+						<hediff>Alzheimers</hediff>
+						<randWeight>1</randWeight>
+						<part>Brain</part>
+					</li>
+					<li>
+						<hediff>Asthma</hediff>
+						<randWeight>20</randWeight>
+						<part>Lung</part>
+					</li>
+					<li>
+						<hediff>BadBack</hediff>
+						<randWeight>20</randWeight>
+						<part>Spine</part>
+					</li>
+					<li>
+						<hediff>Cataract</hediff>
+						<randWeight>20</randWeight>
+						<part>Eye</part>
+					</li>
+					<li>
+						<hediff>Dementia</hediff>
+						<randWeight>15</randWeight>
+						<part>Brain</part>
+					</li>
+					<li>
+						<hediff>HearingLoss</hediff>
+						<randWeight>20</randWeight>
+						<part>Ear</part>
+					</li>
+					<li>
+						<hediff>HeartArteryBlockage</hediff>
+						<randWeight>4</randWeight>
+						<part>Heart</part>
+					</li>
+				</hediffStatsSet>
+			</li>
+		</comps>
+	</HediffDef>
+
+</Defs>

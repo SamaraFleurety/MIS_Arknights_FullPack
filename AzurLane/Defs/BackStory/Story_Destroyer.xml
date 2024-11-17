@@ -65,4 +65,40 @@
 		<baseDesc>不知道你憧憬过班上那位成绩优秀、做事一丝不苟的女孩吗？你有幻想过和她一起学习的光景，和她共有的未来吗？Z23就是那样的，不，她就是那个女孩。现在，她来到你的身边了。　不过，和优等生同行的生活可从来不是充满玫瑰色的，如果你不够努力，那也许有一天就会被她远远甩在身后也说不定。所以，假如你心怀憧憬，那就前进吧，指挥官，为了不辜负她的期待。</baseDesc>
 	</BackstoryDef>
 
+	<!-- 标枪 Javelin -->
+
+	<BackstoryDef ParentName="LMA_StoryBase">
+		<defName>LMA_BackStory_Javelin_Child</defName>
+		<slot>Childhood</slot>
+		<title>J级驱逐舰</title>
+		<titleShort>驱逐舰</titleShort>
+		<baseDesc>英国皇家海军的J级驱逐舰。设计上减少了烟囱数量以获得更多空间安装鱼雷发射器，因此尽管主炮相比前身部族级要少一门，仍然有相当的战斗力。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="LMA_StoryBase">
+		<defName>LMA_BackStory_Javelin_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>标枪号驱逐舰</title>
+		<titleShort>驱逐舰</titleShort>
+		<baseDesc>标枪是个十分普通的姑娘，是的，她普通到随处可见，普通到也许只有可爱这个词可以用来形容她。但是这并非坏事，不如说，时至今日她这样还能保持着邻家妹妹一般朴素的姑娘反而是绝无仅有的。作为从一开始就待在指挥官身边的存在，她也许不像其他特色浓厚的姐妹般让人印象深刻，但是她一定令人回味无穷。</baseDesc>
+	</BackstoryDef>
+
+	<!--  恶毒 Lemalin -->
+
+	<BackstoryDef ParentName="LMA_StoryBase">
+		<defName>LMA_BackStory_Lemalin_Child</defName>
+		<slot>Childhood</slot>
+		<title>空想级大型驱逐舰</title>
+		<titleShort>驱逐舰</titleShort>
+		<baseDesc>空想级驱逐舰（Le Fantasque class）是根据法国海军1930年计划而建造的六艘“超级驱逐舰”</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="LMA_StoryBase">
+		<defName>LMA_BackStory_Lemalin_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>恶毒号大型驱逐舰</title>
+		<titleShort>驱逐舰</titleShort>
+		<baseDesc>她隶属于维希教廷，是空想级驱逐舰中的一员。身为维希教廷的守护者，她时而冷静、见微知著，时而狡诈、八面玲珑。她的真身，就藏匿于那柄外身高雅的恶毒之刃中，据说见过的人没有几个……</baseDesc>
+	</BackstoryDef>
+
 </Defs>

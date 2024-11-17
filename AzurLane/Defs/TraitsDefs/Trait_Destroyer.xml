@@ -76,4 +76,55 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<!-- 标枪 Javelin -->
+
+	<TraitDef>
+		<defName>LMA_Trait_Javelin</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>【强袭模式·EX】</label>
+				<description>好好看着标枪的活跃吧！</description>
+				<statOffsets>
+					<MeleeDodgeChance>0.1</MeleeDodgeChance>
+					<MeleeHitChance>0.04</MeleeHitChance>
+					<MoveSpeed>0.2</MoveSpeed>
+				</statOffsets>
+				<statFactors>
+					<IncomingDamageFactor>0.8</IncomingDamageFactor>
+				</statFactors>
+				<skillGains>
+					<Melee>2</Melee>
+				</skillGains>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<!--  恶毒 Lemalin -->
+
+	<TraitDef>
+		<defName>LMA_Trait_Lemalin</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>【兴奋之毒】</label>
+				<description>空想级优雅的实力——是无敌的。</description>
+				<statOffsets>
+					<MeleeDodgeChance>0.15</MeleeDodgeChance>
+					<MeleeHitChance>0.10</MeleeHitChance>
+					<MoveSpeed>0.5</MoveSpeed>
+				</statOffsets>
+				<statFactors>
+					<RestRateMultiplier>0.50</RestRateMultiplier>
+				</statFactors>
+				<skillGains>
+					<Melee>4</Melee>
+					<Medicine>4</Medicine>
+				</skillGains>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>

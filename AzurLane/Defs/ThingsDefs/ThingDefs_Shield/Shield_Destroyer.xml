@@ -30,6 +30,34 @@
     </ThingDef>
 
     <ThingDef ParentName="LMA_BeltBase">
+        <defName>LMA_ShieldBelt_Laffey</defName>
+        <label>拉菲舰装</label>
+        <description>拉菲舰装</description>
+        <statBases>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/Destroyer/ShieldBeltLaffey</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+			<li Class="AKS_Shield.TCP_GenericShield">
+			</li>
+			<li Class="AKS_Shield.Extension.TCP_ExtraRenderStatic">
+				<bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/Destroyer/ShieldBeltLaffeyS</texPath>
+                    <graphicClass>Graphic_Multi</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+					<!-- <shaderType>TransparentPostLight</shaderType> -->
+                    <drawOffsetSouth>(0,0,0.15)</drawOffsetSouth>
+					<drawOffsetNorth>(0,0,0.15)</drawOffsetNorth>
+					<drawOffsetEast>(0,0,0.15)</drawOffsetEast>
+					<drawOffsetWest>(0,0,0.15)</drawOffsetWest>
+				</bubbleStaticOverlay>
+			</li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="LMA_BeltBase">
         <defName>LMA_ShieldBelt_Z23A</defName>
         <label>妮米舰装</label>
         <description>妮米舰装</description>
@@ -45,6 +73,62 @@
 			<li Class="AKS_Shield.Extension.TCP_ExtraRenderStatic">
 				<bubbleStaticOverlay>
                     <texPath>Things/ShieldBelt/Destroyer/ShieldBeltZ23S</texPath>
+                    <graphicClass>Graphic_Multi</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+					<!-- <shaderType>TransparentPostLight</shaderType> -->
+                    <drawOffsetSouth>(0,0,0.15)</drawOffsetSouth>
+					<drawOffsetNorth>(0,0,0.15)</drawOffsetNorth>
+					<drawOffsetEast>(0,0,0.15)</drawOffsetEast>
+					<drawOffsetWest>(0,0,0.15)</drawOffsetWest>
+				</bubbleStaticOverlay>
+			</li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="LMA_BeltBase">
+        <defName>LMA_ShieldBelt_Javelin</defName>
+        <label>标枪舰装</label>
+        <description>标枪舰装</description>
+        <statBases>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/Destroyer/ShieldBeltJavelin</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+			<li Class="AKS_Shield.TCP_GenericShield">
+			</li>
+			<li Class="AKS_Shield.Extension.TCP_ExtraRenderStatic">
+				<bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/Destroyer/ShieldBeltJavelinS</texPath>
+                    <graphicClass>Graphic_Multi</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+					<!-- <shaderType>TransparentPostLight</shaderType> -->
+                    <drawOffsetSouth>(0,0,0.15)</drawOffsetSouth>
+					<drawOffsetNorth>(0,0,0.15)</drawOffsetNorth>
+					<drawOffsetEast>(0,0,0.15)</drawOffsetEast>
+					<drawOffsetWest>(0,0,0.15)</drawOffsetWest>
+				</bubbleStaticOverlay>
+			</li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="LMA_BeltBase">
+        <defName>LMA_ShieldBelt_Lemalin</defName>
+        <label>恶毒舰装</label>
+        <description>恶毒舰装</description>
+        <statBases>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/Destroyer/ShieldBeltLemalin</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+			<li Class="AKS_Shield.TCP_GenericShield">
+			</li>
+			<li Class="AKS_Shield.Extension.TCP_ExtraRenderStatic">
+				<bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/Destroyer/ShieldBeltLemalinS</texPath>
                     <graphicClass>Graphic_Multi</graphicClass>
                     <drawSize>(2,2)</drawSize>
 					<!-- <shaderType>TransparentPostLight</shaderType> -->
