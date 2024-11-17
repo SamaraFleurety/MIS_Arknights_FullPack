@@ -253,4 +253,16 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Specialist">
+		<defName>AK_Apparel_TexasOmertosa</defName>
+		<label>缄默德克萨斯服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Specialist/TexastheOmertosa</texPath>
+			<graphicClass>Graphic_single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Specialist/TexastheOmertosa</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 </Defs>

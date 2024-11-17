@@ -422,4 +422,46 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<!-- 缄默德克萨斯 -->
+
+	<TraitDef>
+        <defName>AK_Trait_TexastheOmertosa</defName>
+        <ignoreConfigErrors>true</ignoreConfigErrors>
+        <commonality>0.0</commonality>
+        <degreeDatas>
+            <li>
+                <label>变革者-普通人</label>
+                <description>她的想法很简单，她不属于那个伟大的理想，她只是一个出于良知，对某些事情感到愤怒的普通人，她唯一能向伺夜他们许诺的只有————她会一直战斗下去，直到叙拉古完全改变，直到她自己粉身碎骨</description>
+                <statOffsets>
+                    <SocialImpact>0.30</SocialImpact>
+                    <CarryingCapacity>25</CarryingCapacity>
+                </statOffsets>
+                <statFactors>
+                    <WorkSpeedGlobal>1.2</WorkSpeedGlobal>
+                    <CertaintyLossFactor>0.5</CertaintyLossFactor>
+                </statFactors>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+    <TraitDef>
+        <defName>AK_Trait_TexastheOmertosaSecond</defName>
+        <ignoreConfigErrors>true</ignoreConfigErrors>
+        <commonality>0.0</commonality>
+        <degreeDatas>
+            <li>
+                <label>破斩桎梏</label>
+                <description>我偶尔会想，罗德岛在做的事业很困难，但你们真的在付诸行动。我？我没那么复杂的想法，但很乐意尽力帮忙。我们所寻找的，都是那份平静的生活</description>
+                <statOffsets>
+                    <MoveSpeed>2.00</MoveSpeed>
+                    <GlobalLearningFactor>0.20</GlobalLearningFactor>
+                </statOffsets>
+                <statFactors>
+                    <IncomingDamageFactor>0.8</IncomingDamageFactor>
+                    <MeleeDamageFactor>1.1</MeleeDamageFactor>
+                </statFactors>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
 </Defs>
