@@ -942,4 +942,92 @@
     </tools>
   </ThingDef>
 
+  <ThingDef ParentName="AK_WeaponBase_Specialist">
+    <defName>AK_Weapon_TexastheOmertosaA</defName>
+    <label>蓝莓</label>
+    <description>Fixme</description>
+    <graphicData>
+        <texPath>Things/AK_Agents/Weapon/Specialist/TexastheOmertosaW</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <tools Inherit = "false">
+        <li>
+            <label>剑捅</label>
+            <capacities>
+              <li>Stab</li>
+            </capacities>
+            <power>27</power>
+            <cooldownTime>0.8</cooldownTime>
+          </li>
+          <li>
+            <label>剑柄猛砸</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <power>24</power>
+            <cooldownTime>1.2</cooldownTime>
+          </li>
+          <li>
+            <label>剑砍</label>
+            <capacities>
+              <li>Poke</li>
+            </capacities>
+            <power>24</power>
+            <cooldownTime>1.0</cooldownTime>
+          </li>
+          <li>
+            <label>剑刺</label>
+            <capacities>
+              <li>Cut</li>
+            </capacities>
+            <power>36</power>
+            <cooldownTime>1.6</cooldownTime>
+          </li>
+    </tools>
+  </ThingDef>
+
+  <ThingDef ParentName="AK_WeaponBase_Specialist">
+    <defName>AK_Weapon_TexastheOmertosaB</defName>
+    <label>黑巧</label>
+    <description>Fixme</description>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Specialist/TexastheOmertosaBW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <tools Inherit = "false">
+      <li>
+        <label>剑捅</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>27</power>
+        <cooldownTime>0.8</cooldownTime>
+      </li>
+      <li>
+        <label>剑柄猛砸</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>24</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>剑砍</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>24</power>
+        <cooldownTime>1.0</cooldownTime>
+      </li>
+      <li>
+        <label>剑刺</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>36</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
 </Defs>
