@@ -409,4 +409,46 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<!-- 忍冬 -->
+
+    <TraitDef>
+        <defName>AK_Trait_Vulpisfoglia</defName>
+        <ignoreConfigErrors>true</ignoreConfigErrors>
+        <commonality>0.0</commonality>
+        <degreeDatas>
+            <li>
+                <label>隐狐之艺</label>
+                <description>她为了杀戮而活，长刀出鞘，便要赶尽杀绝</description>
+                <statOffsets>
+                    <MeleeHitChance>1.0</MeleeHitChance>
+                    <MoveSpeed>1.0</MoveSpeed>
+                    <MentalBreakThreshold>-0.15</MentalBreakThreshold>
+                    <AimingDelayFactor>-0.3</AimingDelayFactor>
+                    <ShootingAccuracyPawn>2</ShootingAccuracyPawn>
+                </statOffsets>
+                <statFactors>
+                    <MeleeDamageFactor>1.5</MeleeDamageFactor>
+                    <PsychicSensitivity>0.5</PsychicSensitivity>
+                </statFactors>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+    <TraitDef>
+        <defName>AK_Trait_VulpisfogliaSecond</defName>
+        <ignoreConfigErrors>ture</ignoreConfigErrors>
+        <commonality>0.0</commonality>
+        <degreeDatas>
+            <li>
+                <label>杀手的假期</label>
+                <description>她摇摇头，干脆弯起手指将那片拼图从桌上弹飞。“这不是休假时该想的事情。”她朝宿舍外走去。预约的理疗时间到了吗？不重要，假期中的杀手可以奢侈地使用她的时间。</description>
+                <statFactors>
+                    <WorkSpeedGlobal>0.9</WorkSpeedGlobal>
+                    <JoyGainFactor>1.1</JoyGainFactor>
+                    <RestRateMultiplier>1.1</RestRateMultiplier>
+                </statFactors>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
 </Defs>

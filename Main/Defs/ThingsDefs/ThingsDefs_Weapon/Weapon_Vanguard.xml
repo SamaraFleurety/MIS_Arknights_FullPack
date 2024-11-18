@@ -967,5 +967,41 @@
       </li>
     </tools>
 	</ThingDef>
+  
+  <ThingDef ParentName="AK_WeaponBase_Vanguard">
+    <defName>AK_Weapon_VulpisfogliaW</defName>
+    <label>忍冬的长刀</label>
+    <description>一把华丽而奇特的长刀，刀上的血或许英格丽自己都说不清有多少人的。</description>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Vanguard/VulpisfogliaW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <tools>
+      <li>
+        <label>剑柄猛砸</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>19</power>
+        <cooldownTime>1.0</cooldownTime>
+      </li>
+      <li>
+        <label>剑捅</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>45</power>
+        <cooldownTime>0.8</cooldownTime>
+      </li>
+      <li>
+        <label>剑砍</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>45</power>
+        <cooldownTime>1.0</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
 
 </Defs>
