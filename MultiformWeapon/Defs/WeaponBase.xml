@@ -63,10 +63,26 @@
 		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>false</hasStandardCommand>
+				<defaultProjectile>FS_Bullet_FreedomRF</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<isPrimary>false</isPrimary>
+				<warmupTime>2.2</warmupTime>				<!--前摇-->
+				<range>45</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_Ifrit</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>FS_Bullet_FreedomRF</defaultProjectile>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
-				<warmupTime>2.2</warmupTime>				<!--前摇-->
+				<warmupTime>22</warmupTime>				<!--前摇-->
 				<range>45</range>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
