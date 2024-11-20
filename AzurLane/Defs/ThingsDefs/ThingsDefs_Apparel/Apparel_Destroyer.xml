@@ -49,7 +49,10 @@
 		<modExtensions>
 			<li Class="AK_DLL.Ext_ExtraGraphicData">
 				<graphicData>
-					<drawOffset>(0,0,0.3)</drawOffset>
+					<drawOffsetSouth>(0,0,0.3)</drawOffsetSouth>
+					<drawOffsetNorth>(0,-0.1,0.3)</drawOffsetNorth>
+					<drawOffsetEast>(0,0,0.3)</drawOffsetEast>
+					<drawOffsetWest>(0,0,0.3)</drawOffsetWest>
 					<drawSize>(1.3, 1.3)</drawSize>
 				</graphicData>
 			</li>
