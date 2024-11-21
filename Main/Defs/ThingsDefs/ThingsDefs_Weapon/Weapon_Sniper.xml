@@ -2373,5 +2373,61 @@
 		</projectile>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_WeaponBase_Sniper">
+		<defName>AK_Weapon_Caper</defName>
+		<label>“转转”</label>
+		<description>跃跃说，这就是她妈妈为她特地制作的玩具。她想要独一无二的玩具，但家里买不起橱窗里的玩偶，妈妈就拿工厂里的废旧零件做了这个。“没有它的话，我就只能玩烂大街的弩箭了，那多没意思了啊”</description>
+		<graphicData>
+		  <texPath>Things/AK_Agents/Weapon/Sniper/CaperW</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+		  <AccuracyTouch>0.65</AccuracyTouch>
+		  <AccuracyShort>0.85</AccuracyShort>
+		  <AccuracyMedium>0.85</AccuracyMedium>
+		  <AccuracyLong>0.75</AccuracyLong>
+		  <RangedWeapon_Cooldown>1.35</RangedWeapon_Cooldown>
+		</statBases>
+		<verbs>
+		  <li>
+			<verbClass>Verb_Shoot</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>AK_Bullet_Caper</defaultProjectile>
+			<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+			<warmupTime>0.85</warmupTime>
+			<range>29.9</range>
+			<soundCast>AK_Sound_Weapon_GeneralPistol</soundCast>
+			<soundCastTail>GunTail_Heavy</soundCastTail>
+			<muzzleFlashScale>4</muzzleFlashScale>
+		  </li>
+		</verbs>
+		<tools Inherit="false">
+				<li>
+					<label>枪托猛砸</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>10</power>
+					<cooldownTime>1.0</cooldownTime>
+				</li>
+			</tools>
+	  </ThingDef>
+	
+	  <ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_Caper</defName>
+		<label>射击</label>
+		<graphicData>
+		  <texPath>Things/Projectile/CaperW/CaperW_Thrown</texPath>
+		  <graphicClass>Graphic_Flicker</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+		  <damageDef>Cut</damageDef>
+		  <damageAmountBase>45</damageAmountBase>
+		  <armorPenetrationBase>0.5</armorPenetrationBase>
+		  <stoppingPower>1.2</stoppingPower>
+		  <speed>50</speed>
+		</projectile>
+	  </ThingDef>
 
 </Defs>

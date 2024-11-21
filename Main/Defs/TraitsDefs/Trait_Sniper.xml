@@ -788,4 +788,40 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<!-- 跃跃 -->
+
+    <TraitDef>
+        <defName>AK_Trait_Caper</defName>
+        <ignoreConfigErrors>true</ignoreConfigErrors>
+        <commonality>0.0</commonality>
+        <degreeDatas>
+            <li>
+                <label>戏耍随心</label>
+                <description>跃跃在迄今为止的人生中只有一个追求————乐趣，用她的话说就是“玩”。她喜欢玩具，喜欢笑话，喜欢新鲜刺激的挑战，不过她最爱的还是和人一起玩。</description>
+                <statOffsets>
+                    <SocialImpact>0.4</SocialImpact>
+                    <JoyFallRateFactor>0.25</JoyFallRateFactor>
+                </statOffsets>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+    <TraitDef>
+        <defName>AK_Trait_CaperSecond</defName>
+        <ignoreConfigErrors>ture</ignoreConfigErrors>
+        <commonality>0.0</commonality>
+        <degreeDatas>
+            <li>
+                <label>乐趣加倍</label>
+                <description>她理解自己过去的尖锐真相，所以才用行为来勘验新的环境。最重要的是，她一直明白自己追求的是什么————她想要真正的快乐。幸好，这是我们能够给予她的。</description>
+                <statOffsets>
+                    <AimingDelayFactor>-0.2</AimingDelayFactor>
+                    <MoveSpeed>1</MoveSpeed>
+                    <MentalBreakThreshold>-0.05</MentalBreakThreshold>
+                    <WorkSpeedGlobal>0.2</WorkSpeedGlobal>
+                </statOffsets>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
 </Defs>

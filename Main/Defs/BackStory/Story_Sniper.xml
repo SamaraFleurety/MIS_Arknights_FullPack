@@ -406,4 +406,20 @@
 		<baseDesc>赤红的梦魇{PAWN_nameDef}，正走在自己的“天途”上。\n{PAWN_pronoun}相信自己即将名扬萨尔贡，{PAWN_pronoun}已经如此相信了很多年。</baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+        <defName>AK_BackStory_Caper_Child</defName>
+        <slot>Childhood</slot>
+        <title>贫民窟的孩子</title>
+        <titleShort>孩子</titleShort>
+        <baseDesc>出生于玻利瓦尔贫民窟的一个单亲家庭，从小被母亲带大，她的母亲是当地军工厂的一名装配工。卡莉到了年纪，自然就和贫民窟的其他孩子一样走上街头。此时的卡莉已经初露捣乱方面的天赋</baseDesc>
+    </BackstoryDef>
+
+    <BackstoryDef ParentName = "AK_StoryBase">
+        <defName>AK_BackStory_Caper_Adult</defName>
+        <slot>Adulthood</slot>
+        <title>雇佣兵</title>
+        <titleShort>雇佣兵</titleShort>
+        <baseDesc>为了制造混乱取乐，跃跃在玻利瓦尔冲突频发的地区，承接各方势力的短期雇佣，暗中给敌对势力制造混乱。</baseDesc>
+    </BackstoryDef>
+
 </Defs>

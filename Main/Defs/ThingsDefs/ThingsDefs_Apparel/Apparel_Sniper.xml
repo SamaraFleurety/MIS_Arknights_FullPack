@@ -397,4 +397,16 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Sniper">
+        <defName>AK_Apparel_Caper</defName>
+        <lebel>跃跃服装</lebel>
+        <graphicData>
+            <texPath>Things/AK_Agents/Sniper/Caper</texPath>
+            <graphicData>Graphic_single</graphicData>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Things/AK_Agents/Sniper/Caper</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+
 </Defs>
