@@ -17,6 +17,16 @@
 			<RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
 			<!--后摇-->
 		</statBases>
+		<modExtensions>
+            <li Class="AK_DLL.Ext_WeaponwieldGraphics">
+                <alterGraphics>
+                    <texPath>Things/BA_Students/Weapon/Millennium/AsunaW</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>1.5</drawSize>
+                    <drawOffset>(0.1,0,0.3)</drawOffset>
+                </alterGraphics>
+            </li>
+        </modExtensions>
 		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
@@ -102,6 +112,16 @@
 			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
 			<!--后摇-->
 		</statBases>
+		<modExtensions>
+            <li Class="AK_DLL.Ext_WeaponwieldGraphics">
+                <alterGraphics>
+                    <texPath>Things/BA_Students/Weapon/Millennium/KarinW</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>1.0</drawSize>
+                    <drawOffset>(0,0,0.2)</drawOffset>
+                </alterGraphics>
+            </li>
+        </modExtensions>
 		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
