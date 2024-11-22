@@ -292,4 +292,16 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Medic">
+        <defName>AK_Apparel_Papyrus</defName>
+        <label>莎草服装</label>
+        <graphicData>
+            <texPath>Things/AK_Agents/Medic/Papyrus</texPath>
+            <graphicClass>Graphic_single</graphicClass>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Things/AK_Agents/Medic/Papyrus</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+
 </Defs>

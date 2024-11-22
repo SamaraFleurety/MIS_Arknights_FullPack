@@ -923,4 +923,48 @@
     </graphicData>
   </ThingDef>
 
+  <ThingDef ParentName="AK_WeaponBase_Medic">
+    <defName>AK_Weapon_Papyrus</defName>
+    <label>莎草的法杖</label>
+    <description>Fixme</description>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Medic/PapyrusW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <AccuracyTouch>0.55</AccuracyTouch>
+      <AccuracyShort>0.64</AccuracyShort>
+      <AccuracyMedium>0.55</AccuracyMedium>
+      <AccuracyLong>0.45</AccuracyLong>
+      <RangedWeapon_Cooldown>2.00</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>AK_Bullet_Medic_Common</defaultProjectile>
+        <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+        <warmupTime>1.0</warmupTime>
+        <range>25.9</range>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <soundCast>AK_Sound_Weapon_Magic</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <noiseRadius>3</noiseRadius>
+      </li>
+    </verbs>
+    <tools Inherit="false">
+      <li>
+        <label>法杖敲击</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
 </Defs>

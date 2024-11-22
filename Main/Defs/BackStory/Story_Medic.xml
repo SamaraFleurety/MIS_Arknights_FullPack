@@ -233,4 +233,20 @@
 		<baseDesc>在{PAWN_nameDef}生活的小镇被血魔大君的仪式彻底摧毁后，被救出的刺玫加入了伦蒂尼姆自救军，并在后者的牵线搭桥下加入了罗德岛，伦蒂尼姆事件结束之后，玛格达尔主动申请回到维多利亚重建家乡，并担任当地罗德岛办事处的联络员。</baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+        <defName>AK_BackStory_Papyrus_Child</defName>
+        <slot>Childhood</slot>
+        <title>代理馆长</title>
+        <titleShort>馆长</titleShort>
+        <baseDesc>从学校毕业后，阿娜特便作为法尔贾万达巴德博物馆的代理馆长兢兢业业地管理着博物馆。</baseDesc>
+    </BackstoryDef>
+
+    <BackstoryDef ParentName = "AK_StoryBase">
+        <defName>AK_BackStory_Papyrus_Adult</defName>
+        <slot>Adulthood</slot>
+        <title>旅者</title>
+        <titleShort>旅者</titleShort>
+        <baseDesc>她正在观察他人的生活，她也在找寻自己的生活。愿与你同行，共同寻找生活的真谛。</baseDesc>
+    </BackstoryDef>
+
 </Defs>
