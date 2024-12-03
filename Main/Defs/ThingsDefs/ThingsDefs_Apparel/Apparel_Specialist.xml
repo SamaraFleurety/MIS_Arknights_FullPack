@@ -265,4 +265,16 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Specialist">
+		<defName>AK_Apparel_TexastheOmertosaIlSegretoDellaNotte</defName>
+		<label>幽兰秘辛</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Specialist/TexastheOmertosa_IlSegretoDellaNotte</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Specialist/TexastheOmertosa_IlSegretoDellaNotte</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 </Defs>

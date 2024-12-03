@@ -266,6 +266,18 @@
 	</ThingDef>
 
 	<ThingDef ParentName="AK_ArmorBase_Supporter">
+		<defName>AK_Apparel_VirtuosaDiversityOneness</defName>
+		<label>塑心-无我唯识</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Supporter/VirtuosaDiversityOneness</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Supporter/VirtuosaDiversityOneness</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Supporter">
 		<defName>AK_Apparel_CivilightEterna</defName>
 		<label>魔王服装</label>
 		<graphicData>
