@@ -36,7 +36,7 @@
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1</maxSeverity>
 		<comps>
-			<li Class="AK_DLL.HCP_SelfExplosion">
+			<li Class="AKA_Ability.HCP_SelfExplosion">
 				<afterTicks>120</afterTicks>
 				<radius>1</radius>
 				<damage>10</damage>
@@ -54,7 +54,7 @@
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1</maxSeverity>
 		<comps>
-			<li Class="AK_DLL.HCP_DpsEnhance_Melee">
+			<li Class="AKA_Ability.HCP_DpsEnhance_Melee">
 				<interval>1</interval>
 				<procedureCount>1</procedureCount>
 				<enhanceEndTime>10</enhanceEndTime>
@@ -64,7 +64,7 @@
 		</comps>
 	</HediffDef>
 
-	<HediffDef>
+	<!--HediffDef>
 		<defName>AK_Hediff_EnhancerRanged</defName>
 		<hediffClass>HediffWithComps</hediffClass>
 		<label>RangedEnhancer</label>
@@ -74,7 +74,7 @@
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1</maxSeverity>
 		<comps>
-			<li Class="AK_DLL.HCP_DpsEnhance_Ranged">
+			<li Class="AKA_Ability.HCP_DpsEnhance_Ranged">
 				<statOffset>
 					<damage>0</damage>
 					<stats>
@@ -84,7 +84,7 @@
 				<duration>30</duration>
 			</li>
 		</comps>
-	</HediffDef>
+	</HediffDef-->
 
 	<HediffDef>
 		<defName>AK_Hediff_BloodLoss</defName>
@@ -96,7 +96,7 @@
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1</maxSeverity>
 		<comps>
-			<li Class="AK_DLL.HCP_BloodLoss">
+			<li Class="AKA_Ability.HCP_BloodLoss">
 				<duration>10</duration>
 				<delay>1</delay>
 				<lossAmount>0.02</lossAmount>
