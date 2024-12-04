@@ -188,5 +188,17 @@
 		<label>莱伊发型</label>
 		<texPath>Things/Hair/Sniper/Ray</texPath>
 	</HairDef>
+	
+	<HairDef ParentName="AK_HairBaseF">
+		<defName>AK_Hair_Narantuya</defName>
+		<label>娜仁图亚发型</label>
+		<texPath>Things/Hair/Sniper/Narantuya</texPath>
+	</HairDef>
+
+	<HairDef ParentName="AK_HairBaseF">
+        <defName>AK_Hair_Caper</defName>
+        <label>跃跃发型</label>
+        <texPath>Things/Hair/Sniper/Caper</texPath>
+    </HairDef>
 
 </Defs>
