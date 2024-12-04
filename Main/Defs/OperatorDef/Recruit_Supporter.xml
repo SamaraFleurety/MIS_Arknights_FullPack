@@ -819,7 +819,10 @@
 			<li>AKS_ShieldBelt_Ling</li>
 		</accessory>
 		<stand>UI/Image/Supporter/LingStand</stand>
-		<standAnimation>AK_Spine_Ling_dynillust_Nian</standAnimation>
+		<fashionAnimation>
+		    <li>AK_Spine_Ling_dynillust_E2</li>
+		    <li>AK_Spine_Ling_dynillust_Nian</li>
+		</fashionAnimation>
 		<headPortrait>UI/Image/Supporter/LingPortrait</headPortrait>
 		<traits>
 			<li>
