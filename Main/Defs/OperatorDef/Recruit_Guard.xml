@@ -2516,7 +2516,10 @@
 			<li>AK_Apparel_Chongyue</li>
 		</apparels>
 		<stand>UI/Image/Guard/ChongyueStand</stand>
-		<standAnimation>AK_Spine_Chongyue_dynillust_Nian</standAnimation>
+		<fashionAnimation>
+		    <li>AK_Spine_Chongyue_dynillust_E2</li>
+		    <li>AK_Spine_Chongyue_dynillust_Nian</li>
+		</fashionAnimation>
 		<headPortrait>UI/Image/Guard/ChongyuePortrait</headPortrait>
 		<traits>
 			<li>

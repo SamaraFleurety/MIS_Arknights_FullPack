@@ -542,7 +542,10 @@
 			<li>AKS_ShieldBelt_Nian</li>
 		</accessory>
 		<stand>UI/Image/Defender/NianStand</stand>
-		<standAnimation>AK_Spine_Nian_dynillust_Nian</standAnimation>
+		<fashionAnimation>
+		    <li>AK_Spine_Nian_dynillust_E2</li>
+		    <li>AK_Spine_Nian_dynillust_Nian</li>
+		</fashionAnimation>
 		<headPortrait>UI/Image/Defender/NianPortrait</headPortrait>
 		<skills>
 			<li>
@@ -2077,7 +2080,9 @@
 			<li>AKS_ShieldBelt_Shu</li>
 		</accessory>
 		<stand>UI/Image/Defender/ShuStand</stand>
-		<standAnimation>AK_Spine_Shu_dynillust_E2</standAnimation>
+		<fashionAnimation>
+		    <li>AK_Spine_Shu_dynillust_E2</li>
+		</fashionAnimation>
 		<headPortrait>UI/Image/Defender/ShuPortrait</headPortrait>
 		<skills>
 			<li>
