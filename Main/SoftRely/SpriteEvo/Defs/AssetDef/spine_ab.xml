@@ -4,19 +4,19 @@
     <!-- DefName格式: 组名/模组名 + Spine + ID--> 
 	<!-- skelFormat: 骨架数据的格式,选择二进制数据或者JSON格式-->
 	<!-- offset三维变量 指定场景内动画的偏移量 ,uioffset指定UI贴图的偏移量,Z轴调整投影距离-->
-    <!-- assetBundle/folderPath: Asset_Spine/路径内的ab包文件全称 或者json文件夹名称-->
+    <!-- filePath: Asset_Spine/路径下的ab包文件路径 或者json文件夹名称-->
     <!-- atlas: ab包里指定atlas数据的文件全称(带拓展名)-->
     <!-- skeleton: ab包里指定skeleton数据的文件全称(带拓展名)-->
     <!-- shader: 保持默认为Spine/Skeleton -->
     <!-- materials/textures: 指定使用现成材质或PNG贴图,建议优先用material-->
-    <!-- useStraightAlpha: 启用shader功能 不使用PMA混合模式贴图. 可解决渲染出现白边的问题 材质已经启用也要填true-->
+    <!-- useStraightAlpha: 启用shader功能 不使用PMA混合模式贴图. 可解决渲染出现白边的问题 已经有material了就不用填-->
 
     <SpriteEvo.SpineAssetDef>
 		<defName>AK_Spine_Dusk_dynillust_E2</defName>
         <asset>
             <StraightAlphaInput>true</StraightAlphaInput>           
             <version>3.8</version>
-            <assetBundle>Spine/asset_dyn_suifamily</assetBundle>
+            <filePath>Spine/asset_dyn_suifamily</filePath>
             <seriesname>dyn_illust_char_2015_dusk</seriesname>
             <materials>
 				<li>dyn_illust_char_2015_dusk_Material</li>
@@ -31,7 +31,7 @@
         <asset>
             <StraightAlphaInput>false</StraightAlphaInput>           
             <version>3.8</version>
-            <assetBundle>Spine/asset_dyn_suifamily</assetBundle>
+            <filePath>Spine/asset_dyn_suifamily</filePath>
             <seriesname>dyn_illust_char_2015_dusk_nian#7</seriesname>
             <materials>
 				<li>dyn_illust_char_2015_dusk_nian#7_dyn_illust_char_2015_dusk_nian#7</li>
@@ -45,7 +45,7 @@
         <asset>
             <StraightAlphaInput>false</StraightAlphaInput>
             <version>3.8</version>
-            <assetBundle>Spine/asset_dyn_suifamily</assetBundle>
+            <filePath>Spine/asset_dyn_suifamily</filePath>
             <atlas>dyn_illust_char_2014_nian.atlas.txt</atlas>
             <skeleton>dyn_illust_char_2014_nian2.skel.bytes</skeleton>
             <materials>
@@ -60,7 +60,7 @@
         <asset>
             <StraightAlphaInput>true</StraightAlphaInput>
             <version>3.8</version>
-            <assetBundle>Spine/asset_dyn_suifamily</assetBundle>
+            <filePath>Spine/asset_dyn_suifamily</filePath>
             <seriesname>dyn_illust_char_2014_nian_nian#4</seriesname>
             <materials>
                 <li>dyn_illust_char_2014_nian_nian#4_Material</li>
@@ -74,7 +74,7 @@
         <asset>
             <StraightAlphaInput>false</StraightAlphaInput>
             <version>3.8</version>
-            <assetBundle>Spine/asset_dyn_suifamily</assetBundle>
+            <filePath>Spine/asset_dyn_suifamily</filePath>
             <seriesname>dyn_illust_char_2023_ling</seriesname>
             <materials>
                 <li>dyn_illust_char_2023_ling_dyn_illust_char_2023_ling</li>
@@ -88,7 +88,7 @@
         <asset>
             <StraightAlphaInput>true</StraightAlphaInput>
             <version>3.8</version>
-            <assetBundle>Spine/asset_dyn_suifamily</assetBundle>
+            <filePath>Spine/asset_dyn_suifamily</filePath>
             <seriesname>dyn_illust_char_2023_ling_ncg#1</seriesname>
             <materials>
                 <li>dyn_illust_char_2023_ling_ncg#1_Material</li>
@@ -102,7 +102,7 @@
         <asset>
             <StraightAlphaInput>true</StraightAlphaInput>
             <version>3.8</version>
-            <assetBundle>Spine/asset_dyn_suifamily</assetBundle>
+            <filePath>Spine/asset_dyn_suifamily</filePath>
             <seriesname>dyn_illust_char_2024_chyue</seriesname>
             <materials>
                 <li>dyn_illust_char_2024_chyue_Material</li>
@@ -116,7 +116,7 @@
         <asset>
             <StraightAlphaInput>true</StraightAlphaInput>
             <version>3.8</version>
-            <assetBundle>Spine/asset_dyn_suifamily</assetBundle>
+            <filePath>Spine/asset_dyn_suifamily</filePath>
             <seriesname>dyn_illust_char_2024_chyue_nian#10</seriesname>
             <materials>
                 <li>dyn_illust_char_2024_chyue_nian#10_Material</li>
@@ -129,7 +129,7 @@
         <asset>
             <StraightAlphaInput>true</StraightAlphaInput>
             <version>3.8</version>
-            <assetBundle>Spine/asset_dyn_suifamily</assetBundle>
+            <filePath>Spine/asset_dyn_suifamily</filePath>
             <seriesname>dyn_illust_char_2025_shu</seriesname>
             <materials>
                 <li>dyn_illust_char_2025_shu_Material</li>
