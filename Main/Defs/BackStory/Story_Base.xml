@@ -1,28 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-    <BackstoryDef Abstract="True" Name="AK_StoryBase">
-        <workDisables>None</workDisables>
-        <requiredWorkTags>None</requiredWorkTags>
-        <shuffleable>False</shuffleable>
-    </BackstoryDef>
-
-    <BackstoryDef ParentName = "AK_StoryBase">
-		<defName>AK_BackStory_Unknown_Child</defName>
-		<slot>Childhood</slot>
-		<title>不明</title>
-		<titleShort>不明</titleShort>
-		<baseDesc>履历缺失</baseDesc>
-	</BackstoryDef>
-
-	<BackstoryDef ParentName = "AK_StoryBase">
-		<defName>AK_BackStory_Unknown_Adult</defName>
-		<slot>Adulthood</slot>
-		<title>不明</title>
-		<titleShort>不明</titleShort>
-		<baseDesc>履历缺失</baseDesc>
-	</BackstoryDef>
-
     <BackstoryDef ParentName = "AK_StoryBase">
 		<defName>AK_BackStory_UrsusStudent</defName>
 		<slot>Childhood</slot>
