@@ -506,7 +506,7 @@
 		<stand>UI/Image/OtherLeader/PRTSStand</stand>
 		<headPortrait>UI/Image/OtherLeader/PRTSPortrait</headPortrait>
 		<traits>
-			<li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">
 				<def>PerfectMemory</def>
 			</li>
 			<li>
