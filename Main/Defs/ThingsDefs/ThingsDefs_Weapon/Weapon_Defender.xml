@@ -234,7 +234,7 @@
 		</graphicData>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_WeaponBase_Defender">
+	<ThingDef ParentName="AK_WeaponBase_Defender" Name="AK_Weapon_NianA">
 		<defName>AK_Weapon_NianA</defName>
 		<label>干明可鉴</label>
 		<description>“生杀之机，焉能拱手相让？”</description>
@@ -254,7 +254,16 @@
 		</tools>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_WeaponBase_Defender">
+	<ThingDef ParentName="AK_Weapon_NianA">
+		<defName>AK_Weapon_NianUnfetteredFreedom</defName>
+		<label>年-乐逍遥的剑</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Defender/Nian_UnfetteredFreedomW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_WeaponBase_Defender" Name="AK_Weapon_NianB">
 		<defName>AK_Weapon_NianB</defName>
 		<label>积甲成山</label>
 		<description>“明王圣帝，谁能去兵哉？”</description>
@@ -272,6 +281,15 @@
 				<cooldownTime>2.0</cooldownTime>
 			</li>
 		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_Weapon_NianB">
+		<defName>AK_Weapon_NianUnfetteredFreedomB</defName>
+		<label>年-乐逍遥的扇子</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Defender/Nian_UnfetteredFreedomW2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
 	</ThingDef>
 
 	<ThingDef ParentName="AK_WeaponBase_Defender">

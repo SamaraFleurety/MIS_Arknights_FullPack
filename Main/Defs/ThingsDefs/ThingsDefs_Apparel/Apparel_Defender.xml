@@ -85,6 +85,18 @@
 	</ThingDef>
 
 	<ThingDef ParentName="AK_ArmorBase_Defender">
+		<defName>AK_Apparel_NianUnfetteredFreedom</defName>
+		<label>年--乐逍遥</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Defender/Nian_UnfetteredFreedom</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Defender/Nian_UnfetteredFreedom</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Defender">
 		<defName>AK_Apparel_Saria</defName>
 		<label>塞雷娅服装</label>
 		<graphicData>

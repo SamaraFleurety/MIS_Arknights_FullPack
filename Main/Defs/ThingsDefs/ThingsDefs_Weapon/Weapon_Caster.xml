@@ -475,7 +475,7 @@
 		</subSounds>
 	</SoundDef>
 
-	<ThingDef ParentName="AK_WeaponBase_Caster">
+	<ThingDef ParentName="AK_WeaponBase_Caster" Name="AK_Weapon_Dusk">
 		<defName>AK_Weapon_Dusk</defName>
 		<label>无题长卷</label>
 		<description>以有形摹无垠，以无形应天下。</description>
@@ -548,6 +548,15 @@
 			</li>
 		</subSounds>
 	</SoundDef>
+
+	<ThingDef ParentName="AK_Weapon_Dusk">
+		<defName>AK_Weapon_DuskEverythingIsaMiracle</defName>
+		<label>年-乐逍遥的剑</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Caster/Dusk_EverythingIsaMiracleW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
 
 	<ThingDef ParentName="AK_WeaponBase_Caster">
 		<defName>AK_Weapon_MintA</defName>

@@ -38,6 +38,18 @@
 	</ThingDef>
 
 	<ThingDef ParentName="AK_ArmorBase_Supporter">
+		<defName>AK_Apparel_SuzuranSpringPraise</defName>
+		<label>铃兰-春之颂</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Supporter/Suzuran_SpringPraise</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Supporter/Suzuran_SpringPraise</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Supporter">
 		<defName>AK_Apparel_MayerB</defName>
 		<label>梅尔的服装（无线控装置）</label>
 		<graphicData>

@@ -147,7 +147,7 @@
 		</subSounds>
 	</SoundDef>
 
-	<ThingDef ParentName="AK_WeaponBase_Supporter">
+	<ThingDef ParentName="AK_WeaponBase_Supporter" Name="AK_Weapon_Suzuran">
 		<defName>AK_Weapon_Suzuran</defName>
 		<label>铃兰的法杖</label>
 		<description>铃兰的法杖，混合了叙拉古和东国的设计。\n东国的神秘技艺，叙拉古的自由与向往。</description>
@@ -219,6 +219,15 @@
 			</li>
 		</subSounds>
 	</SoundDef>
+
+	<ThingDef ParentName="AK_Weapon_Suzuran">
+		<defName>AK_Weapon_SuzuranSpringPraise</defName>
+		<label>铃兰-春之颂的法杖</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Supporter/Suzuran_SpringPraiseW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
 
 	<ThingDef ParentName="AK_WeaponBase_Supporter" Name="AK_Weapon_Deepcolor">
 		<defName>AK_Weapon_Deepcolor</defName>

@@ -62,6 +62,18 @@
 	</ThingDef>
 
 	<ThingDef ParentName="AK_ArmorBase_Caster">
+		<defName>AK_Apparel_DuskEverythingIsaMiracle</defName>
+		<label>夕-染尘烟</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Caster/Dusk_EverythingIsaMiracle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Caster/Dusk_EverythingIsaMiracle</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Caster">
 		<defName>AK_Apparel_Mostima</defName>
 		<label>莫斯提马服装</label>
 		<graphicData>

@@ -24,4 +24,19 @@
 		<standIndex>2</standIndex>
 	</Def>
 
+	<Def Class="AK_DLL.OperatorFashionSetDef">
+		<defName>AK_FashionSet_Nian_UnfetteredFreedom</defName>
+		<label>UnfetteredFreedom</label>
+		<hair>AK_Hair_NianUnfetteredFreedom</hair>
+		<apparels>
+			<li>AK_Apparel_NianUnfetteredFreedom</li>
+			<li>AKS_ShieldBelt_NianUnfetteredFreedom</li>
+		</apparels>
+		<weapon>
+			<li>AK_Weapon_NianUnfetteredFreedom</li>
+			<li>AK_Weapon_NianUnfetteredFreedomB</li>
+		</weapon>
+		<standIndex>2</standIndex>
+	</Def>
+
 </Defs>
