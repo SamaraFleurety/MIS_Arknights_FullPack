@@ -761,4 +761,43 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<!-- 荒芜拉普兰德 -->
+
+    <TraitDef>
+        <defName>AK_Trait_LapplandTheDecadenza</defName>
+        <ignoreConfigErrors>true</ignoreConfigErrors>
+        <commonality>0.0</commonality>
+        <degreeDatas>
+            <li>
+                <label>头狼</label>
+                <description>哪里是荒野？哪里是城市？拉普兰德不会在意，她只是带着狼群，看着人类生来就会的游戏。</description>
+                <statOffsets>
+                    <ShootingAccuracyPawn>-2.0</ShootingAccuracyPawn>
+                    <AimingDelayFactor>-0.5</AimingDelayFactor>
+                    <TameAnimalChance>1</TameAnimalChance>
+                </statOffsets>
+                <statFactors>
+                    <MeleeDamageFactor>1.3</MeleeDamageFactor>
+                </statFactors>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+    <TraitDef>
+        <defName>AK_Trait_LapplandTheDecadenzaSecond</defName>
+        <ignoreConfigErrors>true</ignoreConfigErrors>
+        <commonality>0.0</commonality>
+        <degreeDatas>
+            <li>
+                <label>狂欢之主</label>
+                <description>无所谓城市或者荒野，演出开始时，她不允许还有人没能全情投入。</description>
+                <statOffsets>
+                    <SocialImpact>0.3</SocialImpact>
+                    <MoveSpeed>2</MoveSpeed>
+                    <WorkSpeedGlobal>-0.2</WorkSpeedGlobal>
+                </statOffsets>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
 </Defs>

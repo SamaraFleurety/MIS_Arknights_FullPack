@@ -114,4 +114,43 @@
         </comps>
     </ThingDef>
 
+    <!-- 荒芜拉普兰德的护盾 -->
+
+    <ThingDef ParentName="AKS_BeltBase">
+        <defName>AKS_ShieldBelt_LapplandTheDecadenza</defName>
+        <label>狼时</label>
+        <description>“不，扎罗，直到那时候，你才能真正见到我。”她将怀表放在耳边，闭上眼，随着秒针的转动用指尖轻轻敲打着表壳。“嘀嗒，嘀嗒，八点了。”</description>
+        <statBases>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/Caster/ShieldBeltLapplandTheDecadenza</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="AKS_Shield.TCP_GenericShield">
+                <energyMax>240</energyMax>
+                <energyRegenRate>0.3</energyRegenRate>
+                <energyLostPerDmg>0.01</energyLostPerDmg>
+                <allowEnergyOverflow>false</allowEnergyOverflow>
+                <energyRatioOnReset>0.3</energyRatioOnReset>
+                <ticksToReset>3600</ticksToReset>
+                <canAbsorbMeleeDmg>true</canAbsorbMeleeDmg>
+                <meleeAbsorbFactor>2</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1</rangedAbsorbFactor>
+                <meleeDodgeChanceFactor>0.1</meleeDodgeChanceFactor>
+            </li>
+            <li Class="AKS_Shield.Extension.TCP_ExtraRenderStatic">
+                <bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/Caster/ShieldBeltLapplandTheDecadenzaS</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+					<drawOffsetNorth>(0,0.1,0)</drawOffsetNorth>
+                </bubbleStaticOverlay>
+            </li>
+            <li Class="AKS_Shield.Extension.TCP_ExtraRenderRotate">
+                <bubbleRotateTexPath>Things/ShieldBelt/Caster/ShieldBeltLapplandTheDecadenzaD</bubbleRotateTexPath>
+            </li>
+        </comps>
+    </ThingDef>
+
 </Defs>

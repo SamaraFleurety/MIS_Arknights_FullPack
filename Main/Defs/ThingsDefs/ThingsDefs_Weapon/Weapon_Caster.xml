@@ -1950,4 +1950,81 @@
 		</projectile>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_WeaponBase_Caster">
+    <defName>AK_Weapon_LapplandTheDecadenza</defName>
+    <label>“狼群的獠牙”</label>
+    <description>拉普兰德的剑式法杖</description>
+    <graphicData>
+			<texPath>Things/AK_Agents/Weapon/Caster/LapplandTheDecadenzaW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+    <statBases>
+			<AccuracyTouch>0.825</AccuracyTouch>
+			<AccuracyShort>0.96</AccuracyShort>
+			<AccuracyMedium>0.825 </AccuracyMedium>
+			<AccuracyLong>0.675</AccuracyLong>
+			<RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+		</statBases>
+    <verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_LapplandTheDecadenza</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>1</warmupTime>
+				<range>26</range>
+        <burstShotCount>5</burstShotCount>
+        <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+    <tools Inherit="false">
+			<li>
+				<label>法杖猛击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>21</power>
+				<cooldownTime>1.8</cooldownTime>
+			</li>
+			<li>
+				<label>剑捅</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>18</power>
+				<cooldownTime>1.2</cooldownTime>
+			</li>
+		</tools>
+  </ThingDef>
+
+  <ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_LapplandTheDecadenza</defName>
+		<label>法术射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/LapplandTheDecadenza</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>22.5</damageAmountBase>
+			<stoppingPower>3</stoppingPower>
+			<speed>50</speed>
+			<extraDamages>
+				<li>
+					<def>Flame</def>
+					<amount>12</amount>
+					<armorPenetration>0.5</armorPenetration>
+				</li>
+			</extraDamages>
+			<soundExplode>ThumpCannon_Impact</soundExplode>
+		</projectile>
+	</ThingDef>
+
 </Defs>

@@ -385,4 +385,16 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Caster">
+        <defName>AK_Apparel_LapplandTheDecadenza</defName>
+        <label>荒芜拉普兰德服装</label>
+        <graphicData>
+            <texPath>Things/AK_Agents/Caster/LapplandTheDecadenza</texPath>
+            <graphicClass>Graphic_single</graphicClass>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Things/AK_Agents/Caster/LapplandTheDecadenza</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+
 </Defs>

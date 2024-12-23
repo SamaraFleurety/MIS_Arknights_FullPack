@@ -195,4 +195,24 @@
 		<texPath>Things/Hair/Caster/Nymph</texPath>
 	</HairDef>
 
+	<HairDef ParentName="AK_HairBaseF">
+        <defName>AK_Hair_LapplandTheDecadenza</defName>
+        <label>荒芜拉普兰德发型</label>
+        <texPath>Things/Hair/Caster/LapplandTheDecadenza</texPath>
+		<noGraphic>true</noGraphic>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_FrontHair">
+				<graphicData>
+					<texPath>Things/Hair/Caster/LapplandTheDecadenza</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1</drawSize>
+					<drawOffsetSouth>(0,0,-0.1)</drawOffsetSouth>
+					<drawOffsetNorth>(0,0,0)</drawOffsetNorth>
+					<drawOffsetEast>(-0.1,0,0)</drawOffsetEast>
+					<drawOffsetWest>(0.1,0,-0)</drawOffsetWest>
+				</graphicData>
+			</li>
+		</modExtensions>
+    </HairDef>
+
 </Defs>
