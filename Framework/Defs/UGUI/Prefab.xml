@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<FS_UGUIFramework.ConfigDef>
+		<defName>AK_Config_UGUI</defName>
+		<defaultFont>AK_Font_YouYuan</defaultFont>
+		<label>默认设置</label>
+		<EVSystem>AK_Prefab_EventSystem</EVSystem>
+	</FS_UGUIFramework.ConfigDef>
+	
+	<AK_DLL.UIPrefabDef>
+		<defName>AK_Prefab_EventSystem</defName>
+		<label>Event System</label>
+		<modID>MIS.Framework</modID>
+		<assetBundle>fsassets</assetBundle>
+		<modelName>EventSystem</modelName>
+	</AK_DLL.UIPrefabDef>
+	
+	<AK_DLL.UIPrefabDef>
+		<defName>AK_Prefab_yccMainMenu</defName>
+		<label>主菜单</label>
+		<modID>MIS.Framework</modID>
+		<assetBundle>fsassets</assetBundle>
+		<modelName>yccMainMenu</modelName>
+		<UIClass>AK_DLL.UI.RIWindow_MainMenu</UIClass>
+	</AK_DLL.UIPrefabDef>
+	
+	<AK_DLL.UIPrefabDef>
+		<defName>AK_Prefab_yccOpList</defName>
+		<label>干员花名册</label>
+		<modID>MIS.Framework</modID>
+		<assetBundle>fsassets</assetBundle>
+		<modelName>yccOpList</modelName>
+		<UIClass>AK_DLL.UI.RIWindow_OperatorList</UIClass>
+	</AK_DLL.UIPrefabDef>
+	
+	<AK_DLL.UIPrefabDef>
+		<defName>AK_Prefab_OpDetail</defName>
+		<label>干员详情</label>
+		<modID>MIS.Framework</modID>
+		<assetBundle>fsassets</assetBundle>
+		<modelName>Operator Detail</modelName>
+		<UIClass>AK_DLL.UI.RIWindow_OperatorDetail</UIClass>
+	</AK_DLL.UIPrefabDef>
+	
+</Defs>
