@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<Def Class="AKR_Random.RandomizerDef">
+		<defName>LMA_Rander_ShipEquipments</defName>
+		<label>舰装池</label>
+		<description>desc</description>
+		<root Class="AKR_Random.RandomizerNode_Rewards">
+			<inheritCandidatesWeight>true</inheritCandidatesWeight> <!-- 权重传递 -->
+			<weight>1</weight> 					   		   	 <!-- 本节点权重 -->
+			<rewards>
+				<li Class="AKR_Random.Rewards.Rewards_Things">
+					<weight>1</weight>						<!-- 本节点权重。子节点仅在父节点被先选中时才可能被选中 -->
+					<itemRewardSingle> 				   	    <!-- 单个物品的奖励 -->
+						<item>Silver</item>
+					</itemRewardSingle>
+				</li>
+				<li Class="AKR_Random.Rewards.Rewards_Things">
+					<weight>2</weight>						<!-- 本节点权重。子节点仅在父节点被先选中时才可能被选中 -->
+					<itemRewardSingle> 				   	    <!-- 单个物品的奖励 -->
+						<item>Steel</item>
+					</itemRewardSingle>
+				</li>
+			</rewards>
+		</root>
+	</Def>
+
+</Defs>
