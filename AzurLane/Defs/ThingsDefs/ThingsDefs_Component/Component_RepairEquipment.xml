@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="LMA_ComponentBase">
+        <defName>LMA_Component_RepairEquipment_I</defName>
+        <label>维修设备(白)</label>
+        <description>维修设备(白)</description>
+    </ThingDef>
+
+    <ThingDef ParentName="LMA_ComponentBase">
+        <defName>LMA_Component_RepairEquipment_II</defName>
+        <label>维修设备(蓝)</label>
+        <description>维修设备(蓝)</description>
+    </ThingDef>
+
+    <ThingDef ParentName="LMA_ComponentBase">
+        <defName>LMA_Component_RepairEquipment_III</defName>
+        <label>维修设备(紫)</label>
+        <description>维修设备(紫)</description>
+    </ThingDef>
+
+    <ThingDef ParentName="LMA_ComponentBase">
+        <defName>LMA_Component_RepairEquipment_IV</defName>
+        <label>维修设备(金)</label>
+        <description>维修设备(金)</description>
+    </ThingDef>
+
+    <ThingDef ParentName="LMA_ComponentBase">
+        <defName>LMA_Component_RepairEquipment_V</defName>
+        <label>维修设备(彩)</label>
+        <description>维修设备(彩)</description>
+    </ThingDef>
+
+</Defs>

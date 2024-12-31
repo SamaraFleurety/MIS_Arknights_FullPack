@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="LMA_ComponentBase">
+        <defName>LMA_Component_Boiler_I</defName>
+        <label>锅炉(白)</label>
+        <description>锅炉(白)</description>
+        <equippedStatOffsets>
+            <MoveSpeed>1.1</MoveSpeed>
+        </equippedStatOffsets>
+    </ThingDef>
+
+    <ThingDef ParentName="LMA_ComponentBase">
+        <defName>LMA_Component_Boiler_II</defName>
+        <label>锅炉(蓝)</label>
+        <description>锅炉(蓝)</description>
+        <equippedStatOffsets>
+            <MoveSpeed>1.25</MoveSpeed>
+        </equippedStatOffsets>
+    </ThingDef>
+
+    <ThingDef ParentName="LMA_ComponentBase">
+        <defName>LMA_Component_Boiler_III</defName>
+        <label>锅炉(紫)</label>
+        <description>锅炉(紫)</description>
+        <equippedStatOffsets>
+            <MoveSpeed>1.45</MoveSpeed>
+        </equippedStatOffsets>
+    </ThingDef>
+
+    <ThingDef ParentName="LMA_ComponentBase">
+        <defName>LMA_Component_Boiler_IV</defName>
+        <label>锅炉(金)</label>
+        <description>锅炉(金)</description>
+        <equippedStatOffsets>
+            <MoveSpeed>1.7</MoveSpeed>
+        </equippedStatOffsets>
+    </ThingDef>
+
+    <ThingDef ParentName="LMA_ComponentBase">
+        <defName>LMA_Component_Boiler_V</defName>
+        <label>锅炉(彩)</label>
+        <description>锅炉(彩)</description>
+        <equippedStatOffsets>
+            <MoveSpeed>2.1</MoveSpeed>
+        </equippedStatOffsets>
+    </ThingDef>
+
+</Defs>

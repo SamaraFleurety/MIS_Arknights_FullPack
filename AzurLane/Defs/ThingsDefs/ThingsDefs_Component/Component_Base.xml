@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <BodyPartGroupDef>
+        <defName>Component</defName>
+        <label>强化组件</label>
+        <listOrder>51</listOrder>
+    </BodyPartGroupDef>
+
+    <ThingDef Name="LMA_ComponentBase" ParentName="ApparelBase" Abstract="True">
+        <defName>LMA_ComponentBase</defName>
+        <label>强化组件</label>
+		<smeltable>false</smeltable>
+        <description>强化组件</description>
+        <useHitPoints>false</useHitPoints>
+        <techLevel>Undefined</techLevel>
+        <graphicData>
+            <texPath>Things/Pawn/Humanlike/Apparel/ShieldBelt/ShieldBelt</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <tickerType>Never</tickerType>
+        <statBases>
+            <Mass>4</Mass>
+			<Flammability>0</Flammability>
+			<DeteriorationRate>0</DeteriorationRate>
+        </statBases>
+        <thingCategories Inherit="false">
+			<li>LMA_Apparel</li>
+		</thingCategories>
+        <apparel>
+			<bodyPartGroups>
+				<li>Component</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Middle</li>
+			</layers>
+		</apparel>
+    </ThingDef>
+
+</Defs>

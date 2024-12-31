@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="LMA_ComponentBase">
+        <defName>LMA_Component_Radar_I</defName>
+        <label>雷达(白)</label>
+        <description>雷达(白)</description>
+    </ThingDef>
+
+    <ThingDef ParentName="LMA_ComponentBase">
+        <defName>LMA_Component_Radar_II</defName>
+        <label>雷达(蓝)</label>
+        <description>雷达(蓝)</description>
+    </ThingDef>
+
+    <ThingDef ParentName="LMA_ComponentBase">
+        <defName>LMA_Component_Radar_III</defName>
+        <label>雷达(紫)</label>
+        <description>雷达(紫)</description>
+    </ThingDef>
+
+    <ThingDef ParentName="LMA_ComponentBase">
+        <defName>LMA_Component_Radar_IV</defName>
+        <label>雷达(金)</label>
+        <description>雷达(金)</description>
+    </ThingDef>
+
+    <ThingDef ParentName="LMA_ComponentBase">
+        <defName>LMA_Component_Radar_V</defName>
+        <label>雷达(彩)</label>
+        <description>雷达(彩)</description>
+    </ThingDef>
+
+</Defs>

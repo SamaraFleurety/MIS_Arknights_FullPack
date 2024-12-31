@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="LMA_ComponentBase">
+        <defName>LMA_Component_FireControl_III</defName>
+        <label>火控(紫)</label>
+        <description>火控(紫)</description>
+        <equippedStatOffsets>
+            <ShootingAccuracyPawn>0.1</ShootingAccuracyPawn>
+        </equippedStatOffsets>
+    </ThingDef>
+
+    <ThingDef ParentName="LMA_ComponentBase">
+        <defName>LMA_Component_FireControl_IV</defName>
+        <label>火控(金)</label>
+        <description>火控(金)</description>
+        <equippedStatOffsets>
+            <ShootingAccuracyPawn>0.3</ShootingAccuracyPawn>
+        </equippedStatOffsets>
+    </ThingDef>
+
+    <ThingDef ParentName="LMA_ComponentBase">
+        <defName>LMA_Component_FireControl_V</defName>
+        <label>火控(彩)</label>
+        <description>火控(彩)</description>
+        <equippedStatOffsets>
+            <ShootingAccuracyPawn>0.</ShootingAccuracyPawn>
+        </equippedStatOffsets>
+    </ThingDef>
+
+</Defs>

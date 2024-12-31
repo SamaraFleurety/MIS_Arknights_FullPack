@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="LMA_ComponentBase">
+        <defName>LMA_Component_ArmorSteelPlate_I</defName>
+        <label>装甲钢板(白)</label>
+        <description>装甲钢板(白)</description>
+        <equippedStatOffsets>
+            <IncomingDamageFactor>-0.1</IncomingDamageFactor>
+        </equippedStatOffsets>
+    </ThingDef>
+
+    <ThingDef ParentName="LMA_ComponentBase">
+        <defName>LMA_Component_ArmorSteelPlate_II</defName>
+        <label>装甲钢板(蓝)</label>
+        <description>装甲钢板(蓝)</description>
+        <equippedStatOffsets>
+            <IncomingDamageFactor>-0.2</IncomingDamageFactor>
+        </equippedStatOffsets>
+    </ThingDef>
+
+    <ThingDef ParentName="LMA_ComponentBase">
+        <defName>LMA_Component_ArmorSteelPlate_III</defName>
+        <label>装甲钢板(紫)</label>
+        <description>装甲钢板(紫)</description>
+        <equippedStatOffsets>
+            <IncomingDamageFactor>-0.3</IncomingDamageFactor>
+        </equippedStatOffsets>
+    </ThingDef>
+
+    <ThingDef ParentName="LMA_ComponentBase">
+        <defName>LMA_Component_ArmorSteelPlate_IV</defName>
+        <label>装甲钢板(金)</label>
+        <description>装甲钢板(金)</description>
+        <equippedStatOffsets>
+            <IncomingDamageFactor>-0.4</IncomingDamageFactor>
+        </equippedStatOffsets>
+    </ThingDef>
+
+    <ThingDef ParentName="LMA_ComponentBase">
+        <defName>LMA_Component_ArmorSteelPlate_V</defName>
+        <label>装甲钢板(彩)</label>
+        <description>装甲钢板(彩)</description>
+        <equippedStatOffsets>
+            <IncomingDamageFactor>-0.6</IncomingDamageFactor>
+        </equippedStatOffsets>
+    </ThingDef>
+
+</Defs>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="LMA_ComponentBase">
+        <defName>LMA_Component_Loader_I</defName>
+        <label>装弹机(白)</label>
+        <description>装弹机(白)</description>
+        <equippedStatOffsets>
+            <AimingDelayFactor>-0.2</AimingDelayFactor>
+        </equippedStatOffsets>
+    </ThingDef>
+
+    <ThingDef ParentName="LMA_ComponentBase">
+        <defName>LMA_Component_Loader_II</defName>
+        <label>装弹机(蓝)</label>
+        <description>装弹机(蓝)</description>
+        <equippedStatOffsets>
+            <AimingDelayFactor>-0.3</AimingDelayFactor>
+        </equippedStatOffsets>
+    </ThingDef>
+
+    <ThingDef ParentName="LMA_ComponentBase">
+        <defName>LMA_Component_Loader_III</defName>
+        <label>装弹机(紫)</label>
+        <description>装弹机(紫)</description>
+        <equippedStatOffsets>
+            <AimingDelayFactor>-0.4</AimingDelayFactor>
+        </equippedStatOffsets>
+    </ThingDef>
+
+    <ThingDef ParentName="LMA_ComponentBase">
+        <defName>LMA_Component_Loader_IV</defName>
+        <label>装弹机(金)</label>
+        <description>装弹机(金)</description>
+        <equippedStatOffsets>
+            <AimingDelayFactor>-0.5</AimingDelayFactor>
+        </equippedStatOffsets>
+    </ThingDef>
+
+    <ThingDef ParentName="LMA_ComponentBase">
+        <defName>LMA_Component_Loader_V</defName>
+        <label>装弹机(彩)</label>
+        <description>装弹机(彩)</description>
+        <equippedStatOffsets>
+            <AimingDelayFactor>-0.7</AimingDelayFactor>
+        </equippedStatOffsets>
+    </ThingDef>
+
+</Defs>
