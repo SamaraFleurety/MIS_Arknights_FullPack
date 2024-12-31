@@ -5,6 +5,13 @@
         <defName>LMA_Component_Radar_I</defName>
         <label>雷达(白)</label>
         <description>雷达(白)</description>
+		<modExtensions>
+			<li Class="LMA_Lib.FCS.Ext_FireControlSystem">
+				<FCS>
+					<rangeOffset>射程增益</rangeOffset>
+				</FCS>
+			</li>
+		</modExtensions>
     </ThingDef>
 
     <ThingDef ParentName="LMA_ComponentBase">

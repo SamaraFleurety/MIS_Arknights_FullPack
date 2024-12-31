@@ -4,7 +4,11 @@
     <ThingDef ParentName="LMA_ComponentBase">
         <defName>LMA_Component_RepairEquipment_I</defName>
         <label>维修设备(白)</label>
-        <description>维修设备(白)</description>
+        <description>维修设备(白)</description>        
+		<equippedStatOffsets>
+            <InjuryHealingFactor>2</InjuryHealingFactor>
+			<ImmunityGainSpeed>1.5</ImmunityGainSpeed>
+        </equippedStatOffsets>
     </ThingDef>
 
     <ThingDef ParentName="LMA_ComponentBase">
