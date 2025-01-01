@@ -7,7 +7,7 @@
         <description>维修设备(白)</description>        
 		<equippedStatOffsets>
             <InjuryHealingFactor>2</InjuryHealingFactor>
-			<ImmunityGainSpeed>1.5</ImmunityGainSpeed>
+			<ImmunityGainSpeed>2</ImmunityGainSpeed>
         </equippedStatOffsets>
     </ThingDef>
 
@@ -15,24 +15,40 @@
         <defName>LMA_Component_RepairEquipment_II</defName>
         <label>维修设备(蓝)</label>
         <description>维修设备(蓝)</description>
+        <equippedStatOffsets>
+            <InjuryHealingFactor>4</InjuryHealingFactor>
+			<ImmunityGainSpeed>3</ImmunityGainSpeed>
+        </equippedStatOffsets>
     </ThingDef>
 
     <ThingDef ParentName="LMA_ComponentBase">
         <defName>LMA_Component_RepairEquipment_III</defName>
         <label>维修设备(紫)</label>
         <description>维修设备(紫)</description>
+        <equippedStatOffsets>
+            <InjuryHealingFactor>10</InjuryHealingFactor>
+			<ImmunityGainSpeed>5</ImmunityGainSpeed>
+        </equippedStatOffsets>
     </ThingDef>
 
     <ThingDef ParentName="LMA_ComponentBase">
         <defName>LMA_Component_RepairEquipment_IV</defName>
         <label>维修设备(金)</label>
         <description>维修设备(金)</description>
+        <equippedStatOffsets>
+            <InjuryHealingFactor>20</InjuryHealingFactor>
+			<ImmunityGainSpeed>8</ImmunityGainSpeed>
+        </equippedStatOffsets>
     </ThingDef>
 
     <ThingDef ParentName="LMA_ComponentBase">
         <defName>LMA_Component_RepairEquipment_V</defName>
         <label>维修设备(彩)</label>
         <description>维修设备(彩)</description>
+        <equippedStatOffsets>
+            <InjuryHealingFactor>50</InjuryHealingFactor>
+			<ImmunityGainSpeed>12</ImmunityGainSpeed>
+        </equippedStatOffsets>
     </ThingDef>
 
 </Defs>
