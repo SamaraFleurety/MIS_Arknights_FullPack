@@ -15,4 +15,130 @@
 		</stages>
 	</ThoughtDef>
 
+	<ThoughtDef ParentName="BA_Thought_Permanent">
+		<defName>BA_Thought_Trait_Mika</defName>
+		<requiredTraits>
+			<li>BA_Trait_MikaSecond</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>单纯</label>
+				<description>哈哈哈！这是什么，好有意思☆</description>
+				<baseMoodEffect>25</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName="BA_Thought_Permanent">
+		<defName>BA_Thought_Trait_Tsurugi</defName>
+		<requiredTraits>
+			<li>BA_Trait_TsurugiSecond</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>隐藏激情</label>
+				<description>请不要跟我搭话......</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName="BA_Thought_Permanent">
+		<defName>BA_Thought_Trait_Hasumi</defName>
+		<requiredTraits>
+			<li>BA_Trait_HasumiSecond</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>减肥中......</label>
+				<description>"明明是去年都一直能好好穿上的衣服...\n为什么...仅仅过了一年就变得这么紧..."</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName="BA_Thought_Permanent">
+		<defName>BA_Thought_Trait_Azusa</defName>
+		<requiredTraits>
+			<li>BA_Trait_Azusa</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>万事皆虚</label>
+				<description>"一切都是虚无，人生一点意义都没有。"</description>
+				<baseMoodEffect>-6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName="BA_Thought_Permanent">
+		<defName>BA_Thought_Trait_Koharu</defName>
+		<requiredTraits>
+			<li>BA_Trait_KoharuSecond</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>H是不行的！死刑！</label>
+				<description>你，你想干什么？！</description>
+				<baseMoodEffect>-3</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName="BA_Thought_Permanent">
+		<defName>BA_Thought_Trait_Hanako</defName>
+		<requiredTraits>
+			<li>BA_Trait_HanakoSecond</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>形形「色色」</label>
+				<description>硬硬的那个♪</description>
+				<baseMoodEffect>12</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName="BA_Thought_Permanent">
+		<defName>BA_Thought_Trait_Nagisa</defName>
+		<requiredTraits>
+			<li>BA_Trait_Nagisa</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>天才淑女</label>
+				<description>在开始工作前要来一杯红茶吗？</description>
+				<baseMoodEffect>4</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName="BA_Thought_Permanent">
+		<defName>BA_Thought_Trait_NagisaSecond</defName>
+		<requiredTraits>
+			<li>BA_Trait_NagisaSecond</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>Noblesse oblige</label>
+				<description>未花......</description>
+				<baseMoodEffect>-12</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName="BA_Thought_Permanent">
+		<defName>BA_Thought_Trait_Mari</defName>
+		<requiredTraits>
+			<li>BA_Trait_Mari</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>虔诚的修女</label>
+				<description>希望我的祷告，能够让人们得到庇护</description>
+				<baseMoodEffect>8</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
 </Defs>

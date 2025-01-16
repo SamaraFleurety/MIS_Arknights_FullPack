@@ -9,4 +9,76 @@
 		<baseDesc>{PAWN_nameDef}是古书馆图书委员会的委员长，平常总是待在古书馆里不分日夜的进行管理和解读古书的工作，因为不和人交流，性格比较孤僻与冷漠；因为在古籍方面的能力堪称顶级，被称作“图书馆的魔术师”。</baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName = "BA_StoryBase">
+		<defName>BA_BackStory_Mika_Child</defName>
+		<slot>Childhood</slot>
+		<title>未花</title>
+		<titleShort>未花</titleShort>
+		<baseDesc>{PAWN_nameDef}原本是圣三一茶会的一员，对于圣三一内部和各学院的勾心斗角并不十分在乎；而且行动总是比思考快，因此在伊甸园条约签订期间被骗犯下了很多错误，尽管进行了反省和弥补；但是依旧被停止了茶会成员的资格。现在正在被迫一日三餐吃瑞士卷。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "BA_StoryBase">
+		<defName>BA_BackStory_Tsurugi_Child</defName>
+		<slot>Childhood</slot>
+		<title>圣三一战略兵器</title>
+		<titleShort>圣三一战略兵器</titleShort>
+		<baseDesc>{PAWN_nameDef}作为正义实现委的部长和圣三一的战略兵器，负责圣三一的日常治安工作，不过因为{PAWN_pronoun}过于“可爱”的表情和经常控制不住自己的情绪，大多数情况下都是副部长莲见负责各项事务。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "BA_StoryBase">
+		<defName>BA_BackStory_Hasumi_Child</defName>
+		<slot>Childhood</slot>
+		<title>正义实现委二把手</title>
+		<titleShort>正义实现委二把手</titleShort>
+		<baseDesc>{PAWN_nameDef}是圣三一安全组织正义实现委的二把手，虽然{PAWN_nameDef}只是二把手，但是因为委员长鹤城不太能控制住自己的情绪和表情，因此大多数工作都是副部长莲见负责的，不过真的需要冷静下来思考对策的情况下，鹤城总是{PAWN_nameDef}见冷静。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "BA_StoryBase">
+		<defName>BA_BackStory_Hifumi_Child</defName>
+		<slot>Childhood</slot>
+		<title>普通少女</title>
+		<titleShort>普通少女</titleShort>
+		<baseDesc>{PAWN_nameDef}是圣三一综合学院补课部的少女，外表普通成绩中流，但是偶尔会做出特别大胆的举动。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "BA_StoryBase">
+		<defName>BA_BackStory_Azusa_Child</defName>
+		<slot>Childhood</slot>
+		<title>冰之魔女</title>
+		<titleShort>冰之魔女</titleShort>
+		<baseDesc>{PAWN_nameDef}看上去是圣三一补课部的一名差学生，但是实际上是阿里乌斯派往圣三一的间谍，但是最后{PAWN_pronoun}决定背叛阿里乌斯病态的信条。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "BA_StoryBase">
+		<defName>BA_BackStory_Koharu_Child</defName>
+		<slot>Childhood</slot>
+		<title>补习授课部成员</title>
+		<titleShort>补习授课部成员</titleShort>
+		<baseDesc>{PAWN_nameDef}因为考试连续三次不及格而加入了补习授课部，但是考虑到其余三人的情况，似乎只有{PAWN_nameDef}真的很需要补习......</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "BA_StoryBase">
+		<defName>BA_BackStory_Hanako_Child</defName>
+		<slot>Childhood</slot>
+		<title>补习授课部成员</title>
+		<titleShort>补习授课部成员</titleShort>
+		<baseDesc>{PAWN_nameDef}表面上是因为考试不及格而加入了补课部，但是实际上是因为花子厌倦了圣三一高层的勾心斗角故意进入补课部的</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "BA_StoryBase">
+		<defName>BA_BackStory_Nagisa_Child</defName>
+		<slot>Childhood</slot>
+		<title>圣三一茶话会主持人</title>
+		<titleShort>圣三一茶话会主持人</titleShort>
+		<baseDesc>{PAWN_nameDef}是圣三一学生会”茶话会“的主持人，同时也是学生联盟”菲利乌斯”的领袖，平日总是为未花的各种行为头疼。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "BA_StoryBase">
+		<defName>BA_BackStory_Mari_Child</defName>
+		<slot>Childhood</slot>
+		<title>修女会成员</title>
+		<titleShort>修女会成员</titleShort>
+		<baseDesc>{PAWN_nameDef}是圣三一修女会的成员，平日总是虔诚的为圣三一的各位祈祷</baseDesc>
+	</BackstoryDef>
+
 </Defs>

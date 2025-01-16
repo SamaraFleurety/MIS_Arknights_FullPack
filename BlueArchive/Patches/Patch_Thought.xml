@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<!-- 毁容 -->
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/ThoughtDef[defName = "Disfigured"]/nullifyingTraits</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThoughtDef[defName = "Disfigured"]/nullifyingTraits</xpath>
+			<value>
+				<li>BA_Trait_Mika</li>
+				<li>BA_Trait_TsurugiSecond</li>
+				<li>BA_Trait_Hasumi</li>
+				<li>BA_Trait_Koharu</li>
+				<li>BA_Trait_HanakoSecond</li>
+				<li>BA_Trait_Nagisa</li>
+				<li>BA_Trait_Mari</li>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/ThoughtDef[defName = "Disfigured"]</xpath>
+			<value>
+				<nullifyingTraits>
+					<li>BA_Trait_Mika</li>
+					<li>BA_Trait_TsurugiSecond</li>
+					<li>BA_Trait_Hasumi</li>
+					<li>BA_Trait_Koharu</li>
+					<li>BA_Trait_HanakoSecond</li>
+					<li>BA_Trait_Nagisa</li>
+					<li>BA_Trait_Mari</li>
+				</nullifyingTraits>
+			</value>
+		</nomatch>
+	</Operation>
+
+</Patch>

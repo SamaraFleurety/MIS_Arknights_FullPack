@@ -45,18 +45,60 @@
 		<defName>BA_Hair_Akane</defName>
 		<label>室笠朱音发型</label>
 		<texPath>Things/Hair/Millennium/Akane</texPath>
+		<noGraphic>true</noGraphic>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_FrontHair">
+				<graphicData>
+					<texPath>Things/Hair/Millennium/Akane</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1.3</drawSize>
+					<drawOffsetSouth>(0,0,0.39)</drawOffsetSouth>
+					<drawOffsetNorth>(0,0,0.39)</drawOffsetNorth>
+					<drawOffsetEast>(0.02,0,0.39)</drawOffsetEast>
+					<drawOffsetWest>(-0.02,0,0.39)</drawOffsetWest>
+				</graphicData>
+			</li>
+		</modExtensions>
 	</HairDef>
 
 	<HairDef ParentName="BA_HairBaseF">
 		<defName>BA_Hair_Toki</defName>
 		<label>飞鸟马时发型</label>
 		<texPath>Things/Hair/Millennium/Toki</texPath>
+		<noGraphic>true</noGraphic>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_FrontHair">
+				<graphicData>
+					<texPath>Things/Hair/Millennium/Toki</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1.3</drawSize>
+					<drawOffsetSouth>(0,0,0.39)</drawOffsetSouth>
+					<drawOffsetNorth>(0,0,0.39)</drawOffsetNorth>
+					<drawOffsetEast>(0.02,0,0.39)</drawOffsetEast>
+					<drawOffsetWest>(-0.02,0,0.39)</drawOffsetWest>
+				</graphicData>
+			</li>
+		</modExtensions>
 	</HairDef>
 
 	<HairDef ParentName="BA_HairBaseF">
 		<defName>BA_Hair_Neru</defName>
 		<label>美甘尼禄发型</label>
 		<texPath>Things/Hair/Millennium/Neru</texPath>
+		<noGraphic>true</noGraphic>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_FrontHair">
+				<graphicData>
+					<texPath>Things/Hair/Millennium/Neru</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1.3</drawSize>
+					<drawOffsetSouth>(0,0,0.29)</drawOffsetSouth>
+					<drawOffsetNorth>(0,0,0.29)</drawOffsetNorth>
+					<drawOffsetEast>(0.02,0,0.29)</drawOffsetEast>
+					<drawOffsetWest>(-0.02,0,0.29)</drawOffsetWest>
+				</graphicData>
+			</li>
+		</modExtensions>
 	</HairDef>
 
 	<HairDef ParentName="BA_HairBaseF">

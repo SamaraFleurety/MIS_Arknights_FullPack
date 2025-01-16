@@ -19,4 +19,166 @@
 		</statBases>
 	</ThingDef>
 
+	<ThingDef ParentName="BA_ArmorBase_Trinity">
+		<defName>BA_Apparel_Mika</defName>
+		<label>圣园未花的服装</label>
+		<description>精心缝制，华美而又耀眼的圣三一服装，香味最近减淡了一些，领口和裙摆也有了手洗的痕迹</description>
+		<graphicData>
+			<texPath>Things/BA_Students/Trinity/Mika</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/BA_Students/Trinity/Mika</wornGraphicPath>
+		</apparel>
+		<statBases>
+			<ArmorRating_Sharp>1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.4</ArmorRating_Heat>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="BA_ArmorBase_Trinity">
+		<defName>BA_Apparel_Tsurugi</defName>
+		<label>鹤城的服装</label>
+		<description>鹤城的正义实现委制服，因为大量的剧烈运动，看上去有点破，衣服上的红渍是鹤城不小心弄上去的。</description>
+		<graphicData>
+			<texPath>Things/BA_Students/Trinity/Tsurugi</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/BA_Students/Trinity/Tsurugi</wornGraphicPath>
+		</apparel>
+		<statBases>
+			<ArmorRating_Sharp>1.35</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.8</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.7</ArmorRating_Heat>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="BA_ArmorBase_Trinity">
+		<defName>BA_Apparel_Hasumi</defName>
+		<label>莲见的服装</label>
+		<description>莲见的正义实现委制服，不过比起现在的长裙，莲见更希望能穿上可爱的短裙</description>
+		<graphicData>
+			<texPath>Things/BA_Students/Trinity/Hasumi</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/BA_Students/Trinity/Hasumi</wornGraphicPath>
+		</apparel>
+		<statBases>
+			<ArmorRating_Sharp>1.35</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.8</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.7</ArmorRating_Heat>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="BA_ArmorBase_Trinity">
+		<defName>BA_Apparel_Hifumi</defName>
+		<label>日富美的服装</label>
+		<description>日富美的圣三一制服，有着大量日富美喜欢的佩洛洛周边和装饰</description>
+		<graphicData>
+			<texPath>Things/BA_Students/Trinity/Hifumi</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/BA_Students/Trinity/Hifumi</wornGraphicPath>
+		</apparel>
+		<statBases>
+			<ArmorRating_Sharp>1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.4</ArmorRating_Heat>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="BA_ArmorBase_Trinity">
+		<defName>BA_Apparel_Azusa</defName>
+		<label>梓的服装</label>
+		<description>梓的服装，打理的有些过分的干净。</description>
+		<graphicData>
+			<texPath>Things/BA_Students/Trinity/Azusa</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/BA_Students/Trinity/Azusa</wornGraphicPath>
+		</apparel>
+		<statBases>
+			<ArmorRating_Sharp>1.35</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.8</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.7</ArmorRating_Heat>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="BA_ArmorBase_Trinity">
+		<defName>BA_Apparel_Koharu</defName>
+		<label>小春的服装</label>
+		<description>小春的圣三一制服，书包里有很多色情杂志，小春说这是收缴的违禁品。</description>
+		<graphicData>
+			<texPath>Things/BA_Students/Trinity/Koharu</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/BA_Students/Trinity/Koharu</wornGraphicPath>
+		</apparel>
+		<statBases>
+			<ArmorRating_Sharp>1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.4</ArmorRating_Heat>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="BA_ArmorBase_Trinity">
+		<defName>BA_Apparel_Hanako</defName>
+		<label>花子的服装</label>
+		<description>花子的校服，据说花子里头穿的是泳衣，而且她似乎随时准备脱掉自己身上的裙子</description>
+		<graphicData>
+			<texPath>Things/BA_Students/Trinity/Hanako</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/BA_Students/Trinity/Hanako</wornGraphicPath>
+		</apparel>
+		<statBases>
+			<ArmorRating_Sharp>1.35</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.8</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.7</ArmorRating_Heat>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="BA_ArmorBase_Trinity">
+		<defName>BA_Apparel_Nagisa</defName>
+		<label>渚的服装</label>
+		<description>渚的服装，在拥有贵族的典雅和威严的同时不显得花哨，在举办茶会和招待外客的时候都很适合。</description>
+		<graphicData>
+			<texPath>Things/BA_Students/Trinity/Nagisa</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/BA_Students/Trinity/Nagisa</wornGraphicPath>
+		</apparel>
+		<statBases>
+			<ArmorRating_Sharp>1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.4</ArmorRating_Heat>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="BA_ArmorBase_Trinity">
+		<defName>BA_Apparel_Mari</defName>
+		<label>玛丽的修女服</label>
+		<description>玛丽的修女服，对于玛丽来说，整理好外务是更好回应人们祈祷的一环</description>
+		<graphicData>
+			<texPath>Things/BA_Students/Trinity/Mari</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/BA_Students/Trinity/Mari</wornGraphicPath>
+		</apparel>
+		<statBases>
+			<ArmorRating_Sharp>1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.4</ArmorRating_Heat>
+		</statBases>
+	</ThingDef>
+
 </Defs>
