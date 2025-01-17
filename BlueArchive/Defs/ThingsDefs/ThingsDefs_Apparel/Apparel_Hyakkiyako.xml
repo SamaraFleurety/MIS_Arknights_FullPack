@@ -19,4 +19,22 @@
 		</statBases>
 	</ThingDef>
 
+	<ThingDef ParentName="BA_ArmorBase_Hyakkiyako">
+		<defName>BA_Apparel_Wakamo</defName>
+		<label>若藻的和服</label>
+		<description>若藻的和服，袖子和下摆很宽，用以适应剧烈的运动和战斗，总是散发着火药和焦糊的味道。</description>
+		<graphicData>
+			<texPath>Things/BA_Students/Hyakkiyako/Wakamo</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/BA_Students/Hyakkiyako/Wakamo</wornGraphicPath>
+		</apparel>
+		<statBases>
+			<ArmorRating_Sharp>1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.4</ArmorRating_Heat>
+		</statBases>
+	</ThingDef>
+
 </Defs>

@@ -37,4 +37,25 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>BA_Trait_Wakamo</defName>
+		<degreeDatas>
+			<li>
+				<label>灾厄之狐</label>
+				<description>狐坂若藻热衷于大规模的破坏和掠夺，因此被冠以灾厄之狐的头衔；只有在SENSEI面前才会想办法控制自己，不过即使是和SENSEI约会也会出现各种奇怪的意外和灾难，某种意义上来说似乎还真的是灾厄之狐。</description>
+				<statOffsets>
+					<AimingDelayFactor>-0.3</AimingDelayFactor>
+					<ShootingAccuracyPawn>0.35</ShootingAccuracyPawn>
+					<MeleeDodgeChance>0.45</MeleeDodgeChance>
+					<MentalBreakThreshold>0.12</MentalBreakThreshold>
+				</statOffsets>
+				<statFactors>
+					<IncomingDamageFactor>0.4</IncomingDamageFactor>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>

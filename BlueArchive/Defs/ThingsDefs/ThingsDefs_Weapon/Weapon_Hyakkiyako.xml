@@ -87,4 +87,80 @@
 		<description>椿使用的盾牌，里头放着一个枕头，被椿叫做睡眠伴侣</description>
 	</ThingDef>
 
+	<ThingDef ParentName="BA_WeaponBase_Hyakkiyako">
+		<defName>BA_Weapon_Wakamo</defName>
+		<label>深红灾厄</label>
+		<graphicData>
+			<texPath>Things/BA_Students/Weapon/Hyakkiyako/WakamoW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<equippedAngleOffset>44</equippedAngleOffset>
+		<description>"若藻爱用的来福枪。\n与其古朴的外观相反，它总是散发着火焰与火药的味道。\n如今，它经常被用来对付老师身边“碍事的东西”。"</description>
+		<statBases>
+			<AccuracyTouch>0.85</AccuracyTouch>
+			<AccuracyShort>0.9</AccuracyShort>
+			<AccuracyMedium>1</AccuracyMedium>
+			<AccuracyLong>0.9</AccuracyLong>
+			<RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
+			<!--后摇-->
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>BA_Bullet_Wakamo</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>3.6</warmupTime>
+				<!--前摇-->
+				<range>45</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>BA_Sound_Weapon_GeneralPistol</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<tools Inherit="false">
+			<li>
+				<label>捅</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>32</power>
+				<armorPenetration>0.68</armorPenetration>        <!--穿甲-->
+				<cooldownTime>1.3</cooldownTime>
+			</li>
+			<li>
+				<label>踢</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>28</power>
+				<cooldownTime>1</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="BA_BulletBase_Bow">
+		<defName>BA_Bullet_Wakamo</defName>
+		<label>短点射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<!--伤害类型-->
+			<damageAmountBase>45</damageAmountBase>
+			<armorPenetrationBase>1.2</armorPenetrationBase>
+			<stoppingPower>3</stoppingPower>
+			<speed>50</speed>
+			<soundExplode>ThumpCannon_Impact</soundExplode>
+			<!--爆炸音效-->
+		</projectile>
+	</ThingDef>
+
 </Defs>

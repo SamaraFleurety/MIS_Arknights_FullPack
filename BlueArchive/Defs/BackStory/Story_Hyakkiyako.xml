@@ -9,4 +9,12 @@
 		<baseDesc>{PAWN_nameDef}是百鬼夜行学院修行部的部长，修行目标是“完美高效的睡眠”，{PAWN_pronoun}能够在睡觉时干许多事；而且经过修行，能够随时随地的睡着，因此也被百鬼夜行的学生称为“睡美人”</baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName = "BA_StoryBase">
+		<defName>BA_BackStory_Wakamo_Child</defName>
+		<slot>Childhood</slot>
+		<title>灾厄之狐</title>
+		<titleShort>灾厄之狐</titleShort>
+		<baseDesc>来自百鬼夜行学院的灾厄之狐，因为热衷于破坏和掠夺被FOX小队抓捕并停学；后来因为对schale不满越狱再度引起骚乱，结果遇上了SENSEI并对其一见钟情，现在正在想办法追求SENSEI。</baseDesc>
+	</BackstoryDef>
+
 </Defs>
