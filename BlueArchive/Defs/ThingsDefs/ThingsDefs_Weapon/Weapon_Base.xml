@@ -172,4 +172,10 @@
 		</thingCategories>
 	</ThingDef>
 
+	<ThingDef Name="BA_WeaponBase_Valkyrie" ParentName="BA_WeaponBase_Rifle" Abstract="True">
+		<thingCategories Inherit="False">
+			<li>BA_Weapon</li>
+		</thingCategories>
+	</ThingDef>
+
 </Defs>

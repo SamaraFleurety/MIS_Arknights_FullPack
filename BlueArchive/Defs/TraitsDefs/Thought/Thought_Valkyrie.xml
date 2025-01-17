@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThoughtDef ParentName="BA_Thought_Permanent">
+		<defName>BA_Thought_Trait_Kanna</defName>
+		<requiredTraits>
+			<li>BA_Trait_Kanna</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>狂犬</label>
+				<description>"“狂犬”这个绰号...\n那个…挺羞耻的。"</description>
+				<baseMoodEffect>-6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName="BA_Thought_Permanent">
+		<defName>BA_Thought_Trait_Fubuki</defName>
+		<requiredTraits>
+			<li>BA_Trait_Fubuki</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>懒鬼警员</label>
+				<description>摸鱼时的咖啡和甜甜圈，爽到~</description>
+				<baseMoodEffect>20</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName="BA_Thought_Permanent">
+		<defName>BA_Thought_Trait_Kirino</defName>
+		<requiredTraits>
+			<li>BA_Trait_Kirino</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>热血警员</label>
+				<description>像本警官一样常年训练的话，应对这点工作十分轻松！</description>
+				<baseMoodEffect>20</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+</Defs>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <TraitDef>
+		<defName>BA_Trait_Student_Valkyrie</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>瓦尔基里警察学校学生</label>
+				<description>{PAWN_nameDef}是瓦尔基里警察学校的学生。</description>
+				<statOffsets>
+					<MoveSpeed>1.0</MoveSpeed>
+					<HuntingStealth>0.5</HuntingStealth>
+				</statOffsets>
+				<skillGains>
+					<Shooting>4</Shooting>
+				</skillGains>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+    <TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>BA_Trait_Kanna</defName>
+		<degreeDatas>
+			<li>
+				<label>狂犬</label>
+				<description>" 在确定的犯罪面前，康娜的字典中没有「放弃」一词，她这样的执拗深入人心。\n为了查明真相被世人冠上了「狂犬」这一绰号，并广泛地被人知晓。\n（其实这也和她平时总是臭着一张脸有关）"</description>
+				<statOffsets>
+					<SocialImpact>-0.12</SocialImpact>
+					<WorkSpeedGlobal>0.25</WorkSpeedGlobal>
+					<AimingDelayFactor>-0.25</AimingDelayFactor>
+					<ShootingAccuracyPawn>0.25</ShootingAccuracyPawn>
+                    <MeleeDodgeChance>0.25</MeleeDodgeChance>
+					<PainShockThreshold>-1</PainShockThreshold>
+				</statOffsets>
+				<statFactors>
+					<IncomingDamageFactor>0.6</IncomingDamageFactor>
+                    <ArrestSuccessChance>3</ArrestSuccessChance>
+				</statFactors>
+			</li>
+		</degreeDatas>
+        <modExtensions>
+			<li Class="AKE_OperatorExtension.DefExt_SkillLossRate">
+				<skillLossFactor>0.5</skillLossFactor>
+			</li>
+		</modExtensions>
+	</TraitDef>
+
+    <TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>BA_Trait_Fubuki</defName>
+		<degreeDatas>
+			<li>
+				<label>懒鬼警员</label>
+				<description>吹雪平时总是享受着不思进取的窗边族生活，对于工作什么的总是能应付就应付。不过吹雪其实很有能力，从她总是能想出办法偷懒和糊弄工作上就能看出来。而且在面对真正重要的事情时，她也会以悠闲的样子负起责任。</description>
+				<statOffsets>
+					<SocialImpact>0.18</SocialImpact>
+					<WorkSpeedGlobal>-0.4</WorkSpeedGlobal>
+					<MentalBreakThreshold>-0.12</MentalBreakThreshold>
+					<RestRateMultiplier>-0.15</RestRateMultiplier>
+				</statOffsets>
+                <disallowedMentalStates>
+                    <li>InsultingSpree</li>
+                    <li>TargetedInsultingSpree</li>
+                </disallowedMentalStates>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+    <TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>BA_Trait_Kirino</defName>
+		<degreeDatas>
+			<li>
+				<label>热血警员</label>
+				<description>桐乃总是憧憬着前辈警员的英姿，因此她努力学习着各种警备有关的知识并且尽自己最大的热情完成巡逻任务，不过却总是因为热血上头说错话或没有很好的思考而犯错。</description>
+				<statOffsets>
+					<SocialImpact>-0.06</SocialImpact>
+					<WorkSpeedGlobal>0.2</WorkSpeedGlobal>
+					<MentalBreakThreshold>-0.12</MentalBreakThreshold>
+					<RestRateMultiplier>0.3</RestRateMultiplier>
+				</statOffsets>
+                <disallowedMentalStates>
+                    <li>InsultingSpree</li>
+                    <li>TargetedInsultingSpree</li>
+                </disallowedMentalStates>
+                <statFactors>
+                    <ArrestSuccessChance>0.5</ArrestSuccessChance>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+</Defs>

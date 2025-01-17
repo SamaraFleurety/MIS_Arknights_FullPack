@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <BackstoryDef ParentName = "BA_StoryBase">
+		<defName>BA_BackStory_Kanna_Child</defName>
+		<slot>Childhood</slot>
+		<title>狂犬</title>
+		<titleShort>狂犬</titleShort>
+		<baseDesc>瓦尔基里警察学校的局长，因为追查真相方面十分执拗因此被冠以狂犬的名号。\n尽管有十分强大的武力和充足的理性，但是依旧对瓦尔基里糟糕的现状头疼。</baseDesc>
+	</BackstoryDef>
+
+    <BackstoryDef ParentName = "BA_StoryBase">
+		<defName>BA_BackStory_Fubuki_Child</defName>
+		<slot>Childhood</slot>
+		<title>懒鬼警员</title>
+		<titleShort>懒鬼警员</titleShort>
+		<baseDesc>吹雪因为憧憬悠闲的公务员生活加入了瓦尔基里，平时基本上都是过着吃着甜甜圈无所事事的窗边族生活，康娜喝咖啡是为了缓解过量工作带来的疲惫，吹雪是因为咖啡配上甜甜圈更好喝。</baseDesc>
+	</BackstoryDef>
+
+    <BackstoryDef ParentName = "BA_StoryBase">
+		<defName>BA_BackStory_Kirino_Child</defName>
+		<slot>Childhood</slot>
+		<title>热血警员</title>
+		<titleShort>热血警员</titleShort>
+		<baseDesc>桐乃因为憧憬警察逮捕犯人的英姿加入了瓦尔基里，但是却因为吹雪的影响和致命的射击水平而被调入了生活安全局，其他警员的手铐铐住最多的是犯人，桐乃的手铐铐住最多的是自己。</baseDesc>
+	</BackstoryDef>
+
+</Defs>

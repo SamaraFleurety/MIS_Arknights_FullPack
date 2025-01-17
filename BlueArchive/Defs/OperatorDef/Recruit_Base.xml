@@ -78,4 +78,13 @@
 		<operatorType>BA_OperatorClass_Trinity</operatorType>
 	</AK_DLL.OperatorDef>
 
+	<AK_DLL.OperatorDef ParentName="BA_RecruitBase" Name="BA_RecruitBase_Valkyrie" Abstract="True">
+		<traits>
+			<li>
+				<def>BA_Trait_Student_Valkyrie</def>
+			</li>
+		</traits>
+		<operatorType>BA_OperatorClass_Valkyrie</operatorType>
+	</AK_DLL.OperatorDef>
+
 </Defs>

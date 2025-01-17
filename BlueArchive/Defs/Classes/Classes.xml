@@ -51,4 +51,12 @@
 		<iconPath>UI/Element/SRT</iconPath>
 	</AK_DLL.OperatorClassDef>
 
+	<AK_DLL.OperatorClassDef ParentName="BA_OpClassBlueArchive">
+		<defName>BA_OperatorClass_Valkyrie</defName>
+		<label>Valkyrie</label>
+		<sortingOrder>25</sortingOrder>
+		<textureFolder>Valkyrie</textureFolder>
+		<iconPath>UI/Element/Valkyrie</iconPath>
+	</AK_DLL.OperatorClassDef>
+
 </Defs>

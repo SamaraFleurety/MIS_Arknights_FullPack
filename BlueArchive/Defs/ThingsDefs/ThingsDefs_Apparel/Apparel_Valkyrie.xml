@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="BA_ArmorBase_Valkyrie">
+		<defName>BA_Apparel_Kanna</defName>
+		<label>康娜的制服</label>
+		<description>康娜的警察制服，康娜很不喜欢吃甜甜圈，因为可能会弄脏外套。</description>
+		<graphicData>
+			<texPath>Things/BA_Students/Valkyrie/Kanna</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/BA_Students/Valkyrie/Kanna</wornGraphicPath>
+		</apparel>
+		<statBases>
+			<ArmorRating_Sharp>1.35</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.8</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.7</ArmorRating_Heat>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="BA_ArmorBase_Valkyrie">
+		<defName>BA_Apparel_Fubuki</defName>
+		<label>吹雪的制服</label>
+		<description>吹雪的警察制服，吹雪虽然每天都躺着吃甜甜圈喝咖啡，但是神奇的是她的制服总是非常干净，这到底是怎么做到的？</description>
+		<graphicData>
+			<texPath>Things/BA_Students/Valkyrie/Fubuki</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/BA_Students/Valkyrie/Fubuki</wornGraphicPath>
+		</apparel>
+		<statBases>
+			<ArmorRating_Sharp>1.35</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.8</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.7</ArmorRating_Heat>
+		</statBases>
+	</ThingDef>
+
+    <ThingDef ParentName="BA_ArmorBase_Valkyrie">
+		<defName>BA_Apparel_Kirino</defName>
+		<label>桐乃的制服</label>
+		<description>桐乃的警察制服，吹雪虽然每天都把自己的制服打理的一丝不苟，但是却总是因为在工作中出错把自己搞得极其狼狈。</description>
+		<graphicData>
+			<texPath>Things/BA_Students/Valkyrie/Kirino</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/BA_Students/Valkyrie/Kirino</wornGraphicPath>
+		</apparel>
+		<statBases>
+			<ArmorRating_Sharp>0.9</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.2</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.3</ArmorRating_Heat>
+		</statBases>
+	</ThingDef>
+
+</Defs>
