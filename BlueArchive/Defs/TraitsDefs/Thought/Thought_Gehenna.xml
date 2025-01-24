@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThoughtDef ParentName="BA_Thought_Permanent">
+		<defName>BA_Thought_Trait_Hina</defName>
+		<requiredTraits>
+			<li>BA_Trait_HinaSecond</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>慵懒</label>
+				<description>想要撒娇，想一起玩闹，也想发发牢骚…</description>
+				<baseMoodEffect>-8</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+    <ThoughtDef ParentName="BA_Thought_Permanent">
+		<defName>BA_Thought_Trait_Ako</defName>
+		<requiredTraits>
+			<li>BA_Trait_Ako</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>亲切的行政官</label>
+				<description>嘛，怎么样都好啦……</description>
+				<baseMoodEffect>-8</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+    <ThoughtDef ParentName="BA_Thought_Permanent">
+		<defName>BA_Thought_Trait_AkoSecond</defName>
+		<requiredTraits>
+			<li>BA_Trait_AkoSecond</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>日奈的宠物</label>
+				<description>委员长她…有好好地吃饭吗…？</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+    <ThoughtDef ParentName="BA_Thought_Permanent">
+		<defName>BA_Thought_Trait_Iori</defName>
+		<requiredTraits>
+			<li>BA_Trait_IoriSecond</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>倒霉蛋</label>
+				<description>被摆了一道吗...可恶！</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+    <ThoughtDef ParentName="BA_Thought_Permanent">
+		<defName>BA_Thought_Trait_Iroha</defName>
+		<requiredTraits>
+			<li>BA_Trait_Iroha</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>摸鱼达人</label>
+				<description>好好，来了来了</description>
+				<baseMoodEffect>12</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+    <ThoughtDef ParentName="BA_Thought_Permanent">
+		<defName>BA_Thought_Trait_Ibuki</defName>
+		<requiredTraits>
+			<li>BA_Trait_Ibuki</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>品行端正的好孩子</label>
+				<description>诶嘿嘿，有什么要和伊吹说吗？</description>
+				<baseMoodEffect>12</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+    <ThoughtDef ParentName="BA_Thought_Permanent">
+		<defName>BA_Thought_Trait_Kayoko</defName>
+		<requiredTraits>
+			<li>BA_Trait_Kayoko</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>可怕表情</label>
+				<description>...我知道的。我面容可怖。因为经常被人误解。</description>
+				<baseMoodEffect>-3</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+    <ThoughtDef ParentName="BA_Thought_Permanent">
+		<defName>BA_Thought_Trait_Aru</defName>
+		<requiredTraits>
+			<li>BA_Trait_Aru</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>社长的威严</label>
+				<description>哈哈，想见识见识我的能力吗。</description>
+				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+    <ThoughtDef ParentName="BA_Thought_Permanent">
+		<defName>BA_Thought_Trait_Mutsuki</defName>
+		<requiredTraits>
+			<li>BA_Trait_Mutsuki</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>小恶魔</label>
+				<description>今天做什么任务？从好玩的开始做吧！</description>
+				<baseMoodEffect>6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+    <ThoughtDef ParentName="BA_Thought_Permanent">
+		<defName>BA_Thought_Trait_Haruka</defName>
+		<requiredTraits>
+			<li>BA_Trait_Haruka</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>杂草</label>
+				<description>想去死想去死\n想去死想去死\n想去死想去死</description>
+				<baseMoodEffect>-12</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+</Defs>

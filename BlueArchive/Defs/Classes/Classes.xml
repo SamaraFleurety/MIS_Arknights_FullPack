@@ -59,4 +59,12 @@
 		<iconPath>UI/Element/Valkyrie</iconPath>
 	</AK_DLL.OperatorClassDef>
 
+	<AK_DLL.OperatorClassDef ParentName="BA_OpClassBlueArchive">
+		<defName>BA_OperatorClass_Gehenna</defName>
+		<label>Gehenna</label>
+		<sortingOrder>26</sortingOrder>
+		<textureFolder>Gehenna</textureFolder>
+		<iconPath>UI/Element/Gehenna</iconPath>
+	</AK_DLL.OperatorClassDef>
+
 </Defs>

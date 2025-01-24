@@ -37,4 +37,13 @@
 		</nomatch>
 	</Operation>
 
+	<!-- 观察人类尸体 -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThoughtDef[defName="ObservedLayingCorpse"]/nullifyingTraits</xpath>
+		<value>
+			<li>BA_Trait_HarukaSecond</li>
+		</value>
+	</Operation>
+
 </Patch>

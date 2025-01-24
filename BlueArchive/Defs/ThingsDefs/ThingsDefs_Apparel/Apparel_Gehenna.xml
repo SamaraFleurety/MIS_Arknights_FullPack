@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="BA_ArmorBase_Gehenna">
+		<defName>BA_Apparel_Hina</defName>
+		<label>日奈的制服</label>
+		<description>日奈的风纪委制服，亚子会细心的为她清洗和熨干，并且定时准备新的制服。</description>
+		<graphicData>
+			<texPath>Things/BA_Students/Gehenna/Hina</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/BA_Students/Gehenna/Hina</wornGraphicPath>
+		</apparel>
+		<statBases>
+			<ArmorRating_Sharp>1.35</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.8</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.7</ArmorRating_Heat>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="BA_ArmorBase_Gehenna">
+		<defName>BA_Apparel_Ako</defName>
+		<label>亚子的制服</label>
+		<description>亚子的行政官制服，不知道为什么亚子要戴着项圈，她的外号来源也有这一部分原因</description>
+		<graphicData>
+			<texPath>Things/BA_Students/Gehenna/Ako</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/BA_Students/Gehenna/Ako</wornGraphicPath>
+		</apparel>
+		<statBases>
+			<ArmorRating_Sharp>1.35</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.8</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.7</ArmorRating_Heat>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="BA_ArmorBase_Gehenna">
+		<defName>BA_Apparel_Iori</defName>
+		<label>伊织的制服</label>
+		<description>"伊织的行动队制服，因为伊织经常踏入陷阱，所以不时就需要更换。脚除了鞋袜里头还缠着绷带，不知道为啥。"</description>
+		<graphicData>
+			<texPath>Things/BA_Students/Gehenna/Iori</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/BA_Students/Gehenna/Iori</wornGraphicPath>
+		</apparel>
+		<statBases>
+			<ArmorRating_Sharp>1.35</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.8</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.7</ArmorRating_Heat>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="BA_ArmorBase_Gehenna">
+		<defName>BA_Apparel_Chinatsu</defName>
+		<label>千夏的制服</label>
+		<description>千夏的风纪委制服，有一股药草和香水混合的味道。</description>
+		<graphicData>
+			<texPath>Things/BA_Students/Gehenna/Chinatsu</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/BA_Students/Gehenna/Chinatsu</wornGraphicPath>
+		</apparel>
+		<statBases>
+			<ArmorRating_Sharp>1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.4</ArmorRating_Heat>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="BA_ArmorBase_Gehenna">
+		<defName>BA_Apparel_Iroha</defName>
+		<label>伊吕波的制服</label>
+		<description>伊吕波的格赫娜制服，虽然伊吕波在摸鱼的时候总是把鞋袜到处乱丢，但是在结束摸鱼的时候她总是能准确的找到，而且她的鞋袜总是很干净，真是个奇迹。</description>
+		<graphicData>
+			<texPath>Things/BA_Students/Gehenna/Iroha</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/BA_Students/Gehenna/Iroha</wornGraphicPath>
+		</apparel>
+		<statBases>
+			<ArmorRating_Sharp>1.35</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.8</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.7</ArmorRating_Heat>
+		</statBases>
+	</ThingDef>、
+
+    <ThingDef ParentName="BA_ArmorBase_Gehenna">
+		<defName>BA_Apparel_Ibuki</defName>
+		<label>伊吹的制服</label>
+		<description>伊吹的格赫娜制服，虽然伊吹是高中部的学生，但是她的制服却是小学生样式的</description>
+		<graphicData>
+			<texPath>Things/BA_Students/Gehenna/Ibuki</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/BA_Students/Gehenna/Ibuki</wornGraphicPath>
+		</apparel>
+		<statBases>
+			<ArmorRating_Sharp>1.35</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.8</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.7</ArmorRating_Heat>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="BA_ArmorBase_Gehenna">
+		<defName>BA_Apparel_Kayoko</defName>
+		<label>乐队周边连帽衫套装</label>
+		<description>由“黑色死亡毒药”乐队发行的周边连帽衫，看着有些吓人。</description>
+		<graphicData>
+			<texPath>Things/BA_Students/Gehenna/Kayoko</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/BA_Students/Gehenna/Kayoko</wornGraphicPath>
+		</apparel>
+		<statBases>
+			<ArmorRating_Sharp>1.35</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.8</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.7</ArmorRating_Heat>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="BA_ArmorBase_Gehenna">
+		<defName>BA_Apparel_Aru</defName>
+		<label>黑帮风格外套</label>
+		<description>爱露非常喜欢的帅气外套，非常具有冷硬的气质。前提是爱露没有因为各种出糗把自己搞得一身狼狈。</description>
+		<graphicData>
+			<texPath>Things/BA_Students/Gehenna/Aru</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/BA_Students/Gehenna/Aru</wornGraphicPath>
+		</apparel>
+		<statBases>
+			<ArmorRating_Sharp>1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.4</ArmorRating_Heat>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="BA_ArmorBase_Gehenna">
+		<defName>BA_Apparel_Mutsuki</defName>
+		<label>睦月的短裙</label>
+		<description>睦月的裙子，打扮的很可爱，可爱的外形也是恶作剧成功的一个重要保障。</description>
+		<graphicData>
+			<texPath>Things/BA_Students/Gehenna/Mutsuki</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/BA_Students/Gehenna/Mutsuki</wornGraphicPath>
+		</apparel>
+		<statBases>
+			<ArmorRating_Sharp>1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.4</ArmorRating_Heat>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="BA_ArmorBase_Gehenna">
+		<defName>BA_Apparel_Haruka</defName>
+		<label>遥香的制服</label>
+		<description>遥香的制服，是最便宜的那款，穿上去很不舒服。遥香总是说自己配不上昂贵舒适的衣服。</description>
+		<graphicData>
+			<texPath>Things/BA_Students/Gehenna/Haruka</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/BA_Students/Gehenna/Haruka</wornGraphicPath>
+		</apparel>
+		<statBases>
+			<ArmorRating_Sharp>1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.4</ArmorRating_Heat>
+		</statBases>
+	</ThingDef>
+
+</Defs>

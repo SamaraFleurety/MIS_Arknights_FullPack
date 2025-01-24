@@ -103,4 +103,10 @@
     </thingCategories>
   </ThingDef>
 
+  <ThingDef Name="BA_ArmorBase_Gehenna" ParentName="BA_ArmorBase" Abstract="True">
+    <thingCategories Inherit="false">
+      <li>BA_Apparel</li>
+    </thingCategories>
+  </ThingDef>
+
  </Defs>
