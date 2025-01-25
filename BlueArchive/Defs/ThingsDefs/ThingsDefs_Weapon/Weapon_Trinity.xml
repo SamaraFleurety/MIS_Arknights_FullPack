@@ -827,4 +827,92 @@
 		</projectile>
 	</ThingDef>
 
+	<ThingDef ParentName="BA_WeaponBase_Trinity" Name="BA_Weapon_Seia">
+		<defName>BA_Weapon_Seia</defName>
+		<label>锐利的光彩</label>
+		<graphicData>
+			<texPath>Things/BA_Students/Weapon/Trinity/SeiaW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<description>"圣娅爱用的手枪。\n其设计散发着与茶会成员相称的优雅气质。如同其主人时而展现的犀利言辞，枪膛中总是装填着子弹。"</description>
+		<statBases>
+			<AccuracyTouch>0.55</AccuracyTouch>
+			<AccuracyShort>0.75</AccuracyShort>
+			<AccuracyMedium>0.5</AccuracyMedium>
+			<AccuracyLong>0.3</AccuracyLong>
+			<RangedWeapon_Cooldown>0.9</RangedWeapon_Cooldown>
+			<!--后摇-->
+		</statBases>
+		<modExtensions>
+            <li Class="AK_DLL.Ext_WeaponwieldGraphics">
+                <alterGraphics>
+                    <texPath>Things/BA_Students/Weapon/Trinity/SeiaW</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>1.2</drawSize>
+                    <drawOffset>(0,0,0.3)</drawOffset>
+                </alterGraphics>
+            </li>
+        </modExtensions>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>BA_Bullet_Seia</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>1.8</warmupTime>
+				<!--前摇-->
+				<range>25</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>BA_Sound_Weapon_GeneralPistol</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<tools Inherit="false">
+			<li>
+				<label>枪托猛砸</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>32</power>
+				<cooldownTime>2.8</cooldownTime>
+			</li>
+			<li>
+				<label>踢击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>20</power>
+				<cooldownTime>1.2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="BA_Weapon_Seia">
+		<defName>BA_Weapon_SeiaDancer</defName>
+	</ThingDef>
+
+	<ThingDef ParentName="BA_BulletBase_Bow">
+		<defName>BA_Bullet_Seia</defName>
+		<label>瞄准射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<!--伤害类型-->
+			<damageAmountBase>40</damageAmountBase>
+			<armorPenetrationBase>0.7</armorPenetrationBase>
+			<stoppingPower>3</stoppingPower>
+			<speed>50</speed>
+			<soundExplode>ThumpCannon_Impact</soundExplode>
+			<!--爆炸音效-->
+		</projectile>
+	</ThingDef>
+
 </Defs>

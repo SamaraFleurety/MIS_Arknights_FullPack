@@ -81,4 +81,12 @@
 		<baseDesc>{PAWN_nameDef}是圣三一修女会的成员，平日总是虔诚的为圣三一的各位祈祷</baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName = "BA_StoryBase">
+		<defName>BA_BackStory_Seia_Child</defName>
+		<slot>Childhood</slot>
+		<title>圣灵派领袖</title>
+		<titleShort>圣灵派领袖</titleShort>
+		<baseDesc>三一学园茶话会的三位会长之一，圣灵派领袖。经常说着一些类似于谜语的话，可以做预知梦，是一位让人捉摸不透的学生。是三一学园茶话会三位领导者中最神秘、最聪明的一位。她与未花、渚在来往总是保持着距离。但后来她遭遇袭击，因为光环被破坏而住院，出院后似乎变得比以往更孩子气和黏人了些。</baseDesc>
+	</BackstoryDef>
+
 </Defs>

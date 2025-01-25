@@ -368,5 +368,46 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>BA_Trait_Seia</defName>
+		<degreeDatas>
+			<li>
+				<label>圣灵派领袖</label>
+				<description>"{PAWN_nameDef}是圣三一学院圣灵派的领袖，平日负责圣三一的外交活动，因此富有学识的同时，也非常善于社交和词令。"</description>
+				<statOffsets>
+					<PawnBeauty>2</PawnBeauty>
+					<SocialImpact>0.8</SocialImpact>
+					<NegotiationAbility>0.4</NegotiationAbility>
+					<GlobalLearningFactor>1.2</GlobalLearningFactor>
+				</statOffsets>
+				<disallowedMentalStates>
+                    <li>InsultingSpree</li>
+                    <li>TargetedInsultingSpree</li>
+                </disallowedMentalStates>
+			</li>
+		</degreeDatas>
+		<modExtensions>
+			<li Class="AKE_OperatorExtension.DefExt_SkillLossRate">
+				<skillLossFactor>0.2</skillLossFactor>
+			</li>
+		</modExtensions>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>BA_Trait_SeiaSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>谜语人</label>
+				<description>由于{PAWN_nameDef}钟爱看书和晦涩难懂的语言，加上平时需要在意自己的用词。{PAWN_nameDef}即使平时说话也弯弯绕绕，乍一听就像是在说谜语</description>
+				<statOffsets>
+					<WorkSpeedGlobal>0.35</WorkSpeedGlobal>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
 
 </Defs>

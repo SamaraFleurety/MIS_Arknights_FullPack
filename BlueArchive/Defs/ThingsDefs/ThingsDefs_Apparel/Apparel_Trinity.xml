@@ -181,4 +181,56 @@
 		</statBases>
 	</ThingDef>
 
+	<ThingDef ParentName="BA_ArmorBase_Trinity">
+		<defName>BA_Apparel_Seia</defName>
+		<label>圣娅的服装</label>
+		<description>圣娅的服装，洁白而又华丽，和圣娅神秘的气质相得益彰。</description>
+		<graphicData>
+			<texPath>Things/BA_Students/Trinity/Seia</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/BA_Students/Trinity/Seia</wornGraphicPath>
+		</apparel>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_ExtraGraphicData">
+				<graphicData>
+					<drawOffset>(0,0,0.3)</drawOffset>
+					<drawSize>(1.3, 1.3)</drawSize>
+				</graphicData>
+			</li>
+		</modExtensions>
+		<statBases>
+			<ArmorRating_Sharp>1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1</ArmorRating_Blunt>
+			<ArmorRating_Heat>1</ArmorRating_Heat>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="BA_ArmorBase_Trinity">
+		<defName>BA_Apparel_SeiaDancer</defName>
+		<label>圣娅的舞女服</label>
+		<description>圣娅的舞女服</description>
+		<graphicData>
+			<texPath>Things/BA_Students/Trinity/SeiaDancer</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/BA_Students/Trinity/SeiaDancer</wornGraphicPath>
+		</apparel>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_ExtraGraphicData">
+				<graphicData>
+					<drawOffset>(0,0,0.3)</drawOffset>
+					<drawSize>(1.3, 1.3)</drawSize>
+				</graphicData>
+			</li>
+		</modExtensions>
+		<statBases>
+			<ArmorRating_Sharp>1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1</ArmorRating_Blunt>
+			<ArmorRating_Heat>1</ArmorRating_Heat>
+		</statBases>
+	</ThingDef>
+
 </Defs>

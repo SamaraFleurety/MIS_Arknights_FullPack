@@ -61,4 +61,44 @@
 		<texPath>Things/Hair/Trinity/Mari</texPath>
 	</HairDef>
 
+	<HairDef ParentName="BA_HairBaseF">
+		<defName>BA_Hair_Seia</defName>
+		<label>百合园圣娅发型</label>
+		<texPath>Things/Hair/Trinity/Seia</texPath>
+		<noGraphic>true</noGraphic>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_FrontHair">
+				<graphicData>
+					<texPath>Things/Hair/Trinity/Seia</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1.3</drawSize>
+					<drawOffsetSouth>(0,0,0.35)</drawOffsetSouth>
+					<drawOffsetNorth>(0,0,0.35)</drawOffsetNorth>
+					<drawOffsetEast>(0.02,0,0.35)</drawOffsetEast>
+					<drawOffsetWest>(-0.02,0,0.35)</drawOffsetWest>
+				</graphicData>
+			</li>
+		</modExtensions>
+	</HairDef>
+
+	<HairDef ParentName="BA_HairBaseF">
+		<defName>BA_Hair_SeiaDancer</defName>
+		<label>百合园圣娅舞女装发型</label>
+		<texPath>Things/Hair/Trinity/SeiaDancer</texPath>
+		<noGraphic>true</noGraphic>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_FrontHair">
+				<graphicData>
+					<texPath>Things/Hair/Trinity/SeiaDancer</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1.3</drawSize>
+					<drawOffsetSouth>(0,0,0.35)</drawOffsetSouth>
+					<drawOffsetNorth>(0,0,0.35)</drawOffsetNorth>
+					<drawOffsetEast>(0.02,0,0.35)</drawOffsetEast>
+					<drawOffsetWest>(-0.02,0,0.35)</drawOffsetWest>
+				</graphicData>
+			</li>
+		</modExtensions>
+	</HairDef>
+
 </Defs>
