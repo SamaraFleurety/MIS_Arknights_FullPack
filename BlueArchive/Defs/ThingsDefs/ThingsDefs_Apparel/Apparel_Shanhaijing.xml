@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="BA_ArmorBase_Shanhaijing">
+		<defName>BA_Apparel_Kisaki</defName>
+		<label>妃咲的旗袍</label>
+		<description>妃咲的旗袍，做工精致，面料精细，绣着代表山海经的腾龙。妃咲在外出的时候经常会外穿一件外套。</description>
+		<graphicData>
+			<texPath>Things/BA_Students/Shanhaijing/Kisaki</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/BA_Students/Shanhaijing/Kisaki</wornGraphicPath>
+		</apparel>
+		<statBases>
+			<ArmorRating_Sharp>0.9</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.2</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.3</ArmorRating_Heat>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="BA_ArmorBase_Shanhaijing">
+		<defName>BA_Apparel_Kokona</defName>
+		<label>春园心奈的服装</label>
+		<description>心奈的裙子，和她手中的突击步枪一样，是展现淑女品味和教官职责的好帮手</description>
+		<graphicData>
+			<texPath>Things/BA_Students/Shanhaijing/Kokona</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/BA_Students/Shanhaijing/Kokona</wornGraphicPath>
+		</apparel>
+		<statBases>
+			<ArmorRating_Sharp>1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.4</ArmorRating_Heat>
+		</statBases>
+	</ThingDef>
+
+    <ThingDef ParentName="BA_ArmorBase_Shanhaijing">
+		<defName>BA_Apparel_Shun</defName>
+		<label>春园瞬的服装</label>
+		<description>瞬的裙子，比起心奈的更加成熟</description>
+		<graphicData>
+			<texPath>Things/BA_Students/Shanhaijing/Shun</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/BA_Students/Shanhaijing/Shun</wornGraphicPath>
+		</apparel>
+		<statBases>
+			<ArmorRating_Sharp>1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.4</ArmorRating_Heat>
+		</statBases>
+	</ThingDef>
+
+</Defs>

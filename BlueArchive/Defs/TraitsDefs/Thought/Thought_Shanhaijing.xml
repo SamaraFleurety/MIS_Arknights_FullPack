@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThoughtDef ParentName="BA_Thought_Permanent">
+		<defName>BA_Thought_Trait_Kokona</defName>
+		<requiredTraits>
+			<li>BA_Trait_Kokona</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>稚嫩的淑女</label>
+				<description>哼，我才不是小孩子呢！我是成熟的淑女！</description>
+				<baseMoodEffect>6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+    <ThoughtDef ParentName="BA_Thought_Permanent">
+		<defName>BA_Thought_Trait_Shun</defName>
+		<requiredTraits>
+			<li>BA_Trait_ShunSecond</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>成熟的烦恼</label>
+				<description>唉...我看上去真的有那么老气吗？</description>
+				<baseMoodEffect>-4</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+</Defs>

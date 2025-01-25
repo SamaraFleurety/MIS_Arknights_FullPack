@@ -96,4 +96,13 @@
 		<operatorType>BA_OperatorClass_Gehenna</operatorType>
 	</AK_DLL.OperatorDef>
 
+	<AK_DLL.OperatorDef ParentName="BA_RecruitBase" Name="BA_RecruitBase_Shanhaijing" Abstract="True">
+		<traits>
+			<li>
+				<def>BA_Trait_Student_Shanhaijing</def>
+			</li>
+		</traits>
+		<operatorType>BA_OperatorClass_Shanhaijing</operatorType>
+	</AK_DLL.OperatorDef>
+
 </Defs>

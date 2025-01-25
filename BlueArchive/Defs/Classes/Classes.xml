@@ -67,4 +67,12 @@
 		<iconPath>UI/Element/Gehenna</iconPath>
 	</AK_DLL.OperatorClassDef>
 
+	<AK_DLL.OperatorClassDef ParentName="BA_OpClassBlueArchive">
+		<defName>BA_OperatorClass_Shanhaijing</defName>
+		<label>Shanhaijing</label>
+		<sortingOrder>27</sortingOrder>
+		<textureFolder>Shanhaijing</textureFolder>
+		<iconPath>UI/Element/Shanhaijing</iconPath>
+	</AK_DLL.OperatorClassDef>
+
 </Defs>
