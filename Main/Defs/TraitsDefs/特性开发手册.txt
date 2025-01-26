@@ -5,24 +5,31 @@
 <></>
 <statOffsets>
 	社交
-		NegotiationAbility 谈判能力
+		NegotiationAbility谈判能力
 		TradePriceImprovement 交易价格改善
-		SocialImpact 社交效果
+		SocialImpact社交效果
 		PawnBeauty 魅力
-	
+		ConversionPower教化能力
+		CertaintyLossFactor全局动摇系数
+		BiosculpterOccupantSpeed塑形速度
 	战斗
 		ArmorRating_Sharp 利器防御
 		ArmorRating_Blunt 钝器防御
 		ArmorRating_Heat  热能防御
 		Flammability 可燃性
+
 		ShootingAccuracyPawn
+		RangedCooldownFactor远程冷却系数
 		AimingDelayFactor
+
 		HuntingStealth
-		MeleeHitChance 近战命中率
-		MeleeDodgeChance 近战闪避率
-		MeleeDPS
+		MeleeHitChance近战命中率
+		MeleeDodgeChance近战闪避率
+		MeleeDPS 不确定能不能用
+		MeleeCooldownFactor近战冷却系数
+		MeleeDamageFactor近战伤害系数
 		PainShockThreshold 昏迷阈值
-		IncomingDamageFactor 承伤系数
+		IncomingDamageFactor承伤系数
 		PsychicSensitivity
 		PawnTrapSpringChance 陷阱触发概率
 
@@ -43,6 +50,9 @@
 		HungerRateMultiplier 饥饿系数
 		ImmunityGainSpeed 免疫获得
 		RestRateMultiplier
+		Insulation_Cold 抗寒
+		Insulation_Heat 抗热
+		InjuryHealingFactor愈合系数
 	
 	PlantWorkSpeed
 	PlantHarvestYield 植物收获
@@ -53,8 +63,8 @@
 	GlobalLearningFactor 全局学习速度
 	WorkSpeedGlobal 全局工作速度
 	ResearchSpeed 研究速度
-	CarryingCapacity 携带能力
-	MoveSpeed 移动速度
+	CarryingCapacity携带能力
+	MoveSpeed移动速度
 	Mass
 	LeatherAmount
 
@@ -68,6 +78,7 @@
 	DrugSynthesisSpeed
 	CookSpeed
 
+	MechBandwidth机械带宽加成
 skillGains
 	Intellectual
 	Social
@@ -83,7 +94,21 @@ skillGains
 	Melee
 	
 	
-
+<capMods>
+	<capacity>
+		BloodFiltration  血液过滤
+		BloodPumping 血液循环
+		Breathing 呼吸能力
+		Consciousness 意识
+		Eating 进食能力
+		Hearing 听觉能力
+		Manipulation 操作能力
+		Metabolism 消化能力
+		Moving 移动能力
+		Sight 视觉
+		Talking 语言能力
+	<postFactor>
+	<offset>
 
 def翻译速查
 --单个
@@ -136,3 +161,15 @@ Neurotic 1,2 神经质,严重神经质
 PsychicSensitivity 2~-2 心灵过敏,心灵敏感,心灵迟钝,心灵失聪
 ShootingAccuracy 1,-1 冷枪手,乱开枪
 SpeedOffset 2,1,-1 疾步如飞,疾行者,慢性子
+
+
+服装
+<apparels>
+	<bodyPartGroups>覆盖部位
+	<layers> 覆盖层级
+		OnSkin
+		Middle
+		Shell
+		Belt
+		Overhead
+		EyeCover

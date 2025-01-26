@@ -1,24 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<Def Class="AKA_Ability.DelayedEffects.DelayedEffectDef">
+	<Def Class="AKA_Ability.AbilityEffectsDef">
 		<defName>AKA_Effect_ShootIgnit</defName>
 		<label>发射点燃</label>
-		<delayedEffector>AKA_Ability.DelayedEffects.Effector_ShootProjectile</delayedEffector>
-		<projectile>AK_Bullet_Base</projectile>
-		<!--verbProperties>
-			<verbClass>Verb_Shoot</verbClass>
-			<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
-			<hasStandardCommand>false</hasStandardCommand>
-			<defaultProjectile>AK_Bullet_Base</defaultProjectile>
-			<warmupTime>0</warmupTime>
-			<range>99</range>
-			<ticksBetweenBurstShots>23</ticksBetweenBurstShots>
-			<burstShotCount>3</burstShotCount>
-			<soundCast>AK_Sound_Weapon_Exusiai</soundCast>
-			<soundCastTail>GunTail_Medium</soundCastTail>
-			<muzzleFlashScale>9</muzzleFlashScale>
-		</verbProperties-->
+		<compEffectList>
+			<li Class="AKA_Ability.AbilityEffect.AE_ShootProjectile">
+				<projectile>AK_Bullet_Base</projectile>
+			</li>
+		</compEffectList>
 	</Def>
 
 	<AKA_Ability.AKAbilityDef>
@@ -29,25 +19,11 @@
 		<grouped>true</grouped>
 		<displayGizmoUndraft>true</displayGizmoUndraft>
 		<compEffectList>
-			<!--li Class = "AKA_Ability.AE_DelayedEffects">
-				<verb>
-					<verbClass>Verb_Shoot</verbClass>
-					<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
-					<hasStandardCommand>false</hasStandardCommand>
-					<defaultProjectile>AK_Bullet_Base</defaultProjectile>
-					<warmupTime>0</warmupTime>
-					<range>99</range>
-					<ticksBetweenBurstShots>23</ticksBetweenBurstShots>
-					<burstShotCount>3</burstShotCount>
-					<soundCast>AK_Sound_Weapon_Exusiai</soundCast>
-					<soundCastTail>GunTail_Medium</soundCastTail>
-					<muzzleFlashScale>9</muzzleFlashScale>
-				</verb>
-			</li-->
 			<li Class="AKA_Ability.AbilityEffect.AE_DelayedEffects">	
 				<delayedEffect>AKA_Effect_ShootIgnit</delayedEffect>
 				<burstCount>3</burstCount>
 				<burstInterval>17</burstInterval>
+				<effectorType>AKA_Ability.DelayedEffects.DelayedEffectorBase</effectorType>
 			</li>
 			<li Class="AKA_Ability.AbilityEffect.AE_CostChargeStatic" />
 		</compEffectList>		
