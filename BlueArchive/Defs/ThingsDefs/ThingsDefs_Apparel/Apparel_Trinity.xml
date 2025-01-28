@@ -30,6 +30,14 @@
 		<apparel>
 			<wornGraphicPath>Things/BA_Students/Trinity/Mika</wornGraphicPath>
 		</apparel>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_ExtraGraphicData">
+				<graphicData>
+					<drawOffset>(0,0,0.3)</drawOffset>
+					<drawSize>(1.3, 1.3)</drawSize>
+				</graphicData>
+			</li>
+		</modExtensions>
 		<statBases>
 			<ArmorRating_Sharp>1</ArmorRating_Sharp>
 			<ArmorRating_Blunt>0.6</ArmorRating_Blunt>

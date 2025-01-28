@@ -11,6 +11,20 @@
 		<defName>BA_Hair_Mika</defName>
 		<label>圣园未花发型</label>
 		<texPath>Things/Hair/Trinity/Mika</texPath>
+		<noGraphic>true</noGraphic>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_FrontHair">
+				<graphicData>
+					<texPath>Things/Hair/Trinity/Mika</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1.3</drawSize>
+					<drawOffsetSouth>(0,0,0.35)</drawOffsetSouth>
+					<drawOffsetNorth>(0,0,0.35)</drawOffsetNorth>
+					<drawOffsetEast>(0.02,0,0.35)</drawOffsetEast>
+					<drawOffsetWest>(-0.02,0,0.35)</drawOffsetWest>
+				</graphicData>
+			</li>
+		</modExtensions>
 	</HairDef>
 
 	<HairDef ParentName="BA_HairBaseF">

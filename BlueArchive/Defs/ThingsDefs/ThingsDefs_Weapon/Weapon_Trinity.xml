@@ -91,6 +91,16 @@
 			<RangedWeapon_Cooldown>0.9</RangedWeapon_Cooldown>
 			<!--后摇-->
 		</statBases>
+		<modExtensions>
+            <li Class="AK_DLL.Ext_WeaponwieldGraphics">
+                <alterGraphics>
+                    <texPath>Things/BA_Students/Weapon/Trinity/MikaW</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>1.1</drawSize>
+                    <drawOffset>(0.1,0,0.3)</drawOffset>
+                </alterGraphics>
+            </li>
+        </modExtensions>
 		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
