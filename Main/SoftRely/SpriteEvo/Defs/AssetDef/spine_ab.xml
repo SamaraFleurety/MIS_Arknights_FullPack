@@ -168,4 +168,19 @@
         </asset>
     </SpriteEvo.SpineAssetDef>
 
+    <SpriteEvo.SpineAssetDef>
+        <defName>AK_Spine_mlyss_dynillust</defName>
+        <asset>
+            <StraightAlphaInput>true</StraightAlphaInput>
+            <version>3.8</version>
+            <filePath>Spine/asset_dyn_mlyss</filePath>
+            <seriesname>dyn_illust_char_249_mlyss</seriesname>
+            <atlas>dyn_illust_char_249_mlyss.atlas.txt</atlas>
+            <skeleton>dyn_illust_char_249_mlyss.skel.bytes</skeleton>
+            <materials>
+                <li>dyn_illust_char_249_mlyss_Materials</li>
+            </materials>
+        </asset>
+    </SpriteEvo.SpineAssetDef>
+
 </Defs>
