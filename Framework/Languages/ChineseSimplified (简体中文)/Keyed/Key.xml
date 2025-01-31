@@ -38,6 +38,12 @@
 	<AK_SortDPS>理论DPS</AK_SortDPS>
 	<AK_SortAlphabet>首字母</AK_SortAlphabet>
 
+	<AK_Option_AllowReg>允许手动注册</AK_Option_AllowReg>
+	<AK_Option_AllowRegDesc>允许将殖民者手动注册为干员，需要目标干员曾被招募过，且名字未修改。仅建议将本身就是干员，因为意外丢失身份的角色恢复身份。强行将别人注册为干员导致的问题概不负责。</AK_Option_AllowRegDesc>
+
+	<AK_ManualRegOp>[调试功能]将此殖民者手动注册为 {0}。</AK_ManualRegOp>
+	<AK_ManualRegConfirm>将此殖民者手动注册为 {0}。这会使当前殖民者以及其装备全部消失，然后出现同名角色。此功能仅限调试，或者用于因bug/更新等原因导致干员信息消失，并且非常不建议将本来不是干员的角色强行注册为干员。是否继续？</AK_ManualRegConfirm>
+
 	<AK_StartLabel>欢迎使用MIS.明日方舟MOD</AK_StartLabel>
 	<AK_StartDesc>
 FAQ：
