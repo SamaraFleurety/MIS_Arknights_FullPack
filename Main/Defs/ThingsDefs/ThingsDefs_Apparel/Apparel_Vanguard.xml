@@ -266,4 +266,16 @@
         </apparel>
     </ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Vanguard">
+		<defName>AK_Apparel_Zima</defName>
+		<label>凛冬服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Vanguard/Zima</texPath>
+			<graphicClass>Graphic_single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Vanguard/Zima</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 </Defs>

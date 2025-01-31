@@ -2025,4 +2025,93 @@
         </skills>
 	</AK_DLL.OperatorDef>
 
+	<!-- 凛冬 -->
+
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Vanguard">
+		<defName>AK_Recruit_Zima</defName>
+		<name>Zima</name>
+		<nickname>Zima</nickname>
+		<description>Fixme</description>
+		<weapon>AK_Weapon_Zima</weapon>
+		<hair>AK_Hair_Zima</hair>
+		<apparels>
+			<li>AK_Apparel_Zima</li>
+		</apparels>
+		<stand>UI/Image/Vanguard/ZimaStand</stand>
+		<headPortrait>UI/Image/Vanguard/ZimaPortrait</headPortrait>
+		<traits>
+			<li>
+				<def>Beauty</def>
+				<degree>1</degree>
+			</li>
+			<li>
+				<def>AK_Trait_Zima</def>
+			</li>
+		</traits>
+		<age>19</age>
+		<childHood>AK_BackStory_Zima_Child</childHood>
+		<skills>
+            <li>
+                <skill>Animals</skill>
+                <level>1</level>
+                <fireLevel>0</fireLevel>
+            </li>
+            <li>
+                <skill>Artistic</skill>
+                <level>8</level>
+                <fireLevel>0</fireLevel>
+            </li>
+            <li>
+				<skill>Construction</skill>
+				<level>4</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Cooking</skill>
+				<level>4</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Crafting</skill>
+				<level>8</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Intellectual</skill>
+				<level>8</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<level>1</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<level>10</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Mining</skill>
+				<level>1</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Plants</skill>
+				<level>4</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<level>7</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<level>8</level>
+				<fireLevel>0</fireLevel>
+			</li>
+        </skills>
+	</AK_DLL.OperatorDef>
+
 </Defs>
