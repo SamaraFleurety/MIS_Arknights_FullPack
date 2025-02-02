@@ -17,6 +17,20 @@
 		<defName>BA_Hair_Kirino</defName>
 		<label>中务桐乃发型</label>
 		<texPath>Things/Hair/Valkyrie/Kirino</texPath>
+		<noGraphic>true</noGraphic>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_FrontHair">
+				<graphicData>
+					<texPath>Things/Hair/Valkyrie/Kirino</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1</drawSize>
+					<drawOffsetSouth>(0,0,-0.003)</drawOffsetSouth>
+					<drawOffsetNorth>(0,0,-0.003)</drawOffsetNorth>
+					<drawOffsetEast>(-0.07,0,-0.003)</drawOffsetEast>
+					<drawOffsetWest>(0.07,0,-0.003)</drawOffsetWest>
+				</graphicData>
+			</li>
+		</modExtensions>
 	</HairDef>
 
 </Defs>

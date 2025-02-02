@@ -23,6 +23,20 @@
 		<defName>BA_Hair_Nonomi</defName>
 		<label>十六夜野宫发型</label>
 		<texPath>Things/Hair/Abydos/Nonomi</texPath>
+		<noGraphic>true</noGraphic>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_FrontHair">
+				<graphicData>
+					<texPath>Things/Hair/Abydos/Nonomi</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1</drawSize>
+					<drawOffsetSouth>(0,0,-0.01)</drawOffsetSouth>
+					<drawOffsetNorth>(0,0,-0.01)</drawOffsetNorth>
+					<drawOffsetEast>(-0.022,0,-0.01)</drawOffsetEast>
+					<drawOffsetWest>(0.022,0,-0.01)</drawOffsetWest>
+				</graphicData>
+			</li>
+		</modExtensions>
 	</HairDef>
 
 	<HairDef ParentName="BA_HairBaseF">
