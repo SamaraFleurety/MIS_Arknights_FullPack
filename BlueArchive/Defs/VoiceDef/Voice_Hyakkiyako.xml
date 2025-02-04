@@ -1,4 +1,450 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+    <!-- 春日椿语音 -->
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>BA_Voice_Recruit_Tsubaki</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Hyakkiyako/Tsubaki/Recruit_Tsubaki</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>BA_Voice_Die_Tsubaki</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Hyakkiyako/Tsubaki/Die_Tsubaki</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>BA_Voice_Draft_TsubakiI</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Hyakkiyako/Tsubaki/Draft_TsubakiI</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>BA_Voice_Draft_TsubakiII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Hyakkiyako/Tsubaki/Draft_TsubakiII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>BA_Voice_Select_TsubakiI</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Hyakkiyako/Tsubaki/Select_TsubakiI</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>BA_Voice_Select_TsubakiII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Hyakkiyako/Tsubaki/Select_TsubakiII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>BA_Voice_Select_TsubakiIII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Hyakkiyako/Tsubaki/Select_TsubakiIII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>BA_Voice_Select_TsubakiIV</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Hyakkiyako/Tsubaki/Select_TsubakiIV</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>BA_Voice_Ability_TsubakiI</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Hyakkiyako/Tsubaki/Ability_TsubakiI</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>BA_Voice_Ability_TsubakiII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Hyakkiyako/Tsubaki/Ability_TsubakiII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>BA_Voice_Ability_TsubakiIII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Hyakkiyako/Tsubaki/Ability_TsubakiIII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>BA_Voice_Ability_TsubakiIV</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Hyakkiyako/Tsubaki/Ability_TsubakiIV</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>BA_Voice_Undraft_Tsubaki</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Hyakkiyako/Tsubaki/Undraft_Tsubaki</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+    <!-- 狐坂若藻语音 -->
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>BA_Voice_Recruit_Wakamo</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Hyakkiyako/Wakamo/Recruit_Wakamo</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>BA_Voice_Die_Wakamo</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Hyakkiyako/Wakamo/Die_Wakamo</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>BA_Voice_Draft_WakamoI</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Hyakkiyako/Wakamo/Draft_WakamoI</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>BA_Voice_Draft_WakamoII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Hyakkiyako/Wakamo/Draft_WakamoII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>BA_Voice_Select_WakamoI</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Hyakkiyako/Wakamo/Select_WakamoI</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>BA_Voice_Select_WakamoII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Hyakkiyako/Wakamo/Select_WakamoII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>BA_Voice_Select_WakamoIII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Hyakkiyako/Wakamo/Select_WakamoIII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>BA_Voice_Select_WakamoIV</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Hyakkiyako/Wakamo/Select_WakamoIV</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>BA_Voice_Ability_WakamoI</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Hyakkiyako/Wakamo/Ability_WakamoI</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>BA_Voice_Ability_WakamoII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Hyakkiyako/Wakamo/Ability_WakamoII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>BA_Voice_Ability_WakamoIII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Hyakkiyako/Wakamo/Ability_WakamoIII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>BA_Voice_Ability_WakamoIV</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Hyakkiyako/Wakamo/Ability_WakamoIV</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>BA_Voice_Undraft_Wakamo</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Operator/Hyakkiyako/Wakamo/Undraft_Wakamo</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
 </Defs>
