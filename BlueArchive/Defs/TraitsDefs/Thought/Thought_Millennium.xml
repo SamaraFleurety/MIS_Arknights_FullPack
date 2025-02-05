@@ -169,4 +169,18 @@
 		</stages>
 	</ThoughtDef>
 
+	<ThoughtDef ParentName="BA_Thought_Permanent">
+		<defName>BA_Thought_Trait_Rio</defName>
+		<requiredTraits>
+			<li>BA_Trait_RioSecond</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>极端理性主义者</label>
+				<description>追求合理才是能带来最高效率的选择</description>
+				<baseMoodEffect>-8</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
 </Defs>

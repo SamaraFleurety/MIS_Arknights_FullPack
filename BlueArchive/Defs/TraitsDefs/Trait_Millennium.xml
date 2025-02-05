@@ -444,4 +444,69 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>BA_Trait_RioThird</defName>
+		<disabledWorkTags>
+			<li>Artistic</li>
+		</disabledWorkTags>
+		<degreeDatas>
+			<li>
+				<label>独特审美</label>
+				<description>{PAWN_nameDef}的审美标准极其的诡异，不论是“前卫君”的造型还是{PAWN_pronoun}为KEI造的新身体造型上只能说是一言难尽</description>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>BA_Trait_RioSecond</defName>
+		<disabledWorkTags>
+			<li>ManualDumb</li>
+		</disabledWorkTags>
+		<degreeDatas>
+			<li>
+				<label>极端理性主义者</label>
+				<description>{PAWN_nameDef}的做事风格极其理性而不择手段，总是想要用科学的计算衡量一切，把一切把握在自己的手中，但是结果是{PAWN_pronoun}在千年中极其的不受欢迎。</description>
+				<statOffsets>
+					<SocialImpact>-0.3</SocialImpact>
+					<MentalBreakThreshold>-0.32</MentalBreakThreshold>
+				</statOffsets>
+				<statFactors>
+					<CertaintyLossFactor>0.5</CertaintyLossFactor>
+				</statFactors>
+				<disallowedMentalStates>
+                    <li>InsultingSpree</li>
+                    <li>TargetedInsultingSpree</li>
+                </disallowedMentalStates>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>BA_Trait_Rio</defName>
+		<degreeDatas>
+			<li>
+				<label>BIG SISTER</label>
+				<description>{PAWN_nameDef}作为研讨会的会长，善于制定计划和行动分析，因为极其优秀和过于独特的行事风格，被千年的各位称为“BIG SISTER”</description>
+				<statOffsets>
+					<ResearchSpeed>4.2</ResearchSpeed>
+					<GlobalLearningFactor>4.2</GlobalLearningFactor>
+					<RestRateMultiplier>0.2</RestRateMultiplier>
+					<WorkSpeedGlobal>1.2</WorkSpeedGlobal>
+					<EntityStudyRate MayRequire="Ludeon.RimWorld.Anomaly">2.2</EntityStudyRate><!-- 实体研究速率 -->
+				</statOffsets>
+			</li>
+		</degreeDatas>
+		<modExtensions>
+			<li Class="AKE_OperatorExtension.DefExt_SkillLossRate">
+				<skillLossFactor>0.2</skillLossFactor>
+			</li>
+		</modExtensions>
+	</TraitDef>
+
 </Defs>

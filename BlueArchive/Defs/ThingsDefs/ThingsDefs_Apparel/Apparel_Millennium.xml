@@ -257,4 +257,30 @@
 		</statBases>
 	</ThingDef>
 
+	<ThingDef ParentName="BA_ArmorBase_Millennium">
+		<defName>BA_Apparel_Rio</defName>
+		<label>莉音的正装</label>
+		<description>莉音的正装</description>
+		<graphicData>
+			<texPath>Things/BA_Students/Millennium/Rio</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/BA_Students/Millennium/Rio</wornGraphicPath>
+		</apparel>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_ExtraGraphicData">
+				<graphicData>
+					<drawOffset>(0,0,0.3)</drawOffset>
+					<drawSize>(1.3, 1.3)</drawSize>
+				</graphicData>
+			</li>
+		</modExtensions>
+		<statBases>
+			<ArmorRating_Sharp>1.5</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.5</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.5</ArmorRating_Heat>
+		</statBases>
+	</ThingDef>
+
 </Defs>

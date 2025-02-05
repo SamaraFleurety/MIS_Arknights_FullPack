@@ -105,4 +105,12 @@
 		<baseDesc>{PAWN_nameDef}是千年科学学院三年生，工程部部长，是各种意义上的天才，工程理论和工程实践都有着出色的成就，除了工程，{PAWN_pronoun}对于艺术也有执着的追求。</baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName = "BA_StoryBase">
+		<defName>BA_BackStory_Rio_Child</defName>
+		<slot>Childhood</slot>
+		<title>BIG SISTER</title>
+		<titleShort>BIG SISTER</titleShort>
+		<baseDesc>{PAWN_nameDef}是千年科学学院学生会组织“研讨会”的会长，被千年的学生称作“BIG SISTER”，作为一个极端的理性主义者，{PAWN_pronoun}经常为了达到自己的目的不择手段，但是在险些酿成大错后也认识到了自己的错误。</baseDesc>
+	</BackstoryDef>
+
 </Defs>

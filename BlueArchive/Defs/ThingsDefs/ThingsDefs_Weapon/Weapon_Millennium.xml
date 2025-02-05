@@ -986,4 +986,88 @@
 		</projectile>
 	</ThingDef>
 
+	<ThingDef ParentName="BA_WeaponBase_Millennium">
+		<defName>BA_Weapon_Rio</defName>
+		<label>立案者</label>
+		<graphicData>
+			<texPath>Things/BA_Students/Weapon/Millennium/RioW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<description>"莉音用于自我防卫的手枪。\n虽然她并不擅长射击，但她认为在基沃托斯不携带枪支是不合理的，因此她始终随身携带着它。"</description>
+		<statBases>
+			<AccuracyTouch>0.55</AccuracyTouch>
+			<AccuracyShort>0.7</AccuracyShort>
+			<AccuracyMedium>0.5</AccuracyMedium>
+			<AccuracyLong>0.3</AccuracyLong>
+			<RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+			<!--后摇-->
+		</statBases>
+		<modExtensions>
+            <li Class="AK_DLL.Ext_WeaponwieldGraphics">
+                <alterGraphics>
+                    <texPath>Things/BA_Students/Weapon/Millennium/RioW</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>1.5</drawSize>
+                    <drawOffset>(0.1,0,0.3)</drawOffset>
+                </alterGraphics>
+            </li>
+        </modExtensions>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>BA_Bullet_Rio</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>1.4</warmupTime>
+				<!--前摇-->
+				<range>25</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>BA_Sound_Weapon_GeneralPistol</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<tools Inherit="false">
+			<li>
+				<label>枪托猛砸</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>18</power>
+				<cooldownTime>1.8</cooldownTime>
+			</li>
+			<li>
+				<label>踢击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>20</power>
+				<cooldownTime>1.2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="BA_BulletBase_Bow">
+		<defName>BA_Bullet_Rio</defName>
+		<label>射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<!--伤害类型-->
+			<damageAmountBase>24</damageAmountBase>
+			<armorPenetrationBase>0.72</armorPenetrationBase>
+			<stoppingPower>3</stoppingPower>
+			<speed>50</speed>
+			<soundExplode>ThumpCannon_Impact</soundExplode>
+			<!--爆炸音效-->
+		</projectile>
+	</ThingDef>
+
 </Defs>
