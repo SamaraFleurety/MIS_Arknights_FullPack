@@ -288,4 +288,17 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Defender">
+		<defName>AK_Apparel_Yu</defName>
+		<label>余服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Defender/Yu</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Defender/Yu</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+
 </Defs>

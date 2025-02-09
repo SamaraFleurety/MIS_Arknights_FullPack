@@ -512,4 +512,43 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<!-- 余 -->
+
+	<TraitDef>
+		<defName>AK_Trait_Yu</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>闲云隐市</label>
+				<description>夜深人静，小店打了烊，余和老姜围在灶台前，把店里剩下的一点食材烧了吃完，锅碗瓢盆洗干净，一天就算是结束了。</description>
+				<statOffsets>
+					<SocialImpact>0.3</SocialImpact>
+					<TradePriceImprovement>0.3</TradePriceImprovement>
+					<CarryingCapacity>20</CarryingCapacity>
+					<MoveSpeed>1</MoveSpeed>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>AK_Trait_YuSecond</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>调众口</label>
+				<description>我见了形形色色的人，做了五花八门的饭，越做越不懂，也就越做越随性。</description>
+				<statOffsets>
+					<CookSpeed>1</CookSpeed>
+					<FoodPoisonChance>-1.5</FoodPoisonChance>
+					<ButcheryFleshEfficiency>0.5</ButcheryFleshEfficiency>
+					<ButcheryFleshSpeed>0.5</ButcheryFleshSpeed>
+					<DrugCookingSpeed>0.5</DrugCookingSpeed>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>

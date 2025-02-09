@@ -1029,4 +1029,25 @@
 		</tools>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_WeaponBase_Defender">
+		<defName>AK_Weapon_Yu</defName>
+		<label>灶里乾坤</label>
+		<description>那一点疑惑，那一瞥为人类造就后世，也为自己埋下苦果的好奇，我还得沥水下锅，好好翻炒一下嘞</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Defender/YuW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tools Inherit = "false">
+			<li>
+				<label>捅击</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>1.5</cooldownTime>
+				<armorPenetration>0.3</armorPenetration>
+			</li>
+		</tools>
+	</ThingDef>
+
 </Defs>

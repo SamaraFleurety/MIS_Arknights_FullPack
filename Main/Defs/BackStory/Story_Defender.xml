@@ -285,4 +285,20 @@
 		<baseDesc>曾于炎国北部农业基地大荒城从事农业研究多年且已有丰富的科研成果。现因访问亲属，以访客身份暂驻罗德岛。</baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Yu_Child</defName>
+		<slot>Childhood</slot>
+		<title>神灵碎片（其十二）</title>
+		<titleShort>碎片</titleShort>
+		<baseDesc>“嘿，老爷子。”某个兴高采烈的小厨子不合时宜地出现在了他身后，“怎么样，我的这块碑比哥哥姐姐们的好刻多了吧，是不是随便挑几件琐事填上就好了~”\n“好刻你个头！！”</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Yu_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>大厨</title>
+		<titleShort>大厨</titleShort>
+		<baseDesc>寓居市井的厨师，余，终日在灶台前忙碌。\n切配烧洗，样样全能。</baseDesc>
+	</BackstoryDef>
+
 </Defs>
