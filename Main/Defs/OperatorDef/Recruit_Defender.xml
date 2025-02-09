@@ -647,6 +647,10 @@
 				<key>Shu</key>
 				<value>Sibling</value>
 			</li>
+			<li>
+				<key>Yu</key>
+				<value>Sibling</value>
+			</li>
 		</relations>
 		<items>
 			<li>
@@ -2179,6 +2183,135 @@
 			</li>
 			<li>
 				<key>Nian</key>
+				<value>Sibling</value>
+			</li>
+			<li>
+				<key>Yu</key>
+				<value>Sibling</value>
+			</li>
+		</relations>
+	</AK_DLL.OperatorDef>
+
+	<!-- 余 -->
+
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Defender">
+		<defName>AK_Recruit_Yu</defName>
+		<name>Yu</name>
+		<nickname>Yu</nickname>
+		<description>FIXMEDESC</description>
+		<weapon>AK_Weapon_Yu</weapon>
+		<hair>AK_Hair_Yu</hair>
+		<apparels>
+			<li>AK_Apparel_Yu</li>
+		</apparels>
+		<!--accessory Inherit="false">
+			<li>AKS_ShieldBelt_Yu</li>
+		</accessory-->
+		<stand>UI/Image/Defender/YuStand</stand>
+		<!--fashionAnimation>
+		    <li></li>
+		</fashionAnimation-->
+		<headPortrait>UI/Image/Defender/YuPortrait</headPortrait>
+		<traits>
+			<li>
+				<def>AK_Trait_Yu</def>
+			</li>
+			<li>
+				<def>AK_Trait_YuSecond</def>
+			</li>
+			<li>
+				<def>Beauty</def>
+				<degree>2</degree>
+			</li>
+			<li>
+				<def>NaturalMood</def>
+				<degree>1</degree>
+			</li>
+		</traits>
+		<age>23</age>
+		<childHood>AK_BackStory_Yu_Child</childHood>
+		<adultHood>AK_BackStory_Yu_Adult</adultHood>
+		<skills>
+			<li>
+				<skill>Animals</skill>
+				<level>4</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Artistic</skill>
+				<level>9</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Construction</skill>
+				<level>1</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Cooking</skill>
+				<level>20</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Crafting</skill>
+				<level>14</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Intellectual</skill>
+				<level>15</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<level>0</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<level>0</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Mining</skill>
+				<level>1</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Plants</skill>
+				<level>5</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<level>2</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<level>13</level>
+				<fireLevel>1</fireLevel>
+			</li>
+		</skills>
+		<relations>
+			<li>
+				<key>Chongyue</key>
+				<value>Sibling</value>
+			</li>
+			<li>
+				<key>Ling</key>
+				<value>Sibling</value>
+			</li>
+			<li>
+				<key>Dusk</key>
+				<value>Sibling</value>
+			</li>
+			<li>
+				<key>Nian</key>
+				<value>Sibling</value>
+			</li>
+			<li>
+				<key>Shu</key>
 				<value>Sibling</value>
 			</li>
 		</relations>
