@@ -170,4 +170,19 @@
         </asset>
     </SpriteEvo.SpineAssetDef>
 
+    <SpriteEvo.SpineAssetDef>
+        <defName>AK_Spine_reed_dynillust</defName>
+        <asset>
+            <StraightAlphaInput>true</StraightAlphaInput>
+            <version>3.8</version>
+            <filePath>Spine/asset_dyn_reed</filePath>
+            <seriesname>dyn_illust_char_1020_reed2_epoque#30</seriesname>
+            <atlas>dyn_illust_char_1020_reed2_epoque#30.atlas.txt</atlas>
+            <skeleton>dyn_illust_char_1020_reed2_epoque#30.skel.bytes</skeleton>
+            <materials>
+                <li>dyn_illust_char_1020_reed2_epoque#30_Material</li>
+            </materials>
+        </asset>
+    </SpriteEvo.SpineAssetDef>
+
 </Defs>

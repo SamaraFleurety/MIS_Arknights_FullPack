@@ -201,4 +201,24 @@
         </props>
     </SpriteEvo.AnimationDef>
 
+    <SpriteEvo.AnimationDef>
+        <defName>AK_Spine_reed_dynillust</defName>
+        <version>3.8</version>
+        <scriptProperties>
+            <li Class="AK_SpineExtention.CMP_L2DCarousel">
+                <PlayInteract>true</PlayInteract>
+                <PlaySpecial>true</PlaySpecial>
+                <IdleInterval>2</IdleInterval>
+            </li>
+        </scriptProperties>
+        <mainAsset>AK_Spine_reed_dynillust</mainAsset>
+        <props>
+            <OnIMGUI>true</OnIMGUI>
+            <offset>(0,0,0)</offset>
+            <uioffset>(0,9,-20)</uioffset>
+            <uiDrawSize>(2048,2048)</uiDrawSize>
+            <scale>(1.5,1.5)</scale>
+        </props>
+    </SpriteEvo.AnimationDef>
+
 </Defs>
