@@ -509,4 +509,44 @@
 		</modExtensions>
 	</TraitDef>
 
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>BA_Trait_YuukaSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>一板一眼？</label>
+				<description>虽然{PAWN_nameDef}通常会按规章办事，有着缜密的计算力，却容易感情用事。尤其是面对小孩一样的游戏开发部诸位时，也会表现的像是个事事操心的老妈子一样。</description>
+				<statOffsets>
+					<SocialImpact>0.06</SocialImpact>
+				</statOffsets>
+				<statFactors>
+					<PsychicSensitivity>1.3</PsychicSensitivity>
+				</statFactors>
+				<disallowedMentalStates>
+                    <li>InsultingSpree</li>
+                    <li>TargetedInsultingSpree</li>
+                </disallowedMentalStates>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>BA_Trait_Yuuka</defName>
+		<degreeDatas>
+			<li>
+				<label>计算使</label>
+				<description>{PAWN_nameDef}作为千年科学学院的会计，擅长各种计算，高速心算和双手打字，特长和兴趣爱好也是弹算盘和计算</description>
+				<statOffsets>
+					<ResearchSpeed>2.2</ResearchSpeed>
+					<GlobalLearningFactor>4.2</GlobalLearningFactor>
+					<WorkSpeedGlobal>1.7</WorkSpeedGlobal>
+					<TradePriceImprovement>0.32</TradePriceImprovement>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>

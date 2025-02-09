@@ -163,4 +163,24 @@
 		</modExtensions>
 	</HairDef>
 
+	<HairDef ParentName="BA_HairBaseF">
+		<defName>BA_Hair_Yuuka</defName>
+		<label>早濑优香发型</label>
+		<texPath>Things/Hair/Millennium/Yuuka</texPath>
+		<noGraphic>true</noGraphic>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_FrontHair">
+				<graphicData>
+					<texPath>Things/Hair/Millennium/Yuuka</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1.3</drawSize>
+					<drawOffsetSouth>(0,0,0.35)</drawOffsetSouth>
+					<drawOffsetNorth>(0,0,0.35)</drawOffsetNorth>
+					<drawOffsetEast>(0.02,0,0.35)</drawOffsetEast>
+					<drawOffsetWest>(-0.02,0,0.35)</drawOffsetWest>
+				</graphicData>
+			</li>
+		</modExtensions>
+	</HairDef>
+
 </Defs>

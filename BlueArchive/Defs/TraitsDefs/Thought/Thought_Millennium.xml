@@ -183,4 +183,18 @@
 		</stages>
 	</ThoughtDef>
 
+	<ThoughtDef ParentName="BA_Thought_Permanent">
+		<defName>BA_Thought_Trait_Yuuka</defName>
+		<requiredTraits>
+			<li>BA_Trait_YuukaSecond</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>一板一眼？</label>
+				<description>需要休息一下吗？我还有1890秒的空闲时间。</description>
+				<baseMoodEffect>6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
 </Defs>

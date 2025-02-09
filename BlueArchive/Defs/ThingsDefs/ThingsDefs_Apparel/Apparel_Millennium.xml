@@ -260,7 +260,7 @@
 	<ThingDef ParentName="BA_ArmorBase_Millennium">
 		<defName>BA_Apparel_Rio</defName>
 		<label>莉音的正装</label>
-		<description>莉音的正装</description>
+		<description> 莉音的正装，莉音在洗衣服时不论对是洗涤的时间还是洗涤剂的配比都精准到变态，因此她的正装看上去就像完全新的一样。</description>
 		<graphicData>
 			<texPath>Things/BA_Students/Millennium/Rio</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -280,6 +280,32 @@
 			<ArmorRating_Sharp>1.5</ArmorRating_Sharp>
 			<ArmorRating_Blunt>1.5</ArmorRating_Blunt>
 			<ArmorRating_Heat>1.5</ArmorRating_Heat>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="BA_ArmorBase_Millennium">
+		<defName>BA_Apparel_Yuuka</defName>
+		<label>优香的正装</label>
+		<description>优香的研讨会制服，虽然优香平时总是穿着职场女性一样的正装，不过却出乎意料的扎了个极其具有少女感的双马尾</description>
+		<graphicData>
+			<texPath>Things/BA_Students/Millennium/Yuuka</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/BA_Students/Millennium/Yuuka</wornGraphicPath>
+		</apparel>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_ExtraGraphicData">
+				<graphicData>
+					<drawOffset>(0,0,0.3)</drawOffset>
+					<drawSize>(1.3, 1.3)</drawSize>
+				</graphicData>
+			</li>
+		</modExtensions>
+		<statBases>
+			<ArmorRating_Sharp>1.0</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.0</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.0</ArmorRating_Heat>
 		</statBases>
 	</ThingDef>
 

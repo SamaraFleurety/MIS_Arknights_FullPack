@@ -113,4 +113,12 @@
 		<baseDesc>{PAWN_nameDef}是千年科学学院学生会组织“研讨会”的会长，被千年的学生称作“BIG SISTER”，作为一个极端的理性主义者，{PAWN_pronoun}经常为了达到自己的目的不择手段，但是在险些酿成大错后也认识到了自己的错误。</baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName = "BA_StoryBase">
+		<defName>BA_BackStory_Yuuka_Child</defName>
+		<slot>Childhood</slot>
+		<title>研讨会会计</title>
+		<titleShort>研讨会会计</titleShort>
+		<baseDesc>{PAWN_nameDef}是千年科学学生会【研讨会】的会计，负责管理和统筹千年科学学院各部门的预算问题。\n{PAWN_nameDef}因为极其优秀的计算能力和对财政堪称冷酷的管理态度使{PAWN_pronoun}被千年某些学生称做“{PAWN_nameDef}大魔王”</baseDesc>
+	</BackstoryDef>
+
 </Defs>
