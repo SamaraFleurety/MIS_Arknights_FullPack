@@ -515,7 +515,7 @@
 		<defName>BA_Trait_YuukaSecond</defName>
 		<degreeDatas>
 			<li>
-				<label>一板一眼？</label>
+				<label>感性会计</label>
 				<description>虽然{PAWN_nameDef}通常会按规章办事，有着缜密的计算力，却容易感情用事。尤其是面对小孩一样的游戏开发部诸位时，也会表现的像是个事事操心的老妈子一样。</description>
 				<statOffsets>
 					<SocialImpact>0.06</SocialImpact>
@@ -545,6 +545,108 @@
 					<WorkSpeedGlobal>1.7</WorkSpeedGlobal>
 					<TradePriceImprovement>0.32</TradePriceImprovement>
 				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>BA_Trait_NoaSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>理性书记</label>
+				<description>和优香相反，{PAWN_nameDef}虽然善于用感性的语言进行表达，但是相比优香显然更为理性，也很少直接表达自己的情感。</description>
+				<statOffsets>
+					<SocialImpact>0.22</SocialImpact>
+					<MentalBreakThreshold>-0.18</MentalBreakThreshold>
+				</statOffsets>
+				<disallowedMentalStates>
+                    <li>InsultingSpree</li>
+                    <li>TargetedInsultingSpree</li>
+                </disallowedMentalStates>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>BA_Trait_Noa</defName>
+		<degreeDatas>
+			<li>
+				<label>文学少女</label>
+				<description>{PAWN_nameDef}虽然是理科学生云集的千年科学的学生，但是却出乎意料的擅长记忆和文学，平日里也喜欢读书和幻想。</description>
+				<statOffsets>
+					<ResearchSpeed>2.4</ResearchSpeed>
+					<GlobalLearningFactor>2.2</GlobalLearningFactor>
+					<WorkSpeedGlobal>1.2</WorkSpeedGlobal>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>BA_Trait_KoyukiThird</defName>
+		<degreeDatas>
+			<li>
+				<label>自我中心</label>
+				<description>{PAWN_nameDef}不喜欢工作，不喜欢学习，不喜欢任何麻烦的事，而且总是以自我为中心，因此能够毫无顾忌的干出很多很过分的事，比如......以研讨会的名义滥发债券差点把研讨会干破产。</description>
+				<statOffsets>
+					<WorkSpeedGlobal>-0.35</WorkSpeedGlobal>
+					<GlobalLearningFactor>-0.35</GlobalLearningFactor>
+					<SocialImpact>-0.2</SocialImpact>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>BA_Trait_KoyukiSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>解码和逃跑的天才</label>
+				<description>{PAWN_nameDef}在解密和逃脱方面有着极其夸张的天赋，但是自己没什么自觉，而且也不愿意从事有关的工作。</description>
+				<statOffsets>
+					<ResearchSpeed>5.2</ResearchSpeed>
+					<EntityStudyRate MayRequire="Ludeon.RimWorld.Anomaly">2.2</EntityStudyRate><!-- 实体研究速率 -->
+					<ButcheryMechanoidSpeed>5</ButcheryMechanoidSpeed>
+					<MeleeDodgeChance>0.3</MeleeDodgeChance>
+				</statOffsets>
+				<statFactors>
+					<FixBrokenDownBuildingSuccessChance>10</FixBrokenDownBuildingSuccessChance>
+					<PawnTrapSpringChance>0.15</PawnTrapSpringChance>
+				</statFactors>
+			</li>
+		</degreeDatas>
+		<modExtensions>
+			<li Class="AKE_OperatorExtension.DefExt_SkillLossRate">
+				<skillLossFactor>0.2</skillLossFactor>
+			</li>
+		</modExtensions>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>BA_Trait_Koyuki</defName>
+		<degreeDatas>
+			<li>
+				<label>不可捉摸的命运</label>
+				<description>{PAWN_nameDef}非常热衷于无法捉摸，以命运决定的事物，但是{PAWN_pronoun}的运气实在极差，因此吃了不少苦头。但是{PAWN_pronoun}似乎并不在意。</description>
+				<statOffsets>
+					<TradePriceImprovement>-0.15</TradePriceImprovement>
+					<MentalBreakThreshold>-0.2</MentalBreakThreshold>
+				</statOffsets>
+				<statFactors>
+					<TameAnimalChance>0.1</TameAnimalChance>
+					<TrainAnimalChance>0.1</TrainAnimalChance>
+					<MedicalSurgerySuccessChance>0.1</MedicalSurgerySuccessChance>
+				</statFactors>
 			</li>
 		</degreeDatas>
 	</TraitDef>

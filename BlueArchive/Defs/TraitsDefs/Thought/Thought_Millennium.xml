@@ -190,9 +190,51 @@
 		</requiredTraits>
 		<stages>
 			<li>
-				<label>一板一眼？</label>
+				<label>感性会计</label>
 				<description>需要休息一下吗？我还有1890秒的空闲时间。</description>
 				<baseMoodEffect>6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName="BA_Thought_Permanent">
+		<defName>BA_Thought_Trait_Noa</defName>
+		<requiredTraits>
+			<li>BA_Trait_NoaSecond</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>理性书记</label>
+				<description>"优香的情感表现可是很丰富的，跟她在一起绝对不会无聊。\n而且我无心之间，就捉弄到她了……呵呵。"</description>
+				<baseMoodEffect>12</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName="BA_Thought_Permanent">
+		<defName>BA_Thought_Trait_Koyuki</defName>
+		<requiredTraits>
+			<li>BA_Trait_Koyuki</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>不可捉摸的命运</label>
+				<description>正是不如意的时候，人生才会变得有趣哦！</description>
+				<baseMoodEffect>12</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName="BA_Thought_Permanent">
+		<defName>BA_Thought_Trait_KoyukiSecond</defName>
+		<requiredTraits>
+			<li>BA_Trait_KoyukiThird</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>自我中心</label>
+				<description>捏哈哈哈哈⭐</description>
+				<baseMoodEffect>12</baseMoodEffect>
 			</li>
 		</stages>
 	</ThoughtDef>

@@ -121,4 +121,20 @@
 		<baseDesc>{PAWN_nameDef}是千年科学学生会【研讨会】的会计，负责管理和统筹千年科学学院各部门的预算问题。\n{PAWN_nameDef}因为极其优秀的计算能力和对财政堪称冷酷的管理态度使{PAWN_pronoun}被千年某些学生称做“{PAWN_nameDef}大魔王”</baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName = "BA_StoryBase">
+		<defName>BA_BackStory_Noa_Child</defName>
+		<slot>Childhood</slot>
+		<title>研讨会书记</title>
+		<titleShort>研讨会书记</titleShort>
+		<baseDesc>{PAWN_nameDef}是千年科学学生会【研讨会】的书记，负责记录研讨会的决定事项和会议内容，以及鉴别、登录千年学生们开发的产品的专利的代办人工作。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "BA_StoryBase">
+		<defName>BA_BackStory_Koyuki_Child</defName>
+		<slot>Childhood</slot>
+		<title>研讨会捣蛋鬼</title>
+		<titleShort>研讨会捣蛋鬼</titleShort>
+		<baseDesc>{PAWN_nameDef}是千年科学学院【研讨会】的成员，虽然在解密方面有着极其夸张的天赋，但是自己没什么自觉，而且因为极其以自我为中心闹出了不少麻烦，现在正在禁闭室反省，不过{PAWN_nameDef}似乎没有反省的自觉。</baseDesc>
+	</BackstoryDef>
+
 </Defs>

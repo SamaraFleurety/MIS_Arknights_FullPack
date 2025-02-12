@@ -277,9 +277,9 @@
 			</li>
 		</modExtensions>
 		<statBases>
-			<ArmorRating_Sharp>1.5</ArmorRating_Sharp>
-			<ArmorRating_Blunt>1.5</ArmorRating_Blunt>
-			<ArmorRating_Heat>1.5</ArmorRating_Heat>
+			<ArmorRating_Sharp>0.9</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.2</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.3</ArmorRating_Heat>
 		</statBases>
 	</ThingDef>
 
@@ -303,9 +303,61 @@
 			</li>
 		</modExtensions>
 		<statBases>
+			<ArmorRating_Sharp>1.35</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.8</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.7</ArmorRating_Heat>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="BA_ArmorBase_Millennium">
+		<defName>BA_Apparel_Noa</defName>
+		<label>诺亚的正装</label>
+		<description>诺亚的研讨会制服，和优香与莉音的相反，诺亚的正装是白色的</description>
+		<graphicData>
+			<texPath>Things/BA_Students/Millennium/Noa</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/BA_Students/Millennium/Noa</wornGraphicPath>
+		</apparel>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_ExtraGraphicData">
+				<graphicData>
+					<drawOffset>(0,0,0.3)</drawOffset>
+					<drawSize>(1.3, 1.3)</drawSize>
+				</graphicData>
+			</li>
+		</modExtensions>
+		<statBases>
 			<ArmorRating_Sharp>1.0</ArmorRating_Sharp>
-			<ArmorRating_Blunt>1.0</ArmorRating_Blunt>
-			<ArmorRating_Heat>1.0</ArmorRating_Heat>
+			<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.4</ArmorRating_Heat>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="BA_ArmorBase_Millennium">
+		<defName>BA_Apparel_Koyuki</defName>
+		<label>小雪的正装</label>
+		<description>小雪的研讨会正装，虽然是正装，但是不拘一节的小雪从来没有好好穿过</description>
+		<graphicData>
+			<texPath>Things/BA_Students/Millennium/Koyuki</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/BA_Students/Millennium/Koyuki</wornGraphicPath>
+		</apparel>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_ExtraGraphicData">
+				<graphicData>
+					<drawOffset>(0,0,0.3)</drawOffset>
+					<drawSize>(1.3, 1.3)</drawSize>
+				</graphicData>
+			</li>
+		</modExtensions>
+		<statBases>
+			<ArmorRating_Sharp>1.35</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.8</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.7</ArmorRating_Heat>
 		</statBases>
 	</ThingDef>
 

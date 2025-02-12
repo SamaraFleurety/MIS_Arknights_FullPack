@@ -183,4 +183,44 @@
 		</modExtensions>
 	</HairDef>
 
+	<HairDef ParentName="BA_HairBaseF">
+		<defName>BA_Hair_Noa</defName>
+		<label>生盐诺亚发型</label>
+		<texPath>Things/Hair/Millennium/Noa</texPath>
+		<noGraphic>true</noGraphic>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_FrontHair">
+				<graphicData>
+					<texPath>Things/Hair/Millennium/Noa</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1.3</drawSize>
+					<drawOffsetSouth>(0,0,0.35)</drawOffsetSouth>
+					<drawOffsetNorth>(0,0,0.35)</drawOffsetNorth>
+					<drawOffsetEast>(0.02,0,0.35)</drawOffsetEast>
+					<drawOffsetWest>(-0.02,0,0.35)</drawOffsetWest>
+				</graphicData>
+			</li>
+		</modExtensions>
+	</HairDef>
+
+	<HairDef ParentName="BA_HairBaseF">
+		<defName>BA_Hair_Koyuki</defName>
+		<label>黑崎小雪发型</label>
+		<texPath>Things/Hair/Millennium/Koyuki</texPath>
+		<noGraphic>true</noGraphic>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_FrontHair">
+				<graphicData>
+					<texPath>Things/Hair/Millennium/Koyuki</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1.3</drawSize>
+					<drawOffsetSouth>(0,0,0.35)</drawOffsetSouth>
+					<drawOffsetNorth>(0,0,0.35)</drawOffsetNorth>
+					<drawOffsetEast>(0.02,0,0.35)</drawOffsetEast>
+					<drawOffsetWest>(-0.02,0,0.35)</drawOffsetWest>
+				</graphicData>
+			</li>
+		</modExtensions>
+	</HairDef>
+
 </Defs>
