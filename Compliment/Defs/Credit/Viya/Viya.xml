@@ -14,6 +14,9 @@
 		<apparels>
 			<li>FS_Apparel_Viya</li>
 		</apparels>
+		<accessory>
+			<li>FS_ShieldBelt_Viya</li>
+		</accessory>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -277,5 +280,44 @@
 		<titleShort>未知存在</titleShort>
 		<baseDesc>于虚空之中苏醒，行走在边缘世界的土地上，沐浴鲜血，幻灭亡灵，没人知道{PAWN_pronoun}从何而来，也没人知道{PAWN_pronoun}所追寻的东西究竟是什么。</baseDesc>
 	</BackstoryDef>
+
+	<!-- 术士基础护盾 -->
+
+    <ThingDef ParentName="AKS_BeltBase">
+        <defName>FS_ShieldBelt_Viya</defName>
+        <label>不死虚空的庇佑</label>
+        <description>来自虚空与不死天花的庇佑，虽意义不大，但仍卫始终。</description>
+        <statBases>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/ShieldBubble</texPath>
+            <shaderType>TransparentPostLight</shaderType>
+            <graphicClass>Graphic_Single</graphicClass>
+            <color>(136, 0, 21)</color>
+        </graphicData>
+        <comps>
+            <li Class="AKS_Shield.TCP_GenericShield">
+                <energyMax>415</energyMax>
+                <energyRegenRate>20</energyRegenRate>
+                <energyLostPerDmg>0.2</energyLostPerDmg>
+                <allowEnergyOverflow>true</allowEnergyOverflow>
+                <energyRatioOnReset>0.2</energyRatioOnReset>
+                <ticksToReset>3600</ticksToReset>
+                <canAbsorbMeleeDmg>true</canAbsorbMeleeDmg>
+                <meleeAbsorbFactor>0.5</meleeAbsorbFactor>
+                <rangedAbsorbFactor>0.2</rangedAbsorbFactor>
+            </li>
+            <li Class="AKS_Shield.Extension.TCP_ExtraRenderStatic">
+                <bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/ShieldBubble</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <color>(136, 0, 21)</color>
+                    <drawSize>(2,2)</drawSize>
+					<drawOffset>(0,0,0.1)</drawOffset>
+                    <shaderType>TransparentPostLight</shaderType>
+                </bubbleStaticOverlay>
+            </li>
+        </comps>
+    </ThingDef>
 
 </Defs>
