@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase">
+		<defName>FS_Recruit_Viya</defName>
+		<name>薇娅</name>
+		<nickname>不死夜薇娅</nickname>
+		<surname>不死夜</surname>
+		<description>不知从何而来的杀伐者，沐浴着鲜血，\n寻觅着自我的归途。</description>
+		<operatorType>AK_OperatorClass_Guard</operatorType>
+		<bodyTypeDef>Thin</bodyTypeDef>
+		<stand>Credit/Viya/ViyaStand</stand>
+		<headPortrait>Credit/Viya/ViyaPortrait</headPortrait>
+		<apparels>
+			<li>FS_Apparel_Viya</li>
+		</apparels>
+		<skills>
+			<li>
+				<skill>Animals</skill>
+				<level>2</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Artistic</skill>
+				<level>3</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Construction</skill>
+				<level>3</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Cooking</skill>
+				<level>3</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Crafting</skill>
+				<level>6</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Intellectual</skill>
+				<level>5</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<level>2</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<level>20</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Mining</skill>
+				<level>3</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Plants</skill>
+				<level>3</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<level>0</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<level>0</level>
+				<fireLevel>0</fireLevel>
+			</li>
+		</skills>
+		<traits>
+			<li>
+				<def>FS_Trait_Viya</def>
+			</li>
+			<li>
+				<def>FS_Trait_ViyaII</def>
+			</li>
+			<li>
+				<def>Psychopath</def>
+			</li>
+			<li>
+				<def>Nerves</def>
+				<degree>2</degree>
+			</li>
+			<li>
+				<def>Tough</def>
+			</li>
+			<li>
+				<def>Nimble</def>
+			</li>
+			<li>
+				<def>Brawler</def>
+			</li>
+		</traits>
+		<age>23</age>
+		<realAge>2080</realAge>
+		<!-- <standRatio>3</standRatio>
+		<standOffset>(0, 0)</standOffset> -->
+	</AK_DLL.OperatorDef>
+
+	<TraitDef>
+		<defName>FS_Trait_Viya</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<disabledWorkTags>
+			<li>Shooting</li>
+		</disabledWorkTags>
+		<degreeDatas>
+			<li>
+				<label>不朽的杀伐者</label>
+				<description>{PAWN_nameDef}行走于虚空与现实，斩杀着所有胆敢阻碍其前进的生物。</description>
+				<statOffsets>
+					<MeleeDodgeChance>50</MeleeDodgeChance>
+					<MeleeHitChance>200</MeleeHitChance>
+				</statOffsets>
+				<statFactors>
+					<StaggerDurationFactor>0</StaggerDurationFactor>
+					<MeleeDamageFactor>5</MeleeDamageFactor>
+					<MeleeCooldownFactor>2</MeleeCooldownFactor>
+					<IncomingDamageFactor>0.1</IncomingDamageFactor>
+					<MoveSpeed>1.5</MoveSpeed>
+					<PainShockThreshold>0</PainShockThreshold>
+					<MeleeArmorPenetration>1.2</MeleeArmorPenetration>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>FS_Trait_ViyaII</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>虚空不死心</label>
+				<description>自虚空中苏醒的{PAWN_nameDef}得到了部分源于虚空的力量，并成功将其融入自己的心脏之中。</description>
+				<statOffsets>
+					<ComfyTemperatureMax>1000</ComfyTemperatureMax>					<!--最高舒适温度-->
+					<ComfyTemperatureMin>-100</ComfyTemperatureMin>					<!--最低舒适温度-->
+					<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+				</statOffsets>
+				<statFactors>
+					<ActivitySuppressionRate>10</ActivitySuppressionRate>
+					<CertaintyLossFactor>0.01</CertaintyLossFactor>
+					<ImmunityGainSpeed>10</ImmunityGainSpeed>					    <!--免疫性获得速度系数-->
+					<Flammability>-1.0</Flammability>                               <!--易燃性系数-->
+					<InjuryHealingFactor>8</InjuryHealingFactor>					<!--愈合速度系数-->
+					<MaxNutrition>0.5</MaxNutrition>								<!--营养需求-->
+				</statFactors>
+				<disallowedMentalStates>
+					<li>InsultingSpree</li>
+					<li>TargetedInsultingSpree</li>
+				</disallowedMentalStates>
+				<disablesNeeds>					        <!--禁用需求-->
+					<li>Beauty</li>					    <!--美观-->
+					<li>Comfort</li>					<!--舒适-->
+					<li>Indoors</li>					<!--室内-->
+					<li>Mood</li>					    <!--心情-->
+					<li>Outdoors</li>					<!--室外-->
+				</disablesNeeds>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<HairDef ParentName="AK_HairBaseF">
+		<defName>FS_Hair_Viya</defName>
+		<label>薇娅的发型</label>
+		<texPath>Credit/Viya/ViyaHair</texPath>
+		<noGraphic>true</noGraphic>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_FrontHair">
+				<graphicData>
+					<texPath>Credit/Viya/ViyaHair</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1.3</drawSize>
+					<drawOffsetSouth>(0,0,0.35)</drawOffsetSouth>
+					<drawOffsetNorth>(0,0,0.35)</drawOffsetNorth>
+					<drawOffsetEast>(0.02,0,0.35)</drawOffsetEast>
+					<drawOffsetWest>(-0.02,0,0.35)</drawOffsetWest>
+				</graphicData>
+			</li>
+		</modExtensions>
+	</HairDef>
+
+	<ThingDef ParentName="MeleeWeaponUltratech">
+		<defName>FS_Weapon_Viya</defName>
+		<label>花开不死夜</label>
+		<description>一柄历战的太刀，相伴不死夜薇娅身边恒久岁月，以不死夜为名，执行来自虚空与死亡的颂歌。如果仔细观察，还能在这柄不死刃的内部，看到一个虚幻的蓝发身影。</description>
+		<soundInteract>Interact_MonoSword</soundInteract>
+		<meleeHitSound>MeleeHit_MonoSword</meleeHitSound>
+		<smeltable>false</smeltable>
+		<weaponClasses>
+			<li>MeleePiercer</li>
+		</weaponClasses>
+		<graphicData>
+			<texPath>Credit/Viya/Weapon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tools>
+			<li>
+				<label>割伤</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>216</power>
+				<cooldownTime>3</cooldownTime>
+			</li>
+			<li>
+				<label>刺伤</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>159</power>
+				<armorPenetration>10.0</armorPenetration>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<modExtensions>
+            <li Class="AK_DLL.Ext_WeaponwieldGraphics">
+                <alterGraphics>
+                    <texPath>Credit/Viya/Weapon</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>1.2</drawSize>
+                    <drawOffset>(0,0,0.3)</drawOffset>
+                </alterGraphics>
+            </li>
+        </modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Guard">
+		<defName>FS_Apparel_Viya</defName>
+		<label>薇娅的服装</label>
+		<description>不死夜薇娅的刀姬服。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/GApparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<immuneToToxGasExposure>true</immuneToToxGasExposure>
+			<wornGraphicPath>Credit/Viya/Viya</wornGraphicPath>
+		</apparel>
+		<statBases>
+			<ArmorRating_Sharp>5</ArmorRating_Sharp>
+			<ArmorRating_Blunt>5</ArmorRating_Blunt>
+			<ArmorRating_Heat>5</ArmorRating_Heat>
+		</statBases>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_ExtraGraphicData">
+				<graphicData>
+					<drawOffset>(0,0,0.3)</drawOffset>
+					<drawSize>(1.3, 1.3)</drawSize>
+				</graphicData>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>FS_BackStory_Viya_Child</defName>
+		<slot>Childhood</slot>
+		<title>洞中花</title>
+		<titleShort>洞中花</titleShort>
+		<baseDesc>幼年的{PAWN_nameDef}是个乐观开朗的孩子，一天，一道未知的声音将外出觅食的{PAWN_pronoun}唤进了一座神秘的山洞中，在那里，{PAWN_pronoun}看到了一朵血红的花朵……</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>FS_BackStory_Viya_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>未知存在</title>
+		<titleShort>未知存在</titleShort>
+		<baseDesc>于虚空之中苏醒，行走在边缘世界的土地上，沐浴鲜血，幻灭亡灵，没人知道{PAWN_pronoun}从何而来，也没人知道{PAWN_pronoun}所追寻的东西究竟是什么。</baseDesc>
+	</BackstoryDef>
+
+</Defs>
