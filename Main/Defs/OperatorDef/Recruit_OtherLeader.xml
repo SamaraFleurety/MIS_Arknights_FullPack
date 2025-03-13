@@ -399,6 +399,98 @@
 		</clothSets>
 	</AK_DLL.OperatorDef>
 
+	<!-- 管理员(男) -->
+
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_OtherLeader">
+		<defName>AK_Recruit_AdministratorMale</defName>
+		<name>Administrator</name>
+		<nickname>Administrator</nickname>
+		<description>FIXMEDESC</description>
+		<hair>AK_Hair_AdministratorMale</hair>
+		<apparels>
+			<li>AK_Apparel_AdministratorMale</li>
+		</apparels>
+		<stand>UI/Image/OtherLeader/AdministratorMaleStand</stand>
+		<headPortrait>UI/Image/OtherLeader/AdministratorMalePortrait</headPortrait>
+		<traits>
+			<li>
+				<def>Nimble</def>
+			</li>
+			<li>
+				<def>Beauty</def>
+				<degree>1</degree>
+			</li>
+			<li>
+				<def>AK_Trait_Administrator</def>
+			</li>
+		</traits>
+		<age>20</age>
+		<childHood>AK_BackStory_Administrator_Child</childHood>
+		<adultHood>AK_BackStory_Administrator_Adult</adultHood>
+		<skills>
+			<li>
+				<skill>Animals</skill>
+				<level>6</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Artistic</skill>
+				<level>9</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Construction</skill>
+				<level>16</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Cooking</skill>
+				<level>5</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Crafting</skill>
+				<level>12</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Intellectual</skill>
+				<level>16</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<level>10</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<level>10</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Mining</skill>
+				<level>16</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Plants</skill>
+				<level>8</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<level>5</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<level>15</level>
+				<fireLevel>2</fireLevel>
+			</li>
+		</skills>
+	</AK_DLL.OperatorDef>
+
 	<!-- 温德米尔公爵 -->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_OtherLeader">
