@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <AK_DLL.OperatorDef ParentName="AK_RecruitBase">
+        <defName>FS_Recruit_Lancelot</defName>
+        <name>兰斯洛特</name>
+        <nickname>兰斯洛特</nickname>
+        <surname>美露辛</surname>
+        <description>"妖精国不列颠的圆桌骑士之一。\n获得泛人类史圆桌骑士·兰斯洛特灵基赐名的妖精骑士。\n在不列颠只是一种“龙”的妖精。\n虽然其行为完全是一位冷酷无情的战士，\n但由于她的举止，她的优雅，\n以及与其他妖精们有云泥之别，\n因此被誉为妖精国最高贵、最美丽的妖精"</description>
+        <operatorType>AK_OperatorClass_Guard</operatorType>
+        <bodyTypeDef>Thin</bodyTypeDef>
+        <stand>Credit/Lancelot/LancelotStand</stand>
+        <headPortrait>Credit/Lancelot/LancelotPortrait</headPortrait>
+        <apparels>
+            <li>FS_Apparel_Lancelot</li>
+            <li>FS_ShieldBelt_Lancelot</li>
+        </apparels>
+        <skills>
+            <li>
+                <skill>Animals</skill>
+                <level>2</level>
+                <fireLevel>0</fireLevel>
+            </li>
+            <li>
+                <skill>Artistic</skill>
+                <level>3</level>
+                <fireLevel>0</fireLevel>
+            </li>
+            <li>
+                <skill>Construction</skill>
+                <level>3</level>
+                <fireLevel>0</fireLevel>
+            </li>
+            <li>
+                <skill>Cooking</skill>
+                <level>3</level>
+                <fireLevel>0</fireLevel>
+            </li>
+            <li>
+                <skill>Crafting</skill>
+                <level>6</level>
+                <fireLevel>0</fireLevel>
+            </li>
+            <li>
+                <skill>Intellectual</skill>
+                <level>5</level>
+                <fireLevel>1</fireLevel>
+            </li>
+            <li>
+                <skill>Medicine</skill>
+                <level>2</level>
+                <fireLevel>0</fireLevel>
+            </li>
+            <li>
+                <skill>Melee</skill>
+                <level>20</level>
+                <fireLevel>2</fireLevel>
+            </li>
+            <li>
+                <skill>Mining</skill>
+                <level>3</level>
+                <fireLevel>0</fireLevel>
+            </li>
+            <li>
+                <skill>Plants</skill>
+                <level>3</level>
+                <fireLevel>0</fireLevel>
+            </li>
+            <li>
+                <skill>Shooting</skill>
+                <level>0</level>
+                <fireLevel>0</fireLevel>
+            </li>
+            <li>
+                <skill>Social</skill>
+                <level>0</level>
+                <fireLevel>0</fireLevel>
+            </li>
+        </skills>
+        <traits>
+            <li>
+                <def>FS_Trait_Lancelot</def>
+            </li>
+            <li>
+                <def>FS_Trait_LancelotII</def>
+            </li>
+            <li>
+                <def>Psychopath</def>
+            </li>
+            <li>
+                <def>Nerves</def>
+                <degree>2</degree>
+            </li>
+            <li>
+                <def>Tough</def>
+            </li>
+            <li>
+                <def>Nimble</def>
+            </li>
+            <li>
+                <def>Brawler</def>
+            </li>
+        </traits>
+        <age>23</age>
+        <realAge>2080</realAge>
+        <!-- <standRatio>3</standRatio>
+		<standOffset>(0, 0)</standOffset> -->
+        <clothSets>
+			<li>FS_FashionSet_LancelotA</li>
+            <li>FS_FashionSet_LancelotB</li>
+		</clothSets>
+    </AK_DLL.OperatorDef>
+
+    <Def Class="AK_DLL.OperatorFashionSetDef">
+		<defName>FS_FashionSet_LancelotA</defName>
+		<label>兰斯洛特-果体</label>
+		<hair>FS_Hair_Lancelot</hair>
+		<apparels>
+			<li>FS_Apparel_LancelotA</li>
+            <li>FS_ShieldBelt_Lancelot</li>
+		</apparels>
+		<weapon>FS_Weapon_Lancelot</weapon>
+		<standIndex>1</standIndex>
+	</Def>
+
+    <Def Class="AK_DLL.OperatorFashionSetDef">
+		<defName>FS_FashionSet_LancelotB</defName>
+		<label>兰斯洛特-战损</label>
+		<hair>FS_Hair_Lancelot</hair>
+		<apparels>
+			<li>FS_Apparel_LancelotB</li>
+            <li>FS_ShieldBelt_Lancelot</li>
+		</apparels>
+		<weapon>FS_Weapon_Lancelot</weapon>
+		<standIndex>1</standIndex>
+	</Def>
+
+    <TraitDef>
+        <defName>FS_Trait_Lancelot</defName>
+        <ignoreConfigErrors>true</ignoreConfigErrors>
+        <commonality>0.0</commonality>
+        <disabledWorkTags>
+            <li>Shooting</li>
+        </disabledWorkTags>
+        <degreeDatas>
+            <li>
+                <label>佩里舞者</label>
+                <description>好似在夏天夜空中的舞蹈妖精，似梦非幻。</description>
+                <statOffsets>
+                    <MeleeDodgeChance>0.25</MeleeDodgeChance>
+                </statOffsets>
+                <statFactors>
+                    <IncomingDamageFactor>0.75</IncomingDamageFactor>
+                </statFactors>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+    <TraitDef>
+        <defName>FS_Trait_LancelotII</defName>
+        <ignoreConfigErrors>true</ignoreConfigErrors>
+        <commonality>0.0</commonality>
+        <degreeDatas>
+            <li>
+                <label>龙之心</label>
+                <description>龙之炉心，也被称作龙之宝玉的梅柳齐娜的魔术回路</description>
+                <statOffsets>
+                    <WorkSpeedGlobal>0.35</WorkSpeedGlobal>
+                </statOffsets>
+                <hungerRateFactor>1.35</hungerRateFactor>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+    <ThoughtDef ParentName = "AK_Thought_Permanent">
+        <defName>FS_Thought_Trait_Lancelot</defName>
+        <requiredTraits>
+            <li>FS_Trait_LancelotII</li>
+        </requiredTraits>
+        <stages>
+            <li>
+                <label>龙之心</label>
+                <description>龙之炉心</description>
+                <baseMoodEffect>2</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <TraitDef>
+        <defName>FS_Trait_LancelotIII</defName>
+        <ignoreConfigErrors>true</ignoreConfigErrors>
+        <commonality>0.0</commonality>
+        <degreeDatas>
+            <li>
+                <label>光之地平线</label>
+                <description>源自流传于英格兰，守护通往异界之门「地平线」「边界」的龙（幻影）的传说。</description>
+                <statOffsets>
+                    <MoveSpeed>0.5</MoveSpeed>
+                    <MentalBreakThreshold>0.1</MentalBreakThreshold>
+                </statOffsets>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+    <HairDef ParentName="AK_HairBaseF">
+        <defName>FS_Hair_Lancelot</defName>
+        <label>兰斯洛特的发型</label>
+        <texPath>Credit/Lancelot/LancelotHair</texPath>
+        <noGraphic>true</noGraphic>
+        <modExtensions>
+            <li Class="AK_DLL.Ext_FrontHair">
+                <graphicData>
+                    <texPath>Credit/Lancelot/LancelotHair</texPath>
+                    <graphicClass>Graphic_Multi</graphicClass>
+                    <drawSize>1.3</drawSize>
+                    <drawOffsetSouth>(0,0,0.35)</drawOffsetSouth>
+                    <drawOffsetNorth>(0,0,0.35)</drawOffsetNorth>
+                    <drawOffsetEast>(0.02,0,0.35)</drawOffsetEast>
+                    <drawOffsetWest>(-0.02,0,0.35)</drawOffsetWest>
+                </graphicData>
+            </li>
+        </modExtensions>
+    </HairDef>
+
+    <ThingDef ParentName="MeleeWeaponUltratech">
+        <defName>FS_Weapon_Lancelot</defName>
+        <label>妖精剑阿隆戴特</label>
+        <description>从“湖上骑士”借来的东西（赝品），在战斗中可以用龙皮进行强化并打出致命一击</description>
+        <soundInteract>Interact_MonoSword</soundInteract>
+        <meleeHitSound>MeleeHit_MonoSword</meleeHitSound>
+        <smeltable>false</smeltable>
+        <weaponClasses>
+            <li>MeleePiercer</li>
+        </weaponClasses>
+        <graphicData>
+            <texPath>Credit/Lancelot/Weapon</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <Mass>3.6</Mass>
+        </statBases>
+        <tools>
+            <li>
+                <label>砍</label>
+                <capacities>
+                    <li>Cut</li>
+                </capacities>
+                <power>25</power>
+                <armorPenetration>1.0</armorPenetration>
+                <cooldownTime>1</cooldownTime>
+            </li>
+        </tools>
+        <modExtensions>
+            <li Class="AK_DLL.Ext_WeaponwieldGraphics">
+                <alterGraphics>
+                    <texPath>Credit/Lancelot/Weapon</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>1.2</drawSize>
+                    <drawOffset>(0,0,0.3)</drawOffset>
+                </alterGraphics>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+    <ThingDef ParentName="AK_ArmorBase_Guard">
+        <defName>FS_Apparel_Lancelot</defName>
+        <label>妖精套装	</label>
+        <description>虽然十分讨厌游泳，但是为了美好的夏日回忆不得不穿上的妖精套装</description>
+        <graphicData>
+            <texPath>Things/AK_Agents/GApparel</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <equippedStatOffsets>
+            <MeleeDodgeChance>7</MeleeDodgeChance>
+            <MeleeHitChance>6</MeleeHitChance>
+            <MoveSpeed>0.5</MoveSpeed>
+            <WorkSpeedGlobal>8</WorkSpeedGlobal>
+        </equippedStatOffsets>
+        <apparel>
+            <wornGraphicPath>Credit/Lancelot/Lancelot</wornGraphicPath>
+        </apparel>
+        <statBases>
+            <ArmorRating_Sharp>0.15</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.45</ArmorRating_Heat>
+            <Insulation_Cold>0</Insulation_Cold>
+            <Insulation_Heat>100</Insulation_Heat>
+            <Beauty>-3</Beauty>
+            <Mass>1.1</Mass>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <modExtensions>
+            <li Class="AK_DLL.Ext_ExtraGraphicData">
+                <graphicData>
+                    <drawOffset>(0,0,0.3)</drawOffset>
+                    <drawSize>(1.3, 1.3)</drawSize>
+                </graphicData>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+    <ThingDef ParentName="AK_ArmorBase_Guard">
+        <defName>FS_Apparel_LancelotA</defName>
+        <label>妖精果体</label>
+        <description>妖精果体</description>
+        <graphicData>
+            <texPath>Things/AK_Agents/GApparel</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <equippedStatOffsets>
+            <MeleeDodgeChance>7</MeleeDodgeChance>
+            <MeleeHitChance>6</MeleeHitChance>
+            <MoveSpeed>0.5</MoveSpeed>
+            <WorkSpeedGlobal>8</WorkSpeedGlobal>
+        </equippedStatOffsets>
+        <apparel>
+            <wornGraphicPath>Credit/Lancelot/LancelotA</wornGraphicPath>
+        </apparel>
+        <statBases>
+            <ArmorRating_Sharp>0.15</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.45</ArmorRating_Heat>
+            <Insulation_Cold>0</Insulation_Cold>
+            <Insulation_Heat>100</Insulation_Heat>
+            <Beauty>-3</Beauty>
+            <Mass>1.1</Mass>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <modExtensions>
+            <li Class="AK_DLL.Ext_ExtraGraphicData">
+                <graphicData>
+                    <drawOffset>(0,0,0.3)</drawOffset>
+                    <drawSize>(1.3, 1.3)</drawSize>
+                </graphicData>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+    <ThingDef ParentName="AK_ArmorBase_Guard">
+        <defName>FS_Apparel_LancelotB</defName>
+        <label>妖精果体（战损）	</label>
+        <description>妖精果体（战损）</description>
+        <graphicData>
+            <texPath>Things/AK_Agents/GApparel</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <equippedStatOffsets>
+            <MeleeDodgeChance>7</MeleeDodgeChance>
+            <MeleeHitChance>6</MeleeHitChance>
+            <MoveSpeed>0.5</MoveSpeed>
+            <WorkSpeedGlobal>8</WorkSpeedGlobal>
+        </equippedStatOffsets>
+        <apparel>
+            <wornGraphicPath>Credit/Lancelot/LancelotB</wornGraphicPath>
+        </apparel>
+        <statBases>
+            <ArmorRating_Sharp>0.15</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.45</ArmorRating_Heat>
+            <Insulation_Cold>0</Insulation_Cold>
+            <Insulation_Heat>100</Insulation_Heat>
+            <Beauty>-3</Beauty>
+            <Mass>1.1</Mass>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <modExtensions>
+            <li Class="AK_DLL.Ext_ExtraGraphicData">
+                <graphicData>
+                    <drawOffset>(0,0,0.3)</drawOffset>
+                    <drawSize>(1.3, 1.3)</drawSize>
+                </graphicData>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+    <BackstoryDef ParentName = "AK_StoryBase">
+        <defName>FS_BackStory_Lancelot_Child</defName>
+        <slot>Childhood</slot>
+        <title>童话妖精</title>
+        <titleShort>童话妖精</titleShort>
+        <baseDesc>出生于民间童话『异类婚媾』</baseDesc>
+    </BackstoryDef>
+
+    <BackstoryDef ParentName = "AK_StoryBase">
+        <defName>FS_BackStory_Lancelot_Adult</defName>
+        <slot>Adulthood</slot>
+        <title>冷酷妖精</title>
+        <titleShort>冷酷妖精</titleShort>
+        <baseDesc>将人类视为邪恶的那类，并毫不留情地予以排斥，因此常被当做『冷酷的妖精』，但本人虽然讨厌人类，却不恨人类，也不会看不起人类。</baseDesc>
+    </BackstoryDef>
+
+    <!-- 护盾 -->
+
+    <ThingDef ParentName="AKS_BeltBase">
+        <defName>FS_ShieldBelt_Lancelot</defName>
+        <label>近卫护盾</label>
+        <description>近卫干员专属护盾，有着较强的续航功能，适合近卫干员的持续作战。</description>
+        <statBases>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/ShieldBubble</texPath>
+            <shaderType>TransparentPostLight</shaderType>
+            <graphicClass>Graphic_Single</graphicClass>
+            <color>(255,235,125)</color>
+        </graphicData>
+        <comps>
+            <li Class="AKS_Shield.TCP_GenericShield">
+                <energyMax>240</energyMax>
+                <energyRegenRate>0.2</energyRegenRate>
+                <energyLostPerDmg>0.015</energyLostPerDmg>
+                <allowEnergyOverflow>false</allowEnergyOverflow>
+                <energyRatioOnReset>0.2</energyRatioOnReset>
+                <ticksToReset>4800</ticksToReset>
+                <canAbsorbMeleeDmg>true</canAbsorbMeleeDmg>
+                <meleeAbsorbFactor>1.5</meleeAbsorbFactor>
+                <rangedAbsorbFactor>0.8</rangedAbsorbFactor>
+            </li>
+            <li Class="AKS_Shield.Extension.TCP_ExtraRenderStatic">
+                <bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/ShieldBubble</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <color>(255,235,125)</color>
+                    <drawSize>(2,2)</drawSize>
+                    <drawOffset>(0,0,0.1)</drawOffset>
+                    <shaderType>TransparentPostLight</shaderType>
+                </bubbleStaticOverlay>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>

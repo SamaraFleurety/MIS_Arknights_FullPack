@@ -32,6 +32,26 @@
 	</HairDef>
 
 	<HairDef ParentName="AK_HairBaseF">
+		<defName>AK_Hair_AdministratorMale</defName>
+		<label>管理员发型(男)</label>
+		<texPath>Things/Hair/OtherLeader/AdministratorMale</texPath>
+		<noGraphic>true</noGraphic>
+        <modExtensions>
+            <li Class="AK_DLL.Ext_FrontHair">
+                <graphicData>
+                    <texPath>Things/Hair/OtherLeader/AdministratorMale</texPath>
+                    <graphicClass>Graphic_Multi</graphicClass>
+                    <drawSize>1.3</drawSize>
+                    <drawOffsetSouth>(0,0,0.35)</drawOffsetSouth>
+                    <drawOffsetNorth>(0,0,0.35)</drawOffsetNorth>
+                    <drawOffsetEast>(0.02,0,0.35)</drawOffsetEast>
+                    <drawOffsetWest>(-0.02,0,0.35)</drawOffsetWest>
+                </graphicData>
+            </li>
+        </modExtensions>
+	</HairDef>
+
+	<HairDef ParentName="AK_HairBaseF">
 		<defName>AK_Hair_DukeWindermere</defName>
 		<label>温德米尔公爵发型</label>
 		<texPath>Things/Hair/OtherLeader/DukeWindermere</texPath>

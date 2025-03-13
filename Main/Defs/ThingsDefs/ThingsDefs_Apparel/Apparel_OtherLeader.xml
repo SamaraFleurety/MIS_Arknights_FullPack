@@ -50,6 +50,26 @@
 	</ThingDef>
 
 	<ThingDef ParentName="AK_ArmorBase_OtherLeader">
+		<defName>AK_Apparel_AdministratorMale</defName>
+		<label>管理员服装(男)</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/OtherLeader/AdministratorMale</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/OtherLeader/AdministratorMale</wornGraphicPath>
+		</apparel>
+		<modExtensions>
+            <li Class="AK_DLL.Ext_ExtraGraphicData">
+                <graphicData>
+                    <drawOffset>(0,0,0.3)</drawOffset>
+                    <drawSize>(1.3, 1.3)</drawSize>
+                </graphicData>
+            </li>
+        </modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_OtherLeader">
 		<defName>AK_Apparel_DukeWindermere</defName>
 		<label>温德米尔公爵服装</label>
 		<graphicData>
