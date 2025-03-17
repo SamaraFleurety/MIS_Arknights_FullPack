@@ -52,9 +52,25 @@
 	<ThingDef ParentName="AK_ArmorBase_Caster">
 		<defName>AK_Apparel_Dusk</defName>
 		<label>夕服装</label>
-		<graphicData>
+		<thingClass>AK_DLL.Apparel_Operator</thingClass>
+		<graphicData Class="AK_DLL.GraphicData_MultiFoam">
 			<texPath>Things/AK_Agents/Caster/Dusk</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<innerGraphicData_Drop>
+				<li>
+					<key>2</key>
+					<value>
+						<texPath>Things/AK_Agents/Caster/Dusk_EverythingIsaMiracle</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+					</value>
+				</li>
+			</innerGraphicData_Drop>
+			<innerGraphicPath_Worn>
+				<li>
+					<key>2</key>
+					<value>Things/AK_Agents/Caster/Dusk_EverythingIsaMiracle</value>
+				</li>
+			</innerGraphicPath_Worn>
 		</graphicData>
 		<apparel>
 			<wornGraphicPath>Things/AK_Agents/Caster/Dusk</wornGraphicPath>
