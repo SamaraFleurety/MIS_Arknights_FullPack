@@ -276,7 +276,7 @@
 					<MentalBreakThreshold>-0.15</MentalBreakThreshold>
 				</statOffsets>
 				<statFactors>
-					<CertaintyLossFactor>0</CertaintyLossFactor>
+					<CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">0</CertaintyLossFactor>
 				</statFactors>
 			</li>
 		</degreeDatas>
@@ -489,7 +489,7 @@
 				<description>“春雨惊春清谷天，夏满芒夏暑相连。”</description>
 				<statFactors>
 					<PlantWorkSpeed>3</PlantWorkSpeed>
-					<PruningSpeed>10</PruningSpeed>
+					<PruningSpeed MayRequire="Ludeon.RimWorld.Ideology">10</PruningSpeed>
 				</statFactors>
 			</li>
 		</degreeDatas>

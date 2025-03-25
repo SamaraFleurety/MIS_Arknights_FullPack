@@ -96,7 +96,7 @@
 				<statOffsets>
 					<SocialImpact>0.45</SocialImpact>
 					<TradePriceImprovement>0.25</TradePriceImprovement>
-					<SlaveSuppressionOffset>-0.2</SlaveSuppressionOffset>
+					<SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.2</SlaveSuppressionOffset>
 				</statOffsets>
 			</li>
 		</degreeDatas>
@@ -197,7 +197,7 @@
 					<PsychicSensitivity>-0.2</PsychicSensitivity>
 				</statOffsets>
 				<statFactors>
-					<SlaveSuppressionOffset>4</SlaveSuppressionOffset>
+					<SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">4</SlaveSuppressionOffset>
 					<IncomingDamageFactor>0.8</IncomingDamageFactor>
 				</statFactors>
 			</li>
@@ -308,7 +308,7 @@
 				<description>{PAWN_nameDef}在加入巴别塔前便是知名黑客，因特蕾西娅寻找人才上门而同意加入巴别塔一直陪伴罗德岛至今。</description>
 				<statOffsets>
 					<GlobalLearningFactor>0.3</GlobalLearningFactor>
-					<HackingSpeed>0.3</HackingSpeed>
+					<HackingSpeed MayRequire="Ludeon.RimWorld.Ideology">0.3</HackingSpeed>
 				</statOffsets>
 				<statFactors>
 					<ResearchSpeed>1.5</ResearchSpeed>

@@ -338,7 +338,7 @@
 				</statOffsets>
 				<statFactors>
 					<WorkSpeedGlobal>1.1</WorkSpeedGlobal>
-					<CertaintyLossFactor>0.8</CertaintyLossFactor>
+					<CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">0.8</CertaintyLossFactor>
 				</statFactors>
 			</li>
 		</degreeDatas>
@@ -755,7 +755,7 @@
 					<WorkSpeedGlobal>0.5</WorkSpeedGlobal>
 				</statOffsets>
 				<statFactors>
-					<CertaintyLossFactor>0</CertaintyLossFactor>
+					<CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">0</CertaintyLossFactor>
 				</statFactors>
 			</li>
 		</degreeDatas>

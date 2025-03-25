@@ -84,7 +84,7 @@
 					<CarryingCapacity>25</CarryingCapacity>
 				</statOffsets>
 				<statFactors>
-					<CertaintyLossFactor>0.5</CertaintyLossFactor>
+					<CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">0.5</CertaintyLossFactor>
 				</statFactors>
 			</li>
 		</degreeDatas>
@@ -319,7 +319,7 @@
 					<CarryingCapacity>100</CarryingCapacity>
 				</statOffsets>
 				<statFactors>
-					<HackingSpeed>3</HackingSpeed>
+					<HackingSpeed MayRequire="Ludeon.RimWorld.Ideology">3</HackingSpeed>
 					<GeneralLaborSpeed>1.5</GeneralLaborSpeed>
 				</statFactors>
 			</li>
@@ -341,7 +341,7 @@
 					<MeleeHitChance>3</MeleeHitChance>
 				</statOffsets>
 				<statFactors>
-					<CertaintyLossFactor>0.5</CertaintyLossFactor>
+					<CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">0.5</CertaintyLossFactor>
 					<MeleeDamageFactor>1.15</MeleeDamageFactor>
 				</statFactors>
 				<disallowedMentalStates>
@@ -438,7 +438,7 @@
                 </statOffsets>
                 <statFactors>
                     <WorkSpeedGlobal>1.2</WorkSpeedGlobal>
-                    <CertaintyLossFactor>0.5</CertaintyLossFactor>
+                    <CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">0.5</CertaintyLossFactor>
                 </statFactors>
             </li>
         </degreeDatas>
