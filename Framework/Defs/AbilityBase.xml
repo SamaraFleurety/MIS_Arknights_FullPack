@@ -20,5 +20,14 @@
 		</cooldownProperty>
 	</AKA_Ability.AKAbilityDef>
 
+	<AKA_Ability.AKAbilityDef>
+        <defName>AKA_Ability_CompEquippable</defName>
+        <label>武器技能</label>
+        <description>desc.</description>
+        <icon>UI/Abilities/Medic/HealEnhance</icon>
+        <abilityClass>AKA_Ability.AKAbility_CompEquippable</abilityClass>
+        <compEffectList/>
+        <cooldownProperty/>
+    </AKA_Ability.AKAbilityDef>
 	
 </Defs>
