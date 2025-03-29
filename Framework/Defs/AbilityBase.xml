@@ -7,27 +7,17 @@
 		<displayGizmoUndraft>false</displayGizmoUndraft>
 		<compEffectList>
 			<li Class="AKA_Ability.AbilityEffect.AE_CostChargeStatic" />
-		</compEffectList>		
+		</compEffectList>
 		<abilityClass>AKA_Ability.AKAbility_SelfTarget</abilityClass>
 		<castConditions>
 			<li Class="AKA_Ability.CastConditioner.CC_NeedCharge" />
 		</castConditions>
 		<cooldownProperty>
-		    <SPPerCharge>15</SPPerCharge>
+			<SPPerCharge>15</SPPerCharge>
 			<SPUnit>rSecond</SPUnit>
 			<initSP>900</initSP>
 			<maxCharge>10</maxCharge>
 		</cooldownProperty>
 	</AKA_Ability.AKAbilityDef>
 
-	<AKA_Ability.AKAbilityDef>
-        <defName>AKA_Ability_CompEquippable</defName>
-        <label>武器技能</label>
-        <description>desc.</description>
-        <icon>UI/Abilities/Medic/HealEnhance</icon>
-        <abilityClass>AKA_Ability.AKAbility_CompEquippable</abilityClass>
-        <compEffectList/>
-        <cooldownProperty/>
-    </AKA_Ability.AKAbilityDef>
-	
 </Defs>
