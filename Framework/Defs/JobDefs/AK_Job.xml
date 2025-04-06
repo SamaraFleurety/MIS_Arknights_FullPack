@@ -14,4 +14,12 @@
 		<reportString>Changing fashion.</reportString>
 	</JobDef>
 
+	<JobDef>
+		<defName>AKA_ReloadCDTrackerShared</defName>
+		<driverClass>AKA_Ability.AI.JobDriver_ReloadCDTrackerShared</driverClass>
+		<reportString>reloading TargetA.</reportString>
+		<suspendable>false</suspendable>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
+
 </Defs>
