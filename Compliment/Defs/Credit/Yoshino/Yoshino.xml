@@ -12,8 +12,10 @@
         <headPortrait>Credit/Yoshino/YoshinoPortrait</headPortrait>
         <apparels>
             <li>FS_Apparel_Yoshino</li>
-            <li>FS_ShieldBelt_Yoshino</li>
         </apparels>
+		<accessory Inherit="False">
+            <li>FS_ShieldBelt_Yoshino</li>
+		</accessory>
         <skills>
             <li>
                 <skill>Animals</skill>
@@ -113,7 +115,6 @@
 		<hair>FS_Hair_YoshinoA</hair>
 		<apparels>
 			<li>FS_Apparel_YoshinoA</li>
-            <li>FS_ShieldBelt_Yoshino</li>
 		</apparels>
 		<weapon>FS_Weapon_Yoshino</weapon>
 		<standIndex>2</standIndex>
