@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <AK_DLL.OperatorDef ParentName="AK_RecruitBase_Supporter">
+        <defName>FS_Recruit_Yoshino</defName>
+        <name>四糸乃</name>
+        <nickname>四糸乃</nickname>
+        <surname>冰芽川</surname>
+        <description>识别名为〈隐居者（Hermit）〉，灵装是一件饰有兔耳的绿色斗篷〈神威灵装·四番〉，天使〈冰结傀儡（Zadkiel） 〉是能冻结周围的巨大人偶，能以夹带灵力的雨水及寒气张开防御用的结界，任何在范围内带有灵力的事物都被冻结，连同显像装置制造的随意领域也能冰冻。</description>
+        <bodyTypeDef>Thin</bodyTypeDef>
+        <stand>Credit/Yoshino/YoshinoStand</stand>
+        <headPortrait>Credit/Yoshino/YoshinoPortrait</headPortrait>
+        <apparels>
+            <li>FS_Apparel_Yoshino</li>
+            <li>FS_ShieldBelt_Yoshino</li>
+        </apparels>
+        <skills>
+            <li>
+                <skill>Animals</skill>
+                <level>12</level>
+                <fireLevel>2</fireLevel>
+            </li>
+            <li>
+                <skill>Artistic</skill>
+                <level>10</level>
+                <fireLevel>1</fireLevel>
+            </li>
+            <li>
+                <skill>Construction</skill>
+                <level>6</level>
+                <fireLevel>0</fireLevel>
+            </li>
+            <li>
+                <skill>Cooking</skill>
+                <level>10</level>
+                <fireLevel>1</fireLevel>
+            </li>
+            <li>
+                <skill>Crafting</skill>
+                <level>10</level>
+                <fireLevel>1</fireLevel>
+            </li>
+            <li>
+                <skill>Intellectual</skill>
+                <level>12</level>
+                <fireLevel>2</fireLevel>
+            </li>
+            <li>
+                <skill>Medicine</skill>
+                <level>7</level>
+                <fireLevel>0</fireLevel>
+            </li>
+            <li>
+                <skill>Melee</skill>
+                <level>0</level>
+                <fireLevel>0</fireLevel>
+            </li>
+            <li>
+                <skill>Mining</skill>
+                <level>3</level>
+                <fireLevel>0</fireLevel>
+            </li>
+            <li>
+                <skill>Plants</skill>
+                <level>7</level>
+                <fireLevel>0</fireLevel>
+            </li>
+            <li>
+                <skill>Shooting</skill>
+                <level>8</level>
+                <fireLevel>0</fireLevel>
+            </li>
+            <li>
+                <skill>Social</skill>
+                <level>5</level>
+                <fireLevel>0</fireLevel>
+            </li>
+        </skills>
+        <traits>
+            <li>
+                <def>FS_Trait_Yoshino</def>
+            </li>
+            <li>
+                <def>FS_Trait_YoshinoII</def>
+            </li>
+            <li>
+                <def>FS_Trait_YoshinoIII</def>
+            </li>
+            <li>
+                <def>Recluse</def>
+            </li>
+            <li>
+                <def>AK_Trait_Agent_Caster</def>
+            </li>
+        </traits>
+        <age>23</age>
+        <!-- <standRatio>3</standRatio>
+		<standOffset>(0, 0)</standOffset> -->
+        <hediffInate>
+			<li>
+				<hediff>MechlinkImplant</hediff>
+				<serverity>20</serverity>
+			</li>
+		</hediffInate>
+        <clothSets>
+			<li>FS_FashionSet_YoshinoA</li>
+		</clothSets>
+    </AK_DLL.OperatorDef>
+
+    <Def Class="AK_DLL.OperatorFashionSetDef">
+		<defName>FS_FashionSet_YoshinoA</defName>
+		<label>四糸乃-战装</label>
+		<hair>FS_Hair_YoshinoA</hair>
+		<apparels>
+			<li>FS_Apparel_YoshinoA</li>
+            <li>FS_ShieldBelt_Yoshino</li>
+		</apparels>
+		<weapon>FS_Weapon_Yoshino</weapon>
+		<standIndex>2</standIndex>
+	</Def>
+
+    <TraitDef>
+        <defName>FS_Trait_Yoshino</defName>
+        <ignoreConfigErrors>true</ignoreConfigErrors>
+        <commonality>0.0</commonality>
+        <degreeDatas>
+            <li>
+                <label>冻铠</label>
+                <description>将〈冰结傀儡〉化为盔甲包裹着身体，能使力量更为集中强大</description>
+                <statOffsets>
+                    <ShootingAccuracyPawn>10</ShootingAccuracyPawn>
+                    <ImmunityGainSpeed>0.35</ImmunityGainSpeed>
+                </statOffsets>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+    <TraitDef>
+        <defName>FS_Trait_YoshinoII</defName>
+        <ignoreConfigErrors>true</ignoreConfigErrors>
+        <commonality>0.0</commonality>
+        <degreeDatas>
+            <li>
+                <label>“慈悲”</label>
+                <description>意味着纯粹而神圣的宇宙法则——“爱”。数字是4，颜色是蓝色，金属是锡，图形是正四面体，宝石是蓝宝石，象征行星为木星。</description>
+                <statOffsets>
+                    <PsychicSensitivity>0.6</PsychicSensitivity>
+                    <GlobalLearningFactor>0.95</GlobalLearningFactor>
+                </statOffsets>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+    <TraitDef>
+        <defName>FS_Trait_YoshinoIII</defName>
+        <ignoreConfigErrors>true</ignoreConfigErrors>
+        <commonality>0.0</commonality>
+        <degreeDatas>
+            <li>
+                <label>雨雪随身</label>
+                <description>然现界引发的空间震较弱，但因为能操控水与寒气，所以她每次现界后周围总是阴雨绵绵</description>
+                <!-- <statOffsets>
+                </statOffsets> -->
+                <skillGains>
+                    <Social>-2</Social>
+                </skillGains>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+    <HairDef ParentName="AK_HairBaseF">
+        <defName>FS_Hair_Yoshino</defName>
+        <label>四糸乃的发型</label>
+        <texPath>Credit/Yoshino/YoshinoHair</texPath>
+        <noGraphic>true</noGraphic>
+        <modExtensions>
+            <li Class="AK_DLL.Ext_FrontHair">
+                <graphicData>
+                    <texPath>Credit/Yoshino/YoshinoHair</texPath>
+                    <graphicClass>Graphic_Multi</graphicClass>
+                    <drawSize>1.3</drawSize>
+                    <drawOffsetSouth>(0,0,0.35)</drawOffsetSouth>
+                    <drawOffsetNorth>(0,0,0.35)</drawOffsetNorth>
+                    <drawOffsetEast>(0.02,0,0.35)</drawOffsetEast>
+                    <drawOffsetWest>(-0.02,0,0.35)</drawOffsetWest>
+                </graphicData>
+            </li>
+        </modExtensions>
+    </HairDef>
+    <HairDef ParentName="AK_HairBaseF">
+        <defName>FS_Hair_YoshinoA</defName>
+        <label>四糸乃的发型</label>
+        <texPath>Credit/Yoshino/YoshinoHairA</texPath>
+        <noGraphic>true</noGraphic>
+        <modExtensions>
+            <li Class="AK_DLL.Ext_FrontHair">
+                <graphicData>
+                    <texPath>Credit/Yoshino/YoshinoHairA</texPath>
+                    <graphicClass>Graphic_Multi</graphicClass>
+                    <drawSize>1.3</drawSize>
+                    <drawOffsetSouth>(0,0,0.35)</drawOffsetSouth>
+                    <drawOffsetNorth>(0,0,0.35)</drawOffsetNorth>
+                    <drawOffsetEast>(0.02,0,0.35)</drawOffsetEast>
+                    <drawOffsetWest>(-0.02,0,0.35)</drawOffsetWest>
+                </graphicData>
+            </li>
+        </modExtensions>
+    </HairDef>
+
+    <ThingDef ParentName="MeleeWeaponUltratech">
+        <defName>FS_Weapon_Yoshino</defName>
+        <label>冰结傀儡</label>
+        <description>一个兔子傀儡，能在周围展开雨水和冰冻形成的保护结界，在结界中任何物体都会被冻结，包括随意领域，防御力惊人</description>
+        <smeltable>false</smeltable>
+        <graphicData>
+            <texPath>Credit/Yoshino/Weapon</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <statBases>
+            <Mass>1.6</Mass>
+            <AccuracyTouch>1</AccuracyTouch>
+            <AccuracyShort>1</AccuracyShort>
+            <AccuracyMedium>1</AccuracyMedium>
+            <AccuracyLong>1</AccuracyLong>
+            <RangedWeapon_Cooldown>0.1</RangedWeapon_Cooldown>
+        </statBases>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_Yoshino</defaultProjectile>
+                <warmupTime>0.1</warmupTime>
+                <range>30</range>
+                <soundCast>Shot_AssaultRifle</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>22</power>
+                <cooldownTime>1</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>22</power>
+                <cooldownTime>1</cooldownTime>
+            </li>
+        </tools>
+        <modExtensions>
+            <li Class="AK_DLL.Ext_WeaponwieldGraphics">
+                <alterGraphics>
+                    <texPath>Credit/Yoshino/Weapon</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>1.2</drawSize>
+                    <drawOffset>(0,0,0.3)</drawOffset>
+                </alterGraphics>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseBullet">
+        <defName>Bullet_Yoshino</defName>
+        <label>子弹</label>
+        <graphicData>
+            <texPath>Things/Projectile/Bullet_Small</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>10</damageAmountBase>
+            <stoppingPower>5</stoppingPower>
+            <speed>70</speed>
+        </projectile>
+    </ThingDef>
+
+    <ThingDef ParentName="AK_ArmorBase_Guard">
+        <defName>FS_Apparel_Yoshino</defName>
+        <label>神威灵装·四番</label>
+        <description>一件绿色的长裙外套覆盖身体，头上带有一个兔耳的帽子</description>
+        <graphicData>
+            <texPath>Things/AK_Agents/GApparel</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <equippedStatOffsets>
+            <MeleeDodgeChance>10</MeleeDodgeChance>
+            <PsychicSensitivity>0.1</PsychicSensitivity>
+        </equippedStatOffsets>
+        <apparel>
+            <wornGraphicPath>Credit/Yoshino/Yoshino</wornGraphicPath>
+        </apparel>
+        <statBases>
+            <ArmorRating_Sharp>0.15</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+            <ArmorRating_Heat>1</ArmorRating_Heat>
+            <Insulation_Cold>100</Insulation_Cold>
+            <Beauty>-3</Beauty>
+            <Mass>1.1</Mass>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <modExtensions>
+            <li Class="AK_DLL.Ext_ExtraGraphicData">
+                <graphicData>
+                    <drawOffset>(0,0,0.3)</drawOffset>
+                    <drawSize>(1.3, 1.3)</drawSize>
+                </graphicData>
+            </li>
+        </modExtensions>
+    </ThingDef>
+    <ThingDef ParentName="AK_ArmorBase_Guard">
+        <defName>FS_Apparel_YoshinoA</defName>
+        <label>神威灵装·四番(战装)</label>
+        <description>一件绿色的长裙外套覆盖身体，头上带有一个兔耳的帽子</description>
+        <graphicData>
+            <texPath>Things/AK_Agents/GApparel</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <equippedStatOffsets>
+            <MeleeDodgeChance>10</MeleeDodgeChance>
+            <PsychicSensitivity>0.1</PsychicSensitivity>
+        </equippedStatOffsets>
+        <apparel>
+            <wornGraphicPath>Credit/Yoshino/YoshinoA</wornGraphicPath>
+        </apparel>
+        <statBases>
+            <ArmorRating_Sharp>0.15</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+            <ArmorRating_Heat>1</ArmorRating_Heat>
+            <Insulation_Cold>100</Insulation_Cold>
+            <Beauty>-3</Beauty>
+            <Mass>1.1</Mass>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <modExtensions>
+            <li Class="AK_DLL.Ext_ExtraGraphicData">
+                <graphicData>
+                    <drawOffset>(0,0,0.3)</drawOffset>
+                    <drawSize>(1.3, 1.3)</drawSize>
+                </graphicData>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+    <BackstoryDef ParentName = "AK_StoryBase">
+        <defName>FS_BackStory_Yoshino_Child</defName>
+        <slot>Childhood</slot>
+        <title>孤儿</title>
+        <titleShort>孤儿</titleShort>
+        <baseDesc>26年前因病弱体质而过着住院生活，受母亲冰芽川渚沙照顾。而后母亲因为意外去世，她也从此失踪</baseDesc>
+    </BackstoryDef>
+
+    <BackstoryDef ParentName = "AK_StoryBase">
+        <defName>FS_BackStory_Yoshino_Adult</defName>
+        <slot>Adulthood</slot>
+        <title>四糸奈</title>
+        <titleShort>四糸奈</titleShort>
+        <baseDesc>再次出现的她随时伴随着小雨和寒气，手上戴着被称为“四糸奈”的手偶。</baseDesc>
+    </BackstoryDef>
+
+    <!-- 护盾 -->
+
+    <ThingDef ParentName="AKS_BeltBase">
+        <defName>FS_ShieldBelt_Yoshino</defName>
+        <label>术士护盾</label>
+        <description>术士干员专属护盾，在有了足够抵御敌人投射物攻击的同时能够在近战中留下足够的空间。</description>
+        <statBases>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/ShieldBubble</texPath>
+            <shaderType>TransparentPostLight</shaderType>
+            <graphicClass>Graphic_Single</graphicClass>
+            <color>(0,210,255)</color>
+        </graphicData>
+        <comps>
+            <li Class="AKS_Shield.TCP_GenericShield">
+                <energyMax>160</energyMax>
+                <energyRegenRate>0.15</energyRegenRate>
+                <energyLostPerDmg>1</energyLostPerDmg>
+                <allowEnergyOverflow>false</allowEnergyOverflow>
+                <energyRatioOnReset>0.2</energyRatioOnReset>
+                <ticksToReset>3600</ticksToReset>
+                <canAbsorbMeleeDmg>true</canAbsorbMeleeDmg>
+                <meleeAbsorbFactor>1</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1</rangedAbsorbFactor>
+                <meleeDodgeChanceFactor>0.1</meleeDodgeChanceFactor>
+            </li>
+            <li Class="AKS_Shield.Extension.TCP_ExtraRenderStatic">
+                <bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/ShieldBubble</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <color>(0,210,255)</color>
+                    <drawSize>(2,2)</drawSize>
+                    <drawOffset>(0,0,0.1)</drawOffset>
+                    <shaderType>TransparentPostLight</shaderType>
+                </bubbleStaticOverlay>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>
