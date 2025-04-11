@@ -6,10 +6,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Amiya</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Amiya/char_002_amiya/Recruit_Amiya</clipPath>
 					</li>
 				</grains>
@@ -23,10 +23,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Die_Amiya</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Amiya/char_002_amiya/Die_Amiya</clipPath>
 					</li>
 				</grains>
@@ -40,10 +40,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Draft_AmiyaI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Amiya/char_002_amiya/Draft_AmiyaI</clipPath>
 					</li>
 				</grains>
@@ -57,10 +57,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Draft_AmiyaII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Amiya/char_002_amiya/Draft_AmiyaII</clipPath>
 					</li>
 				</grains>
@@ -74,10 +74,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_AmiyaI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Amiya/char_002_amiya/Select_AmiyaI</clipPath>
 					</li>
 				</grains>
@@ -91,10 +91,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_AmiyaII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Amiya/char_002_amiya/Select_AmiyaII</clipPath>
 					</li>
 				</grains>
@@ -108,10 +108,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_AmiyaIII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Amiya/char_002_amiya/Select_AmiyaIII</clipPath>
 					</li>
 				</grains>
@@ -125,10 +125,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_AmiyaIV</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Amiya/char_002_amiya/Select_AmiyaIV</clipPath>
 					</li>
 				</grains>
@@ -142,10 +142,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_AmiyaI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Amiya/char_002_amiya/Ability_AmiyaI</clipPath>
 					</li>
 				</grains>
@@ -159,10 +159,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_AmiyaII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Amiya/char_002_amiya/Ability_AmiyaII</clipPath>
 					</li>
 				</grains>
@@ -176,10 +176,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_AmiyaIII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Amiya/char_002_amiya/Ability_AmiyaIII</clipPath>
 					</li>
 				</grains>
@@ -193,10 +193,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_AmiyaIV</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Amiya/char_002_amiya/Ability_AmiyaIV</clipPath>
 					</li>
 				</grains>
@@ -210,10 +210,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Undraft_Amiya</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Amiya/char_002_amiya/Undraft_Amiya</clipPath>
 					</li>
 				</grains>
@@ -229,10 +229,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Goldenglow</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Goldenglow/char_377_gdglow/Recruit_Goldenglow</clipPath>
 					</li>
 				</grains>
@@ -246,10 +246,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Die_Goldenglow</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Goldenglow/char_377_gdglow/Die_Goldenglow</clipPath>
 					</li>
 				</grains>
@@ -263,10 +263,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Draft_GoldenglowI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Goldenglow/char_377_gdglow/Draft_GoldenglowI</clipPath>
 					</li>
 				</grains>
@@ -280,10 +280,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Draft_GoldenglowII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Goldenglow/char_377_gdglow/Draft_GoldenglowII</clipPath>
 					</li>
 				</grains>
@@ -297,10 +297,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_GoldenglowI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Goldenglow/char_377_gdglow/Select_GoldenglowI</clipPath>
 					</li>
 				</grains>
@@ -314,10 +314,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_GoldenglowII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Goldenglow/char_377_gdglow/Select_GoldenglowII</clipPath>
 					</li>
 				</grains>
@@ -331,10 +331,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_GoldenglowIII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Goldenglow/char_377_gdglow/Select_GoldenglowIII</clipPath>
 					</li>
 				</grains>
@@ -348,10 +348,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_GoldenglowIV</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Goldenglow/char_377_gdglow/Select_GoldenglowIV</clipPath>
 					</li>
 				</grains>
@@ -365,10 +365,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_GoldenglowI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Goldenglow/char_377_gdglow/Ability_GoldenglowI</clipPath>
 					</li>
 				</grains>
@@ -382,10 +382,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_GoldenglowII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Goldenglow/char_377_gdglow/Ability_GoldenglowII</clipPath>
 					</li>
 				</grains>
@@ -399,10 +399,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_GoldenglowIII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Goldenglow/char_377_gdglow/Ability_GoldenglowIII</clipPath>
 					</li>
 				</grains>
@@ -416,10 +416,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_GoldenglowIV</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Goldenglow/char_377_gdglow/Ability_GoldenglowIV</clipPath>
 					</li>
 				</grains>
@@ -433,10 +433,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Undraft_Goldenglow</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Goldenglow/char_377_gdglow/Undraft_Goldenglow</clipPath>
 					</li>
 				</grains>
@@ -453,10 +453,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Eyjafjalla</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Eyjafjalla/char_180_amgoat/Recruit_Eyjafjalla</clipPath>
 					</li>
 				</grains>
@@ -470,10 +470,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Die_Eyjafjalla</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Eyjafjalla/char_180_amgoat/Die_Eyjafjalla</clipPath>
 					</li>
 				</grains>
@@ -487,10 +487,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Draft_EyjafjallaI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Eyjafjalla/char_180_amgoat/Draft_EyjafjallaI</clipPath>
 					</li>
 				</grains>
@@ -504,10 +504,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Draft_EyjafjallaII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Eyjafjalla/char_180_amgoat/Draft_EyjafjallaII</clipPath>
 					</li>
 				</grains>
@@ -521,10 +521,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_EyjafjallaI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Eyjafjalla/char_180_amgoat/Select_EyjafjallaI</clipPath>
 					</li>
 				</grains>
@@ -538,10 +538,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_EyjafjallaII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Eyjafjalla/char_180_amgoat/Select_EyjafjallaII</clipPath>
 					</li>
 				</grains>
@@ -555,10 +555,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_EyjafjallaIII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Eyjafjalla/char_180_amgoat/Select_EyjafjallaIII</clipPath>
 					</li>
 				</grains>
@@ -572,10 +572,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_EyjafjallaIV</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Eyjafjalla/char_180_amgoat/Select_EyjafjallaIV</clipPath>
 					</li>
 				</grains>
@@ -589,10 +589,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_EyjafjallaI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Eyjafjalla/char_180_amgoat/Ability_EyjafjallaI</clipPath>
 					</li>
 				</grains>
@@ -606,10 +606,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_EyjafjallaII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Eyjafjalla/char_180_amgoat/Ability_EyjafjallaII</clipPath>
 					</li>
 				</grains>
@@ -623,10 +623,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_EyjafjallaIII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Eyjafjalla/char_180_amgoat/Ability_EyjafjallaIII</clipPath>
 					</li>
 				</grains>
@@ -640,10 +640,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_EyjafjallaIV</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Eyjafjalla/char_180_amgoat/Ability_EyjafjallaIV</clipPath>
 					</li>
 				</grains>
@@ -657,10 +657,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Undraft_Eyjafjalla</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Eyjafjalla/char_180_amgoat/Undraft_Eyjafjalla</clipPath>
 					</li>
 				</grains>
@@ -676,10 +676,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Dusk</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Dusk/char_2015_dusk/Recruit_Dusk</clipPath>
 					</li>
 				</grains>
@@ -693,10 +693,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Die_Dusk</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Dusk/char_2015_dusk/Die_Dusk</clipPath>
 					</li>
 				</grains>
@@ -710,10 +710,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Draft_DuskI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Dusk/char_2015_dusk/Draft_DuskI</clipPath>
 					</li>
 				</grains>
@@ -727,10 +727,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Draft_DuskII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Dusk/char_2015_dusk/Draft_DuskII</clipPath>
 					</li>
 				</grains>
@@ -744,10 +744,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_DuskI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Dusk/char_2015_dusk/Select_DuskI</clipPath>
 					</li>
 				</grains>
@@ -761,10 +761,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_DuskII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Dusk/char_2015_dusk/Select_DuskII</clipPath>
 					</li>
 				</grains>
@@ -778,10 +778,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_DuskIII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Dusk/char_2015_dusk/Select_DuskIII</clipPath>
 					</li>
 				</grains>
@@ -795,10 +795,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_DuskIV</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Dusk/char_2015_dusk/Select_DuskIV</clipPath>
 					</li>
 				</grains>
@@ -812,10 +812,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_DuskI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Dusk/char_2015_dusk/Ability_DuskI</clipPath>
 					</li>
 				</grains>
@@ -829,10 +829,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_DuskII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Dusk/char_2015_dusk/Ability_DuskII</clipPath>
 					</li>
 				</grains>
@@ -846,10 +846,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_DuskIII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Dusk/char_2015_dusk/Ability_DuskIII</clipPath>
 					</li>
 				</grains>
@@ -863,10 +863,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_DuskIV</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Dusk/char_2015_dusk/Ability_DuskIV</clipPath>
 					</li>
 				</grains>
@@ -880,10 +880,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Undraft_Dusk</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Dusk/char_2015_dusk/Undraft_Dusk</clipPath>
 					</li>
 				</grains>
@@ -899,10 +899,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Absinthe</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Absinthe/char_405_absin/Recruit_Absinthe</clipPath>
 					</li>
 				</grains>
@@ -916,10 +916,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Die_Absinthe</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Absinthe/char_405_absin/Die_Absinthe</clipPath>
 					</li>
 				</grains>
@@ -933,10 +933,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Draft_AbsintheI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Absinthe/char_405_absin/Draft_AbsintheI</clipPath>
 					</li>
 				</grains>
@@ -950,10 +950,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Draft_AbsintheII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Absinthe/char_405_absin/Draft_AbsintheII</clipPath>
 					</li>
 				</grains>
@@ -967,10 +967,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_AbsintheI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Absinthe/char_405_absin/Select_AbsintheI</clipPath>
 					</li>
 				</grains>
@@ -984,10 +984,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_AbsintheII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Absinthe/char_405_absin/Select_AbsintheII</clipPath>
 					</li>
 				</grains>
@@ -1001,10 +1001,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_AbsintheIII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Absinthe/char_405_absin/Select_AbsintheIII</clipPath>
 					</li>
 				</grains>
@@ -1018,10 +1018,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_AbsintheIV</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Absinthe/char_405_absin/Select_AbsintheIV</clipPath>
 					</li>
 				</grains>
@@ -1035,10 +1035,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_AbsintheI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Absinthe/char_405_absin/Ability_AbsintheI</clipPath>
 					</li>
 				</grains>
@@ -1052,10 +1052,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_AbsintheII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Absinthe/char_405_absin/Ability_AbsintheII</clipPath>
 					</li>
 				</grains>
@@ -1069,10 +1069,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_AbsintheIII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Absinthe/char_405_absin/Ability_AbsintheIII</clipPath>
 					</li>
 				</grains>
@@ -1086,10 +1086,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_AbsintheIV</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Absinthe/char_405_absin/Ability_AbsintheIV</clipPath>
 					</li>
 				</grains>
@@ -1103,10 +1103,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Undraft_Absinthe</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Absinthe/char_405_absin/Undraft_Absinthe</clipPath>
 					</li>
 				</grains>
@@ -1122,10 +1122,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Ceobe</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Ceobe/char_2013_cerber/Recruit_Ceobe</clipPath>
 					</li>
 				</grains>
@@ -1139,10 +1139,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Die_Ceobe</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Ceobe/char_2013_cerber/Die_Ceobe</clipPath>
 					</li>
 				</grains>
@@ -1156,10 +1156,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Draft_CeobeI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Ceobe/char_2013_cerber/Draft_CeobeI</clipPath>
 					</li>
 				</grains>
@@ -1173,10 +1173,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Draft_CeobeII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Ceobe/char_2013_cerber/Draft_CeobeII</clipPath>
 					</li>
 				</grains>
@@ -1190,10 +1190,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_CeobeI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Ceobe/char_2013_cerber/Select_CeobeI</clipPath>
 					</li>
 				</grains>
@@ -1207,10 +1207,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_CeobeII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Ceobe/char_2013_cerber/Select_CeobeII</clipPath>
 					</li>
 				</grains>
@@ -1224,10 +1224,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_CeobeIII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Ceobe/char_2013_cerber/Select_CeobeIII</clipPath>
 					</li>
 				</grains>
@@ -1241,10 +1241,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_CeobeIV</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Ceobe/char_2013_cerber/Select_CeobeIV</clipPath>
 					</li>
 				</grains>
@@ -1258,10 +1258,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_CeobeI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Ceobe/char_2013_cerber/Ability_CeobeI</clipPath>
 					</li>
 				</grains>
@@ -1275,10 +1275,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_CeobeII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Ceobe/char_2013_cerber/Ability_CeobeII</clipPath>
 					</li>
 				</grains>
@@ -1292,10 +1292,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_CeobeIII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Ceobe/char_2013_cerber/Ability_CeobeIII</clipPath>
 					</li>
 				</grains>
@@ -1309,10 +1309,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_CeobeIV</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Ceobe/char_2013_cerber/Ability_CeobeIV</clipPath>
 					</li>
 				</grains>
@@ -1326,10 +1326,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Undraft_Ceobe</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Ceobe/char_2013_cerber/Undraft_Ceobe</clipPath>
 					</li>
 				</grains>
@@ -1345,10 +1345,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Ifrit</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Ifrit/char_134_ifrit/Recruit_Ifrit</clipPath>
 					</li>
 				</grains>
@@ -1362,10 +1362,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Die_Ifrit</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Ifrit/char_134_ifrit/Die_Ifrit</clipPath>
 					</li>
 				</grains>
@@ -1379,10 +1379,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Draft_Ifrit</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Ifrit/char_134_ifrit/Draft_IfritI</clipPath>
 					</li>
 				</grains>
@@ -1396,10 +1396,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Draft_IfritII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Ifrit/char_134_ifrit/Draft_IfritII</clipPath>
 					</li>
 				</grains>
@@ -1413,10 +1413,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_IfritI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Ifrit/char_134_ifrit/Select_IfritI</clipPath>
 					</li>
 				</grains>
@@ -1430,10 +1430,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_IfritII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Ifrit/char_134_ifrit/Select_IfritII</clipPath>
 					</li>
 				</grains>
@@ -1447,10 +1447,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_IfritIII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Ifrit/char_134_ifrit/Select_IfritIII</clipPath>
 					</li>
 				</grains>
@@ -1464,10 +1464,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_IfritIV</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Ifrit/char_134_ifrit/Select_IfritIV</clipPath>
 					</li>
 				</grains>
@@ -1481,10 +1481,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_IfritI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Ifrit/char_134_ifrit/Ability_IfritI</clipPath>
 					</li>
 				</grains>
@@ -1498,10 +1498,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_IfritII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Ifrit/char_134_ifrit/Ability_IfritII</clipPath>
 					</li>
 				</grains>
@@ -1515,10 +1515,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_IfritIII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Ifrit/char_134_ifrit/Ability_IfritIII</clipPath>
 					</li>
 				</grains>
@@ -1532,10 +1532,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_IfritIV</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Ifrit/char_134_ifrit/Ability_IfritIV</clipPath>
 					</li>
 				</grains>
@@ -1549,10 +1549,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Undraft_Ifrit</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Ifrit/char_134_ifrit/Undraft_Ifrit</clipPath>
 					</li>
 				</grains>
@@ -1568,10 +1568,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Indigo</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Indigo/char_469_Indigo/Recruit_Indigo</clipPath>
 					</li>
 				</grains>
@@ -1585,10 +1585,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Die_Indigo</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Indigo/char_469_Indigo/Die_Indigo</clipPath>
 					</li>
 				</grains>
@@ -1602,10 +1602,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Draft_IndigoI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Indigo/char_469_Indigo/Draft_IndigoI</clipPath>
 					</li>
 				</grains>
@@ -1619,10 +1619,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Draft_IndigoII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Indigo/char_469_Indigo/Draft_IndigoII</clipPath>
 					</li>
 				</grains>
@@ -1636,10 +1636,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_IndigoI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Indigo/char_469_Indigo/Select_IndigoI</clipPath>
 					</li>
 				</grains>
@@ -1653,10 +1653,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_IndigoII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Indigo/char_469_Indigo/Select_IndigoII</clipPath>
 					</li>
 				</grains>
@@ -1670,10 +1670,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_IndigoIII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Indigo/char_469_Indigo/Select_IndigoIII</clipPath>
 					</li>
 				</grains>
@@ -1687,10 +1687,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_IndigoIV</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Indigo/char_469_Indigo/Select_IndigoIV</clipPath>
 					</li>
 				</grains>
@@ -1704,10 +1704,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_IndigoI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Indigo/char_469_Indigo/Ability_IndigoI</clipPath>
 					</li>
 				</grains>
@@ -1721,10 +1721,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_IndigoII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Indigo/char_469_Indigo/Ability_IndigoII</clipPath>
 					</li>
 				</grains>
@@ -1738,10 +1738,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_IndigoIII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Indigo/char_469_Indigo/Ability_IndigoIII</clipPath>
 					</li>
 				</grains>
@@ -1755,10 +1755,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_IndigoIV</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Indigo/char_469_Indigo/Ability_IndigoIV</clipPath>
 					</li>
 				</grains>
@@ -1772,10 +1772,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Undraft_Indigo</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Indigo/char_469_Indigo/Undraft_Indigo</clipPath>
 					</li>
 				</grains>
@@ -1791,10 +1791,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Mint</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Mint/char_388_mint/Recruit_Mint</clipPath>
 					</li>
 				</grains>
@@ -1808,10 +1808,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Die_Mint</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Mint/char_388_mint/Die_Mint</clipPath>
 					</li>
 				</grains>
@@ -1825,10 +1825,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Draft_MintI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Mint/char_388_mint/Draft_MintI</clipPath>
 					</li>
 				</grains>
@@ -1842,10 +1842,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Draft_MintII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Mint/char_388_mint/Draft_MintII</clipPath>
 					</li>
 				</grains>
@@ -1859,10 +1859,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_MintI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Mint/char_388_mint/Select_MintI</clipPath>
 					</li>
 				</grains>
@@ -1876,10 +1876,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_MintII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Mint/char_388_mint/Select_MintII</clipPath>
 					</li>
 				</grains>
@@ -1893,10 +1893,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_MintIII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Mint/char_388_mint/Select_MintIII</clipPath>
 					</li>
 				</grains>
@@ -1910,10 +1910,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_MintIV</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Mint/char_388_mint/Select_MintIV</clipPath>
 					</li>
 				</grains>
@@ -1927,10 +1927,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_MintI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Mint/char_388_mint/Ability_MintI</clipPath>
 					</li>
 				</grains>
@@ -1944,10 +1944,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_MintII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Mint/char_388_mint/Ability_MintII</clipPath>
 					</li>
 				</grains>
@@ -1961,10 +1961,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_MintIII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Mint/char_388_mint/Ability_MintIII</clipPath>
 					</li>
 				</grains>
@@ -1978,10 +1978,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_MintIV</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Mint/char_388_mint/Ability_MintIV</clipPath>
 					</li>
 				</grains>
@@ -1995,10 +1995,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Undraft_Mint</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Mint/char_388_mint/Undraft_Mint</clipPath>
 					</li>
 				</grains>
@@ -2014,10 +2014,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Tomimi</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Tomimi/char_tomimi/Recruit_Tomimi</clipPath>
 					</li>
 				</grains>
@@ -2031,10 +2031,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Die_Tomimi</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Tomimi/char_tomimi/Die_Tomimi</clipPath>
 					</li>
 				</grains>
@@ -2048,10 +2048,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Draft_TomimiI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Tomimi/char_tomimi/Draft_TomimiI</clipPath>
 					</li>
 				</grains>
@@ -2065,10 +2065,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Draft_TomimiII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Tomimi/char_tomimi/Draft_TomimiII</clipPath>
 					</li>
 				</grains>
@@ -2082,10 +2082,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_TomimiI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Tomimi/char_tomimi/Select_TomimiI</clipPath>
 					</li>
 				</grains>
@@ -2099,10 +2099,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_TomimiII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Tomimi/char_tomimi/Select_TomimiII</clipPath>
 					</li>
 				</grains>
@@ -2116,10 +2116,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_TomimiIII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Tomimi/char_tomimi/Select_TomimiIII</clipPath>
 					</li>
 				</grains>
@@ -2133,10 +2133,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_TomimiIV</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Tomimi/char_tomimi/Select_TomimiIV</clipPath>
 					</li>
 				</grains>
@@ -2150,10 +2150,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_TomimiI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Tomimi/char_tomimi/Ability_TomimiI</clipPath>
 					</li>
 				</grains>
@@ -2167,10 +2167,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_TomimiII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Tomimi/char_tomimi/Ability_TomimiII</clipPath>
 					</li>
 				</grains>
@@ -2184,10 +2184,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_TomimiIII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Tomimi/char_tomimi/Ability_TomimiIII</clipPath>
 					</li>
 				</grains>
@@ -2201,10 +2201,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_TomimiIV</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Tomimi/char_tomimi/Ability_TomimiIV</clipPath>
 					</li>
 				</grains>
@@ -2218,10 +2218,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Undraft_Tomimi</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Tomimi/char_tomimi/Undraft_Tomimi</clipPath>
 					</li>
 				</grains>
@@ -2237,10 +2237,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Mostima</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Mostima/char_213_mostma/Recruit_Mostima</clipPath>
 					</li>
 				</grains>
@@ -2254,10 +2254,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Die_Mostima</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Mostima/char_213_mostma/Die_Mostima</clipPath>
 					</li>
 				</grains>
@@ -2271,10 +2271,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Draft_MostimaI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Mostima/char_213_mostma/Draft_MostimaI</clipPath>
 					</li>
 				</grains>
@@ -2288,10 +2288,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Draft_MostimaII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Mostima/char_213_mostma/Draft_MostimaII</clipPath>
 					</li>
 				</grains>
@@ -2305,10 +2305,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_MostimaI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Mostima/char_213_mostma/Select_MostimaI</clipPath>
 					</li>
 				</grains>
@@ -2322,10 +2322,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_MostimaII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Mostima/char_213_mostma/Select_MostimaII</clipPath>
 					</li>
 				</grains>
@@ -2339,10 +2339,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_MostimaIII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Mostima/char_213_mostma/Select_MostimaIII</clipPath>
 					</li>
 				</grains>
@@ -2356,10 +2356,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_MostimaIV</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Mostima/char_213_mostma/Select_MostimaIV</clipPath>
 					</li>
 				</grains>
@@ -2373,10 +2373,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_MostimaI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Mostima/char_213_mostma/Ability_MostimaI</clipPath>
 					</li>
 				</grains>
@@ -2390,10 +2390,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_MostimaII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Mostima/char_213_mostma/Ability_MostimaII</clipPath>
 					</li>
 				</grains>
@@ -2407,10 +2407,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_MostimaIII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Mostima/char_213_mostma/Ability_MostimaIII</clipPath>
 					</li>
 				</grains>
@@ -2424,10 +2424,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_MostimaIV</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Mostima/char_213_mostma/Ability_MostimaIV</clipPath>
 					</li>
 				</grains>
@@ -2441,10 +2441,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Undraft_Mostima</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Mostima/char_213_mostma/Undraft_Mostima</clipPath>
 					</li>
 				</grains>
@@ -2460,10 +2460,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Skyfire</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Skyfire/char_166_skfire/Recruit_Skyfire</clipPath>
 					</li>
 				</grains>
@@ -2477,10 +2477,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Die_Skyfire</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Skyfire/char_166_skfire/Die_Skyfire</clipPath>
 					</li>
 				</grains>
@@ -2494,10 +2494,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Draft_SkyfireI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Skyfire/char_166_skfire/Draft_SkyfireI</clipPath>
 					</li>
 				</grains>
@@ -2511,10 +2511,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Draft_SkyfireII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Skyfire/char_166_skfire/Draft_SkyfireII</clipPath>
 					</li>
 				</grains>
@@ -2528,10 +2528,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_SkyfireI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Skyfire/char_166_skfire/Select_SkyfireI</clipPath>
 					</li>
 				</grains>
@@ -2545,10 +2545,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_SkyfireII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Skyfire/char_166_skfire/Select_SkyfireII</clipPath>
 					</li>
 				</grains>
@@ -2562,10 +2562,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_SkyfireIII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Skyfire/char_166_skfire/Select_SkyfireIII</clipPath>
 					</li>
 				</grains>
@@ -2579,10 +2579,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_SkyfireIV</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Skyfire/char_166_skfire/Select_SkyfireIV</clipPath>
 					</li>
 				</grains>
@@ -2596,10 +2596,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_SkyfireI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Skyfire/char_166_skfire/Ability_SkyfireI</clipPath>
 					</li>
 				</grains>
@@ -2613,10 +2613,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_SkyfireII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Skyfire/char_166_skfire/Ability_SkyfireII</clipPath>
 					</li>
 				</grains>
@@ -2630,10 +2630,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_SkyfireIII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Skyfire/char_166_skfire/Ability_SkyfireIII</clipPath>
 					</li>
 				</grains>
@@ -2647,10 +2647,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_SkyfireIV</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Skyfire/char_166_skfire/Ability_SkyfireIV</clipPath>
 					</li>
 				</grains>
@@ -2664,10 +2664,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Undraft_Skyfire</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Skyfire/char_166_skfire/Undraft_Skyfire</clipPath>
 					</li>
 				</grains>
@@ -2683,10 +2683,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Beeswax</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Beeswax/char_344_Beewax/Recruit_Beeswax</clipPath>
 					</li>
 				</grains>
@@ -2700,10 +2700,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Die_Beeswax</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Beeswax/char_344_Beewax/Die_Beeswax</clipPath>
 					</li>
 				</grains>
@@ -2717,10 +2717,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Draft_BeeswaxI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Beeswax/char_344_Beewax/Draft_BeeswaxI</clipPath>
 					</li>
 				</grains>
@@ -2734,10 +2734,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Draft_BeeswaxII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Beeswax/char_344_Beewax/Draft_BeeswaxII</clipPath>
 					</li>
 				</grains>
@@ -2751,10 +2751,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_BeeswaxI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Beeswax/char_344_Beewax/Select_BeeswaxI</clipPath>
 					</li>
 				</grains>
@@ -2768,10 +2768,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_BeeswaxII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Beeswax/char_344_Beewax/Select_BeeswaxII</clipPath>
 					</li>
 				</grains>
@@ -2785,10 +2785,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_BeeswaxIII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Beeswax/char_344_Beewax/Select_BeeswaxIII</clipPath>
 					</li>
 				</grains>
@@ -2802,10 +2802,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_BeeswaxIV</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Beeswax/char_344_Beewax/Select_BeeswaxIV</clipPath>
 					</li>
 				</grains>
@@ -2819,10 +2819,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_BeeswaxI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Beeswax/char_344_Beewax/Ability_BeeswaxI</clipPath>
 					</li>
 				</grains>
@@ -2836,10 +2836,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_BeeswaxII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Beeswax/char_344_Beewax/Ability_BeeswaxII</clipPath>
 					</li>
 				</grains>
@@ -2853,10 +2853,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_BeeswaxIII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Beeswax/char_344_Beewax/Ability_BeeswaxIII</clipPath>
 					</li>
 				</grains>
@@ -2870,10 +2870,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_BeeswaxIV</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Beeswax/char_344_Beewax/Ability_BeeswaxIV</clipPath>
 					</li>
 				</grains>
@@ -2887,10 +2887,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Undraft_Beeswax</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Beeswax/char_344_Beewax/Undraft_Beeswax</clipPath>
 					</li>
 				</grains>
@@ -2906,10 +2906,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Carnelian</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Carnelian/char_426_billro/Recruit_Carnelian</clipPath>
 					</li>
 				</grains>
@@ -2923,10 +2923,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Die_Carnelian</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Carnelian/char_426_billro/Die_Carnelian</clipPath>
 					</li>
 				</grains>
@@ -2940,10 +2940,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Draft_CarnelianI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Carnelian/char_426_billro/Draft_CarnelianI</clipPath>
 					</li>
 				</grains>
@@ -2957,10 +2957,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Draft_CarnelianII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Carnelian/char_426_billro/Draft_CarnelianII</clipPath>
 					</li>
 				</grains>
@@ -2974,10 +2974,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_CarnelianI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Carnelian/char_426_billro/Select_CarnelianI</clipPath>
 					</li>
 				</grains>
@@ -2991,10 +2991,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_CarnelianII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Carnelian/char_426_billro/Select_CarnelianII</clipPath>
 					</li>
 				</grains>
@@ -3008,10 +3008,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_CarnelianIII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Carnelian/char_426_billro/Select_CarnelianIII</clipPath>
 					</li>
 				</grains>
@@ -3025,10 +3025,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_CarnelianIV</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Carnelian/char_426_billro/Select_CarnelianIV</clipPath>
 					</li>
 				</grains>
@@ -3042,10 +3042,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_CarnelianI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Carnelian/char_426_billro/Ability_CarnelianI</clipPath>
 					</li>
 				</grains>
@@ -3059,10 +3059,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_CarnelianII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Carnelian/char_426_billro/Ability_CarnelianII</clipPath>
 					</li>
 				</grains>
@@ -3076,10 +3076,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_CarnelianIII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Carnelian/char_426_billro/Ability_CarnelianIII</clipPath>
 					</li>
 				</grains>
@@ -3093,10 +3093,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_CarnelianIV</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Carnelian/char_426_billro/Ability_CarnelianIV</clipPath>
 					</li>
 				</grains>
@@ -3110,10 +3110,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Undraft_Carnelian</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Carnelian/char_426_billro/Undraft_Carnelian</clipPath>
 					</li>
 				</grains>
@@ -3129,10 +3129,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Kjera</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Kjera/char_4013_kjera/Recruit_Kjera</clipPath>
 					</li>
 				</grains>
@@ -3146,10 +3146,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Die_Kjera</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Kjera/char_4013_kjera/Die_Kjera</clipPath>
 					</li>
 				</grains>
@@ -3163,10 +3163,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Draft_KjeraI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Kjera/char_4013_kjera/Draft_KjeraI</clipPath>
 					</li>
 				</grains>
@@ -3180,10 +3180,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Draft_KjeraII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Kjera/char_4013_kjera/Draft_KjeraII</clipPath>
 					</li>
 				</grains>
@@ -3197,10 +3197,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_KjeraI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Kjera/char_4013_kjera/Select_KjeraI</clipPath>
 					</li>
 				</grains>
@@ -3214,10 +3214,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_KjeraII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Kjera/char_4013_kjera/Select_KjeraII</clipPath>
 					</li>
 				</grains>
@@ -3231,10 +3231,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_KjeraIII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Kjera/char_4013_kjera/Select_KjeraIII</clipPath>
 					</li>
 				</grains>
@@ -3248,10 +3248,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_KjeraIV</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Kjera/char_4013_kjera/Select_KjeraIV</clipPath>
 					</li>
 				</grains>
@@ -3265,10 +3265,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_KjeraI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Kjera/char_4013_kjera/Ability_KjeraI</clipPath>
 					</li>
 				</grains>
@@ -3282,10 +3282,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_KjeraII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Kjera/char_4013_kjera/Ability_KjeraII</clipPath>
 					</li>
 				</grains>
@@ -3299,10 +3299,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_KjeraIII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Kjera/char_4013_kjera/Ability_KjeraIII</clipPath>
 					</li>
 				</grains>
@@ -3316,10 +3316,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_KjeraIV</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Kjera/char_4013_kjera/Ability_KjeraIV</clipPath>
 					</li>
 				</grains>
@@ -3333,10 +3333,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Undraft_Kjera</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Kjera/char_4013_kjera/Undraft_Kjera</clipPath>
 					</li>
 				</grains>
@@ -3352,10 +3352,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Astgenne</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Astgenne/char_135_halo/Recruit_Astgenne</clipPath>
 					</li>
 				</grains>
@@ -3369,10 +3369,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Die_Astgenne</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Astgenne/char_135_halo/Die_Astgenne</clipPath>
 					</li>
 				</grains>
@@ -3386,10 +3386,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Draft_AstgenneI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Astgenne/char_135_halo/Draft_AstgenneI</clipPath>
 					</li>
 				</grains>
@@ -3403,10 +3403,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Draft_AstgenneII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Astgenne/char_135_halo/Draft_AstgenneII</clipPath>
 					</li>
 				</grains>
@@ -3420,10 +3420,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_AstgenneI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Astgenne/char_135_halo/Select_AstgenneI</clipPath>
 					</li>
 				</grains>
@@ -3437,10 +3437,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_AstgenneII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Astgenne/char_135_halo/Select_AstgenneII</clipPath>
 					</li>
 				</grains>
@@ -3454,10 +3454,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_AstgenneIII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Astgenne/char_135_halo/Select_AstgenneIII</clipPath>
 					</li>
 				</grains>
@@ -3471,10 +3471,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_AstgenneIV</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Astgenne/char_135_halo/Select_AstgenneIV</clipPath>
 					</li>
 				</grains>
@@ -3488,10 +3488,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_AstgenneI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Astgenne/char_135_halo/Ability_AstgenneI</clipPath>
 					</li>
 				</grains>
@@ -3505,10 +3505,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_AstgenneII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Astgenne/char_135_halo/Ability_AstgenneII</clipPath>
 					</li>
 				</grains>
@@ -3522,10 +3522,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_AstgenneIII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Astgenne/char_135_halo/Ability_AstgenneIII</clipPath>
 					</li>
 				</grains>
@@ -3539,10 +3539,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_AstgenneIV</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Astgenne/char_135_halo/Ability_AstgenneIV</clipPath>
 					</li>
 				</grains>
@@ -3556,10 +3556,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Undraft_Astgenne</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Astgenne/char_135_halo/Undraft_Astgenne</clipPath>
 					</li>
 				</grains>
@@ -3575,10 +3575,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Harmonie</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Harmonie/char_297_hamoni/Recruit_Harmonie</clipPath>
 					</li>
 				</grains>
@@ -3592,10 +3592,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Die_Harmonie</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Harmonie/char_297_hamoni/Die_Harmonie</clipPath>
 					</li>
 				</grains>
@@ -3609,10 +3609,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Draft_HarmonieI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Harmonie/char_297_hamoni/Draft_HarmonieI</clipPath>
 					</li>
 				</grains>
@@ -3626,10 +3626,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Draft_HarmonieII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Harmonie/char_297_hamoni/Draft_HarmonieII</clipPath>
 					</li>
 				</grains>
@@ -3643,10 +3643,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_HarmonieI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Harmonie/char_297_hamoni/Select_HarmonieI</clipPath>
 					</li>
 				</grains>
@@ -3660,10 +3660,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_HarmonieII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Harmonie/char_297_hamoni/Select_HarmonieII</clipPath>
 					</li>
 				</grains>
@@ -3677,10 +3677,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_HarmonieIII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Harmonie/char_297_hamoni/Select_HarmonieIII</clipPath>
 					</li>
 				</grains>
@@ -3694,10 +3694,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_HarmonieIV</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Harmonie/char_297_hamoni/Select_HarmonieIV</clipPath>
 					</li>
 				</grains>
@@ -3711,10 +3711,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_HarmonieI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Harmonie/char_297_hamoni/Ability_HarmonieI</clipPath>
 					</li>
 				</grains>
@@ -3728,10 +3728,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_HarmonieII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Harmonie/char_297_hamoni/Ability_HarmonieII</clipPath>
 					</li>
 				</grains>
@@ -3745,10 +3745,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_HarmonieIII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Harmonie/char_297_hamoni/Ability_HarmonieIII</clipPath>
 					</li>
 				</grains>
@@ -3762,10 +3762,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_HarmonieIV</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Harmonie/char_297_hamoni/Ability_HarmonieIV</clipPath>
 					</li>
 				</grains>
@@ -3779,10 +3779,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Undraft_Harmonie</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Harmonie/char_297_hamoni/Undraft_Harmonie</clipPath>
 					</li>
 				</grains>
@@ -3798,10 +3798,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Lin</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Lin/char_4080_lin/Recruit_Lin</clipPath>
 					</li>
 				</grains>
@@ -3815,10 +3815,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Die_Lin</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Lin/char_4080_lin/Die_Lin</clipPath>
 					</li>
 				</grains>
@@ -3832,10 +3832,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Draft_LinI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Lin/char_4080_lin/Draft_LinI</clipPath>
 					</li>
 				</grains>
@@ -3849,10 +3849,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Draft_LinII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Lin/char_4080_lin/Draft_LinII</clipPath>
 					</li>
 				</grains>
@@ -3866,10 +3866,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_LinI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Lin/char_4080_lin/Select_LinI</clipPath>
 					</li>
 				</grains>
@@ -3883,10 +3883,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_LinII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Lin/char_4080_lin/Select_LinII</clipPath>
 					</li>
 				</grains>
@@ -3900,10 +3900,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_LinIII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Lin/char_4080_lin/Select_LinIII</clipPath>
 					</li>
 				</grains>
@@ -3917,10 +3917,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_LinIV</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Lin/char_4080_lin/Select_LinIV</clipPath>
 					</li>
 				</grains>
@@ -3934,10 +3934,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_LinI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Lin/char_4080_lin/Ability_LinI</clipPath>
 					</li>
 				</grains>
@@ -3951,10 +3951,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_LinII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Lin/char_4080_lin/Ability_LinII</clipPath>
 					</li>
 				</grains>
@@ -3968,10 +3968,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_LinIII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Lin/char_4080_lin/Ability_LinIII</clipPath>
 					</li>
 				</grains>
@@ -3985,10 +3985,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_LinIV</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Lin/char_4080_lin/Ability_LinIV</clipPath>
 					</li>
 				</grains>
@@ -4002,10 +4002,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Undraft_Lin</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Lin/char_4080_lin/Undraft_Lin</clipPath>
 					</li>
 				</grains>
@@ -4019,10 +4019,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Hoolheyak</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Hoolheyak/char_4027_heyak/Recruit_Hoolheyak</clipPath>
 					</li>
 				</grains>
@@ -4036,10 +4036,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Die_Hoolheyak</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Hoolheyak/char_4027_heyak/Die_Hoolheyak</clipPath>
 					</li>
 				</grains>
@@ -4053,10 +4053,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Undraft_Hoolheyak</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Hoolheyak/char_4027_heyak/Undraft_Hoolheyak</clipPath>
 					</li>
 				</grains>
@@ -4070,10 +4070,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_HoolheyakI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Hoolheyak/char_4027_heyak/Select_HoolheyakI</clipPath>
 					</li>
 				</grains>
@@ -4087,10 +4087,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_HoolheyakII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Hoolheyak/char_4027_heyak/Select_HoolheyakII</clipPath>
 					</li>
 				</grains>
@@ -4104,10 +4104,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_HoolheyakIII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Hoolheyak/char_4027_heyak/Select_HoolheyakIII</clipPath>
 					</li>
 				</grains>
@@ -4121,10 +4121,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_HoolheyakIV</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Hoolheyak/char_4027_heyak/Select_HoolheyakIV</clipPath>
 					</li>
 				</grains>
@@ -4138,10 +4138,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Draft_HoolheyakI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Hoolheyak/char_4027_heyak/Draft_HoolheyakI</clipPath>
 					</li>
 				</grains>
@@ -4155,10 +4155,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Draft_HoolheyakII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Hoolheyak/char_4027_heyak/Draft_HoolheyakII</clipPath>
 					</li>
 				</grains>
@@ -4172,10 +4172,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_HoolheyakI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Hoolheyak/char_4027_heyak/Ability_HoolheyakI</clipPath>
 					</li>
 				</grains>
@@ -4189,10 +4189,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_HoolheyakII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Hoolheyak/char_4027_heyak/Ability_HoolheyakII</clipPath>
 					</li>
 				</grains>
@@ -4206,10 +4206,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_HoolheyakIII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Hoolheyak/char_4027_heyak/Ability_HoolheyakIII</clipPath>
 					</li>
 				</grains>
@@ -4223,10 +4223,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_HoolheyakIV</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Hoolheyak/char_4027_heyak/Ability_HoolheyakIV</clipPath>
 					</li>
 				</grains>
@@ -4240,10 +4240,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Passenger</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Passenger/char_472_pasngr/Recruit_Passenger</clipPath>
 					</li>
 				</grains>
@@ -4257,10 +4257,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Die_Passenger</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Passenger/char_472_pasngr/Die_Passenger</clipPath>
 					</li>
 				</grains>
@@ -4274,10 +4274,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Undraft_Passenger</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Passenger/char_472_pasngr/Undraft_Passenger</clipPath>
 					</li>
 				</grains>
@@ -4291,10 +4291,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_PassengerI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Passenger/char_472_pasngr/Select_PassengerI</clipPath>
 					</li>
 				</grains>
@@ -4308,10 +4308,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_PassengerII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Passenger/char_472_pasngr/Select_PassengerII</clipPath>
 					</li>
 				</grains>
@@ -4325,10 +4325,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_PassengerIII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Passenger/char_472_pasngr/Select_PassengerIII</clipPath>
 					</li>
 				</grains>
@@ -4342,10 +4342,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_PassengerIV</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Passenger/char_472_pasngr/Select_PassengerIV</clipPath>
 					</li>
 				</grains>
@@ -4359,10 +4359,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Draft_PassengerI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Passenger/char_472_pasngr/Draft_PassengerI</clipPath>
 					</li>
 				</grains>
@@ -4376,10 +4376,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Draft_PassengerII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Passenger/char_472_pasngr/Draft_PassengerII</clipPath>
 					</li>
 				</grains>
@@ -4393,10 +4393,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_PassengerI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Passenger/char_472_pasngr/Ability_PassengerI</clipPath>
 					</li>
 				</grains>
@@ -4410,10 +4410,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_PassengerII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Passenger/char_472_pasngr/Ability_PassengerII</clipPath>
 					</li>
 				</grains>
@@ -4427,10 +4427,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_PassengerIII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Passenger/char_472_pasngr/Ability_PassengerIII</clipPath>
 					</li>
 				</grains>
@@ -4444,10 +4444,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_PassengerIV</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Passenger/char_472_pasngr/Ability_PassengerIV</clipPath>
 					</li>
 				</grains>
@@ -4461,10 +4461,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Lava</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Lava/char_121_lava/Recruit_Lava</clipPath>
 					</li>
 				</grains>
@@ -4478,10 +4478,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Die_Lava</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Lava/char_121_lava/Die_Lava</clipPath>
 					</li>
 				</grains>
@@ -4495,10 +4495,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Undraft_Lava</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Lava/char_121_lava/Undraft_Lava</clipPath>
 					</li>
 				</grains>
@@ -4512,10 +4512,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_LavaI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Lava/char_121_lava/Select_LavaI</clipPath>
 					</li>
 				</grains>
@@ -4529,10 +4529,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_LavaII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Lava/char_121_lava/Select_LavaII</clipPath>
 					</li>
 				</grains>
@@ -4546,10 +4546,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_LavaIII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Lava/char_121_lava/Select_LavaIII</clipPath>
 					</li>
 				</grains>
@@ -4563,10 +4563,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_LavaIV</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Lava/char_121_lava/Select_LavaIV</clipPath>
 					</li>
 				</grains>
@@ -4580,10 +4580,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Draft_LavaI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Lava/char_121_lava/Draft_LavaI</clipPath>
 					</li>
 				</grains>
@@ -4597,10 +4597,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Draft_LavaII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Lava/char_121_lava/Draft_LavaII</clipPath>
 					</li>
 				</grains>
@@ -4614,10 +4614,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_LavaI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Lava/char_121_lava/Ability_LavaI</clipPath>
 					</li>
 				</grains>
@@ -4631,10 +4631,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_LavaII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Lava/char_121_lava/Ability_LavaII</clipPath>
 					</li>
 				</grains>
@@ -4648,10 +4648,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Santalla</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 					<grains>
-						<li Class="AudioGrain_Clip">
+						<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 							<clipPath>Operator/Caster/Santalla/char_341_sntlla/Recruit_Santalla</clipPath>
 						</li>
 					</grains>
@@ -4665,10 +4665,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Die_Santalla</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 					<grains>
-						<li Class="AudioGrain_Clip">
+						<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 							<clipPath>Operator/Caster/Santalla/char_341_sntlla/Die_Santalla</clipPath>
 						</li>
 					</grains>
@@ -4682,10 +4682,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Undraft_Santalla</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 					<grains>
-						<li Class="AudioGrain_Clip">
+						<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 							<clipPath>Operator/Caster/Santalla/char_341_sntlla/Undraft_Santalla</clipPath>
 						</li>
 					</grains>
@@ -4699,10 +4699,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_SantallaI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 					<grains>
-						<li Class="AudioGrain_Clip">
+						<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 							<clipPath>Operator/Caster/Santalla/char_341_sntlla/Select_SantallaI</clipPath>
 						</li>
 					</grains>
@@ -4716,10 +4716,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_SantallaII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 					<grains>
-						<li Class="AudioGrain_Clip">
+						<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 							<clipPath>Operator/Caster/Santalla/char_341_sntlla/Select_SantallaII</clipPath>
 						</li>
 					</grains>
@@ -4733,10 +4733,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_SantallaIII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 					<grains>
-						<li Class="AudioGrain_Clip">
+						<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 							<clipPath>Operator/Caster/Santalla/char_341_sntlla/Select_SantallaIII</clipPath>
 						</li>
 					</grains>
@@ -4750,10 +4750,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_SantallaIV</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 					<grains>
-						<li Class="AudioGrain_Clip">
+						<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 							<clipPath>Operator/Caster/Santalla/char_341_sntlla/Select_SantallaIV</clipPath>
 						</li>
 					</grains>
@@ -4767,10 +4767,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Draft_SantallaI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 					<grains>
-						<li Class="AudioGrain_Clip">
+						<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 							<clipPath>Operator/Caster/Santalla/char_341_sntlla/Draft_SantallaI</clipPath>
 						</li>
 					</grains>
@@ -4784,10 +4784,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Draft_SantallaII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 					<grains>
-						<li Class="AudioGrain_Clip">
+						<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 							<clipPath>Operator/Caster/Santalla/char_341_sntlla/Draft_SantallaII</clipPath>
 						</li>
 					</grains>
@@ -4801,10 +4801,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_SantallaI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 					<grains>
-						<li Class="AudioGrain_Clip">
+						<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 							<clipPath>Operator/Caster/Santalla/char_341_sntlla/Ability_SantallaI</clipPath>
 						</li>
 					</grains>
@@ -4818,10 +4818,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_SantallaII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 					<grains>
-						<li Class="AudioGrain_Clip">
+						<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 							<clipPath>Operator/Caster/Santalla/char_341_sntlla/Ability_SantallaII</clipPath>
 						</li>
 					</grains>
@@ -4835,10 +4835,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_SantallaIII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 					<grains>
-						<li Class="AudioGrain_Clip">
+						<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 							<clipPath>Operator/Caster/Santalla/char_341_sntlla/Ability_SantallaIII</clipPath>
 						</li>
 					</grains>
@@ -4852,10 +4852,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_SantallaIV</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 					<grains>
-						<li Class="AudioGrain_Clip">
+						<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 							<clipPath>Operator/Caster/Santalla/char_341_sntlla/Ability_SantallaIV</clipPath>
 						</li>
 					</grains>
@@ -4869,10 +4869,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Heteronucleoid</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 					<grains>
-						<li Class="AudioGrain_Clip">
+						<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 							<clipPath>Operator/Caster/Heteronucleoid/char_9999_heterangelina/Recruit_Heteronucleoid</clipPath>
 						</li>
 					</grains>
@@ -4886,10 +4886,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Die_Heteronucleoid</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 					<grains>
-						<li Class="AudioGrain_Clip">
+						<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 							<clipPath>Operator/Caster/Heteronucleoid/char_9999_heterangelina/Die_Heteronucleoid</clipPath>
 						</li>
 					</grains>
@@ -4903,10 +4903,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Undraft_Heteronucleoid</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 					<grains>
-						<li Class="AudioGrain_Clip">
+						<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 							<clipPath>Operator/Caster/Heteronucleoid/char_9999_heterangelina/Undraft_Heteronucleoid</clipPath>
 						</li>
 					</grains>
@@ -4920,10 +4920,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_HeteronucleoidI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 					<grains>
-						<li Class="AudioGrain_Clip">
+						<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 							<clipPath>Operator/Caster/Heteronucleoid/char_9999_heterangelina/Select_HeteronucleoidI</clipPath>
 						</li>
 					</grains>
@@ -4937,10 +4937,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_HeteronucleoidII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 					<grains>
-						<li Class="AudioGrain_Clip">
+						<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 							<clipPath>Operator/Caster/Heteronucleoid/char_9999_heterangelina/Select_HeteronucleoidII</clipPath>
 						</li>
 					</grains>
@@ -4954,10 +4954,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_HeteronucleoidIII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 					<grains>
-						<li Class="AudioGrain_Clip">
+						<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 							<clipPath>Operator/Caster/Heteronucleoid/char_9999_heterangelina/Select_HeteronucleoidIII</clipPath>
 						</li>
 					</grains>
@@ -4971,10 +4971,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_HeteronucleoidIV</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 					<grains>
-						<li Class="AudioGrain_Clip">
+						<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 							<clipPath>Operator/Caster/Heteronucleoid/char_9999_heterangelina/Select_HeteronucleoidIV</clipPath>
 						</li>
 					</grains>
@@ -4988,10 +4988,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Draft_HeteronucleoidI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 					<grains>
-						<li Class="AudioGrain_Clip">
+						<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 							<clipPath>Operator/Caster/Heteronucleoid/char_9999_heterangelina/Draft_HeteronucleoidI</clipPath>
 						</li>
 					</grains>
@@ -5005,10 +5005,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Draft_HeteronucleoidII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 					<grains>
-						<li Class="AudioGrain_Clip">
+						<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 							<clipPath>Operator/Caster/Heteronucleoid/char_9999_heterangelina/Draft_HeteronucleoidII</clipPath>
 						</li>
 					</grains>
@@ -5022,10 +5022,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_HeteronucleoidI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 					<grains>
-						<li Class="AudioGrain_Clip">
+						<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 							<clipPath>Operator/Caster/Heteronucleoid/char_9999_heterangelina/Ability_HeteronucleoidI</clipPath>
 						</li>
 					</grains>
@@ -5039,10 +5039,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_HeteronucleoidII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 					<grains>
-						<li Class="AudioGrain_Clip">
+						<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 							<clipPath>Operator/Caster/Heteronucleoid/char_9999_heterangelina/Ability_HeteronucleoidII</clipPath>
 						</li>
 					</grains>
@@ -5056,10 +5056,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_HeteronucleoidIII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 					<grains>
-						<li Class="AudioGrain_Clip">
+						<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 							<clipPath>Operator/Caster/Heteronucleoid/char_9999_heterangelina/Ability_HeteronucleoidIII</clipPath>
 						</li>
 					</grains>
@@ -5073,10 +5073,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_HeteronucleoidIV</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 					<grains>
-						<li Class="AudioGrain_Clip">
+						<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 							<clipPath>Operator/Caster/Heteronucleoid/char_9999_heterangelina/Ability_HeteronucleoidIV</clipPath>
 						</li>
 					</grains>
@@ -5090,10 +5090,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Delphine</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 					<grains>
-						<li Class="AudioGrain_Clip">
+						<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 							<clipPath>Operator/Caster/Delphine/char_4110_delphn/Recruit_Delphine</clipPath>
 						</li>
 					</grains>
@@ -5107,10 +5107,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Die_Delphine</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 					<grains>
-						<li Class="AudioGrain_Clip">
+						<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 							<clipPath>Operator/Caster/Delphine/char_4110_delphn/Die_Delphine</clipPath>
 						</li>
 					</grains>
@@ -5124,10 +5124,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Undraft_Delphine</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 					<grains>
-						<li Class="AudioGrain_Clip">
+						<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 							<clipPath>Operator/Caster/Delphine/char_4110_delphn/Undraft_Delphine</clipPath>
 						</li>
 					</grains>
@@ -5141,10 +5141,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_DelphineI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 					<grains>
-						<li Class="AudioGrain_Clip">
+						<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 							<clipPath>Operator/Caster/Delphine/char_4110_delphn/Select_DelphineI</clipPath>
 						</li>
 					</grains>
@@ -5158,10 +5158,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_DelphineII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 					<grains>
-						<li Class="AudioGrain_Clip">
+						<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 							<clipPath>Operator/Caster/Delphine/char_4110_delphn/Select_DelphineII</clipPath>
 						</li>
 					</grains>
@@ -5175,10 +5175,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_DelphineIII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 					<grains>
-						<li Class="AudioGrain_Clip">
+						<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 							<clipPath>Operator/Caster/Delphine/char_4110_delphn/Select_DelphineIII</clipPath>
 						</li>
 					</grains>
@@ -5192,10 +5192,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_DelphineIV</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 					<grains>
-						<li Class="AudioGrain_Clip">
+						<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 							<clipPath>Operator/Caster/Delphine/char_4110_delphn/Select_DelphineIV</clipPath>
 						</li>
 					</grains>
@@ -5209,10 +5209,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Draft_DelphineI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 					<grains>
-						<li Class="AudioGrain_Clip">
+						<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 							<clipPath>Operator/Caster/Delphine/char_4110_delphn/Draft_DelphineI</clipPath>
 						</li>
 					</grains>
@@ -5226,10 +5226,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Draft_DelphineII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 					<grains>
-						<li Class="AudioGrain_Clip">
+						<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 							<clipPath>Operator/Caster/Delphine/char_4110_delphn/Draft_DelphineII</clipPath>
 						</li>
 					</grains>
@@ -5243,10 +5243,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_DelphineI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 					<grains>
-						<li Class="AudioGrain_Clip">
+						<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 							<clipPath>Operator/Caster/Delphine/char_4110_delphn/Ability_DelphineI</clipPath>
 						</li>
 					</grains>
@@ -5260,10 +5260,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_DelphineII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 					<grains>
-						<li Class="AudioGrain_Clip">
+						<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 							<clipPath>Operator/Caster/Delphine/char_4110_delphn/Ability_DelphineII</clipPath>
 						</li>
 					</grains>
@@ -5277,10 +5277,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_DelphineIII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 					<grains>
-						<li Class="AudioGrain_Clip">
+						<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 							<clipPath>Operator/Caster/Delphine/char_4110_delphn/Ability_DelphineIII</clipPath>
 						</li>
 					</grains>
@@ -5294,10 +5294,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_DelphineIV</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 					<grains>
-						<li Class="AudioGrain_Clip">
+						<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 							<clipPath>Operator/Caster/Delphine/char_4110_delphn/Ability_DelphineIV</clipPath>
 						</li>
 					</grains>
@@ -5313,10 +5313,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_Nymph</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Nymph/char_4146_nymph/Recruit_Nymph</clipPath>
 					</li>
 				</grains>
@@ -5330,10 +5330,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Die_Nymph</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Nymph/char_4146_nymph/Die_Nymph</clipPath>
 					</li>
 				</grains>
@@ -5347,10 +5347,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Draft_NymphI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Nymph/char_4146_nymph/Draft_NymphI</clipPath>
 					</li>
 				</grains>
@@ -5364,10 +5364,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Draft_NymphII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Nymph/char_4146_nymph/Draft_NymphII</clipPath>
 					</li>
 				</grains>
@@ -5381,10 +5381,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_NymphI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Nymph/char_4146_nymph/Select_NymphI</clipPath>
 					</li>
 				</grains>
@@ -5398,10 +5398,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_NymphII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Nymph/char_4146_nymph/Select_NymphII</clipPath>
 					</li>
 				</grains>
@@ -5415,10 +5415,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_NymphIII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Nymph/char_4146_nymph/Select_NymphIII</clipPath>
 					</li>
 				</grains>
@@ -5432,10 +5432,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_NymphIV</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Nymph/char_4146_nymph/Select_NymphIV</clipPath>
 					</li>
 				</grains>
@@ -5449,10 +5449,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_NymphI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Nymph/char_4146_nymph/Ability_NymphI</clipPath>
 					</li>
 				</grains>
@@ -5466,10 +5466,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_NymphII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Nymph/char_4146_nymph/Ability_NymphII</clipPath>
 					</li>
 				</grains>
@@ -5483,10 +5483,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_NymphIII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Nymph/char_4146_nymph/Ability_NymphIII</clipPath>
 					</li>
 				</grains>
@@ -5500,10 +5500,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_NymphIV</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Nymph/char_4146_nymph/Ability_NymphIV</clipPath>
 					</li>
 				</grains>
@@ -5517,10 +5517,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Undraft_Nymph</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/Nymph/char_4146_nymph/Undraft_Nymph</clipPath>
 					</li>
 				</grains>
@@ -5536,10 +5536,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Recruit_LapplandTheDecadenza</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/LapplandTheDecadenza/char_1038_LapplandTheDecadenza/Recruit_LapplandTheDecadenza</clipPath>
 					</li>
 				</grains>
@@ -5553,10 +5553,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Die_LapplandTheDecadenza</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/LapplandTheDecadenza/char_1038_LapplandTheDecadenza/Die_LapplandTheDecadenza</clipPath>
 					</li>
 				</grains>
@@ -5570,10 +5570,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Draft_LapplandTheDecadenzaI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/LapplandTheDecadenza/char_1038_LapplandTheDecadenza/Draft_LapplandTheDecadenzaI</clipPath>
 					</li>
 				</grains>
@@ -5587,10 +5587,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Draft_LapplandTheDecadenzaII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/LapplandTheDecadenza/char_1038_LapplandTheDecadenza/Draft_LapplandTheDecadenzaII</clipPath>
 					</li>
 				</grains>
@@ -5604,10 +5604,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_LapplandTheDecadenzaI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/LapplandTheDecadenza/char_1038_LapplandTheDecadenza/Select_LapplandTheDecadenzaI</clipPath>
 					</li>
 				</grains>
@@ -5621,10 +5621,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_LapplandTheDecadenzaII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/LapplandTheDecadenza/char_1038_LapplandTheDecadenza/Select_LapplandTheDecadenzaII</clipPath>
 					</li>
 				</grains>
@@ -5638,10 +5638,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_LapplandTheDecadenzaIII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/LapplandTheDecadenza/char_1038_LapplandTheDecadenza/Select_LapplandTheDecadenzaIII</clipPath>
 					</li>
 				</grains>
@@ -5655,10 +5655,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Select_LapplandTheDecadenzaIV</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/LapplandTheDecadenza/char_1038_LapplandTheDecadenza/Select_LapplandTheDecadenzaIV</clipPath>
 					</li>
 				</grains>
@@ -5672,10 +5672,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_LapplandTheDecadenzaI</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/LapplandTheDecadenza/char_1038_LapplandTheDecadenza/Ability_LapplandTheDecadenzaI</clipPath>
 					</li>
 				</grains>
@@ -5689,10 +5689,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_LapplandTheDecadenzaII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/LapplandTheDecadenza/char_1038_LapplandTheDecadenza/Ability_LapplandTheDecadenzaII</clipPath>
 					</li>
 				</grains>
@@ -5706,10 +5706,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_LapplandTheDecadenzaIII</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/LapplandTheDecadenza/char_1038_LapplandTheDecadenza/Ability_LapplandTheDecadenzaIII</clipPath>
 					</li>
 				</grains>
@@ -5723,10 +5723,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Ability_LapplandTheDecadenzaIV</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/LapplandTheDecadenza/char_1038_LapplandTheDecadenza/Ability_LapplandTheDecadenzaIV</clipPath>
 					</li>
 				</grains>
@@ -5740,10 +5740,10 @@
 	<SoundDef ParentName = "AK_VoiceBase">
 		<defName>AK_Voice_Undraft_LapplandTheDecadenza</defName>
 		<subSounds>
-			<li>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
 				<onCamera>True</onCamera>
 				<grains>
-					<li Class="AudioGrain_Clip">
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
 						<clipPath>Operator/Caster/LapplandTheDecadenza/char_1038_LapplandTheDecadenza/Undraft_LapplandTheDecadenza</clipPath>
 					</li>
 				</grains>
