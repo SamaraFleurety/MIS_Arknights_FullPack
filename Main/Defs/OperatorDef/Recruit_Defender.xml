@@ -13,8 +13,6 @@
 		<apparels>
 			<li>AK_Apparel_Cuora</li>
 		</apparels>
-		<stand>UI/Image/Defender/CuoraStand</stand>
-		<headPortrait>UI/Image/Defender/CuoraPortrait</headPortrait>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -114,8 +112,6 @@
 		<accessory Inherit="false">
 			<li>AKS_ShieldBelt_Eunectes</li>
 		</accessory>
-		<stand>UI/Image/Defender/EunectesStand</stand>
-		<headPortrait>UI/Image/Defender/EunectesPortrait</headPortrait>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -219,8 +215,6 @@
 		<apparels>
 			<li>AK_Apparel_Hoshiguma</li>
 		</apparels>
-		<stand>UI/Image/Defender/HoshigumaStand</stand>
-		<headPortrait>UI/Image/Defender/HoshigumaPortrait</headPortrait>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -324,8 +318,6 @@
 		<apparels>
 			<li>AK_Apparel_Liskarm</li>
 		</apparels>
-		<stand>UI/Image/Defender/LiskarmStand</stand>
-		<headPortrait>UI/Image/Defender/LiskarmPortrait</headPortrait>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -440,8 +432,6 @@
 		<accessory Inherit="false">
 			<li>AKS_ShieldBelt_Mudrock</li>
 		</accessory>
-		<stand>UI/Image/Defender/MudrockStand</stand>
-		<headPortrait>UI/Image/Defender/MudrockPortrait</headPortrait>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -541,12 +531,10 @@
 		<accessory Inherit="false">
 			<li>AKS_ShieldBelt_Nian</li>
 		</accessory>
-		<stand>UI/Image/Defender/NianStand</stand>
 		<fashionAnimation>
 		    <li>AK_Spine_Nian_dynillust_E2</li>
 		    <li>AK_Spine_Nian_dynillust_Nian</li>
 		</fashionAnimation>
-		<headPortrait>UI/Image/Defender/NianPortrait</headPortrait>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -678,8 +666,6 @@
 		<accessory Inherit="false">
 			<li>AKS_ShieldBelt_Saria</li>
 		</accessory>
-		<stand>UI/Image/Defender/SariaStand</stand>
-		<headPortrait>UI/Image/Defender/SariaPortrait</headPortrait>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -797,8 +783,6 @@
 		<accessory Inherit="false">
 			<li>AKS_ShieldBelt_Nearl</li>
 		</accessory>
-		<stand>UI/Image/Defender/BlemishineStand</stand>
-		<headPortrait>UI/Image/Defender/BlemishinePortrait</headPortrait>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -917,8 +901,6 @@
 		<apparels>
 			<li>AK_Apparel_Croissant</li>
 		</apparels>
-		<stand>UI/Image/Defender/CroissantStand</stand>
-		<headPortrait>UI/Image/Defender/CroissantPortrait</headPortrait>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -1022,8 +1004,6 @@
 		<apparels>
 			<li>AK_Apparel_Aurora</li>
 		</apparels>
-		<stand>UI/Image/Defender/AuroraStand</stand>
-		<headPortrait>UI/Image/Defender/AuroraPortrait</headPortrait>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -1122,8 +1102,6 @@
 		<apparels>
 			<li>AK_Apparel_Ashlock</li>
 		</apparels>
-		<stand>UI/Image/Defender/AshlockStand</stand>
-		<headPortrait>UI/Image/Defender/AshlockPortrait</headPortrait>
 		<traits>
 			<li>
 				<def>Immunity</def>
@@ -1228,8 +1206,6 @@
 		<accessory Inherit="false">
 			<li>AKS_ShieldBelt_Horn</li>
 		</accessory>
-		<stand>UI/Image/Defender/HornStand</stand>
-		<headPortrait>UI/Image/Defender/HornPortrait</headPortrait>
 		<traits>
 			<li>
 				<def>Immunity</def>
@@ -1334,8 +1310,6 @@
 		<apparels>
 			<li>AK_Apparel_Gummy</li>
 		</apparels>
-		<stand>UI/Image/Defender/GummyStand</stand>
-		<headPortrait>UI/Image/Defender/GummyPortrait</headPortrait>
 		<traits>
 			<li>
 				<def>AK_Trait_Chernobog</def>
@@ -1437,8 +1411,6 @@
 		<apparels>
 			<li>AK_Apparel_Matterhorn</li>
 		</apparels>
-		<stand>UI/Image/Defender/MatterhornStand</stand>
-		<headPortrait>UI/Image/Defender/MatterhornPortrait</headPortrait>
 		<isMale>true</isMale>
 		<bodyTypeDef>Male</bodyTypeDef>
 		<traits>
@@ -1541,8 +1513,6 @@
 		<apparels>
 			<li>AK_Apparel_Vulcan</li>
 		</apparels>
-		<stand>UI/Image/Defender/VulcanStand</stand>
-		<headPortrait>UI/Image/Defender/VulcanPortrait</headPortrait>
 		<traits>
 			<li>
 				<def>Kind</def>
@@ -1646,8 +1616,6 @@
 		<accessory Inherit="false">
 			<li>AKS_ShieldBelt_Nearl</li>
 		</accessory>
-		<stand>UI/Image/Defender/NearlStand</stand>
-		<headPortrait>UI/Image/Defender/NearlPortrait</headPortrait>
 		<traits>
 			<li>
 				<def>AK_Trait_Follower</def>
@@ -1767,8 +1735,6 @@
 			<li>AKS_ShieldBelt_Penance</li>
 		</apparels>
 		<accessory Inherit="false"/>
-		<stand>UI/Image/Defender/PenanceStand</stand>
-		<headPortrait>UI/Image/Defender/PenancePortrait</headPortrait>
 		<traits>
 			<li>
 				<def>Industriousness</def>
@@ -1869,8 +1835,6 @@
 		<apparels>
 			<li>AK_Apparel_Beagle</li>
 		</apparels>
-		<stand>UI/Image/Defender/BeagleStand</stand>
-		<headPortrait>UI/Image/Defender/BeaglePortrait</headPortrait>
 		<traits>
 			<li>
 				<def>AK_Trait_BeagleThird</def>
@@ -1970,8 +1934,6 @@
 		<accessory Inherit="false">
 			<li>AKS_ShieldBelt_Liberated</li>
 		</accessory>
-		<stand>UI/Image/Defender/LiberatedStand</stand>
-		<headPortrait>UI/Image/Defender/LiberatedPortrait</headPortrait>
 		<traits>
 			<li>
 				<def>Kind</def>
@@ -2086,11 +2048,9 @@
 		<accessory Inherit="false">
 			<li>AKS_ShieldBelt_Shu</li>
 		</accessory>
-		<stand>UI/Image/Defender/ShuStand</stand>
 		<fashionAnimation>
 		    <li>AK_Spine_Shu_dynillust_E2</li>
 		</fashionAnimation>
-		<headPortrait>UI/Image/Defender/ShuPortrait</headPortrait>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -2207,11 +2167,9 @@
 		<!--accessory Inherit="false">
 			<li>AKS_ShieldBelt_Yu</li>
 		</accessory-->
-		<stand>UI/Image/Defender/YuStand</stand>
 		<!--fashionAnimation>
 		    <li></li>
 		</fashionAnimation-->
-		<headPortrait>UI/Image/Defender/YuPortrait</headPortrait>
 		<traits>
 			<li>
 				<def>AK_Trait_Yu</def>

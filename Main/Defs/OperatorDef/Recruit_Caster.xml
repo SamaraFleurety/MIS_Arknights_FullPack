@@ -12,12 +12,10 @@
 		<accessory>
 			<li>AK_Apparel_Dusk</li>
 		</accessory>
-		<stand>UI/Image/Caster/DuskStand</stand>
 		<fashionAnimation>
 		    <li>AK_Spine_Dusk_dynillust_E2</li>
 		    <li>AK_Spine_Dusk_dynillust_Nian</li>
 		</fashionAnimation>
-		<headPortrait>UI/Image/Caster/DuskPortrait</headPortrait>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -146,8 +144,6 @@
 		<apparels>
 			<li>AK_Apparel_Eyjafjalla</li>
 		</apparels>
-		<stand>UI/Image/Caster/EyjafjallaStand</stand>
-		<headPortrait>UI/Image/Caster/EyjafjallaPortrait</headPortrait>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -438,8 +434,6 @@
 				<degree>1</degree>
 			</li>
 		</traits>
-		<stand>UI/Image/Caster/MintStand</stand>
-		<headPortrait>UI/Image/Caster/MintPortrait</headPortrait>
 		<standOffsets Inherit="false">
 			<li>
 				<key>0</key>
@@ -470,8 +464,6 @@
 		<apparels>
 			<li>AK_Apparel_Mostima</li>
 		</apparels>
-		<stand>UI/Image/Caster/MostimaStand</stand>
-		<headPortrait>UI/Image/Caster/MostimaPortrait</headPortrait>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -596,8 +588,6 @@
 		<apparels>
 			<li>AK_Apparel_Skyfire</li>
 		</apparels>
-		<stand>UI/Image/Caster/SkyfireStand</stand>
-		<headPortrait>UI/Image/Caster/SkyfirePortrait</headPortrait>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -699,8 +689,6 @@
 		<apparels>
 			<li>AK_Apparel_Absinthe</li>
 		</apparels>
-		<stand>UI/Image/Caster/AbsintheStand</stand>
-		<headPortrait>UI/Image/Caster/AbsinthePortrait</headPortrait>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -808,8 +796,6 @@
 		<apparels>
 			<li>AK_Apparel_Amiya</li>
 		</apparels>
-		<stand>UI/Image/Caster/AmiyaStand</stand>
-		<headPortrait>UI/Image/Caster/AmiyaPortrait</headPortrait>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -925,8 +911,6 @@
 		<apparels>
 			<li>AK_Apparel_Ceobe</li>
 		</apparels>
-		<stand>UI/Image/Caster/CeobeStand</stand>
-		<headPortrait>UI/Image/Caster/CeobePortrait</headPortrait>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -1054,8 +1038,6 @@
 		<accessory Inherit="false">
 			<li>AKS_ShieldBelt_DesertBlessings</li>
 		</accessory>
-		<stand>UI/Image/Caster/CarnelianStand</stand>
-		<headPortrait>UI/Image/Caster/CarnelianPortrait</headPortrait>
 		<skinColor>(210,180,170)</skinColor>
 		<skills>
 			<li>
@@ -1176,8 +1158,6 @@
 		<accessory Inherit="false">
 			<li>AKS_ShieldBelt_DesertBlessings</li>
 		</accessory>
-		<stand>UI/Image/Caster/BeeswaxStand</stand>
-		<headPortrait>UI/Image/Caster/BeeswaxPortrait</headPortrait>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -1286,8 +1266,6 @@
 		<apparels>
 			<li>AK_Apparel_Indigo</li>
 		</apparels>
-		<stand>UI/Image/Caster/IndigoStand</stand>
-		<headPortrait>UI/Image/Caster/IndigoPortrait</headPortrait>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -1397,8 +1375,6 @@
 		<apparels>
 			<li>AK_Apparel_Goldenglow</li>
 		</apparels>
-		<stand>UI/Image/Caster/GoldenglowStand</stand>
-		<headPortrait>UI/Image/Caster/GoldenglowPortrait</headPortrait>
 		<traits>
 			<li>
 				<def>AK_Trait_GoldenglowSecond</def>
@@ -1517,8 +1493,6 @@
 		<apparels>
 			<li>AK_Apparel_Tomimi</li>
 		</apparels>
-		<stand>UI/Image/Caster/TomimiStand</stand>
-		<headPortrait>UI/Image/Caster/TomimiPortrait</headPortrait>
 		<traits>
 			<li>
 				<def>Kind</def>
@@ -1627,8 +1601,6 @@
 		<apparels>
 			<li>AK_Apparel_Kjera</li>
 		</apparels>
-		<stand>UI/Image/Caster/KjeraStand</stand>
-		<headPortrait>UI/Image/Caster/KjeraPortrait</headPortrait>
 		<traits>
 			<li>
 				<def>AK_Trait_Kjera</def>
@@ -1730,8 +1702,6 @@
 		<apparels>
 			<li>AK_Apparel_Astgenne</li>
 		</apparels>
-		<stand>UI/Image/Caster/AstgenneStand</stand>
-		<headPortrait>UI/Image/Caster/AstgennePortrait</headPortrait>
 		<traits>
 			<li>
 				<def>AK_Trait_AstgenneSecond</def>
@@ -1838,8 +1808,6 @@
 		<apparels>
 			<li>AK_Apparel_Harmonie</li>
 		</apparels>
-		<stand>UI/Image/Caster/HarmonieStand</stand>
-		<headPortrait>UI/Image/Caster/HarmoniePortrait</headPortrait>
 		<traits>
 			<li>
 				<def>AK_Trait_HarmonieThird</def>
@@ -1951,8 +1919,6 @@
 		<accessory Inherit="false">
 			<li>AKS_ShieldBelt_Lin</li>
 		</accessory>
-		<stand>UI/Image/Caster/LinStand</stand>
-		<headPortrait>UI/Image/Caster/LinPortrait</headPortrait>
 		<traits>
 			<li>
 				<def>Kind</def>
@@ -2063,8 +2029,6 @@
 		<accessory Inherit="false">
 			<li>AKS_ShieldBelt_Hoolheyak</li>
 		</accessory>
-		<stand>UI/Image/Caster/HoolheyakStand</stand>
-		<headPortrait>UI/Image/Caster/HoolheyakPortrait</headPortrait>
 		<traits>
 			<li>
 				<def>AK_Trait_HoolheyakThird</def>
@@ -2160,8 +2124,6 @@
 		<apparels>
 			<li>AK_Apparel_Passenger</li>
 		</apparels>
-		<stand>UI/Image/Caster/PassengerStand</stand>
-		<headPortrait>UI/Image/Caster/PassengerPortrait</headPortrait>
 		<isMale>true</isMale>
 		<traits>
 			<li>
@@ -2274,8 +2236,6 @@
 		<apparels>
 			<li>AK_Apparel_Lava</li>
 		</apparels>
-		<stand>UI/Image/Caster/LavaStand</stand>
-		<headPortrait>UI/Image/Caster/LavaPortrait</headPortrait>
 		<traits>
 			<li>
 				<def>AK_Trait_LavaSecond</def>
@@ -2376,8 +2336,6 @@
 		<apparels>
 			<li>AK_Apparel_Santalla</li>
 		</apparels>
-		<stand>UI/Image/Caster/SantallaStand</stand>
-		<headPortrait>UI/Image/Caster/SantallaPortrait</headPortrait>
 		<traits>
 			<li>
 				<def>BodyPurist</def>
@@ -2475,8 +2433,6 @@
 		<apparels>
 			<li>AK_Apparel_Heteronucleoid</li>
 		</apparels>
-		<stand>UI/Image/Caster/HeteronucleoidStand</stand>
-		<headPortrait>UI/Image/Caster/HeteronucleoidPortrait</headPortrait>
 		<traits>
 			<li>
 				<def>Kind</def>
@@ -2574,8 +2530,6 @@
 		<apparels>
 			<li>AK_Apparel_Delphine</li>
 		</apparels>
-		<stand>UI/Image/Caster/DelphineStand</stand>
-		<headPortrait>UI/Image/Caster/DelphinePortrait</headPortrait>
 		<traits>
 			<li>
 				<def>AK_Trait_DelphineSecond</def>
@@ -2667,8 +2621,6 @@
 		<apparels>
 			<li>AK_Apparel_Nymph</li>
 		</apparels>
-		<stand>UI/Image/Caster/NymphStand</stand>
-		<headPortrait>UI/Image/Caster/NymphPortrait</headPortrait>
 		<traits>
 			<li>
 				<def>AK_Trait_NymphThird</def>
@@ -2769,8 +2721,6 @@
 		<accessory Inherit="false">
 			<li>AKS_ShieldBelt_LapplandTheDecadenza</li>
 		</accessory>
-		<stand>UI/Image/Caster/LapplandTheDecadenzaStand</stand>
-		<headPortrait>UI/Image/Caster/LapplandTheDecadenzaPortrait</headPortrait>
 		<traits>
 			<li>
 				<def>Beauty</def>

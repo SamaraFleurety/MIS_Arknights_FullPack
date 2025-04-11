@@ -13,8 +13,6 @@
 		<apparels>
 			<li>AK_Apparel_Suzuran</li>
 		</apparels>
-		<stand>UI/Image/Supporter/SuzuranStand</stand>
-		<headPortrait>UI/Image/Supporter/SuzuranPortrait</headPortrait>
 		<age>14</age>
 		<skills>
 			<li>
@@ -116,8 +114,6 @@
 		<apparels>
 			<li>AK_Apparel_Angelina</li>
 		</apparels>
-		<stand>UI/Image/Supporter/AngelinaStand</stand>
-		<headPortrait>UI/Image/Supporter/AngelinaPortrait</headPortrait>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -214,8 +210,6 @@
 		<apparels>
 			<li>AK_Apparel_Magallan</li>
 		</apparels>
-		<stand>UI/Image/Supporter/MagallanStand</stand>
-		<headPortrait>UI/Image/Supporter/MagallanPortrait</headPortrait>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -315,8 +309,6 @@
 		<apparels>
 			<li>AK_Apparel_Deepcolor</li>
 		</apparels>
-		<stand>UI/Image/Supporter/DeepcolorStand</stand>
-		<headPortrait>UI/Image/Supporter/DeepcolorPortrait</headPortrait>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -418,8 +410,6 @@
 		<apparels>
 			<li>AK_Apparel_Pramanix</li>
 		</apparels>
-		<stand>UI/Image/Supporter/PramanixStand</stand>
-		<headPortrait>UI/Image/Supporter/PramanixPortrait</headPortrait>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -525,8 +515,6 @@
 		<apparels>
 			<li>AK_Apparel_Glaucus</li>
 		</apparels>
-		<stand>UI/Image/Supporter/GlaucusStand</stand>
-		<headPortrait>UI/Image/Supporter/GlaucusPortrait</headPortrait>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -619,8 +607,6 @@
 		<apparels>
 			<li>AK_Apparel_Scene</li>
 		</apparels>
-		<stand>UI/Image/Supporter/SceneStand</stand>
-		<headPortrait>UI/Image/Supporter/ScenePortrait</headPortrait>
 		<traits>
 			<li>
 				<def>Kind</def>
@@ -719,8 +705,6 @@
 		<apparels>
 			<li>AK_Apparel_Sora</li>
 		</apparels>
-		<stand>UI/Image/Supporter/SoraStand</stand>
-		<headPortrait>UI/Image/Supporter/SoraPortrait</headPortrait>
 		<traits>
 			<li>
 				<def>Nimble</def>
@@ -821,12 +805,10 @@
 		<accessory Inherit="false">
 			<li>AKS_ShieldBelt_Ling</li>
 		</accessory>
-		<stand>UI/Image/Supporter/LingStand</stand>
 		<fashionAnimation>
 		    <li>AK_Spine_Ling_dynillust_E2</li>
 		    <li>AK_Spine_Ling_dynillust_Nian</li>
 		</fashionAnimation>
-		<headPortrait>UI/Image/Supporter/LingPortrait</headPortrait>
 		<traits>
 			<li>
 				<def>Nimble</def>
@@ -952,8 +934,6 @@
 		<apparels>
 			<li>AK_Apparel_Istina</li>
 		</apparels>
-		<stand>UI/Image/Supporter/IstinaStand</stand>
-		<headPortrait>UI/Image/Supporter/IstinaPortrait</headPortrait>
 		<traits>
 			<li>
 				<def>AK_Trait_Chernobog</def>
@@ -1049,8 +1029,6 @@
 		<apparels>
 			<li>AK_Apparel_Heidi</li>
 		</apparels>
-		<stand>UI/Image/Supporter/HeidiStand</stand>
-		<headPortrait>UI/Image/Supporter/HeidiPortrait</headPortrait>
 		<traits>
 			<li>
 				<def>Kind</def>
@@ -1145,8 +1123,6 @@
 		<apparels>
 			<li>AK_Apparel_Gnosis</li>
 		</apparels>
-		<stand>UI/Image/Supporter/GnosisStand</stand>
-		<headPortrait>UI/Image/Supporter/GnosisPortrait</headPortrait>
 		<isMale>true</isMale>
 		<traits>
 			<li>
@@ -1242,8 +1218,6 @@
 		<apparels>
 			<li>AK_Apparel_Quercus</li>
 		</apparels>
-		<stand>UI/Image/Supporter/QuercusStand</stand>
-		<headPortrait>UI/Image/Supporter/QuercusPortrait</headPortrait>
 		<traits>
 			<li>
 				<def>Nimble</def>
@@ -1345,8 +1319,6 @@
 		<apparels>
 			<li>AK_Apparel_Roberta</li>
 		</apparels>
-		<stand>UI/Image/Supporter/RobertaStand</stand>
-		<headPortrait>UI/Image/Supporter/RobertaPortrait</headPortrait>
 		<traits>
 			<li>
 				<def>Kind</def>
@@ -1441,8 +1413,6 @@
 		<apparels>
 			<li>AK_Apparel_Proviso</li>
 		</apparels>
-		<stand>UI/Image/Supporter/ProvisoStand</stand>
-		<headPortrait>UI/Image/Supporter/ProvisoPortrait</headPortrait>
 		<traits>
 			<li>
 				<def>AK_Trait_ProvisoThird</def>
@@ -1540,8 +1510,6 @@
 		<apparels>
 			<li>AK_Apparel_MayerA</li>
 		</apparels>
-		<stand>UI/Image/Supporter/MayerStand</stand>
-		<headPortrait>UI/Image/Supporter/MayerPortrait</headPortrait>
 		<traits>
 			<li>
 				<def>Industriousness</def>
@@ -1643,8 +1611,6 @@
 			<li>AKS_ShieldBelt_CorruptingHeart</li>
 		</apparels>
 		<accessory Inherit="false"/>
-		<stand>UI/Image/Supporter/CorruptingHeartStand</stand>
-		<headPortrait>UI/Image/Supporter/CorruptingHeartPortrait</headPortrait>
 		<traits>
 			<li>
 				<def>AK_Trait_CorruptingHeartSecond</def>
@@ -1738,8 +1704,6 @@
 		<accessory Inherit="false">
 			<li>AKS_ShieldBelt_Virtuosa</li>
 		</accessory>
-		<stand>UI/Image/Supporter/VirtuosaStand</stand>
-		<headPortrait>UI/Image/Supporter/VirtuosaPortrait</headPortrait>
 		<traits>
 			<li>
 				<def>AK_Trait_VirtuosaSecond</def>
@@ -1843,8 +1807,6 @@
 		<accessory Inherit="false">
 			<li>AKS_ShieldBelt_CivilightEterna</li>
 		</accessory>
-		<stand>UI/Image/Supporter/CivilightEternaStand</stand>
-		<headPortrait>UI/Image/Supporter/CivilightEternaPortrait</headPortrait>
 		<traits>
 			<li>
 				<def>AK_Trait_CivilightEternaSecond</def>
@@ -1937,8 +1899,6 @@
 		<accessory Inherit="false">
 			<li>AKS_ShieldBelt_Valarqvin</li>
 		</accessory>
-		<stand>UI/Image/Supporter/ValarqvinStand</stand>
-		<headPortrait>UI/Image/Supporter/ValarqvinPortrait</headPortrait>
 		<traits>
 			<li>
 				<def>AK_Trait_ValarqvinThird</def>
