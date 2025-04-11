@@ -11,6 +11,7 @@
 		<accessory>
 			<li>AKS_ShieldBelt_Guard</li>
 		</accessory>
+		<dynaLoadStaticStands>true</dynaLoadStaticStands>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase" Name="AK_RecruitBase_Supporter" Abstract="True">
@@ -23,6 +24,7 @@
 		<accessory>
 			<li>AKS_ShieldBelt_Supporter</li>
 		</accessory>
+		<dynaLoadStaticStands>true</dynaLoadStaticStands>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase" Name="AK_RecruitBase_Vanguard" Abstract="True">
@@ -35,6 +37,7 @@
 		<accessory>
 			<li>AKS_ShieldBelt_Vanguard</li>
 		</accessory>
+		<dynaLoadStaticStands>true</dynaLoadStaticStands>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase" Name="AK_RecruitBase_Caster" Abstract="True">
@@ -47,6 +50,7 @@
 		<accessory>
 			<li>AKS_ShieldBelt_Caster</li>
 		</accessory>
+		<dynaLoadStaticStands>true</dynaLoadStaticStands>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase" Name="AK_RecruitBase_Defender" Abstract="True">
@@ -59,6 +63,7 @@
 		<accessory>
 			<li>AKS_ShieldBelt_Defender</li>
 		</accessory>
+		<dynaLoadStaticStands>true</dynaLoadStaticStands>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase" Name="AK_RecruitBase_Medic" Abstract="True">
@@ -74,6 +79,7 @@
 		<accessory>
 			<li>AKS_ShieldBelt_Medic</li>
 		</accessory>
+		<dynaLoadStaticStands>true</dynaLoadStaticStands>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase" Name="AK_RecruitBase_Sniper" Abstract="True">
@@ -86,6 +92,7 @@
 		<accessory>
 			<li>AKS_ShieldBelt_Sniper</li>
 		</accessory>
+		<dynaLoadStaticStands>true</dynaLoadStaticStands>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase" Name="AK_RecruitBase_Specialist" Abstract="True">
@@ -98,6 +105,11 @@
 		<accessory>
 			<li>AKS_ShieldBelt_Specialist</li>
 		</accessory>
+		<dynaLoadStaticStands>true</dynaLoadStaticStands>
 	</AK_DLL.OperatorDef>
 
+	
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_OtherLeader" Name="AK_RecruitBase_OtherLeaderDynaLoading" Abstract="True">
+		<dynaLoadStaticStands>true</dynaLoadStaticStands>
+	</AK_DLL.OperatorDef>
 </Defs>
