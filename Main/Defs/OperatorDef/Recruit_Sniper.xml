@@ -133,6 +133,10 @@
 				<value>UI/Image/Sniper/WFashionI</value>
 			</li>
 		</staticStands>
+		<fashionAnimation>
+			<li>AK_Spine_cqbw_dynillust</li>
+			<li>AK_Spine_cqbw_epoque_dynillust</li>
+		</fashionAnimation>
 		<skills>
 			<li>
 				<skill>Animals</skill>
@@ -2471,6 +2475,9 @@
 		<accessory Inherit="false">
 			<li>AKS_ShieldBelt_Wisadel</li>
 		</accessory>
+		<fashionAnimation>
+			<li>AK_Spine_wisdel_dynillust</li>
+		</fashionAnimation>
 		<ticketCost>2</ticketCost>
 		<traits>
 			<li>

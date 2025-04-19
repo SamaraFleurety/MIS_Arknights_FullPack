@@ -185,4 +185,64 @@
         </asset>
     </SpriteEvo.SpineAssetDef>
 
+    <SpriteEvo.SpineAssetDef>
+        <defName>AK_Spine_kalts_dynillust</defName>
+        <asset>
+            <StraightAlphaInput>true</StraightAlphaInput>
+            <version>3.8</version>
+            <filePath>Spine/asset_dyn_kalts</filePath>
+            <seriesname>dyn_illust_char_003_kalts_boc#6</seriesname>
+            <atlas>dyn_illust_char_003_kalts_boc#6.atlas.txt</atlas>
+            <skeleton>dyn_illust_char_003_kalts_boc#6.skel.bytes</skeleton>
+            <materials>
+                <li>dyn_illust_char_003_kalts_boc#6_Material</li>
+            </materials>
+        </asset>
+    </SpriteEvo.SpineAssetDef>
+
+    <SpriteEvo.SpineAssetDef>
+        <defName>AK_Spine_cqbw_dynillust</defName>
+        <asset>
+            <StraightAlphaInput>true</StraightAlphaInput>
+            <version>3.8</version>
+            <filePath>Spine/asset_dyn_cqbw</filePath>
+            <seriesname>dyn_illust_char_113_cqbw</seriesname>
+            <atlas>dyn_illust_char_113_cqbw.atlas.txt</atlas>
+            <skeleton>dyn_illust_char_113_cqbw.skel.bytes</skeleton>
+            <materials>
+                <li>dyn_illust_char_113_cqbw_Material</li>
+            </materials>
+        </asset>
+    </SpriteEvo.SpineAssetDef>
+
+    <SpriteEvo.SpineAssetDef>
+        <defName>AK_Spine_cqbw_epoque_dynillust</defName>
+        <asset>
+            <StraightAlphaInput>true</StraightAlphaInput>
+            <version>3.8</version>
+            <filePath>Spine/asset_dyn_cqbw</filePath>
+            <seriesname>dyn_illust_char_113_cqbw_epoque#7</seriesname>
+            <atlas>dyn_illust_char_0113_cqbw_epoque#7.atlas.txt</atlas>
+            <skeleton>dyn_illust_char_113_cqbw_epoque#7.skel.bytes</skeleton>
+            <materials>
+                <li>dyn_illust_char_113_cqbw_epoque#7_Material</li>
+            </materials>
+        </asset>
+    </SpriteEvo.SpineAssetDef>
+
+    <SpriteEvo.SpineAssetDef>
+        <defName>AK_Spine_wisdel_dynillust</defName>
+        <asset>
+            <StraightAlphaInput>true</StraightAlphaInput>
+            <version>3.8</version>
+            <filePath>Spine/asset_dyn_wisdel</filePath>
+            <seriesname>dyn_illust_char_1035_wisdel</seriesname>
+            <atlas>dyn_illust_char_1035_wisdel.atlas.txt</atlas>
+            <skeleton>dyn_illust_char_1035_wisdel.skel.bytes</skeleton>
+            <materials>
+                <li>dyn_illust_char_1035_wisdel_Material</li>
+            </materials>
+        </asset>
+    </SpriteEvo.SpineAssetDef>
+
 </Defs>
