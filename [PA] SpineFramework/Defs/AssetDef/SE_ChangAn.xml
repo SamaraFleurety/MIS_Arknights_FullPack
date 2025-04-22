@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <!--已实现自动文件属性填充，只需保持文件的名称前缀和目录名称一致,多个贴图还是需要自己填-->
+    <!--前头-->
+    <SpriteEvo.SpineAssetDef>
+        <defName>SE_ChangAn</defName>
+        <skelFormat>SkeletonJSON</skelFormat>
+        <asset>
+            <StraightAlphaInput>true</StraightAlphaInput>
+            <version>4.2</version>
+            <filePath>Spine/SE_ChangAn</filePath>
+            <seriesname>常暗</seriesname>
+            <textures>
+				<li>常暗</li>
+	        </textures>
+        </asset>
+    </SpriteEvo.SpineAssetDef>
+
+</Defs>

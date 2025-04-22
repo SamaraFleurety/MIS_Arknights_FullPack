@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <SpriteEvo.AnimationDef>
+        <defName>Chang_An_Test</defName>
+        <version>4.2</version>
+        <mainAsset>SE_ChangAn</mainAsset>
+        <scripts>
+            <li Class="SpriteEvo.ASP_PawnBase">
+            <blinkMixIn>0.233</blinkMixIn>
+            <blinkMixOut>0.233</blinkMixOut>
+            </li>
+        </scripts>
+        <props>
+            <scale>(0.1,0.1)</scale>
+            <rotation>(90,0,0)</rotation>
+        </props>
+    </SpriteEvo.AnimationDef>
+
+</Defs>

@@ -1,110 +1,68 @@
 ManifestFileVersion: 0
-CRC: 2253701181
+CRC: 3994428792
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: edd81a559ea205349a6b666e25fff1c7
+    Hash: 2b887b0c2ecabc5834254a9c4e89a411
   TypeTreeHash:
     serializedVersion: 2
-    Hash: a483a41e1ba264ffbcffdf672afa56b7
+    Hash: 10a6a558690295dadb3dd990eda0821a
 HashAppended: 0
 ClassTypes:
 - Class: 21
   Script: {instanceID: 0}
-- Class: 28
-  Script: {instanceID: 0}
 - Class: 48
-  Script: {instanceID: 0}
-- Class: 114
-  Script: {fileID: 11500000, guid: 12b0b98acbcda44468a7ae4e35000abe, type: 3}
-- Class: 115
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/Spine/Editor/spine-unity/Editor/GUI/icon-boundingBox.png
 - Assets/Spine/Runtime/spine-unity/Shaders/Utility/HiddenPass.shader
 - Assets/Spine/Runtime/spine-unity/Shaders/Spine-Skeleton-Fill.shader
-- Assets/Spine/Editor/spine-unity/Editor/GUI/AtlasAsset Icon.png
-- Assets/Spine/Editor/spine-unity/Editor/GUI/icon-boneNib.png
-- Assets/Spine/Editor/spine-unity/Editor/GUI/icon-poseBones.png
-- Assets/Spine/Editor/spine-unity/Editor/GUI/icon-constraints.png
 - Assets/Spine/Runtime/spine-unity/Materials/UI-PMATexture/SkeletonGraphicDefault.mat
 - Assets/Spine/Runtime/spine-unity/Materials/UI-PMATexture/SkeletonGraphicTintBlack.mat
-- Assets/Spine/Editor/spine-unity/Editor/GUI/icon-mesh.png
-- Assets/Spine/Editor/spine-unity/Editor/GUI/icon-point.png
 - Assets/Spine/Runtime/spine-unity/SkeletonDataModifierAssets/BlendModeMaterials/SkeletonPMAAdditive.mat
-- Assets/Spine/Editor/spine-unity/Editor/GUI/icon-bone.png
-- Assets/Spine/Editor/spine-unity/Editor/ImporterPresets/StraightAlphaPresetTemplate.png
 - Assets/Spine/Runtime/spine-unity/Shaders/SkeletonGraphic/Spine-SkeletonGraphic-TintBlack.shader
-- Assets/Spine/Editor/spine-unity/Editor/GUI/icon-skin.png
 - Assets/Spine/Runtime/spine-unity/Shaders/Outline/SkeletonGraphic/Spine-SkeletonGraphic-Outline.shader
 - Assets/Spine/Runtime/spine-unity/Shaders/Outline/Spine-Skeleton-Lit-ZWrite-Outline.shader
-- Assets/Spine/Editor/spine-unity/Editor/GUI/icon-skeletonUtility.png
-- Assets/Spine/Editor/spine-unity/Editor/GUI/icon-attachment.png
 - Assets/Spine/Runtime/spine-unity/SkeletonDataModifierAssets/BlendModeMaterials/SkeletonPMAMultiply.mat
 - Assets/Spine/Runtime/spine-unity/Shaders/Outline/Sprite/SpritesVertexLit-Outline.shader
 - Assets/Spine/Runtime/spine-unity/Shaders/Outline/Sprite/SpritesUnlit-Outline.shader
-- Assets/Spine/Editor/spine-unity/Editor/ImporterPresets/PMAPresetTemplate.png
-- Assets/Spine/Editor/spine-unity/Editor/GUI/icon-slot.png
-- Assets/Spine/Editor/spine-unity/Editor/GUI/icon-null.png
-- Assets/Spine/Editor/spine-unity/Editor/GUI/icon-constraintTransform.png
 - Assets/Spine/Runtime/spine-unity/Shaders/Outline/BlendModes/Spine-Skeleton-PMA-Screen-Outline.shader
 - Assets/Spine/Runtime/spine-unity/Shaders/Spine-Special-Skeleton-Grayscale.shader
-- Assets/Spine/Editor/spine-unity/Editor/GUI/icon-image.png
-- Assets/Spine/Editor/spine-unity/Editor/GUI/icon-clipping.png
 - Assets/Spine/Runtime/spine-unity/Shaders/Outline/Spine-Skeleton-Fill-Outline.shader
 - Assets/Spine/Runtime/spine-unity/Shaders/Outline/Spine-Skeleton-Tint-Outline.shader
 - Assets/Spine/Runtime/spine-unity/Shaders/BlendModes/Spine-Skeleton-PMA-Screen.shader
-- Assets/Spine/Runtime/spine-unity/SkeletonDataModifierAssets/BlendModeMaterials/Default
-  BlendModeMaterials.asset
 - Assets/Spine/Runtime/spine-unity/Materials/UI-StraightAlphaTex/SkeletonGraphicTintBlackOutline-Straight.mat
-- Assets/Spine/Editor/spine-unity/Editor/GUI/icon-skinsRoot.png
-- Assets/Spine/Editor/spine-unity/Editor/GUI/icon-path.png
-- Assets/Spine/Editor/spine-unity/Editor/GUI/icon-constraintIK.png
 - Assets/Spine/Runtime/spine-unity/Shaders/Outline/Spine-Skeleton-Lit-Outline.shader
 - Assets/Spine/Runtime/spine-unity/Shaders/Outline/Sprite/SpritesPixelLit-Outline.shader
-- Assets/Spine/Editor/spine-unity/Editor/GUI/icon-skeleton.png
 - Assets/Spine/Runtime/spine-unity/Shaders/Sprite/SpritesPixelLit.shader
 - Assets/Spine/Runtime/spine-unity/Shaders/Outline/Spine-Special-Skeleton-Grayscale-Outline.shader
 - Assets/Spine/Runtime/spine-unity/Shaders/Spine-Skeleton-Tint.shader
-- Assets/Spine/Editor/spine-unity/Editor/GUI/icon-hingeChain.png
 - Assets/Spine/Runtime/spine-unity/Shaders/Outline/Spine-Skeleton-Outline.shader
 - Assets/Spine/Runtime/spine-unity/Materials/UI-StraightAlphaTex/SkeletonGraphicTintBlack-Straight.mat
 - Assets/Spine/Runtime/spine-unity/Shaders/Sprite/SpritesUnlit.shader
-- Assets/Spine/Editor/spine-unity/Editor/GUI/icon-animation.png
 - Assets/Spine/Runtime/spine-unity/Shaders/Utility/Hidden-Spine-Bones.shader
-- Assets/Spine/Editor/spine-unity/Editor/GUI/icon-weights.png
 - Assets/Spine/Runtime/spine-unity/Shaders/Sprite/SpritesVertexLit.shader
 - Assets/Spine/Runtime/spine-unity/Shaders/Outline/BlendModes/Spine-Skeleton-PMA-Multiply-Outline.shader
 - Assets/Spine/Runtime/spine-unity/Shaders/BlendModes/Spine-Skeleton-PMA-Additive.shader
-- Assets/Spine/Editor/spine-unity/Editor/GUI/icon-event.png
 - Assets/Spine/Runtime/spine-unity/Materials/UI-StraightAlphaTex/SkeletonGraphicDefaultOutline-Straight.mat
-- Assets/Spine/Editor/spine-unity/Editor/GUI/icon-skinPlaceholder.png
 - Assets/Spine/Runtime/spine-unity/Shaders/Outline/Spine-Skeleton-TintBlack-Outline.shader
 - Assets/Spine/Runtime/spine-unity/Shaders/Utility/HiddenPass.mat
-- Assets/Spine/Editor/spine-unity/Editor/GUI/icon-constraintNib.png
-- Assets/Spine/Editor/spine-unity/Editor/GUI/icon-animationRoot.png
 - Assets/Spine/Runtime/spine-unity/Shaders/Sprite/CameraDepthNormalsTexture.shader
 - Assets/Spine/Runtime/spine-unity/Shaders/Spine-Skeleton-TintBlack.shader
+- Assets/Spine/Runtime/spine-unity/Shaders/Spine-Skeleton#Straight.shader
 - Assets/Spine/Runtime/spine-unity/Shaders/SkeletonGraphic/Spine-SkeletonGraphic.shader
 - Assets/Spine/Runtime/spine-unity/Materials/UI-StraightAlphaTex/SkeletonGraphicDefault-Straight.mat
 - Assets/Spine/Runtime/spine-unity/Shaders/Spine-Skeleton.shader
-- Assets/Spine/Editor/spine-unity/Editor/GUI/icon-warning.png
 - Assets/Spine/Runtime/spine-unity/Materials/UI-PMATexture/SkeletonGraphicTintBlackOutline.mat
 - Assets/Spine/Runtime/spine-unity/Shaders/Outline/Spine-Skeleton-OutlineOnly-ZWrite.shader
-- Assets/Spine/Editor/spine-unity/Editor/GUI/SkeletonDataAsset Icon.png
 - Assets/Spine/Runtime/spine-unity/Shaders/Sprite/CameraNormalsTexture.shader
-- Assets/Spine/Editor/spine-unity/Editor/GUI/icon-subMeshRenderer.png
 - Assets/Spine/Runtime/spine-unity/SkeletonDataModifierAssets/BlendModeMaterials/SkeletonPMAScreen.mat
-- Assets/Spine/Editor/spine-unity/Editor/GUI/icon-constraintPath.png
 - Assets/Spine/Runtime/spine-unity/Shaders/Outline/SkeletonGraphic/Spine-SkeletonGraphic-TintBlack-Outline.shader
 - Assets/Spine/Runtime/spine-unity/Shaders/Sprite/CameraDepthTexture.shader
 - Assets/Spine/Runtime/spine-unity/Shaders/BlendModes/Spine-Skeleton-PMA-Multiply.shader
 - Assets/Spine/Runtime/spine-unity/Shaders/Outline/BlendModes/Spine-Skeleton-PMA-Additive-Outline.shader
 - Assets/Spine/Runtime/spine-unity/Shaders/Sprite/SpriteDepthNormalsTexture.shader
-- Assets/Spine/Editor/spine-unity/Editor/GUI/icon-spine.png
 - Assets/Spine/Runtime/spine-unity/Shaders/Spine-Skeleton-Lit.shader
 - Assets/Spine/Runtime/spine-unity/Materials/UI-PMATexture/SkeletonGraphicDefaultOutline.mat
 - Assets/Spine/Runtime/spine-unity/Shaders/Spine-Skeleton-Lit-ZWrite.shader
-- Assets/Spine/Editor/spine-unity/Editor/GUI/icon-slotRoot.png
 Dependencies: []
