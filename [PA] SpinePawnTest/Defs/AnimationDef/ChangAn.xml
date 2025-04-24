@@ -6,13 +6,16 @@
         <version>4.2</version>
         <mainAsset>SE_ChangAn</mainAsset>
         <scripts>
-            <li Class="SpriteEvo.ASP_PawnBase">
+            <!--li Class="SpriteEvo.ASP_PawnBase">
                 <blinkMixIn>0.233</blinkMixIn>
                 <blinkMixOut>0.533</blinkMixOut>
+            </li-->
+            <li>
+                <scriptClass>SpriteEvo.PawnController</scriptClass>
             </li>
         </scripts>
         <props>
-            <RenderQueue>3500</RenderQueue>
+            <renderQueue>3180</renderQueue>
             <scale>(0.1,0.1)</scale>
             <rotation>(90,0,0)</rotation>
         </props>
