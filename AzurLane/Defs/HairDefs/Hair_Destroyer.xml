@@ -43,6 +43,14 @@
 					<drawOffsetEast>(-0.08,0,-0.05)</drawOffsetEast>
 					<drawOffsetWest>(0.08,0,-0.05)</drawOffsetWest>
 				</graphicData>
+				<sleepingDrawOffsets>
+					<!-- 如果下面4项某项删掉就应用第一个通用数值。这里仅做展示，实际不要5个词条全写这样留冗余 -->
+					<drawOffset>(1,0,1)</drawOffset>  
+					<drawOffsetSouth>(1,0,1)</drawOffsetSouth>
+					<drawOffsetNorth>(1,0,1)</drawOffsetNorth>
+					<drawOffsetEast>(1,0,1)</drawOffsetEast>
+					<drawOffsetWest>(1,0,1)</drawOffsetWest>
+				</sleepingDrawOffsets>
 			</li>
 			<li Class="AK_DLL.Ext_BackHair">
 				<graphicData>
