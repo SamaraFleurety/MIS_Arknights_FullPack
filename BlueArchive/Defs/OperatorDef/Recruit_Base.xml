@@ -32,6 +32,7 @@
 		</standOffsets>
 		<xenoType>BA_BaseType</xenoType>
 		<operatorID>AK_VAbility_Operator</operatorID>
+		<renderTreeOverride>AK_PawnRenderTree_Operator</renderTreeOverride>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="BA_RecruitBase" Name="BA_RecruitBase_Abydos" Abstract="True">
