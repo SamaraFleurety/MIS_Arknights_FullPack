@@ -375,4 +375,20 @@
 		</stages>
 	</ThoughtDef>
 
+	<!-- 烛煌 -->
+
+	<ThoughtDef ParentName = "AK_Thought_Permanent">
+		<defName>AK_Thought_Trait_BlazetheIgnitingSpark</defName>
+		<requiredTraits>
+			<li>AK_Trait_BlazetheIgnitingSpark</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>热情似火</label>
+				<description>这里的温度还是太低了！</description>
+				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
 </Defs>

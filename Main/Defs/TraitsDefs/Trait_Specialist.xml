@@ -464,4 +464,26 @@
         </degreeDatas>
     </TraitDef>
 
+	<!-- 歌蕾蒂娅 -->
+
+	<TraitDef>
+		<defName>AK_Trait_Gladiia</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+        <commonality>0.0</commonality>
+        <degreeDatas>
+            <li>
+                <label>深海猎人——歌蕾蒂娅</label>
+                <description>歌蕾蒂娅擦干长槊上的血迹，消失在“坑洼”旁。\n几秒钟后，音爆震起池水，彻底掩盖了她的痕迹。</description>
+                <statOffsets>
+                    <MoveSpeed>5</MoveSpeed>
+                    <MentalBreakThreshold>-0.15</MentalBreakThreshold>
+                </statOffsets>
+                <statFactors>
+                    <IncomingDamageFactor>0.5</IncomingDamageFactor>
+                    <PsychicSensitivity>0.5</PsychicSensitivity>
+                </statFactors>
+            </li>
+        </degreeDatas>
+	</TraitDef>
+
 </Defs>

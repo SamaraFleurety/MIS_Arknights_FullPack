@@ -425,4 +425,16 @@
         </apparel>
     </ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Caster">
+        <defName>AK_Apparel_BlazetheIgnitingSpark</defName>
+        <label>烛煌服装</label>
+        <graphicData>
+            <texPath>Things/AK_Agents/Caster/BlazetheIgnitingSpark</texPath>
+            <graphicClass>Graphic_single</graphicClass>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Things/AK_Agents/Caster/BlazetheIgnitingSpark</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+
 </Defs>
