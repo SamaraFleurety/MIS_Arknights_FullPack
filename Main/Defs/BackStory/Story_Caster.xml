@@ -363,4 +363,20 @@
         <baseDesc>征服了荒野与群狼，狼之主拉普兰德的下一场狂欢将会在哪里上演呢？</baseDesc>
     </BackstoryDef>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+        <defName>AK_BackStory_BlazetheIgnitingSpark_Adult</defName>
+        <slot>Adulthood</slot>
+        <title>罗德岛精英干员</title>
+        <titleShort>罗德岛精英干员</titleShort>
+        <baseDesc>兼任近卫干员与术师干员，在攻坚、防守、突袭等多种类型的作战任务中，作为战术核心之一发挥作用。</baseDesc>
+    </BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+        <defName>AK_BackStory_Necrass_Adult</defName>
+        <slot>Adulthood</slot>
+        <title>征服死亡的红龙</title>
+        <titleShort>征服死亡的红龙</titleShort>
+        <baseDesc>我的躯体冰冷，我的触觉迟钝，我体内翻涌着永不停歇、宛如被自己的火焰灼烧般冰冷刺骨的疼痛......偏偏就是这点疼痛令人着迷，不然，我甚至会忘记自己已经驯服了死亡。</baseDesc>
+    </BackstoryDef>
+
 </Defs>
