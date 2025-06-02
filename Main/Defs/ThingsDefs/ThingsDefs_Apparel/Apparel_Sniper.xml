@@ -421,4 +421,16 @@
         </apparel>
     </ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Sniper">
+        <defName>AK_Apparel_Lemuen</defName>
+        <label>蕾缪安服装</label>
+        <graphicData>
+            <texPath>Things/AK_Agents/Sniper/Lemuen</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Things/AK_Agents/Sniper/Lemuen</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+
 </Defs>

@@ -249,4 +249,20 @@
         <baseDesc>她正在观察他人的生活，她也在找寻自己的生活。愿与你同行，共同寻找生活的真谛。</baseDesc>
     </BackstoryDef>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+        <defName>AK_BackStory_Mon3tr_Child</defName>
+        <slot>Childhood</slot>
+        <title>凯尔希的共生体</title>
+        <titleShort>凯尔希的共生体</titleShort>
+        <baseDesc>作为仆从AMa-10的共生体，Mon3tr一直陪伴在凯尔希的身边，直到那天。</baseDesc>
+    </BackstoryDef>
+
+    <BackstoryDef ParentName = "AK_StoryBase">
+        <defName>AK_BackStory_Mon3tr_Adult</defName>
+        <slot>Adulthood</slot>
+        <title>罗德岛特别顾问</title>
+        <titleShort>罗德岛特别顾问</titleShort>
+        <baseDesc>承载了凯尔希的记忆，Mon3tr在多领域的学识和经验与凯尔希并无二致。</baseDesc>
+    </BackstoryDef>
+
 </Defs>

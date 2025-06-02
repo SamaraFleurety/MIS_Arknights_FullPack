@@ -3991,5 +3991,227 @@
 		</subSounds>
 	</SoundDef>
 
+    <!-- Mon3tr -->
+
+    <SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Recruit_Mon3tr</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Medic/Mon3tr/char_4179_monstr/Recruit_Mon3tr</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Die_Mon3tr</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Medic/Mon3tr/char_4179_monstr/Die_Mon3tr</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Draft_Mon3trI</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Medic/Mon3tr/char_4179_monstr/Draft_Mon3trI</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Draft_Mon3trII</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Medic/Mon3tr/char_4179_monstr/Draft_Mon3trII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_Mon3trI</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Medic/Mon3tr/char_4179_monstr/Select_Mon3trI</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_Mon3trII</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Medic/Mon3tr/char_4179_monstr/Select_Mon3trII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_Mon3trIII</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Medic/Mon3tr/char_4179_monstr/Select_Mon3trIII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_Mon3trIV</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Medic/Mon3tr/char_4179_monstr/Select_Mon3trIV</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_Mon3trI</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Medic/Mon3tr/char_4179_monstr/Ability_Mon3trI</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_Mon3trII</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Medic/Mon3tr/char_4179_monstr/Ability_Mon3trII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_Mon3trIII</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Medic/Mon3tr/char_4179_monstr/Ability_Mon3trIII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_Mon3trIV</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Medic/Mon3tr/char_4179_monstr/Ability_Mon3trIV</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Undraft_Mon3tr</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Medic/Mon3tr/char_4179_monstr/Undraft_Mon3tr</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
 
 </Defs>

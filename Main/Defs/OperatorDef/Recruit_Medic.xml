@@ -1828,4 +1828,95 @@
         </skills>
 	</AK_DLL.OperatorDef>
 
+	<!-- Mon3tr -->
+
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Medic">
+		<defName>AK_Recruit_Mon3tr</defName>
+		<name>Mon3tr</name>
+		<nickname>Mon3tr</nickname>
+		<description>Fixme</description>
+		<weapon>AK_Weapon_Mon3tr</weapon>
+		<hair>AK_Hair_Mon3tr</hair>
+		<apparels>
+			<li>AK_Apparel_Mon3tr</li>
+		</apparels>
+		<traits>
+			<li>
+				<def>Beauty</def>
+				<degree>2</degree>
+			</li>
+			<li>
+				<def>AK_Trait_Mon3tr</def>
+			</li>
+			<li>
+				<def>AK_Trait_Mon3trSecond</def>
+			</li>
+		</traits>
+		<age>20</age>
+		<childHood>AK_BackStory_Mon3tr_Child</childHood>
+		<adultHood>AK_BackStory_Mon3tr_Adult</adultHood>
+		<skills>
+            <li>
+                <skill>Animals</skill>
+                <level>14</level>
+                <fireLevel>0</fireLevel>
+            </li>
+            <li>
+                <skill>Artistic</skill>
+                <level>14</level>
+                <fireLevel>0</fireLevel>
+            </li>
+            <li>
+				<skill>Construction</skill>
+				<level>14</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Cooking</skill>
+				<level>14</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Crafting</skill>
+				<level>14</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Intellectual</skill>
+				<level>15</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<level>15</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<level>20</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Mining</skill>
+				<level>14</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Plants</skill>
+				<level>14</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<level>0</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<level>14</level>
+				<fireLevel>0</fireLevel>
+			</li>
+        </skills>
+	</AK_DLL.OperatorDef>
+
 </Defs>

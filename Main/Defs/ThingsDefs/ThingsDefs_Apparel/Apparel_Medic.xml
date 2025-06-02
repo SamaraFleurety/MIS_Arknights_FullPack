@@ -304,4 +304,16 @@
         </apparel>
     </ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Medic">
+		<defName>AK_Apparel_Mon3tr</defName>
+		<label>Mon3tr服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Medic/Mon3tr</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Medic/Mon3tr</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 </Defs>

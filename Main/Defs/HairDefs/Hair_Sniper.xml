@@ -213,4 +213,24 @@
         <texPath>Things/Hair/Sniper/Caper</texPath>
     </HairDef>
 
+	<HairDef ParentName="AK_HairBaseF">
+        <defName>AK_Hair_Lemuen</defName>
+        <label>蕾缪安发型</label>
+        <texPath>Things/Hair/Sniper/Lemuen</texPath>
+		<noGraphic>true</noGraphic>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_FrontHair">
+				<graphicData>
+					<texPath>Things/Hair/Sniper/Lemuen</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1</drawSize>
+					<drawOffsetSouth>(0,0,0.07)</drawOffsetSouth>
+					<drawOffsetNorth>(0,0,-0.07)</drawOffsetNorth>
+					<drawOffsetEast>(0,0,-0.05)</drawOffsetEast>
+					<drawOffsetWest>(0,0,-0.05)</drawOffsetWest>
+				</graphicData>
+			</li>
+		</modExtensions>
+    </HairDef>
+
 </Defs>

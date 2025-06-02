@@ -824,4 +824,39 @@
         </degreeDatas>
     </TraitDef>
 
+	<!-- 蕾缪安 -->
+
+	<TraitDef>
+        <defName>AK_Trait_Lemuen</defName>
+        <ignoreConfigErrors>true</ignoreConfigErrors>
+        <commonality>0.0</commonality>
+        <degreeDatas>
+            <li>
+                <label>噤声</label>
+                <description>无论是扣动扳机还是松开手指，那一刻，她都不再有犹豫的资格。</description>
+                <statOffsets>
+                    <ShootingAccuracyPawn>10</ShootingAccuracyPawn>
+                    <AimingDelayFactor>-0.1</AimingDelayFactor>
+                </statOffsets>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+	<TraitDef>
+        <defName>AK_Trait_LemuenSecond</defName>
+        <ignoreConfigErrors>true</ignoreConfigErrors>
+        <commonality>0.0</commonality>
+        <degreeDatas>
+            <li>
+                <label>人型处理器</label>
+                <description>一位能够理解并践行真正高效的工作方式的同僚......很遗憾程序上不允许她同时担任其他几厅的枢机。\n——执行者费德里科，在一次对接工作后如是评价</description>
+                <statOffsets>
+                    <WorkSpeedGlobal>0.75</WorkSpeedGlobal>
+                    <MoveSpeed>-0.8</MoveSpeed>
+                    <SocialImpact>0.5</SocialImpact>
+                </statOffsets>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
 </Defs>

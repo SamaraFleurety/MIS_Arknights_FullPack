@@ -422,4 +422,20 @@
         <baseDesc>为了制造混乱取乐，跃跃在玻利瓦尔冲突频发的地区，承接各方势力的短期雇佣，暗中给敌对势力制造混乱。</baseDesc>
     </BackstoryDef>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+        <defName>AK_BackStory_Lemuen_Child</defName>
+        <slot>Childhood</slot>
+        <title>被收养的孩子</title>
+        <titleShort>被收养的孩子</titleShort>
+        <baseDesc>蕾缪安双亲意外去世后，由公证所临时照看，后来被蕾缪乐的父母收养，成为了还未出生的蕾缪乐的姐姐。</baseDesc>
+    </BackstoryDef>
+
+    <BackstoryDef ParentName = "AK_StoryBase">
+        <defName>AK_BackStory_Lemuen_Adult</defName>
+        <slot>Adulthood</slot>
+        <title>第七厅枢机</title>
+        <titleShort>第七厅枢机</titleShort>
+        <baseDesc>拉特兰教皇厅第七厅枢机，“噤声的蕾缪安”，她和她手中的铳不会轻易开口。</baseDesc>
+    </BackstoryDef>
+
 </Defs>

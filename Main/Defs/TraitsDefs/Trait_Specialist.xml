@@ -486,4 +486,38 @@
         </degreeDatas>
 	</TraitDef>
 
+	<!-- 新约能天使 -->
+
+	<TraitDef>
+		<defName>AK_Trait_ExusiaitheNewCovenant</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+        <commonality>0.0</commonality>
+        <degreeDatas>
+            <li>
+                <label>开火成瘾症</label>
+                <description>弹幕嗨破天！</description>
+                <statOffsets>
+                    <AimingDelayFactor>-0.9</AimingDelayFactor>
+                    <ShootingAccuracyPawn>-3</ShootingAccuracyPawn>
+                </statOffsets>
+            </li>
+        </degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>AK_Trait_ExusiaitheNewCovenantSecond</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+        <commonality>0.0</commonality>
+        <degreeDatas>
+            <li>
+                <label>恶作剧天才</label>
+                <description>说起来不好意思，但我制造的混乱只有我自己知道该如何平息！</description>
+                <statOffsets>
+                    <MoveSpeed>2</MoveSpeed>
+                    <SocialImpact>0.3</SocialImpact>
+                </statOffsets>
+            </li>
+        </degreeDatas>
+	</TraitDef>
+
 </Defs>

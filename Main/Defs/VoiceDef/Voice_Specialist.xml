@@ -3785,4 +3785,227 @@
 		</subSounds>
 	</SoundDef>
 
+	<!-- 新约能天使 -->
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Recruit_ExusiaitheNewCovenant</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Specialist/ExusiaitheNewCovenant/char_1041_angel2/Recruit_ExusiaitheNewCovenant</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Die_ExusiaitheNewCovenant</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Specialist/ExusiaitheNewCovenant/char_1041_angel2/Die_ExusiaitheNewCovenant</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Draft_ExusiaitheNewCovenantI</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Specialist/ExusiaitheNewCovenant/char_1041_angel2/Draft_ExusiaitheNewCovenantI</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Draft_ExusiaitheNewCovenantII</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Specialist/ExusiaitheNewCovenant/char_1041_angel2/Draft_ExusiaitheNewCovenantII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_ExusiaitheNewCovenantI</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Specialist/ExusiaitheNewCovenant/char_1041_angel2/Select_ExusiaitheNewCovenantI</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_ExusiaitheNewCovenantII</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Specialist/ExusiaitheNewCovenant/char_1041_angel2/Select_ExusiaitheNewCovenantII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_ExusiaitheNewCovenantIII</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Specialist/ExusiaitheNewCovenant/char_1041_angel2/Select_ExusiaitheNewCovenantIII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_ExusiaitheNewCovenantIV</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Specialist/ExusiaitheNewCovenant/char_1041_angel2/Select_ExusiaitheNewCovenantIV</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_ExusiaitheNewCovenantI</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Specialist/ExusiaitheNewCovenant/char_1041_angel2/Ability_ExusiaitheNewCovenantI</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_ExusiaitheNewCovenantII</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Specialist/ExusiaitheNewCovenant/char_1041_angel2/Ability_ExusiaitheNewCovenantII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_ExusiaitheNewCovenantIII</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Specialist/ExusiaitheNewCovenant/char_1041_angel2/Ability_ExusiaitheNewCovenantIII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_ExusiaitheNewCovenantIV</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Specialist/ExusiaitheNewCovenant/char_1041_angel2/Ability_ExusiaitheNewCovenantIV</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Undraft_ExusiaitheNewCovenant</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Specialist/ExusiaitheNewCovenant/char_1041_angel2/Undraft_ExusiaitheNewCovenant</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
 </Defs>

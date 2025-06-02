@@ -967,4 +967,25 @@
     </tools>
   </ThingDef>
 
+  <ThingDef ParentName="AK_WeaponBase_Medic">
+    <defName>AK_Weapon_Mon3tr</defName>
+    <label>Mon3tr的金属构造体</label>
+    <description>一块可以改变形态的金属构造体，原本悬浮于Mon3tr身侧。它能帮助你应对许多危机，它会提醒你许多事情。</description>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Medic/Mon3trW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <tool Inherit = "false">
+      <li>
+        <label>刺击</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>25</power>
+        <armorPenetration>70</armorPenetration>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+    </tool>
+  </ThingDef>
+
 </Defs>
