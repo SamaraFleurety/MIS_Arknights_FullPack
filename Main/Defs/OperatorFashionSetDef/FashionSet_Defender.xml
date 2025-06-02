@@ -39,4 +39,19 @@
 		<standIndex>2</standIndex>
 	</Def>
 
+	<Def Class="AK_DLL.OperatorFashionSetDef">
+		<defName>AK_FashionSet_Vulcan_Ignis</defName>
+		<label>Ignis</label>
+		<hair>AK_Hair_VulcanIgnis</hair>
+		<apparels>
+			<li>AK_Apparel_VulcanIgnis</li>
+		</apparels>
+		<weapon>
+			<li>AK_Weapon_VulcanIgnisA</li>
+			<!-- <li>AK_Weapon_VulcanIgnisB</li> -->
+		</weapon>
+		<standIndex>2</standIndex>
+	</Def>
+
+
 </Defs>

@@ -217,6 +217,18 @@
 	</ThingDef>
 
 	<ThingDef ParentName="AK_ArmorBase_Defender">
+		<defName>AK_Apparel_VulcanIgnis</defName>
+		<label>火神-火种</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Defender/Vulcan_Ignis</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Defender/Vulcan_Ignis</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Defender">
 		<defName>AK_Apparel_Nearl</defName>
 		<label>临光服装</label>
 		<graphicData>

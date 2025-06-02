@@ -735,7 +735,7 @@
 		</tools>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_WeaponBase_Defender">
+	<ThingDef ParentName="AK_WeaponBase_Defender" Name="AK_Weapon_VulcanA">
 		<defName>AK_Weapon_VulcanA</defName>
 		<label>火神的锤子</label>
 		<description>火神的锤头，顶端被改成了适合战斗的样子。</description>
@@ -771,12 +771,30 @@
 		</tools>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_WeaponBase_Defender">
+	<ThingDef ParentName="AK_WeaponBase_Defender" Name="AK_Weapon_VulcanB">
 		<defName>AK_Weapon_VulcanB</defName>
 		<label>火神的盾</label>
 		<description>火神的盾，在千锤百炼后坚不可摧。</description>
 		<graphicData>
 			<texPath>Things/AK_Agents/Weapon/Defender/VulcanW2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_Weapon_VulcanA">
+		<defName>AK_Weapon_VulcanIgnisA</defName>
+		<label>火神-火种的锤子</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Defender/VulcanIgnisW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_Weapon_VulcanB">
+		<defName>AK_Weapon_VulcanIgnisB</defName>
+		<label>火神-火种的盾</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Defender/VulcanIgnisW2</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 	</ThingDef>

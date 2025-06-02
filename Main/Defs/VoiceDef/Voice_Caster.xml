@@ -5979,4 +5979,225 @@
 
 	<!-- 死芒 -->
 
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Recruit_Necrass</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Caster/Necrass/char_450_necras/Recruit_Necrass</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Die_Necrass</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Caster/Necrass/char_450_necras/Die_Necrass</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Draft_NecrassI</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Caster/Necrass/char_450_necras/Draft_NecrassI</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Draft_NecrassII</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Caster/Necrass/char_450_necras/Draft_NecrassII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_NecrassI</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Caster/Necrass/char_450_necras/Select_NecrassI</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_NecrassII</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Caster/Necrass/char_450_necras/Select_NecrassII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_NecrassIII</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Caster/Necrass/char_450_necras/Select_NecrassIII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_NecrassIV</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Caster/Necrass/char_450_necras/Select_NecrassIV</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_NecrassI</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Caster/Necrass/char_450_necras/Ability_NecrassI</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_NecrassII</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Caster/Necrass/char_450_necras/Ability_NecrassII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_NecrassIII</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Caster/Necrass/char_450_necras/Ability_NecrassIII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_NecrassIV</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Caster/Necrass/char_450_necras/Ability_NecrassIV</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Undraft_Necrass</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Caster/Necrass/char_450_necras/Undraft_Necrass</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
 </Defs>

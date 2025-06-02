@@ -980,7 +980,7 @@
 		</projectile>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_WeaponBase_Sniper">
+	<ThingDef ParentName="AK_WeaponBase_Sniper" Name="AK_Weapon_Archetto">
 		<defName>AK_Weapon_Archetto</defName>
 		<label>空弦的长弓</label>
 		<description>兰登修道院常见的复合弓，修道院的非拉特兰族战士们就是用这种武器捍卫他们的信仰。\n弦有三种选择，而敌人有三种苦难。</description>
@@ -1059,6 +1059,15 @@
 			</li>
 		</subSounds>
 	</SoundDef>
+
+	<ThingDef ParentName="AK_Weapon_Archetto">
+		<defName>AK_Weapon_ArchettoGlorytotheDevout</defName>
+		<label>空弦-至虔者荣光的弓</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Sniper/Archetto_GlorytotheDevoutW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
 
 	<ThingDef ParentName="AK_WeaponBase_Sniper">
 		<defName>AK_Weapon_Meteorite</defName>
