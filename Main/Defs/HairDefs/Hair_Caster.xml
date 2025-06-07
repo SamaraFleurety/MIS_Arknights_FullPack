@@ -241,4 +241,25 @@
 		</modExtensions>
     </HairDef>
 
+	<HairDef ParentName="AK_HairBaseF">
+        <defName>AK_Hair_Necrass</defName>
+        <label>死芒发型</label>
+        <texPath>Things/Hair/Caster/Necrass</texPath>
+		<noGraphic>true</noGraphic>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_FrontHair">
+				<graphicData>
+					<texPath>Things/Hair/Caster/Necrass</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1</drawSize>
+					<drawOffsetSouth>(0,0,0.1)</drawOffsetSouth>
+					<drawOffsetNorth>(0,0,-0.1)</drawOffsetNorth>
+					<drawOffsetEast>(0,0,-0.1)</drawOffsetEast>
+					<drawOffsetWest>(0,0,-0.1)</drawOffsetWest>
+				</graphicData>
+			</li>
+		</modExtensions>
+    </HairDef>
+
+
 </Defs>

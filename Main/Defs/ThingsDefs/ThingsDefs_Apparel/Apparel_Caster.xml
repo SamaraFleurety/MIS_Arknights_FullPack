@@ -437,4 +437,17 @@
         </apparel>
     </ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Caster">
+        <defName>AK_Apparel_Necrass</defName>
+        <label>死芒服装</label>
+        <graphicData>
+            <texPath>Things/AK_Agents/Caster/Necrass/Necrass</texPath>
+            <graphicClass>Graphic_single</graphicClass>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Things/AK_Agents/Caster/Necrass/Necrass</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+
+
 </Defs>

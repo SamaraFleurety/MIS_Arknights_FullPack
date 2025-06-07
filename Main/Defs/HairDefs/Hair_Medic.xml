@@ -115,6 +115,20 @@
 		<defName>AK_Hair_FlameShadow</defName>
 		<label>焰影苇草发型</label>
 		<texPath>Things/Hair/Medic/FlameShadow</texPath>
+		<noGraphic>true</noGraphic>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_FrontHair">
+				<graphicData>
+					<texPath>Things/Hair/Medic/FlameShadow</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1</drawSize>
+					<drawOffsetSouth>(0,0,-0.02)</drawOffsetSouth>
+					<drawOffsetNorth>(0,0,-0.02)</drawOffsetNorth>
+					<drawOffsetEast>(0,0,-0.02)</drawOffsetEast>
+					<drawOffsetWest>(0,0,-0.02)</drawOffsetWest>
+				</graphicData>
+			</li>
+		</modExtensions>
 	</HairDef>
 
 	<HairDef ParentName="AK_HairBaseF">
