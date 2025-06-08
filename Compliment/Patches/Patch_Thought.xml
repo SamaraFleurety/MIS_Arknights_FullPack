@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<!-- NeedRoomSize -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThoughtDef[defName="NeedRoomSize"]</xpath>
+		<value>
+			<nullifyingTraits>
+				<li>FS_Trait_SuzukaIII</li>
+			</nullifyingTraits>
+		</value>
+	</Operation>
+
+</Patch>
