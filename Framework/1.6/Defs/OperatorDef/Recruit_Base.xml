@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AK_DLL.OperatorDef Name="AK_RecruitBase" Abstract="True">
+		<surname>罗德岛</surname>
+		<description>在路的尽头，他看到她们成了他</description>
+		<bodyTypeDef>Thin</bodyTypeDef>
+		<skinColor>(0.9804, 0.902, 0.8235, 1.0)</skinColor>
+		<hairColor>(1,1,1,1)</hairColor>
+		<childHood>AK_BackStory_Unknown_Child</childHood>
+		<age>16</age>
+		<headTypeDef>Female_AverageNormal</headTypeDef>
+		<standOffsets>
+			<li>
+				<key>0</key>
+				<value>(10,20,0.5)</value>
+			</li>
+			<li>
+				<key>1</key>
+				<value>(10,10,0.5)</value>
+			</li>
+			<li>
+				<key>2</key>
+				<value>(10,10,0.5)</value>
+			</li>
+			<li>
+				<key>3</key>
+				<value>(10,10,0.5)</value>
+			</li>
+			<li>
+				<key>4</key>
+				<value>(10,10,0.5)</value>
+			</li>
+			<li>
+				<key>5</key>
+				<value>(10,10,0.5)</value>
+			</li>
+		</standOffsets>
+		<xenoType>AK_BaseType</xenoType>
+		<operatorID>AK_VAbility_Operator</operatorID>
+		<renderTreeOverride>AK_PawnRenderTree_Operator</renderTreeOverride>
+	</AK_DLL.OperatorDef>
+
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase" Name="AK_RecruitBase_OtherLeader" Abstract="True">
+		<traits>
+			<li MayRequire="MIS.Arknights">
+				<def>AK_Trait_Agent_OtherLeader</def>
+			</li>
+		</traits>
+		<operatorType>AK_OperatorClass_OtherLeader</operatorType>
+		<accessory>
+			<li MayRequire="Mlie.VanyaShield,MIS.Arknights">AK_ShieldBelt_OtherLeader</li>
+		</accessory>
+		<stand>transp</stand>
+		<headPortrait>transp</headPortrait>
+	</AK_DLL.OperatorDef>
+
+</Defs>

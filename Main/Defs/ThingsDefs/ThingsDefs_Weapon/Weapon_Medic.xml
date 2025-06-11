@@ -975,7 +975,7 @@
       <texPath>Things/AK_Agents/Weapon/Medic/Mon3trW</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <tool Inherit = "false">
+    <tools Inherit = "false">
       <li>
         <label>刺击</label>
         <capacities>
@@ -985,7 +985,7 @@
         <armorPenetration>70</armorPenetration>
         <cooldownTime>1.2</cooldownTime>
       </li>
-    </tool>
+    </tools>
   </ThingDef>
 
 </Defs>

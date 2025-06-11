@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- 干员拓展的空壳hediff，是干员的特性附带BUFF的载体-->
+	<!--interval是天数倍数，10= 10天切换一次随机特性 由traitSets里的TraitDef决定具体修正值-->
+	<HediffDef>
+		<defName>AKE_Hediff_SurtrChaos</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>记忆认知障碍</label>
+		<description>因矿石病影响导致的缺失性记忆障碍，并不同于普通的记忆缺失，而是一段时间的多重记忆混乱。</description>
+		<isBad>false</isBad>
+		<defaultLabelColor>(237,25,65)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<comps>
+			<li Class="AKE_OperatorExtension.HCP_RandAddTrait">
+			    <interval>1</interval>
+				<!--positiveTraitSets>
+				    <li>
+					    <def>AKE_Trait_Surtricecream</def>
+						<degree>1</degree>
+				    </li>
+				</positiveTraitSets-->
+			    <traitSets>
+				    <li>
+					    <def>AKE_Trait_SurtrChaos0</def>
+						<degree>1</degree>
+					</li>
+					<li>
+					    <def>AKE_Trait_SurtrChaos1</def>
+						<degree>1</degree>
+					</li>
+					<li>
+					    <def>AKE_Trait_SurtrChaos2</def>
+						<degree>1</degree>
+					</li>
+					<li>
+					    <def>AKE_Trait_SurtrChaos3</def>
+						<degree>1</degree>
+					</li>
+				</traitSets>
+			</li>
+		</comps>
+		<stages></stages>
+	</HediffDef>
+
+</Defs>
