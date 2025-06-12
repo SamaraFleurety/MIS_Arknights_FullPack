@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ScenarioDef>
+		<defName>AK_Scenario_DetachedOperation</defName>
+		<label>来自罗德岛的一次外派任务</label>
+		<description>身为罗德岛的一名先锋干员，你接受了探索边缘世界的任务，不幸的是，登陆时出了点问题，你不得不单独迫降在这片大地。幸运的是，通讯设备并没有在迫降时受到影响，你任可以通过现有的设备与本部罗德岛取得联系，花费招募卷取得其他干员的帮助，最终完成这次外派任务。</description>
+		<scenario>
+			<summary>一位先锋干员的外派任务</summary>
+			<playerFaction>
+				<def>PlayerFaction</def>
+				<factionDef>PlayerColony</factionDef>
+			</playerFaction>
+			<surfaceLayer>
+				<def>SurfaceLayerFixed</def>
+				<tag>Surface</tag>
+				<layer>Surface</layer>
+				<settingsDef>Surface</settingsDef>
+				<hide>true</hide>
+				<connections>
+					<Orbit MayRequire="Ludeon.RimWorld.Odyssey">
+						<zoomMode>ZoomOut</zoomMode>
+					</Orbit>
+				</connections>
+			</surfaceLayer>
+			<parts>
+				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+					<def>ConfigPage_ConfigureStartingPawns</def>
+					<pawnChoiceCount>8</pawnChoiceCount>
+					<pawnCount>1</pawnCount>
+				</li>
+				<li Class="ScenPart_PlayerPawnsArriveMethod">
+					<def>PlayerPawnsArriveMethod</def>
+					<method>DropPods</method>
+				</li>
+				<li Class="ScenPart_ForcedHediff">
+					<def>ForcedHediff</def>
+					<chance>0.5</chance>
+					<context>PlayerStarter</context>
+					<hideOffMap>True</hideOffMap>
+					<hediff>CryptosleepSickness</hediff>
+					<severityRange>1~1</severityRange>
+				</li>
+				<li Class="ScenPart_ForcedTrait">
+					<def>ForcedTrait</def>
+					<chance>1</chance>
+					<context>PlayerStarter</context>
+					<trait>AK_Trait_Agent_Vanguard</trait>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Silver</thingDef>
+					<count>800</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MealSurvivalPack</thingDef>
+					<count>30</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MedicineIndustrial</thingDef>
+					<count>10</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>ComponentIndustrial</thingDef>
+					<count>15</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MeleeWeapon_Knife</thingDef>
+					<stuff>Plasteel</stuff>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Apparel_AdvancedHelmet</thingDef>
+					<stuff>Plasteel</stuff>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Apparel_FlakPants</thingDef>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Apparel_FlakVest</thingDef>
+				</li>
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>Steel</thingDef>
+					<count>450</count>
+					<allowRoofed>True</allowRoofed>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>ShipChunk</thingDef>
+					<count>10</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>Steel</thingDef>
+					<count>720</count>
+					<allowRoofed>True</allowRoofed>
+				</li>
+				<li Class="ScenPart_GameStartDialog">
+					<def>GameStartDialog</def>
+					<text>迫降到这颗星球，先试试和失散的干员取得联系吧</text>
+					<textKey>GameStartDialog</textKey>
+					<closeSound>GameStartSting</closeSound>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>AK_Building_RecruitTower</thingDef>
+					<count>1</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>AK_Item_RecruitTicket</thingDef>
+					<allowRoofed>True</allowRoofed>
+				</li>
+			</parts>
+		</scenario>
+	</ScenarioDef>
+
+</Defs>

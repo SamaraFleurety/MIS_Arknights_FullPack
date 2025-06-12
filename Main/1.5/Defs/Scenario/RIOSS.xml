@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ScenarioDef>
+		<defName>AK_Scenario_ImmersiveSimulation</defName>
+		<label>罗德岛环世界模拟系统</label>
+		<description>您好，博士，欢迎使用这套由罗德岛工程部以及人工智能部所创立的“罗德岛环世界沉浸式模拟系统” \n\n这套系统是使用了罗德岛服务器中经过发现的一套模拟系统所建立，根据遗留下来的资料，这套模拟系统被称为“环世界”也可称为边缘世界，而这套系统转接至工程部所制造的沉浸仓并不困难，\n\n就像是有人已经给我们这些技术相对低下的文明备好了一样，而根据我们的发现，这套系统实际上是用来模拟一个巨大的星球，而我们成功的修改了一定量的参数，创造出来了一个类似与泰拉的星球,我们掌握了内部部分时间的流逝，\n\n一场耗费10年的模拟也只需要消耗现实当中的一个小时，但是现在我们对于这个的理解实际上还没有足够，目前其中就只有其自身所模拟的派系，而其生态系统也无法与泰拉完美融合，而经过测试，部分干员的原石技艺也\n\n无法正常发挥，工程部已经正在努力去破解其原系统，但是其依旧具备极大的研究价值，可以推演泰拉大陆进下来可能的走向。\n\n如果您准备好了，就请躺进面前的浸入仓，部分干员已经同意了这场实验，自愿进入了这个模拟世界，其中包括我，他或她们以及我，将以您为中心，收到您的调遣。\n\n另外，不用担心我们在模拟当中的死亡或者失败，一切都可以重新开始。——凯尔希留\n\n（这里有很多干员的签名和祝福）\n\n\n模拟难度：轻松\n您的干员已经整装待发，随时能够听候您的命令\n开局物资：开局携带三张招募券，两份预备招募券\n食物：充足\n材料：充足\n科技等级：微电子工业</description>
+		<scenario>
+			<summary>模拟过程中，没有任何干员受到伤害（非常认真）</summary>
+			<playerFaction>
+				<def>PlayerFaction</def>
+				<factionDef>PlayerColony</factionDef>
+			</playerFaction>
+			<parts>
+				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+					<def>ConfigPage_ConfigureStartingPawns</def>
+					<pawnChoiceCount>8</pawnChoiceCount>
+					<pawnCount>1</pawnCount>
+				</li>
+				<li Class="ScenPart_PlayerPawnsArriveMethod">
+					<def>PlayerPawnsArriveMethod</def>
+					<method>DropPods</method>
+				</li>
+				<li Class="ScenPart_ForcedHediff">
+					<def>ForcedHediff</def>
+					<chance>1</chance>
+					<context>PlayerStarter</context>
+					<hideOffMap>True</hideOffMap>
+					<hediff>AK_Hediff_DoctorScenario</hediff>
+					<severityRange>1~1</severityRange>
+				</li>
+				<li Class="ScenPart_ForcedHediff">
+					<def>ForcedHediff</def>
+					<chance>0.5</chance>
+					<context>PlayerStarter</context>
+					<hideOffMap>True</hideOffMap>
+					<hediff>CryptosleepSickness</hediff>
+					<severityRange>1~1</severityRange>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Silver</thingDef>
+					<count>800</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MealSurvivalPack</thingDef>
+					<count>30</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MedicineIndustrial</thingDef>
+					<count>10</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>ComponentIndustrial</thingDef>
+					<count>15</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MeleeWeapon_Knife</thingDef>
+					<stuff>Plasteel</stuff>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Apparel_AdvancedHelmet</thingDef>
+					<stuff>Plasteel</stuff>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Apparel_FlakPants</thingDef>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Apparel_FlakVest</thingDef>
+				</li>
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>Steel</thingDef>
+					<count>450</count>
+					<allowRoofed>True</allowRoofed>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>ShipChunk</thingDef>
+					<count>10</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>Steel</thingDef>
+					<count>720</count>
+					<allowRoofed>True</allowRoofed>
+				</li>
+				<li Class="ScenPart_GameStartDialog">
+					<def>GameStartDialog</def>
+					<text>祝您好运，博士</text>
+					<textKey>GameStartDialog</textKey>
+					<closeSound>GameStartSting</closeSound>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>AK_Building_RecruitTower</thingDef>
+					<count>1</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsNearPlayerStart</def>
+					<thingDef>AK_Item_RecruitTicket</thingDef>
+					<count>3</count>
+					<allowRoofed>True</allowRoofed>
+				</li>
+			</parts>
+		</scenario>
+	</ScenarioDef>
+
+</Defs>
