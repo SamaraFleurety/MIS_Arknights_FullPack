@@ -1547,6 +1547,8 @@
 		</skills>
 	</AK_DLL.OperatorDef>
 
+	<!-- 刺玫 -->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Medic">
 		<defName>AK_Recruit_Vendela</defName>
 		<name>Vendela</name>
@@ -1641,6 +1643,8 @@
 		</skills>
 	</AK_DLL.OperatorDef>
 
+	<!-- 纯烬艾雅法拉 -->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Medic">
 		<defName>AK_Recruit_EyjafjallaHvitAska</defName>
 		<name>EyjafjallaHvitAska</name>
@@ -1734,6 +1738,9 @@
 		<clothSets>
 			<li>AK_FashionSet_EyjafjallaHvitAska_PicnicBeforeLongTrip</li>
 		</clothSets>
+		<fashionAnimation>
+			<li>AK_Spine_agoat2_dynillust</li>
+		</fashionAnimation>
 	</AK_DLL.OperatorDef>
 
 	<!-- 莎草 -->

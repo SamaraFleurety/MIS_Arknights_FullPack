@@ -2082,6 +2082,9 @@
 				<fireLevel>0</fireLevel>
 			</li>
 		</skills>
+		<fashionAnimation>
+			<li>AK_Spine_bgsnow_dynillust</li>
+		</fashionAnimation>
 	</AK_DLL.OperatorDef>
 
 	<!--守林人-->
@@ -2772,6 +2775,10 @@
 				<fireLevel>2</fireLevel>
 			</li>
 		</skills>
+		<fashionAnimation>
+			<li>AK_Spine_chen2_dynillust</li>
+			<li>AK_Spine_chen2_boc_dynillust</li>
+		</fashionAnimation>
 		<AKAbilities>
 		    <li>AKA_Ability_CatchMother</li>
 		</AKAbilities>

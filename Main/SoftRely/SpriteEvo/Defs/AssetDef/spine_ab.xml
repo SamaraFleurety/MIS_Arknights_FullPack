@@ -171,6 +171,21 @@
     </SpriteEvo.SpineAssetDef>
 
     <SpriteEvo.SpineAssetDef>
+        <defName>AK_Spine_mlyss_boc_dynillust</defName>
+        <asset>
+            <StraightAlphaInput>true</StraightAlphaInput>
+            <version>3.8</version>
+            <filePath>Spine/asset_dyn_mlyss</filePath>
+            <seriesname>dyn_illust_char_249_mlyss_boc#8</seriesname>
+            <atlas>dyn_illust_char_249_mlyss_boc#8.atlas.txt</atlas>
+            <skeleton>dyn_illust_char_249_mlyss_boc#8.skel.bytes</skeleton>
+            <materials>
+                <li>dyn_illust_char_249_mlyss_boc#8_Material</li>
+            </materials>
+        </asset>
+    </SpriteEvo.SpineAssetDef>
+
+    <SpriteEvo.SpineAssetDef>
         <defName>AK_Spine_reed_dynillust</defName>
         <asset>
             <StraightAlphaInput>true</StraightAlphaInput>
@@ -241,6 +256,127 @@
             <skeleton>dyn_illust_char_1035_wisdel.skel.bytes</skeleton>
             <materials>
                 <li>dyn_illust_char_1035_wisdel_Material</li>
+            </materials>
+        </asset>
+    </SpriteEvo.SpineAssetDef>
+
+    <SpriteEvo.SpineAssetDef>
+        <defName>AK_Spine_bgsnow_dynillust</defName>
+        <asset>
+            <StraightAlphaInput>true</StraightAlphaInput>
+            <version>3.8</version>
+            <filePath>Spine/asset_dyn_bgsnow</filePath>
+            <seriesname>dyn_illust_char_4055_bgsnow_wild#7</seriesname>
+            <atlas>dyn_illust_char_4055_bgsnow_wild#7.atlas.txt</atlas>
+            <skeleton>dyn_illust_char_4055_bgsnow_wild#7.skel.bytes</skeleton>
+            <materials>
+                <li>dyn_illust_char_4055_bgsnow_wild#7_Material</li>
+            </materials>
+        </asset>
+    </SpriteEvo.SpineAssetDef>
+
+    <SpriteEvo.SpineAssetDef>
+        <defName>AK_Spine_agoat2_dynillust</defName>
+        <asset>
+            <StraightAlphaInput>true</StraightAlphaInput>
+            <version>3.8</version>
+            <filePath>Spine/asset_dyn_agoat</filePath>
+            <seriesname>dyn_illust_char_1016_agoat2</seriesname>
+            <atlas>dyn_illust_char_1016_agoat2.atlas.txt</atlas>
+            <skeleton>dyn_illust_char_1016_agoat2.skel.bytes</skeleton>
+            <materials>
+                <li>dyn_illust_char_1016_agoat2_Material</li>
+            </materials>
+        </asset>
+    </SpriteEvo.SpineAssetDef>
+
+    <SpriteEvo.SpineAssetDef>
+        <defName>AK_Spine_chen2_dynillust</defName>
+        <asset>
+            <StraightAlphaInput>true</StraightAlphaInput>
+            <version>3.8</version>
+            <filePath>Spine/asset_dyn_chen2</filePath>
+            <seriesname>dyn_illust_char_1013_chen2</seriesname>
+            <atlas>dyn_illust_char_1013_chen2.atlas.txt</atlas>
+            <skeleton>dyn_illust_char_1013_chen2.skel.bytes</skeleton>
+            <materials>
+                <li>dyn_illust_char_1013_chen2_Material</li>
+            </materials>
+        </asset>
+    </SpriteEvo.SpineAssetDef>
+
+    <SpriteEvo.SpineAssetDef>
+        <defName>AK_Spine_chen2_boc_dynillust</defName>
+        <asset>
+            <StraightAlphaInput>true</StraightAlphaInput>
+            <version>3.8</version>
+            <filePath>Spine/asset_dyn_chen2</filePath>
+            <seriesname>dyn_illust_char_1013_chen2_boc#6</seriesname>
+            <atlas>dyn_illust_char_1013_chen2_boc#6.atlas.txt</atlas>
+            <skeleton>dyn_illust_char_1013_chen2_boc#6.skel.bytes</skeleton>
+            <materials>
+                <li>dyn_illust_char_1013_chen2_boc#6_dyn_illust_char_1013_chen2_boc#6</li>
+                <li>dyn_illust_char_1013_chen2_boc#6_dyn_illust_char_1013_chen2_boc#62</li>
+            </materials>
+        </asset>
+    </SpriteEvo.SpineAssetDef>
+
+    <SpriteEvo.SpineAssetDef>
+        <defName>AK_Spine_gvial2_dynillust</defName>
+        <asset>
+            <StraightAlphaInput>true</StraightAlphaInput>
+            <version>3.8</version>
+            <filePath>Spine/asset_dyn_gvial2</filePath>
+            <seriesname>dyn_illust_char_1026_gvial2</seriesname>
+            <atlas>dyn_illust_char_1026_gvial2.atlas.txt</atlas>
+            <skeleton>dyn_illust_char_1026_gvial2.skel.bytes</skeleton>
+            <materials>
+                <li>dyn_illust_char_1026_gvial2_Material</li>
+            </materials>
+        </asset>
+    </SpriteEvo.SpineAssetDef>
+
+    <SpriteEvo.SpineAssetDef>
+        <defName>AK_Spine_gvial2_summer_dynillust</defName>
+        <asset>
+            <StraightAlphaInput>true</StraightAlphaInput>
+            <version>3.8</version>
+            <filePath>Spine/asset_dyn_gvial2</filePath>
+            <seriesname>dyn_illust_char_1026_gvial2_summer#12</seriesname>
+            <atlas>dyn_illust_char_1026_gvial2_summer#12.atlas.txt</atlas>
+            <skeleton>dyn_illust_char_1026_gvial2_summer#12.skel.bytes</skeleton>
+            <materials>
+                <li>dyn_illust_char_1026_gvial2_summer#12_Material</li>
+            </materials>
+        </asset>
+    </SpriteEvo.SpineAssetDef>
+
+    <SpriteEvo.SpineAssetDef>
+        <defName>AK_Spine_cello_dynillust</defName>
+        <asset>
+            <StraightAlphaInput>true</StraightAlphaInput>
+            <version>3.8</version>
+            <filePath>Spine/asset_dyn_cello</filePath>
+            <seriesname>dyn_illust_char_245_cello</seriesname>
+            <atlas>dyn_illust_char_245_cello.atlas.txt</atlas>
+            <skeleton>dyn_illust_char_245_cello.skel.bytes</skeleton>
+            <materials>
+                <li>dyn_illust_char_245_cello_Material</li>
+            </materials>
+        </asset>
+    </SpriteEvo.SpineAssetDef>
+
+    <SpriteEvo.SpineAssetDef>
+        <defName>AK_Spine_cello_sale_dynillust</defName>
+        <asset>
+            <StraightAlphaInput>true</StraightAlphaInput>
+            <version>3.8</version>
+            <filePath>Spine/asset_dyn_cello</filePath>
+            <seriesname>dyn_illust_char_245_cello_sale#12</seriesname>
+            <atlas>dyn_illust_char_245_cello_sale#12.atlas.txt</atlas>
+            <skeleton>dyn_illust_char_245_cello_sale#12.skel.bytes</skeleton>
+            <materials>
+                <li>dyn_illust_char_245_cello_sale#12_Material</li>
             </materials>
         </asset>
     </SpriteEvo.SpineAssetDef>

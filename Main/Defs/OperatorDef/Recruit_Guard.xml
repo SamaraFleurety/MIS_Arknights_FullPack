@@ -3362,6 +3362,8 @@
 		</items>
 	</AK_DLL.OperatorDef>
 
+	<!-- 百炼嘉维尔 -->
+
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Guard">
 		<defName>AK_Recruit_Invincible</defName>
 		<name>Invincible</name>
@@ -3464,6 +3466,10 @@
 				<amount>1</amount>
 			</li>
 		</items>
+		<fashionAnimation>
+			<li>AK_Spine_gvial2_dynillust</li>
+			<li>AK_Spine_gvial2_summer_dynillust</li>
+		</fashionAnimation>
 	</AK_DLL.OperatorDef>
 
 	<!-- 锏 -->
