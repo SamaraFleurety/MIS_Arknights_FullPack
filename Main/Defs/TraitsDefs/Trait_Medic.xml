@@ -408,63 +408,63 @@
 
 	<!-- 莎草 -->
 
-    <TraitDef>
-        <defName>AK_Trait_Papyrus</defName>
-        <ignoreConfigErrors>true</ignoreConfigErrors>
-        <commonality>0.0</commonality>
-        <degreeDatas>
-            <li>
-                <label>博览古卷</label>
-                <description>她只能当一个抽离出去的记录者，一个旁观者，而不是一个真情实意的践行者，一个亲历者。</description>
-                <statOffsets>
-                    <ResearchSpeed>0.3</ResearchSpeed>
-                    <GlobalLearningFactor>0.2</GlobalLearningFactor>
-                </statOffsets>
-            </li>
-        </degreeDatas>
-    </TraitDef>
+	<TraitDef>
+		<defName>AK_Trait_Papyrus</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>博览古卷</label>
+				<description>她只能当一个抽离出去的记录者，一个旁观者，而不是一个真情实意的践行者，一个亲历者。</description>
+				<statOffsets>
+					<ResearchSpeed>0.3</ResearchSpeed>
+					<GlobalLearningFactor>0.2</GlobalLearningFactor>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
 
 	<!-- Mon3tr -->
 
 	<TraitDef>
 		<defName>AK_Trait_Mon3tr</defName>
-        <ignoreConfigErrors>true</ignoreConfigErrors>
-        <commonality>0.0</commonality>
-        <degreeDatas>
-            <li>
-                <label>博识生手</label>
-                <description>我重新整理过去这一万年的资料，它们既像是昨日的回忆，又好像遥远的故事。它们是我逻辑与人格赖以成立的基准，也是我和凯尔希共同的宝物。</description>
-                <statOffsets>
-                    <WorkSpeedGlobal>0.5</WorkSpeedGlobal>
-                    <SocialImpact>0.3</SocialImpact>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>博识生手</label>
+				<description>我重新整理过去这一万年的资料，它们既像是昨日的回忆，又好像遥远的故事。它们是我逻辑与人格赖以成立的基准，也是我和凯尔希共同的宝物。</description>
+				<statOffsets>
+					<WorkSpeedGlobal>0.5</WorkSpeedGlobal>
+					<SocialImpact>0.3</SocialImpact>
 					<MentalBreakThreshold>-0.18</MentalBreakThreshold>
-                </statOffsets>
+				</statOffsets>
 				<statFactors>
 					<GlobalLearningFactor>2</GlobalLearningFactor>
-					<CertaintyLossFactor>0</CertaintyLossFactor>
+					<CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">0</CertaintyLossFactor>
 				</statFactors>
-            </li>
-        </degreeDatas>
+			</li>
+		</degreeDatas>
 	</TraitDef>
 
 	<TraitDef>
 		<defName>AK_Trait_Mon3trSecond</defName>
-        <ignoreConfigErrors>true</ignoreConfigErrors>
-        <commonality>0.0</commonality>
-        <degreeDatas>
-            <li>
-                <label>共生造物</label>
-                <description>以双生循环系统为核心研发的机械生命，该机械生命的特点在于有强大的学习能力和近乎不会损毁的结构，足以适应各种极端环境，并且在理论设计中，不会被■■■识别为生命。</description>
-                <statOffsets>
-                    <MeleeDodgeChance>0.5</MeleeDodgeChance>
-                    <MoveSpeed>5</MoveSpeed>
-                </statOffsets>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>共生造物</label>
+				<description>以双生循环系统为核心研发的机械生命，该机械生命的特点在于有强大的学习能力和近乎不会损毁的结构，足以适应各种极端环境，并且在理论设计中，不会被■■■识别为生命。</description>
+				<statOffsets>
+					<MeleeDodgeChance>0.5</MeleeDodgeChance>
+					<MoveSpeed>5</MoveSpeed>
+				</statOffsets>
 				<statFactors>
 					<MeleeDamageFactor>1.5</MeleeDamageFactor>
 					<IncomingDamageFactor>0.2</IncomingDamageFactor>
 				</statFactors>
-            </li>
-        </degreeDatas>
+			</li>
+		</degreeDatas>
 	</TraitDef>
 
 </Defs>

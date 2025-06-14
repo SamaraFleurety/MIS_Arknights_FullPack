@@ -356,7 +356,7 @@
 					<ShootingAccuracyPawn>-3</ShootingAccuracyPawn>
 					<AimingDelayFactor>-0.3</AimingDelayFactor>
 					<GlobalLearningFactor>0.4</GlobalLearningFactor>
-					<ReadingSpeed>0.3</ReadingSpeed><!-- 阅读速度 -->
+					<ReadingSpeed>0.3</ReadingSpeed>					<!-- 阅读速度 -->
 				</statOffsets>
 			</li>
 		</degreeDatas>
@@ -763,81 +763,81 @@
 
 	<!-- 荒芜拉普兰德 -->
 
-    <TraitDef>
-        <defName>AK_Trait_LapplandTheDecadenza</defName>
-        <ignoreConfigErrors>true</ignoreConfigErrors>
-        <commonality>0.0</commonality>
-        <degreeDatas>
-            <li>
-                <label>头狼</label>
-                <description>哪里是荒野？哪里是城市？拉普兰德不会在意，她只是带着狼群，看着人类生来就会的游戏。</description>
-                <statOffsets>
-                    <ShootingAccuracyPawn>-2.0</ShootingAccuracyPawn>
-                    <AimingDelayFactor>-0.5</AimingDelayFactor>
-                    <TameAnimalChance>1</TameAnimalChance>
-                </statOffsets>
-                <statFactors>
-                    <MeleeDamageFactor>1.3</MeleeDamageFactor>
-                </statFactors>
-            </li>
-        </degreeDatas>
-    </TraitDef>
+	<TraitDef>
+		<defName>AK_Trait_LapplandTheDecadenza</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>头狼</label>
+				<description>哪里是荒野？哪里是城市？拉普兰德不会在意，她只是带着狼群，看着人类生来就会的游戏。</description>
+				<statOffsets>
+					<ShootingAccuracyPawn>-2.0</ShootingAccuracyPawn>
+					<AimingDelayFactor>-0.5</AimingDelayFactor>
+					<TameAnimalChance>1</TameAnimalChance>
+				</statOffsets>
+				<statFactors>
+					<MeleeDamageFactor>1.3</MeleeDamageFactor>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
 
-    <TraitDef>
-        <defName>AK_Trait_LapplandTheDecadenzaSecond</defName>
-        <ignoreConfigErrors>true</ignoreConfigErrors>
-        <commonality>0.0</commonality>
-        <degreeDatas>
-            <li>
-                <label>狂欢之主</label>
-                <description>无所谓城市或者荒野，演出开始时，她不允许还有人没能全情投入。</description>
-                <statOffsets>
-                    <SocialImpact>0.3</SocialImpact>
-                    <MoveSpeed>2</MoveSpeed>
-                    <WorkSpeedGlobal>-0.2</WorkSpeedGlobal>
-                </statOffsets>
-            </li>
-        </degreeDatas>
-    </TraitDef>
+	<TraitDef>
+		<defName>AK_Trait_LapplandTheDecadenzaSecond</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>狂欢之主</label>
+				<description>无所谓城市或者荒野，演出开始时，她不允许还有人没能全情投入。</description>
+				<statOffsets>
+					<SocialImpact>0.3</SocialImpact>
+					<MoveSpeed>2</MoveSpeed>
+					<WorkSpeedGlobal>-0.2</WorkSpeedGlobal>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
 
 	<!-- 烛煌 -->
 
 	<TraitDef>
 		<defName>AK_Trait_BlazetheIgnitingSpark</defName>
 		<ignoreConfigErrors>true</ignoreConfigErrors>
-        <commonality>0.0</commonality>
-        <degreeDatas>
-            <li>
-                <label>热情似火</label>
-                <description>易燃，易爆，易炸！煌的热情如同她的战斗方式一般点燃全场！</description>
-                <statOffsets>
-                    <SocialImpact>3</SocialImpact>
-                    <MentalBreakThreshold>-0.18</MentalBreakThreshold>
-                </statOffsets>
-                <statFactors>
-                    <MoveSpeed>1.5</MoveSpeed>
-                </statFactors>
-            </li>
-        </degreeDatas>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>热情似火</label>
+				<description>易燃，易爆，易炸！煌的热情如同她的战斗方式一般点燃全场！</description>
+				<statOffsets>
+					<SocialImpact>3</SocialImpact>
+					<MentalBreakThreshold>-0.18</MentalBreakThreshold>
+				</statOffsets>
+				<statFactors>
+					<MoveSpeed>1.5</MoveSpeed>
+				</statFactors>
+			</li>
+		</degreeDatas>
 	</TraitDef>
 
 	<TraitDef>
 		<defName>AK_Trait_BlazetheIgnitingSparkSecond</defName>
 		<ignoreConfigErrors>true</ignoreConfigErrors>
-        <commonality>0.0</commonality>
-        <degreeDatas>
-            <li>
-                <label>沸血燎原</label>
-                <description>她的火焰不会放过任何一个敌人，愿为你们共同的理想燃烧生命。</description>
-                <statOffsets>
-                    <AimingDelayFactor>-0.25</AimingDelayFactor>
-                    <CookSpeed>1.2</CookSpeed>
-                </statOffsets>
-                <statFactors>
-                    <IncomingDamageFactor>0.5</IncomingDamageFactor>
-                </statFactors>
-            </li>
-        </degreeDatas>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>沸血燎原</label>
+				<description>她的火焰不会放过任何一个敌人，愿为你们共同的理想燃烧生命。</description>
+				<statOffsets>
+					<AimingDelayFactor>-0.25</AimingDelayFactor>
+					<CookSpeed>1.2</CookSpeed>
+				</statOffsets>
+				<statFactors>
+					<IncomingDamageFactor>0.5</IncomingDamageFactor>
+				</statFactors>
+			</li>
+		</degreeDatas>
 	</TraitDef>
 
 	<!-- 死芒 -->
@@ -845,38 +845,38 @@
 	<TraitDef>
 		<defName>AK_Trait_Necrass</defName>
 		<ignoreConfigErrors>true</ignoreConfigErrors>
-        <commonality>0.0</commonality>
-        <degreeDatas>
-            <li>
-                <label>何须解脱</label>
-                <description>死者的喧嚣终有尽头，那尽头的名字叫做忘却。</description>
-                <statOffsets>
-                    <MentalBreakThreshold>-0.2</MentalBreakThreshold>
-                    <PsychicSensitivity>-0.2</PsychicSensitivity>
-					<SlaveSuppressionOffset>-0.2</SlaveSuppressionOffset>
-                </statOffsets>
-            </li>
-        </degreeDatas>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>何须解脱</label>
+				<description>死者的喧嚣终有尽头，那尽头的名字叫做忘却。</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.2</MentalBreakThreshold>
+					<PsychicSensitivity>-0.2</PsychicSensitivity>
+					<SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.2</SlaveSuppressionOffset>
+				</statOffsets>
+			</li>
+		</degreeDatas>
 	</TraitDef>
 
 	<TraitDef>
 		<defName>AK_Trait_NecrassSecond</defName>
 		<ignoreConfigErrors>true</ignoreConfigErrors>
-        <commonality>0.0</commonality>
-        <degreeDatas>
-            <li>
-                <label>死焰指引</label>
-                <description>红龙的死焰灼烧着所有生命，生者难得好死，死者不得安眠。</description>
-                <statOffsets>
-                    <ShootingAccuracyPawn>5</ShootingAccuracyPawn>
-                    <AimingDelayFactor>-0.2</AimingDelayFactor>
-                </statOffsets>
-                <statFactors>
-                    <IncomingDamageFactor>0.5</IncomingDamageFactor>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>死焰指引</label>
+				<description>红龙的死焰灼烧着所有生命，生者难得好死，死者不得安眠。</description>
+				<statOffsets>
+					<ShootingAccuracyPawn>5</ShootingAccuracyPawn>
+					<AimingDelayFactor>-0.2</AimingDelayFactor>
+				</statOffsets>
+				<statFactors>
+					<IncomingDamageFactor>0.5</IncomingDamageFactor>
 					<GlobalLearningFactor>1.5</GlobalLearningFactor>
-                </statFactors>
-            </li>
-        </degreeDatas>
+				</statFactors>
+			</li>
+		</degreeDatas>
 	</TraitDef>
 
 </Defs>
