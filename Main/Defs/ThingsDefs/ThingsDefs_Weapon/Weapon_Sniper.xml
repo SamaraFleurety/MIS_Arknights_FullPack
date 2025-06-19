@@ -1207,7 +1207,7 @@
 			<damageAmountBase>21</damageAmountBase>
 			<extraDamages>
 				<li>
-					<def>ToxGas</def>
+					<def MayRequire="Ludeon.RimWorld.Biotech">ToxGas</def>
 					<!--伤害类型-->
 					<amount>9</amount>
 					<!--伤害数值-->

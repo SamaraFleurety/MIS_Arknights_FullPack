@@ -201,7 +201,7 @@
 					<MeleeDodgeChance>0.45</MeleeDodgeChance>
 				</statOffsets>
 				<statFactors>
-					<CertaintyLossFactor>0.25</CertaintyLossFactor>
+					<CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">0.25</CertaintyLossFactor>
 				</statFactors>
 			</li>
 		</degreeDatas>

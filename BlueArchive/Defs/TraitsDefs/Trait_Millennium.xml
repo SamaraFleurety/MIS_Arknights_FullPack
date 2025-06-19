@@ -475,7 +475,7 @@
 					<MentalBreakThreshold>-0.32</MentalBreakThreshold>
 				</statOffsets>
 				<statFactors>
-					<CertaintyLossFactor>0.5</CertaintyLossFactor>
+					<CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">0.5</CertaintyLossFactor>
 				</statFactors>
 				<disallowedMentalStates>
                     <li>InsultingSpree</li>

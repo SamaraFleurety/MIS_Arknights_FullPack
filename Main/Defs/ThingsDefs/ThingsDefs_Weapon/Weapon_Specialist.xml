@@ -665,7 +665,7 @@
         </capacities>
         <extraMeleeDamages>
           <li>
-            <def>ToxGas</def>
+            <def MayRequire="Ludeon.RimWorld.Biotech">ToxGas</def>
             <amount>22</amount>
           </li>
         </extraMeleeDamages>
@@ -686,7 +686,7 @@
         </capacities>
         <extraMeleeDamages>
           <li>
-            <def>ToxGas</def>
+            <def MayRequire="Ludeon.RimWorld.Biotech">ToxGas</def>
             <amount>24</amount>
           </li>
         </extraMeleeDamages>
@@ -705,8 +705,16 @@
     </graphicData>
     <thingClass>Bullet</thingClass>
     <projectile>
-      <damageDef>ToxGas</damageDef>      <!--伤害类型-->
-      <damageAmountBase>20</damageAmountBase>
+      <damageDef>Bullet</damageDef>      <!--伤害类型-->
+      <damageAmountBase>10</damageAmountBase>
+      <extraDamages>
+				<li>
+					<def MayRequire="Ludeon.RimWorld.Biotech">ToxGas</def>
+					<!--伤害类型-->
+					<amount>20</amount>
+					<!--伤害数值-->
+				</li>
+			</extraDamages>
       <stoppingPower>3</stoppingPower>
       <speed>50</speed>
     </projectile>

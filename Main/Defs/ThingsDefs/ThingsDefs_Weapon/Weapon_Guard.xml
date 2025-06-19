@@ -471,7 +471,7 @@
         <power>27</power>
         <extraMeleeDamages>
           <li>
-            <def>ToxGas</def>
+            <def MayRequire="Ludeon.RimWorld.Biotech">ToxGas</def>
             <amount>12</amount>
           </li>
         </extraMeleeDamages>
@@ -689,7 +689,7 @@
         <power>30</power>
         <extraMeleeDamages>
           <li>
-            <def>ToxGas</def>
+            <def MayRequire="Ludeon.RimWorld.Biotech">ToxGas</def>
             <amount>12</amount>
           </li>
         </extraMeleeDamages>
@@ -703,7 +703,7 @@
         <power>33</power>
         <extraMeleeDamages>
           <li>
-            <def>ToxGas</def>
+            <def MayRequire="Ludeon.RimWorld.Biotech">ToxGas</def>
             <amount>12</amount>
           </li>
         </extraMeleeDamages>
@@ -717,7 +717,7 @@
         <power>30</power>
         <extraMeleeDamages>
           <li>
-            <def>ToxGas</def>
+            <def MayRequire="Ludeon.RimWorld.Biotech">ToxGas</def>
             <amount>12</amount>
           </li>
         </extraMeleeDamages>
@@ -739,7 +739,7 @@
       <damageAmountBase>36</damageAmountBase>
       <extraDamages>
         <li>
-          <def>ToxGas</def>
+          <def MayRequire="Ludeon.RimWorld.Biotech">ToxGas</def>
           <amount>15</amount>
         </li>
       </extraDamages>
