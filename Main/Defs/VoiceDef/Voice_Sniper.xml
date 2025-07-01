@@ -6668,4 +6668,227 @@
 		</subSounds>
 	</SoundDef>
 
+	<!-- Lemuen 蕾缪安 -->
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Recruit_Lemuen</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Sniper/Lemuen/char_4193_Lemuen/Recruit_Lemuen</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Die_Lemuen</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Sniper/Lemuen/char_4193_Lemuen/Die_Lemuen</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Draft_LemuenI</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Sniper/Lemuen/char_4193_Lemuen/Draft_LemuenI</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Draft_LemuenII</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Sniper/Lemuen/char_4193_Lemuen/Draft_LemuenII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_LemuenI</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Sniper/Lemuen/char_4193_Lemuen/Select_LemuenI</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_LemuenII</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Sniper/Lemuen/char_4193_Lemuen/Select_LemuenII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_LemuenIII</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Sniper/Lemuen/char_4193_Lemuen/Select_LemuenIII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_LemuenIV</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Sniper/Lemuen/char_4193_Lemuen/Select_LemuenIV</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_LemuenI</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Sniper/Lemuen/char_4193_Lemuen/Ability_LemuenI</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_LemuenII</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Sniper/Lemuen/char_4193_Lemuen/Ability_LemuenII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_LemuenIII</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Sniper/Lemuen/char_4193_Lemuen/Ability_LemuenIII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_LemuenIV</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Sniper/Lemuen/char_4193_Lemuen/Ability_LemuenIV</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Undraft_Lemuen</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Sniper/Lemuen/char_4193_Lemuen/Undraft_Lemuen</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
 </Defs>
