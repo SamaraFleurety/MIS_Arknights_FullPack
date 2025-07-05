@@ -433,8 +433,8 @@
         </apparel>
     </ThingDef>
 
-	<ThingDef ParentName="AK_ArmorBase_Sniper" Abstract="True">
-        <defName>AK_item_LemuenWheel</defName>
+	<ThingDef ParentName="AK_ArmorBase_Sniper">
+        <defName>AK_Item_LemuenWheel</defName>
         <label>蕾缪安的轮椅</label>
         <graphicData>
             <texPath>Things/AK_Agents/Sniper/LemuenWheelChair</texPath>
@@ -442,16 +442,18 @@
         </graphicData>
         <apparel>
             <wornGraphicPath>Things/AK_Agents/Sniper/LemuenWheelChair</wornGraphicPath>
+			<bodyPartGroups Inherit="False">
+				<li>Legs</li>
+				<li>Feet</li>
+			</bodyPartGroups>
+			<layers Inherit="False">
+				<li>Shell</li>
+			</layers>
         </apparel>
-		<bodyPartGroups>
-			<li>Feet</li>
-		</bodyPartGroups>
-		<layers>
-			<li>Belt</li>
-		</layers>
-		<equippedStatFactors>
-			<MoveSpeed>8</MoveSpeed>
-		</equippedStatFactors>
+		
+		<equippedStatOffsets>
+			<MoveSpeed>10</MoveSpeed>
+		</equippedStatOffsets>
     </ThingDef>
 
 </Defs>
