@@ -440,13 +440,38 @@
 	<ThingDef ParentName="AK_ArmorBase_Caster">
         <defName>AK_Apparel_Necrass</defName>
         <label>死芒服装</label>
+		<!-- 与普通的单贴图相比，以下参数是可大破衣服所需的 -->
+		<thingClass>AKE_OperatorExtension.Apparel_Breakdown</thingClass>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+		</statBases>
+		<modExtensions>
+			<li Class="AKE_OperatorExtension.Ext_ApparelBreakGraphic">
+				<paths>
+					<li>
+						<path>Things/AK_Agents/Caster/Necrass/Necrass_Naked</path>
+						<hpRatioLowerThan>0.2</hpRatioLowerThan> <!-- hp比例低于这个值时，应用这个路径,值域0.0 ~ 1.0 -->
+					</li>
+					<li>
+						<path>Things/AK_Agents/Caster/Necrass/Necrass_Break</path>
+						<hpRatioLowerThan>0.8</hpRatioLowerThan> 
+					</li>
+					<li>
+						<path>Things/AK_Agents/Caster/Necrass/Necrass</path>
+						<hpRatioLowerThan>1</hpRatioLowerThan> 
+					</li>
+				</paths>
+			</li>
+		</modExtensions>
+		<!-- 到这结束 -->
         <graphicData>
             <texPath>Things/AK_Agents/Caster/Necrass/Necrass</texPath>
             <graphicClass>Graphic_single</graphicClass>
         </graphicData>
-        <apparel>
+        <!-- 有大破系统之后，不再使用原版wornGraphicPath，这里仅为演示，其他地方直接删掉就可以 apparel>
             <wornGraphicPath>Things/AK_Agents/Caster/Necrass/Necrass</wornGraphicPath>
-        </apparel>
+        </apparel-->
     </ThingDef>
 
 
