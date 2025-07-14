@@ -223,13 +223,33 @@
 	<ThingDef ParentName="AK_ArmorBase_Medic">
 		<defName>AK_Apparel_FlameShadow</defName>
 		<label>焰影苇草服装</label>
+		<thingClass>AKE_OperatorExtension.Apparel_Breakdown</thingClass>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+		</statBases>
+		<modExtensions>
+			<li Class="AKE_OperatorExtension.Ext_ApparelBreakGraphic">
+				<paths>
+					<li>
+						<path>Things/AK_Agents/Medic/FlameShadow/FlameShadow_Naked</path>
+						<hpRatioLowerThan>0.2</hpRatioLowerThan>
+					</li>
+					<li>
+						<path>Things/AK_Agents/Medic/FlameShadow/FlameShadow_Break</path>
+						<hpRatioLowerThan>0.8</hpRatioLowerThan> 
+					</li>
+					<li>
+						<path>Things/AK_Agents/Medic/FlameShadow/FlameShadow</path>
+						<hpRatioLowerThan>1</hpRatioLowerThan> 
+					</li>
+				</paths>
+			</li>
+		</modExtensions>
 		<graphicData>
-			<texPath>Things/AK_Agents/Medic/FlameShadow</texPath>
+			<texPath>Things/AK_Agents/Medic/FlameShadow/FlameShadow</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<apparel>
-			<wornGraphicPath>Things/AK_Agents/Medic/FlameShadow</wornGraphicPath>
-		</apparel>
 	</ThingDef>
 
 	<ThingDef ParentName="AK_ArmorBase_Medic">
