@@ -84,6 +84,7 @@
 			<AimingDelayFactor>-0.25</AimingDelayFactor>
 			<MoveSpeed>0.5</MoveSpeed>
 			<WorkSpeedGlobal>0.15</WorkSpeedGlobal>
+			<VacuumResistance>1</VacuumResistance>
 		</equippedStatOffsets>
 	</ThingDef>
 
@@ -101,6 +102,7 @@
 			<MeleeDodgeChance>2</MeleeDodgeChance>
 			<MoveSpeed>0.1</MoveSpeed>
 			<WorkSpeedGlobal>0.04</WorkSpeedGlobal>
+			<VacuumResistance>1</VacuumResistance>
 		</equippedStatOffsets>
 		<thingCategories Inherit="false">
 			<li>AK_Apparel_Vanguard</li>
@@ -121,6 +123,7 @@
 			<MeleeDodgeChance>2</MeleeDodgeChance>
 			<MoveSpeed>-0.2</MoveSpeed>
 			<WorkSpeedGlobal>-0.08</WorkSpeedGlobal>
+			<VacuumResistance>1</VacuumResistance>
 		</equippedStatOffsets>
 		<thingCategories Inherit="false">
 			<li>AK_Apparel_Guard</li>
@@ -140,6 +143,7 @@
 			<MeleeHitChance>4</MeleeHitChance>
 			<MeleeDodgeChance>2</MeleeDodgeChance>
 			<WorkSpeedGlobal>0.08</WorkSpeedGlobal>
+			<VacuumResistance>1</VacuumResistance>
 		</equippedStatOffsets>
 		<thingCategories Inherit="false">
 			<li>AK_Apparel_Defender</li>
@@ -163,6 +167,7 @@
 			<AimingDelayFactor>-0.15</AimingDelayFactor>
 			<MoveSpeed>0.5</MoveSpeed>
 			<WorkSpeedGlobal>0.15</WorkSpeedGlobal>
+			<VacuumResistance>1</VacuumResistance>
 		</equippedStatOffsets>
 	</ThingDef>
 
@@ -180,6 +185,7 @@
 			<MeleeDodgeChance>5</MeleeDodgeChance>
 			<MoveSpeed>0.5</MoveSpeed>
 			<WorkSpeedGlobal>0.04</WorkSpeedGlobal>
+			<VacuumResistance>1</VacuumResistance>
 		</equippedStatOffsets>
 		<thingCategories Inherit="false">
 			<li>AK_Apparel_Specialist</li>
@@ -203,6 +209,7 @@
 			<AimingDelayFactor>-0.25</AimingDelayFactor>
 			<MoveSpeed>0.2</MoveSpeed>
 			<WorkSpeedGlobal>0.08</WorkSpeedGlobal>
+			<VacuumResistance>1</VacuumResistance>
 		</equippedStatOffsets>
 	</ThingDef>
 
@@ -223,6 +230,7 @@
 			<AimingDelayFactor>-0.15</AimingDelayFactor>
 			<MoveSpeed>0.5</MoveSpeed>
 			<WorkSpeedGlobal>0.15</WorkSpeedGlobal>
+			<VacuumResistance>1</VacuumResistance>
 		</equippedStatOffsets>
 	</ThingDef>
 
