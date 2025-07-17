@@ -65,6 +65,9 @@
 				<hideHead>true</hideHead>
 			</li>
 		</comps>
+		<equippedStatOffsets>
+			<VacuumResistance>1</VacuumResistance>
+		</equippedStatOffsets>
 	</ThingDef>
 
 	<ThingDef Name="AK_ArmorBase_Caster" ParentName="AK_ArmorBase" Abstract="True">
@@ -75,7 +78,7 @@
 			<ArmorRating_Sharp>0.20</ArmorRating_Sharp>
 			<ArmorRating_Blunt>0.20</ArmorRating_Blunt>
 			<ArmorRating_Heat>1.00</ArmorRating_Heat>
-			<Insulation_Cold>20</Insulation_Cold>
+			<Insulation_Cold>50</Insulation_Cold>
 			<Insulation_Heat>65</Insulation_Heat>
 			<EquipDelay>4</EquipDelay>
 		</statBases>
@@ -84,7 +87,6 @@
 			<AimingDelayFactor>-0.25</AimingDelayFactor>
 			<MoveSpeed>0.5</MoveSpeed>
 			<WorkSpeedGlobal>0.15</WorkSpeedGlobal>
-			<VacuumResistance>1</VacuumResistance>
 		</equippedStatOffsets>
 	</ThingDef>
 
@@ -93,8 +95,8 @@
 			<ArmorRating_Sharp>0.80</ArmorRating_Sharp>
 			<ArmorRating_Blunt>0.90</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.27</ArmorRating_Heat>
-			<Insulation_Cold>20</Insulation_Cold>
-			<Insulation_Heat>45</Insulation_Heat>
+			<Insulation_Cold>50</Insulation_Cold>
+			<Insulation_Heat>50</Insulation_Heat>
 			<EquipDelay>10</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
@@ -102,7 +104,6 @@
 			<MeleeDodgeChance>2</MeleeDodgeChance>
 			<MoveSpeed>0.1</MoveSpeed>
 			<WorkSpeedGlobal>0.04</WorkSpeedGlobal>
-			<VacuumResistance>1</VacuumResistance>
 		</equippedStatOffsets>
 		<thingCategories Inherit="false">
 			<li>AK_Apparel_Vanguard</li>
@@ -114,8 +115,8 @@
 			<ArmorRating_Sharp>1.00</ArmorRating_Sharp>
 			<ArmorRating_Blunt>0.40</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.20</ArmorRating_Heat>
-			<Insulation_Cold>10</Insulation_Cold>
-			<Insulation_Heat>35</Insulation_Heat>
+			<Insulation_Cold>50</Insulation_Cold>
+			<Insulation_Heat>50</Insulation_Heat>
 			<EquipDelay>10</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
@@ -123,7 +124,6 @@
 			<MeleeDodgeChance>2</MeleeDodgeChance>
 			<MoveSpeed>-0.2</MoveSpeed>
 			<WorkSpeedGlobal>-0.08</WorkSpeedGlobal>
-			<VacuumResistance>1</VacuumResistance>
 		</equippedStatOffsets>
 		<thingCategories Inherit="false">
 			<li>AK_Apparel_Guard</li>
@@ -135,15 +135,14 @@
 			<ArmorRating_Sharp>1.20</ArmorRating_Sharp>
 			<ArmorRating_Blunt>1.36</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.20</ArmorRating_Heat>
-			<Insulation_Cold>20</Insulation_Cold>
-			<Insulation_Heat>35</Insulation_Heat>
+			<Insulation_Cold>50</Insulation_Cold>
+			<Insulation_Heat>50</Insulation_Heat>
 			<EquipDelay>10</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
 			<MeleeHitChance>4</MeleeHitChance>
 			<MeleeDodgeChance>2</MeleeDodgeChance>
 			<WorkSpeedGlobal>0.08</WorkSpeedGlobal>
-			<VacuumResistance>1</VacuumResistance>
 		</equippedStatOffsets>
 		<thingCategories Inherit="false">
 			<li>AK_Apparel_Defender</li>
@@ -158,7 +157,7 @@
 			<ArmorRating_Sharp>0.20</ArmorRating_Sharp>
 			<ArmorRating_Blunt>0.30</ArmorRating_Blunt>
 			<ArmorRating_Heat>1.00</ArmorRating_Heat>
-			<Insulation_Cold>10</Insulation_Cold>
+			<Insulation_Cold>50</Insulation_Cold>
 			<Insulation_Heat>365</Insulation_Heat>
 			<EquipDelay>4</EquipDelay>
 		</statBases>
@@ -167,7 +166,6 @@
 			<AimingDelayFactor>-0.15</AimingDelayFactor>
 			<MoveSpeed>0.5</MoveSpeed>
 			<WorkSpeedGlobal>0.15</WorkSpeedGlobal>
-			<VacuumResistance>1</VacuumResistance>
 		</equippedStatOffsets>
 	</ThingDef>
 
@@ -176,8 +174,8 @@
 			<ArmorRating_Sharp>0.80</ArmorRating_Sharp>
 			<ArmorRating_Blunt>0.4</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.4</ArmorRating_Heat>
-			<Insulation_Cold>20</Insulation_Cold>
-			<Insulation_Heat>45</Insulation_Heat>
+			<Insulation_Cold>50</Insulation_Cold>
+			<Insulation_Heat>50</Insulation_Heat>
 			<EquipDelay>5</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
@@ -185,7 +183,6 @@
 			<MeleeDodgeChance>5</MeleeDodgeChance>
 			<MoveSpeed>0.5</MoveSpeed>
 			<WorkSpeedGlobal>0.04</WorkSpeedGlobal>
-			<VacuumResistance>1</VacuumResistance>
 		</equippedStatOffsets>
 		<thingCategories Inherit="false">
 			<li>AK_Apparel_Specialist</li>
@@ -200,7 +197,7 @@
 			<ArmorRating_Sharp>0.40</ArmorRating_Sharp>
 			<ArmorRating_Blunt>0.20</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.40</ArmorRating_Heat>
-			<Insulation_Cold>20</Insulation_Cold>
+			<Insulation_Cold>50</Insulation_Cold>
 			<Insulation_Heat>65</Insulation_Heat>
 			<EquipDelay>4</EquipDelay>
 		</statBases>
@@ -209,7 +206,6 @@
 			<AimingDelayFactor>-0.25</AimingDelayFactor>
 			<MoveSpeed>0.2</MoveSpeed>
 			<WorkSpeedGlobal>0.08</WorkSpeedGlobal>
-			<VacuumResistance>1</VacuumResistance>
 		</equippedStatOffsets>
 	</ThingDef>
 
@@ -221,7 +217,7 @@
 			<ArmorRating_Sharp>0.20</ArmorRating_Sharp>
 			<ArmorRating_Blunt>0.30</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.20</ArmorRating_Heat>
-			<Insulation_Cold>10</Insulation_Cold>
+			<Insulation_Cold>50</Insulation_Cold>
 			<Insulation_Heat>65</Insulation_Heat>
 			<EquipDelay>4</EquipDelay>
 		</statBases>
@@ -230,7 +226,6 @@
 			<AimingDelayFactor>-0.15</AimingDelayFactor>
 			<MoveSpeed>0.5</MoveSpeed>
 			<WorkSpeedGlobal>0.15</WorkSpeedGlobal>
-			<VacuumResistance>1</VacuumResistance>
 		</equippedStatOffsets>
 	</ThingDef>
 
