@@ -523,4 +523,20 @@
 		<baseDesc>{PAWN_nameDef}，最初的深海猎人</baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_LeizitheThunderbringer_Child</defName>
+		<slot>Childhood</slot>
+		<title>炎国大理寺少卿</title>
+		<titleShort>炎国大理寺少卿</titleShort>
+		<baseDesc>高明远断的大理寺麟少卿，其能力为大理寺内众人称道。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_LeizitheThunderbringer_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>天师</title>
+		<titleShort>天师</titleShort>
+		<baseDesc>大炎天师惊蛰，部分认可了罗德岛之“道”，决定与你继续同行。</baseDesc>
+	</BackstoryDef>
+
 </Defs>

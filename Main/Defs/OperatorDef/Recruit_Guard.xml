@@ -3679,4 +3679,95 @@
 		</skills>
 	</AK_DLL.OperatorDef>
 
+	<!-- 司霆惊蛰 -->
+
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Guard">
+		<defName>AK_Recruit_LeizitheThunderbringer</defName>
+		<name>LeizitheThunderbringer</name>
+		<nickname>LeizitheThunderbringer</nickname>
+		<description>FIXMEDESC</description>
+		<weapon>AK_Weapon_LeizitheThunderbringer</weapon>
+		<hair>AK_Hair_LeizitheThunderbringer</hair>
+		<apparels>
+			<li>AK_Apparel_LeizitheThunderbringer</li>
+		</apparels>
+		<traits>
+			<li>
+				<def>AK_Trait_LeizitheThunderbringer</def>
+			</li>
+			<li>
+				<def>AK_Trait_LeizitheThunderbringerSecond</def>
+			</li>
+			<li>
+				<def>Beauty</def>
+				<degree>2</degree>
+			</li>
+		</traits>
+		<age>20</age>
+		<childHood>AK_BackStory_LeizitheThunderbringer_Child</childHood>
+		<adultHood>AK_BackStory_LeizitheThunderbringer_Adult</adultHood>
+		<skills>
+			<li>
+				<skill>Animals</skill>
+				<level>3</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Artistic</skill>
+				<level>9</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Construction</skill>
+				<level>3</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Cooking</skill>
+				<level>0</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Crafting</skill>
+				<level>11</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Intellectual</skill>
+				<level>13</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<level>6</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<level>12</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Mining</skill>
+				<level>3</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Plants</skill>
+				<level>3</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<level>15</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<level>10</level>
+				<fireLevel>1</fireLevel>
+			</li>
+		</skills>
+	</AK_DLL.OperatorDef>
+
 </Defs>

@@ -972,4 +972,42 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<!-- 司霆惊蛰 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_LeizitheThunderbringer</defName>
+		<degreeDatas>
+			<li>
+				<label>天地通明</label>
+				<description>世间许多是非曲直，有法理亦有人情，雷霆虽可呼之即来，亦有不可来、不该来，或可来可不来之时。是非判断，皆由人之一念。</description>
+				<statOffsets>
+					<ShootingAccuracyPawn>2</ShootingAccuracyPawn>
+					<AimingDelayFactor>-0.5</AimingDelayFactor>
+					<SocialImpact>0.3</SocialImpact>
+				</statOffsets>
+				<statFactors>
+					<IncomingDamageFactor>0.75</IncomingDamageFactor>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_LeizitheThunderbringerSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>克己严修</label>
+				<description>思以正心，心定则志坚，行道修远。</description>
+				<statFactors>
+					<WorkSpeedGlobal>1.4</WorkSpeedGlobal>
+					<GlobalLearningFactor>1.4</GlobalLearningFactor>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>

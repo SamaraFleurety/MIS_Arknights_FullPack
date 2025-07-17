@@ -7787,4 +7787,227 @@
 		</subSounds>
 	</SoundDef>
 
+	<!-- LeizitheThunderbringer 司霆惊蛰 -->
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Recruit_LeizitheThunderbringer</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Guard/LeizitheThunderbringer/char_1043_leizi2/Recruit_LeizitheThunderbringer</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Die_LeizitheThunderbringer</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Guard/LeizitheThunderbringer/char_1043_leizi2/Die_LeizitheThunderbringer</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Draft_LeizitheThunderbringerI</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Guard/LeizitheThunderbringer/char_1043_leizi2/Draft_LeizitheThunderbringerI</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Draft_LeizitheThunderbringerII</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Guard/LeizitheThunderbringer/char_1043_leizi2/Draft_LeizitheThunderbringerII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_LeizitheThunderbringerI</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Guard/LeizitheThunderbringer/char_1043_leizi2/Select_LeizitheThunderbringerI</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_LeizitheThunderbringerII</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Guard/LeizitheThunderbringer/char_1043_leizi2/Select_LeizitheThunderbringerII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_LeizitheThunderbringerIII</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Guard/LeizitheThunderbringer/char_1043_leizi2/Select_LeizitheThunderbringerIII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Select_LeizitheThunderbringerIV</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Guard/LeizitheThunderbringer/char_1043_leizi2/Select_LeizitheThunderbringerIV</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_LeizitheThunderbringerI</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Guard/LeizitheThunderbringer/char_1043_leizi2/Ability_LeizitheThunderbringerI</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_LeizitheThunderbringerII</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Guard/LeizitheThunderbringer/char_1043_leizi2/Ability_LeizitheThunderbringerII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_LeizitheThunderbringerIII</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Guard/LeizitheThunderbringer/char_1043_leizi2/Ability_LeizitheThunderbringerIII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Ability_LeizitheThunderbringerIV</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Guard/LeizitheThunderbringer/char_1043_leizi2/Ability_LeizitheThunderbringerIV</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>AK_Voice_Undraft_LeizitheThunderbringer</defName>
+		<subSounds>
+			<li Class="AK_DLL.DynaLoad.SubSoundDef_DynaLoading">
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AK_DLL.DynaLoad.AudioGrain_DynaLoad_Clip">
+						<clipPath>Operator/Guard/LeizitheThunderbringer/char_1043_leizi2/Undraft_LeizitheThunderbringer</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
 </Defs>
