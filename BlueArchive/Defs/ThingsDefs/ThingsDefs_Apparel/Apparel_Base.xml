@@ -65,6 +65,9 @@
 				<hideHead>true</hideHead>
 			</li>
 		</comps>
+		<equippedStatOffsets>
+			<VacuumResistance>1</VacuumResistance>
+		</equippedStatOffsets>
 	</ThingDef>
 
   <ThingDef Name="BA_ArmorBase_Abydos" ParentName="BA_ArmorBase" Abstract="True">
