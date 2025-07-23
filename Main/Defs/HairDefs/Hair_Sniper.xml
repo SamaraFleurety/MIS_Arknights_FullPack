@@ -190,6 +190,26 @@
 	</HairDef>
 
 	<HairDef ParentName="AK_HairBaseF">
+		<defName>AK_Hair_WisadelSuperNova</defName>
+		<label>维什戴尔-超新星</label>
+		<texPath>Things/Hair/Sniper/Wisadel_SuperNova</texPath>
+		<noGraphic>true</noGraphic>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_FrontHair">
+				<graphicData>
+					<texPath>Things/Hair/Sniper/Wisadel_SuperNova</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>0.6</drawSize>
+					<drawOffsetSouth>(0,0,0)</drawOffsetSouth>
+					<drawOffsetNorth>(0,0,0)</drawOffsetNorth>
+					<drawOffsetEast>(0,0,0)</drawOffsetEast>
+					<drawOffsetWest>(0,0,0)</drawOffsetWest>
+				</graphicData>
+			</li>
+		</modExtensions>
+	</HairDef>
+
+	<HairDef ParentName="AK_HairBaseF">
 		<defName>AK_Hair_Ray</defName>
 		<label>莱伊发型</label>
 		<texPath>Things/Hair/Sniper/Ray</texPath>

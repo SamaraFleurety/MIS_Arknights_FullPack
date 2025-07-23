@@ -139,6 +139,20 @@
 		<defName>AK_Hair_VirtuosaDiversityOneness</defName>
 		<label>塑心-无我唯识</label>
 		<texPath>Things/Hair/Supporter/VirtuosaDiversityOneness</texPath>
+		<noGraphic>true</noGraphic>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_FrontHair">
+				<graphicData>
+					<texPath>Things/Hair/Supporter/VirtuosaDiversityOneness</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1</drawSize>
+					<drawOffsetSouth>(0,0,-0.03)</drawOffsetSouth>
+					<drawOffsetNorth>(0,0,-0.03)</drawOffsetNorth>
+					<drawOffsetEast>(0,0,-0.02)</drawOffsetEast>
+					<drawOffsetWest>(0,0,-0.02)</drawOffsetWest>
+				</graphicData>
+			</li>
+		</modExtensions>
 	</HairDef>
 
 	<HairDef ParentName="AK_HairBaseF">

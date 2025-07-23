@@ -35,8 +35,22 @@
 
 	<HairDef ParentName="AK_HairBaseF">
 		<defName>AK_Hair_DuskEverythingIsaMiracle</defName>
-		<label>夕发型</label>
+		<label>夕-染尘烟</label>
 		<texPath>Things/Hair/Caster/Dusk_EverythingIsaMiracle</texPath>
+		<noGraphic>true</noGraphic>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_FrontHair">
+				<graphicData>
+					<texPath>Things/Hair/Caster/Dusk_EverythingIsaMiracle</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1</drawSize>
+					<drawOffsetSouth>(0,0,-0.04)</drawOffsetSouth>
+					<drawOffsetNorth>(0,0,-0.04)</drawOffsetNorth>
+					<drawOffsetEast>(0,0,-0.03)</drawOffsetEast>
+					<drawOffsetWest>(0,0,-0.03)</drawOffsetWest>
+				</graphicData>
+			</li>
+		</modExtensions>
 	</HairDef>
 
 	<HairDef ParentName="AK_HairBaseF">
@@ -232,10 +246,10 @@
 					<texPath>Things/Hair/Caster/BlazetheIgnitingSpark</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
 					<drawSize>1</drawSize>
-					<drawOffsetSouth>(0,0,-0.03)</drawOffsetSouth>
-					<drawOffsetNorth>(0,0,-0.03)</drawOffsetNorth>
-					<drawOffsetEast>(0,0,-0.03)</drawOffsetEast>
-					<drawOffsetWest>(0,0,-0.03)</drawOffsetWest>
+					<drawOffsetSouth>(0,0,-0.04)</drawOffsetSouth>
+					<drawOffsetNorth>(0,0,-0.04)</drawOffsetNorth>
+					<drawOffsetEast>(0,0,-0.04)</drawOffsetEast>
+					<drawOffsetWest>(0,0,-0.04)</drawOffsetWest>
 				</graphicData>
 			</li>
 		</modExtensions>

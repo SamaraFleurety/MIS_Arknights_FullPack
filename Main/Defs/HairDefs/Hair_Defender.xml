@@ -47,8 +47,22 @@
 
 	<HairDef ParentName="AK_HairBaseF">
 		<defName>AK_Hair_NianUnfetteredFreedom</defName>
-		<label>年发型</label>
+		<label>年-乐逍遥</label>
 		<texPath>Things/Hair/Defender/Nian_UnfetteredFreedom</texPath>
+		<noGraphic>true</noGraphic>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_FrontHair">
+				<graphicData>
+					<texPath>Things/Hair/Defender/Nian_UnfetteredFreedom</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1</drawSize>
+					<drawOffsetSouth>(0,0,-0.06)</drawOffsetSouth>
+					<drawOffsetNorth>(0,0,-0.06)</drawOffsetNorth>
+					<drawOffsetEast>(0,0,-0.05)</drawOffsetEast>
+					<drawOffsetWest>(0,0,-0.05)</drawOffsetWest>
+				</graphicData>
+			</li>
+		</modExtensions>
 	</HairDef>
 
 	<HairDef ParentName="AK_HairBaseF">
@@ -116,10 +130,10 @@
 					<texPath>Things/Hair/Defender/Vulcan_Ignis</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
 					<drawSize>1</drawSize>
-					<drawOffsetSouth>(0,0,-0.04)</drawOffsetSouth>
-					<drawOffsetNorth>(0,0,-0.04)</drawOffsetNorth>
-					<drawOffsetEast>(0,0,-0.03)</drawOffsetEast>
-					<drawOffsetWest>(0,0,-0.03)</drawOffsetWest>
+					<drawOffsetSouth>(0,0,-0.02)</drawOffsetSouth>
+					<drawOffsetNorth>(0,0,-0.02)</drawOffsetNorth>
+					<drawOffsetEast>(0,0,-0.01)</drawOffsetEast>
+					<drawOffsetWest>(0,0,-0.01)</drawOffsetWest>
 				</graphicData>
 			</li>
 		</modExtensions>
