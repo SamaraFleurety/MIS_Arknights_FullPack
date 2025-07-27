@@ -73,7 +73,7 @@
 		</apparel>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_ArmorBase_Sniper">
+	<!--ThingDef ParentName="AK_ArmorBase_Sniper">
 		<defName>AK_Apparel_Rosmontis</defName>
 		<label>迷迭香服装</label>
 		<graphicData>
@@ -83,6 +83,38 @@
 		<apparel>
 			<wornGraphicPath>Things/AK_Agents/Sniper/Rosmontis</wornGraphicPath>
 		</apparel>
+	</ThingDef-->
+
+	<ThingDef ParentName="AK_ArmorBase_Sniper">
+		<defName>AK_Apparel_Rosmontis</defName>
+		<label>迷迭香服装</label>
+		<thingClass>AKE_OperatorExtension.Apparel_Breakdown</thingClass>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+		</statBases>
+		<modExtensions>
+			<li Class="AKE_OperatorExtension.Ext_ApparelBreakGraphic">
+				<paths>
+					<li>
+						<path>Things/AK_Agents/Sniper/Rosmontis/Rosmontis_Naked</path>
+						<hpRatioLowerThan>0.2</hpRatioLowerThan>
+					</li>
+					<li>
+						<path>Things/AK_Agents/Sniper/Rosmontis/Rosmontis_Break</path>
+						<hpRatioLowerThan>0.8</hpRatioLowerThan> 
+					</li>
+					<li>
+						<path>Things/AK_Agents/Sniper/Rosmontis/Rosmontis</path>
+						<hpRatioLowerThan>1</hpRatioLowerThan> 
+					</li>
+				</paths>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Things/AK_Agents/Sniper/Rosmontis/Rosmontis</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
 	</ThingDef>
 
 	<ThingDef ParentName="AK_ArmorBase_Sniper">
@@ -370,6 +402,18 @@
 		</graphicData>
 		<apparel>
 			<wornGraphicPath>Things/AK_Agents/Sniper/Wisadel</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Sniper">
+		<defName>AK_Apparel_WisadelSuperNova</defName>
+		<label>维什戴尔-超新星</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Sniper/Wisadel_SuperNova</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Sniper/Wisadel_SuperNova</wornGraphicPath>
 		</apparel>
 	</ThingDef>
 

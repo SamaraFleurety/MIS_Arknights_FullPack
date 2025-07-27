@@ -3,7 +3,7 @@
 
     <!-- 维什戴尔的护盾 -->
 
-    <ThingDef ParentName="AKS_BeltBase">
+    <ThingDef ParentName="AKS_BeltBase" Name="AKS_ShieldBelt_Wisadel">
         <defName>AKS_ShieldBelt_Wisadel</defName>
         <label>死魂灵的余息</label>
         <description>要是还没人管这扇门，我就自己来修了啊。喂，死魂灵，出来干活。</description>
@@ -42,6 +42,43 @@
 			</li>
         </comps>
     </ThingDef>
+
+    <!--ThingDef ParentName="AKS_ShieldBelt_Wisadel">
+        <defName>AKS_ShieldBelt_WisadelSuperNova</defName>
+        <label>维什戴尔-超新星</label>
+        <graphicData>
+            <texPath>Things/ShieldBelt/Sniper/ShieldBeltWisadelSuperNova</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps Inherit="False">
+            <li Class="AKS_Shield.TCP_GenericShield">
+                <energyMax>200</energyMax>
+                <energyRegenRate>0.2</energyRegenRate>
+                <energyLostPerDmg>0.01</energyLostPerDmg>
+                <allowEnergyOverflow>false</allowEnergyOverflow>
+                <energyRatioOnReset>0.2</energyRatioOnReset>
+                <ticksToReset>3600</ticksToReset>
+                <canAbsorbMeleeDmg>true</canAbsorbMeleeDmg>
+                <meleeAbsorbFactor>1</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1</rangedAbsorbFactor>
+                <meleeDodgeChanceFactor>0.1</meleeDodgeChanceFactor>
+            </li>
+            <li Class="AKS_Shield.Extension.TCP_ExtraRenderStatic">
+                <bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/Sniper/ShieldBeltWisadelSuperNova</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                    <drawOffsetNorth>(0,0.1,0)</drawOffsetNorth>
+                </bubbleStaticOverlay>
+            </li>
+            <li Class="AKS_Shield.Extension.TCP_ExtraRenderRotate">
+                <bubbleRotateTexPath>Things/ShieldBelt/Sniper/ShieldBeltWisadelSuperNovaD</bubbleRotateTexPath>
+            </li>
+            <li Class="AKS_Shield.Extension.TCP_AddHediffWhileActive">
+				<hediff>AK_Hediff_Camouflage</hediff>
+			</li>
+        </comps>
+    </ThingDef-->
 
     <!-- 提丰的护盾 -->
 

@@ -2100,7 +2100,7 @@
 		</projectile>
 	</ThingDef>
 
-	<ThingDef ParentName="AK_WeaponBase_Sniper">
+	<ThingDef ParentName="AK_WeaponBase_Sniper" Name="AK_Weapon_Wisadel">
 		<defName>AK_Weapon_Wisadel</defName>
 		<label>祖宗发射器</label>
 		<graphicData>
@@ -2171,6 +2171,15 @@
 			<explosionRadius>3.9</explosionRadius>
 			<speed>50</speed>
 		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_Weapon_Wisadel">
+		<defName>AK_Weapon_WisadelSuperNova</defName>
+		<label>维什戴尔-超新星</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Sniper/WisadelSuperNovaW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		  </graphicData>
 	</ThingDef>
 
 	<ThingDef ParentName="AK_WeaponBase_Sniper">
