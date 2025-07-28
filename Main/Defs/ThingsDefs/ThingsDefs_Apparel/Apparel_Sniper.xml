@@ -118,6 +118,30 @@
 	</ThingDef>
 
 	<ThingDef ParentName="AK_ArmorBase_Sniper">
+		<defName>AK_Apparel_RosmontisMusical</defName>
+		<label>迷迭香-音律联觉</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Sniper/RosmontisMusical</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Sniper/RosmontisMusical</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Sniper">
+		<defName>AK_Apparel_RosmontisLawson</defName>
+		<label>迷迭香-罗森联动</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Sniper/RosmontisLawson</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Sniper/RosmontisLawson</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Sniper">
 		<defName>AK_Apparel_Schwarz</defName>
 		<label>黑服装</label>
 		<graphicData>

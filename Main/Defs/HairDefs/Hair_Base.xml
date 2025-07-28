@@ -13,4 +13,10 @@
 		<requiredGene>Skin_Melanin1</requiredGene>
 	</HairDef>
 
+	<HairDef ParentName="AK_HairBaseF">
+		<defName>AK_Hair_Empty</defName>
+		<label>无发型</label>
+		<texPath>Things/Hair/AK_Hair_empty</texPath>
+	</HairDef>
+
 </Defs>

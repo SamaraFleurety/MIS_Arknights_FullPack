@@ -43,6 +43,20 @@
 		<defName>AK_Hair_Rosmontis</defName>
 		<label>迷迭香发型</label>
 		<texPath>Things/Hair/Sniper/Rosmontis</texPath>
+		<noGraphic>true</noGraphic>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_FrontHair">
+				<graphicData>
+					<texPath>Things/Hair/Sniper/Rosmontis</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>0.7</drawSize>
+					<drawOffsetSouth>(0,0,0)</drawOffsetSouth>
+					<drawOffsetNorth>(0,0,0)</drawOffsetNorth>
+					<drawOffsetEast>(0,0,0)</drawOffsetEast>
+					<drawOffsetWest>(0,0,0)</drawOffsetWest>
+				</graphicData>
+			</li>
+		</modExtensions>
 	</HairDef>
 
 	<HairDef ParentName="AK_HairBaseF">

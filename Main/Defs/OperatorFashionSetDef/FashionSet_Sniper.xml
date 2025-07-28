@@ -67,4 +67,24 @@
 		<standIndex>2</standIndex>
 	</Def>
 
+	<Def Class="AK_DLL.OperatorFashionSetDef">
+		<defName>AK_FashionSet_Rosmontis_Musical</defName>
+		<label>RosmontisMusical</label>
+		<hair>AK_Hair_Empty</hair>
+		<apparels>
+			<li>AK_Apparel_RosmontisMusical</li>
+		</apparels>
+		<standIndex>1</standIndex>
+	</Def>
+
+	<Def Class="AK_DLL.OperatorFashionSetDef">
+		<defName>AK_FashionSet_Rosmontis_Lawson</defName>
+		<label>RosmontisLawson</label>
+		<hair>AK_Hair_Empty</hair>
+		<apparels>
+			<li>AK_Apparel_RosmontisLawson</li>
+		</apparels>
+		<standIndex>1</standIndex>
+	</Def>
+
 </Defs>
