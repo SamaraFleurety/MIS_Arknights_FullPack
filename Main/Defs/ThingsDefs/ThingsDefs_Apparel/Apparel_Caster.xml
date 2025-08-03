@@ -474,5 +474,36 @@
         </apparel-->
     </ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Caster">
+        <defName>AK_Apparel_NecrassSummerFlower</defName>
+        <label>死芒-夏卉</label>
+		<thingClass>AKE_OperatorExtension.Apparel_Breakdown</thingClass>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+		</statBases>
+		<modExtensions>
+			<li Class="AKE_OperatorExtension.Ext_ApparelBreakGraphic">
+				<paths>
+					<li>
+						<path>Things/AK_Agents/Caster/Necrass/Necrass_SummerFlower_Naked</path>
+						<hpRatioLowerThan>0.2</hpRatioLowerThan>
+					</li>
+					<li>
+						<path>Things/AK_Agents/Caster/Necrass/Necrass_SummerFlower_Break</path>
+						<hpRatioLowerThan>0.8</hpRatioLowerThan> 
+					</li>
+					<li>
+						<path>Things/AK_Agents/Caster/Necrass/Necrass_SummerFlower</path>
+						<hpRatioLowerThan>1</hpRatioLowerThan> 
+					</li>
+				</paths>
+			</li>
+		</modExtensions>
+        <graphicData>
+            <texPath>Things/AK_Agents/Caster/Necrass/Necrass_SummerFlower</texPath>
+            <graphicClass>Graphic_single</graphicClass>
+        </graphicData>
+    </ThingDef>
 
 </Defs>

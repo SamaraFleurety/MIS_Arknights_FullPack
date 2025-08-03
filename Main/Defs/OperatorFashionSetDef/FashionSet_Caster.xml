@@ -90,5 +90,15 @@
 		<apparelTextureIndex>2</apparelTextureIndex>
 	</Def>
 
+	<Def Class="AK_DLL.OperatorFashionSetDef">
+		<defName>AK_FashionSet_Necrass_SummerFlower</defName>
+		<label>SummerFlower</label>
+		<hair>AK_Hair_Empty</hair>
+		<apparels>
+			<li>AK_Apparel_NecrassSummerFlower</li>
+		</apparels>
+		<weapon>AK_Weapon_NecrassSummerFlower</weapon>
+		<standIndex>2</standIndex>
+	</Def>
 
 </Defs>

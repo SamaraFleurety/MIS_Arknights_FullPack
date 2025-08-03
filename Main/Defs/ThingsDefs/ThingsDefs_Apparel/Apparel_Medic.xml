@@ -267,13 +267,33 @@
 	<ThingDef ParentName="AK_ArmorBase_Medic">
 		<defName>AK_Apparel_FlameSummerFlower</defName>
 		<label>焰影苇草_夏卉</label>
+		<thingClass>AKE_OperatorExtension.Apparel_Breakdown</thingClass>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+		</statBases>
+		<modExtensions>
+			<li Class="AKE_OperatorExtension.Ext_ApparelBreakGraphic">
+				<paths>
+					<li>
+						<path>Things/AK_Agents/Medic/FlameShadow/FlameShadow_SummerFlower_Naked</path>
+						<hpRatioLowerThan>0.2</hpRatioLowerThan>
+					</li>
+					<li>
+						<path>Things/AK_Agents/Medic/FlameShadow/FlameShadow_SummerFlower_Break</path>
+						<hpRatioLowerThan>0.8</hpRatioLowerThan> 
+					</li>
+					<li>
+						<path>Things/AK_Agents/Medic/FlameShadow/FlameShadow_SummerFlower</path>
+						<hpRatioLowerThan>1</hpRatioLowerThan> 
+					</li>
+				</paths>
+			</li>
+		</modExtensions>
 		<graphicData>
-			<texPath>Things/AK_Agents/Medic/FlameShadow_SummerFlower</texPath>
+			<texPath>Things/AK_Agents/Medic/FlameShadow/FlameShadow_SummerFlower</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<apparel>
-			<wornGraphicPath>Things/AK_Agents/Medic/FlameShadow_SummerFlower</wornGraphicPath>
-		</apparel>
 	</ThingDef>
 
 	<ThingDef ParentName="AK_ArmorBase_Medic">

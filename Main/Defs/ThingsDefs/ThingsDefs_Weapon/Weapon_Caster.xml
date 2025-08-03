@@ -2105,5 +2105,13 @@
 		</projectile>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_Weapon_Necrass">
+		<defName>AK_Weapon_NecrassSummerFlower</defName>
+		<label>死芒-夏卉</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Caster/NecrassSummerFlowerW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
 
 </Defs>
