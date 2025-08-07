@@ -86,6 +86,27 @@
     </SpriteEvo.AnimationDef>
 
     <SpriteEvo.AnimationDef>
+        <defName>AK_Spine_nian_cfa_dynillust</defName>
+        <version>3.8</version>
+        <scripts>
+            <li Class="AK_SpineExtention.CMP_L2DCarousel">
+                <PlayInteract>true</PlayInteract>
+                <PlaySpecial>true</PlaySpecial>
+                <IdleInterval>2</IdleInterval>
+            </li>
+        </scripts>
+        <mainAsset>AK_Spine_nian_cfa_dynillust</mainAsset>
+        <props>
+            <OnIMGUI>true</OnIMGUI>
+            <offset>(0,0,0)</offset>
+		    <!--uioffset>(-0.2,4,-28)</uioffset-->
+            <uioffset>(-20,90,-240)</uioffset>
+            <uiDrawSize>(2048,2048)</uiDrawSize>
+		    <scale>(0.2,0.2)</scale>
+        </props>
+    </SpriteEvo.AnimationDef>
+
+    <SpriteEvo.AnimationDef>
         <defName>AK_Spine_Ling_dynillust_E2</defName>
         <version>3.8</version>
         <scripts>
@@ -122,6 +143,27 @@
             <offset>(0,0,0)</offset>
 		    <!--uioffset>(0.5,9,-20)</uioffset-->
             <uioffset>(5,170,-150)</uioffset>
+            <uiDrawSize>(2048,2048)</uiDrawSize>
+		    <scale>(0.2,0.2)</scale>
+        </props>
+    </SpriteEvo.AnimationDef>
+
+    <SpriteEvo.AnimationDef>
+        <defName>AK_Spine_ling_nian_dynillust</defName>
+        <version>3.8</version>
+        <scripts>
+            <li Class="AK_SpineExtention.CMP_L2DCarousel">
+                <PlayInteract>true</PlayInteract>
+                <PlaySpecial>true</PlaySpecial>
+                <IdleInterval>2</IdleInterval>
+            </li>
+        </scripts>
+        <mainAsset>AK_Spine_ling_nian_dynillust</mainAsset>
+        <props>
+            <OnIMGUI>true</OnIMGUI>
+            <offset>(0,0,0)</offset>
+		    <!--uioffset>(-0.2,4,-28)</uioffset-->
+            <uioffset>(-20,90,-240)</uioffset>
             <uiDrawSize>(2048,2048)</uiDrawSize>
 		    <scale>(0.2,0.2)</scale>
         </props>
@@ -170,6 +212,27 @@
     </SpriteEvo.AnimationDef>
 
     <SpriteEvo.AnimationDef>
+        <defName>AK_Spine_Chongyue_cfa_dynillust</defName>
+        <version>3.8</version>
+        <scripts>
+            <li Class="AK_SpineExtention.CMP_L2DCarousel">
+                <PlayInteract>true</PlayInteract>
+                <PlaySpecial>true</PlaySpecial>
+                <IdleInterval>2</IdleInterval>
+            </li>
+        </scripts>
+        <mainAsset>AK_Spine_Chongyue_cfa_dynillust</mainAsset>
+        <props>
+            <OnIMGUI>true</OnIMGUI>
+            <offset>(0,0,0)</offset>
+		    <!--uioffset>(-0.2,4,-28)</uioffset-->
+            <uioffset>(-20,90,-240)</uioffset>
+            <uiDrawSize>(2048,2048)</uiDrawSize>
+		    <scale>(0.2,0.2)</scale>
+        </props>
+    </SpriteEvo.AnimationDef>
+
+    <SpriteEvo.AnimationDef>
         <defName>AK_Spine_Shu_dynillust_E2</defName>
         <version>3.8</version>
         <scripts>
@@ -187,6 +250,48 @@
             <uioffset>(5,130,-150)</uioffset>
             <uiDrawSize>(2048,2048)</uiDrawSize>
 		    <scale>(0.15,0.15)</scale>
+        </props>
+    </SpriteEvo.AnimationDef>
+
+    <SpriteEvo.AnimationDef>
+        <defName>AK_Spine_Shu_nian_dynillust</defName>
+        <version>3.8</version>
+        <scripts>
+            <li Class="AK_SpineExtention.CMP_L2DCarousel">
+                <PlayInteract>true</PlayInteract>
+                <PlaySpecial>true</PlaySpecial>
+                <IdleInterval>2</IdleInterval>
+            </li>
+        </scripts>
+        <mainAsset>AK_Spine_Shu_nian_dynillust</mainAsset>
+        <props>
+            <OnIMGUI>true</OnIMGUI>
+            <offset>(0,0,0)</offset>
+		    <!--uioffset>(-0.2,4,-28)</uioffset-->
+            <uioffset>(-20,90,-240)</uioffset>
+            <uiDrawSize>(2048,2048)</uiDrawSize>
+		    <scale>(0.2,0.2)</scale>
+        </props>
+    </SpriteEvo.AnimationDef>
+
+    <SpriteEvo.AnimationDef>
+        <defName>AK_Spine_yu_dynillust</defName>
+        <version>3.8</version>
+        <scripts>
+            <li Class="AK_SpineExtention.CMP_L2DCarousel">
+                <PlayInteract>true</PlayInteract>
+                <PlaySpecial>true</PlaySpecial>
+                <IdleInterval>2</IdleInterval>
+            </li>
+        </scripts>
+        <mainAsset>AK_Spine_yu_dynillust</mainAsset>
+        <props>
+            <OnIMGUI>true</OnIMGUI>
+            <offset>(0,0,0)</offset>
+		    <!--uioffset>(-0.2,4,-28)</uioffset-->
+            <uioffset>(-20,90,-240)</uioffset>
+            <uiDrawSize>(2048,2048)</uiDrawSize>
+		    <scale>(0.2,0.2)</scale>
         </props>
     </SpriteEvo.AnimationDef>
 
@@ -484,6 +589,106 @@
             </li>
         </scripts>
         <mainAsset>AK_Spine_cello_sale_dynillust</mainAsset>
+        <props>
+            <OnIMGUI>true</OnIMGUI>
+            <offset>(0,0,0)</offset>
+            <uioffset>(0.5,8,-20)</uioffset>
+            <uiDrawSize>(2048,2048)</uiDrawSize>
+            <scale>(1.5,1.5)</scale>
+        </props>
+    </SpriteEvo.AnimationDef>
+
+    <SpriteEvo.AnimationDef>
+        <defName>AK_Spine_rosmon_dynillust</defName>
+        <version>3.8</version>
+        <scripts>
+            <li Class="AK_SpineExtention.CMP_L2DCarousel">
+                <PlayInteract>true</PlayInteract>
+                <PlaySpecial>true</PlaySpecial>
+                <IdleInterval>2</IdleInterval>
+            </li>
+        </scripts>
+        <mainAsset>AK_Spine_rosmon_dynillust</mainAsset>
+        <props>
+            <OnIMGUI>true</OnIMGUI>
+            <offset>(0,0,0)</offset>
+            <uioffset>(0.5,8,-20)</uioffset>
+            <uiDrawSize>(2048,2048)</uiDrawSize>
+            <scale>(1.5,1.5)</scale>
+        </props>
+    </SpriteEvo.AnimationDef>
+
+    <SpriteEvo.AnimationDef>
+        <defName>AK_Spine_rosmon_epoque_dynillust</defName>
+        <version>3.8</version>
+        <scripts>
+            <li Class="AK_SpineExtention.CMP_L2DCarousel">
+                <PlayInteract>true</PlayInteract>
+                <PlaySpecial>true</PlaySpecial>
+                <IdleInterval>2</IdleInterval>
+            </li>
+        </scripts>
+        <mainAsset>AK_Spine_rosmon_epoque_dynillust</mainAsset>
+        <props>
+            <OnIMGUI>true</OnIMGUI>
+            <offset>(0,0,0)</offset>
+            <uioffset>(0.5,8,-20)</uioffset>
+            <uiDrawSize>(2048,2048)</uiDrawSize>
+            <scale>(1.5,1.5)</scale>
+        </props>
+    </SpriteEvo.AnimationDef>
+
+    <SpriteEvo.AnimationDef>
+        <defName>AK_Spine_nearl2_dynillust</defName>
+        <version>3.8</version>
+        <scripts>
+            <li Class="AK_SpineExtention.CMP_L2DCarousel">
+                <PlayInteract>true</PlayInteract>
+                <PlaySpecial>true</PlaySpecial>
+                <IdleInterval>2</IdleInterval>
+            </li>
+        </scripts>
+        <mainAsset>AK_Spine_nearl2_dynillust</mainAsset>
+        <props>
+            <OnIMGUI>true</OnIMGUI>
+            <offset>(0,0,0)</offset>
+            <uioffset>(0.5,8,-20)</uioffset>
+            <uiDrawSize>(2048,2048)</uiDrawSize>
+            <scale>(1.5,1.5)</scale>
+        </props>
+    </SpriteEvo.AnimationDef>
+
+    <SpriteEvo.AnimationDef>
+        <defName>AK_Spine_nearl2_epoque_dynillust</defName>
+        <version>3.8</version>
+        <scripts>
+            <li Class="AK_SpineExtention.CMP_L2DCarousel">
+                <PlayInteract>true</PlayInteract>
+                <PlaySpecial>true</PlaySpecial>
+                <IdleInterval>2</IdleInterval>
+            </li>
+        </scripts>
+        <mainAsset>AK_Spine_nearl2_epoque_dynillust</mainAsset>
+        <props>
+            <OnIMGUI>true</OnIMGUI>
+            <offset>(0,0,0)</offset>
+            <uioffset>(0.5,8,-20)</uioffset>
+            <uiDrawSize>(2048,2048)</uiDrawSize>
+            <scale>(1.5,1.5)</scale>
+        </props>
+    </SpriteEvo.AnimationDef>
+
+    <SpriteEvo.AnimationDef>
+        <defName>AK_Spine_ines_boc_dynillust</defName>
+        <version>3.8</version>
+        <scripts>
+            <li Class="AK_SpineExtention.CMP_L2DCarousel">
+                <PlayInteract>true</PlayInteract>
+                <PlaySpecial>true</PlaySpecial>
+                <IdleInterval>2</IdleInterval>
+            </li>
+        </scripts>
+        <mainAsset>AK_Spine_ines_boc_dynillust</mainAsset>
         <props>
             <OnIMGUI>true</OnIMGUI>
             <offset>(0,0,0)</offset>

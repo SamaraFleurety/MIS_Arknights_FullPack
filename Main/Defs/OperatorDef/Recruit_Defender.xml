@@ -648,6 +648,7 @@
 		</items>
 		<clothSets>
 			<li>AK_FashionSet_Nian_UnfetteredFreedom</li>
+			<li>AK_Spine_nian_cfa_dynillust</li>
 		</clothSets>
 	</AK_DLL.OperatorDef>
 
@@ -2053,6 +2054,7 @@
 		</accessory>
 		<fashionAnimation>
 		    <li>AK_Spine_Shu_dynillust_E2</li>
+			<li>AK_Spine_Shu_nian_dynillust</li>
 		</fashionAnimation>
 		<skills>
 			<li>
@@ -2276,6 +2278,9 @@
 				<value>Sibling</value>
 			</li>
 		</relations>
+		<fashionAnimation>
+		    <li>AK_Spine_yu_dynillust</li>
+		</fashionAnimation>
 	</AK_DLL.OperatorDef>
 
 </Defs>

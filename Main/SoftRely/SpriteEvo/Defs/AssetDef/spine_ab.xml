@@ -68,6 +68,21 @@
             </materials>
         </asset>
     </SpriteEvo.SpineAssetDef>
+    
+    <SpriteEvo.SpineAssetDef>
+        <defName>AK_Spine_nian_cfa_dynillust</defName>
+        <asset>
+            <StraightAlphaInput>true</StraightAlphaInput>
+            <version>3.8</version>
+            <filePath>Spine/asset_dyn_suifamily</filePath>
+            <seriesname>dyn_illust_char_2014_nian_cfa#1</seriesname>
+            <atlas>dyn_illust_char_2014_nian_cfa#1.atlas.txt</atlas>
+            <skeleton>dyn_illust_char_2014_nian_cfa#1.skel.bytes</skeleton>
+            <materials>
+                <li>dyn_illust_char_2014_nian_cfa#1_Material</li>
+            </materials>
+        </asset>
+    </SpriteEvo.SpineAssetDef>
 
 	<SpriteEvo.SpineAssetDef>
         <defName>AK_Spine_Ling_dynillust_E2</defName>
@@ -93,6 +108,21 @@
             <materials>
                 <li>dyn_illust_char_2023_ling_ncg#1_Material</li>
                 <li>dyn_illust_char_2023_ling_ncg#1_Material-Additive</li>
+            </materials>
+        </asset>
+    </SpriteEvo.SpineAssetDef>
+
+    <SpriteEvo.SpineAssetDef>
+        <defName>AK_Spine_ling_nian_dynillust</defName>
+        <asset>
+            <StraightAlphaInput>true</StraightAlphaInput>
+            <version>3.8</version>
+            <filePath>Spine/asset_dyn_suifamily</filePath>
+            <seriesname>dyn_illust_char_2023_ling_nian#9</seriesname>
+            <atlas>dyn_illust_char_2023_ling_nian#9.atlas.txt</atlas>
+            <skeleton>dyn_illust_char_2023_ling_nian#9.skel.bytes</skeleton>
+            <materials>
+                <li>dyn_illust_char_2023_ling_nian#9_Material</li>
             </materials>
         </asset>
     </SpriteEvo.SpineAssetDef>
@@ -124,6 +154,21 @@
         </asset>
     </SpriteEvo.SpineAssetDef>
 
+    <SpriteEvo.SpineAssetDef>
+        <defName>AK_Spine_Chongyue_cfa_dynillust</defName>
+        <asset>
+            <StraightAlphaInput>true</StraightAlphaInput>
+            <version>3.8</version>
+            <filePath>Spine/asset_dyn_suifamily</filePath>
+            <seriesname>dyn_illust_char_2024_chyue_cfa#1</seriesname>
+            <atlas>dyn_illust_char_2024_chyue_cfa#1.atlas.txt</atlas>
+            <skeleton>dyn_illust_char_2024_chyue_cfa#1.skel.bytes</skeleton>
+            <materials>
+                <li>dyn_illust_char_2024_chyue_cfa#1_Material</li>
+            </materials>
+        </asset>
+    </SpriteEvo.SpineAssetDef>
+
 	<SpriteEvo.SpineAssetDef>
         <defName>AK_Spine_Shu_dynillust_E2</defName>
         <asset>
@@ -133,6 +178,36 @@
             <seriesname>dyn_illust_char_2025_shu</seriesname>
             <materials>
                 <li>dyn_illust_char_2025_shu_Material</li>
+            </materials>
+        </asset>
+    </SpriteEvo.SpineAssetDef>
+
+    <SpriteEvo.SpineAssetDef>
+        <defName>AK_Spine_Shu_nian_dynillust</defName>
+        <asset>
+            <StraightAlphaInput>true</StraightAlphaInput>
+            <version>3.8</version>
+            <filePath>Spine/asset_dyn_suifamily</filePath>
+            <seriesname>dyn_illust_char_2025_shu_nian#11</seriesname>
+            <atlas>dyn_illust_char_2025_shu_nian#11.atlas.txt</atlas>
+            <skeleton>dyn_illust_char_2025_shu_nian#11.skel.bytes</skeleton>
+            <materials>
+                <li>dyn_illust_char_2025_shu_nian#11_Material</li>
+            </materials>
+        </asset>
+    </SpriteEvo.SpineAssetDef>
+
+    <SpriteEvo.SpineAssetDef>
+        <defName>AK_Spine_yu_dynillust</defName>
+        <asset>
+            <StraightAlphaInput>true</StraightAlphaInput>
+            <version>3.8</version>
+            <filePath>Spine/asset_dyn_suifamily</filePath>
+            <seriesname>dyn_illust_char_2026_yu</seriesname>
+            <atlas>dyn_illust_char_2026_yu.atlas.txt</atlas>
+            <skeleton>dyn_illust_char_2026_yu.skel.bytes</skeleton>
+            <materials>
+                <li>dyn_illust_char_2026_yu_Material</li>
             </materials>
         </asset>
     </SpriteEvo.SpineAssetDef>
@@ -377,6 +452,81 @@
             <skeleton>dyn_illust_char_245_cello_sale#12.skel.bytes</skeleton>
             <materials>
                 <li>dyn_illust_char_245_cello_sale#12_Material</li>
+            </materials>
+        </asset>
+    </SpriteEvo.SpineAssetDef>
+
+    <SpriteEvo.SpineAssetDef>
+        <defName>AK_Spine_rosmon_dynillust</defName>
+        <asset>
+            <StraightAlphaInput>true</StraightAlphaInput>
+            <version>3.8</version>
+            <filePath>Spine/asset_dyn_rosmon</filePath>
+            <seriesname>dyn_illust_char_391_rosmon</seriesname>
+            <atlas>dyn_illust_char_391_rosmon.atlas.txt</atlas>
+            <skeleton>dyn_illust_char_391_rosmon.skel.bytes</skeleton>
+            <materials>
+                <li>dyn_illust_char_391_rosmon_Material</li>
+            </materials>
+        </asset>
+    </SpriteEvo.SpineAssetDef>
+
+    <SpriteEvo.SpineAssetDef>
+        <defName>AK_Spine_rosmon_epoque_dynillust</defName>
+        <asset>
+            <StraightAlphaInput>true</StraightAlphaInput>
+            <version>3.8</version>
+            <filePath>Spine/asset_dyn_rosmon</filePath>
+            <seriesname>dyn_illust_char_391_rosmon_epoque#17</seriesname>
+            <atlas>dyn_illust_char_391_rosmon_epoque#17.atlas.txt</atlas>
+            <skeleton>dyn_illust_char_391_rosmon_epoque#17.skel.bytes</skeleton>
+            <materials>
+                <li>dyn_illust_char_391_rosmon_epoque#17_Material</li>
+            </materials>
+        </asset>
+    </SpriteEvo.SpineAssetDef>
+
+    <SpriteEvo.SpineAssetDef>
+        <defName>AK_Spine_nearl2_dynillust</defName>
+        <asset>
+            <StraightAlphaInput>true</StraightAlphaInput>
+            <version>3.8</version>
+            <filePath>Spine/asset_dyn_nearl2</filePath>
+            <seriesname>dyn_illust_char_1014_nearl2</seriesname>
+            <atlas>dyn_illust_char_1014_nearl2.atlas.txt</atlas>
+            <skeleton>dyn_illust_char_1014_nearl2.skel.bytes</skeleton>
+            <materials>
+                <li>dyn_illust_char_1014_nearl2_Material</li>
+            </materials>
+        </asset>
+    </SpriteEvo.SpineAssetDef>
+
+    <SpriteEvo.SpineAssetDef>
+        <defName>AK_Spine_nearl2_epoque_dynillust</defName>
+        <asset>
+            <StraightAlphaInput>true</StraightAlphaInput>
+            <version>3.8</version>
+            <filePath>Spine/asset_dyn_nearl2</filePath>
+            <seriesname>dyn_illust_char_1014_nearl2_epoque#17</seriesname>
+            <atlas>dyn_illust_char_1014_nearl2_epoque#17.atlas.txt</atlas>
+            <skeleton>dyn_illust_char_1014_nearl2_epoque#17.skel.bytes</skeleton>
+            <materials>
+                <li>dyn_illust_char_1014_nearl2_epoque#17_Material</li>
+            </materials>
+        </asset>
+    </SpriteEvo.SpineAssetDef>
+
+    <SpriteEvo.SpineAssetDef>
+        <defName>AK_Spine_ines_boc_dynillust</defName>
+        <asset>
+            <StraightAlphaInput>true</StraightAlphaInput>
+            <version>3.8</version>
+            <filePath>Spine/asset_dyn_ines</filePath>
+            <seriesname>dyn_illust_char_4087_ines_boc#8</seriesname>
+            <atlas>dyn_illust_char_4087_ines_boc#8.atlas.txt</atlas>
+            <skeleton>dyn_illust_char_4087_ines_boc#8.skel.bytes</skeleton>
+            <materials>
+                <li>dyn_illust_char_4087_ines_boc#8_Material</li>
             </materials>
         </asset>
     </SpriteEvo.SpineAssetDef>
