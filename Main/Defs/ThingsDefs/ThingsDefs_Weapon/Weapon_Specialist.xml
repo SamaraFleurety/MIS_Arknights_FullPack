@@ -1145,7 +1145,7 @@
         <soundCast>Shot_BeamRepeater</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>8</muzzleFlashScale>
-        <aimingChargeMote>Mote_BeamRepeater_Charge</aimingChargeMote>
+        <aimingChargeMote MayRequire="Ludeon.RimWorld.Odyssey">Mote_BeamRepeater_Charge</aimingChargeMote>
       </li>
     </verbs>
     <tools>
@@ -1169,9 +1169,9 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
-      <damageDef>BeamBypassShields</damageDef>
+      <damageDef MayRequire="Ludeon.RimWorld.Odyssey">BeamBypassShields</damageDef>
       <damageAmountBase>30</damageAmountBase>
-      <beamMoteDef>Mote_BeamRepeaterLaser</beamMoteDef>
+      <beamMoteDef MayRequire="Ludeon.RimWorld.Odyssey">Mote_BeamRepeaterLaser</beamMoteDef>
       <beamStartOffset>0.1</beamStartOffset>
       <armorPenetrationBase>0.9</armorPenetrationBase>
     </projectile>
