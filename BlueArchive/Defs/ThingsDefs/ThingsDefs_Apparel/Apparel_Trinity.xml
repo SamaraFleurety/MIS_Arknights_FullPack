@@ -82,6 +82,38 @@
 	</ThingDef>
 
 	<ThingDef ParentName="BA_ArmorBase_Trinity">
+        <defName>BA_Apparel_HasumiSwimsuit</defName>
+        <label>莲见的泳装</label>
+		<thingClass>AKE_OperatorExtension.Apparel_Breakdown</thingClass>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+		</statBases>
+		<modExtensions>
+			<li Class="AKE_OperatorExtension.Ext_ApparelBreakGraphic">
+				<paths>
+					<li>
+						<path>Things/BA_Students/Trinity/Hasumi/Hasumi_Swimsuit_Naked</path>
+						<hpRatioLowerThan>0.2</hpRatioLowerThan>
+					</li>
+					<li>
+						<path>Things/BA_Students/Trinity/Hasumi/Hasumi_Swimsuit_Break</path>
+						<hpRatioLowerThan>0.8</hpRatioLowerThan> 
+					</li>
+					<li>
+						<path>Things/BA_Students/Trinity/Hasumi/Hasumi_Swimsuit</path>
+						<hpRatioLowerThan>1</hpRatioLowerThan> 
+					</li>
+				</paths>
+			</li>
+		</modExtensions>
+        <graphicData>
+            <texPath>Things/BA_Students/Trinity/Hasumi/Hasumi_Swimsuit</texPath>
+            <graphicClass>Graphic_single</graphicClass>
+        </graphicData>
+    </ThingDef>
+
+	<ThingDef ParentName="BA_ArmorBase_Trinity">
 		<defName>BA_Apparel_Hifumi</defName>
 		<label>日富美的服装</label>
 		<description>日富美的圣三一制服，有着大量日富美喜欢的佩洛洛周边和装饰</description>
