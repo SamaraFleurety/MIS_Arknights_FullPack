@@ -16,8 +16,8 @@
         <comps>
             <li Class="AKS_Shield.TCP_GenericShield">
                 <energyMax>200</energyMax>
-                <energyRegenRate>0.2</energyRegenRate>
-                <energyLostPerDmg>0.01</energyLostPerDmg>
+                <energyRegenRate>20</energyRegenRate>
+                <energyLostPerDmg>1</energyLostPerDmg>
                 <allowEnergyOverflow>false</allowEnergyOverflow>
                 <energyRatioOnReset>0.2</energyRatioOnReset>
                 <ticksToReset>3600</ticksToReset>
@@ -43,7 +43,7 @@
         </comps>
     </ThingDef>
 
-    <!--ThingDef ParentName="AKS_ShieldBelt_Wisadel">
+    <ThingDef ParentName="AKS_ShieldBelt_Wisadel">
         <defName>AKS_ShieldBelt_WisadelSuperNova</defName>
         <label>维什戴尔-超新星</label>
         <graphicData>
@@ -78,7 +78,7 @@
 				<hediff>AK_Hediff_Camouflage</hediff>
 			</li>
         </comps>
-    </ThingDef-->
+    </ThingDef>
 
     <!-- 提丰的护盾 -->
 
@@ -95,8 +95,8 @@
         <comps>
             <li Class="AKS_Shield.TCP_GenericShield">
                 <energyMax>180</energyMax>
-                <energyRegenRate>0.2</energyRegenRate>
-                <energyLostPerDmg>0.01</energyLostPerDmg>
+                <energyRegenRate>20</energyRegenRate>
+                <energyLostPerDmg>1</energyLostPerDmg>
                 <allowEnergyOverflow>false</allowEnergyOverflow>
                 <energyRatioOnReset>0.3</energyRatioOnReset>
                 <ticksToReset>4680</ticksToReset>
@@ -134,8 +134,8 @@
         <comps>
             <li Class="AKS_Shield.TCP_GenericShield">
                 <energyMax>180</energyMax>
-                <energyRegenRate>0.2</energyRegenRate>
-                <energyLostPerDmg>0.01</energyLostPerDmg>
+                <energyRegenRate>20</energyRegenRate>
+                <energyLostPerDmg>1</energyLostPerDmg>
                 <allowEnergyOverflow>false</allowEnergyOverflow>
                 <energyRatioOnReset>0.3</energyRatioOnReset>
                 <ticksToReset>4680</ticksToReset>
@@ -161,7 +161,7 @@
     <ThingDef ParentName="AKS_BeltBase">
         <defName>AKS_ShieldBelt_ChenHolungday</defName>
         <label>堇青之夜</label>
-        <description>工程部为莱在使用护盾更有效的时候，陈会毫不犹豫地去使用。这并不意味着她不再信任自己的剑术和腰间的赤霄，只是她强迫自己去理解，如果她要达成目的，那么，在不违背底线的情况下，她应当开拓自己的视野。伊改装的专用护盾腰带，能够有效防止在外勤任务中受到意外伤害，莱伊在点头示意并“嗯”了一声后便接过了它。</description>
+        <description>在使用护盾更有效的时候，陈会毫不犹豫地去使用。这并不意味着她不再信任自己的剑术和腰间的赤霄，只是她强迫自己去理解，如果她要达成目的，那么，在不违背底线的情况下，她应当开拓自己的视野。</description>
         <statBases>
         </statBases>
         <graphicData>
@@ -171,8 +171,8 @@
         <comps>
             <li Class="AKS_Shield.TCP_GenericShield">
                 <energyMax>150</energyMax>
-                <energyRegenRate>0.18</energyRegenRate>
-                <energyLostPerDmg>0.15</energyLostPerDmg>
+                <energyRegenRate>18</energyRegenRate>
+                <energyLostPerDmg>1.5</energyLostPerDmg>
                 <allowEnergyOverflow>false</allowEnergyOverflow>
                 <energyRatioOnReset>1</energyRatioOnReset>
                 <ticksToReset>2400</ticksToReset>

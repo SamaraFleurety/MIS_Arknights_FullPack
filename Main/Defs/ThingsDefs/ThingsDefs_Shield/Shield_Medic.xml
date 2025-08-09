@@ -16,8 +16,8 @@
         <comps>
             <li Class="AKS_Shield.TCP_GenericShield">
                 <energyMax>200</energyMax>
-                <energyRegenRate>0.2</energyRegenRate>
-                <energyLostPerDmg>0.01</energyLostPerDmg>
+                <energyRegenRate>20</energyRegenRate>
+                <energyLostPerDmg>1</energyLostPerDmg>
                 <allowEnergyOverflow>false</allowEnergyOverflow>
                 <energyRatioOnReset>0.3</energyRatioOnReset>
                 <ticksToReset>1800</ticksToReset>
@@ -54,8 +54,8 @@
         <comps>
             <li Class="AKS_Shield.TCP_GenericShield">
                 <energyMax>200</energyMax>
-                <energyRegenRate>0.2</energyRegenRate>
-                <energyLostPerDmg>0.01</energyLostPerDmg>
+                <energyRegenRate>20</energyRegenRate>
+                <energyLostPerDmg>1</energyLostPerDmg>
                 <allowEnergyOverflow>false</allowEnergyOverflow>
                 <energyRatioOnReset>0.3</energyRatioOnReset>
                 <ticksToReset>1800</ticksToReset>
@@ -92,8 +92,8 @@
         <comps>
             <li Class="AKS_Shield.TCP_GenericShield">
                 <energyMax>200</energyMax>
-                <energyRegenRate>0.3</energyRegenRate>
-                <energyLostPerDmg>0.015</energyLostPerDmg>
+                <energyRegenRate>30</energyRegenRate>
+                <energyLostPerDmg>1.5</energyLostPerDmg>
                 <allowEnergyOverflow>false</allowEnergyOverflow>
                 <energyRatioOnReset>0.3</energyRatioOnReset>
                 <ticksToReset>4800</ticksToReset>
@@ -127,8 +127,8 @@
         <comps>
             <li Class="AKS_Shield.TCP_GenericShield">
                 <energyMax>200</energyMax>
-                <energyRegenRate>0.3</energyRegenRate>
-                <energyLostPerDmg>0.015</energyLostPerDmg>
+                <energyRegenRate>30</energyRegenRate>
+                <energyLostPerDmg>1.5</energyLostPerDmg>
                 <allowEnergyOverflow>false</allowEnergyOverflow>
                 <energyRatioOnReset>0.3</energyRatioOnReset>
                 <ticksToReset>4800</ticksToReset>
@@ -162,8 +162,8 @@
         <comps>
             <li Class="AKS_Shield.TCP_GenericShield">
                 <energyMax>400</energyMax>
-                <energyRegenRate>0.1</energyRegenRate>
-                <energyLostPerDmg>0.015</energyLostPerDmg>
+                <energyRegenRate>10</energyRegenRate>
+                <energyLostPerDmg>1.5</energyLostPerDmg>
                 <allowEnergyOverflow>false</allowEnergyOverflow>
                 <energyRatioOnReset>0.2</energyRatioOnReset>
                 <ticksToReset>6000</ticksToReset>
@@ -184,5 +184,43 @@
             </li>
         </comps>
     </ThingDef>
+
+    <!-- Mon3tr的护盾 -->
+
+    <!--ThingDef ParentName="AKS_BeltBase">
+        <defName>AKS_ShieldBelt_Mon3tr</defName>
+        <label></label>
+        <description></description>
+        <statBases>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/Medic/ShieldBeltMon3tr</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="AKS_Shield.TCP_GenericShield">
+                <energyMax>300</energyMax>
+                <energyRegenRate>20</energyRegenRate>
+                <energyLostPerDmg>1.5</energyLostPerDmg>
+                <allowEnergyOverflow>false</allowEnergyOverflow>
+                <energyRatioOnReset>0.2</energyRatioOnReset>
+                <ticksToReset>6000</ticksToReset>
+                <canAbsorbMeleeDmg>true</canAbsorbMeleeDmg>
+                <meleeAbsorbFactor>1</meleeAbsorbFactor>
+                <rangedAbsorbFactor>2</rangedAbsorbFactor>
+            </li>
+            <li Class="AKS_Shield.Extension.TCP_ExtraRenderStatic">
+                <bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/Medic/</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(3,3)</drawSize>
+                    <drawOffset>(0,0,0.2)</drawOffset>
+                </bubbleStaticOverlay>
+            </li>
+            <li Class="AKS_Shield.Extension.TCP_ExtraRenderRotate">
+                <bubbleRotateTexPath>Things/ShieldBelt/Medic/</bubbleRotateTexPath>
+            </li>
+        </comps>
+    </ThingDef-->
 
 </Defs>

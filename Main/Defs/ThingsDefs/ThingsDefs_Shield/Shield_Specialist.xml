@@ -16,8 +16,8 @@
         <comps>
             <li Class="AKS_Shield.TCP_GenericShield">
                 <energyMax>120</energyMax>
-                <energyRegenRate>0.4</energyRegenRate>
-                <energyLostPerDmg>0.01</energyLostPerDmg>
+                <energyRegenRate>40</energyRegenRate>
+                <energyLostPerDmg>1</energyLostPerDmg>
                 <allowEnergyOverflow>false</allowEnergyOverflow>
                 <energyRatioOnReset>0.2</energyRatioOnReset>
                 <ticksToReset>2400</ticksToReset>
@@ -51,8 +51,8 @@
         <comps>
             <li Class="AKS_Shield.TCP_GenericShield">
                 <energyMax>180</energyMax>
-                <energyRegenRate>0.2</energyRegenRate>
-                <energyLostPerDmg>0.01</energyLostPerDmg>
+                <energyRegenRate>20</energyRegenRate>
+                <energyLostPerDmg>1</energyLostPerDmg>
                 <allowEnergyOverflow>false</allowEnergyOverflow>
                 <energyRatioOnReset>0.3</energyRatioOnReset>
                 <ticksToReset>3600</ticksToReset>
@@ -85,8 +85,8 @@
         <comps>
             <li Class="AKS_Shield.TCP_GenericShield">
                 <energyMax>100</energyMax>
-                <energyRegenRate>0.25</energyRegenRate>
-                <energyLostPerDmg>0.01</energyLostPerDmg>
+                <energyRegenRate>25</energyRegenRate>
+                <energyLostPerDmg>1</energyLostPerDmg>
                 <allowEnergyOverflow>false</allowEnergyOverflow>
                 <energyRatioOnReset>0.3</energyRatioOnReset>
                 <ticksToReset>4680</ticksToReset>
@@ -127,8 +127,8 @@
         <comps>
             <li Class="AKS_Shield.TCP_GenericShield">
                 <energyMax>400</energyMax>
-                <energyRegenRate>0.1</energyRegenRate>
-                <energyLostPerDmg>0.015</energyLostPerDmg>
+                <energyRegenRate>10</energyRegenRate>
+                <energyLostPerDmg>1.5</energyLostPerDmg>
                 <allowEnergyOverflow>false</allowEnergyOverflow>
                 <energyRatioOnReset>0.2</energyRatioOnReset>
                 <ticksToReset>6000</ticksToReset>
@@ -164,8 +164,8 @@
         <comps>
             <li Class="AKS_Shield.TCP_GenericShield">
                 <energyMax>400</energyMax>
-                <energyRegenRate>0.1</energyRegenRate>
-                <energyLostPerDmg>0.015</energyLostPerDmg>
+                <energyRegenRate>10</energyRegenRate>
+                <energyLostPerDmg>1.5</energyLostPerDmg>
                 <allowEnergyOverflow>false</allowEnergyOverflow>
                 <energyRatioOnReset>0.2</energyRatioOnReset>
                 <ticksToReset>6000</ticksToReset>
@@ -199,8 +199,8 @@
         <comps>
             <li Class="AKS_Shield.TCP_GenericShield">
                 <energyMax>150</energyMax>
-                <energyRegenRate>0.18</energyRegenRate>
-                <energyLostPerDmg>0.015</energyLostPerDmg>
+                <energyRegenRate>18</energyRegenRate>
+                <energyLostPerDmg>1.5</energyLostPerDmg>
                 <allowEnergyOverflow>false</allowEnergyOverflow>
                 <energyRatioOnReset>1</energyRatioOnReset>
                 <ticksToReset>2400</ticksToReset>
