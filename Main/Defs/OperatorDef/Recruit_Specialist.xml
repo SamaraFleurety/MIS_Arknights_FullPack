@@ -196,7 +196,7 @@
 		<childHood>AK_BackStory_Red_Child</childHood>
 		<adultHood>AK_BackStory_Red_Adult</adultHood>
 		<clothSets>
-		    <li>AK_FashionSet_Red_LightBreeze</li>
+			<li>AK_FashionSet_Red_LightBreeze</li>
 		</clothSets>
 	</AK_DLL.OperatorDef>
 
@@ -399,7 +399,7 @@
 		<childHood>AK_BackStory_Weedy_Child</childHood>
 		<adultHood>AK_BackStory_Weedy_Adult</adultHood>
 		<clothSets>
-		    <li>AK_FashionSet_Weedy_Sedjem</li>
+			<li>AK_FashionSet_Weedy_Sedjem</li>
 		</clothSets>
 	</AK_DLL.OperatorDef>
 
@@ -1602,50 +1602,50 @@
 	<!-- 缄默德克萨斯 -->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Specialist">
-        <defName>AK_Recruit_TexastheOmertosa</defName>
-        <name>TexastheOmertosa</name>
-        <nickname>TexastheOmertosa</nickname>
-        <description>Fixme</description>
-        <weapon>AK_Weapon_TexastheOmertosaA</weapon>
-        <hair>AK_Hair_TexastheOmertosa</hair>
-        <apparels>
-            <li>AK_Apparel_TexasOmertosa</li>
-        </apparels>
-        <stand>UI/Image/Specialist/TexastheOmertosaStand</stand>
-        <headPortrait>UI/Image/Specialist/TexastheOmertosaPortrait</headPortrait>
-        <traits>
-            <li>
-                <def>Beauty</def>
+		<defName>AK_Recruit_TexastheOmertosa</defName>
+		<name>TexastheOmertosa</name>
+		<nickname>TexastheOmertosa</nickname>
+		<description>Fixme</description>
+		<weapon>AK_Weapon_TexastheOmertosaA</weapon>
+		<hair>AK_Hair_TexastheOmertosa</hair>
+		<apparels>
+			<li>AK_Apparel_TexasOmertosa</li>
+		</apparels>
+		<stand>UI/Image/Specialist/TexastheOmertosaStand</stand>
+		<headPortrait>UI/Image/Specialist/TexastheOmertosaPortrait</headPortrait>
+		<traits>
+			<li>
+				<def>Beauty</def>
 				<degree>2</degree>
-            </li>
-            <li>
-                <def>AK_Trait_TexastheOmertosa</def>
-            </li>
-            <li>
-                <def>AK_Trait_TexastheOmertosaSecond</def>
-            </li>
-            <li>
-                <def>AK_Trait_Texas</def>
-            </li>
-            <li>
-                <def>Nimble</def>
-            </li>
-        </traits>
-        <age>20</age>
-        <childHood>AK_BackStory_Texas_Child</childHood>
-        <adultHood>AK_BackStory_Texas_Adult</adultHood>
-        <skills>
-            <li>
-                <skill>Animals</skill>
-                <level>3</level>
-                <fireLevel>0</fireLevel>
-            </li>
-            <li>
-                <skill>Artistic</skill>
-                <level>6</level>
-                <fireLevel>0</fireLevel>
-            </li>
-            <li>
+			</li>
+			<li>
+				<def>AK_Trait_TexastheOmertosa</def>
+			</li>
+			<li>
+				<def>AK_Trait_TexastheOmertosaSecond</def>
+			</li>
+			<li>
+				<def>AK_Trait_Texas</def>
+			</li>
+			<li>
+				<def>Nimble</def>
+			</li>
+		</traits>
+		<age>20</age>
+		<childHood>AK_BackStory_Texas_Child</childHood>
+		<adultHood>AK_BackStory_Texas_Adult</adultHood>
+		<skills>
+			<li>
+				<skill>Animals</skill>
+				<level>3</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Artistic</skill>
+				<level>6</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
 				<skill>Construction</skill>
 				<level>2</level>
 				<fireLevel>0</fireLevel>
@@ -1695,7 +1695,7 @@
 				<level>11</level>
 				<fireLevel>2</fireLevel>
 			</li>
-        </skills>
+		</skills>
 		<items>
 			<li>
 				<item>AK_Weapon_TexastheOmertosaB</item>
@@ -1705,51 +1705,51 @@
 		<clothSets>
 			<li>AK_FashionSet_TexastheOmertosa_IlSegretoDellaNotte</li>
 		</clothSets>
-    </AK_DLL.OperatorDef>
+	</AK_DLL.OperatorDef>
 
 	<!-- 新约能天使 -->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Specialist">
-        <defName>AK_Recruit_ExusiaitheNewCovenant</defName>
-        <name>Exusiai the New Covenant</name>
-        <nickname>Exusiai</nickname>
-        <description>Fixme</description>
-        <weapon>AK_Weapon_ExusiaitheNewCovenant</weapon>
-        <hair>AK_Hair_ExusiaitheNewCovenant</hair>
-        <apparels>
-            <li>AK_Apparel_ExusiaitheNewCovenant</li>
-        </apparels>
+		<defName>AK_Recruit_ExusiaitheNewCovenant</defName>
+		<name>Exusiai the New Covenant</name>
+		<nickname>Exusiai</nickname>
+		<description>Fixme</description>
+		<weapon>AK_Weapon_ExusiaitheNewCovenant</weapon>
+		<hair>AK_Hair_ExusiaitheNewCovenant</hair>
+		<apparels>
+			<li>AK_Apparel_ExusiaitheNewCovenant</li>
+		</apparels>
 		<traits>
-            <li>
-                <def>Beauty</def>
+			<li>
+				<def>Beauty</def>
 				<degree>2</degree>
-            </li>
-            <li>
-                <def>AK_Trait_ExusiaitheNewCovenant</def>
-            </li>
-            <li>
-                <def>AK_Trait_ExusiaitheNewCovenantSecond</def>
-            </li>
-            <li>
-                <def>NaturalMood</def>
+			</li>
+			<li>
+				<def>AK_Trait_ExusiaitheNewCovenant</def>
+			</li>
+			<li>
+				<def>AK_Trait_ExusiaitheNewCovenantSecond</def>
+			</li>
+			<li>
+				<def>NaturalMood</def>
 				<degree>2</degree>
-            </li>
-        </traits>
-        <age>20</age>
-        <childHood>AK_BackStory_Exusiai_Child</childHood>
-        <adultHood>AK_BackStory_ExusiaitheNewCovenant_Adult</adultHood>
-        <skills>
-            <li>
-                <skill>Animals</skill>
-                <level>2</level>
-                <fireLevel>0</fireLevel>
-            </li>
-            <li>
-                <skill>Artistic</skill>
-                <level>10</level>
-                <fireLevel>1</fireLevel>
-            </li>
-            <li>
+			</li>
+		</traits>
+		<age>20</age>
+		<childHood>AK_BackStory_Exusiai_Child</childHood>
+		<adultHood>AK_BackStory_ExusiaitheNewCovenant_Adult</adultHood>
+		<skills>
+			<li>
+				<skill>Animals</skill>
+				<level>2</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Artistic</skill>
+				<level>10</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
 				<skill>Construction</skill>
 				<level>8</level>
 				<fireLevel>0</fireLevel>
@@ -1799,13 +1799,13 @@
 				<level>10</level>
 				<fireLevel>1</fireLevel>
 			</li>
-        </skills>
+		</skills>
 		<items>
 			<li>
 				<item>AK_Weapon_ExusiaitheNewCovenantII</item>
 				<amount>1</amount>
 			</li>
 		</items>
-    </AK_DLL.OperatorDef>
+	</AK_DLL.OperatorDef>
 
 </Defs>
