@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_OtherLeader">
+		<defName>LMA_Recruit_IllustriousSiren</defName>
+		<name>常暗</name>
+		<nickname>常暗</nickname>
+		<description>呵呵.....光明？正义？都是无趣的东西呢。</description>
+		<weapon>LMA_Weapon_IllustriousSiren</weapon>
+		<hair>LMA_Hair_IllustriousSiren</hair>
+		<apparels>
+			<li>LMA_Apparel_Illustrious</li>
+			<li>LMA_ShieldBelt_IllustriousSiren</li>
+		</apparels>
+		<animation>SE_Chang_An</animation>
+		<stand>Illustrious/IllustriousSiren</stand>
+		<headPortrait>Illustrious/IllustriousSirenPortrait</headPortrait>
+		<headTypeDef>Female_AverageNormal</headTypeDef>
+		<traits>
+			<li>
+				<def>Beauty</def>
+				<degree>2</degree>
+			</li>
+			<li>
+				<def>TooSmart</def>
+			</li>
+			<li>
+				<def>Wimp</def>
+			</li>
+		</traits>
+		<age>20</age>
+		<childHood>AK_BackStory_Warfarin_Child</childHood>
+		<adultHood>AK_BackStory_Warfarin_Adult</adultHood>
+		<skills>
+			<li>
+				<skill>Animals</skill>
+				<level>8</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Artistic</skill>
+				<level>6</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Construction</skill>
+				<level>2</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Cooking</skill>
+				<level>3</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Crafting</skill>
+				<level>10</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Intellectual</skill>
+				<level>17</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<level>4</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<level>0</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Mining</skill>
+				<level>2</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Plants</skill>
+				<level>1</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<level>10</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<level>4</level>
+				<fireLevel>0</fireLevel>
+			</li>
+		</skills>
+		<live2dModel>
+		</live2dModel>
+		<AKAbilities>
+			<li>LMA_Ability_Illustrious_SummonDrone</li>
+			<li>LMA_Ability_Illustrious_Dilapidate</li>
+			<li>LMA_Ability_Illustrious_Inory</li>
+			<li>LMA_Ability_Illustrious_RiseFall</li>
+		</AKAbilities>
+	</AK_DLL.OperatorDef>
+	
+	<BackstoryDef Abstract = "True" Name = "AK_StoryBase">
+		<workDisables>None</workDisables>
+		<requiredWorkTags>None</requiredWorkTags>
+		<shuffleable>False</shuffleable>
+	</BackstoryDef>
+	
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Warfarin_Child</defName>
+		<slot>Childhood</slot>
+		<title>血魔</title>
+		<titleShort>血魔</titleShort>
+		<baseDesc>即使在经常被妖魔化的萨卡兹中，血魔也是最恶名远扬的一支。\n它们在黑夜中穿行，以他人的血液为食，杀人如麻，无恶不作……诸如此类。\n不过大多数干员都知道，{PAWN_nameDef}不是这样的人。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Warfarin_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>罗德岛元老</title>
+		<titleShort>元老</titleShort>
+		<baseDesc>外表弱不禁风，难以让人升起尊敬之心的血魔女性，实质上作为元老，在罗德岛中拥有最老的资历。\n本人并不介意他人不将自己当做前辈对待，但决不允许有人在接受治疗时不听从自己的命令。\n年龄虽然不是需要避讳的话题，不过从{PAWN_pronoun}口中吐出的数字总让人觉得难以置信。</baseDesc>
+	</BackstoryDef>
+	
+</Defs>

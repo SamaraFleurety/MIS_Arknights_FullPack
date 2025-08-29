@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <SpriteEvo.AnimationDef>
+        <defName>SE_Chang_An</defName>
+        <mainAsset>SE_ChangAn_Eye</mainAsset>
+        <renderNodeProperties>
+            <baseLayer>0</baseLayer>
+            <skipNode>Hair, Head, Body, Apparel</skipNode>
+        </renderNodeProperties>
+        <scripts>
+            <li Class="PA_IllustriousSiren.ACP_Illustrious"/>
+        </scripts>
+        <props>
+            <renderQueue>3180</renderQueue>
+            <scale>(0.1,0.1)</scale>
+            <!--offset>(0,0,0.15)</offset-->
+            <rotation>(90,0,0)</rotation>
+            <idleAnimation>idle</idleAnimation>
+        </props>
+    </SpriteEvo.AnimationDef>
+
+</Defs>
