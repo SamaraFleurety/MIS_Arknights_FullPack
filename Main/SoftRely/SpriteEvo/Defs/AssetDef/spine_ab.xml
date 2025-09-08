@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
     <!-- 本组只使用Spine3.8 /4.1 版本 其他版本的Spine资源暂时不支持-->
-    <!-- DefName格式: 组名/模组名 + Spine + ID-->
-    <!-- skelFormat: 骨架数据的格式,选择二进制数据或者JSON格式-->
-    <!-- offset三维变量 指定场景内动画的偏移量 ,uioffset指定UI贴图的偏移量,Z轴调整投影距离-->
+    <!-- DefName格式: 组名/模组名 + Spine + ID--> 
+	<!-- skelFormat: 骨架数据的格式,选择二进制数据或者JSON格式-->
+	<!-- offset三维变量 指定场景内动画的偏移量 ,uioffset指定UI贴图的偏移量,Z轴调整投影距离-->
     <!-- filePath: Asset_Spine/路径下的ab包文件路径 或者json文件夹名称-->
     <!-- atlas: ab包里指定atlas数据的文件全称(带拓展名)-->
     <!-- skeleton: ab包里指定skeleton数据的文件全称(带拓展名)-->
@@ -12,33 +12,33 @@
     <!-- useStraightAlpha: 启用shader功能 不使用PMA混合模式贴图. 可解决渲染出现白边的问题 已经有material了就不用填-->
 
     <SpriteEvo.SpineAssetDef>
-        <defName>AK_Spine_Dusk_dynillust_E2</defName>
+		<defName>AK_Spine_Dusk_dynillust_E2</defName>
         <asset>
-            <StraightAlphaInput>true</StraightAlphaInput>
+            <StraightAlphaInput>true</StraightAlphaInput>           
             <version>3.8</version>
             <filePath>Spine/asset_dyn_suifamily</filePath>
             <seriesname>dyn_illust_char_2015_dusk</seriesname>
             <materials>
-                <li>dyn_illust_char_2015_dusk_Material</li>
-                <li>dyn_illust_char_2015_dusk_Material-Additive</li>
-            </materials>
+				<li>dyn_illust_char_2015_dusk_Material</li>
+				<li>dyn_illust_char_2015_dusk_Material-Additive</li>
+	        </materials>
         </asset>
-    </SpriteEvo.SpineAssetDef>
+	</SpriteEvo.SpineAssetDef>
 
 
     <SpriteEvo.SpineAssetDef>
-        <defName>AK_Spine_Dusk_dynillust_Nian</defName>
+		<defName>AK_Spine_Dusk_dynillust_Nian</defName>
         <asset>
-            <StraightAlphaInput>false</StraightAlphaInput>
+            <StraightAlphaInput>false</StraightAlphaInput>           
             <version>3.8</version>
             <filePath>Spine/asset_dyn_suifamily</filePath>
             <seriesname>dyn_illust_char_2015_dusk_nian#7</seriesname>
             <materials>
-                <li>dyn_illust_char_2015_dusk_nian#7_dyn_illust_char_2015_dusk_nian#7</li>
-                <li>dyn_illust_char_2015_dusk_nian#7_dyn_illust_char_2015_dusk_nian#72</li>
-            </materials>
+				<li>dyn_illust_char_2015_dusk_nian#7_dyn_illust_char_2015_dusk_nian#7</li>
+				<li>dyn_illust_char_2015_dusk_nian#7_dyn_illust_char_2015_dusk_nian#72</li>
+	        </materials>
         </asset>
-    </SpriteEvo.SpineAssetDef>
+	</SpriteEvo.SpineAssetDef>
 
     <SpriteEvo.SpineAssetDef>
         <defName>AK_Spine_Nian_dynillust_E2</defName>
@@ -55,7 +55,7 @@
         </asset>
     </SpriteEvo.SpineAssetDef>
 
-    <SpriteEvo.SpineAssetDef>
+	<SpriteEvo.SpineAssetDef>
         <defName>AK_Spine_Nian_dynillust_Nian</defName>
         <asset>
             <StraightAlphaInput>true</StraightAlphaInput>
@@ -68,7 +68,7 @@
             </materials>
         </asset>
     </SpriteEvo.SpineAssetDef>
-
+    
     <SpriteEvo.SpineAssetDef>
         <defName>AK_Spine_nian_cfa_dynillust</defName>
         <asset>
@@ -80,11 +80,12 @@
             <skeleton>dyn_illust_char_2014_nian_cfa#1.skel.bytes</skeleton>
             <materials>
                 <li>dyn_illust_char_2014_nian_cfa#1_Material</li>
+                <li>dyn_illust_char_2014_nian_cfa#1_Material-Additive</li>
             </materials>
         </asset>
     </SpriteEvo.SpineAssetDef>
 
-    <SpriteEvo.SpineAssetDef>
+	<SpriteEvo.SpineAssetDef>
         <defName>AK_Spine_Ling_dynillust_E2</defName>
         <asset>
             <StraightAlphaInput>false</StraightAlphaInput>
@@ -98,7 +99,7 @@
         </asset>
     </SpriteEvo.SpineAssetDef>
 
-    <SpriteEvo.SpineAssetDef>
+	<SpriteEvo.SpineAssetDef>
         <defName>AK_Spine_Ling_dynillust_Nian</defName>
         <asset>
             <StraightAlphaInput>true</StraightAlphaInput>
@@ -123,11 +124,12 @@
             <skeleton>dyn_illust_char_2023_ling_nian#9.skel.bytes</skeleton>
             <materials>
                 <li>dyn_illust_char_2023_ling_nian#9_Material</li>
+                <li>dyn_illust_char_2023_ling_nian#9_Material-Additive</li>
             </materials>
         </asset>
     </SpriteEvo.SpineAssetDef>
 
-    <SpriteEvo.SpineAssetDef>
+	<SpriteEvo.SpineAssetDef>
         <defName>AK_Spine_Chongyue_dynillust_E2</defName>
         <asset>
             <StraightAlphaInput>true</StraightAlphaInput>
@@ -141,7 +143,7 @@
         </asset>
     </SpriteEvo.SpineAssetDef>
 
-    <SpriteEvo.SpineAssetDef>
+	<SpriteEvo.SpineAssetDef>
         <defName>AK_Spine_Chongyue_dynillust_Nian</defName>
         <asset>
             <StraightAlphaInput>true</StraightAlphaInput>
@@ -165,11 +167,12 @@
             <skeleton>dyn_illust_char_2024_chyue_cfa#1.skel.bytes</skeleton>
             <materials>
                 <li>dyn_illust_char_2024_chyue_cfa#1_Material</li>
+                <li>dyn_illust_char_2024_chyue_cfa#1_Material-Additive</li>
             </materials>
         </asset>
     </SpriteEvo.SpineAssetDef>
 
-    <SpriteEvo.SpineAssetDef>
+	<SpriteEvo.SpineAssetDef>
         <defName>AK_Spine_Shu_dynillust_E2</defName>
         <asset>
             <StraightAlphaInput>true</StraightAlphaInput>
@@ -208,11 +211,12 @@
             <skeleton>dyn_illust_char_2026_yu.skel.bytes</skeleton>
             <materials>
                 <li>dyn_illust_char_2026_yu_Material</li>
+                <li>dyn_illust_char_2026_yu_Material-Additive</li>
             </materials>
         </asset>
     </SpriteEvo.SpineAssetDef>
 
-    <!--SpriteEvo.SpineAssetDef>
+	<!--SpriteEvo.SpineAssetDef>
 		<defName>AK_Spine_Dusk_dynillust_Nian</defName>
         <skelFormat>JSON</skelFormat>
         <folderName>JSON_Spine</folderName>
@@ -256,6 +260,7 @@
             <skeleton>dyn_illust_char_249_mlyss_boc#8.skel.bytes</skeleton>
             <materials>
                 <li>dyn_illust_char_249_mlyss_boc#8_Material</li>
+                <li>dyn_illust_char_249_mlyss_boc#8_Material-Additive</li>
             </materials>
         </asset>
     </SpriteEvo.SpineAssetDef>
@@ -346,6 +351,7 @@
             <skeleton>dyn_illust_char_4055_bgsnow_wild#7.skel.bytes</skeleton>
             <materials>
                 <li>dyn_illust_char_4055_bgsnow_wild#7_Material</li>
+                <li>dyn_illust_char_4055_bgsnow_wild#7_Material-Additive</li>
             </materials>
         </asset>
     </SpriteEvo.SpineAssetDef>
@@ -361,6 +367,7 @@
             <skeleton>dyn_illust_char_1016_agoat2.skel.bytes</skeleton>
             <materials>
                 <li>dyn_illust_char_1016_agoat2_Material</li>
+                <li>dyn_illust_char_1016_agoat2_Material-Additive</li>
             </materials>
         </asset>
     </SpriteEvo.SpineAssetDef>
@@ -422,6 +429,7 @@
             <skeleton>dyn_illust_char_1026_gvial2_summer#12.skel.bytes</skeleton>
             <materials>
                 <li>dyn_illust_char_1026_gvial2_summer#12_Material</li>
+                <li>dyn_illust_char_1026_gvial2_summer#12_Material-Additive</li>
             </materials>
         </asset>
     </SpriteEvo.SpineAssetDef>
@@ -497,6 +505,7 @@
             <skeleton>dyn_illust_char_1014_nearl2.skel.bytes</skeleton>
             <materials>
                 <li>dyn_illust_char_1014_nearl2_Material</li>
+                <li>dyn_illust_char_1014_nearl2_Material-Additive</li>
             </materials>
         </asset>
     </SpriteEvo.SpineAssetDef>
@@ -527,6 +536,7 @@
             <skeleton>dyn_illust_char_4087_ines_boc#8.skel.bytes</skeleton>
             <materials>
                 <li>dyn_illust_char_4087_ines_boc#8_Material</li>
+                <li>dyn_illust_char_4087_ines_boc#8_Material-Additive</li>
             </materials>
         </asset>
     </SpriteEvo.SpineAssetDef>
