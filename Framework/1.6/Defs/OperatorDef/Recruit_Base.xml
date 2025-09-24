@@ -39,6 +39,10 @@
 		<xenoType>AK_BaseType</xenoType>
 		<operatorID>AK_VAbility_Operator</operatorID>
 		<renderTreeOverride>AK_PawnRenderTree_Operator</renderTreeOverride>
+		<modExtensions>
+			<li MayRequire="Paluto22.AK.Compatibility" Class="PA_AKPatch.Ext_MarkNLIncompatible">
+			</li>
+		</modExtensions>
 	</AK_DLL.OperatorDef>
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase" Name="AK_RecruitBase_OtherLeader" Abstract="True">
