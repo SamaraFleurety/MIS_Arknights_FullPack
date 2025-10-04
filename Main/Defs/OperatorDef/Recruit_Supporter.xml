@@ -1982,4 +1982,94 @@
 		</skills>
 	</AK_DLL.OperatorDef>
 
+	<!-- 遥 -->
+
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_Supporter">
+		<defName>AK_Recruit_Haruka</defName>
+		<name>Haruka</name>
+		<nickname>Haruka</nickname>
+		<description>FIXMEDESC</description>
+		<hair>AK_Hair_Haruka</hair>
+		<weapon>AK_Weapon_Haruka</weapon>
+		<apparels>
+			<li>AK_Apparel_Haruka</li>
+		</apparels>
+		<accessory Inherit="false">
+			<li>AKS_ShieldBelt_Haruka</li>
+		</accessory>
+		<traits>
+			<li>
+				<def>AK_Trait_Haruka</def>
+			</li>
+			<li>
+				<def>AK_Trait_HarukaSecond</def>
+			</li>
+		</traits>
+		<age>20</age>
+		<childHood>AK_BackStory_Haruka_Child</childHood>
+		<adultHood>AK_BackStory_Haruka_Adult</adultHood>
+		<skills>
+			<li>
+				<skill>Animals</skill>
+				<level>0</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Artistic</skill>
+				<level>18</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Construction</skill>
+				<level>0</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Cooking</skill>
+				<level>5</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Crafting</skill>
+				<level>8</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Intellectual</skill>
+				<level>8</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<level>2</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<level>0</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Mining</skill>
+				<level>0</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Plants</skill>
+				<level>0</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<level>8</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<level>18</level>
+				<fireLevel>2</fireLevel>
+			</li>
+		</skills>
+	</AK_DLL.OperatorDef>
+
 </Defs>

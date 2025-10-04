@@ -537,4 +537,85 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<!-- 遥 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Haruka</defName>
+		<degreeDatas>
+			<li>
+				<label>知名艺人</label>
+				<description>她会开心地给认出自己的人签名，会哼自己唱过的歌，会在转移来就诊的小朋友的注意力的时候下意识地扮演电影角色，还会像许多东国人印象中的羽生萌萌香一样，被一些捕风捉影的故事和传说吓一跳。</description>
+				<statOffsets>
+					<PawnBeauty>3</PawnBeauty>
+					<SocialImpact>0.5</SocialImpact>
+					<TradePriceImprovement>0.5</TradePriceImprovement>
+				</statOffsets>
+				<statFactors>
+					<TameAnimalChance>1.1</TameAnimalChance>
+					<TrainAnimalChance>1.1</TrainAnimalChance>
+					<PlantWorkSpeed>1.1</PlantWorkSpeed>
+					<PlantHarvestYield>1.1</PlantHarvestYield>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_HarukaSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>夏末游鳞</label>
+				<description></description>
+				<statOffsets>
+					<WorkSpeedGlobal>0.5</WorkSpeedGlobal>
+					<AimingDelayFactor>-0.2</AimingDelayFactor>
+					<ShootingAccuracyPawn>3</ShootingAccuracyPawn>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<!-- 三角初华 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_MisumiUika</defName>
+		<degreeDatas>
+			<li>
+				<label>毋畏悲伤</label>
+				<description>总有一天，她会明白，自己不能只是展现完美无瑕的笑容给身边的人。她是她自己，不是其他人，她不能永远隐藏起真正的自己。</description>
+				<statOffsets>
+					<ShootingAccuracyPawn>3</ShootingAccuracyPawn>
+					<AimingDelayFactor>-0.3</AimingDelayFactor>
+					<MentalBreakThreshold>-0.3</MentalBreakThreshold>
+				</statOffsets>
+				<statFactors>
+					<PsychicSensitivity>0.1</PsychicSensitivity>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_MisumiUikaSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>偶像光环</label>
+				<description>成为Mujica主唱的初华，无论何时都为乐队贡献着自己的全部力量，大家都能看出来，她是真的爱着这个乐队。</description>
+				<statOffsets>
+					<SocialImpact>0.5</SocialImpact>
+					<TradePriceImprovement>0.5</TradePriceImprovement>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+
 </Defs>

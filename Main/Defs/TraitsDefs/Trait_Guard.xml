@@ -1010,4 +1010,47 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<!-- 丰川祥子 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_TogawaSakiko</defName>
+		<degreeDatas>
+			<li>
+				<label>毋畏遗忘</label>
+				<description>一生飞翔的羽兽，并非不愿降落于陆地\n坚韧的双翼，掩饰的是无足的苦痛与悲剧。\n我，毋畏遗忘。</description>
+				<statOffsets>
+					<AimingDelayFactor>-0.5</AimingDelayFactor>
+					<MentalBreakThreshold>-0.2</MentalBreakThreshold>
+					<PsychicSensitivity>0.1</PsychicSensitivity>
+					<MeleeHitChance>1</MeleeHitChance>
+					<TameAnimalChance>0.1</TameAnimalChance>
+				</statOffsets>
+				<statFactors>
+					<IncomingDamageFactor>0.9</IncomingDamageFactor>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_TogawaSakikoSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>丰富工作经验</label>
+				<description>离开丰川家的日子里，祥子为了赚钱做过各种兼职，有着丰富的工作经验。</description>
+				<statOffsets>
+					<SocialImpact>0.3</SocialImpact>
+				</statOffsets>
+				<statFactors>
+					<WorkSpeedGlobal>1.2</WorkSpeedGlobal>
+					<GlobalLearningFactor>1.2</GlobalLearningFactor>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>

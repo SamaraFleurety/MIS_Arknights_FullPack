@@ -285,4 +285,36 @@
 		<baseDesc>为了其预见的某种未来，正在积极主动地向各方寻求合作，现与罗德岛达成协议，为罗德岛在萨米及其北方冰原上的相关事务提供帮助。</baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Haruka_Child</defName>
+		<slot>Childhood</slot>
+		<title>“怪谈艺人”</title>
+		<titleShort>“怪谈艺人”</titleShort>
+		<baseDesc>萌萌香还服务于金石会电视台时，被三船利用，以怪谈名义掩盖其罪行，萌萌香也因此得名。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_Haruka_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>东国独立艺人</title>
+		<titleShort>东国独立艺人</titleShort>
+		<baseDesc>星熊将三船逮捕后，萌萌香也退出了金石会演艺事务所，做起了自己的事业，紫野遥也得以有了自己的时光。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_MisumiUika_Child</defName>
+		<slot>Childhood</slot>
+		<title>丰川家的私生子</title>
+		<titleShort>丰川家的私生子</titleShort>
+		<baseDesc>丰川定治与女仆人在海岛上生下的私生子，本名三角初音。在海岛上与幼年祥子意外相识，被祥子的光芒感染，自卑又不甘的她在后来下定决心离开海岛，像自己的妹妹，真正的三角初华梦想的那样，成为了一名偶像。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_MisumiUika_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>罗德岛干员</title>
+		<titleShort>罗德岛干员</titleShort>
+		<baseDesc>被不知名的力量传送到泰拉大陆的梦城堡中，在梦中成为了一座海岛上的别墅管理员，与艾雅法拉相识，并在梦城堡事件结束后加入了罗德岛，她也逐渐学会了如何面对自己的过去和悲伤，如何面对真正的自己。</baseDesc>
+	</BackstoryDef>
+
 </Defs>

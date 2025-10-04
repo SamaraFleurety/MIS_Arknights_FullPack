@@ -345,4 +345,36 @@
 		</graphicData>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Supporter">
+		<defName>AK_Apparel_Haruka</defName>
+		<label>遥服装</label>
+		<thingClass>AKE_OperatorExtension.Apparel_Breakdown</thingClass>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+		</statBases>
+		<modExtensions>
+			<li Class="AKE_OperatorExtension.Ext_ApparelBreakGraphic">
+				<paths>
+					<li>
+						<path>Things/AK_Agents/Supporter/Haruka/Haruka_Naked</path>
+						<hpRatioLowerThan>0.2</hpRatioLowerThan>
+					</li>
+					<li>
+						<path>Things/AK_Agents/Supporter/Haruka/Haruka_Break</path>
+						<hpRatioLowerThan>0.8</hpRatioLowerThan> 
+					</li>
+					<li>
+						<path>Things/AK_Agents/Supporter/Haruka/Haruka</path>
+						<hpRatioLowerThan>1</hpRatioLowerThan> 
+					</li>
+				</paths>
+			</li>
+		</modExtensions>
+		<graphicData>
+			<texPath>Things/AK_Agents/Supporter/Haruka/Haruka</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
+
 </Defs>

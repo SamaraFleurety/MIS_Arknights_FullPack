@@ -226,4 +226,41 @@
         </comps>
     </ThingDef>
 
+    <!-- 遥的护盾 -->
+
+    <ThingDef ParentName="AKS_BeltBase">
+        <defName>AKS_ShieldBelt_Haruka</defName>
+        <label>浮光泡影</label>
+        <description>“但我跟粉丝们约好了，下一场演出，我要把我的泡泡送给那天最伤心的人，托着那个人浮起来，浮到半空中，好好看看繁华的城市、高远的天空、荒凉的大地......就算为了这个约定，我也不能不回去。”</description>
+        <statBases>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/Supporter/ShieldBeltHaruka</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="AKS_Shield.TCP_GenericShield">
+                <energyMax>220</energyMax>
+                <energyRegenRate>30</energyRegenRate>
+                <energyLostPerDmg>1.5</energyLostPerDmg>
+                <allowEnergyOverflow>false</allowEnergyOverflow>
+                <energyRatioOnReset>0.2</energyRatioOnReset>
+                <ticksToReset>6000</ticksToReset>
+                <canAbsorbMeleeDmg>true</canAbsorbMeleeDmg>
+                <meleeAbsorbFactor>1</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1</rangedAbsorbFactor>
+            </li>
+            <li Class="AKS_Shield.Extension.TCP_ExtraRenderStatic">
+                <bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/Supporter/ShieldBeltHaruka</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                </bubbleStaticOverlay>
+            </li>
+            <li Class="AKS_Shield.Extension.TCP_ExtraRenderRotate">
+                <bubbleRotateTexPath>Things/ShieldBelt/Supporter/ShieldBeltHarukaD</bubbleRotateTexPath>
+            </li>
+        </comps>
+    </ThingDef>
+
 </Defs>

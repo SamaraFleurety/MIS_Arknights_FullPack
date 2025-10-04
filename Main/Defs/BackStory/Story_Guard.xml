@@ -539,4 +539,20 @@
 		<baseDesc>大炎天师惊蛰，部分认可了罗德岛之“道”，决定与你继续同行。</baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_TogawaSakiko_Child</defName>
+		<slot>Childhood</slot>
+		<title>丰川家的大小姐</title>
+		<titleShort>丰川家的大小姐</titleShort>
+		<baseDesc>丰川集团的大小姐，自幼生活在大家族的怀抱中，在经历母亲的去世和父亲被诈骗后跟随父亲生活，要强的她告别了过去，成为了Ave Mujica的键盘手，队长Oblivionis</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_TogawaSakiko_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>罗德岛干员</title>
+		<titleShort>罗德岛干员</titleShort>
+		<baseDesc>被不知名的力量传送到泰拉大陆的梦城堡中，在梦中成为了罗德岛的一员，并在梦城堡事件结束后加入了罗德岛，逐渐成长为一名合格的队长。</baseDesc>
+	</BackstoryDef>
+
 </Defs>
