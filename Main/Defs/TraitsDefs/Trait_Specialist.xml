@@ -520,4 +520,90 @@
         </degreeDatas>
 	</TraitDef>
 
+	<!-- 若叶睦 -->
+
+	<TraitDef>
+		<defName>AK_Trait_WakabaMutsumi</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+        <commonality>0.0</commonality>
+        <degreeDatas>
+            <li>
+                <label>毋畏死亡</label>
+                <description>我们一同欢笑，我们一同哭泣。\n在华丽的舞台上，上演一出热闹非凡的独角戏。\n我，毋畏死亡。</description>
+                <statOffsets>
+                    <AimingDelayFactor>-0.3</AimingDelayFactor>
+                    <ShootingAccuracyPawn>1</ShootingAccuracyPawn>
+					<MoveSpeed>3</MoveSpeed>
+					<MeleeDodgeChance>0.3</MeleeDodgeChance>
+                </statOffsets>
+				<statFactors>
+					<MeleeDamageFactor>1.5</MeleeDamageFactor>
+					<IncomingDamageFactor>0.9</IncomingDamageFactor>
+				</statFactors>
+            </li>
+        </degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>AK_Trait_WakabaMutsumiSecond</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+        <commonality>0.0</commonality>
+        <degreeDatas>
+            <li>
+                <label>多首的野兽</label>
+                <description>出于自我保护，睦塑造了无数“角色”。这些“角色”一个个走上舞台，又一个个离开舞台，她已然麻木，一心只想成为别人期待的那个“若叶睦”。睦就是这样一个被这些“角色”掩埋，自我变得模糊不清的尚不成熟的少女。</description>
+                <statOffsets>
+                    <MentalBreakThreshold>0.5</MentalBreakThreshold>
+                    <SocialImpact>-0.1</SocialImpact>
+					<WorkSpeedGlobal>0.5</WorkSpeedGlobal>
+                </statOffsets>
+				<statFactors>
+					<PsychicSensitivity>2</PsychicSensitivity>
+				</statFactors>
+            </li>
+        </degreeDatas>
+	</TraitDef>
+
+	<!-- 八幡海铃 -->
+
+	<TraitDef>
+		<defName>AK_Trait_YahataUmiri</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+        <commonality>0.0</commonality>
+        <degreeDatas>
+            <li>
+                <label>毋畏恐惧</label>
+                <description>大雨如泪水一般落下，我只是无垠海水中的一滴。\n独行的夜，不再迷茫。\n我，毋畏恐惧。</description>
+                <statOffsets>
+					<MoveSpeed>3</MoveSpeed>
+					<MeleeDodgeChance>0.15</MeleeDodgeChance>
+                </statOffsets>
+				<statFactors>
+					<MeleeDamageFactor>1.2</MeleeDamageFactor>
+					<IncomingDamageFactor>0.8</IncomingDamageFactor>
+				</statFactors>
+            </li>
+        </degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>AK_Trait_YahataUmiriSecond</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+        <commonality>0.0</commonality>
+        <degreeDatas>
+            <li>
+                <label>可靠伙伴</label>
+                <description>海铃在罗德岛上学习得很快，大家发现她总能快速地帮助各个部门清晰列出后续的规划和安排，很多小组都得到了海铃或多或少的帮助。\n海铃确实是一位完美的合作伙伴，她总能够精准地理解任务的核心，并且一丝不苟地执行。</description>
+                <statOffsets>
+                    <MentalBreakThreshold>-0.2</MentalBreakThreshold>
+                    <SocialImpact>0.2</SocialImpact>
+                </statOffsets>
+				<statFactors>
+					<WorkSpeedGlobal>1.5</WorkSpeedGlobal>
+				</statFactors>
+            </li>
+        </degreeDatas>
+	</TraitDef>
+
+
 </Defs>

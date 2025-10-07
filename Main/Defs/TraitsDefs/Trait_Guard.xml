@@ -1053,4 +1053,45 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<!-- 祐天寺若麦 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_YūtenjiNyamu</defName>
+		<degreeDatas>
+			<li>
+				<label>毋畏爱意</label>
+				<description>数千数万双眼睛之下，如人偶一般，动弹不得。\n去到他们要求我去往之处，发出他们期望我发出之声。\n我，毋畏爱意。</description>
+				<statOffsets>
+					<MoveSpeed>3</MoveSpeed>
+					<MeleeDodgeChance>0.1</MeleeDodgeChance>
+				</statOffsets>
+				<statFactors>
+					<MeleeDamageFactor>1.8</MeleeDamageFactor>
+					<IncomingDamageFactor>0.9</IncomingDamageFactor>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_YūtenjiNyamuSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>双利手</label>
+				<description>有着双利手的若麦，总是在架子鼓后面充满活力地演奏，用她强有力的节拍为音乐注入活力。她的演奏风格充满活力，创造了一种只有在Ave Mujica的演出上才能看到的表演。</description>
+				<statOffsets>
+					<SocialImpact>0.5</SocialImpact>
+					<MentalBreakThreshold>-0.3</MentalBreakThreshold>	
+				</statOffsets>
+				<statFactors>
+					<WorkSpeedGlobal>1.2</WorkSpeedGlobal>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>

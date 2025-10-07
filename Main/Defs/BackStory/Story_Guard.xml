@@ -555,4 +555,20 @@
 		<baseDesc>被不知名的力量传送到泰拉大陆的梦城堡中，在梦中成为了罗德岛的一员，并在梦城堡事件结束后加入了罗德岛，逐渐成长为一名合格的队长。</baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_YūtenjiNyamu_Child</defName>
+		<slot>Childhood</slot>
+		<title>熊本县少女</title>
+		<titleShort>熊本县少女</titleShort>
+		<baseDesc>祐天寺若麦是熊本县人，后因寻找发展机会来到了东京，就读于都立艺术学院高中，主修演技。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>AK_BackStory_YūtenjiNyamu_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>罗德岛干员</title>
+		<titleShort>罗德岛干员</titleShort>
+		<baseDesc>被不知名的力量传送到泰拉大陆的梦城堡中，在梦中成为了龙门的知名艺人，无论在现实还是梦中，她都会向自己的目标直线前进，她也会拥有去追寻自己所爱之物的勇气。</baseDesc>
+	</BackstoryDef>
+
 </Defs>

@@ -1329,4 +1329,69 @@
 		</projectile>
 	</ThingDef>
 
+	<!-- 三角初华的武器 -->
+
+	<ThingDef ParentName="AK_WeaponBase_Supporter">
+		<defName>AK_Weapon_MisumiUika</defName>
+		<label>初华的麦克风</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Supporter/MisumiUikaW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<description>初华美妙的歌喉，娴熟的吉他技巧，自己创作的优美词曲，无时无刻不在鼓舞着周围的人。</description>
+		<statBases>
+			<AccuracyTouch>0.83</AccuracyTouch>
+			<AccuracyShort>0.96</AccuracyShort>
+			<AccuracyMedium>0.83</AccuracyMedium>
+			<AccuracyLong>0.67</AccuracyLong>
+			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_MisumiUika</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>1</warmupTime>
+				<range>30</range>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<burstShotCount>15</burstShotCount>
+				<soundCast>AK_Sound_Weapon_Magic</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<tools Inherit = "false">
+			<li>
+				<label>敲击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>1</power>
+				<cooldownTime>0.5</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_MisumiUika</defName>
+		<label>射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/MagicFireB</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Frostbite</damageDef>
+			<damageAmountBase>5</damageAmountBase>
+			<armorPenetrationBase>0.5</armorPenetrationBase>
+			<stoppingPower>0.5</stoppingPower>
+			<speed>60</speed>
+		</projectile>
+	</ThingDef>
+
+
 </Defs>

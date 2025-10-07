@@ -263,4 +263,41 @@
         </comps>
     </ThingDef>
 
+    <!-- 三角初华的护盾 -->
+
+    <ThingDef ParentName="AKS_BeltBase">
+        <defName>AKS_ShieldBelt_MisumiUika</defName>
+        <label>占卜的意义</label>
+        <description>看着环绕的星点，参与特别的仪式，比起占卜的结果，初华更喜欢这样的过程。\n“嗯？难道不是寄托了对什么重要的人的思念？”</description>
+        <statBases>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/ShieldBubble</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="AKS_Shield.TCP_GenericShield">
+                <energyMax>160</energyMax>
+                <energyRegenRate>61.6</energyRegenRate>
+                <energyLostPerDmg>1.5</energyLostPerDmg>
+                <allowEnergyOverflow>false</allowEnergyOverflow>
+                <energyRatioOnReset>0.2</energyRatioOnReset>
+                <ticksToReset>6000</ticksToReset>
+                <canAbsorbMeleeDmg>true</canAbsorbMeleeDmg>
+                <meleeAbsorbFactor>1</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1</rangedAbsorbFactor>
+            </li>
+            <li Class="AKS_Shield.Extension.TCP_ExtraRenderStatic">
+                <bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/ShieldBubble</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                </bubbleStaticOverlay>
+            </li>
+            <!--li Class="AKS_Shield.Extension.TCP_ExtraRenderRotate">
+                <bubbleRotateTexPath>Things/ShieldBelt/Supporter/ShieldBeltHarukaD</bubbleRotateTexPath>
+            </li-->
+        </comps>
+    </ThingDef>
+
 </Defs>
