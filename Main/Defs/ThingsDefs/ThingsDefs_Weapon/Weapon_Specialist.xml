@@ -1177,4 +1177,98 @@
     </projectile>
   </ThingDef>
 
+  <ThingDef ParentName="AK_WeaponBase_Specialist">
+		<defName>AK_Weapon_WakabaMutsumi</defName>
+		<label>破坏与滋养</label>
+		<description>我看得出来，这些不是表演，它们真的死掉了。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Specialist/WakabaMutsumiW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.825</AccuracyTouch>
+			<AccuracyShort>0.96</AccuracyShort>
+			<AccuracyMedium>0.825</AccuracyMedium>
+			<AccuracyLong>0.675</AccuracyLong>
+			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_WakabaMutsumi</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>2</warmupTime>
+				<range>25</range>
+        <burstShotCount>6</burstShotCount>
+        <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+		<tools Inherit="false">
+			<li>
+				<label>镜子锤击</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>35</power>
+				<cooldownTime>2</cooldownTime>
+        <armorPenetration>0.4</armorPenetration>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_WakabaMutsumi</defName>
+		<label>射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>10</damageAmountBase>
+			<stoppingPower>1</stoppingPower>
+      <armorPenetrationBase>0.5</armorPenetrationBase>
+			<speed>50</speed>
+			<soundExplode>ThumpCannon_Impact</soundExplode>
+		</projectile>
+	</ThingDef>
+
+  <ThingDef ParentName="AK_WeaponBase_Specialist">
+		<defName>AK_Weapon_YahataUmiri</defName>
+		<label>颤栗之弦</label>
+		<description>虽然把贝斯换成了在叙拉古时惯用的匕首，但海玲的实力还是那么的可靠。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/Specialist/YahataUmiriW</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tools Inherit="false">
+			<li>
+        <label>刀刃</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>1</cooldownTime>
+        <armorPenetration>0.5</armorPenetration>
+      </li>
+      <li>
+        <label>刀尖</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>30</power>
+        <cooldownTime>1.5</cooldownTime>
+        <armorPenetration>0.5</armorPenetration>
+      </li>
+		</tools>
+	</ThingDef>
+
 </Defs>

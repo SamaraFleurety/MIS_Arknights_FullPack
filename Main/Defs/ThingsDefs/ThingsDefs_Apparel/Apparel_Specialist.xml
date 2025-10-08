@@ -289,4 +289,28 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Specialist">
+		<defName>AK_Apparel_WakabaMutsumi</defName>
+		<label>若叶睦服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Specialist/WakabaMutsumi</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Specialist/WakabaMutsumi</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Specialist">
+		<defName>AK_Apparel_YahataUmiri</defName>
+		<label>八幡海铃服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Specialist/YahataUmiri</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Specialist/YahataUmiri</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 </Defs>

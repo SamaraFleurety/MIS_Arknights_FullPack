@@ -189,7 +189,7 @@
     <ThingDef ParentName="AKS_BeltBase">
         <defName>AKS_ShieldBelt_SpecterUnchained</defName>
         <label>生存的技巧</label>
-        <description>琳琅诗怀雅的护盾</description>
+        <description>归溟幽灵鲨的护盾</description>
         <statBases>
         </statBases>
         <graphicData>
@@ -232,6 +232,80 @@
                     <shaderType>Transparent</shaderType>
                 </bubbleStaticOverlay>
             </li>
+        </comps>
+    </ThingDef>
+
+    <!-- 若叶睦的护盾 -->
+
+    <ThingDef ParentName="AKS_BeltBase">
+        <defName>AKS_ShieldBelt_WakabaMutsumi</defName>
+        <label>睦的新朋友</label>
+        <description>她不擅长把这种压力带来的痛苦告诉他人，只会自己逼迫自己。这给睦带来了很多的困难，在这以前只有从小和她一起长大的朋友祥子对此有些微的了解，希望在罗德岛上，有众多干员的帮助，她能少一些这样的压力。</description>
+        <statBases>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/ShieldBubble</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="AKS_Shield.TCP_GenericShield">
+                <energyMax>141</energyMax>
+                <energyRegenRate>53.1</energyRegenRate>
+                <energyLostPerDmg>1.5</energyLostPerDmg>
+                <allowEnergyOverflow>false</allowEnergyOverflow>
+                <energyRatioOnReset>0.2</energyRatioOnReset>
+                <ticksToReset>6000</ticksToReset>
+                <canAbsorbMeleeDmg>true</canAbsorbMeleeDmg>
+                <meleeAbsorbFactor>2</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1</rangedAbsorbFactor>
+            </li>
+            <li Class="AKS_Shield.Extension.TCP_ExtraRenderStatic">
+                <bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/ShieldBubble</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                </bubbleStaticOverlay>
+            </li>
+            <!--li Class="AKS_Shield.Extension.TCP_ExtraRenderRotate">
+                <bubbleRotateTexPath>Things/ShieldBelt/Specialist/</bubbleRotateTexPath>
+            </li-->
+        </comps>
+    </ThingDef>
+
+    <!-- 八幡海铃的护盾 -->
+
+    <ThingDef ParentName="AKS_BeltBase">
+        <defName>AKS_ShieldBelt_YahataUmiri</defName>
+        <label>无存之所</label>
+        <description>她将会在潜意识里面知道，自己不能得到他人信任的原因，是自己一直无法真心面对他人。\n她需要克服往事带来的恐惧，走出自己为自己划定的安全区域，重新对自己看重的伙伴付出真心。</description>
+        <statBases>
+        </statBases>
+        <graphicData>
+            <texPath>Things/ShieldBelt/ShieldBubble</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="AKS_Shield.TCP_GenericShield">
+                <energyMax>158</energyMax>
+                <energyRegenRate>47</energyRegenRate>
+                <energyLostPerDmg>1.5</energyLostPerDmg>
+                <allowEnergyOverflow>false</allowEnergyOverflow>
+                <energyRatioOnReset>0.2</energyRatioOnReset>
+                <ticksToReset>6000</ticksToReset>
+                <canAbsorbMeleeDmg>true</canAbsorbMeleeDmg>
+                <meleeAbsorbFactor>2</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1</rangedAbsorbFactor>
+            </li>
+            <li Class="AKS_Shield.Extension.TCP_ExtraRenderStatic">
+                <bubbleStaticOverlay>
+                    <texPath>Things/ShieldBelt/ShieldBubble</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <drawSize>(2,2)</drawSize>
+                </bubbleStaticOverlay>
+            </li>
+            <!--li Class="AKS_Shield.Extension.TCP_ExtraRenderRotate">
+                <bubbleRotateTexPath>Things/ShieldBelt/Specialist/</bubbleRotateTexPath>
+            </li-->
         </comps>
     </ThingDef>
 
