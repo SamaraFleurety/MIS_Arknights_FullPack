@@ -16,6 +16,11 @@
 			<displayName>MIS - Framework</displayName>
 			<downloadUrl>https://github.com/SamaraFleurety/Rimworld_Arknights</downloadUrl>
 		</li>
+		<li>
+			<packageId>Paluto22.SpriteEvo</packageId>
+			<displayName>Spine2D Framework</displayName>
+			<downloadUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3464363197</downloadUrl>
+		</li>
 	</modDependencies>
 	<loadAfter>
 		<li>brrainz.harmony</li>
@@ -23,6 +28,6 @@
 		<li>MIS.Framework</li>
 		<li>MIS.Arknights</li>
 	</loadAfter>
-	<description>desc.</description>
+	<description>引入Swd3e2老师原设的常暗(黑光辉)作为可招募角色</description>
 	<packageId>FS.IllustriousSiren</packageId>
 </ModMetaData>

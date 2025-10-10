@@ -19,9 +19,11 @@
 				<energyRegenRate>0.001</energyRegenRate>
 			</li>
 			<li Class="AKA_Ability.TCP_AKATracker">
-				<abilities>
-					<li>LMA_Ability_Illustrious_DroneExplode</li>
-				</abilities>
+				<trackerGenProp>
+					<abilities>
+						<li>LMA_Ability_Illustrious_DroneExplode</li>
+					</abilities>
+				</trackerGenProp>
 			</li>
 		</comps>
 	</ThingDef>
@@ -58,7 +60,7 @@
 	<ThingDef ParentName="BaseGun">
 		<defName>LMA_WeaponSummon_Obliterator</defName>
 		<label>冲击肃清者I型</label>
-		<description>冲击肃清者I型.</description>
+		<description>召唤物的武器</description>
 		<techLevel>Spacer</techLevel>
 		<smeltable>false</smeltable>
 		<tradeability>None</tradeability>

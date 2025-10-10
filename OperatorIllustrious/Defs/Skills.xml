@@ -73,12 +73,11 @@
 	<AKA_Ability.AKAbilityDef ParentName="AKA_Base">
 		<defName>LMA_Ability_Illustrious_Dilapidate</defName>
 		<label>极堕残光</label>
-		<description>每受到一定伤害，都能聚集受到的伤害突进并释放，对目标造成基础伤害和吸收伤害的额外伤害，
-并且按层数获得加成。</description>
+		<description>每受到一定伤害，都能聚集受到的伤害。使用技能时，将一次性释放所有充能，并且按层数获得加成。\n会自动回复充能至1层，并且未受伤害时会迅速衰减。\n满充能时，仍然允许一定程度的过度充能。过度充能不会提高技能效果。\n\n  1层:突进至目标\n  2层:提高自身攻击速度\n  3层:对目的地敌方(如果有)造成伤害\n  4层:造成更多伤害，且自身获得隐形\n  5层:更加提高伤害，并且会眩晕敌人\n  6层:造成毁灭性伤害，且全面增加之前所有的效果</description>
 		<icon>Skill/Reaper</icon>
 		<grouped>true</grouped>
 		<displayGizmoUndraft>false</displayGizmoUndraft>
-		<compEffectList>
+		<compEffectList Inherit="False">
 			<li Class="AKA_Ability.AbilityEffect.AE_SpawnMote">
 				<forceTargetSelf>true</forceTargetSelf>
 				<moteDef>LMA_Mote_DilapidateSource</moteDef>
@@ -92,6 +91,7 @@
 			<li Class="AKA_Ability.AbilityEffect.AE_SpawnMote">
 				<moteDef>LMA_Mote_DilapidateTarget</moteDef>
 			</li>
+			<li Class="AKA_Ability.AbilityEffect.AE_CostChargeStatic" />
 		</compEffectList>		
 		<abilityClass>AKA_Ability.AKAbility_Targetor</abilityClass>
 		<rangeWorker>AKA_Ability.Range.RangeWorker_Illustrious_Dilapidate</rangeWorker>
@@ -148,8 +148,8 @@
 	<AKA_Ability.AKAbilityDef ParentName="AKA_Base">
 		<defName>LMA_Ability_Illustrious_Inory</defName>
 		<label>交织祈愿</label>
-		<description>吸取地图内敌人的移动速度和伤害，自身获得一定量加成。
-范围内队友会承受一定效果并且不提供加成。\n召唤物享受一半效果。 \n冷却：3天</description>
+		<description>吸取地图内所有敌人的移动速度和伤害，自身获得一定量加成。
+范围内友方也会承受一定负面效果并且不提供加成。\n召唤物享受一半加成效果。 \n冷却：3天</description>
 		<icon>Skill/Inory</icon>
 		<grouped>false</grouped>
 		<displayGizmoUndraft>false</displayGizmoUndraft>
@@ -175,7 +175,7 @@
 	<AKA_Ability.AKAbilityDef ParentName="AKA_Base">
 		<defName>LMA_Ability_Illustrious_RiseFall</defName>
 		<label>星起星落</label>
-		<description>从附近所有生命体中扯出生命力，并用来治疗自身或伤害敌人。冷却：3天</description>
+		<description>允许使用并且濒死时自动开启。附近所有生命体中扯出生命力，并用来治疗自身或伤害敌人。冷却：3天</description>
 		<icon>Skill/RiseFall</icon>
 		<grouped>false</grouped>
 		<displayGizmoUndraft>true</displayGizmoUndraft>
@@ -193,7 +193,7 @@
 			<li>AK_SFX_Tactboost</li>
 		</useSounds>
 		<castConditions>
-			<li Class="AKA_Ability.CastConditioner.CC_HPThreshold">
+			<li Class="AKA_Ability.CastConditioner.CC_HPThresholdOrDowned">
 				<HPRatio>0.5</HPRatio>
 				<lower>true</lower>
 			</li>
