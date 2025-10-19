@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!--Core-->
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/PawnRenderTreeDef[defName="Humanlike"]/root[@Class="PawnRenderNodeProperties_Parent"]/children</xpath>
+				<value>
+					<li>
+						<debugLabel>AKE_HealthBar_RenderNode</debugLabel>
+						<nodeClass>AKE_OperatorExtension.PawnRenderNode_AKHealthBar</nodeClass>
+						<workerClass>AKE_OperatorExtension.PawnRenderNodeWorker_AKHealthBar</workerClass>
+						<useGraphic>true</useGraphic>
+					</li>
+					<!--li>
+                        <debugLabel>AKE_SkillBar_RenderNode</debugLabel>
+                        <nodeClass>AKE_OperatorExtension.PawnRenderNode_AKSkillBar</nodeClass>
+                        <workerClass>AKE_OperatorExtension.PawnRenderNodeWorker_AKSkillBar</workerClass>
+                        <useGraphic>true</useGraphic>
+			        </li-->
+				</value>
+			</li>
+			<!--li Class="PatchOperationAdd">
+				<xpath>Defs/PawnRenderTreeDef[defName="Humanlike"]/root[@Class="PawnRenderNodeProperties_Parent"]/children/li[debugLabel[text()="Head"]]/children</xpath>
+				<value>
+					<li>
+						<debugLabel>AKE_BackHair_RenderNode</debugLabel>
+						<nodeClass>AKE_OperatorExtension.RenderNode_BackHair</nodeClass>
+						<workerClass>AKE_OperatorExtension.RenderNodeWorker_BackHair</workerClass>
+						<rotDrawMode>Fresh, Rotting</rotDrawMode>
+						<colorType>Hair</colorType>
+						<skipFlag>Hair</skipFlag>
+					    <useGraphic>true</useGraphic>
+                        <baseLayer>1</baseLayer>
+					</li>
+					<li>
+						<debugLabel>AKE_FrontHair_RenderNode</debugLabel>
+						<nodeClass>AKE_OperatorExtension.RenderNode_FrontHair</nodeClass>
+						<workerClass>AKE_OperatorExtension.RenderNodeWorker_FrontHair</workerClass>
+						<rotDrawMode>Fresh, Rotting</rotDrawMode>
+						<colorType>Hair</colorType>
+						<skipFlag>Hair</skipFlag>
+					    <useGraphic>true</useGraphic>
+                        <baseLayer>63</baseLayer>
+					</li>
+				</value>
+			</li-->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/PawnRenderTreeDef[defName="Animal" or defName="Misc"]/root[@Class="PawnRenderNodeProperties_Parent"]/children</xpath>
+				<value>
+					<li>
+						<debugLabel>AKE_HealthBar_RenderNode</debugLabel>
+						<nodeClass>AKE_OperatorExtension.PawnRenderNode_AKHealthBar</nodeClass>
+						<workerClass>AKE_OperatorExtension.PawnRenderNodeWorker_AKHealthBar</workerClass>
+						<useGraphic>true</useGraphic>
+					</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<!--Anomaly-->
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationAdd" MayRequire="Ludeon.Rimworld.Anomaly">
+				<xpath>Defs/PawnRenderTreeDef[defName="Bulbfreak" or defName="Toughspike" or defName="Trispike" or defName="Fingerspike"]/root[@Class="PawnRenderNodeProperties_Parent"]/children</xpath>
+				<value>
+					<li>
+						<debugLabel>AKE_HealthBar_RenderNode</debugLabel>
+						<nodeClass>AKE_OperatorExtension.PawnRenderNode_AKHealthBar</nodeClass>
+						<workerClass>AKE_OperatorExtension.PawnRenderNodeWorker_AKHealthBar</workerClass>
+						<useGraphic>true</useGraphic>
+					</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd" MayRequire="Ludeon.Rimworld.Anomaly">
+				<xpath>Defs/PawnRenderTreeDef[defName="Dreadmeld" or defName="Revenant" or defName="Devourer" or defName="Nociosphere"]/root[@Class="PawnRenderNodeProperties_Parent"]/children</xpath>
+				<value>
+					<li>
+						<debugLabel>AKE_HealthBar_RenderNode</debugLabel>
+						<nodeClass>AKE_OperatorExtension.PawnRenderNode_AKHealthBar</nodeClass>
+						<workerClass>AKE_OperatorExtension.PawnRenderNodeWorker_AKHealthBar</workerClass>
+						<useGraphic>true</useGraphic>
+					</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

@@ -8,9 +8,9 @@
 			<tagDef>Root</tagDef>
 			<children>
 				<li>
-					<debugLabel>AK_SkillBar_RenderNode</debugLabel>
-					<nodeClass>AK_DLL.PawnRenderNode_AKSkillBar</nodeClass>
-					<workerClass>AK_DLL.PawnRenderNodeWorker_AKSkillBar</workerClass>
+					<debugLabel>AKE_SkillBar_RenderNode</debugLabel>
+					<nodeClass>AKE_OperatorExtension.PawnRenderNode_AKSkillBar</nodeClass>
+					<workerClass>AKE_OperatorExtension.PawnRenderNodeWorker_AKSkillBar</workerClass>
 					<useGraphic>true</useGraphic>
 				</li>
 				<li>
