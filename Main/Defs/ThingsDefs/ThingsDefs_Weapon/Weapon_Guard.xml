@@ -1982,4 +1982,106 @@
 		</projectile>
 	</ThingDef>
 
+  <ThingDef ParentName="AK_WeaponBase_Guard">
+    <defName>AK_Weapon_TogawaSakiko</defName>
+    <label>新月的苏醒</label>
+    <description>当月光洒向人偶，她们暂时获得了生命，今夜的假面舞会，便由我来开启！</description>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Guard/TogawaSakikoW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+			<AccuracyTouch>0.83</AccuracyTouch>
+			<AccuracyShort>0.96</AccuracyShort>
+			<AccuracyMedium>0.83</AccuracyMedium>
+			<AccuracyLong>0.68</AccuracyLong>
+			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+		</statBases>
+    <tools Inherit = "false">
+      <li>
+        <label>剑柄</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+      <li>
+        <label>剑尖</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>41</power>
+        <cooldownTime>2</cooldownTime>
+        <armorPenetration>0.9</armorPenetration>
+      </li>
+      <li>
+        <label>剑刃</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>41</power>
+        <cooldownTime>2</cooldownTime>
+        <armorPenetration>0.9</armorPenetration>
+      </li>
+    </tools>
+    <verbs>
+      <li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_TogawaSakiko</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>1</warmupTime>
+				<range>30</range>
+        <burstShotCount>8</burstShotCount>
+        <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>AK_Sound_Weapon_Magic</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>8</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+    </verbs>
+  </ThingDef>
+
+  <ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_TogawaSakiko</defName>
+		<label>射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/MagicFire</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>7</damageAmountBase>
+      <armorPenetrationBase>0.75</armorPenetrationBase>
+			<stoppingPower>0.5</stoppingPower>
+			<speed>60</speed>
+		</projectile>
+	</ThingDef>
+
+  <ThingDef ParentName="AK_WeaponBase_Guard">
+    <defName>AK_Weapon_YutenjiNyamu</defName>
+    <label>如焰般热烈</label>
+    <description>她嫉妒着又憧憬着身边那些真正的天才，那些不用像她一样需要付出巨大努力的人，然后将这些情绪再默默化作自己的动力。</description>
+    <graphicData>
+      <texPath>Things/AK_Agents/Weapon/Guard/YutenjiNyamuW</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <tools Inherit = "false">
+      <li>
+        <label>锤击</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>50</power>
+        <cooldownTime>4</cooldownTime>
+        <armorPenetration>0.75</armorPenetration>
+      </li>
+    </tools>
+  </ThingDef> 
+
 </Defs>

@@ -526,4 +526,28 @@
 		</graphicData>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_Guard">
+		<defName>AK_Apparel_TogawaSakiko</defName>
+		<label>丰川祥子服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Guard/TogawaSakiko</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Guard/TogawaSakiko</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_ArmorBase_Guard">
+		<defName>AK_Apparel_YutenjiNyamu</defName>
+		<label>祐天寺若麦服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/Guard/YutenjiNyamu</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/Guard/YutenjiNyamu</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 </Defs>
