@@ -6,7 +6,7 @@
 		<description>能用于招募干员的特殊通讯设施，整合了瞬时传送模块，可以将覆盖范围内的殖民者瞬间传送到塔下。\n\n该设施已支持名称自定义，欢迎各位用户搭建自己的个性化传送网络。</description>
 		<thingClass>AK_DLL.RecruitConsole</thingClass>
 		<graphicData>
-			<texPath>Things/Building/RecruitTower_Base</texPath>
+			<texPath>transp</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>10</drawSize>
 			<shadowData>
@@ -68,12 +68,19 @@
 			<li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_Breakdownable"/>
 			<li Class="AK_DLL.TCP_TeleportTowerSuperior"/>
-			<li Class="AK_DLL.TCP_DrawOverlay">
+			<!--li Class="AK_DLL.TCP_DrawOverlay">
 				<overlay>
 					<texPath>Things/Building/RecruitTower_Upper</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
 					<drawSize>10</drawSize>
 				</overlay>
+			</li-->
+			<li Class="AK_DLL.TCP_DrawAnimationOverlay">
+				<path>Things/Building/ProtocolCore</path>
+				<frameCount>32</frameCount>
+				<framePerSec>32</framePerSec>
+				<scale>7</scale>
+				<offset>(0, 0, 2)</offset>
 			</li>
 		</comps>
 		<placeWorkers>
