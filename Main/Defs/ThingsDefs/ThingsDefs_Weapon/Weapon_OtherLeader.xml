@@ -308,4 +308,57 @@
 		<description>很普通的圆珠笔和书。</description>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_WeaponBase_OtherLeader">
+		<defName>AK_Weapon_Fll</defName>
+		<label>幽冥的忘忧章</label>
+		<description>我不在那里，也没有死去。\n我将追随死亡，用享受掩盖恐惧，以未来换回过去。</description>
+		<graphicData>
+			<texPath>Things/AK_Agents/Weapon/OtherLeader/Weapon_empty</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>10</AccuracyTouch>
+			<AccuracyShort>10</AccuracyShort>
+			<AccuracyMedium>10</AccuracyMedium>
+			<AccuracyLong>10</AccuracyLong>
+			<RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AK_Bullet_Fll</defaultProjectile>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<warmupTime>0.1</warmupTime>
+				<range>8</range>
+        		<burstShotCount>3</burstShotCount>
+        		<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<noiseRadius>3</noiseRadius>
+			</li>
+		</verbs>
+	</ThingDef>
+
+	<ThingDef ParentName="AK_BulletBase_Bow">
+		<defName>AK_Bullet_Fll</defName>
+		<label>法术射击</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Bullet</thingClass>
+		<projectile>
+			<damageDef>BombSuper</damageDef>
+			<damageAmountBase>8</damageAmountBase>
+			<stoppingPower>0.1</stoppingPower>
+			<armorPenetrationBase>10</armorPenetrationBase>
+			<speed>15</speed>
+			<soundExplode>ThumpCannon_Impact</soundExplode>
+		</projectile>
+	</ThingDef>
+
 </Defs>

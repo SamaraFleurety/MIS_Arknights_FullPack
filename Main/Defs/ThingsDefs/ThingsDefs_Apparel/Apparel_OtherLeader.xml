@@ -117,4 +117,16 @@
 		</apparel>
 	</ThingDef>
 
+	<ThingDef ParentName="AK_ArmorBase_OtherLeader">
+		<defName>AK_Apparel_Fll</defName>
+		<label>弗洛洛服装</label>
+		<graphicData>
+			<texPath>Things/AK_Agents/OtherLeader/Fll</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/AK_Agents/OtherLeader/Fll</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 </Defs>

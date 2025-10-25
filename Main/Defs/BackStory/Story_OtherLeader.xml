@@ -134,4 +134,23 @@
 		<baseDesc>{PAWN_pronoun}不是一个苛刻的管理者，严格但平易近人。</baseDesc>
 	</BackstoryDef>
 
+	<BackstoryDef ParentName="AK_StoryBase">
+		<defName>AK_BackStory_Fll_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>寻求答案的人</title>
+		<titleShort>寻求答案的人</titleShort>
+		<baseDesc>{PAWN_pronoun}为了挽留过去的幻影不择手段。她走遍世界只为寻求无人敢问的答案。\n如今，她不会再等了。</baseDesc>
+		<skillGains>
+			<Medicine>10</Medicine>
+			<Artistic>10</Artistic>
+			<Social>-10</Social>
+		  </skillGains>
+		  <workDisables>
+			<li>Firefighting</li>
+			<li>Hauling</li>
+			<li>Crafting</li>
+			<li>Caring</li>
+		  </workDisables>
+	</BackstoryDef>
+
 </Defs>

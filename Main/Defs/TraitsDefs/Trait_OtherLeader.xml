@@ -369,4 +369,24 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<!-- 弗洛洛 -->
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>AK_Trait_Fll</defName>
+		<degreeDatas>
+			<li>
+				<label>半残像化</label>
+				<description>对象声痕位于左臂，共鸣后半残象化的身体不再衰老，除左眼瞳色发生改变外，无其他特殊体征变化。测试结果显示，对象身体处于健康状态时，皮肤毁坏后进行频率更新与重组的时间约为6秒，器官毁坏后恢复时间为15-18分钟，至今未找到致死弱点。</description>
+				<statFactors>
+					<SocialImpact>0.5</SocialImpact>
+					<CertaintyLossFactor>0.5</CertaintyLossFactor>
+					<IncomingDamageFactor>1.35</IncomingDamageFactor>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+
 </Defs>

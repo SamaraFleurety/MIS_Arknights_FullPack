@@ -868,4 +868,95 @@
 		</skills>
 	</AK_DLL.OperatorDef>
 
+	<!-- 弗洛洛 -->
+
+	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_OtherLeaderDynaLoading">
+		<defName>AK_Recruit_Fll</defName>
+		<name>Fll</name>
+		<nickname>Fll</nickname>
+		<description>FIXMEDESC</description>
+		<hair>AK_Hair_Fll</hair>
+		<weapon>AK_Weapon_Fll</weapon>
+		<accessory>
+			<li>AK_Apparel_Fll</li>
+		</accessory>
+		<traits>
+			<li>
+				<def>Beauty</def>
+				<degree>2</degree>
+			</li>
+			<li>
+				<def>Psychopath</def>
+			</li>
+			<li>
+				<def>AK_Trait_Fll</def>
+			</li>
+		</traits>
+		<age>20</age>
+		<childHood>DisasterSurvivor29</childHood>
+		<adultHood>AK_BackStory_Fll_Adult</adultHood>
+		<skills>
+			<li>
+				<skill>Animals</skill>
+				<level>3</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Artistic</skill>
+				<level>15</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Construction</skill>
+				<level>4</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Cooking</skill>
+				<level>2</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Crafting</skill>
+				<level>7</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Intellectual</skill>
+				<level>10</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<level>5</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<level>3</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Mining</skill>
+				<level>3</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Plants</skill>
+				<level>4</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<level>10</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<level>8</level>
+				<fireLevel>0</fireLevel>
+			</li>
+		</skills>
+	</AK_DLL.OperatorDef>
+
 </Defs>
