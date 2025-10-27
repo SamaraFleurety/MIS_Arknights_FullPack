@@ -87,15 +87,15 @@
 		<texPath>Things/Hair/OtherLeader/Phrolova</texPath>
 		<noGraphic>true</noGraphic>
         <modExtensions>
-            <li Class="AK_DLL.Ext_FrontHair">
+            <li Class="AK_DLL.Ext_BackHair">
                 <graphicData>
                     <texPath>Things/Hair/OtherLeader/Phrolova</texPath>
                     <graphicClass>Graphic_Multi</graphicClass>
                     <drawSize>1.0</drawSize>
-                    <drawOffsetSouth>(0,0,0.35)</drawOffsetSouth>
-                    <drawOffsetNorth>(0,0,0.35)</drawOffsetNorth>
-                    <drawOffsetEast>(0.02,0,0.35)</drawOffsetEast>
-                    <drawOffsetWest>(-0.02,0,0.35)</drawOffsetWest>
+                    <drawOffsetSouth>(0,0,0.15)</drawOffsetSouth>
+                    <drawOffsetNorth>(0,0,0.15)</drawOffsetNorth>
+                    <drawOffsetEast>(-0.05,0,0.15)</drawOffsetEast>
+                    <drawOffsetWest>(-0.05,0,0.15)</drawOffsetWest>
                 </graphicData>
             </li>
         </modExtensions>

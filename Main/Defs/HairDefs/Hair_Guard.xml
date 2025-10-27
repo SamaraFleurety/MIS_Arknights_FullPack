@@ -258,7 +258,8 @@
 	<HairDef ParentName="AK_HairBaseF">
 		<defName>AK_Hair_TogawaSakiko</defName>
 		<label>丰川祥子发型</label>
-		<texPath>Things/Hair/Guard/TogawaSakiko</texPath>
+		<!--exPath>Things/Hair/Guard/TogawaSakiko</texPath-->
+		<texPath>transp</texPath>
 	</HairDef>
 
 	<HairDef ParentName="AK_HairBaseF">

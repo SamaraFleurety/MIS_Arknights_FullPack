@@ -99,7 +99,7 @@
 			<li>Violent</li>
 		</workDisables>
 		<requiredWorkTags>None</requiredWorkTags>
-        <shuffleable>False</shuffleable>
+		<shuffleable>False</shuffleable>
 	</BackstoryDef>
 
 	<BackstoryDef ParentName="AK_StoryBase">
@@ -141,16 +141,16 @@
 		<titleShort>寻求答案的人</titleShort>
 		<baseDesc>{PAWN_pronoun}为了挽留过去的幻影不择手段。她走遍世界只为寻求无人敢问的答案。\n如今，她不会再等了。</baseDesc>
 		<skillGains>
-			<Medicine>10</Medicine>
+			<!--Medicine>10</Medicine-->
 			<Artistic>10</Artistic>
 			<Social>-10</Social>
-		  </skillGains>
-		  <workDisables>
+		</skillGains>
+		<workDisables>
 			<li>Firefighting</li>
 			<li>Hauling</li>
 			<li>Crafting</li>
 			<li>Caring</li>
-		  </workDisables>
+		</workDisables>
 	</BackstoryDef>
 
 </Defs>
