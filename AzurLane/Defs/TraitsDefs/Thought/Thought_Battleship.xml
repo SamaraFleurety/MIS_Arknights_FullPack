@@ -1,4 +1,18 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+    <ThoughtDef>
+		<defName>LMA_Thought_Trait_USSNewJersey</defName>
+		<requiredTraits>
+			<li>LMA_Trait_USSNewJersey</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>最大最强</label>
+				<description>“最大最强”可不是什么自夸哦，或者说，“世界最强”也不为过呢~只要充分认识我了，关于这个话题的疑虑你很快就会打消的~</description>
+				<baseMoodEffect>12</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
 </Defs>

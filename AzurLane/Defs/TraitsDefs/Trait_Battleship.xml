@@ -13,4 +13,25 @@
 		</degreeDatas>
 	</TraitDef>
 
+	<!-- 新泽西 USS New Jersey -->
+
+	<TraitDef>
+		<defName>LMA_Trait_USSNewJersey</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>最大最强的BIG J</label>
+				<description>作为白鹰最强大的“BIG J”，新泽西有着无与伦比的实力。尽管拥有压倒性的力量，她却意外地亲和。</description>
+				<statOffsets>
+					<AimingDelayFactor>-0.4</AimingDelayFactor>
+					<ShootingAccuracyPawn>0.25</ShootingAccuracyPawn>
+				</statOffsets>
+				<statFactors>
+					<IncomingDamageFactor>0.5</IncomingDamageFactor>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
 </Defs>

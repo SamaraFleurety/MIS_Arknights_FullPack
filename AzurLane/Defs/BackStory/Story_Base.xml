@@ -23,4 +23,12 @@
         <baseDesc>履历缺失</baseDesc>
     </BackstoryDef>
 
+    <BackstoryDef ParentName="LMA_StoryBase">
+        <defName>LMA_BackStory_Base_Child</defName>
+        <slot>Childhood</slot>
+        <title>碧蓝航线舰娘</title>
+        <titleShort>舰娘</titleShort>
+        <baseDesc>和很多碧蓝航线港区的舰娘一样，{PAWN_nameDef}在船坞中通过心智魔方技术，作为对抗塞壬的人形兵器被建造出来。</baseDesc>
+    </BackstoryDef>
+
 </Defs>

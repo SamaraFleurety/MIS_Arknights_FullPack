@@ -1,4 +1,24 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+    <!-- 新泽西 USS New Jersey -->
+
+    <BackstoryDef ParentName="LMA_StoryBase">
+        <defName>LMA_BackStory_USSNewJersey_Adult</defName>
+        <slot>Adulthood</slot>
+        <title>“Black Dragon”</title>
+        <titleShort>“Black Dragon”</titleShort>
+        <baseDesc>新泽西作为“关键点G”的守护者，以其无与伦比的火力和阳光开朗的性格成为指挥官最可靠的伙伴。她曾与港区的同伴们并肩作战，对抗神秘的“仲裁者”机关，并在逆境中以其乐观和自信鼓舞着所有人。</baseDesc>
+    </BackstoryDef>
+
+    <!-- 狮 HMS Lion -->
+
+    <BackstoryDef ParentName="LMA_StoryBase">
+        <defName>LMA_BackStory_HMSLion_Adult</defName>
+        <slot>Adulthood</slot>
+        <title>高傲的狮</title>
+        <titleShort>高傲的狮</titleShort>
+        <baseDesc>隶属于皇家阵营的战列舰，这位如“狮子”一般高傲的女士，兴趣却是收集各种可爱的事物。\n她高举长剑，伴随着战吼，英勇地奔赴战场。\n以利齿撕碎敌人守护同伴，开拓疆土，为了装点您和她共同的荣耀之路，赢取那光荣的胜利——</baseDesc>
+    </BackstoryDef>
+
 </Defs>

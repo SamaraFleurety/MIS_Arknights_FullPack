@@ -1,4 +1,28 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+    <!-- 迪盖·特鲁因  FFNF Duguay-Trouin -->
+
+    <BackstoryDef ParentName="LMA_StoryBase">
+        <defName>LMA_BackStory_FFNFDuguayTrouin_Adult</defName>
+        <slot>Adulthood</slot>
+        <title>被欲望玷污的伪修女</title>
+        <titleShort>被欲望玷污的伪修女</titleShort>
+        <baseDesc>德盖·特鲁因是隶属于艾莉丝的轻巡，是个堕落的假姐妹。\n为了获取指挥官的珍品，以“净化”为名，有时温柔，有时粗暴地试图获取各种东西。\n与其光明正大地战斗，她更喜欢以贪婪的单方面攻击对手。</baseDesc>
+    </BackstoryDef>
+
+
+    <!-- Heavy Cruiser -->
+
+    
+    <!-- 安克雷奇  USS Anchorage -->
+
+    <BackstoryDef ParentName="LMA_StoryBase">
+        <defName>LMA_BackStory_USSAnchorage_Adult</defName>
+        <slot>Adulthood</slot>
+        <title>安克雷奇号</title>
+        <titleShort>安克雷奇号</titleShort>
+        <baseDesc>与成熟的外表不同，安克雷奇内心却还是个小孩子，是个将指挥官亲切称为「老师」的纯真孩子。\n将巴尔的摩级的同伴称为「好朋友」，时不时会让她们给自己读故事书。</baseDesc>
+    </BackstoryDef>
+
 </Defs>
