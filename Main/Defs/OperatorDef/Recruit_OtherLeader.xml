@@ -614,11 +614,11 @@
 		<adultHood>AK_BackStory_PRTS_Adult</adultHood>
 		<relations>
 			<li>
-				<key>Kaltsit</key>
+				<key>AK_Recruit_Kaltsit</key>
 				<value>Child</value>
 			</li>
 			<li>
-				<key>Amiya</key>
+				<key>AK_Recruit_Amiya</key>
 				<value>Grandchild</value>
 			</li>
 		</relations>
@@ -871,14 +871,14 @@
 	<!-- 弗洛洛 -->
 
 	<AK_DLL.OperatorDef ParentName="AK_RecruitBase_OtherLeaderDynaLoading">
-		<defName>AK_Recruit_Fll</defName>
-		<name>Fll</name>
-		<nickname>Fll</nickname>
+		<defName>AK_Recruit_Phrolova</defName>
+		<name>Phrolova</name>
+		<nickname>Phrolova</nickname>
 		<description>FIXMEDESC</description>
-		<hair>AK_Hair_Fll</hair>
-		<weapon>AK_Weapon_Fll</weapon>
+		<hair>AK_Hair_Phrolova</hair>
+		<weapon>AK_Weapon_Phrolova</weapon>
 		<accessory>
-			<li>AK_Apparel_Fll</li>
+			<li>AK_Apparel_Phrolova</li>
 		</accessory>
 		<traits>
 			<li>
@@ -889,12 +889,12 @@
 				<def>Psychopath</def>
 			</li>
 			<li>
-				<def>AK_Trait_Fll</def>
+				<def>AK_Trait_Phrolova</def>
 			</li>
 		</traits>
 		<age>20</age>
 		<childHood>DisasterSurvivor29</childHood>
-		<adultHood>AK_BackStory_Fll_Adult</adultHood>
+		<adultHood>AK_BackStory_Phrolova_Adult</adultHood>
 		<skills>
 			<li>
 				<skill>Animals</skill>

@@ -309,7 +309,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="AK_WeaponBase_OtherLeader">
-		<defName>AK_Weapon_Fll</defName>
+		<defName>AK_Weapon_Phrolova</defName>
 		<label>幽冥的忘忧章</label>
 		<description>我不在那里，也没有死去。\n我将追随死亡，用享受掩盖恐惧，以未来换回过去。</description>
 		<graphicData>
@@ -327,7 +327,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>AK_Bullet_Fll</defaultProjectile>
+				<defaultProjectile>AK_Bullet_Phrolova</defaultProjectile>
 				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
 				<warmupTime>0.1</warmupTime>
 				<range>8</range>
@@ -344,7 +344,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="AK_BulletBase_Bow">
-		<defName>AK_Bullet_Fll</defName>
+		<defName>AK_Bullet_Phrolova</defName>
 		<label>法术射击</label>
 		<graphicData>
 			<texPath>Things/Projectile/Bullet</texPath>
