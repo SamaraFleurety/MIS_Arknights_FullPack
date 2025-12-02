@@ -258,14 +258,41 @@
 	<HairDef ParentName="AK_HairBaseF">
 		<defName>AK_Hair_TogawaSakiko</defName>
 		<label>丰川祥子发型</label>
-		<!--exPath>Things/Hair/Guard/TogawaSakiko</texPath-->
-		<texPath>transp</texPath>
+		<texPath>Things/Hair/Guard/TogawaSakiko</texPath>
+		<noGraphic>true</noGraphic>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_FrontHair">
+				<graphicData>
+					<texPath>Things/Hair/Guard/TogawaSakiko</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1.058</drawSize>
+					<drawOffsetSouth>(0,-0.2,-0.376)</drawOffsetSouth>
+					<drawOffsetNorth>(0,-0.2,-0.376)</drawOffsetNorth>
+					<drawOffsetEast>(-0.085,-0.2,-0.376)</drawOffsetEast>
+					<drawOffsetWest>(0.085,-0.2,-0.376)</drawOffsetWest>
+				</graphicData>
+			</li>
+		</modExtensions>
 	</HairDef>
 
 	<HairDef ParentName="AK_HairBaseF">
 		<defName>AK_Hair_YutenjiNyamu</defName>
 		<label>祐天寺若麦发型</label>
 		<texPath>Things/Hair/Guard/YutenjiNyamu</texPath>
+		<noGraphic>true</noGraphic>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_FrontHair">
+				<graphicData>
+					<texPath>Things/Hair/Guard/YutenjiNyamu</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1.058</drawSize>
+					<drawOffsetSouth>(0,-0.2,-0.376)</drawOffsetSouth>
+					<drawOffsetNorth>(0,-0.2,-0.376)</drawOffsetNorth>
+					<drawOffsetEast>(-0.085,-0.2,-0.376)</drawOffsetEast>
+					<drawOffsetWest>(0.085,-0.2,-0.376)</drawOffsetWest>
+				</graphicData>
+			</li>
+		</modExtensions>
 	</HairDef>
 
 </Defs>

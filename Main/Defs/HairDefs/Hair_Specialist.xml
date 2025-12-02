@@ -165,12 +165,40 @@
         <defName>AK_Hair_WakabaMutsumi</defName>
         <label>若叶睦发型</label>
         <texPath>Things/Hair/Specialist/WakabaMutsumi</texPath>
+		<noGraphic>true</noGraphic>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_FrontHair">
+				<graphicData>
+					<texPath>Things/Hair/Specialist/WakabaMutsumi</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1.058</drawSize>
+					<drawOffsetSouth>(0,-0.2,-0.376)</drawOffsetSouth>
+					<drawOffsetNorth>(0,-0.2,-0.376)</drawOffsetNorth>
+					<drawOffsetEast>(-0.085,-0.2,-0.376)</drawOffsetEast>
+					<drawOffsetWest>(0.085,-0.2,-0.376)</drawOffsetWest>
+				</graphicData>
+			</li>
+		</modExtensions>
     </HairDef>
 
 	<HairDef ParentName="AK_HairBaseF">
         <defName>AK_Hair_YahataUmiri</defName>
         <label>八幡海铃发型</label>
         <texPath>Things/Hair/Specialist/YahataUmiri</texPath>
+		<noGraphic>true</noGraphic>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_FrontHair">
+				<graphicData>
+					<texPath>Things/Hair/Specialist/YahataUmiri</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1.058</drawSize>
+					<drawOffsetSouth>(0,-0.2,-0.376)</drawOffsetSouth>
+					<drawOffsetNorth>(0,-0.2,-0.376)</drawOffsetNorth>
+					<drawOffsetEast>(-0.085,-0.2,-0.376)</drawOffsetEast>
+					<drawOffsetWest>(0.085,-0.2,-0.376)</drawOffsetWest>
+				</graphicData>
+			</li>
+		</modExtensions>
     </HairDef>
 
 </Defs>

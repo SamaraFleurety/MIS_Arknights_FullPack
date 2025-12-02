@@ -183,6 +183,20 @@
 		<defName>AK_Hair_MisumiUika</defName>
 		<label>三角初华发型</label>
 		<texPath>Things/Hair/Supporter/MisumiUika</texPath>
+		<noGraphic>true</noGraphic>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_FrontHair">
+				<graphicData>
+					<texPath>Things/Hair/Supporter/MisumiUika</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1.058</drawSize>
+					<drawOffsetSouth>(0,-0.2,-0.376)</drawOffsetSouth>
+					<drawOffsetNorth>(0,-0.2,-0.376)</drawOffsetNorth>
+					<drawOffsetEast>(-0.085,-0.2,-0.376)</drawOffsetEast>
+					<drawOffsetWest>(0.085,-0.2,-0.376)</drawOffsetWest>
+				</graphicData>
+			</li>
+		</modExtensions>
 	</HairDef>
 
 </Defs>
