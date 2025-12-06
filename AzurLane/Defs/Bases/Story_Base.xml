@@ -8,27 +8,18 @@
     </BackstoryDef>
 
     <BackstoryDef ParentName="LMA_StoryBase">
-        <defName>LMA_BackStory_Unknown_Child</defName>
-        <slot>Childhood</slot>
-        <title>不明</title>
-        <titleShort>不明</titleShort>
-        <baseDesc>履历缺失</baseDesc>
-    </BackstoryDef>
-
-    <BackstoryDef ParentName="LMA_StoryBase">
-        <defName>LMA_BackStory_Unknown_Adult</defName>
-        <slot>Adulthood</slot>
-        <title>不明</title>
-        <titleShort>不明</titleShort>
-        <baseDesc>履历缺失</baseDesc>
-    </BackstoryDef>
-
-    <BackstoryDef ParentName="LMA_StoryBase">
-        <defName>LMA_BackStory_Base_Child</defName>
+        <defName>LMA_BackStory_Generic_Child</defName>
         <slot>Childhood</slot>
         <title>碧蓝航线舰娘</title>
         <titleShort>舰娘</titleShort>
         <baseDesc>和很多碧蓝航线港区的舰娘一样，{PAWN_nameDef}在船坞中通过心智魔方技术，作为对抗塞壬的人形兵器被建造出来。</baseDesc>
     </BackstoryDef>
 
+	<BackstoryDef ParentName="LMA_StoryBase">
+        <defName>LMA_BackStory_Intangible_Adult</defName>
+        <slot>Adulthood</slot>
+        <title>架空舰娘</title>
+        <titleShort>架空舰娘</titleShort>
+        <baseDesc>该舰船并未真实建造。</baseDesc>
+    </BackstoryDef>
 </Defs>

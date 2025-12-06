@@ -2046,7 +2046,7 @@
 				<armorPenetration>0.9</armorPenetration>
 			</li>
 		</tools>
-		<verbs>
+		<!--verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
@@ -2064,10 +2064,10 @@
 				<muzzleFlashScale>8</muzzleFlashScale>
 				<noiseRadius>3</noiseRadius>
 			</li>
-		</verbs>
+		</verbs-->
 	</ThingDef>
 
-	<ThingDef ParentName="AK_BulletBase_Bow">
+	<!--ThingDef ParentName="AK_BulletBase_Bow">
 		<defName>AK_Bullet_TogawaSakiko</defName>
 		<label>射击</label>
 		<graphicData>
@@ -2085,15 +2085,15 @@
 		<modExtensions>
 			<li Class="AKE_OperatorExtension.Ext_MultiSegBezierBullet">
 				<curveProperty>
-					<control1LeftBottom>(0.2, 0, 0.5)</control1LeftBottom>
-					<control1RightTop>(0.4, 0, 1.5)</control1RightTop>
-					<control2LeftBottom>(0.6, 0, -0.5)</control2LeftBottom>
-					<control2RightTop>(0.9, 0, -1.5)</control2RightTop>
+					<control1LeftBottom>(0.1, 0, 0.05)</control1LeftBottom>
+					<control1RightTop>(0.4, 0, 0.15)</control1RightTop>
+					<control2LeftBottom>(0.6, 0, -0.05)</control2LeftBottom>
+					<control2RightTop>(0.9, 0, -0.15)</control2RightTop>
 					<verticalFlipChance>0.5</verticalFlipChance>
 				</curveProperty>
 			</li>
 		</modExtensions>
-	</ThingDef>
+	</ThingDef-->
 
 	<ThingDef ParentName="AK_WeaponBase_Guard">
 		<defName>AK_Weapon_YutenjiNyamu</defName>

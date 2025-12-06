@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<AK_DLL.OperatorDef Name="LMA_RecruitBase" Abstract="True">
+		<surname>碧蓝航线</surname>
+		<description>愿无限奇迹，终将降临</description>
+		<bodyTypeDef>Thin</bodyTypeDef>
+		<isMale>false</isMale>
+		<accessory>
+			<li>LMA_Apparel_GenericApparel</li>
+		</accessory>
+		<skinColor>
+			<r>0.9804</r>
+			<g>0.902</g>
+			<b>0.8235</b>
+			<a>1.0</a>
+		</skinColor>
+		<hairColor>
+			<r>1</r>
+			<g>1</g>
+			<b>1</b>
+			<a>1</a>
+		</hairColor>
+		<childHood>LMA_BackStory_Generic_Child</childHood>
+		<adultHood>LMA_BackStory_Intangible_Adult</adultHood>
+		<age>22</age>
+		<headTypeDef>LMA_Head_Small</headTypeDef>
+		<standOffsets>
+			<li>
+				<key>0</key>
+				<value>(10,20,0.5)</value>
+			</li>
+			<li>
+				<key>1</key>
+				<value>(10,10,0.5)</value>
+			</li>
+		</standOffsets>
+		<xenoType>LMA_BaseType</xenoType>
+		<operatorID>AK_VAbility_Operator</operatorID>
+		<modPackageID>LMA.AzurLane</modPackageID>
+		<renderTreeOverride>LMA_PawnRenderTree_Operator</renderTreeOverride>
+		<dynaLoadStaticStands>true</dynaLoadStaticStands>		
+		<modExtensions>
+			<li MayRequire="Paluto22.AK.Compatibility" Class="PA_AKPatch.Ext_MarkNLIncompatible" />
+		</modExtensions>
+	</AK_DLL.OperatorDef>
+
+	<!-- 航母 -->
+	<AK_DLL.OperatorDef ParentName="LMA_RecruitBase" Name="LMA_RecruitBase_Carrier" Abstract="True">
+		<operatorType>LMA_OperatorClass_Carrier</operatorType>
+		<ticketCost>2</ticketCost>
+		<accessory>
+			<li>LMA_Shield_Carrier</li>
+		</accessory>
+	</AK_DLL.OperatorDef>
+
+	<!-- 战列 -->
+	<AK_DLL.OperatorDef ParentName="LMA_RecruitBase" Name="LMA_RecruitBase_Battleship" Abstract="True">
+		<operatorType>LMA_OperatorClass_Battle</operatorType>
+		<ticketCost>2</ticketCost>
+		<accessory>
+			<li>LMA_Shield_Carrier</li>
+		</accessory>
+	</AK_DLL.OperatorDef>
+
+	<!-- 驱逐 -->
+	<AK_DLL.OperatorDef ParentName="LMA_RecruitBase" Name="LMA_RecruitBase_Destroyer" Abstract="True">
+		<operatorType>LMA_OperatorClass_Destroyer</operatorType>
+		<age>16</age>
+		<accessory>
+			<li>LMA_Shield_Destroyer</li>
+		</accessory>
+	</AK_DLL.OperatorDef>
+
+	<!-- 重巡 -->
+	<AK_DLL.OperatorDef ParentName="LMA_RecruitBase" Name="LMA_RecruitBase_HeavyCruiser" Abstract="True">
+		<operatorType>LMA_OperatorClass_HeavyCruiser</operatorType>
+		<accessory>
+			<li>LMA_Shield_HeavyCruiser</li>
+		</accessory>
+	</AK_DLL.OperatorDef>
+
+	<!-- 巡洋 -->
+	<AK_DLL.OperatorDef ParentName="LMA_RecruitBase" Name="LMA_RecruitBase_Cruiser" Abstract="True">
+		<operatorType>LMA_OperatorClass_Cruiser</operatorType>
+		<accessory>
+			<li>LMA_Shield_Cruiser</li>
+		</accessory>
+	</AK_DLL.OperatorDef>
+
+	<!-- 维护 -->
+	<AK_DLL.OperatorDef ParentName="LMA_RecruitBase" Name="LMA_RecruitBase_Maintenance" Abstract="True">
+		<operatorType>LMA_OperatorClass_Maintenance</operatorType>
+		<accessory>
+			<li>LMA_Shield_Transport</li>
+		</accessory>
+		<age>16</age>
+	</AK_DLL.OperatorDef>
+
+	<!-- 风帆 -->
+	<AK_DLL.OperatorDef ParentName="LMA_RecruitBase" Name="LMA_RecruitBase_SailingFrigate" Abstract="True">
+		<operatorType>LMA_OperatorClass_SailingFrigate</operatorType>
+		<accessory>
+			<li>LMA_Shield_SailingFrigate</li>
+		</accessory>
+	</AK_DLL.OperatorDef>
+
+	<!-- 潜艇 -->
+	<AK_DLL.OperatorDef ParentName="LMA_RecruitBase" Name="LMA_RecruitBase_Submarine" Abstract="True">
+		<operatorType>LMA_OperatorClass_Submarine</operatorType>
+		<accessory>
+			<li>LMA_Shield_Submarine</li>
+		</accessory>
+	</AK_DLL.OperatorDef>
+
+	<!-- 运输 -->
+	<AK_DLL.OperatorDef ParentName="LMA_RecruitBase" Name="LMA_RecruitBase_Transport" Abstract="True">
+		<operatorType>LMA_OperatorClass_Transport</operatorType>
+		<accessory>
+			<li>LMA_Shield_Transport</li>
+		</accessory>
+		<age>16</age>
+	</AK_DLL.OperatorDef>
+</Defs>

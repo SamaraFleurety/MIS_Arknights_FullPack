@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Class="AK_DLL.Apparels.ApparelDef_Shipgirl" Name="LMA_ArmorBase" ParentName="ApparelBase">
+		<defName>LMA_Apparel_GenericApparel</defName>
+		<label>舰娘服装</label>
+		<description>desc</description>
+		<nameRule>AK_DLL.Apparels.ApparelNameRule_Apparel</nameRule>
+		<smeltable>false</smeltable>
+		<useHitPoints>false</useHitPoints>
+		<techLevel>Undefined</techLevel>
+		<thingClass>AK_DLL.Apparels.Apparel_Shipgirl</thingClass>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/FlakVest/FlakVest</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.50</drawSize>
+		</graphicData>
+		<statBases>
+			<Mass>0.1</Mass>
+			<Flammability>0</Flammability>
+			<DeteriorationRate>0</DeteriorationRate>
+			<ArmorRating_Sharp>0</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0</ArmorRating_Blunt>
+			<ArmorRating_Heat>0</ArmorRating_Heat>
+			<Insulation_Cold>100</Insulation_Cold>
+		    <Insulation_Heat>100</Insulation_Heat>
+			<EquipDelay>1</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">1</VacuumResistance>
+		</equippedStatOffsets>
+		<thingCategories Inherit="false">
+			<li>LMA_Apparel</li>
+		</thingCategories>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Shipgirls</wornGraphicPath>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options" Inherit="false">
+			<options>
+				<li>
+					<only>(255,255,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<burnableByRecipe>false</burnableByRecipe>
+		<relicChance>0</relicChance>
+		<tradeability>None</tradeability>
+		<tickerType>Never</tickerType>
+		<generateCommonality>0</generateCommonality>
+		<generateAllowChance>0</generateAllowChance>
+		<randomizeRotationOnSpawn>false</randomizeRotationOnSpawn>
+		<canLoadIntoCaravan>false</canLoadIntoCaravan>
+		<comps>
+			<li Class="CompProperties_Biocodable"/>
+			<li Class="AK_DLL.TCP_RemoveMe"/>
+			<li Class="SFLib.TCP_HideBody">
+				<hideBody>true</hideBody>
+				<hideHead>true</hideHead>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef Class="AK_DLL.Apparels.ApparelDef_Shipgirl" ParentName="LMA_ArmorBase" Name="LMA_ShieldBase" Abstract="True">
+		<defName>LMA_ShieldBase</defName>
+		<label>舰娘舾装</label>
+		<nameRule>AK_DLL.Apparels.ApparelNameRule_Shield</nameRule>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/FlakVest/FlakVest</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.50</drawSize>
+		</graphicData>
+		<hideWhenUndraft>true</hideWhenUndraft>
+		<apparelExtraCategory>Shield</apparelExtraCategory>
+		<statBases>
+			<ArmorRating_Sharp>1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1</ArmorRating_Blunt>
+			<ArmorRating_Heat>2</ArmorRating_Heat>
+			<Insulation_Cold>0</Insulation_Cold>
+		    <Insulation_Heat>0</Insulation_Heat>
+		</statBases>
+		<apparel>
+			<layers Inherit="False">
+				<li>Belt</li>
+			</layers>
+			<renderNodeProperties>
+										<li Class="PawnRenderNodeProperties_Tattoo" MayRequire="Ludeon.RimWorld.Ideology">
+							<debugLabel>Body tattoo</debugLabel>
+							<nodeClass>PawnRenderNode_Tattoo_Body</nodeClass>
+							<workerClass>PawnRenderNodeWorker_Body_Tattoo</workerClass>
+							<colorType>Skin</colorType>
+							<useRottenColor>true</useRottenColor>
+							<baseLayer>2</baseLayer>
+							<rotDrawMode>Fresh, Rotting</rotDrawMode>
+						</li>
+			</renderNodeProperties>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef Class="AK_DLL.Apparels.ApparelDef_Shipgirl" ParentName="LMA_ShieldBase">
+		<defName>LMA_Shield_Destroyer</defName>
+		<statBases>
+			<ArmorRating_Sharp>1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1</ArmorRating_Blunt>
+		</statBases>
+		<equippedStatOffsets>
+		    <AK_Stat_MoveSpeedFactor>1</AK_Stat_MoveSpeedFactor> <!-- 这在效果上是x2 x0.8是-0.2 -->
+		</equippedStatOffsets>
+		<comps>
+            <li Class="AKS_Shield.TCP_GenericShield">
+				<compClass>AKS_Shield.TC_ShipgirlShield</compClass>
+                <energyMax>200</energyMax>
+                <energyRegenRate>20</energyRegenRate>
+                <energyLostPerDmg>1</energyLostPerDmg>
+                <allowEnergyOverflow>false</allowEnergyOverflow>
+                <energyRatioOnReset>0.2</energyRatioOnReset>
+                <ticksToReset>600</ticksToReset>
+                <canAbsorbMeleeDmg>true</canAbsorbMeleeDmg>
+                <meleeAbsorbFactor>1</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1</rangedAbsorbFactor>
+                <meleeDodgeChanceFactor>0</meleeDodgeChanceFactor>
+            </li>
+        </comps>
+	</ThingDef>
+	
+	<ThingDef Class="AK_DLL.Apparels.ApparelDef_Shipgirl" ParentName="LMA_ShieldBase">
+		<defName>LMA_Shield_Cruiser</defName>
+		<statBases>
+			<ArmorRating_Sharp>1.2</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.2</ArmorRating_Blunt>
+		</statBases>
+		<comps>
+            <li Class="AKS_Shield.TCP_GenericShield">
+				<compClass>AKS_Shield.TC_ShipgirlShield</compClass>
+                <energyMax>350</energyMax>
+                <energyRegenRate>70</energyRegenRate>
+                <energyLostPerDmg>1</energyLostPerDmg>
+                <allowEnergyOverflow>false</allowEnergyOverflow>
+                <energyRatioOnReset>0.2</energyRatioOnReset>
+                <ticksToReset>600</ticksToReset>
+                <canAbsorbMeleeDmg>true</canAbsorbMeleeDmg>
+                <meleeAbsorbFactor>1</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1</rangedAbsorbFactor>
+                <meleeDodgeChanceFactor>0</meleeDodgeChanceFactor>
+            </li>
+        </comps>
+	</ThingDef>
+	
+	<ThingDef Class="AK_DLL.Apparels.ApparelDef_Shipgirl" ParentName="LMA_ShieldBase">
+		<defName>LMA_Shield_HeavyCruiser</defName>
+		<statBases>
+			<ArmorRating_Sharp>1.4</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.4</ArmorRating_Blunt>
+		</statBases>
+		<equippedStatOffsets>
+		    <AK_Stat_MoveSpeedFactor>-0.2</AK_Stat_MoveSpeedFactor> 
+		</equippedStatOffsets>
+		<comps>
+            <li Class="AKS_Shield.TCP_GenericShield">
+				<compClass>AKS_Shield.TC_ShipgirlShield</compClass>
+                <energyMax>400</energyMax>
+                <energyRegenRate>80</energyRegenRate>
+                <energyLostPerDmg>1</energyLostPerDmg>
+                <allowEnergyOverflow>false</allowEnergyOverflow>
+                <energyRatioOnReset>0.2</energyRatioOnReset>
+                <ticksToReset>900</ticksToReset>
+                <canAbsorbMeleeDmg>true</canAbsorbMeleeDmg>
+                <meleeAbsorbFactor>1.5</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1</rangedAbsorbFactor>
+                <meleeDodgeChanceFactor>0</meleeDodgeChanceFactor>
+            </li>
+        </comps>
+	</ThingDef>
+	
+	<!-- 战列和航母都共用这个 -->
+	<ThingDef Class="AK_DLL.Apparels.ApparelDef_Shipgirl" ParentName="LMA_ShieldBase">
+		<defName>LMA_Shield_Carrier</defName>
+		<statBases>
+			<ArmorRating_Sharp>2</ArmorRating_Sharp>
+			<ArmorRating_Blunt>2</ArmorRating_Blunt>
+		</statBases>
+		<equippedStatOffsets>
+		    <AK_Stat_MoveSpeedFactor>-0.4</AK_Stat_MoveSpeedFactor> 
+		</equippedStatOffsets>
+		<comps>
+            <li Class="AKS_Shield.TCP_GenericShield">
+				<compClass>AKS_Shield.TC_ShipgirlShield</compClass>
+                <energyMax>1000</energyMax>
+                <energyRegenRate>50</energyRegenRate>
+                <energyLostPerDmg>1</energyLostPerDmg>
+                <allowEnergyOverflow>false</allowEnergyOverflow>
+                <energyRatioOnReset>0.2</energyRatioOnReset>
+                <ticksToReset>900</ticksToReset>
+                <canAbsorbMeleeDmg>true</canAbsorbMeleeDmg>
+                <meleeAbsorbFactor>2</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1</rangedAbsorbFactor>
+                <meleeDodgeChanceFactor>0</meleeDodgeChanceFactor>
+            </li>
+        </comps>
+	</ThingDef>
+	
+	<ThingDef Class="AK_DLL.Apparels.ApparelDef_Shipgirl" ParentName="LMA_ShieldBase">
+		<defName>LMA_Shield_Submarine</defName>
+		<statBases>
+			<ArmorRating_Sharp>0.6</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+		</statBases>
+		<equippedStatOffsets>
+		    <AK_Stat_MoveSpeedFactor>3</AK_Stat_MoveSpeedFactor> 
+		</equippedStatOffsets>
+		<comps>
+            <li Class="AKS_Shield.TCP_GenericShield">
+				<compClass>AKS_Shield.TC_ShipgirlShield</compClass>
+                <energyMax>200</energyMax>
+                <energyRegenRate>20</energyRegenRate>
+                <energyLostPerDmg>1</energyLostPerDmg>
+                <allowEnergyOverflow>false</allowEnergyOverflow>
+                <energyRatioOnReset>0.2</energyRatioOnReset>
+                <ticksToReset>900</ticksToReset>
+                <canAbsorbMeleeDmg>true</canAbsorbMeleeDmg>
+                <meleeAbsorbFactor>2</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1</rangedAbsorbFactor>
+                <meleeDodgeChanceFactor>0</meleeDodgeChanceFactor>
+            </li>
+        </comps>
+	</ThingDef>
+	
+	<!-- 维修/运输共用这个 -->
+	<ThingDef Class="AK_DLL.Apparels.ApparelDef_Shipgirl" ParentName="LMA_ShieldBase">
+		<defName>LMA_Shield_Transport</defName>
+		<statBases>
+			<ArmorRating_Sharp>0.6</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+		</statBases>
+		<equippedStatOffsets>
+		    <AK_Stat_MoveSpeedFactor>0.5</AK_Stat_MoveSpeedFactor> 
+		</equippedStatOffsets>
+		<comps>
+            <li Class="AKS_Shield.TCP_GenericShield">
+				<compClass>AKS_Shield.TC_ShipgirlShield</compClass>
+                <energyMax>200</energyMax>
+                <energyRegenRate>20</energyRegenRate>
+                <energyLostPerDmg>1</energyLostPerDmg>
+                <allowEnergyOverflow>false</allowEnergyOverflow>
+                <energyRatioOnReset>0.2</energyRatioOnReset>
+                <ticksToReset>900</ticksToReset>
+                <canAbsorbMeleeDmg>true</canAbsorbMeleeDmg>
+                <meleeAbsorbFactor>2</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1</rangedAbsorbFactor>
+                <meleeDodgeChanceFactor>0</meleeDodgeChanceFactor>
+            </li>
+        </comps>
+	</ThingDef>
+	
+	<ThingDef Class="AK_DLL.Apparels.ApparelDef_Shipgirl" ParentName="LMA_ShieldBase">
+		<defName>LMA_Shield_SailingFrigate</defName>
+		<statBases>
+			<ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+		</statBases>
+		<comps>
+            <li Class="AKS_Shield.TCP_GenericShield">
+				<compClass>AKS_Shield.TC_ShipgirlShield</compClass>
+                <energyMax>350</energyMax>
+                <energyRegenRate>70</energyRegenRate>
+                <energyLostPerDmg>1</energyLostPerDmg>
+                <allowEnergyOverflow>false</allowEnergyOverflow>
+                <energyRatioOnReset>0.2</energyRatioOnReset>
+                <ticksToReset>300</ticksToReset>
+                <canAbsorbMeleeDmg>true</canAbsorbMeleeDmg>
+                <meleeAbsorbFactor>2</meleeAbsorbFactor>
+                <rangedAbsorbFactor>1</rangedAbsorbFactor>
+                <meleeDodgeChanceFactor>0</meleeDodgeChanceFactor>
+            </li>
+        </comps>
+	</ThingDef>
+</Defs>

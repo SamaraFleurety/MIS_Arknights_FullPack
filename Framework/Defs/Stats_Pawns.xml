@@ -13,4 +13,15 @@
 		<displayPriorityInCategory>5201</displayPriorityInCategory>
 	</StatDef>
   
+	<StatDef>
+		<defName>AK_Stat_MoveSpeedFactor</defName>
+		<label>移动速度</label>
+		<description>影响此人物移动速度的倍率</description>
+		<category>PawnWork</category>
+		<toStringStyle>Integer</toStringStyle>
+		<defaultBaseValue>1</defaultBaseValue>
+		<hideAtValue>1</hideAtValue>
+		<minValue>0.01</minValue>
+		<displayPriorityInCategory>5201</displayPriorityInCategory>
+	</StatDef>
 </Defs>

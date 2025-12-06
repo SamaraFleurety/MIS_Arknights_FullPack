@@ -12,16 +12,16 @@
 	</AK_DLL.OperatorClassDef>
 
 	<AK_DLL.OperatorClassDef ParentName="LMA_OpClassAzurLane">
-		<defName>LMA_OperatorClass_Aircraftcarrier</defName>
-		<label>Aircraftcarrier</label>
+		<defName>LMA_OperatorClass_Carrier</defName>
+		<label>航母</label>
 		<sortingOrder>30</sortingOrder>
-		<textureFolder>Aircraftcarrier</textureFolder>
-		<iconPath>UI/Element/Aircraftcarrier</iconPath>
+		<textureFolder>Carrier</textureFolder>
+		<iconPath>UI/Element/Carrier</iconPath>
 	</AK_DLL.OperatorClassDef>
 
 	<AK_DLL.OperatorClassDef ParentName="LMA_OpClassAzurLane">
 		<defName>LMA_OperatorClass_Battle</defName>
-		<label>Battle</label>
+		<label>战列</label>
 		<sortingOrder>31</sortingOrder>
 		<textureFolder>Battle</textureFolder>
 		<iconPath>UI/Element/Battleship</iconPath>
@@ -29,23 +29,23 @@
 
 	<AK_DLL.OperatorClassDef ParentName="LMA_OpClassAzurLane">
 		<defName>LMA_OperatorClass_Destroyer</defName>
-		<label>Destroyer</label>
+		<label>驱逐</label>
 		<sortingOrder>32</sortingOrder>
 		<textureFolder>Destroyer</textureFolder>
 		<iconPath>UI/Element/Destroyer</iconPath>
 	</AK_DLL.OperatorClassDef>
 
 	<AK_DLL.OperatorClassDef ParentName="LMA_OpClassAzurLane">
-		<defName>LMA_OperatorClass_Heavyartillery</defName>
-		<label>Heavyartillery</label>
+		<defName>LMA_OperatorClass_HeavyCruiser</defName>
+		<label>重巡</label>
 		<sortingOrder>33</sortingOrder>
-		<textureFolder>Heavyartillery</textureFolder>
-		<iconPath>UI/Element/Heavyartillery</iconPath>
+		<textureFolder>HeavyCruiser</textureFolder>
+		<iconPath>UI/Element/HeavyCruiser</iconPath>
 	</AK_DLL.OperatorClassDef>
 
 	<AK_DLL.OperatorClassDef ParentName="LMA_OpClassAzurLane">
 		<defName>LMA_OperatorClass_Cruiser</defName>
-		<label>Cruiser</label>
+		<label>巡洋</label>
 		<sortingOrder>34</sortingOrder>
 		<textureFolder>Cruiser</textureFolder>
 		<iconPath>UI/Element/Cruiser</iconPath>
@@ -53,23 +53,23 @@
 
 	<AK_DLL.OperatorClassDef ParentName="LMA_OpClassAzurLane">
 		<defName>LMA_OperatorClass_Maintenance</defName>
-		<label>Maintenance</label>
+		<label>维护</label>
 		<sortingOrder>35</sortingOrder>
 		<textureFolder>Maintenance</textureFolder>
 		<iconPath>UI/Element/Maintenance</iconPath>
 	</AK_DLL.OperatorClassDef>
 
 	<AK_DLL.OperatorClassDef ParentName="LMA_OpClassAzurLane">
-		<defName>LMA_OperatorClass_Sailingbattle</defName>
-		<label>Sailingbattle</label>
+		<defName>LMA_OperatorClass_SailingFrigate</defName>
+		<label>风帆</label>
 		<sortingOrder>36</sortingOrder>
-		<textureFolder>Sailingbattle</textureFolder>
-		<iconPath>UI/Element/Sailingbattle</iconPath>
+		<textureFolder>SailingFrigate</textureFolder>
+		<iconPath>UI/Element/SailingFrigate</iconPath>
 	</AK_DLL.OperatorClassDef>
 
 	<AK_DLL.OperatorClassDef ParentName="LMA_OpClassAzurLane">
 		<defName>LMA_OperatorClass_Submarine</defName>
-		<label>Submarine</label>
+		<label>潜艇</label>
 		<sortingOrder>37</sortingOrder>
 		<textureFolder>Submarine</textureFolder>
 		<iconPath>UI/Element/Submarine</iconPath>
@@ -77,7 +77,7 @@
 
 	<AK_DLL.OperatorClassDef ParentName="LMA_OpClassAzurLane">
 		<defName>LMA_OperatorClass_Transport</defName>
-		<label>Transport</label>
+		<label>运输</label>
 		<sortingOrder>38</sortingOrder>
 		<textureFolder>Transport</textureFolder>
 		<iconPath>UI/Element/Transport</iconPath>
