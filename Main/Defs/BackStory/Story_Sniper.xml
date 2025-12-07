@@ -438,4 +438,20 @@
         <baseDesc>拉特兰教皇厅第七厅枢机，“噤声的蕾缪安”，她和她手中的铳不会轻易开口。</baseDesc>
     </BackstoryDef>
 
+	<BackstoryDef ParentName = "AK_StoryBase">
+        <defName>AK_BackStory_May_Child</defName>
+        <slot>Childhood</slot>
+        <title>年轻的侦探</title>
+        <titleShort>年轻的侦探</titleShort>
+        <baseDesc>梅的祖上是有名的侦探世家，从小，她就接受这样的熏陶成长。她总是自称为维多利亚皇家侦探，破获过多起案件；虽然无从考证，但姑且还是相信她吧。</baseDesc>
+    </BackstoryDef>
+
+    <BackstoryDef ParentName = "AK_StoryBase">
+        <defName>AK_BackStory_May_Adult</defName>
+        <slot>Adulthood</slot>
+        <title>罗德岛干员</title>
+        <titleShort>罗德岛干员</titleShort>
+        <baseDesc>自称深受上司赏识，受派遣前往罗德岛作为罗德岛干员进行工作，虽然平时总会出些小问题，但在关键时刻梅小姐还是会展现出她作为侦探值得信赖的一面。</baseDesc>
+    </BackstoryDef>
+
 </Defs>

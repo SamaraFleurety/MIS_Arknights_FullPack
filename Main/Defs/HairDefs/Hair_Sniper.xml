@@ -267,4 +267,24 @@
 		</modExtensions>
     </HairDef>
 
+	<HairDef ParentName="AK_HairBaseF">
+        <defName>AK_Hair_May</defName>
+        <label>蕾缪安发型</label>
+        <texPath>Things/Hair/Sniper/May</texPath>
+		<noGraphic>true</noGraphic>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_FrontHair">
+				<graphicData>
+					<texPath>Things/Hair/Sniper/May</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1</drawSize>
+					<drawOffsetSouth>(0,0,-0.01)</drawOffsetSouth>
+					<drawOffsetNorth>(0,0,-0.01)</drawOffsetNorth>
+					<drawOffsetEast>(0,0,-0.02)</drawOffsetEast>
+					<drawOffsetWest>(0,0,-0.02)</drawOffsetWest>
+				</graphicData>
+			</li>
+		</modExtensions>
+    </HairDef>
+
 </Defs>

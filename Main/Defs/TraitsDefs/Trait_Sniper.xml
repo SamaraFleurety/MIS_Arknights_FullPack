@@ -859,4 +859,26 @@
         </degreeDatas>
     </TraitDef>
 
+	<!-- 梅 -->
+
+	<TraitDef>
+        <defName>AK_Trait_May</defName>
+        <ignoreConfigErrors>true</ignoreConfigErrors>
+        <commonality>0.0</commonality>
+        <degreeDatas>
+            <li>
+                <label>“维多利亚皇家侦探”</label>
+                <description>看起来总是冒冒失失的探员小姐。
+虽然确实拥有一定的侦探素养，在侦查、追踪、反追踪、线索分析等领域也都接受过专业训练，却无论如何都总能给人一种不可靠感，某种意义上也算是天赋。</description>
+                <statOffsets>
+                    <ShootingAccuracyPawn>2</ShootingAccuracyPawn>
+                    <AimingDelayFactor>-0.2</AimingDelayFactor>
+                </statOffsets>
+				<statFactors>
+					<GlobalLearningFactor>1.2</GlobalLearningFactor>
+				</statFactors>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
 </Defs>
