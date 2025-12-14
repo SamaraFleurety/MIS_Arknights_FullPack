@@ -115,12 +115,12 @@
 			</li>
 			<!-- 舰娘的武器没有实体和数据，改为舰娘拿所有武器都有个幻化。没画武器的舰娘不带此扩展 -->
 			<!-- 同上 也是都能写 -->
-			<!--li Class="AK_DLL.Ext_WeaponWieldGraphics">
+			<li Class="AK_DLL.Ext_WeaponWieldGraphics">
 				<alterGraphics>
 					<texPath>Shipgirls/Battle/Bismarck/BismarckZwei_Weapon</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
 				</alterGraphics>
-			</li-->
+			</li>
 		</modExtensions>
 	</AK_DLL.OperatorDef>
 	
@@ -133,8 +133,15 @@
 				<label>铁血宰相</label>
 				<description>真理只在我的射程范围内。</description>
 				<statOffsets>
+					<PainShockThreshold>0.1</PainShockThreshold>
+					<MentalBreakThreshold>-0.15</MentalBreakThreshold>
+					<PawnBeauty>1</PawnBeauty>
+					<SocialImpact>0.1</SocialImpact>
 				</statOffsets>
 				<statFactors>
+					<NegotiationAbility>5</NegotiationAbility>
+					<JoyFallRateFactor>0.5</JoyFallRateFactor>
+					<SocialIdeoSpreadFrequencyFactor>2</SocialIdeoSpreadFrequencyFactor>
 				</statFactors>
 			</li>
 		</degreeDatas>
@@ -149,8 +156,13 @@
 				<label>探求破灭之龙</label>
 				<description>战舰俾斯麦，开辟未来！</description>
 				<statOffsets>
+					<IncomingDamageFactor>-0.2</IncomingDamageFactor>
+					<AimingDelayFactor>-0.3</AimingDelayFactor>
+					<ShootingAccuracyPawn>2</ShootingAccuracyPawn>
+					<RangedCooldownFactor>-0.2</RangedCooldownFactor>
 				</statOffsets>
 				<statFactors>
+					<StaggerDurationFactor>0.5</StaggerDurationFactor>
 				</statFactors>
 			</li>
 		</degreeDatas>
