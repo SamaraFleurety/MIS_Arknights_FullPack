@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AK_DLL.OperatorDef ParentName="LMA_RecruitBase_Battleship">
+		<defName>LMA_Recruit_NewJersey</defName>
+		<nickname>新泽西</nickname>
+		<surname>衣阿华级</surname>
+		<description>我是白鹰战列舰，最大最强的Black Dragon——新泽西号。这可不是什么自夸哦，或者说，“世界最强”也不为过呢~只要充分认识我了，关于这个话题的疑惑你很快就会打消的~</description>
+		<adultHood>LMA_BackStory_NewJersey_Adult</adultHood>
+		<skills>
+			<li>
+				<skill>Animals</skill>
+				<level>3</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Artistic</skill>
+				<level>3</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Construction</skill>
+				<level>6</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Cooking</skill>
+				<level>6</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Crafting</skill>
+				<level>6</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Intellectual</skill>
+				<level>6</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<level>6</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<level>9</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Mining</skill>
+				<level>3</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Plants</skill>
+				<level>3</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<level>16</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<level>12</level>
+				<fireLevel>1</fireLevel>
+			</li>
+		</skills>
+		<traits>
+			<li>
+				<def>NaturalMood</def>
+				<degree>2</degree>
+			</li>
+			<li>
+				<def>Beauty</def>
+				<degree>2</degree>
+			</li>
+			<li>
+				<def>Industriousness</def>
+				<degree>-1</degree>
+			</li>
+			<li>
+				<def>LMA_Trait_NewJersey</def>
+			</li>
+			<li>
+				<def>LMA_Trait_NewJerseySecond</def>
+			</li>
+		</traits>
+		<!-- 新版标准，原皮也视为一套换装 -->
+		<defaultFashion>LMA_FashionSet_NewJersey_Original</defaultFashion>
+		<modExtensions>
+			<!-- 舰娘穿的衣服不再每个单独一个def，并且数据都一样，仅文本不同 -->
+			<!-- 下面这个ext可以写在op def,也可以写在fashion set def（都存在的话优先读） 推荐所有衣服一样描述写op def，否则分开写 -->
+			<li Class="AK_DLL.Ext_OperatorExtraInfo">
+				<apparelInfo>
+					<label>新泽西的服装</label>
+					<description>性能数据
+排水量：48110 吨（标准）；57540 吨（满载）
+长：270.4 米
+宽：33.0 米
+吃水：11.0 米
+动力：212000 匹
+装置：8 × 巴布科克-威尔科克斯式燃油型水管锅炉；4 × 通用电气电力式齿轮传动型蒸气轮机；4 × 推进器
+航速：33 节
+航程：14890 海里/15 节
+编制：1921 人
+武器：3座三联装406毫米/50 Mk7型主炮；10座双联装127毫米/38 Mk12型改28型高平两用炮；20座四联装40毫米/56博福斯对空机炮；49座单装20毫米/70厄利孔高射机炮
+装甲：水线装甲带：307毫米；水密隔舱：287毫米；炮座：295-439毫米；炮塔：495毫米；甲板：38+152毫米
+舰载机：3架OS2U翠鸟式水上飞机
+其它：2座水上飞机弹射器
+改装为导弹战列舰后
+武器：3座三联装406毫米/50 MK7型主炮；6座双联装127毫米/38 Mk12型改28型高平两用炮；8座四管箱型战斧巡航导弹发射器；4座Mk141型四管鱼叉导弹发射器；4座密集阵近程防御武器系统</description>
+				</apparelInfo>
+				<shieldInfo>
+					<label>新泽西的舰装</label>
+					<description>新泽西号战列舰（USS New Jersey, BB-62）是美国海军二战初期建造的衣阿华级战列舰2号舰，也是美国海军第二艘以新泽西命名的舰艇。新泽西州有一个人所共知的别称，“花园州（The Garden State）”——新泽西确实没那么多花园，但曾以大面积的农场自傲。这个别称赞美了新泽西富饶的农业产出，但最终目的在1876年是为了抗议北边的纽约人与西边的宾州人攫取州内农场资源，要州民站出来“保卫自己的花园州”而提出的，曾任州检察长的亚伯拉罕·布朗宁（Abraham Browning）在演讲时就把新泽西称之为花园之州，说新泽西就像一个装满美食的大桶（地图上的新泽西确实是有点像只躺着的桶），两头都敞着口，宾夕法尼亚人从一头捞好吃的，另一头则留给了纽约人。现在这个别称已没有了当年的政治内涵，而作为横贯连接纽约与费城两大城市群的州，新泽西的地理位置确实可谓优越。
+　　对于衣阿华级战列舰，大家可能更熟悉的是首舰衣阿华与3号舰密苏里，但别称“Big J”与“Black Dragon”的2号舰新泽西在美国海军历史上的地位也异常特殊：
+　　这里需要说明一下二战期间美国太平洋舰队的构成：一提起美国太平洋舰队（United States Pacific Fleet），大家的第一印象或许就是“实力雄厚”与“功勋卓著”。二战期间，美国海军的太平洋舰队在总司令尼米兹海军上将的指挥下，自美国西海岸线，到夏威夷珍珠港，再到中太平洋诸岛、南太平洋与澳大利亚，最后到东南亚与日本本土，一直与旧日本帝国一整个国家的海军主力（日本海军联合舰队）作战。而这支在二战中正面对抗联合舰队的舰队，其核心序列正是第三舰队（United States Third Fleet）/第五舰队（United States Fifth Fleet）——被大家戏称为“灭国舰队”的第38/58特遣舰队（Task Force 38/58，以下简称“TF 38/58”）正式该舰队最精锐的主力。
+　　——没错，自新泽西1944年初出现在太平洋战场最前线之时，她便同时被小威廉·哈尔西（第三舰队司令）与斯普鲁恩斯（第五舰队司令），这两位太平洋舰队的股肱栋梁看中，几乎一直担任着第三舰队/第五舰队的旗舰（Flagship of the Third/Fifth Fleet），作为两位传奇舰队司令的座舰。虽然那时美国海军在太平洋上最艰难的时刻已经过去，但战争的胜利依旧需要正义之师给予最后一击，新泽西以舰队旗舰的身份见证了这一切，直至东京湾内，直至送在外的美军回家……
+　　新泽西在二战期间的旗舰生涯总体有个特点——虽然是舰队旗舰，但新泽西从不避战。若是需要战列舰提供支援，新泽西一定不会关照舰上的舰队司令，准确出现在战斗阵位，甚至是战场的最前沿。
+　　二战期间，新泽西连续参与马绍尔群岛、夸贾林方面的战斗，任第五舰队旗舰后进攻特鲁克泊地、帕劳与沃莱艾环礁，短暂卸任舰队旗舰后支援登陆新几内亚，最后参与菲律宾海海战。舰队司令轮换后任第三舰队旗舰，参与了莱特湾海战，并支援美军重夺菲律宾。卸任第三舰队旗舰后，支援进攻硫磺岛，前进至冲绳，最终重新以第五舰队旗舰身份进驻东京湾。二战后，太平洋舰队主力更换为第七舰队（United States Seventh Fleet），新泽西毫不意外地出任了第七舰队的旗舰（Flagship of the Seventh Fleet），先后参与朝鲜战争、越南战争、黎巴嫩内战，不过并未参加海湾战争参战的是密苏里和威斯康星，在海湾战争之前最终退役。现在，新泽西正作为博物馆舰停泊于原纽约造船厂（New York Shipbuilding Corporation）所在地，新泽西州的卡姆登港区（Camden Waterfront）——回归新泽西州如此有海军传统的原造船工业重镇，她也算是叶落归根了。
+　　二战期间，新泽西共获得9枚战斗之星。但如果包含她战后的连年征战，新泽西全部服役生涯共获得16枚战斗之星（另外7枚分别来自：朝鲜战争4枚，越南战争3枚）。越南战争期间，新泽西受海军集体表彰（Navy Unit Commendation）；同时还拥有菲律宾与韩国的总统集体嘉奖（Presidential Unit Citation）。
+　　——也因此，美国战史研究者对她的历史地位有一个定位，她是“美国海军历史上最富荣誉的战列舰（Most decorated battleship in the US Navy's history）”</description>
+				</shieldInfo>
+			</li>
+			<!-- 舰娘的武器没有实体和数据，改为舰娘拿所有武器都有个幻化。没画武器的舰娘不带此扩展 -->
+			<!-- 同上 也是都能写 -->
+			<!--li Class="AK_DLL.Ext_WeaponWieldGraphics">
+				<alterGraphics>
+					<texPath>Shipgirls/Battle/Bismarck/NewJersey_Weapon</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+				</alterGraphics>
+			</li-->
+		</modExtensions>
+	</AK_DLL.OperatorDef>
+	
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>LMA_Trait_NewJersey</defName>
+		<degreeDatas>
+			<li>
+				<label>*最大最强的BIG J</label>
+				<description>作为白鹰最强大的“BIG J”，新泽西有着无与伦比的实力。尽管拥有压倒性的力量，她却意外地亲和。</description>
+				<statOffsets>
+					<AimingDelayFactor>-0.4</AimingDelayFactor>
+					<ShootingAccuracyPawn>0.25</ShootingAccuracyPawn>
+				</statOffsets>
+				<statFactors>
+				    <IncomingDamageFactor>0.5</IncomingDamageFactor>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+	<ThoughtDef>
+		<defName>LMA_Thought_Trait_NewJersey</defName>
+		<workerClass>ThoughtWorker_AlwaysActive</workerClass>
+        <validWhileDespawned>false</validWhileDespawned>
+		<requiredTraits>
+			<li>LMA_Trait_NewJersey</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>*最大最强的BIG J</label>
+				<description>“最大最强”可不是什么自夸哦，或者说，“世界最强”也不为过呢~只要充分认识我了，关于这个话题的疑虑你很快就会打消的~</description>
+				<baseMoodEffect>12</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>LMA_Trait_NewJerseySecond</defName>
+		<degreeDatas>
+			<li>
+				<label>通向自由的炮火</label>
+				<description>新泽西如同灿烂的太阳，她的存在本身就能驱散同伴心中的阴霾。在战斗中，她的呐喊能激发全队的潜能；在平日里，她开朗的笑声能让整个殖民地充满活力</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.32</MentalBreakThreshold>
+					<SocialImpact>0.24</SocialImpact>
+				</statOffsets>
+				<statFactors>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+	
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>LMA_BackStory_NewJersey_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>新泽西履历</title>
+		<titleShort>新泽西</titleShort>
+		<baseDesc>战时建成
+　　由于新任新泽西州州长，罗斯福前一总统任期的海军部长，查尔斯·艾迪逊为费城海军船坞（Philadelphia Naval Shipyard）极力争取，这一大造舰订单终于在1940年9月16日落地开工。1942年12月7日，新泽西由查尔斯·艾迪逊的夫人亲自主持入水，1943年5月下旬服役。经历半年大西洋与加勒比海海试，1944年1月横穿巴拿马运河，加入太平洋舰队主力——斯普鲁恩斯海军上将的第五舰队（The Fifth Fleet）。在经历夺取马绍尔群岛与夸贾林的登陆战后，2月在马朱罗，该舰升斯普鲁恩斯海军上将的将旗，就任第五舰队旗舰（Flagship of the Fifth Fleet），开始了她的舰队总旗舰生涯。
+
+
+第五舰队
+　　新泽西升任舰队总旗舰后的首战便是冰雹行动（Operation Hailstone）：在斯普鲁恩斯的指挥下，她亲率第五舰队主力，第58特遣舰队（Task Force 58，以下简称“TF 58”）摧毁日海军中太平洋的老巢，日本所谓“绝对国防圈”的支点，特鲁克环礁（Truk Lagoon）。在取得压倒性的胜利后，新泽西乘胜追击，率舰队空袭直扑帕劳（Palaus）与沃莱艾环礁（Woleai Lagoon）。4月中旬，或许是为保证斯普鲁恩斯的安全，新泽西卸任旗舰交付印第安纳波利斯，与TF 58的所有战列舰一同开赴新几内亚支援登陆。最后转战马里亚纳群岛，新泽西与其他战列舰一字排开挡在航母们身前，坐镇在菲律宾海海战战场的最前线。
+
+
+第三舰队
+　　在美军占领关岛后，新泽西于8月9日抵达珍珠港休整，全舰队也在此时重新整编至第三舰队（The Third Fleet）。8月24日，新泽西在乌利西（Ulithi）泊地内被第三舰队司令，小威廉·哈尔西海军上将一眼相中，升将旗重新披挂就任第三舰队旗舰（Flagship of the Third Fleet），并在月末出港——这次第三舰队全体的目标是菲律宾。新泽西并未参与往台湾与冲绳地区方面的佯攻，而是在菲律宾南部与米沙鄢海区域巡航。但得知了，哈尔西海军上将就是在这艘舰上指挥了整场莱特湾海战（Battle of Leyte Gulf）。
+　　——当然，她也载着哈尔西一同经历了那场台风：她，冲过去了。
+
+
+见证胜利
+　　1945年1月，新泽西最后一次与哈尔西出航，此时战线已推进至冲绳。1月27日，新泽西在乌利西卸任第三舰队旗舰。两天后升奥斯卡·巴杰尔海军少将将旗任第7战列分队旗舰（Flagship of 7th Battleship Division），炮击硫磺岛（Iwo Jima）。冲绳战役后，新泽西曾返回本土维修养护，最终以复任的斯普鲁恩斯的第五舰队旗舰身份在9月17日直入东京湾。在临时代任驻日本舰队的旗舰一段时间后，1946年1月由衣阿华接替，新泽西参与魔毯行动，搭载千余名美军返回旧金山。
+
+
+无法远离的战火
+　　二战结束后，1948年，新泽西退役，编入预备役。1950年朝鲜战争爆发后重新服役，战争结束后不久于1957年再度退役并编入预备役。1961年,美国破坏《日内瓦协议》介入越南战争，1968年4月新泽西单独重回现役，并进行了小规模的现代化改装，包括拆除所有中小口径防空炮、升级了雷达电子设备等，然而1年多后，由于政治、运行成本等因素，新泽西在1969年12月再次退役并再次编入预备役。
+　　1981年里根政府上台后提出了建设“600艘舰艇海军”的政策。由于里根历来是战列舰的支持者，在他的推动下，衣阿华级的改装计划以预算修正案的形式获得通过。新泽西于1981年10月开始改装，至1982年12月再次服役。直到1991年苏联解体，冷战结束，海军军费大幅缩减，战列舰作为一种性价比不高的武器终于到了退出历史舞台的时刻。1991年2月8日，新泽西号最后一次退役，1995年1月除籍。此后还有一段短暂时间作为预备役舰艇。
+
+
+荣膺归乡
+　　1999年9月12日，新泽西拖往费城海军造船厂进行捐赠为博物馆舰之前的修复工作，2001年10月，新泽西战舰博物馆和纪念馆正式向公众开放。
+
+　　2024年3月21日。新泽西号干船坞出发仪式于美东时间上午10:30举行, 这是她在1991年维护后第一次移动，前往特拉华河下游对岸几英里外的费城海军船厂---她出生的地方。她将在举行她下水仪式的船坞内(这个船坞建于1921年)进行为期两个月的的维护，仅针对水线下的部分，包括维护螺旋桨，船舵和传动主轴，更换抗腐蚀的阴极材料，并重新刷上灰色的底漆(仅限水线部分，船底到水线部分为红色底漆), 进坞时间为3月27日，并将于4月6日开启限时的船坞参观游览路线，维护在6月14日（北京时间）结束并抵达新泽西州保罗斯伯勒港，新泽西号将在此处进行最后的检查，19日完成压舱水平衡，美东时间6月20日新泽西号返回了在卡姆登的停泊地。维护结束后预期可以保持30年，对很多人来说，这将是他们一生中最后一次看到新泽西号战列舰移动。</baseDesc>
+	</BackstoryDef>
+</Defs>
