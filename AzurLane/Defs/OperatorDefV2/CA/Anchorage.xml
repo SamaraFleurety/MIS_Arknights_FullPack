@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AK_DLL.OperatorDef ParentName="LMA_RecruitBase_Battleship">
+		<defName>LMA_Recruit_Anchorage</defName>
+		<nickname>安克雷奇</nickname>
+		<surname>安克雷奇</surname>
+		<description>安克雷奇…是白鹰重巡。和巴尔的摩她们…是朋友！和老师也是…嗯！最好的…！</description>
+		<adultHood>LMA_BackStory_Anchorage_Adult</adultHood>
+		<skills>
+			<li>
+				<skill>Animals</skill>
+				<level>12</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Artistic</skill>
+				<level>6</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Construction</skill>
+				<level>3</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Cooking</skill>
+				<level>6</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Crafting</skill>
+				<level>6</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Intellectual</skill>
+				<level>6</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<level>9</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<level>9</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Mining</skill>
+				<level>3</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Plants</skill>
+				<level>3</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<level>16</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<level>12</level>
+				<fireLevel>1</fireLevel>
+			</li>
+		</skills>
+		<traits>
+			<li>
+				<def>Beauty</def>
+				<degree>2</degree>
+			</li>
+			<li>
+				<def>Kind</def>
+			</li>
+			<li>
+				<def>FastLearner</def>
+			</li>
+			<li>
+				<def>LMA_Trait_Anchorage</def>
+			</li>
+		</traits>
+		<!-- 新版标准，原皮也视为一套换装 -->
+		<defaultFashion>LMA_FashionSet_Anchorage_Original</defaultFashion>
+		<modExtensions>
+			<!-- 舰娘穿的衣服不再每个单独一个def，并且数据都一样，仅文本不同 -->
+			<!-- 下面这个ext可以写在op def,也可以写在fashion set def（都存在的话优先读） 推荐所有衣服一样描述写op def，否则分开写 -->
+			<li Class="AK_DLL.Ext_OperatorExtraInfo">
+				<apparelInfo>
+					<label>安克雷奇的服装</label>
+					<description>性能数据
+排水量：17000 吨（标准）；20254 吨（满载）
+长：218.4 米
+宽：23.6 米
+吃水：7.3 米
+动力：120000 匹
+装置：4 x 锅炉；4 x 蒸汽轮机；4 x 推进器
+航速：33 节
+编制： 人
+武器：4 x 三联装203 mm/55 Mk15主炮；4 x 单装127 mm/38 Mk12（Mk24炮座）；2 x 双联装127 mm/38 Mk12（Mk29 mod.0炮座）；14 x 四联装28mm芝加哥钢琴；16 x 单装20mm厄利孔机炮；2 x 四联装533mm鱼雷发射器
+舰载机：4 x 水上飞机（Vought OS2U或Grumman F4F）
+其它：2 x 弹射器</description>
+				</apparelInfo>
+				<shieldInfo>
+					<label>安克雷奇的舰装</label>
+					<description>安克雷奇号重巡洋舰（USS Anchorage）是《战舰世界》中登场的美国金币VIII级重巡洋舰，在0.9.8~0.9.9版本的造船厂活动中可以获得，目前绝版。
+　　安克雷奇本质是美国IX级银币重巡洋舰水牛城（USS Buffalo）的“减配版”，因此其同样属于美国于1940年代初设计，对巴尔的摩级重巡洋舰进行改进的CA-B方案。
+　　1940年初，美国海军开建巴尔的摩级重巡洋舰，于此同时，美国海军获悉日本海军正着手将最上级巡洋舰的155mm主炮换装为203mm主炮。完成换装后的最上级对比巴尔的摩级与新奥尔良级将拥有火力优势。为了在火力上对日本取得决定性优势，1940年7月，美国海军舰船局开始设计新巡洋舰，并于9月递交了CA-A、CA-B这2款巴尔的摩级的改进型设计。稍后于1941年3月设计了CA-C方案。她们代表着美国重巡洋舰的另一条发展方向。
+　　这三款新方案中，CA-A方案就是装甲增强的稍大巴尔的摩级，且实际并没有形成设计图。CA-B方案与CA-C方案则按照“加强火力”的要求增加了1座三联装203mm主炮塔，船体大幅增长。其中，CA-C方案还加强轮机使航速达到35节，船体进一步增长，这导致CA-C方案标准排水量上升至20000吨，效费比过低没有获得海军总委会认可，而CA-B方案则被认为具有一定可行性。然而由于战事吃紧，美国海军等不到新方案完成设计，随着1940年末与1941年初，海军部批准增建巴尔的摩级重巡洋舰，这三款新重巡方案均被放弃。
+　　具体到游戏中，安克雷奇相比原方案，其副炮遭到缩减，防空配置、雷达、火控也基本为1930年代中期至40年代初期各美系巡洋舰现代化改造前的型号，乃至主炮炮弹都为新奥尔良级与威奇塔使用的非超重弹。不过，安克雷奇获得了额外的（魔法的）四联装鱼雷发射器以及可以使用烟雾发生器消耗品的特色。《战舰世界》中船体状态为1942年。</description>
+				</shieldInfo>
+			</li>
+			<!-- 舰娘的武器没有实体和数据，改为舰娘拿所有武器都有个幻化。没画武器的舰娘不带此扩展 -->
+			<!-- 同上 也是都能写 -->
+			<!-- <li Class="AK_DLL.Ext_WeaponWieldGraphics">
+				<alterGraphics>
+					<texPath>Shipgirls/CA/Anchorage/Anchorage_Weapon</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+				</alterGraphics>
+			</li> -->
+		</modExtensions>
+	</AK_DLL.OperatorDef>
+	
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>LMA_Trait_Anchorage</defName>
+		<degreeDatas>
+			<li>
+				<label>纯真守护</label>
+				<description>与成熟的外表不同，安克雷奇内心还如同小孩子一般，难以理解复杂的信息和社交暗示。
+她每天都要指挥官给她读故事书才能睡着。</description>
+				<statOffsets>
+					<MentalBreakThreshold>0.1</MentalBreakThreshold>
+					<SocialImpact>-0.2</SocialImpact>
+					<GlobalLearningFactor>0.15</GlobalLearningFactor>
+					<WorkSpeedGlobal>0.15</WorkSpeedGlobal>
+					<RestRateMultiplier>0.15</RestRateMultiplier>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+	<ThoughtDef>
+		<defName>LMA_Thought_Trait_Anchorage</defName>
+		<workerClass>ThoughtWorker_AlwaysActive</workerClass>
+        <validWhileDespawned>false</validWhileDespawned>
+		<requiredTraits>
+			<li>LMA_Trait_Anchorage</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>纯真守护</label>
+				<description>安克雷奇.......喜欢摸摸！</description>
+				<baseMoodEffect>16</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>LMA_BackStory_Anchorage_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>安克雷奇履历</title>
+		<titleShort>安克雷奇</titleShort>
+		<baseDesc>该舰船并未真实建造</baseDesc>
+	</BackstoryDef>
+</Defs>
