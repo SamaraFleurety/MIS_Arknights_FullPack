@@ -86,6 +86,9 @@
 		</traits>
 		<!-- 新版标准，原皮也视为一套换装 -->
 		<defaultFashion>LMA_FashionSet_Anchorage_Original</defaultFashion>
+		<clothSets>
+			<li>LMA_FashionSet_Anchorage_Usual</li>
+		</clothSets>
 		<modExtensions>
 			<!-- 舰娘穿的衣服不再每个单独一个def，并且数据都一样，仅文本不同 -->
 			<!-- 下面这个ext可以写在op def,也可以写在fashion set def（都存在的话优先读） 推荐所有衣服一样描述写op def，否则分开写 -->

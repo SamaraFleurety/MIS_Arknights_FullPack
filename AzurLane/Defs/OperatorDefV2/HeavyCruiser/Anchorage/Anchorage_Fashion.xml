@@ -15,4 +15,20 @@
 			</li>
 		</modExtensions>
 	</Def>
+
+	<Def Class="AK_DLL.OperatorFashionSetDef">
+		<defName>LMA_FashionSet_Anchorage_Usual</defName>
+		<label>常服</label>
+		<standIndex>0</standIndex>
+		<fashionName>Usual</fashionName>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_FrontHair">
+				<graphicData>
+					<texPath>Shipgirls/HeavyCruiser/Anchorage/Anchorage_Usual_Hair</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+				</graphicData>
+				<showOnlyOnBed>true</showOnlyOnBed>
+			</li>
+		</modExtensions>
+	</Def>
 </Defs>
