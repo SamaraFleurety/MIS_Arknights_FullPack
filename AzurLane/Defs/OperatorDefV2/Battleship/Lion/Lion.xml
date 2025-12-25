@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AK_DLL.OperatorDef ParentName="LMA_RecruitBase_Battleship">
+		<defName>LMA_Recruit_Lion</defName>
+		<nickname>狮</nickname>
+		<surname>狮级</surname>
+		<description>皇家海军狮级战列舰首舰，狮。呵呵……希望你听好了，这片港区虽然属于你，但也是我的领地。从今往后我就是你和港区的守护者，任何威胁都逃不过我的眼睛。这就是我的承诺……</description>
+		<adultHood>LMA_BackStory_Lion_Adult</adultHood>
+		<skills>
+			<li>
+				<skill>Animals</skill>
+				<level>3</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Artistic</skill>
+				<level>9</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Construction</skill>
+				<level>1</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Cooking</skill>
+				<level>1</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Crafting</skill>
+				<level>6</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Intellectual</skill>
+				<level>12</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<level>6</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<level>14</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Mining</skill>
+				<level>3</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Plants</skill>
+				<level>3</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<level>16</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<level>16</level>
+				<fireLevel>2</fireLevel>
+			</li>
+		</skills>
+		<traits>
+			<li>
+				<def>Beauty</def>
+				<degree>2</degree>
+			</li>
+			<li>
+				<def>Industriousness</def>
+				<degree>2</degree>
+			</li>
+			<li>
+				<def>Bloodlust</def>
+			</li>
+			<li>
+				<def>LMA_Trait_Lion</def>
+			</li>
+			<li>
+				<def>LMA_Trait_LionSecond</def>
+			</li>
+		</traits>
+		<!-- 新版标准，原皮也视为一套换装 -->
+		<defaultFashion>LMA_FashionSet_Bismarck_Original</defaultFashion>
+		<modExtensions>
+			<!-- 舰娘穿的衣服不再每个单独一个def，并且数据都一样，仅文本不同 -->
+			<!-- 下面这个ext可以写在op def,也可以写在fashion set def（都存在的话优先读） 推荐所有衣服一样描述写op def，否则分开写 -->
+			<li Class="AK_DLL.Ext_OperatorExtraInfo">
+				<apparelInfo>
+					<label>狮的服装</label>
+					<description>开工建造时狮级的基本性能数据：
+
+狮级 性能数据/1938年
+标准排水量：40550吨
+满载排水量：46400吨
+水线长度：237.74米（780英尺）
+水线宽度：32米（105英尺）
+吃水：9.15米（30.02英尺）
+武备：3座三联装406毫米（16英寸）45倍径主炮；8座双联装133毫米（5.25英寸）50倍径副炮；6座八联装40毫米2-pdr“砰砰”炮；2架飞机
+主装甲带厚度：374毫米（14.71英寸）/弹药舱,机舱
+水平装甲厚度：148毫米（5.88英寸）/弹药舱；124毫米（4.90英寸）/机舱
+轴马力：120000/正常；130000/过载
+航速：30节
+续航力：14000海里/10节
+载油量：3720吨</description>
+				</apparelInfo>
+				<shieldInfo>
+					<label>狮的舰装</label>
+					<description>狮级战列舰（Lion-class battleship）是第二次世界大战期间英国未完成的一级战列舰，也是英国皇家海军计划建造的条约型战列舰中最大的设计。</description>
+				</shieldInfo>
+			</li>
+			<!-- 舰娘的武器没有实体和数据，改为舰娘拿所有武器都有个幻化。没画武器的舰娘不带此扩展 -->
+			<!-- 同上 也是都能写 -->
+			<li Class="AK_DLL.Ext_WeaponWieldGraphics">
+				<alterGraphics>
+					<texPath>Shipgirls/Battle/Lion/Lion_Weapon</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+				</alterGraphics>
+			</li>
+		</modExtensions>
+	</AK_DLL.OperatorDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>LMA_Trait_Lion</defName>
+		<degreeDatas>
+			<li>
+				<label>威武的狮</label>
+				<description>就如同她的名字一样，狮有着极其强大气场和威武的气势
+哪怕不用亲自出手，她强大的威压也能轻松压制对手至不敢抬头。</description>
+				<statOffsets>
+					<PawnBeauty>1</PawnBeauty>
+					<PainShockThreshold>-0.32</PainShockThreshold>
+					<MentalBreakThreshold>-1</MentalBreakThreshold>
+				</statOffsets>
+				<statFactors>
+					<NegotiationAbility>1.5</NegotiationAbility>
+				</statFactors>
+			</li>
+		</degreeDatas>
+		<modExtensions>
+			<li Class="AKE_OperatorExtension.DefExt_SkillLossRate">
+				<skillLossFactor>0.7</skillLossFactor>
+			</li>
+		</modExtensions>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>LMA_Trait_LionSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>高傲的狮</label>
+				<description>狮总是表现的非常高傲，她最喜欢的事情就是如同一头真正的雄狮一般视察自己的领地。
+虽然她也有喜欢收集可爱事物的一面，但是大多数时候她总是表现的有点太过高傲</description>
+				<statOffsets>
+					<SocialImpact>-0.2</SocialImpact>
+				</statOffsets>
+				<statFactors>
+					<CertaintyLossFactor>0.25</CertaintyLossFactor>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+	<ThoughtDef>
+		<defName>LMA_Thought_Trait_Lion</defName>
+		<workerClass>ThoughtWorker_AlwaysActive</workerClass>
+        <validWhileDespawned>false</validWhileDespawned>
+		<requiredTraits>
+			<li>LMA_Trait_LionSecond</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>高傲的狮</label>
+				<description>任何威胁都逃不过我的眼睛。</description>
+				<baseMoodEffect>12</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<ThoughtDef>
+		<defName>LMA_Thought_Trait_LionSecond</defName>
+		<workerClass>ThoughtWorker_Greedy</workerClass>
+		<requiredTraits>
+			<li>LMA_Trait_LionSecond</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>不开心</label>
+				<description>没有令人印象深刻的房间</description>
+				<baseMoodEffect>-8</baseMoodEffect>
+			</li>
+			<li>
+				<label>不开心</label>
+				<description>没有令人印象深刻的房间</description>
+				<baseMoodEffect>-8</baseMoodEffect>
+			</li>
+			<li>
+				<label>不开心</label>
+				<description>没有令人印象深刻的房间</description>
+				<baseMoodEffect>-8</baseMoodEffect>
+			</li>
+			<li>
+				<label>不开心</label>
+				<description>没有令人印象深刻的房间</description>
+				<baseMoodEffect>-6</baseMoodEffect>
+			</li>
+			<li>
+				<label>不开心</label>
+				<description>没有令人印象深刻的房间</description>
+				<baseMoodEffect>-4</baseMoodEffect>
+			</li>
+			<li IsNull="True" /><!-- slightly impressive -->
+			<li IsNull="True" /><!-- somewhat impressive -->
+			<li IsNull="True" /><!-- very impressive -->
+			<li IsNull="True" /><!-- extremely impressive -->
+			<li IsNull="True" /><!-- unbelievably impressive -->
+			<li IsNull="True" /><!-- wondrously impressive -->
+		</stages>
+	</ThoughtDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>LMA_BackStory_Lion_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>狮履历</title>
+		<titleShort>狮</titleShort>
+		<baseDesc>狮级战列舰是由英王乔治五世级战列舰发展而来。计划替代一战时服役的复仇级战列舰。复仇级由于其过于经济化的设计，不但造成其航速仅有21节，而且防护能力也不佳，更由于船体过小而无法进行任何的升级。计划中，狮级标准排水量为40,000吨，装备与纳尔逊级完全相同的三座三联装16英寸火炮（但炮塔经过重新设计）。由于当时主要建造乔治五世级战列舰的原因，狮级的副炮也采用了和乔治五世级战列舰一样的双联装5.25英寸火炮。
+　　由于伦敦海军条约的限制，理论上美国、法国、英国的主力舰火炮不能超过14英寸，并且满载排水量在35000吨以下，但“危机减限”条款，使得英国可以以德国舰艇增加为理由从而获得减少限制的权利
+　　英国人也意识到，如果日本不同意该条约，他们的新式战列舰主炮口径将会是列强新一代主力舰中最小的14英寸。而日本人很可能不会签定条约。因此，1937年英国开始照手预研下一代战列舰，由海军建设局长斯坦利爵士负责。情报显示美国和日本的新式战列舰都将装备16英寸火炮（但最后日本的大和级是18.1英寸），因此斯坦利爵士和他的同僚们主要研究16英寸主炮的装舰问题。并提出了许多不同的设计提案。研究表明9门主炮安装在三联装炮塔的方案能够在实现主炮数量最大化和重量、资金控制上达到最佳的平衡。并研究了35000吨的战舰搭载9门16英寸火炮的可行性。结果显示，排水量必须比乔治五世级（KGV）更大。由于经济上的问题及尽快服役的需求，排除了已开工的乔治五世级换装或增加主炮的可能性。
+　　1938年1月，英国确定日本不会签定伦敦海军条约。海军部决心遵照“1936年伦敦海军条约”的附加条款造舰。3月31日，这几个海军大国发表公开声明：将按该附加条款建造主力舰。英国还曾同美国表示希望把附加条款中的45000吨缩减成40000吨。这是英国人多方考虑的结果：首先，在先前的预研中表明标准排水量40000吨的级别自己能够设计出达到火力、防护、速度三者较好平衡的16英寸战舰。其次，将排水量限制在40000吨内可以避免其他没有签定条约的德、意等国建造超过KGV性能的战舰。最后，这也是出于着政治和财政考虑。
+
+　　1938年2月份，海军参谋部就向设计部门发出了新舰的战技总要求。在接下来的两个月中，初步设计工作展开。4月份就出台了标准排水量40000吨以上的16D-16G等4种方案。16D标准排水量42500吨，完全满足海军参谋部提出的要求。16E具有4座炮塔12门主炮。标准排水量为48500吨。不过主机输出功率同其他方案一样只有120000轴马力。所以航速只有26节。如果要达到30节的要求的话，其标准排水量必须超过50000吨。虽然海军部比较喜欢该方案。但它最大的缺点是其尺寸超过了罗赛斯和朴次茅斯船厂限制。并且装备4座炮塔在设计上有难度。110英尺的宽度（超过巴拿马运河限制）和35.17英尺的吃水（超过苏伊士运河限制）也不能实现全球快速部署。39500吨的16F是为了响应政府意图对附加条款中排水量限制在40000吨内而制定的。因此它的副炮数只有12门。16G是配备鱼雷发射管的方案。标准排水量为43000吨。这4个方案的主要装甲厚度和布置方式都同英王乔治五世级的一样。主要通过在重要区域增加额外防弹片装甲实现抵挡16英寸炮弹的设计要求。以上设计均反映了当时新式战列舰通过技术手段控制排水量下增加防护、火力、速度的潮流。此外，海军部在设计要求中还提出了雷达的配备。
+　　1938年5月26日召开的海军大臣会议上，最后决定采用16F方案。但是需要增加其标准排水量以满足16门副炮数的要求，并且增加主装甲带厚度和主机功率。基于这些指示的新方案16F改很快出台，7月就进入了合同设计期，并于9月结束。面对日益增加的空中威胁，军方要求将原来的“砰砰”炮数从4座（八联装）增加到8座。然而，为这么多防空火炮找到不受主炮和副炮开炮时影响的合适位置很困难。这些防空火炮最佳位置是位于前后烟囱间的舰体中部。但英国人在这布置了水上飞机相关设备。最后方案是采取折中：“砰砰”炮为6座48门，而飞机数从4架减少到2架。
+　　1938年9月15日海军部通过了设计方案，并立刻向各大船厂招标，整个招标于第二年2月21日结束。如此迅速的行动正反映了海军部期望新舰尽早建造的渴望。
+狮级属于乔治五世级的改进型。不但在外观上保留了英王乔治五世级的基本特点，其内部布置也可以说是英王乔治五世级的翻版。是一种典型的快速战列舰，也寄托了英国人保持自己在战列舰领域领先地位的期望。</baseDesc>
+	</BackstoryDef>
+</Defs>
