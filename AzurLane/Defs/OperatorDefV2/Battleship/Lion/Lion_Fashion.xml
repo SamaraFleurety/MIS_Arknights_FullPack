@@ -21,4 +21,27 @@
 			</li>
 		</modExtensions>
 	</Def>
+
+	<Def Class="AK_DLL.OperatorFashionSetDef">
+		<defName>LMA_FashionSet_Lion_RecliningDandelion</defName>
+		<label>沙滩的慵懒主宰</label>  
+		<standIndex>0</standIndex>
+		<fashionName>RecliningDandelion</fashionName>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_WeaponWieldGraphics">
+				<alterGraphics>
+					<texPath>Shipgirls/Battle/Lion/Lion_Weapon</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+				</alterGraphics>
+			</li>
+			<li Class="AK_DLL.Ext_FrontHair">
+				<graphicData>
+					<texPath>Shipgirls/Battle/Lion/Lion_RecliningDandelion_Hair</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+				</graphicData>
+				<showOnlyOnBed>true</showOnlyOnBed>
+			</li>
+		</modExtensions>
+	</Def>
+
 </Defs>
