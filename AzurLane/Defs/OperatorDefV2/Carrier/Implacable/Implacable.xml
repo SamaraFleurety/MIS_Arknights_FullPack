@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AK_DLL.OperatorDef ParentName="LMA_RecruitBase_Carrier">
+		<defName>LMA_Recruit_Implacable</defName>
+		<nickname>怨仇</nickname>
+		<surname>怨仇级</surname>
+		<description>怨仇级航空母舰，作为光辉级的改进型而诞生。正如许多大战末期诞生的同伴那样，胜利史诗上我的名字仅在一处不起眼的边角。那么，接下来的时日里，您想好怎么“使用”我了吗？呵呵呵~</description>
+		<adultHood>LMA_BackStory_Implacable_Adult</adultHood>
+		<skills>
+			<li>
+				<skill>Animals</skill>
+				<level>1</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Artistic</skill>
+				<level>12</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Construction</skill>
+				<level>1</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Cooking</skill>
+				<level>1</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Crafting</skill>
+				<level>3</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Intellectual</skill>
+				<level>12</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<level>6</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<level>9</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Mining</skill>
+				<level>1</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Plants</skill>
+				<level>3</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<level>12</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<level>12</level>
+				<fireLevel>1</fireLevel>
+			</li>
+		</skills>
+		<traits>
+			<li>
+				<def>Beauty</def>
+				<degree>2</degree>
+			</li>
+			<li>
+				<def>Industriousness</def>
+				<degree>1</degree>
+			</li>
+			<li>
+				<def>LMA_Trait_Implacable</def>
+			</li>
+			<li>
+				<def>LMA_Trait_ImplacableSecond</def>
+			</li>
+		</traits>
+		<!-- 新版标准，原皮也视为一套换装 -->
+		<defaultFashion>LMA_FashionSet_Implacable_Original</defaultFashion>
+		<modExtensions>
+			<!-- 舰娘穿的衣服不再每个单独一个def，并且数据都一样，仅文本不同 -->
+			<!-- 下面这个ext可以写在op def,也可以写在fashion set def（都存在的话优先读） 推荐所有衣服一样描述写op def，否则分开写 -->
+			<li Class="AK_DLL.Ext_OperatorExtraInfo">
+				<apparelInfo>
+					<label>怨仇的服装</label>
+					<description>性能数据
+排水量：23450 吨（标准）；32110 吨（满载）
+长：233.6 米
+宽：34.9 米
+吃水：8.81 米
+动力：148,000 匹
+装置：8 × 海军部三汽鼓锅炉；4 × 蒸汽涡轮机；4 × 推进器
+航速：32 节
+航程：12000 海里/10 节
+编制：1585~2300 人
+武器：（1946年1月）8 x 双联装113mm高射炮；4 x 单装40mm 博福斯；5 x 八联装40mm“砰砰”炮；3 x 四联装40mm“砰砰”炮；17 x 双联装20mm 厄利孔；17 x 单装20mm 厄利孔
+装甲：水线装甲 114 mm；飞行甲板 76 mm ；机库 51 mm；舱壁 76~51 mm
+舰载机：60；81（1945年，含甲板系留）
+其它：279型雷达；272型雷达；277型雷达；281B型雷达；6 x 282型雷达；293型雷达；1 x 弹射器</description>
+				</apparelInfo>
+				<shieldInfo>
+					<label>怨仇的舰装</label>
+					<description>怨仇号（HMS Implacable，86/R86）是英国皇家海军的怨仇级航空母舰的1号舰，也是皇家海军第3艘以此为名的军舰。怨仇级是二战时期皇家海军拥有的最大、最强、最快的航空母舰，但其身上大多数优秀的设计都被机库设计高度缺陷所拖累，无法搭载战争中后期逐渐普及的新的大型飞机（例如美制F4U海盗），难以完全发挥实力。（和前卫境遇类似）
+　　由于战争的影响，怨仇级的建造工作也被拖长，怨仇服役时已经是1944年8月，二战还剩最后一年。服役后，怨仇先是被分配到本土舰队（HF），参与对德国战列舰提尔皮茨的搜寻和攻击任务。1945年3月10日怨仇完成修理和改装后，搭载801中队（24架海火LIII）、828中队（21架TBF复仇者）、880中队（24架海火LIII和FRIII）和1771中队（12架萤火虫I），准备前往太平洋加入英国太平洋舰队（BPF），执行对日作战任务。这是迄今为止英国航母上最大的航空大队。
+　　二战结束后，怨仇被用作人员运输，接回了众多盟军战俘和士兵。随后一段时间怨仇主要是飞行训练以及为作为皇家游艇的前卫护航。作为新型战斗机的试验，怨仇还曾起降过来自702中队的海吸血鬼喷气式舰载机。1950年开始逐渐被改装为飞行员训练航母。
+　　1951年，怨仇曾被选中于1953~1955年进行大规模现代化改装工作，计划将两层机库合并，换装蒸汽弹射器、强化阻拦索和扩大升降机，可以运用30000磅（14吨）的喷气式舰载机，增加航空燃油储备，更换锅炉，扩大舰岛搭载最新型电子设备，将防空炮更新为双联76.2mm高炮和六联装博福斯等等。这本是咸鱼大翻身的好机会，然而先前进行的胜利的现代化改装花费了比预期多得多的人力、物力和经费，怨仇的改装计划被不断推迟、缩水，直至1952年，海军部决定胜利作为最后一艘现代化改装的舰队航母，怨仇的改装计划被彻底取消，最终还是作为训练航母走完了一生。</description>
+				</shieldInfo>
+			</li>
+			<!-- 舰娘的武器没有实体和数据，改为舰娘拿所有武器都有个幻化。没画武器的舰娘不带此扩展 -->
+			<!-- 同上 也是都能写 -->
+			<!-- <li Class="AK_DLL.Ext_WeaponWieldGraphics">
+				<alterGraphics>
+					<texPath>Shipgirls/Carrier/Implacable/Implacable_Weapon</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+				</alterGraphics>
+			</li> -->
+		</modExtensions>
+	</AK_DLL.OperatorDef>
+	
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>LMA_Trait_Implacable</defName>
+		<degreeDatas>
+			<li>
+				<label>魅魔</label>
+				<description>怨仇身上总是戴着一股邪魅的气质，说话也非常善于挑逗人
+就她身上的气质和说话风格很难同皇家的其他淑女结合到一起</description>
+				<statOffsets>
+					<PawnBeauty>1</PawnBeauty>
+					<SocialImpact>0.25</SocialImpact>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+	<ThoughtDef>
+		<defName>LMA_Thought_Trait_Implacable</defName>
+		<workerClass>ThoughtWorker_AlwaysActive</workerClass>
+        <validWhileDespawned>false</validWhileDespawned>
+		<requiredTraits>
+			<li>LMA_Trait_Implacable</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>魅魔</label>
+				<description>呵呵~没关系，人的理性之箍毕竟不是那么简单就能拿下来的。</description>
+				<baseMoodEffect>6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>LMA_Trait_ImplacableSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>“修女”</label>
+				<description>虽然怨仇不是真正的修女，也没有宗教信仰，但是她的遣词造句却显得十分虔诚，并且十分享受这样看似高洁实则堕落的背德感。</description>
+				<statOffsets>
+					<MentalBreakThreshold>-0.18</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+		<!-- <modExtensions>
+			<li Class="AKE_OperatorExtension.Ext_TraitKind">
+				<kindWordsWeight>0.1</kindWordsWeight>
+				<insultFactor>0</insultFactor>
+			</li>
+		</modExtensions> -->
+	</TraitDef>
+	<ThoughtDef>
+		<defName>LMA_Thought_Trait_ImplacableSecond</defName>
+		<workerClass>ThoughtWorker_AlwaysActive</workerClass>
+        <validWhileDespawned>false</validWhileDespawned>
+		<requiredTraits>
+			<li>LMA_Trait_ImplacableSecond</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>“修女”</label>
+				<description>愿您今日也能得到祝福。谁的祝福？呼呼，到底是谁的祝福呢~</description>
+				<baseMoodEffect>6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>LMA_BackStory_Implacable_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>怨仇号舰历</title>
+		<titleShort>怨仇</titleShort>
+		<baseDesc>怨仇号于1938年由位于克莱德赛德的费尔菲尔德造船厂订购，一年后的2月21号下水。建造过程中她的海军编号为J672，船坞号672.
+1940年，大西洋反潜战吃紧，英国将怨仇号的建造暂停转而建造驱逐舰和护卫舰。恢复建造后，怨仇号于1942年12月10号正式下水。2年后的5月22日，她于造船厂服役。随后，她在海上进行试航，并于同一年6月16日至8月28日在罗赛斯造船厂修复海试时期发现的缺陷。8月末，828和841两个中队的梭鱼组成第二鱼雷轰炸侦查队到达怨仇号，他们将在克莱德海域进行训练。1944年9月22日，海军航空兵1771中队的萤火虫加入怨仇号的航空队，但原先安排给她的海喷火战斗机刚刚从暴怒号离开，尚在重新装备和训练替补人员阶段。10月7日，怨仇号到达斯卡帕湾并加入本土舰队。10月14日，她参与了搜索德国海军提尔皮茨号战列舰的行动。一组萤火虫在哈科伊岛（近挪威特罗姆瑟）发现提尔皮茨号并请示立刻使用梭鱼发动攻击。但司令部以“没有护航战斗机”为由拒绝了这一请求。但怨仇号并非一无所获，她的萤火虫中队在莫斯约恩扫射击伤一艘4700吨敌舰，并在索莱森将三架敌机摧毁在地面上。10月26日，由887和894两个海喷火中队组成的第24海军航空兵中队加入怨仇号，他们参加了后续发动的运动员行动。怨仇号袭击了位于挪威博德、洛维克、罗丁斯的轴心国部队，她的梭鱼在此期间向敌军投掷合计27吨炸弹。
+　　1944年10月28日。怨仇号的梭鱼舰载机发动了二战期间英军最后一次空中鱼雷袭击。以一架梭鱼被击落的代价，怨仇号击沉6艘敌方商船，击伤7艘，并将德国潜艇U-1060逼迫到暗礁附近搁浅后摧毁。2天后，怨仇号返回斯卡帕湾锚地，她的第24海军航空兵联队被第38联队替换。第38海军航空兵联队包含801和880两个中队，801中队的战机是先前一直服役的梭鱼和萤火虫，808中队的战机是海喷火。11月8日，怨仇号起航为正在挪威海岸执行布雷任务的友军护航航母舰载机提供战斗机支援。11月27日，怨仇号参与了远虑行动，她的梭鱼和萤火虫编队对阿尔斯特岛附近的敌舰展开攻击，并取得2沉4伤的战机。她的战斗机中队使用机炮对护航舰艇造成一定损毁。一天后，由于恶劣海况造成的舰艏损坏，怨仇号不得不返回斯卡帕湾进行维修。12月4日，怨仇号再次为布雷行动进行掩护。四天后她参加了儒雅行动。行动期间，怨仇号上的1771海军航空兵联队的萤火虫和护航航母号手号的野猫舰载机联合击沉了一艘德国扫雷舰。1944年12月15日，怨仇号进入罗赛斯船厂进行改装以适应太平洋气候，并准备加入英国太平洋舰队参加对日作战。
+　　1945年3月10日，怨仇号的改造完成了。在这个时候，她拥有英国航母上最大的舰载机群：12架来自1771中队的萤火虫、21架来自828中队的复仇者、48架来自扩编后第38海军航空兵中队的海喷火。她于3月16日启航加入太平洋舰队，4月份她到达锡兰整备，一个月后到达悉尼。又过了一个月，怨仇号加入了从冰山行动中返航的第一航空母舰联队。6月16日，怨仇号参加了袭击特鲁克岛的囚犯行动。在这场行动中，统治者号护航航母作为舰载机的备降航母。
+　　1945年7月初，怨仇号与胜利、可畏一起离开巴布亚新几内亚的马努斯岛。7月6日，她们加入美军的TF37特混舰队参与袭击日本本土的行动。10天后的7月16日，英军在本州岛附近与美军TF38特混舰队会合。舰队的规模之宏大以致一位英国飞行员描述为“目之所及皆友舰”，一天后第一航母编队袭击东京平原地区。在接下来的25天内，尽管受到恶劣天气、整备时间以及规避原子弹爆炸产生的放射性物质三点限制，怨仇号的舰载机在有限的8天内依旧起飞了超过1000架次舰载机对日军的机场、船厂、航运港口、工厂以及铁路展开打击。1945年8月10日，怨仇号起飞超过70架次舰载机对本州区域的日军目标进行空袭。一天后怨仇号与胜利号、可畏号经过补给前往悉尼。8月24日怨仇号到达悉尼，在之后的2个月内她协助盟军舰队将盟军战俘送回澳大利亚和加拿大。10月18日，在将位于新几内亚的澳军战俘送回澳大利亚后，怨仇号从温哥华启航，将荷兰战俘送回印尼巴厘巴板。</baseDesc>
+	</BackstoryDef>
+</Defs>
