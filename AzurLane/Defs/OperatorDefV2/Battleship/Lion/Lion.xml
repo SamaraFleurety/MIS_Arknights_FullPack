@@ -190,46 +190,6 @@
 			</li>
 		</stages>
 	</ThoughtDef>
-	<ThoughtDef>
-		<defName>LMA_Thought_Trait_LionSecond</defName>
-		<workerClass>ThoughtWorker_Greedy</workerClass>
-		<requiredTraits>
-			<li>LMA_Trait_LionSecond</li>
-		</requiredTraits>
-		<stages>
-			<li>
-				<label>不开心</label>
-				<description>没有令人印象深刻的房间</description>
-				<baseMoodEffect>-8</baseMoodEffect>
-			</li>
-			<li>
-				<label>不开心</label>
-				<description>没有令人印象深刻的房间</description>
-				<baseMoodEffect>-8</baseMoodEffect>
-			</li>
-			<li>
-				<label>不开心</label>
-				<description>没有令人印象深刻的房间</description>
-				<baseMoodEffect>-8</baseMoodEffect>
-			</li>
-			<li>
-				<label>不开心</label>
-				<description>没有令人印象深刻的房间</description>
-				<baseMoodEffect>-6</baseMoodEffect>
-			</li>
-			<li>
-				<label>不开心</label>
-				<description>没有令人印象深刻的房间</description>
-				<baseMoodEffect>-4</baseMoodEffect>
-			</li>
-			<li IsNull="True" /><!-- slightly impressive -->
-			<li IsNull="True" /><!-- somewhat impressive -->
-			<li IsNull="True" /><!-- very impressive -->
-			<li IsNull="True" /><!-- extremely impressive -->
-			<li IsNull="True" /><!-- unbelievably impressive -->
-			<li IsNull="True" /><!-- wondrously impressive -->
-		</stages>
-	</ThoughtDef>
 
 	<BackstoryDef ParentName = "AK_StoryBase">
 		<defName>LMA_BackStory_Lion_Adult</defName>

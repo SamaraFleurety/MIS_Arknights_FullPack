@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AK_DLL.OperatorDef ParentName="LMA_RecruitBase_Cruiser">
+		<defName>LMA_Recruit_DuguayTrouin</defName>
+		<nickname>迪盖·特鲁因</nickname>
+		<surname>迪盖·特鲁因级</surname>
+		<description>我是迪盖·特鲁因，遵循神圣鸢尾的指引来到此处，回收所——有的“不洁”之物。指挥官，放轻松，伸开双手让我帮您净化一下吧~</description>
+		<adultHood>LMA_BackStory_DuguayTrouin_Adult</adultHood>
+		<skills>
+			<li>
+				<skill>Animals</skill>
+				<level>3</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Artistic</skill>
+				<level>6</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Construction</skill>
+				<level>1</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Cooking</skill>
+				<level>12</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Crafting</skill>
+				<level>6</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Intellectual</skill>
+				<level>12</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<level>6</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<level>9</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Mining</skill>
+				<level>1</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Plants</skill>
+				<level>3</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<level>16</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<level>12</level>
+				<fireLevel>1</fireLevel>
+			</li>
+		</skills>
+		<traits>
+			<li>
+				<def>Beauty</def>
+				<degree>2</degree>
+			</li>
+			<li>
+				<def>Bloodlust</def>
+			</li>
+			<li>
+				<def>DrugDesire</def>
+				<degree>1</degree>
+			</li>
+			<li>
+				<def>LMA_Trait_DuguayTrouin</def>
+			</li>
+			<li>
+				<def>LMA_Trait_DuguayTrouinSecond</def>
+			</li>
+		</traits>
+		<!-- 新版标准，原皮也视为一套换装 -->
+		<defaultFashion>LMA_FashionSet_DuguayTrouin_Original</defaultFashion>
+		<modExtensions>
+			<!-- 舰娘穿的衣服不再每个单独一个def，并且数据都一样，仅文本不同 -->
+			<!-- 下面这个ext可以写在op def,也可以写在fashion set def（都存在的话优先读） 推荐所有衣服一样描述写op def，否则分开写 -->
+			<li Class="AK_DLL.Ext_OperatorExtraInfo">
+				<apparelInfo>
+					<label>迪盖·特鲁因的服装</label>
+					<description>性能数据
+排水量：7500 吨（标准）；9350 吨（满载）
+长：181.6 米
+宽：17.2 米
+吃水：6.2 米
+动力：10200 匹
+装置：8座锅炉，4台帕森斯蒸汽轮机；四轴
+航速：33 节
+航程：4300 海里/15 节
+编制：578-640 人
+武器：4座双联装155mm/50倍径舰炮；4门单管75mm/50倍径高炮；4挺13.2mm高射机枪；4座三联装550mm鱼雷发射管；
+舰载机：2架水上飞机</description>
+				</apparelInfo>
+				<shieldInfo>
+					<label>迪盖·特鲁因</label>
+					<description>第一次世界大战结束后，各大海军强国均表现出了对大型巡洋舰的兴趣。大英帝国首先服役了排水量万吨左右，装备190毫米主炮的霍金斯级。而作为老对手的法兰西也不甘落后，在部分参考了美国奥马哈级巡洋舰后完成了新型巡洋舰的设计工作。该级舰共建造三艘，均以法国海军将领命名：迪盖·特鲁因（Duguay Trouin），拉莫特·皮克特（Lamotte Picquet），普里茅盖特（Primaguet）。
+建造过程
+　　首舰迪盖·特鲁因于1922年8月4日在布雷斯特海军工厂开工，1923年8月14日下水，1926年11月2日竣工；二号舰拉莫特·皮克特于1923年1月17日在洛里昂海军工厂开工，1924年3月21日下水，1927年3月5日竣工。三号舰普里茅盖特于1923年8月16日在切斯特海军工厂开工，1924年5月21日下水，1927年4月1日竣工。</description>
+				</shieldInfo>
+			</li>
+			<!-- 舰娘的武器没有实体和数据，改为舰娘拿所有武器都有个幻化。没画武器的舰娘不带此扩展 -->
+			<!-- 同上 也是都能写 -->
+			<!-- <li Class="AK_DLL.Ext_WeaponWieldGraphics">
+				<alterGraphics>
+					<texPath>Shipgirls/Cruiser/DuguayTrouin/DuguayTrouin_Weapon</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+				</alterGraphics>
+			</li> -->
+		</modExtensions>
+	</AK_DLL.OperatorDef>
+	
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>LMA_Trait_DuguayTrouin</defName>
+		<degreeDatas>
+			<li>
+				<label>净化不洁</label>
+				<description>德盖·特鲁因热衷于以净化之名光明正大的对被她称作“不洁之物”的物品进行掠夺。
+如果出战没有能净化到任何东西她往往会表现的非常失望乃至生气</description>
+				<statOffsets>
+					<TradePriceImprovement>0.12</TradePriceImprovement>
+				</statOffsets>
+				<statFactors>
+					<HackingSpeed>2</HackingSpeed>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+	<ThoughtDef>
+		<defName>LMA_Thought_Trait_DuguayTrouin</defName>
+		<workerClass>ThoughtWorker_AlwaysActive</workerClass>
+        <validWhileDespawned>false</validWhileDespawned>
+		<requiredTraits>
+			<li>LMA_Trait_DuguayTrouin</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>净化不洁</label>
+				<description>呵呵，把你们珍藏的不洁之物交给我吧~</description>
+				<baseMoodEffect>8</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>LMA_Trait_DuguayTrouinSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>掠食的伪修女</label>
+				<description>德盖·特鲁因不光性格恶劣，而且非常享受掠夺和单方面攻击她人带来的快感。
+她情绪过于激动的时候还会说脏话。</description>
+				<statOffsets>
+					<SocialImpact>-0.2</SocialImpact>
+					<MentalBreakThreshold>-0.12</MentalBreakThreshold>
+					<JoyGainFactor>-0.1</JoyGainFactor>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+		<!-- <modExtensions>
+			<li Class="AKE_OperatorExtension.Ext_TraitKind">
+				<kindWordsWeight>0</kindWordsWeight>
+				<insultFactor>2</insultFactor>
+			</li>
+		</modExtensions> -->
+	</TraitDef>
+	
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>LMA_BackStory_DuguayTrouin_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>迪盖·特鲁因履历</title>
+		<titleShort>迪盖·特鲁因</titleShort>
+		<baseDesc>在第二次世界大战爆发时，迪盖·特鲁因号隶属于法国海军第六巡洋舰队。
+　　法国投降后，迪盖·特鲁因号在之后加入了戴高乐领导的自由法国，并于1943年7月进行了现代化改装，拆除了原有的航空、鱼雷设备。同时，原有的13.2毫米高射机枪也被40mm博福斯高射炮取代。改造完成后的该舰同其它法国船一样主要从事部队运输及对陆炮击任务。
+　　第二次世界大战结束后，迪盖·特鲁因号继续在法国海军中服役。1945年9月，该舰载着法国陆军重返越南，并被投入到了之后的第一次印度支那战争中。
+　　1952年3月19日迪盖·特鲁因号退役除籍，随后被售出拆解。</baseDesc>
+	</BackstoryDef>
+</Defs>
