@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AK_DLL.OperatorDef ParentName="LMA_RecruitBase_Carrier">
+		<defName>LMA_Recruit_Hakuhou</defName>
+		<nickname>白凤</nickname>
+		<surname>䳆</surname>
+		<description>贵安，我是重樱所属，G14型航空母舰——白凤。穿越浮世绘般绮丽的幻想，终于来到您的身边。请您褪去衣物，让我为您熏一身清雅之香吧~</description>
+		<adultHood>LMA_BackStory_Hakuhou_Adult</adultHood>
+		<skills>
+			<li>
+				<skill>Animals</skill>
+				<level>0</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Artistic</skill>
+				<level>12</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Construction</skill>
+				<level>1</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Cooking</skill>
+				<level>9</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Crafting</skill>
+				<level>6</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Intellectual</skill>
+				<level>14</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<level>6</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<level>9</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Mining</skill>
+				<level>1</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Plants</skill>
+				<level>3</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<level>12</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<level>14</level>
+				<fireLevel>2</fireLevel>
+			</li>
+		</skills>
+		<traits>
+			<li>
+				<def>Beauty</def>
+				<degree>2</degree>
+			</li>
+			<li>
+				<def>FastLearner</def>
+			</li>
+			<li>
+				<def>LMA_Trait_Hakuhou</def>
+			</li>
+		</traits>
+		<!-- 新版标准，原皮也视为一套换装 -->
+		<defaultFashion>LMA_FashionSet_Hakuhou_Original</defaultFashion>
+		<modExtensions>
+			<!-- 舰娘穿的衣服不再每个单独一个def，并且数据都一样，仅文本不同 -->
+			<!-- 下面这个ext可以写在op def,也可以写在fashion set def（都存在的话优先读） 推荐所有衣服一样描述写op def，否则分开写 -->
+			<li Class="AK_DLL.Ext_OperatorExtraInfo">
+				<apparelInfo>
+					<label>白凤的服装</label>
+					<description>性能数据
+排水量：45000-50000 吨（标准）；不明 吨（满载）
+长：约290？ 米
+宽：约35？ 米
+吃水： 米
+动力： 匹
+装置：
+航速： 节
+编制： 人
+武器：
+舰载机：84架（常用63架，备用21架）
+其它：；</description>
+				</apparelInfo>
+				<shieldInfo>
+					<label>白凤的舰装</label>
+					<description>G-14指的是第五次海军军备充实计划中构想建造的三艘航母。在计划制定阶段缩减为两艘（其中一艘改为新型中型航母），经过海军省审核后，又改为只建造一艘（另外两艘改为中型航母）。
+虽然现存资料对细节全无记载，但由于日本海军已决定大凤号之后的舰队航空母舰一律采用装甲航母的方针，因此可以肯定本舰也会配备装甲飞行甲板。至于舰体规模，资料记载在4万5千到5万吨之间，是自始至终作为航母规划的舰艇中规模最大的。
+本舰的建造计划在太平洋战争爆发后仍作为战时计划的第二期（第一期为“丸急计划”、第三期为“丸六计划”）予以保留，但在中途岛海战失败后，为了加强航母战力，改为在“改丸五计划”中量产改大凤级和云龙级，本舰的计划也因此被取消。</description>
+				</shieldInfo>
+			</li>
+		</modExtensions>
+	</AK_DLL.OperatorDef>
+	
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>LMA_Trait_Hakuhou</defName>
+		<disabledWorkTags>
+			<li>Animals</li>
+		</disabledWorkTags>
+		<degreeDatas>
+			<li>
+				<label>清艳闻幽</label>
+				<description>白凤的礼仪，无可挑剔……</description>
+				<statOffsets>
+					<PawnBeauty>1</PawnBeauty>
+					<SocialImpact>-0.3</SocialImpact>
+					<TradePriceImprovement>0.4</TradePriceImprovement>
+					<GlobalLearningFactor>0.15</GlobalLearningFactor>
+					<WorkSpeedGlobal>0.1</WorkSpeedGlobal>
+					<ReadingSpeed>0.2</ReadingSpeed>
+				</statOffsets>
+				<statFactors>
+					<NegotiationAbility>2.0</NegotiationAbility>
+					<ConversionPower>1.5</ConversionPower>
+				</statFactors>
+			</li>
+		</degreeDatas>
+		<!-- <modExtensions>
+			<li Class="AKE_OperatorExtension.Ext_TraitKind">
+				<kindWordsWeight>0.1</kindWordsWeight>
+				<insultFactor>0</insultFactor>
+			</li>
+		</modExtensions> -->
+	</TraitDef>
+	
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>LMA_BackStory_Hakuhou_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>白凤号舰历</title>
+		<titleShort>白凤</titleShort>
+		<baseDesc>在中途岛海战失败后，为了加强航母战力，改为在“改丸五计划”中量产改大凤级和云龙级，本舰的计划也因此被取消。</baseDesc>
+	</BackstoryDef>
+</Defs>
