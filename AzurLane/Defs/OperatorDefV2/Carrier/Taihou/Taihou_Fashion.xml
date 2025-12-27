@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<Def Class="AK_DLL.OperatorFashionSetDef">
+		<defName>LMA_FashionSet_Taihou_Original</defName>
+		<label>原服</label>
+		<standIndex>0</standIndex>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_FrontHair">
+				<graphicData>
+					<texPath>Shipgirls/Carrier/Taihou/Taihou_Hair</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+				</graphicData>
+				<showOnlyOnBed>true</showOnlyOnBed>
+			</li>
+		</modExtensions>
+	</Def>
+
+	<Def Class="AK_DLL.OperatorFashionSetDef">
+		<defName>LMA_FashionSet_Taihou_Underwear</defName>
+		<label>内衣</label>
+		<standIndex>0</standIndex>
+		<fashionName>Underwear</fashionName>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_FrontHair">
+				<graphicData>
+					<texPath>Shipgirls/Carrier/Taihou/Taihou_Underwear_Hair</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+				</graphicData>
+				<showOnlyOnBed>true</showOnlyOnBed>
+			</li>
+		</modExtensions>
+	</Def>
+
+	<Def Class="AK_DLL.OperatorFashionSetDef">
+		<defName>LMA_FashionSet_Taihou_Bunnygirl</defName>
+		<label>兔女郎</label>
+		<standIndex>1</standIndex>
+		<fashionName>Bunnygirl</fashionName>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_WeaponWieldGraphics">
+				<alterGraphics>
+					<texPath>Shipgirls/Carrier/Taihou/Taihou_Bunnygirl_Weapon</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+				</alterGraphics>
+			</li>
+			<li Class="AK_DLL.Ext_FrontHair">
+				<graphicData>
+					<texPath>Shipgirls/Carrier/Taihou/Taihou_Bunnygirl_Hair</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+				</graphicData>
+				<showOnlyOnBed>true</showOnlyOnBed>
+			</li>
+		</modExtensions>
+	</Def>
+
+</Defs>

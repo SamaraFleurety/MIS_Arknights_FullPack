@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AK_DLL.OperatorDef ParentName="LMA_RecruitBase_Carrier">
+		<defName>LMA_Recruit_Taihou</defName>
+		<nickname>大凤</nickname>
+		<surname>大凤级</surname>
+		<description>我可是专门强化过防御装甲的最新型航母唷，看这飞行甲板，看这封闭式机库，是不是很棒呢~？——嗯？您说装载数量和消防？这些小事无所谓啦……比起这个，您对大凤的身体……满意吗？</description>
+		<adultHood>LMA_BackStory_Taihou_Adult</adultHood>
+		<skills>
+			<li>
+				<skill>Animals</skill>
+				<level>3</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Artistic</skill>
+				<level>14</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Construction</skill>
+				<level>1</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Cooking</skill>
+				<level>9</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Crafting</skill>
+				<level>6</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Intellectual</skill>
+				<level>9</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<level>3</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<level>9</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Mining</skill>
+				<level>1</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Plants</skill>
+				<level>3</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<level>12</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<level>14</level>
+				<fireLevel>2</fireLevel>
+			</li>
+		</skills>
+		<traits>
+			<li>
+				<def>Beauty</def>
+				<degree>2</degree>
+			</li>
+			<li>
+				<def>LMA_Trait_Taihou</def>
+			</li>
+			<li>
+				<def>LMA_Trait_TaihouSecond</def>
+			</li>
+		</traits>
+		<!-- 新版标准，原皮也视为一套换装 -->
+		<defaultFashion>LMA_FashionSet_Taihou_Original</defaultFashion>
+		<clothSets>
+			<li>LMA_FashionSet_Taihou_Underwear</li>
+			<li>LMA_FashionSet_Taihou_Bunnygirl</li>
+		</clothSets>
+		<modExtensions>
+			<!-- 舰娘穿的衣服不再每个单独一个def，并且数据都一样，仅文本不同 -->
+			<!-- 下面这个ext可以写在op def,也可以写在fashion set def（都存在的话优先读） 推荐所有衣服一样描述写op def，否则分开写 -->
+			<li Class="AK_DLL.Ext_OperatorExtraInfo">
+				<apparelInfo>
+					<label>大凤的服装</label>
+					<description>性能数据
+排水量：29300 吨（标准）；37720 吨（满载）
+长：260 米
+宽：29.9 米
+吃水：9.6 米
+动力：160000 匹
+装置：8 × Ro号舰本式重油水管锅炉；4 × 舰本式蒸汽轮机；4 × 推进器
+航速：33.3 节
+航程：10000 海里/18 节
+编制：1751 人
+武器：6 × 双联100mm九八式防空炮；17 × 三联装25mm防空炮
+装甲：飞行甲板：95mm
+舰载机：（常规）65架；（设计）53-82架
+其它：2 × 升降机；1 × 起吊机</description>
+				</apparelInfo>
+				<shieldInfo>
+					<label>大凤的舰装</label>
+					<description>大凤号（IJN Taihō，たいほう）是旧日本帝国海军建造的第一艘，也是唯一一艘设计并建造服役的装甲航空母舰（信浓为改装的装甲航母），研发代号为“G13”，属于“丸四建造计划”。虽然也被称为“大凤级航空母舰”，但实际上本级舰按计划也只建造一艘，具有一定实验性质。后续原计划建造发展型G14，以及小改型G15，但因为中途岛海战后日本急缺航母，加之战况不断恶化，两者均被取消。
+　　20世纪30年代，限制海军军备的华盛顿海军条约有效期到1936年12月截止，条约失效后，进入了所谓无条约制约的时期，世界各海军强国开始了军备竞赛。日本海军以美国海军为对手实施造舰计划。1939年，实施第四次舰艇补充计划（丸四计划），计划中包括了建造一艘航空母舰。日本海军按计划建造一艘新的舰队航空母舰“大凤”号。有别于以前放置大量舰载机的要求，身为翔鹤级航空母舰的后继舰型，日本海军在航空母舰战术中分析出之前的空母往往都是因受到美帝的俯冲式轰炸机(即舰爆)的俯冲轰炸，导致整艘航空母舰遭到瘫痪甚至破坏(最有名的惨痛教训就是中途岛海战中的一二航战--赤城加贺苍龙飞龙都是因此瘫痪的)，故决定采取安装装甲防御的新型建造方式，在飞行甲板上安装了20毫米的DS钢板以及75毫米的CNC钢板，总计95毫米的钢板厚度确保大凤号可以抵抗俯冲轰炸机在700m高空俯冲投下的500kg炸弹的直接攻击；舷侧防护装甲由上部185mm向下逐渐变薄至70mm，水线以下的防护装甲采用倾斜布置，而且舰体也加强了装甲防御以防炮击与鱼雷攻击，飞机库也采用应付日本近海的天候和盐害的密闭式格纳库。这种设计导致大凤的干舷较低，为了避免舰艏受到海况影响，大凤的舰艏采取了与一二五航战都不同的封闭式设计。这种设计颇有现代航空母舰的影子。但是观察大凤的结构图可以看出，航空燃料槽有很大一部分在防护范围之外，这个重大设计失误可以说是大凤沉没的直接原因。[1]
+　　原先日本人曾设想以大凤号为跳板进行“穿梭轰炸”并以此为基础设计（实际上过于理想），但最终设计方案没有被采用。相比英国的光辉级装甲航母，大凤的甲板装甲没有覆盖全部，只覆盖前后两个升降机之间，但升降机本身有装甲防护。此外在烟囱设计上，大凤号采用了一体化舰岛的斜立烟囱设计，日本海军由邮轮改装的飞鹰级航空母舰以及由未完工的大和级战列舰改装的信浓号航空母舰均采用了类似结构。此舰为首次采用此种设计的新型舰队航空母舰。</description>
+				</shieldInfo>
+			</li>
+			<!-- 舰娘的武器没有实体和数据，改为舰娘拿所有武器都有个幻化。没画武器的舰娘不带此扩展 -->
+			<!-- 同上 也是都能写 -->
+			<!-- <li Class="AK_DLL.Ext_WeaponWieldGraphics">
+				<alterGraphics>
+					<texPath>Shipgirls/Carrier/Taihou/Taihou_Weapon</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+				</alterGraphics>
+			</li> -->
+		</modExtensions>
+	</AK_DLL.OperatorDef>
+	
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>LMA_Trait_Taihou</defName>
+		<degreeDatas>
+			<li>
+				<label>病娇</label>
+				<description>挡在我和指挥官大人面前的一切，全部都毁掉好了！啊哈哈哈哈！</description>
+				<statOffsets>
+					<MentalBreakThreshold>0.2</MentalBreakThreshold>
+					<MeleeDamageFactor>0.7</MeleeDamageFactor>
+					<MeleeArmorPenetration>0.5</MeleeArmorPenetration>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>LMA_Trait_TaihouSecond</defName>
+		<degreeDatas>
+			<li>
+				<label>命运之骰</label>
+				<description>幸福安心地死去吧，呵呵呵……</description>
+				<statOffsets>
+					<SocialImpact>0.2</SocialImpact>
+					<Beauty>2</Beauty>
+					<WorkSpeedGlobal>0.4</WorkSpeedGlobal>
+					<MeleeCooldownFactor>-0.3</MeleeCooldownFactor>
+					<RangedCooldownFactor>-0.3</RangedCooldownFactor>
+					<TradePriceImprovement>0.5</TradePriceImprovement>
+				</statOffsets>
+				<statFactors>
+					<NegotiationAbility>1.5</NegotiationAbility>
+				</statFactors>
+			</li>
+		</degreeDatas>
+		<!-- <modExtensions>
+			<li Class="AKE_OperatorExtension.Ext_TraitKind">
+				<kindWordsWeight>0.1</kindWordsWeight>
+			</li>
+		</modExtensions> -->
+	</TraitDef>
+	
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>LMA_BackStory_Taihou_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>大凤号舰历</title>
+		<titleShort>大凤</titleShort>
+		<baseDesc>1939年
+第四次舰艇补充计划（“丸四建造计划”）确定了大凤的建造规划：当时决定增建一艘大型空母以维持对美军的航空母舰数量优势。
+最早期的大凤设计概念稿编号“W102”，是一艘27000吨级的航舰，而在一年前海军向大藏省提交的草案中，她还只是一艘苍龙级的设计草案——使用方针则是作为航舰主要舰队与敌方舰队之间的中继航舰，只是为了防止袭扰而配置装甲，和真正的装甲航母理念相去甚远。
+但很快这个中继舰航的草案也被废弃，大凤重新以正规航母的定位设计，但重视防御的理念被继承了下来。根据过往作战经验的反馈与未来计划的想定，大凤成功被设计成了一艘“具备装甲甲板及优势防护力的正规航舰”。
+1941年7月10日
+在邮轮改装的鸱自神户（Kobe）的川崎（Kawasaki）造船所一号船台下水后的16天，大凤在同一船台开工建设，铺设龙骨并建造舰体外壳——虽说是翔鹤的后续型号，但实际舰体差别非常大，并因此而重启了“第四舰队事件”后禁用的电焊技术。
+1943年4月7日
+大凤在神户成功下水试航。
+1944年3月7日
+大凤正式服役，隶属于第三舰队，鹬与鹤所在的第一航空机动舰队（3rd Fleet, CarDiv 1, Mobile Fleet）。此时由于旧一二航战皆已沉没，鹬担任新一航旗舰。
+1944年3月12日
+大凤入驻吴港（Kure），并在接下来一段时间内在濑户内海活动。
+1944年3月19日
+大凤返回吴港。
+1944年3月24日
+大凤离开吴港，抵达岩国（Iwakuni）。
+1944年3月27日
+大凤离开岩国，抵达平郡岛（Heigun Shima）。
+1944年3月28日
+大凤在初月与若月的护卫下驶离平郡岛，一同前往苏门答腊的林加（Lingga）群岛锚地与机动舰队会合。
+1944年4月4日
+大凤会同鹬抵达新加坡的实里达海军基地（Seletar Naval Base）。
+1944年4月5日
+大凤抵达林加群岛锚地，与鹤会合。
+1944年4月15日
+大凤接替鹬成为第三舰队第一航空机动舰队的旗舰。
+1944年5月12日
+大凤率第一机动舰队向东前往塔威塔威（Tawi-Tawi）锚地——该地区可以直接获得打拉根（Tarakan）岛的优质原油补给舰队。
+1944年5月15日
+大凤率舰队于上午抵达塔威塔威。
+1944年5月18日
+大凤在塔威塔威外海海域进行航空训练，于当晚返回锚地。
+1944年5月22日
+在大凤与第三航空舰队（CarDiv 3）共同进行飞行员训练时，鹂在塔威塔威外海遭到潜艇袭击。此后，飞行员训练虽然还会继续，但训练航程被大幅缩短。
+1944年6月13日
+大凤从塔威塔威锚地启程前往位于菲律宾西面的吉马拉斯（Guimaras）前进基地，以为接下来作战抢占有利的出击位置——此时美军已经发动对塞班岛的战役。联合舰队判断美舰队将进一步深入东南亚，局势已迫在眉睫，于是在当晚6时30分正式宣布启动“あ号作战”。
+1944年6月14日
+大凤率机动舰队下午2时抵达吉马拉斯，并于此补油并过夜。
+1944年6月15日
+大凤于7时17分收到“あ号作战”的执行命令，当日8时从吉马拉斯起航，率机动舰队全体通过圣贝纳迪诺海峡，前往塞班岛海域进行所谓的“舰队决战”。
+1944年6月19日
+【菲律宾海海战（又称马里亚纳海战）】
+06时30分
+第一航空舰队第十战队的貅发出侦察机，确定了美军舰队的具体方位。
+07时45分
+大凤转向合适风向，准备放出自己的第一波次飞机：16架零式，17架彗星式舰爆与9架天山舰攻，共42架次，全部加入第二波空袭攻势（共128架次）。
+08时
+美潜艇大青花鱼（USS Albacore，SS-218）已经发现了大凤与第一航空舰队的行踪，并试图进入有利的攻击位置，准备发射鱼雷——结果因鱼雷射控故障而并未立刻攻击。
+08时10时
+就在大凤正在起降自己的机队编入第二波次空袭的同时，大青花鱼终于决心使用手瞄射控。并发射了已经装填的全部6枚鱼雷——此时，驾驶彗星已经起飞等待攻击命令的小松幸男（Sakio Komatsu）曹长发现大凤右舷5,000米处有1枚鱼雷直冲而来，随即在汇报后驾驶彗星直接引爆了该鱼雷。舰上瞭望员发现鱼雷航迹后通报，大凤随即以28节航速右满舵规避，
+09时
+不幸的是，虽然极力躲避，但大凤依旧被其中一发鱼雷击中右舰艏。众驱逐舰也随即对大青花鱼进行反击，但依旧被其从容逃脱。
+——对于舰体经过强化的大凤来说，该鱼雷的爆破并未产生致命伤：虽然舰体略为倾斜以及舰艏进水下沉，航速降至26节，但并不影响继续战斗的机能。但遗憾的是，当时舰内并未注意到部分输油管线的破损导致持续溢出油气——油气损管的不及时也直接导致了大凤最终的命运。
+最明显的损伤是前飞机升降机因下方爆破被卡死，无法正常起降飞机至甲板——当时该起降机也正在负责零战起降。为了尽快恢复作业，舰上水手紧急动员以堆叠桌椅和损管用圆木的方式维持飞行甲板运作。并在这期间，将1架零战、1架彗星和4至5架天山“减油不挂弹”地转移至鹤上，并继续接下来波次的行动。
+12时
+此时，大量油气已经自破裂的管线挥发并充斥了整个机库，而大凤的封闭式机库设计令油气无法通风疏散。舰上已下令不准使用任何有关火的器具，但更糟糕的是油气已经开始向锅炉室扩散，而所有产生火星的损管设备却全部都无法使用。舰员们打开了全部与机库较近的舱门通风，并且组织敢死队前往发电机室操作升降机使机库通风，但不断有舰员因油气浓度过高而中毒熏倒。
+——此时的大凤已经彻底变成了一个“海面上的大型浮动定时炸弹（floating time bomb）”。
+12时20分
+由于此时鹬已几乎沉没，大凤在处理油气问题的同时，依旧要硬着头皮接收第二波次返航的飞机——而大凤早上放出的42架次，只有3架零战与1架彗星成功返航。
+14时32分
+此时，鹬已经彻底沉没，但大凤还要收容返航飞机。可不幸的是，在此过程中因“未知原因”，大凤舰体内的油气被引燃，造成大爆炸——而且因为大凤的特殊性，此次爆炸威力并不足以突破机库装甲，致使本次爆炸形成了“闷炸”。
+更悲惨的是，由于爆炸从下方开始，导致动力部门直接全灭——而大凤的消防系统恰恰就控制在动力部门手中，导致爆炸后舰员完全没办法使用任何消防措施。
+15时
+在接下来的半个小时中，大凤不断发生闷炸，引发的大火无法被控制，最终引燃弹药库导致殉爆，舰体最终断裂。
+16时06分
+第一机动舰队的指挥部此时已经由第五战队的犰和其他驱逐舰接送转移至鹤。除了舰桥人员尚来得及撤离外，大部分舰员皆命丧黄泉。幸存者们从最后沉没的舰尾逃生，多被驱逐舰与救生艇救起。
+16时28分
+大凤舰尾完全沉没：阵亡1650人，损失共5架零战、4架彗星、3架天山和1架九九舰爆。
+1944年6月22日
+大凤幸存舰员在冲绳的中诚湾（Nakagasuku Bay）被转移至鹤上。
+1944年6月24日
+瑞鹤载大凤的幸存舰员抵达柱岛（Hashirajima）。
+1945年8月26日
+大凤从海军舰船列表中除藉。</baseDesc>
+	</BackstoryDef>
+</Defs>
