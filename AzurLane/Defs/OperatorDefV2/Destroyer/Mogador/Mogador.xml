@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AK_DLL.OperatorDef ParentName="LMA_RecruitBase_Destroyer">
+		<defName>LMA_Recruit_Mogador</defName>
+		<nickname>莫加多尔</nickname>
+		<surname>莫加多尔级</surname>
+		<description>我是维希教廷所属莫加多尔级驱逐舰一号舰莫加多尔……像这样沐浴着您的目光进行自我介绍，就如同把一切都向您敞开一样……哈啊……真是令人……欲罢不能啊。</description>
+		<adultHood>LMA_BackStory_Mogador_Adult</adultHood>
+		<skills>
+			<li>
+				<skill>Animals</skill>
+				<level>3</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Artistic</skill>
+				<level>6</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Construction</skill>
+				<level>3</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Cooking</skill>
+				<level>12</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Crafting</skill>
+				<level>6</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Intellectual</skill>
+				<level>14</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<level>6</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<level>14</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Mining</skill>
+				<level>6</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Plants</skill>
+				<level>3</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<level>12</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<level>12</level>
+				<fireLevel>1</fireLevel>
+			</li>
+		</skills>
+		<traits>
+			<li>
+				<def>Nudist</def>
+			</li>
+			<li>
+				<def>Beauty</def>
+				<degree>2</degree>
+			</li>
+			<li>
+				<def>SpeedOffset</def>
+				<degree>2</degree>
+			</li>
+			<li>
+				<def>LMA_Trait_Mogador</def>
+			</li>
+		</traits>
+		<!-- 新版标准，原皮也视为一套换装 -->
+		<defaultFashion>LMA_FashionSet_Mogador_Original</defaultFashion>
+		<clothSets>
+			<li>LMA_FashionSet_Mogador_Swimsuit</li>
+			<li>LMA_FashionSet_Mogador_Nurse</li>
+		</clothSets>
+		<modExtensions>
+			<!-- 舰娘穿的衣服不再每个单独一个def，并且数据都一样，仅文本不同 -->
+			<!-- 下面这个ext可以写在op def,也可以写在fashion set def（都存在的话优先读） 推荐所有衣服一样描述写op def，否则分开写 -->
+			<li Class="AK_DLL.Ext_OperatorExtraInfo">
+				<apparelInfo>
+					<label>莫加多尔的服装</label>
+					<description>性能数据
+排水量：2880 吨（标准）；4026 吨（满载）
+长：137.5 米
+宽：12.6 米
+吃水：4.6 米
+动力：92000 匹
+装置：4 × 英德莱过热锅炉；2 × 蒸汽涡轮机；2 × 推进器
+航速：39 节
+航程：3350 海里/15 节
+编制：245/256 人
+武器：4 x 双联装138.6mm/50 Mle1934 舰炮（Mle1935炮座）；2 x 双联装37mm/50 Mle1935 机炮； 4 x 双联装13.2mm 哈奇开司机枪；2 x 三联装550mm鱼雷发射器；2 x 双联装550mm鱼雷发射器；2 x 深弹导轨（配16+16枚深弹）；40 × 水雷</description>
+				</apparelInfo>
+				<shieldInfo>
+					<label>莫加多尔的舰装</label>
+					<description>　　莫加多尔级大型驱逐舰（Mogador-class）是法国海军在二战爆发前设计建造的最后一级大型驱逐舰（法方称为反雷击舰，contre-torpilleurs），也是法国海军二战时最大、最强的驱逐舰，大型驱逐舰理念的集大成者。
+
+　　本级舰根据1932年、1934年造舰计划分别建造了1艘：莫加多尔（Mogador）、伏尔他（Volta）；原计划根据1938bis造舰计划继续建造4艘改进后的准同型舰：玛索（Marceau）、德赛（Desaix）、克莱贝尔（Kléber）、奥什（Hoche），但因法国战败投降被取消。
+
+　　莫加多尔级的设计经过两轮迭代，其最初方案是由空想级驱逐舰改进而来，搭载前1后2的3座双联装138.6mm主炮（与后来的大胆级驱逐舰布局相似）。但由于法国人的大型驱逐舰超过了1930年《伦敦海军条约》对驱逐舰的定义，引起了别国海军的意见，且由于经济危机的影响，船厂产能受限，新型大驱建造工作被暂缓开展。
+
+　　在进一步改进设计后，莫加多尔级的方案最终变为了搭载前2后2共计4座双联装138.6mm主炮，其火力达到了驱逐舰中史无前例的高度。与此同时，莫加多尔级的鱼雷武备也较空想级略有加强，每侧安装了1座三联装和1座双联装550mm鱼雷，共计10门。为了搭载如此强劲的火力，舰体也进行了放大，标准排水量较空想级上升300余吨，达到2880吨，满载排水量则超过了4000吨。增大的舰体也同时强化了对恶劣海况的适应能力，适合公海作战。更大出力的轮机则保证了莫加多尔级能轻松达到39节的设计最大航速。
+
+　　建成的2艘莫加多尔级的舰历较为短暂：直到1939年初，两舰才加入法国海军服役，组建第6大型驱逐舰中队，舷号分别为X61、X62。驻地布雷斯特，隶属于“突袭舰队”，与敦刻尔克级战列舰一起行动。1940年法国投降后为维希当局服务，1942年11月27日，本级舰与众多法军舰艇一起自沉于土伦港以免被德军俘虏。
+
+　　莫加多尔号驱逐舰（MNF Mogador）是法国海军于1930年代设计建造的莫加多尔级大型驱逐舰的1号舰，使用舷号X61（第6驱逐舰大队）。本舰作为首舰，列入法国海军1932年造舰计划，工程编号Da22。该命名来自1844年在摩洛哥被炮击并占领的同名要塞。
+
+　　法国人原本打算在1931年造舰计划就开建2艘新型大型驱逐舰，并于1932年补上第3艘。但由于1930年签订的《伦敦海军条约》对驱逐舰作出了新的规定，法国人不得不与其他海军列强进行谈判，再加上资本主义世界经济危机的影响，新型大型驱逐舰的首舰订单——莫加多尔号被列入1932年造舰计划，但也仅此一艘。即便如此，新大驱的建造工作直到1934年12月才正式启动，但在这两年时间里，新大驱的设计得到了强化，战斗力较空想级大幅提升</description>
+				</shieldInfo>
+			</li>
+			<!-- 舰娘的武器没有实体和数据，改为舰娘拿所有武器都有个幻化。没画武器的舰娘不带此扩展 -->
+			<!-- 同上 也是都能写 -->
+			<li Class="AK_DLL.Ext_WeaponWieldGraphics">
+				<alterGraphics>
+					<texPath>Shipgirls/Destroyer/Mogador/Mogador_Weapon</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+				</alterGraphics>
+			</li>
+		</modExtensions>
+	</AK_DLL.OperatorDef>
+	
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>LMA_Trait_Mogador</defName>
+		<degreeDatas>
+			<li>
+				<label>阵斩罪恶之斧</label>
+				<description>罪恶……必将伏诛！</description>
+				<statOffsets>
+					<MeleeDodgeChance>0.45</MeleeDodgeChance>
+					<IncomingDamageFactor>-0.45</IncomingDamageFactor>
+					<MeleeArmorPenetration>0.5</MeleeArmorPenetration>
+					<MeleeCooldownFactor>-0.2</MeleeCooldownFactor>
+				</statOffsets>
+				<statFactors>
+					<PawnTrapSpringChance>0.1</PawnTrapSpringChance>
+					<MeleeDamageFactor>1.5</MeleeDamageFactor>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+	
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>LMA_BackStory_Mogador_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>莫加多尔号舰历</title>
+		<titleShort>莫加多尔</titleShort>
+		<baseDesc>莫加多尔号于1934年12月28日在洛里昂军工厂开工建造，1936年6月9日下水，1938年1月24日验收测试，1939年4月正式加入法国海军服役，与姊妹舰伏尔他组建第6大型驱逐舰中队（6th DCT），驻地布雷斯特，隶属于突袭舰队。主要任务是在大西洋上狩猎德军的破交舰，并为船队提供护航。
+
+　　1940年1月至3月，莫加多尔返回洛里昂进行小规模改装。1940年6月，法国战败投降，包括莫加多尔在内的大批法国军舰为维希当局服务。1940年7月，英国皇家海军发起弩炮行动，对凯比尔港的法国海军舰艇发起攻击。此役中，莫加多尔的艉部被一枚15英寸炮弹命中，引爆了深水炸弹，导致艉部受损严重，但并没有沉没。7月17日，莫加多尔被拖到奥兰临时修复，拆除了损坏的4号炮塔，随后于1940年底返回土伦港准备进一步修复。
+
+　　在等待修复的日子里，工程师为莫加多尔提出了一套修复和改装方案。但由于材料短缺，工作进展缓慢，直到1942年2月下旬才由位于拉塞纳河畔的地中海冶金与造船厂接管。
+
+　　1942年11月，盟军火炬行动取得成功，并与时任维希法国海军元帅的达尔朗将军达成协议，促成北非法军倒戈。轴心阵营获悉后，策划了夺取维希法国剩余海军舰队的行动。1942年11月27日，为防止被德军俘获，莫加多尔自沉。1943年4月5日，意大利人将其重新打捞，但并未修复。1944年底，莫加多尔被盟军轰炸机空袭击沉，残骸于1949年打捞并报废解体。
+
+　　可以说，莫加多尔级时运不齐，命途多舛，作为最强大的法国驱逐舰，未能更多地展现自己的实力就草草结束了一生。</baseDesc>
+	</BackstoryDef>
+</Defs>
