@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AK_DLL.OperatorDef ParentName="LMA_RecruitBase_Battleship">
+		<defName>LMA_Recruit_Alsace</defName>
+		<nickname>阿尔萨斯</nickname>
+		<surname>阿尔萨斯级</surname>
+		<description>我是属于鸢尾的圣迹、人类难以企及之幻梦、圣座守护、战列舰阿尔萨斯……已经听过一遍了？没关系，这份介绍词很帅，我很满意。你说想一睹鸢尾圣迹的真容……这……这种事……感情模块要超载爆炸了……</description>
+		<adultHood>LMA_BackStory_Alsace_Adult</adultHood>
+		<skills>
+			<li>
+				<skill>Animals</skill>
+				<level>6</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Artistic</skill>
+				<level>6</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Construction</skill>
+				<level>3</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Cooking</skill>
+				<level>12</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Crafting</skill>
+				<level>3</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Intellectual</skill>
+				<level>16</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<level>6</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<level>14</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Mining</skill>
+				<level>3</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Plants</skill>
+				<level>3</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<level>12</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<level>12</level>
+				<fireLevel>1</fireLevel>
+			</li>
+		</skills>
+		<traits>
+			<li>
+				<def>SlowLearner</def>
+			</li>
+			<li>
+				<def>Beauty</def>
+				<degree>2</degree>
+			</li>
+			<li>
+				<def>Kind</def>
+			</li>
+			<li>
+				<def>NaturalMood</def>
+				<degree>2</degree>
+			</li>
+			<li>
+				<def>LMA_Trait_Alsace</def>
+			</li>
+		</traits>
+		<!-- 新版标准，原皮也视为一套换装 -->
+		<defaultFashion>LMA_FashionSet_Alsace_Original</defaultFashion>
+		<clothSets>
+			<li>LMA_FashionSet_Alsace_Swimsuit</li>
+		</clothSets>
+		<modExtensions>
+			<!-- 舰娘穿的衣服不再每个单独一个def，并且数据都一样，仅文本不同 -->
+			<!-- 下面这个ext可以写在op def,也可以写在fashion set def（都存在的话优先读） 推荐所有衣服一样描述写op def，否则分开写 -->
+			<li Class="AK_DLL.Ext_OperatorExtraInfo">
+				<apparelInfo>
+					<label>阿尔萨斯的服装</label>
+					<description>自由鸢尾的战列舰，圣座的守护者，无情地葬送所有来犯之敌。
+她是与加斯科涅同等位格的神机，言行却并未如后者一般缺乏情感......
+相反，由于情感模块（害羞）极易失控，场面总是会变成一个人的兵荒马乱。</description>
+				</apparelInfo>
+				<shieldInfo>
+					<label>无敌</label>
+					<description>阿尔萨斯级战列舰（Alsace-class）是法国于1930年代末设计的新型战列舰，以应对德国设计建造的新型战列舰——H级。
+　　由于日本和意大利方面宣布退出《第二次伦敦海军条约》，“升级条款”生效，各国可以开始建造45000吨级搭载16英寸主炮的新型战列舰。然而，对于法国人来说，受船坞条件限制，他们无法建造大于任何35000吨级的战列舰，因此法国人决定暂时不开建大于35000吨级的战列舰。然而1939年中期，随着德国方面开始设计建造超过40000吨级的战列舰的情报传来，法国人不得不开始着手设计新型战列舰以应对，同时期还必须开展船坞扩建以及其他配套设施的升级工作。1939年7月，法国海军总参谋长达尔朗要求法国海军技术与建设部（STCN）开始研究吨位超过35000吨级的新型战列舰，并开始研究包括400mm、406mm和420mm在内的大口径火炮。
+　　具体设计工作于1939年底开始。在早先对黎塞留级战列舰后续同级舰的改进设计过程中，提出了A、B、C共3种改型方案，前两者分别对应克莱蒙梭和加斯科涅，方案C则成为了阿尔萨斯级的基础，其基本设计为前2后1布置的3座三联装380mm主炮，标准排水量约为37000吨。STCN在方案C3布局的基础上放大船体开展设计，同样提供了3种方案供海军方面选择。
+
+方案编号	标准排水量	主武器	副武器	引擎出力	航速
+1号方案	40000长吨	3 x 三联装380mm	9 x 三联装152mm DP；8 x 双联装100mm	170000SHP	31kn
+2号方案	42500长吨	3 x 三联装406mm	9 x 三联装152mm DP；8 x 双联装100mm	190000SHP	31kn
+3号方案	45000长吨	3 x 四联装380mm	9 x 三联装152mm DP；12 x 双联装100mm	220000SHP	32kn
+　　基于对武器研发进度和船坞情况的估计，1号方案实际上是唯一现实的选择。1940年4月1日，首批两舰的建造工作获得批准，1号舰将会在圣纳泽尔1号船台开工，其订单插队到了霞飞级航空母舰2号舰之前，预计开工时间会在1941年霞飞号航空母舰下水之后；2号舰则计划于1942年在升级改造后的布雷斯特10号船坞开工。1940年5月15日，海军为前两艘船提出了四个名字供达尔朗选择；阿尔萨斯、诺曼底、弗兰德尔和勃艮第，年中材料已经准备就绪，但随着1940年6月法国迅速战败投降，包括阿尔萨斯级在内的所有造船计划都成为了泡影。</description>
+				</shieldInfo>
+			</li>
+			<!-- 舰娘的武器没有实体和数据，改为舰娘拿所有武器都有个幻化。没画武器的舰娘不带此扩展 -->
+			<!-- 同上 也是都能写 -->
+			<li Class="AK_DLL.Ext_WeaponWieldGraphics">
+				<alterGraphics>
+					<texPath>Shipgirls/Battle/Alsace/Alsace_Weapon</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+				</alterGraphics>
+			</li>
+		</modExtensions>
+	</AK_DLL.OperatorDef>
+	
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>LMA_Trait_Alsace</defName>
+		<degreeDatas>
+			<li>
+				<label>攻击指令 『裁决降临』</label>
+				<description>裁决已至！</description>
+				<statOffsets>
+					<AimingDelayFactor>-0.45</AimingDelayFactor>
+				</statOffsets>
+				<statFactors>
+					<MeleeDamageFactor>1.45</MeleeDamageFactor>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+	
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>LMA_BackStory_Alsace_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>阿尔萨斯履历</title>
+		<titleShort>阿尔萨斯</titleShort>
+		<baseDesc>该舰船并未真实建造</baseDesc>
+	</BackstoryDef>
+</Defs>

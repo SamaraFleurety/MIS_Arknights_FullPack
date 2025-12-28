@@ -2,19 +2,19 @@
 <Defs>
 
 	<Def Class="AK_DLL.OperatorFashionSetDef">
-		<defName>LMA_FashionSet_Lion_Original</defName>
+		<defName>LMA_FashionSet_Alsace_Original</defName>
 		<label>原服</label>
 		<standIndex>0</standIndex>
 		<modExtensions>
 			<li Class="AK_DLL.Ext_WeaponWieldGraphics">
 				<alterGraphics>
-					<texPath>Shipgirls/Battle/Lion/Lion_Weapon</texPath>
+					<texPath>Shipgirls/Battle/Alsace/Alsace_Weapon</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
 				</alterGraphics>
 			</li>
 			<li Class="AK_DLL.Ext_FrontHair">
 				<graphicData>
-					<texPath>Shipgirls/Battle/Lion/Lion_Hair</texPath>
+					<texPath>Shipgirls/Battle/Alsace/Alsace_Hair</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
 				</graphicData>
 				<showOnlyOnBed>true</showOnlyOnBed>
@@ -23,20 +23,20 @@
 	</Def>
 
 	<Def Class="AK_DLL.OperatorFashionSetDef">
-		<defName>LMA_FashionSet_Lion_Swimsuit</defName>
+		<defName>LMA_FashionSet_Alsace_Swimsuit</defName>
 		<label>泳装</label>  
 		<standIndex>0</standIndex>
 		<fashionName>Swimsuit</fashionName>
 		<modExtensions>
 			<li Class="AK_DLL.Ext_WeaponWieldGraphics">
 				<alterGraphics>
-					<texPath>Shipgirls/Battle/Lion/Lion_Weapon</texPath>
+					<texPath>Shipgirls/Battle/Alsace/Alsace_Swimsuit_Weapon</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
 				</alterGraphics>
 			</li>
 			<li Class="AK_DLL.Ext_FrontHair">
 				<graphicData>
-					<texPath>Shipgirls/Battle/Lion/Lion_Swimsuit_Hair</texPath>
+					<texPath>Shipgirls/Battle/Alsace/Alsace_Swimsuit_Hair</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
 				</graphicData>
 				<showOnlyOnBed>true</showOnlyOnBed>
