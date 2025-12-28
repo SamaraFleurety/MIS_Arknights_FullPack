@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<Def Class="AK_DLL.OperatorFashionSetDef">
+		<defName>LMA_FashionSet_Hindenburg_Original</defName>
+		<label>原服</label>
+		<standIndex>0</standIndex>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_FrontHair">
+				<graphicData>
+					<texPath>Shipgirls/HeavyCruiser/Hindenburg/Hindenburg_Hair</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+				</graphicData>
+				<showOnlyOnBed>true</showOnlyOnBed>
+			</li>
+		</modExtensions>
+	</Def>
+
+	<Def Class="AK_DLL.OperatorFashionSetDef">
+		<defName>LMA_FashionSet_Hindenburg_Bunnygirl</defName>
+		<label>兔女郎</label>
+		<standIndex>0</standIndex>
+		<fashionName>Bunnygirl</fashionName>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_FrontHair">
+				<graphicData>
+					<texPath>Shipgirls/HeavyCruiser/Hindenburg/Hindenburg_Bunnygirl_Hair</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+				</graphicData>
+				<showOnlyOnBed>true</showOnlyOnBed>
+			</li>
+		</modExtensions>
+	</Def>
+</Defs>

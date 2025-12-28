@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AK_DLL.OperatorDef ParentName="LMA_RecruitBase_HeavyCruiser">
+		<defName>LMA_Recruit_Hindenburg</defName>
+		<nickname>兴登堡</nickname>
+		<surname>希尔德加德</surname>
+		<description>铁血巡洋舰，兴登堡。似乎像我这样的舰船被称为“特别计划舰”？无所谓。向我证明你的能力，填充我无聊的时光，我自会遵守与你的契约。</description>
+		<adultHood>LMA_BackStory_Hindenburg_Adult</adultHood>
+		<skills>
+			<li>
+				<skill>Animals</skill>
+				<level>3</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Artistic</skill>
+				<level>6</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Construction</skill>
+				<level>3</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Cooking</skill>
+				<level>6</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Crafting</skill>
+				<level>6</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Intellectual</skill>
+				<level>9</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<level>12</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<level>12</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Mining</skill>
+				<level>3</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Plants</skill>
+				<level>3</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<level>16</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<level>12</level>
+				<fireLevel>1</fireLevel>
+			</li>
+		</skills>
+		<traits>
+			<li>
+				<def>Beauty</def>
+				<degree>2</degree>
+			</li>
+			<li>
+				<def>Bloodlust</def>
+			</li>
+			<li>
+				<def>LMA_Trait_Hindenburg</def>
+			</li>
+			<li>
+				<def>LMA_Trait_HindenburgSecond</def>
+			</li>
+		</traits>
+		<!-- 新版标准，原皮也视为一套换装 -->
+		<defaultFashion>LMA_FashionSet_Hindenburg_Original</defaultFashion>
+		<clothSets>
+			<li>LMA_FashionSet_Hindenburg_Bunnygirl</li>
+		</clothSets>
+		<modExtensions>
+			<!-- 舰娘穿的衣服不再每个单独一个def，并且数据都一样，仅文本不同 -->
+			<!-- 下面这个ext可以写在op def,也可以写在fashion set def（都存在的话优先读） 推荐所有衣服一样描述写op def，否则分开写 -->
+			<li Class="AK_DLL.Ext_OperatorExtraInfo">
+				<apparelInfo>
+					<label>兴登堡的服装</label>
+					<description>性能数据
+排水量：约18500 吨（标准）；22324 吨（满载）
+长：228.9 米
+宽：24.3 米
+吃水：7 米
+动力：155000 匹
+装置：9 x 锅炉；3 x 蒸汽轮机；3 x 推进器
+航速：31.6 节
+航程：5500 海里/18 节
+编制： 人
+武器：4 x 三联装203mm/60 SK C/34主炮；8 x 双联装105mm/65 SK C/33高炮（Dop. L. C/31炮座）；7 x 双联装55mm/77 Gerät 58机炮；2 x 单装55mm/77 Gerät 58机炮；9 x 四联装20mm机枪；4 x 双联装20mm机枪；4 x 四联装533mm鱼雷发射器
+装甲：主装甲带110mm
+舰载机：3 x Arado Ar 196.水上飞机</description>
+				</apparelInfo>
+				<shieldInfo>
+					<label>兴登堡的舰装</label>
+					<description>兴登堡号重巡洋舰（KMS Hindenburg）是《战舰世界》的德国X级银币重巡洋舰，于2015年的0.5.0.1版本，也就是第一个公测版本加入游戏超测，当之无愧的元老之一。
+　　和罗恩一样，兴登堡没有任何可供参考的历史图纸，这两艘船均为WG圣彼得堡的专家们自行设计论证的重巡洋舰。在历史上，德国人的“Z计划”包含了5艘希佩尔海军上将级重巡和12艘P级装甲舰。虽然由于战争打响Z计划破产，但也不难推导得出，德国海军的巡洋舰包括以下两条发展路径：
+　　1、以德意志级为起点，发展出装甲舰D、E（后来变为沙恩霍斯特级）以及P级装甲舰，P级之后还发展了O级以及所谓的破交舰（Handelszerstörer）方案；
+　　2、以希佩尔海军上将号为起点，发展出改进后的欧根亲王号以及后续进一步改进的两舰——塞德利茨和吕佐夫于1936~37年开工建造；
+　　1938年，克虏伯集团（Krupp Consortium）为希佩尔海军上将级重巡上使用的203mm/60 SK C/34火炮开发了三联装炮塔SK L/56。这可能是为希佩尔海军上将级的进一步发展型重巡洋舰设计的，但德国最终没有设计此类重巡洋舰。
+　　基于以上背景，WG以希佩尔海军上将级为基础，设计了兴登堡号。整体上看，兴登堡就是采用了三联装炮塔的放大版希佩尔级，上层建筑和武器布局基本类似。在设定中，兴登堡是作为新型H级战列舰的护卫舰，其次要任务则为破交作战，因此也装备了大量鱼雷武器。防空方面装备了新锐55mm机炮，但由于缺少雷达和集中目标捕获系统，整体防空效率不高。
+　　在游戏中，兴登堡定位为“公海火力输出巡洋”，目前以高穿深（50mm）的高爆弹作为主要游戏特色。自实装入游戏以来，几经增强和削弱，但毫无疑问的是，现在的兴登堡是有史以来最强的兴登堡（但比起新锐的怪胎们还是弱了）。</description>
+				</shieldInfo>
+			</li>
+		</modExtensions>
+	</AK_DLL.OperatorDef>
+	
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>LMA_Trait_Hindenburg</defName>
+		<degreeDatas>
+			<li>
+				<label>大角“恶魔”</label>
+				<description>将我召唤至此的，就是你？凡人，你就是我的指挥官么？……行吧，我就姑且承认，这份“指挥官和舰船”的契约好了。</description>
+				<statOffsets>
+					<ActivitySuppressionRate>2</ActivitySuppressionRate>
+					<MeditationFocusGain>0.5</MeditationFocusGain>
+					<PsychicSensitivity>1.0</PsychicSensitivity>
+					<MentalBreakThreshold>0.1</MentalBreakThreshold>
+					<Beauty>1</Beauty>
+				</statOffsets>
+				<statFactors>
+					<StudyEfficiency>2</StudyEfficiency>
+					<EntityStudyRate>3</EntityStudyRate>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>LMA_Trait_Hindenburg</defName>
+		<degreeDatas>
+			<li>
+				<label>寻乐的战场游戏</label>
+				<description>向我俯首，虫子们！</description>
+				<statOffsets>
+					<IncomingDamageFactor>-0.1</IncomingDamageFactor>
+					<AimingDelayFactor>-0.4</AimingDelayFactor>
+					<RangedCooldownFactor>-0.2</RangedCooldownFactor>
+					<MeleeDamageFactor>1.2</MeleeDamageFactor>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>LMA_BackStory_Hindenburg_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>兴登堡履历</title>
+		<titleShort>兴登堡</titleShort>
+		<baseDesc>该舰船并未真实建造</baseDesc>
+	</BackstoryDef>
+</Defs>
