@@ -38,4 +38,58 @@
 		</modExtensions>
 	</Def>
 
+	<Def Class="AK_DLL.OperatorFashionSetDef">
+		<defName>LMA_FashionSet_NewJersey_BlackBlurPrelude</defName>
+		<label>漆黑的超极速前奏</label>
+		<standIndex>1</standIndex>
+		<fashionName>BlackBlurPrelude</fashionName>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_WeaponWieldGraphics">
+				<alterGraphics>
+					<texPath>Shipgirls/Battle/NewJersey/NewJersey_BlackBlurPrelude_Weapon</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+				</alterGraphics>
+			</li>
+			<li Class="AK_DLL.Ext_FrontHair">
+				<graphicData>
+					<texPath>Shipgirls/Battle/NewJersey/NewJersey_BlackBlurPrelude_Hair</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+				</graphicData>
+				<showOnlyOnBed>true</showOnlyOnBed>
+			</li>
+		</modExtensions>
+	</Def>
+
+	<Def Class="AK_DLL.OperatorFashionSetDef">
+		<defName>LMA_FashionSet_NewJersey_MidsummerLeisure</defName>
+		<label>盛夏的闲暇</label>
+		<standIndex>2</standIndex>
+		<fashionName>MidsummerLeisure</fashionName>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_FrontHair">
+				<graphicData>
+					<texPath>Shipgirls/Battle/NewJersey/NewJersey_MidsummerLeisure_Hair</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+				</graphicData>
+				<showOnlyOnBed>true</showOnlyOnBed>
+			</li>
+		</modExtensions>
+	</Def>
+
+	<Def Class="AK_DLL.OperatorFashionSetDef">
+		<defName>LMA_FashionSet_NewJersey_ExhilaratingSteps</defName>
+		<label>跃动的舞台时间</label>
+		<standIndex>3</standIndex>
+		<fashionName>ExhilaratingSteps</fashionName>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_FrontHair">
+				<graphicData>
+					<texPath>Shipgirls/Battle/NewJersey/NewJersey_ExhilaratingSteps_Hair</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+				</graphicData>
+				<showOnlyOnBed>true</showOnlyOnBed>
+			</li>
+		</modExtensions>
+	</Def>
+
 </Defs>
