@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AK_DLL.OperatorDef ParentName="LMA_RecruitBase_HeavyCruiser">
+		<defName>LMA_Recruit_GoudenLeeuw</defName>
+		<nickname>金狮</nickname>
+		<surname>金狮</surname>
+		<description>我是郁金王国的金狮，藤蔓来于自然，魔法来自于光。指挥官你看，光的魔法会幻化出动物之灵哦，是不是很有趣呢~这可是对乖孩子的奖励哦~</description>
+		<adultHood>LMA_BackStory_GoudenLeeuw_Adult</adultHood>
+		<skills>
+			<li>
+				<skill>Animals</skill>
+				<level>14</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Artistic</skill>
+				<level>6</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Construction</skill>
+				<level>3</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Cooking</skill>
+				<level>6</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Crafting</skill>
+				<level>6</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Intellectual</skill>
+				<level>6</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<level>12</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<level>3</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Mining</skill>
+				<level>3</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Plants</skill>
+				<level>14</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<level>16</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<level>12</level>
+				<fireLevel>1</fireLevel>
+			</li>
+		</skills>
+		<traits>
+			<li>
+				<def>Beauty</def>
+				<degree>2</degree>
+			</li>
+			<li>
+				<def>Kind</def>
+			</li>
+			<li>
+				<def>LMA_Trait_GoudenLeeuw</def>
+			</li>
+		</traits>
+		<!-- 新版标准，原皮也视为一套换装 -->
+		<defaultFashion>LMA_FashionSet_GoudenLeeuw_Original</defaultFashion>
+		<modExtensions>
+			<!-- 舰娘穿的衣服不再每个单独一个def，并且数据都一样，仅文本不同 -->
+			<!-- 下面这个ext可以写在op def,也可以写在fashion set def（都存在的话优先读） 推荐所有衣服一样描述写op def，否则分开写 -->
+			<li Class="AK_DLL.Ext_OperatorExtraInfo">
+				<apparelInfo>
+					<label>金狮的舰装</label>
+					<description>性能数据
+排水量：27988 吨（标准）；30851 吨（满载）
+长：241.2 米
+宽：30.85 米
+吃水：7.8 米
+动力：180000 匹
+装置：8 x 亚罗锅炉；4 x 帕森齿轮汽轮机；4 x 推进器
+航速：34（战舰世界游戏内为33.5） 节
+编制：? 人
+武器：3 x 三联装283 mm/45 （？）SK C/34 主炮；6 x 双联装120 mm/45博福斯；7 x 双联装40 mm 博福斯 STAAG；8 × 单管20 mm 厄利孔 Mk V
+战舰世界游戏内版本：3 x 三联装283 mm/54.5 主炮；6 x 双联装120mm/50 Model 1942高平两用副炮；12 x 40mm防空炮（70 SAK-40/L70-350炮座）
+装甲：主装甲带225mm</description>
+				</apparelInfo>
+				<shieldInfo>
+					<label>金狮的舰装</label>
+					<description>金狮（HNMLS Gouden Leeuw）是游戏《战舰世界》中的荷兰Ⅹ级银币巡洋舰，其历史原型为荷兰皇家海军1939-1940年1047工程战列巡洋舰研究方案，在真实历史上荷兰海军也存在过一艘同名军舰，是一艘于1932年2月入役的奥兰治王子级（Prins Van Oranje class）布雷舰，于1942年3月7日在苏门答腊附近被凿沉避免落入日本海军之手。
+
+   20世纪30年代，日本在东亚的扩张不断加剧已经严重威胁到荷兰东印度殖民地的安全，然而此时荷兰东印度舰队的实力仅包括一艘旧式岸防铁甲舰，三艘轻巡洋舰和几艘驱逐舰。荷兰的情报部门认为日本的航空母舰和战列舰会用于对付英美盟国，而自己需要面对的最大级别军舰为重巡洋舰，基于以上考虑，荷兰决定设计新的战列巡洋舰。
+
+   1939年7月11日，建造局交出了第一版设计方案，但该方案采用的仍是一战水平的防护设计，已落后时代20-25年，于是荷兰海军决定获取国外的技术帮助。其实早在同年的4月份，荷兰已经和德国举行了非正式会谈，荷兰表示他们对德国海军的沙恩霍斯特型战巡很感兴趣，甚至可以进口相关的材料用于在荷兰的建造。于是在8月21日，德国人给出了一份标准排水量27500吨，满载排水量33000吨，航速33节，装备9门280毫米主炮的设计草图。对动力装置不太满意的荷兰海军又做出了多次调整，最终形成了两套设计方案，融合德国提案并交由I.v.S.(荷兰语Ingenieurskantoor voor Scheepsbouw的缩写，翻译过来为造船工业设计局)详设的方案被称为323工程，而采用荷兰自己设计并交由NEVESBU（Dutch Netherlands United Shipbuilding Bureau Ltd的缩写，翻译过来为联合造船事务所）详设的方案即为1047工程方案。</description>
+				</shieldInfo>
+			</li>
+			<!-- 舰娘的武器没有实体和数据，改为舰娘拿所有武器都有个幻化。没画武器的舰娘不带此扩展 -->
+			<!-- 同上 也是都能写 -->
+			<li Class="AK_DLL.Ext_WeaponWieldGraphics">
+				<alterGraphics>
+					<texPath>Shipgirls/HeavyCruiser/GoudenLeeuw/GoudenLeeuw_Weapon</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+				</alterGraphics>
+			</li>
+		</modExtensions>
+	</AK_DLL.OperatorDef>
+	
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>LMA_Trait_GoudenLeeuw</defName>
+		<degreeDatas>
+			<li>
+				<label>自然之佑</label>
+				<description>呵呵~自然啊……既是温柔的春风，也是凛冬的寒流。但无论哪一面，都理应被人们敬畏……欸？你觉得，掌握着自然力量的我也是这样的吗？呵呵……指挥官，保持警惕，或许比徒劳猜测更有用哦~</description>
+				<statOffsets>
+					<PruningSpeed>0.3</PruningSpeed>
+					<PlantHarvestYield>0.3</PlantHarvestYield>
+					<PlantWorkSpeed>1.0</PlantWorkSpeed>
+					<AnimalGatherYield>0.5</AnimalGatherYield>
+					<AnimalGatherSpeed>0.5</AnimalGatherSpeed>
+					<HuntingStealth>0.5</HuntingStealth>
+					<TameAnimalChance>0.3</TameAnimalChance>
+				</statOffsets>
+				<statFactors>
+					<FoodPoisonChance>0</FoodPoisonChance>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>LMA_BackStory_GoudenLeeuw_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>金狮履历</title>
+		<titleShort>金狮</titleShort>
+		<baseDesc>该舰船并未真实建造</baseDesc>
+	</BackstoryDef>
+</Defs>
