@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>   
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>LMA_Voice_Recruit_Raffaello</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OperatorV2/Battle/Raffaello/Recruit_Raffaello</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>LMA_Voice_Die_Raffaello</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OperatorV2/Battle/Raffaello/Die_Raffaello</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>LMA_Voice_Draft_Raffaello</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OperatorV2/Battle/Raffaello/Draft_Raffaello</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>LMA_Voice_Select_RaffaelloI</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OperatorV2/Battle/Raffaello/Select_RaffaelloI</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>LMA_Voice_Select_RaffaelloII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OperatorV2/Battle/Raffaello/Select_RaffaelloII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>LMA_Voice_Select_RaffaelloIII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OperatorV2/Battle/Raffaello/Select_RaffaelloIII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>LMA_Voice_Ability_Raffaello</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OperatorV2/Battle/Raffaello/Ability_Raffaello</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>LMA_Voice_Undraft_RaffaelloI</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OperatorV2/Battle/Raffaello/Undraft_RaffaelloI</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef ParentName = "AK_VoiceBase">
+		<defName>LMA_Voice_Undraft_RaffaelloII</defName>
+		<subSounds>
+			<li>
+				<onCamera>True</onCamera>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>OperatorV2/Battle/Raffaello/Undraft_RaffaelloII</clipPath>
+					</li>
+				</grains>
+				<volumeRange>40~40</volumeRange>
+				<distRange>10~100</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+</Defs>

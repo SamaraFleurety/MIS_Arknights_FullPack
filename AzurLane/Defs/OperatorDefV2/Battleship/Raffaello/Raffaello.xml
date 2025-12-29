@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AK_DLL.OperatorDef ParentName="LMA_RecruitBase_Battleship">
+		<defName>LMA_Recruit_Raffaello</defName>
+		<nickname>拉斐尔</nickname>
+		<surname>拉斐尔</surname>
+		<description>您好~亲爱的指挥官，我是来自撒丁的拉斐尔。不过比起世俗的身份，我更想将自己定义为一名致力于捕捉美的艺术家~希望今后能用画笔记录下与您相处的每时每刻，尤其是那些您自己都未曾察觉的细微之处~♪</description>
+		<adultHood>LMA_BackStory_Raffaello_Adult</adultHood>
+		<skills>
+			<li>
+				<skill>Animals</skill>
+				<level>3</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Artistic</skill>
+				<level>16</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Construction</skill>
+				<level>6</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Cooking</skill>
+				<level>12</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Crafting</skill>
+				<level>12</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Intellectual</skill>
+				<level>9</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<level>6</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<level>12</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Mining</skill>
+				<level>6</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Plants</skill>
+				<level>3</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<level>12</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<level>9</level>
+				<fireLevel>1</fireLevel>
+			</li>
+		</skills>
+		<traits>
+			<li>
+				<def>Beauty</def>
+				<degree>2</degree>
+			</li>
+			<li>
+				<def>Kind</def>
+			</li>
+			<li>
+				<def>NaturalMood</def>
+				<degree>2</degree>
+			</li>
+			<li>
+				<def>LMA_Trait_Raffaello</def>
+			</li>
+		</traits>
+		<!-- 新版标准，原皮也视为一套换装 -->
+		<defaultFashion>LMA_FashionSet_Raffaello_Original</defaultFashion>
+		<modExtensions>
+			<!-- 舰娘穿的衣服不再每个单独一个def，并且数据都一样，仅文本不同 -->
+			<!-- 下面这个ext可以写在op def,也可以写在fashion set def（都存在的话优先读） 推荐所有衣服一样描述写op def，否则分开写 -->
+			<li Class="AK_DLL.Ext_OperatorExtraInfo">
+				<apparelInfo>
+					<label>拉斐尔的服装</label>
+					<description>她是撒丁阵营所属的艺术家，极其乐观的性格早已超越了普通的“阳光开朗”，踏足奇人的境界。
+自诩“为了艺术”而行事，经常做出令人匪夷所思的怪异行为，其中对指挥官展开的无所不用其极的创作（绘画），早已成为母港的一大奇观。</description>
+				</apparelInfo>
+				<shieldInfo>
+					<label>拉斐尔的舰装</label>
+					<description>舰名——拉斐尔
+　　拉斐尔（Rapheal）,全名为拉斐洛·桑齐奥·达·乌尔比诺（意大利语：Raffaello Sanzio da Urbino，1483年4月6日—1520年4月6日）是一位意大利文艺复兴时期的著名画家与建筑师。在意大利艺术界与达芬奇，米开朗基罗并称为“文艺复兴三杰”。
+
+
+　　拉斐尔出生于当时的乌尔比诺公国。父亲是一位宫廷画家，在父亲的影响下，尚处于童年时期的拉斐尔就对绘画产生的极大的兴趣，并且也有和父亲学习绘画。但天命弄人，拉斐尔的母亲于1491年逝去，三年后，拉斐尔的父亲也随之而去。他的叔叔也成了他唯一的监护人。随后，他转到开始在著名画家彼得罗.佩鲁吉诺的画室学习，并在1500年出师。出师之后4年，21岁拉斐尔创作出第一部作品《圣母的婚礼》，这部作品以其创新的结构塑造以及构图汇思帮助拉斐尔开始在意大利艺术界崭露头角。他随后前往佛罗伦萨居留。在那里，他受当地的共和体制人文主义思想影响。他也开始在佛罗伦萨学习达芬奇的构图和米开朗基罗的人体表现风格。使他的风格日渐成熟，并迅速与二人齐名。
+
+
+　　1508年，拉斐尔受教皇儒略二世的邀请以及委托，前往梵蒂冈为其教堂创作壁画。在梵蒂冈的岁月，他创作出许多有名的作品。其中以签字厅的壁画以及教皇居室的《雅典学院》最为出名。他在这段期间的重要作品还包括《埃利奥多罗被逐出神殿》、《波尔申纳的弥撒》等。这些作品也让他成为教廷的红人，他被教宗封为“贴身男仆”，并在随后迁入罗马居住。这个荣誉也给予拉斐尔宫廷中的地位及其额外收入，也获得教宗赐予的黄金马刺骑士勋章。可谓是人生巅峰。但在1520年4月6日，拉斐尔却因高烧不幸病逝，享年37岁。根据拉斐尔生前的意愿，他被葬在罗马的万神殿并长眠于此。拉斐尔的葬礼十分隆重，有许多人参加。在他的大理石墓碑上，皮埃特罗·本博写下了墓志铭：“Ille hic est Raffael, timuit quo sospite vinci, rerum magna parens et moriente mori.”（拉丁语），意为“拉斐尔在此处安息。在他生前，大自然感到了败北的恐惧；而当他一旦溘然长逝，大自然又唯恐他死去。”</description>
+				</shieldInfo>
+			</li>
+			<!-- 舰娘的武器没有实体和数据，改为舰娘拿所有武器都有个幻化。没画武器的舰娘不带此扩展 -->
+			<!-- 同上 也是都能写 -->
+			<li Class="AK_DLL.Ext_WeaponWieldGraphics">
+				<alterGraphics>
+					<texPath>Shipgirls/Battle/Raffaello/Raffaello_Weapon</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+				</alterGraphics>
+			</li>
+		</modExtensions>
+	</AK_DLL.OperatorDef>
+
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>LMA_Trait_Raffaello</defName>
+		<degreeDatas>
+			<li>
+				<label>超级艺术家</label>
+				<description>感受艺术的力量吧☆</description>
+				<mentalBreakInspirationGainSet>
+					<li>Inspired_Creativity</li>
+				</mentalBreakInspirationGainSet>
+				<mentalBreakInspirationGainReasonText>感受艺术的力量吧☆</mentalBreakInspirationGainReasonText>
+				<mentalBreakInspirationGainChance>0.5</mentalBreakInspirationGainChance>
+				<statOffsets>
+					<SmoothingSpeed>0.2</SmoothingSpeed>
+					<ButcheryMechanoidSpeed>0.25</ButcheryMechanoidSpeed>
+					<MechFormingSpeed>0.25</MechFormingSpeed>
+					<MechRepairSpeed>0.25</MechRepairSpeed>
+					<SubcoreEncodingSpeed>0.25</SubcoreEncodingSpeed>
+					<GeneralLaborSpeed>0.25</GeneralLaborSpeed>
+				</statOffsets>
+				<statFactors>
+					<SocialIdeoSpreadFrequencyFactor>3.0</SocialIdeoSpreadFrequencyFactor>
+					<ConversionPower>0.4</ConversionPower>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>LMA_BackStory_Raffaello_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>拉斐尔履历</title>
+		<titleShort>拉斐尔</titleShort>
+		<baseDesc>该舰船并未真实建造</baseDesc>
+	</BackstoryDef>
+</Defs>
