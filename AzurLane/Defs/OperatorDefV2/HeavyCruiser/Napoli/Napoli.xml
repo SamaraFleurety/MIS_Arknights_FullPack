@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AK_DLL.OperatorDef ParentName="LMA_RecruitBase_HeavyCruiser">
+		<defName>LMA_Recruit_Napoli</defName>
+		<nickname>那不勒斯</nickname>
+		<surname>那不勒斯</surname>
+		<description>我是来自撒丁帝国的重巡洋舰那不勒斯，诞生的缘由无需被铭记。请你予以我足够的信赖，我会为你带来胜利，荣耀，以及……其它一切你想要之物。</description>
+		<adultHood>LMA_BackStory_Napoli_Adult</adultHood>
+		<skills>
+			<li>
+				<skill>Animals</skill>
+				<level>3</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Artistic</skill>
+				<level>9</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Construction</skill>
+				<level>1</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Cooking</skill>
+				<level>12</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Crafting</skill>
+				<level>9</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Intellectual</skill>
+				<level>9</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<level>12</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<level>6</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Mining</skill>
+				<level>3</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Plants</skill>
+				<level>3</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<level>16</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<level>12</level>
+				<fireLevel>1</fireLevel>
+			</li>
+		</skills>
+		<traits>
+			<li>
+				<def>Beauty</def>
+				<degree>2</degree>
+			</li>
+			<li>
+				<def>Kind</def>
+			</li>
+			<li>
+				<def>FastLearner</def>
+			</li>
+			<li>
+				<def>LMA_Trait_Napoli</def>
+			</li>
+		</traits>
+		<!-- 新版标准，原皮也视为一套换装 -->
+		<defaultFashion>LMA_FashionSet_Napoli_Original</defaultFashion>
+		<clothSets>
+			<li>LMA_FashionSet_Napoli_DreamyNight</li>
+		</clothSets>
+		<modExtensions>
+			<!-- 舰娘穿的衣服不再每个单独一个def，并且数据都一样，仅文本不同 -->
+			<!-- 下面这个ext可以写在op def,也可以写在fashion set def（都存在的话优先读） 推荐所有衣服一样描述写op def，否则分开写 -->
+			<li Class="AK_DLL.Ext_OperatorExtraInfo">
+				<apparelInfo>
+					<label>那不勒斯的服装</label>
+					<description>性能数据
+排水量：约22000 吨（标准）；26892 吨（满载）
+长：242.91 米
+宽：28.06 米
+吃水：待补充 米
+动力：240000 匹
+装置：12 x 锅炉；4 x 蒸汽轮机；4 x 推进器
+航速：35.5 节
+航程：7750 海里/20 节
+编制：待补充 人
+武器：3 x 三联装254mm/60 Model 1939主炮；4 x 三联装152mm/55 OTO 1939副炮；6 x 双联装90mm/50 OTO 1939高炮；9 x 四联装37mm/54 Breda 1939机炮；10 x 六联装20mm/70 Scotti 1941机炮；2 x 四联装533mm鱼雷发射器
+装甲：主装甲带220mm
+舰载机：2 x 飞机弹射器；4 x Re.2000C战斗机
+其它：待补充</description>
+				</apparelInfo>
+				<shieldInfo>
+					<label>那不勒斯的舰装</label>
+					<description>1930年代上半叶，苏联通过实施“一五计划”，恢复并在一定程度上发展了工业生产水平，期间通过学习外国海军的方式，开展了Pr.1型列宁格勒级驱逐舰的设计和建造工作，以及部分原沙俄旧舰的改装恢复工作（例如甘古特级）。在“二五计划”中，苏联人继续引进外国技术，通过与意大利安萨尔多公司合作，陆续设计建造了诸如Pr.7型愤怒级驱逐舰、Pr.26型基洛夫级轻巡洋舰等现代化舰艇。
+　　与此同时，资本主义世界经济危机席卷全球，国际形势日趋严峻。在这一时代背景下，斯大林认为苏联的重工业已经满足了“重建一支强大的红海军”的需要，表态要求加快这一工作，并于1935年12月通过了“大舰队（Большой флот）”计划。
+　　其中，重型巡洋舰方面的工作最早可以追溯至1935年完成的Pr."X"预研案，也就是游戏里的库尔斯克。但由于缺乏设计经验和可靠的参照，该方案显得过于天马行空，可以说在当时的苏联并不具备任何可行性。
+　　为了解决各种大型火炮舰艇（大驱、重巡、战列）的设计问题，苏联人决定继续同意大利人展开合作。1936年春，第一中央船舶设计局（ЦКБС-1）的В.Л.布热津斯基带领了一支苏联考察团前往意大利，并设法获得了安萨尔多公司提供的数种战舰草案和参数。其中包括两种“大口径巡洋舰/战列巡洋舰/大型巡洋舰方案”，标准排水量19000~22000吨，装备9门250mm主炮，航速35~37节。这些战舰草案和参数在一定程度上成为苏联后续Pr.22型重巡洋舰（1936年）和Pr.69型重巡洋舰（1938年第一版）的数据基础。
+　　在获得这些重要的可参考数据后，1936年2月21日，奥尔洛夫司令发布了第一批新型战舰的技战术指标，并分配了相应的工程编号。其中，新型重型巡洋舰为“Project 22”，标准排水量18000-19000吨，配备9门254mm主炮。
+　　只不过，新型重巡洋舰的设计工作并不顺利，先是设计指标水涨船高，膨胀到了Pr.25型"B"型战列舰的水平，期间还受到了”大清洗“运动的打击。设计工作重启后，1938年新立项的Pr.69型重巡洋舰的第一版方案重新回到了安萨尔多所提供的方案的基础上，然而没过多久，由于领导层要求新型重巡应对抗沙恩霍斯特级，设计指标很快又膨胀了回去，搭载254mm/10英寸主炮的方案始终未能走出蓝图。
+　　但安萨尔多提供的设计方案最终并没有彻底埋没在历史长河当中，《战舰世界》的开发者基于这段历史，陆续制作了分属于3艘不同国家、具备不同特色的舰船分别是新西伯利亚、卡斯蒂利亚以及那不勒斯。那不勒斯的命名来源于意大利南部的第一大城市：那不勒斯（Napoli），其是坎帕尼亚大区以及那不勒斯广域市的首府，曾经是两西西里王国首都，同时也是意大利和地中海最大的港口之一，港口代码ITNAP，，最经典的玛格丽特披萨就是来源于此。
+　　总体上，那不勒斯继承了原方案的数据，但针对游戏性进行了修改和现代化改装，并最终以“意大利自用”的形态呈现。例如将主炮口径更换为标准的254mm/10英寸（安萨尔多后续出口型UP.90方案也采用该口径）；副炮组更换为4x3 152mm副炮；高炮更换为6x2 90mm高炮；防空炮组更换为9x4 37mm机炮和10x6 20mm机炮；鱼雷武器也强化为2座四联装。在经过上述改动后，整体重量会有所增加，因而航速从37节下降至35.5节。
+　　作为一艘具备220mm主装甲带和40mm甲板的重防护设计的重巡，那不勒斯还同时继承了来自意大利研发重巡的高机动特性和燃油烟（高速烟雾发生器）消耗品，具备可观的生存能力。开发者据此给予了其近战重巡的定位，搭配了较差的主炮精度、较高精度和较大投射量的半穿甲弹（SAP）副炮组。
+　　在2021年7月的0.10.6版本中，那不勒斯结束测试并加入游戏，可通过252000(14.5更新后改为260000)煤炭兑换获取。因其强度较高，自加入游戏以来就受到广大玩家喜爱，并在之后推出了黑五版本。</description>
+				</shieldInfo>
+			</li>
+			<!-- 舰娘的武器没有实体和数据，改为舰娘拿所有武器都有个幻化。没画武器的舰娘不带此扩展 -->
+			<!-- 同上 也是都能写 -->
+			<!-- <li Class="AK_DLL.Ext_WeaponWieldGraphics">
+				<alterGraphics>
+					<texPath>Shipgirls/CA/Napoli/Napoli_Weapon</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+				</alterGraphics>
+			</li> -->
+		</modExtensions>
+	</AK_DLL.OperatorDef>
+	
+	<TraitDef>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<defName>LMA_Trait_Napoli</defName>
+		<degreeDatas>
+			<li>
+				<label>永眠之邀</label>
+				<description>晚安，迷途的野兽。</description>
+				<statOffsets>
+					<AimingDelayFactor>-0.3</AimingDelayFactor>
+					<ShootingAccuracyPawn>2</ShootingAccuracyPawn>
+					<RangedCooldownFactor>-0.2</RangedCooldownFactor>
+					<MoveSpeed>1</MoveSpeed>
+					<PilotingAbility>0.2</PilotingAbility>
+					<ReadingSpeed>0.2</ReadingSpeed>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<BackstoryDef ParentName = "AK_StoryBase">
+		<defName>LMA_BackStory_Napoli_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>那不勒斯履历</title>
+		<titleShort>那不勒斯</titleShort>
+		<baseDesc>该舰船并未真实建造</baseDesc>
+	</BackstoryDef>
+</Defs>
