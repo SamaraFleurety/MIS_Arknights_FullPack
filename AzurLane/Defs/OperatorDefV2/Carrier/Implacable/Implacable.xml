@@ -126,7 +126,7 @@
 			</li> -->
 		</modExtensions>
 	</AK_DLL.OperatorDef>
-	
+
 	<TraitDef>
 		<ignoreConfigErrors>true</ignoreConfigErrors>
 		<commonality>0.0</commonality>
@@ -146,7 +146,7 @@
 	<ThoughtDef>
 		<defName>LMA_Thought_Trait_Implacable</defName>
 		<workerClass>ThoughtWorker_AlwaysActive</workerClass>
-        <validWhileDespawned>false</validWhileDespawned>
+		<validWhileDespawned>false</validWhileDespawned>
 		<requiredTraits>
 			<li>LMA_Trait_Implacable</li>
 		</requiredTraits>
@@ -182,7 +182,7 @@
 	<ThoughtDef>
 		<defName>LMA_Thought_Trait_ImplacableSecond</defName>
 		<workerClass>ThoughtWorker_AlwaysActive</workerClass>
-        <validWhileDespawned>false</validWhileDespawned>
+		<validWhileDespawned>false</validWhileDespawned>
 		<requiredTraits>
 			<li>LMA_Trait_ImplacableSecond</li>
 		</requiredTraits>
@@ -194,7 +194,7 @@
 			</li>
 		</stages>
 	</ThoughtDef>
-	
+
 	<BackstoryDef ParentName = "AK_StoryBase">
 		<defName>LMA_BackStory_Implacable_Adult</defName>
 		<slot>Adulthood</slot>
@@ -206,4 +206,5 @@
 　　1945年3月10日，怨仇号的改造完成了。在这个时候，她拥有英国航母上最大的舰载机群：12架来自1771中队的萤火虫、21架来自828中队的复仇者、48架来自扩编后第38海军航空兵中队的海喷火。她于3月16日启航加入太平洋舰队，4月份她到达锡兰整备，一个月后到达悉尼。又过了一个月，怨仇号加入了从冰山行动中返航的第一航空母舰联队。6月16日，怨仇号参加了袭击特鲁克岛的囚犯行动。在这场行动中，统治者号护航航母作为舰载机的备降航母。
 　　1945年7月初，怨仇号与胜利、可畏一起离开巴布亚新几内亚的马努斯岛。7月6日，她们加入美军的TF37特混舰队参与袭击日本本土的行动。10天后的7月16日，英军在本州岛附近与美军TF38特混舰队会合。舰队的规模之宏大以致一位英国飞行员描述为“目之所及皆友舰”，一天后第一航母编队袭击东京平原地区。在接下来的25天内，尽管受到恶劣天气、整备时间以及规避原子弹爆炸产生的放射性物质三点限制，怨仇号的舰载机在有限的8天内依旧起飞了超过1000架次舰载机对日军的机场、船厂、航运港口、工厂以及铁路展开打击。1945年8月10日，怨仇号起飞超过70架次舰载机对本州区域的日军目标进行空袭。一天后怨仇号与胜利号、可畏号经过补给前往悉尼。8月24日怨仇号到达悉尼，在之后的2个月内她协助盟军舰队将盟军战俘送回澳大利亚和加拿大。10月18日，在将位于新几内亚的澳军战俘送回澳大利亚后，怨仇号从温哥华启航，将荷兰战俘送回印尼巴厘巴板。</baseDesc>
 	</BackstoryDef>
+
 </Defs>

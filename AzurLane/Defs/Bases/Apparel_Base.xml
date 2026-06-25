@@ -23,7 +23,7 @@
 			<ArmorRating_Blunt>0</ArmorRating_Blunt>
 			<ArmorRating_Heat>0</ArmorRating_Heat>
 			<Insulation_Cold>100</Insulation_Cold>
-		    <Insulation_Heat>100</Insulation_Heat>
+			<Insulation_Heat>100</Insulation_Heat>
 			<EquipDelay>1</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
@@ -87,26 +87,26 @@
 			<ArmorRating_Blunt>1</ArmorRating_Blunt>
 			<ArmorRating_Heat>2</ArmorRating_Heat>
 			<Insulation_Cold>0</Insulation_Cold>
-		    <Insulation_Heat>0</Insulation_Heat>
+			<Insulation_Heat>0</Insulation_Heat>
 		</statBases>
 		<apparel>
 			<layers Inherit="False">
 				<li>Belt</li>
 			</layers>
 			<renderNodeProperties>
-										<li Class="PawnRenderNodeProperties_Tattoo" MayRequire="Ludeon.RimWorld.Ideology">
-							<debugLabel>Body tattoo</debugLabel>
-							<nodeClass>PawnRenderNode_Tattoo_Body</nodeClass>
-							<workerClass>PawnRenderNodeWorker_Body_Tattoo</workerClass>
-							<colorType>Skin</colorType>
-							<useRottenColor>true</useRottenColor>
-							<baseLayer>2</baseLayer>
-							<rotDrawMode>Fresh, Rotting</rotDrawMode>
-						</li>
+				<li Class="PawnRenderNodeProperties_Tattoo" MayRequire="Ludeon.RimWorld.Ideology">
+					<debugLabel>Body tattoo</debugLabel>
+					<nodeClass>PawnRenderNode_Tattoo_Body</nodeClass>
+					<workerClass>PawnRenderNodeWorker_Body_Tattoo</workerClass>
+					<colorType>Skin</colorType>
+					<useRottenColor>true</useRottenColor>
+					<baseLayer>2</baseLayer>
+					<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				</li>
 			</renderNodeProperties>
 		</apparel>
 	</ThingDef>
-	
+
 	<ThingDef Class="AK_DLL.Apparels.ApparelDef_Shipgirl" ParentName="LMA_ShieldBase">
 		<defName>LMA_Shield_Destroyer</defName>
 		<statBases>
@@ -114,25 +114,25 @@
 			<ArmorRating_Blunt>1</ArmorRating_Blunt>
 		</statBases>
 		<equippedStatOffsets>
-		    <AK_Stat_MoveSpeedFactor>1</AK_Stat_MoveSpeedFactor> <!-- 这在效果上是x2 x0.8是-0.2 -->
+			<AK_Stat_MoveSpeedFactor>1</AK_Stat_MoveSpeedFactor>			<!-- 这在效果上是x2 x0.8是-0.2 -->
 		</equippedStatOffsets>
 		<comps>
-            <li Class="AKS_Shield.TCP_GenericShield">
+			<li Class="AKS_Shield.TCP_GenericShield">
 				<compClass>AKS_Shield.TC_ShipgirlShield</compClass>
-                <energyMax>200</energyMax>
-                <energyRegenRate>20</energyRegenRate>
-                <energyLostPerDmg>1</energyLostPerDmg>
-                <allowEnergyOverflow>false</allowEnergyOverflow>
-                <energyRatioOnReset>0.2</energyRatioOnReset>
-                <ticksToReset>600</ticksToReset>
-                <canAbsorbMeleeDmg>true</canAbsorbMeleeDmg>
-                <meleeAbsorbFactor>1</meleeAbsorbFactor>
-                <rangedAbsorbFactor>1</rangedAbsorbFactor>
-                <meleeDodgeChanceFactor>0</meleeDodgeChanceFactor>
-            </li>
-        </comps>
+				<energyMax>200</energyMax>
+				<energyRegenRate>20</energyRegenRate>
+				<energyLostPerDmg>1</energyLostPerDmg>
+				<allowEnergyOverflow>false</allowEnergyOverflow>
+				<energyRatioOnReset>0.2</energyRatioOnReset>
+				<ticksToReset>600</ticksToReset>
+				<canAbsorbMeleeDmg>true</canAbsorbMeleeDmg>
+				<meleeAbsorbFactor>1</meleeAbsorbFactor>
+				<rangedAbsorbFactor>1</rangedAbsorbFactor>
+				<meleeDodgeChanceFactor>0</meleeDodgeChanceFactor>
+			</li>
+		</comps>
 	</ThingDef>
-	
+
 	<ThingDef Class="AK_DLL.Apparels.ApparelDef_Shipgirl" ParentName="LMA_ShieldBase">
 		<defName>LMA_Shield_Cruiser</defName>
 		<statBases>
@@ -140,22 +140,22 @@
 			<ArmorRating_Blunt>1.2</ArmorRating_Blunt>
 		</statBases>
 		<comps>
-            <li Class="AKS_Shield.TCP_GenericShield">
+			<li Class="AKS_Shield.TCP_GenericShield">
 				<compClass>AKS_Shield.TC_ShipgirlShield</compClass>
-                <energyMax>350</energyMax>
-                <energyRegenRate>70</energyRegenRate>
-                <energyLostPerDmg>1</energyLostPerDmg>
-                <allowEnergyOverflow>false</allowEnergyOverflow>
-                <energyRatioOnReset>0.2</energyRatioOnReset>
-                <ticksToReset>600</ticksToReset>
-                <canAbsorbMeleeDmg>true</canAbsorbMeleeDmg>
-                <meleeAbsorbFactor>1</meleeAbsorbFactor>
-                <rangedAbsorbFactor>1</rangedAbsorbFactor>
-                <meleeDodgeChanceFactor>0</meleeDodgeChanceFactor>
-            </li>
-        </comps>
+				<energyMax>350</energyMax>
+				<energyRegenRate>70</energyRegenRate>
+				<energyLostPerDmg>1</energyLostPerDmg>
+				<allowEnergyOverflow>false</allowEnergyOverflow>
+				<energyRatioOnReset>0.2</energyRatioOnReset>
+				<ticksToReset>600</ticksToReset>
+				<canAbsorbMeleeDmg>true</canAbsorbMeleeDmg>
+				<meleeAbsorbFactor>1</meleeAbsorbFactor>
+				<rangedAbsorbFactor>1</rangedAbsorbFactor>
+				<meleeDodgeChanceFactor>0</meleeDodgeChanceFactor>
+			</li>
+		</comps>
 	</ThingDef>
-	
+
 	<ThingDef Class="AK_DLL.Apparels.ApparelDef_Shipgirl" ParentName="LMA_ShieldBase">
 		<defName>LMA_Shield_HeavyCruiser</defName>
 		<statBases>
@@ -163,25 +163,25 @@
 			<ArmorRating_Blunt>1.4</ArmorRating_Blunt>
 		</statBases>
 		<equippedStatOffsets>
-		    <AK_Stat_MoveSpeedFactor>-0.2</AK_Stat_MoveSpeedFactor> 
+			<AK_Stat_MoveSpeedFactor>-0.2</AK_Stat_MoveSpeedFactor>
 		</equippedStatOffsets>
 		<comps>
-            <li Class="AKS_Shield.TCP_GenericShield">
+			<li Class="AKS_Shield.TCP_GenericShield">
 				<compClass>AKS_Shield.TC_ShipgirlShield</compClass>
-                <energyMax>400</energyMax>
-                <energyRegenRate>80</energyRegenRate>
-                <energyLostPerDmg>1</energyLostPerDmg>
-                <allowEnergyOverflow>false</allowEnergyOverflow>
-                <energyRatioOnReset>0.2</energyRatioOnReset>
-                <ticksToReset>900</ticksToReset>
-                <canAbsorbMeleeDmg>true</canAbsorbMeleeDmg>
-                <meleeAbsorbFactor>1.5</meleeAbsorbFactor>
-                <rangedAbsorbFactor>1</rangedAbsorbFactor>
-                <meleeDodgeChanceFactor>0</meleeDodgeChanceFactor>
-            </li>
-        </comps>
+				<energyMax>400</energyMax>
+				<energyRegenRate>80</energyRegenRate>
+				<energyLostPerDmg>1</energyLostPerDmg>
+				<allowEnergyOverflow>false</allowEnergyOverflow>
+				<energyRatioOnReset>0.2</energyRatioOnReset>
+				<ticksToReset>900</ticksToReset>
+				<canAbsorbMeleeDmg>true</canAbsorbMeleeDmg>
+				<meleeAbsorbFactor>1.5</meleeAbsorbFactor>
+				<rangedAbsorbFactor>1</rangedAbsorbFactor>
+				<meleeDodgeChanceFactor>0</meleeDodgeChanceFactor>
+			</li>
+		</comps>
 	</ThingDef>
-	
+
 	<!-- 战列和航母都共用这个 -->
 	<ThingDef Class="AK_DLL.Apparels.ApparelDef_Shipgirl" ParentName="LMA_ShieldBase">
 		<defName>LMA_Shield_Carrier</defName>
@@ -190,25 +190,25 @@
 			<ArmorRating_Blunt>2</ArmorRating_Blunt>
 		</statBases>
 		<equippedStatOffsets>
-		    <AK_Stat_MoveSpeedFactor>-0.4</AK_Stat_MoveSpeedFactor> 
+			<AK_Stat_MoveSpeedFactor>-0.4</AK_Stat_MoveSpeedFactor>
 		</equippedStatOffsets>
 		<comps>
-            <li Class="AKS_Shield.TCP_GenericShield">
+			<li Class="AKS_Shield.TCP_GenericShield">
 				<compClass>AKS_Shield.TC_ShipgirlShield</compClass>
-                <energyMax>1000</energyMax>
-                <energyRegenRate>50</energyRegenRate>
-                <energyLostPerDmg>1</energyLostPerDmg>
-                <allowEnergyOverflow>false</allowEnergyOverflow>
-                <energyRatioOnReset>0.2</energyRatioOnReset>
-                <ticksToReset>900</ticksToReset>
-                <canAbsorbMeleeDmg>true</canAbsorbMeleeDmg>
-                <meleeAbsorbFactor>2</meleeAbsorbFactor>
-                <rangedAbsorbFactor>1</rangedAbsorbFactor>
-                <meleeDodgeChanceFactor>0</meleeDodgeChanceFactor>
-            </li>
-        </comps>
+				<energyMax>1000</energyMax>
+				<energyRegenRate>50</energyRegenRate>
+				<energyLostPerDmg>1</energyLostPerDmg>
+				<allowEnergyOverflow>false</allowEnergyOverflow>
+				<energyRatioOnReset>0.2</energyRatioOnReset>
+				<ticksToReset>900</ticksToReset>
+				<canAbsorbMeleeDmg>true</canAbsorbMeleeDmg>
+				<meleeAbsorbFactor>2</meleeAbsorbFactor>
+				<rangedAbsorbFactor>1</rangedAbsorbFactor>
+				<meleeDodgeChanceFactor>0</meleeDodgeChanceFactor>
+			</li>
+		</comps>
 	</ThingDef>
-	
+
 	<ThingDef Class="AK_DLL.Apparels.ApparelDef_Shipgirl" ParentName="LMA_ShieldBase">
 		<defName>LMA_Shield_Submarine</defName>
 		<statBases>
@@ -216,25 +216,25 @@
 			<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
 		</statBases>
 		<equippedStatOffsets>
-		    <AK_Stat_MoveSpeedFactor>3</AK_Stat_MoveSpeedFactor> 
+			<AK_Stat_MoveSpeedFactor>3</AK_Stat_MoveSpeedFactor>
 		</equippedStatOffsets>
 		<comps>
-            <li Class="AKS_Shield.TCP_GenericShield">
+			<li Class="AKS_Shield.TCP_GenericShield">
 				<compClass>AKS_Shield.TC_ShipgirlShield</compClass>
-                <energyMax>200</energyMax>
-                <energyRegenRate>20</energyRegenRate>
-                <energyLostPerDmg>1</energyLostPerDmg>
-                <allowEnergyOverflow>false</allowEnergyOverflow>
-                <energyRatioOnReset>0.2</energyRatioOnReset>
-                <ticksToReset>900</ticksToReset>
-                <canAbsorbMeleeDmg>true</canAbsorbMeleeDmg>
-                <meleeAbsorbFactor>2</meleeAbsorbFactor>
-                <rangedAbsorbFactor>1</rangedAbsorbFactor>
-                <meleeDodgeChanceFactor>0</meleeDodgeChanceFactor>
-            </li>
-        </comps>
+				<energyMax>200</energyMax>
+				<energyRegenRate>20</energyRegenRate>
+				<energyLostPerDmg>1</energyLostPerDmg>
+				<allowEnergyOverflow>false</allowEnergyOverflow>
+				<energyRatioOnReset>0.2</energyRatioOnReset>
+				<ticksToReset>900</ticksToReset>
+				<canAbsorbMeleeDmg>true</canAbsorbMeleeDmg>
+				<meleeAbsorbFactor>2</meleeAbsorbFactor>
+				<rangedAbsorbFactor>1</rangedAbsorbFactor>
+				<meleeDodgeChanceFactor>0</meleeDodgeChanceFactor>
+			</li>
+		</comps>
 	</ThingDef>
-	
+
 	<!-- 维修/运输共用这个 -->
 	<ThingDef Class="AK_DLL.Apparels.ApparelDef_Shipgirl" ParentName="LMA_ShieldBase">
 		<defName>LMA_Shield_Transport</defName>
@@ -243,25 +243,25 @@
 			<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
 		</statBases>
 		<equippedStatOffsets>
-		    <AK_Stat_MoveSpeedFactor>0.5</AK_Stat_MoveSpeedFactor> 
+			<AK_Stat_MoveSpeedFactor>0.5</AK_Stat_MoveSpeedFactor>
 		</equippedStatOffsets>
 		<comps>
-            <li Class="AKS_Shield.TCP_GenericShield">
+			<li Class="AKS_Shield.TCP_GenericShield">
 				<compClass>AKS_Shield.TC_ShipgirlShield</compClass>
-                <energyMax>200</energyMax>
-                <energyRegenRate>20</energyRegenRate>
-                <energyLostPerDmg>1</energyLostPerDmg>
-                <allowEnergyOverflow>false</allowEnergyOverflow>
-                <energyRatioOnReset>0.2</energyRatioOnReset>
-                <ticksToReset>900</ticksToReset>
-                <canAbsorbMeleeDmg>true</canAbsorbMeleeDmg>
-                <meleeAbsorbFactor>2</meleeAbsorbFactor>
-                <rangedAbsorbFactor>1</rangedAbsorbFactor>
-                <meleeDodgeChanceFactor>0</meleeDodgeChanceFactor>
-            </li>
-        </comps>
+				<energyMax>200</energyMax>
+				<energyRegenRate>20</energyRegenRate>
+				<energyLostPerDmg>1</energyLostPerDmg>
+				<allowEnergyOverflow>false</allowEnergyOverflow>
+				<energyRatioOnReset>0.2</energyRatioOnReset>
+				<ticksToReset>900</ticksToReset>
+				<canAbsorbMeleeDmg>true</canAbsorbMeleeDmg>
+				<meleeAbsorbFactor>2</meleeAbsorbFactor>
+				<rangedAbsorbFactor>1</rangedAbsorbFactor>
+				<meleeDodgeChanceFactor>0</meleeDodgeChanceFactor>
+			</li>
+		</comps>
 	</ThingDef>
-	
+
 	<ThingDef Class="AK_DLL.Apparels.ApparelDef_Shipgirl" ParentName="LMA_ShieldBase">
 		<defName>LMA_Shield_SailingFrigate</defName>
 		<statBases>
@@ -269,19 +269,20 @@
 			<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
 		</statBases>
 		<comps>
-            <li Class="AKS_Shield.TCP_GenericShield">
+			<li Class="AKS_Shield.TCP_GenericShield">
 				<compClass>AKS_Shield.TC_ShipgirlShield</compClass>
-                <energyMax>350</energyMax>
-                <energyRegenRate>70</energyRegenRate>
-                <energyLostPerDmg>1</energyLostPerDmg>
-                <allowEnergyOverflow>false</allowEnergyOverflow>
-                <energyRatioOnReset>0.2</energyRatioOnReset>
-                <ticksToReset>300</ticksToReset>
-                <canAbsorbMeleeDmg>true</canAbsorbMeleeDmg>
-                <meleeAbsorbFactor>2</meleeAbsorbFactor>
-                <rangedAbsorbFactor>1</rangedAbsorbFactor>
-                <meleeDodgeChanceFactor>0</meleeDodgeChanceFactor>
-            </li>
-        </comps>
+				<energyMax>350</energyMax>
+				<energyRegenRate>70</energyRegenRate>
+				<energyLostPerDmg>1</energyLostPerDmg>
+				<allowEnergyOverflow>false</allowEnergyOverflow>
+				<energyRatioOnReset>0.2</energyRatioOnReset>
+				<ticksToReset>300</ticksToReset>
+				<canAbsorbMeleeDmg>true</canAbsorbMeleeDmg>
+				<meleeAbsorbFactor>2</meleeAbsorbFactor>
+				<rangedAbsorbFactor>1</rangedAbsorbFactor>
+				<meleeDodgeChanceFactor>0</meleeDodgeChanceFactor>
+			</li>
+		</comps>
 	</ThingDef>
+
 </Defs>

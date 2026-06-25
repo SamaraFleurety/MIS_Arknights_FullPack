@@ -15,11 +15,12 @@
         <baseDesc>和很多碧蓝航线港区的舰娘一样，{PAWN_nameDef}在船坞中通过心智魔方技术，作为对抗塞壬的人形兵器被建造出来。</baseDesc>
     </BackstoryDef>
 
-	<BackstoryDef ParentName="LMA_StoryBase">
+    <BackstoryDef ParentName="LMA_StoryBase">
         <defName>LMA_BackStory_Intangible_Adult</defName>
         <slot>Adulthood</slot>
         <title>架空舰娘</title>
         <titleShort>架空舰娘</titleShort>
         <baseDesc>该舰船并未真实建造。</baseDesc>
     </BackstoryDef>
+
 </Defs>

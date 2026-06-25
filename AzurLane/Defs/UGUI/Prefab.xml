@@ -9,7 +9,7 @@
 		<modelName>MainMenu_Azur</modelName>
 		<UIClass>LMA_Lib.UGUI.AzurUI_MainMenu</UIClass>
 	</AK_DLL.UIPrefabDef>
-	
+
 	<AK_DLL.UIPrefabDef>
 		<defName>LMA_Prefab_OpList</defName>
 		<label>干员花名册</label>
@@ -18,7 +18,7 @@
 		<modelName>OpList_Azur</modelName>
 		<UIClass>LMA_Lib.UGUI.AzurUI_OpList</UIClass>
 	</AK_DLL.UIPrefabDef>
-	
+
 	<AK_DLL.UIPrefabDef>
 		<defName>LMA_Prefab_OpDetail</defName>
 		<label>干员详情</label>
@@ -27,7 +27,7 @@
 		<modelName>Operator Detail</modelName>
 		<UIClass>LMA_Lib.UGUI.AzurUI_OpDetail</UIClass>
 	</AK_DLL.UIPrefabDef>
-	
+
 	<AK_DLL.UIPrefabDef>
 		<defName>LMA_Prefab_Gacha</defName>
 		<label>抽卡</label>
@@ -36,4 +36,5 @@
 		<modelName>GachaUI</modelName>
 		<UIClass>AK_DLL.UI.RIWindow_OperatorDetail</UIClass>
 	</AK_DLL.UIPrefabDef>
+
 </Defs>

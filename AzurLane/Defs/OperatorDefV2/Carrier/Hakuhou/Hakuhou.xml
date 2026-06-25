@@ -111,7 +111,7 @@
 			</li>
 		</modExtensions>
 	</AK_DLL.OperatorDef>
-	
+
 	<TraitDef>
 		<ignoreConfigErrors>true</ignoreConfigErrors>
 		<commonality>0.0</commonality>
@@ -144,7 +144,7 @@
 			</li>
 		</modExtensions>
 	</TraitDef>
-	
+
 	<BackstoryDef ParentName = "AK_StoryBase">
 		<defName>LMA_BackStory_Hakuhou_Adult</defName>
 		<slot>Adulthood</slot>
@@ -152,4 +152,5 @@
 		<titleShort>白凤</titleShort>
 		<baseDesc>在中途岛海战失败后，为了加强航母战力，改为在“改丸五计划”中量产改大凤级和云龙级，本舰的计划也因此被取消。</baseDesc>
 	</BackstoryDef>
+
 </Defs>

@@ -126,7 +126,7 @@
 			</li> -->
 		</modExtensions>
 	</AK_DLL.OperatorDef>
-	
+
 	<TraitDef>
 		<ignoreConfigErrors>true</ignoreConfigErrors>
 		<commonality>0.0</commonality>
@@ -148,7 +148,7 @@
 	<ThoughtDef>
 		<defName>LMA_Thought_Trait_DuguayTrouin</defName>
 		<workerClass>ThoughtWorker_AlwaysActive</workerClass>
-        <validWhileDespawned>false</validWhileDespawned>
+		<validWhileDespawned>false</validWhileDespawned>
 		<requiredTraits>
 			<li>LMA_Trait_DuguayTrouin</li>
 		</requiredTraits>
@@ -184,7 +184,7 @@
 			</li>
 		</modExtensions>
 	</TraitDef>
-	
+
 	<BackstoryDef ParentName = "AK_StoryBase">
 		<defName>LMA_BackStory_DuguayTrouin_Adult</defName>
 		<slot>Adulthood</slot>
@@ -195,4 +195,5 @@
 　　第二次世界大战结束后，迪盖·特鲁因号继续在法国海军中服役。1945年9月，该舰载着法国陆军重返越南，并被投入到了之后的第一次印度支那战争中。
 　　1952年3月19日迪盖·特鲁因号退役除籍，随后被售出拆解。</baseDesc>
 	</BackstoryDef>
+
 </Defs>

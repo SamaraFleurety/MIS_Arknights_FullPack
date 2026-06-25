@@ -10,7 +10,7 @@
 		<icon>UI/Abilities/Medic/HealEnhance</icon>
 		<range>40</range>
 		<compEffectList>
-			<li Class="AKA_Ability.AbilityEffect.AE_SummonThings_Radius"> <!-- 芝士布雷的效果器 -->
+			<li Class="AKA_Ability.AbilityEffect.AE_SummonThings_Radius">				<!-- 芝士布雷的效果器 -->
 				<radius>5</radius>
 				<count>8</count>
 				<summoned>TrapIED_HighExplosive</summoned>
@@ -22,17 +22,17 @@
 			<li>AK_SFX_Tactboost</li>
 		</useSounds>
 		<cooldownProperty>
-		    <SPPerCharge>1</SPPerCharge>
+			<SPPerCharge>1</SPPerCharge>
 			<SPUnit>day</SPUnit>
 			<initSP>600000</initSP>
 			<maxCharge>1</maxCharge>
 		</cooldownProperty>
 	</AKA_Ability.AKAbilityDef>
 
-    <ThingDef ParentName="LMA_ComponentBase">
-        <defName>LMA_Component_Bombardier_II</defName>
-        <label>投弹器(蓝)</label>
-        <description>投弹器(蓝)</description>
+	<ThingDef ParentName="LMA_ComponentBase">
+		<defName>LMA_Component_Bombardier_II</defName>
+		<label>投弹器(蓝)</label>
+		<description>投弹器(蓝)</description>
 		<comps>
 			<li Class="AKA_Ability.TCP_AKATracker">
 				<abilities>
@@ -40,9 +40,9 @@
 				</abilities>
 			</li>
 		</comps>
-    </ThingDef>
+	</ThingDef>
 
-    <AKA_Ability.AKAbilityDef>
+	<AKA_Ability.AKAbilityDef>
 		<defName>LMA_Ability_Bombardier_III</defName>
 		<abilityClass>AKA_Ability.AKAbility_Targetor</abilityClass>
 		<grouped>false</grouped>
@@ -51,7 +51,7 @@
 		<icon>UI/Abilities/Medic/HealEnhance</icon>
 		<range>40</range>
 		<compEffectList>
-			<li Class="AKA_Ability.AbilityEffect.AE_SummonThings_Radius"> <!-- 芝士布雷的效果器 -->
+			<li Class="AKA_Ability.AbilityEffect.AE_SummonThings_Radius">				<!-- 芝士布雷的效果器 -->
 				<radius>10</radius>
 				<count>20</count>
 				<summoned>TrapIED_HighExplosive</summoned>
@@ -63,24 +63,24 @@
 			<li>AK_SFX_Tactboost</li>
 		</useSounds>
 		<cooldownProperty>
-		    <SPPerCharge>1</SPPerCharge>
+			<SPPerCharge>1</SPPerCharge>
 			<SPUnit>day</SPUnit>
 			<initSP>600000</initSP>
 			<maxCharge>1</maxCharge>
 		</cooldownProperty>
 	</AKA_Ability.AKAbilityDef>
 
-    <ThingDef ParentName="LMA_ComponentBase">
-        <defName>LMA_Component_Bombardier_III</defName>
-        <label>投弹器(紫)</label>
-        <description>投弹器(紫)</description>
-        <comps>
+	<ThingDef ParentName="LMA_ComponentBase">
+		<defName>LMA_Component_Bombardier_III</defName>
+		<label>投弹器(紫)</label>
+		<description>投弹器(紫)</description>
+		<comps>
 			<li Class="AKA_Ability.TCP_AKATracker">
 				<abilities>
 					<li>LMA_Ability_Bombardier_III</li>
 				</abilities>
 			</li>
 		</comps>
-    </ThingDef>
+	</ThingDef>
 
 </Defs>

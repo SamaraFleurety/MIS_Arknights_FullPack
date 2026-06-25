@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <ThingDef ParentName="LMA_ComponentBase">
-        <defName>LMA_Component_Radar_I</defName>
-        <label>雷达(白)</label>
-        <description>雷达(白)</description>
+	<ThingDef ParentName="LMA_ComponentBase">
+		<defName>LMA_Component_Radar_I</defName>
+		<label>雷达(白)</label>
+		<description>雷达(白)</description>
 		<modExtensions>
 			<li Class="LMA_Lib.FCS.Ext_FireControlSystem">
 				<FCS>
@@ -12,58 +12,58 @@
 				</FCS>
 			</li>
 		</modExtensions>
-    </ThingDef>
+	</ThingDef>
 
-    <ThingDef ParentName="LMA_ComponentBase">
-        <defName>LMA_Component_Radar_II</defName>
-        <label>雷达(蓝)</label>
-        <description>雷达(蓝)</description>
-        <modExtensions>
+	<ThingDef ParentName="LMA_ComponentBase">
+		<defName>LMA_Component_Radar_II</defName>
+		<label>雷达(蓝)</label>
+		<description>雷达(蓝)</description>
+		<modExtensions>
 			<li Class="LMA_Lib.FCS.Ext_FireControlSystem">
 				<FCS>
 					<rangeOffset>7</rangeOffset>
 				</FCS>
 			</li>
 		</modExtensions>
-    </ThingDef>
+	</ThingDef>
 
-    <ThingDef ParentName="LMA_ComponentBase">
-        <defName>LMA_Component_Radar_III</defName>
-        <label>雷达(紫)</label>
-        <description>雷达(紫)</description>
-        <modExtensions>
+	<ThingDef ParentName="LMA_ComponentBase">
+		<defName>LMA_Component_Radar_III</defName>
+		<label>雷达(紫)</label>
+		<description>雷达(紫)</description>
+		<modExtensions>
 			<li Class="LMA_Lib.FCS.Ext_FireControlSystem">
 				<FCS>
 					<rangeOffset>10</rangeOffset>
 				</FCS>
 			</li>
 		</modExtensions>
-    </ThingDef>
+	</ThingDef>
 
-    <ThingDef ParentName="LMA_ComponentBase">
-        <defName>LMA_Component_Radar_IV</defName>
-        <label>雷达(金)</label>
-        <description>雷达(金)</description>
-        <modExtensions>
+	<ThingDef ParentName="LMA_ComponentBase">
+		<defName>LMA_Component_Radar_IV</defName>
+		<label>雷达(金)</label>
+		<description>雷达(金)</description>
+		<modExtensions>
 			<li Class="LMA_Lib.FCS.Ext_FireControlSystem">
 				<FCS>
 					<rangeOffset>15</rangeOffset>
 				</FCS>
 			</li>
 		</modExtensions>
-    </ThingDef>
+	</ThingDef>
 
-    <ThingDef ParentName="LMA_ComponentBase">
-        <defName>LMA_Component_Radar_V</defName>
-        <label>雷达(彩)</label>
-        <description>雷达(彩)</description>
-        <modExtensions>
+	<ThingDef ParentName="LMA_ComponentBase">
+		<defName>LMA_Component_Radar_V</defName>
+		<label>雷达(彩)</label>
+		<description>雷达(彩)</description>
+		<modExtensions>
 			<li Class="LMA_Lib.FCS.Ext_FireControlSystem">
 				<FCS>
 					<rangeOffset>20</rangeOffset>
 				</FCS>
 			</li>
 		</modExtensions>
-    </ThingDef>
+	</ThingDef>
 
 </Defs>

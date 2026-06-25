@@ -39,7 +39,7 @@
 		<operatorID>AK_VAbility_Operator</operatorID>
 		<modPackageID>LMA.AzurLane</modPackageID>
 		<renderTreeOverride>LMA_PawnRenderTree_Operator</renderTreeOverride>
-		<dynaLoadStaticStands>true</dynaLoadStaticStands>		
+		<dynaLoadStaticStands>true</dynaLoadStaticStands>
 		<modExtensions>
 			<li MayRequire="Paluto22.AK.Compatibility" Class="PA_AKPatch.Ext_MarkNLIncompatible" />
 		</modExtensions>
@@ -121,4 +121,5 @@
 		</accessory>
 		<age>16</age>
 	</AK_DLL.OperatorDef>
+
 </Defs>

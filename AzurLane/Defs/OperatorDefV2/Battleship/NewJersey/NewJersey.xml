@@ -142,7 +142,7 @@
 			</li-->
 		</modExtensions>
 	</AK_DLL.OperatorDef>
-	
+
 	<TraitDef>
 		<ignoreConfigErrors>true</ignoreConfigErrors>
 		<commonality>0.0</commonality>
@@ -156,7 +156,7 @@
 					<ShootingAccuracyPawn>0.25</ShootingAccuracyPawn>
 				</statOffsets>
 				<statFactors>
-				    <IncomingDamageFactor>0.5</IncomingDamageFactor>
+					<IncomingDamageFactor>0.5</IncomingDamageFactor>
 				</statFactors>
 			</li>
 		</degreeDatas>
@@ -164,7 +164,7 @@
 	<ThoughtDef>
 		<defName>LMA_Thought_Trait_NewJersey</defName>
 		<workerClass>ThoughtWorker_AlwaysActive</workerClass>
-        <validWhileDespawned>false</validWhileDespawned>
+		<validWhileDespawned>false</validWhileDespawned>
 		<requiredTraits>
 			<li>LMA_Trait_NewJersey</li>
 		</requiredTraits>
@@ -194,7 +194,7 @@
 			</li>
 		</degreeDatas>
 	</TraitDef>
-	
+
 	<BackstoryDef ParentName = "AK_StoryBase">
 		<defName>LMA_BackStory_NewJersey_Adult</defName>
 		<slot>Adulthood</slot>
@@ -227,4 +227,5 @@
 
 　　2024年3月21日。新泽西号干船坞出发仪式于美东时间上午10:30举行, 这是她在1991年维护后第一次移动，前往特拉华河下游对岸几英里外的费城海军船厂---她出生的地方。她将在举行她下水仪式的船坞内(这个船坞建于1921年)进行为期两个月的的维护，仅针对水线下的部分，包括维护螺旋桨，船舵和传动主轴，更换抗腐蚀的阴极材料，并重新刷上灰色的底漆(仅限水线部分，船底到水线部分为红色底漆), 进坞时间为3月27日，并将于4月6日开启限时的船坞参观游览路线，维护在6月14日（北京时间）结束并抵达新泽西州保罗斯伯勒港，新泽西号将在此处进行最后的检查，19日完成压舱水平衡，美东时间6月20日新泽西号返回了在卡姆登的停泊地。维护结束后预期可以保持30年，对很多人来说，这将是他们一生中最后一次看到新泽西号战列舰移动。</baseDesc>
 	</BackstoryDef>
+
 </Defs>
