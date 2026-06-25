@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<AK_DLL.OperatorDef ParentName="LMA_RecruitBase_Destroyer">
+		<defName>LMA_Recruit_Laffey</defName>
+		<name>Benson</name>
+		<nickname>Laffey</nickname>
+		<description>FIXME</description>
+		<hair>LMA_Hair_Laffey</hair>
+		<apparels>
+			<li>LMA_Apparel_Laffey</li>
+		</apparels>
+		<accessory Inherit="false">
+			<li>LMA_ShieldBelt_Laffey</li>
+		</accessory>
+		<bodyTypeDef>Thin</bodyTypeDef>
+		<stand>UI/Image/Destroyer/LaffeyStand</stand>
+		<headPortrait>UI/Image/Destroyer/LaffeyPortrait</headPortrait>
+		<skills>
+			<li>
+				<skill>Animals</skill>
+				<level>4</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Artistic</skill>
+				<level>4</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Construction</skill>
+				<level>6</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Cooking</skill>
+				<level>6</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Crafting</skill>
+				<level>4</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Intellectual</skill>
+				<level>8</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<level>4</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<level>8</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Mining</skill>
+				<level>6</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Plants</skill>
+				<level>10</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<level>12</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<level>6</level>
+				<fireLevel>0</fireLevel>
+			</li>
+		</skills>
+		<traits>
+			<li>
+				<def>LMA_Trait_Laffey</def>
+			</li>
+			<li>
+				<def>Industriousness</def>
+				<degree>-2</degree>
+			</li>
+			<li>
+				<def>Undergrounder</def>
+			</li>
+		</traits>
+		<age>14</age>
+		<childHood>LMA_BackStory_Laffey_Child</childHood>
+		<adultHood>LMA_BackStory_Laffey_Adult</adultHood>
+	</AK_DLL.OperatorDef>
+
+	<HairDef ParentName="LMA_HairBase">
+		<defName>LMA_Hair_Laffey</defName>
+		<label>拉菲发型</label>
+		<texPath>Things/Hair/Destroyer/Laffey</texPath>
+		<noGraphic>true</noGraphic>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_FrontHair">
+				<graphicData>
+					<texPath>Things/Hair/Destroyer/Laffey</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1.3</drawSize>
+					<drawOffsetSouth>(0,0,-0.05)</drawOffsetSouth>
+					<drawOffsetNorth>(0,0,-0.05)</drawOffsetNorth>
+					<drawOffsetEast>(-0.08,0,-0.05)</drawOffsetEast>
+					<drawOffsetWest>(0.08,0,-0.05)</drawOffsetWest>
+				</graphicData>
+				<sleepingDrawOffsets>
+					<!-- 如果下面4项某项删掉就应用第一个通用数值。这里仅做展示，实际不要5个词条全写这样留冗余 -->
+					<drawOffset>(1,0,1)</drawOffset>
+					<drawOffsetSouth>(1,0,1)</drawOffsetSouth>
+					<drawOffsetNorth>(1,0,1)</drawOffsetNorth>
+					<drawOffsetEast>(1,0,1)</drawOffsetEast>
+					<drawOffsetWest>(1,0,1)</drawOffsetWest>
+				</sleepingDrawOffsets>
+			</li>
+			<li Class="AK_DLL.Ext_BackHair">
+				<graphicData>
+					<texPath>Things/Hair/Destroyer/LaffeyA</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1.3</drawSize>
+					<drawOffsetSouth>(0,-0.5,-0.05)</drawOffsetSouth>
+					<drawOffsetNorth>(0,0,-0.05)</drawOffsetNorth>
+					<drawOffsetEast>(-0.08,0,-0.05)</drawOffsetEast>
+					<drawOffsetWest>(0.08,0,-0.05)</drawOffsetWest>
+				</graphicData>
+			</li>
+		</modExtensions>
+	</HairDef>
+
+	<TraitDef>
+		<defName>LMA_Trait_Laffey</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>所罗门的战神</label>
+				<description>状态良好……去吧</description>
+				<statOffsets>
+					<AimingDelayFactor>-0.35</AimingDelayFactor>
+					<ShootingAccuracyPawn>2.0</ShootingAccuracyPawn>
+				</statOffsets>
+				<skillGains>
+					<Shooting>4</Shooting>
+				</skillGains>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+	<ThoughtDef>
+		<defName>LMA_Thought_Trait_Laffey</defName>
+		<workerClass>ThoughtWorker_IsCarryingRangedWeapon</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<requiredTraits>
+			<li>LMA_Trait_Laffey</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>持有远程武器</label>
+				<description>持有远程武器</description>
+				<baseMoodEffect>4</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<BackstoryDef ParentName="LMA_StoryBase">
+		<defName>LMA_BackStory_Laffey_Child</defName>
+		<slot>Childhood</slot>
+		<title>本森级驱逐舰</title>
+		<titleShort>驱逐舰</titleShort>
+		<baseDesc>拉菲(DD-459)，本森级驱逐舰的一员，由舰名由来的勇敢的水兵『巴雷特·拉菲』。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="LMA_StoryBase">
+		<defName>LMA_BackStory_Laffey_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>拉菲号驱逐舰</title>
+		<titleShort>驱逐舰</titleShort>
+		<baseDesc>你应该听说过拉菲小姐在那战的英勇，并且惊讶于她与事迹不符的冷淡。关于这一点只能说越是外表冰山的人，也许越有一颗火热的内心。而这往往不是其他人能够品味到的。你是她的其他人吗？这就要看你的选择了。</baseDesc>
+	</BackstoryDef>
+
+</Defs>

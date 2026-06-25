@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<AK_DLL.OperatorDef ParentName="LMA_RecruitBase_Destroyer">
+		<defName>LMA_Recruit_Javelin</defName>
+		<name>HMS</name>
+		<nickname>Javelin</nickname>
+		<description>FIXME</description>
+		<weapon>LMA_Weapon_Javelin</weapon>
+		<hair>LMA_Hair_Javelin</hair>
+		<apparels>
+			<li>LMA_Apparel_Javelin</li>
+		</apparels>
+		<accessory Inherit="false">
+			<li>LMA_ShieldBelt_Javelin</li>
+		</accessory>
+		<bodyTypeDef>Thin</bodyTypeDef>
+		<stand>UI/Image/Destroyer/JavelinStand</stand>
+		<headPortrait>UI/Image/Destroyer/JavelinPortrait</headPortrait>
+		<skills>
+			<li>
+				<skill>Animals</skill>
+				<level>4</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Artistic</skill>
+				<level>4</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Construction</skill>
+				<level>6</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Cooking</skill>
+				<level>5</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Crafting</skill>
+				<level>4</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Intellectual</skill>
+				<level>6</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<level>6</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<level>10</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Mining</skill>
+				<level>4</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Plants</skill>
+				<level>5</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<level>8</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<level>6</level>
+				<fireLevel>1</fireLevel>
+			</li>
+		</skills>
+		<traits>
+			<li>
+				<def>LMA_Trait_Javelin</def>
+			</li>
+			<li>
+				<def>NaturalMood</def>
+				<degree>2</degree>
+			</li>
+			<li>
+				<def>Nerves</def>
+				<degree>1</degree>
+			</li>
+		</traits>
+		<age>14</age>
+		<childHood>LMA_BackStory_Javelin_Child</childHood>
+		<adultHood>LMA_BackStory_Javelin_Adult</adultHood>
+	</AK_DLL.OperatorDef>
+
+	<HairDef ParentName="LMA_HairBase">
+		<defName>LMA_Hair_Javelin</defName>
+		<label>标枪发型</label>
+		<texPath>Things/Hair/Destroyer/Javelin</texPath>
+		<noGraphic>true</noGraphic>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_FrontHair">
+				<graphicData>
+					<texPath>Things/Hair/Destroyer/Javelin</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>0.77</drawSize>
+					<drawOffsetSouth>(0,0,0.38)</drawOffsetSouth>
+					<drawOffsetNorth>(0,0,0.38)</drawOffsetNorth>
+					<drawOffsetEast>(-0.1,0,0.38)</drawOffsetEast>
+					<drawOffsetWest>(0.1,0,0.38)</drawOffsetWest>
+				</graphicData>
+			</li>
+		</modExtensions>
+	</HairDef>
+
+	<TraitDef>
+		<defName>LMA_Trait_Javelin</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>【强袭模式·EX】</label>
+				<description>好好看着标枪的活跃吧！</description>
+				<statOffsets>
+					<MeleeDodgeChance>0.1</MeleeDodgeChance>
+					<MeleeHitChance>0.04</MeleeHitChance>
+					<MoveSpeed>0.2</MoveSpeed>
+				</statOffsets>
+				<statFactors>
+					<IncomingDamageFactor>0.8</IncomingDamageFactor>
+				</statFactors>
+				<skillGains>
+					<Melee>2</Melee>
+				</skillGains>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<BackstoryDef ParentName="LMA_StoryBase">
+		<defName>LMA_BackStory_Javelin_Child</defName>
+		<slot>Childhood</slot>
+		<title>J级驱逐舰</title>
+		<titleShort>驱逐舰</titleShort>
+		<baseDesc>英国皇家海军的J级驱逐舰。设计上减少了烟囱数量以获得更多空间安装鱼雷发射器，因此尽管主炮相比前身部族级要少一门，仍然有相当的战斗力。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="LMA_StoryBase">
+		<defName>LMA_BackStory_Javelin_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>标枪号驱逐舰</title>
+		<titleShort>驱逐舰</titleShort>
+		<baseDesc>标枪是个十分普通的姑娘，是的，她普通到随处可见，普通到也许只有可爱这个词可以用来形容她。但是这并非坏事，不如说，时至今日她这样还能保持着邻家妹妹一般朴素的姑娘反而是绝无仅有的。作为从一开始就待在指挥官身边的存在，她也许不像其他特色浓厚的姐妹般让人印象深刻，但是她一定令人回味无穷。</baseDesc>
+	</BackstoryDef>
+
+</Defs>

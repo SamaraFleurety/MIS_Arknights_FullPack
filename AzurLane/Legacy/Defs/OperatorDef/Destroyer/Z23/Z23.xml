@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<AK_DLL.OperatorDef ParentName="LMA_RecruitBase_Destroyer">
+		<defName>LMA_Recruit_Z23</defName>
+		<name>Z23</name>
+		<nickname>Z23</nickname>
+		<description>FIXME</description>
+		<hair>LMA_Hair_Z23A</hair>
+		<apparels>
+			<li>LMA_Apparel_Z23A</li>
+		</apparels>
+		<accessory Inherit="false">
+			<li>LMA_ShieldBelt_Z23A</li>
+		</accessory>
+		<bodyTypeDef>Thin</bodyTypeDef>
+		<stand>UI/Image/Destroyer/Z23Stand</stand>
+		<headPortrait>UI/Image/Destroyer/Z23Portrait</headPortrait>
+		<skills>
+			<li>
+				<skill>Animals</skill>
+				<level>4</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Artistic</skill>
+				<level>8</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Construction</skill>
+				<level>4</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Cooking</skill>
+				<level>6</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Crafting</skill>
+				<level>4</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Intellectual</skill>
+				<level>12</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<level>8</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<level>0</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Mining</skill>
+				<level>6</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Plants</skill>
+				<level>4</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<level>10</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<level>6</level>
+				<fireLevel>0</fireLevel>
+			</li>
+		</skills>
+		<traits>
+			<li>
+				<def>LMA_Trait_Z23</def>
+			</li>
+			<li>
+				<def>FastLearner</def>
+			</li>
+			<li>
+				<def>QuickSleeper</def>
+			</li>
+		</traits>
+		<age>14</age>
+		<childHood>LMA_BackStory_Z23_Child</childHood>
+		<adultHood>LMA_BackStory_Z23_Adult</adultHood>
+	</AK_DLL.OperatorDef>
+
+	<HairDef ParentName="LMA_HairBase">
+		<defName>LMA_Hair_Z23A</defName>
+		<label>妮米发型</label>
+		<texPath>Things/Hair/Destroyer/Z23</texPath>
+		<noGraphic>true</noGraphic>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_FrontHair">
+				<graphicData>
+					<texPath>Things/Hair/Destroyer/Z23</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>0.77</drawSize>
+					<drawOffsetSouth>(0,0,0.38)</drawOffsetSouth>
+					<drawOffsetNorth>(0,0,0.38)</drawOffsetNorth>
+					<drawOffsetEast>(-0.1,0,0.38)</drawOffsetEast>
+					<drawOffsetWest>(0.1,0,0.38)</drawOffsetWest>
+				</graphicData>
+			</li>
+		</modExtensions>
+	</HairDef>
+
+	<TraitDef>
+		<defName>LMA_Trait_Z23</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>铁血先锋</label>
+				<description>命中吧！</description>
+				<statOffsets>
+					<AimingDelayFactor>-0.6</AimingDelayFactor>
+					<ShootingAccuracyPawn>-4.0</ShootingAccuracyPawn>
+					<MoveSpeed>0.1</MoveSpeed>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<BackstoryDef ParentName="LMA_StoryBase">
+		<defName>LMA_BackStory_Z23_Child</defName>
+		<slot>Childhood</slot>
+		<title>纳尔维克型驱逐舰</title>
+		<titleShort>驱逐舰</titleShort>
+		<baseDesc>Z23（KMS Z23）是Z驱1936A型首舰，该级舰包括1936A型（Mob）共15艘，也被称为纳尔维克（Narvik）级。该型最大的改良点是主炮的大口径化，由127mm改进为150mm(游戏中可装备轻巡主炮)，除此之外相比1936型为止的Z驱井无太大变动。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="LMA_StoryBase">
+		<defName>LMA_BackStory_Z23_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>1936A型驱逐舰</title>
+		<titleShort>驱逐舰</titleShort>
+		<baseDesc>不知道你憧憬过班上那位成绩优秀、做事一丝不苟的女孩吗？你有幻想过和她一起学习的光景，和她共有的未来吗？Z23就是那样的，不，她就是那个女孩。现在，她来到你的身边了。　不过，和优等生同行的生活可从来不是充满玫瑰色的，如果你不够努力，那也许有一天就会被她远远甩在身后也说不定。所以，假如你心怀憧憬，那就前进吧，指挥官，为了不辜负她的期待。</baseDesc>
+	</BackstoryDef>
+
+</Defs>

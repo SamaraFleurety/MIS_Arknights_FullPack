@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<AK_DLL.OperatorDef ParentName="LMA_RecruitBase_Destroyer">
+		<defName>LMA_Recruit_Ayanami</defName>
+		<name>Fubuki</name>
+		<nickname>Ayanami</nickname>
+		<description>FIXME</description>
+		<hair>LMA_Hair_Ayanami</hair>
+		<apparels>
+			<li>LMA_Apparel_Ayanami</li>
+		</apparels>
+		<accessory Inherit="false">
+			<li>LMA_ShieldBelt_Ayanami</li>
+		</accessory>
+		<bodyTypeDef>Thin</bodyTypeDef>
+		<stand>UI/Image/Destroyer/AyanamiStand</stand>
+		<headPortrait>UI/Image/Destroyer/AyanamiPortrait</headPortrait>
+		<skills>
+			<li>
+				<skill>Animals</skill>
+				<level>4</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Artistic</skill>
+				<level>10</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Construction</skill>
+				<level>6</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Cooking</skill>
+				<level>8</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Crafting</skill>
+				<level>8</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Intellectual</skill>
+				<level>6</level>
+				<fireLevel>1</fireLevel>
+			</li>
+			<li>
+				<skill>Medicine</skill>
+				<level>4</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Melee</skill>
+				<level>12</level>
+				<fireLevel>2</fireLevel>
+			</li>
+			<li>
+				<skill>Mining</skill>
+				<level>6</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Plants</skill>
+				<level>4</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<level>8</level>
+				<fireLevel>0</fireLevel>
+			</li>
+			<li>
+				<skill>Social</skill>
+				<level>4</level>
+				<fireLevel>0</fireLevel>
+			</li>
+		</skills>
+		<traits>
+			<li>
+				<def>LMA_Trait_Ayanami</def>
+			</li>
+			<li>
+				<def>Neurotic</def>
+				<degree>1</degree>
+			</li>
+			<li>
+				<def>Kind</def>
+			</li>
+		</traits>
+		<age>14</age>
+		<childHood>LMA_BackStory_Ayanami_Child</childHood>
+		<adultHood>LMA_BackStory_Ayanami_Adult</adultHood>
+	</AK_DLL.OperatorDef>
+
+	<HairDef ParentName="LMA_HairBase">
+		<defName>LMA_Hair_Ayanami</defName>
+		<label>绫波发型</label>
+		<texPath>Things/Hair/Destroyer/Ayanami</texPath>
+		<noGraphic>true</noGraphic>
+		<modExtensions>
+			<li Class="AK_DLL.Ext_FrontHair">
+				<graphicData>
+					<texPath>Things/Hair/Destroyer/Ayanami</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>0.77</drawSize>
+					<drawOffsetSouth>(0,0,0.38)</drawOffsetSouth>
+					<drawOffsetNorth>(0,0,0.38)</drawOffsetNorth>
+					<drawOffsetEast>(-0.1,0,0.38)</drawOffsetEast>
+					<drawOffsetWest>(0.1,0,0.38)</drawOffsetWest>
+				</graphicData>
+			</li>
+		</modExtensions>
+	</HairDef>
+
+	<TraitDef>
+		<defName>LMA_Trait_Ayanami</defName>
+		<ignoreConfigErrors>true</ignoreConfigErrors>
+		<commonality>0.0</commonality>
+		<degreeDatas>
+			<li>
+				<label>鬼神</label>
+				<description>“鬼神”之力，好好感受吧！</description>
+				<statOffsets>
+					<AimingDelayFactor>-0.25</AimingDelayFactor>
+					<MeleeHitChance>0.08</MeleeHitChance>
+					<MeleeDodgeChance>20</MeleeDodgeChance>
+					<MoveSpeed>0.2</MoveSpeed>
+				</statOffsets>
+				<statFactors>
+					<IncomingDamageFactor>0.8</IncomingDamageFactor>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<BackstoryDef ParentName="LMA_StoryBase">
+		<defName>LMA_BackStory_Ayanami_Child</defName>
+		<slot>Childhood</slot>
+		<title>吹雪型驱逐舰</title>
+		<titleShort>驱逐舰</titleShort>
+		<baseDesc>该型舰属于舰队驱逐舰（一等驱逐舰），在计划时期被称为特型驱逐舰（とくがたくちくかん），最大特色之一就是强大的武装，其在约2000吨排水量的船体上安装了3座双联装127mm火炮和多达3座三联装610mm鱼雷发射器。</baseDesc>
+	</BackstoryDef>
+
+	<BackstoryDef ParentName="LMA_StoryBase">
+		<defName>LMA_BackStory_Ayanami_Adult</defName>
+		<slot>Adulthood</slot>
+		<title>绫波号驱逐舰</title>
+		<titleShort>驱逐舰</titleShort>
+		<baseDesc>背负着鬼神之名的战士，但与其说是英勇善战，不如说是不知恐惧为何物，所以无论是什么敌人都不会退缩。总体来说比较冷淡，没有特别喜欢的东西，也没有特别讨厌的东西，不太需要社交，也不会有特别的欲望，是放着不管也能坚强活下来的仙人掌性格。作为兵器绝对是超一流的水准，但相对的，若要作为普通的个体相处，可能需要花一些力气。</baseDesc>
+	</BackstoryDef>
+
+</Defs>
