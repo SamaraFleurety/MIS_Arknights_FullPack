@@ -1,28 +1,46 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<Def Class="AKR_Random.RandomizerDef">
-		<defName>LMA_Rander_ShipEquipments</defName>
-		<label>舰装池</label>
-		<description>desc</description>
-		<root Class="AKR_Random.RandomizerNode_Rewards">
-			<inheritCandidatesWeight>true</inheritCandidatesWeight>			<!-- 权重传递 -->
-			<weight>1</weight>			<!-- 本节点权重 -->
-			<rewards>
-				<li Class="AKR_Random.Rewards.Rewards_Things">
-					<weight>1</weight>					<!-- 本节点权重。子节点仅在父节点被先选中时才可能被选中 -->
-					<itemRewardSingle>						<!-- 单个物品的奖励 -->
-						<item>Silver</item>
-					</itemRewardSingle>
-				</li>
-				<li Class="AKR_Random.Rewards.Rewards_Things">
-					<weight>2</weight>					<!-- 本节点权重。子节点仅在父节点被先选中时才可能被选中 -->
-					<itemRewardSingle>						<!-- 单个物品的奖励 -->
-						<item>Steel</item>
-					</itemRewardSingle>
-				</li>
-			</rewards>
-		</root>
-	</Def>
+    <Def Class="AKR_Random.RandomizerDef">
+        <defName>LMA_Rander_ShipEquipments</defName>
+        <label>舰装池</label>
+        <description>desc</description>
+        <root Class="AKR_Random.RandomizerNode_Rewards">
+            <inheritCandidatesWeight>true</inheritCandidatesWeight>
+            <!-- 权重传递 -->
+            <weight>1</weight>
+            <!-- 本节点权重 -->
+            <rewards>
+                <li Class="AKR_Random.Rewards.Rewards_Things">
+                    <weight>1</weight>
+                    <!-- 本节点权重。子节点仅在父节点被先选中时才可能被选中 -->
+                    <itemRewardSingle>
+                        <!-- 单个物品的奖励 -->
+                        <item>Silver</item>
+                    </itemRewardSingle>
+                </li>
+                <li Class="AKR_Random.Rewards.Rewards_Things">
+                    <weight>2</weight>
+                    <!-- 本节点权重。子节点仅在父节点被先选中时才可能被选中 -->
+                    <itemRewardSingle>
+                        <!-- 单个物品的奖励 -->
+                        <item>Steel</item>
+                    </itemRewardSingle>
+                </li>
+            </rewards>
+        </root>
+    </Def>
+
+    <!-- 从OpDef自动注入 -->
+    <Def Class="AKR_Random.RandomizerDef">
+        <defName>LMA_Rander_Operators</defName>
+        <label>舰娘招募池</label>
+        <description>随机招募舰娘。</description>
+        <root Class="AK_DLL.Gacha.RandomizerNode_Reward_Operator">
+            <inheritCandidatesWeight>true</inheritCandidatesWeight>
+            <weight>1</weight>
+            <duplicateOperatorSubstitude>LMA_Rander_ShipEquipments</duplicateOperatorSubstitude>
+        </root>
+    </Def>
 
 </Defs>

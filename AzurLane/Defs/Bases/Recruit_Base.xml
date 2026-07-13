@@ -41,6 +41,10 @@
 		<renderTreeOverride>LMA_PawnRenderTree_Operator</renderTreeOverride>
 		<dynaLoadStaticStands>true</dynaLoadStaticStands>
 		<modExtensions>
+			<li Class="AK_DLL.Gacha.Ext_RewardOperatorAutowired">
+				<targetRandomizerDef>LMA_Rander_Operators</targetRandomizerDef>
+				<randWeight>1</randWeight>
+			</li>
 			<li MayRequire="Paluto22.AK.Compatibility" Class="PA_AKPatch.Ext_MarkNLIncompatible" />
 		</modExtensions>
 	</AK_DLL.OperatorDef>

@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<JobDef>
-		<defName>LMA_Job_UseRecruitConsole</defName>
-		<driverClass>LMA_Lib.AI.JobDriver_UseRecruitConsoleAzur</driverClass>
-		<reportString>使用招募台</reportString>
-		<!--使用招募台-->
-	</JobDef>
+    <JobDef>
+        <defName>LMA_Job_UseRecruitConsole</defName>
+        <driverClass>LMA_Lib.AI.JobDriver_UseRecruitConsoleAzur</driverClass>
+        <reportString>使用招募台</reportString>
+        <!--使用招募台-->
+    </JobDef>
+
+    <JobDef>
+        <defName>LMA_Job_StoreSilver</defName>
+        <driverClass>LMA_Lib.AI.JobDriver_StoreSilverAzur</driverClass>
+        <reportString>向舰娘招募台充值白银。</reportString>
+    </JobDef>
+
+    <JobDef>
+        <defName>LMA_Job_UseGachaConsole</defName>
+        <driverClass>LMA_Lib.AI.JobDriver_UseGachaConsoleAzur</driverClass>
+        <reportString>使用舰娘招募台抽卡。</reportString>
+    </JobDef>
 
 </Defs>
