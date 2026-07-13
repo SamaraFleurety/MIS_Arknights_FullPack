@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>[LMA] - AzurLane</name>
-	<author>LMA Group</author>
+	<name>[MIS] - AzurLane</name>
+	<author>M.I.S. Group</author>
 	<supportedVersions>
 		<li>1.6</li>
 	</supportedVersions>
@@ -16,6 +16,35 @@
 		<li>MIS.Framework</li>
 		<li>MIS.Arknights</li>
 	</loadAfter>
-	<description>碧蓝航线。</description>
-	<packageId>LMA.AzurLane</packageId>
+	<packageId>MIS.AzurLane</packageId>
+	<description>
+本MOD是M.I.S.组制作的《碧蓝航线》同人模组，为环世界加入了来自不同阵营与舰种的舰娘。
+
+简介/
+    建造舰娘招募台后，可以向招募台存入白银并进行抽卡。每次抽卡会消耗对应数量的白银，卡池会按照游戏内月份轮换当期UP舰娘。
+
+功能//
+    舰娘招募与抽卡系统
+    按游戏内月份轮换的UP卡池
+    舰娘立绘、头像、语音与时装
+    不同舰种对应的属性、装备和舰装
+
+常见问题///
+
+    Q:如何获得舰娘
+    A:研究并建造舰娘招募台，可以选择使用招募券直接建造，也可以将白银充值到招募台选择抽卡。
+
+    Q:为什么没有显示抽卡选项
+    A:请确认舰娘招募台可以正常使用，并且已经存入足够支付一次抽卡的白银(1280)。
+
+    Q:为什么舰娘没有语音或立绘显示异常
+    A:请检查M.I.S. Framework及本MOD是否完整加载。
+
+    Q:为什么部分舰娘的表现与其他不同
+    A:旧版舰娘来自早期开发内容，后续会逐步整理和迁移。
+
+本MOD为非商业同人作品，相关角色与世界观版权归原权利方所有。
+
+祝各位指挥官游戏愉快。
+	</description>
 </ModMetaData>
